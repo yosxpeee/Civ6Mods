@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD45.dds"/><!--Baked in color-->
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_WOD" Atlas="ICON_ATLAS_CIVILIZATION_WOD" Index="0"/>
+	</IconDefinitions>
+</GameInfo>

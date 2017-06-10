@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="RESOURCE_COMPUTERS" Kind="KIND_RESOURCE"/>
+	</Types>
+	<Resources>
+		<Row ResourceType="RESOURCE_COMPUTERS" Name="LOC_RESOURCE_COMPUTERS_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="6" Frequency="0"/>
+	</Resources>
+</GameInfo>

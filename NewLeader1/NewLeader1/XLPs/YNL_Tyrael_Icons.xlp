@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_Tyrael_Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD22"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD30"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD36"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD44"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD45"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD48"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD50"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD64"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD80"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD128"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_WOD256"/>
+			<m_ObjectName text="YNL_TYRAEL_WOD256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_LEADER256"/>
+			<m_ObjectName text="YNL_TYRAEL_LEADER256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_LEADER32"/>
+			<m_ObjectName text="YNL_TYRAEL_LEADER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_LEADER50"/>
+			<m_ObjectName text="YNL_TYRAEL_LEADER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_LEADER55"/>
+			<m_ObjectName text="YNL_TYRAEL_LEADER55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_LEADER64"/>
+			<m_ObjectName text="YNL_TYRAEL_LEADER64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_LEADER80"/>
+			<m_ObjectName text="YNL_TYRAEL_LEADER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_LEADER45"/>
+			<m_ObjectName text="YNL_TYRAEL_LEADER45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU22"/>
+			<m_ObjectName text="YNL_TYRAEL_UU22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU32"/>
+			<m_ObjectName text="YNL_TYRAEL_UU32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU38"/>
+			<m_ObjectName text="YNL_TYRAEL_UU38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU50"/>
+			<m_ObjectName text="YNL_TYRAEL_UU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU80"/>
+			<m_ObjectName text="YNL_TYRAEL_UU80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU256"/>
+			<m_ObjectName text="YNL_TYRAEL_UU256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU_PORT38"/>
+			<m_ObjectName text="YNL_TYRAEL_UU_PORT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU_PORT50"/>
+			<m_ObjectName text="YNL_TYRAEL_UU_PORT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU_PORT70"/>
+			<m_ObjectName text="YNL_TYRAEL_UU_PORT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU_PORT95"/>
+			<m_ObjectName text="YNL_TYRAEL_UU_PORT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU_PORT200"/>
+			<m_ObjectName text="YNL_TYRAEL_UU_PORT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TYRAEL_UU_PORT256"/>
+			<m_ObjectName text="YNL_TYRAEL_UU_PORT256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

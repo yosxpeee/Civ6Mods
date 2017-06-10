@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>210</build>
+		<revision>682</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/UI_YMGP_GreatWorksArt"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="VERMEER_1"/>
+			<m_ObjectName text="Vermeer1_Landscape"/>
+		</Element>
+		<Element>
+			<m_EntryID text="VERMEER_2"/>
+			<m_ObjectName text="Vermeer2_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="VERMEER_3"/>
+			<m_ObjectName text="Vermeer3_Portrait"/>
+		</Element>
+				<Element>
+			<m_EntryID text="PISANELLO_1"/>
+			<m_ObjectName text="Pisanello1_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PISANELLO_2"/>
+			<m_ObjectName text="Pisanello2_Religious"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PISANELLO_3"/>
+			<m_ObjectName text="Pisanello3_Religious"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

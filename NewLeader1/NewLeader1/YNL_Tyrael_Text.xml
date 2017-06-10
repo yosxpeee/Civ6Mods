@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_ANGELS_DANCE_HALL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TYRAEL_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TYRAEL_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TYRAEL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_WOD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_WOD_MALE_1" Language="en_US">
+			<Text>Principality</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_WOD_MALE_2" Language="en_US">
+			<Text>Dominion</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_WOD_MALE_3" Language="en_US">
+			<Text>Throne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_WOD_MALE_4" Language="en_US">
+			<Text>Cherub</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_WOD_MALE_5" Language="en_US">
+			<Text>Seraph</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_WOD_FEMALE_1" Language="en_US">
+			<Text>Angel</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_WOD_FEMALE_2" Language="en_US">
+			<Text>Virtue</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_WOD_FEMALE_3" Language="en_US">
+			<Text>Archangel</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_WOD_FEMALE_4" Language="en_US">
+			<Text>Power</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_1" Language="en_US">
+			<Text>Tristram</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_2" Language="en_US">
+			<Text>Lut Gholein</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_3" Language="en_US">
+			<Text>Kurast</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_4" Language="en_US">
+			<Text>Harrogath</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_5" Language="en_US">
+			<Text>Khandura</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_6" Language="en_US">
+			<Text>Westmarch</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_7" Language="en_US">
+			<Text>Fort of Rogue</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_8" Language="en_US">
+			<Text>Sescheron</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_9" Language="en_US">
+			<Text>Val Nirian</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_WOD_CITY_10" Language="en_US">
+			<Text>Henknoc</Text>
+		</Row>
+
+		<!--Civilization Factoids -->
+		<!--
+		<Row Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FELIS_CATUS" Language="en_US">
+			<Text></Text>
+		</Row>
+		-->
+		
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_YNL_TYRAEL_QUOTE" Language="en_US">
+			<Text></Text>
+		</Row>
+    
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+		  <Text>I am Archangel Tyrael.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+		  <Text>We have a city nearby. Would you like to visit?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+		  <Text>Yes, yes. This is good for us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+			<Text>You are a wretched liar and cannot be trusted! You are the worst of your kind. (Denounces You)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+			<Text>Loyalty is its own reward. Do you not know this?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+			<Text>Thank you, my friend.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+			<Text>You should reconsider.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY}</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_TYRAEL_DOM_TEXT" Language="en_US">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>

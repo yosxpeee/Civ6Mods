@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's NewLeader - Tyrael</Name>
+    <Guid>0aa1173c-b958-4ae4-be53-bb59f1fdd0fa</Guid>
+    <ProjectGuid>3d851944-d6db-4dd6-90ad-4f562fe35bd5</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Yossie's NewLeader - Tyrael</Teaser>
+    <Description>Yossie's NewLeader - Tyrael v1.0</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_DiplomacyInfo.xml</File><File>YNL_Tyrael_LoadingInfo.xml</File><File>YNL_Tyrael_UB.xml</File><File>YNL_Tyrael_Leader.xml</File><File>YNL_Tyrael_Civilization.xml</File><File>YNL_Tyrael_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_ConfigText.xml</File><File>YNL_Tyrael_Text.xml</File><File>YNL_Tyrael_TextJP.xml</File><File>YNL_Tyrael_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_Icon_Civilization.xml</File><File>YNL_Tyrael_Icon_Leader.xml</File><File>YNL_Tyrael_Icon_Unique.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_TYRAEL_WOD256.dds</File><File>Textures/YNL_TYRAEL_WOD128.dds</File><File>Textures/YNL_TYRAEL_WOD80.dds</File><File>Textures/YNL_TYRAEL_WOD64.dds</File><File>Textures/YNL_TYRAEL_WOD50.dds</File><File>Textures/YNL_TYRAEL_WOD45.dds</File><File>Textures/YNL_TYRAEL_WOD44.dds</File><File>Textures/YNL_TYRAEL_WOD36.dds</File><File>Textures/YNL_TYRAEL_WOD30.dds</File><File>Textures/YNL_TYRAEL_WOD22.dds</File><File>Textures/YNL_TYRAEL_LEADER256.dds</File><File>Textures/YNL_TYRAEL_LEADER80.dds</File><File>Textures/YNL_TYRAEL_LEADER64.dds</File><File>Textures/YNL_TYRAEL_LEADER55.dds</File><File>Textures/YNL_TYRAEL_LEADER50.dds</File><File>Textures/YNL_TYRAEL_LEADER45.dds</File><File>Textures/YNL_TYRAEL_LEADER32.dds</File><File>Textures/YNL_TYRAEL_UU22.dds</File><File>Textures/YNL_TYRAEL_UU32.dds</File><File>Textures/YNL_TYRAEL_UU38.dds</File><File>Textures/YNL_TYRAEL_UU50.dds</File><File>Textures/YNL_TYRAEL_UU80.dds</File><File>Textures/YNL_TYRAEL_UU256.dds</File><File>Textures/YNL_TYRAEL_UU_PORT200.dds</File><File>Textures/YNL_TYRAEL_UU_PORT256.dds</File><File>Textures/YNL_TYRAEL_UU_PORT38.dds</File><File>Textures/YNL_TYRAEL_UU_PORT50.dds</File><File>Textures/YNL_TYRAEL_UU_PORT70.dds</File><File>Textures/YNL_TYRAEL_UU_PORT95.dds</File><File>Textures/Tyrael_Diplomacy_Background.dds</File><File>Textures/Tyrael_LoadingInfo_Background.dds</File><File>Textures/Tyrael_LoadingInfo_Foreground.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Tyrael_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Tyrael_ConfigText.xml</File><File>YNL_Tyrael_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Tyrael_Icon_Civilization.xml</File><File>YNL_Tyrael_Icon_Leader.xml</File><File>YNL_Tyrael_Icon_Unique.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_TYRAEL</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>NewLeader1</AssemblyName>
+    <RootNamespace>NewLeader1</RootNamespace>
+    <Authors>Yossie</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\YNL_Tyrael_Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Tyrael_Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Tyrael_Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Tyrael_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Tyrael_Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_UU_PORT95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_Icon_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_LEADER80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_TYRAEL_WOD80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_Tyrael_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_Icon_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_TYRAEL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_TYRAEL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TYRAEL_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_TYRAEL_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tyrael_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tyrael_Diplomacy_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tyrael_LoadingInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_DiplomacyInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_Icon_Unique.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_UB.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_LoadingInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tyrael_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <None Include="ArtDefs\YNL_Tyrael_FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

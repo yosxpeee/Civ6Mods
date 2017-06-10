@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_YNL_TYRAEL" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_YNL_TYRAEL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_UNIQUE_BALLISTA" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YNL_TYRAEL</LeaderType>
+			<Name>LOC_LEADER_YNL_TYRAEL_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YNL_TYRAEL" TraitType="TRAIT_LEADER_YNL_TYRAEL"/>
+		<Row LeaderType="LEADER_YNL_TYRAEL" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BALLISTA"/>
+	</LeaderTraits>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YNL_TYRAEL" Quote="LOC_LEADER_YNL_TYRAEL_QUOTE"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YNL_TYRAEL" Name="LOC_TRAIT_LEADER_YNL_TYRAEL_NAME" Description="LOC_TRAIT_LEADER_YNL_TYRAEL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_UNIQUE_BALLISTA" Name="LOC_TRAIT_LEADER_UNIT_UNIQUE_BALLISTA_NAME"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_YNL_TYRAEL" ModifierId="UNIQUE_LEADER_CULTURE_KILLS"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TYRAEL" ModifierId="TRAIT_COMBAT_BONUS_OTHER_RELIGION"/>
+	</TraitModifiers>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_YNL_TYRAEL" AgendaType="AGENDA_BACKSTAB_AVERSE"/>
+	</HistoricalAgendas>
+	<AiListTypes>
+		<Row ListType="YNL_TyraelWonders"/>
+		<Row ListType="YNL_TyraelCivics"/>
+		<Row ListType="YNL_TyraelTechs"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Buildings -->
+		<Row ListType="YNL_TyraelWonders" LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Buildings"/>
+		<!-- Civics -->
+		<Row ListType="YNL_TyraelCivics"  LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Civics"/>
+		<!-- Techs -->
+		<Row ListType="YNL_TyraelTechs"   LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Buildings -->
+		<Row ListType="YNL_TyraelWonders" Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_TyraelWonders" Item="BUILDING_COLOSSEUM"/>
+		<Row ListType="YNL_TyraelWonders" Item="BUILDING_FORBIDDEN_CITY"/>
+		<Row ListType="YNL_TyraelWonders" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="YNL_TyraelWonders" Item="BUILDING_SYDNEY_OPERA_HOUSE"/>
+		<!-- Civics -->
+		<Row ListType="YNL_TyraelCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="YNL_TyraelCivics" Item="CIVIC_OPERA_BALLET"/>
+		<Row ListType="YNL_TyraelCivics" Item="CIVIC_HUMANISM"/>
+		<!-- Techs -->
+		<Row ListType="YNL_TyraelTechs" Item="TECH_MASONRY"/>
+		<Row ListType="YNL_TyraelTechs" Item="TECH_ENGINEERING"/>
+		<Row ListType="YNL_TyraelTechs" Item="TECH_PRINTING"/>
+	</AiFavoredItems>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_TYRAEL_PRIMARY</Type>
+			<Color>225,225,225,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_TYRAEL_SECONDARY</Type>
+			<Color>38,85,115,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_YNL_TYRAEL</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_TYRAEL_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_TYRAEL_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_UNIQUE_BALLISTA" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_UNIQUE_BALLISTA" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UNIQUE_BALLISTA" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_UNIQUE_BALLISTA" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_UNIQUE_BALLISTA" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_UNIQUE_BALLISTA" ReplacesUnitType="UNIT_CATAPULT"/>
+	</UnitReplaces>
+	<TypeTags>
+		<Row Type="UNIT_UNIQUE_BALLISTA" Tag="CLASS_SIEGE"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_UNIQUE_BALLISTA" BaseMoves="2" Cost="130" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_UNIQUE_BALLISTA_NAME" Description="LOC_UNIT_UNIQUE_BALLISTA_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="2" Combat="28" MandatoryObsoleteTech="TECH_STEEL" Range="2" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BALLISTA" PrereqTech="TECH_ENGINEERING" Bombard="40"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_UNIQUE_BALLISTA" UpgradeUnit="UNIT_BOMBARD"/>
+	</UnitUpgrades>
+</GameInfo>

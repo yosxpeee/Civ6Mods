@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOSEPH_SMITH_JR_NAME" Language="ja_JP">
+			<Text>ジョセフ・スミス・ジュニア</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOBBY_HENDERSON_NAME" Language="ja_JP">
+			<Text>ボビー・ヘンダーソン</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JHON_HARRISON_NAME" Language="ja_JP">
+			<Text>ジョン・ハリソン</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA_NAME" Language="ja_JP">
+			<Text>チェ・ゲバラ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE_NAME" Language="ja_JP">
+			<Text>初音ミク</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MARIE_CURIE_NAME" Language="ja_JP">
+			<Text>マリ・キュリー</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER_NAME" Language="ja_JP">
+			<Text>ヨハネス・フェルメール</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOWARD_PHILLIPS_LOVECRAFT_NAME" Language="ja_JP">
+			<Text>ハワード・フィリップス・ラヴクラフト</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BILL_GATES_NAME" Language="ja_JP">
+			<Text>ビル・ゲイツ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK_NAME" Language="ja_JP">
+			<Text>ケーシー・ライバック</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SATHYA_SAI_BABA_NAME" Language="ja_JP">
+			<Text>サティヤ・サイ・ババ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CHARLES_TAZE_RUSSELL_NAME" Language="ja_JP">
+			<Text>チャールズ・テイズ・ラッセル</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU_NAME" Language="ja_JP">
+			<Text>角松洋介</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK_NAME" Language="ja_JP">
+			<Text>スタニスワフ・マチェク</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE_NAME" Language="ja_JP">
+			<Text>フローレンス・ナイチンゲール</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIKI_NAKAYAMA_NAME" Language="ja_JP">
+			<Text>中山みき</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NGO_VAN_CHIEU_NAME" Language="ja_JP">
+			<Text>ゴ・ヴァン・チェウ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND_NAME" Language="ja_JP">
+			<Text>ブラッドレー・ボンド</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_LADY_GAGA_NAME" Language="ja_JP">
+			<Text>レディー・ガガ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PISANELLO_NAME" Language="ja_JP">
+			<Text>ピサネロ</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="ja_JP">
+			<Text>「地図製作術」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SQUARE_RIGGINGTECHBOOST" Language="ja_JP">
+			<Text>「横帆船」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WORKSHOP_PRODUCTION" Language="ja_JP">
+			<Text>工房により [ICON_Production] 生産力+{Amount}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_NUCLEAR_FISSIONTECHBOOST" Language="ja_JP">
+			<Text>「核分裂」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_1INFOMATIONTECHBOOST" Language="ja_JP">
+			<Text>情報技術の{Amount}つのランダムな{Amount : plural 1?技術; other?技術;}に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_COMPUTERS" Language="ja_JP">
+			<Text>パーソナルコンピューター+{Amount}。パーソナルコンピューターは特別に生産される高級資源で、 [ICON_Amenities] 快適性+6をもたらす。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CASEY_RYBACK_ACTIVE" Language="ja_JP">
+			<Text>海洋長距離戦闘のレベルアップ・クラスを持つユニットに対して [ICON_Production] 生産力+20%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOLD_EX" Language="ja_JP">
+			<Text>[ICON_Gold] ゴールド+{Amount}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE" Language="ja_JP">
+			<Text>レベルが1つ上がったミサイル巡洋艦ユニットが瞬時に完成する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_STANISLAW_MACZEK_ACTIVE" Language="ja_JP">
+			<Text>レベルが1つ上がった戦車ユニットが瞬時に完成する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SANITATIONTECHBOOST" Language="ja_JP">
+			<Text>「公衆衛生」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCIENTIFIC_THEORYTECHBOOST" Language="ja_JP">
+			<Text>「科学理論」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE" Language="ja_JP">
+			<Text>負傷しているユニットのHPが毎ターン+10回復する。</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="ja_JP">
+			<Text>パーソナルコンピューター</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

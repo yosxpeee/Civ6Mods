@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_YMGP_RESOURCES"     IconSize="64"  IconsPerRow="8" IconsPerColumn="8" Filename="YMGP_Resources.dds"/>
+		<Row Name="ICON_ATLAS_YMGP_RESOURCES"     IconSize="38"  IconsPerRow="8" IconsPerColumn="8" Filename="YMGP_Resources38.dds"/>
+		<Row Name="ICON_ATLAS_YMGP_RESOURCES"     IconSize="50"  IconsPerRow="8" IconsPerColumn="8" Filename="YMGP_Resources50.dds"/>
+		<Row Name="ICON_ATLAS_YMGP_RESOURCES"     IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="YMGP_Resources256.dds"/>
+		<Row Name="ICON_ATLAS_YMGP_RESOURCES_FOW" IconSize="64"  IconsPerRow="8" IconsPerColumn="8" Filename="YMGP_Resources_FOW.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_RESOURCE_COMPUTERS"     Atlas="ICON_ATLAS_YMGP_RESOURCES" Index="0"/>
+		<Row Name="ICON_RESOURCE_COMPUTERS_FOW" Atlas="ICON_ATLAS_YMGP_RESOURCES_FOW" Index="0"/>
+	</IconDefinitions>
+</GameInfo>

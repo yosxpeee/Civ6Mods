@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_YMGP_GREATWORKS" IconSize="45"  IconsPerRow="8" IconsPerColumn="8" Filename="YMGP_GreatWorks45.dds"/>
+		<Row Name="ICON_ATLAS_YMGP_GREATWORKS" IconSize="64"  IconsPerRow="8" IconsPerColumn="8" Filename="YMGP_GreatWorks64.dds"/>
+		<Row Name="ICON_ATLAS_YMGP_GREATWORKS" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="YMGP_GreatWorks256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- Individual Icons (female great people is [Index="1"])-->
+		<Row Name="ICON_GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE"         Atlas="ICON_ATLAS_GREAT_PERSON_INDIVIDUAL" Index="1"/>
+		<Row Name="ICON_GREAT_PERSON_INDIVIDUAL_MARIE_CURIE"          Atlas="ICON_ATLAS_GREAT_PERSON_INDIVIDUAL" Index="1"/>
+		<Row Name="ICON_GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" Atlas="ICON_ATLAS_GREAT_PERSON_INDIVIDUAL" Index="1"/>
+		<Row Name="ICON_GREAT_PERSON_INDIVIDUAL_MIKI_NAKAYAMA"        Atlas="ICON_ATLAS_GREAT_PERSON_INDIVIDUAL" Index="1"/>
+		<Row Name="ICON_GREAT_PERSON_INDIVIDUAL_LADY_GAGA"            Atlas="ICON_ATLAS_GREAT_PERSON_INDIVIDUAL" Index="1"/>
+
+		<!-- GreatWorks Icons -->
+		<Row Name="ICON_GREATWORK_MIKU_HATSUNE_1"              Atlas="ICON_ATLAS_GREATWORKS" Index="1"/>
+		<Row Name="ICON_GREATWORK_MIKU_HATSUNE_2"              Atlas="ICON_ATLAS_GREATWORKS" Index="1"/>
+		<Row Name="ICON_GREATWORK_LADY_GAGA_1"                 Atlas="ICON_ATLAS_GREATWORKS" Index="1"/>
+		<Row Name="ICON_GREATWORK_LADY_GAGA_2"                 Atlas="ICON_ATLAS_GREATWORKS" Index="1"/>
+
+		<Row Name="ICON_GREATWORK_VERMEER_1"                   Atlas="ICON_ATLAS_YMGP_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_VERMEER_2"                   Atlas="ICON_ATLAS_YMGP_GREATWORKS" Index="1"/>
+		<Row Name="ICON_GREATWORK_VERMEER_3"                   Atlas="ICON_ATLAS_YMGP_GREATWORKS" Index="2"/>
+		<Row Name="ICON_GREATWORK_PISANELLO_1"                 Atlas="ICON_ATLAS_YMGP_GREATWORKS" Index="3"/>
+		<Row Name="ICON_GREATWORK_PISANELLO_2"                 Atlas="ICON_ATLAS_YMGP_GREATWORKS" Index="4"/>
+		<Row Name="ICON_GREATWORK_PISANELLO_3"                 Atlas="ICON_ATLAS_YMGP_GREATWORKS" Index="5"/>
+
+		<Row Name="ICON_GREATWORK_CHE_GUEVARA"                 Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_1" Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_2" Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_BRADLEY_BOND_1"              Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+		<Row Name="ICON_GREATWORK_BRADLEY_BOND_2"              Atlas="ICON_ATLAS_GREATWORKS" Index="0"/>
+	</IconDefinitions>
+</GameInfo>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JOSEPH_SMITH_JR"           Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_BOBBY_HENDERSON"           Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JHON_HARRISON"             Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"               Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE"              Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_MARIE_CURIE"               Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER"          Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HOWARD_PHILLIPS_LOVECRAFT" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_BILL_GATES"                Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK"              Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SATHYA_SAI_BABA"           Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CHARLES_TAZE_RUSSELL"      Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU"         Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"          Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE"      Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_MIKI_NAKAYAMA"             Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_NGO_VAN_CHIEU"             Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND"              Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_LADY_GAGA"                 Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_PISANELLO"                 Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_SMITH_JR"           Name="LOC_GREAT_PERSON_INDIVIDUAL_JOSEPH_SMITH_JR_NAME"           GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_INDUSTRIAL"  ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BOBBY_HENDERSON"           Name="LOC_GREAT_PERSON_INDIVIDUAL_BOBBY_HENDERSON_NAME"           GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_INFORMATION" ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JHON_HARRISON"             Name="LOC_GREAT_PERSON_INDIVIDUAL_JHON_HARRISON_NAME"             GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER"  EraType="ERA_RENAISSANCE" ActionCharges="1" Gender="M" ActionRequiresCompletedDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"               Name="LOC_GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA_NAME"               GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"   EraType="ERA_ATOMIC"      ActionCharges="0" Gender="M" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE"              Name="LOC_GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE_NAME"              GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"  EraType="ERA_INFORMATION" ActionCharges="0" Gender="F"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARIE_CURIE"               Name="LOC_GREAT_PERSON_INDIVIDUAL_MARIE_CURIE_NAME"               GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_ATOMIC"      ActionCharges="1" Gender="F" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER"          Name="LOC_GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER_NAME"          GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"    EraType="ERA_INDUSTRIAL"  ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HOWARD_PHILLIPS_LOVECRAFT" Name="LOC_GREAT_PERSON_INDIVIDUAL_HOWARD_PHILLIPS_LOVECRAFT_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"    EraType="ERA_ATOMIC"      ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BILL_GATES"                Name="LOC_GREAT_PERSON_INDIVIDUAL_BILL_GATES_NAME"                GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT"  EraType="ERA_INFORMATION" ActionCharges="1" Gender="M" ActionRequiresCompletedDistrictType="DISTRICT_COMMERCIAL_HUB"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK"              Name="LOC_GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK_NAME"              GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL"   EraType="ERA_INFORMATION" ActionCharges="1" Gender="M" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SATHYA_SAI_BABA"           Name="LOC_GREAT_PERSON_INDIVIDUAL_SATHYA_SAI_BABA_NAME"           GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_ATOMIC"      ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHARLES_TAZE_RUSSELL"      Name="LOC_GREAT_PERSON_INDIVIDUAL_CHARLES_TAZE_RUSSELL_NAME"      GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_MODERN"      ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU"         Name="LOC_GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU_NAME"         GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL"   EraType="ERA_INFORMATION" ActionCharges="1" Gender="M" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"          Name="LOC_GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK_NAME"          GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"   EraType="ERA_ATOMIC"      ActionCharges="1" Gender="M" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE"      Name="LOC_GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE_NAME"      GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MODERN"      ActionCharges="1" Gender="F" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="1"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIKI_NAKAYAMA"             Name="LOC_GREAT_PERSON_INDIVIDUAL_MIKI_NAKAYAMA_NAME"             GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_INDUSTRIAL"  ActionCharges="0" Gender="F"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NGO_VAN_CHIEU"             Name="LOC_GREAT_PERSON_INDIVIDUAL_NGO_VAN_CHIEU_NAME"             GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_ATOMIC"      ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND"              Name="LOC_GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND_NAME"              GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"    EraType="ERA_INFORMATION" ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LADY_GAGA"                 Name="LOC_GREAT_PERSON_INDIVIDUAL_LADY_GAGA_NAME"                 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"  EraType="ERA_INFORMATION" ActionCharges="0" Gender="F"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PISANELLO"                 Name="LOC_GREAT_PERSON_INDIVIDUAL_PISANELLO_NAME"                 GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"    EraType="ERA_RENAISSANCE" ActionCharges="0" Gender="M"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"          ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"          ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK"         ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK"         ModifierId="GREATPERSON_MOVEMENT_AOE_INFORMATION_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU"    ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU"    ModifierId="GREATPERSON_MOVEMENT_AOE_INFORMATION_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"     ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"     ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="MEDIC_INCREASE_HEAL_RATE"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JHON_HARRISON"        ModifierId="GREATPERSON_CARTOGRAPHYTECHBOOST"           AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JHON_HARRISON"        ModifierId="GREATPERSON_SQUARE_RIGGINGTECHBOOST"        AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JHON_HARRISON"        ModifierId="GREATPERSON_WORKSHOP_PRODUCTION"            AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JHON_HARRISON"        ModifierId="GREATPERSON_WORKSHOP_CULTURE"               AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARIE_CURIE"          ModifierId="GREATPERSON_NUCLEAR_FISSIONTECHBOOST"       AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARIE_CURIE"          ModifierId="GREATPERSON_1INFOMATIONTECHBOOST"           AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BILL_GATES"           ModifierId="GREATPERSON_GRANT_COMPUTERS"                AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BILL_GATES"           ModifierId="GREATPERSON_GOLD_EX"                        AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK"         ModifierId="GREATPERSON_CASEY_RYBACK_ACTIVE"            AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU"    ModifierId="GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE"       AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"     ModifierId="GREATPERSON_STANISLAW_MACZEK_ACTIVE"        AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_SANITATIONTECHBOOST"            AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_SCIENTIFIC_THEORYTECHBOOST"     AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE"    AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_CARTOGRAPHYTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SQUARE_RIGGINGTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_NUCLEAR_FISSIONTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1INFOMATIONTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_COMPUTERS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CASEY_RYBACK_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_EX</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_STANISLAW_MACZEK_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SANITATIONTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SCIENTIFIC_THEORYTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE_HEAL_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_CARTOGRAPHYTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_CARTOGRAPHY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SQUARE_RIGGINGTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SQUARE_RIGGING</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WORKSHOP</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_NUCLEAR_FISSIONTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_NUCLEAR_FISSION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1INFOMATIONTECHBOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1INFOMATIONTECHBOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1INFOMATIONTECHBOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_COMPUTERS</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COMPUTERS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_COMPUTERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CASEY_RYBACK_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CASEY_RYBACK_ACTIVE</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_EX</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GOLD_EX</ModifierId>
+			<Name>Amount</Name>
+			<Value>800</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MISSILE_CRUISER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_STANISLAW_MACZEK_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TANK</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_STANISLAW_MACZEK_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SANITATIONTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SANITATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SCIENTIFIC_THEORYTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SCIENTIFIC_THEORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE_HEAL_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE_HEAL_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE_HEAL_BONUS</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_CARTOGRAPHYTECHBOOST"        Context="Summary" Text="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_SQUARE_RIGGINGTECHBOOST"     Context="Summary" Text="LOC_GREATPERSON_SQUARE_RIGGINGTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_WORKSHOP_PRODUCTION"         Context="Summary" Text="LOC_GREATPERSON_WORKSHOP_PRODUCTION"/>
+		<Row ModifierId="GREATPERSON_NUCLEAR_FISSIONTECHBOOST"    Context="Summary" Text="LOC_GREATPERSON_NUCLEAR_FISSIONTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_1INFOMATIONTECHBOOST"        Context="Summary" Text="LOC_GREATPERSON_1INFOMATIONTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_GRANT_COMPUTERS"             Context="Summary" Text="LOC_GREATPERSON_GRANT_COMPUTERS"/>
+		<Row ModifierId="GREATPERSON_CASEY_RYBACK_ACTIVE"         Context="Summary" Text="LOC_GREATPERSON_CASEY_RYBACK_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_GOLD_EX"                     Context="Summary" Text="LOC_GREATPERSON_GOLD_EX"/>
+		<Row ModifierId="GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE"    Context="Summary" Text="LOC_GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_STANISLAW_MACZEK_ACTIVE"     Context="Summary" Text="LOC_GREATPERSON_STANISLAW_MACZEK_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SANITATIONTECHBOOST"         Context="Summary" Text="LOC_GREATPERSON_SANITATIONTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_SCIENTIFIC_THEORYTECHBOOST"  Context="Summary" Text="LOC_GREATPERSON_SCIENTIFIC_THEORYTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE"/>
+	</ModifierStrings>
+</GameData>

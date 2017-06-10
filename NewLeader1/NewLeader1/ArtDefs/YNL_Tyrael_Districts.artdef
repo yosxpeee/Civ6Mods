@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>202</build>
+		<revision>872</revision>
+	</m_Version>
+	<m_TemplateName text="Districts"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="District"/>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects::BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanAffectBuildings"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Landmark"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="DISTRICT_ANGELS_DANCE_HALL"/>
+										<m_RootCollectionName text="Districts"/>
+										<m_ArtDefPath text="YNL_Tyrael_Landmarks.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Landmarks"/>
+										<m_ParamName text="Xref"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Landmark1"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="StrategicView"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Acropolis"/>
+										<m_RootCollectionName text="Districts"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Completed"/>
+										<m_RootCollectionName text="BuildStates"/>
+										<m_ArtDefPath text="Districts.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Districts"/>
+										<m_ParamName text="State"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="StrategicView001"/>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Acropolis_Pillaged"/>
+										<m_RootCollectionName text="Districts"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Pillaged"/>
+										<m_RootCollectionName text="BuildStates"/>
+										<m_ArtDefPath text="Districts.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Districts"/>
+										<m_ParamName text="State"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="StrategicView002"/>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="Acropolis_UnderConstruction"/>
+										<m_RootCollectionName text="Districts"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+									<Element class="AssetObjects::ArtDefReferenceValue">
+										<m_ElementName text="UnderConstruction"/>
+										<m_RootCollectionName text="BuildStates"/>
+										<m_ArtDefPath text="Districts.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Districts"/>
+										<m_ParamName text="State"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="StrategicView003"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="Build_District_Acropolis"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Build_District_Acropolis"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="AmbPlay"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="PLAY_AMBIENCE_DISTRICT_ACROPOLIS"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="PLAY_AMBIENCE_DISTRICT_ACROPOLIS"/>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="AmbStop"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="STOP_AMBIENCE_DISTRICT_ACROPOLIS"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="STOP_AMBIENCE_DISTRICT_ACROPOLIS"/>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="DISTRICT_ANGELS_DANCE_HALL"/>
+			</Element>
+		</Element>
+	</m_RootCollections>
+	<m_BLPReferences/>
+</AssetObjects::ArtDefSet>

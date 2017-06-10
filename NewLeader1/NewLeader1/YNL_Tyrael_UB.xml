@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_ANGELS_DANCE_HALL" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_ANGELS_DANCE_HALL" ReplacesDistrictType="DISTRICT_THEATER"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" Name="LOC_DISTRICT_ANGELS_DANCE_HALL_NAME" Description="LOC_DISTRICT_ANGELS_DANCE_HALL_DESCRIPTION" PrereqCivic="CIVIC_DRAMA_POETRY" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" AdvisorType="ADVISOR_CULTURE" Cost="45" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_ANGELS_DANCE_HALL"/>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldChangeId="Wonder_Culture"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldChangeId="District_Culture_Standard"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldChangeId="District_Culture_City_Center"/>
+	</District_Adjacencies>
+	<District_ValidTerrains>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" TerrainType="TERRAIN_GRASS"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" TerrainType="TERRAIN_PLAINS"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" TerrainType="TERRAIN_SNOW"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" TerrainType="TERRAIN_DESERT"/>
+	</District_ValidTerrains>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"   PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"   PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldType="YIELD_FOOD"    YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldType="YIELD_FAITH"   YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldType="YIELD_CULTURE" YieldChange="3"/>
+	</District_CitizenYieldChanges>
+</GameData>

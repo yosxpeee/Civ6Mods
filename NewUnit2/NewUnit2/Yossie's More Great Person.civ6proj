@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's More Great Person</Name>
+    <Guid>32129ddf-86ea-47b7-b960-071c5c70fc0d</Guid>
+    <ProjectGuid>d2e8124a-7fcc-409d-a2a6-4a3ae4db04a9</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Yossie's Great Person v1.1</Teaser>
+    <Description>Yossie's Great Person v1.1</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>YMGP_Gameplay.xml</File><File>YMGP_GreatWorks.xml</File><File>YMGP_Resources.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>YMGP_Icon.xml</File><File>YMGP_Icon_Resource.xml</File></UpdateIcons><UpdateText id="Text"><File>YMGP_BaseGameText.xml</File><File>YMGP_BaseGameText_JP.xml</File><File>YMGP_Text.xml</File><File>YMGP_Text_JP.xml</File></UpdateText><UpdateAudio id="Sound"><File>YMGP_GreatPersonSound.ini</File><File>English(US)/YMGP_GreatPersonSound.bnk</File><File>English(US)/YMGP_GreatPersonSound.txt</File><File>Japanese/YMGP_GreatPersonSound.bnk</File><File>Japanese/YMGP_GreatPersonSound.txt</File><File>SoundbanksInfo.xml</File></UpdateAudio><ImportFiles id="Import"><File>Textures/YMGP_Resources.dds</File><File>Textures/YMGP_Resources_FOW.dds</File><File>Textures/YMGP_Resources256.dds</File><File>Textures/YMGP_Resources38.dds</File><File>Textures/YMGP_Resources50.dds</File><File>Textures/YMGP_GreatWorks256.dds</File><File>Textures/YMGP_GreatWorks45.dds</File><File>Textures/YMGP_GreatWorks64.dds</File><File>Textures/YMGP_GreatWorks256_FOW.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <AssemblyName>NewUnit2</AssemblyName>
+    <RootNamespace>NewUnit2</RootNamespace>
+    <Authors>Yossie</Authors>
+    <FrontEndActionData><![CDATA[<FrontEndActions />]]></FrontEndActionData>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <ArtDef Include="ArtDefs\YMGP_Units.artdef" />
+    <Folder Include="English%28US%29\" />
+    <Folder Include="Japanese\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="English%28US%29\1033470238.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="English%28US%29\360588486.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="English%28US%29\409548585.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="English%28US%29\612215233.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="English%28US%29\962746.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="English%28US%29\YMGP_GreatPersonSound.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="English%28US%29\YMGP_GreatPersonSound.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Japanese\237183443.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Japanese\25911282.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_GreatWorks256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_GreatWorks256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_GreatWorks256_FOW.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_GreatWorks256_FOW.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_GreatWorks45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_GreatWorks45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_GreatWorks64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_GreatWorks64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources_FOW.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YMGP_Resources_FOW.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YMGP_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YMGP_UI_GreatWorksArt.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YMGP_UI_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_Icon_Resource.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_Resources.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Japanese\508125436.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Japanese\639553065.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Japanese\706652733.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Japanese\YMGP_GreatPersonSound.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Japanese\YMGP_GreatPersonSound.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SoundbanksInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_BaseGameText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_BaseGameText_JP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_Gameplay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_GreatPersonSound.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_GreatWorks.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_Icon.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_Text_JP.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

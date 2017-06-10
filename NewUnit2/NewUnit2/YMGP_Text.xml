@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOSEPH_SMITH_JR_NAME" Language="en_US">
+			<Text>Joseph Smith, Jr</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOBBY_HENDERSON_NAME" Language="en_US">
+			<Text>Bobby Henderson</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JHON_HARRISON_NAME" Language="en_US">
+			<Text>Jhon Harrison</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA_NAME" Language="en_US">
+			<Text>Che Guevara</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE_NAME" Language="en_US">
+			<Text>Miku Hatsune</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MARIE_CURIE_NAME" Language="en_US">
+			<Text>Marie Curie</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER_NAME" Language="en_US">
+			<Text>Johannes Vermeer</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOWARD_PHILLIPS_LOVECRAFT_NAME" Language="en_US">
+			<Text>Howard Phillips Lovecraft</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_BILL_GATES_NAME" Language="en_US">
+			<Text>Bill Gates</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK_NAME" Language="en_US">
+			<Text>Casey Ryback</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_SATHYA_SAI_BABA_NAME" Language="en_US">
+			<Text>Sathya Sai Baba</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_CHARLES_TAZE_RUSSELL_NAME" Language="en_US">
+			<Text>Charles Taze Russell</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU_NAME" Language="en_US">
+			<Text>Yousuke Kadomatsu</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK_NAME" Language="en_US">
+			<Text>Stanisław Maczek</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE_NAME" Language="en_US">
+			<Text>Florence Nightingale</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIKI_NAKAYAMA_NAME" Language="en_US">
+			<Text>Miki Nakayama</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_NGO_VAN_CHIEU_NAME" Language="en_US">
+			<Text>Ngô Văn Chiêu</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND_NAME" Language="en_US">
+			<Text>Bradley bond</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_LADY_GAGA_NAME" Language="en_US">
+			<Text>Lady Gaga</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PISANELLO_NAME" Language="en_US">
+			<Text>Pisanello</Text>
+		</Row>
+		
+		<Row Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Cartography technology.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_SQUARE_RIGGINGTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Square Rigging technology.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_WORKSHOP_PRODUCTION" Language="en_US">
+			<Text>Workshops provide +{Amount} [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_NUCLEAR_FISSIONTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Nuclear Fission technology.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_1INFOMATIONTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for {Amount} random {Amount : plural 1?technology; other?technologies;} from the Infomation era.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GRANT_COMPUTERS" Language="en_US">
+			<Text>Grants {Amount} Computers, a uniquely manufactured Luxury resource which provides +6 [ICON_Amenities] Amenities</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_CASEY_RYBACK_ACTIVE" Language="en_US">
+			<Text>+20% [ICON_Production] Production towards units of the Naval Ranged promotion class.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GOLD_EX" Language="en_US">
+			<Text>Gain {Amount} [ICON_Gold] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE" Language="en_US">
+			<Text>Instantly creates a missile cruiser unit with 1 promotion level.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_STANISLAW_MACZEK_ACTIVE" Language="en_US">
+			<Text>Instantly creates a Tank unit with 1 promotion level.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_SANITATIONTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Sanitation technology.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_SCIENTIFIC_THEORYTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Scientific Theory technology.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE" Language="en_US">
+			<Text>Wounded units can heal +10 HP each turn.</Text>
+		</Row>
+		
+		<Row Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="en_US">
+			<Text>Personal computers</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
+

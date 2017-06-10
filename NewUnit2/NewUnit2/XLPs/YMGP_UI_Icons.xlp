@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>190</build>
+		<revision>666</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/UI_YMGP_Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="YMGP_Resources_FOW"/>
+			<m_ObjectName text="YMGP_Resources_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YMGP_Resources"/>
+			<m_ObjectName text="YMGP_Resources"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GreatWorks256"/>
+			<m_ObjectName text="GreatWorks256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GreatWorks256_FOW"/>
+			<m_ObjectName text="GreatWorks256_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GreatWorks64"/>
+			<m_ObjectName text="GreatWorks64"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_WOD" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_ANGELS_DANCE_HALL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_TYRAELS_MIGHT"              Kind="KIND_TRAIT" />
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
+			<Name>LOC_CIVILIZATION_WOD_NAME</Name>
+			<Description>LOC_CIVILIZATION_WOD_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_WOD_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_WOD" LeaderType="LEADER_YNL_TYRAEL" CapitalName="LOC_CIVLIZATION_WOD_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_MALE_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_FEMALE_4" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<!--
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_WOD" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
+	</CivilizationInfo>
+	-->
+	
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_WOD" TraitType="TRAIT_CIVILIZATION_DISTRICT_ANGELS_DANCE_HALL"/>
+		<Row CivilizationType="CIVILIZATION_WOD" TraitType="TRAIT_CIVILIZATION_TYRAELS_MIGHT"/>
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_ANGELS_DANCE_HALL" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_ANGELS_DANCE_HALL_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_TYRAELS_MIGHT"              Name="LOC_TRAIT_CIVILIZATION_TYRAELS_MIGHT_NAME" Description="LOC_TRAIT_CIVILIZATION_TYRAELS_MIGHT_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TYRAELS_MIGHT</TraitType>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TYRAELS_MIGHT</TraitType>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TYRAELS_MIGHT</TraitType>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TYRAELS_MIGHT</TraitType>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TYRAELS_MIGHT</TraitType>
+			<ModifierId>TRAIT_INCREASED_TILES</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_10" />
+	</CityNames>
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_WOD" TerrainType="TERRAIN_TUNDRA" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_WOD" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
+	</StartBiasTerrains>
+</GameData>
