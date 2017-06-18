@@ -23,9 +23,6 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="ArtDefs\YNL_Tyrael_Buildings.artdef">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="ArtDefs\YNL_Tyrael_Districts.artdef">
       <SubType>Content</SubType>
     </Content>

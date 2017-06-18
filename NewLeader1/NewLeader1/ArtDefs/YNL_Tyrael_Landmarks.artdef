@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::ArtDefSet>
+<AssetObjects:ArtDefSet>
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
@@ -10,10 +10,11 @@
 	<m_RootCollections>
 		<Element>
 			<m_CollectionName text="Districts"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="Gen_GenericDistrict"/>
 							<m_RootCollectionName text="Generator"/>
 							<m_ArtDefPath text="CityGenerators.artdef"/>
@@ -21,37 +22,38 @@
 							<m_TemplateName text="CityGenerators"/>
 							<m_ParamName text="DistrictGenerator"/>
 						</Element>
-						<Element class="AssetObjects::RGBValue">
+						<Element class="AssetObjects:RGBValue">
 							<m_r>207.000000</m_r>
 							<m_g>61.000000</m_g>
 							<m_b>75.000000</m_b>
 							<m_ParamName text="TintColor"/>
 						</Element>
-						<Element class="AssetObjects::BoolValue">
+						<Element class="AssetObjects:BoolValue">
 							<m_bValue>true</m_bValue>
-							<m_ParamName text="IsAuthored"/>
+							<m_ParamName text="FlattenTerrain"/>
 						</Element>
-						<Element class="AssetObjects::BoolValue">
+						<Element class="AssetObjects:BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="IsAlignedToCoast"/>
 						</Element>
-						<Element class="AssetObjects::BoolValue">
+						<Element class="AssetObjects:BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="bUseCityScale"/>
 						</Element>
-						<Element class="AssetObjects::BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="FlattenTerrain"/>
+						<Element class="AssetObjects:BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DistrictDamagePillagesBuildings"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="BaseVariants"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER, MUSEUM_NAT, BROADCAST CENTER"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -59,7 +61,7 @@
 										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -67,7 +69,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -75,7 +77,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_MOD_Greece04NAT"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -83,7 +85,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -100,7 +102,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="EMPTY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -108,7 +110,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -116,7 +118,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -124,7 +126,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_CLA_Greece01"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -132,7 +134,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -149,7 +151,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -157,7 +159,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -165,7 +167,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -173,7 +175,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_CLA_Greece02"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -181,7 +183,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -198,7 +200,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER, MUSEUM_ART"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -206,7 +208,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -214,7 +216,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -222,7 +224,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_REN_Greece03ART"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -230,7 +232,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -247,7 +249,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER, MUSEUM_NAT"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -255,7 +257,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -263,7 +265,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -271,7 +273,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_REN_Greece03NAT"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -279,7 +281,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -296,7 +298,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="EMPTY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -304,7 +306,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_INDUSTRIAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -312,7 +314,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -320,7 +322,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_IND_Greece01"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -328,7 +330,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -345,7 +347,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -353,7 +355,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_INDUSTRIAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -361,7 +363,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -369,7 +371,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_IND_Greece02"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -377,7 +379,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -394,7 +396,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER, MUSEUM_ART"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -402,7 +404,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_INDUSTRIAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -410,7 +412,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -418,7 +420,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_IND_Greece03ART"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -426,7 +428,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -443,7 +445,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER, MUSEUM_NAT"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -451,7 +453,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_INDUSTRIAL"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -459,7 +461,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -467,7 +469,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_IND_Greece03NAT"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -475,7 +477,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -492,7 +494,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="EMPTY"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -500,7 +502,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_MODERN"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -508,7 +510,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -516,7 +518,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_MOD_Greece01"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -524,7 +526,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -541,7 +543,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -549,7 +551,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_MODERN"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -557,7 +559,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -565,7 +567,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_MOD_Greece02"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -573,7 +575,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -590,7 +592,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER, MUSEUM_ART, BROADCAST CENTER"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -598,7 +600,7 @@
 										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -606,7 +608,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -614,7 +616,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_MOD_Greece04ART"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -622,7 +624,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -639,7 +641,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER, MUSEUM_ART"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -647,7 +649,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_MODERN"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -655,7 +657,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -663,7 +665,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_MOD_Greece03ART"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -671,7 +673,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -688,7 +690,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="AMPHITHEATER, MUSEUM_NAT"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -696,7 +698,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ARTERA_MODERN"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -704,7 +706,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -712,7 +714,7 @@
 										<m_TemplateName text="Cultures"/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_MOD_Greece03NAT"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="tilebases.xlp"/>
@@ -720,7 +722,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -737,10 +739,11 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="BuildingVariants"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_AMPHITHEATER"/>
 										<m_RootCollectionName text="HeroBuildingTags"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -748,7 +751,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -756,7 +759,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -764,7 +767,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_CLA_Base02Ampitheater"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="hero_buildings.xlp"/>
@@ -772,7 +775,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -789,7 +792,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_MUSEUM_ART"/>
 										<m_RootCollectionName text="HeroBuildingTags"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -797,7 +800,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -805,7 +808,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -813,7 +816,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_REN_Base03Museum"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="hero_buildings.xlp"/>
@@ -821,7 +824,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -838,7 +841,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_MUSEUM_ARTIFACT"/>
 										<m_RootCollectionName text="HeroBuildingTags"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -846,7 +849,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -854,7 +857,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -862,7 +865,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_REN_Base03Museum"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="hero_buildings.xlp"/>
@@ -870,7 +873,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -887,7 +890,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_BROADCAST_CENTER"/>
 										<m_RootCollectionName text="HeroBuildingTags"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
@@ -895,7 +898,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
@@ -903,7 +906,7 @@
 										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="DEFAULT"/>
 										<m_RootCollectionName text="Culture"/>
 										<m_ArtDefPath text="Cultures.artdef"/>
@@ -911,7 +914,7 @@
 										<m_TemplateName text=""/>
 										<m_ParamName text="Tag_Culture"/>
 									</Element>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="DIS_THR_MOD_Base04BroadcastCenter"/>
 										<m_XLPClass text="TileBase"/>
 										<m_XLPPath text="hero_buildings.xlp"/>
@@ -919,7 +922,7 @@
 										<m_LibraryName text="TileBase"/>
 										<m_ParamName text="Asset"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="ANY"/>
 										<m_RootCollectionName text="AppealTags"/>
 										<m_ArtDefPath text="Appeal.artdef"/>
@@ -936,10 +939,11 @@
 					</Element>
 					<Element>
 						<m_CollectionName text="BuildingSets"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values/>
@@ -954,11 +958,11 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -978,11 +982,11 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -990,7 +994,7 @@
 												<m_TemplateName text=""/>
 												<m_ParamName text="Set"/>
 											</Element>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_MUSEUM_ART"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1010,11 +1014,11 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1022,7 +1026,7 @@
 												<m_TemplateName text=""/>
 												<m_ParamName text="Set"/>
 											</Element>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_MUSEUM_ARTIFACT"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1042,11 +1046,11 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1054,7 +1058,7 @@
 												<m_TemplateName text=""/>
 												<m_ParamName text="Set"/>
 											</Element>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_MUSEUM_ART"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1062,7 +1066,7 @@
 												<m_TemplateName text=""/>
 												<m_ParamName text="Set_1"/>
 											</Element>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_BROADCAST_CENTER"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1082,11 +1086,11 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::CollectionValue">
+									<Element class="AssetObjects:CollectionValue">
 										<m_eObjectType>INVALID</m_eObjectType>
 										<m_eValueType>ARTDEF_REF</m_eValueType>
 										<m_Values>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1094,7 +1098,7 @@
 												<m_TemplateName text=""/>
 												<m_ParamName text="Set"/>
 											</Element>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_MUSEUM_ARTIFACT"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1102,7 +1106,7 @@
 												<m_TemplateName text=""/>
 												<m_ParamName text="Set_1"/>
 											</Element>
-											<Element class="AssetObjects::ArtDefReferenceValue">
+											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_BROADCAST_CENTER"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
 												<m_ArtDefPath text="Landmarks.artdef"/>
@@ -1125,5 +1129,26 @@
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
+		<Element>
+			<m_CollectionName text="Landmarks"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="HeroBuildingTags"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="ResourceTags"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="Globals"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="TerrainTags"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
 	</m_RootCollections>
 </AssetObjects:ArtDefSet>
+
