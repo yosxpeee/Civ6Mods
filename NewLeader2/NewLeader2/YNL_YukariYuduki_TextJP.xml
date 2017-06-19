@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>Jasper kitty is a charismatic and typically friendly feline.  He prefers diplomatic trades that involve food.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
+		</Replace>
+
+		<!-- Civilization specific historical text. -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ROYY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>The felines have a rich history, but are too lazy to write about it.</Text>
+		</Replace>
+
+		<!-- Civlization Citizen Names -->
+		<Replace Tag="LOC_CITIZEN_ROYY_MALE_1" Language="ja_JP">
+			<Text>松山千春</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ROYY_MALE_2" Language="ja_JP">
+			<Text>大泉洋</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ROYY_MALE_3" Language="ja_JP">
+			<Text>安住紳一郎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ROYY_MALE_4" Language="ja_JP">
+			<Text>北島三郎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ROYY_FEMALE_1" Language="ja_JP">
+			<Text>吉田美和</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ROYY_FEMALE_2" Language="ja_JP">
+			<Text>大黒摩季</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ROYY_FEMALE_3" Language="ja_JP">
+			<Text>川村ゆきえ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ROYY_FEMALE_4" Language="ja_JP">
+			<Text>紺野あさ美</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_ROYY_FEMALE_5" Language="ja_JP">
+			<Text>里田まい</Text>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_1" Language="ja_JP">
+			<Text>札幌</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_2" Language="ja_JP">
+			<Text>千歳</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_3" Language="ja_JP">
+			<Text>恵庭</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_4" Language="ja_JP">
+			<Text>北広島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_5" Language="ja_JP">
+			<Text>網走</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_6" Language="ja_JP">
+			<Text>女満別</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_7" Language="ja_JP">
+			<Text>紋別</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_8" Language="ja_JP">
+			<Text>北見</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_9" Language="ja_JP">
+			<Text>稚内</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_10" Language="ja_JP">
+			<Text>旭川</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_11" Language="ja_JP">
+			<Text>函館</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_12" Language="ja_JP">
+			<Text>帯広</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_13" Language="ja_JP">
+			<Text>釧路</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_14" Language="ja_JP">
+			<Text>根室</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_15" Language="ja_JP">
+			<Text>留萌</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_16" Language="ja_JP">
+			<Text>日高</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_17" Language="ja_JP">
+			<Text>夕張</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_18" Language="ja_JP">
+			<Text>苫小牧</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_19" Language="ja_JP">
+			<Text>室蘭</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_CITY_20" Language="ja_JP">
+			<Text>登別</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_YUKARI_YUDUKI_QUOTE" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>これからは仲良くやっていきましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>ごめんなさい、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>私たちと正式な友好関係を結ぶことに同意していただけますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>ありがとうございます！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>そんな・・・それは残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>戦争・・・ですか。いいでしょう、受けて立ちます！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>もう我慢できません！力を示すのみです！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>こんなに早く決着がついてしまうなんて・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>こんなに早く決着がついてしまうなんて・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>貴国からの使節を歓迎いたします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、承諾できません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>こちらの使節を受け入れてくれるでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>これはすばらしいです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>それは残念です。では、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>2歩進んで3歩下がるといったところでしょうか・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>これは、世界中が知るべき裏切りです。(非難)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>こちらが大使館の建設許可です。どうぞお受け取りください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>私たちの国の大使館を置いてもらえるでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>今日という幸運な日に祝福を。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>それは残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>ようこそ。文明のリーダーたるこの私、結月ゆかりがお迎えします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>近くの街へご案内します。祝いの式典にぜひ参加を。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>よいでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>どちらも遠方の出ですね。互いの国を互いの地図に記し合うというのはどうでしょう？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>ご希望をおうかがいします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>あなたの国との同盟関係に祝福がありますように。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>ごめんなさい、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>同盟を希望するのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>これはありがたいです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>それは残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>いいでしょう。喜んで取引に応じますよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>この取引には応じられません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>ありがとうございます。これによってお互いに利益があると思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>正直なところ、失望しました・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>私の希望にかなう取引です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>あなたの要求に得るところはないと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>承諾の返事、お受け取りください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>要求を呑むとは、賢明な判断です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>・・・要求を通すためなら、他の手段も考えます！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>平和の申し出をお受けします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>この状況で和平など、受け入れらません！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>すみません、和平を結びたいのですが・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>よかった、これで戦争は終わりですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>ならば戦いつづけるのみです！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>こちらの国へ自由にお入りください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>すみません、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>領内の通行を許可してもらえませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>これはすばらしいです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>それは残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>ごめんなさい！そんな近くに都市があるなんて知りませんでした。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>私たちも土地が必要なんです。勝手なことを言わないでください！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>私たちのすぐそばに都市を作らないでください。土地を求めるなら他の場所でお願いします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>私たちに敬意を払わない国にどうして敬意を払えというのですか。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>すみません。蛮族を探していただけなんです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>方々に軍隊を派遣するのが好きなんです。自分の強さを誇示できるから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>あなたの言うとおりです。こんな手に訴えたことを後悔しています。もう二度と繰り返しません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>誰がそんな約束を真に受けると思うのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>この土地があなたの国のものだとは知りませんでした。単純な手違いです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>歴史の謎は万人に開示されるべきです。独占は許されません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>そちらの希望は尊重します。でも、あなたは間違っています。いつかわかってくれるといいのですが。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>心配はいりません。これが一番なんです。いずれわかるときが来ます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>国境のすぐそばに兵を動かしましたね？私たちの国の美しい田園風景を楽しんでいるだけだといいのですけど・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>なんてことをするんですか！私たちの国に送ったスパイを今すぐ引き上げてください！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>この侮辱、絶対に忘れません。よく憶えておいてください！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>私たちの国の文化や歴史を盗まないでください！いますぐ出て行ってもらいます！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>私たちの国を尊重してもらえないなら、あなたの国を尊重することもできません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>そちらの宗教家はやり方が強引で評判が悪いようです。いますぐ立ち退いていただけませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
+			<Text>・・・覚悟しておいてください。いずれ必ず報いがありますよ。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_YUKARI_YUDUKI_DOM_TEXT" Language="ja_JP">
+			<Text>ゆかりさんカワイイヤッター</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_ROYY_NAME" Language="ja_JP">
+			<Text>結月ゆかり共和国</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_ROYY_DESCRIPTION" Language="ja_JP">
+			<Text>結月ゆかり共和国</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_ROYY_ADJECTIVE" Language="ja_JP">
+			<Text>結月ゆかり共和国の</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_YUKARI_YUDUKI_NAME" Language="ja_JP">
+			<Text>結月ゆかり</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_NAME" Language="ja_JP">
+			<Text>雪の恵み</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_DESCRIPTION" Language="ja_JP">
+			<Text>雪原から [ICON_Food] 食糧+1、[ICON_Culture] 文化力+1、[ICON_Science] 科学力+1を得る。ツンドラから [ICON_Faith] 信仰力+1を得る。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_YUKARI_YUDUKI_NAME" Language="ja_JP">
+			<Text>VOICELOIDのオーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YUKARI_YUDUKI_DESCRIPTION" Language="ja_JP">
+			<Text>ターンごとに [ICON_GreatMusician] 大音楽家および [ICON_GreatScientist] 大科学者ポイント+2。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="ja_JP">
+			<Text>工業大学</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_DESCRIPTION" Language="ja_JP">
+			<Text>結月ゆかり共和国固有の建造物。キャンパス (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_HOWITZER_NAME" Language="ja_JP">
+			<Text>結月ゆかり共和国固有のユニット: 自走榴弾砲</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UNIQUE_HOWITZER_DESCRIPTION" Language="ja_JP">
+			<Text>結月ゆかり共和国固有の原子力時代のユニット。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UNIQUE_HOWITZER_NAME" Language="ja_JP">
+			<Text>自走榴弾砲</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_HOWITZER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>火砲（大砲）の一種。基本の定義は同口径のカノン砲（加農砲・カノン・加農）に比べて砲口直径（口径）に対する砲身長（口径長）が短く、低初速・短射程であるが軽量でコンパクト、高仰角の射撃を主用する（定義）。しかしながら、概ね冷戦後の現代は火砲の進化（榴弾砲の長砲身化）による砲種の統廃合（榴弾砲の統一）により、榴弾砲とカノン砲の区別は無くなっている（歴史）。牽引式と自走式の2種類があり、自走式のものは装甲戦闘車両と呼べるほどの外観を備え、戦車に近いか同等程度、またはそれを上回るほどの重量の装軌車両となっているものが多い。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="ja_JP">
+			<Text>結月ゆかり共和国固有の建造物: 工業大学</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TECHNOLOGICAL_UNIVERSITY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>工業大学は、工学の専門教育がなされる高等教育機関であり、工学部のみの単科大学に冠せられる名称・種別である。ただし、日本国内においては、正式な和名や英名においてどのような名称を名乗るか、あるいは、単科大学なのか否かの区分に関しては、その大学の内容との絡みにおいてもさして意味を持たないものになっている。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

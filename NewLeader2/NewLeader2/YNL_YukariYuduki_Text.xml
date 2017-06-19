@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Jasper kitty is a charismatic and typically friendly feline.  He prefers diplomatic trades that involve food.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ROYY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The felines have a rich history, but are too lazy to write about it.</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_ROYY_MALE_1" Language="en_US">
+			<Text>Chiharu Matsuyama</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ROYY_MALE_2" Language="en_US">
+			<Text>You Ohizume</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ROYY_MALE_3" Language="en_US">
+			<Text>Shinichirou Azumi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ROYY_MALE_4" Language="en_US">
+			<Text>Saburou Kitazima</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ROYY_FEMALE_1" Language="en_US">
+			<Text>Miwa Yoshida</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ROYY_FEMALE_2" Language="en_US">
+			<Text>Maki Ohguro</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ROYY_FEMALE_3" Language="en_US">
+			<Text>Yukie Kawamura</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ROYY_FEMALE_4" Language="en_US">
+			<Text>Asami Konno</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ROYY_FEMALE_5" Language="en_US">
+			<Text>Mai Satoda</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_1" Language="en_US">
+			<Text>Sapporo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_2" Language="en_US">
+			<Text>Chitose</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_3" Language="en_US">
+			<Text>Eniwa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_4" Language="en_US">
+			<Text>Kitahiroshima</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_5" Language="en_US">
+			<Text>Abashiri</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_6" Language="en_US">
+			<Text>Memanbetsu</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_7" Language="en_US">
+			<Text>Monbetsu</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_8" Language="en_US">
+			<Text>Kitami</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_9" Language="en_US">
+			<Text>Wakkanai</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_10" Language="en_US">
+			<Text>Asahikawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_11" Language="en_US">
+			<Text>Hakodate</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_12" Language="en_US">
+			<Text>Obihiro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_13" Language="en_US">
+			<Text>Kushiro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_14" Language="en_US">
+			<Text>Nemuro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_15" Language="en_US">
+			<Text>Rumoi</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_16" Language="en_US">
+			<Text>Hidaka</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_17" Language="en_US">
+			<Text>Yuubari</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_18" Language="en_US">
+			<Text>Tomakomai</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_19" Language="en_US">
+			<Text>Muroran</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ROYY_CITY_20" Language="en_US">
+			<Text>Noboribetsu</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_YUKARI_YUDUKI_QUOTE" Language="en_US">
+			<Text>科学の力ってすごい！！</Text>
+		</Row>
+    
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are pleased to accept your offer of friendship.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are not interested at this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Would you like to formally declare our friendship?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Wonderful.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>That is unfortunate.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>How dare you! All that you hold dear will turn to ash!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>You have what I want, and I take what I want.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I never thought I would see the end so soon!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I never thought I would see the end so soon!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are happy to welcome your delegation to our capital.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We politely refuse your delegation.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Will you receive our diplomatic delegation in your capital?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Excellent!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>That is too bad, perhaps at a later date.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>This situation is going to get worse before it gets any better.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>The world needs to be aware of your transgressions (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are happy to allow you to construct an embassy in our capital.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are not interested at this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Will you allow us to establish an embassy in your capital?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Oh happy day!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Disappointing.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Greetings traveler. You should know that you stand in the presence of greatness!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We have a city nearby. Would you like to visit? You could attend our upcoming celebration.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>By all means.  It will be a pleasure to see your growing city up close.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Neither of us hails from nearby, but perhaps we should mark our homelands on each other's maps?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>What do you wish of me?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text/>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text/>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are pleased to accept your offer of an alliance.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are not interested at this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Wonderful.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>That is unfortunate.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Yes, I am happy to accept this deal.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I cannot accept this deal.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Thank you. I think this will benefit each of us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I must say, I'm a bit disappointed.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>This deal is more to my liking.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Making demands will get you nowhere.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I will comply.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>You are wise in accepting my demands.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I may have to resort to other means to have my demands met!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I accept your terms for peace.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>There can be no peace between us!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Peace, mmkay?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>The war is over.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Then the war continues.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are happy to open up our borders to your units.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>We are not interested at this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Will you allow our units to cross through your territory?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Excellent!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>That is unfortunate.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>My sincerest apologies! I didn't notice your city was so close.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>My people need land. Who are you to say that they cannot have it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Your people settle too close! You should consider seeking land elsewhere.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>If you cannot respect our lands, then I will not respect you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Apologies, we were just looking for some Barbarians to hassle.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I like marching my troops around, it shows how powerful I am if you get my drift.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Yes, you're right. I regret that I had to resort to such tactics. It won't happen again.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Hah! What makes you think I would make that kind of promise?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I hadn't realized that you laid claim to these lands. It was a simple mistake.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>The mysteries of the past are free to everyone. You cannot claim them!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Though I will respect your wishes, I am disappointed that you cannot see the error of your ways.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>No, no. This is for the best. You will see, I assure you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Your troops tread too close to my borders. I hope it's just to view our picturesque countryside.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I should have known you'd stoop so low as to use espionage against me. Remove your spies at once!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I will remember this insult. You can be sure of that!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Our cultural history is not yours to plunder. It is time for you to leave our lands!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>If you cannot respect our lands, then I will not respect you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Your proselytizers are not welcome among my people. I must ask that you remove them immediately.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">
+			<Text>I assure you there will be consequences for this - if not now, then later.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_YUKARI_YUDUKI_DOM_TEXT" Language="en_US">
+			<Text>Yukari-san kawaii yatta!!</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

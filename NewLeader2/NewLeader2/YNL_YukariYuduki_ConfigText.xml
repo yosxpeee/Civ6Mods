@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_ROYY_NAME" Language="en_US">
+			<Text>Republic of Yukari Yuduki</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ROYY_DESCRIPTION" Language="en_US">
+			<Text>Republic of Yukari Yuduki</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_ROYY_ADJECTIVE" Language="en_US">
+			<Text>Republic of Yukari Yuduki</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_YUKARI_YUDUKI_NAME" Language="en_US">
+			<Text>Yukari Yuduki</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_NAME" Language="en_US">
+			<Text>Snow Gift</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Food] Food, +1 [ICON_Culture] Culture and +1 [ICON_Science] Science from Snow. +1 [ICON_Faith] Faith from Tundra.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_YUKARI_YUDUKI_NAME" Language="en_US">
+			<Text>Voiceloid Aura</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YUKARI_YUDUKI_DESCRIPTION" Language="en_US">
+			<Text>Gain +2 free [ICON_GreatMusician] Great Musician, [ICON_GreatScientist] Great Scientist points per turn.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="en_US">
+			<Text>Technological University</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Republic of Yukari Yuduki. Bonus [ICON_Production] Production equal to the adjacency bonus of the Campus district.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_HOWITZER_NAME" Language="en_US">
+			<Text>Republic of Yukari Yuduki unique unit: Howitzer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNIQUE_HOWITZER_DESCRIPTION" Language="en_US">
+			<Text>Republic of Yukari Yuduki unique Atomic era unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNIQUE_HOWITZER_NAME" Language="en_US">
+			<Text>Howitzer</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_HOWITZER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="en_US">
+			<Text>Republic of Yukari Yuduki unique building: Technological University</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TECHNOLOGICAL_UNIVERSITY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>

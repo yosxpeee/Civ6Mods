@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU22.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU32.dds"/>
+
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_PORTRAITS"                IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT256.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_PORTRAITS"                IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT200.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_PORTRAITS"                IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT95.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_PORTRAITS"                IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT50.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_PORTRAITS"                IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT38.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_ASIAN_UNIT_PORTRAITS"          IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT70.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_ASIAN_UNIT_PORTRAITS"          IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT95.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_MEDITERRANEAN_UNIT_PORTRAITS"  IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT70.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_MEDITERRANEAN_UNIT_PORTRAITS"  IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT95.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT70.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT95.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_AFRICAN_UNIT_PORTRAITS"        IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT70.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_AFRICAN_UNIT_PORTRAITS"        IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UUPORT95.dds"/>
+
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS"     IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU256.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS"     IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS"     IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU50.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS"     IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU38.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS"     IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS_FOW" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU32.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- UU -->
+		<Row Name="ICON_UNIT_UNIQUE_HOWITZER_WHITE"                      Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_HOWITZER_BLACK"                      Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_BLACK" Index="0"/>
+
+		<Row Name="ICON_UNIT_UNIQUE_HOWITZER"                            Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS"         Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_HOWITZER_FOW"                        Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS_FOW"     Index="0"/>
+
+		<Row Name="ICON_UNIT_UNIQUE_HOWITZER_PORTRAIT"                   Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_UNIQUE_HOWITZER_PORTRAIT"   Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_ASIAN_UNIT_PORTRAITS"          Index="0"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_UNIQUE_HOWITZER_PORTRAIT"   Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_MEDITERRANEAN_UNIT_PORTRAITS"  Index="0"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_UNIQUE_HOWITZER_PORTRAIT" Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="0"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_UNIQUE_HOWITZER_PORTRAIT" Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_AFRICAN_UNIT_PORTRAITS"        Index="0"/>
+
+		<!-- UB -->
+		<Row Name="ICON_BUILDING_TECHNOLOGICAL_UNIVERSITY" Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
+
+		<!-- Civilization and Leader -->
+		<Row Name="ICON_CIVILIZATION_ROYY"    Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_LEADER_YUKARI_YUDUKI" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+	</IconDefinitions>
+</GameData>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_YukariYuduki_Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UU22"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UU22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UU32"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UU32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UU38"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UU38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UU50"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UU80"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UU80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UU256"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UU256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UUPORT38"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UUPORT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UUPORT50"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UUPORT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UUPORT70"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UUPORT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UUPORT95"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UUPORT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UUPORT200"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UUPORT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_UUPORT256"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_UUPORT256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

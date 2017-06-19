@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_ROYY" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_SNOW_QUEEN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY" Kind="KIND_TRAIT" />
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_ROYY</CivilizationType>
+			<Name>LOC_CIVILIZATION_ROYY_NAME</Name>
+			<Description>LOC_CIVILIZATION_ROYY_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_ROYY_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_ROYY" LeaderType="LEADER_YUKARI_YUDUKI" CapitalName="LOC_CIVILIZATION_ROYY_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ROYY" TraitType="TRAIT_CIVILIZATION_SNOW_QUEEN"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" TraitType="TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY"/>
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_SNOW_QUEEN"                        Name="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_NAME"                        Description="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY" Name="LOC_TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_INCREASED_SNOW_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_INCREASED_SNOW_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_INCREASED_SNOW_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_FAITH</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- Add Requirement Prameters -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_20" />
+</CityNames>
+
+	<!-- Add -->
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ROYY" TerrainType="TERRAIN_TUNDRA" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
+	</StartBiasTerrains>
+</GameData>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_TECHNOLOGICAL_UNIVERSITY" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_TECHNOLOGICAL_UNIVERSITY" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_TECHNOLOGICAL_UNIVERSITY" Name="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Description="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_DESCRIPTION" PrereqTech="TECH_EDUCATION" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="225" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_TECHNOLOGICAL_UNIVERSITY" PrereqBuilding="BUILDING_LIBRARY"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_TECHNOLOGICAL_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="5"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_TECHNOLOGICAL_UNIVERSITY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Building_YieldDistrictCopies>
+		<Row BuildingType="BUILDING_TECHNOLOGICAL_UNIVERSITY" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_PRODUCTION"/>
+	</Building_YieldDistrictCopies>
+</GameData>
