@@ -73,6 +73,78 @@
 			<m_EntryID text="CYASHI256"/>
 			<m_ObjectName text="CYASHI256"/>
 		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_LEADER256"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_LEADER256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_LEADER32"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_LEADER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_LEADER50"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_LEADER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_LEADER55"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_LEADER55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_LEADER64"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_LEADER64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_LEADER80"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_LEADER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_YUKARI_YUDUKI_LEADER45"/>
+			<m_ObjectName text="YNL_YUKARI_YUDUKI_LEADER45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY22"/>
+			<m_ObjectName text="YNL_CIV_ROYY22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY30"/>
+			<m_ObjectName text="YNL_CIV_ROYY30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY36"/>
+			<m_ObjectName text="YNL_CIV_ROYY36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY44"/>
+			<m_ObjectName text="YNL_CIV_ROYY44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY45"/>
+			<m_ObjectName text="YNL_CIV_ROYY45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY48"/>
+			<m_ObjectName text="YNL_CIV_ROYY48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY50"/>
+			<m_ObjectName text="YNL_CIV_ROYY50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY64"/>
+			<m_ObjectName text="YNL_CIV_ROYY64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY80"/>
+			<m_ObjectName text="YNL_CIV_ROYY80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY128"/>
+			<m_ObjectName text="YNL_CIV_ROYY128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_ROYY256"/>
+			<m_ObjectName text="YNL_CIV_ROYY256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
