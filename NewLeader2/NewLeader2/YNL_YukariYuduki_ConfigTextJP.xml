@@ -31,13 +31,6 @@
 			<Text>ターンごとに [ICON_GreatMusician] 大音楽家および [ICON_GreatScientist] 大科学者ポイント+2。</Text>
 		</Replace>
 
-		<Replace Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="ja_JP">
-			<Text>工業大学</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_DESCRIPTION" Language="ja_JP">
-			<Text>結月ゆかり共和国固有の建造物。キャンパス (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。</Text>
-		</Replace>
-
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_HOWITZER_NAME" Language="ja_JP">
 			<Text>結月ゆかり共和国固有のユニット: 自走榴弾砲</Text>
 		</Replace>
@@ -50,11 +43,31 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_HOWITZER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>火砲（大砲）の一種。基本の定義は同口径のカノン砲（加農砲・カノン・加農）に比べて砲口直径（口径）に対する砲身長（口径長）が短く、低初速・短射程であるが軽量でコンパクト、高仰角の射撃を主用する（定義）。しかしながら、概ね冷戦後の現代は火砲の進化（榴弾砲の長砲身化）による砲種の統廃合（榴弾砲の統一）により、榴弾砲とカノン砲の区別は無くなっている（歴史）。牽引式と自走式の2種類があり、自走式のものは装甲戦闘車両と呼べるほどの外観を備え、戦車に近いか同等程度、またはそれを上回るほどの重量の装軌車両となっているものが多い。</Text>
 		</Replace>
+
+		<Replace Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="ja_JP">
+			<Text>工業大学</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_DESCRIPTION" Language="ja_JP">
+			<Text>結月ゆかり共和国固有の建造物。キャンパス (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="ja_JP">
 			<Text>結月ゆかり共和国固有の建造物: 工業大学</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TECHNOLOGICAL_UNIVERSITY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>工業大学は、工学の専門教育がなされる高等教育機関であり、工学部のみの単科大学に冠せられる名称・種別である。ただし、日本国内においては、正式な和名や英名においてどのような名称を名乗るか、あるいは、単科大学なのか否かの区分に関しては、その大学の内容との絡みにおいてもさして意味を持たないものになっている。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_CYASHI_NAME" Language="ja_JP">
+			<Text>チャシ</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CYASHI_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が結月ゆかり共和国固有の施設であるチャシを建設できるようになる。[NEWLINE][NEWLINE][ICON_Science] 科学力+2。川が隣接している場合は、 [ICON_Culture] 文化力+1。丘陵の上にのみ建設可能。[NEWLINE]この中にいるユニットは [ICON_Strength] 防御力+2となり、自動的に守りを固めた状態となる (2ターン)。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI_NAME" Language="ja_JP">
+			<Text>結月ゆかり共和国固有の施設: チャシ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CYASHI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>チャシとは主に近世にアイヌが築造したある種の施設であって、高い場所に築かれ、壕や崖などで周囲と切り離された施設である。チャシはアイヌ文化の中でも重要な位置を占めていると考えられているが、アイヌ族による文献史料が存在しない為、詳しいことは殆ど判っていない。和人の文献に残されているチャシの記録はほぼ17世紀以降のものである。この時期にはアイヌ族と和人との間で戦争状態が続いていたこともあり、和人はチャシを砦として認識していたようである。例えば1670年に書かれた『寛文拾年狄蜂起集書』では、「シヤクシヤ在所を明け、チャシに籠居申候て不参候」との記述がある。一方、ユーカラではチャシは英雄の住居、牢獄などの性格を与えられていることが多い。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

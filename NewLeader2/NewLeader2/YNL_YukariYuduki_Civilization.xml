@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="CIVILIZATION_ROYY" Kind="KIND_CIVILIZATION" />
-		<Row Type="TRAIT_CIVILIZATION_SNOW_QUEEN" Kind="KIND_TRAIT" />
+		<Row Type="CIVILIZATION_ROYY"                                    Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_SNOW_QUEEN"                        Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI"                Kind="KIND_TRAIT"/>
 	</Types>
 	
 	<Civilizations>
@@ -21,10 +22,10 @@
 	</CivilizationLeaders>
 
 	<CivilizationCitizenNames>
-		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_1" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_2" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_3" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_MALE_4"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_FEMALE_1" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_FEMALE_2" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_ROYY" CitizenName="LOC_CITIZEN_ROYY_FEMALE_3" Female="1"/>
@@ -35,11 +36,13 @@
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_ROYY" TraitType="TRAIT_CIVILIZATION_SNOW_QUEEN"/>
 		<Row CivilizationType="CIVILIZATION_ROYY" TraitType="TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI"/>
 	</CivilizationTraits>
 
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_SNOW_QUEEN"                        Name="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_NAME"                        Description="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY" Name="LOC_TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI"                Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI_NAME"/>
 	</Traits>
 
 	<TraitModifiers>
@@ -236,9 +239,8 @@
 		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_18" />
 		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_19" />
 		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_20" />
-</CityNames>
+	</CityNames>
 
-	<!-- Add -->
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_ROYY" TerrainType="TERRAIN_TUNDRA" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_ROYY" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>

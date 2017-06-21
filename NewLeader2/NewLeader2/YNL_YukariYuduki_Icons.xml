@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<IconTextureAtlases>
+		<!-- UU -->
 		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU22.dds"/>
 		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU32.dds"/>
 		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_SYMBOLS_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU80.dds"/>
@@ -44,8 +45,11 @@
 		<!-- UB -->
 		<Row Name="ICON_BUILDING_TECHNOLOGICAL_UNIVERSITY" Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
 
+		<!-- Unique Improvement -->
+		<Row Name="ICON_IMPROVEMENT_CYASHI" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="23"/>
+		
 		<!-- Civilization and Leader -->
 		<Row Name="ICON_CIVILIZATION_ROYY"    Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
-		<Row Name="ICON_LEADER_YUKARI_YUDUKI" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<Row Name="ICON_LEADER_YUKARI_YUDUKI" Atlas="ICON_ATLAS_LEADERS"       Index="0"/>
 	</IconDefinitions>
 </GameData>

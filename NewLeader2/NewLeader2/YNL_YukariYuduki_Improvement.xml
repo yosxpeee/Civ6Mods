@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_CYASHI" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" Name="LOC_IMPROVEMENT_CYASHI_NAME" Description="LOC_IMPROVEMENT_CYASHI_DESCRIPTION" Icon="ICON_IMPROVEMENT_CYASHI" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" Buildable="true" PrereqTech="TECH_CASTLES" DefenseModifier="2" GrantFortification="2" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI"/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="50" ImprovementType="IMPROVEMENT_CYASHI" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_NATURAL_HISTORY"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CYASHI</ImprovementType>
+			<ModifierId>ZIGGURAT_RIVERADJACENCY_CULTURE</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+</GameInfo>

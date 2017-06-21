@@ -3,20 +3,20 @@
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_CAPSULE_BODY" Language="ja_JP">
-			<Text>Jasper kitty is a charismatic and typically friendly feline.  He prefers diplomatic trades that involve food.</Text>
+			<Text>「VOICEROID+ 結月ゆかり」</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_DETAILED_BODY" Language="ja_JP">
-			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
+			<Text>雪原やツンドラから各種ボーナスを得ることができ、毎ターン得られる大科学者へのボーナスポイントと工業大学の建設で他文明名より先んじて技術を獲得できるでしょう。自走榴弾砲はコストこそ重いですが防御の硬い都市にも通用する高い能力を備えています。</Text>
 		</Replace>
 
 		<!-- Leader specific historical text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
+			<Text>結月ゆかり（ゆづき ゆかり、Yuzuki Yukari）は、VOCALOMAKETSの企画によりAH-Software（株式会社AHS）が2011年12月22日に発売した音声合成用の音源、およびそのキャラクター。ヤマハが開発した歌唱用の音声合成技術「VOCALOID」を採用した「VOCALOID3 結月ゆかり」と、エーアイが開発した話し言葉用の音声合成技術「AITalk」を採用した「VOICEROID+ 結月ゆかり」の二種類の製品が発売されており、それぞれパソコン上で歌声、話声を合成することが出来る。[NEWLINE][NEWLINE]誕生日（発売日）：12月22日[NEWLINE]年齢：18歳[NEWLINE]身長：159cm[NEWLINE]体重：非公開</Text>
 		</Replace>
 
 		<!-- Civilization specific historical text. -->
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ROYY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>The felines have a rich history, but are too lazy to write about it.</Text>
+			<Text>ゆかりさんカワイイヤッター(共和国民はすべて洗脳済である)</Text>
 		</Replace>
 
 		<!-- Civlization Citizen Names -->
@@ -111,7 +111,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_LEADER_YUKARI_YUDUKI_QUOTE" Language="ja_JP">
-			<Text></Text>
+			<Text>縁環の理の中で話します</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
@@ -193,10 +193,10 @@
 			<Text>ご希望をおうかがいします。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
-			<Text></Text>
+			<Text>国政術の機微に通じておられるのですね。何を隠そう、私も諜報をたしなんでいますよ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
-			<Text></Text>
+			<Text>もっと周りに目を配ったほうがいいと思いますよ。世の中はそう単純ではありませんから。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
 			<Text>あなたの国との同盟関係に祝福がありますように。</Text>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="LEADER_YUKARI_YUDUKI" Kind="KIND_LEADER" />
-		<!-- Add -->
-		<Row Type="TRAIT_LEADER_YUKARI_YUDUKI" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_YUKARI_YUDUKI"              Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_YUKARI_YUDUKI"        Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_UNIQUE_HOWITZER" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
@@ -13,13 +12,12 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>
-	<!-- Add -->
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YUKARI_YUDUKI" TraitType="TRAIT_LEADER_YUKARI_YUDUKI"/>
 		<Row LeaderType="LEADER_YUKARI_YUDUKI" TraitType="TRAIT_LEADER_UNIT_UNIQUE_HOWITZER"/>
 	</LeaderTraits>
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_YUKARI_YUDUKI" Name="LOC_TRAIT_LEADER_YUKARI_YUDUKI_NAME" Description="LOC_TRAIT_LEADER_YUKARI_YUDUKI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_YUKARI_YUDUKI"        Name="LOC_TRAIT_LEADER_YUKARI_YUDUKI_NAME"        Description="LOC_TRAIT_LEADER_YUKARI_YUDUKI_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_UNIQUE_HOWITZER" Name="LOC_TRAIT_LEADER_UNIT_UNIQUE_HOWITZER_NAME"/>
 	</Traits>
 	<TraitModifiers>
@@ -59,11 +57,47 @@
 			<Value>2</Value>
 		</Row>
 	</ModifierArguments>
-
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_YUKARI_YUDUKI" AgendaType="AGENDA_BLACK_QUEEN"/>
+	</HistoricalAgendas>
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_YUKARI_YUDUKI" Quote="LOC_LEADER_YUKARI_YUDUKI_QUOTE"/>
 	</LeaderQuotes>
-
+	<AiListTypes>
+		<Row ListType="YNL_YukariYudukiWonders"/>
+		<Row ListType="YNL_YukariYudukiCivics"/>
+		<Row ListType="YNL_YukariYudukiTechs"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Buildings -->
+		<Row ListType="YNL_YukariYudukiWonders" LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Buildings"/>
+		<!-- Civics -->
+		<Row ListType="YNL_YukariYudukiCivics"  LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Civics"/>
+		<!-- Techs -->
+		<Row ListType="YNL_YukariYudukiTechs"   LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Buildings -->
+		<Row ListType="YNL_YukariYudukiWonders" Item="BUILDING_PETRA"/>
+		<Row ListType="YNL_YukariYudukiWonders" Item="BUILDING_CHICHEN_ITZA"/>
+		<Row ListType="YNL_YukariYudukiWonders" Item="BUILDING_HUEY_TEOCALLI"/>
+		<Row ListType="YNL_YukariYudukiWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="YNL_YukariYudukiWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
+		<!-- Civics -->
+		<Row ListType="YNL_YukariYudukiCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="YNL_YukariYudukiCivics" Item="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row ListType="YNL_YukariYudukiCivics" Item="CIVIC_CLASS_STRUGGLE"/>
+		<Row ListType="YNL_YukariYudukiCivics" Item="CIVIC_SPACE_RACE"/>
+		<!-- Techs -->
+		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_CASTLES"/>
+		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_STEEL"/>
+		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_ROCKETRY"/>
+		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_NANOTECHNOLOGY"/>
+		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_NUCLEAR_FUSION"/>
+		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_SATELLITES"/>
+		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_ROBOTICS"/>
+	</AiFavoredItems>
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_YUKARI_YUDUKI_PRIMARY</Type>

@@ -31,13 +31,6 @@
 			<Text>Gain +2 free [ICON_GreatMusician] Great Musician, [ICON_GreatScientist] Great Scientist points per turn.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="en_US">
-			<Text>Technological University</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Republic of Yukari Yuduki. Bonus [ICON_Production] Production equal to the adjacency bonus of the Campus district.</Text>
-		</Row>
-
 		<Row Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_HOWITZER_NAME" Language="en_US">
 			<Text>Republic of Yukari Yuduki unique unit: Howitzer</Text>
 		</Row>
@@ -50,11 +43,31 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_HOWITZER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<Row Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="en_US">
+			<Text>Technological University</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Republic of Yukari Yuduki. Bonus [ICON_Production] Production equal to the adjacency bonus of the Campus district.</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME" Language="en_US">
 			<Text>Republic of Yukari Yuduki unique building: Technological University</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_TECHNOLOGICAL_UNIVERSITY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_CYASHI_NAME" Language="en_US">
+			<Text>Cyashi</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_CYASHI_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Cyashi, unique to Republic of Yukari Yuduki.[NEWLINE][NEWLINE]+2 [ICON_Science] Science. +1 [ICON_Culture] Culture if next to River. Can be built on Hills.[NEWLINE]Occupying unit receives +2 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI_NAME" Language="en_US">
+			<Text>Republic of Yukari Yuduki unique improvement: Cyashi</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_CYASHI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Since the first ego-maniacal chieftain threw up a wall of dirt and proclaimed everything behind it his, soldiers have been building fortifications. Whether to pacify new territory, protect the borders, or insure that the ruled didn’t get uppity, the military-minded have dug ditches and moats, planted stakes and spikes, and put up walls of all sorts. Some made such military engineering an art form, such as the Roman legions, which could march through the day and have a fortified camp in place by nightfall. In time, the appearance of gunpowder led to innovations in fortifications; those wooden and stone walls were simply no longer adequate. So, rather than build up, fortifications went down – trenches and bunkers, pillboxes and minefields, barbed wire and “defense in depth.” But the intent remains the same, to protect the troops and keep the civilization safe from both without and within.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

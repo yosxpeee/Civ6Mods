@@ -39,5 +39,15 @@
 			<Icon>ICON_BUILDING_TECHNOLOGICAL_UNIVERSITY</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_ROYY</CivilizationType>
+			<LeaderType>LEADER_YUKARI_YUDUKI</LeaderType>
+			<Type>IMPROVEMENT_CYASHI</Type>
+			<Name>LOC_IMPROVEMENT_CYASHI_NAME</Name>
+			<Description>LOC_IMPROVEMENT_CYASHI_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_CYASHI</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
-		<name text="Example - New Civilization and Leader"/>
+		<name text="Yossie's NewLeader - Yukari Yuduki"/>
 		<id text="4da0a87d-a2ce-4d59-a55e-851ccd8b7d31"/>
 	</id>
 	<artConsumers>
@@ -30,6 +30,7 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_YukariYuduki_Improvement.artdef"/>
 				<Element text="YNL_YukariYuduki_Buildings.artdef"/>
 				<Element text="YNL_YukariYuduki_Landmarks.artdef"/>
 			</relativeArtDefPaths>
@@ -275,6 +276,7 @@
 		<Element>
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_YukariYuduki_Improvement.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -282,6 +284,7 @@
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_YukariYuduki_Improvement.artdef"/>
 				<Element text="YNL_YukariYuduki_Landmarks.artdef"/>
 				<Element text="YNL_YukariYuduki_Buildings.artdef"/>
 			</relativeArtDefPaths>
@@ -291,6 +294,7 @@
 		<Element>
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_YukariYuduki_Improvement.artdef"/>
 				<Element text="YNL_YukariYuduki_Landmarks.artdef"/>
 				<Element text="YNL_YukariYuduki_Buildings.artdef"/>
 			</relativeArtDefPaths>
