@@ -57,6 +57,22 @@
 			<m_EntryID text="YNL_YUKARI_YUDUKI_UUPORT256"/>
 			<m_ObjectName text="YNL_YUKARI_YUDUKI_UUPORT256"/>
 		</Element>
+		<Element>
+			<m_EntryID text="CYASHI38"/>
+			<m_ObjectName text="CYASHI38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CYASHI50"/>
+			<m_ObjectName text="CYASHI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CYASHI80"/>
+			<m_ObjectName text="CYASHI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CYASHI256"/>
+			<m_ObjectName text="CYASHI256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

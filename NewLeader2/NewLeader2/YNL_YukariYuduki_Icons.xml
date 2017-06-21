@@ -27,6 +27,12 @@
 		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS"     IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU38.dds"/>
 		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS"     IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU32.dds"/>
 		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNITS_FOW" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_YUKARI_YUDUKI_UU32.dds"/>
+
+		<!-- Unique Improvement -->
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_ACTIONS" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="CYASHI38.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_ACTIONS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="CYASHI50.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_ACTIONS" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="CYASHI80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_ACTIONS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="CYASHI256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- UU -->
@@ -46,7 +52,7 @@
 		<Row Name="ICON_BUILDING_TECHNOLOGICAL_UNIVERSITY" Atlas="ICON_ATLAS_BUILDINGS" Index="18"/>
 
 		<!-- Unique Improvement -->
-		<Row Name="ICON_IMPROVEMENT_CYASHI" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="23"/>
+		<Row Name="ICON_IMPROVEMENT_CYASHI" Atlas="ICON_ATLAS_YNL_YUKARI_YUDUKI_UNIT_ACTIONS" Index="0"/>
 		
 		<!-- Civilization and Leader -->
 		<Row Name="ICON_CIVILIZATION_ROYY"    Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
