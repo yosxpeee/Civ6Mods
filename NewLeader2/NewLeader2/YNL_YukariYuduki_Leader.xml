@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="LEADER_YUKARI_YUDUKI"              Kind="KIND_LEADER" />
+		<Row Type="LEADER_YUKARI_YUDUKI"              Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_LEADER_YUKARI_YUDUKI"        Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_UNIQUE_HOWITZER" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_SPEEDUP_SOME_UNITS"        Kind="KIND_ABILITY"/>
 	</Types>
+	<TypeTags>
+		<Row Type="UNIT_SCOUT" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+		<Row Type="UNIT_RANGER" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+		<Row Type="UNIT_SETTLER" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+		<Row Type="UNIT_BUILDER" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+		<Row Type="UNIT_MEDIC" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+		<Row Type="UNIT_MILITARY_ENGINEER" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+		
+		<Row Type="ABILITY_SPEEDUP_SOME_UNITS" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+	</TypeTags>
+	<Tags>
+		<Row Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
 	<Leaders>
 		<Row>
 			<LeaderType>LEADER_YUKARI_YUDUKI</LeaderType>
@@ -12,6 +26,17 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_SPEEDUP_SOME_UNITS" Name="LOC_ABILITY_SPEEDUP_SOME_UNITS_NAME" Description="LOC_ABILITY_SPEEDUP_SOME_UNITS_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_SPEEDUP_SOME_UNITS</UnitAbilityType>
+			<ModifierId>SPEEDUP_SOME_UNITS_MOVEMENT_BONUS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YUKARI_YUDUKI" TraitType="TRAIT_LEADER_YUKARI_YUDUKI"/>
 		<Row LeaderType="LEADER_YUKARI_YUDUKI" TraitType="TRAIT_LEADER_UNIT_UNIQUE_HOWITZER"/>
@@ -23,6 +48,7 @@
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_YUKARI_YUDUKI" ModifierId="TRAIT_INCREASE_GREAT_MUSICIAN_POINTS"/>
 		<Row TraitType="TRAIT_LEADER_YUKARI_YUDUKI" ModifierId="TRAIT_INCREASE_GREAT_SCIENTIST_POINTS"/>
+		<Row TraitType="TRAIT_LEADER_YUKARI_YUDUKI" ModifierId="TRAIT_SPEEDUP_SOME_UNITS_GRANT_ABILITY"/>
 	</TraitModifiers>
 
 	<Modifiers>
@@ -33,6 +59,15 @@
 		<Row>
 			<ModifierId>TRAIT_INCREASE_GREAT_SCIENTIST_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SPEEDUP_SOME_UNITS_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SPEEDUP_SOME_UNITS_MOVEMENT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -55,6 +90,17 @@
 			<ModifierId>TRAIT_INCREASE_GREAT_SCIENTIST_POINTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SPEEDUP_SOME_UNITS_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SPEEDUP_SOME_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SPEEDUP_SOME_UNITS_MOVEMENT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
 	<HistoricalAgendas>
