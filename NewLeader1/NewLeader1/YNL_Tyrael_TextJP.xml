@@ -113,6 +113,9 @@
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
 			<Text>貴様のような忌まわしい嘘つきは信用ならぬ！ 最低最悪の輩だ。(非難)</Text>
 		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
+			<Text>2つの国は知らぬ者同士ではない。平和の時代に、貴公に数々の勝利あれ。</Text>
+		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
 			<Text>他者を信頼せぬものがどうして他者から信頼されようか？</Text>
 		</Replace>
@@ -121,6 +124,9 @@
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
 			<Text>考え直すべきだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
+			<Text>貴公の首は柱に吊るされるのがお似合いだ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
 			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY}</Text>

@@ -99,7 +99,7 @@
 		<Row Tag="LOC_LEADER_YNL_TYRAEL_QUOTE" Language="en_US">
 			<Text></Text>
 		</Row>
-    
+
 		<!-- Leader Dialog -->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_TYRAEL_ANY" Language="en_US">
 		  <Text>I am Archangel Tyrael.</Text>
@@ -113,6 +113,9 @@
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
 			<Text>You are a wretched liar and cannot be trusted! You are the worst of your kind. (Denounces You)</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+			<Text>Our two nations have never been stronger. May you have many victories in times of peace.</Text>
+		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_TYRAEL_ANY" Language="en_US">
 			<Text>Loyalty is its own reward. Do you not know this?</Text>
 		</Row>
@@ -121,6 +124,9 @@
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
 			<Text>You should reconsider.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
+			<Text>Your head would look good at the end of a pole.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="en_US">
 			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY}</Text>
