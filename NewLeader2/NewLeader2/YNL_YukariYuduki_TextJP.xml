@@ -6,7 +6,7 @@
 			<Text>「VOICEROID+ 結月ゆかり」</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YUKARI_YUDUKI_CHAPTER_DETAILED_BODY" Language="ja_JP">
-			<Text>雪原やツンドラから各種ボーナスを得ることができ、毎ターン得られる大科学者へのボーナスポイントと工業大学の建設で他文明名より先んじて技術を獲得できるでしょう。自走榴弾砲はコストこそ重いですが防御の硬い都市にも通用する高い能力を備えています。</Text>
+			<Text>雪原やツンドラから各種ボーナスを追加で得ることができ、毎ターン得られる大科学者へのボーナスポイントと工業大学の建設で他文明名より先んじて技術を獲得できるでしょう。自走榴弾砲はコストこそ重いですが防御の硬い都市にも通用する高い能力を備えています。</Text>
 		</Replace>
 
 		<!-- Leader specific historical text. -->
@@ -157,10 +157,10 @@
 			<Text>それは残念です。では、またの機会に。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
-			<Text>2歩進んで3歩下がるといったところでしょうか・・・</Text>
+			<Text>そのような見え透いた嘘・・・どういうおつもりなのでしょう？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
-			<Text>これは、世界中が知るべき裏切りです。(非難)</Text>
+			<Text>あなたの腹積もりが気に入りませんね。この情報が耳に入れば、お友達はどう思うでしょう？(非難)</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
 			<Text>こちらが大使館の建設許可です。どうぞお受け取りください。</Text>
@@ -178,7 +178,7 @@
 			<Text>それは残念です。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
-			<Text>ようこそ。文明のリーダーたるこの私、結月ゆかりがお迎えします。</Text>
+			<Text>こんにちは。文明のリーダーたるこの私、結月ゆかりがお迎えします。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
 			<Text>近くの街へご案内します。祝いの式典にぜひ参加を。</Text>
