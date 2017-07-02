@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_PEOPLESOFTHESEA" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_IMP_NAVYYARD"         Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_PEOPLESOFTHESEA"               Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_HOUSEBOAT"         Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_UNIQUE_BATTLESHIP_NAGATO" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<Name>LOC_CIVILIZATION_PEOPLESOFTHESEA_NAME</Name>
+			<Description>LOC_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_PEOPLESOFTHESEA_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+		</Row>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" LeaderType="LEADER_YNL_NAGATO" CapitalName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_1" />
+	</CivilizationLeaders>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" TraitType="TRAIT_CIVILIZATION_BUILDING_IMP_NAVYYARD" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" TraitType="TRAIT_CIVILIZATION_PEOPLESOFTHESEA"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_HOUSEBOAT"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_IMP_NAVYYARD" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" />
+		<Row TraitType="TRAIT_CIVILIZATION_PEOPLESOFTHESEA"       Name="LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME" Description="LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_HOUSEBOAT" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_HOUSEBOAT_NAME"/>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>PEOPLESOFTHESEA_EARLY_OCEAN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>TRAIT_INCREASED_COAST_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>PEOPLESOFTHESEA_EARLY_OCEAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_COAST_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PEOPLESOFTHESEA_EARLY_OCEAN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>PEOPLESOFTHESEA_EARLY_OCEAN</ModifierId>
+			<Name>Valid</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_COAST_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_COAST_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_1"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_2"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_3"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_4"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_5"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_6"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_7"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_8"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_9"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CitizenName="LOC_CITIZEN_PEOPLESOFTHESEA_FEMALE_10" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<!--
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
+	</CivilizationInfo>
+	-->
+	
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" CityName="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_11" />
+	</CityNames>
+
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_PEOPLESOFTHESEA" TerrainType="TERRAIN_COAST" Tier="3"/>
+	</StartBiasTerrains>
+</GameData>

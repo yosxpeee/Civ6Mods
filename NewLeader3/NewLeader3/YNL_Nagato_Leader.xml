@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_YNL_NAGATO" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_YNL_NAGATO"                    Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
+			<Name>LOC_LEADER_YNL_NAGATO_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YNL_NAGATO" Quote="LOC_LEADER_YNL_NAGATO_QUOTE"/>
+	</LeaderQuotes>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_YNL_NAGATO" AgendaType="AGENDA_BUSHIDO"/>
+	</HistoricalAgendas>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_YNL_NAGATO"/>
+		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO"                    Name="LOC_TRAIT_LEADER_YNL_NAGATO_NAME"                    Description="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO" Name="LOC_TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="HEAL_AFTER_DEFEATING_UNIT"/>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
+	</TraitModifiers>
+
+	<AiListTypes>
+		<Row ListType="YNL_NagatoWonders"/>
+		<Row ListType="YNL_NagatoCivics"/>
+		<Row ListType="YNL_NagatoTechs"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Buildings -->
+		<Row ListType="YNL_NagatoWonders" LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Buildings"/>
+		<!-- Civics -->
+		<Row ListType="YNL_NagatoCivics"  LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Civics"/>
+		<!-- Techs -->
+		<Row ListType="YNL_NagatoTechs"   LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Buildings -->
+		<Row ListType="YNL_NagatoWonders" Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_NagatoWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="YNL_NagatoWonders" Item="BUILDING_COLOSSUS"/>
+		<Row ListType="YNL_NagatoWonders" Item="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Row ListType="YNL_NagatoWonders" Item="BUILDING_VENETIAN_ARSENAL"/>
+		<!-- Civics -->
+		<Row ListType="YNL_NagatoCivics" Item="CIVIC_NAVAL_TRADITION"/>
+		<Row ListType="YNL_NagatoCivics" Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="YNL_NagatoCivics" Item="CIVIC_NATIONALISM"/>
+		<Row ListType="YNL_NagatoCivics" Item="CIVIC_MERCANTILISM"/>
+		<!-- Techs -->
+		<Row ListType="YNL_NagatoTechs" Item="TECH_SAILING"/>
+		<Row ListType="YNL_NagatoTechs" Item="TECH_SHIPBUILDING"/>
+		<Row ListType="YNL_NagatoTechs" Item="TECH_SQUARE_RIGGING"/>
+		<Row ListType="YNL_NagatoTechs" Item="TECH_STEEL"/>
+		<Row ListType="YNL_NagatoTechs" Item="TECH_STEAM_POWER"/>
+		<Row ListType="YNL_NagatoTechs" Item="TECH_ELECTRICITY"/>
+	</AiFavoredItems>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_YNL_NAGATO" BackgroundImage="Background_DiplomcayInfo_Nagato.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YNL_NAGATO" BackgroundImage="Background_LoadingInfo_Nagato.dds" ForegroundImage="Foreground_LoadingInfo_Nagato.dds" LeaderText="LOC_LEADER_YNL_NAGATO_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_NAGATO_PRIMARY</Type>
+			<Color>247,118,0,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_NAGATO_SECONDARY</Type>
+			<Color>251,234,220,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_YNL_NAGATO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_YNL_NAGATO_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_YNL_NAGATO_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>

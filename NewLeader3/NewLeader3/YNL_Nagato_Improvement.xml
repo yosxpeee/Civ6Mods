@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_HOUSEBOAT" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" Name="LOC_IMPROVEMENT_HOUSEBOAT_NAME" Description="LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION" Icon="ICON_IMPROVEMENT_HOUSEBOAT" PlunderType="PLUNDER_HEAL" PlunderAmount="100" Buildable="true" PrereqTech="TECH_SHIPBUILDING" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_HOUSEBOAT" Housing="2" TilesRequired="2"/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" TerrainType="TERRAIN_COAST"/>
+		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" TerrainType="TERRAIN_OCEAN"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" YieldType="YIELD_GOLD"       YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="51" ImprovementType="IMPROVEMENT_HOUSEBOAT" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_MASS_PRODUCTION"/>
+	</Improvement_BonusYieldChanges>
+</GameInfo>

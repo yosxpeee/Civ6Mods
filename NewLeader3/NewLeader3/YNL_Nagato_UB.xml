@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_IMP_NAVYYARD" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_IMP_NAVYYARD" Name="LOC_BUILDING_IMP_NAVYYARD_NAME" Description="LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION" PrereqTech="TECH_MASS_PRODUCTION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="200" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_IMP_NAVYYARD"/>
+	</Buildings>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_IMP_NAVYYARD" ReplacesBuildingType="BUILDING_SHIPYARD"/>
+	</BuildingReplaces>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_IMP_NAVYYARD" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+		<Row Building="BUILDING_SEAPORT" PrereqBuilding="BUILDING_IMP_NAVYYARD"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_IMP_NAVYYARD" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_IMP_NAVYYARD" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+	<Building_YieldDistrictCopies>
+		<Row BuildingType="BUILDING_IMP_NAVYYARD" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_PRODUCTION"/>
+	</Building_YieldDistrictCopies>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_IMP_NAVYYARD</BuildingType>
+			<ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+	</BuildingModifiers>
+</GameData>

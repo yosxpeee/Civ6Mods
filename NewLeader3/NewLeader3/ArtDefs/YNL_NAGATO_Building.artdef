@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>249</build>
+		<revision>237</revision>
+	</m_Version>
+	<m_TemplateName text="Buildings"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Building"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects:BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="CanAffectDistrict"/>
+						</Element>
+						<Element class="AssetObjects:BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="IsAffectedByDistrict"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Audio"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="StrategicView"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="Shipyard"/>
+										<m_RootCollectionName text="Buildings"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="Completed"/>
+										<m_RootCollectionName text="BuildStates"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="State"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="StrategicView001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="Shipyard_Pillaged"/>
+										<m_RootCollectionName text="Buildings"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="Pillaged"/>
+										<m_RootCollectionName text="BuildStates"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="State"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="StrategicView002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="Shipyard_UnderConstruction"/>
+										<m_RootCollectionName text="Buildings"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="UnderConstruction"/>
+										<m_RootCollectionName text="BuildStates"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="State"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="StrategicView003"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="BUILDING_IMP_NAVYYARD"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="BuildingChains"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Districts"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="DISTRICT_HARBOR"/>
+										<m_RootCollectionName text="District"/>
+										<m_ArtDefPath text="Districts.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Districts"/>
+										<m_ParamName text="District"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="1Harbor"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+										<m_RootCollectionName text="District"/>
+										<m_ArtDefPath text="Districts.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Districts"/>
+										<m_ParamName text="District"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="2RoyalNavyDockyard"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Buildings (Level 1)"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_LIGHTHOUSE"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Building"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="1Lighthouse"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Buildings (Level 2)"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_SHIPYARD"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Building"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="1Shipyard"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_IMP_NAVYYARD"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="YNL_NAGATO_Building.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Building"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="2Imp_Navyyard"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Buildings (Level 3)"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_SEAPORT"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Building"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="1Seaport"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="MaritimeBuildings"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects:ArtDefSet>

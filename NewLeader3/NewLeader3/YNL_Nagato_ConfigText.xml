@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_PEOPLESOFTHESEA_NAME" Language="en_US">
+			<Text>Peoples of the Sea</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION" Language="en_US">
+			<Text>Peoples of the Sea</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_PEOPLESOFTHESEA_ADJECTIVE" Language="en_US">
+			<Text>Peoples of the Sea</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_YNL_NAGATO_NAME" Language="en_US">
+			<Text>Nagato</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME" Language="en_US">
+			<Text>Peoples of the Sea</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION" Language="en_US">
+			<Text>All units gain ocean navigation capability as they can get on board.[NEWLINE]Gain one free builder at the beginning of each new era.[NEWLINE] +1 [ICON_Culture] Culture and +1 [ICON_Science] Science from coast and ocean.</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_YNL_NAGATO_NAME" Language="en_US">
+			<Text>Big seven's Power</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION" Language="en_US">
+			<Text>When they eliminate a unit, they heal up to 50 hit points.[NEWLINE]Allows coastal raiding for all naval melee units.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_IMP_NAVYYARD_NAME" Language="en_US">
+			<Text>Imperial Navy Yard</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Peoples of the Sea. +25% combat experience for all naval units trained in this city. Bonus [ICON_Production] Production equal to the adjacency bonus of the Harbor district. +2 [ICON_Science] Science, +1 [ICON_Housing] Housing. +2 [ICON_GreatAdmiral] points per turn.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_IMP_NAVYYARD_NAME" Language="en_US">
+			<Text>Peoples of the Sea unique building: Imperial Navy Yard</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_IMP_NAVYYARD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_HOUSEBOAT_NAME" Language="en_US">
+			<Text>House Boat</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a House Boat, unique to Sea of the Peoples.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold, [ICON_Production] Production and +1 [ICON_Housing] Housing. Can be built on Coasts and Oceans. </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_HOUSEBOAT_NAME" Language="en_US">
+			<Text>Sea of the pepoles unique improvement: House Boat</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HOUSEBOAT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_BATTLESHIP_NAGATO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="en_US">
+			<Text>Peoples of the Sea unique unit: Nagato Class Battleship</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION" Language="en_US">
+			<Text>Peoples of the Sea unique unit that replaces the Battleship. Stronger than the Normal Battleship.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="en_US">
+			<Text>Nagato Class Battleship</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

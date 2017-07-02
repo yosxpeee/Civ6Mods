@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO32"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO45"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO50"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO55"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO64"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO80"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO256"/>
+
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS45.dds"/><!--Baked in color-->
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS256.dds"/>
+
+		<Row Name="ICON_ATLAS_YNL_NAGATO_UNIT_ACTIONS" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HOUSEBOAT38.dds"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_UNIT_ACTIONS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HOUSEBOAT50.dds"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_UNIT_ACTIONS" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HOUSEBOAT80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_NAGATO_UNIT_ACTIONS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HOUSEBOAT256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- Leader And Civilization -->
+		<Row Name="ICON_CIVILIZATION_PEOPLESOFTHESEA" Atlas="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" Index="0"/>
+		<Row Name="ICON_LEADER_YNL_NAGATO"            Atlas="ICON_ATLAS_YNL_NAGATO_LEADER" Index="0"/>
+
+		<!-- UU -->
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_WHITE" Index="74" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_BLACK" Index="74" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
+		
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO"     Atlas="ICON_ATLAS_UNITS"     Index="74"/>
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="74"/>
+
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="7"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2" Index="7"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2" Index="7"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="7"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2" Index="7"/>
+
+		<!-- UB -->
+		<Row Name="ICON_BUILDING_IMP_NAVYYARD" Atlas="ICON_ATLAS_BUILDINGS" Index="22"/>
+
+		<!-- Unique Improvement -->
+		<Row Name="ICON_IMPROVEMENT_HOUSEBOAT" Atlas="ICON_ATLAS_YNL_NAGATO_UNIT_ACTIONS" Index="0"/>
+	</IconDefinitions>
+</GameData>

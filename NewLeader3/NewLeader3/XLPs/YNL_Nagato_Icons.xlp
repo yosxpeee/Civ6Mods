@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_Nagato_Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="YNL_NAGATO256"/>
+			<m_ObjectName text="YNL_NAGATO256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_NAGATO32"/>
+			<m_ObjectName text="YNL_NAGATO32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_NAGATO50"/>
+			<m_ObjectName text="YNL_NAGATO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_NAGATO55"/>
+			<m_ObjectName text="YNL_NAGATO55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_NAGATO64"/>
+			<m_ObjectName text="YNL_NAGATO64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_NAGATO80"/>
+			<m_ObjectName text="YNL_NAGATO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_NAGATO45"/>
+			<m_ObjectName text="YNL_NAGATO45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS22"/>
+			<m_ObjectName text="CIV_YNL_POTS22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS30"/>
+			<m_ObjectName text="CIV_YNL_POTS30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS36"/>
+			<m_ObjectName text="CIV_YNL_POTS36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS44"/>
+			<m_ObjectName text="CIV_YNL_POTS44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS45"/>
+			<m_ObjectName text="CIV_YNL_POTS45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS48"/>
+			<m_ObjectName text="CIV_YNL_POTS48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS50"/>
+			<m_ObjectName text="CIV_YNL_POTS50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS64"/>
+			<m_ObjectName text="CIV_YNL_POTS64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS80"/>
+			<m_ObjectName text="CIV_YNL_POTS80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS128"/>
+			<m_ObjectName text="CIV_YNL_POTS128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="CIV_YNL_POTS256"/>
+			<m_ObjectName text="CIV_YNL_POTS256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HOUSEBOAT38"/>
+			<m_ObjectName text="YNL_HOUSEBOAT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HOUSEBOAT50"/>
+			<m_ObjectName text="YNL_HOUSEBOAT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HOUSEBOAT80"/>
+			<m_ObjectName text="YNL_HOUSEBOAT80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HOUSEBOAT256"/>
+			<m_ObjectName text="YNL_HOUSEBOAT256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_BATTLESHIP_NAGATO"     Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_BATTLESHIP_NAGATO" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" ReplacesUnitType="UNIT_BATTLESHIP"/>
+	</UnitReplaces>
+	<TypeTags>
+		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO" Tag="CLASS_ANTI_AIR"/>
+
+		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO" Tag="CLASS_BATTLESHIP_NAGATO"/>
+		<Row Type="ABILITY_BATTLESHIP_NAGATO"     Tag="CLASS_BATTLESHIP_NAGATO"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" BaseMoves="5" Cost="450" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Description="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="6" Combat="75" RangedCombat="85" Range="3" PrereqTech="TECH_STEEL" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO" StrategicResource="RESOURCE_COAL" AntiAirCombat="80"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_UNIQUE_BATTLESHIP_NAGATO" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
+	</UnitUpgrades>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_BATTLESHIP_NAGATO" Name="LOC_ABILITY_BATTLESHIP_NAGATO_NAME" Description="LOC_ABILITY_BATTLESHIP_NAGATO_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_BATTLESHIP_NAGATO</UnitAbilityType>
+			<ModifierId>NAGATO_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>NAGATO_NEIGHBOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NAGATO_PLOT_IS_DESTROYER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>NAGATO_NEIGHBOR_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="NAGATO_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_BATTLESHIP_NAGATO_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>NAGATO_PLOT_IS_DESTROYER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>NAGATO_PLOT_IS_DESTROYER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_DESTROYER</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_DESTROYER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_DESTROYER</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_DESTROYER</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>
