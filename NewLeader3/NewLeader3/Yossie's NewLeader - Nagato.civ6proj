@@ -6,8 +6,8 @@
     <Guid>ae550553-36e2-41fe-a654-f9ff0fb61408</Guid>
     <ProjectGuid>c32316f9-0933-4b2d-b65b-2bb53b41fd7e</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
-    <Description>Yossie's New Leader - Nagato</Description>
+    <Teaser>Yossie's New Leader - Nagato</Teaser>
+    <Description>Yossie's New Leader - Nagato v1.0</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -17,6 +17,7 @@
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_NAGATO</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>NewLeader3</AssemblyName>
     <RootNamespace>NewLeader3</RootNamespace>
+    <Authors>Yossie</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

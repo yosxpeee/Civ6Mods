@@ -61,13 +61,13 @@
 			<Text>大和型戦艦に次ぐ日本を代表する超弩級戦艦。当時の日本人にとって海軍の象徴たる戦艦で、｢長門と陸奥は日本の誇り、アジアの誉れ｣とまで呼ばれた。一番艦の「長門」は第二次世界大戦を生き抜き、米軍に接収され1946年のクロスロード作戦による原爆の標的艦となる。二発の原爆に耐えるも実験から4日後に沈没。今もなお実験場となったビキニ環礁で眠っている。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="ja_JP">
-			<Text>海の民固有のユニット: 長門級戦艦</Text>
+			<Text>海の民固有のユニット: 長門型戦艦</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION" Language="ja_JP">
 			<Text>戦艦に取ってかわる海の民固有の近代のユニット。通常の戦艦よりもはるかに強力。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="ja_JP">
-			<Text>長門級戦艦</Text>
+			<Text>長門型戦艦</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
