@@ -5,13 +5,22 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_NAGATO_CHAPTER_CAPSULE_BODY" Language="ja_JP">
 			<Text>長門型戦艦一番艦「長門」</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUTSU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>長門型戦艦二番艦「陸奥」</Text>
+		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_NAGATO_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>沿岸、海からの追加ボーナスとユニーク施設の家船で陸地が少ないマップでも各種ボーナスを確保できます。帝国海軍工廠は造船所よりも建造コストが低く、科学力へのボーナスもあります。また、長門級戦艦は通常の戦艦と比べてはるかに強力な能力を持っており、他文明を圧倒できるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUTSU_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>沿岸、海からの追加ボーナスとユニーク施設の家船で陸地が少ないマップでも各種ボーナスを確保できます。帝国海軍工廠は造船所よりも建造コストが低く、科学力へのボーナスもあります。また、長門級戦艦は通常の戦艦と比べてはるかに強力な能力を持っており、他文明を圧倒できるでしょう。</Text>
 		</Replace>
 
 		<!-- Leader specific historical text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_NAGATO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ブラウザゲーム「艦隊これくしょん」に登場する長門級戦艦一番艦「長門」を擬人化した艦娘。通常建造・通常海域で手に入れることのできる戦艦のなかでは二番艦の「陸奥」と並んで最強を誇る。序盤に運よく建造で迎え入れることができれば、その圧倒的な強さで海域攻略に貢献してくれるだろう。(コストもすごいが・・・)[NEWLINE]イベント海域においても大和型と並び切り札的に扱われることも多く、2017年5月22日のアップデートで実装された改二への改装でますますその傾向が強まったといえる。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUTSU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ブラウザゲーム「艦隊これくしょん」に登場する長門級戦艦二番艦「陸奥」を擬人化した艦娘。通常建造・通常海域で手に入れることのできる戦艦のなかでは一番艦の「長門」と並んで最強を誇る。序盤に運よく建造で迎え入れることができれば、その圧倒的な強さで海域攻略に貢献してくれるだろう。(コストもすごいが・・・)[NEWLINE]イベント海域においても大和型と並び切り札的に扱われることも多い。長門との違いは運が低いことだが、主砲カットインを使う機会があまりない現状では気にならないだろう。</Text>
 		</Replace>
 
 		<!-- Civilization specific historical text. -->
@@ -85,6 +94,18 @@
 		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_11" Language="ja_JP">
 			<Text>声問</Text>
 		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_12" Language="ja_JP">
+			<Text>馬公</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_13" Language="ja_JP">
+			<Text>大湊</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_14" Language="ja_JP">
+			<Text>旅順</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_15" Language="ja_JP">
+			<Text>鎮海</Text>
+		</Replace>
 
 		<!--Civilization Factoids -->
 		<!--
@@ -99,6 +120,9 @@
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_NAGATO_QUOTE" Language="ja_JP">
 			<Text>戦艦長門、出撃する！</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_MUTSU_QUOTE" Language="ja_JP">
+			<Text>戦艦陸奥、出撃よ！</Text>
 		</Replace>
 
 		<!-- Leader Dialog -->
@@ -232,10 +256,10 @@
 			<Text>平和の申し出、お受けしよう。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YNL_NAGATO_ANY" Language="ja_JP">
-			<Text>この状況で和平だと？そんなもの。受け入れられるはずがない！</Text>
+			<Text>この状況で和平だと？そんなもの、受け入れられるはずがない！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YNL_NAGATO_ANY" Language="ja_JP">
-			<Text>すみまない、和平を結びたいのだが・・・</Text>
+			<Text>すまない、和平を結びたいのだが・・・</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_YNL_NAGATO_ANY" Language="ja_JP">
 			<Text>これで戦争は終わりだな。</Text>
@@ -304,7 +328,7 @@
 			<Text>了解した。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_YNL_NAGATO_ANY" Language="ja_JP">
-			<Text>貴様・・・とんでもないことをしてくれたな。我が国送ったスパイを今すぐ引き上げさせろ！！</Text>
+			<Text>貴様・・・とんでもないことをしてくれたな。我が国に送ったスパイを今すぐ引き上げさせろ！！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_NAGATO_ANY" Language="ja_JP">
 			<Text>了解した。</Text>
@@ -331,8 +355,240 @@
 			<Text>・・・覚悟しておくがいい。いずれ必ず報いがある。</Text>
 		</Replace>
 
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>これからは仲良くやっていきましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>またの機会にお願いね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちと正式な友好関係を結ぶことに同意していただけるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>感謝するわね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>そう・・・それは残念ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>……え、本気なの？ふ～ん。お姉さん、知らないぞ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>さーて、とどめを刺すわよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>戦いで沈む・・・何でだろう・・・あまり悔しくはないわ・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>戦いで沈む・・・何でだろう・・・あまり悔しくはないわ・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>あなたの国からの使節を歓迎するわぞ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>ごめんなさいね、承諾できないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>こちらの使節を受け入れてくれるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>これは素敵ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>それは残念ね。それじゃ、またの機会にね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>そんな脅しなんかなにも恐くはないわ。行動を見せなさい。目的を示しなさい。克己の心を見せてみなさいよ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>道理のわからないおバカさんね。国民にもいずれ知れ渡るわよ。(非難)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>これが大使館の建設許可よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>またの機会にね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちの国の大使館を置いてもらえるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>今日という幸運な日に祝福を。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>それは残念ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>戦艦陸奥よ。よろしく頼むわね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>近くの街へ案内するわ。祝いの式典にぜひ参加していって。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>いいわよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>あら、どちらも遠方の出なのね。お互いの国をお互いの地図に記し合うというのはどう？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>なにか用なの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>雄々しく、輝かしい日輪のごとく、あなたは大国を築いたわ。見事なものね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちの国の軍の訓戒には「言行に恥づる勿かりしか」という言葉があるの。あなたもよく覚えておくことね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちの同盟関係に祝福がありますように。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>ごめんなさいね、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>同盟を希望するの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>これはありがたいわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>それは残念ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>いいわ。喜んで取引に応じましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>この取引には応じられないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>ありがとう。これによって互いに利益があるはずよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>正直なところ、失望したわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>こちらの希望にかなう取引よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>そちらの要求に得るところはないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>承諾の返事、受け取ってね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>要求を呑むとは、賢明な判断ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>・・・どんな手を使っててでも要求を通してみせるわ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>平和の申し出、お受けするわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>この状況で和平？そんなものは受け入れられないわ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>ちょっといい？和平を結びたいのだけど・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>これで戦争は終わりね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>そう・・・それなら、やるしかないわね！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちの国へ自由に出入りしてもらって結構よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>ごめんなさい、またの機会にね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>領内の通行を許可していただけるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>これは素敵ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>それは残念ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>あら、ごめんなさい。そんな近くに都市があるなんて知らなかったわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちも土地が必要なのよ。勝手なことを言わないでもらえるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちのすぐそばに都市を作らないでちょうだい。土地を求めるなら他の場所にしてもらえる？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちに敬意を払わない国にどうして敬意を払えっていうの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>ごめんなさいね。蛮族を探していただけなの。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>あちこちに軍隊を派遣するのが好きなの。自分の強さを誇示できるから、ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>あなたたちの言うとおりね。こんな手に訴えたことを後悔しているわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>・・・そんな約束、真に受けると思ってるの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>この土地があなたの国のものだとは知らなかったわ。単純な手違いよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>歴史の謎は万人に開示されるべきよ。独占は許されないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>あなたの国の希望は尊重するわ。でも、それは間違いよ。いつかわかってほしいのだけど。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>心配はいらないわ。これが一番なのよ。あなたにもいずれわかるときが来るわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>国境のすぐそばに兵を動かしたわね。私たちの国の美しい田園風景を楽しんでいるだけだといいのだけど。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>・・・たいしたものね。私たちの国に送ったスパイを今すぐ引き上げさせなさい！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>この侮辱、絶対に忘れないわ。よく憶えておくことね・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たち国の文化や歴史を盗むなんて、どういうつもりなのかしら。いますぐ出て行ってもらうわ！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>私たちの国を尊重してもらえないのなら、あなたたちの国を尊重することもできないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>あなたの国の宗教家はやり方が強引で評判が悪いと聞いているの。いますぐ立ち退いてもらえないかしら。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="ja_JP">
+			<Text>・・・覚悟しておくことね。いずれ必ず報いがあるわ。</Text>
+		</Replace>
+
 		<Replace Tag="LOC_LEADER_YNL_NAGATO_DOM_TEXT" Language="ja_JP">
 			<Text>八八艦隊計画の第一号艦として生まれた、長門型戦艦のネームシップ、長門だ。大和型が就役するまで、連合艦隊旗艦も務めていたさ。世界のビッグ７と云われてもいたな。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_MUTSU_DOM_TEXT" Language="ja_JP">
+			<Text>長門型戦艦の2番艦として生まれた陸奥よ。もちろん、世界のビッグ7の一艦になるわね。え？主砲火薬庫爆発事故？まあ、隠してもしょうがないわね。今度は大丈夫よ！</Text>
 		</Replace>
 
 		<Replace Tag="LOC_ABILITY_BATTLESHIP_NAGATO_NAME" Language="ja_JP">

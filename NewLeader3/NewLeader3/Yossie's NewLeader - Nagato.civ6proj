@@ -6,15 +6,15 @@
     <Guid>ae550553-36e2-41fe-a654-f9ff0fb61408</Guid>
     <ProjectGuid>c32316f9-0933-4b2d-b65b-2bb53b41fd7e</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>Yossie's New Leader - Nagato</Teaser>
-    <Description>Yossie's New Leader - Nagato v1.0</Description>
+    <Teaser>Yossie's New Leader - Nagato/Mutsu</Teaser>
+    <Description>Yossie's New Leader - Nagato/Mutsu v1.1</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Nagato_Improvement.xml</File><File>YNL_Nagato_Civilization.xml</File><File>YNL_Nagato_Leader.xml</File><File>YNL_Nagato_UU.xml</File><File>YNL_Nagato_UB.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Nagato_ConfigText.xml</File><File>YNL_Nagato_Text.xml</File><File>YNL_Nagato_ConfigTextJP.xml</File><File>YNL_Nagato_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Nagato_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="GameplayScripts"><File>GameplayScripts/YNL_Nagato_GameplayScripts.xml</File><File>GameplayScripts/YNL_Nagato_GameplayScripts.lua</File></AddGameplayScripts><ImportFiles id="Import"><File>Textures/Background_DiplomcayInfo_Nagato.dds</File><File>Textures/Background_LoadingInfo_Nagato.dds</File><File>Textures/Foreground_LoadingInfo_Nagato.dds</File><File>Textures/YNL_NAGATO256.dds</File><File>Textures/YNL_NAGATO32.dds</File><File>Textures/YNL_NAGATO45.dds</File><File>Textures/YNL_NAGATO50.dds</File><File>Textures/YNL_NAGATO55.dds</File><File>Textures/YNL_NAGATO64.dds</File><File>Textures/YNL_NAGATO80.dds</File><File>Textures/CIV_YNL_POTS128.dds</File><File>Textures/CIV_YNL_POTS22.dds</File><File>Textures/CIV_YNL_POTS256.dds</File><File>Textures/CIV_YNL_POTS30.dds</File><File>Textures/CIV_YNL_POTS36.dds</File><File>Textures/CIV_YNL_POTS44.dds</File><File>Textures/CIV_YNL_POTS45.dds</File><File>Textures/CIV_YNL_POTS48.dds</File><File>Textures/CIV_YNL_POTS50.dds</File><File>Textures/CIV_YNL_POTS64.dds</File><File>Textures/YNL_NAGATO80.dds</File><File>Textures/YNL_HOUSEBOAT256.dds</File><File>Textures/YNL_HOUSEBOAT38.dds</File><File>Textures/YNL_HOUSEBOAT50.dds</File><File>Textures/YNL_HOUSEBOAT80.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Nagato_Improvement.xml</File><File>YNL_Nagato_Civilization.xml</File><File>YNL_Nagato_Leader.xml</File><File>YNL_Nagato_UU.xml</File><File>YNL_Nagato_UB.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Nagato_ConfigText.xml</File><File>YNL_Nagato_Text.xml</File><File>YNL_Nagato_ConfigTextJP.xml</File><File>YNL_Nagato_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Nagato_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="GameplayScripts"><File>GameplayScripts/YNL_Nagato_GameplayScripts.xml</File><File>GameplayScripts/YNL_Nagato_GameplayScripts.lua</File></AddGameplayScripts><ImportFiles id="Import"><File>Textures/Background_DiplomcayInfo_Nagato.dds</File><File>Textures/Background_LoadingInfo_Nagato.dds</File><File>Textures/Foreground_LoadingInfo_Nagato.dds</File><File>Textures/YNL_NAGATO256.dds</File><File>Textures/YNL_NAGATO32.dds</File><File>Textures/YNL_NAGATO45.dds</File><File>Textures/YNL_NAGATO50.dds</File><File>Textures/YNL_NAGATO55.dds</File><File>Textures/YNL_NAGATO64.dds</File><File>Textures/YNL_NAGATO80.dds</File><File>Textures/CIV_YNL_POTS128.dds</File><File>Textures/CIV_YNL_POTS22.dds</File><File>Textures/CIV_YNL_POTS256.dds</File><File>Textures/CIV_YNL_POTS30.dds</File><File>Textures/CIV_YNL_POTS36.dds</File><File>Textures/CIV_YNL_POTS44.dds</File><File>Textures/CIV_YNL_POTS45.dds</File><File>Textures/CIV_YNL_POTS48.dds</File><File>Textures/CIV_YNL_POTS50.dds</File><File>Textures/CIV_YNL_POTS80.dds</File><File>Textures/CIV_YNL_POTS64.dds</File><File>Textures/YNL_HOUSEBOAT256.dds</File><File>Textures/YNL_HOUSEBOAT38.dds</File><File>Textures/YNL_HOUSEBOAT50.dds</File><File>Textures/YNL_HOUSEBOAT80.dds</File><File>Textures/YNL_MUTSU256.dds</File><File>Textures/YNL_MUTSU32.dds</File><File>Textures/YNL_MUTSU45.dds</File><File>Textures/YNL_MUTSU50.dds</File><File>Textures/YNL_MUTSU64.dds</File><File>Textures/YNL_MUTSU80.dds</File><File>Textures/Background_DiplomcayInfo_Mutsu.dds</File><File>Textures/Background_LoadingInfo_Mutsu.dds</File><File>Textures/Foreground_LoadingInfo_Mutsu.dds</File><File>Textures/LEADER_YNL_MUTSU_NEUTRAL.dds</File><File>Textures/LEADER_YNL_NAGATO_NEUTRAL.dds</File><File>Textures/FALLBACK_NEUTRAL_YNL_MUTSU.dds</File><File>Textures/FALLBACK_NEUTRAL_YNL_NAGATO.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Nagato_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Nagato_ConfigText.xml</File><File>YNL_Nagato_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Nagato_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_NAGATO</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_NAGATO,StandardPlayers::LEADER_YNL_MUTSU</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>NewLeader3</AssemblyName>
     <RootNamespace>NewLeader3</RootNamespace>
     <Authors>Yossie</Authors>
@@ -40,6 +40,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\YNL_NAGATO_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Background_DiplomcayInfo_Mutsu.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Background_LoadingInfo_Mutsu.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\CIV_YNL_POTS128.dds">
@@ -108,6 +114,21 @@
     <Content Include="Textures\CIV_YNL_POTS80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_YNL_MUTSU.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_YNL_MUTSU.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Foreground_LoadingInfo_Mutsu.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_MUTSU_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_MUTSU_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\YNL_HOUSEBOAT256.dds">
       <SubType>Content</SubType>
     </Content>
@@ -130,6 +151,48 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\YNL_HOUSEBOAT80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MUTSU80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\YNL_NAGATO256.dds">

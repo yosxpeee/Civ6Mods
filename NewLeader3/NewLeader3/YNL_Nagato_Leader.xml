@@ -2,8 +2,10 @@
 <GameData>
 	<Types>
 		<Row Type="LEADER_YNL_NAGATO" Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_YNL_NAGATO"                    Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_YNL_NAGATO" Kind="KIND_TRAIT"/>
+
+		<Row Type="LEADER_YNL_MUTSU"  Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_YNL_MUTSU"  Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row>
@@ -11,30 +13,68 @@
 			<Name>LOC_LEADER_YNL_NAGATO_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
+			<Name>LOC_LEADER_YNL_MUTSU_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_YNL_NAGATO" Quote="LOC_LEADER_YNL_NAGATO_QUOTE"/>
+		
+		<Row LeaderType="LEADER_YNL_MUTSU"  Quote="LOC_LEADER_YNL_MUTSU_QUOTE"/>
 	</LeaderQuotes>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_YNL_NAGATO" AgendaType="AGENDA_BUSHIDO"/>
+		
+		<Row LeaderType="LEADER_YNL_MUTSU"  AgendaType="AGENDA_BUSHIDO"/>
 	</HistoricalAgendas>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_YNL_NAGATO"/>
-		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO"/>
+		
+		<Row LeaderType="LEADER_YNL_MUTSU"  TraitType="TRAIT_LEADER_YNL_MUTSU"/>
 	</LeaderTraits>
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_YNL_NAGATO"                    Name="LOC_TRAIT_LEADER_YNL_NAGATO_NAME"                    Description="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO" Name="LOC_TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME"/>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" Name="LOC_TRAIT_LEADER_YNL_NAGATO_NAME" Description="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION"/>
+		
+		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  Name="LOC_TRAIT_LEADER_YNL_MUTSU_NAME"  Description="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="HEAL_AFTER_DEFEATING_UNIT"/>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
+
+		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
+		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_BOOST_HOLY_SITE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU"/>
+		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_ADJUST_BUILDER_CHARGES"/>
 	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
 
 	<AiListTypes>
 		<Row ListType="YNL_NagatoWonders"/>
 		<Row ListType="YNL_NagatoCivics"/>
 		<Row ListType="YNL_NagatoTechs"/>
+		
+		<Row ListType="YNL_MutsuWonders"/>
+		<Row ListType="YNL_MutsuCivics"/>
+		<Row ListType="YNL_MutsuTechs"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- Buildings -->
@@ -43,6 +83,13 @@
 		<Row ListType="YNL_NagatoCivics"  LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Civics"/>
 		<!-- Techs -->
 		<Row ListType="YNL_NagatoTechs"   LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Technologies"/>
+
+		<!-- Buildings -->
+		<Row ListType="YNL_MutsuWonders" LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Buildings"/>
+		<!-- Civics -->
+		<Row ListType="YNL_MutsuCivics"  LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Civics"/>
+		<!-- Techs -->
+		<Row ListType="YNL_MutsuTechs"   LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Technologies"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Buildings -->
@@ -63,13 +110,34 @@
 		<Row ListType="YNL_NagatoTechs" Item="TECH_STEEL"/>
 		<Row ListType="YNL_NagatoTechs" Item="TECH_STEAM_POWER"/>
 		<Row ListType="YNL_NagatoTechs" Item="TECH_ELECTRICITY"/>
+
+		<!-- Buildings -->
+		<Row ListType="YNL_MutsuWonders" Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_MutsuWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="YNL_MutsuWonders" Item="BUILDING_COLOSSUS"/>
+		<Row ListType="YNL_MutsuWonders" Item="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Row ListType="YNL_MutsuWonders" Item="BUILDING_VENETIAN_ARSENAL"/>
+		<!-- Civics -->
+		<Row ListType="YNL_MutsuCivics" Item="CIVIC_NAVAL_TRADITION"/>
+		<Row ListType="YNL_MutsuCivics" Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="YNL_MutsuCivics" Item="CIVIC_NATIONALISM"/>
+		<Row ListType="YNL_MutsuCivics" Item="CIVIC_MERCANTILISM"/>
+		<!-- Techs -->
+		<Row ListType="YNL_MutsuTechs" Item="TECH_SAILING"/>
+		<Row ListType="YNL_MutsuTechs" Item="TECH_SHIPBUILDING"/>
+		<Row ListType="YNL_MutsuTechs" Item="TECH_SQUARE_RIGGING"/>
+		<Row ListType="YNL_MutsuTechs" Item="TECH_STEEL"/>
+		<Row ListType="YNL_MutsuTechs" Item="TECH_STEAM_POWER"/>
+		<Row ListType="YNL_MutsuTechs" Item="TECH_ELECTRICITY"/>
 	</AiFavoredItems>
 
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_NAGATO" BackgroundImage="Background_DiplomcayInfo_Nagato.dds"/>
+		<Row Type="LEADER_YNL_MUTSU"  BackgroundImage="Background_DiplomcayInfo_Mutsu.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_YNL_NAGATO" BackgroundImage="Background_LoadingInfo_Nagato.dds" ForegroundImage="Foreground_LoadingInfo_Nagato.dds" LeaderText="LOC_LEADER_YNL_NAGATO_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_YNL_MUTSU"  BackgroundImage="Background_LoadingInfo_Mutsu.dds"  ForegroundImage="Foreground_LoadingInfo_Mutsu.dds"  LeaderText="LOC_LEADER_YNL_MUTSU_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	<Colors>
 		<Row>
@@ -80,6 +148,14 @@
 			<Type>COLOR_PLAYER_YNL_NAGATO_SECONDARY</Type>
 			<Color>251,234,220,255</Color>
 		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_MUTSU_PRIMARY</Type>
+			<Color>250,50,50,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_MUTSU_SECONDARY</Type>
+			<Color>251,234,220,255</Color>
+		</Row>
 	</Colors>
 	<PlayerColors>
 		<Row>
@@ -87,6 +163,13 @@
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_YNL_NAGATO_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_YNL_NAGATO_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_YNL_MUTSU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_YNL_MUTSU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_YNL_MUTSU_SECONDARY</SecondaryColor>
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>

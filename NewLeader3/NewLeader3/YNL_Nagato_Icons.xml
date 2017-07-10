@@ -9,6 +9,14 @@
 		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO80"/>
 		<Row Name="ICON_ATLAS_YNL_NAGATO_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_NAGATO256"/>
 
+		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU32"/>
+		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU45"/>
+		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU50"/>
+		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU55"/>
+		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU64"/>
+		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU80"/>
+		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU256"/>
+
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS22.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS30.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS36.dds"/>
@@ -29,6 +37,7 @@
 		<!-- Leader And Civilization -->
 		<Row Name="ICON_CIVILIZATION_PEOPLESOFTHESEA" Atlas="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" Index="0"/>
 		<Row Name="ICON_LEADER_YNL_NAGATO"            Atlas="ICON_ATLAS_YNL_NAGATO_LEADER" Index="0"/>
+		<Row Name="ICON_LEADER_YNL_MUTSU"             Atlas="ICON_ATLAS_YNL_MUTSU_LEADER"  Index="0"/>
 
 		<!-- UU -->
 		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_WHITE" Index="74" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>

@@ -97,6 +97,34 @@
 			<m_EntryID text="YNL_HOUSEBOAT256"/>
 			<m_ObjectName text="YNL_HOUSEBOAT256"/>
 		</Element>
+		<Element>
+			<m_EntryID text="YNL_MUTSU256"/>
+			<m_ObjectName text="YNL_MUTSU256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_MUTSU32"/>
+			<m_ObjectName text="YNL_MUTSU32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_MUTSU50"/>
+			<m_ObjectName text="YNL_MUTSU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_MUTSU55"/>
+			<m_ObjectName text="YNL_MUTSU55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_MUTSU64"/>
+			<m_ObjectName text="YNL_MUTSU64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_MUTSU80"/>
+			<m_ObjectName text="YNL_MUTSU80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_MUTSU45"/>
+			<m_ObjectName text="YNL_MUTSU45"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
