@@ -15,6 +15,7 @@
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YNL_TYRAEL" TraitType="TRAIT_LEADER_YNL_TYRAEL"/>
 		<Row LeaderType="LEADER_YNL_TYRAEL" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BALLISTA"/>
+		<Row LeaderType="LEADER_YNL_TYRAEL" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
 	</LeaderTraits>
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_YNL_TYRAEL" Quote="LOC_LEADER_YNL_TYRAEL_QUOTE"/>
@@ -34,14 +35,17 @@
 		<Row ListType="YNL_TyraelWonders"/>
 		<Row ListType="YNL_TyraelCivics"/>
 		<Row ListType="YNL_TyraelTechs"/>
+		<Row ListType="YNL_TyraelCultureDistrict"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- Buildings -->
-		<Row ListType="YNL_TyraelWonders" LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Buildings"/>
-		<!-- Civics -->
-		<Row ListType="YNL_TyraelCivics"  LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Civics"/>
-		<!-- Techs -->
-		<Row ListType="YNL_TyraelTechs"   LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Technologies"/>
+		<Row ListType="YNL_TyraelWonders"         LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Buildings"/>
+		<!-- Civics -->					          
+		<Row ListType="YNL_TyraelCivics"          LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Civics"/>
+		<!-- Techs -->					          
+		<Row ListType="YNL_TyraelTechs"           LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Technologies"/>
+		
+		<Row ListType="YNL_TyraelCultureDistrict" LeaderType="TRAIT_LEADER_YNL_TYRAEL" System="Districts"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Buildings -->
@@ -58,6 +62,8 @@
 		<Row ListType="YNL_TyraelTechs" Item="TECH_MASONRY"/>
 		<Row ListType="YNL_TyraelTechs" Item="TECH_ENGINEERING"/>
 		<Row ListType="YNL_TyraelTechs" Item="TECH_PRINTING"/>
+		
+		<Row ListType="YNL_TyraelCultureDistrict" Item="DISTRICT_THEATER" Favored="true"/>
 	</AiFavoredItems>
 	<Colors>
 		<Row>
