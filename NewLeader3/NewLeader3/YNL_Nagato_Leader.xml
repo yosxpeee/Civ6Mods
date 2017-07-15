@@ -31,8 +31,10 @@
 	</HistoricalAgendas>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_YNL_NAGATO"/>
+		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
 		
 		<Row LeaderType="LEADER_YNL_MUTSU"  TraitType="TRAIT_LEADER_YNL_MUTSU"/>
+		<Row LeaderType="LEADER_YNL_MUTSU"  TraitType="TRAIT_LEADER_EXPANSIONIST"/>
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" Name="LOC_TRAIT_LEADER_YNL_NAGATO_NAME" Description="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION"/>
@@ -71,64 +73,74 @@
 		<Row ListType="YNL_NagatoWonders"/>
 		<Row ListType="YNL_NagatoCivics"/>
 		<Row ListType="YNL_NagatoTechs"/>
+		<Row ListType="YNL_NagatoHarborDistrict"/>
 		
 		<Row ListType="YNL_MutsuWonders"/>
 		<Row ListType="YNL_MutsuCivics"/>
 		<Row ListType="YNL_MutsuTechs"/>
+		<Row ListType="YNL_MutsuHarborDistrict"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- Buildings -->
-		<Row ListType="YNL_NagatoWonders" LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Buildings"/>
-		<!-- Civics -->
-		<Row ListType="YNL_NagatoCivics"  LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Civics"/>
-		<!-- Techs -->
-		<Row ListType="YNL_NagatoTechs"   LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Technologies"/>
+		<Row ListType="YNL_NagatoWonders"        LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Buildings"/>
+		<!-- Civics -->					         
+		<Row ListType="YNL_NagatoCivics"         LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Civics"/>
+		<!-- Techs -->					         
+		<Row ListType="YNL_NagatoTechs"          LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Technologies"/>
+
+		<Row ListType="YNL_NagatoHarborDistrict" LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Districts"/>
 
 		<!-- Buildings -->
-		<Row ListType="YNL_MutsuWonders" LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Buildings"/>
-		<!-- Civics -->
-		<Row ListType="YNL_MutsuCivics"  LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Civics"/>
-		<!-- Techs -->
-		<Row ListType="YNL_MutsuTechs"   LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Technologies"/>
+		<Row ListType="YNL_MutsuWonders"         LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Buildings"/>
+		<!-- Civics -->					         
+		<Row ListType="YNL_MutsuCivics"          LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Civics"/>
+		<!-- Techs -->					         
+		<Row ListType="YNL_MutsuTechs"           LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Technologies"/>
+												 
+		<Row ListType="YNL_MutsuHarborDistrict"  LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Districts"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Buildings -->
-		<Row ListType="YNL_NagatoWonders" Item="BUILDING_STONEHENGE"/>
-		<Row ListType="YNL_NagatoWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
-		<Row ListType="YNL_NagatoWonders" Item="BUILDING_COLOSSUS"/>
-		<Row ListType="YNL_NagatoWonders" Item="BUILDING_GREAT_LIGHTHOUSE"/>
-		<Row ListType="YNL_NagatoWonders" Item="BUILDING_VENETIAN_ARSENAL"/>
-		<!-- Civics -->
-		<Row ListType="YNL_NagatoCivics" Item="CIVIC_NAVAL_TRADITION"/>
-		<Row ListType="YNL_NagatoCivics" Item="CIVIC_MOBILIZATION"/>
-		<Row ListType="YNL_NagatoCivics" Item="CIVIC_NATIONALISM"/>
-		<Row ListType="YNL_NagatoCivics" Item="CIVIC_MERCANTILISM"/>
-		<!-- Techs -->
-		<Row ListType="YNL_NagatoTechs" Item="TECH_SAILING"/>
-		<Row ListType="YNL_NagatoTechs" Item="TECH_SHIPBUILDING"/>
-		<Row ListType="YNL_NagatoTechs" Item="TECH_SQUARE_RIGGING"/>
-		<Row ListType="YNL_NagatoTechs" Item="TECH_STEEL"/>
-		<Row ListType="YNL_NagatoTechs" Item="TECH_STEAM_POWER"/>
-		<Row ListType="YNL_NagatoTechs" Item="TECH_ELECTRICITY"/>
+		<Row ListType="YNL_NagatoWonders"        Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_NagatoWonders"        Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="YNL_NagatoWonders"        Item="BUILDING_COLOSSUS"/>
+		<Row ListType="YNL_NagatoWonders"        Item="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Row ListType="YNL_NagatoWonders"        Item="BUILDING_VENETIAN_ARSENAL"/>
+		<!-- Civics -->					         
+		<Row ListType="YNL_NagatoCivics"         Item="CIVIC_NAVAL_TRADITION"/>
+		<Row ListType="YNL_NagatoCivics"         Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="YNL_NagatoCivics"         Item="CIVIC_NATIONALISM"/>
+		<Row ListType="YNL_NagatoCivics"         Item="CIVIC_MERCANTILISM"/>
+		<!-- Techs -->					         
+		<Row ListType="YNL_NagatoTechs"          Item="TECH_SAILING"/>
+		<Row ListType="YNL_NagatoTechs"          Item="TECH_SHIPBUILDING"/>
+		<Row ListType="YNL_NagatoTechs"          Item="TECH_SQUARE_RIGGING"/>
+		<Row ListType="YNL_NagatoTechs"          Item="TECH_STEEL"/>
+		<Row ListType="YNL_NagatoTechs"          Item="TECH_STEAM_POWER"/>
+		<Row ListType="YNL_NagatoTechs"          Item="TECH_ELECTRICITY"/>
+
+		<Row ListType="YNL_NagatoHarborDistrict" Item="DISTRICT_HARBOR" Favored="true"/>
 
 		<!-- Buildings -->
-		<Row ListType="YNL_MutsuWonders" Item="BUILDING_STONEHENGE"/>
-		<Row ListType="YNL_MutsuWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
-		<Row ListType="YNL_MutsuWonders" Item="BUILDING_COLOSSUS"/>
-		<Row ListType="YNL_MutsuWonders" Item="BUILDING_GREAT_LIGHTHOUSE"/>
-		<Row ListType="YNL_MutsuWonders" Item="BUILDING_VENETIAN_ARSENAL"/>
-		<!-- Civics -->
-		<Row ListType="YNL_MutsuCivics" Item="CIVIC_NAVAL_TRADITION"/>
-		<Row ListType="YNL_MutsuCivics" Item="CIVIC_MOBILIZATION"/>
-		<Row ListType="YNL_MutsuCivics" Item="CIVIC_NATIONALISM"/>
-		<Row ListType="YNL_MutsuCivics" Item="CIVIC_MERCANTILISM"/>
-		<!-- Techs -->
-		<Row ListType="YNL_MutsuTechs" Item="TECH_SAILING"/>
-		<Row ListType="YNL_MutsuTechs" Item="TECH_SHIPBUILDING"/>
-		<Row ListType="YNL_MutsuTechs" Item="TECH_SQUARE_RIGGING"/>
-		<Row ListType="YNL_MutsuTechs" Item="TECH_STEEL"/>
-		<Row ListType="YNL_MutsuTechs" Item="TECH_STEAM_POWER"/>
-		<Row ListType="YNL_MutsuTechs" Item="TECH_ELECTRICITY"/>
+		<Row ListType="YNL_MutsuWonders"         Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_MutsuWonders"         Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="YNL_MutsuWonders"         Item="BUILDING_COLOSSUS"/>
+		<Row ListType="YNL_MutsuWonders"         Item="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Row ListType="YNL_MutsuWonders"         Item="BUILDING_VENETIAN_ARSENAL"/>
+		<!-- Civics -->					         
+		<Row ListType="YNL_MutsuCivics"          Item="CIVIC_NAVAL_TRADITION"/>
+		<Row ListType="YNL_MutsuCivics"          Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="YNL_MutsuCivics"          Item="CIVIC_NATIONALISM"/>
+		<Row ListType="YNL_MutsuCivics"          Item="CIVIC_MERCANTILISM"/>
+		<!-- Techs -->					         
+		<Row ListType="YNL_MutsuTechs"           Item="TECH_SAILING"/>
+		<Row ListType="YNL_MutsuTechs"           Item="TECH_SHIPBUILDING"/>
+		<Row ListType="YNL_MutsuTechs"           Item="TECH_SQUARE_RIGGING"/>
+		<Row ListType="YNL_MutsuTechs"           Item="TECH_STEEL"/>
+		<Row ListType="YNL_MutsuTechs"           Item="TECH_STEAM_POWER"/>
+		<Row ListType="YNL_MutsuTechs"           Item="TECH_ELECTRICITY"/>
+
+		<Row ListType="YNL_MutsuHarborDistrict"  Item="DISTRICT_HARBOR" Favored="true"/>
 	</AiFavoredItems>
 
 	<DiplomacyInfo>

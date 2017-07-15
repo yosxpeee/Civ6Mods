@@ -106,16 +106,21 @@
 		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_15" Language="ja_JP">
 			<Text>鎮海</Text>
 		</Replace>
-
-		<!--Civilization Factoids -->
-		<!--
-		<Replace Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="ja_JP">
-			<Text>Binomial Name</Text>
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_16" Language="ja_JP">
+			<Text>横須賀</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVINFO_FELIS_CATUS" Language="ja_JP">
-			<Text>Felis catus</Text>
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_17" Language="ja_JP">
+			<Text>青島</Text>
 		</Replace>
-		-->
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_18" Language="ja_JP">
+			<Text>永興</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_19" Language="ja_JP">
+			<Text>徳山</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_20" Language="ja_JP">
+			<Text>佐伯</Text>
+		</Replace>
 
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_NAGATO_QUOTE" Language="ja_JP">

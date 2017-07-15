@@ -106,15 +106,21 @@
 		<Row Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_15" Language="en_US">
 			<Text>Chinkai</Text>
 		</Row>
-		<!--Civilization Factoids -->
-		<!--
-		<Row Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="en_US">
-			<Text>Binomial Name</Text>
+		<Row Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_16" Language="en_US">
+			<Text>Yokosuka</Text>
 		</Row>
-		<Row Tag="LOC_CIVINFO_FELIS_CATUS" Language="en_US">
-			<Text>Felis catus</Text>
+		<Row Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_17" Language="en_US">
+			<Text>Quindao</Text>
 		</Row>
-		-->
+		<Row Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_18" Language="en_US">
+			<Text>Eikou</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_19" Language="en_US">
+			<Text>Tokuyama</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_20" Language="en_US">
+			<Text>Saeki</Text>
+		</Row>
 
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_YNL_NAGATO_QUOTE" Language="en_US">
