@@ -113,14 +113,17 @@
 		<Row ListType="YNL_YukariYudukiWonders"/>
 		<Row ListType="YNL_YukariYudukiCivics"/>
 		<Row ListType="YNL_YukariYudukiTechs"/>
+		<Row ListType="YNL_YukariYudukiScienceDistrict"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- Buildings -->
-		<Row ListType="YNL_YukariYudukiWonders" LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Buildings"/>
+		<Row ListType="YNL_YukariYudukiWonders"         LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Buildings"/>
 		<!-- Civics -->
-		<Row ListType="YNL_YukariYudukiCivics"  LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Civics"/>
+		<Row ListType="YNL_YukariYudukiCivics"          LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Civics"/>
 		<!-- Techs -->
-		<Row ListType="YNL_YukariYudukiTechs"   LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Technologies"/>
+		<Row ListType="YNL_YukariYudukiTechs"           LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Technologies"/>
+
+		<Row ListType="YNL_YukariYudukiScienceDistrict" LeaderType="TRAIT_LEADER_YUKARI_YUDUKI" System="Districts"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Buildings -->
@@ -143,6 +146,8 @@
 		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_SATELLITES"/>
 		<Row ListType="YNL_YukariYudukiTechs" Item="TECH_ROBOTICS"/>
+
+		<Row ListType="YNL_YukariYudukiScienceDistrict" Item="DISTRICT_CAMPUS" Favored="true"/>
 	</AiFavoredItems>
 	<Colors>
 		<Row>
