@@ -61,7 +61,23 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PISANELLO_NAME" Language="ja_JP">
 			<Text>ピサネロ</Text>
 		</Replace>
-		
+
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TINTORETTO_NAME" Language="ja_JP">
+			<Text>ティントレット</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA_NAME" Language="ja_JP">
+			<Text>横山大観</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN_NAME" Language="ja_JP">
+			<Text>ベンジャミン・フランクリン</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALUBOMULLE_SUMANASARA_NAME" Language="ja_JP">
+			<Text>アルボムッレ・スマナサーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ELLEN_GOULD_WHITE_NAME" Language="ja_JP">
+			<Text>エレン・グールド・ホワイト</Text>
+		</Replace>
+
 		<Replace Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="ja_JP">
 			<Text>「地図製作術」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
 		</Replace>
@@ -101,7 +117,17 @@
 		<Replace Tag="LOC_GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE" Language="ja_JP">
 			<Text>負傷しているユニットのHPが毎ターン+10回復する。</Text>
 		</Replace>
-		
+
+		<Replace Tag="LOC_GREATPERSON_ELECTRICITYTECHBOOST" Language="ja_JP">
+			<Text>「電気」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FACTORY_PRODUCTION" Language="ja_JP">
+			<Text>工場により [ICON_Production] 生産力+{Amount}。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FACTORY_GOLD" Language="ja_JP">
+			<Text>工場により [ICON_Gold] ゴールド+{Amount}。</Text>
+		</Replace>
+
 		<Replace Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="ja_JP">
 			<Text>パーソナルコンピューター</Text>
 		</Replace>

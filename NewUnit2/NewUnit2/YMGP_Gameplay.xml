@@ -21,6 +21,12 @@
 		<Row Type="GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND"              Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_LADY_GAGA"                 Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_PISANELLO"                 Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+
+		<Row Type="GREAT_PERSON_INDIVIDUAL_TINTORETTO"                Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA"           Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN"         Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ALUBOMULLE_SUMANASARA"     Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ELLEN_GOULD_WHITE"         Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 	</Types>
 	<GreatPersonIndividuals>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_SMITH_JR"           Name="LOC_GREAT_PERSON_INDIVIDUAL_JOSEPH_SMITH_JR_NAME"           GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_INDUSTRIAL"  ActionCharges="0" Gender="M"/>
@@ -43,6 +49,12 @@
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND"              Name="LOC_GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND_NAME"              GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"    EraType="ERA_INFORMATION" ActionCharges="0" Gender="M"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LADY_GAGA"                 Name="LOC_GREAT_PERSON_INDIVIDUAL_LADY_GAGA_NAME"                 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"  EraType="ERA_INFORMATION" ActionCharges="0" Gender="F"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_PISANELLO"                 Name="LOC_GREAT_PERSON_INDIVIDUAL_PISANELLO_NAME"                 GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"    EraType="ERA_RENAISSANCE" ActionCharges="0" Gender="M"/>
+
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TINTORETTO"                Name="LOC_GREAT_PERSON_INDIVIDUAL_TINTORETTO_NAME"                GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"    EraType="ERA_RENAISSANCE" ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA"           Name="LOC_GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA_NAME"           GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"    EraType="ERA_MODERN"      ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN"         Name="LOC_GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN_NAME"         GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER"  EraType="ERA_INDUSTRIAL"  ActionCharges="1" Gender="M" ActionRequiresCompletedDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALUBOMULLE_SUMANASARA"     Name="LOC_GREAT_PERSON_INDIVIDUAL_ALUBOMULLE_SUMANASARA_NAME"     GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_INFORMATION" ActionCharges="0" Gender="M"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ELLEN_GOULD_WHITE"         Name="LOC_GREAT_PERSON_INDIVIDUAL_ELLEN_GOULD_WHITE_NAME"         GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   EraType="ERA_MODERN"      ActionCharges="0" Gender="F"/>
 	</GreatPersonIndividuals>
 	<GreatPersonIndividualBirthModifiers>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"          ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
@@ -70,6 +82,10 @@
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_SANITATIONTECHBOOST"            AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_SCIENTIFIC_THEORYTECHBOOST"     AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE"    AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN"    ModifierId="GREATPERSON_ELECTRICITYTECHBOOST"           AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN"    ModifierId="GREATPERSON_FACTORY_PRODUCTION"             AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN"    ModifierId="GREATPERSON_FACTORY_GOLD"                   AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 	</GreatPersonIndividualActionModifiers>
 	<Modifiers>
 		<Row>
@@ -152,6 +168,24 @@
 			<ModifierId>GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE_HEAL_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
 			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELECTRICITYTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
 			<Permanent>true</Permanent>
 		</Row>
 	</Modifiers>
@@ -277,6 +311,41 @@
 			<Name>Type</Name>
 			<Value>ALL</Value>
 		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ELECTRICITYTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ELECTRICITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY_GOLD</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="GREATPERSON_CARTOGRAPHYTECHBOOST"        Context="Summary" Text="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST"/>
@@ -292,5 +361,9 @@
 		<Row ModifierId="GREATPERSON_SANITATIONTECHBOOST"         Context="Summary" Text="LOC_GREATPERSON_SANITATIONTECHBOOST"/>
 		<Row ModifierId="GREATPERSON_SCIENTIFIC_THEORYTECHBOOST"  Context="Summary" Text="LOC_GREATPERSON_SCIENTIFIC_THEORYTECHBOOST"/>
 		<Row ModifierId="GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE"/>
+
+		<Row ModifierId="GREATPERSON_ELECTRICITYTECHBOOST"        Context="Summary" Text="LOC_GREATPERSON_ELECTRICITYTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_FACTORY_PRODUCTION"          Context="Summary" Text="LOC_GREATPERSON_FACTORY_PRODUCTION"/>
+		<Row ModifierId="GREATPERSON_FACTORY_GOLD"                Context="Summary" Text="LOC_GREATPERSON_FACTORY_GOLD"/>
 	</ModifierStrings>
 </GameData>

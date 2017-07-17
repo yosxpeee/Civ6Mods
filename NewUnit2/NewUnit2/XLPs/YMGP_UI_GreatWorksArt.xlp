@@ -21,7 +21,7 @@
 			<m_EntryID text="VERMEER_3"/>
 			<m_ObjectName text="Vermeer3_Portrait"/>
 		</Element>
-				<Element>
+		<Element>
 			<m_EntryID text="PISANELLO_1"/>
 			<m_ObjectName text="Pisanello1_Portrait"/>
 		</Element>
@@ -32,6 +32,30 @@
 		<Element>
 			<m_EntryID text="PISANELLO_3"/>
 			<m_ObjectName text="Pisanello3_Religious"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TINTORETTO_1"/>
+			<m_ObjectName text="Tintoretto1_Religious"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TINTORETTO_2"/>
+			<m_ObjectName text="Tintoretto2_Religious"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TINTORETTO_3"/>
+			<m_ObjectName text="Tintoretto3_Religious"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TAIKAN_1"/>
+			<m_ObjectName text="Taikan1_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TAIKAN_2"/>
+			<m_ObjectName text="Taikan2_Landscape"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TAIKAN_3"/>
+			<m_ObjectName text="Taikan3_Landscape"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

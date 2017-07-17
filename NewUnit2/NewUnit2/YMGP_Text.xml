@@ -61,7 +61,23 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PISANELLO_NAME" Language="en_US">
 			<Text>Pisanello</Text>
 		</Row>
-		
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_TINTORETTO_NAME" Language="en_US">
+			<Text>Tintoretto</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA_NAME" Language="en_US">
+			<Text>Taikan Yokoyama</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN_NAME" Language="en_US">
+			<Text>Benjamin Franklin</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALUBOMULLE_SUMANASARA_NAME" Language="en_US">
+			<Text>Alubomulle Sumanasara</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ELLEN_GOULD_WHITE_NAME" Language="en_US">
+			<Text>Ellen Gould White</Text>
+		</Row>
+
 		<Row Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="en_US">
 			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Cartography technology.</Text>
 		</Row>
@@ -101,7 +117,17 @@
 		<Row Tag="LOC_GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE" Language="en_US">
 			<Text>Wounded units can heal +10 HP each turn.</Text>
 		</Row>
-		
+
+		<Row Tag="LOC_GREATPERSON_ELECTRICITYTECHBOOST" Language="en_US">
+			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Electricity technology.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_FACTORY_PRODUCTION" Language="en_US">
+			<Text>Factorys provide +{Amount} [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_FACTORY_GOLD" Language="en_US">
+			<Text>Factorys provide +{Amount} [ICON_Gold] Production.</Text>
+		</Row>
+
 		<Row Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="en_US">
 			<Text>Personal computers</Text>
 		</Row>
