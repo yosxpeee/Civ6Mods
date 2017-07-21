@@ -33,6 +33,10 @@
 			<m_EntryID text="FALLBACK_UNHAPPY_YUKARI_YUDUKI"/>
 			<m_ObjectName text="FALLBACK_UNHAPPY_YUKARI_YUDUKI"/>
 		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_DEFEAT_YUKARI_YUDUKI"/>
+			<m_ObjectName text="FALLBACK_DEFEAT_YUKARI_YUDUKI"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
