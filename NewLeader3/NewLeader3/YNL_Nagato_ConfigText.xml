@@ -12,7 +12,7 @@
 		<Row Tag="LOC_CIVILIZATION_PEOPLESOFTHESEA_ADJECTIVE" Language="en_US">
 			<Text>Peoples of the Sea</Text>
 		</Row>
-		
+
 		<Row Tag="LOC_LEADER_YNL_NAGATO_NAME" Language="en_US">
 			<Text>Nagato</Text>
 		</Row>
@@ -26,7 +26,7 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION" Language="en_US">
 			<Text>All units gain ocean navigation capability as they can get on board.[NEWLINE]Gain one free builder at the beginning of each new era.[NEWLINE] +1 [ICON_Culture] Culture and +1 [ICON_Science] Science from coast and ocean.</Text>
 		</Row>
-		
+
 		<Row Tag="LOC_TRAIT_LEADER_YNL_NAGATO_NAME" Language="en_US">
 			<Text>Big seven's Power(Nagato)</Text>
 		</Row>
@@ -69,13 +69,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_BATTLESHIP_NAGATO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_BATTLESHIP_MUTSU_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
-		</Row>
-
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_BATTLESHIP_NAGATO_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
-		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="en_US">
 			<Text>Peoples of the Sea unique unit: Nagato Class Battleship</Text>
 		</Row>
@@ -85,6 +78,5 @@
 		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="en_US">
 			<Text>Nagato Class Battleship</Text>
 		</Row>
-	
-</LocalizedText>
+	</LocalizedText>
 </GameData>

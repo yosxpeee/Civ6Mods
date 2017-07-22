@@ -19,7 +19,7 @@
 		<Replace Tag="LOC_LEADER_YNL_MUTSU_NAME" Language="ja_JP">
 			<Text>陸奥</Text>
 		</Replace>
-		
+
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME" Language="ja_JP">
 			<Text>海の民</Text>
 		</Replace>
@@ -39,7 +39,7 @@
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION" Language="ja_JP">
 			<Text>海洋近接戦闘ユニットが沿岸を略奪できるようになる。[NEWLINE]聖域および港の建設にかかる時間が半分になる。[NEWLINE]労働者の使用回数制限が通常よりも1回増加。</Text>
 		</Replace>
-		
+
 		<Replace Tag="LOC_BUILDING_IMP_NAVYYARD_NAME" Language="ja_JP">
 			<Text>帝国海軍工廠</Text>
 		</Replace>
