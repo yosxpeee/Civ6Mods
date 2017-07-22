@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_DPRT_NAME" Language="en_US">
+			<Text>Democratic People's Republic Tohoku</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_DPRT_DESCRIPTION" Language="en_US">
+			<Text>Democratic People's Republic Tohoku</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_DPRT_ADJECTIVE" Language="en_US">
+			<Text>Democratic People's Republic Tohoku</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_ZUNKO_TOHOKU_NAME" Language="en_US">
+			<Text>Zunko Tohoku</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DPRT_NAME" Language="en_US">
+			<Text>Animism</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide [ICON_Faith] Faith equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Language="en_US">
+			<Text>Zunda Arrow</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION" Language="en_US">
+			<Text>Can capture defeated enemy civilization combat units and convert them to Builders.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_ZUNDA_CAFE_NAME" Language="en_US">
+			<Text>Zunda Cafe</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION" Language="en_US">
+			<Text>Zunko Tohoku unique building that replaces Water Mill. +1 [ICON_Amenities] Amenities, +2 [ICON_Food] Food, +1 [ICON_Production] Production, +1 [ICON_Gold] Gold. [ICON_RESOURCE_COFFEE] Coffee resources and [ICON_RESOURCE_TEA] gain +2 [ICON_Culture] Culture each. [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_SALT] Salt, [ICON_RESOURCE_RICE] Rice gain +1 [ICON_Food] Food each. Can be build along the river.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME" Language="en_US">
+			<Text>Zunko Tohoku unique building: Zunda Cafe</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ZUNDA_CAFE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME" Language="en_US">
+			<Text>Zunko Tohoku unique unit: Zunda House Archer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZUNKO_HORSE_ARCHER_DESCRIPTION" Language="en_US">
+			<Text>Zunko Tohoku unique Classical era unit. Ranged unit with 4 [ICON_Movement] Movement with a [ICON_Range] Range of 2. Can capture defeated enemy civilization combat units and convert them to Builders.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZUNKO_HORSE_ARCHER_NAME" Language="en_US">
+			<Text>Zunda House Archer</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ZUNKO_HORSE_ARCHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_ZUNKO_TOHOKU"                  Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_ZUNKO_TOHOKU"            Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"     Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_YNL_ZUNKO_CAPTURE_WORKER"     Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_CAPTURE_WORKER_ZUNKO" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_SLINGER"                     Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
+		<Row Type="UNIT_ARCHER"                      Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
+		<Row Type="UNIT_CROSSBOWMAN"                 Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
+		<Row Type="UNIT_FIELD_CANNON"                Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
+		<Row Type="UNIT_MACHINE_GUN"                 Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
+		<Row Type="UNIT_ZUNKO_HORSE_ARCHER"          Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
+		<Row Type="ABILITY_YNL_ZUNKO_CAPTURE_WORKER" Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
+	</TypeTags>
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
+			<Name>LOC_LEADER_ZUNKO_TOHOKU_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_ZUNKO_TOHOKU"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" Name="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE" Name="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Name="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>
+	</TraitModifiers>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU" Quote="LOC_LEADER_ZUNKO_TOHOKU_QUOTE"/>
+	</LeaderQuotes>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_YNL_ZUNKO_CAPTURE_WORKER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_YNL_ZUNKO_CAPTURE_WORKER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_YNL_ZUNKO_CAPTURE_WORKER</Value>
+		</Row>
+	</ModifierArguments>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YNL_ZUNKO_CAPTURE_WORKER" Name="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Description="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_ZUNKO_CAPTURE_WORKER</UnitAbilityType>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_ZUNKO_TOHOKU" BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU" ForegroundImage="Foreground_LoadingInfo_Zunko.dds" BackgroundImage="Background_LoadingInfo_Zunko.dds" LeaderText="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_ZUNKO_TOHOKU_PRIMARY</Type>
+			<Color>18,94,8,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_ZUNKO_TOHOKU_SECONDARY</Type>
+			<Color>57,187,40,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ZUNKO_TOHOKU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_ZUNKO_TOHOKU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_ZUNKO_TOHOKU_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_DPRT"       Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_LEADER_ZUNKO_TOHOKU"     Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<!-- UB -->
+		<Row Name="ICON_BUILDING_ZUNDA_CAFE"     Atlas="ICON_ATLAS_BUILDINGS" Index="7"/>
+		<!-- UU -->
+		<Row Name="ICON_UNIT_ZUNKO_HORSE_ARCHER"                            Atlas="ICON_ATLAS_UNITS"                         Index="36"/>
+		<Row Name="ICON_UNIT_ZUNKO_HORSE_ARCHER_FOW"                        Atlas="ICON_ATLAS_UNITS_FOW"                     Index="36"/>
+		<Row Name="ICON_UNIT_ZUNKO_HORSE_ARCHER_WHITE"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"       Index="36"/>
+		<Row Name="ICON_UNIT_ZUNKO_HORSE_ARCHER_BLACK"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"       Index="36"/>
+		<Row Name="ICON_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="34"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="34"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="34"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="34"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="34"/>
+	</IconDefinitions>
+</GameData>

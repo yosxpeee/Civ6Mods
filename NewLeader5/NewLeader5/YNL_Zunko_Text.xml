@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LITTER_BOX_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>I'm not going to write the historical context about the litter box...</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>”VOICEROID+ Zunko Tohoku EX”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DPRT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_DPRT_MALE_1" Language="en_US">
+			<Text>Ikuzo Yoshi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_MALE_2" Language="en_US">
+			<Text>Snookums</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_MALE_3" Language="en_US">
+			<Text>Patches</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_MALE_4" Language="en_US">
+			<Text>Tom</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_1" Language="en_US">
+			<Text>Miss Kitty</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_2" Language="en_US">
+			<Text>Callie</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_3" Language="en_US">
+			<Text>Tabby</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_4" Language="en_US">
+			<Text>Whiskers</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_5" Language="en_US">
+			<Text>Sally Soft Paws</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_1" Language="en_US">
+			<Text>Sendai</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_2" Language="en_US">
+			<Text>Aomori</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_3" Language="en_US">
+			<Text>Morioka</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_4" Language="en_US">
+			<Text>Fukushima</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_5" Language="en_US">
+			<Text>Akita</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_6" Language="en_US">
+			<Text>Yamagata</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_7" Language="en_US">
+			<Text>Hirosaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_8" Language="en_US">
+			<Text>Hachinohe</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_9" Language="en_US">
+			<Text>Kuroishi</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_10" Language="en_US">
+			<Text>Tsuruoka</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_11" Language="en_US">
+			<Text>Shinjyou</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_12" Language="en_US">
+			<Text>Yonezawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_13" Language="en_US">
+			<Text>Takizawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_14" Language="en_US">
+			<Text>Hanamaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_15" Language="en_US">
+			<Text>Kamaishi</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_16" Language="en_US">
+			<Text>Oga</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_17" Language="en_US">
+			<Text>Odate</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_18" Language="en_US">
+			<Text>Noshiro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_19" Language="en_US">
+			<Text>Kooriyama</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_20" Language="en_US">
+			<Text>Shirakawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_21" Language="en_US">
+			<Text>Kitakata</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_22" Language="en_US">
+			<Text>Ishimaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_23" Language="en_US">
+			<Text>Kesennuma</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DPRT_CITY_24" Language="en_US">
+			<Text>Natori</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_ZUNKO_TOHOKU_QUOTE" Language="en_US">
+			<Text>zunda\(^o^)/zunda</Text>
+		</Row>
+    
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+		  <Text>Mrow! I am the mighty Jasper Kitty.  Pet me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+		  <Text>I haz a box.  Wanna see?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+		  <Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Language="en_US">
+			<Text>Zunda Arrow</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_DESCRIPTION" Language="en_US">
+			<Text>All ranged unit can capture defeated enemy civilization combat units and convert them to Builders.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT" Language="en_US">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>

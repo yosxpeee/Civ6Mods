@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's NewLeader - Zunko Touhoku</Name>
+    <Guid>9b5fbcb4-78f8-464d-9b33-e8518450df62</Guid>
+    <ProjectGuid>a13ca0d3-ef5e-4f7d-a7ec-33852387bf44</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Yossie's NewLeader - Zunko Touhoku</Teaser>
+    <Description>Yossie's NewLeader - Zunko Touhoku v1.0</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_Leaders.xml</File><File>YNL_Zunko_Civilization.xml</File><File>YNL_Zunko_UB.xml</File><File>YNL_Zunko_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_ConfigText.xml</File><File>YNL_Zunko_ConfigTextJP.xml</File><File>YNL_Zunko_Text.xml</File><File>YNL_Zunko_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Background_DiplomcayInfo_Zunko.dds</File><File>Textures/Background_LoadingInfo_Zunko.dds</File><File>Textures/Foreground_LoadingInfo_Zunko.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Zunko_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Zunko_ConfigText.xml</File><File>YNL_Zunko_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Zunko_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_ZUNKO_TOHOKU</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>NewLeader5</AssemblyName>
+    <RootNamespace>NewLeader5</RootNamespace>
+    <Authors>Yossie</Authors>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="DLC: Aztec Civilization Pack" id="02A8BDDE-67EA-4D38-9540-26E685E3156E" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="ArtDefs\YNL_Zunko_Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Zunko_Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Zunko_Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Zunko_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Foreground_LoadingInfo_Zunko.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Zunko_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Zunko_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Background_DiplomcayInfo_Zunko.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Background_LoadingInfo_Zunko.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Zunko_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Zunko_Config.xml" />
+    <Content Include="YNL_Zunko_ConfigText.xml" />
+    <Content Include="YNL_Zunko_Civilization.xml" />
+    <Content Include="YNL_Zunko_Icons.xml" />
+    <Content Include="YNL_Zunko_Leaders.xml" />
+    <Content Include="YNL_Zunko_UB.xml" />
+    <Content Include="YNL_Zunko_Text.xml" />
+    <None Include="Textures\FALLBACK_NEUTRAL_ZUNKO_TOHOKU.dds" />
+    <None Include="Textures\FALLBACK_NEUTRAL_ZUNKO_TOHOKU.tex" />
+    <None Include="Textures\LEADER_ZUNKO_TOHOKU_NEUTRAL.dds" />
+    <None Include="Textures\LEADER_ZUNKO_TOHOKU_NEUTRAL.tex" />
+    <None Include="ArtDefs\YNL_Zunko_FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

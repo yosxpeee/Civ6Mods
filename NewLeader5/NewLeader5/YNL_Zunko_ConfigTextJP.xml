@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_NAME" Language="ja_JP">
+			<Text>東北民主主義人民共和国</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_DPRT_DESCRIPTION" Language="ja_JP">
+			<Text>東北民主主義人民共和国</Text>
+		</Replace>
+
+		<Replace Tag="LOC_CIVILIZATION_DPRT_ADJECTIVE" Language="ja_JP">
+			<Text>東北民主主義人民共和国の</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_ZUNKO_TOHOKU_NAME" Language="ja_JP">
+			<Text>東北ずん子</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DPRT_NAME" Language="ja_JP">
+			<Text>地霊信仰</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の50%に等しい [ICON_Faith] 信仰力を得る。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Language="ja_JP">
+			<Text>ずんだアロー</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION" Language="ja_JP">
+			<Text>すべての陸上長距離戦闘ユニットは倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる能力を得る。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_ZUNDA_CAFE_NAME" Language="ja_JP">
+			<Text>ずんだカフェ</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION" Language="ja_JP">
+			<Text>東北ずん子固有の建造物。水車小屋に取ってかわる。 [ICON_Amenities] 快適性+1、 [ICON_Food] 食糧+2、 [ICON_Production] 生産力+1、 [ICON_Gold] ゴールド+1。 [ICON_RESOURCE_COFFEE] コーヒー、 [ICON_RESOURCE_TEA] 茶1つごとに [ICON_Culture] 文化力+2。 [ICON_RESOURCE_SUGAR] 砂糖、 [ICON_RESOURCE_SALT] 塩、 [ICON_RESOURCE_RICE] 米1つごとに [ICON_Food] 食糧+1。川に接している都市にのみ建設できる。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME" Language="ja_JP">
+			<Text>東北ずん子固有の建造物: ずんだカフェ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ZUNDA_CAFE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME" Language="ja_JP">
+			<Text>東北ずん子固有のユニット: ずんだ弓騎兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZUNKO_HORSE_ARCHER_DESCRIPTION" Language="ja_JP">
+			<Text>東北ずん子固有の古典時代のユニット。[ICON_Movement] 移動力4、 [ICON_Range] 射程2。倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZUNKO_HORSE_ARCHER_NAME" Language="ja_JP">
+			<Text>ずんだ弓騎兵</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ZUNKO_HORSE_ARCHER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

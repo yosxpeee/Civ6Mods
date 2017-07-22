@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia text (historical context) about the new building. -->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LITTER_BOX_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>I'm not going to write the historical context about the litter box...</Text>
+		</Replace>
+
+		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>『VOICEROID+ 東北ずん子 EX』</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>ずんだアローを相手の文明ユニットめがけてシュゥゥゥーッ!!超!エキサイティン!!</Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>東北ずん子とは、東北6県全体を盛り上げるためのキャラクター、またボイスロイドとボーカロイドのイメージキャラクター。主に宮城県で食べられる「ずんだ餅」をモチーフにしたキャラクターである。[NEWLINE]SSS合同会社の手になるもので、東北地方を応援すべく企画されたものであり、東北６県（青森、岩手、宮城、秋田、山形、福島）に本社を置く企業であれば自由に商用利用できる。利用に対する運営への申請は不要。事務手続きの関係上、申請無しでの利用を推奨。詳細は、公式サイト「キャラクター利用のガイドライン」を参照。クリエイター向けの利用ガイドラインも併せて示されている他、分かりやすい例示がされている。また後述のVOICEROID音声に関してはライセンスが異なる為、上記使用ガイドラインの適用外となる点に注意。</Text>
+		</Replace>
+
+		<!-- Civilization specific historical text. -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DPRT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>東北6県が合わさり最強に見える。</Text>
+		</Replace>
+
+		<!-- Civlization Citizen Names -->
+		<Replace Tag="LOC_CITIZEN_DPRT_MALE_1" Language="ja_JP">
+			<Text>吉幾三</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_MALE_2" Language="ja_JP">
+			<Text>Snookums</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_MALE_3" Language="ja_JP">
+			<Text>Patches</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_MALE_4" Language="ja_JP">
+			<Text>Tom</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_1" Language="ja_JP">
+			<Text>Miss Kitty</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_2" Language="ja_JP">
+			<Text>Callie</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_3" Language="ja_JP">
+			<Text>Tabby</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_4" Language="ja_JP">
+			<Text>Whiskers</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_5" Language="ja_JP">
+			<Text>Sally Soft Paws</Text>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_1" Language="ja_JP">
+			<Text>仙台</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_2" Language="ja_JP">
+			<Text>青森</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_3" Language="ja_JP">
+			<Text>盛岡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_4" Language="ja_JP">
+			<Text>福島</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_5" Language="ja_JP">
+			<Text>秋田</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_6" Language="ja_JP">
+			<Text>山形</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_7" Language="ja_JP">
+			<Text>弘前</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_8" Language="ja_JP">
+			<Text>八戸</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_9" Language="ja_JP">
+			<Text>黒石</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_10" Language="ja_JP">
+			<Text>鶴岡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_11" Language="ja_JP">
+			<Text>新庄</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_12" Language="ja_JP">
+			<Text>米沢</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_13" Language="ja_JP">
+			<Text>滝沢</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_14" Language="ja_JP">
+			<Text>花巻</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_15" Language="ja_JP">
+			<Text>釜石</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_16" Language="ja_JP">
+			<Text>男鹿</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_17" Language="ja_JP">
+			<Text>大館</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_18" Language="ja_JP">
+			<Text>能代</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_19" Language="ja_JP">
+			<Text>郡山</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_20" Language="ja_JP">
+			<Text>白河</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_21" Language="ja_JP">
+			<Text>喜多方</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_22" Language="ja_JP">
+			<Text>石巻</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_23" Language="ja_JP">
+			<Text>気仙沼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DPRT_CITY_24" Language="ja_JP">
+			<Text>名取</Text>
+		</Replace>
+
+		<!-- Leader Quotes -->
+		<Replace Tag="LOC_LEADER_ZUNKO_TOHOKU_QUOTE" Language="ja_JP">
+			<Text>＼(ず・ω・だ)／</Text>
+		</Replace>
+
+		<!-- Leader Dialog -->
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
+			<Text>Mrow! I am the mighty Jasper Kitty.  Pet me.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
+			<Text>I haz a box.  Wanna see?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
+			<Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Language="ja_JP">
+			<Text>ずんだアロー</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_DESCRIPTION" Language="ja_JP">
+			<Text>倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT" Language="ja_JP">
+			<Text>夢は秋葉原にずんだカフェ、ずんだショップを作ることです。ずんだの未来のために、皆さん応援してくださいね。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

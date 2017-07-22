@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "Yossie's NewLeader - Zunko Touhoku", "NewLeader5\Yossie's NewLeader - Zunko Touhoku.civ6proj", "{A13CA0D3-EF5E-4F7D-A7EC-33852387BF44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A13CA0D3-EF5E-4F7D-A7EC-33852387BF44}.Default|Civ6.ActiveCfg = Default|Civ6
+		{A13CA0D3-EF5E-4F7D-A7EC-33852387BF44}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
