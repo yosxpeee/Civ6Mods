@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects:ArtDefSet>
 	<m_Version>
 		<major>4</major>
@@ -178,11 +178,6 @@
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 		</Element>
 		<Element>
-			<m_CollectionName text="Unit
-							  ainTypes"/>
-			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
-		</Element>
-		<Element>
 			<m_CollectionName text="UnitAttachmentBins"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 		</Element>
@@ -198,5 +193,10 @@
 			<m_CollectionName text="UnitGlobals"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 		</Element>
+		<Element>
+			<m_CollectionName text="UnitDomainTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
 	</m_RootCollections>
 </AssetObjects:ArtDefSet>
+
