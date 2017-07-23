@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<!-- Pedia text (historical context) about the new building. -->
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LITTER_BOX_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>I'm not going to write the historical context about the litter box...</Text>
-		</Replace>
-
 		<!-- Leader specific pedia text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
 			<Text>『VOICEROID+ 東北ずん子 EX』</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_DETAILED_BODY" Language="ja_JP">
-			<Text>ずんだアローを相手の文明ユニットめがけてシュゥゥゥーッ!!超!エキサイティン!!</Text>
+			<Text>ずんだアローを敵文明のユニットめがけてシュゥゥゥーッ!!超!エキサイティン!!</Text>
 		</Replace>
 
 		<!-- Leader specific historical text. -->
@@ -29,28 +24,49 @@
 			<Text>吉幾三</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DPRT_MALE_2" Language="ja_JP">
-			<Text>Snookums</Text>
+			<Text>松坂大輔</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DPRT_MALE_3" Language="ja_JP">
-			<Text>Patches</Text>
+			<Text>千昌夫</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DPRT_MALE_4" Language="ja_JP">
-			<Text>Tom</Text>
+			<Text>佐々木主浩</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_MALE_5" Language="ja_JP">
+			<Text>柳葉敏郎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_MALE_6" Language="ja_JP">
+			<Text>ウド鈴木</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_MALE_7" Language="ja_JP">
+			<Text>西田敏行</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_MALE_8" Language="ja_JP">
+			<Text>梅沢富美男</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_1" Language="ja_JP">
-			<Text>Miss Kitty</Text>
+			<Text>新山千春</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_2" Language="ja_JP">
-			<Text>Callie</Text>
+			<Text>藤圭子</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_3" Language="ja_JP">
-			<Text>Tabby</Text>
+			<Text>山川恵里佳</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_4" Language="ja_JP">
-			<Text>Whiskers</Text>
+			<Text>福原愛</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_5" Language="ja_JP">
-			<Text>Sally Soft Paws</Text>
+			<Text>佐々木希</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_6" Language="ja_JP">
+			<Text>壇蜜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_7" Language="ja_JP">
+			<Text>あき竹城</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DPRT_FEMALE_8" Language="ja_JP">
+			<Text>伊東美咲</Text>
 		</Replace>
 
 		<!-- Civilization City Names-->

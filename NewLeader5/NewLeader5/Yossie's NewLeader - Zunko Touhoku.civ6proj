@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_Leaders.xml</File><File>YNL_Zunko_Civilization.xml</File><File>YNL_Zunko_UB.xml</File><File>YNL_Zunko_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_ConfigText.xml</File><File>YNL_Zunko_ConfigTextJP.xml</File><File>YNL_Zunko_Text.xml</File><File>YNL_Zunko_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Background_DiplomcayInfo_Zunko.dds</File><File>Textures/Background_LoadingInfo_Zunko.dds</File><File>Textures/Foreground_LoadingInfo_Zunko.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_Leaders.xml</File><File>YNL_Zunko_Civilization.xml</File><File>YNL_Zunko_UB.xml</File><File>YNL_Zunko_UU.xml</File><File>YNL_Zunko_Improvement.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_ConfigText.xml</File><File>YNL_Zunko_ConfigTextJP.xml</File><File>YNL_Zunko_Text.xml</File><File>YNL_Zunko_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Zunko_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Background_DiplomcayInfo_Zunko.dds</File><File>Textures/Background_LoadingInfo_Zunko.dds</File><File>Textures/Foreground_LoadingInfo_Zunko.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Zunko_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Zunko_ConfigText.xml</File><File>YNL_Zunko_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Zunko_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_ZUNKO_TOHOKU</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>NewLeader5</AssemblyName>
@@ -29,6 +29,9 @@
     <Folder Include="Artdefs\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
+    <Content Include="ArtDefs\YNL_Zunko_Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\YNL_Zunko_Units.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -39,6 +42,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\YNL_Zunko_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Zunko_Improvement.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Foreground_LoadingInfo_Zunko.dds">

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_KOSHIN_TOWER" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" Name="LOC_IMPROVEMENT_KOSHIN_TOWER_NAME" Description="LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION" Icon="ICON_IMPROVEMENT_KOSHIN_TOWER" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqTech="TECH_MINING" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldChangeId="Koshin_Tower_Faith1"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldChangeId="Koshin_Tower_Faith2"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_SNOW"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_GOLD"  YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_FAITH" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="120" ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+	</Improvement_BonusYieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="Koshin_Tower_Faith1" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>
+		<Row ID="Koshin_Tower_Faith2" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_QUARRY"/>
+	</Adjacency_YieldChanges>
+</GameInfo>

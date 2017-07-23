@@ -39,5 +39,15 @@
 			<Icon>ICON_BUILDING_ZUNDA_CAFE</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
+			<Type>IMPROVEMENT_KOSHIN_TOWER</Type>
+			<Name>LOC_IMPROVEMENT_KOSHIN_TOWER_NAME</Name>
+			<Description>LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_KOSHIN_TOWER</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

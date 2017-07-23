@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<!-- Pedia text (historical context) about the new building. -->
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LITTER_BOX_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>I'm not going to write the historical context about the litter box...</Text>
-		</Row>
-
 		<!-- Leader specific pedia text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="en_US">
 			<Text>”VOICEROID+ Zunko Tohoku EX”</Text>
@@ -29,28 +24,49 @@
 			<Text>Ikuzo Yoshi</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_DPRT_MALE_2" Language="en_US">
-			<Text>Snookums</Text>
+			<Text>Daisuke Matsuzaka</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_DPRT_MALE_3" Language="en_US">
-			<Text>Patches</Text>
+			<Text>Masao Sen</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_DPRT_MALE_4" Language="en_US">
-			<Text>Tom</Text>
+			<Text>Kaduhiro Sasaki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_MALE_5" Language="en_US">
+			<Text>Toshiro Yanagiba</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_MALE_6" Language="en_US">
+			<Text>Suzuki Udo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_MALE_7" Language="en_US">
+			<Text>Toshiyuki Nishida</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_MALE_8" Language="en_US">
+			<Text>Tomio Umezawa</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_1" Language="en_US">
-			<Text>Miss Kitty</Text>
+			<Text>Chiharu Niiyama</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_2" Language="en_US">
-			<Text>Callie</Text>
+			<Text>Keiko Fuji</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_3" Language="en_US">
-			<Text>Tabby</Text>
+			<Text>Erika Yamakawa</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_4" Language="en_US">
-			<Text>Whiskers</Text>
+			<Text>Ai Fukuhara</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_5" Language="en_US">
-			<Text>Sally Soft Paws</Text>
+			<Text>Nozomi Sasaki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_6" Language="en_US">
+			<Text>Mitsu Dan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_7" Language="en_US">
+			<Text>Takejyo Aki</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DPRT_FEMALE_8" Language="en_US">
+			<Text>Misaki Ito</Text>
 		</Row>
 
 		<!-- Civilization City Names-->

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="CIVILIZATION_DPRT"       Kind="KIND_CIVILIZATION" />
-		<Row Type="TRAIT_CIVILIZATION_DPRT" Kind="KIND_TRAIT" />
+		<Row Type="CIVILIZATION_DPRT"                           Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_DPRT"                     Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER" Kind="KIND_TRAIT" />
 	</Types>
-
 	<Civilizations>
 		<Row>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -14,52 +14,58 @@
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
 		</Row>
 	</Civilizations>
-
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_DPRT" LeaderType="LEADER_ZUNKO_TOHOKU" CapitalName="LOC_CIVILIZATION_DPRT_CITY_1" />
 	</CivilizationLeaders>
-
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_1" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_2" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_3" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_5" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_6" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_7" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_8" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_1" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_2" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_6" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_7" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_8" Female="1"/>
 	</CivilizationCitizenNames>
-
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_DPRT" TraitType="TRAIT_CIVILIZATION_DPRT" />
+		<Row CivilizationType="CIVILIZATION_DPRT" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER"/>
 	</CivilizationTraits>
-
+	
 	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_DPRT" Name="LOC_TRAIT_CIVILIZATION_DPRT_NAME" Description="LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_DPRT"                     Name="LOC_TRAIT_CIVILIZATION_DPRT_NAME"                     Description="LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION" />
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER_NAME"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_CIVILIZATION_DPRT" ModifierId="UNIQUE_LEADER_FAITH_KILLS_DPRT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DPRT" ModifierId="TRAIT_CIVILIZATION_FAITH_KILLS_DPRT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DPRT" ModifierId="TRAIT_ADJUST_INQUISITOR_CHARGES"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>UNIQUE_LEADER_FAITH_KILLS_DPRT</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_FAITH_KILLS_DPRT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>UNIQUE_LEADER_FAITH_KILLS_DPRT</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_FAITH_KILLS_DPRT</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>UNIQUE_LEADER_FAITH_KILLS_DPRT</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_FAITH_KILLS_DPRT</ModifierId>
 			<Name>PercentDefeatedStrength</Name>
 			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
-
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_DPRT" CityName="LOC_CIVILIZATION_DPRT_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_DPRT" CityName="LOC_CIVILIZATION_DPRT_CITY_2" />
@@ -86,5 +92,4 @@
 		<Row CivilizationType="CIVILIZATION_DPRT" CityName="LOC_CIVILIZATION_DPRT_CITY_23"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CityName="LOC_CIVILIZATION_DPRT_CITY_24"/>
 	</CityNames>
-	
 </GameData>

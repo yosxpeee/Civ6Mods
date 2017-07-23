@@ -21,7 +21,7 @@
 			<Text>Animism</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION" Language="en_US">
-			<Text>Combat victories provide [ICON_Faith] Faith equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>Combat victories provide [ICON_Faith] Faith equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit. Inquisitors can Remove Heresy one extra time.</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Language="en_US">
@@ -54,6 +54,19 @@
 			<Text>Zunda House Archer</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ZUNKO_HORSE_ARCHER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_KOSHIN_TOWER_NAME" Language="en_US">
+			<Text>Koshin Tower</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Koshin Tower, unique to Democratic People's Republic Tohoku.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold, +1 [ICON_Faith] Faith. +1 [ICON_Faith] Faith for each adjacent Mine and Quarry. Cannot be built on Hills. </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER_NAME" Language="en_US">
+			<Text>Democratic People's Republic Tohoku unique improvement: Koshin Tower</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_KOSHIN_TOWER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

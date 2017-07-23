@@ -26,10 +26,14 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU" Quote="LOC_LEADER_ZUNKO_TOHOKU_QUOTE"/>
+	</LeaderQuotes>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_ZUNKO_TOHOKU"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" Name="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION"/>
@@ -39,9 +43,6 @@
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>
 	</TraitModifiers>
-	<LeaderQuotes>
-		<Row LeaderType="LEADER_ZUNKO_TOHOKU" Quote="LOC_LEADER_ZUNKO_TOHOKU_QUOTE"/>
-	</LeaderQuotes>
 
 	<Modifiers>
 		<Row>
@@ -66,6 +67,38 @@
 			<ModifierId>CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
+
+	<AiListTypes>
+		<Row ListType="YNL_ZunkoWonders"/>
+		<Row ListType="YNL_ZunkoCivics"/>
+		<Row ListType="YNL_ZunkoTechs"/>
+		<Row ListType="YNL_ZunkoReligiousDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="YNL_ZunkoWonders"           LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Buildings"/>
+		<Row ListType="YNL_ZunkoCivics"            LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Civics"/>
+		<Row ListType="YNL_ZunkoTechs"             LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Technologies"/>
+		<Row ListType="YNL_ZunkoReligiousDistrict" LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_MAHABODHI_TEMPLE"/>
+		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_HAGIA_SOPHIA"/>
+		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_MONT_ST_MICHEL"/>
+		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_CRISTO_REDENTOR"/>
+		<Row ListType="YNL_ZunkoCivics"            Item="CIVIC_MYSTICISM"/>
+		<Row ListType="YNL_ZunkoCivics"            Item="CIVIC_THEOLOGY"/>
+		<Row ListType="YNL_ZunkoCivics"            Item="CIVIC_DIVINE_RIGHT"/>
+		<Row ListType="YNL_ZunkoCivics"            Item="CIVIC_REFORMED_CHURCH"/>
+		<Row ListType="YNL_ZunkoTechs"             Item="TECH_ASTROLOGY"/>
+		<Row ListType="YNL_ZunkoTechs"             Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="YNL_ZunkoTechs"             Item="TECH_EDUCATION"/>
+		<Row ListType="YNL_ZunkoReligiousDistrict" Item="DISTRICT_HOLY_SITE" Favored="true"/>
+	</AiFavoredItems>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU" AgendaType="AGENDA_COUNTER_REFORMER"/>
+	</HistoricalAgendas>
 
 	<DiplomacyInfo>
 		<Row Type="LEADER_ZUNKO_TOHOKU" BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>

@@ -32,6 +32,7 @@
 			<relativeArtDefPaths>
 				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Landmarks.artdef"/>
+				<Element text="YNL_Zunko_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -72,6 +73,7 @@
 			<relativeArtDefPaths>
 				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Landmarks.artdef"/>
+				<Element text="YNL_Zunko_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Sprite"/>
@@ -284,6 +286,7 @@
 			<relativeArtDefPaths>
 				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Landmarks.artdef"/>
+				<Element text="YNL_Zunko_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -293,6 +296,7 @@
 			<relativeArtDefPaths>
 				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Landmarks.artdef"/>
+				<Element text="YNL_Zunko_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
