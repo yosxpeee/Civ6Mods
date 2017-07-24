@@ -120,6 +120,12 @@
     <Content Include="Textures\FALLBACK_NEUTRAL_YNL_MUTSU.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_YNL_NAGATO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_YNL_NAGATO.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\Foreground_LoadingInfo_Mutsu.dds">
       <SubType>Content</SubType>
     </Content>
@@ -127,6 +133,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_YNL_MUTSU_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_NAGATO_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_NAGATO_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\YNL_HOUSEBOAT256.dds">
@@ -274,10 +286,6 @@
     <Content Include="YNL_Nagato_Leader.xml" />
     <Content Include="YNL_Nagato_UB.xml" />
     <Content Include="YNL_Nagato_Text.xml" />
-    <None Include="Textures\FALLBACK_NEUTRAL_YNL_NAGATO.dds" />
-    <None Include="Textures\FALLBACK_NEUTRAL_YNL_NAGATO.tex" />
-    <None Include="Textures\LEADER_YNL_NAGATO_NEUTRAL.dds" />
-    <None Include="Textures\LEADER_YNL_NAGATO_NEUTRAL.tex" />
     <None Include="ArtDefs\YNL_NAGATO_FallbackLeaders.artdef" />
     <None Include="XLPs\LeaderFallbacks.xlp" />
     <None Include="XLPs\UILeaders.xlp" />
