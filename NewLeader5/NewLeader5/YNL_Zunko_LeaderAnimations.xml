@@ -113,5 +113,16 @@
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
 			<Sequence>DEFEAT</Sequence>
 		</Row>
+		<!-- Denounce -->
+		<Row>
+			<Name>DENOUNCE_FROM_HUMAN</Name>
+			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
+			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+		</Row>
+		<Row>
+			<Name>DENOUNCE_FROM_AI</Name>
+			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
+			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>
