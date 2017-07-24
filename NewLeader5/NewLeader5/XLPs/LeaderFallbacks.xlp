@@ -10,8 +10,32 @@
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
 		<Element>
+			<m_EntryID text="FALLBACK_HAPPY_ZUNKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_HAPPY_ZUNKO_TOHOKU"/>
+		</Element>
+		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_ZUNKO_TOHOKU"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_ZUNKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_STERN_ZUNKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_STERN_ZUNKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_SURPRISED_HUMAN_ZUNKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_HUMAN_ZUNKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_SURPRISED_AI_ZUNKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_AI_ZUNKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_UNHAPPY_ZUNKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_UNHAPPY_ZUNKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_DEFEAT_ZUNKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_DEFEAT_ZUNKO_TOHOKU"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

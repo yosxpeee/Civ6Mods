@@ -147,18 +147,7 @@
 		<Row Tag="LOC_LEADER_ZUNKO_TOHOKU_QUOTE" Language="en_US">
 			<Text>zunda\(^o^)/zunda</Text>
 		</Row>
-    
-		<!-- Leader Dialog -->
-		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
-		  <Text>Mrow! I am the mighty Jasper Kitty.  Pet me.</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
-		  <Text>I haz a box.  Wanna see?</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
-		  <Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
-		</Row>
-
+   
 		<Row Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Language="en_US">
 			<Text>Zunda Arrow</Text>
 		</Row>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_TOHOKU_Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="YNL_TOHOKU256"/>
+			<m_ObjectName text="YNL_TOHOKU256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TOHOKU32"/>
+			<m_ObjectName text="YNL_TOHOKU32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TOHOKU50"/>
+			<m_ObjectName text="YNL_TOHOKU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TOHOKU55"/>
+			<m_ObjectName text="YNL_TOHOKU55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TOHOKU64"/>
+			<m_ObjectName text="YNL_TOHOKU64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TOHOKU80"/>
+			<m_ObjectName text="YNL_TOHOKU80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TOHOKU45"/>
+			<m_ObjectName text="YNL_TOHOKU45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT22"/>
+			<m_ObjectName text="ICON_CIV_DPRT22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT30"/>
+			<m_ObjectName text="ICON_CIV_DPRT30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT36"/>
+			<m_ObjectName text="ICON_CIV_DPRT36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT44"/>
+			<m_ObjectName text="ICON_CIV_DPRT44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT45"/>
+			<m_ObjectName text="ICON_CIV_DPRT45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT48"/>
+			<m_ObjectName text="ICON_CIV_DPRT48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT50"/>
+			<m_ObjectName text="ICON_CIV_DPRT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT64"/>
+			<m_ObjectName text="ICON_CIV_DPRT64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT80"/>
+			<m_ObjectName text="ICON_CIV_DPRT80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_DPRT256"/>
+			<m_ObjectName text="ICON_CIV_DPRT256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

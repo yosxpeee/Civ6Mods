@@ -148,17 +148,6 @@
 			<Text>＼(ず・ω・だ)／</Text>
 		</Replace>
 
-		<!-- Leader Dialog -->
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
-			<Text>Mrow! I am the mighty Jasper Kitty.  Pet me.</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
-			<Text>I haz a box.  Wanna see?</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
-			<Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
-		</Replace>
-
 		<Replace Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Language="ja_JP">
 			<Text>ずんだアロー</Text>
 		</Replace>

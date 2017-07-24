@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="32"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU32"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="45"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU45"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="50"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU50"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="55"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU55"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="64"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU64"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="80"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU80"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="256" IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU256"/>
+
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT45.dds"/><!--Baked in color-->
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT256.dds"/>
+	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_CIVILIZATION_DPRT"   Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
-		<Row Name="ICON_LEADER_ZUNKO_TOHOKU" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<!-- Leaders and Civilization -->
+		<Row Name="ICON_CIVILIZATION_DPRT"     Atlas="ICON_ATLAS_CIVILIZATION_DPRT" Index="0"/>
+		<!--<Row Name="ICON_LEADER_ITAKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="0"/>-->
+		<Row Name="ICON_LEADER_ZUNKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="1"/>
+		<!--<Row Name="ICON_LEADER_KIRITAN_TOHOKU" Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="2"/>-->
 		<!-- UB -->
 		<Row Name="ICON_BUILDING_ZUNDA_CAFE" Atlas="ICON_ATLAS_BUILDINGS" Index="7"/>
 		<!-- UU -->

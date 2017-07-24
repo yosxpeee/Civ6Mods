@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		
+		<!-- Leader Dialog (Zunko) -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are pleased to accept your offer of friendship.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are not interested at this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Would you like to formally declare our friendship?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Wonderful.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>That is unfortunate.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>How dare you! All that you hold dear will turn to ash!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>You have what I want, and I take what I want.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I never thought I would see the end so soon!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I never thought I would see the end so soon!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are happy to welcome your delegation to our capital.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We politely refuse your delegation.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Will you receive our diplomatic delegation in your capital?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Excellent!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>That is too bad, perhaps at a later date.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>There is no greater sin than to defy the anointed servant of the Lord. You will pay dearly for this.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>You are another Judas, come to betray the Lord. (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are happy to allow you to construct an embassy in our capital.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are not interested at this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Will you allow us to establish an embassy in your capital?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Oh happy day!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Disappointing.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Greetings traveler. You should know that you stand in the presence of greatness!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We have a city nearby. Would you like to visit? You could attend our upcoming celebration.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>By all means.  It will be a pleasure to see your growing city up close.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Neither of us hails from nearby, but perhaps we should mark our homelands on each other's maps?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>What do you wish of me?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>>I am relieved you understand that we cannot tolerate heretics. It is against God, of course.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Rather than penitent, you are blasphemous. The vengeance of God will be upon your head.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are pleased to accept your offer of an alliance.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are not interested at this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Wonderful.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>That is unfortunate.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Yes, I am happy to accept this deal.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I cannot accept this deal.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Thank you. I think this will benefit each of us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I must say, I'm a bit disappointed.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>This deal is more to my liking.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Making demands will get you nowhere.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I will comply.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>You are wise in accepting my demands.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I may have to resort to other means to have my demands met!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I accept your terms for peace.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>There can be no peace between us!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Peace, mmkay?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>The war is over.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Then the war continues.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are happy to open up our borders to your units.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>We are not interested at this time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Will you allow our units to cross through your territory?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Excellent!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>That is unfortunate.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>My sincerest apologies! I didn't notice your city was so close.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>My people need land. Who are you to say that they cannot have it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Your people settle too close! You should consider seeking land elsewhere.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>If you cannot respect our lands, then I will not respect you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Apologies, we were just looking for some Barbarians to hassle.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I like marching my troops around, it shows how powerful I am if you get my drift.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Yes, you're right. I regret that I had to resort to such tactics. It won't happen again.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Hah! What makes you think I would make that kind of promise?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I hadn't realized that you laid claim to these lands. It was a simple mistake.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>The mysteries of the past are free to everyone. You cannot claim them!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Though I will respect your wishes, I am disappointed that you cannot see the error of your ways.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>No, no. This is for the best. You will see, I assure you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Your troops tread too close to my borders. I hope it's just to view our picturesque countryside.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I should have known you'd stoop so low as to use espionage against me. Remove your spies at once!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I will remember this insult. You can be sure of that!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Our cultural history is not yours to plunder. It is time for you to leave our lands!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>If you cannot respect our lands, then I will not respect you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Your proselytizers are not welcome among my people. I must ask that you remove them immediately.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>Thank you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="en_US">
+			<Text>I assure you there will be consequences for this - if not now, then later.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
