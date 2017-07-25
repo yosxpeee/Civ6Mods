@@ -39,19 +39,19 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
-			<ModifierId>TRAIT_INCREASED_COAST_CULTURE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_COAST_CULTURE_POTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
-			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE_POTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
-			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE_POTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
-			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE_POTS</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
@@ -60,24 +60,24 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_COAST_CULTURE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_COAST_CULTURE_POTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS_POTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE_POTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS_POTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE_POTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS_POTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE_POTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS_POTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -92,42 +92,42 @@
 			<Value>true</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_COAST_CULTURE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_COAST_CULTURE_POTS</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_COAST_CULTURE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_COAST_CULTURE_POTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE_POTS</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_COAST_SCIENCE_POTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE_POTS</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_OCEAN_CULTURE_POTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE_POTS</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_INCREASED_OCEAN_SCIENCE_POTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -135,27 +135,44 @@
 	
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>PLOT_HAS_COAST_REQUIREMENTS_POTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS_POTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST_POTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN_POTS</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST_POTS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN_POTS</RequirementId>
 			<Name>TerrainType</Name>
 			<Value>TERRAIN_OCEAN</Value>
 		</Row>
 	</RequirementArguments>
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+			<RequirementSetId>PLOT_HAS_COAST_REQUIREMENTS_POTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST_POTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_OCEAN_REQUIREMENTS_POTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_OCEAN_POTS</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 
