@@ -23,9 +23,9 @@
 	<IconDefinitions>
 		<!-- Leaders and Civilization -->
 		<Row Name="ICON_CIVILIZATION_DPRT"     Atlas="ICON_ATLAS_CIVILIZATION_DPRT" Index="0"/>
-		<!--<Row Name="ICON_LEADER_ITAKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="0"/>-->
+		<Row Name="ICON_LEADER_ITAKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="0"/>
 		<Row Name="ICON_LEADER_ZUNKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="1"/>
-		<!--<Row Name="ICON_LEADER_KIRITAN_TOHOKU" Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="2"/>-->
+		<Row Name="ICON_LEADER_KIRITAN_TOHOKU" Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="2"/>
 		<!-- UB -->
 		<Row Name="ICON_BUILDING_ZUNDA_CAFE" Atlas="ICON_ATLAS_BUILDINGS" Index="7"/>
 		<!-- UU -->

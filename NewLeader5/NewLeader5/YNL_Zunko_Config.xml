@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Players>
+		<!-- Itako -->
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_DPRT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_DPRT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ITAKO_TOHOKU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ITAKO_TOHOKU</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_DPRT_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_DPRT</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ITAKO_TOHOKU</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_ITAKO_TOHOKU</Portrait>
+		</Row>
+		<!-- Zunko -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -17,8 +35,59 @@
 			<LeaderAbilityIcon>ICON_LEADER_ZUNKO_TOHOKU</LeaderAbilityIcon>
 			<Portrait>LEADER_ZUNKO_TOHOKU_NEUTRAL</Portrait>
 		</Row>
+		<!-- Kiritan -->
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_DPRT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_DPRT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_KIRITAN_TOHOKU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_KIRITAN_TOHOKU</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_DPRT_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_DPRT</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_KIRITAN_TOHOKU</LeaderAbilityIcon>
+			<Portrait>LEADER_KIRITAN_TOHOKU_NEUTRAL</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
+		<!-- Itako -->
+		<!--
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<Type>UNIT_ITAKO_HORSE_ARCHER</Type>
+			<Name>LOC_UNIT_ITAKO_HORSE_ARCHER_NAME</Name>
+			<Description>LOC_UNIT_ITAKO_HORSE_ARCHER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ITAKO_HORSE_ARCHER</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<Type>BUILDING_ZUNDA_CAFE</Type>
+			<Name>LOC_BUILDING_ZUNDA_CAFE_NAME</Name>
+			<Description>LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ZUNDA_CAFE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		-->
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<Type>IMPROVEMENT_KOSHIN_TOWER</Type>
+			<Name>LOC_IMPROVEMENT_KOSHIN_TOWER_NAME</Name>
+			<Description>LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_KOSHIN_TOWER</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- Zunko -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -43,6 +112,39 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
 			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
+			<Type>IMPROVEMENT_KOSHIN_TOWER</Type>
+			<Name>LOC_IMPROVEMENT_KOSHIN_TOWER_NAME</Name>
+			<Description>LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_KOSHIN_TOWER</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- Kiritan -->
+		<!--
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
+			<Type>UNIT_KIRITAN_HORSE_ARCHER</Type>
+			<Name>LOC_UNIT_KIRITAN_HORSE_ARCHER_NAME</Name>
+			<Description>LOC_UNIT_KIRITAN_HORSE_ARCHER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_KIRITAN_HORSE_ARCHER</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
+			<Type>BUILDING_ZUNDA_CAFE</Type>
+			<Name>LOC_BUILDING_ZUNDA_CAFE_NAME</Name>
+			<Description>LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ZUNDA_CAFE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		-->
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
 			<Type>IMPROVEMENT_KOSHIN_TOWER</Type>
 			<Name>LOC_IMPROVEMENT_KOSHIN_TOWER_NAME</Name>
 			<Description>LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION</Description>

@@ -4,17 +4,21 @@
 		<Replace Tag="LOC_CIVILIZATION_DPRT_NAME" Language="ja_JP">
 			<Text>東北民主主義人民共和国</Text>
 		</Replace>
-
 		<Replace Tag="LOC_CIVILIZATION_DPRT_DESCRIPTION" Language="ja_JP">
 			<Text>東北民主主義人民共和国</Text>
 		</Replace>
-
 		<Replace Tag="LOC_CIVILIZATION_DPRT_ADJECTIVE" Language="ja_JP">
 			<Text>東北民主主義人民共和国の</Text>
 		</Replace>
 
+		<Replace Tag="LOC_LEADER_ITAKO_TOHOKU_NAME" Language="ja_JP">
+			<Text>東北イタコ</Text>
+		</Replace>
 		<Replace Tag="LOC_LEADER_ZUNKO_TOHOKU_NAME" Language="ja_JP">
 			<Text>東北ずん子</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_KIRITAN_TOHOKU_NAME" Language="ja_JP">
+			<Text>東北きりたん</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_DPRT_NAME" Language="ja_JP">
@@ -24,11 +28,23 @@
 			<Text>戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の50%に等しい [ICON_Faith] 信仰力を得る。審問官が異端の排除を1回多くおこなえる。</Text>
 		</Replace>
 
+		<Replace Tag="LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME" Language="ja_JP">
+			<Text>イタコの口寄せ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION" Language="ja_JP">
+			<Text>丘陵から [ICON_Faith] 信仰力+2、 [ICON_Food] 食糧+1を得る。</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Language="ja_JP">
 			<Text>ずんだアロー</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION" Language="ja_JP">
 			<Text>すべての陸上長距離戦闘ユニットは倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる能力を得る。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Language="ja_JP">
+			<Text>未定</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION" Language="ja_JP">
+			<Text>未定</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_ZUNDA_CAFE_NAME" Language="ja_JP">

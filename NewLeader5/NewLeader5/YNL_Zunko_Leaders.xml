@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
+		<Row Type="LEADER_ITAKO_TOHOKU"                  Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_ITAKO_TOHOKU"            Kind="KIND_TRAIT"/>
+		
 		<Row Type="LEADER_ZUNKO_TOHOKU"                  Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_ZUNKO_TOHOKU"            Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"     Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Kind="KIND_TRAIT"/>
 		<Row Type="ABILITY_YNL_ZUNKO_CAPTURE_WORKER"     Kind="KIND_ABILITY"/>
+
+		<Row Type="LEADER_KIRITAN_TOHOKU"                Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_KIRITAN_TOHOKU"          Kind="KIND_TRAIT"/>
 	</Types>
 	<Tags>
 		<Row Tag="CLASS_CAPTURE_WORKER_ZUNKO" Vocabulary="ABILITY_CLASS"/>
@@ -21,36 +27,222 @@
 	</TypeTags>
 	<Leaders>
 		<Row>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<Name>LOC_LEADER_ITAKO_TOHOKU_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+		<Row>
 			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
 			<Name>LOC_LEADER_ZUNKO_TOHOKU_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
+			<Name>LOC_LEADER_KIRITAN_TOHOKU_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_ZUNKO_TOHOKU" Quote="LOC_LEADER_ZUNKO_TOHOKU_QUOTE"/>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU"   Quote="LOC_LEADER_ITAKO_TOHOKU_QUOTE"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   Quote="LOC_LEADER_ZUNKO_TOHOKU_QUOTE"/>
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" Quote="LOC_LEADER_KIRITAN_TOHOKU_QUOTE"/>
 	</LeaderQuotes>
 	<LeaderTraits>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU" TraitType="TRAIT_LEADER_ITAKO_TOHOKU"/>
+
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_ZUNKO_TOHOKU"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
+
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" TraitType="TRAIT_LEADER_KIRITAN_TOHOKU"/>
 	</LeaderTraits>
 	<Traits>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" Name="LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION"/>
+		
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" Name="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE" Name="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Name="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME"/>
+
+		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" Name="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
+		<!-- Itako -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FOOD"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FOOD"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FOOD"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD"/>
+		<!-- Zunko -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>
 	</TraitModifiers>
 
 	<Modifiers>
+		<!-- Itako -->
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
+		</Row>
+		<!-- Zunko -->
 		<Row>
 			<ModifierId>TRAIT_YNL_ZUNKO_CAPTURE_WORKER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- Itako -->
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- Zunko -->
 		<Row>
 			<ModifierId>TRAIT_YNL_ZUNKO_CAPTURE_WORKER</ModifierId>
 			<Name>AbilityType</Name>
@@ -67,6 +259,108 @@
 			<ModifierId>CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!--
+		<Row>
+			<RequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		-->
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_ITAKO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS_ITAKO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS_ITAKO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!--
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_TUNDRA_HILLS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		-->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_ITAKO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_ITAKO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_HILLS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS_ITAKO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_HILLS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS_ITAKO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<!--
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_TUNDRA_HILLS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_HILLS</Value>
+		</Row>
+		-->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_ITAKO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_ITAKO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS_ITAKO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS_ITAKO</RequirementId>
+		</Row>
+		<!--
+		<Row>
+			<RequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TUNDRA_HILLS</RequirementId>
+		</Row>
+		-->
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_ITAKO</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 
 	<AiListTypes>
 		<Row ListType="YNL_ZunkoWonders"/>
@@ -97,14 +391,23 @@
 	</AiFavoredItems>
 
 	<HistoricalAgendas>
-		<Row LeaderType="LEADER_ZUNKO_TOHOKU" AgendaType="AGENDA_COUNTER_REFORMER"/>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU"   AgendaType="AGENDA_COUNTER_REFORMER"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   AgendaType="AGENDA_COUNTER_REFORMER"/>
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" AgendaType="AGENDA_COUNTER_REFORMER"/>
 	</HistoricalAgendas>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU" ReligionType="RELIGION_SHINTO"/>
+	</FavoredReligions>
 
 	<DiplomacyInfo>
-		<Row Type="LEADER_ZUNKO_TOHOKU" BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
+		<Row Type="LEADER_ITAKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
+		<Row Type="LEADER_ZUNKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
+		<Row Type="LEADER_KIRITAN_TOHOKU" BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
-		<Row LeaderType="LEADER_ZUNKO_TOHOKU" ForegroundImage="Foreground_LoadingInfo_Zunko.dds" BackgroundImage="Background_LoadingInfo_Zunko.dds" LeaderText="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU"   ForegroundImage="Foreground_LoadingInfo_Itako.dds"   BackgroundImage="Background_LoadingInfo_Zunko.dds" LeaderText="LOC_LEADER_ITAKO_TOHOKU_DOM_TEXT"   PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   ForegroundImage="Foreground_LoadingInfo_Zunko.dds"   BackgroundImage="Background_LoadingInfo_Zunko.dds" LeaderText="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT"   PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" ForegroundImage="Foreground_LoadingInfo_Kiritan.dds" BackgroundImage="Background_LoadingInfo_Zunko.dds" LeaderText="LOC_LEADER_KIRITAN_TOHOKU_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	
 	<Colors>

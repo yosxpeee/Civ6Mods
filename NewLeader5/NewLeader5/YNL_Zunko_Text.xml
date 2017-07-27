@@ -2,15 +2,33 @@
 <GameData>
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ITAKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>”Tohoku Image Character [Itako Tohoku]”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ITAKO_TOHOKU_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="en_US">
 			<Text>”VOICEROID+ Zunko Tohoku EX”</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text></Text>
 		</Row>
-		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KIRITAN_TOHOKU_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>”Tohoku Image Character [Kiritan Tohoku]”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KIRITAN_TOHOKU_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+
 		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ITAKO_TOHOKU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KIRITAN_TOHOKU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 
@@ -144,8 +162,14 @@
 		</Row>
 
 		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_ITAKO_TOHOKU_QUOTE" Language="en_US">
+			<Text></Text>
+		</Row>
 		<Row Tag="LOC_LEADER_ZUNKO_TOHOKU_QUOTE" Language="en_US">
 			<Text>zunda\(^o^)/zunda</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KIRITAN_TOHOKU_QUOTE" Language="en_US">
+			<Text></Text>
 		</Row>
    
 		<Row Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Language="en_US">
@@ -155,7 +179,13 @@
 			<Text>All ranged unit can capture defeated enemy civilization combat units and convert them to Builders.</Text>
 		</Row>
 
+		<Row Tag="LOC_LEADER_ITAKO_TOHOKU_DOM_TEXT" Language="en_US">
+			<Text></Text>
+		</Row>
 		<Row Tag="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KIRITAN_TOHOKU_DOM_TEXT" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

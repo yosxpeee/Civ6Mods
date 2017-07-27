@@ -9,6 +9,12 @@
 	<m_ClassName text="LeaderFallback"/>
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
+		<!--Itako -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ITAKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ITAKO_TOHOKU"/>
+		</Element>
+		<!--Zunko -->
 		<Element>
 			<m_EntryID text="FALLBACK_HAPPY_ZUNKO_TOHOKU"/>
 			<m_ObjectName text="FALLBACK_HAPPY_ZUNKO_TOHOKU"/>
@@ -36,6 +42,11 @@
 		<Element>
 			<m_EntryID text="FALLBACK_DEFEAT_ZUNKO_TOHOKU"/>
 			<m_ObjectName text="FALLBACK_DEFEAT_ZUNKO_TOHOKU"/>
+		</Element>
+		<!--Kiritan -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_KIRITAN_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KIRITAN_TOHOKU"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

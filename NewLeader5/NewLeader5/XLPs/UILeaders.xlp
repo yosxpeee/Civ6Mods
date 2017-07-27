@@ -10,8 +10,20 @@
 	<m_PackageName text="UILeaders"/>
 	<m_Entries>
 		<Element>
+			<m_EntryID text="LEADER_ITAKO_TOHOKU_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ITAKO_TOHOKU_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_ITAKO_TOHOKU"/>
+			<m_ObjectName text="PORTRAIT_ITAKO_TOHOKU"/>
+		</Element>
+		<Element>
 			<m_EntryID text="LEADER_ZUNKO_TOHOKU_NEUTRAL"/>
 			<m_ObjectName text="LEADER_ZUNKO_TOHOKU_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KIRITAN_TOHOKU_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KIRITAN_TOHOKU_NEUTRAL"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

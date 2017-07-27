@@ -15,7 +15,9 @@
 		</Row>
 	</Civilizations>
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_DPRT" LeaderType="LEADER_ZUNKO_TOHOKU" CapitalName="LOC_CIVILIZATION_DPRT_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_DPRT" LeaderType="LEADER_ITAKO_TOHOKU"   CapitalName="LOC_CIVILIZATION_DPRT_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_DPRT" LeaderType="LEADER_ZUNKO_TOHOKU"   CapitalName="LOC_CIVILIZATION_DPRT_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_DPRT" LeaderType="LEADER_KIRITAN_TOHOKU" CapitalName="LOC_CIVILIZATION_DPRT_CITY_5" />
 	</CivilizationLeaders>
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_1" Female="0"/>

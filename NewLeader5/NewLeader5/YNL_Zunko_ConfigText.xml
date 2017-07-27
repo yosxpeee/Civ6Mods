@@ -4,17 +4,21 @@
 		<Row Tag="LOC_CIVILIZATION_DPRT_NAME" Language="en_US">
 			<Text>Democratic People's Republic Tohoku</Text>
 		</Row>
-		
 		<Row Tag="LOC_CIVILIZATION_DPRT_DESCRIPTION" Language="en_US">
 			<Text>Democratic People's Republic Tohoku</Text>
 		</Row>
-
 		<Row Tag="LOC_CIVILIZATION_DPRT_ADJECTIVE" Language="en_US">
 			<Text>Democratic People's Republic Tohoku</Text>
 		</Row>
 		
+		<Row Tag="LOC_LEADER_ITAKO_TOHOKU_NAME" Language="en_US">
+			<Text>Itako Tohoku</Text>
+		</Row>
 		<Row Tag="LOC_LEADER_ZUNKO_TOHOKU_NAME" Language="en_US">
 			<Text>Zunko Tohoku</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KIRITAN_TOHOKU_NAME" Language="en_US">
+			<Text>Kiritan Tohoku</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_DPRT_NAME" Language="en_US">
@@ -24,11 +28,23 @@
 			<Text>Combat victories provide [ICON_Faith] Faith equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit. Inquisitors can Remove Heresy one extra time.</Text>
 		</Row>
 		
+		<Row Tag="LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME" Language="en_US">
+			<Text>Necromancy</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Faith] Faith and +1 [ICON_Food] Food from Hills.</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Language="en_US">
 			<Text>Zunda Arrow</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION" Language="en_US">
 			<Text>Can capture defeated enemy civilization combat units and convert them to Builders.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION" Language="en_US">
+			<Text>Unknown</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_ZUNDA_CAFE_NAME" Language="en_US">

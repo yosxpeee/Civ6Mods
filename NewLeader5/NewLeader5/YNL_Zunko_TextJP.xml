@@ -2,16 +2,34 @@
 <GameData>
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ITAKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>「東北6県応援キャラクター 東北イタコ」</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ITAKO_TOHOKU_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
 			<Text>『VOICEROID+ 東北ずん子 EX』</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>ずんだアローを敵文明のユニットめがけてシュゥゥゥーッ!!超!エキサイティン!!</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KIRITAN_TOHOKU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>「東北6県応援キャラクター 東北きりたん」</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KIRITAN_TOHOKU_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
 
 		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ITAKO_TOHOKU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>東北イタコとは、東北地方を応援するために創作されたキャラクター。同じ志の元に作られた東北ずん子の姉。</Text>
+		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>東北ずん子とは、東北6県全体を盛り上げるためのキャラクター、またボイスロイドとボーカロイドのイメージキャラクター。主に宮城県で食べられる「ずんだ餅」をモチーフにしたキャラクターである。[NEWLINE]SSS合同会社の手になるもので、東北地方を応援すべく企画されたものであり、東北６県（青森、岩手、宮城、秋田、山形、福島）に本社を置く企業であれば自由に商用利用できる。利用に対する運営への申請は不要。事務手続きの関係上、申請無しでの利用を推奨。詳細は、公式サイト「キャラクター利用のガイドライン」を参照。クリエイター向けの利用ガイドラインも併せて示されている他、分かりやすい例示がされている。また後述のVOICEROID音声に関してはライセンスが異なる為、上記使用ガイドラインの適用外となる点に注意。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KIRITAN_TOHOKU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>東北きりたんとは、東北地方を応援するために創作されたキャラクター。同じ志の元に「東北イタコ」「東北ずん子」の姉妹も作られており、三姉妹の末っ子に当たる。</Text>
 		</Replace>
 
 		<!-- Civilization specific historical text. -->
@@ -144,8 +162,14 @@
 		</Replace>
 
 		<!-- Leader Quotes -->
+		<Replace Tag="LOC_LEADER_ITAKO_TOHOKU_QUOTE" Language="ja_JP">
+			<Text>未定</Text>
+		</Replace>
 		<Replace Tag="LOC_LEADER_ZUNKO_TOHOKU_QUOTE" Language="ja_JP">
 			<Text>＼(ず・ω・だ)／</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_KIRITAN_TOHOKU_QUOTE" Language="ja_JP">
+			<Text>未定</Text>
 		</Replace>
 
 		<Replace Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Language="ja_JP">
@@ -155,8 +179,14 @@
 			<Text>倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる。</Text>
 		</Replace>
 
+		<Replace Tag="LOC_LEADER_ITAKO_TOHOKU_DOM_TEXT" Language="ja_JP">
+			<Text>まだ未記入</Text>
+		</Replace>
 		<Replace Tag="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT" Language="ja_JP">
 			<Text>夢は秋葉原にずんだカフェ、ずんだショップを作ることです。ずんだの未来のために、皆さん応援してくださいね。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ITAKO_TOHOKU_DOM_TEXT" Language="ja_JP">
+			<Text>まだ未記入</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
