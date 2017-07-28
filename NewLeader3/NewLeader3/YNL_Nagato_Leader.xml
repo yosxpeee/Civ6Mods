@@ -42,7 +42,7 @@
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  Name="LOC_TRAIT_LEADER_YNL_MUTSU_NAME"  Description="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="HEAL_AFTER_DEFEATING_UNIT"/>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="HEAL_AFTER_DEFEATING_UNIT_NAGATO"/>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
 
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
@@ -55,6 +55,10 @@
 			<ModifierId>TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>HEAL_AFTER_DEFEATING_UNIT_NAGATO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_FROM_COMBAT</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -66,6 +70,11 @@
 			<ModifierId>TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU</ModifierId>
 			<Name>Amount</Name>
 			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>HEAL_AFTER_DEFEATING_UNIT_NAGATO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
 
