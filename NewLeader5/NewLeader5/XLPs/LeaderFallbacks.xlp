@@ -11,8 +11,32 @@
 	<m_Entries>
 		<!--Itako -->
 		<Element>
+			<m_EntryID text="FALLBACK_HAPPY_ITAKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_HAPPY_ITAKO_TOHOKU"/>
+		</Element>
+		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_ITAKO_TOHOKU"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_ITAKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_STERN_ITAKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_STERN_ITAKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_SURPRISED_HUMAN_ITAKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_HUMAN_ITAKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_SURPRISED_AI_ITAKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_AI_ITAKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_UNHAPPY_ITAKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_UNHAPPY_ITAKO_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_DEFEAT_ITAKO_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_DEFEAT_ITAKO_TOHOKU"/>
 		</Element>
 		<!--Zunko -->
 		<Element>
@@ -45,8 +69,32 @@
 		</Element>
 		<!--Kiritan -->
 		<Element>
+			<m_EntryID text="FALLBACK_HAPPY_KIRITAN_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_HAPPY_KIRITAN_TOHOKU"/>
+		</Element>
+		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_KIRITAN_TOHOKU"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_KIRITAN_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_STERN_KIRITAN_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_STERN_KIRITAN_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_SURPRISED_HUMAN_KIRITAN_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_HUMAN_KIRITAN_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_SURPRISED_AI_KIRITAN_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_AI_KIRITAN_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_UNHAPPY_KIRITAN_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_UNHAPPY_KIRITAN_TOHOKU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_DEFEAT_KIRITAN_TOHOKU"/>
+			<m_ObjectName text="FALLBACK_DEFEAT_KIRITAN_TOHOKU"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

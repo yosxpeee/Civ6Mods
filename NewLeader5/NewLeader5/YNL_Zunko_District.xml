@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="DISTRICT_NAMAHAGE_MUSEUM" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_INDUSTRIAL_PARK" Kind="KIND_DISTRICT"/>
+	</Types>
+	<!-- 区域の置き換え先 -->
+	<DistrictReplaces>
+		<!-- なまはげ館：聖地 -->
+		<Row CivUniqueDistrictType="DISTRICT_NAMAHAGE_MUSEUM" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
+		<!-- 工業団地　：近郊部 -->
+		<Row CivUniqueDistrictType="DISTRICT_INDUSTRIAL_PARK" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
+	</DistrictReplaces>
+	<!-- 区域の各種設定 -->
+	<Districts>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" Name="LOC_DISTRICT_NAMAHAGE_MUSEUM_NAME" Description="LOC_DISTRICT_NAMAHAGE_MUSEUM_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_FAITH" PlunderAmount="30" AdvisorType="ADVISOR_RELIGIOUS" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_PARK" Name="LOC_DISTRICT_INDUSTRIAL_PARK_NAME" Description="LOC_DISTRICT_INDUSTRIAL_PARK_DESCRIPTION" PrereqCivic="CIVIC_URBANIZATION" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="54" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="false" OnePerCity="false" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="5" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK"/>
+	</Districts>
+	<!-- 隣接ボーナス指定 -->
+	<District_Adjacencies>
+		<!-- なまはげ館 -->
+		<!-- 下6つはバニラのもの(聖地と同じ) -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="NaturalWonder_Faith"/>      <!-- 自然遺産 -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Mountain_Faith1"/>          <!-- 草原山岳(信仰力) -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Mountain_Faith2"/>          <!-- 平原山岳(信仰力) -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Mountain_Faith3"/>          <!-- 砂漠山岳(信仰力) -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Mountain_Faith4"/>          <!-- ツンドラ山岳(信仰力) -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Mountain_Faith5"/>          <!-- 雪原山岳(信仰力) -->
+		<!-- 残る4つはMOD独自 -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Namahage_Forest_Faith"/>    <!-- 森(信仰力) -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Namahage_District_Faith"/>  <!-- 区域(信仰力) -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Namahage_Forest_Culture"/>  <!-- 森(文化力) -->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Namahage_District_Culture"/><!-- 区域(文化力) -->
+		<!-- 工業団地 -->
+		<Row DistrictType="DISTRICT_INDUSTRIAL_PARK" YieldChangeId="IndustrialZone_Production"/><!--  -->
+	</District_Adjacencies>
+	<!-- 偉人ポイント -->
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER"  PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT"  PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<!-- 交易元/交易先で得られるものの設定 -->
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldType="YIELD_FOOD"    YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldType="YIELD_FAITH"   YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<!-- 市民配置時のボーナス -->
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+	<!-- 隣接ボーナスの詳細設定 -->
+	<Adjacency_YieldChanges>
+		<!-- なまはげ館 -->
+		<Row ID="Namahage_Forest_Faith"     Description="LOC_DISTRICT_FOREST_FAITH"               YieldType="YIELD_FAITH"      YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="Namahage_District_Faith"   Description="LOC_DISTRICT_DISTRICT_FAITH"             YieldType="YIELD_FAITH"      YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		<Row ID="Namahage_Forest_Culture"   Description="LOC_DISTRICT_FOREST_CULTURE_NAMAHAGE"    YieldType="YIELD_CULTURE"    YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="Namahage_District_Culture" Description="LOC_DISTRICT_DISTRICT_CULTURE"           YieldType="YIELD_CULTURE"    YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		<!-- 工業団地 -->
+		<Row ID="IndustrialZone_Production" Description="LOC_DISTRICT_INDUSTRIAL_ZONE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+	</Adjacency_YieldChanges>
+</GameInfo>

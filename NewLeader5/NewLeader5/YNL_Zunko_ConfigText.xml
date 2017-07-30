@@ -32,7 +32,7 @@
 			<Text>Necromancy</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Faith] Faith and +1 [ICON_Food] Food from Hills.</Text>
+			<Text>Automatically receive the final [ICON_GreatProphet] Great Prophet when the next-to-last one is claimed (if you have not earned a [ICON_GreatProphet] Great Prophet already). +2 [ICON_Faith] Faith and +1 [ICON_Food] Food from Hills.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Language="en_US">
 			<Text>Zunda Arrow</Text>
@@ -41,10 +41,10 @@
 			<Text>Can capture defeated enemy civilization combat units and convert them to Builders.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>Cloister</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>Industrial Zone and Entertainment Complex districts in half the time. One extra Wildcard policy slot in any government.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_ZUNDA_CAFE_NAME" Language="en_US">
@@ -57,6 +57,32 @@
 			<Text>Zunko Tohoku unique building: Zunda Cafe</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_ZUNDA_CAFE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_YAMABUSHI_NAME" Language="en_US">
+			<Text>Itako Tohoku unique unit: Yamabushi</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YAMABUSHI_DESCRIPTION" Language="en_US">
+			<Text>Itako Tohoku unique unit that replaces the Missionary. Can attack to religious unit of other civilizations.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YAMABUSHI_NAME" Language="en_US">
+			<Text>Yamabushi</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMABUSHI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_UNIT_FIGHTING_MONK_NAME" Language="en_US">
+			<Text>Itako Tohoku unique unit: Fighting Monk</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FIGHTING_MONK_DESCRIPTION" Language="en_US">
+			<Text>Itako Tohoku unique Renaissance era unit that replaces the Musketman. +10 [ICON_Strength] Combat Strength when there is a Yamabushi, Inquisitor, or Apostle in the same hex. If this unit captures a city or is adjacent to a city when it is captured, the city will automatically adopt the Conquistador player's Religion as the dominant Religion. Does not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FIGHTING_MONK_NAME" Language="en_US">
+			<Text>Fighting Monk</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIGHTING_MONK_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 
@@ -73,6 +99,32 @@
 			<Text></Text>
 		</Row>
 
+		<Row Tag="LOC_DISTRICT_NAMAHAGE_MUSEUM_NAME" Language="en_US">
+			<Text>Namahage Museum</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_NAMAHAGE_MUSEUM_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Kiritan Tohoku for religious activity. Replaces the Holy Site district.[NEWLINE][NEWLINE]+2 [ICON_GreatProphet] Great Prophet points, +1 [ICON_GreatEngineer] Great Engineer point, +1 [ICON_GreatScientist] Great Scientist point, +1 [ICON_GreatMerchant] Great Merchant point. +1 [ICON_Culture] Culture for each adjacent Forest and other District.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM_NAME" Language="en_US">
+			<Text>Itako Tohoku unique District: Namahage Museum</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_NAMAHAGE_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_PARK_NAME" Language="en_US">
+			<Text>Industrial Park</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_PARK_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Kiritan Tohoku. Replaces the Neighborhood district. Provides +5 [ICON_Housing] Housing, +2 [ICON_Production] Production for adjacent Industrial Zone District.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK_NAME" Language="en_US">
+			<Text>Kiritan Tohoku unique District: Industrial Park</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_INDUSTRIAL_PARK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
 		<Row Tag="LOC_IMPROVEMENT_KOSHIN_TOWER_NAME" Language="en_US">
 			<Text>Koshin Tower</Text>
 		</Row>
@@ -85,5 +137,5 @@
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_KOSHIN_TOWER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-	</LocalizedText>
+</LocalizedText>
 </GameData>

@@ -188,5 +188,9 @@
 		<Row Tag="LOC_LEADER_KIRITAN_TOHOKU_DOM_TEXT" Language="en_US">
 			<Text></Text>
 		</Row>
-	</LocalizedText>
+
+		<Row Tag="LOC_DISTRICT_FOREST_CULTURE_NAMAHAGE" Language="en_US">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Woods {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		</LocalizedText>
 </GameData>

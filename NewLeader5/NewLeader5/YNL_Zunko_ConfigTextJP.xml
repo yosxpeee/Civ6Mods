@@ -32,7 +32,7 @@
 			<Text>イタコの口寄せ</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION" Language="ja_JP">
-			<Text>丘陵から [ICON_Faith] 信仰力+2、 [ICON_Food] 食糧+1を得る。</Text>
+			<Text>最後から2番目の大預言者を獲得すると (まだ [ICON_GreatProphet] 大預言者を獲得していない場合)、自動的に最後の [ICON_GreatProphet] 大預言者を獲得する。丘陵から [ICON_Faith] 信仰力+2、[ICON_Food] 食糧+1を得る。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Language="ja_JP">
 			<Text>ずんだアロー</Text>
@@ -41,17 +41,17 @@
 			<Text>すべての陸上長距離戦闘ユニットは倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる能力を得る。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>ひきこもる</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>工業地帯および総合娯楽施設の建設にかかる時間が半分になる。政府のワイルドカード政策スロットが1つ増える。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_ZUNDA_CAFE_NAME" Language="ja_JP">
 			<Text>ずんだカフェ</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION" Language="ja_JP">
-			<Text>東北ずん子固有の建造物。水車小屋に取ってかわる。 [ICON_Amenities] 快適性+1、 [ICON_Food] 食糧+2、 [ICON_Production] 生産力+1、 [ICON_Gold] ゴールド+1。 [ICON_RESOURCE_COFFEE] コーヒー、 [ICON_RESOURCE_TEA] 茶1つごとに [ICON_Culture] 文化力+2。 [ICON_RESOURCE_SUGAR] 砂糖、 [ICON_RESOURCE_SALT] 塩、 [ICON_RESOURCE_RICE] 米1つごとに [ICON_Food] 食糧+1。川に接している都市にのみ建設できる。</Text>
+			<Text>東北ずん子固有の建造物。水車小屋に取ってかわる。[ICON_Amenities] 快適性+1、[ICON_Food] 食糧+2、[ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1。[ICON_RESOURCE_COFFEE] コーヒー、[ICON_RESOURCE_TEA] 茶1つごとに [ICON_Culture] 文化力+2。[ICON_RESOURCE_SUGAR] 砂糖、[ICON_RESOURCE_SALT] 塩、[ICON_RESOURCE_RICE] 米1つごとに [ICON_Food] 食糧+1。川に接している都市にのみ建設できる。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME" Language="ja_JP">
 			<Text>東北ずん子固有の建造物: ずんだカフェ</Text>
@@ -60,11 +60,37 @@
 			<Text></Text>
 		</Replace>
 
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YAMABUSHI_NAME" Language="ja_JP">
+			<Text>東北イタコ固有のユニット: 山伏</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAMABUSHI_DESCRIPTION" Language="ja_JP">
+			<Text>伝道師に取ってかわる東北ずん子固有の古典時代のユニット。他文明の宗教ユニットへ攻撃できる。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YAMABUSHI_NAME" Language="ja_JP">
+			<Text>山伏</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMABUSHI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_UNIT_FIGHTING_MONK_NAME" Language="ja_JP">
+			<Text>東北イタコ固有のユニット: 僧兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIGHTING_MONK_DESCRIPTION" Language="ja_JP">
+			<Text>マスケット銃兵に取ってかわる東北イタコ固有のルネサンス時代のユニット。同じタイルに山伏、審問官、使徒のいずれかがいると [ICON_Strength] 戦闘力+10。このユニットが都市を制圧するか、このユニットが隣接した状態で都市を制圧すると、その都市をプレイヤーの主流宗教に改宗させることができる。ダメージを受けても戦闘ペナルティが生じない。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIGHTING_MONK_NAME" Language="ja_JP">
+			<Text>僧兵</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIGHTING_MONK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME" Language="ja_JP">
 			<Text>東北ずん子固有のユニット: ずんだ弓騎兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ZUNKO_HORSE_ARCHER_DESCRIPTION" Language="ja_JP">
-			<Text>東北ずん子固有の古典時代のユニット。[ICON_Movement] 移動力4、 [ICON_Range] 射程2。倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる。</Text>
+			<Text>東北ずん子固有の古典時代のユニット。[ICON_Movement] 移動力4、[ICON_Range] 射程2。倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_ZUNKO_HORSE_ARCHER_NAME" Language="ja_JP">
 			<Text>ずんだ弓騎兵</Text>
@@ -73,11 +99,37 @@
 			<Text></Text>
 		</Replace>
 
+		<Replace Tag="LOC_DISTRICT_NAMAHAGE_MUSEUM_NAME" Language="ja_JP">
+			<Text>なまはげ館</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_NAMAHAGE_MUSEUM_DESCRIPTION" Language="ja_JP">
+			<Text>宗教活動のための区域。東北きりたん固有。聖地区域に取ってかわる。[NEWLINE][NEWLINE][ICON_GreatProphet] 大預言者ポイント+2、[ICON_GreatEngineer] 大技術者ポイント+1、[ICON_GreatScientist] 大科学者ポイント+1、[ICON_GreatMerchant] 大商人ポイント+1。隣接する森、他の区域1つにつき [ICON_Culture] 文化力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM_NAME" Language="ja_JP">
+			<Text>東北きりたん固有の区域: なまはげ館</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_NAMAHAGE_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_PARK_NAME" Language="ja_JP">
+			<Text>工業団地</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_PARK_DESCRIPTION" Language="ja_JP">
+			<Text>東北きりたん固有。近郊部に取ってかわる。[ICON_Housing] 住宅+5。工業地帯に隣接すると [ICON_Production] 生産力+2。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK_NAME" Language="ja_JP">
+			<Text>Kiritan Tohoku unique District: Industrial Park</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_INDUSTRIAL_PARK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
 		<Replace Tag="LOC_IMPROVEMENT_KOSHIN_TOWER_NAME" Language="ja_JP">
 			<Text>庚申塔</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION" Language="ja_JP">
-			<Text>労働者が東北民主主義人民共和国固有の施設である庚申塔を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+1。 [ICON_Gold] ゴールド+1。隣接する鉱山・採石場1つにつき [ICON_Faith] 信仰力+1。丘陵の上には建設不可。</Text>
+			<Text>労働者が東北民主主義人民共和国固有の施設である庚申塔を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+1。[ICON_Gold] ゴールド+1。隣接する鉱山・採石場1つにつき [ICON_Faith] 信仰力+1。丘陵の上には建設不可。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER_NAME" Language="ja_JP">
 			<Text>東北民主主義人民共和国固有の施設: 庚申塔</Text>

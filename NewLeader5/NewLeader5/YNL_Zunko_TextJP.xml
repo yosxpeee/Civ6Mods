@@ -6,7 +6,7 @@
 			<Text>「東北6県応援キャラクター 東北イタコ」</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ITAKO_TOHOKU_CHAPTER_DETAILED_BODY" Language="ja_JP">
-			<Text></Text>
+			<Text>完全宗教特化型指導者。丘陵からの宗教力ボーナスを活かし、僧兵・山伏を組み合わせた宗教戦争（物理）が得意。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZUNKO_TOHOKU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
 			<Text>『VOICEROID+ 東北ずん子 EX』</Text>
@@ -18,7 +18,7 @@
 			<Text>「東北6県応援キャラクター 東北きりたん」</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_KIRITAN_TOHOKU_CHAPTER_DETAILED_BODY" Language="ja_JP">
-			<Text></Text>
+			<Text>内政重視型、ようするにひきこもりである。なまはげ館は宗教施設でありながら隣接ボーナスで文化力も得ることができる。また、工業地帯と工業団地をうまく並べることで凄まじい生産力をたたき出す。</Text>
 		</Replace>
 
 		<!-- Leader specific historical text. -->
@@ -163,13 +163,13 @@
 
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_ITAKO_TOHOKU_QUOTE" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>ずんちゃんペロペロ</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_ZUNKO_TOHOKU_QUOTE" Language="ja_JP">
 			<Text>＼(ず・ω・だ)／</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_KIRITAN_TOHOKU_QUOTE" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>ずんねえさまペロペロ</Text>
 		</Replace>
 
 		<Replace Tag="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Language="ja_JP">
@@ -180,13 +180,17 @@
 		</Replace>
 
 		<Replace Tag="LOC_LEADER_ITAKO_TOHOKU_DOM_TEXT" Language="ja_JP">
-			<Text>まだ未記入</Text>
+			<Text>将来の夢は、ずん子を全国区のアイドルにすること、体内に飼っている九尾のキツネの力を完全に戻すことですわ。よろしくおねがいしますね。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT" Language="ja_JP">
 			<Text>夢は秋葉原にずんだカフェ、ずんだショップを作ることです。ずんだの未来のために、皆さん応援してくださいね。</Text>
 		</Replace>
-		<Replace Tag="LOC_LEADER_ITAKO_TOHOKU_DOM_TEXT" Language="ja_JP">
-			<Text>まだ未記入</Text>
+		<Replace Tag="LOC_LEADER_KIRITAN_TOHOKU_DOM_TEXT" Language="ja_JP">
+			<Text>将来の夢は、ずんねえさまを全国区のアイドルにすること、生き別れの妖精(？)「たんちゃん」との再会・・・です。よろしく。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_FOREST_CULTURE_NAMAHAGE" Language="ja_JP">
+			<Text>隣接する森タイルにより [ICON_Culture] 文化力+{1_num}。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Players>
-		<!-- Itako -->
+		<!-- イタコ -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -18,7 +18,7 @@
 			<LeaderAbilityIcon>ICON_LEADER_ITAKO_TOHOKU</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_ITAKO_TOHOKU</Portrait>
 		</Row>
-		<!-- Zunko -->
+		<!-- ずん子 -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -35,7 +35,7 @@
 			<LeaderAbilityIcon>ICON_LEADER_ZUNKO_TOHOKU</LeaderAbilityIcon>
 			<Portrait>LEADER_ZUNKO_TOHOKU_NEUTRAL</Portrait>
 		</Row>
-		<!-- Kiritan -->
+		<!-- きりたん -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -54,29 +54,27 @@
 		</Row>
 	</Players>
 	<PlayerItems>
-		<!-- Itako -->
-		<!--
+		<!-- イタコ -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
 			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
-			<Type>UNIT_ITAKO_HORSE_ARCHER</Type>
-			<Name>LOC_UNIT_ITAKO_HORSE_ARCHER_NAME</Name>
-			<Description>LOC_UNIT_ITAKO_HORSE_ARCHER_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_ITAKO_HORSE_ARCHER</Icon>
+			<Type>UNIT_YAMABUSHI</Type>
+			<Name>LOC_UNIT_YAMABUSHI_NAME</Name>
+			<Description>LOC_UNIT_YAMABUSHI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YAMABUSHI</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
 			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
-			<Type>BUILDING_ZUNDA_CAFE</Type>
-			<Name>LOC_BUILDING_ZUNDA_CAFE_NAME</Name>
-			<Description>LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ZUNDA_CAFE</Icon>
+			<Type>UNIT_FIGHTING_MONK</Type>
+			<Name>LOC_UNIT_FIGHTING_MONK_NAME</Name>
+			<Description>LOC_UNIT_FIGHTING_MONK_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FIGHTING_MONK</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
-		-->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -87,7 +85,7 @@
 			<Icon>ICON_IMPROVEMENT_KOSHIN_TOWER</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
-		<!-- Zunko -->
+		<!-- ずん子 -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -118,29 +116,27 @@
 			<Icon>ICON_IMPROVEMENT_KOSHIN_TOWER</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
-		<!-- Kiritan -->
-		<!--
+		<!-- きりたん -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
 			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
-			<Type>UNIT_KIRITAN_HORSE_ARCHER</Type>
-			<Name>LOC_UNIT_KIRITAN_HORSE_ARCHER_NAME</Name>
-			<Description>LOC_UNIT_KIRITAN_HORSE_ARCHER_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_KIRITAN_HORSE_ARCHER</Icon>
+			<Type>DISTRICT_INDUSTRIAL_PARK</Type>
+			<Name>LOC_DISTRICT_INDUSTRIAL_PARK_NAME</Name>
+			<Description>LOC_DISTRICT_INDUSTRIAL_PARK_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_INDUSTRIAL_PARK</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
 			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
-			<Type>BUILDING_ZUNDA_CAFE</Type>
-			<Name>LOC_BUILDING_ZUNDA_CAFE_NAME</Name>
-			<Description>LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION</Description>
-			<Icon>ICON_BUILDING_ZUNDA_CAFE</Icon>
+			<Type>DISTRICT_NAMAHAGE_MUSEUM</Type>
+			<Name>LOC_DISTRICT_NAMAHAGE_MUSEUM_NAME</Name>
+			<Description>LOC_DISTRICT_NAMAHAGE_MUSEUM_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_NAMAHAGE_MUSEUM</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
-		-->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>

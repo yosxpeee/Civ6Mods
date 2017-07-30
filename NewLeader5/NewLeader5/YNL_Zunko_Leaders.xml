@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="LEADER_ITAKO_TOHOKU"                  Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_ITAKO_TOHOKU"            Kind="KIND_TRAIT"/>
-		
-		<Row Type="LEADER_ZUNKO_TOHOKU"                  Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_ZUNKO_TOHOKU"            Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"     Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Kind="KIND_TRAIT"/>
-		<Row Type="ABILITY_YNL_ZUNKO_CAPTURE_WORKER"     Kind="KIND_ABILITY"/>
-
-		<Row Type="LEADER_KIRITAN_TOHOKU"                Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_KIRITAN_TOHOKU"          Kind="KIND_TRAIT"/>
+		<!-- イタコ -->
+		<Row Type="LEADER_ITAKO_TOHOKU"                  Kind="KIND_LEADER"/> <!-- 指導者 -->
+		<Row Type="TRAIT_LEADER_ITAKO_TOHOKU"            Kind="KIND_TRAIT"/>  <!-- 指導者特性 -->
+		<Row Type="TRAIT_LEADER_UNIT_YAMABUSHI"          Kind="KIND_TRAIT"/>  <!-- UU -->
+		<Row Type="TRAIT_LEADER_UNIT_FIGHTING_MONK"      Kind="KIND_TRAIT"/>  <!-- UU -->
+		<!-- ずん子 -->
+		<Row Type="LEADER_ZUNKO_TOHOKU"                  Kind="KIND_LEADER"/> <!-- 指導者 -->
+		<Row Type="TRAIT_LEADER_ZUNKO_TOHOKU"            Kind="KIND_TRAIT"/>  <!-- 指導者特性 -->
+		<Row Type="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"     Kind="KIND_TRAIT"/>  <!-- UB -->
+		<Row Type="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Kind="KIND_TRAIT"/>  <!-- UU -->
+		<Row Type="ABILITY_YNL_ZUNKO_CAPTURE_WORKER"     Kind="KIND_ABILITY"/><!-- アビリティ -->
+		<!-- きりたん -->
+		<Row Type="LEADER_KIRITAN_TOHOKU"                 Kind="KIND_LEADER"/><!-- 指導者 -->
+		<Row Type="TRAIT_LEADER_KIRITAN_TOHOKU"           Kind="KIND_TRAIT"/> <!-- 指導者特性 -->
+		<Row Type="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM" Kind="KIND_TRAIT"/> <!-- UD -->
+		<Row Type="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK" Kind="KIND_TRAIT"/> <!-- UD -->
 	</Types>
 	<Tags>
 		<Row Tag="CLASS_CAPTURE_WORKER_ZUNKO" Vocabulary="ABILITY_CLASS"/>
@@ -49,41 +54,58 @@
 	</LeaderQuotes>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_ITAKO_TOHOKU" TraitType="TRAIT_LEADER_ITAKO_TOHOKU"/>
-
+		<Row LeaderType="LEADER_ITAKO_TOHOKU" TraitType="TRAIT_LEADER_UNIT_YAMABUSHI"/>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU" TraitType="TRAIT_LEADER_UNIT_FIGHTING_MONK"/>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
+		
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_ZUNKO_TOHOKU"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
 
 		<Row LeaderType="LEADER_KIRITAN_TOHOKU" TraitType="TRAIT_LEADER_KIRITAN_TOHOKU"/>
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" TraitType="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM"/>
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" TraitType="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK"/>
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
 	</LeaderTraits>
+	<!-- 特性 -->
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" Name="LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU"       Name="LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_YAMABUSHI"     Name="LOC_TRAIT_LEADER_UNIT_YAMABUSHI_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_FIGHTING_MONK" Name="LOC_TRAIT_LEADER_UNIT_FIGHTING_MONK_NAME"/>
 		
-		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" Name="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE" Name="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME"/>
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU"            Name="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"     Name="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Name="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME"/>
 
-		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" Name="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU"           Name="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM" Name="LOC_TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM_NAME"/>
+		<Row TraitType="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK" Name="LOC_TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK_NAME"/>
 	</Traits>
+	<!-- 特性と指導者の紐付け -->
 	<TraitModifiers>
-		<!-- Itako -->
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FAITH"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FAITH"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD"/>
-		<!-- Zunko -->
-		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>
+		<!-- イタコ -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH"/> <!-- 草原丘陵から信仰力ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FAITH"/><!-- 平原丘陵から信仰力ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FAITH"/><!-- 砂漠丘陵から信仰力ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH"/><!-- ツンドラ丘陵から信仰力ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH"/>  <!-- 雪原丘陵から信仰力ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FOOD"/>  <!-- 草原丘陵から食糧ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FOOD"/> <!-- 平原丘陵から食糧ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FOOD"/> <!-- 砂漠丘陵から食糧ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD"/> <!-- ツンドラ丘陵から食糧ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD"/>   <!-- 雪原丘陵から食糧ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_GUARANTEE_ONE_PROPHET"/>                 <!-- 最後の預言者取得 (アラビアで使われているものをそのまま使用) -->
+		<!-- ずん子 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>              <!-- 陸上遠距離ユニットで敵文明のユニットを倒すと一定確率で労働者捕獲 -->
+		<!-- きりたん -->
+		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_KIRITAN"/>               <!-- 工業地帯への生産ボーナス -->
+		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_BOOST_DISTRICT_ENTERTAINMENT_COMPLEX_PRODUCTION_KIRITAN"/><!-- 娯楽施設への生産ボーナス -->
+		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_WILDCARD_GOVERNMENT_SLOT"/>                               <!-- 政府のワイルドカードスロット+1(ギリシャで使われているものをそのまま使用) -->
 	</TraitModifiers>
 
 	<Modifiers>
-		<!-- Itako -->
+		<!-- イタコ -->
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
@@ -102,7 +124,7 @@
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId><!-- PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS はすでにバニラにあるのでそのまま使う。(ロシアで使われている)-->
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH</ModifierId>
@@ -127,21 +149,33 @@
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId><!-- PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS はすでにバニラにあるのでそのまま使う。(ロシアで使われている)-->
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
 		</Row>
-		<!-- Zunko -->
+		<!-- ずん子 -->
+		<!-- この記述で作成したユニットのアビリティが指導者特性として扱われるようになる -->
 		<Row>
 			<ModifierId>TRAIT_YNL_ZUNKO_CAPTURE_WORKER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
+		<!-- きりたん -->
+		<!-- 工業地帯への建造ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_KIRITAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- 総合娯楽施設への建造ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_BOOST_DISTRICT_ENTERTAINMENT_COMPLEX_PRODUCTION_KIRITAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<!-- Itako -->
+		<!-- イタコ -->
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH</ModifierId>
 			<Name>YieldType</Name>
@@ -242,17 +276,41 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<!-- Zunko -->
+		<!-- ずん子 -->
 		<Row>
 			<ModifierId>TRAIT_YNL_ZUNKO_CAPTURE_WORKER</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_YNL_ZUNKO_CAPTURE_WORKER</Value>
 		</Row>
+		<!-- きりたん -->
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_KIRITAN</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_KIRITAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BOOST_DISTRICT_ENTERTAINMENT_COMPLEX_PRODUCTION_KIRITAN</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BOOST_DISTRICT_ENTERTAINMENT_COMPLEX_PRODUCTION_KIRITAN</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
 	</ModifierArguments>
 
+	<!-- ユニットのアビリティ設定 -->
 	<UnitAbilities>
+		<!-- Inactive : たぶんパッシブスキルかどうか？？？バニラのものにもあったりなかったりしてて正直よくわからず。-->
 		<Row UnitAbilityType="ABILITY_YNL_ZUNKO_CAPTURE_WORKER" Name="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Description="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_DESCRIPTION" Inactive="true"/>
 	</UnitAbilities>
+	<!-- アビリティとModifierの紐付け -->
 	<UnitAbilityModifiers>
 		<Row>
 			<UnitAbilityType>ABILITY_YNL_ZUNKO_CAPTURE_WORKER</UnitAbilityType>
@@ -363,31 +421,79 @@
 	</RequirementSetRequirements>
 
 	<AiListTypes>
+		<Row ListType="YNL_ItakoWonders"/>
+		<Row ListType="YNL_ItakoCivics"/>
+		<Row ListType="YNL_ItakoTechs"/>
+		<Row ListType="YNL_ItakoReligiousDistrict"/>
+		
 		<Row ListType="YNL_ZunkoWonders"/>
 		<Row ListType="YNL_ZunkoCivics"/>
 		<Row ListType="YNL_ZunkoTechs"/>
 		<Row ListType="YNL_ZunkoReligiousDistrict"/>
+
+		<Row ListType="YNL_KiritanWonders"/>
+		<Row ListType="YNL_KiritanCivics"/>
+		<Row ListType="YNL_KiritanTechs"/>
+		<Row ListType="YNL_KiritanReligiousDistrict"/>
 	</AiListTypes>
 	<AiLists>
-		<Row ListType="YNL_ZunkoWonders"           LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Buildings"/>
-		<Row ListType="YNL_ZunkoCivics"            LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Civics"/>
-		<Row ListType="YNL_ZunkoTechs"             LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Technologies"/>
-		<Row ListType="YNL_ZunkoReligiousDistrict" LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Districts"/>
+		<Row ListType="YNL_ItakoWonders"             LeaderType="TRAIT_LEADER_ITAKO_TOHOKU"   System="Buildings"/>
+		<Row ListType="YNL_ItakoCivics"              LeaderType="TRAIT_LEADER_ITAKO_TOHOKU"   System="Civics"/>
+		<Row ListType="YNL_ItakoTechs"               LeaderType="TRAIT_LEADER_ITAKO_TOHOKU"   System="Technologies"/>
+		<Row ListType="YNL_ItakoReligiousDistrict"   LeaderType="TRAIT_LEADER_ITAKO_TOHOKU"   System="Districts"/>
+												     										  
+		<Row ListType="YNL_ZunkoWonders"             LeaderType="TRAIT_LEADER_ZUNKO_TOHOKU"   System="Buildings"/>
+		<Row ListType="YNL_ZunkoCivics"              LeaderType="TRAIT_LEADER_ZUNKO_TOHOKU"   System="Civics"/>
+		<Row ListType="YNL_ZunkoTechs"               LeaderType="TRAIT_LEADER_ZUNKO_TOHOKU"   System="Technologies"/>
+		<Row ListType="YNL_ZunkoReligiousDistrict"   LeaderType="TRAIT_LEADER_ZUNKO_TOHOKU"   System="Districts"/>
+
+		<Row ListType="YNL_KiritanWonders"           LeaderType="TRAIT_LEADER_KIRITAN_TOHOKU" System="Buildings"/>
+		<Row ListType="YNL_KiritanCivics"            LeaderType="TRAIT_LEADER_KIRITAN_TOHOKU" System="Civics"/>
+		<Row ListType="YNL_KiritanTechs"             LeaderType="TRAIT_LEADER_KIRITAN_TOHOKU" System="Technologies"/>
+		<Row ListType="YNL_KiritanReligiousDistrict" LeaderType="TRAIT_LEADER_KIRITAN_TOHOKU" System="Districts"/>
 	</AiLists>
 	<AiFavoredItems>
-		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_STONEHENGE"/>
-		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_MAHABODHI_TEMPLE"/>
-		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_HAGIA_SOPHIA"/>
-		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_MONT_ST_MICHEL"/>
-		<Row ListType="YNL_ZunkoWonders"           Item="BUILDING_CRISTO_REDENTOR"/>
-		<Row ListType="YNL_ZunkoCivics"            Item="CIVIC_MYSTICISM"/>
-		<Row ListType="YNL_ZunkoCivics"            Item="CIVIC_THEOLOGY"/>
-		<Row ListType="YNL_ZunkoCivics"            Item="CIVIC_DIVINE_RIGHT"/>
-		<Row ListType="YNL_ZunkoCivics"            Item="CIVIC_REFORMED_CHURCH"/>
-		<Row ListType="YNL_ZunkoTechs"             Item="TECH_ASTROLOGY"/>
-		<Row ListType="YNL_ZunkoTechs"             Item="TECH_HORSEBACK_RIDING"/>
-		<Row ListType="YNL_ZunkoTechs"             Item="TECH_EDUCATION"/>
-		<Row ListType="YNL_ZunkoReligiousDistrict" Item="DISTRICT_HOLY_SITE" Favored="true"/>
+		<Row ListType="YNL_ItakoWonders"             Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_ItakoWonders"             Item="BUILDING_MAHABODHI_TEMPLE"/>
+		<Row ListType="YNL_ItakoWonders"             Item="BUILDING_HAGIA_SOPHIA"/>
+		<Row ListType="YNL_ItakoWonders"             Item="BUILDING_MONT_ST_MICHEL"/>
+		<Row ListType="YNL_ItakoWonders"             Item="BUILDING_CRISTO_REDENTOR"/>
+		<Row ListType="YNL_ItakoCivics"              Item="CIVIC_MYSTICISM"/>
+		<Row ListType="YNL_ItakoCivics"              Item="CIVIC_THEOLOGY"/>
+		<Row ListType="YNL_ItakoCivics"              Item="CIVIC_DIVINE_RIGHT"/>
+		<Row ListType="YNL_ItakoCivics"              Item="CIVIC_REFORMED_CHURCH"/>
+		<Row ListType="YNL_ItakoTechs"               Item="TECH_ASTROLOGY"/>
+		<Row ListType="YNL_ItakoTechs"               Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="YNL_ItakoTechs"               Item="TECH_EDUCATION"/>
+		<Row ListType="YNL_ItakoReligiousDistrict"   Item="DISTRICT_HOLY_SITE" Favored="true"/>
+												     
+		<Row ListType="YNL_ZunkoWonders"             Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_ZunkoWonders"             Item="BUILDING_MAHABODHI_TEMPLE"/>
+		<Row ListType="YNL_ZunkoWonders"             Item="BUILDING_HAGIA_SOPHIA"/>
+		<Row ListType="YNL_ZunkoWonders"             Item="BUILDING_MONT_ST_MICHEL"/>
+		<Row ListType="YNL_ZunkoWonders"             Item="BUILDING_CRISTO_REDENTOR"/>
+		<Row ListType="YNL_ZunkoCivics"              Item="CIVIC_MYSTICISM"/>
+		<Row ListType="YNL_ZunkoCivics"              Item="CIVIC_THEOLOGY"/>
+		<Row ListType="YNL_ZunkoCivics"              Item="CIVIC_DIVINE_RIGHT"/>
+		<Row ListType="YNL_ZunkoCivics"              Item="CIVIC_REFORMED_CHURCH"/>
+		<Row ListType="YNL_ZunkoTechs"               Item="TECH_ASTROLOGY"/>
+		<Row ListType="YNL_ZunkoTechs"               Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="YNL_ZunkoTechs"               Item="TECH_EDUCATION"/>
+		<Row ListType="YNL_ZunkoReligiousDistrict"   Item="DISTRICT_HOLY_SITE" Favored="true"/>
+
+		<Row ListType="YNL_KiritanWonders"           Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_KiritanWonders"           Item="BUILDING_MAHABODHI_TEMPLE"/>
+		<Row ListType="YNL_KiritanWonders"           Item="BUILDING_HAGIA_SOPHIA"/>
+		<Row ListType="YNL_KiritanWonders"           Item="BUILDING_MONT_ST_MICHEL"/>
+		<Row ListType="YNL_KiritanWonders"           Item="BUILDING_CRISTO_REDENTOR"/>
+		<Row ListType="YNL_KiritanCivics"            Item="CIVIC_MYSTICISM"/>
+		<Row ListType="YNL_KiritanCivics"            Item="CIVIC_THEOLOGY"/>
+		<Row ListType="YNL_KiritanCivics"            Item="CIVIC_DIVINE_RIGHT"/>
+		<Row ListType="YNL_KiritanCivics"            Item="CIVIC_REFORMED_CHURCH"/>
+		<Row ListType="YNL_KiritanTechs"             Item="TECH_ASTROLOGY"/>
+		<Row ListType="YNL_KiritanTechs"             Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="YNL_KiritanTechs"             Item="TECH_EDUCATION"/>
+		<Row ListType="YNL_KiritanReligiousDistrict" Item="DISTRICT_HOLY_SITE" Favored="true"/>
 	</AiFavoredItems>
 
 	<HistoricalAgendas>
@@ -396,21 +502,31 @@
 		<Row LeaderType="LEADER_KIRITAN_TOHOKU" AgendaType="AGENDA_COUNTER_REFORMER"/>
 	</HistoricalAgendas>
 	<FavoredReligions>
-		<Row LeaderType="LEADER_ITAKO_TOHOKU" ReligionType="RELIGION_SHINTO"/>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU"   ReligionType="RELIGION_BUDDHISM"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   ReligionType="RELIGION_SHINTO"/>
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" ReligionType="RELIGION_BUDDHISM"/>
 	</FavoredReligions>
 
 	<DiplomacyInfo>
-		<Row Type="LEADER_ITAKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
+		<Row Type="LEADER_ITAKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Itako.dds"/>
 		<Row Type="LEADER_ZUNKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
-		<Row Type="LEADER_KIRITAN_TOHOKU" BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
+		<Row Type="LEADER_KIRITAN_TOHOKU" BackgroundImage="Background_DiplomcayInfo_Kiritan.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
-		<Row LeaderType="LEADER_ITAKO_TOHOKU"   ForegroundImage="Foreground_LoadingInfo_Itako.dds"   BackgroundImage="Background_LoadingInfo_Zunko.dds" LeaderText="LOC_LEADER_ITAKO_TOHOKU_DOM_TEXT"   PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   ForegroundImage="Foreground_LoadingInfo_Zunko.dds"   BackgroundImage="Background_LoadingInfo_Zunko.dds" LeaderText="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT"   PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_KIRITAN_TOHOKU" ForegroundImage="Foreground_LoadingInfo_Kiritan.dds" BackgroundImage="Background_LoadingInfo_Zunko.dds" LeaderText="LOC_LEADER_KIRITAN_TOHOKU_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU"   ForegroundImage="Foreground_LoadingInfo_Itako.dds"   BackgroundImage="Background_LoadingInfo_Itako.dds"   LeaderText="LOC_LEADER_ITAKO_TOHOKU_DOM_TEXT"   PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   ForegroundImage="Foreground_LoadingInfo_Zunko.dds"   BackgroundImage="Background_LoadingInfo_Zunko.dds"   LeaderText="LOC_LEADER_ZUNKO_TOHOKU_DOM_TEXT"   PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_KIRITAN_TOHOKU" ForegroundImage="Foreground_LoadingInfo_Kiritan.dds" BackgroundImage="Background_LoadingInfo_Kiritan.dds" LeaderText="LOC_LEADER_KIRITAN_TOHOKU_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	
 	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_ITAKO_TOHOKU_PRIMARY</Type>
+			<Color>150,152,186,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_ITAKO_TOHOKU_SECONDARY</Type>
+			<Color>51,57,173,255</Color>
+		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_ZUNKO_TOHOKU_PRIMARY</Type>
 			<Color>18,94,8,255</Color>
@@ -419,13 +535,35 @@
 			<Type>COLOR_PLAYER_ZUNKO_TOHOKU_SECONDARY</Type>
 			<Color>57,187,40,255</Color>
 		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_KIRITAN_TOHOKU_PRIMARY</Type>
+			<Color>251,218,192,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_KIRITAN_TOHOKU_SECONDARY</Type>
+			<Color>242,115,12,255</Color>
+		</Row>
 	</Colors>
 	<PlayerColors>
+		<Row>
+			<Type>LEADER_ITAKO_TOHOKU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_ITAKO_TOHOKU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_ITAKO_TOHOKU_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
 		<Row>
 			<Type>LEADER_ZUNKO_TOHOKU</Type>
 			<Usage>Unique</Usage>
 			<PrimaryColor>COLOR_PLAYER_ZUNKO_TOHOKU_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_ZUNKO_TOHOKU_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>LEADER_KIRITAN_TOHOKU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_KIRITAN_TOHOKU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_KIRITAN_TOHOKU_SECONDARY</SecondaryColor>
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>

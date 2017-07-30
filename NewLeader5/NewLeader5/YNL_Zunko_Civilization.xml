@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
+		<!-- 文明の定義 -->
 		<Row Type="CIVILIZATION_DPRT"                           Kind="KIND_CIVILIZATION" />
+		<!-- 特性の定義 -->
 		<Row Type="TRAIT_CIVILIZATION_DPRT"                     Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER" Kind="KIND_TRAIT" />
 	</Types>
+	<!-- 文明の名前などの設定 -->
 	<Civilizations>
 		<Row>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
@@ -14,20 +17,22 @@
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
 		</Row>
 	</Civilizations>
+	<!-- 文明に属する指導者と首都の指定 -->
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_DPRT" LeaderType="LEADER_ITAKO_TOHOKU"   CapitalName="LOC_CIVILIZATION_DPRT_CITY_2" />
 		<Row CivilizationType="CIVILIZATION_DPRT" LeaderType="LEADER_ZUNKO_TOHOKU"   CapitalName="LOC_CIVILIZATION_DPRT_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_DPRT" LeaderType="LEADER_KIRITAN_TOHOKU" CapitalName="LOC_CIVILIZATION_DPRT_CITY_5" />
 	</CivilizationLeaders>
+	<!-- 市民名 -->
 	<CivilizationCitizenNames>
-		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_1" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_2" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_3" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_4" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_5" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_6" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_7" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_8" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_5"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_6"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_7"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_MALE_8"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_1" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_2" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_3" Female="1"/>
@@ -37,25 +42,30 @@
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_7" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DPRT" CitizenName="LOC_CITIZEN_DPRT_FEMALE_8" Female="1"/>
 	</CivilizationCitizenNames>
+	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_DPRT" TraitType="TRAIT_CIVILIZATION_DPRT" />
 		<Row CivilizationType="CIVILIZATION_DPRT" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER"/>
 	</CivilizationTraits>
 	
+	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_DPRT"                     Name="LOC_TRAIT_CIVILIZATION_DPRT_NAME"                     Description="LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION" />
 		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER_NAME"/>
 	</Traits>
+	<!-- 特性と効果の紐付け -->
 	<TraitModifiers>
-		<Row TraitType="TRAIT_CIVILIZATION_DPRT" ModifierId="TRAIT_CIVILIZATION_FAITH_KILLS_DPRT"/>
-		<Row TraitType="TRAIT_CIVILIZATION_DPRT" ModifierId="TRAIT_ADJUST_INQUISITOR_CHARGES"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DPRT" ModifierId="TRAIT_CIVILIZATION_FAITH_KILLS_DPRT"/><!-- ユニットを倒すと戦闘力の50%の信仰力を獲得 -->
+		<Row TraitType="TRAIT_CIVILIZATION_DPRT" ModifierId="TRAIT_ADJUST_INQUISITOR_CHARGES"/>    <!-- 異端審問を1回多くできる(スペインの特性をそのまま使用) -->
 	</TraitModifiers>
+	<!-- 効果の指定 -->
 	<Modifiers>
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_FAITH_KILLS_DPRT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
 	</Modifiers>
+	<!-- 効果に対するパラメータ設定 -->
 	<ModifierArguments>
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_FAITH_KILLS_DPRT</ModifierId>
@@ -68,6 +78,8 @@
 			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
+	<!-- 都市名 -->
+	<!-- 3指導者まとめてなので多めに用意 -->
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_DPRT" CityName="LOC_CIVILIZATION_DPRT_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_DPRT" CityName="LOC_CIVILIZATION_DPRT_CITY_2" />
