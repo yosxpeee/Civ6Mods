@@ -73,7 +73,7 @@
 			<Text>海の民固有のユニット: 長門型戦艦</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION" Language="ja_JP">
-			<Text>戦艦に取ってかわる海の民固有の近代のユニット。通常の戦艦よりもはるかに強力。</Text>
+			<Text>戦艦に取ってかわる海の民固有の近代のユニット。通常の戦艦よりもはるかに強力。[ICON_Movement] 移動力4。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="ja_JP">
 			<Text>長門型戦艦</Text>
