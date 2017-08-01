@@ -1,34 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<!-- 親定義 -->
 	<Types>
 		<Row Type="IMPROVEMENT_KOSHIN_TOWER" Kind="KIND_IMPROVEMENT"/>
 	</Types>
+	<!-- 効果の定義メイン -->
 	<Improvements>
+		<!--
+			ImprovementType : 施設タイプ。親定義を指定。
+			Name            : 名前
+			Description     : 説明
+			Icon            : アイコン(本例ではクルガンの使いまわし)
+			PlunderType     : 略奪で得られるボーナス
+			Buildable       : 建設できるか否か。通常はtrue(特殊なものはこの設定をfalseにするか書かない。バニラでは蛮族キャンプが該当)
+			PrereqTech      : 解禁技術(PrereqCivicにすると社会制度)
+			TraitType       : 特性の指定(ユニークにするなら必須)
+		-->
+
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" Name="LOC_IMPROVEMENT_KOSHIN_TOWER_NAME" Description="LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION" Icon="ICON_IMPROVEMENT_KOSHIN_TOWER" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqTech="TECH_MINING" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER"/>
 	</Improvements>
+	<!-- 隣接ボーナス -->
+	<!-- YieldChangeId : 隣接ボーナス詳細のIDを指定 -->
 	<Improvement_Adjacencies>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldChangeId="Koshin_Tower_Faith1"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldChangeId="Koshin_Tower_Faith2"/>
 	</Improvement_Adjacencies>
+	<!-- 改善できる土地 -->
 	<Improvement_ValidTerrains>
+		<!-- 本例だと平地すべて -->
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_DESERT"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_TUNDRA"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_PLAINS"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_GRASS"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_SNOW"/>
 	</Improvement_ValidTerrains>
+	<!-- 改善を行うことのできるユニット -->
+	<!-- UnitType : ユニットを指定。通常は労働者や工兵を指定することになる。 -->
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
+	<!-- 改善で得られるボーナス -->
 	<Improvement_YieldChanges>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_GOLD"  YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_FAITH" YieldChange="1"/>
 	</Improvement_YieldChanges>
+	<!-- 技術・社会制度解禁による追加ボーナス -->
 	<Improvement_BonusYieldChanges>
+		<!-- 
+			Id               : バニラのファイルでは通し番号が付けられていたが、これがかぶったら何か困ることがあるのかは不明。 
+			ImprovementType  : 何の施設か。親定義と同じものにする。
+			YieldType        : ボーナスの種類
+			BonusYieldChange : ボーナスの値
+			PrereqCivic      : 必要な社会制度
+			
+			本例だと宗教改革取得でゴールド+1。
+		-->
 		<Row Id="120" ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
 	</Improvement_BonusYieldChanges>
+	<!-- 隣接ボーナス詳細 -->
 	<Adjacency_YieldChanges>
-		<Row ID="Koshin_Tower_Faith1" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>
-		<Row ID="Koshin_Tower_Faith2" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_QUARRY"/>
+		<Row ID="Koshin_Tower_Faith1" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>  <!-- 鉱山から信仰力+1   -->
+		<Row ID="Koshin_Tower_Faith2" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_QUARRY"/><!-- 採石場から信仰力+1 -->
 	</Adjacency_YieldChanges>
 </GameInfo>

@@ -3,34 +3,53 @@
 	<Types>
 		<Row Type="BUILDING_ZUNDA_CAFE" Kind="KIND_BUILDING"/>
 	</Types>
+	<!-- ユニークである場合の置き換え対象。これがない場合は置き換えではなく別枠になる(サンプルのLITTER_BOXがそうなっている) -->
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_ZUNDA_CAFE" ReplacesBuildingType="BUILDING_WATER_MILL"/>
 	</BuildingReplaces>
+	<!-- 建造物のメイン設定 -->
 	<Buildings>
+		<!--
+			PrereqDistrict        : 何の区域に建設できるか
+			PrereqTech            : 解禁に必要な技術
+			PurchaseYield         : 購入に必要な資源(普通はゴールド。建造物以外だと、使徒や伝道師は信仰になっている)
+			Cost                  : 生産コスト
+			AdvisorType           : 助言が発動する場合、どのセリフを言うか(推測)
+			RequiresAdjacentRiver : 川に隣接している必要があるか
+			Entertainment         : 快適性
+			TraitType             : 何の特性に紐付くのか(文明固有として実装するには必須)
+		-->
 		<Row BuildingType="BUILDING_ZUNDA_CAFE" Name="LOC_BUILDING_ZUNDA_CAFE_NAME" Description="LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION" PrereqTech="TECH_THE_WHEEL" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" RequiresAdjacentRiver="true" Entertainment="1" TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"/>
 	</Buildings>
+	<!-- 建造物そのものを建てた際、何のボーナスを得るかという設定 -->
 	<Building_YieldChanges>
-		<Row BuildingType="BUILDING_ZUNDA_CAFE" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_ZUNDA_CAFE" YieldType="YIELD_FOOD"       YieldChange="2"/>
 		<Row BuildingType="BUILDING_ZUNDA_CAFE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
-		<Row BuildingType="BUILDING_ZUNDA_CAFE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_ZUNDA_CAFE" YieldType="YIELD_GOLD"       YieldChange="1"/>
 	</Building_YieldChanges>
+	<!-- 建造物の特性 -->
 	<BuildingModifiers>
+		<!-- コーヒーから文化を得る -->
 		<Row>
 			<BuildingType>BUILDING_ZUNDA_CAFE</BuildingType>
 			<ModifierId>ZUNDA_CAFE_ADD_CULTURE_FROM_COFFEE</ModifierId>
 		</Row>
+		<!-- お茶から文化を得る -->
 		<Row>
 			<BuildingType>BUILDING_ZUNDA_CAFE</BuildingType>
 			<ModifierId>ZUNDA_CAFE_ADD_CULTURE_FROM_TEA</ModifierId>
 		</Row>
+		<!-- 砂糖から食糧を得る -->
 		<Row>
 			<BuildingType>BUILDING_ZUNDA_CAFE</BuildingType>
 			<ModifierId>ZUNDA_CAFE_ADD_FOOD_FROM_SUGAR</ModifierId>
 		</Row>
+		<!-- 塩から食糧を得る -->
 		<Row>
 			<BuildingType>BUILDING_ZUNDA_CAFE</BuildingType>
 			<ModifierId>ZUNDA_CAFE_ADD_FOOD_FROM_SALT</ModifierId>
 		</Row>
+		<!-- 米から食糧を得る -->
 		<Row>
 			<BuildingType>BUILDING_ZUNDA_CAFE</BuildingType>
 			<ModifierId>ZUNDA_CAFE_ADD_FOOD_FROM_RICE</ModifierId>
@@ -116,8 +135,11 @@
 		</Row>
 	</ModifierArguments>
 
+	<!-- Requirement
+		 Modifierを適用する条件などがここに書かれる(ちょっとややこしいです・・・) -->
 	<Requirements>
 		<Row>
+			<!-- REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES = RequirementArgumentsで指定するRESOURCEに合致するものを条件とする -->
 			<RequirementId>ZUNDA_CAFE_REQUIRES_COFFEE_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
@@ -140,6 +162,7 @@
 	</Requirements>
 	<RequirementArguments>
 		<Row>
+			<!-- 本例では適用する資源を指定している -->
 			<RequirementId>ZUNDA_CAFE_REQUIRES_COFFEE_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_COFFEE</Value>

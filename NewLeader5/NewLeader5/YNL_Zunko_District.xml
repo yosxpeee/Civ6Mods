@@ -13,8 +13,27 @@
 	</DistrictReplaces>
 	<!-- 区域の各種設定 -->
 	<Districts>
-		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" Name="LOC_DISTRICT_NAMAHAGE_MUSEUM_NAME" Description="LOC_DISTRICT_NAMAHAGE_MUSEUM_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_FAITH" PlunderAmount="30" AdvisorType="ADVISOR_RELIGIOUS" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM"/>
-		<Row DistrictType="DISTRICT_INDUSTRIAL_PARK" Name="LOC_DISTRICT_INDUSTRIAL_PARK_NAME" Description="LOC_DISTRICT_INDUSTRIAL_PARK_DESCRIPTION" PrereqCivic="CIVIC_URBANIZATION" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="54" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="false" OnePerCity="false" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="5" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK"/>
+		<!--
+		    よくわからないパラメータが多い・・・
+			
+			PrereqTech            : 解禁技術
+			PrereqCivic           : 解禁社会制度
+			PlunderType           : 略奪で得られるボーナス
+			PlunderAmount         : 略奪時のボーナス量
+			AdvisorType           : 助言者設定
+			Cost                  : 建設コスト
+			CostProgressionModel  : コストの上昇モデル？
+			CostProgressionParam1 : コストの上昇値？
+			Maintenance           : 維持費
+			AllowsHolyCity        : 聖地についてるから宗教ユニットの回復にかかわるのだろうか？？？
+			ZOC                   : ZOCの発生の有無
+			MilitaryDomain        : 区域を設置したタイルでの戦闘時になんのドメインに所属することになるか？？？
+			Appeal                : アピール
+			Housing               : 住宅
+			TraitType             : 所属特性(ユニークにするなら必須)
+		-->
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" Name="LOC_DISTRICT_NAMAHAGE_MUSEUM_NAME" Description="LOC_DISTRICT_NAMAHAGE_MUSEUM_DESCRIPTION" PrereqTech="TECH_ASTROLOGY"      PlunderType="PLUNDER_FAITH" PlunderAmount="30" AdvisorType="ADVISOR_RELIGIOUS" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40"   Maintenance="1" RequiresPlacement="true" RequiresPopulation="true"  AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1"  CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_PARK" Name="LOC_DISTRICT_INDUSTRIAL_PARK_NAME" Description="LOC_DISTRICT_INDUSTRIAL_PARK_DESCRIPTION" PrereqCivic="CIVIC_URBANIZATION" PlunderType="PLUNDER_GOLD"  PlunderAmount="50" AdvisorType="ADVISOR_GENERIC"   Cost="54" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"           CostProgressionParam1="1000"                 RequiresPlacement="true" RequiresPopulation="false" OnePerCity="false"    Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true"  CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Housing="5" CityStrengthModifier="2" TraitType="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK"/>
 	</Districts>
 	<!-- 隣接ボーナス指定 -->
 	<District_Adjacencies>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 親定義 -->
 	<Types>
 		<!-- イタコ -->
 		<Row Type="LEADER_ITAKO_TOHOKU"                  Kind="KIND_LEADER"/> <!-- 指導者 -->
@@ -18,9 +19,11 @@
 		<Row Type="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM" Kind="KIND_TRAIT"/> <!-- UD -->
 		<Row Type="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK" Kind="KIND_TRAIT"/> <!-- UD -->
 	</Types>
+	<!-- タグ -->
 	<Tags>
 		<Row Tag="CLASS_CAPTURE_WORKER_ZUNKO" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
+	<!-- 特性とタグ(クラス)の紐付け -->
 	<TypeTags>
 		<Row Type="UNIT_SLINGER"                     Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
 		<Row Type="UNIT_ARCHER"                      Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
@@ -30,6 +33,8 @@
 		<Row Type="UNIT_ZUNKO_HORSE_ARCHER"          Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
 		<Row Type="ABILITY_YNL_ZUNKO_CAPTURE_WORKER" Tag="CLASS_CAPTURE_WORKER_ZUNKO"/>
 	</TypeTags>
+	<!-- 指導者の氏名と説明 -->
+	<!-- InhertForm : 名前から察するにベースとなる指導者。バニラでは全部LEADER_DEFAULTになっている。 -->
 	<Leaders>
 		<Row>
 			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
@@ -47,6 +52,7 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>
+	<!-- Civilopedia用のセリフ -->
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_ITAKO_TOHOKU"   Quote="LOC_LEADER_ITAKO_TOHOKU_QUOTE"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   Quote="LOC_LEADER_ZUNKO_TOHOKU_QUOTE"/>
@@ -70,14 +76,15 @@
 	</LeaderTraits>
 	<!-- 特性 -->
 	<Traits>
+		<!-- イタコ(指導者特性、UU、UU) -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU"       Name="LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_YAMABUSHI"     Name="LOC_TRAIT_LEADER_UNIT_YAMABUSHI_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_FIGHTING_MONK" Name="LOC_TRAIT_LEADER_UNIT_FIGHTING_MONK_NAME"/>
-		
+		<!-- ずん子(指導者特性、UB、UU) -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU"            Name="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"     Name="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Name="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME"/>
-
+		<!-- きりたん(指導者特性、UB、UB) -->
 		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU"           Name="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM" Name="LOC_TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM_NAME"/>
 		<Row TraitType="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK" Name="LOC_TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK_NAME"/>
@@ -97,7 +104,15 @@
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD"/>   <!-- 雪原丘陵から食糧ボーナス -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_GUARANTEE_ONE_PROPHET"/>                 <!-- 最後の預言者取得 (アラビアで使われているものをそのまま使用) -->
 		<!-- ずん子 -->
-		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>              <!-- 陸上遠距離ユニットで敵文明のユニットを倒すと一定確率で労働者捕獲 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>                <!-- 陸上遠距離ユニットで敵文明のユニットを倒すと一定確率で労働者捕獲 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION_ZUNKO"/>    <!-- 陸上遠距離ユニット生産ボーナス：古代 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION_ZUNKO"/>  <!-- 陸上遠距離ユニット生産ボーナス：古典 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION_ZUNKO"/>   <!-- 陸上遠距離ユニット生産ボーナス：中世 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION_ZUNKO"/><!-- 陸上遠距離ユニット生産ボーナス：ルネサンス -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION_ZUNKO"/> <!-- 陸上遠距離ユニット生産ボーナス：産業時代 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_MODERN_RANGED_UNIT_PRODUCTION_ZUNKO"/>     <!-- 陸上遠距離ユニット生産ボーナス：近代 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION_ZUNKO"/>     <!-- 陸上遠距離ユニット生産ボーナス：原子力時代 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION_ZUNKO"/><!-- 陸上遠距離ユニット生産ボーナス：情報時代 -->
 		<!-- きりたん -->
 		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_KIRITAN"/>               <!-- 工業地帯への生産ボーナス -->
 		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_BOOST_DISTRICT_ENTERTAINMENT_COMPLEX_PRODUCTION_KIRITAN"/><!-- 娯楽施設への生産ボーナス -->
@@ -162,6 +177,39 @@
 			<ModifierId>TRAIT_YNL_ZUNKO_CAPTURE_WORKER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
+		<!-- 各時代ごとの陸上遠距離戦闘ユニット生産ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
 		<!-- きりたん -->
 		<!-- 工業地帯への建造ボーナス -->
 		<Row>
@@ -177,6 +225,10 @@
 	<ModifierArguments>
 		<!-- イタコ -->
 		<Row>
+			<!--
+				YieldType : Valueで指定したボーナスの種類
+				Amount    : Valueで指定した分増える
+			-->
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
@@ -282,8 +334,132 @@
 			<Name>AbilityType</Name>
 			<Value>ABILITY_YNL_ZUNKO_CAPTURE_WORKER</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION_ZUNKO</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
 		<!-- きりたん -->
 		<Row>
+			<!--
+				DistrictType : Valueで指定した区域の種類
+				Amount       : Valueで指定した％割り引かれる
+			-->
 			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_KIRITAN</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
@@ -318,6 +494,8 @@
 		</Row>
 	</UnitAbilityModifiers>
 
+	<!-- Requirement
+		 Modifierを適用する条件などがここに書かれる(ちょっとややこしいです・・・) -->
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
@@ -343,6 +521,7 @@
 		</Row>
 	</RequirementSets>
 	<Requirements>
+		<!-- REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES = RequirementArgumentsで指定するTERRAINに合致するものを条件とする -->
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_ITAKO</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
@@ -420,6 +599,7 @@
 		</Row>
 	</RequirementSetRequirements>
 
+	<!-- AIの好みの親定義。上から社会制度、テクノロジー、遺産、区域のタイプ -->
 	<AiListTypes>
 		<Row ListType="YNL_ItakoWonders"/>
 		<Row ListType="YNL_ItakoCivics"/>
@@ -436,6 +616,7 @@
 		<Row ListType="YNL_KiritanTechs"/>
 		<Row ListType="YNL_KiritanReligiousDistrict"/>
 	</AiListTypes>
+	<!-- AIの好みは指導者特性に紐付いている。その定義はここ。 -->
 	<AiLists>
 		<Row ListType="YNL_ItakoWonders"             LeaderType="TRAIT_LEADER_ITAKO_TOHOKU"   System="Buildings"/>
 		<Row ListType="YNL_ItakoCivics"              LeaderType="TRAIT_LEADER_ITAKO_TOHOKU"   System="Civics"/>
@@ -452,6 +633,7 @@
 		<Row ListType="YNL_KiritanTechs"             LeaderType="TRAIT_LEADER_KIRITAN_TOHOKU" System="Technologies"/>
 		<Row ListType="YNL_KiritanReligiousDistrict" LeaderType="TRAIT_LEADER_KIRITAN_TOHOKU" System="Districts"/>
 	</AiLists>
+	<!-- 社会制度/テクノロジー/遺産の好みの詳細設定 -->
 	<AiFavoredItems>
 		<Row ListType="YNL_ItakoWonders"             Item="BUILDING_STONEHENGE"/>
 		<Row ListType="YNL_ItakoWonders"             Item="BUILDING_MAHABODHI_TEMPLE"/>
@@ -496,17 +678,21 @@
 		<Row ListType="YNL_KiritanReligiousDistrict" Item="DISTRICT_HOLY_SITE" Favored="true"/>
 	</AiFavoredItems>
 
+	<!-- 指導者固有の性格(アジェンダ) -->
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_ITAKO_TOHOKU"   AgendaType="AGENDA_COUNTER_REFORMER"/>
 		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   AgendaType="AGENDA_COUNTER_REFORMER"/>
 		<Row LeaderType="LEADER_KIRITAN_TOHOKU" AgendaType="AGENDA_COUNTER_REFORMER"/>
 	</HistoricalAgendas>
+	<!-- 指導者が好む宗教 -->
 	<FavoredReligions>
-		<Row LeaderType="LEADER_ITAKO_TOHOKU"   ReligionType="RELIGION_BUDDHISM"/>
-		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   ReligionType="RELIGION_SHINTO"/>
+		<Row LeaderType="LEADER_ITAKO_TOHOKU"   ReligionType="RELIGION_SHINTO"/>
+		<Row LeaderType="LEADER_ZUNKO_TOHOKU"   ReligionType="RELIGION_BUDDHISM"/>
 		<Row LeaderType="LEADER_KIRITAN_TOHOKU" ReligionType="RELIGION_BUDDHISM"/>
 	</FavoredReligions>
 
+	<!-- 外交交渉などの画面
+		 Forground(前景。指導者の立絵のこと)はLeaderAnimations(別ファイル)で定義される感情表現に則したものが表示されるため、設定はない。 -->
 	<DiplomacyInfo>
 		<Row Type="LEADER_ITAKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Itako.dds"/>
 		<Row Type="LEADER_ZUNKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>

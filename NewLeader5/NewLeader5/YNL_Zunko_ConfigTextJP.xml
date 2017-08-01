@@ -38,7 +38,7 @@
 			<Text>ずんだアロー</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION" Language="ja_JP">
-			<Text>すべての陸上長距離戦闘ユニットは倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる能力を得る。</Text>
+			<Text>すべての陸上長距離戦闘ユニットは倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる能力を得る。長距離戦闘ユニットの [ICON_Production] 生産力+25%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Language="ja_JP">
 			<Text>ひきこもる</Text>

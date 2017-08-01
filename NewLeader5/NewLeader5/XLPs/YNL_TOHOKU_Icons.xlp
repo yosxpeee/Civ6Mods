@@ -9,6 +9,7 @@
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UI/YNL_TOHOKU_Icons"/>
 	<m_Entries>
+		<!-- 指導者 -->
 		<Element>
 			<m_EntryID text="YNL_TOHOKU256"/>
 			<m_ObjectName text="YNL_TOHOKU256"/>
@@ -37,6 +38,7 @@
 			<m_EntryID text="YNL_TOHOKU45"/>
 			<m_ObjectName text="YNL_TOHOKU45"/>
 		</Element>
+		<!-- 文明 -->
 		<Element>
 			<m_EntryID text="ICON_CIV_DPRT22"/>
 			<m_ObjectName text="ICON_CIV_DPRT22"/>
@@ -77,6 +79,7 @@
 			<m_EntryID text="ICON_CIV_DPRT256"/>
 			<m_ObjectName text="ICON_CIV_DPRT256"/>
 		</Element>
+		<!-- UU -->
 		<Element>
 			<m_EntryID text="ICON_YNL_TOHOKU_UU22"/>
 			<m_ObjectName text="ICON_YNL_TOHOKU_UU22"/>

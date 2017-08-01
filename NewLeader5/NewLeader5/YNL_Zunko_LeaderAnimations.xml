@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<!-- LeaderAnimation ***************************************************** -->
+	<!--
+		Name     : 感情
+		Leader   : リーダーの定義名を指定
+		Sequence : FallbackLeaders.artdefにあるネストが深いほうのm_Nameの値
+		
+		Nameの感情のときにLeaderはSequenceのアクションをすると覚えればよいと思います。
+		本xmlにて指定しているものがすべてではないです、たぶん。
+		指定のないものはDEFAULTの動作になる。
+	-->
 	<LeaderAnimations>
 		<!-- イタコ -->
+		<!-- 各種状態 -->
 		<Row>
 			<Name>NEUTRAL_IDLE</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
@@ -18,7 +28,7 @@
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- Transitions to Happy and Unhappy from Neutral -->
+		<!-- 中立⇒敵対的 or 友好的 -->
 		<Row>
 			<Name>NEUTRAL_TO_UNHAPPY</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
@@ -74,24 +84,24 @@
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- Enraged, from any of Neutral, Happy, Unhappy -->
+		<!-- 戦争状態 -->
 		<Row>
 			<Name>ENRAGED</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
 			<Sequence>UNHAPPY_IDLE</Sequence>
 		</Row>
-		<!-- VO Kudos and Warning from AI -->
+		<!-- アジェンダに対する反応(KUDOS:ほめる、WARNING:警告する) -->
 		<Row>
 			<Name>KUDOS</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
-			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+			<Sequence>DEFAULT</Sequence>
 		</Row>
 		<Row>
 			<Name>WARNING</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
 			<Sequence>NEUTRAL_NEGATIVE</Sequence>
 		</Row>
-		<!-- VO War Declaration from Human and AI -->
+		<!-- 宣戦布告をされる、する-->
 		<Row>
 			<Name>DECLARE_WAR_FROM_HUMAN</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
@@ -102,19 +112,19 @@
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
 			<Sequence>SURPRISED_AI</Sequence>
 		</Row>
-		<!-- VO Introduction from AI -->
+		<!-- 最初に出会ったとき -->
 		<Row>
 			<Name>FIRST_MEET</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- VO Defeat from AI -->
+		<!-- 滅亡 -->
 		<Row>
 			<Name>DEFEAT</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
 			<Sequence>DEFEAT</Sequence>
 		</Row>
-		<!-- Denounce -->
+		<!-- 非難声明をされる、する -->
 		<Row>
 			<Name>DENOUNCE_FROM_HUMAN</Name>
 			<Leader>LEADER_ITAKO_TOHOKU</Leader>
@@ -126,6 +136,7 @@
 			<Sequence>NEUTRAL_NEGATIVE</Sequence>
 		</Row>
 		<!-- ずん子 -->
+		<!-- 各種状態 -->
 		<Row>
 			<Name>NEUTRAL_IDLE</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
@@ -141,7 +152,7 @@
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- Transitions to Happy and Unhappy from Neutral -->
+		<!-- 中立⇒敵対的 or 友好的 -->
 		<Row>
 			<Name>NEUTRAL_TO_UNHAPPY</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
@@ -197,24 +208,24 @@
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- Enraged, from any of Neutral, Happy, Unhappy -->
+		<!-- 戦争状態 -->
 		<Row>
 			<Name>ENRAGED</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
 			<Sequence>UNHAPPY_IDLE</Sequence>
 		</Row>
-		<!-- VO Kudos and Warning from AI -->
+		<!-- アジェンダに対する反応(KUDOS:ほめる、WARNING:警告する) -->
 		<Row>
 			<Name>KUDOS</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
-			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+			<Sequence>DEFAULT</Sequence>
 		</Row>
 		<Row>
 			<Name>WARNING</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
 			<Sequence>NEUTRAL_NEGATIVE</Sequence>
 		</Row>
-		<!-- VO War Declaration from Human and AI -->
+		<!-- 宣戦布告をされる、する-->
 		<Row>
 			<Name>DECLARE_WAR_FROM_HUMAN</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
@@ -225,19 +236,19 @@
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
 			<Sequence>SURPRISED_AI</Sequence>
 		</Row>
-		<!-- VO Introduction from AI -->
+		<!-- 最初に出会ったとき -->
 		<Row>
 			<Name>FIRST_MEET</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- VO Defeat from AI -->
+		<!-- 滅亡 -->
 		<Row>
 			<Name>DEFEAT</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
 			<Sequence>DEFEAT</Sequence>
 		</Row>
-		<!-- Denounce -->
+		<!-- 非難声明をされる、する -->
 		<Row>
 			<Name>DENOUNCE_FROM_HUMAN</Name>
 			<Leader>LEADER_ZUNKO_TOHOKU</Leader>
@@ -249,6 +260,7 @@
 			<Sequence>NEUTRAL_NEGATIVE</Sequence>
 		</Row>
 		<!-- きりたん -->
+		<!-- 各種状態 -->
 		<Row>
 			<Name>NEUTRAL_IDLE</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
@@ -264,7 +276,7 @@
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- Transitions to Happy and Unhappy from Neutral -->
+		<!-- 中立⇒敵対的 or 友好的 -->
 		<Row>
 			<Name>NEUTRAL_TO_UNHAPPY</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
@@ -320,24 +332,24 @@
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- Enraged, from any of Neutral, Happy, Unhappy -->
+		<!-- 戦争状態 -->
 		<Row>
 			<Name>ENRAGED</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
 			<Sequence>UNHAPPY_IDLE</Sequence>
 		</Row>
-		<!-- VO Kudos and Warning from AI -->
+		<!-- アジェンダに対する反応(KUDOS:ほめる、WARNING:警告する) -->
 		<Row>
 			<Name>KUDOS</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
-			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+			<Sequence>DEFAULT</Sequence>
 		</Row>
 		<Row>
 			<Name>WARNING</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
 			<Sequence>NEUTRAL_NEGATIVE</Sequence>
 		</Row>
-		<!-- VO War Declaration from Human and AI -->
+		<!-- 宣戦布告をされる、する-->
 		<Row>
 			<Name>DECLARE_WAR_FROM_HUMAN</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
@@ -348,19 +360,19 @@
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
 			<Sequence>SURPRISED_AI</Sequence>
 		</Row>
-		<!-- VO Introduction from AI -->
+		<!-- 最初に出会ったとき -->
 		<Row>
 			<Name>FIRST_MEET</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- VO Defeat from AI -->
+		<!-- 滅亡 -->
 		<Row>
 			<Name>DEFEAT</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>
 			<Sequence>DEFEAT</Sequence>
 		</Row>
-		<!-- Denounce -->
+		<!-- 非難声明をされる、する -->
 		<Row>
 			<Name>DENOUNCE_FROM_HUMAN</Name>
 			<Leader>LEADER_KIRITAN_TOHOKU</Leader>

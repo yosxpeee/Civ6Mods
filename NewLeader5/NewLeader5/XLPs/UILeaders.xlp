@@ -9,18 +9,22 @@
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UILeaders"/>
 	<m_Entries>
+		<!-- イタコ -->
 		<Element>
 			<m_EntryID text="LEADER_ITAKO_TOHOKU_NEUTRAL"/>
 			<m_ObjectName text="LEADER_ITAKO_TOHOKU_NEUTRAL"/>
 		</Element>
 		<Element>
+			<!-- イタコさんだけは立絵素材をそのまま使うと表示枠のセンターにこないので、文明選択画面用の画像を個別に用意 -->
 			<m_EntryID text="PORTRAIT_ITAKO_TOHOKU"/>
 			<m_ObjectName text="PORTRAIT_ITAKO_TOHOKU"/>
 		</Element>
+		<!-- ずん子 -->
 		<Element>
 			<m_EntryID text="LEADER_ZUNKO_TOHOKU_NEUTRAL"/>
 			<m_ObjectName text="LEADER_ZUNKO_TOHOKU_NEUTRAL"/>
 		</Element>
+		<!-- きりたん -->
 		<Element>
 			<m_EntryID text="LEADER_KIRITAN_TOHOKU_NEUTRAL"/>
 			<m_ObjectName text="LEADER_KIRITAN_TOHOKU_NEUTRAL"/>

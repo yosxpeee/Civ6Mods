@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Players>
+		<!-- 指導者・文明の設定メイン。文明選択画面で表示されるものはここで設定したものになる。 -->
 		<!-- イタコ -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -16,7 +17,7 @@
 			<LeaderAbilityName>LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_ITAKO_TOHOKU</LeaderAbilityIcon>
-			<Portrait>PORTRAIT_ITAKO_TOHOKU</Portrait>
+			<Portrait>PORTRAIT_ITAKO_TOHOKU</Portrait><!-- イタコさんは個別に用意したものを指定 -->
 		</Row>
 		<!-- ずん子 -->
 		<Row>
@@ -33,7 +34,7 @@
 			<LeaderAbilityName>LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_ZUNKO_TOHOKU</LeaderAbilityIcon>
-			<Portrait>LEADER_ZUNKO_TOHOKU_NEUTRAL</Portrait>
+			<Portrait>LEADER_ZUNKO_TOHOKU_NEUTRAL</Portrait><!-- ずん子は通常の指導者の立絵と同じもので違和感がない -->
 		</Row>
 		<!-- きりたん -->
 		<Row>
@@ -50,10 +51,12 @@
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_KIRITAN_TOHOKU</LeaderAbilityIcon>
-			<Portrait>LEADER_KIRITAN_TOHOKU_NEUTRAL</Portrait>
+			<Portrait>LEADER_KIRITAN_TOHOKU_NEUTRAL</Portrait><!-- きりたんも通常の指導者の立絵と同じもので違和感がない -->
 		</Row>
 	</Players>
 	<PlayerItems>
+		<!-- ユニークユニット/ユニーク建造物/ユニーク施設の表記 -->
+		<!-- SortIndex : 表示の優先順位。同じだとどうなるのかは不明なのでちゃんと表示したい順に振っておいたほうがよい -->
 		<!-- イタコ -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
