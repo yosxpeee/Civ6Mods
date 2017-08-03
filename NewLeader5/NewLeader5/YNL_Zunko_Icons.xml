@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<IconTextureAtlases>
+		<!--
+			アイコンは1種類につき複数サイズ存在し、それを1まとめに定義する必要がある。違うサイズで同一定義名にすればよい。
+			複数のアイコンを1つにすることもでき、その場合は縦横の数をきちんと指定する必要がある。
+			たとえばバニラの指導者のアイコン画像だと縦8横8で設定されており、その中に全部の指導者のものが入っている。
+			つまり256x256のものだと256x8=2048pixel四方の巨大な画像が用意されている。
+			(言葉としてはRowが行でColumnが列だと思うのだが、どういうわけか逆。)
+			Name           : 定義名
+			IconSize       : サイズ
+			IconsPerRow    : 縦列数
+			IconsPerColumn : 横列数
+			Filename       : ddsファイル名
+		-->
+		<!-- 指導者アイコン 本MODは3指導者が1つに纏まっているので縦3横1という形になっている -->
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="32"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU32"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="45"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU45"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="50"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU50"/>
@@ -8,7 +21,7 @@
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="64"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU64"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="80"  IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU80"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_LEADER" IconSize="256" IconsPerRow="3" IconsPerColumn="1" Filename="YNL_TOHOKU256"/>
-
+		<!-- 文明アイコン -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT22.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT30.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT36.dds"/>
@@ -19,12 +32,11 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT256.dds"/>
-
+		<!-- ユニークユニットアイコン 縦2横1-->
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="22" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU22.dds"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="32" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU80.dds"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_BLACK" IconSize="32" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
-
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"     IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU256.dds"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"     IconSize="80"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU80.dds"/>
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"     IconSize="50"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU50.dds"/>
@@ -33,20 +45,29 @@
 		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS_FOW" IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<!-- Leaders and Civilization -->
+		<!--
+			Name  : アイコン名。使う側はこれを指定する。
+			Atlas : ↑で定義した画像定義
+			Index : 画像の左上から0、1、2... となる。1x1の単品なら0固定。
+		-->
+		<!--文明と指導者 MOD固有-->
 		<Row Name="ICON_CIVILIZATION_DPRT"     Atlas="ICON_ATLAS_CIVILIZATION_DPRT" Index="0"/>
 		<Row Name="ICON_LEADER_ITAKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="0"/>
 		<Row Name="ICON_LEADER_ZUNKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="1"/>
 		<Row Name="ICON_LEADER_KIRITAN_TOHOKU" Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="2"/>
-		<!-- UB -->
+		<!-- ユニーク建造物 -->
+		<!-- なまはげ館 水車小屋の使いまわし -->
 		<Row Name="ICON_BUILDING_ZUNDA_CAFE"     Atlas="ICON_ATLAS_BUILDINGS"     Index="7"/>
 		<Row Name="ICON_BUILDING_ZUNDA_CAFE_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="7"/>
-		<!-- UD -->
+		<!-- ユニーク区域 -->
+		<!-- なまはげ館 聖地の使いまわし -->
 		<Row Name="ICON_DISTRICT_NAMAHAGE_MUSEUM"     Atlas="ICON_ATLAS_DISTRICTS"     Index="1"/>
 		<Row Name="ICON_DISTRICT_NAMAHAGE_MUSEUM_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="1"/>
+		<!-- 工業団地 近郊部の使いまわし -->
 		<Row Name="ICON_DISTRICT_INDUSTRIAL_PARK"     Atlas="ICON_ATLAS_DISTRICTS"     Index="10"/>
 		<Row Name="ICON_DISTRICT_INDUSTRIAL_PARK_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="10"/>
-		<!-- UU -->
+		<!-- ユニークユニット -->
+		<!-- 山伏 MOD固有 (ポートレイトは伝道師を使いまわし) -->
 		<Row Name="ICON_UNIT_YAMABUSHI"                            Atlas="ICON_ATLAS_YNL_TOHOKU_UNITS"              Index="0"/>
 		<Row Name="ICON_UNIT_YAMABUSHI_FOW"                        Atlas="ICON_ATLAS_YNL_TOHOKU_UNITS_FOW"          Index="0"/>
 		<Row Name="ICON_UNIT_YAMABUSHI_WHITE"                      Atlas="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE"      Index="0"/>
@@ -56,17 +77,17 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YAMABUSHI_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="4"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YAMABUSHI_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="4"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YAMABUSHI_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="4"/>
-
+		<!-- 僧兵 MOD固有 (ポートレイトは侍の使いまわし) -->
 		<Row Name="ICON_UNIT_FIGHTING_MONK"                            Atlas="ICON_ATLAS_YNL_TOHOKU_UNITS"              Index="1"/>
 		<Row Name="ICON_UNIT_FIGHTING_MONK_FOW"                        Atlas="ICON_ATLAS_YNL_TOHOKU_UNITS_FOW"          Index="1"/>
 		<Row Name="ICON_UNIT_FIGHTING_MONK_WHITE"                      Atlas="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE"      Index="1"/>
 		<Row Name="ICON_UNIT_FIGHTING_MONK_BLACK"                      Atlas="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_BLACK"      Index="1"/>
-		<Row Name="ICON_UNIT_FIGHTING_MONK_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="52"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_FIGHTING_MONK_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="52"/>
-		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_FIGHTING_MONK_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="52"/>
-		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_FIGHTING_MONK_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="52"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_FIGHTING_MONK_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="52"/>
-
+		<Row Name="ICON_UNIT_FIGHTING_MONK_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="41"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_FIGHTING_MONK_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="41"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_FIGHTING_MONK_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="41"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_FIGHTING_MONK_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="41"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_FIGHTING_MONK_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="41"/>
+		<!-- ずんだ弓騎兵 サカ族弓騎兵の使いまわし-->
 		<Row Name="ICON_UNIT_ZUNKO_HORSE_ARCHER"                            Atlas="ICON_ATLAS_UNITS"                         Index="36"/>
 		<Row Name="ICON_UNIT_ZUNKO_HORSE_ARCHER_FOW"                        Atlas="ICON_ATLAS_UNITS_FOW"                     Index="36"/>
 		<Row Name="ICON_UNIT_ZUNKO_HORSE_ARCHER_WHITE"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"       Index="36"/>
@@ -76,7 +97,8 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="34"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="34"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="34"/>
-		<!-- UI -->
+		<!-- ユニーク施設 -->
+		<!-- 庚申塔 クルガンの使いまわし -->
 		<Row Name="ICON_IMPROVEMENT_KOSHIN_TOWER" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="19"/>
 	</IconDefinitions>
 </GameData>

@@ -2,12 +2,12 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Yossie's NewLeader - Zunko Touhoku</Name>
+    <Name>Yossie's NewLeader - Touhoku 3 Sisters</Name>
     <Guid>9b5fbcb4-78f8-464d-9b33-e8518450df62</Guid>
     <ProjectGuid>a13ca0d3-ef5e-4f7d-a7ec-33852387bf44</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>Yossie's NewLeader - Zunko Touhoku</Teaser>
-    <Description>Yossie's NewLeader - Zunko Touhoku v1.0</Description>
+    <Teaser>Yossie's NewLeader - Touhoku 3 Sisters</Teaser>
+    <Description>Yossie's NewLeader - Touhoku 3 Sisters v1.0</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>

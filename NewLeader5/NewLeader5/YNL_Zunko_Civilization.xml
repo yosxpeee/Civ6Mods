@@ -44,8 +44,8 @@
 	</CivilizationCitizenNames>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_DPRT" TraitType="TRAIT_CIVILIZATION_DPRT" />
-		<Row CivilizationType="CIVILIZATION_DPRT" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER"/>
+		<Row CivilizationType="CIVILIZATION_DPRT" TraitType="TRAIT_CIVILIZATION_DPRT" />				   <!-- 文明特性そのもの -->
+		<Row CivilizationType="CIVILIZATION_DPRT" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER"/><!-- ユニーク施設 -->
 	</CivilizationTraits>
 	
 	<!-- 特性名と詳細説明の定義 -->
