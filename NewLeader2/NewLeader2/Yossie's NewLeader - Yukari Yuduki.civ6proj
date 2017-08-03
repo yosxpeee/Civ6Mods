@@ -35,6 +35,24 @@
     <Content Include="ArtDefs\YNL_YukariYuduki_Units.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\YNL_YukariYuduki_Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Assault_Gun.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Assault_Gun.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Assault_Gun.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\ISU_152_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\ISU_152_Tread_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_DEFEAT_YUKARI_YUDUKI.dds">
       <SubType>Content</SubType>
     </Content>
@@ -69,6 +87,63 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_UNHAPPY_YUKARI_YUDUKI.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_black_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_black_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_black_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_black_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_black_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_black_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_white_ao.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_white_ao.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_treads_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_treads_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_treads_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\isu152_treads_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Units.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YNL_YukariYuduki_LeaderAnimations.xml">
@@ -306,6 +381,9 @@
       <SubType>Content</SubType>
     </Content>
     <Folder Include="Artdefs\" />
+    <Folder Include="Assets" />
+    <Folder Include="Geometries" />
+    <Folder Include="Materials" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
     <Content Include="ArtDefs\YNL_YukariYuduki_Leaders.artdef">

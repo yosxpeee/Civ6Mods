@@ -8,6 +8,7 @@
 		<Element>
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_YukariYuduki_Unit_Bins.artdef"/>
 				<Element text="YNL_YukariYuduki_Units.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
@@ -568,6 +569,7 @@
 		<Element>
 			<libraryName text="Unit"/>
 			<relativePackagePaths>
+				<Element text="units/units.blp"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
