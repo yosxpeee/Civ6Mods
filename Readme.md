@@ -6,5 +6,7 @@ NewLeader2:Yossie's New Leader - Yukari Yuduki
 ![image](images/ynl_YukariYuduki.png)  
 NewLeader3:Yossie's New Leader - Nagato/Mutsu  
 ![image](images/ynl_NagatoMutsu.png)  
+NewLeader5:Yossie's New Leader - Tohoku 3 Sisters  
+![image](images/ynl_Zunko.png)  
 NewUnit2:Yossie's More Great Person  
 ![image](images/ynl_MoreGreatPerson.jpg)  
