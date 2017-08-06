@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>235</build>
+		<revision>684</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="units/YMGP_Units"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Samurai_SpearA"/>
+			<m_ObjectName text="Samurai_SpearA"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>
+
