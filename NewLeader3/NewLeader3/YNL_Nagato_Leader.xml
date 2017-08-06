@@ -3,7 +3,6 @@
 	<Types>
 		<Row Type="LEADER_YNL_NAGATO" Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_YNL_NAGATO" Kind="KIND_TRAIT"/>
-
 		<Row Type="LEADER_YNL_MUTSU"  Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_YNL_MUTSU"  Kind="KIND_TRAIT"/>
 	</Types>
@@ -21,12 +20,10 @@
 	</Leaders>
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_YNL_NAGATO" Quote="LOC_LEADER_YNL_NAGATO_QUOTE"/>
-		
 		<Row LeaderType="LEADER_YNL_MUTSU"  Quote="LOC_LEADER_YNL_MUTSU_QUOTE"/>
 	</LeaderQuotes>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_YNL_NAGATO" AgendaType="AGENDA_BUSHIDO"/>
-		
 		<Row LeaderType="LEADER_YNL_MUTSU"  AgendaType="AGENDA_BUSHIDO"/>
 	</HistoricalAgendas>
 	<LeaderTraits>
@@ -38,13 +35,11 @@
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" Name="LOC_TRAIT_LEADER_YNL_NAGATO_NAME" Description="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION"/>
-		
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  Name="LOC_TRAIT_LEADER_YNL_MUTSU_NAME"  Description="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="HEAL_AFTER_DEFEATING_UNIT_NAGATO"/>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
-
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_BOOST_HOLY_SITE_PRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU"/>
@@ -83,7 +78,7 @@
 		<Row ListType="YNL_NagatoCivics"/>
 		<Row ListType="YNL_NagatoTechs"/>
 		<Row ListType="YNL_NagatoHarborDistrict"/>
-		
+
 		<Row ListType="YNL_MutsuWonders"/>
 		<Row ListType="YNL_MutsuCivics"/>
 		<Row ListType="YNL_MutsuTechs"/>
@@ -96,7 +91,7 @@
 		<Row ListType="YNL_NagatoCivics"         LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Civics"/>
 		<!-- Techs -->					         
 		<Row ListType="YNL_NagatoTechs"          LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Technologies"/>
-
+		<!-- District -->
 		<Row ListType="YNL_NagatoHarborDistrict" LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Districts"/>
 
 		<!-- Buildings -->
@@ -105,7 +100,7 @@
 		<Row ListType="YNL_MutsuCivics"          LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Civics"/>
 		<!-- Techs -->					         
 		<Row ListType="YNL_MutsuTechs"           LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Technologies"/>
-												 
+		<!-- District -->
 		<Row ListType="YNL_MutsuHarborDistrict"  LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Districts"/>
 	</AiLists>
 	<AiFavoredItems>
@@ -127,7 +122,7 @@
 		<Row ListType="YNL_NagatoTechs"          Item="TECH_STEEL"/>
 		<Row ListType="YNL_NagatoTechs"          Item="TECH_STEAM_POWER"/>
 		<Row ListType="YNL_NagatoTechs"          Item="TECH_ELECTRICITY"/>
-
+		<!-- District -->
 		<Row ListType="YNL_NagatoHarborDistrict" Item="DISTRICT_HARBOR" Favored="true"/>
 
 		<!-- Buildings -->
@@ -148,7 +143,7 @@
 		<Row ListType="YNL_MutsuTechs"           Item="TECH_STEEL"/>
 		<Row ListType="YNL_MutsuTechs"           Item="TECH_STEAM_POWER"/>
 		<Row ListType="YNL_MutsuTechs"           Item="TECH_ELECTRICITY"/>
-
+		<!-- District -->
 		<Row ListType="YNL_MutsuHarborDistrict"  Item="DISTRICT_HARBOR" Favored="true"/>
 	</AiFavoredItems>
 
