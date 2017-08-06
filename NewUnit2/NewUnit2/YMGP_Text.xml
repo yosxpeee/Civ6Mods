@@ -61,7 +61,6 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PISANELLO_NAME" Language="en_US">
 			<Text>Pisanello</Text>
 		</Row>
-
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_TINTORETTO_NAME" Language="en_US">
 			<Text>Tintoretto</Text>
 		</Row>
@@ -76,6 +75,15 @@
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_ELLEN_GOULD_WHITE_NAME" Language="en_US">
 			<Text>Ellen Gould White</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="en_US">
+			<Text>Guan Yu</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_YUKICHI_FUKUZAWA_NAME" Language="en_US">
+			<Text>Yukichi Fukuzawa</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_THOMAS_TWINING_NAME" Language="en_US">
+			<Text>Thomas Twining</Text>
 		</Row>
 
 		<Row Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="en_US">
@@ -117,7 +125,6 @@
 		<Row Tag="LOC_GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE" Language="en_US">
 			<Text>Wounded units can heal +10 HP each turn.</Text>
 		</Row>
-
 		<Row Tag="LOC_GREATPERSON_ELECTRICITYTECHBOOST" Language="en_US">
 			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Electricity technology.</Text>
 		</Row>
@@ -126,6 +133,15 @@
 		</Row>
 		<Row Tag="LOC_GREATPERSON_FACTORY_GOLD" Language="en_US">
 			<Text>Factorys provide +{Amount} [ICON_Gold] Production.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="en_US">
+			<Text>Grants 1 promotion level to a military land unit.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_UNIVERSITY_SCIENCE" Language="en_US">
+			<Text>University provide +{Amount} [ICON_Science] Scienece.</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_GRANT_TEA" Language="en_US">
+			<Text>Grants {Amount} [ICON_RESOURCE_TEA] Teas.</Text>
 		</Row>
 
 		<Row Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="en_US">

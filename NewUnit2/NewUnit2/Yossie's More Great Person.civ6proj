@@ -115,6 +115,9 @@
     <Content Include="Textures\YMGP_Resources_FOW.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\YMGP_Units.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\YMGP_Icons.xlp">
       <SubType>Content</SubType>
     </Content>
