@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_ABYSSAL_FLEETS"           Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_COASTAL_FORT"       Kind="KIND_TRAIT" />
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_ABYSSAL_FLEETS</CivilizationType>
+			<Name>LOC_CIVILIZATION_ABYSSAL_FLEETS_NAME</Name>
+			<Description>LOC_CIVILIZATION_ABYSSAL_FLEETS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_ABYSSAL_FLEETS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" LeaderType="LEADER_HARBOUR_PRINCESS" CapitalName="LOC_CIVLIZATION_FELINE_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_FELINE_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" TraitType="TRAIT_CIVILIZATION_COASTAL_FORT" />
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_COASTAL_FORT" Name="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME"/>
+	</Traits>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_FELINE_CITY_13" />
+	</CityNames>
+</GameData>

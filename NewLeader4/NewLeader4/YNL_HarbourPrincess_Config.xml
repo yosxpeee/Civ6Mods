@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_ABYSSAL_FLEETS</CivilizationType>
+			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ABYSSAL_FLEETS_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ABYSSAL_FLEETS</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HARBOUR_PRINCESS_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HARBOUR_PRINCESS</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ABYSSAL_FLEETS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ABYSSAL_FLEETS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ABYSSAL_FLEETS</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HARBOUR_PRINCESS_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HARBOUR_PRINCESS</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_HARBOUR_PRINCESS</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_ABYSSAL_FLEETS</CivilizationType>
+			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
+			<Type>DISTRICT_COASTAL_FORT</Type>
+			<Name>LOC_DISTRICT_COASTAL_FORT_NAME</Name>
+			<Description>LOC_DISTRICT_COASTAL_FORT_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_COASTAL_FORT</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

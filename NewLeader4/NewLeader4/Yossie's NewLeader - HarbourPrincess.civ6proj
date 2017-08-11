@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's NewLeader - HarbourPrincess</Name>
+    <Guid>7e576a96-6f8f-442a-baca-df251fa5ed73</Guid>
+    <ProjectGuid>15e78d2a-a904-4bc2-a887-2559e593da45</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Districts.xml</File><File>YNL_HarbourPrincess_Leader.xml</File><File>YNL_HarbourPrincess_Civilizations.xml</File><File>YNL_HarbourPrincess_UB.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_ConfigText.xml</File><File>YNL_HarbourPrincess_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_HarbourPrincess_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_HarbourPrincess_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_HARBOUR_PRINCESS</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>NewLeader4</AssemblyName>
+    <RootNamespace>NewLeader4</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\YNL_HarbourPrincess_District.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_HarbourPrincess_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_HARBOUR_PRINCESS.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_HARBOUR_PRINCESS.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_HarbourPrincess_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="YNL_HarbourPrincess_Config.xml" />
+    <Content Include="YNL_HarbourPrincess_ConfigText.xml" />
+    <Content Include="YNL_HarbourPrincess_Civilizations.xml" />
+    <Content Include="YNL_HarbourPrincess_Icons.xml" />
+    <Content Include="YNL_HarbourPrincess_Leader.xml" />
+    <Content Include="YNL_HarbourPrincess_UB.xml" />
+    <Content Include="YNL_HarbourPrincess_Text.xml" />
+    <None Include="Textures\FALLBACK_NEUTRAL_HARBOUR_PRINCESS.dds" />
+    <None Include="Textures\FALLBACK_NEUTRAL_HARBOUR_PRINCESS.tex" />
+    <None Include="Textures\LEADER_HARBOUR_PRINCESS_NEUTRAL.dds" />
+    <None Include="Textures\LEADER_HARBOUR_PRINCESS_NEUTRAL.tex" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

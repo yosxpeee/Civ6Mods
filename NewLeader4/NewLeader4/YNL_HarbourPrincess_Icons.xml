@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_ABYSSAL_FLEETS" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_LEADER_HARBOUR_PRINCESS"     Atlas="ICON_ATLAS_LEADERS"       Index="0"/>
+		<Row Name="ICON_DISTRICT_COASTAL_FORT"       Atlas="ICON_ATLAS_DISTRICTS"     Index="4"/>
+		<Row Name="ICON_DISTRICT_COASTAL_FORT_FOW"   Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="4"/>
+	</IconDefinitions>
+</GameData>

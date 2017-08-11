@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="DISTRICT_COASTAL_FORT" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_COASTAL_FORT" ReplacesDistrictType="DISTRICT_HARBOR"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" Name="LOC_DISTRICT_COASTAL_FORT_NAME" Description="LOC_DISTRICT_COASTAL_FORT_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="true" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_SEA" TravelTime="2" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_COASTAL_FORT" HitPoints="100" />
+	</Districts>
+	<District_Adjacencies>
+
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldChangeId="YNL_SeaResource_Gold"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldChangeId="YNL_District_Gold"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldChangeId="YNL_RoyalDock_City_Gold"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="2"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_GOLD"       YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_GOLD"    YieldChange="2"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+	</District_CitizenYieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="YNL_District_Gold"       Description="LOC_DISTRICT_DISTRICT_GOLD"    YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
+		<Row ID="YNL_SeaResource_Gold"    Description="LOC_DISTRICT_SEARESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentSeaResource="true"/>
+		<Row ID="YNL_RoyalDock_City_Gold" Description="LOC_DISTRICT_CITY_CENTER_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+	</Adjacency_YieldChanges>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_COASTAL_FORT</DistrictType>
+			<ModifierId>COASTAL_FORT_TRADE_ROUTE_CAPACITY</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_COASTAL_FORT</DistrictType>
+			<ModifierId>COASTAL_FORT_GRANT_MOVEMENT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_COASTAL_FORT</DistrictType>
+			<ModifierId>COASTAL_FORT_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>COASTAL_FORT_TRADE_ROUTE_CAPACITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COASTAL_FORT_GRANT_MOVEMENT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>DOCKYARD_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>COASTAL_FORT_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DOCKYARD_FOREIGN_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>COASTAL_FORT_TRADE_ROUTE_CAPACITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>COASTAL_FORT_GRANT_MOVEMENT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>COASTAL_FORT_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>COASTAL_FORT_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DOCKYARD_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>DOCKYARD_FOREIGN_CONTINENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DOCKYARD_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DOCKYARD_FOREIGN_CONTINENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_ABYSSAL_FLEETS_NAME" Language="en_US">
+			<Text>The Abyssal Fleets</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ABYSSAL_FLEETS_DESCRIPTION" Language="en_US">
+			<Text>The Abyssal Fleets</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ABYSSAL_FLEETS_ADJECTIVE" Language="en_US">
+			<Text>The Abyssal Fleets</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_HARBOUR_PRINCESS_NAME" Language="en_US">
+			<Text>Harbour Princess</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_NAME" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION" Language="en_US">
+			<Text>Quadrireme and Machine Gun [ICON_Range] Range +1.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABYSSAL_FLEETS_NAME" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ABYSSAL_FLEETS_DESCRIPTION" Language="en_US">
+			<Text>unknown</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_COASTAL_FORT_NAME" Language="en_US">
+			<Text>Coastal Fort</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_COASTAL_FORT_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Feline for naval activity in your city. Replaces the Harbor district. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval units built in Dockyard[NEWLINE]+2 [ICON_Gold] Gold when built on a foreign continent[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME" Language="en_US">
+			<Text>Feline unique district: Coastal Fort</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_HARBOUR_PRINCESS_DOM_TEXT" Language="en_US">
+			<Text>I told you... not to come... any... closer... </Text>
+		</Row>
+	</LocalizedText>
+</GameData>
