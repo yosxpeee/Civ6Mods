@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS"       Kind="KIND_CIVILIZATION" />
-		<Row Type="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Kind="KIND_TRAIT" />
-		<Row Type="TRAIT_CIVILIZATION_COASTAL_FORT"             Kind="KIND_TRAIT" />
-		<Row Type="ABILITY_YNL_RANGED_COASTAL_RAID"             Kind="KIND_ABILITY"/>
+		<Row Type="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS"       Kind="KIND_CIVILIZATION" /> <!-- 文明そのものの定義 -->
+		<Row Type="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Kind="KIND_TRAIT" />        <!-- 文明特性 -->
+		<Row Type="TRAIT_CIVILIZATION_COASTAL_FORT"             Kind="KIND_TRAIT" />        <!-- ユニーク区域 -->
+		<Row Type="ABILITY_YNL_RANGED_COASTAL_RAID"             Kind="KIND_ABILITY"/>       <!-- 文明特性用のユニットアビリティ -->
 	</Types>
 	<TypeTags>
 		<Row Type="ABILITY_YNL_RANGED_COASTAL_RAID" Tag="CLASS_NAVAL_RANGED"/>
@@ -18,9 +18,11 @@
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
 		</Row>
 	</Civilizations>
+	<!-- 文明に属する指導者と首都の設定 -->
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" LeaderType="LEADER_HARBOUR_PRINCESS" CapitalName="LOC_CIVLIZATION_LTAF_CITY_1" />
 	</CivilizationLeaders>
+	<!-- 市民名 -->
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_1"  Female="1"/>
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_2"  Female="1"/>
@@ -44,6 +46,7 @@
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_20" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_21" Female="1"/>
 	</CivilizationCitizenNames>
+	<!-- 都市名 -->
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_LTAF_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_LTAF_CITY_2" />
@@ -74,7 +77,7 @@
 	<TraitModifiers>
 		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_MODIFIER_YNL_DEFENDING_BONUS"/>   <!-- 防衛戦闘時戦闘ボーナス -->
 		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>     <!-- 海洋近接ユニットで沿岸略奪(バニラにあるのを使用) -->
-		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_YNL_GRANT_COASTAL_RAID_ABILITY"/> <!-- 愛用遠距離ユニットで沿岸略奪 -->
+		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_YNL_GRANT_COASTAL_RAID_ABILITY"/> <!-- 海洋遠距離ユニットで沿岸略奪 -->
 	</TraitModifiers>
 	
 	<!-- Modifier系 -->
