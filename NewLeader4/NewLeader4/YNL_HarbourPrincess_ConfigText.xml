@@ -15,7 +15,7 @@
 			<Text>Harbour Princess</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_NAME" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>The Hate</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION" Language="en_US">
 			<Text>Quadrireme and Machine Gun [ICON_Range] Range +1.</Text>
@@ -25,7 +25,7 @@
 			<Text>The Deep Ones</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION" Language="en_US">
-			<Text>All unit gains +5 [ICON_Strength] Strength when defending.</Text>
+			<Text>All unit gains +5 [ICON_Strength] Strength when defending.[NEWLINE]All naval units can pillage buildings and improvements and capture civilian units on coastal lands.</Text>
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_COASTAL_FORT_NAME" Language="en_US">

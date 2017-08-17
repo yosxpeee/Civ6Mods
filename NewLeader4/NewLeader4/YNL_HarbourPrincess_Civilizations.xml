@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Kind="KIND_CIVILIZATION" />
+		<Row Type="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS"       Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_COASTAL_FORT"             Kind="KIND_TRAIT" />
+		<Row Type="ABILITY_YNL_RANGED_COASTAL_RAID"             Kind="KIND_ABILITY"/>
 	</Types>
-	
+	<TypeTags>
+		<Row Type="ABILITY_YNL_RANGED_COASTAL_RAID" Tag="CLASS_NAVAL_RANGED"/>
+	</TypeTags>
 	<Civilizations>
 		<Row>
 			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
@@ -57,20 +60,23 @@
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CityName="LOC_CIVLIZATION_LTAF_CITY_13" />
 	</CityNames>
 
+	<!-- 文明特性とTraitの紐付け -->
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" />
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" TraitType="TRAIT_CIVILIZATION_COASTAL_FORT" />
 	</CivilizationTraits>
+	<!-- Trait -->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Name="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME" Description="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_COASTAL_FORT"             Name="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME"/>
 	</Traits>
+	<!-- TraitとModifierの紐付け -->
 	<TraitModifiers>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</TraitType>
-			<ModifierId>TRAIT_MODIFIER_YNL_DEFENDING_BONUS</ModifierId>
-		</Row>
+		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_MODIFIER_YNL_DEFENDING_BONUS"/>   <!-- 防衛戦闘時戦闘ボーナス -->
+		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>     <!-- 海洋近接ユニットで沿岸略奪(バニラにあるのを使用) -->
+		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_YNL_GRANT_COASTAL_RAID_ABILITY"/> <!-- 愛用遠距離ユニットで沿岸略奪 -->
 	</TraitModifiers>
+	
 	<!-- Modifier系 -->
 	<Modifiers>
 		<!-- 防衛戦闘時戦闘ボーナス -->
@@ -82,6 +88,12 @@
 			<ModifierId>COMBAT_YNL_LAND_TYPE_ABYSSAL_FLEETS_REVENGE_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>UNIT_YNL_DEFENDING_BONUS_REQUIRMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 洋上遠隔ユニットで略奪 -->
+		<Row>
+			<ModifierId>TRAIT_YNL_GRANT_COASTAL_RAID_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -95,6 +107,12 @@
 			<ModifierId>COMBAT_YNL_LAND_TYPE_ABYSSAL_FLEETS_REVENGE_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
+		</Row>
+		<!-- 洋上遠隔ユニットで略奪 -->
+		<Row>
+			<ModifierId>TRAIT_YNL_GRANT_COASTAL_RAID_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_YNL_RANGED_COASTAL_RAID</Value>
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
@@ -125,4 +143,15 @@
 			<Inverse>true</Inverse>
 		</Row>
 	</Requirements>
+
+	<!-- ユニットのアビリティ -->
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YNL_RANGED_COASTAL_RAID" Name="LOC_ABILITY_YNL_RANGED_COASTAL_RAID_NAME" Description="LOC_ABILITY_YNL_RANGED_COASTAL_RAID_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_RANGED_COASTAL_RAID</UnitAbilityType>
+			<ModifierId>UNIT_COASTAL_RAID</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
 </GameData>

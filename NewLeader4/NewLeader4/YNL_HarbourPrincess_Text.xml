@@ -144,5 +144,12 @@
 		<Row Tag="LOC_ABILITY_YNL_DEFENDING_BONUS_DESCRIPTION" Language="en_US">
 			<Text>All unit gains +5 [ICON_Strength] Strength when defending.</Text>
 		</Row>
+
+		<Row Tag="LOC_ABILITY_YNL_RANGED_COASTAL_RAID_NAME" Language="en_US">
+			<Text>The Deep Ones Coastal Raid</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_RANGED_COASTAL_RAID_DESCRIPTION" Language="en_US">
+			<Text>The Deep Ones naval ranged units can pillage buildings and improvements and capture civilian units on coastal lands.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

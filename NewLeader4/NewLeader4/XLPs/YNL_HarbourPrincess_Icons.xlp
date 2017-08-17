@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_HarbourPrincess_Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="YNL_HARBOUR_PRINCESS_LEADER256"/>
+			<m_ObjectName text="YNL_HARBOUR_PRINCESS_LEADER256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HARBOUR_PRINCESS_LEADER32"/>
+			<m_ObjectName text="YNL_HARBOUR_PRINCESS_LEADER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HARBOUR_PRINCESS_LEADER50"/>
+			<m_ObjectName text="YNL_HARBOUR_PRINCESS_LEADER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HARBOUR_PRINCESS_LEADER55"/>
+			<m_ObjectName text="YNL_HARBOUR_PRINCESS_LEADER55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HARBOUR_PRINCESS_LEADER64"/>
+			<m_ObjectName text="YNL_HARBOUR_PRINCESS_LEADER64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HARBOUR_PRINCESS_LEADER80"/>
+			<m_ObjectName text="YNL_HARBOUR_PRINCESS_LEADER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_HARBOUR_PRINCESS_LEADER45"/>
+			<m_ObjectName text="YNL_HARBOUR_PRINCESS_LEADER45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF22"/>
+			<m_ObjectName text="YNL_CIV_LTAF22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF30"/>
+			<m_ObjectName text="YNL_CIV_LTAF30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF36"/>
+			<m_ObjectName text="YNL_CIV_LTAF36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF44"/>
+			<m_ObjectName text="YNL_CIV_LTAF44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF45"/>
+			<m_ObjectName text="YNL_CIV_LTAF45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF48"/>
+			<m_ObjectName text="YNL_CIV_LTAF48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF50"/>
+			<m_ObjectName text="YNL_CIV_LTAF50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF64"/>
+			<m_ObjectName text="YNL_CIV_LTAF64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF80"/>
+			<m_ObjectName text="YNL_CIV_LTAF80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_CIV_LTAF256"/>
+			<m_ObjectName text="YNL_CIV_LTAF256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>
