@@ -53,13 +53,13 @@
 		<Row>
 			<ModifierId>COASTAL_FORT_GRANT_MOVEMENT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_MOVEMENT</ModifierType>
-			<SubjectRequirementSetId>DOCKYARD_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>COASTAL_FORT_SEA_REQUIREMENTS</SubjectRequirementSetId>
 			<Permanent>true</Permanent>
 		</Row>
 		<Row>
 			<ModifierId>COASTAL_FORT_GOLD_FROM_FOREIGN_CONTINENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_CHANGE</ModifierType>
-			<SubjectRequirementSetId>DOCKYARD_FOREIGN_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>COASTAL_FORT_FOREIGN_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -86,21 +86,21 @@
 	</ModifierArguments>
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>DOCKYARD_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>COASTAL_FORT_SEA_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>DOCKYARD_FOREIGN_CONTINENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>COASTAL_FORT_FOREIGN_CONTINENT_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>DOCKYARD_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>COASTAL_FORT_SEA_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_SEA_DOMAIN</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>DOCKYARD_FOREIGN_CONTINENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>COASTAL_FORT_FOREIGN_CONTINENT_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_IS_NOT_OWNER_CAPITAL_CONTINENT</RequirementId>
 		</Row>
 	</RequirementSetRequirements>

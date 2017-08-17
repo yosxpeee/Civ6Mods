@@ -3,15 +3,15 @@
 	<Players>
 		<Row>
 			<Domain>StandardPlayers</Domain>
-			<CivilizationType>CIVILIZATION_ABYSSAL_FLEETS</CivilizationType>
+			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
 			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_ABYSSAL_FLEETS_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_ABYSSAL_FLEETS</CivilizationIcon>
+			<CivilizationName>LOC_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationIcon>
 			<LeaderName>LOC_LEADER_HARBOUR_PRINCESS_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_HARBOUR_PRINCESS</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ABYSSAL_FLEETS_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ABYSSAL_FLEETS_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_ABYSSAL_FLEETS</CivilizationAbilityIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_HARBOUR_PRINCESS_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_HARBOUR_PRINCESS</LeaderAbilityIcon>
@@ -21,7 +21,7 @@
 	<PlayerItems>
 		<Row>
 			<Domain>StandardPlayers</Domain>
-			<CivilizationType>CIVILIZATION_ABYSSAL_FLEETS</CivilizationType>
+			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
 			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
 			<Type>DISTRICT_COASTAL_FORT</Type>
 			<Name>LOC_DISTRICT_COASTAL_FORT_NAME</Name>

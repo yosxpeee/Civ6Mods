@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<IconTextureAtlases>
+		<!-- Leader -->
+		<Row Name="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HARBOUR_PRINCESS_LEADER32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HARBOUR_PRINCESS_LEADER45.dds"/>
+		<Row Name="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HARBOUR_PRINCESS_LEADER50.dds"/>
+		<Row Name="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HARBOUR_PRINCESS_LEADER55.dds"/>
+		<Row Name="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HARBOUR_PRINCESS_LEADER64.dds"/>
+		<Row Name="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HARBOUR_PRINCESS_LEADER80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_HARBOUR_PRINCESS_LEADER256.dds"/>
+		<!-- Civilization -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_LTAF" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_CIV_LTAF256.dds"/>
+	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_CIVILIZATION_ABYSSAL_FLEETS" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
-		<Row Name="ICON_LEADER_HARBOUR_PRINCESS"     Atlas="ICON_ATLAS_LEADERS"       Index="0"/>
-		<Row Name="ICON_DISTRICT_COASTAL_FORT"       Atlas="ICON_ATLAS_DISTRICTS"     Index="4"/>
-		<Row Name="ICON_DISTRICT_COASTAL_FORT_FOW"   Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="4"/>
+		<Row Name="ICON_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Atlas="ICON_ATLAS_CIVILIZATION_LTAF"           Index="0"/>
+		<Row Name="ICON_LEADER_HARBOUR_PRINCESS"               Atlas="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" Index="0"/>
+		<Row Name="ICON_DISTRICT_COASTAL_FORT"                 Atlas="ICON_ATLAS_DISTRICTS"                   Index="4"/>
+		<Row Name="ICON_DISTRICT_COASTAL_FORT_FOW"             Atlas="ICON_ATLAS_DISTRICTS_FOW"               Index="4"/>
 	</IconDefinitions>
 </GameData>

@@ -6,17 +6,18 @@
     <Guid>7e576a96-6f8f-442a-baca-df251fa5ed73</Guid>
     <ProjectGuid>15e78d2a-a904-4bc2-a887-2559e593da45</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
-    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <Teaser>Yossie's NewLeader - HarbourPrincess</Teaser>
+    <Description>Yossie's NewLeader - HarbourPrincess v1.0</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Districts.xml</File><File>YNL_HarbourPrincess_Leader.xml</File><File>YNL_HarbourPrincess_Civilizations.xml</File><File>YNL_HarbourPrincess_UB.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_ConfigText.xml</File><File>YNL_HarbourPrincess_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Districts.xml</File><File>YNL_HarbourPrincess_Leader.xml</File><File>YNL_HarbourPrincess_Civilizations.xml</File><File>YNL_HarbourPrincess_UB.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_ConfigText.xml</File><File>YNL_HarbourPrincess_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds</File><File>Textures/FALLBACK_NEUTRAL_HARBOUR_PRINCESS.dds</File><File>Textures/LEADER_HARBOUR_PRINCESS_NEUTRAL.dds</File><File>Textures/PORTRAIT_HARBOUR_PRINCESS.dds</File><File>Textures/YNL_CIV_LTAF22.dds</File><File>Textures/YNL_CIV_LTAF256.dds</File><File>Textures/YNL_CIV_LTAF30.dds</File><File>Textures/YNL_CIV_LTAF36.dds</File><File>Textures/YNL_CIV_LTAF44.dds</File><File>Textures/YNL_CIV_LTAF45.dds</File><File>Textures/YNL_CIV_LTAF48.dds</File><File>Textures/YNL_CIV_LTAF50.dds</File><File>Textures/YNL_CIV_LTAF64.dds</File><File>Textures/YNL_CIV_LTAF80.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_HarbourPrincess_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_HarbourPrincess_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_HARBOUR_PRINCESS</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>NewLeader4</AssemblyName>
     <RootNamespace>NewLeader4</RootNamespace>
+    <Authors>yosxpeee</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -34,7 +35,112 @@
     <Content Include="Textures\PORTRAIT_HARBOUR_PRINCESS.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\YNL_CIV_LTAF22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_CIV_LTAF80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_HARBOUR_PRINCESS_LEADER80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_HarbourPrincess_Icons.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YNL_HarbourPrincess_Districts.xml">
@@ -50,13 +156,13 @@
     <Content Include="YNL_HarbourPrincess_Leader.xml" />
     <Content Include="YNL_HarbourPrincess_UB.xml" />
     <Content Include="YNL_HarbourPrincess_Text.xml" />
-    <None Include="Textures\FALLBACK_NEUTRAL_HARBOUR_PRINCESS.dds" />
-    <None Include="Textures\FALLBACK_NEUTRAL_HARBOUR_PRINCESS.tex" />
-    <None Include="Textures\LEADER_HARBOUR_PRINCESS_NEUTRAL.dds" />
-    <None Include="Textures\LEADER_HARBOUR_PRINCESS_NEUTRAL.tex" />
-    <None Include="ArtDefs\FallbackLeaders.artdef" />
-    <None Include="XLPs\LeaderFallbacks.xlp" />
-    <None Include="XLPs\UILeaders.xlp" />
+    <Content Include="Textures\FALLBACK_NEUTRAL_HARBOUR_PRINCESS.dds" />
+    <Content Include="Textures\FALLBACK_NEUTRAL_HARBOUR_PRINCESS.tex" />
+    <Content Include="Textures\LEADER_HARBOUR_PRINCESS_NEUTRAL.dds" />
+    <Content Include="Textures\LEADER_HARBOUR_PRINCESS_NEUTRAL.tex" />
+    <Content Include="ArtDefs\FallbackLeaders.artdef" />
+    <Content Include="XLPs\LeaderFallbacks.xlp" />
+    <Content Include="XLPs\UILeaders.xlp" />
     <None Include="Mod.Art.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
