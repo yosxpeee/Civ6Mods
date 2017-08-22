@@ -10,10 +10,10 @@
 		<Row DistrictType="DISTRICT_COASTAL_FORT" Name="LOC_DISTRICT_COASTAL_FORT_NAME" Description="LOC_DISTRICT_COASTAL_FORT_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="true" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_SEA" TravelTime="2" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_COASTAL_FORT" HitPoints="100" />
 	</Districts>
 	<District_Adjacencies>
-
-		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldChangeId="YNL_SeaResource_Gold"/>
-		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldChangeId="YNL_District_Gold"/>
-		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldChangeId="YNL_RoyalDock_City_Gold"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="YNL_CoastalFort_Gold"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT"   YieldChangeId="YNL_SeaResource_Gold"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT"   YieldChangeId="YNL_District_Gold"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT"   YieldChangeId="YNL_CoastalFort_City_Gold"/>
 	</District_Adjacencies>
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_COASTAL_FORT" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="2"/>
@@ -27,9 +27,10 @@
 		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<Adjacency_YieldChanges>
-		<Row ID="YNL_District_Gold"       Description="LOC_DISTRICT_DISTRICT_GOLD"    YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
-		<Row ID="YNL_SeaResource_Gold"    Description="LOC_DISTRICT_SEARESOURCE_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentSeaResource="true"/>
-		<Row ID="YNL_RoyalDock_City_Gold" Description="LOC_DISTRICT_CITY_CENTER_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="YNL_CoastalFort_Gold"      Description="LOC_DISTRICT_DISTRICT_COASTAL_FORT_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COASTAL_FORT"/>
+		<Row ID="YNL_District_Gold"         Description="LOC_DISTRICT_DISTRICT_GOLD"              YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
+		<Row ID="YNL_SeaResource_Gold"      Description="LOC_DISTRICT_SEARESOURCE_GOLD"           YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentSeaResource="true"/>
+		<Row ID="YNL_CoastalFort_City_Gold" Description="LOC_DISTRICT_CITY_CENTER_GOLD"           YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
 	</Adjacency_YieldChanges>
 	<DistrictModifiers>
 		<Row>

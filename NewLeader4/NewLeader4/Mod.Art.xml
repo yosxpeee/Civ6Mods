@@ -8,6 +8,7 @@
 		<Element>
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_HarbourPrincess_Units.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -29,6 +30,7 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_HarbourPrincess_Improvements.artdef"/>
 				<Element text="YNL_HarbourPrincess_District.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
@@ -272,6 +274,7 @@
 		<Element>
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_HarbourPrincess_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -279,6 +282,7 @@
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_HarbourPrincess_Improvements.artdef"/>
 				<Element text="YNL_HarbourPrincess_District.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
@@ -287,6 +291,7 @@
 		<Element>
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_HarbourPrincess_Improvements.artdef"/>
 				<Element text="YNL_HarbourPrincess_District.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>

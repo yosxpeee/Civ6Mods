@@ -4,6 +4,7 @@
 		<Row Type="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS"       Kind="KIND_CIVILIZATION" /> <!-- 文明そのものの定義 -->
 		<Row Type="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Kind="KIND_TRAIT" />        <!-- 文明特性 -->
 		<Row Type="TRAIT_CIVILIZATION_COASTAL_FORT"             Kind="KIND_TRAIT" />        <!-- ユニーク区域 -->
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP"    Kind="KIND_TRAIT"/>			<!-- ユニーク地形改善 -->
 		<Row Type="ABILITY_YNL_RANGED_COASTAL_RAID"             Kind="KIND_ABILITY"/>       <!-- 文明特性用のユニットアビリティ -->
 	</Types>
 	<TypeTags>
@@ -24,27 +25,27 @@
 	</CivilizationLeaders>
 	<!-- 市民名 -->
 	<CivilizationCitizenNames>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_1"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_2"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_3"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_4"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_5"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_6"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_7"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_8"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_9"  Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_10" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_11" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_12" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_13" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_14" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_15" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_16" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_17" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_18" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_19" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_20" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_ABYSSAL_FLEETS_FEMALE_21" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_1"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_2"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_3"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_4"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_5"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_6"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_7"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_8"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_9"  Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_10" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_11" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_12" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_13" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_14" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_15" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_16" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_17" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_18" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_19" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_20" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" CitizenName="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_21" Female="1"/>
 	</CivilizationCitizenNames>
 	<!-- 都市名 -->
 	<CityNames>
@@ -67,17 +68,20 @@
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" />
 		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" TraitType="TRAIT_CIVILIZATION_COASTAL_FORT" />
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP"/>
 	</CivilizationTraits>
 	<!-- Trait -->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Name="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME" Description="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_COASTAL_FORT"             Name="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP"    Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP_NAME"/>
 	</Traits>
 	<!-- TraitとModifierの紐付け -->
 	<TraitModifiers>
 		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_MODIFIER_YNL_DEFENDING_BONUS"/>   <!-- 防衛戦闘時戦闘ボーナス -->
 		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>     <!-- 海洋近接ユニットで沿岸略奪(バニラにあるのを使用) -->
 		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_YNL_GRANT_COASTAL_RAID_ABILITY"/> <!-- 海洋遠距離ユニットで沿岸略奪 -->
+		<Row TraitType="TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" ModifierId="TRAIT_LTAF_EARLY_OCEAN"/>               <!-- 乗船可能になると遠洋に出られる -->
 	</TraitModifiers>
 	
 	<!-- Modifier系 -->
@@ -92,11 +96,16 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>UNIT_YNL_DEFENDING_BONUS_REQUIRMENTS</SubjectRequirementSetId>
 		</Row>
-		<!-- 洋上遠隔ユニットで略奪 -->
+		<!-- 洋上遠距離ユニットで沿岸略奪 -->
 		<Row>
 			<ModifierId>TRAIT_YNL_GRANT_COASTAL_RAID_ABILITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 			<Permanent>true</Permanent>
+		</Row>
+		<!-- 乗船可能になると遠洋に出られる -->
+		<Row>
+			<ModifierId>TRAIT_LTAF_EARLY_OCEAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -111,11 +120,22 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
-		<!-- 洋上遠隔ユニットで略奪 -->
+		<!-- 洋上遠距離ユニットで沿岸略奪 -->
 		<Row>
 			<ModifierId>TRAIT_YNL_GRANT_COASTAL_RAID_ABILITY</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_YNL_RANGED_COASTAL_RAID</Value>
+		</Row>
+		<!-- 乗船可能になると遠洋に出られる -->
+		<Row>
+			<ModifierId>TRAIT_LTAF_EARLY_OCEAN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LTAF_EARLY_OCEAN</ModifierId>
+			<Name>Valid</Name>
+			<Value>true</Value>
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
@@ -157,4 +177,9 @@
 			<ModifierId>UNIT_COASTAL_RAID</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
+	
+	<!-- 開始位置補正 -->
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" TerrainType="TERRAIN_COAST" Tier="3"/>
+	</StartBiasTerrains>
 </GameData>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARBOUR_PRINCESS_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>港湾基地「港湾棲姫」</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARBOUR_PRINCESS_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>防御に秀でた特性を持ち、ユニーク区域の沿岸要塞は兵営と同じようにHPを持っていて防壁を作れば都市砲撃ができます。全海洋ユニットが沿岸略奪可能なため、群島マップにおける探索や戦争では大幅なアドバンテージとなるでしょう。</Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HARBOUR_PRINCESS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>「艦隊これくしょん～艦これ～」に登場する陸上型深海棲艦。2014年4月23日開始の春イベント、『索敵機、発艦始め!』の第三海域（通称E-3）『ポートワイン沖海域』のボス。後に通常海域である4-5のボスとしても実装された。モチーフはオーストラリア北部に位置するダーウィンと推測される。</Text>
+		</Replace>
+
+		<!-- Civilization specific historical text. -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- 市民名 深海勢の一般mobにしてあります -->
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_1" Language="ja_JP">
+			<Text>駆逐イ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_2" Language="ja_JP">
+			<Text>駆逐ロ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_3" Language="ja_JP">
+			<Text>駆逐ハ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_4" Language="ja_JP">
+			<Text>駆逐ニ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_5" Language="ja_JP">
+			<Text>駆逐ナ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_6" Language="ja_JP">
+			<Text>軽巡ホ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_7" Language="ja_JP">
+			<Text>軽巡へ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_8" Language="ja_JP">
+			<Text>軽巡ト級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_9" Language="ja_JP">
+			<Text>軽巡ツ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_10" Language="ja_JP">
+			<Text>雷巡チ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_11" Language="ja_JP">
+			<Text>重巡リ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_12" Language="ja_JP">
+			<Text>重巡ネ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_13" Language="ja_JP">
+			<Text>軽母ヌ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_14" Language="ja_JP">
+			<Text>空母ヲ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_15" Language="ja_JP">
+			<Text>戦艦ル級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_16" Language="ja_JP">
+			<Text>戦艦タ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_17" Language="ja_JP">
+			<Text>戦艦レ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_18" Language="ja_JP">
+			<Text>輸送ワ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_19" Language="ja_JP">
+			<Text>潜水カ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_20" Language="ja_JP">
+			<Text>潜水ヨ級</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_LAND_TYPE_ABYSSAL_FLEETS_FEMALE_21" Language="ja_JP">
+			<Text>潜水ソ級</Text>
+		</Replace>
+		<!-- 都市名 -->
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_1" Language="ja_JP">
+			<Text>ダーウィン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_2" Language="ja_JP">
+			<Text>ブルーム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_3" Language="ja_JP">
+			<Text>タウンズビル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_4" Language="ja_JP">
+			<Text>ロンドンデリー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_5" Language="ja_JP">
+			<Text>ウィンダム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_6" Language="ja_JP">
+			<Text>キャサリン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_7" Language="ja_JP">
+			<Text>ケアンズ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_8" Language="ja_JP">
+			<Text>モスマン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_9" Language="ja_JP">
+			<Text>ヌーナマー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_10" Language="ja_JP">
+			<Text>ダービー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_11" Language="ja_JP">
+			<Text>ミリンギンビ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_12" Language="ja_JP">
+			<Text>エクスマウス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_13" Language="ja_JP">
+			<Text>オンスロー</Text>
+		</Replace>
+
+		<!-- Leader Quotes -->
+		<Replace Tag="LOC_LEADER_HARBOUR_PRINCESS_QUOTE" Language="ja_JP">
+			<Text>コリナイコタチ…</Text>
+		</Replace>
+
+		<!-- Leader Dialog -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>貴国トノ友好関係ニ幸アレ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>マタノ機会ニ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>我ガ国ト貴国ノ間ニ正式ナ友好関係ヲ結ブコトニ同意サレタシ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コレハアリガタイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ソレハ残念ダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コリナイコタチ…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>貴国ニハ我ガ国ガ欲シテイルモノガアル。ナントシテモ手ニ入レル所存ダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ナニモ…ナニモ…ワカッテイナイ…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ナニモ…ナニモ…ワカッテイナイ…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>貴国カラノ使節ニ歓迎ヲ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>申シ訳ナイガ、承諾デキナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コチラノ使節ヲ受ケ入レテクレルダロウカ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コレハスバラシイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ソレハ残念ダ。デハ、マタノ機会ニ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>2歩進ンデ3歩下ガルトイッタトコロカ…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コレハ、世界中ガ知ルベキ裏切リ。(非難)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>貴国ノ大使館ノ建設許可ヲ受ケ取ラレタシ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>マタノ機会ニ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>当国ノ大使館ヲ置イテモラエルダロウカ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>今日トイウ幸運ナ日ニ祝福ヲ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ソレハ残念。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>初メマシテ、ダナ。私ハ深海棲艦ノ港湾棲姫トイウ。コンドトモヨロシク。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>近クノ街ヘ案内サシアゲル。祝イノ式典ニゼヒ参加ヲ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ソレハゼヒ。貴国ノ発展ヲ見守レテ光栄ノ至リ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ドチラモ遠方ノ出トハイエ、互イノ国ヲ互イノ地図ニ記シ合ウトイウノハ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ゴ希望ヲオウカガイスル。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>世ノ中ニハ断レナイ話トイウノモアルモノダ。コレハ教エラレタゾ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>騙シ討チハ望ムトコロダ。自分ガシカケル側ナラバナ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>貴国トノ同盟関係ニ未来アレ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>マタノ機会ニ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>同盟ヲ希望スルト?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コレハアリガタイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ソレハ残念。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ヨロシイ。喜ンデ取引ニ応ジヨウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コノ取引ニハ応ジラレナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>礼ヲ言ウ。コレニヨッテ双方ニ利益ガアルダロウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>正直ナトコロ、イササカ失望シタ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>私ノ希望ニカナウ取引ダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>貴国ノ要求ニ得ルトコロナシト考エラレタシ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>承諾ノ返事ヲ受ケ取ラレタシ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>要求ヲ呑ムトハ、賢明ナ判断。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>要求ヲ通スタメナラ、他ノ手段モ辞スマジ!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>平和ノ申シ出ヲオ受ケスル。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>和平ナド受ケ入レラレナイ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>和平ヲ結ビタイノダガ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>戦争ノ終結ヲ知ラレタシ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ナラバ戦イツヅケルノミ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>自由ニ我ガ国ノ国境ニ入ラレタシ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>マタノ機会ニ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>領内ノ通行ヲ許可シテモライタイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コレハスバラシイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ソレハ残念。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コレハ申シ訳ナイ！ソンナ近クニ都市ガアルトハ知ラナカッタ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>我々モ土地ガ必要ナノダ。勝手ナコトヲ言ッテ何様ノツモリダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>我々ノスグソバニ都市ヲ作ラナイデモライタイ。土地ヲ求メルナラ他ノ場所ヲ選ブベキダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>了解シタ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ワガ国ニ敬意ヲ払ワナイ国ニドウシテ敬意ヲ払エヨウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>スマナイ。喧嘩ヲフッカケル蛮族ヲ探シテイタダケナノダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>方々ニ軍隊ヲ派遣スルノガ好キノナノダ。自分ノ強サヲ誇示デキルカラナ… ナ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>貴国ノイウ通リダ。コンナ手ニ訴エタコトヲ悔イテイル。モウ二度ト繰リ返サナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ハッ！誰ガソンナ約束ヲ真ニ受ケルト思ウ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コノ土地ガ貴国ノモノダトハ知ラナカッタ。単純ナ手違イダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>歴史ノ謎ハ万人ニ開示サレルベキダ。独占ハ許サレナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ソチラノ希望ハ尊重スルガ、アナタハ間違ッテイル。イツカワカッテクレルトイイガ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>心配ハイラナイ。コレガ一番ナノダ。イズレワカルトキガ来ル。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>国境ノスグソバニ兵ヲ動カシタナ。我ガ国ノ美シイ田園風景ヲ楽シンデイルダケダトイイノダガ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>了解シタ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ヤリカネナイトハ思ッテイタガ、マサカソコマデ恥知ラズトハ。ワガ国ニ送ッタスパイヲ今スグ引キ上ゲサセロ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>了解シタ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>コノ侮辱ハ忘レナイ。貴様モ憶エテオクコトダ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ワガ国ノ文化ヤ歴史ヲ盗マナイデホシイ。ワガ国カラ出テ行ッテモラオウ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>了解シタ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>ワガ国ヲ尊重シテモラエナイナラ、貴国ヲ尊重スルコトモデキナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>貴国ノ宗教家ハヤリ方ガ強引デ評判ガ悪イ。イマスグワガ国カラ立チ退カセテクレ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>了解シタ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
+			<Text>覚悟シテオイタホウガイイ。イズレ必ズ報イガアルダロウ。</Text>
+		</Replace>
+
+		<!-- 文明特性の戦闘ボーナス説明-->
+		<Replace Tag="LOC_ABILITY_YNL_DEFENDING_BONUS_DESCRIPTION" Language="ja_JP">
+			<Text>全ユニットは防戦時に [ICON_Strength] 戦闘力+5</Text>
+		</Replace>
+
+		<!-- 文明特性：全海洋ユニットで沿岸略奪 の名称と説明 -->
+		<Replace Tag="LOC_ABILITY_YNL_RANGED_COASTAL_RAID_NAME" Language="ja_JP">
+			<Text>深海棲艦の沿岸略奪</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_RANGED_COASTAL_RAID_DESCRIPTION" Language="ja_JP">
+			<Text>深海棲艦の海洋戦闘ユニットは、沿岸地域の建造物と施設を略奪し、民間人ユニットを捕獲できる。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_DISTRICT_COASTAL_FORT_GOLD" Language="ja_JP">
+			<Text>隣接する沿岸要塞により [ICON_Gold] ゴールド+{1_num}。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

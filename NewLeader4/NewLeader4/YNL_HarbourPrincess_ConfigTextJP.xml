@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME" Language="ja_JP">
+			<Text>深海棲艦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION" Language="ja_JP">
+			<Text>深海棲艦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_ADJECTIVE" Language="ja_JP">
+			<Text>深海棲艦の</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_HARBOUR_PRINCESS_NAME" Language="ja_JP">
+			<Text>港湾棲姫</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_NAME" Language="ja_JP">
+			<Text>憎悪</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION" Language="ja_JP">
+			<Text>カドリレームと機関銃の [ICON_Range] 射程+1。兵営の建造コストが半分になる。[NEWLINE]支援系ユニットは解禁技術取得時に対応するユニットを1体無償で得られる。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME" Language="ja_JP">
+			<Text>深き者ども</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION" Language="ja_JP">
+			<Text>全てのユニットは防戦時に [ICON_Strength] 戦闘力+5される。[NEWLINE]全海洋ユニットは沿岸略奪が可能となる。[NEWLINE]全てのユニットは乗船ができるようになると外洋航行能力を得る。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_COASTAL_FORT_NAME" Language="ja_JP">
+			<Text>沿岸要塞</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COASTAL_FORT_DESCRIPTION" Language="ja_JP">
+			<Text>海洋活動をつかさどる区域。深海棲艦固有。港区域に取ってかわる。この区域はHPを持つ。そのほかの能力は王立海軍造船所と同等。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME" Language="ja_JP">
+			<Text>深海棲艦固有の区域: 沿岸要塞</Text>
+		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_DRILLSHIP_NAME" Language="ja_JP">
+			<Text>掘削船</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_DRILLSHIP_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が深海棲艦固有の施設である掘削船を建設できるようになる。[NEWLINE][NEWLINE][ICON_Gold] ゴールド+1、[ICON_Production] 生産力+2。沿岸と海にのみ建設できる。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP_NAME" Language="ja_JP">
+			<Text>深海棲艦固有の施設: 掘削船</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_DRILLSHIP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>掘削船とは、掘削設備を備えた船である。主に深海において新しい油井の探査掘削を行ったり、科学探査を行ったりするために用いられる。また油井に管を通したりバルブを取り付けたりといった補修・仕上げ作業の石油プラットフォームとして用いられることもある。海上油田の業者や出資者の設計と仕様に基づいて建造されるが、タンカーの船体を改造して油井上に位置を保つための自動船位保持装置を搭載して造られることもある。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_YNL_ARMORED_CRUISER_NAME" Language="ja_JP">
+			<Text>深海装甲巡洋艦</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_ARMORED_CRUISER_DESCRIPTION" Language="ja_JP">
+			<Text>装甲艦に取ってかわる深海棲艦固有の産業時代のユニット。通常の装甲艦よりも強力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_ARMORED_CRUISER_NAME" Language="ja_JP">
+			<Text>港湾棲姫固有のユニット: 深海装甲巡洋艦</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_UNIT_YNL_ARMORED_CRUISER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_HARBOUR_PRINCESS_DOM_TEXT" Language="ja_JP">
+			<Text>クルナ…ト……イッテイル…ノニ……</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

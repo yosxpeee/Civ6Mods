@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="LEADER_HARBOUR_PRINCESS"       Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HARBOUR_PRINCESS" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HARBOUR_PRINCESS"          Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HARBOUR_PRINCESS"    Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_YNL_ARMORED_CRUISER" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row>
@@ -16,16 +17,27 @@
 	</LeaderQuotes>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_HARBOUR_PRINCESS" TraitType="TRAIT_LEADER_HARBOUR_PRINCESS"/>
+		<Row LeaderType="LEADER_HARBOUR_PRINCESS" TraitType="TRAIT_LEADER_YNL_ARMORED_CRUISER"/>
 	</LeaderTraits>
 
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" Name="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_NAME" Description="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS"    Name="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_NAME" Description="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_YNL_ARMORED_CRUISER" Name="LOC_TRAIT_LEADER_YNL_ARMORED_CRUISER_NAME"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_QUADRIREME_RANGE_BONUS"/>
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_RANGE_BONUS"/>
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_QUADRIREME_RANGE_BONUS"/>	    <!-- カドリレームの射程+1-->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_RANGE_BONUS"/>	    <!-- 機関銃の射程+1 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>						    <!-- 兵営の建造コスト半分 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_BATTERING_RAM"/>      <!-- 対応する技術解禁で破城槌1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SIEGE_TOWER"/>        <!-- 対応する技術解禁で攻城塔1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MEDIC"/>              <!-- 対応する技術解禁で衛生兵1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_OBSERVATION_BALLOON"/><!-- 対応する技術解禁で観測気球1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MILITARY_ENGINEER"/>  <!-- 対応する技術解禁で工兵1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_ANTIAIR_GUN"/>        <!-- 対応する技術解禁で対空砲1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MOBILE_SAM"/>         <!-- 対応する技術解禁で自走式地対空ミサイル1体取得 -->
 	</TraitModifiers>
 	<Modifiers>
+		<!-- カドリレームの射程+1-->
 		<Row>
 			<ModifierId>COMBAT_YNL_LEADER_HARBOUR_PRINCESS_QUADRIREME_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
@@ -35,6 +47,7 @@
 			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_QUADRIREME_RANGE_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
+		<!-- 機関銃の射程+1 -->
 		<Row>
 			<ModifierId>COMBAT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
@@ -44,8 +57,59 @@
 			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_RANGE_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
+		<!-- 技術解禁で対応する支援ユニット1体取得 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_BATTERING_RAM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_MASONRY_TECHNOLOGY_YNL_HP</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SIEGE_TOWER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_CONSTRUCTION_TECHNOLOGY_YNL_HP</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MEDIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_SANITATION_TECHNOLOGY_YNL_HP</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_OBSERVATION_BALLOON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_FLIGHT_TECHNOLOGY_YNL_HP</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MILITARY_ENGINEER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_MILITARY_ENGINEERING_TECHNOLOGY_YNL_HP</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_ANTIAIR_GUN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_ADVANCED_BALLISTICS_TECHNOLOGY_YNL_HP</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MOBILE_SAM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_GUIDANCE_SYSTEMS_TECHNOLOGY_YNL_HP</OwnerRequirementsetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- カドリレームの射程+1-->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_QUADRIREME_RANGE_BONUS</ModifierId>
 			<Name>ModifierId</Name>
@@ -56,6 +120,7 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- 機関銃の射程+1 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_RANGE_BONUS</ModifierId>
 			<Name>ModifierId</Name>
@@ -65,6 +130,119 @@
 			<ModifierId>COMBAT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
+		</Row>
+		<!-- 技術解禁で対応する支援ユニット1体取得 -->
+		<Row>
+			<!-- 破城鎚 -->
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_BATTERING_RAM</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BATTERING_RAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_BATTERING_RAM</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_BATTERING_RAM</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<!-- 攻城塔 -->
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SIEGE_TOWER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SIEGE_TOWER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SIEGE_TOWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SIEGE_TOWER</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<!-- 衛生兵 -->
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MEDIC</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MEDIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MEDIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MEDIC</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<!-- 観測気球 -->
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_OBSERVATION_BALLOON</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_OBSERVATION_BALLOON</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_OBSERVATION_BALLOON</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_OBSERVATION_BALLOON</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<!-- 工兵 -->
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MILITARY_ENGINEER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MILITARY_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MILITARY_ENGINEER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MILITARY_ENGINEER</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<!-- 対空砲 -->
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_ANTIAIR_GUN</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ANTIAIR_GUN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_ANTIAIR_GUN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_ANTIAIR_GUN</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<!-- 自走式地対空ミサイル -->
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MOBILE_SAM</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MOBILE_SAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MOBILE_SAM</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MOBILE_SAM</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
 		</Row>
 	</ModifierArguments>
 
@@ -77,6 +255,41 @@
 			<RequirementSetId>UNIT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_REQUIRMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- テクノロジー：石工術を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MASONRY_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- テクノロジー：建築学を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CONSTRUCTION_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- テクノロジー：公衆衛生を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SANITATION_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- テクノロジー：航空技術を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_FLIGHT_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- テクノロジー：軍事工学を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MILITARY_ENGINEERING_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- テクノロジー：高度な弾道学を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ADVANCED_BALLISTICS_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- テクノロジー：誘導システムを取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_GUIDANCE_SYSTEMS_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -87,6 +300,41 @@
 			<RequirementSetId>UNIT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_REQUIRMENTS</RequirementSetId>
 			<RequirementId>PLOT_YNL_UNIT_IS_MACHINE_GUN_REQUIREMENTS</RequirementId>
 		</Row>
+		<!-- テクノロジー：石工術を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MASONRY_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_MASONRY_YNL_HP</RequirementId>
+		</Row>
+		<!-- テクノロジー：建築学を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CONSTRUCTION_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_CONSTRUCTION_YNL_HP</RequirementId>
+		</Row>
+		<!-- テクノロジー：公衆衛生を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_SANITATION_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_SANITATION_YNL_HP</RequirementId>
+		</Row>
+		<!-- テクノロジー：航空技術を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_FLIGHT_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_FLIGHT_YNL_HP</RequirementId>
+		</Row>
+		<!-- テクノロジー：軍事工学を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MILITARY_ENGINEERING_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_MILITARY_ENGINEERING_YNL_HP</RequirementId>
+		</Row>
+		<!-- テクノロジー：高度な弾道学を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ADVANCED_BALLISTICS_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_ADVANCED_BALLISTICS_YNL_HP</RequirementId>
+		</Row>
+		<!-- テクノロジー：誘導システムを取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_GUIDANCE_SYSTEMS_TECHNOLOGY_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_GUIDANCE_SYSTEM_YNL_HP</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
@@ -96,6 +344,41 @@
 		<Row>
 			<RequirementId>PLOT_YNL_UNIT_IS_MACHINE_GUN_REQUIREMENTS</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- テクノロジー：石工術を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_MASONRY_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- テクノロジー：建築学を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_CONSTRUCTION_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- テクノロジー：公衆衛生を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_SANITATION_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- テクノロジー：航空技術を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_FLIGHT_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- テクノロジー：軍事工学を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_MILITARY_ENGINEERING_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- テクノロジー：高度な弾道学を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_ADVANCED_BALLISTICS_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- テクノロジー：誘導システムを取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_GUIDANCE_SYSTEM_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -109,7 +392,93 @@
 			<Name>UnitType</Name>
 			<Value>UNIT_MACHINE_GUN</Value>
 		</Row>
+		<!-- テクノロジー：石工術を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_MASONRY_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MASONRY</Value>
+		</Row>
+		<!-- テクノロジー：建築学を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_CONSTRUCTION_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CONSTRUCTION</Value>
+		</Row>
+		<!-- テクノロジー：公衆衛生を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_SANITATION_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_SANITATION</Value>
+		</Row>
+		<!-- テクノロジー：航空技術を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_FLIGHT_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_FLIGHT</Value>
+		</Row>
+		<!-- テクノロジー：軍事工学を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_MILITARY_ENGINEERING_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MILITARY_ENGINEERING</Value>
+		</Row>
+		<!-- テクノロジー：高度な弾道学を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_ADVANCED_BALLISTICS_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ADVANCED_BALLISTICS</Value>
+		</Row>
+		<!-- テクノロジー：誘導システムを取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_GUIDANCE_SYSTEM_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_GUIDANCE_SYSTEM</Value>
+		</Row>
 	</RequirementArguments>
+
+	<!-- AIの好み -->
+	<AiListTypes>
+		<Row ListType="YNL_HarbourPrincessWonders"/>
+		<Row ListType="YNL_HarbourPrincessCivics"/>
+		<Row ListType="YNL_HarbourPrincessTechs"/>
+		<Row ListType="YNL_HarbourPrincessHarborDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Buildings -->
+		<Row ListType="YNL_HarbourPrincessWonders"        LeaderType="TRAIT_LEADER_HARBOUR_PRINCESS" System="Buildings"/>
+		<!-- Civics -->
+		<Row ListType="YNL_HarbourPrincessCivics"         LeaderType="TRAIT_LEADER_HARBOUR_PRINCESS" System="Civics"/>
+		<!-- Techs -->
+		<Row ListType="YNL_HarbourPrincessTechs"          LeaderType="TRAIT_LEADER_HARBOUR_PRINCESS" System="Technologies"/>
+		<!-- District -->
+		<Row ListType="YNL_HarbourPrincessHarborDistrict" LeaderType="TRAIT_LEADER_HARBOUR_PRINCESS" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Buildings -->
+		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_STONEHENGE"/>				<!-- ストーンヘンジ -->
+		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_HALICARNASSUS_MAUSOLEUM"/>	<!-- マウソロス霊廟 -->
+		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_COLOSSUS"/>				<!-- ロードス島の巨神像 -->
+		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_GREAT_LIGHTHOUSE"/>		<!-- ファロス灯台 -->
+		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_VENETIAN_ARSENAL"/>		<!-- アルセナーレ・ディ・ヴェネツィア -->
+		<!-- Civics -->
+		<Row ListType="YNL_HarbourPrincessCivics"         Item="CIVIC_NAVAL_TRADITION"/>			<!-- 海軍の伝統 -->
+		<Row ListType="YNL_HarbourPrincessCivics"         Item="CIVIC_MOBILIZATION"/>				<!-- 戦時動員 -->
+		<Row ListType="YNL_HarbourPrincessCivics"         Item="CIVIC_NATIONALISM"/>				<!-- ナショナリズム -->
+		<Row ListType="YNL_HarbourPrincessCivics"         Item="CIVIC_MERCANTILISM"/>				<!-- 重商主義 -->
+		<!-- Techs -->
+		<Row ListType="YNL_HarbourPrincessTechs"          Item="TECH_SAILING"/>						<!-- 帆走術 -->
+		<Row ListType="YNL_HarbourPrincessTechs"          Item="TECH_SHIPBUILDING"/>				<!-- 造船 -->
+		<Row ListType="YNL_HarbourPrincessTechs"          Item="TECH_SQUARE_RIGGING"/>				<!-- 横帆船 -->
+		<Row ListType="YNL_HarbourPrincessTechs"          Item="TECH_STEEL"/>						<!-- 鉄鋼 -->
+		<Row ListType="YNL_HarbourPrincessTechs"          Item="TECH_STEAM_POWER"/>					<!-- 蒸気機関 -->
+		<Row ListType="YNL_HarbourPrincessTechs"          Item="TECH_ELECTRICITY"/>					<!-- 電気 -->
+		<!-- District -->
+		<Row ListType="YNL_HarbourPrincessHarborDistrict" Item="DISTRICT_COASTAL_FORT" Favored="true"/><!-- 沿岸要塞 -->
+	</AiFavoredItems>
+	<!-- アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_HARBOUR_PRINCESS" AgendaType="AGENDA_BACKSTABBER"/><!-- 機を見るに敏(キュロスと同じ) -->
+	</HistoricalAgendas>
 
 	<DiplomacyInfo>
 		<Row Type="LEADER_HARBOUR_PRINCESS" BackgroundImage="YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds"/>
@@ -118,6 +487,7 @@
 		<Row LeaderType="LEADER_HARBOUR_PRINCESS" BackgroundImage="YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds" LeaderText="LOC_LEADER_HARBOUR_PRINCESS_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 
+	<!-- 文明カラー設定 -->
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_YNL_HARBOUR_PRINCESS_PRIMARY</Type>

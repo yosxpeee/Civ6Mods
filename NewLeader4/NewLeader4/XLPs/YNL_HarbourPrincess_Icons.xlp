@@ -77,6 +77,22 @@
 			<m_EntryID text="YNL_CIV_LTAF256"/>
 			<m_ObjectName text="YNL_CIV_LTAF256"/>
 		</Element>
+		<Element>
+			<m_EntryID text="YNL_DRILLSHIP38"/>
+			<m_ObjectName text="YNL_DRILLSHIP38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_DRILLSHIP50"/>
+			<m_ObjectName text="YNL_DRILLSHIP50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_DRILLSHIP80"/>
+			<m_ObjectName text="YNL_DRILLSHIP80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_DRILLSHIP256"/>
+			<m_ObjectName text="YNL_DRILLSHIP256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

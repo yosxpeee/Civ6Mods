@@ -18,24 +18,50 @@
 			<Text>The Hate</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Quadrireme and Machine Gun [ICON_Range] Range +1.</Text>
+			<Text>Quadrireme and Machine Gun [ICON_Range] Range +1.[NEWLINE]Builds Encampment district in half the time.[NEWLINE]The support unit can obtain 1 unit free of charge when acquiring the technology necessary for production.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME" Language="en_US">
 			<Text>The Deep Ones</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION" Language="en_US">
-			<Text>All unit gains +5 [ICON_Strength] Strength when defending.[NEWLINE]All naval units can pillage buildings and improvements and capture civilian units on coastal lands.</Text>
+			<Text>All unit gains +5 [ICON_Strength] Strength when defending.[NEWLINE]All naval units can pillage buildings and improvements and capture civilian units on coastal lands.[NEWLINE]All units gain ocean navigation capability as they can get on board.</Text>
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_COASTAL_FORT_NAME" Language="en_US">
 			<Text>Coastal Fort</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_COASTAL_FORT_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Feline for naval activity in your city. Replaces the Harbor district. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval units built in Dockyard[NEWLINE]+2 [ICON_Gold] Gold when built on a foreign continent[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity.</Text>
+			<Text>A district unique to Abyssal Fleets for naval activity in your city. Replaces the Harbor district. This District have hitpoints, The other abilities are the same as Royal Navy Dockyard.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME" Language="en_US">
-			<Text>Feline unique district: Coastal Fort</Text>
+			<Text>Abyssal Fleets unique district: Coastal Fort</Text>
+		</Row>
+		
+		<Row Tag="LOC_IMPROVEMENT_DRILLSHIP_NAME" Language="en_US">
+			<Text>Drillship</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_DRILLSHIP_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Drillship, unique to Abyssal Fleets.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold, +2 [ICON_Production] Production. Can be built on Coasts and Oceans. </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP_NAME" Language="en_US">
+			<Text>Abyssal Fleets unique improvement: Drillship</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_DRILLSHIP_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_YNL_ARMORED_CRUISER_NAME" Language="en_US">
+			<Text>Abyssal Armored Cruiser</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_ARMORED_CRUISER_DESCRIPTION" Language="en_US">
+			<Text>Harbour Princess unique unit that replaces the Ironcrad. Stronger than the Ironcrad.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_ARMORED_CRUISER_NAME" Language="en_US">
+			<Text>Harbour Princess unique unit: Abyssal Armored Cruiser</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_UNIT_YNL_ARMORED_CRUISER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_HARBOUR_PRINCESS_DOM_TEXT" Language="en_US">

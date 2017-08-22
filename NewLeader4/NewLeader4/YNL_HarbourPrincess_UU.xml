@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_YNL_ARMORED_CRUISER" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_YNL_ARMORED_CRUISER" Tag="CLASS_NAVAL_MELEE"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" BaseMoves="5" Cost="380" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_YNL_ARMORED_CRUISER_NAME" Description="LOC_UNIT_YNL_ARMORED_CRUISER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="5" Combat="65" PrereqTech="TECH_STEAM_POWER" StrategicResource="RESOURCE_COAL" TraitType="TRAIT_LEADER_YNL_ARMORED_CRUISER" />
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_YNL_ARMORED_CRUISER" ReplacesUnitType="UNIT_IRONCLAD"/>
+	</UnitReplaces>
+</GameData>

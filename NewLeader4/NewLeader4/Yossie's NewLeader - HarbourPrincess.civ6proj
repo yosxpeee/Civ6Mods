@@ -12,21 +12,39 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Districts.xml</File><File>YNL_HarbourPrincess_Leader.xml</File><File>YNL_HarbourPrincess_Civilizations.xml</File><File>YNL_HarbourPrincess_UB.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_ConfigText.xml</File><File>YNL_HarbourPrincess_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds</File><File>Textures/FALLBACK_NEUTRAL_HARBOUR_PRINCESS.dds</File><File>Textures/LEADER_HARBOUR_PRINCESS_NEUTRAL.dds</File><File>Textures/PORTRAIT_HARBOUR_PRINCESS.dds</File><File>Textures/YNL_CIV_LTAF22.dds</File><File>Textures/YNL_CIV_LTAF256.dds</File><File>Textures/YNL_CIV_LTAF30.dds</File><File>Textures/YNL_CIV_LTAF36.dds</File><File>Textures/YNL_CIV_LTAF44.dds</File><File>Textures/YNL_CIV_LTAF45.dds</File><File>Textures/YNL_CIV_LTAF48.dds</File><File>Textures/YNL_CIV_LTAF50.dds</File><File>Textures/YNL_CIV_LTAF64.dds</File><File>Textures/YNL_CIV_LTAF80.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_HarbourPrincess_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_HarbourPrincess_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Districts.xml</File><File>YNL_HarbourPrincess_Leader.xml</File><File>YNL_HarbourPrincess_Civilizations.xml</File><File>YNL_HarbourPrincess_Improvement.xml</File><File>YNL_HarbourPrincess_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_ConfigText.xml</File><File>YNL_HarbourPrincess_Text.xml</File><File>YNL_HarbourPrincess_ConfigTextJP.xml</File><File>YNL_HarbourPrincess_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds</File><File>Textures/FALLBACK_NEUTRAL_HARBOUR_PRINCESS.dds</File><File>Textures/LEADER_HARBOUR_PRINCESS_NEUTRAL.dds</File><File>Textures/PORTRAIT_HARBOUR_PRINCESS.dds</File><File>Textures/YNL_CIV_LTAF22.dds</File><File>Textures/YNL_CIV_LTAF256.dds</File><File>Textures/YNL_CIV_LTAF30.dds</File><File>Textures/YNL_CIV_LTAF36.dds</File><File>Textures/YNL_CIV_LTAF44.dds</File><File>Textures/YNL_CIV_LTAF45.dds</File><File>Textures/YNL_CIV_LTAF48.dds</File><File>Textures/YNL_CIV_LTAF50.dds</File><File>Textures/YNL_CIV_LTAF64.dds</File><File>Textures/YNL_CIV_LTAF80.dds</File><File>Textures/YNL_DRILLSHIP256.dds</File><File>Textures/YNL_DRILLSHIP38.dds</File><File>Textures/YNL_DRILLSHIP50.dds</File><File>Textures/YNL_DRILLSHIP80.dds</File><File>Textures/YNL_HARBOUR_PRINCESS_LEADER256.dds</File><File>Textures/YNL_HARBOUR_PRINCESS_LEADER32.dds</File><File>Textures/YNL_HARBOUR_PRINCESS_LEADER45.dds</File><File>Textures/YNL_HARBOUR_PRINCESS_LEADER50.dds</File><File>Textures/YNL_HARBOUR_PRINCESS_LEADER55.dds</File><File>Textures/YNL_HARBOUR_PRINCESS_LEADER64.dds</File><File>Textures/YNL_HARBOUR_PRINCESS_LEADER80.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_HarbourPrincess_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_HarbourPrincess_ConfigText.xml</File><File>YNL_HarbourPrincess_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_HarbourPrincess_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_HARBOUR_PRINCESS</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>NewLeader4</AssemblyName>
     <RootNamespace>NewLeader4</RootNamespace>
     <Authors>yosxpeee</Authors>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+</Associations>]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ArtDefs\YNL_HarbourPrincess_Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_HarbourPrincess_Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\YNL_HarbourPrincess_District.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\YNL_HarbourPrincess_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_HarbourPrincess_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_HarbourPrincess_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_HarbourPrincess_UU.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_HARBOUR_PRINCESS.dds">
@@ -95,6 +113,30 @@
     <Content Include="Textures\YNL_CIV_LTAF80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\YNL_DRILLSHIP256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_DRILLSHIP256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_DRILLSHIP38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_DRILLSHIP38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_DRILLSHIP50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_DRILLSHIP50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_DRILLSHIP80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_DRILLSHIP80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds">
       <SubType>Content</SubType>
     </Content>
@@ -154,7 +196,7 @@
     <Content Include="YNL_HarbourPrincess_Civilizations.xml" />
     <Content Include="YNL_HarbourPrincess_Icons.xml" />
     <Content Include="YNL_HarbourPrincess_Leader.xml" />
-    <Content Include="YNL_HarbourPrincess_UB.xml" />
+    <Content Include="YNL_HarbourPrincess_Improvement.xml" />
     <Content Include="YNL_HarbourPrincess_Text.xml" />
     <Content Include="Textures\FALLBACK_NEUTRAL_HARBOUR_PRINCESS.dds" />
     <Content Include="Textures\FALLBACK_NEUTRAL_HARBOUR_PRINCESS.tex" />

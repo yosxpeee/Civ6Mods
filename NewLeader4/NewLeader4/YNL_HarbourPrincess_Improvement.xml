@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_DRILLSHIP" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" Name="LOC_IMPROVEMENT_DRILLSHIP_NAME" Description="LOC_IMPROVEMENT_DRILLSHIP_DESCRIPTION" Icon="ICON_IMPROVEMENT_DRILLSHIP" PlunderType="PLUNDER_HEAL" PlunderAmount="100" Buildable="true" PrereqTech="TECH_MACHINERY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP" TilesRequired="1" Domain="DOMAIN_SEA"/>
+	</Improvements>
+	<!-- 地形改善できる地形 -->
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" TerrainType="TERRAIN_COAST"/>
+		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" TerrainType="TERRAIN_OCEAN"/>
+	</Improvement_ValidTerrains>
+	<!-- 地形改善できるユニット -->
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<!-- 地形改善によるボーナス -->
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" YieldType="YIELD_GOLD"       YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" YieldType="YIELD_SCIENCE"    YieldChange="0"/>
+	</Improvement_YieldChanges>
+	<!-- テクノロジーによる追加ボーナス -->
+	<Improvement_BonusYieldChanges>
+		<!-- 化学取得で科学力+1 -->
+		<Row Id="201" ImprovementType="IMPROVEMENT_DRILLSHIP" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_CHEMISTRY"/>
+	</Improvement_BonusYieldChanges>
+</GameInfo>
