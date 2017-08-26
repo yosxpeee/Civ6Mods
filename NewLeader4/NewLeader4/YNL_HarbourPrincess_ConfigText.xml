@@ -25,7 +25,7 @@
 			<Text>The Deep Ones</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION" Language="en_US">
-			<Text>All unit gains +5 [ICON_Strength] Strength when defending.[NEWLINE]All naval units can pillage buildings and improvements and capture civilian units on coastal lands.[NEWLINE]All units gain ocean navigation capability as they can get on board.</Text>
+			<Text>All unit gains +5 [ICON_Strength] Strength when defending.[NEWLINE]All naval units (without aiircraft carrier) can pillage buildings and improvements and capture civilian units on coastal lands.[NEWLINE]All units gain ocean navigation capability as they can get on board.</Text>
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_COASTAL_FORT_NAME" Language="en_US">
@@ -55,7 +55,7 @@
 			<Text>Abyssal Armored Cruiser</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YNL_ARMORED_CRUISER_DESCRIPTION" Language="en_US">
-			<Text>Harbour Princess unique unit that replaces the Ironcrad. Stronger than the Ironcrad.</Text>
+			<Text>Harbour Princess unique unit that replaces the Ironcrad. Stronger than the Ironcrad. +5 [ICON_GreatAdmiral] Great Admiral points for killing units.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_ARMORED_CRUISER_NAME" Language="en_US">
 			<Text>Harbour Princess unique unit: Abyssal Armored Cruiser</Text>

@@ -375,5 +375,12 @@
 		<Replace Tag="LOC_DISTRICT_DISTRICT_COASTAL_FORT_GOLD" Language="ja_JP">
 			<Text>隣接する沿岸要塞により [ICON_Gold] ゴールド+{1_num}。</Text>
 		</Replace>
+		
+		<Replace Tag="LOC_ABILITY_YNL_ARMORED_CRUISER_NAME" Language="ja_JP">
+			<Text>深海の咆哮</Text>
+		</Replace>
+		 <Replace Tag="LOC_ABILITY_YNL_ARMORED_CRUISER_DESCRIPTION" Language="ja_JP">
+			<Text>深海棲海固有の産業時代の海洋ユニット。ユニットを倒すと [ICON_GreatAdmiral] 大提督ポイント+5。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

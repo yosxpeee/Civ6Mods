@@ -25,7 +25,7 @@
 			<Text>深き者ども</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION" Language="ja_JP">
-			<Text>全てのユニットは防戦時に [ICON_Strength] 戦闘力+5される。[NEWLINE]全海洋ユニットは沿岸略奪が可能となる。[NEWLINE]全てのユニットは乗船ができるようになると外洋航行能力を得る。</Text>
+			<Text>全てのユニットは防戦時に [ICON_Strength] 戦闘力+5される。[NEWLINE]空母を除く全海洋ユニットは沿岸略奪が可能となる。[NEWLINE]全てのユニットは乗船ができるようになると外洋航行能力を得る。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_COASTAL_FORT_NAME" Language="ja_JP">
@@ -55,7 +55,7 @@
 			<Text>深海装甲巡洋艦</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YNL_ARMORED_CRUISER_DESCRIPTION" Language="ja_JP">
-			<Text>装甲艦に取ってかわる深海棲艦固有の産業時代のユニット。通常の装甲艦よりも強力。</Text>
+			<Text>装甲艦に取ってかわる深海棲艦固有の産業時代のユニット。通常の装甲艦よりも強力。ユニットを倒すと [ICON_GreatAdmiral] 大提督ポイント+5。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_ARMORED_CRUISER_NAME" Language="ja_JP">
 			<Text>港湾棲姫固有のユニット: 深海装甲巡洋艦</Text>

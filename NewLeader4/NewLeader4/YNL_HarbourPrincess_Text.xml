@@ -375,5 +375,12 @@
 		<Row Tag="LOC_DISTRICT_DISTRICT_COASTAL_FORT_GOLD" Language="en_US">
 			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Coastal Fort district.</Text>
 		</Row>
-	</LocalizedText>
+		
+		<Row Tag="LOC_ABILITY_YNL_ARMORED_CRUISER_NAME" Language="en_US">
+			<Text>Abyss Roar</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FUBUKI_DESCRIPTION" Language="en_US">
+			<Text>Abyssal Fleets unique Atomic era naval melee unit. +5 [ICON_GreatAdmiral] Great Admiral points for killing units.</Text>
+		</Row>
+</LocalizedText>
 </GameData>

@@ -1,21 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="UNIT_YNL_ARMORED_CRUISER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_ARMORED_CRUISER"    Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_YNL_ARMORED_CRUISER" Kind="KIND_ABILITY"/>
 	</Types>
+	<Tags>
+		<Row Tag="CLASS_YNL_ARMORED_CRUISER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_YNL_ARMORED_CRUISER"    Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_YNL_ARMORED_CRUISER"    Tag="CLASS_YNL_ARMORED_CRUISER"/>
+		<Row Type="ABILITY_YNL_ARMORED_CRUISER" Tag="CLASS_YNL_ARMORED_CRUISER"/>
+	</TypeTags>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
-	<TypeTags>
-		<Row Type="UNIT_YNL_ARMORED_CRUISER" Tag="CLASS_NAVAL_MELEE"/>
-	</TypeTags>
 	<Units>
 		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" BaseMoves="5" Cost="380" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_YNL_ARMORED_CRUISER_NAME" Description="LOC_UNIT_YNL_ARMORED_CRUISER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" Maintenance="5" Combat="65" PrereqTech="TECH_STEAM_POWER" StrategicResource="RESOURCE_COAL" TraitType="TRAIT_LEADER_YNL_ARMORED_CRUISER" />
 	</Units>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_YNL_ARMORED_CRUISER" ReplacesUnitType="UNIT_IRONCLAD"/>
 	</UnitReplaces>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YNL_ARMORED_CRUISER" Name="LOC_ABILITY_YNL_ARMORED_CRUISER_NAME" Description="LOC_ABILITY_YNL_ARMORED_CRUISER_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_ARMORED_CRUISER</UnitAbilityType>
+			<ModifierId>YNL_ARMORED_CRUISER_GREAT_ADMIRAL_POINTS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<!-- Modifier系 ユニット撃破で大提督ポイント -->
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_ARMORED_CRUISER_GREAT_ADMIRAL_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_ARMORED_CRUISER_GREAT_ADMIRAL_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_ARMORED_CRUISER_GREAT_ADMIRAL_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
