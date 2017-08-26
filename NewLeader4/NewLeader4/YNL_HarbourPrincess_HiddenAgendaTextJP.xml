@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 隠しアジェンダ 感心 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>アナタノ民ガ作リ出シテイル他ニ類ヲ見ナイ文化ニハ感銘ヲ受ケタ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>アナタノ民ハアナタノ統治ヲ祝福シテイルト聞イタ。民ノ幸福ヲ維持スルノハ素晴ラシイコトダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>貴国ハ実ニ豊カナ富ニ恵マレテイルヨウダ。金ハイクラアッテモ困ルモノデハナイトイウワケカナ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>アナタノ民ノ生産力ハマッタク賞賛ニ値スル。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家ノヨウナ小国ニトッテ、我ガ国ホドフサワシイ友人ハイナイ。貴国ニモソレヲ理解シテモラエテイルヨウデナニヨリダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>アナタガ抱エル人口ノ多サハ賞賛ニ値スル。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>アナタノ文明ノ科学研究ニ対スル入レ込ミヨウハ大シタモノダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>私ハ強力ナ軍隊ヲ持ツ指導者ヲ好ム。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明ノ真価ガ発揮サレルノハ戦イニオイテデアル。ドコガ最強ノ文明カ、ハッキリサセヨウデハナイカ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>嬉シイコトニ、世ノ偉大ナ人物タチハ、貴国ヨリモ我ガ国ノホウヲ高ク評価シテクレテイルヨウダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>遺産ノ建設ハ我ラニ任セテモラエルトハ、貴国ノ賢明ナ判断ニ感謝スル。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家ノ権利ヲ守ロウトスルアナタノ姿勢ハ、全世界ガナラウベキ手本トナルダロウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強キハ弱キヲ守ルベキ。賛同シテクレテ嬉シク思ウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>アナタノ空軍ノ力ハマッタクモッテアナドレナイ。イヤ、大シタモノダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自ラノ面倒ヲ見レナイ者ヲ助ケルノハ、高貴ナオコナイダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>アノ蛮族ドモニハ我々モ大イニ悩マサレテイタ。手助ケニ感謝スル。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>コノカケガエノナイ大地ノ貴サヲ知ル人々ガ我ラノホカニモイルトハ嬉シイ話ダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>世界ハ人ガ活用スルタメニアル。求メヨ、サラバ与エラレン!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>ワレワレハ志ヲ同ジクスル仲間ノヨウダ。ソチラノ政治体制ヲ尊重スルトシヨウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>偉大ナ指導者ハ同ジコトヲ考エルヨウダ。アノ技術ニハ多クノ使イ道ガアルカラナ…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>アナタトアナタノ民ニ平穏ガモタラサレンコトヲ。自分ト同ジヨウニ信心深イ者ト出会エルノハ喜バシイコトダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>タイヘン結構。探検ハコチラニ任セテクレ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>アナタガ我々ニ脅威ヲ与エナイト知リ、安心シタ。</Text>
+		</Replace>
+		<!-- 隠しアジェンダ 非難 -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>貴国ハ偉大ナ文化ヲ生ミダソウトイウ熱意ニ欠ケテイル。コレデハ我々ハ、ドウヤッテ貴国ノ人々ノコトヲ記憶ニ留メレバヨイノダ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>市民タチノタメニモウ少シ快適性ヲ増ヤソウトハ思ワナイノカ? 皆ガ貴公ノ統治ニ満足シテイルトハ思エナイノダガ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>貴国ハ今ニモ破産シソウデハナイカ。借金ニマミレテ暮ラシテイクツモリナノカ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>貴国ハ都市国家トノ関係ガ浅クナイヨウダガ、デキレバソウシタ振ル舞イハ控エテモライタイ。我ガ国コソガ、アアシタ国々トノ友好ヲ深メルニフサワシイト思ウノダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>貴国ハズイブント怠惰ナ者ガ多イヨウダ。ナニモ生ミダセナイ文明ハ、ジキニ人々ノ記憶カラ消エテシマウダロウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>貴国ハ極端ナ人口不足ニ陥ッテイル。ソレデハホトンドナニモスルコトガデキナイダロウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>貴国ハ技術研究ニ熱心デハナイヨウダガ、ソレデドウヤッテ人々ノ暮ラシヲ豊カニデキルノダ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>ソンナニササヤカナ軍隊シカ持タズニ、不安ヲ感ジルコトハナイノカ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>貴国ノ都市ハ我ガ国ニアマリニ近ク、貴国ノ軍ハアマリニ強イ。コレデハコチラモ心穏ヤカデハイラレナクナルト思ワナイカ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>多クノ偉人ヲ集メテイルヨウダガ、アマリ余計ナコトハシナイデモライタイモノダ。偉人ハ我ガ文明ニコソフサワシイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産ノ建設ニカケテハ我ラノ右ニ出ル者ハイナイトイウコトヲゴ存ジナイノダロウカ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>小国ヲ襲ウナド、臆病者ノスルコト。我ガ国ニトッテ貴国ハ何ノ価値モナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>コレハ警告ダト思ッテホシイ。今後ハ二度ト小国ヲ襲ワナイコトダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面ヲ這イ回ルダケデハ栄光ヲツカムコトハデキナイ。航空戦力ノ整備ヲ急グコトヲオススメスル。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者ヲイタブルノハ恥ズベキコトダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分ノ首都ノ近クデアノヨウニ蛮族タチヲノサバラセテオイテヨイノカ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>コレダケハ言ッテオキタイ。イタズラニ自然ヲ傷ツケレバ、貴国ノミナラズ誰モガ報イヲ受ケルコトニナルノダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>見ルガイイ、周囲ニ広ガル肥沃ナ大地ヲ! ナゼ手ヲツケヨウトシナイノダ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>思想ノ違イモソウダガ、アナタノ民ヲ統治スルヤリ方ハ私ニトッテ許容デキルモノデハナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器コソガ未来ヲ切リ開クノダ! ナゼソレガワカラナイ?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>アナタハナニヲシルベニ道ヲ歩ムノダ? マサカ信心ヲ持タナイトイウワケデハアルマイ。人々ニ信仰ノ光ヲ見セルノモ統治者ノ務メダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見トハ、早イ者勝チノ競争ダ。貴国ハワガ国ヲサシオイテ探検隊ヲ派遣シタ。ソンナ国ニ従ウワケニハイカナイ。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
