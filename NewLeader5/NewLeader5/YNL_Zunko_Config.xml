@@ -51,7 +51,7 @@
 			<LeaderAbilityName>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_KIRITAN_TOHOKU</LeaderAbilityIcon>
-			<Portrait>LEADER_KIRITAN_TOHOKU_NEUTRAL</Portrait><!-- きりたんも通常の指導者の立絵と同じもので違和感がない -->
+			<Portrait>PORTRAIT_KIRITAN_TOHOKU</Portrait><!-- きりたんも個別に用意したものを指定 -->
 		</Row>
 	</Players>
 	<PlayerItems>
