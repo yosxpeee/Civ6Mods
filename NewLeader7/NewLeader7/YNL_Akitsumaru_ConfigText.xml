@@ -43,7 +43,7 @@
 			<Text>Ka Type Observation Autogyro</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KAGOU_DESCRIPTION" Language="en_US">
-			<Text>Modern era support unit. Adds +1 [ICON_Range] Range to Frigate, Battleship, Missile Cruiser and Aircraft Carrier. [NEWLINE]Frigate, Battleship, Missile Cruiser and Aircraft Carrier gains +9 [ICON_Strength] Strength when attacking to naval raider units. [NEWLINE]Reveal stealth units on the map when this unit on an adjacent tile.</Text>
+			<Text>Akitsumaru unique Modern era naval support unit. Adds +1 [ICON_Range] Range to Frigate, Battleship and Missile Cruiser. [NEWLINE]Frigate, Battleship, Missile Cruiser and Aircraft Carrier gains +9 [ICON_Strength] Strength when attacking to naval raider units. [NEWLINE]Reveal stealth units on the map when this unit on an adjacent tile.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME" Language="en_US">
 			<Text>Akitsumaru unique unit: Ka Type Observation Autogyro</Text>
@@ -51,5 +51,19 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KAGOU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Replace>
+
+		<!-- UB -->
+		<Row Tag="LOC_BUILDING_IMP_ARMY_ARMORY_NAME" Language="en_US">
+			<Text>Imperial Army Armory</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IMP_ARMY_ARMORY_DESCRIPTION" Language="en_US">
+			<Text>Akitsumaru unique building that replaces Armory. +2 [ICON_Production] Production, +1 [ICON_Scienece] Science. +50% combat experience for all land units trained in this city.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME" Language="en_US">
+			<Text>Akitsumaru unique building: Imperial Army Armory</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_IMP_ARMY_ARMORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

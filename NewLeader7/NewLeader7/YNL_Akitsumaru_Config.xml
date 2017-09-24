@@ -23,11 +23,21 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_YNL_AKITSUMARU</CivilizationType>
 			<LeaderType>LEADER_YNL_AKITSUMARU</LeaderType>
+			<Type>BUILDING_IMP_ARMY_ARMORY</Type>
+			<Name>LOC_BUILDING_IMP_ARMY_ARMORY_NAME</Name>
+			<Description>LOC_BUILDING_IMP_ARMY_ARMORY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_IMP_ARMY_ARMORY</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AKITSUMARU</CivilizationType>
+			<LeaderType>LEADER_YNL_AKITSUMARU</LeaderType>
 			<Type>UNIT_KAGOU</Type>
 			<Name>LOC_UNIT_KAGOU_NAME</Name>
 			<Description>LOC_UNIT_KAGOU_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_KAGOU</Icon>
-			<SortIndex>10</SortIndex>
+			<SortIndex>20</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

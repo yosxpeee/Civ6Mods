@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<IconTextureAtlases>
+		<!-- Leader -->
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_LEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKITSUMARU32"/>
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_LEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKITSUMARU45"/>
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_LEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKITSUMARU50"/>
@@ -8,7 +9,7 @@
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKITSUMARU64"/>
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKITSUMARU80"/>
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKITSUMARU256"/>
-
+		<!-- Civilization -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_AKITSUMARU" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_AKITSUMARU22.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_AKITSUMARU" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_AKITSUMARU30.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_AKITSUMARU" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_AKITSUMARU36.dds"/>
@@ -19,7 +20,6 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_AKITSUMARU" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_AKITSUMARU64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_AKITSUMARU" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_AKITSUMARU80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_AKITSUMARU" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_AKITSUMARU256.dds"/>
-
 		<!-- UU -->
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_UNITS"     IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_AKITSUMARU_UU256.dds"/>
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_UNITS"     IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_AKITSUMARU_UU80.dds"/>
@@ -30,15 +30,19 @@
 		<Row Name="ICON_ATLAS_YNL_AKITSUMARU_UNITS_FOW" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_AKITSUMARU_UU32.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
+		<!-- Civilization and Leader -->
 		<Row Name="ICON_CIVILIZATION_YNL_AKITSUMARU" Atlas="ICON_ATLAS_CIVILIZATION_AKITSUMARU" Index="0"/>
-		<Row Name="ICON_LEADER_YNL_AKITSUMARU"       Atlas="ICON_ATLAS_YNL_AKITSUMARU_LEADER" Index="0"/>
+		<Row Name="ICON_LEADER_YNL_AKITSUMARU"       Atlas="ICON_ATLAS_YNL_AKITSUMARU_LEADER"   Index="0"/>
 		<!-- UU -->
-		<Row Name="ICON_UNIT_KAGOU"                            Atlas="ICON_ATLAS_YNL_AKITSUMARU_UNITS" Index="0"/>
-		<Row Name="ICON_UNIT_KAGOU_FOW"                        Atlas="ICON_ATLAS_YNL_AKITSUMARU_UNITS_FOW" Index="0"/>
-		<Row Name="ICON_UNIT_KAGOU_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="20"/><!-- ポートレイトはバニラのヘリで代用 -->
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_KAGOU_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2" Index="20"/>
-		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_KAGOU_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2" Index="20"/>
+		<Row Name="ICON_UNIT_KAGOU"                            Atlas="ICON_ATLAS_YNL_AKITSUMARU_UNITS"            Index="0"/>
+		<Row Name="ICON_UNIT_KAGOU_FOW"                        Atlas="ICON_ATLAS_YNL_AKITSUMARU_UNITS_FOW"        Index="0"/>
+		<Row Name="ICON_UNIT_KAGOU_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="20"/><!-- ポートレイトはバニラのヘリで代用 -->
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_KAGOU_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="20"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_KAGOU_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="20"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_KAGOU_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="20"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_KAGOU_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2" Index="20"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_KAGOU_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="20"/>
+		<!-- UB -->
+		<Row Name="ICON_BUILDING_IMP_ARMY_ARMORY"              Atlas="ICON_ATLAS_BUILDINGS"     Index="21"/>
+		<Row Name="ICON_BUILDING_IMP_ARMY_ARMORY_FOW"          Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="21"/>
 	</IconDefinitions>
 </GameData>

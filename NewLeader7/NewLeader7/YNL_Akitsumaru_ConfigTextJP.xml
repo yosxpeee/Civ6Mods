@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_NAME" Language="ja_JP">
+			<Text>大日本帝国（あきつ丸）</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
+			<Text>大日本帝国（あきつ丸）</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_ADJECTIVE" Language="ja_JP">
+			<Text>大日本帝国（あきつ丸）の</Text>
+		</Row>
+
+		<!-- Leader Name -->
+		<Row Tag="LOC_LEADER_YNL_AKITSUMARU_NAME" Language="ja_JP">
+			<Text>あきつ丸</Text>
+		</Row>
+
+		<!-- Civilization Traits -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_NAME" Language="ja_JP">
+			<Text>日出ずる国</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
+			<Text>乗船時と下船時に追加の [ICON_Movement] 移動コストがかからなくなる。各都市に ([ICON_Citizen] 人口にもとづく通常の制限を超えて) 1つ多く区域を建設できる。</Text>
+		</Row>
+
+		<!-- Leader Traits -->
+		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_NAME" Language="ja_JP">
+			<Text>帝国陸軍の誇り</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
+			<Text>兵営、工業地帯 (区域) の建設にかかる時間が半分になる。陸上近接戦闘ユニットの [ICON_Production] 生産力+50%。</Text>
+		</Row>
+
+		<!-- DOM_TEXT -->
+		<Row Tag="LOC_LEADER_YNL_AKITSUMARU_DOM_TEXT" Language="ja_JP">
+			<Text>自分は、陸軍の特種船…その丙型の「あきつ丸」であります。輸送や上陸戦ならお任せ頂きたいのであります。自慢はこの大発であります。ネズミやモグラな輸送とは訳が違うのであります。</Text>
+		</Row>
+
+		<!-- UU -->
+		<Row Tag="LOC_UNIT_KAGOU_NAME" Language="ja_JP">
+			<Text>カ号観測機</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KAGOU_DESCRIPTION" Language="ja_JP">
+			<Text>あきつ丸固有の近代の洋上支援ユニット。カ号観測機が隣接したフリゲート艦/戦艦/ミサイル巡洋艦の [ICON_Range] 射程+1。[NEWLINE]カ号観測機が隣接したフリゲート艦/戦艦/ミサイル巡洋艦/空母の海洋略奪ユニットへの [ICON_Strength] 戦闘力+9。[NEWLINE]ステルスユニットが隣接タイルにいる場合、居場所がマップ上で明らかにされる。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME" Language="ja_JP">
+			<Text>あきつ丸固有のユニット: カ号観測機</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KAGOU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>カ号観測機は、第二次世界大戦時に日本陸軍が開発した観測機である。オ号観測機ともいう。砲兵の弾着観測や、対潜哨戒に使用された。日本で実戦配備されたものとしては唯一のオートジャイロである。設計、製造は萱場製作所（現KYB）。[NEWLINE][NEWLINE]1943年（昭和18年）、陸軍はカ号を戦時標準船を改造した護衛空母に艦載して対潜哨戒機として使うことを考えた。 同年6月4日、特殊舟艇母船あきつ丸にてカ号の発着艦実験が行われ、成功した。[NEWLINE][NEWLINE]母船には当初、2D型貨物船が考えられたが、2D型では小さすぎることから、最終的にはあきつ丸と熊野丸（熊野丸はこの時点では未成）、特2TL型山汐丸（同じくこの時点では未成）に決まった。しかし、カ号の生産が遅々として進まなかったことと、本格的な空母で運用するならば固定翼機のほうがオートジャイロより搭載量など総合的な能力で勝る等の理由から、実際には搭載されることはなかった。[NEWLINE][NEWLINE]その後、母船となるあきつ丸の戦没、レイテ島陥落による南方航路の事実上の閉鎖によって船団護衛任務自体が無くなった為、日本本土の陸上基地で運用されることとなる。最終的には大陸とのシーレーンである博多 - 釜山間での対潜哨戒や船団直衛任務に従事した。本来の目的であるシーレーン防衛の任務はきわめて小規模ながら一応果たしたものの、潜水艦の撃沈など具体的な戦果をあげることはかなわなかった。</Text>
+		</Replace>
+
+		<!-- UB -->
+		<Row Tag="LOC_BUILDING_IMP_ARMY_ARMORY_NAME" Language="ja_JP">
+			<Text>帝国陸軍兵器廠</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_IMP_ARMY_ARMORY_DESCRIPTION" Language="ja_JP">
+			<Text>武器庫に取って代わるあきつ丸固有の建造物。[ICON_Production] 生産力+2、[ICON_Science] 科学力+1。この都市で訓練を受けた陸上ユニットの戦闘経験値+50%。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME" Language="ja_JP">
+			<Text>あきつ丸固有の建造物: 帝国陸軍兵器廠</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_IMP_ARMY_ARMORY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>陸軍兵器廠は、大日本帝国陸軍の機関の一つ。兵器・弾薬・機材などの補給、要塞の備砲工事を担当した。[NEWLINE][NEWLINE]日清戦争後の軍備拡充に対処するため、1897年（明治30年）9月、従前の砲兵方面本署・支署を廃止し陸軍兵器廠が創設された。陸軍大臣隷下の本廠を東京、大阪、門司、台湾の4箇所に設置し、各管区内の師団司令部・台湾守備混成旅団司令部・要塞などの所在地に支廠を置き統括した。[NEWLINE][NEWLINE]1903年（明治36年）5月、四つの兵器本廠を東京の兵器本廠に統合し、支廠を師団司令部所在地、門司・台北に置き、要塞所在地の支廠は業務を要塞司令部に移管し廃止した。[NEWLINE][NEWLINE]1918年（大正7年）6月、師団司令部・台湾総督府・関東都督府に兵器部が設置されたことに伴い、師団司令部等所在地の支廠を廃止し6支廠とした。また、1932年（昭和7年）8月、要塞の備砲工事業務を陸軍築城部に移管。[NEWLINE][NEWLINE]1940年（昭和15年）4月1日、兵器廠と陸軍造兵廠を統合し新組織の陸軍兵器廠となり、新設の陸軍兵器本部の隷下となった。また同時に兵器支廠を兵器補給廠と改称した。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

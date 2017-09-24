@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="LEADER_YNL_AKITSUMARU" Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_YNL_AKITSUMARU" Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_LEADER_UNIT_KAGOU" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_YNL_AKITSUMARU"                 Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_YNL_AKITSUMARU"           Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_KAGOU"               Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
@@ -17,13 +18,15 @@
 		<Row LeaderType="LEADER_YNL_AKITSUMARU" Quote="LOC_LEADER_YNL_AKITSUMARU_QUOTE"/>
 	</LeaderQuotes>
 	<LeaderTraits>
-		<Row LeaderType="LEADER_YNL_AKITSUMARU" TraitType="TRAIT_LEADER_YNL_AKITSUMARU"/>	<!-- 指導者特性 -->
-		<Row LeaderType="LEADER_YNL_AKITSUMARU" TraitType="TRAIT_LEADER_UNIT_KAGOU"/>		<!-- UU：カ号観測機 -->
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" TraitType="TRAIT_LEADER_YNL_AKITSUMARU"/>			<!-- 指導者特性 -->
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" TraitType="TRAIT_LEADER_UNIT_KAGOU"/>				<!-- UU：カ号観測機 -->
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" TraitType="TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY"/>	<!-- UB：帝国陸軍兵器廠 -->
 	</LeaderTraits>
 
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" Name="LOC_TRAIT_LEADER_YNL_AKITSUMARU_NAME" Description="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_UNIT_KAGOU" Name="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME"/>
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU"           Name="LOC_TRAIT_LEADER_YNL_AKITSUMARU_NAME" Description="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_KAGOU"               Name="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY" Name="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME"/>
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>						<!-- 兵営建造時間半分(バニラ) -->
