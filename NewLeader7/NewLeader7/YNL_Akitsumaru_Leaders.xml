@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_YNL_AKITSUMARU" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_YNL_AKITSUMARU" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_KAGOU" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YNL_AKITSUMARU</LeaderType>
+			<Name>LOC_LEADER_YNL_AKITSUMARU_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" Quote="LOC_LEADER_YNL_AKITSUMARU_QUOTE"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" TraitType="TRAIT_LEADER_YNL_AKITSUMARU"/>	<!-- 指導者特性 -->
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" TraitType="TRAIT_LEADER_UNIT_KAGOU"/>		<!-- UU：カ号観測機 -->
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" Name="LOC_TRAIT_LEADER_YNL_AKITSUMARU_NAME" Description="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_KAGOU" Name="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>						<!-- 兵営建造時間半分(バニラ) -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU"/>	<!-- 工業地帯建造時間半分 -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>		<!-- 陸上近接攻撃ユニット生産ボーナス：古代 -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>	<!-- 陸上近接攻撃ユニット生産ボーナス：古典 -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>		<!-- 陸上近接攻撃ユニット生産ボーナス：中世 -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>	<!-- 陸上近接攻撃ユニット生産ボーナス：ルネサンス -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>	<!-- 陸上近接攻撃ユニット生産ボーナス：産業時代 -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>		<!-- 陸上近接攻撃ユニット生産ボーナス：近代 -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>		<!-- 陸上近接攻撃ユニット生産ボーナス：原子力時代 -->
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>	<!-- 陸上近接攻撃ユニット生産ボーナス：情報時代 -->
+	</TraitModifiers>
+	
+	<!-- Modifier系 -->
+	<Modifiers>
+		<!-- 工業地帯建造時間半分 -->
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- 各時代ごとの陸上近接戦闘ユニット生産ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 工業地帯建造時間半分 -->
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!-- 各時代ごとの陸上近接戦闘ユニット生産ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!-- AIの好み -->
+	<AiListTypes>
+		<Row ListType="YNL_AkitsumaruWonders"/>
+		<Row ListType="YNL_AkitsumaruCivics"/>
+		<Row ListType="YNL_AkitsumaruTechs"/>
+		<Row ListType="YNL_AkitsumaruEncampmentDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Buildings -->
+		<Row ListType="YNL_AkitsumaruWonders"            LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Buildings"/>
+		<!-- Civics -->								     
+		<Row ListType="YNL_AkitsumaruCivics"             LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Civics"/>
+		<!-- Techs -->								     
+		<Row ListType="YNL_AkitsumaruTechs"              LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Technologies"/>
+		<!-- District -->
+		<Row ListType="YNL_AkitsumaruEncampmentDistrict" LeaderType="TRAIT_LEADER_YNL_NAGATO" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Buildings -->
+		<Row ListType="YNL_AkitsumaruWonders"            Item="BUILDING_STONEHENGE"/>		<!-- ストーンヘンジ -->
+		<Row ListType="YNL_AkitsumaruWonders"            Item="BUILDING_TERRACOTTA_ARMY"/>	<!-- 兵馬俑 -->
+		<Row ListType="YNL_AkitsumaruWonders"            Item="BUILDING_ALHAMBRA"/>			<!-- アルハンブラ宮殿 -->
+		<Row ListType="YNL_AkitsumaruWonders"            Item="BUILDING_RUHR_VALLEY"/>		<!-- ルール地方 -->
+		<Row ListType="YNL_AkitsumaruWonders"            Item="BUILDING_BIG_BEN"/>			<!-- ビッグ・ベン -->
+		<!-- Civics -->								     
+		<Row ListType="YNL_AkitsumaruCivics"             Item="CIVIC_MERCENARIES"/>			<!-- 傭兵 -->
+		<Row ListType="YNL_AkitsumaruCivics"             Item="CIVIC_CIVIL_ENGINEERING"/>	<!-- 土木技術 -->
+		<Row ListType="YNL_AkitsumaruCivics"             Item="CIVIC_MOBILIZATION"/>		<!-- 戦時動員 -->
+		<Row ListType="YNL_AkitsumaruCivics"             Item="CIVIC_NATIONALISM"/>			<!-- ナショナリズム -->
+		<Row ListType="YNL_AkitsumaruCivics"             Item="CIVIC_SCORCHED_EARTH"/>		<!-- 焦土作戦 -->
+		<!-- Techs -->
+		<Row ListType="YNL_AkitsumaruTechs"              Item="TECH_BRONZE_WORKING"/>		<!-- 青銅器 -->
+		<Row ListType="YNL_AkitsumaruTechs"              Item="TECH_IRON_WORKING"/>			<!-- 鉄器 -->
+		<Row ListType="YNL_AkitsumaruTechs"              Item="TECH_STEEL"/>				<!-- 鋼鉄 -->
+		<Row ListType="YNL_AkitsumaruTechs"              Item="TECH_GUNPOWDER" />			<!-- 火薬 -->
+		<Row ListType="YNL_AkitsumaruTechs"              Item="TECH_STEAM_POWER"/>			<!-- 蒸気機関 -->
+		<Row ListType="YNL_AkitsumaruTechs"              Item="TECH_ELECTRICITY"/>			<!-- 電気 -->
+		<!-- District -->
+		<Row ListType="YNL_AkitsumaruEncampmentDistrict" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
+	</AiFavoredItems>
+
+	<!-- 指導者固有の性格(アジェンダ) -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" AgendaType="AGENDA_BUSHIDO"/>
+	</HistoricalAgendas>
+	<!-- 指導者が好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" ReligionType="RELIGION_SHINTO"/>
+	</FavoredReligions>
+
+	<!-- 外交交渉画面 -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_YNL_AKITSUMARU" BackgroundImage="Background_DiplomcayInfo_Akitsumaru.dds"/>
+	</DiplomacyInfo>
+	<!-- ローディング画面 -->
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YNL_AKITSUMARU" BackgroundImage="Background_LoadingInfo_Akitsumaru.dds" ForegroundImage="Foreground_LoadingInfo_Akitsumaru.dds" LeaderText="LOC_LEADER_YNL_AKITSUMARU_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+
+	<!-- プレイヤーカラー設定 -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_AKITSUMARU_PRIMARY</Type>
+			<Color>41,133,41,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_AKITSUMARU_SECONDARY</Type>
+			<Color>255,83,0,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_YNL_AKITSUMARU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_YNL_AKITSUMARU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_YNL_AKITSUMARU_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>

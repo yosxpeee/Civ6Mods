@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_YNL_AKITSUMARU" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_YNL_AKITSUMARU" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_YNL_AKITSUMARU</CivilizationType>
+			<Name>LOC_CIVILIZATION_YNL_AKITSUMARU_NAME</Name>
+			<Description>LOC_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_YNL_AKITSUMARU_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" LeaderType="LEADER_YNL_AKITSUMARU" CapitalName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CitizenName="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" Name="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_NAME" Description="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<!-- 乗船および下船時に追加の移動コストがかからなくなる(バニラのノルウェーと同じ) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKITSUMARU</TraitType>
+			<ModifierId>TRAIT_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
+		</Row>
+		<!-- 区域を人口制限よりも1つ多く建設できる(バニラのドイツと同じ) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKITSUMARU</TraitType>
+			<ModifierId>TRAIT_EXTRA_DISTRICT_EACH_CITY</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_10" />
+	</CityNames>
+	
+</GameData>

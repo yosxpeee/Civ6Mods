@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's NewLeader - Akitsumaru</Name>
+    <Guid>a1f6c0fb-1bb9-4900-b789-8e1747a58b25</Guid>
+    <ProjectGuid>c4a32164-05e8-472f-9ec3-b70fb0335fa6</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Yossie's NewLeader - Akitsumaru</Teaser>
+    <Description>Yossie's NewLeader - Akitsumaru v1.0</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Akitsumaru_UB.xml</File><File>YNL_Akitsumaru_Leaders.xml</File><File>YNL_Akitsumaru_Civilization.xml</File><File>YNL_Akitsumaru_UnitAbilities.xml</File><File>YNL_Akitsumaru_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Akitsumaru_ConfigText.xml</File><File>YNL_Akitsumaru_Text.xml</File><File>YNL_Akitsumaru_LeaderDialog.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Akitsumaru_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Background_DiplomcayInfo_Akitsumaru.dds</File><File>Textures/Background_LoadingInfo_Akitsumaru.dds</File><File>Textures/Foreground_LoadingInfo_Akitsumaru.dds</File><File>Textures/ICON_LEADER_YNL_AKITSUMARU256.dds</File><File>Textures/ICON_LEADER_YNL_AKITSUMARU32.dds</File><File>Textures/ICON_LEADER_YNL_AKITSUMARU45.dds</File><File>Textures/ICON_LEADER_YNL_AKITSUMARU50.dds</File><File>Textures/ICON_LEADER_YNL_AKITSUMARU55.dds</File><File>Textures/ICON_LEADER_YNL_AKITSUMARU64.dds</File><File>Textures/ICON_LEADER_YNL_AKITSUMARU80.dds</File><File>Textures/CIV_YNL_AKITSUMARU22.dds</File><File>Textures/CIV_YNL_AKITSUMARU256.dds</File><File>Textures/CIV_YNL_AKITSUMARU30.dds</File><File>Textures/CIV_YNL_AKITSUMARU36.dds</File><File>Textures/CIV_YNL_AKITSUMARU44.dds</File><File>Textures/CIV_YNL_AKITSUMARU45.dds</File><File>Textures/CIV_YNL_AKITSUMARU48.dds</File><File>Textures/CIV_YNL_AKITSUMARU50.dds</File><File>Textures/CIV_YNL_AKITSUMARU64.dds</File><File>Textures/CIV_YNL_AKITSUMARU80.dds</File><File>Textures/YNL_AKITSUMARU_UU22.dds</File><File>Textures/YNL_AKITSUMARU_UU256.dds</File><File>Textures/YNL_AKITSUMARU_UU32.dds</File><File>Textures/YNL_AKITSUMARU_UU38.dds</File><File>Textures/YNL_AKITSUMARU_UU50.dds</File><File>Textures/CIV_YNL_AKITSUMARU80.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Akitsumaru_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Akitsumaru_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Akitsumaru_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_AKITSUMARU</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>NewLeader7</AssemblyName>
+    <RootNamespace>NewLeader7</RootNamespace>
+    <Authors>yosxpeee</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="ArtDefs\YNL_Akitsumaru_Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Akitsumaru_LeaderDialog.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_AKITSUMARU_UU80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Akitsumaru_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Akitsumaru_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Background_DiplomcayInfo_Akitsumaru.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Background_LoadingInfo_Akitsumaru.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CIV_YNL_AKITSUMARU80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Foreground_LoadingInfo_Akitsumaru.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_YNL_AKITSUMARU80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_Akitsumaru_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Akitsumaru_Config.xml" />
+    <Content Include="YNL_Akitsumaru_ConfigText.xml" />
+    <Content Include="YNL_Akitsumaru_Civilization.xml" />
+    <Content Include="YNL_Akitsumaru_Icons.xml" />
+    <Content Include="YNL_Akitsumaru_Leaders.xml" />
+    <Content Include="YNL_Akitsumaru_UB.xml" />
+    <Content Include="YNL_Akitsumaru_Text.xml" />
+    <Content Include="Textures\FALLBACK_NEUTRAL_YNL_AKITSUMARU.dds" />
+    <Content Include="Textures\FALLBACK_NEUTRAL_YNL_AKITSUMARU.tex" />
+    <Content Include="Textures\LEADER_YNL_AKITSUMARU_NEUTRAL.dds" />
+    <Content Include="Textures\LEADER_YNL_AKITSUMARU_NEUTRAL.tex" />
+    <Content Include="ArtDefs\FallbackLeaders.artdef" />
+    <Content Include="XLPs\LeaderFallbacks.xlp" />
+    <Content Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

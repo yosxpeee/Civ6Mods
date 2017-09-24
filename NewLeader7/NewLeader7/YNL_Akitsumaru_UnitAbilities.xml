@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- FEATUREを見通す -->
+		<Row Type="ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU" Kind="KIND_ABILITY"/>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<!-- FEATUREを見通す -->
+		<Row Type="ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU" Tag="CLASS_KAGOU"/>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Tag="CLASS_FORWARD_KAGOU"/>
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
+		<Row Type="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Tag="CLASS_FORWARD_KAGOU"/>
+	</TypeTags>
+	
+	<UnitAbilities>
+		<!-- FEATUREを見通す -->
+		<Row UnitAbilityType="ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU" Name="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_NAME" Description="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_DESCRIPTION"/>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row UnitAbilityType="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Name="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_NAME" Description="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_DESCRIPTION"/>
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
+		<Row UnitAbilityType="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Name="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_NAME"     Description="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<!-- FEATUREを見通す -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</UnitAbilityType>
+			<ModifierId>UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</ModifierId>
+		</Row>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU</UnitAbilityType>
+			<ModifierId>RECEIVE_RANGE_BONUS_YNL_AKITSUMARU</ModifierId>
+		</Row>
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
+		<Row>
+			<UnitAbilityType>ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU</UnitAbilityType>
+			<ModifierId>MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<!-- FEATUREを見通す -->
+		<Row>
+			<ModifierId>UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SEE_THROUGH_FEATURES</ModifierType>
+		</Row>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row>
+			<ModifierId>RECEIVE_RANGE_BONUS_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+			<SubjectRequirementSetId>RANGE_BONUS_REQUIREMENTS_YNL_AKITSUMARU</SubjectRequirementSetId>
+		</Row>
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
+		<Row>
+			<ModifierId>MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>YNL_UNIT_KAGOU_ADJACENT_VS_NAVAL_RAIDER_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- FEATUREを見通す -->
+		<Row>
+			<ModifierId>UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</ModifierId>
+			<Name>CanSee</Name>
+			<Value>true</Value>
+		</Row>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row>
+			<ModifierId>RECEIVE_RANGE_BONUS_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
+		<Row>
+			<ModifierId>MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>9</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<ModifierStrings>
+		<Row ModifierId="UNOBSTRUCTED_VIEW_YNL_AKITSUMARU"        Context="Preview" Text="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU" Context="Preview" Text="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>RANGE_BONUS_REQUIREMENTS_YNL_AKITSUMARU</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_UNIT_KAGOU_ADJACENT_VS_NAVAL_RAIDER_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row>
+			<RequirementSetId>RANGE_BONUS_REQUIREMENTS_YNL_AKITSUMARU</RequirementSetId>
+			<RequirementId>ADJACENT_FRIENDLY_OBSERVER_UNIT_REQUIREMENT_YNL_AKITSUMARU</RequirementId>
+		</Row>
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
+		<Row>
+			<RequirementSetId>YNL_UNIT_KAGOU_ADJACENT_VS_NAVAL_RAIDER_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_UNIT_KAGOU_ADJACENT_VS_NAVAL_RAIDER_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>YNL_OPPONENT_IS_NAVAL_RAIDER_UNIT_REQUIREMENTS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_OBSERVER_UNIT_REQUIREMENT_YNL_AKITSUMARU</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
+		<Row>
+			<RequirementId>YNL_OPPONENT_IS_NAVAL_RAIDER_UNIT_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- カ号が隣接している場合射程+1 -->
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_OBSERVER_UNIT_REQUIREMENT_YNL_AKITSUMARU</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_KAGOU</Value>
+		</Row>
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
+		<Row>
+			<RequirementId>YNL_OPPONENT_IS_NAVAL_RAIDER_UNIT_REQUIREMENTS</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RAIDER</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

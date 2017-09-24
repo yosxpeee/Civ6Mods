@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_NAME" Language="en_US">
+			<Text>Empire of Japan(Akitsumaru)</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
+			<Text>Empire of Japan(Akitsumaru)</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_ADJECTIVE" Language="en_US">
+			<Text>Empire of Japan(Akitsumaru)</Text>
+		</Row>
+		
+		<!-- Leader Name -->
+		<Row Tag="LOC_LEADER_YNL_AKITSUMARU_NAME" Language="en_US">
+			<Text>Akitsumaru</Text>
+		</Row>
+
+		<!-- Civilization Traits -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_NAME" Language="en_US">
+			<Text>Land of the Rising Sun</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
+			<Text>Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking. Each city can build one more district than usual (exceeding the normal limit based on [ICON_Citizen] Population).</Text>
+		</Row>
+
+		<!-- Leader Traits -->
+		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_NAME" Language="en_US">
+			<Text>Imperial Army's Pride</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
+			<Text>Builds Encampment and Industial Zone districts in half the time. +50% [ICON_Production] Production toward Melee units.</Text>
+		</Row>
+
+		<!-- DOM_TEXT -->
+		<Row Tag="LOC_LEADER_YNL_AKITSUMARU_DOM_TEXT" Language="en_US">
+			<Text>I am the class-3 of Army's special transport 'Akitsu Maru', sir. Please leave transportation and landing combat to me, sir. My pride is this Daihatsu, sir. I'm different from the mouse and mole, sir.</Text>
+		</Row>
+
+		<!-- UU -->
+		<Row Tag="LOC_UNIT_KAGOU_NAME" Language="en_US">
+			<Text>Ka Type Observation Autogyro</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KAGOU_DESCRIPTION" Language="en_US">
+			<Text>Modern era support unit. Adds +1 [ICON_Range] Range to Frigate, Battleship, Missile Cruiser and Aircraft Carrier. [NEWLINE]Frigate, Battleship, Missile Cruiser and Aircraft Carrier gains +9 [ICON_Strength] Strength when attacking to naval raider units. [NEWLINE]Reveal stealth units on the map when this unit on an adjacent tile.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME" Language="en_US">
+			<Text>Akitsumaru unique unit: Ka Type Observation Autogyro</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KAGOU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

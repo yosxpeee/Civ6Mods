@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Jasper kitty is a charismatic and typically friendly feline.  He prefers diplomatic trades that involve food.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
+		</Row>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The felines have a rich history, but are too lazy to write about it.</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_1" Language="en_US">
+			<Text>Mittens</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_2" Language="en_US">
+			<Text>Snookums</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_3" Language="en_US">
+			<Text>Patches</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_4" Language="en_US">
+			<Text>Tom</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_1" Language="en_US">
+			<Text>Miss Kitty</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_2" Language="en_US">
+			<Text>Callie</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_3" Language="en_US">
+			<Text>Tabby</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_4" Language="en_US">
+			<Text>Whiskers</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_5" Language="en_US">
+			<Text>Sally Soft Paws</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_1" Language="en_US">
+			<Text>Ujina(宇品)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_2" Language="en_US">
+			<Text>Moji(門司)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_3" Language="en_US">
+			<Text>Syounan(昭南)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_4" Language="en_US">
+			<Text>Rabaul(ラバウル)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_5" Language="en_US">
+			<Text>Davao(ダバオ)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_6" Language="en_US">
+			<Text>Shanghai(上海)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_7" Language="en_US">
+			<Text>Cebu(セブ)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_8" Language="en_US">
+			<Text>Otaru(小樽)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_9" Language="en_US">
+			<Text>Manila(マニラ)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_10" Language="en_US">
+			<Text>Aioi(相生)</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_YNL_AKITSUMARU_QUOTE" Language="en_US">
+			<Text>Meow.</Text>
+		</Row>
+    
+		<!-- Unit Ability -->
+		<Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_NAME" Language="en_US">
+			<Text>Unobstructed View</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
+			<Text>Sight range unobstructed by terrain.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>Unobstructed Sight</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_NAME" Language="en_US">
+			<Text>Anti-submarine</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
+			<Text>+9 [ICON_Strength] Strength when attacking to naval raider unit.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+9 [ICON_Strength] Strength when attacking to naval raider unit</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

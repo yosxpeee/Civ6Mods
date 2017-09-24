@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_KAGOU" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_KAGOU" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+	</UnitAiInfos>
+	<Tags>
+		<Row Tag="CLASS_KAGOU"         Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_FORWARD_KAGOU" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!-- カ号自身のアビリティ -->
+		<Row Type="UNIT_KAGOU"           Tag="CLASS_KAGOU"/>			<!-- FEATUREを見通す -->
+		<Row Type="UNIT_KAGOU"           Tag="CLASS_REVEAL_STEALTH"/>	<!-- 視界内の隠れているユニットが見える(バニラのもの) -->
+		<!-- 特定ユニットにカ号が隣接するとボーナスを得る -->
+		<Row Type="UNIT_BATTLESHIP"       Tag="CLASS_FORWARD_KAGOU"/>
+		<Row Type="UNIT_MISSILE_CRUISER"  Tag="CLASS_FORWARD_KAGOU"/>
+		<Row Type="UNIT_FRIGATE"          Tag="CLASS_FORWARD_KAGOU"/>
+		<Row Type="UNIT_AIRCRAFT_CARRIER" Tag="CLASS_FORWARD_KAGOU"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_KAGOU" BaseMoves="4" Cost="240" AdvisorType="ADVISOR_CONQUEST"
+			 BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_SUPPORT"
+			 Name="LOC_UNIT_KAGOU_NAME" Description="LOC_UNIT_KAGOU_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="2" PrereqTech="TECH_FLIGHT" TraitType="TRAIT_LEADER_UNIT_KAGOU"/>
+	</Units>
+</GameData>
