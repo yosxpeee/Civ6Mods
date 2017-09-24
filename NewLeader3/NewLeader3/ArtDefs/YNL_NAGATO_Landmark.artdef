@@ -203,7 +203,7 @@
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIGHTHOUSE, IMP_NAVYYARD"/>
 										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_ArtDefPath text="YNL_NAGATO_Landmark.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
@@ -399,7 +399,7 @@
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIGHTHOUSE, IMP_NAVYYARD"/>
 										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_ArtDefPath text="YNL_NAGATO_Landmark.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
@@ -497,7 +497,7 @@
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIGHTHOUSE, IMP_NAVYYARD, SEAPORT"/>
 										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_ArtDefPath text="YNL_NAGATO_Landmark.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>
@@ -595,7 +595,7 @@
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIGHTHOUSE, IMP_NAVYYARD, SEAPORT"/>
 										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_ArtDefPath text="YNL_NAGATO_Landmark.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text=""/>
 										<m_ParamName text="Set_HeroBuildings"/>

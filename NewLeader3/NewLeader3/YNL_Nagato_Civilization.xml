@@ -14,6 +14,7 @@
 			<Description>LOC_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_PEOPLESOFTHESEA_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>20</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 	<CivilizationLeaders>

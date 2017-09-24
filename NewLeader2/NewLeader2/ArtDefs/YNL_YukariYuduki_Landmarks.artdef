@@ -693,7 +693,7 @@
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY, TECHNOLOGICAL_UNIVERSITY"/>
 										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_ArtDefPath text="YNL_YukariYuduki_Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
@@ -791,7 +791,7 @@
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="LIBRARY, TECHNOLOGICAL_UNIVERSITY"/>
 										<m_RootCollectionName text="BuildingSets"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_ArtDefPath text="YNL_YukariYuduki_Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="Landmarks"/>
 										<m_ParamName text="Set_HeroBuildings"/>
@@ -1444,7 +1444,7 @@
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_TECHNOLOGICAL_UNIVERSITY"/>
 												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_ArtDefPath text="YNL_YukariYuduki_Landmarks.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
 												<m_TemplateName text="Landmarks"/>
 												<m_ParamName text="Set002"/>
