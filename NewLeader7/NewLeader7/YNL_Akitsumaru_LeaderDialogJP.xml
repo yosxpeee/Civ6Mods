@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>貴国との友好関係に幸あれ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>またの機会にお願いしたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>我が国と貴国の間に正式な友好関係を結ぶことに同意していただきたいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これはありがたい、のであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>それは残念であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>戦争・・・でありますか。では帝国陸軍が総出でお出迎えしてさしあげるのであります。覚悟されよ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>それ、ちゃくだ～ん･･･今！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>そうか…これが…俗にいう慢心でありますか…なるほどで…あり…ま…す</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>そうか…これが…俗にいう慢心でありますか…なるほどで…あり…ま…す</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>貴国からの使節を歓迎するのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>申し訳ないが、承諾できないのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>こちらの使節を受け入れていただきたいのであります。よろしいですかな？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これはすばらしいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>それは残念です。では、またの機会にお願いしたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>2歩進んで3歩下がるといったところでありますかな・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これは、世界中が知るべき裏切りなのであります。(非難)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>こちらが貴国の大使館の建設に必要な許可なのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>またの機会にお願いしたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>当国の大使館を置いてもらえるとありがたいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>今日という幸運な日に乾杯、なのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>それは残念であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>自分はあきつ丸と申すものであります。訳あって文明の指導者をしているのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>近くの街へ案内してさしあげましょう。祝いの式典にぜひ参加をいただきたいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>それはぜひ。貴国の発展を見守れて光栄の至りであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>どちらも遠方の出でありますな。ここはひとつ、互いの国を互いの地図に記し合うというのはどうでしょう？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>ご希望をおうかがいするのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>雄々しく、輝かしい日輪のごとく、貴公は大国を築かれた。見事なものでありますな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>武士道とは心、技、体を鍛えることなり… さて、どこで鍛えるのがよろしいでありますかな？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>我らの蜜月な関係、この先も続くことを切に願うのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>またの機会にお願いしたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>同盟を希望するのでありますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これはありがたい、のであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>それは残念であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>喜んで取引に応じるのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>この取引には応じられないのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これはありがたいのであります。この取引は双方に利益がありましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>正直なところ、いささか失望したのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>私の希望にかなう取引であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>貴国の要求には得るところなし、であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>承諾の返事をお受け取りいただきたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>要求を呑むとは、賢明な判断であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>要求を通すためなら、他の手段も辞さないのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>その平和の申し出、お受けするのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>和平など受け入れられないのであります！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>和平を結びたいのでありますが・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これにて戦争は終結、なのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>ならば戦いつづけるのみであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これよりはこちらの領内へ自由に出入りしてもらいたいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>またの機会にお願いしたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>領内の通行を許可してもらいたいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これはすばらしいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>それは残念であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>これは申し訳ない！そんな近くに都市があるとは知らなかったのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>我々も土地が必要なのであります。勝手な言動は控えていただきたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>土地を求めるなら他の場所を選ぶべき。我々のすぐそばに都市を作らないでもらいたいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>了解したのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>わが国に敬意を払わない国にどうして敬意を払えというのでありますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>申し訳ない。蛮族を探していただけなのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>自分は方々に軍隊を派遣するのが好きのなのであります。そうすれば我が軍の強さを誇示できるのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>貴国のいう通りでありますな。このような蛮行、二度と繰り返すことはないのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>かような約束、誰がを真に受けると思うのでありましょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>この土地が貴国のものだとは知らなかったのであります。これは単純な手違いであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>歴史の謎は万人に開示されるべきだ。独占は許されないのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>そちらの希望は尊重するが、あなたは間違っているのであります。どうかわかっていただきたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>心配無用、これが一番なのであります。貴公にもいずれわかるときが来ると信じているのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>国境のすぐそばに兵を動かしておりますな。我が国の美しい田園風景を楽しんでいるだけだといいのでありますが・・・？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>了解したのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>やりかねないとは思っておりましたが、まさかそこまで恥知らずとは。わが国に送った間者を今すぐ引き上げていただきたい！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>了解したのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>なんたる侮辱！貴公も憶えておくことだ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>わが国の文化や歴史を盗まないでほしいのであります。わが国から即刻出て行っていただきたいのであります！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>了解したのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>わが国を尊重してもらえないなら、貴国を尊重することもできないのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>貴国の宗教家はやり方が強引で評判が悪い。いますぐわが国から立ち退いていただきたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>了解したのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>覚悟しておいたほうがいいのであります。この報い、いずれ貴公のもとに。</Text>
+		</Replace>
+		<!-- 隠しアジェンダ 感心 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>帰国の民が作り出している他に類を見ない文化には感銘を受けたのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>あなたの民はあなたの統治を祝福していると聞いた。民の幸福を維持するのは素晴らしいことであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>貴国は実に豊かな富に恵まれているようでありますな。金はいくらあっても困るものではない、ということでありますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>あなたの民の生産力はまったく賞賛に値するのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家のような小国にとって、我が国ほどふさわしい友人はいないのであります。貴国にもそれを理解してもらえているようでなにより、であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>あなたが抱える人口の多さは賞賛に値するのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>あなたの文明の科学研究に対する入れ込みようは大したものであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>自分は強力な軍隊を持つ指導者を好むのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明の真価が発揮されるのは戦いにおいてであります。どこが最強の文明か、はっきりさせようではありませんか。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>嬉しいことに、世の偉大な人物たちは、貴国よりも我が国のほうを高く評価してくれているようであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>遺産の建設は我らに任せてもらえるとは、貴国の賢明な判断に感謝するのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家の権利を守ろうとするあなたの姿勢は、全世界がならうべき手本となるのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強きは弱きを守るべき。賛同してくれて嬉しく思うのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>あなたの空軍の力はまったくもってあなどれない。いや、大したものでありますな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自らの面倒を見れない者を助けるのは、高貴なおこないであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>あの蛮族どもには我々も大いに悩まされていたのであります。ご助勢、感謝であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>このかけがえのない大地の貴さを知る人々が我らのほかにもいるとは嬉しい話であります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>世界は人が活用するためにある。求めよ、さらば与えられん!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>われわれは志を同じくする仲間のようでありますな。そちらの政治体制を尊重するのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>偉大な指導者は同じことを考えるようでありますな。あの技術には多くの使い道があるのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>あなたとあなたの民に平穏がもたらされんことを。自分と同じように信心深い者と出会えるのは喜ばしいことであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>たいへん結構。探検はこちらに任せていただきたいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKITSUMARU_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたが我々に脅威を与えないと知り、安心したのであります。</Text>
+		</Replace>
+		<!-- 隠しアジェンダ 非難 -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>貴国は偉大な文化を生みだそうという熱意に欠けているのであります。これでは我々は、どうやって貴国の人々のことを記憶に留めればよいのですかな？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>市民たちのためにもう少し快適性を増やそうとは思わないのでありますか？皆が貴公の統治に満足しているとは思えないのでありますが・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>貴国は破産寸前ではありませぬか。借金にまみれて暮らしていくつもりなのでありますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>貴国は都市国家との関係が浅くないようだが、できればそうした振る舞いは控えてもらいたいのであります。我が国こそが、ああした国々との友好を深めるにふさわしいと思うのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>貴国はずいぶんと怠惰な者が多いようでありますな。なにも生みだせない文明は、じきに人々の記憶から消えてしまうでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>貴国は極端な人口不足に陥っているようでありますな。それではほとんどなにもすることができないのではありませぬか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>貴国は技術研究に熱心ではないようでありますが、それでどうやって人々の暮らしを豊かにできるのですかな？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>そんなにささやかな軍隊しか持たずに、不安を感じることはないのでありますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>貴国の都市は我が国にあまりに近く、貴国の軍はあまりに強いのであります。これではこちらも心穏やかではいられなくなると思いませぬか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>多くの偉人を集めているようだが、あまり余計なことはしないでもらいたいものであります。偉人は我が文明にこそふさわしいのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産の建設にかけては我らの右に出る者はいないということをご存じないのですかな？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>小国を襲うなど、臆病者のすることであります。我が国にとって貴国は何の価値もないのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>これは警告だと思ってほしいのであります。今後は二度と小国を襲わないことですな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面を這い回るだけでは栄光をつかむことはできないのであります。航空戦力の整備を急ぐことをおすすめするのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者をいたぶるのは恥ずべきことであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分の首都の近くであのように蛮族たちをのさばらせておいてよいのですかな？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>これだけは言っておきたいのであります。いたずらに自然を傷つければ、貴国のみならず誰もが報いを受けることになるのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>貴国の周りにある肥沃な大地。なぜ手をつけようとしないのでありますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>思想の違いもそうなのでありますが、あなたの民を統治するやり方は私にとって許容できるものではないのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器こそが未来を切り開くのであります！！なぜそれがわからないのでありますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>貴公はなにをしるべに道を歩むのでありますか？まさか信心を持たないというわけではありますまい。人々に信仰の光を見せるのも統治者の務めなのであります。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKITSUMARU_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見とは、早い者勝ちの競争であります。貴国はわが国をさしおいて探検隊を派遣したのであります。そのような国に従うわけにはいかないのであります。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

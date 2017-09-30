@@ -29,6 +29,7 @@
 		<Row TraitType="TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY" Name="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME"/>
 	</Traits>
 	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_COMBAT_BONUS_LAND_ON_COAST"/>						<!-- 海に接した陸上タイルにいる陸上ユニットの戦闘力+5(バニラ) -->
 		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>						<!-- 兵営建造時間半分(バニラ) -->
 		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU"/>	<!-- 工業地帯建造時間半分 -->
 		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>		<!-- 陸上近接攻撃ユニット生産ボーナス：古代 -->

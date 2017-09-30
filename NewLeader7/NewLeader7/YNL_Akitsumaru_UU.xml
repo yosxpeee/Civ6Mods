@@ -13,17 +13,23 @@
 	</Tags>
 	<TypeTags>
 		<!-- カ号自身のアビリティ -->
-		<Row Type="UNIT_KAGOU"           Tag="CLASS_KAGOU"/>			<!-- FEATUREを見通す -->
-		<Row Type="UNIT_KAGOU"           Tag="CLASS_REVEAL_STEALTH"/>	<!-- 視界内の隠れているユニットが見える(バニラのもの) -->
-		<!-- 特定ユニットにカ号が隣接すると射程+1 -->
-		<Row Type="UNIT_BATTLESHIP"       Tag="CLASS_FORWARD_KAGOU1"/>
-		<Row Type="UNIT_MISSILE_CRUISER"  Tag="CLASS_FORWARD_KAGOU1"/>
-		<Row Type="UNIT_FRIGATE"          Tag="CLASS_FORWARD_KAGOU1"/>
+		<Row Type="UNIT_KAGOU"             Tag="CLASS_KAGOU"/>			<!-- FEATUREを見通す -->
+		<Row Type="UNIT_KAGOU"             Tag="CLASS_REVEAL_STEALTH"/>	<!-- 視界内の隠れているユニットが見える(バニラのもの) -->
+		<!-- 特定ユニットにカ号が隣接すると 射程+1 -->
+		<Row Type="UNIT_FRIGATE"           Tag="CLASS_FORWARD_KAGOU1"/>
+		<Row Type="UNIT_BATTLESHIP"        Tag="CLASS_FORWARD_KAGOU1"/>
+		<Row Type="UNIT_MISSILE_CRUISER"   Tag="CLASS_FORWARD_KAGOU1"/>
 		<!-- 特定ユニットにカ号が隣接すると海洋略奪ユニットへの攻撃力+1 -->
-		<Row Type="UNIT_BATTLESHIP"       Tag="CLASS_FORWARD_KAGOU2"/>
-		<Row Type="UNIT_MISSILE_CRUISER"  Tag="CLASS_FORWARD_KAGOU2"/>
-		<Row Type="UNIT_FRIGATE"          Tag="CLASS_FORWARD_KAGOU2"/>
-		<Row Type="UNIT_AIRCRAFT_CARRIER" Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_CARAVEL"		   Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_IRONCLAD"		   Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_DESTROYER"		   Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_FRIGATE"           Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_BATTLESHIP"        Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_MISSILE_CRUISER"   Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_PRIVATEER"		   Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_SUBMARINE"		   Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_NUCLEAR_SUBMARINE" Tag="CLASS_FORWARD_KAGOU2"/>
+		<Row Type="UNIT_AIRCRAFT_CARRIER"  Tag="CLASS_FORWARD_KAGOU2"/>
 	</TypeTags>
 	<Units>
 		<Row UnitType="UNIT_KAGOU" BaseMoves="4" Cost="240" AdvisorType="ADVISOR_CONQUEST"

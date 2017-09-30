@@ -22,7 +22,7 @@
 			<Text>日出ずる国</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
-			<Text>乗船時と下船時に追加の [ICON_Movement] 移動コストがかからなくなる。各都市に ([ICON_Citizen] 人口にもとづく通常の制限を超えて) 1つ多く区域を建設できる。</Text>
+			<Text>乗船時と下船時に追加の [ICON_Movement] 移動コストがかからなくなる。各都市に ([ICON_Citizen] 人口にもとづく通常の制限を超えて) 1つ多く区域を建設できる。浅瀬タイルにいる海洋ユニットが [ICON_Strength] 戦闘力+5のボーナスを得る。</Text>
 		</Row>
 
 		<!-- Leader Traits -->
@@ -30,7 +30,7 @@
 			<Text>帝国陸軍の誇り</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
-			<Text>兵営、工業地帯 (区域) の建設にかかる時間が半分になる。陸上近接戦闘ユニットの [ICON_Production] 生産力+50%。</Text>
+			<Text>兵営、工業地帯 (区域) の建設にかかる時間が半分になる。陸上近接戦闘ユニットの [ICON_Production] 生産力+50%。海に接した陸上タイルにいる陸上ユニットが [ICON_Strength] 戦闘力+5のボーナス。</Text>
 		</Row>
 
 		<!-- DOM_TEXT -->
@@ -43,7 +43,7 @@
 			<Text>カ号観測機</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KAGOU_DESCRIPTION" Language="ja_JP">
-			<Text>あきつ丸固有の近代の洋上支援ユニット。カ号観測機が隣接したフリゲート艦/戦艦/ミサイル巡洋艦の [ICON_Range] 射程+1。[NEWLINE]カ号観測機が隣接したフリゲート艦/戦艦/ミサイル巡洋艦/空母の海洋略奪ユニットへの [ICON_Strength] 戦闘力+9。[NEWLINE]ステルスユニットが隣接タイルにいる場合、居場所がマップ上で明らかにされる。</Text>
+			<Text>あきつ丸固有の近代の洋上支援ユニット。カ号観測機が隣接したフリゲート艦/戦艦/ミサイル巡洋艦の [ICON_Range] 射程+1。[NEWLINE]カ号観測機が隣接したルネサンス時代以降の海洋ユニットは海洋略奪ユニットへの [ICON_Strength] 戦闘力+9。[NEWLINE]ステルスユニットが隣接タイルにいる場合、居場所がマップ上で明らかにされる。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME" Language="ja_JP">
 			<Text>あきつ丸固有のユニット: カ号観測機</Text>
@@ -57,7 +57,7 @@
 			<Text>帝国陸軍兵器廠</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_IMP_ARMY_ARMORY_DESCRIPTION" Language="ja_JP">
-			<Text>武器庫に取って代わるあきつ丸固有の建造物。[ICON_Production] 生産力+2、[ICON_Science] 科学力+1。この都市で訓練を受けた陸上ユニットの戦闘経験値+50%。</Text>
+			<Text>武器庫に取って代わるあきつ丸固有の建造物。[ICON_Production] 生産力+2、[ICON_Science] 科学力+1。全ての戦略資源から [ICON_Production] 生産力+1。この都市で訓練を受けた陸上ユニットの戦闘経験値+50%。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME" Language="ja_JP">
 			<Text>あきつ丸固有の建造物: 帝国陸軍兵器廠</Text>

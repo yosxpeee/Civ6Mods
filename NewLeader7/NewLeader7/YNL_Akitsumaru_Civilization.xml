@@ -49,6 +49,11 @@
 			<TraitType>TRAIT_CIVILIZATION_YNL_AKITSUMARU</TraitType>
 			<ModifierId>TRAIT_EXTRA_DISTRICT_EACH_CITY</ModifierId>
 		</Row>
+		<!-- 沿岸タイルにいる海洋ユニットの戦闘力+5(バニラの北条時宗と同じ) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKITSUMARU</TraitType>
+			<ModifierId>TRAIT_COMBAT_BONUS_NAVAL_SHALLOW_WATER</ModifierId>
+		</Row>
 	</TraitModifiers>
 
 	<CityNames>
@@ -63,5 +68,4 @@
 		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_10" />
 	</CityNames>
-	
 </GameData>

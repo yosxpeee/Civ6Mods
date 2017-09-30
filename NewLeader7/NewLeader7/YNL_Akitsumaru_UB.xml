@@ -24,24 +24,312 @@
 		<Row BuildingType="BUILDING_IMP_ARMY_ARMORY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 	<BuildingModifiers>
+		<!-- 経験値+50% -->
 		<Row>
 			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
 			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
 		</Row>
+		<!-- 馬から生産力を得る -->
+		<Row>
+			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_HORSE</ModifierId>
+		</Row>
+		<!-- 鉄から生産力を得る -->
+		<Row>
+			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_IRON</ModifierId>
+		</Row>
+		<!-- 硝石から食糧を得る -->
+		<Row>
+			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_NITER</ModifierId>
+		</Row>
+		<!-- 石炭から生産力を得る -->
+		<Row>
+			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_COAL</ModifierId>
+		</Row>
+		<!-- 石油から生産力を得る -->
+		<Row>
+			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_OIL</ModifierId>
+		</Row>
+		<!-- アルミニウムから生産力を得る -->
+		<Row>
+			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_ALUMINUM</ModifierId>
+		</Row>
+		<!-- ウランから生産力を得る -->
+		<Row>
+			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_URANIUM</ModifierId>
+		</Row>
 	</BuildingModifiers>
 	<Modifiers>
+		<!-- 経験値+50% -->
 		<Row>
 			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
 			<Permanent>true</Permanent>
 			<SubjectRequirementSetId>ARMORY_LAND_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<!-- 馬から生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_HORSE</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_HORSE</SubjectRequirementSetId>
+		</Row>
+		<!-- 鉄から生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_IRON</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_IRON</SubjectRequirementSetId>
+		</Row>
+		<!-- 硝石から食糧を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_NITER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_NITER</SubjectRequirementSetId>
+		</Row>
+		<!-- 石炭から生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_COAL</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_COAL</SubjectRequirementSetId>
+		</Row>
+		<!-- 石油から生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_OIL</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_OIL</SubjectRequirementSetId>
+		</Row>
+		<!-- アルミニウムから生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_ALUMINUM</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_ALUMINUM</SubjectRequirementSetId>
+		</Row>
+		<!-- ウランから生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_URANIUM</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_URANIUM</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 経験値+50% -->
 		<Row>
 			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
+		<!-- 馬から生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_HORSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_HORSE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!-- 鉄から生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_IRON</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_IRON</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!-- 硝石から食糧を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_NITER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_NITER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!-- 石炭から生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_COAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_COAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!-- 石油から生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_OIL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_OIL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!-- アルミニウムから生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_ALUMINUM</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_ALUMINUM</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!-- ウランから生産力を得る -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_URANIUM</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADD_PRODUCTION_FROM_URANIUM</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
 	</ModifierArguments>
+
+	<!-- Requirement
+		 Modifierを適用する条件などがここに書かれる(ちょっとややこしいです・・・) -->
+	<Requirements>
+		<Row>
+			<!-- REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES = RequirementArgumentsで指定するRESOURCEに合致するものを条件とする -->
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_HORSE_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_IRON_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_NITER_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_COAL_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_OIL_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_URANIUM_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_HORSE_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_HORSES</Value>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_IRON_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_NITER_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NITER</Value>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_COAL_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_OIL_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+		<Row>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_URANIUM_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_URANIUM</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_HORSE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_IRON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_NITER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_COAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_OIL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_ALUMINUM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_URANIUM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_HORSE</RequirementSetId>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_HORSE_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_IRON</RequirementSetId>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_IRON_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_NITER</RequirementSetId>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_NITER_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_COAL</RequirementSetId>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_COAL_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_OIL</RequirementSetId>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_OIL_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_ALUMINUM</RequirementSetId>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_ALUMINUM_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>IMP_ARMY_ARMORY_RESOURCE_IS_URANIUM</RequirementSetId>
+			<RequirementId>IMP_ARMY_ARMORY_REQUIRES_URANIUM_IN_PLOT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 </GameInfo>

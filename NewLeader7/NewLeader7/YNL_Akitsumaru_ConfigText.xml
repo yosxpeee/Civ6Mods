@@ -22,7 +22,7 @@
 			<Text>Land of the Rising Sun</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
-			<Text>Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking. Each city can build one more district than usual (exceeding the normal limit based on [ICON_Citizen] Population).</Text>
+			<Text>Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking. Each city can build one more district than usual (exceeding the normal limit based on [ICON_Citizen] Population).naval units receive +5 [ICON_Strength] Combat Strength in shallow water tiles.</Text>
 		</Row>
 
 		<!-- Leader Traits -->
@@ -30,7 +30,7 @@
 			<Text>Imperial Army's Pride</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
-			<Text>Builds Encampment and Industial Zone districts in half the time. +50% [ICON_Production] Production toward Melee units.</Text>
+			<Text>Builds Encampment and Industial Zone districts in half the time. +50% [ICON_Production] Production toward Melee units.>Land units receive +5 [ICON_Strength] Combat Strength in land tiles adjacent to Coast.</Text>
 		</Row>
 
 		<!-- DOM_TEXT -->
@@ -43,7 +43,7 @@
 			<Text>Ka Type Observation Autogyro</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KAGOU_DESCRIPTION" Language="en_US">
-			<Text>Akitsumaru unique Modern era naval support unit. Adds +1 [ICON_Range] Range to Frigate, Battleship and Missile Cruiser. [NEWLINE]Frigate, Battleship, Missile Cruiser and Aircraft Carrier gains +9 [ICON_Strength] Strength when attacking to naval raider units. [NEWLINE]Reveal stealth units on the map when this unit on an adjacent tile.</Text>
+			<Text>Akitsumaru unique Modern era naval support unit. Adds +1 [ICON_Range] Range to Frigate, Battleship and Missile Cruiser. [NEWLINE]Naval units after the Renaissance era gains +9 [ICON_Strength] Strength when attacking to naval raider units. [NEWLINE]Reveal stealth units on the map when this unit on an adjacent tile.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME" Language="en_US">
 			<Text>Akitsumaru unique unit: Ka Type Observation Autogyro</Text>
@@ -57,7 +57,7 @@
 			<Text>Imperial Army Armory</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_IMP_ARMY_ARMORY_DESCRIPTION" Language="en_US">
-			<Text>Akitsumaru unique building that replaces Armory. +2 [ICON_Production] Production, +1 [ICON_Scienece] Science. +50% combat experience for all land units trained in this city.</Text>
+			<Text>Akitsumaru unique building that replaces Armory. +2 [ICON_Production] Production, +1 [ICON_Scienece] Science. All strategic resources gain +1 [ICON_Production] Production. +50% combat experience for all land units trained in this city.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME" Language="en_US">
 			<Text>Akitsumaru unique building: Imperial Army Armory</Text>

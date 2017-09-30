@@ -3,20 +3,20 @@
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>Jasper kitty is a charismatic and typically friendly feline.  He prefers diplomatic trades that involve food.</Text>
+			<Text>"Army's Hei class [Akitsumaru]"</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Jasper kitty likes to hide in his fort and attack when others least expect it.  He is particularly skilled at tripping people.</Text>
+			<Text></Text>
 		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Born in 2010, Jasper kitty grew to power at a young age...</Text>
+			<Text></Text>
 		</Row>
 
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>The felines have a rich history, but are too lazy to write about it.</Text>
+			<Text></Text>
 		</Row>
 
 		<!-- Civlization Citizen Names -->
@@ -50,39 +50,39 @@
 
 		<!-- Civilization City Names-->
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_1" Language="en_US">
-			<Text>Ujina(宇品)</Text>
+			<Text>Ujina</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_2" Language="en_US">
-			<Text>Moji(門司)</Text>
+			<Text>Moji</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_3" Language="en_US">
-			<Text>Syounan(昭南)</Text>
+			<Text>Syounan</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_4" Language="en_US">
-			<Text>Rabaul(ラバウル)</Text>
+			<Text>Rabaul</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_5" Language="en_US">
-			<Text>Davao(ダバオ)</Text>
+			<Text>Davao</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_6" Language="en_US">
-			<Text>Shanghai(上海)</Text>
+			<Text>Shanghai</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_7" Language="en_US">
-			<Text>Cebu(セブ)</Text>
+			<Text>Cebu</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_8" Language="en_US">
-			<Text>Otaru(小樽)</Text>
+			<Text>Otaru</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_9" Language="en_US">
-			<Text>Manila(マニラ)</Text>
+			<Text>Manila</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_10" Language="en_US">
-			<Text>Aioi(相生)</Text>
+			<Text>Aioi</Text>
 		</Row>
 
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_YNL_AKITSUMARU_QUOTE" Language="en_US">
-			<Text>Meow.</Text>
+			<Text>Akitsu Maru, ready for departure! </Text>
 		</Row>
     
 		<!-- Unit Ability -->
