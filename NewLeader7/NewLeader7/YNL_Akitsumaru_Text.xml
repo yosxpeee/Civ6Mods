@@ -21,31 +21,31 @@
 
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_1" Language="en_US">
-			<Text>Mittens</Text>
+			<Text>Minoru Yamada</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_2" Language="en_US">
-			<Text>Snookums</Text>
+			<Text>Takeshi Tsuruno</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_3" Language="en_US">
-			<Text>Patches</Text>
+			<Text>Kenichi Kurisu</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_4" Language="en_US">
-			<Text>Tom</Text>
+			<Text>Kinzo Sakura</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_1" Language="en_US">
-			<Text>Miss Kitty</Text>
+			<Text>Yukie Kawamura</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_2" Language="en_US">
-			<Text>Callie</Text>
+			<Text>Hibiki Otuki</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_3" Language="en_US">
-			<Text>Tabby</Text>
+			<Text>Hiroko Anzai</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_4" Language="en_US">
-			<Text>Whiskers</Text>
+			<Text>Ai Tominaga</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_5" Language="en_US">
-			<Text>Sally Soft Paws</Text>
+			<Text>Ayako Nishikawa</Text>
 		</Row>
 
 		<!-- Civilization City Names-->
@@ -77,9 +77,24 @@
 			<Text>Manila</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_10" Language="en_US">
+			<Text>Wewak</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_11" Language="en_US">
 			<Text>Aioi</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_12" Language="en_US">
+			<Text>Koganei</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_13" Language="en_US">
+			<Text>Sagamihara</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_14" Language="en_US">
+			<Text>Kodaira</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_15" Language="en_US">
+			<Text>Himeji</Text>
+		</Row>
+		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_YNL_AKITSUMARU_QUOTE" Language="en_US">
 			<Text>Akitsu Maru, ready for departure! </Text>
@@ -104,6 +119,13 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="en_US">
 			<Text>+9 [ICON_Strength] Strength when attacking to naval raider unit</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_NAME" Language="ja_JP">
+			<Text>Kenpei's Honor</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION" Language="ja_JP">
+			<Text>Akitsumaru unique Modern era naval melee unit. +5 [ICON_GreatGeneral] Great General points for killing units.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

@@ -6,7 +6,7 @@
 			<Text>丙型特種船「あきつ丸」</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_DETAILED_BODY" Language="ja_JP">
-			<Text>バニラの文明にはない洋上専用の支援ユニット「カ号観測機」で対潜戦闘能力の向上、洋上遠距離ユニットの射程増加を行うことで戦闘、都市砲撃を有利に進めることができます。</Text>
+			<Text>支援ユニットである「カ号観測機」でルネサンス時代以降の洋上ユニットの対潜戦闘能力を向上させることができます。さらに洋上遠距離ユニットは射程が増加し、戦闘や都市砲撃を有利に進めることができます。陸軍兵器廠は通常の武器庫の能力に加えて科学力を得ることができ、建造された都市はある戦略資源から生産力を追加で得ることができます。また、憲兵はわずかながら通常の歩兵よりも強いユニットで、敵対ユニットを倒すことで大将軍ポイントを入手できます。</Text>
 		</Row>
 
 		<!-- Leader specific historical text. -->
@@ -16,39 +16,40 @@
 
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>天皇陛下の御為に、であります。</Text>
+			<Text>大日本帝国とは、1889年（明治22年）の大日本帝国憲法発布時に憲法典の名称として使用されたことから権威づけられ、1947年（昭和22年）の日本国憲法施行時までの約58年間、天皇が大日本帝国憲法を通じて統治する日本として使用された国号のひとつとされる。[NEWLINE][NEWLINE]最盛時には現在の日本の領土に加え、南樺太・千島列島・朝鮮半島・台湾・澎湖列島・新南群島などを領有していた他、北東アジアや太平洋にいくつかの委任統治領や租借地を保有した。</Text>
 		</Row>
 
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_1" Language="ja_JP">
-			<Text>Mittens</Text>
+			<Text>山田稔</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_2" Language="ja_JP">
-			<Text>Snookums</Text>
+			<Text>つるの剛士</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_3" Language="ja_JP">
-			<Text>Patches</Text>
+			<Text>栗栖健一</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_4" Language="ja_JP">
-			<Text>Tom</Text>
+			<Text>桜金造</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_1" Language="ja_JP">
-			<Text>Miss Kitty</Text>
+			<Text>川村ゆきえ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_2" Language="ja_JP">
-			<Text>Callie</Text>
+			<Text>大槻ひびき</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_3" Language="ja_JP">
-			<Text>Tabby</Text>
+			<Text>安西ひろこ </Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_4" Language="ja_JP">
-			<Text>Whiskers</Text>
+			<Text>冨永愛</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_5" Language="ja_JP">
-			<Text>Sally Soft Paws</Text>
+			<Text>西川史子</Text>
 		</Row>
 
-		<!-- Civilization City Names-->
+		<!-- 都市名 -->
+		<!-- 陸軍船舶司令部があった場所 -->
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_1" Language="ja_JP">
 			<Text>宇品</Text>
 		</Row>
@@ -77,7 +78,24 @@
 			<Text>マニラ</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_10" Language="ja_JP">
+			<Text>ウェワク</Text>
+		</Row>
+		<!-- あきつ丸が建造された場所(播磨造船所の所在地) -->
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_11" Language="ja_JP">
 			<Text>相生</Text>
+		</Row>
+		<!-- 陸軍技術研究所があった場所 -->
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_12" Language="ja_JP">
+			<Text>小金井</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_13" Language="ja_JP">
+			<Text>相模原</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_14" Language="ja_JP">
+			<Text>小平</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_15" Language="ja_JP">
+			<Text>姫路</Text>
 		</Row>
 
 		<!-- Leader Quotes -->
@@ -104,6 +122,13 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>海洋略奪ユニットに対して [ICON_Strength] 戦闘力+9</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_NAME" Language="ja_JP">
+			<Text>憲兵の栄誉</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION" Language="ja_JP">
+			<Text>あきつ丸固有の近代の陸上近接戦闘上ユニット。ユニットを倒すと [ICON_GreatGeneral] 大将軍ポイント+5。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

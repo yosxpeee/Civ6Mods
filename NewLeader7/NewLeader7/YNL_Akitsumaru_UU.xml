@@ -2,14 +2,25 @@
 <GameData>
 	<Types>
 		<Row Type="UNIT_KAGOU" Kind="KIND_UNIT"/>
+		
+		<Row Type="UNIT_YNL_KENPEI" Kind="KIND_UNIT"/>
 	</Types>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_KAGOU" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+
+		<Row UnitType="UNIT_YNL_KENPEI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YNL_KENPEI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_YNL_KENPEI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_YNL_KENPEI" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_YNL_KENPEI" ReplacesUnitType="UNIT_INFANTRY"/>
+	</UnitReplaces>
 	<Tags>
 		<Row Tag="CLASS_KAGOU"          Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_FORWARD_KAGOU1" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_FORWARD_KAGOU2" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_YNL_KENPEI"     Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<TypeTags>
 		<!-- カ号自身のアビリティ -->
@@ -19,7 +30,7 @@
 		<Row Type="UNIT_FRIGATE"           Tag="CLASS_FORWARD_KAGOU1"/>
 		<Row Type="UNIT_BATTLESHIP"        Tag="CLASS_FORWARD_KAGOU1"/>
 		<Row Type="UNIT_MISSILE_CRUISER"   Tag="CLASS_FORWARD_KAGOU1"/>
-		<!-- 特定ユニットにカ号が隣接すると海洋略奪ユニットへの攻撃力+1 -->
+		<!-- 特定ユニットにカ号が隣接すると海洋略奪ユニットへの攻撃力+9 -->
 		<Row Type="UNIT_CARAVEL"		   Tag="CLASS_FORWARD_KAGOU2"/>
 		<Row Type="UNIT_IRONCLAD"		   Tag="CLASS_FORWARD_KAGOU2"/>
 		<Row Type="UNIT_DESTROYER"		   Tag="CLASS_FORWARD_KAGOU2"/>
@@ -30,11 +41,19 @@
 		<Row Type="UNIT_SUBMARINE"		   Tag="CLASS_FORWARD_KAGOU2"/>
 		<Row Type="UNIT_NUCLEAR_SUBMARINE" Tag="CLASS_FORWARD_KAGOU2"/>
 		<Row Type="UNIT_AIRCRAFT_CARRIER"  Tag="CLASS_FORWARD_KAGOU2"/>
+		<!-- 憲兵のアビリティ -->
+		<Row Type="UNIT_YNL_KENPEI"        Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_YNL_KENPEI"        Tag="CLASS_YNL_KENPEI"/>
 	</TypeTags>
 	<Units>
 		<Row UnitType="UNIT_KAGOU" BaseMoves="4" Cost="240" AdvisorType="ADVISOR_CONQUEST"
-			 BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_SUPPORT"
+			 BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT"
 			 Name="LOC_UNIT_KAGOU_NAME" Description="LOC_UNIT_KAGOU_DESCRIPTION"
 			 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="2" PrereqTech="TECH_FLIGHT" TraitType="TRAIT_LEADER_UNIT_KAGOU"/>
+		
+		<Row UnitType="UNIT_YNL_KENPEI" BaseMoves="2" Cost="430" AdvisorType="ADVISOR_CONQUEST" 
+			 BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			 Name="LOC_UNIT_YNL_KENPEI_NAME" Description="LOC_UNIT_YNL_KENPEI_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="6" Combat="72" PrereqTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_KENPEI"/>
 	</Units>
 </GameData>

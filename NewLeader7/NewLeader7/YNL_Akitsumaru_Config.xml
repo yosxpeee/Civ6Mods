@@ -39,5 +39,15 @@
 			<Icon>ICON_UNIT_KAGOU</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AKITSUMARU</CivilizationType>
+			<LeaderType>LEADER_YNL_AKITSUMARU</LeaderType>
+			<Type>UNIT_YNL_KENPEI</Type>
+			<Name>LOC_UNIT_YNL_KENPEI_NAME</Name>
+			<Description>LOC_UNIT_YNL_KENPEI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YNL_KENPEI</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

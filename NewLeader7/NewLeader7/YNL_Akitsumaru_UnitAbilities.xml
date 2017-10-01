@@ -7,6 +7,8 @@
 		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Kind="KIND_ABILITY"/>
 		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
 		<Row Type="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Kind="KIND_ABILITY"/>
+		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
+		<Row Type="ABILITY_UNIT_YNL_KENPEI"                    Kind="KIND_ABILITY"/>
 	</Types>
 	<TypeTags>
 		<!-- FEATUREを見通す -->
@@ -15,6 +17,8 @@
 		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Tag="CLASS_FORWARD_KAGOU1"/>
 		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
 		<Row Type="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Tag="CLASS_FORWARD_KAGOU2"/>
+		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
+		<Row Type="ABILITY_UNIT_YNL_KENPEI"                    Tag="CLASS_YNL_KENPEI"/>
 	</TypeTags>
 	
 	<UnitAbilities>
@@ -24,6 +28,8 @@
 		<Row UnitAbilityType="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Name="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_NAME" Description="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_DESCRIPTION"/>
 		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
 		<Row UnitAbilityType="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Name="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_NAME"     Description="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION"/>
+		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
+		<Row UnitAbilityType="ABILITY_UNIT_YNL_KENPEI"                    Name="LOC_ABILITY_UNIT_YNL_KENPEI_NAME"                    Description="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<!-- FEATUREを見通す -->
@@ -40,6 +46,11 @@
 		<Row>
 			<UnitAbilityType>ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU</UnitAbilityType>
 			<ModifierId>MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU</ModifierId>
+		</Row>
+		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_YNL_KENPEI</UnitAbilityType>
+			<ModifierId>UNIT_YNL_KENPEI_GREAT_ADMIRAL_POINTS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 
@@ -61,6 +72,11 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>YNL_UNIT_KAGOU_ADJACENT_VS_NAVAL_RAIDER_BONUS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
+		<Row>
+			<ModifierId>UNIT_YNL_KENPEI_GREAT_ADMIRAL_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!-- FEATUREを見通す -->
@@ -80,6 +96,17 @@
 			<ModifierId>MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU</ModifierId>
 			<Name>Amount</Name>
 			<Value>9</Value>
+		</Row>
+		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
+		<Row>
+			<ModifierId>UNIT_YNL_KENPEI_GREAT_ADMIRAL_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIT_YNL_KENPEI_GREAT_ADMIRAL_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
 		</Row>
 	</ModifierArguments>
 	
