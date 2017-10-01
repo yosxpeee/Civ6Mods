@@ -15,6 +15,7 @@
 			<Description>LOC_CIVILIZATION_DPRT_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_DPRT_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>24</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 	<!-- 文明に属する指導者と首都の指定 -->

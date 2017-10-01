@@ -70,7 +70,7 @@
 			<Text>山伏</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YAMABUSHI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>山伏とは、山中で修行をする修験道の行者。「修験者」とも言う。[NEWLINE][NEWLINE]山伏は、奈良吉野山地の大峯山（金峯山寺）を代表に、大山（鳥取県）や羽黒山（山形県）など日本各地の霊山と呼ばれる山々を踏破（抖擻）し、懺悔などの厳しい艱難苦行を行なって、山岳が持つ自然の霊力を身に付ける事を目的とする。[NEWLINE][NEWLINE]山伏は神仏習合の影響が強く残る神社仏閣に所属する僧侶や神職がなることが多いほか、普段は社会人として働く在家の信者が、「講」を組織して修行の時だけ山伏となることも多い。山伏の講の多くは真言宗系当山派の醍醐寺か天台宗系本山派の聖護院のどちらかに所属する（他に吉野の、教派神道や単立寺院の山伏などどちらにも属さない場合もある）。羽黒山では毎年9月、希望者が白装束を着て入峰し、断食、滝打ち、火渡り、床堅（座禅）、忍苦の行（南蛮いぶし）などの活動を通して山伏修行を体験できる。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_UNIT_FIGHTING_MONK_NAME" Language="ja_JP">
@@ -83,7 +83,7 @@
 			<Text>僧兵</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_FIGHTING_MONK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>僧兵とは、日本の古代後期から中世、近世初頭にかけて存在した僧形の武者である。[NEWLINE][NEWLINE]京都・奈良の大寺院の雑役に服する大衆（堂衆）が自衛武装したもの。法師武者あるいは武装した僧侶を僧衆、悪僧と同時代でいうが、それを江戸時代以降「僧兵」と呼称した言葉である。ちなみに悪僧の「悪」は悪党の悪と同じで「強い」という意味合いである。主に寺社勢力に所属する武装集団である。その風貌は絵巻物などに描かれ、裹頭や、高下駄、薙刀などが特徴とされる。髪は剃っていなかった可能性が高い。なお、これに対し、神社に所属する武装集団を神人という。また、日本以外にも嵩山少林寺のように僧兵として武装集団を組織する仏教僧の集団がおり、広義には武装した宗教集団を指すこともある。その場合はヨーロッパの騎士修道会も含まれることがある。[NEWLINE][NEWLINE]僧兵や神人が活躍した時代は社会が乱れる一方で、広大な寺領・神領を経営する立場にある寺社は、盗賊のみならず、国府や権門・在地領主らの武装勢力など、さまざまな勢力との紛争を抱えることとなった。よって境内と荘園の治安維持や他勢力への対抗のため、他の荘園と同様に寺院・神社も武装する事になった。[NEWLINE][NEWLINE]平安時代末期には強大な武力集団となり、興福寺・延暦寺・園城寺（三井寺）、東大寺などの寺院を拠点として、寺院同士の勢力争いや、朝廷や摂関家に対して強訴をくりかえした。特に、興福寺（南都）は衆徒（奈良法師）、延暦寺（北嶺）は山法師と呼ばれた。宗教的権威を背景とする強訴は僧兵の武力以上の威力をもち、しばしば朝廷や院を屈服させることによって、国府や他領との紛争を自らに有利に解決させた。また寺社同士の抗争も激しく、しばしば焼き討ちも行われた。延暦寺と園城寺（「山門」と「寺門」）の抗争などが著名である。白河法皇は、自分の意のままにならないもの（天下の三不如意）として「賀茂川の水（鴨川の流れ）・双六の賽（の目）・山法師（比叡山の僧兵）」を挙げており、僧兵の横暴が朝廷の不安要素であったことがうかがえる。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME" Language="ja_JP">
@@ -108,8 +108,8 @@
 		<Replace Tag="LOC_TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM_NAME" Language="ja_JP">
 			<Text>東北きりたん固有の区域: なまはげ館</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_NAMAHAGE_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_NAMAHAGE_MUSEUM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>なまはげ館は、秋田県男鹿市にある資料館である。[NEWLINE][NEWLINE]男鹿真山伝承館に隣接。国の重要無形民俗文化財にも指定され、男鹿半島の民俗行事としても知られるなまはげの歴史資料などを展示している。男鹿地域各地の実際のなまはげも展示されており、なまはげの衣装を実際に着ることのできるコーナーも設けられている。[NEWLINE][NEWLINE]外壁は男鹿産出の寒風石による石積み造りとなっており、内装には秋田杉が使われている。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_PARK_NAME" Language="ja_JP">
@@ -119,10 +119,10 @@
 			<Text>東北きりたん固有。近郊部に取ってかわる。[ICON_Housing] 住宅+5。工業地帯に隣接すると [ICON_Production] 生産力+2。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK_NAME" Language="ja_JP">
-			<Text>Kiritan Tohoku unique District: Industrial Park</Text>
+			<Text>東北きりたん固有の区域: 工業団地</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_INDUSTRIAL_PARK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_INDUSTRIAL_PARK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>工業団地は、一定の区画の土地を工業用地として整備し、工場や倉庫を計画的に立地させた地域のことをいう。[NEWLINE][NEWLINE]工業団地の目的や性格は様々で、工業集積を図ることにより中小企業の発展を促すのを目的としたもの、大企業（群）が工業の分散化を図り廉価で広い郊外に移転してきたもの、近年では高度な情報を持つ大学や研究所との連携（産学協同）を図るべく、これらの施設と一体となったものなどがある。[NEWLINE][NEWLINE]立地場所は、大規模な河川からの工業用水の確保や高速道路や鉄道といった内陸交通の利用を想定した内陸型工業団地、港湾に接し海運による原材料の供給・製品の搬出を想定した臨海型工業団地、空港に近接し航空による運輸などを想定した臨空型工業団地があり、各業種に対応できるように様々なスタイルの立地形態を見ることができる。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_IMPROVEMENT_KOSHIN_TOWER_NAME" Language="ja_JP">
