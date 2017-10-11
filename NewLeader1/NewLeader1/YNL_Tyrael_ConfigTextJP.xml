@@ -40,6 +40,9 @@
 		<Replace Tag="LOC_DISTRICT_ANGELS_DANCE_HALL_DESCRIPTION_ADJACENCY" Language="ja_JP">
 			<Text>隣接効果: 都心に隣接している場合、通常の [ICON_Culture] 文化力ボーナス。隣接する遺産および区域1つにつき通常の [ICON_Culture] 文化力ボーナス。丘陵にのみ建設可能。</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_ANGELS_DANCE_HALL_NAME" Language="ja_JP">
+			<Text>ティラエル固有の区域: 天使の舞踏場</Text>
+		</Replace>
 
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_BALLISTA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>巨大な弩。攻城兵器の一種。主に古代～中世で使われた。</Text>

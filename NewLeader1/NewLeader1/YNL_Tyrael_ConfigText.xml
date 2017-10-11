@@ -40,6 +40,9 @@
 		<Row Tag="LOC_DISTRICT_ANGELS_DANCE_HALL_DESCRIPTION_ADJACENCY" Language="en_US">
 			<Text>Adjacency: Standard [ICON_Culture] Culture bonus for adjacent City Center. Standard [ICON_Culture] Culture bonus for each adjacent wonder and district. Can only be built on Hills.</Text>
 		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_ANGELS_DANCE_HALL_NAME" Language="en_US">
+			<Text>Tyrael unique district: Angel's Dance Hall</Text>
+		</Row>
 
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_BALLISTA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>

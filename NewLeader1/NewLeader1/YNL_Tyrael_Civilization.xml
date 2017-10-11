@@ -13,6 +13,7 @@
 			<Description>LOC_CIVILIZATION_WOD_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_WOD_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>20</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
@@ -32,12 +33,6 @@
 		<Row CivilizationType="CIVILIZATION_WOD" CitizenName="LOC_CITIZEN_WOD_FEMALE_4" Female="1"/>
 	</CivilizationCitizenNames>
 
-	<!--
-	<CivilizationInfo>
-		<Row CivilizationType="CIVILIZATION_WOD" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
-	</CivilizationInfo>
-	-->
-	
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_WOD" TraitType="TRAIT_CIVILIZATION_DISTRICT_ANGELS_DANCE_HALL"/>
 		<Row CivilizationType="CIVILIZATION_WOD" TraitType="TRAIT_CIVILIZATION_TYRAELS_MIGHT"/>

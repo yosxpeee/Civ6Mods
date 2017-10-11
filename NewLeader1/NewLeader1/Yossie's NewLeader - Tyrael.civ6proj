@@ -7,13 +7,13 @@
     <ProjectGuid>3d851944-d6db-4dd6-90ad-4f562fe35bd5</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Yossie's NewLeader - Tyrael</Teaser>
-    <Description>Yossie's NewLeader - Tyrael v1.01</Description>
+    <Description>Yossie's NewLeader - Tyrael v1.1</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_DiplomacyInfo.xml</File><File>YNL_Tyrael_LoadingInfo.xml</File><File>YNL_Tyrael_UB.xml</File><File>YNL_Tyrael_Leader.xml</File><File>YNL_Tyrael_Civilization.xml</File><File>YNL_Tyrael_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_ConfigText.xml</File><File>YNL_Tyrael_Text.xml</File><File>YNL_Tyrael_TextJP.xml</File><File>YNL_Tyrael_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_Icon_Civilization.xml</File><File>YNL_Tyrael_Icon_Leader.xml</File><File>YNL_Tyrael_Icon_Unique.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_TYRAEL_WOD256.dds</File><File>Textures/YNL_TYRAEL_WOD128.dds</File><File>Textures/YNL_TYRAEL_WOD80.dds</File><File>Textures/YNL_TYRAEL_WOD64.dds</File><File>Textures/YNL_TYRAEL_WOD50.dds</File><File>Textures/YNL_TYRAEL_WOD45.dds</File><File>Textures/YNL_TYRAEL_WOD44.dds</File><File>Textures/YNL_TYRAEL_WOD36.dds</File><File>Textures/YNL_TYRAEL_WOD30.dds</File><File>Textures/YNL_TYRAEL_WOD22.dds</File><File>Textures/YNL_TYRAEL_LEADER256.dds</File><File>Textures/YNL_TYRAEL_LEADER80.dds</File><File>Textures/YNL_TYRAEL_LEADER64.dds</File><File>Textures/YNL_TYRAEL_LEADER55.dds</File><File>Textures/YNL_TYRAEL_LEADER50.dds</File><File>Textures/YNL_TYRAEL_LEADER45.dds</File><File>Textures/YNL_TYRAEL_LEADER32.dds</File><File>Textures/YNL_TYRAEL_UU22.dds</File><File>Textures/YNL_TYRAEL_UU32.dds</File><File>Textures/YNL_TYRAEL_UU38.dds</File><File>Textures/YNL_TYRAEL_UU50.dds</File><File>Textures/YNL_TYRAEL_UU80.dds</File><File>Textures/YNL_TYRAEL_UU256.dds</File><File>Textures/YNL_TYRAEL_UU_PORT200.dds</File><File>Textures/YNL_TYRAEL_UU_PORT256.dds</File><File>Textures/YNL_TYRAEL_UU_PORT38.dds</File><File>Textures/YNL_TYRAEL_UU_PORT50.dds</File><File>Textures/YNL_TYRAEL_UU_PORT70.dds</File><File>Textures/YNL_TYRAEL_UU_PORT95.dds</File><File>Textures/Tyrael_Diplomacy_Background.dds</File><File>Textures/Tyrael_LoadingInfo_Background.dds</File><File>Textures/Tyrael_LoadingInfo_Foreground.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Tyrael_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Tyrael_ConfigText.xml</File><File>YNL_Tyrael_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Tyrael_Icon_Civilization.xml</File><File>YNL_Tyrael_Icon_Leader.xml</File><File>YNL_Tyrael_Icon_Unique.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_DiplomacyInfo.xml</File><File>YNL_Tyrael_LoadingInfo.xml</File><File>YNL_Tyrael_UB.xml</File><File>YNL_Tyrael_Leader.xml</File><File>YNL_Tyrael_Civilization.xml</File><File>YNL_Tyrael_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_ConfigText.xml</File><File>YNL_Tyrael_Text.xml</File><File>YNL_Tyrael_TextJP.xml</File><File>YNL_Tyrael_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Tyrael_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_TYRAEL_WOD256.dds</File><File>Textures/YNL_TYRAEL_WOD128.dds</File><File>Textures/YNL_TYRAEL_WOD80.dds</File><File>Textures/YNL_TYRAEL_WOD64.dds</File><File>Textures/YNL_TYRAEL_WOD50.dds</File><File>Textures/YNL_TYRAEL_WOD45.dds</File><File>Textures/YNL_TYRAEL_WOD44.dds</File><File>Textures/YNL_TYRAEL_WOD36.dds</File><File>Textures/YNL_TYRAEL_WOD30.dds</File><File>Textures/YNL_TYRAEL_WOD22.dds</File><File>Textures/YNL_TYRAEL_LEADER256.dds</File><File>Textures/YNL_TYRAEL_LEADER80.dds</File><File>Textures/YNL_TYRAEL_LEADER64.dds</File><File>Textures/YNL_TYRAEL_LEADER55.dds</File><File>Textures/YNL_TYRAEL_LEADER50.dds</File><File>Textures/YNL_TYRAEL_LEADER45.dds</File><File>Textures/YNL_TYRAEL_LEADER32.dds</File><File>Textures/YNL_TYRAEL_UU22.dds</File><File>Textures/YNL_TYRAEL_UU32.dds</File><File>Textures/YNL_TYRAEL_UU38.dds</File><File>Textures/YNL_TYRAEL_UU50.dds</File><File>Textures/YNL_TYRAEL_UU80.dds</File><File>Textures/YNL_TYRAEL_UU256.dds</File><File>Textures/YNL_TYRAEL_UU_PORT200.dds</File><File>Textures/YNL_TYRAEL_UU_PORT256.dds</File><File>Textures/YNL_TYRAEL_UU_PORT38.dds</File><File>Textures/YNL_TYRAEL_UU_PORT50.dds</File><File>Textures/YNL_TYRAEL_UU_PORT70.dds</File><File>Textures/YNL_TYRAEL_UU_PORT95.dds</File><File>Textures/Tyrael_Diplomacy_Background.dds</File><File>Textures/Tyrael_LoadingInfo_Background.dds</File><File>Textures/Tyrael_LoadingInfo_Foreground.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Tyrael_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Tyrael_ConfigText.xml</File><File>YNL_Tyrael_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Tyrael_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_TYRAEL</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>NewLeader1</AssemblyName>
     <RootNamespace>NewLeader1</RootNamespace>
@@ -114,9 +114,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\YNL_TYRAEL_WOD48.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_Tyrael_Icon_Leader.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\YNL_TYRAEL_LEADER256.dds">
@@ -224,9 +221,6 @@
     <Content Include="XLPs\YNL_Tyrael_Icons.xlp">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="YNL_Tyrael_Icon_Civilization.xml">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_TYRAEL.dds">
       <SubType>Content</SubType>
     </Content>
@@ -266,7 +260,7 @@
     <Content Include="YNL_Tyrael_Civilization.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="YNL_Tyrael_Icon_Unique.xml">
+    <Content Include="YNL_Tyrael_Icons.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YNL_Tyrael_Leader.xml">

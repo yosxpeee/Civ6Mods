@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconTextureAtlases>
+		<!-- Civilization -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD45.dds"/><!--Baked in color-->
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_WOD" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_WOD256.dds"/>
+		<!-- Leader -->
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_LEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_LEADER32"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_LEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_LEADER45"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_LEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_LEADER50"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_LEADER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_LEADER55"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_LEADER64"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_LEADER80"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_LEADER256"/>
+		<!-- UU -->
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_FLAG_SYMBOLS_WHITE"       IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU22.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_FLAG_SYMBOLS_WHITE"       IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_FLAG_SYMBOLS_WHITE"       IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_FLAG_SYMBOLS_BLACK"       IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNITS"                         IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU256.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNITS"                         IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNITS"                         IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU50.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNITS"                         IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU38.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNITS"                         IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNITS_FOW"                     IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_PORTRAITS"                IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT256"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_PORTRAITS"                IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT200"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_PORTRAITS"                IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT95"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_PORTRAITS"                IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT50"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_UNIT_PORTRAITS"                IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT38"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_ASIAN_UNIT_PORTRAITS"          IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT70"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_ASIAN_UNIT_PORTRAITS"          IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT95"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_MEDITERRANEAN_UNIT_PORTRAITS"  IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT70"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_MEDITERRANEAN_UNIT_PORTRAITS"  IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT95"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT70"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT95"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_AFRICAN_UNIT_PORTRAITS"        IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT70"/>
+		<Row Name="ICON_ATLAS_YNL_TYRAEL_AFRICAN_UNIT_PORTRAITS"        IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TYRAEL_UU_PORT95"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- Civilization -->
+		<Row Name="ICON_CIVILIZATION_WOD"                                Atlas="ICON_ATLAS_CIVILIZATION_WOD" Index="0"/>
+		<!-- Leader -->					                                 
+		<Row Name="ICON_LEADER_YNL_TYRAEL"                               Atlas="ICON_ATLAS_YNL_TYRAEL_LEADER" Index="0"/>
+		<!-- UU -->
+		<Row Name="ICON_UNIT_UNIQUE_BALLISTA_WHITE"                      Atlas="ICON_ATLAS_YNL_TYRAEL_UNIT_FLAG_SYMBOLS_WHITE"       Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_BALLISTA_BLACK"                      Atlas="ICON_ATLAS_YNL_TYRAEL_UNIT_FLAG_SYMBOLS_BLACK"       Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_BALLISTA_PORTRAIT"                   Atlas="ICON_ATLAS_YNL_TYRAEL_UNIT_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_UNIQUE_BALLISTA_PORTRAIT"   Atlas="ICON_ATLAS_YNL_TYRAEL_ASIAN_UNIT_PORTRAITS"          Index="0"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_UNIQUE_BALLISTA_PORTRAIT"   Atlas="ICON_ATLAS_YNL_TYRAEL_MEDITERRANEAN_UNIT_PORTRAITS"  Index="0"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_UNIQUE_BALLISTA_PORTRAIT" Atlas="ICON_ATLAS_YNL_TYRAEL_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="0"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_UNIQUE_BALLISTA_PORTRAIT" Atlas="ICON_ATLAS_YNL_TYRAEL_AFRICAN_UNIT_PORTRAITS"        Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_BALLISTA"                            Atlas="ICON_ATLAS_YNL_TYRAEL_UNITS"                         Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_BALLISTA_FOW"                        Atlas="ICON_ATLAS_YNL_TYRAEL_UNITS_FOW"                     Index="0"/>
+		<!-- UD -->
+		<Row Name="ICON_DISTRICT_ANGELS_DANCE_HALL"                      Atlas="ICON_ATLAS_DISTRICTS"            Index="8"/>
+		<Row Name="ICON_DISTRICT_ANGELS_DANCE_HALL_FOW"                  Atlas="ICON_ATLAS_DISTRICTS_FOW"        Index="8"/>
+		<Row Name="DISTRICT_ANGELS_DANCE_HALL"                           Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="182"/><!-- FontIcon -->
+	</IconDefinitions>
+</GameInfo>
