@@ -23,6 +23,198 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Animations\ballista_static_anim.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ballista_static_anim.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_attack_city.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_attack_city.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_bombardment.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_bombardment.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_start_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_start_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_stop_run_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_stop_run_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_roman_ballista_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Tyrael_VFX.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Tyrael_Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\YNL_Tyrael_Districts.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -33,6 +225,69 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\YNL_Tyrael_Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ballista.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\FX_Ballista_Arrow_Trail.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\FX_Ballista_Fire_Trail.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_roman_ballista.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_roman_ballista.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Ballista.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\BallistaOpArmor_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ballista.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ballista.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BallistaOp_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\BallistaOp_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_TintMask.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_TintMask.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\YNL_TYRAEL_UU22.dds">
@@ -105,6 +360,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\YNL_TYRAEL_UU_PORT95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_Tyrael_VFX.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_Tyrael_Ballista.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YNL_Tyrael_UU.xml">
@@ -275,7 +536,11 @@
     <Content Include="YNL_Tyrael_Text.xml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="Animations\" />
     <Folder Include="Artdefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Materials\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
     <None Include="ArtDefs\YNL_Tyrael_FallbackLeaders.artdef" />

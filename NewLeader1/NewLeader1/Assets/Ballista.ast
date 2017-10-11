@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_AnimationName text="u_roman_ballista_attacka"/>
+					</Element>
+					<Element>
+						<m_SlotName text="FORWARD_A"/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_A"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_B"/>
+						<m_AnimationName text="u_roman_ballista_idleb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_A"/>
+						<m_AnimationName text="u_roman_ballista_combat_ready_idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_B"/>
+						<m_AnimationName text="u_roman_ballista_combat_ready_idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_L"/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_R"/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_A"/>
+						<m_AnimationName text="ballista_static_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_C"/>
+						<m_AnimationName text="u_roman_ballista_combat_ready_idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_D"/>
+						<m_AnimationName text="u_roman_ballista_combat_ready_idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_C"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_D"/>
+						<m_AnimationName text="u_roman_ballista_idleb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_A"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_B"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_C"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_D"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_COMBAT_A"/>
+						<m_AnimationName text="ballista_static_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_B"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_C"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_D"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_1"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_2"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_3"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_4"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_5"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_6"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_7"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_8"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_10"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_11"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_12"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_13"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_14"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_9"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_15"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_16"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_17"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_18"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_19"/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_20"/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_TimelineName text="RUN_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="FORWARD_A"/>
+						<m_TimelineName text="FORWARD_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_A"/>
+						<m_TimelineName text="IDLE_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_B"/>
+						<m_TimelineName text="IDLE_B"/>
+					</Element>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_TimelineName text="ATTACK_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_A"/>
+						<m_TimelineName text="IDLE_COMBAT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_B"/>
+						<m_TimelineName text="IDLE_COMBAT_B"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_R"/>
+						<m_TimelineName text="TURN_R"/>
+					</Element>
+					<Element>
+						<m_SlotName text="TURN_L"/>
+						<m_TimelineName text="TURN_L"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_TimelineName text="RUN_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_D"/>
+						<m_TimelineName text="IDLE_D"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_C"/>
+						<m_TimelineName text="IDLE_C"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_C"/>
+						<m_TimelineName text="IDLE_COMBAT_C"/>
+					</Element>
+					<Element>
+						<m_SlotName text="IDLE_COMBAT_D"/>
+						<m_TimelineName text="IDLE_COMBAT_D"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_TimelineName text="DEFEND_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_A"/>
+						<m_TimelineName text="REACT_RANGED_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_B"/>
+						<m_TimelineName text="REACT_RANGED_B"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_D"/>
+						<m_TimelineName text="REACT_RANGED_D"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_C"/>
+						<m_TimelineName text="REACT_RANGED_C"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_TimelineName text="RUN_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="PERSISTENT"/>
+						<m_TimelineName text="PERSISTENT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_TimelineName text="REACT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_TimelineName text="DEATH_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_1"/>
+						<m_TimelineName text="DEATH_1"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_2"/>
+						<m_TimelineName text="DEATH_2"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_3"/>
+						<m_TimelineName text="DEATH_3"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_4"/>
+						<m_TimelineName text="DEATH_4"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_5"/>
+						<m_TimelineName text="DEATH_5"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_6"/>
+						<m_TimelineName text="DEATH_6"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_7"/>
+						<m_TimelineName text="DEATH_7"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_8"/>
+						<m_TimelineName text="DEATH_8"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_10"/>
+						<m_TimelineName text="DEATH_10"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_11"/>
+						<m_TimelineName text="DEATH_11"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_12"/>
+						<m_TimelineName text="DEATH_12"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_13"/>
+						<m_TimelineName text="DEATH_13"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_14"/>
+						<m_TimelineName text="DEATH_14"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_9"/>
+						<m_TimelineName text="DEATH_9"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_15"/>
+						<m_TimelineName text="DEATH_15"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_16"/>
+						<m_TimelineName text="DEATH_16"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_17"/>
+						<m_TimelineName text="DEATH_17"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_18"/>
+						<m_TimelineName text="DEATH_18"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_19"/>
+						<m_TimelineName text="DEATH_19"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_20"/>
+						<m_TimelineName text="DEATH_20"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="RUN_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="14"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Dust_BatteringRam_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Dust_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.666666</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="Catapult_Move_Loop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="FORWARD_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="Catapult_Move_Loop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="13"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Dust_BatteringRam_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Dust_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.666666</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_B"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idleb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="ATTACK_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_attacka"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ballista_Arrow_Trail"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Launch_Loc_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.5922</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>TRANSFER</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="1"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.5922</m_fStartTime>
+								<m_fDuration>4.0000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="17"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ballista_Fire_Trail"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Launch_Loc_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.5922</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>TRANSFER</m_eType>
+								<m_Name text="18"/>
+								<m_Description text=""/>
+								<m_FXName text="17"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.5922</m_fStartTime>
+								<m_fDuration>4.0000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="Catapult_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.44</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="Catapult_Load"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.3</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="16"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Catapult_Move_NOSFX"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_COMBAT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_combat_ready_idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_COMBAT_B"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_combat_ready_idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="TURN_R"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="TURN_L"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="12"/>
+								<m_Description text=""/>
+								<m_FXName text="Catapult_Move_OneShot"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="15"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Dust_BatteringRam_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Dust_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.666666</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_C"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_D"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idleb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_COMBAT_C"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_combat_ready_idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="IDLE_COMBAT_D"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_combat_ready_idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEFEND_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="24"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Catapult_Move_NOSFX"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="25"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Catapult_Move_NOSFX"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>-0.003704</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_B"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="26"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Catapult_Move_NOSFX"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>-0.003704</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_D"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="28"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Catapult_Move_NOSFX"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>-0.003704</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_C"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="27"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Catapult_Move_NOSFX"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>-0.003704</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="END"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.996296</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Catapult_Move_Loop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="PERSISTENT"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>2.458333</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="REACT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_1"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_2"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_3"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_4"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_5"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_6"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_7"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_8"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_10"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_11"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_12"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_13"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_14"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_9"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_15"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_16"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_17"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_18"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_19"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_20"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_roman_ballista_deathb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Boulder"/>
+						<m_BoneName text="fx_PROJECTILE"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="SpawnProjectile"/>
+						<m_BoneName text="fx_PROJECTILE"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Hitloc_01"/>
+						<m_BoneName text="bone_PANEL_B"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Hitloc_02"/>
+						<m_BoneName text="bone_PANEL_T"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Hitloc_03"/>
+						<m_BoneName text="bone_CRANK"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Hitloc_04"/>
+						<m_BoneName text="bone_ARM_L"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Hitloc_05"/>
+						<m_BoneName text="bone_ARM_R"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Hitloc_06"/>
+						<m_BoneName text="bone_ARM_L"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Hitloc_07"/>
+						<m_BoneName text="bone_GROOVE"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Hitloc_08"/>
+						<m_BoneName text="bone_STOCK"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>1.5708</z>
+						</m_orientation>
+						<m_Name text="FX_Launch_Loc_01"/>
+						<m_BoneName text="fx_PROJECTILE"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.0</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Boulder_Loc_01"/>
+						<m_BoneName text="bone_CRANK"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>3.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="FX_Dust_01"/>
+						<m_BoneName text="bone_MAIN"/>
+						<m_ModelInstanceName text="World"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+				</m_Points>
+			</m_attachmentPoints>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="potential_any_graph"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="World"/>
+				<m_GeoName text="u_roman_ballista"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="BaseMale_Caucasian_Material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Body_Material"/>
+						<m_MeshName text="Body"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="BaseMale_Caucasian_Material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Body_Material2"/>
+						<m_MeshName text="Body2"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="BallistaOpArmor_Material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Builder_Material"/>
+						<m_MeshName text="Builder_Armor"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="BallistaOpArmor_Material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Builder_Material2"/>
+						<m_MeshName text="Builder_Armor2"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="BaseMale_Caucasian_Material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Head_Material"/>
+						<m_MeshName text="Builder_Head"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="BaseMale_Caucasian_Material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Head_Material2"/>
+						<m_MeshName text="Builder_Head2"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="BaseMale_Caucasian_Material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hair_Material"/>
+						<m_MeshName text="Hair"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="BaseMale_Caucasian_Material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hair_Material2"/>
+						<m_MeshName text="Hair2"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects::ObjectValue">
+									<m_ObjectName text="Ballista"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Ballista_Material"/>
+						<m_MeshName text="U_Roman_Ballista"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>212</build>
+		<revision>470</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="Unit"/>
+	<m_DataFiles/>
+	<m_Name text="Ballista"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="Unit"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects::AssetInstance>

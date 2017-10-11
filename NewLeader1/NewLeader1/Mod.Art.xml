@@ -9,6 +9,8 @@
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
 				<Element text="YNL_Tyrael_Units.artdef"/>
+				<Element text="YNL_Tyrael_Unit_Bins.artdef" />
+				<Element text="YNL_Tyrael_VFX.artdef" />
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -195,6 +197,7 @@
 		<Element>
 			<consumerName text="VFX"/>
 			<relativeArtDefPaths>
+				<Element text="VFX.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="VFX"/>
@@ -564,11 +567,13 @@
 		<Element>
 			<libraryName text="Unit"/>
 			<relativePackagePaths>
+				<Element text="Units/YNL_Tyrael_Ballista.blp"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="VFX"/>
 			<relativePackagePaths>
+				<Element text="VFX.blp"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

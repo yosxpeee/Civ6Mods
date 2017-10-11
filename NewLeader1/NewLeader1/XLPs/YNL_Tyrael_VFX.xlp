@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>251</build>
+		<revision>114</revision>
+	</m_Version>
+	<m_ClassName text="VFX"/>
+	<m_PackageName text="VFX"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="FX_Ballista_Arrow_Trail"/>
+			<m_ObjectName text="FX_Ballista_Arrow_Trail"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FX_Ballista_Fire_Trail"/>
+			<m_ObjectName text="FX_Ballista_Fire_Trail"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>
+

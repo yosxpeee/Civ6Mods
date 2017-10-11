@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>222</build>
+		<revision>73</revision>
+	</m_Version>
+	<m_TemplateName text="VFX"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="NormalVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="MaterialVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="TerrainVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="WeaponVFX"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="MaterialTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+		<Element>
+			<m_CollectionName text="TerrainTypes"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
+	</m_RootCollections>
+</AssetObjects:ArtDefSet>
+
