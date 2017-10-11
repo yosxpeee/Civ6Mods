@@ -121,10 +121,10 @@
 			<Text>+9 [ICON_Strength] Strength when attacking to naval raider unit</Text>
 		</Row>
 
-		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_NAME" Language="ja_JP">
+		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_NAME" Language="en_US">
 			<Text>Kenpei's Honor</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION" Language="en_US">
 			<Text>Akitsumaru unique Modern era naval melee unit. +5 [ICON_GreatGeneral] Great General points for killing units.</Text>
 		</Row>
 	</LocalizedText>
