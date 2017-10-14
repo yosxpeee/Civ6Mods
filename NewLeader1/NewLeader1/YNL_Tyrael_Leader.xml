@@ -84,4 +84,11 @@
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_YNL_TYRAEL" BackgroundImage="Tyrael_Diplomacy_Background.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YNL_TYRAEL" BackgroundImage="Tyrael_LoadingInfo_Background.dds" ForegroundImage="Tyrael_LoadingInfo_Foreground.dds" LeaderText="LOC_TYRAEL_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
 </GameData>

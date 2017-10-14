@@ -85,54 +85,9 @@
 			<Text>ヘンノック</Text>
 		</Replace>
 
-		<!--Civilization Factoids -->
-		<!--
-		<Replace Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="ja_JP">
-			<Text></Text>
-		</Replace>
-		<Replace Tag="LOC_CIVINFO_FELIS_CATUS" Language="ja_JP">
-			<Text></Text>
-		</Replace>
-		-->
-		
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_TYRAEL_QUOTE" Language="ja_JP">
 			<Text>私は人間に一票を投じる…人間がどうなるか見届けたい…驚きを持って見届けたいのだ</Text>
-		</Replace>
-
-		<!-- Leader Dialog -->
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>私は大天使ティラエル。自ら生かすと決めた人間たちを導いている。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>近くの都へ来てはもらえないか？出来うる限りの持て成しをしよう。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>ありがたい。われわれにとって喜ばしいことだ。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>貴様のような忌まわしい嘘つきは信用ならぬ！ 最低最悪の輩だ。(非難)</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>2つの国は知らぬ者同士ではない。平和の時代に、貴公に数々の勝利あれ。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>他者を信頼せぬものがどうして他者から信頼されようか？</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>感謝するぞ、友人よ。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>考え直すべきだ。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>貴公の首は柱に吊るされるのがお似合いだ。</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY}</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YNL_TYRAEL_ANY" Language="ja_JP">
-			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TYRAEL_ANY}</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_TYRAEL_DOM_TEXT" Language="ja_JP">

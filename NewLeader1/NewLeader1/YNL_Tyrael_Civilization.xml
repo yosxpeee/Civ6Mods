@@ -13,7 +13,7 @@
 			<Description>LOC_CIVILIZATION_WOD_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_WOD_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>20</RandomCityNameDepth>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 

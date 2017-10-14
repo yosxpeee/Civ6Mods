@@ -590,7 +590,7 @@
 																<m_ParamName text="Point"/>
 															</Element>
 															<Element class="AssetObjects:ArtDefReferenceValue">
-																<m_ElementName text="Macedonian_Blue"/>
+																<m_ElementName text="Tyrael_Purple"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="YNL_Tyrael_Units.artdef"/>
 																<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -647,8 +647,8 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects:RGBValue">
-										<m_r>90.000000</m_r>
-										<m_g>148.000000</m_g>
+										<m_r>217.000000</m_r>
+										<m_g>72.000000</m_g>
 										<m_b>217.000000</m_b>
 										<m_ParamName text="Color"/>
 									</Element>
@@ -660,7 +660,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="Macedonian_Blue"/>
+				<m_Name text="Tyrael_Purple"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
