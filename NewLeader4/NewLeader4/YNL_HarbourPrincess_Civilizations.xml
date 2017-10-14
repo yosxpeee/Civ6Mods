@@ -17,6 +17,7 @@
 			<Description>LOC_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>13</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 	<!-- 文明に属する指導者と首都の設定 -->

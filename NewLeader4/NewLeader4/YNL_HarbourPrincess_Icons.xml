@@ -28,14 +28,15 @@
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- Leader -->
-		<Row Name="ICON_LEADER_HARBOUR_PRINCESS"               Atlas="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER" Index="0"/>
-		<!-- Civilization -->
-		<Row Name="ICON_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Atlas="ICON_ATLAS_CIVILIZATION_LTAF"           Index="0"/>
-		<!-- Unique District -->
-		<Row Name="ICON_DISTRICT_COASTAL_FORT"                 Atlas="ICON_ATLAS_DISTRICTS"                   Index="4"/>
-		<Row Name="ICON_DISTRICT_COASTAL_FORT_FOW"             Atlas="ICON_ATLAS_DISTRICTS_FOW"               Index="4"/>
+		<Row Name="ICON_LEADER_HARBOUR_PRINCESS"               Atlas="ICON_ATLAS_YNL_HARBOUR_PRINCESS_LEADER"  Index="0"/>
+		<!-- Civilization -->																				   
+		<Row Name="ICON_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS" Atlas="ICON_ATLAS_CIVILIZATION_LTAF"            Index="0"/>
+		<!-- Unique District -->																			   
+		<Row Name="ICON_DISTRICT_COASTAL_FORT"                 Atlas="ICON_ATLAS_DISTRICTS"                    Index="4"/>
+		<Row Name="ICON_DISTRICT_COASTAL_FORT_FOW"             Atlas="ICON_ATLAS_DISTRICTS_FOW"                Index="4"/>
+		<Row Name="DISTRICT_COASTAL_FORT"                      Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4"         Index="184"/>
 		<!-- Unique Improvement -->
-		<Row Name="ICON_IMPROVEMENT_DRILLSHIP" Atlas="ICON_ATLAS_YNL_HARBOUR_PRINCESS_ACTIONS" Index="0"/>
+		<Row Name="ICON_IMPROVEMENT_DRILLSHIP"                 Atlas="ICON_ATLAS_YNL_HARBOUR_PRINCESS_ACTIONS" Index="0"/>
 		<!-- UU -->
 		<Row Name="ICON_UNIT_YNL_ARMORED_CRUISER"                            Atlas="ICON_ATLAS_UNITS"                           Index="66"/>
 		<Row Name="ICON_UNIT_YNL_ARMORED_CRUISER_FOW"                        Atlas="ICON_ATLAS_UNITS_FOW"                       Index="66"/>
