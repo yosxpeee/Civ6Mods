@@ -692,7 +692,7 @@
 	</FavoredReligions>
 
 	<!-- 外交交渉などの画面
-		 Forground(前景。指導者の立絵のこと)はLeaderAnimations(別ファイル)で定義される感情表現に則したものが表示されるため、設定はない。 -->
+		 Foreground(前景。指導者の立絵のこと)はLeaderAnimations(別ファイル)で定義される感情表現に則したものが表示されるため、設定はない。 -->
 	<DiplomacyInfo>
 		<Row Type="LEADER_ITAKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Itako.dds"/>
 		<Row Type="LEADER_ZUNKO_TOHOKU"   BackgroundImage="Background_DiplomcayInfo_Zunko.dds"/>
@@ -704,6 +704,7 @@
 		<Row LeaderType="LEADER_KIRITAN_TOHOKU" ForegroundImage="Foreground_LoadingInfo_Kiritan.dds" BackgroundImage="Background_LoadingInfo_Kiritan.dds" LeaderText="LOC_LEADER_KIRITAN_TOHOKU_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	
+	<!-- 固有カラー -->
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_ITAKO_TOHOKU_PRIMARY</Type>

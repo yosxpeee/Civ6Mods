@@ -33,16 +33,16 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_DPRT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_DPRT256.dds"/>
 		<!-- ユニークユニットアイコン 縦2横1-->
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="22" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU22.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="32" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="80" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU80.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_BLACK" IconSize="32" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"     IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU256.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"     IconSize="80"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU80.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"     IconSize="50"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU50.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"     IconSize="38"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU38.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"     IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
-		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS_FOW" IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU22.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"         IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU256.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"         IconSize="80"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU80.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"         IconSize="50"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU50.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"         IconSize="38"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU38.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS"         IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
+		<Row Name="ICON_ATLAS_YNL_TOHOKU_UNITS_FOW"     IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="ICON_YNL_TOHOKU_UU32.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!--
@@ -55,17 +55,22 @@
 		<Row Name="ICON_LEADER_ITAKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="0"/>
 		<Row Name="ICON_LEADER_ZUNKO_TOHOKU"   Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="1"/>
 		<Row Name="ICON_LEADER_KIRITAN_TOHOKU" Atlas="ICON_ATLAS_YNL_TOHOKU_LEADER" Index="2"/>
+
 		<!-- ユニーク建造物 -->
-		<!-- なまはげ館 水車小屋の使いまわし -->
+		<!-- ずんだカフェ 水車小屋の使いまわし -->
 		<Row Name="ICON_BUILDING_ZUNDA_CAFE"     Atlas="ICON_ATLAS_BUILDINGS"     Index="7"/>
 		<Row Name="ICON_BUILDING_ZUNDA_CAFE_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="7"/>
+
 		<!-- ユニーク区域 -->
 		<!-- なまはげ館 聖地の使いまわし -->
-		<Row Name="ICON_DISTRICT_NAMAHAGE_MUSEUM"     Atlas="ICON_ATLAS_DISTRICTS"     Index="1"/>
-		<Row Name="ICON_DISTRICT_NAMAHAGE_MUSEUM_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="1"/>
+		<Row Name="ICON_DISTRICT_NAMAHAGE_MUSEUM"     Atlas="ICON_ATLAS_DISTRICTS"            Index="1"/>
+		<Row Name="ICON_DISTRICT_NAMAHAGE_MUSEUM_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW"        Index="1"/>
+		<Row Name="DISTRICT_NAMAHAGE_MUSEUM"          Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="180"/>
 		<!-- 工業団地 近郊部の使いまわし -->
-		<Row Name="ICON_DISTRICT_INDUSTRIAL_PARK"     Atlas="ICON_ATLAS_DISTRICTS"     Index="10"/>
-		<Row Name="ICON_DISTRICT_INDUSTRIAL_PARK_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="10"/>
+		<Row Name="ICON_DISTRICT_INDUSTRIAL_PARK"     Atlas="ICON_ATLAS_DISTRICTS"            Index="10"/>
+		<Row Name="ICON_DISTRICT_INDUSTRIAL_PARK_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW"        Index="10"/>
+		<Row Name="DISTRICT_INDUSTRIAL_PARK"          Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="181"/>
+
 		<!-- ユニークユニット -->
 		<!-- 山伏 MOD固有 (ポートレイトは伝道師を使いまわし) -->
 		<Row Name="ICON_UNIT_YAMABUSHI"                            Atlas="ICON_ATLAS_YNL_TOHOKU_UNITS"              Index="0"/>
@@ -97,6 +102,7 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="34"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="34"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_ZUNKO_HORSE_ARCHER_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="34"/>
+		
 		<!-- ユニーク施設 -->
 		<!-- 庚申塔 クルガンの使いまわし -->
 		<Row Name="ICON_IMPROVEMENT_KOSHIN_TOWER" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="19"/>
