@@ -2,23 +2,33 @@
 <GameInfo>
 	<Types>
 		<Row Type="UNIT_UNIQUE_BALLISTA" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TYRAEL_AXEMEN"   Kind="KIND_UNIT"/>
 	</Types>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_UNIQUE_BALLISTA" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_UNIQUE_BALLISTA" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_UNIQUE_BALLISTA" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_UNIQUE_BALLISTA" AiType="UNITTYPE_LAND_COMBAT"/>
+		
+		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_UNIQUE_BALLISTA" ReplacesUnitType="UNIT_CATAPULT"/>
+		<Row CivUniqueUnitType="UNIT_TYRAEL_AXEMEN"   ReplacesUnitType="UNIT_SPEARMAN"/>
 	</UnitReplaces>
 	<TypeTags>
 		<Row Type="UNIT_UNIQUE_BALLISTA" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_TYRAEL_AXEMEN"   Tag="CLASS_ANTI_CAVALRY"/>
 	</TypeTags>
 	<Units>
-		<Row UnitType="UNIT_UNIQUE_BALLISTA" BaseMoves="2" Cost="130" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_UNIQUE_BALLISTA_NAME" Description="LOC_UNIT_UNIQUE_BALLISTA_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="2" Combat="28" MandatoryObsoleteTech="TECH_STEEL" Range="2" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BALLISTA" PrereqTech="TECH_ENGINEERING" Bombard="40"/>
+		<Row UnitType="UNIT_UNIQUE_BALLISTA" BaseMoves="2" Cost="130" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_UNIQUE_BALLISTA_NAME" Description="LOC_UNIT_UNIQUE_BALLISTA_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE"        Maintenance="2" Combat="28" MandatoryObsoleteTech="TECH_STEEL" Range="2" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BALLISTA" PrereqTech="TECH_ENGINEERING" Bombard="40"/>
+		<Row UnitType="UNIT_TYRAEL_AXEMEN"   BaseMoves="2" Cost="65"  AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"  Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TYRAEL_AXEMEN_NAME"   Description="LOC_UNIT_TYRAEL_AXEMEN_DESCRIPTION"   PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="1" Combat="30" MandatoryObsoleteTech="TECH_COMPOSITES"      TraitType="TRAIT_LEADER_UNIT_TYRAEL_AXEMEN"   PrereqTech="TECH_BRONZE_WORKING"/>
 	</Units>
 	<UnitUpgrades>
 		<Row Unit="UNIT_UNIQUE_BALLISTA" UpgradeUnit="UNIT_BOMBARD"/>
+		<Row Unit="UNIT_TYRAEL_AXEMEN"   UpgradeUnit="UNIT_PIKEMAN"/>
 	</UnitUpgrades>
 </GameInfo>

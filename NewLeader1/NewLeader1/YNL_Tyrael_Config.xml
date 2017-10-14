@@ -33,11 +33,21 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
 			<LeaderType>LEADER_YNL_TYRAEL</LeaderType>
+			<Type>UNIT_TYRAEL_AXEMEN</Type>
+			<Name>LOC_UNIT_TYRAEL_AXEMEN_NAME</Name>
+			<Description>LOC_UNIT_TYRAEL_AXEMEN_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_TYRAEL_AXEMEN</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
+			<LeaderType>LEADER_YNL_TYRAEL</LeaderType>
 			<Type>DISTRICT_ANGELS_DANCE_HALL</Type>
 			<Name>LOC_DISTRICT_ANGELS_DANCE_HALL_NAME</Name>
 			<Description>LOC_DISTRICT_ANGELS_DANCE_HALL_DESCRIPTION</Description>
 			<Icon>ICON_DISTRICT_ANGELS_DANCE_HALL</Icon>
-			<SortIndex>20</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

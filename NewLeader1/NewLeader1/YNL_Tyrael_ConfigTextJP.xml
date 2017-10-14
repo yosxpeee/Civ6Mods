@@ -56,5 +56,18 @@
 		<Replace Tag="LOC_UNIT_UNIQUE_BALLISTA_NAME" Language="ja_JP">
 			<Text>バリスタ</Text>
 		</Replace>
+
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TYRAEL_AXEMEN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_TYRAEL_AXEMEN_NAME" Language="ja_JP">
+			<Text>ティラエル固有のユニット: 聖斧兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TYRAEL_AXEMEN_DESCRIPTION" Language="ja_JP">
+			<Text>槍兵に取ってかわるティラエル固有の太古のユニット。槍兵よりも強力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TYRAEL_AXEMEN_NAME" Language="ja_JP">
+			<Text>聖斧兵</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
