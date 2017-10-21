@@ -9,10 +9,6 @@
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_IMP_NAVYYARD" ReplacesBuildingType="BUILDING_SHIPYARD"/>
 	</BuildingReplaces>
-	<BuildingPrereqs>
-		<Row Building="BUILDING_IMP_NAVYYARD" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
-		<Row Building="BUILDING_SEAPORT" PrereqBuilding="BUILDING_IMP_NAVYYARD"/>
-	</BuildingPrereqs>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_IMP_NAVYYARD" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 	</Building_YieldChanges>
