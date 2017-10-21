@@ -16,11 +16,27 @@
 					<m_Values>
 						<Element class="AssetObjects:BoolValue">
 							<m_bValue>false</m_bValue>
-							<m_ParamName text="CanAffectDistrict"/>
+							<m_ParamName text="IsWonderBuilding"/>
 						</Element>
 						<Element class="AssetObjects:BoolValue">
 							<m_bValue>false</m_bValue>
-							<m_ParamName text="IsAffectedByDistrict"/>
+							<m_ParamName text="UsesDistrictState"/>
+						</Element>
+						<Element class="AssetObjects:BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="AffectsDistrictBuildingSet"/>
+						</Element>
+						<Element class="AssetObjects:StringValue">
+							<m_Value text="AVERAGE"/>
+							<m_ParamName text="TerrainFollowMode"/>
+						</Element>
+						<Element class="AssetObjects:StringValue">
+							<m_Value text="NONE"/>
+							<m_ParamName text="ProceduralPlacementMode"/>
+						</Element>
+						<Element class="AssetObjects:BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="UsesDecalMaterialOverrides"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -39,7 +55,7 @@
 										<m_ElementName text="University"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
@@ -64,7 +80,7 @@
 										<m_ElementName text="University_Pillaged"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
@@ -89,7 +105,7 @@
 										<m_ElementName text="University_UnderConstruction"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
