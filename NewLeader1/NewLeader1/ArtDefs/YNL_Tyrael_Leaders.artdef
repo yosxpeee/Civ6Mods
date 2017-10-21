@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::ArtDefSet>
+<AssetObjects:ArtDefSet>
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
@@ -10,10 +10,11 @@
 	<m_RootCollections>
 		<Element>
 			<m_CollectionName text="Leaders"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects::BLPEntryValue">
+						<Element class="AssetObjects:BLPEntryValue">
 							<m_EntryName text="ART_DEFAULT_LIGHT"/>
 							<m_XLPClass text="LeaderLighting"/>
 							<m_XLPPath text="Leader_LightRigs.xlp"/>
@@ -21,7 +22,7 @@
 							<m_LibraryName text="LeaderLighting"/>
 							<m_ParamName text="Leader_Lightrig_BLP_Entry"/>
 						</Element>
-						<Element class="AssetObjects::BLPEntryValue">
+						<Element class="AssetObjects:BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Leader"/>
 							<m_XLPPath text=""/>
@@ -30,7 +31,7 @@
 							<m_ParamName text="Leader_BLP_Entry"/>
 						</Element>
 						<!--
-						<Element class="AssetObjects::BLPEntryValue">
+						<Element class="AssetObjects:BLPEntryValue">
 							<m_EntryName text="ART_LEADER_THEO"/>
 							<m_XLPClass text="Leader"/>
 							<m_XLPPath text="Leader_T_Roosevelt.xlp"/>
@@ -39,7 +40,7 @@
 							<m_ParamName text="Leader_BLP_Entry"/>
 						</Element>
 						-->
-						<Element class="AssetObjects::BLPEntryValue">
+						<Element class="AssetObjects:BLPEntryValue">
 							<m_EntryName text="CK_Identity"/>
 							<m_XLPClass text="ColorKey"/>
 							<m_XLPPath text="ColorKeys.xlp"/>
@@ -47,7 +48,7 @@
 							<m_LibraryName text="ColorKey"/>
 							<m_ParamName text="Leader_ColorKey_BLP_Entry"/>
 						</Element>
-						<Element class="AssetObjects::BLPEntryValue">
+						<Element class="AssetObjects:BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Leader"/>
 							<m_XLPPath text=""/>
@@ -55,11 +56,11 @@
 							<m_LibraryName text="Leader"/>
 							<m_ParamName text="Leader_Background_BLP_Entry"/>
 						</Element>
-						<Element class="AssetObjects::StringValue">
+						<Element class="AssetObjects:StringValue">
 							<m_Value text=""/>
 							<m_ParamName text="Leader_Background_Animation_State"/>
 						</Element>
-						<Element class="AssetObjects::StringValue">
+						<Element class="AssetObjects:StringValue">
 							<m_Value text=""/>
 							<m_ParamName text="Audio"/>
 						</Element>
@@ -71,5 +72,5 @@
 			</Element>
 		</Element>
 	</m_RootCollections>
-</AssetObjects::ArtDefSet>
+</AssetObjects:ArtDefSet>
 

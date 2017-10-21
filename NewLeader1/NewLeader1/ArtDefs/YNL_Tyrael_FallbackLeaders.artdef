@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects::ArtDefSet>
+<AssetObjects:ArtDefSet>
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
@@ -22,7 +22,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::BLPEntryValue">
+									<Element class="AssetObjects:BLPEntryValue">
 										<m_EntryName text="FALLBACK_NEUTRAL_TYRAEL"/>
 										<m_XLPClass text="LeaderFallback"/>
 										<m_XLPPath text="LeaderFallbacks.xlp"/>
@@ -43,4 +43,5 @@
 			</Element>
 		</Element>
 	</m_RootCollections>
-</AssetObjects::ArtDefSet>
+</AssetObjects:ArtDefSet>
+

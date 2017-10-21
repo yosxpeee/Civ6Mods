@@ -745,10 +745,10 @@
 								<m_Values>
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_AMPHITHEATER"/>
-										<m_RootCollectionName text="HeroBuildingTags"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Buildings"/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
@@ -794,10 +794,10 @@
 								<m_Values>
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_MUSEUM_ART"/>
-										<m_RootCollectionName text="HeroBuildingTags"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Buildings"/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
@@ -843,10 +843,10 @@
 								<m_Values>
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_MUSEUM_ARTIFACT"/>
-										<m_RootCollectionName text="HeroBuildingTags"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Buildings"/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
@@ -892,10 +892,10 @@
 								<m_Values>
 									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="BUILDING_BROADCAST_CENTER"/>
-										<m_RootCollectionName text="HeroBuildingTags"/>
-										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Buildings"/>
 										<m_ParamName text="Tag_HeroBuilding"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
@@ -964,10 +964,10 @@
 										<m_Values>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set"/>
 											</Element>
 										</m_Values>
@@ -988,18 +988,18 @@
 										<m_Values>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set"/>
 											</Element>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_MUSEUM_ART"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set_1"/>
 											</Element>
 										</m_Values>
@@ -1020,18 +1020,18 @@
 										<m_Values>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set"/>
 											</Element>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_MUSEUM_ARTIFACT"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set_1"/>
 											</Element>
 										</m_Values>
@@ -1052,26 +1052,26 @@
 										<m_Values>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set"/>
 											</Element>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_MUSEUM_ART"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set_1"/>
 											</Element>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_BROADCAST_CENTER"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set_2"/>
 											</Element>
 										</m_Values>
@@ -1092,26 +1092,26 @@
 										<m_Values>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_AMPHITHEATER"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set"/>
 											</Element>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_MUSEUM_ARTIFACT"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set_1"/>
 											</Element>
 											<Element class="AssetObjects:ArtDefReferenceValue">
 												<m_ElementName text="BUILDING_BROADCAST_CENTER"/>
-												<m_RootCollectionName text="HeroBuildingTags"/>
-												<m_ArtDefPath text="Landmarks.artdef"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
 												<m_CollectionIsLocked>true</m_CollectionIsLocked>
-												<m_TemplateName text=""/>
+												<m_TemplateName text="Buildings"/>
 												<m_ParamName text="Set_2"/>
 											</Element>
 										</m_Values>
@@ -1131,10 +1131,6 @@
 		</Element>
 		<Element>
 			<m_CollectionName text="Landmarks"/>
-			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
-		</Element>
-		<Element>
-			<m_CollectionName text="HeroBuildingTags"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 		</Element>
 		<Element>

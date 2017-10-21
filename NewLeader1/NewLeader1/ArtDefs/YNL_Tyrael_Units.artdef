@@ -163,7 +163,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="Swordsman"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
@@ -171,7 +171,7 @@
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Formation"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="Swordsman"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
@@ -179,7 +179,7 @@
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="WarriorEscort"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
@@ -187,7 +187,7 @@
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
@@ -195,11 +195,11 @@
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
-						<Element class="AssetObjects::BoolValue">
+						<Element class="AssetObjects:BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="DoNotDisplayCharges"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="UnitCulture"/>
 							<m_ArtDefPath text="Cultures.artdef"/>
@@ -207,7 +207,7 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Culture"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Era"/>
 							<m_ArtDefPath text="Eras.artdef"/>
@@ -215,7 +215,7 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Era"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
@@ -223,11 +223,11 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="ProxyUnit"/>
 						</Element>
-						<Element class="AssetObjects::BoolValue">
+						<Element class="AssetObjects:BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="PlayDeathOnDestroy"/>
 						</Element>
-						<Element class="AssetObjects::IntValue">
+						<Element class="AssetObjects:IntValue">
 							<m_nValue>0</m_nValue>
 							<m_ParamName text="DisplayLevel"/>
 						</Element>
@@ -240,15 +240,15 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::FloatValue">
+									<Element class="AssetObjects:FloatValue">
 										<m_fValue>1.000000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
-									<Element class="AssetObjects::IntValue">
+									<Element class="AssetObjects:IntValue">
 										<m_nValue>4</m_nValue>
 										<m_ParamName text="Count"/>
 									</Element>
-									<Element class="AssetObjects::ArtDefReferenceValue">
+									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="Tyrael_Axemen"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="YNL_Tyrael_Units.artdef"/>
@@ -269,7 +269,7 @@
 						<Element>
 							<m_Fields>
 								<m_Values>
-									<Element class="AssetObjects::StringValue">
+									<Element class="AssetObjects:StringValue">
 										<m_Value text=""/>
 										<m_ParamName text="XrefName"/>
 									</Element>
@@ -758,7 +758,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="Swordsman"/>
 							<m_RootCollectionName text="UnitMovementTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
@@ -766,7 +766,7 @@
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Movement"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="SwordsmanCombat"/>
 							<m_RootCollectionName text="MemberCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
@@ -774,7 +774,7 @@
 							<m_TemplateName text="Units"/>
 							<m_ParamName text="Combat"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="MEAT"/>
 							<m_RootCollectionName text="MaterialTypes"/>
 							<m_ArtDefPath text="VFX.artdef"/>
@@ -782,7 +782,7 @@
 							<m_TemplateName text="VFX"/>
 							<m_ParamName text="VFXMaterialType"/>
 						</Element>
-						<Element class="AssetObjects::ArtDefReferenceValue">
+						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text="MEAT"/>
 							<m_RootCollectionName text="MaterialTypes"/>
 							<m_ArtDefPath text="VFX.artdef"/>
@@ -790,7 +790,7 @@
 							<m_TemplateName text="VFX"/>
 							<m_ParamName text="VFXWeaponImpact"/>
 						</Element>
-						<Element class="AssetObjects::FloatValue">
+						<Element class="AssetObjects:FloatValue">
 							<m_fValue>0.000000</m_fValue>
 							<m_ParamName text="ImpactHeightOverride"/>
 						</Element>
@@ -811,11 +811,11 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects::FloatValue">
+												<Element class="AssetObjects:FloatValue">
 													<m_fValue>1.100000</m_fValue>
 													<m_ParamName text="Scale"/>
 												</Element>
-												<Element class="AssetObjects::BoolValue">
+												<Element class="AssetObjects:BoolValue">
 													<m_bValue>false</m_bValue>
 													<m_ParamName text="IsAttachment"/>
 												</Element>
@@ -828,7 +828,7 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Root"/>
 																<m_ParamName text="Point"/>
 															</Element>
@@ -862,11 +862,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="WeaponPrimary"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -896,11 +896,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Root"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -930,11 +930,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Hat"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -964,11 +964,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="WeaponSecondary"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -998,11 +998,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Root"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text="Caucasian_Light"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="Units.artdef"/>
@@ -1037,11 +1037,11 @@
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects::FloatValue">
+												<Element class="AssetObjects:FloatValue">
 													<m_fValue>1.100000</m_fValue>
 													<m_ParamName text="Scale"/>
 												</Element>
-												<Element class="AssetObjects::BoolValue">
+												<Element class="AssetObjects:BoolValue">
 													<m_bValue>false</m_bValue>
 													<m_ParamName text="IsAttachment"/>
 												</Element>
@@ -1054,11 +1054,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Root"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -1088,11 +1088,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="WeaponPrimary"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -1130,11 +1130,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Root"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -1164,11 +1164,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Hat"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -1198,11 +1198,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="WeaponSecondary"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text=""/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text=""/>
@@ -1232,11 +1232,11 @@
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects::StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Root"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects::ArtDefReferenceValue">
+															<Element class="AssetObjects:ArtDefReferenceValue">
 																<m_ElementName text="Caucasian_Light"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="Units.artdef"/>
@@ -1345,3 +1345,4 @@
 		</Element>
 	</m_RootCollections>
 </AssetObjects:ArtDefSet>
+
