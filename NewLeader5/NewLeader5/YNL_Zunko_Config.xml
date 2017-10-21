@@ -18,6 +18,7 @@
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_ITAKO_TOHOKU</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_ITAKO_TOHOKU</Portrait><!-- イタコさんは個別に用意したものを指定 -->
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</Portrait>
 		</Row>
 		<!-- ずん子 -->
 		<Row>
@@ -35,6 +36,7 @@
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_ZUNKO_TOHOKU</LeaderAbilityIcon>
 			<Portrait>LEADER_ZUNKO_TOHOKU_NEUTRAL</Portrait><!-- ずん子は通常の指導者の立絵と同じもので違和感がない -->
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</Portrait>
 		</Row>
 		<!-- きりたん -->
 		<Row>
@@ -52,6 +54,7 @@
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_KIRITAN_TOHOKU</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_KIRITAN_TOHOKU</Portrait><!-- きりたんも個別に用意したものを指定 -->
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</Portrait>
 		</Row>
 	</Players>
 	<PlayerItems>
