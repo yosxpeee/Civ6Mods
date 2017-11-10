@@ -485,7 +485,7 @@
 		<Row Type="LEADER_HARBOUR_PRINCESS" BackgroundImage="YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
-		<Row LeaderType="LEADER_HARBOUR_PRINCESS" BackgroundImage="YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds" LeaderText="LOC_LEADER_HARBOUR_PRINCESS_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HARBOUR_PRINCESS" BackgroundImage="YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds" ForegroundImage="LEADER_HARBOUR_PRINCESS_NEUTRAL" LeaderText="LOC_LEADER_HARBOUR_PRINCESS_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 
 	<!-- 文明カラー設定 -->
