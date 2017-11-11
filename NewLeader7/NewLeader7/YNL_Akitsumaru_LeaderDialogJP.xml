@@ -10,10 +10,10 @@
 		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>我が国と貴国の間に正式な友好関係を結ぶことに同意していただきたいのであります。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>これはありがたい、のであります。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>それは残念であります。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
@@ -94,10 +94,10 @@
 		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>同盟を希望するのでありますか？</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>これはありがたい、のであります。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>それは残念であります。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
@@ -190,6 +190,9 @@
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>歴史の謎は万人に開示されるべき。独占は許されないのであります。</Text>
 		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+			<Text>Your proselytizers are not welcome among my people. I must ask that you remove them immediately.</Text>
+		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>そちらの希望は尊重しましょう。しかし、あなたは間違っているのであります。どうかわかっていただきたい。</Text>
 		</Replace>
@@ -202,7 +205,7 @@
 		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>了解、であります。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>やりかねないとは思っておりましたが、あまりにも厚顔無恥。わが国に送った間者を今すぐ引き上げていただきたいのであります！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
@@ -211,7 +214,7 @@
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>なんたる侮辱！貴公も憶えておくことであります！</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>わが国の文化や歴史を盗まないでほしいのであります。わが国から即刻出て行っていただきたいのであります！！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
@@ -220,7 +223,7 @@
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>わが国を尊重してもらえないなら、貴国を尊重することもできないのであります。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
 			<Text>貴国の宗教家はやり方が強引で評判が悪いと聞いているのであります。いますぐわが国から立ち退いていただきたい。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKITSUMARU_ANY" Language="ja_JP">
