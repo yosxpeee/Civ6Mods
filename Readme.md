@@ -16,6 +16,6 @@ NewLeader7:Yossie's New Leader - Akitsumaru
 JPTranslation_KingdomofHyrule:The Kingdom of Hyrule  
 *Original Author:decster584*  
 ![image](images/JPTranslate_Hyrule.png)  
-##. Other MOD
+## Other MOD
 NewUnit2:Yossie's More Great Person  
 ![image](images/ynl_MoreGreatPerson.jpg)  
