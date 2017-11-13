@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_ZELDA" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_GODDESS_HARP" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_ZELDA" Name="LOC_LEADER_ZELDA_NAME" InheritFrom="LEADER_DEFAULT" />
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ZELDA" TraitType="TRAIT_LEADER_GODDESS_HARP"/>
+	</LeaderTraits>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ZELDA" AgendaType="AGENDA_DEVOUT"/>
+	</HistoricalAgendas>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_GODDESS_HARP" Name="LOC_TRAIT_LEADER_GODDESS_HARP_NAME" Description="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_GODDESS_HARP" ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" ModifierType="MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS" RunOnce="1" Permanent="1"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="GreatPersonClassType" Value="GREAT_PERSON_CLASS_MUSICIAN" />
+		<Row ModifierId="TRAIT_HYLIAN_BONUS_GREAT_MUSICIAN_POINTS" Name="Amount" Value="2" />
+	</ModifierArguments>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_ZELDA" ForegroundImage="LEADER_ZELDA_NEUTRAL.dds" LeaderText="LOC_ZELDA_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_ZELDA" BackgroundImage="Zelda_Diplomacy_Background.dds"/>
+	</DiplomacyInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_HYRULE_PRIMARY</Type>
+			<Red>0.831</Red>
+			<Green>0.792</Green>
+			<Blue>0.564</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_HYRULE_SECONDARY</Type>
+			<Red>0.564</Red>
+			<Green>0.831</Green>
+			<Blue>0.658</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ZELDA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_HYRULE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_HYRULE_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!--Civilizations/Leaders -->
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_NAME" Language="ja_JP">
+			<Text>ハイラル文明</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Language="ja_JP">
+			<Text>ハイラル文明</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ZELDA_NAME" Language="ja_JP">
+			<Text>ゼルダ姫</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" Language="ja_JP">
+			<Text>ハイラル文明</Text>
+		</Replace>
+		<!--Traits -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SACRED_STONES_NAME" Language="ja_JP">
+			<Text>聖魔の光石</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SACRED_STONES_DESCRIPTION" Language="ja_JP">
+			<Text>鉱物系の資源（ヒスイ、石膏、ダイヤモンド、銀、真珠）から [ICON_Faith] 信仰力+3。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_LEADER_GODDESS_HARP_NAME" Language="ja_JP">
+			<Text>女神のハープ</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" Language="ja_JP">
+			<Text>ターンごとに [ICON_GreatMusician] 大音楽家ポイント+2。</Text>
+		</Replace>
+
+		<!-- Improvements -->
+		<Replace Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Language="ja_JP">
+			<Text>妖精の泉</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Language="ja_JP">
+			<Text>ハイラル文明固有の地形改善。[ICON_Culture] 文化力+1。妖精の泉を建設したしたタイル上にいる全てのユニットはターン開始時に全回復。隣接した森林の数 [ICON_Culture] +1。時の勇者のみ建設できる。</Text>
+		</Replace>
+
+		<!-- Units -->
+		<Replace Tag="LOC_UNIT_HERO_OF_TIME_NAME" Language="ja_JP">
+			<Text>時の勇者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" Language="ja_JP">
+			<Text>膨大な信仰力を消費して獲得できる、剣士に変わる強力なユニット。新しい時代に進むたびに無償で1ユニット獲得できる。</Text>
+		</Replace>
+
+		<!-- Buildings -->
+		<Replace Tag="LOC_BUILDING_TEMPLE_OF_TIME_NAME" Language="ja_JP">
+			<Text>時の神殿</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION" Language="ja_JP">
+			<Text>神殿に取って代わる建造物。傑作 (音楽) スロット+2。[ICON_GreatMusician] ターンごとの大音楽家ポイント+1。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ZELDA_DOM_TEXT" Language="ja_JP">
+			<Text>賢きゼルダ姫よ、あなたの知恵は神々によって授けられ、そしてその神々がハイラルの運命を委ねました。あなたならばハイラルの人々が数々の試練に打ち勝てるように導くことができるだろう。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

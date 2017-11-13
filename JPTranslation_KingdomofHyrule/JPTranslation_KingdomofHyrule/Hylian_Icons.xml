@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- UB -->
+		<Row Name="ICON_HYLIAN_BUILDINGS"     IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Temple_Of_Time32.dds"/>
+		<Row Name="ICON_HYLIAN_BUILDINGS"     IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Temple_Of_Time38.dds"/>
+		<Row Name="ICON_HYLIAN_BUILDINGS"     IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Temple_Of_Time50.dds"/>
+		<Row Name="ICON_HYLIAN_BUILDINGS"     IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Temple_Of_Time80.dds"/>
+		<Row Name="ICON_HYLIAN_BUILDINGS"     IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Temple_Of_Time128.dds"/>
+		<Row Name="ICON_HYLIAN_BUILDINGS"     IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Temple_Of_Time256.dds"/>
+		<Row Name="ICON_HYLIAN_BUILDINGS_FOW" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Temple_Of_Time32.dds"/>
+		<!-- Civilization -->
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas22.dds"/>
+	    <Row Name="ICON_ATLAS_HYLIAN" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas30.dds"/>
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas36.dds"/>		<!-- Individual Rankings-->
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas44.dds"/>
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas45.dds"/>		<!-- Game Menu -->
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas48.dds"/>		<!-- Overall Rankings -->
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas50.dds"/>		<!-- Civilopedia icon link from Leader page -->
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas64.dds"/>		<!-- City View -->
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas80.dds"/>
+		<Row Name="ICON_ATLAS_HYLIAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Hylian_Atlas256.dds"/>	<!-- Civilopedia -->
+		<!-- Unique Improvement -->
+		<Row Name="ICON_HYLIAN_IMPROVEMENTS"     IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain32.dds"/>
+		<Row Name="ICON_HYLIAN_IMPROVEMENTS"     IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain38.dds"/>
+		<Row Name="ICON_HYLIAN_IMPROVEMENTS"     IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain50.dds"/>
+		<Row Name="ICON_HYLIAN_IMPROVEMENTS"     IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain80.dds"/>
+		<Row Name="ICON_HYLIAN_IMPROVEMENTS"     IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain128.dds"/>
+		<Row Name="ICON_HYLIAN_IMPROVEMENTS"     IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain256.dds"/>
+		<Row Name="ICON_HYLIAN_IMPROVEMENTS_FOW" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain32.dds"/>
+		<!-- Leader -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda45.dds"/>	<!-- ?? -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda45.dds"/>	<!-- Primary ingame -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda45.dds"/>	<!-- Civilopedia link from Civ page -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda55.dds"/>	<!-- Civ summary (click on leader icon ingame) -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda64.dds"/>	<!-- ?? -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda80.dds"/>	<!-- ?? -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Zelda256.dds"/><!-- Large Civilopedia -->
+		<!-- UU -->
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime22.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime50.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime80.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime256.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS_FOW"                                  IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime22.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime80.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"              IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Link256.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="Link200.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Link50.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Link38.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_ASIAN_HYLIAN_UNIT_PORTRAITS"          IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="Link70.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_ASIAN_HYLIAN_UNIT_PORTRAITS"          IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="Link70.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="Link70.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="Link70.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- UB -->
+		<Row Name="ICON_BUILDING_TEMPLE_OF_TIME"                      Atlas="ICON_HYLIAN_BUILDINGS"                                  Index="0"/>
+		<Row Name="ICON_BUILDING_TEMPLE_OF_TIME_FOW"                  Atlas="ICON_HYLIAN_BUILDINGS_FOW"                              Index="0"/>
+		<!-- Civilization -->						                  									                             
+		<Row Name="ICON_CIVILIZATION_HYLIAN"                          Atlas="ICON_ATLAS_HYLIAN"                                      Index="0"/>
+		<!-- Unique Improvement -->						              									                             
+		<Row Name="ICON_IMPROVEMENT_FAIRY_FOUNTAIN"                   Atlas="ICON_HYLIAN_IMPROVEMENTS"                               Index="0"/>
+		<Row Name="ICON_IMPROVEMENT_FAIRY_FOUNTAIN_FOW"	              Atlas="ICON_HYLIAN_IMPROVEMENTS_FOW"                           Index="0"/>
+		<!-- Leader -->									              
+		<Row Name="ICON_LEADER_ZELDA"                                 Atlas="ICON_ATLAS_ZELDA"                                       Index="0"/>
+		<!-- UU -->
+		<Row Name="ICON_UNIT_HERO_OF_TIME"                            Atlas="ICON_HYLIAN_UNITS"                                      Index="0"/>
+		<Row Name="ICON_UNIT_HERO_OF_TIME_FOW"                        Atlas="ICON_HYLIAN_UNITS_FOW"                                  Index="0"/>
+		<Row Name="ICON_UNIT_HERO_OF_TIME_WHITE"                      Atlas="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              Index="0"/>
+		<Row Name="ICON_UNIT_HERO_OF_TIME_BLACK"                      Atlas="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"              Index="0"/>
+		<Row Name="ICON_UNIT_HERO_OF_TIME_PORTRAIT"                   Atlas="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HERO_OF_TIME_PORTRAIT"   Atlas="ICON_HYLIAN_ATLAS_ASIAN_HYLIAN_UNIT_PORTRAITS"          Index="0"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HERO_OF_TIME_PORTRAIT"   Atlas="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  Index="0"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HERO_OF_TIME_PORTRAIT" Atlas="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" Index="0"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HERO_OF_TIME_PORTRAIT" Atlas="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        Index="0"/>
+	</IconDefinitions>
+</GameData>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!--Civilizations/Leaders -->
+		<Row Tag="LOC_CIVILIZATION_HYLIAN_NAME" Language="en_US">
+			<Text>Hylian</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HYLIAN_DESCRIPTION" Language="en_US">
+			<Text>Hylian Civilization</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ZELDA_NAME" Language="en_US">
+			<Text>Princess Zelda</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HYLIAN_ADJECTIVE" Language="en_US">
+			<Text>Hylian</Text>
+		</Row>
+		<!--Traits -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SACRED_STONES_NAME" Language="en_US">
+			<Text>Sacred Stones</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SACRED_STONES_DESCRIPTION" Language="en_US">
+			<Text>Precious metal resources (Jade, Gypsum, Diamonds, Silver, Pearls) grant +3 [ICON_Faith].</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_GODDESS_HARP_NAME" Language="en_US">
+			<Text>Goddess's Harp</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" Language="en_US">
+			<Text>Gain +2 free [ICON_GreatMusician] Great Musician points per turn.</Text>
+		</Row>
+
+		<!-- Improvements -->
+		<Row Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Language="en_US">
+			<Text>Fairy Fountain</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Language="en_US">
+			<Text>Unique to Hylian. Provides +1 [ICON_Culture] culture, and units on this tile completely heal after standing on it for a full turn. Improve culture yield by 1 when built adjacent to woods. Can only be built by the Hero of Time.</Text>
+		</Row>
+
+		<!-- Units -->
+		<Row Tag="LOC_UNIT_HERO_OF_TIME_NAME" Language="en_US">
+			<Text>Hero of Time</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" Language="en_US">
+			<Text>Can be purchased with a large amount of faith. Powerful Swordsman replacement. Gain one free at the beginning of each new era.</Text>
+		</Row>
+
+		<!-- Buildings -->
+		<Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_NAME" Language="en_US">
+			<Text>Temple of Time</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION" Language="en_US">
+			<Text>Unique Temple replacement. Holds 2 [ICON_GreatWork_Music] Great Work of Music slots, and +1 [ICON_GreatMusician] Great Musician points per turn.</Text>
+		</Row>
+
+		<Row Tag="LOC_ZELDA_DOM_TEXT" Language="en_US">
+			<Text>O, wise Princess Zelda, throughout the ages you have defied evil and bore the burdens of your ancestors without complaint or struggle. Your wisdom has been passed down to you by the Gods, and those same Gods have entrusted you with your nation's fate. Will you accept, Princess Zelda? Will you allow Hyrule to become a civilization that stands the test of time?</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

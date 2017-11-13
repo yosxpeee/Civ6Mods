@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_HERO_OF_TIME" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME" Kind="KIND_TRAIT" />
+	</Types>
+
+	<TypeTags>
+		<Row Type="UNIT_HERO_OF_TIME" Tag="CLASS_MELEE"/>
+	</TypeTags>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME" Name="LOC_TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME_NAME"/>
+	</Traits>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
+	</CivilizationTraits>
+
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_TEMPLE_OF_TIME" NumSupported="-1"/>
+	</Unit_BuildingPrereqs>
+
+	<Units>
+		<Row UnitType="UNIT_HERO_OF_TIME"
+			 BaseMoves="3"
+			 Cost="1000"
+			 AdvisorType="ADVISOR_CONQUEST"
+			 BaseSightRange="3"
+			 ZoneOfControl="true"
+			 Domain="DOMAIN_LAND"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 Name="LOC_UNIT_HERO_OF_TIME_NAME"
+			 Description="LOC_UNIT_HERO_OF_TIME_DESCRIPTION"
+			 PurchaseYield="YIELD_FAITH"
+			 MustPurchase="true"
+			 PromotionClass="PROMOTION_CLASS_MELEE"
+			 Maintenance="8"
+			 Combat="55"
+			 BuildCharges="3"
+			 StrategicResource="RESOURCE_IRON"
+			 PrereqTech="TECH_IRON_WORKING"
+			 InitialLevel="1"
+			 MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
+	</Units>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_HERO_OF_TIME" ReplacesUnitType="UNIT_SWORDSMAN" />
+	</UnitReplaces>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+</GameInfo>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilopedia -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_TITLE"  Language="ja_JP">
+			<Text>ゼルダ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_SUBTITLE"  Language="ja_JP">
+			<Text>賢明なる姫</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_1"  Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_2"  Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ZELDA_CHAPTER_HISTORY_PARA_3"  Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_1"  Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HYLIAN_CHAPTER_HISTORY_PARA_2"  Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- Civilization Info -->
+		<Replace Tag="LOC_CIVINFO_HYLIAN_LOCATION" Language="ja_JP">
+			<Text>ハイラル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_HYLIAN_SIZE" Language="ja_JP">
+			<Text>360km四方</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_HYLIAN_POPULATION" Language="ja_JP">
+			<Text>約300万人</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_HYLIAN_CAPITAL" Language="ja_JP">
+			<Text>ハイラル城</Text>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_1" Language="ja_JP">
+			<Text>ハイラル城</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_2" Language="ja_JP">
+			<Text>カカリコ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_3" Language="ja_JP">
+			<Text>ラトアーヌ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_4" Language="ja_JP">
+			<Text>フィローネ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_5" Language="ja_JP">
+			<Text>スノウピーク</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_6" Language="ja_JP">
+			<Text>グレートベイ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_7" Language="ja_JP">
+			<Text>イカーナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_8" Language="ja_JP">
+			<Text>ウッドフォール</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_9" Language="ja_JP">
+			<Text>ロマニー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_10" Language="ja_JP">
+			<Text>クロックタウン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_11" Language="ja_JP">
+			<Text>オルディン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_12" Language="ja_JP">
+			<Text>ラネール</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_13" Language="ja_JP">
+			<Text>スカイロフト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_14" Language="ja_JP">
+			<Text>シーヴスタウン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_15" Language="ja_JP">
+			<Text>メーベ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_16" Language="ja_JP">
+			<Text>レンヌ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_17" Language="ja_JP">
+			<Text>ホロン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_18" Language="ja_JP">
+			<Text>ウーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_19" Language="ja_JP">
+			<Text>ウィンドフォール</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_20" Language="ja_JP">
+			<Text>ドラゴン・ルースト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_21" Language="ja_JP">
+			<Text>アウトセット</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_22" Language="ja_JP">
+			<Text>フォレスト・ヘイヴン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_23" Language="ja_JP">
+			<Text>オールド・カスト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_24" Language="ja_JP">
+			<Text>ニュー・カスト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_25" Language="ja_JP">
+			<Text>モヨリ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_26" Language="ja_JP">
+			<Text>ユキワロシ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_HYLIAN_CITY_27" Language="ja_JP">
+			<Text>パプチア</Text>
+		</Replace>
+
+		<!-- Diplomacy -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>貴方の国は強く、美しく、純粋です。受け入れましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>申し訳ありません、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>私たちはここに貴国との友好の宣言をしたいと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>これは素晴らしい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>そうですか...わかりました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>私はハイラルを守る。王室の近衛兵たちも、王室へ忠実なものも。あなたは後悔することになるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>繁栄への道には多くの試練が待ち構えています。あなたはその試練の一つです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>私たちはあなたの貿易代表団とあなたの贈り物を受け取りました。彼らは名誉あるゲストとして扱われます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、拒否させていただきます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>こちらの使節を受け入れていただけるでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>それは賢明とはいえませんね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>貴方の存在はガノンが送りだした私たちへの試練だと信じています。彼が勝つことなどありません。(非難)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>ようこそハイラルへ。私はゼルダ、知恵のトライフォースを持つものです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>よろしければ私たちの風光明媚なる城を見ていきませんか？あなたが訪問することを光栄に思っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>これは素晴らしい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>今後の交流のため、お互いの都の情報を交換しましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>喜ばしいことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>私たちはあなたの神への献身を喜ばしく思っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZELDA_REASON_ANY" Language="ja_JP">
+			<Text>([ICON_Faith] 信仰力が強い)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>私は毎日、あなたの魂に祈っています。どうか神のご加護を得られることを。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZELDA_REASON_ANY" Language="ja_JP">
+			<Text>([ICON_Faith] 信仰力が弱い)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>ハイラルは誇り高き国。貴国もそうだと信じています。共に歩んでいきましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>賢明なる判断、喜ばしく思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>今はその時ではありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>戦いを終わらせましょう。和平を結びたいのです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>貴方の民がハイラルに来ることを歓迎します。美しき国への旅をお楽しみください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>申し訳ありませんが、いまハイラルの国境を開放するわけにはいかないのです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>貴国の領内への通行許可をいただけるでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>国境の近くにいる怪しげな軍隊を遠ざけてもらえますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>ハイラルが滅びる...新しき暗黒の時代が始まる...リンク！もし聞こえているなら、私たちを助けて！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>正直なところ、失望しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
+			<Text>ありがとうございます。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

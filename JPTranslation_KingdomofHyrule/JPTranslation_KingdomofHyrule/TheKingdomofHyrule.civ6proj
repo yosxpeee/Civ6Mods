@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>The Kingdom of Hyrule</Name>
+    <Guid>484b4602-7683-472e-935c-56de5dc51319</Guid>
+    <ProjectGuid>e4f305c6-2eb8-411a-b410-28612ddd12e1</ProjectGuid>
+    <ModVersion>2</ModVersion>
+    <Teaser>The Kingdom of Hyrule 0.2.1.2</Teaser>
+    <Description>The Kingdom of Hyrule
+(Japanese Translated and some fixed by yosxpeee)</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>Hylian_Leaders.xml</File><File>Hylian_Civilizations.xml</File><File>Hylian_Buildings.xml</File><File>Hylian_Improvement.xml</File><File>Hylian_Units.xml</File><File>GameplayScripts/Hylian_GameplayScripts.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>Hylian_ConfigText.xml</File><File>Hylian_Text.xml</File><File>Hylian_ConfigTextJP.xml</File><File>Hylian_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>Hylian_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="HYLIAN_IMPORT"><File>Textures/FALLBACK_NEUTRAL_ZELDA.dds</File><File>Textures/LEADER_ZELDA_NEUTRAL.dds</File><File>Textures/Fairy_Fountain128.dds</File><File>Textures/Fairy_Fountain256.dds</File><File>Textures/Fairy_Fountain32.dds</File><File>Textures/Fairy_Fountain38.dds</File><File>Textures/Fairy_Fountain50.dds</File><File>Textures/Fairy_Fountain80.dds</File><File>Textures/HeroOfTime32.dds</File><File>Textures/HeroOfTime40.dds</File><File>Textures/HeroOfTime50.dds</File><File>Textures/HeroOfTime80.dds</File><File>Textures/Hylian_Atlas22.dds</File><File>Textures/Hylian_Atlas256.dds</File><File>Textures/Hylian_Atlas30.dds</File><File>Textures/Hylian_Atlas36.dds</File><File>Textures/Hylian_Atlas44.dds</File><File>Textures/Hylian_Atlas45.dds</File><File>Textures/Hylian_Atlas48.dds</File><File>Textures/Hylian_Atlas50.dds</File><File>Textures/Hylian_Atlas64.dds</File><File>Textures/Hylian_Atlas80.dds</File><File>Textures/Link256.dds</File><File>Textures/Link32.dds</File><File>Textures/Link38.dds</File><File>Textures/Link50.dds</File><File>Textures/Link80.dds</File><File>Textures/Temple_Of_Time128.dds</File><File>Textures/Temple_Of_Time256.dds</File><File>Textures/Temple_Of_Time32.dds</File><File>Textures/Temple_Of_Time38.dds</File><File>Textures/Temple_Of_Time50.dds</File><File>Textures/Temple_Of_Time80.dds</File><File>Textures/Zelda_Diplomacy_Background.dds</File><File>Textures/Zelda_Loading_Background.dds</File><File>Textures/Zelda256.dds</File><File>Textures/Zelda32.dds</File><File>Textures/Zelda45.dds</File><File>Textures/Zelda48.dds</File><File>Textures/Zelda50.dds</File><File>Textures/Zelda55.dds</File><File>Textures/Zelda64.dds</File><File>Textures/Zelda80.dds</File></ImportFiles><AddGameplayScripts id="Scripts"><File>GameplayScripts/Hylian_GameplayScripts.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Hylian_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Hylian_ConfigText.xml</File><File>Hylian_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Hylian_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_ZELDA</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>JPTranslation_KingdomofHyrule</AssemblyName>
+    <RootNamespace>JPTranslation_KingdomofHyrule</RootNamespace>
+    <Authors>decster584</Authors>
+    <SpecialThanks>yosxpeee</SpecialThanks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Hylian_Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Hylian_Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Hylian_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameplayScripts\Hylian_GameplayScripts.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GameplayScripts\Hylian_GameplayScripts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Hylian_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Hylian_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Hylian_Improvement.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Fairy_Fountain80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HeroOfTime80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Hylian_Atlas80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link70.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link95.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Link95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ZELDA.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_ZELDA.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Temple_Of_Time80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Zelda_Diplomacy_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Hylian_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="GameplayScripts\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Hylian_Config.xml" />
+    <Content Include="Hylian_ConfigText.xml" />
+    <Content Include="Hylian_Civilizations.xml" />
+    <Content Include="Hylian_Icons.xml" />
+    <Content Include="Hylian_Leaders.xml" />
+    <Content Include="Hylian_Buildings.xml" />
+    <Content Include="Hylian_Text.xml" />
+    <Content Include="Textures\FALLBACK_NEUTRAL_ZELDA.dds" />
+    <Content Include="Textures\FALLBACK_NEUTRAL_ZELDA.tex" />
+    <Content Include="Textures\LEADER_ZELDA_NEUTRAL.dds" />
+    <Content Include="Textures\LEADER_ZELDA_NEUTRAL.tex" />
+    <Content Include="ArtDefs\FallbackLeaders.artdef" />
+    <Content Include="XLPs\LeaderFallbacks.xlp" />
+    <Content Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

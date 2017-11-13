@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row Domain="StandardPlayers" CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_ZELDA" CivilizationName="LOC_CIVILIZATION_HYLIAN_NAME" CivilizationIcon="ICON_CIVILIZATION_HYLIAN" LeaderName="LOC_LEADER_ZELDA_NAME" LeaderIcon="ICON_LEADER_ZELDA" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_SACRED_STONES_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_SACRED_STONES_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_HYLIAN" LeaderAbilityName="LOC_TRAIT_LEADER_GODDESS_HARP_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_GODDESS_HARP_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_ZELDA" Portrait="PORTRAIT_ZELDA"/>
+	</Players>
+	<PlayerItems>
+		<Row Domain="StandardPlayers" CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_ZELDA" Type="IMPROVEMENT_FAIRY_FOUNTAIN" Icon="ICON_IMPROVEMENT_FAIRY_FOUNTAIN" Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME" Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" SortIndex="10" />
+		<Row Domain="StandardPlayers" CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_ZELDA" Type="BUILDING_TEMPLE_OF_TIME" Icon="ICON_BUILDING_TEMPLE_OF_TIME" Name="LOC_BUILDING_TEMPLE_OF_TIME_NAME" Description="LOC_BUILDING_TEMPLE_OF_TIME_DESCRIPTION" SortIndex="20" />
+		<Row Domain="StandardPlayers" CivilizationType="CIVILIZATION_HYLIAN" LeaderType="LEADER_ZELDA" Type="UNIT_HERO_OF_TIME" Icon="ICON_UNIT_HERO_OF_TIME" Name="LOC_UNIT_HERO_OF_TIME_NAME" Description="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" SortIndex="30" />
+	</PlayerItems>
+</GameData>
