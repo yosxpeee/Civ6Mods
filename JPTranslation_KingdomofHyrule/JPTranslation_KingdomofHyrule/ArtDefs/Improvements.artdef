@@ -93,14 +93,6 @@
 										<m_ParamName text="SuppressResource"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
-										<m_ElementName text="ANYTHING"/>
-										<m_RootCollectionName text=""/>
-										<m_ArtDefPath text=""/>
-										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
-										<m_ParamName text="WhenAdjacentTo"/>
-									</Element>
-									<Element class="AssetObjects:ArtDefReferenceValue">
 										<m_ElementName text="NONE"/>
 										<m_RootCollectionName text=""/>
 										<m_ArtDefPath text=""/>
@@ -110,16 +102,15 @@
 									</Element>
 									<Element class="AssetObjects:IntValue">
 										<m_nValue>0</m_nValue>
-										<m_ParamName text="Priority"/>
+										<m_ParamName text="SelectionPriority"/>
+									</Element>
+									<Element class="AssetObjects:StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
-							<m_ChildCollections>
-								<Element>
-									<m_CollectionName text="WhenAffectedBy"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
-								</Element>
-							</m_ChildCollections>
+							<m_ChildCollections/>
 							<m_Name text="Landmark1"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
