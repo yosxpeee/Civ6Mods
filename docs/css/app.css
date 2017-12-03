@@ -1,0 +1,23 @@
+body {
+	background-image: url(../images/CharcoalDamask.png);
+	background-repeat: repeat;
+	margin-bottom: 50px;
+}
+hr {
+	height: 6px;
+	background-image: radial-gradient(
+		closest-side,
+		hsla(0, 0%, 50%, 1.0),
+		hsla(0, 0%, 50%, 0) 100%);
+	position: relative;
+}
+.tabs {
+	background-color: rgba(255,255,255,0.75);
+}
+.tabs-content {
+	background-color: rgba(255,255,255,0.25);
+}
+.callout {
+	border-radius: 10px;
+	background: linear-gradient(rgba(333,333,333,0) 0%, rgba(333,333,333,1) 50px, rgba(333,333,333,0) 100%);
+}
