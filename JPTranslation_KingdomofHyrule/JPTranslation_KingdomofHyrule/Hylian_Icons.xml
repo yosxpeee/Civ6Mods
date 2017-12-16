@@ -29,7 +29,7 @@
 		<Row Name="ICON_HYLIAN_IMPROVEMENTS"     IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain256.dds"/>
 		<Row Name="ICON_HYLIAN_IMPROVEMENTS_FOW" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Fairy_Fountain32.dds"/>
 		<!-- Leader -->
-		<Row Name="ICON_ATLAS_ZELDA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda45.dds"/>	<!-- ?? -->
+		<Row Name="ICON_ATLAS_ZELDA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda32.dds"/>	<!-- ?? -->
 		<Row Name="ICON_ATLAS_ZELDA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda45.dds"/>	<!-- Primary ingame -->
 		<Row Name="ICON_ATLAS_ZELDA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda45.dds"/>	<!-- Civilopedia link from Civ page -->
 		<Row Name="ICON_ATLAS_ZELDA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda55.dds"/>	<!-- Civ summary (click on leader icon ingame) -->
