@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's NewLeader - Mesugaki(Kururu)</Name>
+    <Guid>58c91ab2-fd4b-4659-a075-a5413176ab67</Guid>
+    <ProjectGuid>b365f16b-d7c3-44a0-aada-f0de34c57e2a</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Yossie's New Leader - Mesugaki v0.1</Teaser>
+    <Description>Yossie's New Leader - Mesugaki</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Civilizations.xml</File><File>YNL_Mesugaki_Leaders.xml</File><File>YNL_Mesugaki_UD.xml</File><File>YNL_Mesugaki_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_ConfigText.xml</File><File>YNL_Mesugaki_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Imports"><File>Textures/YNL_Mesugaki_Loading_Background.dds</File><File>Textures/YNL_Mesugaki_Loading_Foreground.dds</File><File>Textures/YNL_Mesugaki_Diplomacy_Background.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Mesugaki_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Mesugaki_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_MESUGAKI</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>NewLeader8</AssemblyName>
+    <RootNamespace>NewLeader8</RootNamespace>
+    <Authors>yosxpeee</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Animations\" />
+    <Folder Include="Artdefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Materials\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="Animations\antitankgun_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_start_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_start_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\antitankgun_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Mesugaki_Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Mesugaki_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Mesugaki_Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Mesugaki_Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Anti-tank_Defender.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Anti-tank_gun.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Anti-tank_Gunner.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Infantry_Helm_German_A.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Luger_Pistol.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Sturmgewehr_44.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\AntiTankDefender.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Behaviors\AntiTankGunner.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MESUGAKI80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_Mesugaki_Diplomacy_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_Mesugaki_Loading_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_Mesugaki_Loading_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_Mesugaki_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Mesugaki_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Anti-tank_Crew.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Anti-tank_Crew.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\AntiTankGun.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\AntiTankGun.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Infantry_Helm_German_A.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\Infantry_Helm_German_A.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LugerP08.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\LugerP08.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\StG_44.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\StG_44.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Anti-tank_Crew_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Anti-tank_Gun_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\LugerP08_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\StG_44_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_crew_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_crew_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_crew_ao.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_crew_ao.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_crew_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_crew_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_crew_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_crew_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_ao.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_ao.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\anti-tank_gun_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GenericTint_4x4_black.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GenericTint_4x4_black.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_black.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_black.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_white.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Generic_4x4_white.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_ao.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_ao.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LugerP08_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_a.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_a.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_ao.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_ao.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_g.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_g.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_m.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_m.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_n.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\StG_44_n.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_Mesugaki_Units.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Mesugaki_Config.xml" />
+    <Content Include="YNL_Mesugaki_ConfigText.xml" />
+    <Content Include="YNL_Mesugaki_Civilizations.xml" />
+    <Content Include="YNL_Mesugaki_Icons.xml" />
+    <Content Include="YNL_Mesugaki_Leaders.xml" />
+    <Content Include="YNL_Mesugaki_UD.xml" />
+    <Content Include="YNL_Mesugaki_Text.xml" />
+    <None Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_MESUGAKI.dds" />
+    <None Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_MESUGAKI.tex" />
+    <None Include="Textures\LEADER_YNL_MESUGAKI_NEUTRAL.dds" />
+    <None Include="Textures\LEADER_YNL_MESUGAKI_NEUTRAL.tex" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

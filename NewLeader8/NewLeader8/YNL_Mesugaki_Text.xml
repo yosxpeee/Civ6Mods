@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_LIVERY_COMPANY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Under Construction</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MESUGAKI_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Under Construction</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MESUGAKI_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Under Construction</Text>
+		</Row>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MESUGAKI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Under Construction</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_POM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Under Construction</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_YNL_POM_MALE_1" Language="en_US">
+			<Text>Michael Psellos(ミカエル・プセルロス)</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_POM_MALE_2" Language="en_US">
+			<Text>Themistocles(テミストクレス)</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_POM_MALE_3" Language="en_US">
+			<Text>Marquis de Sade(マルキ・ド・サド)</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_POM_MALE_4" Language="en_US">
+			<Text>Józef Bem(ユゼフ・ベム)</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_POM_FEMALE_1" Language="en_US">
+			<Text>Anna Komnena(アンナ・コムネナ)</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_POM_FEMALE_2" Language="en_US">
+			<Text>Sarah Bernhardt(サラ・ベルナール)</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_POM_FEMALE_3" Language="en_US">
+			<Text>Hedy Lamarr(ヘディ・ラマー)</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_POM_FEMALE_4" Language="en_US">
+			<Text>Mata Hari(マタ・ハリ)</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_POM_FEMALE_5" Language="en_US">
+			<Text>Maria Theresia(マリア・テレジア)</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_1" Language="en_US">
+			<Text>Londinium(ロンディニウム)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_2" Language="en_US">
+			<Text>Camulodunum(カムロドゥナム)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_3" Language="en_US">
+			<Text>Eboracum(エボラクム)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_4" Language="en_US">
+			<Text>Massilia(マッシリア)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_5" Language="en_US">
+			<Text>Serviacum(セルヴィアクム)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_6" Language="en_US">
+			<Text>Rendlesham(レンデルシャム)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_7" Language="en_US">
+			<Text>Dommoc(ドモック)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_8" Language="en_US">
+			<Text>Vorgium(ウォルジウム)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_9" Language="en_US">
+			<Text>Aelia Capitolina(アエリア・カピトリナ)</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_POM_CITY_10" Language="en_US">
+			<Text>Trajectum(トライェクトゥム)</Text>
+		</Row>
+
+		<!--Civilization Factoids -->
+		<!--
+		<Row Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="en_US">
+			<Text>Binomial Name</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_FELIS_CATUS" Language="en_US">
+			<Text>Felis catus</Text>
+		</Row>
+		-->
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_YNL_MESUGAKI_QUOTE" Language="en_US">
+			<Text>(@_@)</Text>
+		</Row>
+    
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_MESUGAKI_ANY" Language="en_US">
+		  <Text>Mrow! I am the mighty Jasper Kitty.  Pet me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YNL_MESUGAKI_ANY" Language="en_US">
+		  <Text>I haz a box.  Wanna see?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YNL_MESUGAKI_ANY" Language="en_US">
+		  <Text>Let me rub my face on all of your stuff so that it will be mine.</Text>
+		</Row>
+
+		<!-- UU Ability -->
+		<Row Tag="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="en_US">
+			<Text>Anti-Cavalry</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength against light cavalry and heavy cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+7 against cavalry</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

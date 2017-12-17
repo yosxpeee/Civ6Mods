@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM36.dds"/>
+		-->
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM45.dds"/>
+		<!--
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM80.dds"/>
+		-->
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM256.dds"/>
+		
+		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI32"/>
+		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI45"/>
+		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI50"/>
+		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI55"/>
+		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI64"/>
+		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI80"/>
+		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- 文明 -->
+		<Row Name="ICON_CIVILIZATION_YNL_POM"               Atlas="ICON_ATLAS_CIVILIZATION_YNL_POM" Index="0"/>
+		<!-- 指導者 -->					                     
+		<Row Name="ICON_LEADER_YNL_MESUGAKI"                Atlas="ICON_ATLAS_LEADER_YNL_MESUGAKI"  Index="0"/>
+		<!-- UD(商業ハブの使いまわし) -->
+		<Row Name="ICON_DISTRICT_LIVERY_COMPANY"            Atlas="ICON_ATLAS_DISTRICTS"     Index="6"/>
+		<Row Name="ICON_DISTRICT_LIVERY_COMPANY_FOW"        Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="6"/>
+		<!-- UU(機関銃の使いまわし) -->
+		<Row Name="ICON_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_WHITE"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="83" />
+		<Row Name="ICON_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_BLACK"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="83" />
+		<Row Name="ICON_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"                            Atlas="ICON_ATLAS_UNITS"                           Index="83"/>
+		<Row Name="ICON_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_FOW"                        Atlas="ICON_ATLAS_UNITS_FOW"                       Index="83"/>
+		<Row Name="ICON_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="17"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="17"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="17"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="17"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="17"/>
+	</IconDefinitions>
+</GameData>

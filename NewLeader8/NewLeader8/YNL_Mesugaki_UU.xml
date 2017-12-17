@@ -1,0 +1,63 @@
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"         Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"         Tag="CLASS_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"/>
+		<Row Type="ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" Tag="CLASS_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" Name="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Description="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" AiType="UNITAI_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" ReplacesUnitType="UNIT_MACHINE_GUN"/>
+	</UnitReplaces>
+	<Units>
+		<!-- 基本能力：射程3、近接70、遠隔80(機関銃と比べて射程+2、各戦闘力+5) -->
+		<Row UnitType="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" BaseMoves="2" Cost="540" AdvisorType="ADVISOR_CONQUEST" 
+			 BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			 Name="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Description="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION" PurchaseYield="YIELD_GOLD" 
+			 PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="6" Combat="70" RangedCombat="80" Range="3" PrereqTech="TECH_ADVANCED_BALLISTICS" 
+			 TraitType="TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"/>
+	</Units>
+	<!-- ユニットのアビリティ：対騎兵系に+7戦闘力 -->
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE</UnitAbilityType>
+			<ModifierId>ANTI_CAVALRY_COMBAT_BONUS_MESUGAKI</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ANTI_CAVALRY_COMBAT_BONUS_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ANTI_CAVALRY_OPPONENT_REQUIREMENTS</SubjectRequirementSetId><!-- これはバニラにある -->
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ANTI_CAVALRY_COMBAT_BONUS_MESUGAKI</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="ANTI_CAVALRY_COMBAT_BONUS_MESUGAKI" Context="Preview" Text="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<!--
+	<UnitUpgrades>
+		<Row Unit="UNIT_FIELD_CANNON" UpgradeUnit="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"/>
+	</UnitUpgrades>
+	-->
+</GameInfo>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_YNL_POM" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_YNL_POM" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_LIVERY_COMPANY" Kind="KIND_TRAIT" />
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
+			<Name>LOC_CIVILIZATION_YNL_POM_NAME</Name>
+			<Description>LOC_CIVILIZATION_YNL_POM_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_YNL_POM_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" LeaderType="LEADER_YNL_MESUGAKI" CapitalName="LOC_CIVLIZATION_YNL_POM_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+
+	<!--
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
+	</CivilizationInfo>
+	-->
+	
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" TraitType="TRAIT_CIVILIZATION_YNL_POM" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" TraitType="TRAIT_CIVILIZATION_DISTRICT_LIVERY_COMPANY" />
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_POM"                 Name="LOC_TRAIT_CIVILIZATION_YNL_POM_NAME" Description="LOC_TRAIT_CIVILIZATION_YNL_POM_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_LIVERY_COMPANY" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_LIVERY_COMPANY_NAME" />
+	</Traits>
+	<TraitModifiers>
+		<!-- 全都市無条件に快適性+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
+			<ModifierId>TRAIT_MODIFIER_MESUGAKI_AMENITIES_BONUS</ModifierId>
+		</Row>
+		<!-- 区域は隣接する他の区域からも隣接ボーナス（1つにつき+1）を得る -->
+		<!-- ※日本の明治維新と同等 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_MODIFIER_MESUGAKI_AMENITIES_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+		</Row>
+		<Row>
+			<!-- リヴァリ・カンパニーはこのMOD固有なので効果まで定義する -->
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_MODIFIER_MESUGAKI_AMENITIES_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_LIVERY_COMPANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DISTRICT_1_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_10" />
+	</CityNames>
+</GameData>

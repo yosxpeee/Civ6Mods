@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_YNL_POM_NAME" Language="en_US">
+			<Text>Principality of Mesugaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YNL_POM_DESCRIPTION" Language="en_US">
+			<Text>Principality of Mesugaki</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YNL_POM_ADJECTIVE" Language="en_US">
+			<Text>Principality of Mesugaki</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_POM_NAME" Language="en_US">
+			<Text>Dream Land</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_POM_DESCRIPTION" Language="en_US">
+			<Text>All cities are +1 [ICON_Amenities] Amenities. All districts receive an additional standard adjacency bonus for being adjacent to another district.</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_YNL_MESUGAKI_NAME" Language="en_US">
+			<Text>Mesugaki(kururu)</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_MESUGAKI_NAME" Language="en_US">
+			<Text>Livestream Supporter</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_MESUGAKI_DESCRIPTION" Language="en_US">
+			<Text>Industrial Zones trigger a culture bomb. Opposing civilizations receive double the war weariness for fighting against Mesugaki.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_YNL_MESUGAKI_DOM_TEXT" Language="en_US">
+			<Text>Mesugaki Kawaii Yatta!!</Text>
+		</Row>
+
+		<!-- UD -->
+		<Row Tag="LOC_DISTRICT_LIVERY_COMPANY_NAME" Language="en_US">
+			<Text>Livery Company</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_LIVERY_COMPANY_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Principality of Mesugaki. Replaces the Commercial Hub district. +2 [ICON_GreatMerchant] Great Merchant Points, +2 [ICON_Production] Production from domestic [ICON_TradeRoute] Trade Routes. The other abilities are the same as Commercial Hub.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DISTRICT_LIVERY_COMPANY_NAME" Language="en_US">
+			<Text>Principality of Mesugaki unique district: Livery Company</Text>
+		</Row>
+
+		<!-- UU -->
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="en_US">
+			<Text>Mesugaki unique unit: Anti Material Rifle</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION" Language="en_US">
+			<Text>Mesugaki unique Atomic era unit. [ICON_Range] Range 3. +7 [ICON_Strength] Combat Strength against light cavalry and heavy cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="en_US">
+			<Text>Anti Material Rifle</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>

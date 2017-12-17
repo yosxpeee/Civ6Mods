@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_YNL_MESUGAKI" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_YNL_MESUGAKI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YNL_MESUGAKI</LeaderType>
+			<Name>LOC_LEADER_YNL_MESUGAKI_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YNL_MESUGAKI" Quote="LOC_LEADER_YNL_MESUGAKI_QUOTE"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YNL_MESUGAKI" TraitType="TRAIT_LEADER_YNL_MESUGAKI"/>
+		<Row LeaderType="LEADER_YNL_MESUGAKI" TraitType="TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YNL_MESUGAKI"                      Name="LOC_TRAIT_LEADER_YNL_MESUGAKI_NAME" Description="LOC_TRAIT_LEADER_YNL_MESUGAKI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" Name="LOC_TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME"/>
+	</Traits>
+	<TraitModifiers>
+		<!-- 工業地帯を建設すると文化爆弾発動 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
+			<ModifierId>TRAIT_INDUSTRIAL_ZONE_CULTURE_BOMB_MESUGAKI</ModifierId>
+		</Row>
+		<!-- 戦争相手の疲労度2倍(ガンジーの指導者特性と同一) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
+			<ModifierId>TRAIT_INCREASE_ENEMY_WAR_WEARINESS</ModifierId>
+		</Row>
+		<!-- 川沿いに兵営を建てると文化力+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
+			<ModifierId>TRAIT_ENCAMPMENT_RIVER_CULTURE_MESUGAKI</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_ZONE_CULTURE_BOMB_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_RIVER_CULTURE_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_ENCAMPMENT_RIVER_CULTURE_REQUIREMENTS_MESUGAKI</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_ZONE_CULTURE_BOMB_MESUGAKI</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_RIVER_CULTURE_MESUGAKI</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_RIVER_CULTURE_MESUGAKI</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_IS_ENCAMPMENT_RIVER_CULTURE_REQUIREMENTS_MESUGAKI</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_IS_ENCAMPMENT_RIVER_CULTURE_REQUIREMENTS_MESUGAKI</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ENCAMPMENT_RIVER_CULTURE_REQUIREMENTS_MESUGAKI</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	
+	<AiListTypes>
+		<Row ListType="YNL_MesugakiWonders"/>
+		<Row ListType="YNL_MesugakiCivics"/>
+		<Row ListType="YNL_MesugakiTechs"/>
+		<Row ListType="YNL_MesugakiLiveryCompanyDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Buildings -->
+		<Row ListType="YNL_MesugakiWonders"               LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Buildings"/>
+		<!-- Civics -->
+		<Row ListType="YNL_MesugakiCivics"                LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Civics"/>
+		<!-- Techs -->
+		<Row ListType="YNL_MesugakiTechs"                 LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Technologies"/>
+		<!-- District -->
+		<Row ListType="YNL_MesugakiLiveryCompanyDistrict" LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Buildings -->
+		<Row ListType="YNL_MesugakiWonders"				Item="BUILDING_PYRAMIDS"/>			<!-- ピラミッド -->
+		<Row ListType="YNL_MesugakiWonders"				Item="BUILDING_RUHR_VALLEY"/>		<!-- ルール地方 -->
+		<Row ListType="YNL_MesugakiWonders"				Item="BUILDING_COLOSSUS"/>			<!-- ロードス島の巨神像 -->
+		<Row ListType="YNL_MesugakiWonders"				Item="BUILDING_GREAT_ZIMBABWE"/>	<!-- グレートジンバブエ -->
+		<Row ListType="YNL_MesugakiWonders"				Item="BUILDING_BIG_BEN"/>			<!-- ビッグベン -->
+		<!-- Civics -->
+		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_POLITICAL_PHILOSOPHY"/>	<!-- 政治哲学 -->
+		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_EXPLORATION"/>			<!-- 探検 -->
+		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_MERCANTILISM"/>			<!-- 重商主義 -->
+		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_CAPITALISM"/>			<!-- 資本主義 -->
+		<!-- Techs -->
+		<Row ListType="YNL_MesugakiTechs"				Item="TECH_CURRENCY"/>				<!-- 通貨 -->
+		<Row ListType="YNL_MesugakiTechs"				Item="TECH_APPRENTICESHIP"/>		<!-- 徒弟制度 -->
+		<Row ListType="YNL_MesugakiTechs"				Item="TECH_ECONOMICS"/>				<!-- 経済学 -->
+		<Row ListType="YNL_MesugakiTechs"				Item="TECH_INDUSTRIALIZATION"/>		<!-- 工業化 -->
+		<Row ListType="YNL_MesugakiTechs"				Item="TECH_ELECTRICITY"/>			<!-- 電気 -->
+		<Row ListType="YNL_MesugakiTechs"				Item="TECH_ADVANCED_BALLISTICS"/>	<!-- 高度な弾道学 -->
+		<!-- District -->
+		<Row ListType="YNL_MesugakiLiveryCompanyDistrict" Item="DISTRICT_LIVERY_COMPANY" Favored="true"/>	<!-- リヴァリ・カンパニー -->
+	</AiFavoredItems>
+	<!-- アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_YNL_MESUGAKI" AgendaType="AGENDA_PEACEKEEPER"/>
+	</HistoricalAgendas>
+	
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YNL_MESUGAKI" BackgroundImage="YNL_Mesugaki_Loading_Background.dds" ForegroundImage="YNL_Mesugaki_Loading_Foreground.dds" LeaderText="LOC_LEADER_YNL_MESUGAKI_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_YNL_MESUGAKI" BackgroundImage="YNL_Mesugaki_Diplomacy_Background.dds"/>
+	</DiplomacyInfo>
+
+	<!-- 固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_MESUGAKI_PRIMARY</Type>
+			<Color>230,97,106,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_MESUGAKI_SECONDARY</Type>
+			<Color>179,191,244,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_YNL_MESUGAKI</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_YNL_MESUGAKI_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_YNL_MESUGAKI_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>
