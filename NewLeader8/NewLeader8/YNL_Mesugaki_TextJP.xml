@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MESUGAKI_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MESUGAKI_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MESUGAKI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- Civilization specific historical text. -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_POM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- Civlization Citizen Names -->
+		<Replace Tag="LOC_CITIZEN_YNL_POM_MALE_1" Language="ja_JP">
+			<Text>ミカエル・プセルロス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_POM_MALE_2" Language="ja_JP">
+			<Text>トゥキディデス</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_POM_MALE_3" Language="ja_JP">
+			<Text>マルキ・ド・サド</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_POM_MALE_4" Language="ja_JP">
+			<Text>ユゼフ・ベム</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_POM_FEMALE_1" Language="ja_JP">
+			<Text>アンナ・コムネナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_POM_FEMALE_2" Language="ja_JP">
+			<Text>サラ・ベルナール</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_POM_FEMALE_3" Language="ja_JP">
+			<Text>ヘディ・ラマー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_POM_FEMALE_4" Language="ja_JP">
+			<Text>マタ・ハリ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_POM_FEMALE_5" Language="ja_JP">
+			<Text>マリア・テレジア</Text>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_1" Language="ja_JP">
+			<Text>ロンディニウム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_2" Language="ja_JP">
+			<Text>カムロドゥナム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_3" Language="ja_JP">
+			<Text>エボラクム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_4" Language="ja_JP">
+			<Text>マッシリア</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_5" Language="ja_JP">
+			<Text>セルヴィアクム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_6" Language="ja_JP">
+			<Text>レンデルシャム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_7" Language="ja_JP">
+			<Text>ドモック</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_8" Language="ja_JP">
+			<Text>ウォルジウム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_9" Language="ja_JP">
+			<Text>アエリア・カピトリナ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_10" Language="ja_JP">
+			<Text>トライェクトゥム</Text>
+		</Replace>
+
+		<!--Civilization Factoids -->
+		<!--
+		<Replace Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="ja_JP">
+			<Text>Binomial Name</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_FELIS_CATUS" Language="ja_JP">
+			<Text>Felis catus</Text>
+		</Replace>
+		-->
+
+		<!-- Pedia text (historical context) about the new District. -->
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_LIVERY_COMPANY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- Leader Quotes -->
+		<Replace Tag="LOC_LEADER_YNL_MESUGAKI_QUOTE" Language="ja_JP">
+			<Text>突然指導者になっちゃいましたけど、がんばります！</Text>
+		</Replace>
+
+		<!-- UU Ability -->
+		<Replace Tag="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="ja_JP">
+			<Text>対騎兵</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION" Language="ja_JP">
+			<Text>軽騎兵と重騎兵ユニットに対して [ICON_Strength] 戦闘力+7。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>>騎兵に対して+7</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

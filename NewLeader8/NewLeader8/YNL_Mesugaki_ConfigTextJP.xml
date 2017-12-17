@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_YNL_POM_NAME" Language="ja_JP">
+			<Text>メスガキ公国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YNL_POM_DESCRIPTION" Language="ja_JP">
+			<Text>メスガキ公国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YNL_POM_ADJECTIVE" Language="ja_JP">
+			<Text>メスガキ公国の</Text>
+		</Replace>
+
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_POM_NAME" Language="ja_JP">
+			<Text>ドリームランド</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_POM_DESCRIPTION" Language="ja_JP">
+			<Text>全都市の [ICON_Amenities] 快適性+1。[NEWLINE]別の区域に隣接している区域は通常の隣接ボーナスを追加できる。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_LEADER_YNL_MESUGAKI_NAME" Language="ja_JP">
+			<Text>メスガキ (クルル)</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_MESUGAKI_NAME" Language="ja_JP">
+			<Text>実況サポーター</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_MESUGAKI_DESCRIPTION" Language="ja_JP">
+			<Text>工業地帯が文化爆弾を発動させる。[NEWLINE]川に面している場合、兵営が [ICON_Culture] 文化力+2をもたらす。[NEWLINE]メスガキを相手に戦う文明は、戦争による疲労が2倍になる。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_MESUGAKI_DOM_TEXT" Language="ja_JP">
+			<Text>ﾒｽｶﾞｷｶﾜｲｲﾔｯﾀｰ</Text>
+		</Replace>
+
+		<!-- UD -->
+		<Replace Tag="LOC_DISTRICT_LIVERY_COMPANY_NAME" Language="ja_JP">
+			<Text>リヴァリ・カンパニー</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_LIVERY_COMPANY_DESCRIPTION" Language="ja_JP">
+			<Text>メスガキ公国固有の区域。商業ハブに取って代わる。[NEWLINE][ICON_GreatMerchant] 大商人ポイント+2、国内の [ICON_TradeRoute] 交易路から得られる [ICON_Production] 生産力+2。隣接する都心区域により [ICON_Gold] ゴールド+2。[NEWLINE]その他の特徴は商業ハブと同一。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_LIVERY_COMPANY_NAME" Language="ja_JP">
+			<Text>メスガキ公国固有の区域: リヴァリ・カンパニー</Text>
+		</Replace>
+
+		<!-- UU -->
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="ja_JP">
+			<Text>メスガキ固有のユニット: 対物ライフル兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION" Language="ja_JP">
+			<Text>メスガキ固有の原子力自体のユニット。機関銃に取って代わる。[NEWLINE][ICON_Range] 射程3、騎兵系ユニットに対し [ICON_Strength] 戦闘力+7。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="ja_JP">
+			<Text>対物ライフル兵</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

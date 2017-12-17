@@ -12,8 +12,8 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Civilizations.xml</File><File>YNL_Mesugaki_Leaders.xml</File><File>YNL_Mesugaki_UD.xml</File><File>YNL_Mesugaki_UU.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_ConfigText.xml</File><File>YNL_Mesugaki_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Imports"><File>Textures/YNL_Mesugaki_Loading_Background.dds</File><File>Textures/YNL_Mesugaki_Loading_Foreground.dds</File><File>Textures/YNL_Mesugaki_Diplomacy_Background.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Mesugaki_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Mesugaki_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Civilizations.xml</File><File>YNL_Mesugaki_Leaders.xml</File><File>YNL_Mesugaki_UD.xml</File><File>YNL_Mesugaki_UU.xml</File><File>YNL_Mesugaki_UI.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_LeaderDialogs.xml</File><File>YNL_Mesugaki_LeaderDialogsJP.xml</File><File>YNL_Mesugaki_Text.xml</File><File>YNL_Mesugaki_TextJP.xml</File><File>YNL_Mesugaki_ConfigText.xml</File><File>YNL_Mesugaki_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Imports"><File>Textures/YNL_Mesugaki_Loading_Background.dds</File><File>Textures/YNL_Mesugaki_Loading_Foreground.dds</File><File>Textures/YNL_Mesugaki_Diplomacy_Background.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Mesugaki_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Mesugaki_ConfigText.xml</File><File>YNL_Mesugaki_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_MESUGAKI</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>NewLeader8</AssemblyName>
     <RootNamespace>NewLeader8</RootNamespace>
@@ -125,6 +125,21 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Behaviors\AntiTankGunner.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Mesugaki_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Mesugaki_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Mesugaki_LeaderDialogsJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Mesugaki_LeaderDialogs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Mesugaki_UI.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\CivYNLPOM256.dds">
