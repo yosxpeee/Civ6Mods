@@ -12,9 +12,14 @@
 			 Maintenance="2" CitizenSlots="1" TraitType="TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY"/>
 	</Buildings>
 	<BuildingPrereqs>
+		<!-- 既存の建造物が前提条件で必要なUBを作った場合は、置き換えであってもその記述をする -->
 		<Row Building="BUILDING_IMP_ARMY_ARMORY" PrereqBuilding="BUILDING_BARRACKS"/>
 		<Row Building="BUILDING_IMP_ARMY_ARMORY" PrereqBuilding="BUILDING_STABLE"/>
+		
+		<!-- 既存の建造物でUBに置き換わる場合は書かなくていい -->
+		<!--
 		<Row Building="BUILDING_MILITARY_ACADEMY" PrereqBuilding="BUILDING_IMP_ARMY_ARMORY"/>
+		-->
 	</BuildingPrereqs>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_IMP_ARMY_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
