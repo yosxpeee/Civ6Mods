@@ -39,5 +39,15 @@
 			<Icon>ICON_DISTRICT_LIVERY_COMPANY</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
+			<LeaderType>LEADER_YNL_MESUGAKI</LeaderType>
+			<Type>IMPROVEMENT_BOARDING_HOUSE</Type>
+			<Name>LOC_IMPROVEMENT_BOARDING_HOUSE_NAME</Name>
+			<Description>LOC_IMPROVEMENT_BOARDING_HOUSE_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_BOARDING_HOUSE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

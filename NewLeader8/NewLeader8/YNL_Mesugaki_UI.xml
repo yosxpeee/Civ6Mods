@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- GameData1 -->
-<!-- Author: yos-2nd -->
-<!-- DateCreated: 12/17/2017 7:39:16 PM -->
-<GameData>
-
-</GameData>
+<GameInfo>
+	<Types>
+		<!--Unique Improvements -->
+		<Row Type="IMPROVEMENT_BOARDING_HOUSE" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" Name="LOC_IMPROVEMENT_BOARDING_HOUSE_NAME" 
+			 Description="LOC_IMPROVEMENT_BOARDING_HOUSE_DESCRIPTION" Icon="ICON_IMPROVEMENT_BOARDING_HOUSE" 
+			 PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" SameAdjacentValid="false" PrereqCivic="CIVIC_CIVIL_ENGINEERING" 
+			 Housing="1" TilesRequired="1" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_BOARDING_HOUSE" Appeal="1"/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" YieldType="YIELD_FOOD"    YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TourismSource="TOURISMSOURCE_CULTURE" ScalingFactor="100"/>
+	</Improvement_Tourism>
+</GameInfo>

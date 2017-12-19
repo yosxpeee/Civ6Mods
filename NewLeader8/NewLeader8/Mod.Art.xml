@@ -31,6 +31,7 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_Mesugaki_Improvements.artdef"/>
 				<Element text="YNL_Mesugaki_Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
@@ -274,6 +275,7 @@
 		<Element>
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_Mesugaki_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -281,6 +283,7 @@
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_Mesugaki_Improvements.artdef"/>
 				<Element text="YNL_Mesugaki_Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
@@ -289,6 +292,7 @@
 		<Element>
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_Mesugaki_Improvements.artdef"/>
 				<Element text="YNL_Mesugaki_Districts.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>

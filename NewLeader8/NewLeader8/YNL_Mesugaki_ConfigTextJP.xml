@@ -41,7 +41,6 @@
 		<Replace Tag="LOC_TRAIT_DISTRICT_LIVERY_COMPANY_NAME" Language="ja_JP">
 			<Text>メスガキ公国固有の区域: リヴァリ・カンパニー</Text>
 		</Replace>
-
 		<!-- UU -->
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="ja_JP">
 			<Text>メスガキ固有のユニット: 対物ライフル兵</Text>
@@ -53,6 +52,19 @@
 			<Text>対物ライフル兵</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_BOARDING_HOUSE_NAME" Language="ja_JP">
+			<Text>寄宿舎</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_BOARDING_HOUSE_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がメスガキ固有の施設である寄宿舎を建設できるようになる。[NEWLINE][NEWLINE][ICON_Housing] 住宅+1、[ICON_Culture] 文化力+2、[ICON_Food] 食糧+1、アピール+1。同一の地形改善には隣接できない。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_BOARDING_HOUSE_NAME" Language="ja_JP">
+			<Text>メスガキ固有の地形改善: 寄宿舎</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_BOARDING_HOUSE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
 	</LocalizedText>

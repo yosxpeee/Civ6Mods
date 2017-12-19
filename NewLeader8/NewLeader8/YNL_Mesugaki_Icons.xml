@@ -22,6 +22,11 @@
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI64"/>
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI80"/>
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI256"/>
+
+		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE38.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE50.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE80.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -41,5 +46,7 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="17"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="17"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="17"/>
+		<!-- UI -->
+		<Row Name="ICON_IMPROVEMENT_BOARDING_HOUSE"                                   Atlas="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE"   Index="0"/>
 	</IconDefinitions>
 </GameData>

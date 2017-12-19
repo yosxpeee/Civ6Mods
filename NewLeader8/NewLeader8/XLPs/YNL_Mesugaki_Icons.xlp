@@ -81,25 +81,24 @@
 			<m_EntryID text="CivYNLPOM256"/>
 			<m_ObjectName text="CivYNLPOM256"/>
 		</Element>
-		<!--
 		<Element>
-			<m_EntryID text="YNL_DRILLSHIP38"/>
-			<m_ObjectName text="YNL_DRILLSHIP38"/>
+			<m_EntryID text="ICON_BOARDING_HOUSE38"/>
+			<m_ObjectName text="ICON_BOARDING_HOUSE38"/>
 		</Element>
 		<Element>
-			<m_EntryID text="YNL_DRILLSHIP50"/>
-			<m_ObjectName text="YNL_DRILLSHIP50"/>
+			<m_EntryID text="ICON_BOARDING_HOUSE50"/>
+			<m_ObjectName text="ICON_BOARDING_HOUSE50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="YNL_DRILLSHIP80"/>
-			<m_ObjectName text="YNL_DRILLSHIP80"/>
+			<m_EntryID text="ICON_BOARDING_HOUSE80"/>
+			<m_ObjectName text="ICON_BOARDING_HOUSE80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="YNL_DRILLSHIP256"/>
-			<m_ObjectName text="YNL_DRILLSHIP256"/>
+			<m_EntryID text="ICON_BOARDING_HOUSE256"/>
+			<m_ObjectName text="ICON_BOARDING_HOUSE256"/>
 		</Element>
--->
-	</m_Entries>
+
+		</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
 		<Element>LINUX</Element>

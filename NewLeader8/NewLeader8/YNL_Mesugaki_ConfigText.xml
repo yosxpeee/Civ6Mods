@@ -41,7 +41,6 @@
 		<Replace Tag="LOC_TRAIT_DISTRICT_LIVERY_COMPANY_NAME" Language="en_US">
 			<Text>Principality of Mesugaki unique district: Livery Company</Text>
 		</Replace>
-
 		<!-- UU -->
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="en_US">
 			<Text>Mesugaki unique unit: Anti Material Rifle</Text>
@@ -53,6 +52,19 @@
 			<Text>Anti Material Rifle</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_BOARDING_HOUSE_NAME" Language="en_US">
+			<Text>Boarding House</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_BOARDING_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Boarding House, unique to Mesugaki.[NEWLINE][NEWLINE]+1 [ICON_Housing] Housing, +2 [ICON_Culture] Culture, +1 [ICON_Food] Food, +1 Appeal. Cannot be adjacent to the same improvement.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_BOARDING_HOUSE_NAME" Language="en_US">
+			<Text>Mesugaki unique improvement: Boarding House</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_BOARDING_HOUSE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Replace>
 	</LocalizedText>
