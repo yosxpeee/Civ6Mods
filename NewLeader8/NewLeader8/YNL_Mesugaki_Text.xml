@@ -110,5 +110,13 @@
 		<Replace Tag="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_MODIFIER_DESCRIPTION" Language="en_US">
 			<Text>+7 against cavalry</Text>
 		</Replace>
+
+		<!-- Agenda -->
+		<Replace Tag="LOC_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI_NAME" Language="en_US">
+			<Text>Culture and Industry</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI_DESCRIPTION" Language="en_US">
+			<Text>Tries to build up [ICON_Culture] Culture / [ICON_Production] Production, and likes civilizations that also focus on [ICON_Culture] Culture and [ICON_Production] Production.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

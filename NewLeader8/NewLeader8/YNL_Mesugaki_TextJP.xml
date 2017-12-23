@@ -110,5 +110,13 @@
 		<Replace Tag="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>>騎兵に対して+7</Text>
 		</Replace>
+
+		<!-- Agenda -->
+		<Replace Tag="LOC_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI_NAME" Language="ja_JP">
+			<Text>文化と工業</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Culture] 文化力や [ICON_Production] 生産力を高めることを重視し、同じように [ICON_Culture] 文化力や [ICON_Production] 生産力の強化に注力する文明を好む。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

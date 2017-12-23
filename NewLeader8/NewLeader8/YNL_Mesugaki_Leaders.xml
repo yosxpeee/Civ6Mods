@@ -18,6 +18,7 @@
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YNL_MESUGAKI" TraitType="TRAIT_LEADER_YNL_MESUGAKI"/>
 		<Row LeaderType="LEADER_YNL_MESUGAKI" TraitType="TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"/>
+		<Row LeaderType="LEADER_YNL_MESUGAKI" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_YNL_MESUGAKI"                      Name="LOC_TRAIT_LEADER_YNL_MESUGAKI_NAME" Description="LOC_TRAIT_LEADER_YNL_MESUGAKI_DESCRIPTION"/>
@@ -39,6 +40,27 @@
 			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
 			<ModifierId>TRAIT_ENCAMPMENT_RIVER_CULTURE_MESUGAKI</ModifierId>
 		</Row>
+		<!-- 兵営は隣接する山岳タイル1つにつき科学力+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
+			<ModifierId>TRAIT_ENCAMPMENT_GRASS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
+			<ModifierId>TRAIT_ENCAMPMENT_PLAINS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
+			<ModifierId>TRAIT_ENCAMPMENT_DESERT_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
+			<ModifierId>TRAIT_ENCAMPMENT_TUNDRA_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MESUGAKI</TraitType>
+			<ModifierId>TRAIT_ENCAMPMENT_SNOW_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 工業地帯を建設すると文化爆弾発動 -->
@@ -51,6 +73,27 @@
 			<ModifierId>TRAIT_ENCAMPMENT_RIVER_CULTURE_MESUGAKI</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_ENCAMPMENT_RIVER_CULTURE_REQUIREMENTS_MESUGAKI</SubjectRequirementSetId>
+		</Row>
+		<!-- 兵営は隣接する山岳タイル1つにつき科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_GRASS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PLAINS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_DESERT_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_TUNDRA_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_SNOW_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -70,6 +113,137 @@
 			<ModifierId>TRAIT_ENCAMPMENT_RIVER_CULTURE_MESUGAKI</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!-- 兵営は隣接する山岳タイル1つにつき科学力+1 -->
+		<!-- 草原(山岳) -->
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_GRASS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_GRASS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_GRASS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_GRASS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_GRASS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE1</Value>
+		</Row>
+		<!-- 平原(山岳) -->
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PLAINS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PLAINS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PLAINS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PLAINS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PLAINS_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE2</Value>
+		</Row>
+		<!-- 砂漠(山岳) -->
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_DESERT_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_DESERT_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_DESERT_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_DESERT_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_DESERT_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE3</Value>
+		</Row>
+		<!-- ツンドラ(山岳) -->
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_TUNDRA_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_TUNDRA_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_TUNDRA_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_TUNDRA_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_TUNDRA_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE4</Value>
+		</Row>
+		<!-- 雪原(山岳) -->
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_SNOW_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_SNOW_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_SNOW_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_SNOW_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_SNOW_MOUNTAIN_SCIENCE_MESUGAKI</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_MOUNTAINS_SCIENCE5</Value>
 		</Row>
 	</ModifierArguments>
 
@@ -96,6 +270,7 @@
 		<Row ListType="YNL_MesugakiCivics"/>
 		<Row ListType="YNL_MesugakiTechs"/>
 		<Row ListType="YNL_MesugakiLiveryCompanyDistrict"/>
+		<Row ListType="YNL_MesugakiTheaterDistrict"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- Buildings -->
@@ -106,6 +281,7 @@
 		<Row ListType="YNL_MesugakiTechs"                 LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Technologies"/>
 		<!-- District -->
 		<Row ListType="YNL_MesugakiLiveryCompanyDistrict" LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Districts"/>
+		<Row ListType="YNL_MesugakiTheaterDistrict"       LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Districts"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Buildings -->
@@ -116,22 +292,28 @@
 		<Row ListType="YNL_MesugakiWonders"				Item="BUILDING_BIG_BEN"/>			<!-- ビッグベン -->
 		<!-- Civics -->
 		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_POLITICAL_PHILOSOPHY"/>	<!-- 政治哲学 -->
+		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_CIVIL_ENGINEERING"/>	<!-- 土木工学 -->
 		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_EXPLORATION"/>			<!-- 探検 -->
 		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_MERCANTILISM"/>			<!-- 重商主義 -->
-		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_CAPITALISM"/>			<!-- 資本主義 -->
+		<Row ListType="YNL_MesugakiCivics"	            Item="CIVIC_NATURAL_HISTORY"/>		<!-- 博物学 -->
+		<Row ListType="YNL_MesugakiCivics"				Item="CIVIC_CONSERVATION"/>			<!-- 自然保護 -->
 		<!-- Techs -->
 		<Row ListType="YNL_MesugakiTechs"				Item="TECH_CURRENCY"/>				<!-- 通貨 -->
 		<Row ListType="YNL_MesugakiTechs"				Item="TECH_APPRENTICESHIP"/>		<!-- 徒弟制度 -->
 		<Row ListType="YNL_MesugakiTechs"				Item="TECH_ECONOMICS"/>				<!-- 経済学 -->
 		<Row ListType="YNL_MesugakiTechs"				Item="TECH_INDUSTRIALIZATION"/>		<!-- 工業化 -->
-		<Row ListType="YNL_MesugakiTechs"				Item="TECH_ELECTRICITY"/>			<!-- 電気 -->
+		<Row ListType="YNL_MesugakiTechs"	            Item="TECH_FLIGHT"/>				<!-- 航空技術 -->
+		<Row ListType="YNL_MesugakiTechs"				Item="TECH_RADIO"/>					<!-- 無線通信 -->
+		<Row ListType="YNL_MesugakiTechs"               Item="TECH_COMPUTERS"/>             <!-- コンピューター -->
 		<Row ListType="YNL_MesugakiTechs"				Item="TECH_ADVANCED_BALLISTICS"/>	<!-- 高度な弾道学 -->
 		<!-- District -->
 		<Row ListType="YNL_MesugakiLiveryCompanyDistrict" Item="DISTRICT_LIVERY_COMPANY" Favored="true"/>	<!-- リヴァリ・カンパニー -->
+		<Row ListType="YNL_MesugakiTheaterDistrict"       Item="DISTRICT_THEATER" Favored="true"/>
+		<!-- リヴァリ・カンパニー -->
 	</AiFavoredItems>
 	<!-- アジェンダ -->
 	<HistoricalAgendas>
-		<Row LeaderType="LEADER_YNL_MESUGAKI" AgendaType="AGENDA_PEACEKEEPER"/>
+		<Row LeaderType="LEADER_YNL_MESUGAKI" AgendaType="AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI"/>
 	</HistoricalAgendas>
 	
 	<LoadingInfo>

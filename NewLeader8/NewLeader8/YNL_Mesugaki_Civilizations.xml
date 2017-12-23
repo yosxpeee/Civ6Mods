@@ -135,4 +135,22 @@
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_10" />
 	</CityNames>
+	<StartBiasResources>
+		<!-- 鉄と馬 -->
+		<Row CivilizationType="CIVILIZATION_YNL_POM" ResourceType="RESOURCE_HORSES" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" ResourceType="RESOURCE_IRON" Tier="2"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<!-- 草原 or 平原の丘 -->
+		<Row CivilizationType="CIVILIZATION_YNL_POM" TerrainType="TERRAIN_GRASS_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_YNL_POM" TerrainType="TERRAIN_PLAINS_HILLS" Tier="3"/>
+	</StartBiasTerrains>
+	<StartBiasFeatures>
+		<!-- 氾濫原 -->
+		<Row CivilizationType="CIVILIZATION_YNL_POM" FeatureType="FEATURE_FLOODPLAINS" Tier="2"/>
+	</StartBiasFeatures>
+	<StartBiasRivers>
+		<!-- 川 -->
+		<Row CivilizationType="CIVILIZATION_YNL_POM" Tier="5"/>
+	</StartBiasRivers>
 </GameData>

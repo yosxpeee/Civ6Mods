@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<IconTextureAtlases>
-		<!--
+		<!-- Civlization -->
+		<!-- 実は256と45以外不要だったりする？ -->
+<!--
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM22.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM30.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM36.dds"/>
-		-->
+-->
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM45.dds"/>
-		<!--
+<!--
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM48.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM50.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM80.dds"/>
-		-->
+-->
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_POM" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="CivYNLPOM256.dds"/>
-		
+		<!-- Leader -->
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI32"/>
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI45"/>
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI50"/>
@@ -22,7 +24,7 @@
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI64"/>
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI80"/>
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI256"/>
-
+		<!-- UI -->
 		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE38.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE50.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE80.dds"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<!-- 文明 -->
 		<Replace Tag="LOC_CIVILIZATION_YNL_POM_NAME" Language="ja_JP">
 			<Text>メスガキ公国</Text>
 		</Replace>
@@ -10,7 +11,6 @@
 		<Replace Tag="LOC_CIVILIZATION_YNL_POM_ADJECTIVE" Language="ja_JP">
 			<Text>メスガキ公国の</Text>
 		</Replace>
-
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_POM_NAME" Language="ja_JP">
 			<Text>ドリームランド</Text>
 		</Replace>
@@ -18,6 +18,7 @@
 			<Text>全都市の [ICON_Amenities] 快適性+1。[NEWLINE]別の区域に隣接している区域は通常の隣接ボーナスを追加できる。</Text>
 		</Replace>
 
+		<!-- 指導者 -->
 		<Replace Tag="LOC_LEADER_YNL_MESUGAKI_NAME" Language="ja_JP">
 			<Text>メスガキ (クルル)</Text>
 		</Replace>
@@ -25,7 +26,7 @@
 			<Text>実況サポーター</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_MESUGAKI_DESCRIPTION" Language="ja_JP">
-			<Text>工業地帯が文化爆弾を発動させる。[NEWLINE]川に面している場合、兵営が [ICON_Culture] 文化力+2をもたらす。[NEWLINE]メスガキを相手に戦う文明は、戦争による疲労が2倍になる。</Text>
+			<Text>工業地帯が文化爆弾を発動させる。[NEWLINE]川に面している場合、兵営が [ICON_Culture] 文化力+2をもたらす。兵営が隣接する山岳タイル1つにつき [ICON_Science] 科学力+1。[NEWLINE]メスガキを相手に戦う文明は、戦争による疲労が2倍になる。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_MESUGAKI_DOM_TEXT" Language="ja_JP">
 			<Text>ﾒｽｶﾞｷｶﾜｲｲﾔｯﾀｰ</Text>
@@ -41,6 +42,13 @@
 		<Replace Tag="LOC_TRAIT_DISTRICT_LIVERY_COMPANY_NAME" Language="ja_JP">
 			<Text>メスガキ公国固有の区域: リヴァリ・カンパニー</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_LIVERY_COMPANY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>リヴァリ・カンパニー（Livery company）は、ロンドンの古くから現代までの同業者団体およびギルドで構成され、それらのほぼ全てが、それぞれの工芸または職業に "Worshipful Company of..."（...の名誉組合）と冠され、呼称される。リヴァリ・カンパニーはギルドに遡るが、構成員が葬儀の際は「リヴァリ」という制服を、正装として着装することが求められたことに由来する。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_LIVERY_COMPANY_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>ロンドンの中世のギルドは、訓練だけでなく、賃金管理、労働条件、業界標準のような、それぞれの職業を規制する責任のあるコーポレーション（法人）へと発展していった。中世の頃のほとんどの組織のように、それらのリヴァリ・カンパニーは、（少なくとも宗教改革以前は）寄進で建てられた礼拝堂や教会のような宗教的な施設を与えられたり、儀式やよく知られた神秘劇を催すことで宗教的な祭典に従ったりすることにより、ローマ教会と密接な関係を築くことが義務づけられていた。大多数のリヴァリ・カンパニーは、それらの歴史上の宗教的団体を保持している。ほとんどのリヴァリ・カンパニーは、それらの当初の工芸または職業上の役割を維持しているが、中には未だ規制、監査および執行の権限を行使するところもある。一方で、職業に関する資格の授与団体であるところもある。Worshipful Company of Scrivenersは、法や関連する職業の年長組合員の入会を認め、Worshipful Society of Apothecariesは、幾つかの医療専門職について大学院資格を授与しているほか、Worshipful Company of Hackney Carriage Driversは、"Knowledge of London"の試験に通った免許を持つタクシー運転手で構成される。また、複数のカンパニーがその会員権をそれらに関する適切な職業資格を保持する者のみに制限している（例えば、City of London Solicitors' CompanyやWorshipful Company of Engineersなど）。Worshipful Company of Bowyersのように、その職業がとうの昔になくなってしまったカンパニーは、主として慈善組織へと発展していった。</Text>
+		</Replace>
+		
 		<!-- UU -->
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="ja_JP">
 			<Text>メスガキ固有のユニット: 対物ライフル兵</Text>
@@ -52,20 +60,24 @@
 			<Text>対物ライフル兵</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>対物ライフル（anti-materiel rifle）は、かつての対戦車ライフルに相当する大型の銃である。そのままアンチマテリアルライフルとも呼ばれることがある。主に狙撃に使われる。重機関銃や機関砲などに使用される大口径弾を使用する銃であり、重い大口径弾の優れた弾道直進性を活かして、一般の小銃弾を使用する狙撃銃をはるかに上回る距離で狙撃を行える。使用弾種にも依るが土嚢や壁などの障害物に隠れる敵や、軽車両に対して損傷を与える事も可能である。ただし、対物ライフルは通常のライフルよりも遥かに長く大きく重く、また反動も強力であり、設置による支持射撃状態（いわゆる伏射が主流）以外から、すなわち通常のライフルのように肩づけや腰だめで正確に射撃するのはほぼ不可能である。</Text>
 		</Replace>
+
 		<!-- UI -->
 		<Replace Tag="LOC_IMPROVEMENT_BOARDING_HOUSE_NAME" Language="ja_JP">
-			<Text>寄宿舎</Text>
+			<Text>民宿</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_BOARDING_HOUSE_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がメスガキ固有の施設である寄宿舎を建設できるようになる。[NEWLINE][NEWLINE][ICON_Housing] 住宅+1、[ICON_Culture] 文化力+2、[ICON_Food] 食糧+1、アピール+1。同一の地形改善には隣接できない。</Text>
+			<Text>労働者がメスガキ固有の施設である民宿を建設できるようになる。[NEWLINE][NEWLINE][ICON_Housing] 住宅+1、[ICON_Culture] 文化力+2、[ICON_Food] 食糧+1、アピール+1。同一の地形改善には隣接できない。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_BOARDING_HOUSE_NAME" Language="ja_JP">
 			<Text>メスガキ固有の地形改善: 寄宿舎</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_BOARDING_HOUSE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>民宿（みんしゅく）は主に民間が運営する、多くの場合小規模かつ、客室が和室であるなど設備が主に和式である宿泊施設のこと。観光・レジャーによる利用を主体とし、多くは家族単位での経営である。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_BOARDING_HOUSE_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>現在では旅館との区別があいまいになってきた民宿だが、本来は民家や使用していない小屋の一室を利用し客を宿泊させたのが民宿の始まりである。 本来は農家や漁業者等の地方民家の一室を、スキー客や海水浴客など旅行者の宿泊に提供した、自宅開放型の宿泊施設が民宿である。このため寝室を除き、廊下・風呂・便所などの宿泊客の利用する共有部分は、民家で生活する経営者とその家族との共有施設となっていた。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

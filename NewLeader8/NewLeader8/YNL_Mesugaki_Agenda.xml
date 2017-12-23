@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="TRAIT_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER"/>
+	</Traits>
+	<Agendas>
+		<Row AgendaType="AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" Name="LOC_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI_NAME" Description="LOC_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI_DESCRIPTION"/>
+	</Agendas>
+	<!-- 除外するランダムアジェンダ -->
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" AgendaTwo="AGENDA_INDUSTRIALIST"/>
+	</ExclusiveAgendas>
+	<!-- アジェンダが持つTrait -->
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" TraitType="TRAIT_AGENDA_PREFER_CULTURE"/>
+		<Row AgendaType="AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" TraitType="TRAIT_AGENDA_PREFER_INDUSTRY"/>
+	</AgendaTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" ModifierId="AGENDA_HIGH_CULTURE_MESUGAKI"/>
+		<Row TraitType="TRAIT_AGENDA_CULTURED_AND_INDUSTRY_MESUGAKI" ModifierId="AGENDA_HIGH_INDUSTRY_MESUGAKI"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_HIGH_CULTURE_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_CULTURE_MESUGAKI</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_INDUSTRY_MESUGAKI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_INDUSTRY_MESUGAKI</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AGENDA_HIGH_CULTURE_MESUGAKI</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_CULTURE_MESUGAKI</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_CULTURE_MESUGAKI</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_INDUSTRY_MESUGAKI</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_INDUSTRY_MESUGAKI</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ANY_REASON_AGENDA_HIGH_INDUSTRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_INDUSTRY_MESUGAKI</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INDUSTRY</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_HIGH_CULTURE_MESUGAKI" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HIGH_INDUSTRY_MESUGAKI" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_CULTURE_MESUGAKI</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_CULTURE_MESUGAKI</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_CULTURE_MESUGAKI</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_CULTURE_MESUGAKI</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_CULTURE_MESUGAKI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_HAS_HIGH_CULTURE_MESUGAKI</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_YIELD_LEAD</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_YIELD_LEAD</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_HAS_HIGH_CULTURE_MESUGAKI</RequirementId>
+			<Name>MinimumDelta</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_HIGH_CULTURE_MESUGAKI</RequirementId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_HIGH_CULTURE_MESUGAKI</RequirementId>
+			<Name>YieldRatio</Name>
+			<Value>1.10</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementId>
+			<Name>MinimumDelta</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HAS_HIGH_INDUSTRY_MESUGAKI</RequirementId>
+			<Name>YieldRatio</Name>
+			<Value>1.10</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>
