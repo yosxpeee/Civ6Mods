@@ -26,7 +26,7 @@
 			<Text>Livestream Supporter</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_MESUGAKI_DESCRIPTION" Language="en_US">
-			<Text>Industrial Zones trigger a culture bomb.[NEWLINE]Encampment provide +2 [ICON_Culture] Culture if placed on a river. Encampment provite +1 [ICON_Science] Science if adjacent to mountains. [NEWLINE]Opposing civilizations receive double the war weariness for fighting against Mesugaki.</Text>
+			<Text>Industrial Zones trigger a culture bomb.[NEWLINE]Encampment provide +2 [ICON_Culture] Culture if placed on a river. Encampment provide +1 [ICON_Science] Science if adjacent to mountains. [NEWLINE]Opposing civilizations receive double the war weariness for fighting against Mesugaki.</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_MESUGAKI_DOM_TEXT" Language="en_US">
 			<Text>Mesugaki Kawaii Yatta!!</Text>
@@ -51,7 +51,7 @@
 			<Text>Mesugaki unique unit: Anti Material Rifle</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION" Language="en_US">
-			<Text>Mesugaki unique Atomic era unit. [ICON_Range] Range 3. +7 [ICON_Strength] Combat Strength against light cavalry and heavy cavalry units.</Text>
+			<Text>Mesugaki unique Atomic era unit. Replace the Machine Gun. [ICON_Range] Range 3. +7 [ICON_Strength] Combat Strength against light cavalry and heavy cavalry units.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Language="en_US">
 			<Text>Anti Material Rifle</Text>

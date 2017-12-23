@@ -71,7 +71,7 @@
 			<Text>労働者がメスガキ固有の施設である民宿を建設できるようになる。[NEWLINE][NEWLINE][ICON_Housing] 住宅+1、[ICON_Culture] 文化力+2、[ICON_Food] 食糧+1、アピール+1。同一の地形改善には隣接できない。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_BOARDING_HOUSE_NAME" Language="ja_JP">
-			<Text>メスガキ固有の地形改善: 寄宿舎</Text>
+			<Text>メスガキ固有の地形改善: 民宿</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_BOARDING_HOUSE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>民宿（みんしゅく）は主に民間が運営する、多くの場合小規模かつ、客室が和室であるなど設備が主に和式である宿泊施設のこと。観光・レジャーによる利用を主体とし、多くは家族単位での経営である。</Text>

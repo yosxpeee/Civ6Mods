@@ -80,21 +80,6 @@
 			<Text>トライェクトゥム</Text>
 		</Replace>
 
-		<!--Civilization Factoids -->
-		<!--
-		<Replace Tag="LOC_CIVINFO_BINOMIAL_NAME" Language="ja_JP">
-			<Text>Binomial Name</Text>
-		</Replace>
-		<Replace Tag="LOC_CIVINFO_FELIS_CATUS" Language="ja_JP">
-			<Text>Felis catus</Text>
-		</Replace>
-		-->
-
-		<!-- Pedia text (historical context) about the new District. -->
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_DISTRICT_LIVERY_COMPANY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
-		</Replace>
-
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_MESUGAKI_QUOTE" Language="ja_JP">
 			<Text>突然指導者になっちゃいましたけど、がんばります！</Text>

@@ -33,12 +33,6 @@
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CitizenName="LOC_CITIZEN_YNL_POM_FEMALE_5" Female="1"/>
 	</CivilizationCitizenNames>
-
-	<!--
-	<CivilizationInfo>
-		<Row CivilizationType="CIVILIZATION_YNL_POM" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
-	</CivilizationInfo>
-	-->
 	
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_YNL_POM" TraitType="TRAIT_CIVILIZATION_YNL_POM" />

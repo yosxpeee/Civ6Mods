@@ -25,6 +25,7 @@
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI80"/>
 		<Row Name="ICON_ATLAS_LEADER_YNL_MESUGAKI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="MESUGAKI256"/>
 		<!-- UI -->
+		<!-- UIのアクションアイコンは全部作らないといけないらしい・・・ -->
 		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE38.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE50.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_BOARDING_HOUSE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BOARDING_HOUSE80.dds"/>
