@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Civilizations.xml</File><File>YNL_Mesugaki_Leaders.xml</File><File>YNL_Mesugaki_UD.xml</File><File>YNL_Mesugaki_UU.xml</File><File>YNL_Mesugaki_UI.xml</File><File>YNL_Mesugaki_LeaderAnimations.xml</File><File>YNL_Mesugaki_Agenda.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_LeaderDialogs.xml</File><File>YNL_Mesugaki_LeaderDialogsJP.xml</File><File>YNL_Mesugaki_Text.xml</File><File>YNL_Mesugaki_TextJP.xml</File><File>YNL_Mesugaki_ConfigText.xml</File><File>YNL_Mesugaki_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Imports"><File>Textures/YNL_Mesugaki_Loading_Background.dds</File><File>Textures/YNL_Mesugaki_Loading_Foreground.dds</File><File>Textures/YNL_Mesugaki_Diplomacy_Background.dds</File><File>Textures/MESUGAKI256.dds</File><File>Textures/MESUGAKI32.dds</File><File>Textures/MESUGAKI45.dds</File><File>Textures/MESUGAKI50.dds</File><File>Textures/MESUGAKI55.dds</File><File>Textures/MESUGAKI64.dds</File><File>Textures/MESUGAKI80.dds</File><File>Textures/ICON_BOARDING_HOUSE256.dds</File><File>Textures/CivYNLPOM256.dds</File><File>Textures/CivYNLPOM45.dds</File><File>Textures/ICON_BOARDING_HOUSE38.dds</File><File>Textures/ICON_BOARDING_HOUSE50.dds</File><File>Textures/ICON_BOARDING_HOUSE80.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Civilizations.xml</File><File>YNL_Mesugaki_Leaders.xml</File><File>YNL_Mesugaki_UD.xml</File><File>YNL_Mesugaki_UU.xml</File><File>YNL_Mesugaki_UI.xml</File><File>YNL_Mesugaki_LeaderAnimations.xml</File><File>YNL_Mesugaki_Agenda.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_LeaderDialogs.xml</File><File>YNL_Mesugaki_LeaderDialogsJP.xml</File><File>YNL_Mesugaki_Text.xml</File><File>YNL_Mesugaki_TextJP.xml</File><File>YNL_Mesugaki_ConfigText.xml</File><File>YNL_Mesugaki_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Imports"><File>Textures/YNL_Mesugaki_Loading_Background.dds</File><File>Textures/YNL_Mesugaki_Loading_Foreground.dds</File><File>Textures/YNL_Mesugaki_Diplomacy_Background.dds</File><File>Textures/MESUGAKI256.dds</File><File>Textures/MESUGAKI32.dds</File><File>Textures/MESUGAKI45.dds</File><File>Textures/MESUGAKI50.dds</File><File>Textures/MESUGAKI55.dds</File><File>Textures/MESUGAKI64.dds</File><File>Textures/MESUGAKI80.dds</File><File>Textures/ICON_BOARDING_HOUSE256.dds</File><File>Textures/CivYNLPOM256.dds</File><File>Textures/CivYNLPOM45.dds</File><File>Textures/ICON_BOARDING_HOUSE38.dds</File><File>Textures/ICON_BOARDING_HOUSE50.dds</File><File>Textures/ICON_BOARDING_HOUSE80.dds</File><File>Textures/CivYNLPOM22.dds</File><File>Textures/CivYNLPOM30.dds</File><File>Textures/CivYNLPOM36.dds</File><File>Textures/CivYNLPOM48.dds</File><File>Textures/CivYNLPOM50.dds</File><File>Textures/CivYNLPOM64.dds</File><File>Textures/CivYNLPOM80.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Mesugaki_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Mesugaki_ConfigText.xml</File><File>YNL_Mesugaki_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Mesugaki_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_YNL_MESUGAKI</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>NewLeader8</AssemblyName>
@@ -128,6 +128,48 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Behaviors\AntiTankGunner.bhv">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\CivYNLPOM80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YNL_Mesugaki_Agenda.xml">
