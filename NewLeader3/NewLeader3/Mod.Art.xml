@@ -275,6 +275,7 @@
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
 				<Element text="YNL_NAGATO_Improvement.artdef"/>
+				<Element text="YNL_NAGATO_Building.artdef"/>
 				<Element text="YNL_NAGATO_Landmark.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>

@@ -213,7 +213,7 @@
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
@@ -409,7 +409,7 @@
 										<m_RootCollectionName text="ArtEra"/>
 										<m_ArtDefPath text="Eras.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_TemplateName text="Eras"/>
 										<m_ParamName text="Tag_Era"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
