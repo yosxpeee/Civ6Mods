@@ -30,7 +30,7 @@
 			<Text>こんなに早く決着がついてしまうなんて・・・。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ITAKO_TOHOKU_ANY" Language="ja_JP">
-			<Text>貴国からの使節を歓迎いたします。</Text>
+			<Text>あなたの国からの使節を歓迎いたしますわ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ITAKO_TOHOKU_ANY" Language="ja_JP">
 			<Text>申し訳ありませんが、承諾できませんわ。</Text>
@@ -230,6 +230,145 @@
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_ITAKO_TOHOKU_ANY" Language="ja_JP">
 			<Text>・・・覚悟しておいてください。いずれ必ず報いがありますわよ。</Text>
 		</Replace>
+		<!-- Generic kudos for random agendas -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>あなたの民が作り出している他に類を見ない文化には感銘を受けましたわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>あなたの民はあなたの統治を祝福していると聞きましたわ。民の幸福を維持するのは素晴らしいことですわね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>そちらの国はずいぶんと実に豊かな富に恵まれているようですわね。少しこちらに・・・いえ、なんでもありませんわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>あなたの民の生産力はまったく賞賛に値しますわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家のような小国にとって、私たちの国ほどふさわしい友人はいないと思いますわ。貴国にもそれを理解してもらえているようでなによりです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>あなたが抱える人口の多さは賞賛に値しますわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>あなたの文明の科学研究に対する入れ込みようは大したものですわね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>私は強力な軍隊を持つ指導者を好みますわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明の真価が発揮されるのは戦いにおいて。どこが最強の文明か、はっきりさせようじゃありませんか。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>世の偉大な人物たちは、そちらの国よりも私たちの国のほうを高く評価してくれているようですわ。大変喜ばしいですこと。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>遺産の建設は私たちのもっとも得意とするところ。こちらにお任せくださるとは賢明な判断ですわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家の権利を守ろうとするあなたの姿勢は、全世界がならうべき手本になると思いますわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強きは弱きを守るべきですわ。賛同してくれて嬉しく思います。</Text>
+		</Replace>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>あなたの空軍の力はまったくもってあなどれない。いや、大したものですわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自らの面倒を見れない者を助けるのは、高貴なおこないですわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>あの蛮族たちには我々も大いに悩まされていたんですの。手助けに感謝しますわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>このかけがえのない大地の貴さを知る人々が私たちのほかにもいるとは嬉しい話ですわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>世界は人が活用するためにあるのですわ。求めよ、さらば与えられん！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>われわれは志を同じくする仲間のようですわね。そちらの政治体制を尊重するとしましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>偉大な指導者は同じことを考えるようですわね。あの技術には多くの使い道がありますから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>あなたとあなたの民に平穏がもたらされんことを。自分と同じように信心深い者と出会えるのは喜ばしいことですわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>たいへん結構。探検はこちらに任せてくださいませ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ITAKO_TOHOKU_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたが我々に脅威を与えないと知り、安心しましたわ。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>あなたの国は偉大な文化を生みだそうという熱意に欠けていますわ。これではどうやってあなたの国の人々のことを記憶に留めればよいのでしょう？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>市民たちのためにもう少し快適性を増やそうとは思わないのですか？みなさんがあなたのの統治に満足しているとは思えないのですけど。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>あなたの国は財政破産しそうではありませんか。借金にまみれて暮らしていくつもりですの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>あなたの国は都市国家との関係が浅くないようですわね。ですけど、できればそうした振る舞いは控えてもらいたいですわ。私たちの国こそが、ああした国々との友好を深めるにふさわしいと思うのです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国はずいぶんと怠惰な者が多いようですわね。なにも生みだせない文明は、じきに人々の記憶から消えてしまいますわよ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>あなたの国は極端な人口不足に陥っていますわね。それではほとんどなにもすることができないのではなくて？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>あなたの国は技術研究に熱心ではないようですわね。それでどうやって人々の暮らしを豊かにするつもりですの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>ずいぶんと粗末な軍隊ですわね・・・。それで不安を感じることはありませんの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたの国の都市は私たちの国にあまりに近く、そして軍隊はあまりに強いですわ。これではこちらも心穏やかではいられなくなると思いません？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>多くの偉人を集めているようですわね。あまり余計なことはしないでもらいたいですわ。偉人は私たちの文明にこそふさわしいのです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産の建設にかけては私たちの右に出る者はいないということをご存じないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>小国を襲うなど、臆病者のすることですわ。私たちの国にとってあなたの国は何の価値もない。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>これは警告だと思ってほしいですわ。今後は二度と小国を襲わないこと、よろしいですわね？</Text>
+		</Replace>
+		<!--Warnings for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面を這い回るだけでは栄光をつかむことはできません。航空戦力の整備を急ぐことをおすすめしますわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者をいたぶるのは恥ずべきことですわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分の首都の近くであのように蛮族たちをのさばらせておいてよいのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>これだけは言っておきます。いたずらに自然を傷つければ、貴国のみならず誰もが報いを受けることになりますわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>なぜ、周囲に広がる肥沃な土地に手をつけようとしないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>思想の違いもそうですけど、あなたの民を統治するやり方は私にとって許容できるものではありませんわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器こそが未来を切り開くのです！どうしてそれがわからないのです？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>あなたはなにをしるべに道を歩むのですか？まさか信心を持たないというわけではないでしょう。人々に信仰の光を見せるのも統治者の務めですわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ITAKO_TOHOKU_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見とは、早い者勝ちの競争ですわ。貴国は私たちの国をさしおいて探検隊を派遣したではありませんか。そんな国に従うわけにはいきませんわ。</Text>
+		</Replace>
 		<!-- Leader Dialog (ずん子) -->
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
 			<Text>これからは仲良くやっていきましょう。</Text>
@@ -259,7 +398,7 @@
 			<Text>こんなに早く決着がついてしまうなんて・・・。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
-			<Text>貴国からの使節を歓迎いたします。</Text>
+			<Text>あなたの国からの使節を歓迎いたします。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
 			<Text>申し訳ありませんが、承諾できません。</Text>
@@ -459,6 +598,145 @@
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_ZUNKO_TOHOKU_ANY" Language="ja_JP">
 			<Text>・・・覚悟しておいてください。いずれ必ず報いがありますよ。</Text>
 		</Replace>
+		<!-- Generic kudos for random agendas -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>あなたの民が作り出している他に類を見ない文化には感銘を受けました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>あなたの民はあなたの統治を祝福していると聞いた。民の幸福を維持するのは素晴らしいことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>あなたの国は実に豊かな富に恵まれているようですね。お金はいくらあっても困るものではないというわけですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>あなたの民の生産力はまったく賞賛に値します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家のような小国にとって、私たちの国ほどふさわしい友人はいないのです。貴国にもそれを理解してもらえているようでなによりです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>あなたが抱える人口の多さは賞賛に値します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>あなたの文明の科学研究に対する入れ込みようは大したものですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>私は強力な軍隊を持つ指導者を好みます。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明の真価が発揮されるのは戦いにおいてです。どこが最強の文明か、はっきりさせませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>嬉しいことに、世の偉大な人物たちは、あなたの国よりも私たちの国のほうを高く評価してくれているようです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>遺産の建設は私たちに任せるおつもりなのですね。貴国の賢明な判断に感謝します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家の権利を守ろうとするあなたの姿勢は、全世界がならうべき手本となるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強きは弱きを守るべき。賛同してくれて嬉しく思います。</Text>
+		</Replace>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>あなたの空軍の力はまったくもってあなどれない。いや、大したものですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自らの面倒を見れない者を助けるのは、高貴なおこないです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>あの蛮族たちには私たちもすこく悩まされていたのです。お力添えに感謝します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>このかけがえのない大地の貴さを知る人々が私たちのほかにもいるとは嬉しい話です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>「求めよ、さらば与えられん！」という言葉があります。世界は人が活用するためにあるのですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>われわれは志を同じくする仲間のようですね。そちらの政治体制を尊重しますよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>偉大な指導者は同じことを考えるようですね。あの技術には多くの使い道がありますから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>あなたとあなたの民に平穏がもたらされんことを。自分と同じように信心深い者と出会えるのは喜ばしいことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>たいへん結構です。探検はこちらに任せてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたが私たちに脅威を与えないと知り、安心しました。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>あなたの国は偉大な文化を生みだそうという熱意に欠けています。これでは私たちは、どうやってあなたの国の人々のことを記憶に留めればよいのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>市民たちのためにもう少し快適性を増やそうとは思わないのですか？みなさんがあなたの統治に満足しているとは思えないのですが。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>あなたの国は今にも破産しそうではないですか。借金にまみれて暮らしていくつもりなのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>あなたの国は都市国家との関係が浅くないようですね。できればそうした振る舞いは控えてもらいたいです。私たちの国こそが、ああした国々との友好を深めるにふさわしいと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国はずいぶんと怠惰な者が多いようですね。なにも生みだせない文明は、じきに人々の記憶から消えてしまうでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>あなたの国は極端な人口不足に陥っています。それではほとんどなにもすることができないでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>あなたの国は技術研究に熱心ではないようだが、それでどうやって人々の暮らしを豊かにできるのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>そんなにささやかな軍隊しか持たずに、不安を感じることはないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたの国の都市は私たちの国にあまりに近く、あなたの国の軍はあまりに強い。これではこちらも心穏やかではいられなくなると思いませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>多くの偉人を集めているようですね。あまり余計なことはしないでほしいです。偉人は私たちの文明にこそふさわしいはずです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産の建設にかけては私たちの右に出る者はいないということをご存じないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>小国を襲うなんて臆病者のすることです。私たちの国にとってあなたの国は何の価値もありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>これは警告だと思って聞いてください。今後は二度と小国を襲わないことです。</Text>
+		</Replace>
+		!--Warnings for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面を這い回るだけでは栄光をつかむことはできません。航空戦力の整備を急ぐことをおすすめします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者をいたぶるのは恥ずべきことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分の首都の近くであのように蛮族たちをのさばらせておいてよいのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>これだけは言っておきたいです。いたずらに自然を傷つければ、あなたの国のみならず誰もが報いを受けることになるのですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>回りを見渡せば豊かな大地がたくさんあるのに、どうして手をつけようとしないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>思想の違いもそうですが、あなたの民を統治するやり方は私にとって許容できるものではありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器こそが未来を切り開くのです！なぜそれがわからないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>あなたはなにをしるべに道を歩むのですか？まさか信心を持たないというわけではないでしょう。人々に信仰の光を見せるのも統治者の務めです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZUNKO_TOHOKU_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見とは、早い者勝ちの競争です。あなたの国は私たちの国をさしおいて探検隊を派遣しました。そんな国に従うわけにはいきません。</Text>
+		</Replace>
 		<!-- Leader Dialog (きりたん) -->
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_KIRITAN_TOHOKU_ANY" Language="ja_JP">
 			<Text>これからは仲良くやっていきましょう。</Text>
@@ -488,7 +766,7 @@
 			<Text>こんなに早く決着がついてしまうとは・・・ガックリ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_KIRITAN_TOHOKU_ANY" Language="ja_JP">
-			<Text>貴国からの使節を歓迎いたします。</Text>
+			<Text>あなたの国からの使節を歓迎します。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_KIRITAN_TOHOKU_ANY" Language="ja_JP">
 			<Text>申し訳ありませんが、承諾できません。</Text>
@@ -687,6 +965,145 @@
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_KIRITAN_TOHOKU_ANY" Language="ja_JP">
 			<Text>・・・覚悟しておいてください。いずれ必ず報いがありますよ。</Text>
+		</Replace>
+		<!-- Generic kudos for random agendas -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>あなたの民が作り出している他に類を見ない文化には感銘を受けました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>あなたの民はあなたの統治を祝福していると聞きましたよ。民の幸福を維持するのは素晴らしいことですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>あなたの国は実に豊かな富に恵まれているようですね。お金はいくらあっても困るものではないですからね。(ｲｲﾅｧ・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>あなたの民の生産力はまったく賞賛に値します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家のような小さな国にとって、私たちの国ほどふさわしい友人はいないです。あなたの国にもそれを理解してもらえているようでなによりです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>あなたが抱える人口の多さは賞賛に値します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>あなたの文明の科学研究に対する入れ込みようは大したものですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>私は強力な軍隊を持つ指導者が大好きです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明の真価が発揮されるのは戦いにおいてです。どこが最強の文明か、はっきりさせましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>嬉しいことに、世の偉大な人物たちは、あなたの国よりも私たちの国のほうを高く評価してくれているようです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>遺産の建設はこちらに任せてもらえるのですか？あなたの国の賢明な判断に感謝します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家の権利を守ろうとするあなたの姿勢は、全世界がならうべき手本となると思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強きは弱きを守るべきです。同意してくれて嬉しく思います。</Text>
+		</Replace>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>あなたの空軍の力はまったくもってあなどれない。すごいですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自らの面倒を見れない者を助けるのは、高貴なおこないですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>あの蛮族たちには私たちもすごく悩まされていました。助けてくれてありがとうございます (._.)ﾍﾟｺﾘ</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>このかけがえのない大地の貴さを知る人たちが私たちのほかにもいるなんて、とれも嬉しい話です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>こんな言葉があります。「求めよ、さらば与えられん！」世界は人が活用するためにあるのですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>私たちは志を同じくする仲間のようですね。そちらの政治体制を尊重します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>偉大な指導者は同じことを考えるようですね。あの技術には多くの使い道がありますから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>あなたとあなたの民に平穏がもたらされんことを。自分と同じように信心深い者と出会えるのは喜ばしいことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>たいへん結構です。探検はこちらに任せてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたが我々に脅威を与えないと知り、安心しました。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>あなたの国は偉大な文化を生みだそうという熱意に欠けています。これでは私たちは、どうやってあなたの国の人々のことを記憶に留めればよいのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>市民たちのためにもう少し快適性を増やそうとは思わないのですか？みなさんがあなたの統治に満足しているとは思えないのですが。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>あなたの国は今にも破産しそうではないですか。借金にまみれて暮らしていくつもりなのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>あなたの国は都市国家との関係が浅くないようですね。できればそうした振る舞いは控えてもらいたいです。私たちの国こそが、ああした国々との友好を深めるにふさわしいと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国はずいぶんと怠惰な者が多いようですね。なにも生みだせない文明は、じきに人々の記憶から消えてしまうでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>あなたの国は極端な人口不足に陥っています。それではほとんどなにもすることができないでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>あなたの国は技術研究に熱心ではないようだが、それでどうやって人々の暮らしを豊かにできるのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>ずいぶんと規模の小さな軍ですね。それで不安を感じないんですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたの国の都市は私たちの国にあまりに近く、あなたの国の軍はあまりに強い。これではこちらも心穏やかではいられなくなると思いませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>多くの偉人を集めているようですね。あまり余計なことはしないでほしいです。偉人は私たちの文明にこそふさわしいはずです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産の建設にかけては私たちの右に出る者はいないということをご存じないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>小国を襲うなんて臆病者のすることです。私たちの国にとってあなたの国は何の価値もありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>これは警告だと思って聞いてください。今後は二度と小国を襲わないことです。</Text>
+		</Replace>
+		!--Warnings for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面を這い回るだけでは栄光をつかむことはできません。航空戦力の整備を急ぐことをおすすめします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者をいたぶるのは恥ずべきことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分の首都の近くであのように蛮族たちをのさばらせておいてよいのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>これだけは言っておきたいです。いたずらに自然を傷つければ、あなたの国だけでなく誰もが報いを受けることになるんですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>回りを見渡せば肥沃な大地がたくさんあるのに、どうして手をつけようとしないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>思想の違いもそうですが、あなたの民を統治するやり方は私にとって許容できるものではありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器こそが未来を切り開くんです！なぜそれがわからないのですか？(｀Д´#)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>あなたはなにをしるべに道を歩むのですか？まさか信心を持たないというわけではないでしょう。人々に信仰の光を見せるのも統治者の務めです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_KIRITAN_TOHOKU_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見とは、早い者勝ちの競争です。あなたの国は私たちの国をさしおいて探検隊を派遣しました。そんな国に従うわけにはいきません。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

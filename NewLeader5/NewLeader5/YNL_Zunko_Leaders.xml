@@ -39,16 +39,19 @@
 		<Row>
 			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
 			<Name>LOC_LEADER_ITAKO_TOHOKU_NAME</Name>
+			<Sex>Female</Sex>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
 			<Name>LOC_LEADER_ZUNKO_TOHOKU_NAME</Name>
+			<Sex>Female</Sex>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
 			<Name>LOC_LEADER_KIRITAN_TOHOKU_NAME</Name>
+			<Sex>Female</Sex>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>
