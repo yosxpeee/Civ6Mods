@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Players>
+		<!-- Vanilla -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
@@ -17,8 +18,26 @@
 			<LeaderAbilityIcon>ICON_LEADER_HARBOUR_PRINCESS</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_HARBOUR_PRINCESS</Portrait>
 		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
+			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HARBOUR_PRINCESS_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HARBOUR_PRINCESS</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HARBOUR_PRINCESS_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HARBOUR_PRINCESS</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_HARBOUR_PRINCESS</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
+		<!-- Vanilla -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
@@ -41,6 +60,37 @@
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
+			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
+			<Type>UNIT_YNL_ARMORED_CRUISER</Type>
+			<Name>LOC_UNIT_YNL_ARMORED_CRUISER_NAME</Name>
+			<Description>LOC_UNIT_YNL_ARMORED_CRUISER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YNL_ARMORED_CRUISER</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
+			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
+			<Type>DISTRICT_COASTAL_FORT</Type>
+			<Name>LOC_DISTRICT_COASTAL_FORT_NAME</Name>
+			<Description>LOC_DISTRICT_COASTAL_FORT_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_COASTAL_FORT</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
+			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
+			<Type>IMPROVEMENT_DRILLSHIP</Type>
+			<Name>LOC_IMPROVEMENT_DRILLSHIP_NAME</Name>
+			<Description>LOC_IMPROVEMENT_DRILLSHIP_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_DRILLSHIP</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
 			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
 			<Type>UNIT_YNL_ARMORED_CRUISER</Type>

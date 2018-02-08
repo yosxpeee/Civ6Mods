@@ -9,6 +9,7 @@
 		<Row>
 			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
 			<Name>LOC_LEADER_HARBOUR_PRINCESS_NAME</Name>
+			<Sex>Female</Sex>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>
@@ -457,7 +458,6 @@
 	<AiFavoredItems>
 		<!-- Buildings -->
 		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_STONEHENGE"/>				<!-- ストーンヘンジ -->
-		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_HALICARNASSUS_MAUSOLEUM"/>	<!-- マウソロス霊廟 -->
 		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_COLOSSUS"/>				<!-- ロードス島の巨神像 -->
 		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_GREAT_LIGHTHOUSE"/>		<!-- ファロス灯台 -->
 		<Row ListType="YNL_HarbourPrincessWonders"        Item="BUILDING_VENETIAN_ARSENAL"/>		<!-- アルセナーレ・ディ・ヴェネツィア -->
@@ -478,7 +478,7 @@
 	</AiFavoredItems>
 	<!-- アジェンダ -->
 	<HistoricalAgendas>
-		<Row LeaderType="LEADER_HARBOUR_PRINCESS" AgendaType="AGENDA_BACKSTABBER"/><!-- 機を見るに敏(キュロスと同じ) -->
+		<Row LeaderType="LEADER_HARBOUR_PRINCESS" AgendaType="AGENDA_STANDING_ARMY"/>
 	</HistoricalAgendas>
 
 	<DiplomacyInfo>

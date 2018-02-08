@@ -209,10 +209,10 @@
 			<Text>What do you wish of me?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HARBOUR_PRINCESS_ANY" Language="en_US">
-			<Text>I understand all too well, there are some opportunities one simply can't pass up.</Text>
+			<Text>I love a leader who is surrounded by an impressive military.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HARBOUR_PRINCESS_ANY" Language="en_US">
-			<Text>If there's deception afoot, I prefer it when I am the one providing the intrigue.</Text>
+			<Text>You have so few troops.  Aren't you scared for your life?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="en_US">
 			<Text>We are pleased to accept your offer of an alliance.</Text>
@@ -382,5 +382,5 @@
 		<Row Tag="LOC_UNIT_FUBUKI_DESCRIPTION" Language="en_US">
 			<Text>Abyssal Fleets unique Atomic era naval melee unit. +5 [ICON_GreatAdmiral] Great Admiral points for killing units.</Text>
 		</Row>
-</LocalizedText>
+	</LocalizedText>
 </GameData>
