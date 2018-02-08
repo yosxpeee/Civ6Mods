@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Players>
+		<!-- Vanilla -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
@@ -33,8 +34,42 @@
 			<LeaderAbilityIcon>ICON_LEADER_YNL_MUTSU</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_MUTSU</Portrait>
 		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_NAGATO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_NAGATO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_NAGATO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_NAGATO</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_NAGATO</Portrait>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_MUTSU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_MUTSU</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_MUTSU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_MUTSU</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_MUTSU</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
+		<!-- Vanilla -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
@@ -87,6 +122,67 @@
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
+			<Type>IMPROVEMENT_HOUSEBOAT</Type>
+			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
+			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
+			<Type>UNIT_UNIQUE_BATTLESHIP_NAGATO</Type>
+			<Name>LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
+			<Type>BUILDING_IMP_NAVYYARD</Type>
+			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
+			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
+			<Type>IMPROVEMENT_HOUSEBOAT</Type>
+			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
+			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
+			<Type>UNIT_UNIQUE_BATTLESHIP_NAGATO</Type>
+			<Name>LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
+			<Type>BUILDING_IMP_NAVYYARD</Type>
+			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
+			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
 			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
 			<Type>IMPROVEMENT_HOUSEBOAT</Type>

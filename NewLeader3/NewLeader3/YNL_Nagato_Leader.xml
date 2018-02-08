@@ -10,11 +10,13 @@
 		<Row>
 			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
 			<Name>LOC_LEADER_YNL_NAGATO_NAME</Name>
+			<Sex>Female</Sex>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
 			<Name>LOC_LEADER_YNL_MUTSU_NAME</Name>
+			<Sex>Female</Sex>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>

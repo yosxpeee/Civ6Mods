@@ -359,6 +359,145 @@
 		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_NAGATO_ANY" Language="en_US">
 			<Text>I assure you there will be consequences for this - if not now, then later.</Text>
 		</Row>
+		<!-- Generic kudos for random agendas -->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_CULTURE" Language="en_US">
+			<Text>I am impressed with the unique culture your people are developing.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_HAPPINESS" Language="en_US">
+			<Text>I'm hearing talk that your people want to celebrate your rule. Nice job keeping them happy.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_INCOME" Language="en_US">
+			<Text>Your treasury is filling up quite nicely. It's always nice to have such strong income, isn't it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_INDUSTRY" Language="en_US">
+			<Text>I extend my heartiest congratulations on the productivity of your people.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="en_US">
+			<Text>We are true friends with the smaller civilizations. We appreciate that you recognize this fact.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_POPULATION" Language="en_US">
+			<Text>The number of people living in your empire is truly impressive.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_SCIENCE" Language="en_US">
+			<Text>I am impressed with the depth of your scientific research.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_STANDING_ARMY" Language="en_US">
+			<Text>I love a leader who is surrounded by an impressive military.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_ENJOYS_WAR" Language="en_US">
+			<Text>It is in combat that the true soul of a civilization is revealed. May the best man win.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="en_US">
+			<Text>I am pleased to see that the great minds of the world prefer our empire to yours.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="en_US">
+			<Text>It makes me happy that you leave the wonder building to us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="en_US">
+			<Text>Your protection of a city-state's right to exist sets an example for all the world to follow.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="en_US">
+			<Text>The strong should protect the weak. It is good to see you agree.</Text>
+		</Row>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_AIRPOWER" Language="en_US">
+			<Text>I must say, the power of your airforce is not one to be trifled with. Very nice.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_PROTECTS_CITY_STATES" Language="en_US">
+			<Text>It is an admirable thing to look out for those who cannot look out for themselves.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="en_US">
+			<Text>These Barbarians have been a nuisance to us all. Thank you for your help!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_ENVIRONMENT" Language="en_US">
+			<Text>We have only been given one earth, and I am glad that I am not the only one to respect that.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_EXPLOITATION" Language="en_US">
+			<Text>The world is ours for the taking! And take it, you have.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_SAME_GOVERNMENT" Language="en_US">
+			<Text>I see you're a like-minded individual, and must commend your government practices.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_NUKE_LOVE" Language="en_US">
+			<Text>Great minds think alike, I see. There are so many uses for that technology...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_FAITH" Language="en_US">
+			<Text>Peace be to you and yours. It is heartening to see another just as pious as myself.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_EXPLORATION" Language="en_US">
+			<Text>Yes, very good. Leave the exploring to me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_PARANOID" Language="en_US">
+			<Text>I am relieved to see that your empire poses no threat to ours.</Text>
+		</Row>
+		<!-- Generic warnings for random agendas -->
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_CULTURE" Language="en_US">
+			<Text>You are not doing much to develop a strong culture. What will we have to remember about your people?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_HAPPINESS" Language="en_US">
+			<Text>You might want to look into a few more amenities for your citizens. I don't think they are enjoying your rule.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_INCOME" Language="en_US">
+			<Text>Your empire is headed toward bankruptcy.  How can you survive with debt piling up?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="en_US">
+			<Text>You tread on dangerous ground by making common cause with city-states. Leave them to us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_INDUSTRY" Language="en_US">
+			<Text>Your people are lazy and unworthy. If you can produce nothing, your civilization will soon be forgotten.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_POPULATION" Language="en_US">
+			<Text>There are so few people living in your empire. It must be hard to get anything done.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_SCIENCE" Language="en_US">
+			<Text>You are not spending much time on research. How will your people keep up?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_STANDING_ARMY" Language="en_US">
+			<Text>You have so few troops.  Aren't you scared for your life?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_PARANOID" Language="en_US">
+			<Text>Your cities are so close.  Your troops are so strong.  You are making me nervous!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="en_US">
+			<Text>Your recruitment of great people we coveted is becoming a real problem.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="en_US">
+			<Text>Do you not realize that we are supposed to be the preeminent builders of wonders?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="en_US">
+			<Text>Only cowards attack the small powers of the world. You are worthless to us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="en_US">
+			<Text>Consider this a warning. Do not attack the minor powers again.</Text>
+		</Row>
+		<!--Warnings for future random agendas (not yet implemented)-->
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_AIRPOWER" Language="en_US">
+			<Text>There is no glory to keeping your feet on the ground. You should really try building an airforce.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_ATTACKS_CITY_STATES" Language="en_US">
+			<Text>It is a deplorable thing to bully the weak.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="en_US">
+			<Text>How can you let those Barbarians run amok so close to your home?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_ENVIRONMENT" Language="en_US">
+			<Text>I must tell you that your destruction of our earth is not just affecting you, but your neighbors as well.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_EXPLOITATION" Language="en_US">
+			<Text>Bountiful lands surround you! How can you ignore them?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="en_US">
+			<Text>Our ideological differences are only the beginning. I cannot approve of the way you govern your people...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_NUKE_LOVE" Language="en_US">
+			<Text>Nuclear weaponry is the future! How can you not see that?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_LOW_FAITH" Language="en_US">
+			<Text>What guides you? Surely, you cannot believe in nothing. Come, show your people the light!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_HIGH_EXPLORATION" Language="en_US">
+			<Text>There is only so much to discover, and I'm afraid I cannot abide anyone who sets out ahead of my own explorers.</Text>
+		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_MUTSU_ANY" Language="en_US">
 			<Text>We are pleased to accept your offer of friendship.</Text>
@@ -588,7 +727,146 @@
 		<Row Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_MUTSU_ANY" Language="en_US">
 			<Text>I assure you there will be consequences for this - if not now, then later.</Text>
 		</Row>
-
+		<!-- Generic kudos for random agendas -->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_CULTURE" Language="en_US">
+			<Text>I am impressed with the unique culture your people are developing.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_HAPPINESS" Language="en_US">
+			<Text>I'm hearing talk that your people want to celebrate your rule. Nice job keeping them happy.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_INCOME" Language="en_US">
+			<Text>Your treasury is filling up quite nicely. It's always nice to have such strong income, isn't it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_INDUSTRY" Language="en_US">
+			<Text>I extend my heartiest congratulations on the productivity of your people.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="en_US">
+			<Text>We are true friends with the smaller civilizations. We appreciate that you recognize this fact.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_POPULATION" Language="en_US">
+			<Text>The number of people living in your empire is truly impressive.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_SCIENCE" Language="en_US">
+			<Text>I am impressed with the depth of your scientific research.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_STANDING_ARMY" Language="en_US">
+			<Text>I love a leader who is surrounded by an impressive military.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_ENJOYS_WAR" Language="en_US">
+			<Text>It is in combat that the true soul of a civilization is revealed. May the best man win.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="en_US">
+			<Text>I am pleased to see that the great minds of the world prefer our empire to yours.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="en_US">
+			<Text>It makes me happy that you leave the wonder building to us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="en_US">
+			<Text>Your protection of a city-state's right to exist sets an example for all the world to follow.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="en_US">
+			<Text>The strong should protect the weak. It is good to see you agree.</Text>
+		</Row>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_AIRPOWER" Language="en_US">
+			<Text>I must say, the power of your airforce is not one to be trifled with. Very nice.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_PROTECTS_CITY_STATES" Language="en_US">
+			<Text>It is an admirable thing to look out for those who cannot look out for themselves.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="en_US">
+			<Text>These Barbarians have been a nuisance to us all. Thank you for your help!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_ENVIRONMENT" Language="en_US">
+			<Text>We have only been given one earth, and I am glad that I am not the only one to respect that.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_EXPLOITATION" Language="en_US">
+			<Text>The world is ours for the taking! And take it, you have.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_SAME_GOVERNMENT" Language="en_US">
+			<Text>I see you're a like-minded individual, and must commend your government practices.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_NUKE_LOVE" Language="en_US">
+			<Text>Great minds think alike, I see. There are so many uses for that technology...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_FAITH" Language="en_US">
+			<Text>Peace be to you and yours. It is heartening to see another just as pious as myself.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_EXPLORATION" Language="en_US">
+			<Text>Yes, very good. Leave the exploring to me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_PARANOID" Language="en_US">
+			<Text>I am relieved to see that your empire poses no threat to ours.</Text>
+		</Row>
+		<!-- Generic warnings for random agendas -->
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_CULTURE" Language="en_US">
+			<Text>You are not doing much to develop a strong culture. What will we have to remember about your people?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_HAPPINESS" Language="en_US">
+			<Text>You might want to look into a few more amenities for your citizens. I don't think they are enjoying your rule.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_INCOME" Language="en_US">
+			<Text>Your empire is headed toward bankruptcy.  How can you survive with debt piling up?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="en_US">
+			<Text>You tread on dangerous ground by making common cause with city-states. Leave them to us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_INDUSTRY" Language="en_US">
+			<Text>Your people are lazy and unworthy. If you can produce nothing, your civilization will soon be forgotten.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_POPULATION" Language="en_US">
+			<Text>There are so few people living in your empire. It must be hard to get anything done.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_SCIENCE" Language="en_US">
+			<Text>You are not spending much time on research. How will your people keep up?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_STANDING_ARMY" Language="en_US">
+			<Text>You have so few troops.  Aren't you scared for your life?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_PARANOID" Language="en_US">
+			<Text>Your cities are so close.  Your troops are so strong.  You are making me nervous!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="en_US">
+			<Text>Your recruitment of great people we coveted is becoming a real problem.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="en_US">
+			<Text>Do you not realize that we are supposed to be the preeminent builders of wonders?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="en_US">
+			<Text>Only cowards attack the small powers of the world. You are worthless to us.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="en_US">
+			<Text>Consider this a warning. Do not attack the minor powers again.</Text>
+		</Row>
+		<!--Warnings for future random agendas (not yet implemented)-->
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_AIRPOWER" Language="en_US">
+			<Text>There is no glory to keeping your feet on the ground. You should really try building an airforce.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_ATTACKS_CITY_STATES" Language="en_US">
+			<Text>It is a deplorable thing to bully the weak.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="en_US">
+			<Text>How can you let those Barbarians run amok so close to your home?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_ENVIRONMENT" Language="en_US">
+			<Text>I must tell you that your destruction of our earth is not just affecting you, but your neighbors as well.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_EXPLOITATION" Language="en_US">
+			<Text>Bountiful lands surround you! How can you ignore them?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="en_US">
+			<Text>Our ideological differences are only the beginning. I cannot approve of the way you govern your people...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_NUKE_LOVE" Language="en_US">
+			<Text>Nuclear weaponry is the future! How can you not see that?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_LOW_FAITH" Language="en_US">
+			<Text>What guides you? Surely, you cannot believe in nothing. Come, show your people the light!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_HIGH_EXPLORATION" Language="en_US">
+			<Text>There is only so much to discover, and I'm afraid I cannot abide anyone who sets out ahead of my own explorers.</Text>
+		</Row>
+		
 		<Row Tag="LOC_LEADER_YNL_NAGATO_DOM_TEXT" Language="en_US">
 			<Text>Born as the first battleship of the 8-8 fleet programme, the nameship of the Nagato-class battleships, Nagato. Until Yamato was commissioned, I served as the flagship of the Combined Fleet.	I was called one of the 'Big 7'.</Text>
 		</Row>
