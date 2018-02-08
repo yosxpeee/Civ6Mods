@@ -40,7 +40,7 @@
 	<DistrictModifiers>
 		<Row>
 			<DistrictType>DISTRICT_LIVERY_COMPANY</DistrictType>
-			<ModifierId>COMMERCIAL_HUB_TRADE_ROUTE_CAPACITY</ModifierId><!-- バニラにある効果 -->
+			<ModifierId>COMMERCIAL_HUB_TRADE_ROUTE_CAPACITY</ModifierId>
 		</Row>
 	</DistrictModifiers>
 </GameInfo>

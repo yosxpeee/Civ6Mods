@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Players>
+		<!-- Vanilla -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
@@ -17,8 +18,26 @@
 			<LeaderAbilityIcon>ICON_LEADER_YNL_MESUGAKI</LeaderAbilityIcon>
 			<Portrait>LEADER_YNL_MESUGAKI_NEUTRAL</Portrait>
 		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
+			<LeaderType>LEADER_YNL_MESUGAKI</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_YNL_POM_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_YNL_POM</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_MESUGAKI_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_MESUGAKI</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_YNL_POM_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_YNL_POM_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_YNL_POM</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_MESUGAKI_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_MESUGAKI_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_MESUGAKI</LeaderAbilityIcon>
+			<Portrait>LEADER_YNL_MESUGAKI_NEUTRAL</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
+		<!-- Vanilla -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
@@ -41,6 +60,37 @@
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
+			<LeaderType>LEADER_YNL_MESUGAKI</LeaderType>
+			<Type>IMPROVEMENT_BOARDING_HOUSE</Type>
+			<Name>LOC_IMPROVEMENT_BOARDING_HOUSE_NAME</Name>
+			<Description>LOC_IMPROVEMENT_BOARDING_HOUSE_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_BOARDING_HOUSE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
+			<LeaderType>LEADER_YNL_MESUGAKI</LeaderType>
+			<Type>UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE</Type>
+			<Name>LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME</Name>
+			<Description>LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
+			<LeaderType>LEADER_YNL_MESUGAKI</LeaderType>
+			<Type>DISTRICT_LIVERY_COMPANY</Type>
+			<Name>LOC_DISTRICT_LIVERY_COMPANY_NAME</Name>
+			<Description>LOC_DISTRICT_LIVERY_COMPANY_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_LIVERY_COMPANY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_YNL_POM</CivilizationType>
 			<LeaderType>LEADER_YNL_MESUGAKI</LeaderType>
 			<Type>IMPROVEMENT_BOARDING_HOUSE</Type>
