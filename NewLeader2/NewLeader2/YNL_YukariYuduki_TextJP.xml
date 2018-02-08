@@ -110,10 +110,17 @@
 			<Text>登別</Text>
 		</Replace>
 
+		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YUKARI_YUDUKI_QUOTE" Language="ja_JP">
 			<Text>縁環の理の中で話します</Text>
 		</Replace>
 
+		<!-- DOM Text -->
+		<Replace Tag="LOC_LEADER_YUKARI_YUDUKI_DOM_TEXT" Language="ja_JP">
+			<Text>ゆかりさんカワイイヤッター</Text>
+		</Replace>
+
+		<!-- Leader Dialog -->
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
 			<Text>これからは仲良くやっていきましょう。</Text>
 		</Replace>
@@ -342,9 +349,144 @@
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
 			<Text>・・・覚悟しておいてください。いずれ必ず報いがありますよ。</Text>
 		</Replace>
-
-		<Replace Tag="LOC_LEADER_YUKARI_YUDUKI_DOM_TEXT" Language="ja_JP">
-			<Text>ゆかりさんカワイイヤッター</Text>
+		<!-- Generic kudos for random agendas -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>あなたの民が作り出している他に類を見ない文化には感銘を受けました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>あなたの民はあなたの統治を祝福していると聞ききました。民の幸福を維持するのは素晴らしいことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>あなたの国は実に豊かな富に恵まれているようですね。金はいくらあっても困るものではない、ということでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国の人たちの生産力には感心するばかりです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家のような小国にとって、私たちの国ほどふさわしい友人はいないと考えているんです。あなたの国にもそれを理解してもらえているようで、ホッとしています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>あなたが抱える人口の多さは賞賛に値します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>あなたの文明の科学研究に対する入れ込みようは大したものです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>私は強力な軍隊を持つ指導者が好みです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明の真価が発揮されるのは戦いにおいてです。どこが最強の文明か、はっきりさせようではありませんか。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>嬉しいことに、世の偉大な人物たちは、貴国よりも我が国のほうを高く評価してくれているようです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>遺産の建設は私たちに任せてもらえるとは、貴国の賢明な判断に感謝します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家の権利を守ろうとするあなたの姿勢は、全世界がならうべき手本となるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強きは弱きを守るべきです。賛同してくれて嬉しく思います。</Text>
+		</Replace>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>あなたの空軍の力はまったくもってあなどれません。大したものですね・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自らの面倒を見れない者を助けるのは、高貴なおこないです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>あの蛮族だちには私たちも大いに悩まされていました。手助けに感謝します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>このかけがえのない大地の貴さを知る人々が私たちのほかにもいるとは嬉しい話です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>世界は人が活用するためにある。「求めよ、さらば与えられん！」これは私の好きな言葉です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>私たちは志を同じくする仲間のようですね。そちらの政治体制を尊重いたします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>偉大な指導者は同じことを考えるようですね。あの技術には多くの使い道がありますから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>あなたとあなたの民に平穏がもたらされんことを。自分と同じように信心深い者と出会えるのは喜ばしいことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>たいへん結構。探検はこちらに任せてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YUKARI_YUDUKI_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたが我々に脅威を与えないと知り、安心しました。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>あなたの国は偉大な文化を生みだそうという熱意に欠けているのではないですか？これではどうやってあなたの国の人々のことを記憶に留めればよいのでしょう？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>市民たちのためにもう少し快適性を増やそうとは思わないのですか？みなさんがあなたのの統治に満足しているとは思えないのですが・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>今にも破産しそうではないですか・・・。借金にまみれて暮らしていくつもりなのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>あなたの国は都市国家との関係が浅くないようですね。できればそうした振る舞いは控えて欲しいのです。私たちの国こそが、ああした国々との友好を深めるにふさわしいと思うのです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国はずいぶんと怠け者が多いようですね。なにも生みだせない文明はそのうち人々の記憶から消えてしまいますよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>あなたの国は極端な人口不足に陥っています。それではほとんどなにもすることができないでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>あなたの国は技術研究に熱心ではないみたいですね。それでどうやって人々の暮らしを豊かにできるのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>そんなにささやかな軍隊しか持たずに、不安を感じることはないんですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたの国の都市は我が国にあまりに近く、あまりに強いです。これではこちらも心穏やかではいられなくなると思いませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>多くの偉人を集めているようですね。あまり余計なことはしないでもらいたいです。偉人は私たちの文明にこそふさわしいと思っています。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産の建設にかけては私たちの右に出る者はいないということをご存じないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>弱い国を襲うなんて臆病者のすることです。私たちの国にとってあなたの国は何の価値もありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>これは警告だと思ってほしいです。今後は二度と弱い国を襲わないことです。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面を這い回るだけでは栄光をつかむことはできません。航空戦力の整備を急ぐことをおすすめします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者をいたぶるのは恥ずべきことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分の首都の近くであのように蛮族たちをのさばらせておいてよいのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>これだけは言っておきたいです。いたずらに自然を傷つければ、あなたの国だけでなく誰もが報いを受けることになるんです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>周囲に広がる肥沃な土地に、なぜ手をつけようとしないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>思想の違いもそうですけど、あなたの民を統治するやり方は私にとって許容できるものではないです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器こそが未来を切り開くんです！なぜそれがわからないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>あなたは何を道標に歩んでいくのですか？まさか信心を持たないということはないでしょう。人々に信仰の光を見せるのも統治者の務めですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見とは、早い者勝ちの競争です。あなたの国は私たちの国をさしおいて探検隊を派遣したではないですか。そんな国に従うわけにはいきません。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
