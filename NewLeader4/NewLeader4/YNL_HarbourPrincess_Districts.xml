@@ -35,6 +35,7 @@
 	<DistrictModifiers>
 		<Row>
 			<DistrictType>DISTRICT_COASTAL_FORT</DistrictType>
+			<!-- あえてバニラの交易路増加をコピーして実装 -->
 			<ModifierId>COASTAL_FORT_TRADE_ROUTE_CAPACITY</ModifierId>
 		</Row>
 		<Row>
