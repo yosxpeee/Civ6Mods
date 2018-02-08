@@ -14,7 +14,7 @@
 			<Description>LOC_CIVILIZATION_YNL_POM_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_YNL_POM_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<RandomCityNameDepth>13</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
@@ -54,35 +54,43 @@
 		<!-- 区域は隣接する他の区域からも隣接ボーナス（1つにつき+1）を得る -->
 		<!-- ※日本の明治維新と同等 -->
 		<Row>
+			<!-- バニラにある -->
 			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
 			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
 		</Row>
 		<Row>
+			<!-- バニラにある -->
 			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
 			<ModifierId>TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE</ModifierId>
 		</Row>
 		<Row>
+			<!-- バニラにある -->
 			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
 			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD</ModifierId>
 		</Row>
 		<Row>
+			<!-- MOD固有 -->
 			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
 			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
 		</Row>
 		<Row>
+			<!-- バニラにある -->
 			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
 			<ModifierId>TRAIT_ADJACENT_DISTRICTS_THEATER_ADJACENCYCULTURE</ModifierId>
 		</Row>
 		<Row>
+			<!-- バニラにある -->
 			<TraitType>TRAIT_CIVILIZATION_YNL_POM</TraitType>
 			<ModifierId>TRAIT_ADJACENT_DISTRICTS_INDUSTRIALZONE_ADJACENCYPRODUCTION</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
+		<!-- 全都市無条件に快適性+1 -->
 		<Row>
 			<ModifierId>TRAIT_MODIFIER_MESUGAKI_AMENITIES_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
 		</Row>
+		<!-- 区域は隣接する他の区域からも隣接ボーナス（1つにつき+1）を得る -->
 		<Row>
 			<!-- リヴァリ・カンパニーはこのMOD固有なので効果まで定義する -->
 			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
@@ -90,11 +98,14 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 全都市無条件に快適性+1 -->
 		<Row>
 			<ModifierId>TRAIT_MODIFIER_MESUGAKI_AMENITIES_BONUS</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- 区域は隣接する他の区域からも隣接ボーナス（1つにつき+1）を得る -->
+		<!-- リヴァリ・カンパニーのみ -->
 		<Row>
 			<ModifierId>TRAIT_ADJACENT_DISTRICTS_LIVERY_COMPANY_ADJACENCYGOLD</ModifierId>
 			<Name>DistrictType</Name>
@@ -116,7 +127,8 @@
 			<Value>LOC_DISTRICT_DISTRICT_1_GOLD</Value>
 		</Row>
 	</ModifierArguments>
-
+	
+	<!-- 都市名 -->
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_2" />
@@ -128,7 +140,12 @@
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_8" />
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_YNL_POM" CityName="LOC_CIVLIZATION_YNL_POM_CITY_13" />
 	</CityNames>
+	
+	<!-- スタート地点補正 -->
 	<StartBiasResources>
 		<!-- 鉄と馬 -->
 		<Row CivilizationType="CIVILIZATION_YNL_POM" ResourceType="RESOURCE_HORSES" Tier="2"/>

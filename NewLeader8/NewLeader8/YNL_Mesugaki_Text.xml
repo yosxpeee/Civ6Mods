@@ -79,6 +79,15 @@
 		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_10" Language="en_US">
 			<Text>Trajectum</Text>
 		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_11" Language="en_US">
+			<Text>Tanaic</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_12" Language="en_US">
+			<Text>Chersonesus</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_POM_CITY_13" Language="en_US">
+			<Text>Pantikapaion</Text>
+		</Replace>
 
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_MESUGAKI_QUOTE" Language="en_US">
