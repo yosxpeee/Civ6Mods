@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Players>
+		<!-- Vanilla -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
@@ -17,8 +18,26 @@
 			<LeaderAbilityIcon>ICON_LEADER_YNL_TYRAEL</LeaderAbilityIcon>
 			<Portrait>LEADER_TYRAEL_NEUTRAL</Portrait>
 		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
+			<LeaderType>LEADER_YNL_TYRAEL</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_WOD_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_WOD</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_TYRAEL_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_TYRAEL</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_TYRAELS_MIGHT_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_TYRAELS_MIGHT_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_WOD</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_TYRAEL_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_TYRAEL_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_TYRAEL</LeaderAbilityIcon>
+			<Portrait>LEADER_TYRAEL_NEUTRAL</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
+		<!-- Vanilla -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
@@ -41,6 +60,37 @@
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
+			<LeaderType>LEADER_YNL_TYRAEL</LeaderType>
+			<Type>DISTRICT_ANGELS_DANCE_HALL</Type>
+			<Name>LOC_DISTRICT_ANGELS_DANCE_HALL_NAME</Name>
+			<Description>LOC_DISTRICT_ANGELS_DANCE_HALL_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_ANGELS_DANCE_HALL</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
+			<LeaderType>LEADER_YNL_TYRAEL</LeaderType>
+			<Type>UNIT_UNIQUE_BALLISTA</Type>
+			<Name>LOC_UNIT_UNIQUE_BALLISTA_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_BALLISTA_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_BALLISTA</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
+			<LeaderType>LEADER_YNL_TYRAEL</LeaderType>
+			<Type>UNIT_TYRAEL_AXEMEN</Type>
+			<Name>LOC_UNIT_TYRAEL_AXEMEN_NAME</Name>
+			<Description>LOC_UNIT_TYRAEL_AXEMEN_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_TYRAEL_AXEMEN</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_WOD</CivilizationType>
 			<LeaderType>LEADER_YNL_TYRAEL</LeaderType>
 			<Type>DISTRICT_ANGELS_DANCE_HALL</Type>
