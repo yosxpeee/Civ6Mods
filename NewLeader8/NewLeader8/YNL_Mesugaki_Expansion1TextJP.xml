@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- RaF専用アジェンダ（専用のファイルに書くこと） -->
+		<!-- 堅物 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_MESUGAKI_REASON_AGENDA_CURMUDGEON_POSITIVE" Language="ja_JP">
+			<Text>偉大な指導者は、異性の手管に心を奪われたりはせぬものではないでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_MESUGAKI_REASON_AGENDA_CURMUDGEON_NEGATIVE" Language="ja_JP">
+			<Text>よく回る口ですね。他にやることはないのですか？気が散って迷惑です。</Text>
+		</Replace>
+		<!-- 色好み -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_MESUGAKI_REASON_AGENDA_FLIRTATIOUS_POSITIVE" Language="ja_JP">
+			<Text>あなたには敬服しています。多くの者がそうなのでしょうけど、私こそが最大にして最も重要な信奉者ですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_MESUGAKI_REASON_AGENDA_FLIRTATIOUS_NEGATIVE" Language="ja_JP">
+			<Text>「民の最善の利益のために交渉している」と言いますけど、本当にそうですか？私の交友関係を妬んでいるだけに見えます。</Text>
+		</Replace>
+		<!-- ゴシップ -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_MESUGAKI_REASON_AGENDA_GOSSIP_POSITIVE" Language="ja_JP">
+			<Text>「知は力なり」と言うように、他国の秘密を知っている私たちの関係は盤石ですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_MESUGAKI_REASON_AGENDA_GOSSIP_NEGATIVE" Language="ja_JP">
+			<Text>しょっちゅう考えるんです、あなたの口数が少ないのはなぜなのでしょう、と。たぶん、興味を引けるような話をろくに知らないのでは？</Text>
+		</Replace>
+		<!-- 追従 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_MESUGAKI_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="ja_JP">
+			<Text>私たちの国の詩人や哲学者たちは、あなたの国の文明をこの世の光として称賛しています。私も同じ意見です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_MESUGAKI_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="ja_JP">
+			<Text>世界にとってより尊い手本となることを目指してほしいです！あなたが民を栄光に導けば、民はあなたを愛するでしょう。</Text>
+		</Replace>
+		<!-- 人情家 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_MESUGAKI_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="ja_JP">
+			<Text>あなたはとても我慢強く、強い意志で苦難に耐えています。私たちとしても感に堪えません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_MESUGAKI_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
+			<Text>「栄光の時代」を満喫しているところを悪いのですけど、どうにも鼻についてならないです。あなたの国が没落する日が今から楽しみです。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
