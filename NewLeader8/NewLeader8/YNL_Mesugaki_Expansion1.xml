@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<!-- リヴァリ・カンパニー -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_LIVERY_COMPANY"
+			 Texture="YNL_MOMENT_LIVERY_COMPANY.dds"/>
+		<!-- 対物ライフル兵 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"
+			 Texture="YNL_MOMENT_ANTI_MATERIAL_RIFLE.dds"/>
+		<!-- 民宿 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" 
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_BOARDING_HOUSE"
+			 Texture="YNL_MOMENT_BOARDING_HOUSE.dds"/>
+	</MomentIllustrations>
+</GameData>
