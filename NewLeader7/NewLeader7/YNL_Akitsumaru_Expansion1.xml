@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<!-- カ号観測機 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_KAGOU"
+			 Texture="YNL_MOMENT_KAGOU.dds"/>
+		<!-- 憲兵 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_KENPEI"
+			 Texture="YNL_MOMENT_KENPEI.dds"/>
+		<!-- 帝国陸軍兵器廠 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_IMP_ARMY_ARMORY"
+			 Texture="YNL_MOMENT_IMP_ARMY_ARMORY.dds"/>
+	</MomentIllustrations>
+</GameData>
