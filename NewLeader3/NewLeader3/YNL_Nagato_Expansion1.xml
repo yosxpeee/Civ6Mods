@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<!-- 長門型戦艦 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_UNIQUE_BATTLESHIP_NAGATO"
+			 Texture="YNL_MOMENT_UNIQUE_BATTLESHIP_NAGATO.dds"/>
+		<!-- 家船 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_HOUSEBOAT"
+			 Texture="YNL_MOMENT_HOUSEBOAT.dds"/>
+		<!-- 帝国海軍工廠 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_IMP_NAVYYARD"
+			 Texture="YNL_MOMENT_IMP_NAVYYARD.dds"/>
+	</MomentIllustrations>
+</GameData>
