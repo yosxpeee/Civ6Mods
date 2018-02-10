@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Expansion1 Agenda -->
+	<AgendaPreferredLeaders>
+		<Row AgendaType="AGENDA_GOSSIP" LeaderType="LEADER_YNL_MESUGAKI" PercentageChance="20"/>
+	</AgendaPreferredLeaders>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<!-- 工業大学 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_TECHNOLOGICAL_UNIVERSITY"
+			 Texture="YNL_MOMENT_TECHNOLOGICAL_UNIVERSITY.dds"/>
+		<!-- 自走榴弾砲 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_UNIQUE_HOWITZER"
+			 Texture="YNL_MOMENT_UNIQUE_HOWITZER.dds"/>
+		<!-- チャシ -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_CYASHI"
+			 Texture="YNL_MOMENT_CYASHI.dds"/>
+	</MomentIllustrations>
+</GameData>
