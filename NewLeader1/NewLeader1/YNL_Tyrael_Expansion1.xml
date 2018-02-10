@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Expansion1 Agenda -->
+	<AgendaPreferredLeaders>
+		<Row AgendaType="AGENDA_CURMUDGEON" LeaderType="LEADER_YNL_TYRAEL" PercentageChance="15"/>
+	</AgendaPreferredLeaders>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<!-- バリスタ -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_UNIQUE_BALLISTA"
+			 Texture="YNL_MOMENT_BALLISTA.dds"/>
+		<!-- 聖斧兵 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_TYRAEL_AXEMEN"
+			 Texture="YNL_MOMENT_SAINT_AXEMEN.dds"/>
+		<!-- 天使の舞踏場 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_ANGELS_DANCE_HALL"
+			 Texture="Moment_Infrastructure_Greece.dds"/>
+	</MomentIllustrations>
+</GameData>
