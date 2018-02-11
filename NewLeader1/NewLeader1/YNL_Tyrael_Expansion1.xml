@@ -22,4 +22,7 @@
 			 GameDataType="DISTRICT_ANGELS_DANCE_HALL"
 			 Texture="Moment_Infrastructure_Greece.dds"/>
 	</MomentIllustrations>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldChangeId="Government_Culture"/>
+	</District_Adjacencies>
 </GameData>
