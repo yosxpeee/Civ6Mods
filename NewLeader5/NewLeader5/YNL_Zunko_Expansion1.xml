@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Expansion1 Agenda -->
+	<AgendaPreferredLeaders>
+		<Row AgendaType="AGENDA_FLIRTATIOUS" LeaderType="LEADER_ITAKO_TOHOKU" PercentageChance="10"/>
+		<Row AgendaType="AGENDA_SYMPATHIZER" LeaderType="LEADER_KIRITAN_TOHOKU" PercentageChance="10"/>
+	</AgendaPreferredLeaders>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<!-- 共通：庚申塔 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_KOSHIN_TOWER"
+			 Texture="YNL_MOMENT_KOSHIN_TOWER.dds"/>
+		<!-- イタコ：山伏 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YAMABUSHI"
+			 Texture="YNL_MOMENT_YAMABUSHI.dds"/>
+		<!-- イタコ：僧兵 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_FIGHTING_MONK"
+			 Texture="YNL_MOMENT_FIGHTING_MONK.dds"/>
+		<!-- ずん子：ずんだ弓騎兵 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_ZUNKO_HORSE_ARCHER"
+			 Texture="YNL_MOMENT_ZUNKO_HORSE_ARCHER.dds"/>
+		<!-- ずん子：ずんだカフェ -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_ZUNDA_CAFE"
+			 Texture="YNL_MOMENT_ZUNDA_CAFE.dds"/>
+		 <!-- きりたん：なまはげ館 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_NAMAHAGE_MUSEUM"
+			 Texture="YNL_MOMENT_NAMAHAGE_MUSEUM.dds"/>
+		 <!-- きりたん：工業団地 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_INDUSTRIAL_PARK"
+			 Texture="YNL_MOMENT_INDUSTRIAL_PARK.dds"/>
+	 </MomentIllustrations>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Government_Faith"/>
+	</District_Adjacencies>
+</GameData>
