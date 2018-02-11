@@ -22,4 +22,7 @@
 			 GameDataType="IMPROVEMENT_BOARDING_HOUSE"
 			 Texture="YNL_MOMENT_BOARDING_HOUSE.dds"/>
 	</MomentIllustrations>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_LIVERY_COMPANY" YieldChangeId="Government_Gold"/>
+	</District_Adjacencies>
 </GameData>
