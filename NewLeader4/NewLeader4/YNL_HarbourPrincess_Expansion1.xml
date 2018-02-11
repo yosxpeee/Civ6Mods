@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<!-- 沿岸要塞 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_COASTAL_FORT"
+			 Texture="YNL_MOMENT_COASTAL_FORT.dds"/>
+		<!-- 深海装甲巡洋艦 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_ARMORED_CRUISER"
+			 Texture="YNL_MOMENT_YNL_ARMORED_CRUISER.dds"/>
+		<!-- 掘削船 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_DRILLSHIP"
+			 Texture="YNL_MOMENT_DRILLSHIP.dds"/>
+	</MomentIllustrations>
+
+	<!-- RaFで追加された王立海軍造船所の能力をコピーして実装 -->
+	<!-- RaFで追加された支援ユニットに対応する技術解禁で1体取得 -->
+	
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldChangeId="Government_Production"/>
+	</District_Adjacencies>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_COASTAL_FORT</DistrictType>
+			<ModifierId>ROYAL_NAVY_DOCKYARD_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<TraitModifiers>
+		<!-- 対応する技術解禁で補給部隊1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SUPPLY_CONVOY"/>
+		<!-- 対応する技術解禁でドローン1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_DRONE"/>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- ターンごとの忠誠度取得 -->
+		<Row>
+			<ModifierId>COASTAL_FORT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType><!-- RaF追加のModifierType -->
+			<SubjectRequirementSetId>DOCKYARD_FOREIGN_CONTINENT_REQUIREMENTS</SubjectRequirementSetId><!-- バニラにあるSubjectRequirementSetId -->>
+		</Row>
+		<!-- 対応する技術解禁で補給部隊1体取得 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SUPPLY_CONVOY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_COMBUSTION_YNL_HP</OwnerRequirementsetId>
+		</Row>
+		<!-- 対応する技術解禁でドローン1体取得 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_DRONE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>PLAYER_HAS_COMPUTERS_YNL_HP</OwnerRequirementsetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ターンごとの忠誠度取得 -->
+		<Row>
+			<ModifierId>COASTAL_FORT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- 対応する技術解禁で補給部隊1体取得 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SUPPLY_CONVOY</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SUPPLY_CONVOY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SUPPLY_CONVOY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SUPPLY_CONVOY</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<!-- 対応する技術解禁でドローン1体取得 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_DRONE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_DRONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_DRONE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_DRONE</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<!-- テクノロジー：内燃機関を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_COMBUSTION_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- テクノロジー：コンピューターを取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_COMPUTERS_YNL_HP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- テクノロジー：内燃機関を取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_COMBUSTION_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_COMBUSTION_YNL_HP</RequirementId>
+		</Row>
+		<!-- テクノロジー：コンピューターを取得しているか -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_COMPUTERS_YNL_HP</RequirementSetId>
+			<RequirementId>REQUIRES_TECHNOLOGY_COMPUTERS_YNL_HP</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- テクノロジー：内燃機関を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_COMBUSTION_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- テクノロジー：コンピューターを取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_COMPUTERS_YNL_HP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- テクノロジー：内燃機関を取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_COMBUSTION_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_COMBUSTION</Value>
+		</Row>
+		<!-- テクノロジー：コンピューターを取得しているか -->
+		<Row>
+			<RequirementId>REQUIRES_TECHNOLOGY_COMPUTERS_YNL_HP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_COMPUTERS</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
