@@ -28,7 +28,7 @@
 	<DistrictModifiers>
 		<Row>
 			<DistrictType>DISTRICT_COASTAL_FORT</DistrictType>
-			<ModifierId>ROYAL_NAVY_DOCKYARD_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+			<ModifierId>COASTAL_FORT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
 		</Row>
 	</DistrictModifiers>
 	<TraitModifiers>
