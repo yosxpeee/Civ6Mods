@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<!-- 時の神殿 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_TEMPLE_OF_TIME"
+			 Texture="YNL_MOMENT_TEMPLE_OF_TIME.dds"/>
+		<!-- 時の勇者 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_HERO_OF_TIME"
+			 Texture="YNL_MOMENT_HERO_OF_TIME.dds"/>
+		<!-- 妖精の泉 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_FAIRY_FOUNTAIN"
+			 Texture="YNL_MOMENT_FAIRY_FOUNTAIN.dds"/>
+	</MomentIllustrations>
+</GameData>

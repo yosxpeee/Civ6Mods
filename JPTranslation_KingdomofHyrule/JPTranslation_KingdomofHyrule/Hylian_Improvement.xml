@@ -25,9 +25,8 @@
              PlunderType="PLUNDER_CULTURE"
              PlunderAmount="25"
              Buildable="true"
-             Housing="0"/>
-		<!--
-             TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN"/>-->
+             Housing="0"
+             TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_FAIRY_FOUNTAIN"/>
 	</Improvements>
 
 	<Improvement_ValidFeatures>
