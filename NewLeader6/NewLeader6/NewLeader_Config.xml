@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<!-- バニラ -->
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationType>
+			<LeaderType>LEADER_YOSXPEEE_SAMPLE</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_YOSXPEEE_SAMPLE_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YOSXPEEE_SAMPLE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YOSXPEEE_SAMPLE</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YOSXPEEE_SAMPLE</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_YOSXPEEE_SAMPLE</Portrait>
+		</Row>
+		<!-- RaF -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationType>
+			<LeaderType>LEADER_YOSXPEEE_SAMPLE</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_YOSXPEEE_SAMPLE_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YOSXPEEE_SAMPLE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YOSXPEEE_SAMPLE</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YOSXPEEE_SAMPLE</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_YOSXPEEE_SAMPLE</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<!-- バニラ(記述なし) -->
+		
+		<!-- RaF -->
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationType>
+			<LeaderType>LEADER_YOSXPEEE_SAMPLE</LeaderType>
+			<Type>UNIT_ZULU_IMPI</Type>
+			<Name>LOC_UNIT_ZULU_IMPI_NAME</Name>
+			<Description>LOC_UNIT_ZULU_IMPI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ZULU_IMPI</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

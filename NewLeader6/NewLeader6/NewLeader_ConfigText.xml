@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Row Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="en_US">
+			<Text>Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
+			<Text>Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_ADJECTIVE" Language="en_US">
+			<Text>Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="en_US">
+			<Text>Sample Civilization Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
+			<Text>Inquisitors can Remove Heresy one extra time.</Text>
+		</Row>
+
+		<!-- 指導者 -->
+		<Row Tag="LOC_LEADER_YOSXPEEE_SAMPLE_NAME" Language="en_US">
+			<Text>Sample Leader</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_NAME" Language="en_US">
+			<Text>Sample Leader Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production toward Builders. +1 [ICON_Housing] Housing in all cities with at least 2 specialty districts.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

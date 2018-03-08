@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
+			<Text>サンプル文明</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
+			<Text>サンプル文明</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_ADJECTIVE" Language="ja_JP">
+			<Text>サンプル文明の</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
+			<Text>サンプル文明特性</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
+			<!--<Text>Trait Civilization Description</Text>-->
+			<Text>審問官が異端の排除を1回多くおこなえる。</Text>
+		</Replace>
+
+		<!-- 指導者 -->
+		<Replace Tag="LOC_LEADER_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
+			<Text>サンプル指導者</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
+			<Text>指導者特性のサンプル</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
+			<!--<Text>Trait Leader Description</Text>-->
+			<Text>労働者の生産速度が50%向上、2つの専門区域を持つ都市の [ICON_Housing] 住宅+1。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
