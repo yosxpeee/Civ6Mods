@@ -1,4 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
+<GameInfo>
+	<Types>
+		<Row Type="DISTRICT_YOSXPEEE_SAMPLE" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_YOSXPEEE_SAMPLE" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
+	</DistrictReplaces>
+	<!-- 区域の各種設定 -->
+	<Districts>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" Name="LOC_DISTRICT_YOSXPEEE_SAMPLE_NAME" Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY"      PlunderType="PLUNDER_FAITH" PlunderAmount="30" AdvisorType="ADVISOR_RELIGIOUS" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40"   Maintenance="1" RequiresPlacement="true" RequiresPopulation="true"  AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1"  CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_YOSXPEEE_SAMPLE"/>
+	</Districts>
+	<!-- 隣接ボーナス指定 -->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="NaturalWonder_Faith"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="Mountain_Faith1"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="Mountain_Faith2"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="Mountain_Faith3"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="Mountain_Faith4"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="Mountain_Faith5"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="Forest_Faith"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="District_Faith"/>
 
-</GameData>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldChangeId="YosxpeeeSample_District_Production"/>
+	</District_Adjacencies>
+	<!-- 偉人ポイント -->
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"   PointsPerTurn="2"/><!-- 大預言者ポイント毎ターン+2 -->
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER"  PointsPerTurn="1"/><!-- 大技術者ポイント毎ターン+1 -->
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/><!-- 大科学者ポイント毎ターン+1 -->
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT"  PointsPerTurn="1"/><!-- 大商人ポイント毎ターン+1 -->
+	</District_GreatPersonPoints>
+	<!-- 交易元/交易先で得られるものの設定 -->
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldType="YIELD_FOOD"       YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldType="YIELD_FAITH"      YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<!-- 市民配置時のボーナス -->
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_YOSXPEEE_SAMPLE" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</District_CitizenYieldChanges>
+	<!-- 隣接ボーナスの詳細設定 -->
+	<Adjacency_YieldChanges>
+		<Row ID="YosxpeeeSample_District_Production" Description="LOC_DISTRICT_DISTRICT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/><!-- 他の区域1つごとに生産力+1 -->
+	</Adjacency_YieldChanges>
+</GameInfo>

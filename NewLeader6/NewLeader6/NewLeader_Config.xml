@@ -2,6 +2,7 @@
 <GameData>
 	<Players>
 		<!-- バニラ -->
+		<!--
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationType>
@@ -18,6 +19,7 @@
 			<LeaderAbilityIcon>ICON_LEADER_YOSXPEEE_SAMPLE</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_YOSXPEEE_SAMPLE</Portrait>
 		</Row>
+		-->
 		<!-- RaF -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -37,17 +39,26 @@
 		</Row>
 	</Players>
 	<PlayerItems>
-		<!-- バニラ(記述なし) -->
-		
+		<!-- バニラ -->
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationType>
+			<LeaderType>LEADER_YOSXPEEE_SAMPLE</LeaderType>
+			<Type>DISTRICT_YOSXPEEE_SAMPLE</Type>
+			<Name>LOC_DISTRICT_YOSXPEEE_SAMPLE_NAME</Name>
+			<Description>LOC_DISTRICT_YOSXPEEE_SAMPLE_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_YOSXPEEE_SAMPLE</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
 		<!-- RaF -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationType>
 			<LeaderType>LEADER_YOSXPEEE_SAMPLE</LeaderType>
-			<Type>UNIT_ZULU_IMPI</Type>
-			<Name>LOC_UNIT_ZULU_IMPI_NAME</Name>
-			<Description>LOC_UNIT_ZULU_IMPI_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_ZULU_IMPI</Icon>
+			<Type>DISTRICT_YOSXPEEE_SAMPLE</Type>
+			<Name>LOC_DISTRICT_YOSXPEEE_SAMPLE_NAME</Name>
+			<Description>LOC_DISTRICT_YOSXPEEE_SAMPLE_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_YOSXPEEE_SAMPLE</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
 	</PlayerItems>

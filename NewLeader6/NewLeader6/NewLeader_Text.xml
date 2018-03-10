@@ -3,10 +3,10 @@
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>Leader Capsule Text</Text>
+			<Text>An assassin that wears a skull mask.[NEWLINE]Regarded as the first Hassan Sabbah, who was born when the name “Old Man of the Mountain” changed into a title, after the assassination cult became established as assassins.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Leader Detail Text</Text>
+			<Text>Supposedly there was not a single eye-witness within the assassination cult who saw him, which is not surprising - one’s life would be forfeit from the moment he lay eyes on this individual.[NEWLINE][NEWLINE]At the same time that he was the origin of the “Old Man of the Mountain”, he also chose the life of an inspector that convicts the corruption of the cult.[NEWLINE]Even if the cult is righteous according to the teachings of God, that does not change the fact that its actions are evil as human beings. Therefore, this individual could not forgive that the cult could become degenerate.[NEWLINE]For those who protect the teachings of God to wallow in human cravings.[NEWLINE]That in itself is the greatest blasphemy against God.</Text>
 		</Row>
 
 		<!-- Leader specific historical text. -->
@@ -82,7 +82,7 @@
 
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_YOSXPEEE_SAMPLE_QUOTE" Language="en_US">
-			<Text>Leader Comment</Text>
+			<Text>Things I like? Heads.</Text>
 		</Row>
-    	</LocalizedText>
+   	</LocalizedText>
 </GameData>

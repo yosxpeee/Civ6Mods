@@ -3,10 +3,10 @@
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_CAPSULE_BODY" Language="ja_JP">
-			<Text>指導者の概要説明</Text>
+			<Text>髑髏の仮面を被った暗殺者。[NEWLINE]暗殺教団がアサシンとして成立した後、『山の翁』という名前が称号に成り代わってから誕生した最初のハサン・サッバーハであるとされる。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_DETAILED_BODY" Language="ja_JP">
-			<Text>指導者の詳細説明</Text>
+			<Text>暗殺教団においてただひとりの目撃者もいないとされたが、それもそのはず、この人物を見た者はその時点で命を終えている為だ。[NEWLINE][NEWLINE]『山の翁』の始まりであった彼は、同時に教団の腐敗を断罪する監視者としての人生を選んだ。[NEWLINE]神の教えのもと正しい教団ではあるが、その行いは人としての悪である事は免れない。だからこそ、この人物は教団が腐敗する事を許さなかった。[NEWLINE]神の教えを守るものたちが人の欲に溺れる。[NEWLINE]それこそが、神への最大の冒涜となるからである。</Text>
 		</Replace>
 
 		<!-- Leader specific historical text. -->
@@ -82,7 +82,7 @@
 
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YOSXPEEE_SAMPLE_QUOTE" Language="ja_JP">
-			<Text>指導者のコメント</Text>
+			<Text>好物か?首だな。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

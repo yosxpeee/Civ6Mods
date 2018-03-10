@@ -5,6 +5,8 @@
 		<Row Type="CIVILIZATION_YOSXPEEE_SAMPLE" Kind="KIND_CIVILIZATION" />
 		<!-- 文明特性の定義 -->
 		<Row Type="TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE" Kind="KIND_TRAIT" />
+		<!-- UD -->
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_YOSXPEEE_SAMPLE" Kind="KIND_TRAIT"/>
 	</Types>
 	
 	<Civilizations>
@@ -27,17 +29,19 @@
 	<CivilizationTraits>
 		<!-- 文明特性 -->
 		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" TraitType="TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE" />
+		<!-- UD -->
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" TraitType="TRAIT_CIVILIZATION_DISTRICT_YOSXPEEE_SAMPLE" />
 	</CivilizationTraits>
 
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE" Name="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Description="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_YOSXPEEE_SAMPLE" Name="LOC_CIVILIZATION_DISTRICT_YOSXPEEE_SAMPLE_NAME"/>
 	</Traits>
 	
-	<!-- 文明特性のサンプル：異端審問の回数+1 -->
+	<!-- 文明特性：異端審問の回数+1 -->
 	<TraitModifiers>
 		<Row>
-			<!-- 異端審問の回数+1 -->
 			<TraitType>TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE</TraitType>
 			<!-- バニラのスペインのものをそのまま使用 -->
 			<ModifierId>TRAIT_ADJUST_INQUISITOR_CHARGES</ModifierId>

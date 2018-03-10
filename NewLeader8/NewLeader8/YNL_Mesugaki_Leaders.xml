@@ -265,13 +265,13 @@
 		</Row>
 	</RequirementSetRequirements>
 	
-	
 	<AiListTypes>
 		<Row ListType="YNL_MesugakiWonders"/>
 		<Row ListType="YNL_MesugakiCivics"/>
 		<Row ListType="YNL_MesugakiTechs"/>
 		<Row ListType="YNL_MesugakiLiveryCompanyDistrict"/>
 		<Row ListType="YNL_MesugakiTheaterDistrict"/>
+		<Row ListType="YNL_MesugakiCulturePreference"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- Buildings -->
@@ -283,6 +283,8 @@
 		<!-- District -->
 		<Row ListType="YNL_MesugakiLiveryCompanyDistrict" LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Districts"/>
 		<Row ListType="YNL_MesugakiTheaterDistrict"       LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Districts"/>
+		<!-- Yield -->
+		<Row ListType="YNL_MesugakiCulturePreference"     LeaderType="TRAIT_LEADER_YNL_MESUGAKI" System="Yields"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Buildings -->
@@ -309,8 +311,9 @@
 		<Row ListType="YNL_MesugakiTechs"				Item="TECH_ADVANCED_BALLISTICS"/>	<!-- 高度な弾道学 -->
 		<!-- District -->
 		<Row ListType="YNL_MesugakiLiveryCompanyDistrict" Item="DISTRICT_LIVERY_COMPANY" Favored="true"/>	<!-- リヴァリ・カンパニー -->
-		<Row ListType="YNL_MesugakiTheaterDistrict"       Item="DISTRICT_THEATER" Favored="true"/>
-		<!-- リヴァリ・カンパニー -->
+		<Row ListType="YNL_MesugakiTheaterDistrict"       Item="DISTRICT_THEATER" Favored="true"/>			<!-- 劇場広場 -->
+		<!-- Yield -->
+		<Row ListType="YNL_MesugakiCulturePreference"   Item="YIELD_CULTURE" Value="10"/>	<!-- 文化力 -->
 	</AiFavoredItems>
 	<!-- アジェンダ -->
 	<HistoricalAgendas>

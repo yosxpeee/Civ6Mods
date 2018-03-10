@@ -30,31 +30,21 @@
 		<Row TraitType="TRAIT_LEADER_YOSXPEEE_SAMPLE"  Name="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_NAME" Description="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION"/>
 	</Traits>
 
-	<!-- 指導者特性のサンプル：労働者の生産力50%アップ、2つの専門区域を持つ都市の住宅+1 -->
+	<!-- 指導者特性：労働者の生産力50%アップ -->
 	<TraitModifiers>
 		<!-- 労働者ボーナス -->
 		<Row>
 			<TraitType>TRAIT_LEADER_YOSXPEEE_SAMPLE</TraitType>
 			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
 		</Row>
-		<!-- 区域ボーナス -->
-		<Row>
-			<TraitType>TRAIT_LEADER_YOSXPEEE_SAMPLE</TraitType>
-			<ModifierId>TRAIT_ADD_HOUSING_YOSXPEEE</ModifierId>
-		</Row>
+		<!-- 他宗教を信仰する文明に対し戦闘力+4(フェリペ2世と同じ) -->
+		<Row TraitType="TRAIT_LEADER_YOSXPEEE_SAMPLE" ModifierId="TRAIT_COMBAT_BONUS_OTHER_RELIGION"/>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 労働者ボーナス -->
 		<Row>
 			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
-		</Row>
-		<!-- 区域ボーナス -->
-		<Row>
-			<ModifierId>TRAIT_ADD_HOUSING_YOSXPEEE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
-			<!-- この条件はバニラにある -->
-			<SubjectRequirementSetId>CITY_HAS_2_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -69,23 +59,25 @@
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
-		<!-- 区域ボーナス -->
-		<Row>
-			<ModifierId>TRAIT_ADD_HOUSING_YOSXPEEE</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
 	</ModifierArguments>
+
+	<!-- ローディング画面、外交画面 -->
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YOSXPEEE_SAMPLE" BackgroundImage="YNL_KingHassan_Loading_Background.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YOSXPEEE_SAMPLE.dds" LeaderText="LOC_LEADER_YOSXPEEE_SAMPLE_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_YOSXPEEE_SAMPLE" BackgroundImage="YNL_KingHassan_Diplomacy_Background.dds"/>
+	</DiplomacyInfo>
 
 	<!-- 文明固有カラー -->
 	<Colors>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_YOSXPEEE_SAMPLE_PRIMARY</Type>
-			<Color>255,255,255,255</Color>
+			<Color>77,77,77,128</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_YOSXPEEE_SAMPLE_SECONDARY</Type>
-			<Color>0,0,0,255</Color>
+			<Color>40,40,255,255</Color>
 		</Row>
 	</Colors>
 	<PlayerColors>

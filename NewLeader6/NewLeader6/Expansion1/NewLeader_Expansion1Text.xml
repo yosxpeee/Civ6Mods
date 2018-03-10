@@ -37,5 +37,10 @@
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_YOSXPEEE_SAMPLE_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="en_US">
 			<Text>Your people's "glorious age" looks a lot like gloating to me. I look forward to the day of your fall.</Text>
 		</Row>
+		
+		<!-- 戦闘ボーナスの効果説明文 -->
+		<Row Tag="LOC_TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL_DESCRIPTION" Language="en_US">
+			<Text>+7 versus civilizations in a Dark Age</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
