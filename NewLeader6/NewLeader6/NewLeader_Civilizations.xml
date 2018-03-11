@@ -35,19 +35,51 @@
 
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
+		<!-- 指導者特性 -->
 		<Row TraitType="TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE" Name="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Description="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION"/>
+		<!-- UD -->
 		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_YOSXPEEE_SAMPLE" Name="LOC_CIVILIZATION_DISTRICT_YOSXPEEE_SAMPLE_NAME"/>
 	</Traits>
 	
-	<!-- 文明特性：異端審問の回数+1 -->
+	<!-- 文明特性 -->
 	<TraitModifiers>
+		<!-- 異端審問+1(バニラのスペインとおなじ) -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE</TraitType>
-			<!-- バニラのスペインのものをそのまま使用 -->
 			<ModifierId>TRAIT_ADJUST_INQUISITOR_CHARGES</ModifierId>
 		</Row>
+		<!-- 他宗教を信仰する文明に対し戦闘力+4(バニラのフェリペ2世と同じ) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE</TraitType>
+			<ModifierId>TRAIT_COMBAT_BONUS_OTHER_RELIGION</ModifierId>
+		</Row>
+		<!-- 労働者ボーナス(MOD固有) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE</TraitType>
+			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
+		</Row>
 	</TraitModifiers>
-	
+	<Modifiers>
+		<!-- 労働者ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 労働者ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+
 	<!-- 市民名 -->
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_MALE_1" Female="0"/>

@@ -12,10 +12,10 @@
 			<Text>Nizari</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="en_US">
-			<Text>Nizari</Text>
+			<Text>Alamut</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
-			<Text>Inquisitors can Remove Heresy one extra time. +8 [ICON_Strength] strength versus civilizations in a Dark Age.</Text>
+			<Text>+50% [ICON_Production] Production toward Builders. Inquisitors can Remove Heresy one extra time. +4 [ICON_Strength] strength versus civilizations following another Religion.</Text>
 		</Row>
 		
 		<!-- 指導者 -->
@@ -26,7 +26,7 @@
 			<Text>Azrael</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Production] Production toward Builders. If a Nizari Unit defeats an enemy unit within the borders of the enemy city, that city loses 20 Loyalty. +4 [ICON_Strength] strength versus civilizations following another Religion.</Text>
+			<Text>If a Nizari Unit defeats an enemy unit within the borders of the enemy city, that city loses 20 Loyalty. +8 [ICON_Strength] strength versus civilizations in a Dark Age.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_YOSXPEEE_SAMPLE_DOM_TEXT" Language="en_US">
 			<Text>---Hand over thy head.</Text>
@@ -34,13 +34,13 @@
 		
 		<!-- UD -->
 		<Row Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_NAME" Language="en_US">
-			<Text>Unknown Name</Text>
+			<Text>Mausoleum of the evening bell</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Nizarifor religious activity. Replaces the Holy Site district.[NEWLINE][NEWLINE]+2 [ICON_GreatProphet] Great Prophet points, +1 [ICON_GreatEngineer] Great Engineer point, +1 [ICON_GreatScientist] Great Scientist point, +1 [ICON_GreatMerchant] Great Merchant point. +1 [ICON_Production] Production for each adjacent other District.</Text>
+			<Text>A district unique to Nizarifor religious activity. Replaces the Holy Site district.[NEWLINE][NEWLINE]+2 [ICON_GreatProphet] Great Prophet points, +1 [ICON_GreatEngineer] Great Engineer point, +1 [ICON_GreatScientist] Great Scientist point, +1 [ICON_GreatMerchant] Great Merchant point. +1 [ICON_Production] Production for each adjacent other District. Also unlocks the da’wa jadida project. this project gains [ICON_GreatAdmiral] Great Admiral points and [ICON_GreatGeneral] Great General points once completed.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_DISTRICT_YOSXPEEE_SAMPLE_NAME" Language="en_US">
-			<Text>Nizari unique District: Unknown Name</Text>
+			<Text>Nizari unique District: Mausoleum of the evening bell</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>

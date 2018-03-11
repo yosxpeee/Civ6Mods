@@ -11,12 +11,18 @@
 
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Leader Historical Text</Text>
+			<Text></Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Civilization Historical Text</Text>
+			<Text></Text>
 		</Row>
 
 		<!-- Civlization Citizen Names -->
@@ -84,5 +90,16 @@
 		<Row Tag="LOC_LEADER_YOSXPEEE_SAMPLE_QUOTE" Language="en_US">
 			<Text>Things I like? Heads.</Text>
 		</Row>
-   	</LocalizedText>
+		
+		<!-- Unique Project -->
+		<Row Tag="LOC_PROJECT_YOSXPEEE_SAMPLE_NAME">
+			<Text>da’wa jadida</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_YOSXPEEE_SAMPLE_SHORT_NAME">
+			<Text>da’wa jadida</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_YOSXPEEE_SAMPLE_DESCRIPTION">
+			<Text>Nizari unique project which provides [ICON_Culture] Culture, [ICON_Science] Science, [ICON_Faith] Faith and [ICON_Gold] Gold every turn when active and [ICON_GreatPerson] Great Person Points for [ICON_GreatAdmiral] Great Admirals, [ICON_GreatGeneral] Great Generals once finished.</Text>
+		</Row>
+	</LocalizedText>
 </GameData>

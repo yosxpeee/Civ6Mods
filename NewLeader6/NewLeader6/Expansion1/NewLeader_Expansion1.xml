@@ -2,15 +2,16 @@
 <GameData>
 	<!-- RaFで追加された効果などを使う場合はこちらにまとめて記載してある -->
 
-	<!-- 文明特性、指導者特性 -->
+	<!-- 指導者特性 -->
 	<TraitModifiers>
-		<!-- 文明特性　：暗黒時代の文明に対し戦闘力+8 -->
-		<Row TraitType="TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE" ModifierId="TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL"/>
-		<!-- 指導者特性：敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が20低下(ラウタロと同じ) -->
+		<!-- 暗黒時代の文明に対し戦闘力+8 -->
+		<Row TraitType="TRAIT_LEADER_YOSXPEEE_SAMPLE" ModifierId="TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL"/>
+		<!-- 敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が20低下(ラウタロと同じ) -->
 		<Row TraitType="TRAIT_LEADER_YOSXPEEE_SAMPLE" ModifierId="TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
+			<!-- 暗黒時代の文明に対し戦闘力+8 -->
 			<ModifierId>TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENTS_YNL</SubjectRequirementSetId>
@@ -18,14 +19,19 @@
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
+			<!-- 暗黒時代の文明に対し戦闘力+8 -->
 			<ModifierId>TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL</ModifierId>
 			<Name>Amount</Name>
 			<Value>8</Value>
 		</Row>
 	</ModifierArguments>
+	<!-- 戦闘プレビューの説明 -->
 	<ModifierStrings>
+		<!-- 暗黒時代の文明に対し戦闘力+8 -->
 		<Row ModifierId="TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL" Context="Preview" Text="LOC_TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL_DESCRIPTION"/>
 	</ModifierStrings>
+
+	<!-- 効果発動条件 -->
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENTS_YNL</RequirementSetId>

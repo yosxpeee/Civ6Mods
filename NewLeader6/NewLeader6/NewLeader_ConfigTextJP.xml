@@ -12,10 +12,10 @@
 			<Text>暗殺教団の</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
-			<Text>アラムート</Text>
+			<Text>アラムート政権</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
-			<Text>審問官が異端の排除を1回多くおこなえる。暗黒時代の文明に対し [ICON_Strength] 戦闘力+8。</Text>
+			<Text>審問官が異端の排除を1回多くおこなえる。労働者の [ICON_Production] 生産力が50%向上。他の宗教を信じる文明に対して [ICON_Strength] 戦闘力+4。</Text>
 		</Replace>
 
 		<!-- 指導者 -->
@@ -26,7 +26,7 @@
 			<Text>死告天使</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
-			<Text>労働者の [ICON_Production] 生産力が50%向上。暗殺教団のユニットが敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が20低下する。他の宗教を信じる文明に対して [ICON_Strength] 戦闘力+4。</Text>
+			<Text>暗殺教団のユニットが敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が20低下する。暗黒時代の文明に対し [ICON_Strength] 戦闘力+8。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YOSXPEEE_SAMPLE_DOM_TEXT" Language="ja_JP">
 			<Text>───首を出せ。</Text>
@@ -34,13 +34,13 @@
 
 		<!-- UD -->
 		<Replace Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
-			<Text>名称未定</Text>
+			<Text>晩鐘廟</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
-			<Text>宗教活動のための区域。暗殺教団固有。聖地区域に取ってかわる。[NEWLINE][NEWLINE][ICON_GreatProphet] 大預言者ポイント+2、[ICON_GreatEngineer] 大技術者ポイント+1、[ICON_GreatScientist] 大科学者ポイント+1、[ICON_GreatMerchant] 大商人ポイント+1。他の区域1つにつき [ICON_Production] 生産力+1。</Text>
+			<Text>宗教活動のための区域。暗殺教団固有。聖地区域に取ってかわる。[NEWLINE][NEWLINE][ICON_GreatProphet] 大預言者ポイント+2、[ICON_GreatEngineer] 大技術者ポイント+1、[ICON_GreatScientist] 大科学者ポイント+1、[ICON_GreatMerchant] 大商人ポイント+1。他の区域1つにつき [ICON_Production] 生産力+1。ダウワ・ジャディーダ (プロジェクト) が解除される。ダウワ・ジャディーダが終了すると [ICON_GreatAdmiral] 大提督ポイントおよび [ICON_GreatGeneral] 大将軍ポイントが得られる。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DISTRICT_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
-			<Text>暗殺教団固有の区域: なまはげ館</Text>
+			<Text>暗殺教団固有の区域: 晩鐘廟</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
