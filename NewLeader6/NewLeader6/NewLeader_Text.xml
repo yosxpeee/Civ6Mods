@@ -2,26 +2,26 @@
 <GameData>
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_CAPSULE_BODY" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_CAPSULE_BODY" Language="en_US">
 			<Text>An assassin that wears a skull mask.[NEWLINE]Regarded as the first Hassan Sabbah, who was born when the name “Old Man of the Mountain” changed into a title, after the assassination cult became established as assassins.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_DETAILED_BODY" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Supposedly there was not a single eye-witness within the assassination cult who saw him, which is not surprising - one’s life would be forfeit from the moment he lay eyes on this individual.[NEWLINE][NEWLINE]At the same time that he was the origin of the “Old Man of the Mountain”, he also chose the life of an inspector that convicts the corruption of the cult.[NEWLINE]Even if the cult is righteous according to the teachings of God, that does not change the fact that its actions are evil as human beings. Therefore, this individual could not forgive that the cult could become degenerate.[NEWLINE]For those who protect the teachings of God to wallow in human cravings.[NEWLINE]That in itself is the greatest blasphemy against God.</Text>
 		</Row>
 
 		<!-- Leader specific historical text. -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text></Text>
 		</Row>
 		
 		<!-- Civilization specific historical text. -->
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YOSXPEEE_SAMPLE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_NIZARI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 
@@ -87,18 +87,18 @@
 		</Row>
 
 		<!-- Leader Quotes -->
-		<Row Tag="LOC_LEADER_YOSXPEEE_SAMPLE_QUOTE" Language="en_US">
+		<Row Tag="LOC_LEADER_YNL_KING_HASSAN_QUOTE" Language="en_US">
 			<Text>Things I like? Heads.</Text>
 		</Row>
 		
 		<!-- Unique Project -->
-		<Row Tag="LOC_PROJECT_YOSXPEEE_SAMPLE_NAME">
+		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_NAME">
 			<Text>da’wa jadida</Text>
 		</Row>
-		<Row Tag="LOC_PROJECT_YOSXPEEE_SAMPLE_SHORT_NAME">
+		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_SHORT_NAME">
 			<Text>da’wa jadida</Text>
 		</Row>
-		<Row Tag="LOC_PROJECT_YOSXPEEE_SAMPLE_DESCRIPTION">
+		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_DESCRIPTION">
 			<Text>Nizari unique project which provides [ICON_Culture] Culture, [ICON_Science] Science, [ICON_Faith] Faith and [ICON_Gold] Gold every turn when active and [ICON_GreatPerson] Great Person Points for [ICON_GreatAdmiral] Great Admirals, [ICON_GreatGeneral] Great Generals once finished.</Text>
 		</Row>
 	</LocalizedText>

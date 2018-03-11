@@ -2,12 +2,12 @@
 <GameData>
 	<IconDefinitions>
 		<!-- 文明 -->
-		<Row Name="ICON_CIVILIZATION_YOSXPEEE_SAMPLE" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_YNL_NIZARI" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
 		<!-- 指導者 -->
-		<Row Name="ICON_LEADER_YOSXPEEE_SAMPLE" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<Row Name="ICON_LEADER_YNL_KING_HASSAN" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
 		<!-- ユニーク区域 -->
-		<Row Name="ICON_DISTRICT_YOSXPEEE_SAMPLE"     Atlas="ICON_ATLAS_DISTRICTS"            Index="1"/>
-		<Row Name="ICON_DISTRICT_YOSXPEEE_SAMPLE_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW"        Index="1"/>
-		<Row Name="DISTRICT_YOSXPEEE_SAMPLE"          Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="180"/>
+		<Row Name="ICON_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL"     Atlas="ICON_ATLAS_DISTRICTS"            Index="1"/>
+		<Row Name="ICON_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW"        Index="1"/>
+		<Row Name="DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL"          Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="180"/>
 	</IconDefinitions>
 </GameData>

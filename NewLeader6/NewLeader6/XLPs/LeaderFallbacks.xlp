@@ -11,38 +11,38 @@
 	<m_Entries>
 		<!-- 滅亡 -->
 		<Element>
-			<m_EntryID text="FALLBACK_DEFEAT_LEADER_YOSXPEEE_SAMPLE"/>
-			<m_ObjectName text="FALLBACK_DEFEAT_LEADER_YOSXPEEE_SAMPLE"/>
+			<m_EntryID text="FALLBACK_DEFEAT_LEADER_YNL_KING_HASSAN"/>
+			<m_ObjectName text="FALLBACK_DEFEAT_LEADER_YNL_KING_HASSAN"/>
 		</Element>
 		<!-- 友好的 -->
 		<Element>
-			<m_EntryID text="FALLBACK_HAPPY_LEADER_YOSXPEEE_SAMPLE"/>
-			<m_ObjectName text="FALLBACK_HAPPY_LEADER_YOSXPEEE_SAMPLE"/>
+			<m_EntryID text="FALLBACK_HAPPY_LEADER_YNL_KING_HASSAN"/>
+			<m_ObjectName text="FALLBACK_HAPPY_LEADER_YNL_KING_HASSAN"/>
 		</Element>
 		<!-- 通常 -->
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_YOSXPEEE_SAMPLE"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_YOSXPEEE_SAMPLE"/>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_YNL_KING_HASSAN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_YNL_KING_HASSAN"/>
 		</Element>
 		<!-- 敵対的 -->
 		<Element>
-			<m_EntryID text="FALLBACK_STERN_LEADER_YOSXPEEE_SAMPLE"/>
-			<m_ObjectName text="FALLBACK_STERN_LEADER_YOSXPEEE_SAMPLE"/>
+			<m_EntryID text="FALLBACK_STERN_LEADER_YNL_KING_HASSAN"/>
+			<m_ObjectName text="FALLBACK_STERN_LEADER_YNL_KING_HASSAN"/>
 		</Element>
 		<!-- 宣戦布告(AIから) -->
 		<Element>
-			<m_EntryID text="FALLBACK_SURPRISED_AI_LEADER_YOSXPEEE_SAMPLE"/>
-			<m_ObjectName text="FALLBACK_SURPRISED_AI_LEADER_YOSXPEEE_SAMPLE"/>
+			<m_EntryID text="FALLBACK_SURPRISED_AI_LEADER_YNL_KING_HASSAN"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_AI_LEADER_YNL_KING_HASSAN"/>
 		</Element>
 		<!-- 宣戦布告(プレイヤーから) -->
 		<Element>
-			<m_EntryID text="FALLBACK_SURPRISED_HUMAN_LEADER_YOSXPEEE_SAMPLE"/>
-			<m_ObjectName text="FALLBACK_SURPRISED_HUMAN_LEADER_YOSXPEEE_SAMPLE"/>
+			<m_EntryID text="FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KING_HASSAN"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KING_HASSAN"/>
 		</Element>
 		<!-- 非難声明、戦争状態 -->
 		<Element>
-			<m_EntryID text="FALLBACK_UNHAPPY_LEADER_YOSXPEEE_SAMPLE"/>
-			<m_ObjectName text="FALLBACK_UNHAPPY_LEADER_YOSXPEEE_SAMPLE"/>
+			<m_EntryID text="FALLBACK_UNHAPPY_LEADER_YNL_KING_HASSAN"/>
+			<m_ObjectName text="FALLBACK_UNHAPPY_LEADER_YNL_KING_HASSAN"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

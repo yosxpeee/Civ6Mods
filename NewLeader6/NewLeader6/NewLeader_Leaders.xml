@@ -2,59 +2,59 @@
 <GameData>
 	<Types>
 		<!-- 指導者そのものの定義 -->
-		<Row Type="LEADER_YOSXPEEE_SAMPLE" Kind="KIND_LEADER" />
+		<Row Type="LEADER_YNL_KING_HASSAN" Kind="KIND_LEADER" />
 		<!-- 指導者特性 -->
-		<Row Type="TRAIT_LEADER_YOSXPEEE_SAMPLE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_YNL_KING_HASSAN" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
 		<Row>
-			<LeaderType>LEADER_YOSXPEEE_SAMPLE</LeaderType>
-			<Name>LOC_LEADER_YOSXPEEE_SAMPLE_NAME</Name>
+			<LeaderType>LEADER_YNL_KING_HASSAN</LeaderType>
+			<Name>LOC_LEADER_YNL_KING_HASSAN_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 	</Leaders>
 
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_YOSXPEEE_SAMPLE" Quote="LOC_LEADER_YOSXPEEE_SAMPLE_QUOTE"/>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN" Quote="LOC_LEADER_YNL_KING_HASSAN_QUOTE"/>
 	</LeaderQuotes>
 
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
-		<Row LeaderType="LEADER_YOSXPEEE_SAMPLE" TraitType="TRAIT_LEADER_YOSXPEEE_SAMPLE"/>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN" TraitType="TRAIT_LEADER_YNL_KING_HASSAN"/>
 	</LeaderTraits>
 
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_YOSXPEEE_SAMPLE"  Name="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_NAME" Description="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_YNL_KING_HASSAN"  Name="LOC_TRAIT_LEADER_YNL_KING_HASSAN_NAME" Description="LOC_TRAIT_LEADER_YNL_KING_HASSAN_DESCRIPTION"/>
 	</Traits>
 
 	<!-- ローディング画面、外交画面 -->
 	<LoadingInfo>
-		<Row LeaderType="LEADER_YOSXPEEE_SAMPLE" BackgroundImage="YNL_KingHassan_Loading_Background.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YOSXPEEE_SAMPLE.dds" LeaderText="LOC_LEADER_YOSXPEEE_SAMPLE_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN" BackgroundImage="YNL_KingHassan_Loading_Background.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_KING_HASSAN.dds" LeaderText="LOC_LEADER_YNL_KING_HASSAN_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	<DiplomacyInfo>
-		<Row Type="LEADER_YOSXPEEE_SAMPLE" BackgroundImage="YNL_KingHassan_Diplomacy_Background.dds"/>
+		<Row Type="LEADER_YNL_KING_HASSAN" BackgroundImage="YNL_KingHassan_Diplomacy_Background.dds"/>
 	</DiplomacyInfo>
 
 	<!-- 文明固有カラー -->
 	<Colors>
 		<Row>
-			<Type>COLOR_PLAYER_LEADER_YOSXPEEE_SAMPLE_PRIMARY</Type>
+			<Type>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_PRIMARY</Type>
 			<Color>77,77,77,128</Color>
 		</Row>
 		<Row>
-			<Type>COLOR_PLAYER_LEADER_YOSXPEEE_SAMPLE_SECONDARY</Type>
+			<Type>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_SECONDARY</Type>
 			<Color>40,40,255,255</Color>
 		</Row>
 	</Colors>
 	<PlayerColors>
 		<Row>
-			<Type>LEADER_YOSXPEEE_SAMPLE</Type>
+			<Type>LEADER_YNL_KING_HASSAN</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_LEADER_YOSXPEEE_SAMPLE_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_LEADER_YOSXPEEE_SAMPLE_SECONDARY</SecondaryColor>
+			<PrimaryColor>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_SECONDARY</SecondaryColor>
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 	</PlayerColors>

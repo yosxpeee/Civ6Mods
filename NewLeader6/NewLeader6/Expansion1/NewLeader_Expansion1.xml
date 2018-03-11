@@ -5,9 +5,9 @@
 	<!-- 指導者特性 -->
 	<TraitModifiers>
 		<!-- 暗黒時代の文明に対し戦闘力+8 -->
-		<Row TraitType="TRAIT_LEADER_YOSXPEEE_SAMPLE" ModifierId="TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL"/>
+		<Row TraitType="TRAIT_LEADER_YNL_KING_HASSAN" ModifierId="TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL"/>
 		<!-- 敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が20低下(ラウタロと同じ) -->
-		<Row TraitType="TRAIT_LEADER_YOSXPEEE_SAMPLE" ModifierId="TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY"/>
+		<Row TraitType="TRAIT_LEADER_YNL_KING_HASSAN" ModifierId="TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
