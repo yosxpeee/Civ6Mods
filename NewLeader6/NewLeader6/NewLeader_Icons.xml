@@ -9,5 +9,15 @@
 		<Row Name="ICON_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL"     Atlas="ICON_ATLAS_DISTRICTS"            Index="1"/>
 		<Row Name="ICON_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW"        Index="1"/>
 		<Row Name="DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL"          Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="180"/>
+		<!-- ユニークユニット -->
+		<Row Name="ICON_UNIT_YNL_ASSASSIN"                            Atlas="ICON_ATLAS_UNITS"                         Index="43"/>
+		<Row Name="ICON_UNIT_YNL_ASSASSIN_FOW"                        Atlas="ICON_ATLAS_UNITS_FOW"                     Index="43"/>
+		<Row Name="ICON_UNIT_YNL_ASSASSIN_WHITE"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"       Index="43"/>
+		<Row Name="ICON_UNIT_YNL_ASSASSIN_BLACK"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"       Index="43"/>
+		<Row Name="ICON_UNIT_YNL_ASSASSIN_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="41"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_ASSASSIN_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="41"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_ASSASSIN_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="41"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_ASSASSIN_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="41"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_ASSASSIN_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="41"/>
 	</IconDefinitions>
 </GameData>

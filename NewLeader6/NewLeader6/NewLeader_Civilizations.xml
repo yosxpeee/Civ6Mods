@@ -7,6 +7,8 @@
 		<Row Type="TRAIT_CIVILIZATION_YNL_NIZARI" Kind="KIND_TRAIT" />
 		<!-- UD -->
 		<Row Type="TRAIT_CIVILIZATION_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL" Kind="KIND_TRAIT"/>
+		<!-- UU -->
+		<Row Type="TRAIT_CIVILIZATION_UNIT_YNL_ASSASSIN" Kind="KIND_TRAIT"/>
 	</Types>
 	
 	<Civilizations>
@@ -16,7 +18,7 @@
 			<Description>LOC_CIVILIZATION_YNL_NIZARI_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_YNL_NIZARI_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<RandomCityNameDepth>17</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
@@ -31,14 +33,18 @@
 		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" TraitType="TRAIT_CIVILIZATION_YNL_NIZARI" />
 		<!-- UD -->
 		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" TraitType="TRAIT_CIVILIZATION_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL" />
+		<!-- UU -->
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_ASSASSIN"/>
 	</CivilizationTraits>
 
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
 		<!-- 指導者特性 -->
-		<Row TraitType="TRAIT_CIVILIZATION_YNL_NIZARI" Name="LOC_TRAIT_CIVILIZATION_YNL_NIZARI_NAME" Description="LOC_TRAIT_CIVILIZATION_YNL_NIZARI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_NIZARI"                             Name="LOC_TRAIT_CIVILIZATION_YNL_NIZARI_NAME"                        Description="LOC_TRAIT_CIVILIZATION_YNL_NIZARI_DESCRIPTION"/>
 		<!-- UD -->
 		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL" Name="LOC_CIVILIZATION_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL_NAME"/>
+		<!-- UU -->
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_YNL_ASSASSIN"                      Name="LOC_TRAIT_CIVILIZATION_UNIT_YNL_ASSASSIN_NAME"/>
 	</Traits>
 	
 	<!-- 文明特性 -->
@@ -104,5 +110,12 @@
 		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_8" />
 		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_17" />
 	</CityNames>
 </GameData>

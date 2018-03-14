@@ -59,5 +59,14 @@
 	</RequirementArguments>
 	
 	<!-- 歴史年表 -->
-	
+
+	<!-- AIの好み -->
+	<AiFavoredItems>
+		<Row ListType="YNL_KingHassanWonders" Item="BUILDING_KOTOKU_IN"/>		<!-- 高徳院 -->
+	</AiFavoredItems>
+
+	<!-- 指導者固有の性格(アジェンダ) -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN"   AgendaType="AGENDA_SPIRIT_OF_TUCAPEL"/>
+	</HistoricalAgendas>
 </GameData>

@@ -45,5 +45,19 @@
 		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<!-- UU -->
+		<Row Tag="LOC_TRAIT_UNIT_YNL_ASSASSIN_NAME" Language="en_US">
+			<Text>Nizari unique unit: Assassin</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_ASSASSIN_DESCRIPTION" Language="en_US">
+			<Text>Nizari unique Medieval era unit. Does not suffer combat penalties when damaged. [ICON_Movement] Movement 3.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_ASSASSIN_NAME" Language="en_US">
+			<Text>Assassin</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_ASSASSIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

@@ -56,34 +56,55 @@
 
 		<!-- Civilization City Names-->
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_1" Language="en_US">
-			<Text>Capital</Text>
+			<Text>Alamut</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_2" Language="en_US">
-			<Text>City1</Text>
+			<Text>Baniyas</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_3" Language="en_US">
-			<Text>City2</Text>
+			<Text>Masyaf</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_4" Language="en_US">
-			<Text>City3</Text>
+			<Text>Hama</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_5" Language="en_US">
-			<Text>City4</Text>
+			<Text>Badakhshan</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_6" Language="en_US">
-			<Text>City5</Text>
+			<Text>Sultaniya</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_7" Language="en_US">
-			<Text>City6</Text>
+			<Text>Ahmadnagar</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_8" Language="en_US">
-			<Text>City7</Text>
+			<Text>Khadki</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_9" Language="en_US">
-			<Text>City8</Text>
+			<Text>Yazd</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_10" Language="en_US">
-			<Text>City9</Text>
+			<Text>Kerman</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_11" Language="en_US">
+			<Text>Qom</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_12" Language="en_US">
+			<Text>Mahallat</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_13" Language="en_US">
+			<Text>Tabriz</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_14" Language="en_US">
+			<Text>Lambsar</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_15" Language="en_US">
+			<Text>Gerdkuh</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_16" Language="en_US">
+			<Text>Quhestan</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_FELINE_CITY_17" Language="en_US">
+			<Text>Qazvin</Text>
 		</Row>
 
 		<!-- Leader Quotes -->
@@ -92,13 +113,13 @@
 		</Row>
 		
 		<!-- Unique Project -->
-		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_NAME">
-			<Text>da’wa jadida</Text>
+		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_NAME" Language="en_US">
+			<Text>da'wa jadida</Text>
 		</Row>
-		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_SHORT_NAME">
-			<Text>da’wa jadida</Text>
+		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_SHORT_NAME" Language="en_US">
+			<Text>da'wa jadida</Text>
 		</Row>
-		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_DESCRIPTION">
+		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_DESCRIPTION" Language="en_US">
 			<Text>Nizari unique project which provides [ICON_Culture] Culture, [ICON_Science] Science, [ICON_Faith] Faith and [ICON_Gold] Gold every turn when active and [ICON_GreatPerson] Great Person Points for [ICON_GreatAdmiral] Great Admirals, [ICON_GreatGeneral] Great Generals once finished.</Text>
 		</Row>
 	</LocalizedText>

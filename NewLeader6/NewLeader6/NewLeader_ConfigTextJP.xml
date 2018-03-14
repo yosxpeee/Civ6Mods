@@ -45,5 +45,19 @@
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
+
+		<!-- UU -->
+		<Replace Tag="LOC_TRAIT_UNIT_YNL_ASSASSIN_NAME" Language="ja_JP">
+			<Text>暗殺教団固有のユニット: アサシン</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_ASSASSIN_DESCRIPTION" Language="ja_JP">
+			<Text>暗殺教団固有の中世時代のユニット。ダメージを受けても戦闘ペナルティが生じない。[ICON_Movement] 移動力3。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_ASSASSIN_NAME" Language="ja_JP">
+			<Text>アサシン</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_ASSASSIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アサシン（Assassin）は、暗殺者、暗殺団、刺客という意味を指す英単語。語源は、ハシーシュ（大麻）、差別的に大麻中毒者、ハシシン老人、ハサス（原理）など諸説ある。元々の意味合いとしては、重要な人物を殺害した人物または団体を指す言葉である。歴史の文脈では the Assassins は11世紀から14世紀、大シリアにおいて十字軍やザンギー朝などの諸勢力に対し、暗殺を一つの手段として勢力を築いたイスラム教ニザール派を指すが、これに伴う逸話はほとんどが誤解や偏見による伝説である。秘密結社としてのアサシンは、上述のごとくイスラム教イスマイル派から分離した分派・ニザール派であるが、ペルシアのコーラサン出身のハサン・サッバーフによって作られ、東方のイスマイル派と呼ばれた。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
