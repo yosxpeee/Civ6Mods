@@ -34,4 +34,8 @@
 		<!-- 観光力を得るのに航空技術の必要なし(シーサイドリゾートと同じ) -->
 		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" TourismSource="TOURISMSOURCE_CULTURE" ScalingFactor="100"/>
 	</Improvement_Tourism>
+	<Improvement_BonusYieldChanges>
+		<!-- 電気取得で文化力+1 -->
+		<Row Id="1001" ImprovementType="IMPROVEMENT_BOARDING_HOUSE" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqTech="TECH_ELECTRICITY"/>
+	</Improvement_BonusYieldChanges>
 </GameInfo>
