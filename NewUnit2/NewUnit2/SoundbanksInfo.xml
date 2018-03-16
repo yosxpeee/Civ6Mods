@@ -52,6 +52,10 @@
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1531106576" Language="English(US)">
 			<ShortName>YMGP_GreatPersonSound</ShortName>
 			<Path>English(US)\YMGP_GreatPersonSound.bnk</Path>
@@ -65,6 +69,15 @@
 				<Event Id="1201497883" Name="Play_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1560334183" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1560334180" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
+				<Event Id="307043716" Name="Stop_GMLadyGagaBadRomance"/>
+				<Event Id="1530648796" Name="Stop_GMLadyGagaPokerFace"/>
+				<Event Id="4219555920" Name="Stop_GMMikuHatsuneMelt"/>
+				<Event Id="1505226199" Name="Stop_GMMikuHatsuneShiteyanyo"/>
+				<Event Id="911409940" Name="Stop_GREAT_WRITING_BRADLEY_BOND_1"/>
+				<Event Id="911409943" Name="Stop_GREAT_WRITING_BRADLEY_BOND_2"/>
+				<Event Id="2211809681" Name="Stop_GREAT_WRITING_CHE_GUEVARA"/>
+				<Event Id="1003875953" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
+				<Event Id="1003875954" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="962746"/>
@@ -105,6 +118,15 @@
 				<Event Id="1201497883" Name="Play_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1560334183" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1560334180" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
+				<Event Id="307043716" Name="Stop_GMLadyGagaBadRomance"/>
+				<Event Id="1530648796" Name="Stop_GMLadyGagaPokerFace"/>
+				<Event Id="4219555920" Name="Stop_GMMikuHatsuneMelt"/>
+				<Event Id="1505226199" Name="Stop_GMMikuHatsuneShiteyanyo"/>
+				<Event Id="911409940" Name="Stop_GREAT_WRITING_BRADLEY_BOND_1"/>
+				<Event Id="911409943" Name="Stop_GREAT_WRITING_BRADLEY_BOND_2"/>
+				<Event Id="2211809681" Name="Stop_GREAT_WRITING_CHE_GUEVARA"/>
+				<Event Id="1003875953" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
+				<Event Id="1003875954" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 			</IncludedEvents>
 			<ReferencedStreamedFiles>
 				<File Id="25911282"/>

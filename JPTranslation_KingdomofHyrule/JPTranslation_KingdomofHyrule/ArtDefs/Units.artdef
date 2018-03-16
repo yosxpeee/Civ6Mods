@@ -38,6 +38,18 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="EscortFormation"/>
 						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
+							<m_RootCollectionName text="Units"/>
+							<m_ArtDefPath text="Units.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="Units"/>
+							<m_ParamName text="EmbarkedUnit"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="DoNotDisplayCharges"/>
+						</Element>
 						<Element class="AssetObjects:ArtDefReferenceValue">
 							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
@@ -79,7 +91,7 @@
 							<m_ParamName text="PlayDeathOnDestroy"/>
 						</Element>
 						<Element class="AssetObjects:IntValue">
-							<m_nValue>1500</m_nValue>
+							<m_nValue>0</m_nValue>
 							<m_ParamName text="DisplayLevel"/>
 						</Element>
 					</m_Values>
@@ -121,13 +133,26 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects:StringValue">
-										<m_Value text="Hero of Time"/>
+										<m_Value text=""/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="HERO_OF_TIME"/>
+							<m_Name text=""/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Swordsman"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="SWORDSMAN"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>

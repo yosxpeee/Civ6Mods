@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>YMGP_Gameplay.xml</File><File>YMGP_GreatWorks.xml</File><File>YMGP_Resources.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>YMGP_Icon.xml</File><File>YMGP_Icon_Resource.xml</File></UpdateIcons><UpdateText id="Text"><File>YMGP_BaseGameText.xml</File><File>YMGP_BaseGameText_JP.xml</File><File>YMGP_Text.xml</File><File>YMGP_Text_JP.xml</File></UpdateText><UpdateAudio id="Sound"><File>YMGP_GreatPersonSound.ini</File><File>English(US)/YMGP_GreatPersonSound.bnk</File><File>English(US)/YMGP_GreatPersonSound.txt</File><File>Japanese/YMGP_GreatPersonSound.bnk</File><File>Japanese/YMGP_GreatPersonSound.txt</File><File>SoundbanksInfo.xml</File></UpdateAudio><ImportFiles id="Import"><File>Textures/YMGP_Resources.dds</File><File>Textures/YMGP_Resources_FOW.dds</File><File>Textures/YMGP_Resources256.dds</File><File>Textures/YMGP_Resources38.dds</File><File>Textures/YMGP_Resources50.dds</File><File>Textures/YMGP_GreatWorks256.dds</File><File>Textures/YMGP_GreatWorks45.dds</File><File>Textures/YMGP_GreatWorks64.dds</File><File>Textures/YMGP_GreatWorks256_FOW.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>YMGP_Gameplay.xml</File><File>YMGP_GreatWorks.xml</File><File>YMGP_Resources.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>YMGP_Icon.xml</File><File>YMGP_Icon_Resource.xml</File></UpdateIcons><UpdateText id="Text"><File>YMGP_BaseGameText.xml</File><File>YMGP_BaseGameText_JP.xml</File><File>YMGP_Text.xml</File><File>YMGP_Text_JP.xml</File></UpdateText><UpdateAudio id="Sound"><File>YMGP_GreatPersonSound.ini</File><File>English(US)/YMGP_GreatPersonSound.bnk</File><File>English(US)/YMGP_GreatPersonSound.txt</File><File>Japanese/YMGP_GreatPersonSound.bnk</File><File>Japanese/YMGP_GreatPersonSound.txt</File><File>SoundbanksInfo.xml</File></UpdateAudio><ImportFiles id="Import"><File>Textures/YMGP_Resources.dds</File><File>Textures/YMGP_Resources_FOW.dds</File><File>Textures/YMGP_Resources256.dds</File><File>Textures/YMGP_Resources38.dds</File><File>Textures/YMGP_Resources50.dds</File><File>Textures/YMGP_GreatWorks256.dds</File><File>Textures/YMGP_GreatWorks45.dds</File><File>Textures/YMGP_GreatWorks64.dds</File><File>Textures/YMGP_GreatWorks256_FOW.dds</File><File>Assets/UI/GreatWorkShowcase.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
     <AssemblyName>NewUnit2</AssemblyName>
     <RootNamespace>NewUnit2</RootNamespace>
     <Authors>Yossie</Authors>
@@ -27,6 +27,8 @@
   <ItemGroup>
     <Folder Include="ArtDefs\" />
     <ArtDef Include="ArtDefs\YMGP_Units.artdef" />
+    <Folder Include="Assets\" />
+    <Folder Include="Assets\UI\" />
     <Folder Include="English%28US%29\" />
     <Folder Include="Japanese\" />
     <Folder Include="Textures\" />
@@ -34,6 +36,9 @@
     <None Include="Mod.Art.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\UI\GreatWorkShowcase.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="English%28US%29\1033470238.wem">
       <SubType>Content</SubType>
     </Content>
