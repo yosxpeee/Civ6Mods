@@ -59,5 +59,19 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_ASSASSIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>アサシン（Assassin）は、暗殺者、暗殺団、刺客という意味を指す英単語。語源は、ハシーシュ（大麻）、差別的に大麻中毒者、ハシシン老人、ハサス（原理）など諸説ある。元々の意味合いとしては、重要な人物を殺害した人物または団体を指す言葉である。歴史の文脈では the Assassins は11世紀から14世紀、大シリアにおいて十字軍やザンギー朝などの諸勢力に対し、暗殺を一つの手段として勢力を築いたイスラム教ニザール派を指すが、これに伴う逸話はほとんどが誤解や偏見による伝説である。秘密結社としてのアサシンは、上述のごとくイスラム教イスマイル派から分離した分派・ニザール派であるが、ペルシアのコーラサン出身のハサン・サッバーフによって作られ、東方のイスマイル派と呼ばれた。</Text>
 		</Replace>
+		
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_YNL_KULLIYE_NAME" Language="ja_JP">
+			<Text>キュッリイェ</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YNL_KULLIYE_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が暗殺教団の施設であるキュッリイェを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Faith] 信仰力+3、[ICON_Amenities] 快適性+1、[ICON_Housing] 住宅+3。1都市につき1つのみ。砂漠/平原/草原に建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_KULLIYE_NAME" Language="ja_JP">
+			<Text>暗殺教団固有の施設: キュッリイェ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YNL_KULLIYE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>イスラーム建築における病院、学校、図書館、浴場などの集まった複合施設のこと。トルコのエディルネにあるセリミエ・モスクはキュッリイェの一部である。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

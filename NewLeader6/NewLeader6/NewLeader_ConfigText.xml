@@ -59,5 +59,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_ASSASSIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		
+		<!-- UI -->
+		<Row Tag="LOC_IMPROVEMENT_YNL_KULLIYE_NAME" Language="en_US">
+			<Text>Kulliye</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_YNL_KULLIYE_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Kulliye, unique to Nizari.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +3 [ICON_Faith] Faith, +1 [ICON_Amenities] Amenity, +3 [ICON_Housing] Housing. One per City. Can be built on Desert/Grass/Plains. </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_KULLIYE_NAME" Language="en_US">
+			<Text>Nizari unique improvement: Kulliye</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YNL_KULLIYE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

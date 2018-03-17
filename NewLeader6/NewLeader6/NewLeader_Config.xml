@@ -60,6 +60,16 @@
 			<Icon>ICON_UNIT_YNL_ASSASSIN</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_YNL_NIZARI</CivilizationType>
+			<LeaderType>LEADER_YNL_KING_HASSAN</LeaderType>
+			<Type>IMPROVEMENT_YNL_KULLIYE</Type>
+			<Name>LOC_IMPROVEMENT_YNL_KULLIYE_NAME</Name>
+			<Description>LOC_IMPROVEMENT_YNL_KULLIYE_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_YNL_KULLIYE</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 		<!-- RaF -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -80,6 +90,16 @@
 			<Description>LOC_UNIT_YNL_ASSASSIN_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_YNL_ASSASSIN</Icon>
 			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_NIZARI</CivilizationType>
+			<LeaderType>LEADER_YNL_KING_HASSAN</LeaderType>
+			<Type>IMPROVEMENT_YNL_KULLIYE</Type>
+			<Name>LOC_IMPROVEMENT_YNL_KULLIYE_NAME</Name>
+			<Description>LOC_IMPROVEMENT_YNL_KULLIYE_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_YNL_KULLIYE</Icon>
+			<SortIndex>30</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

@@ -59,7 +59,24 @@
 	</RequirementArguments>
 	
 	<!-- 歴史年表 -->
-
+	<MomentIllustrations>
+		<!-- 晩鐘廟 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL"
+			 Texture="YNL_MOMENT_DISTRICT_BANSYOBYO.dds"/>
+		<!-- アサシン -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_ASSASSIN"
+			 Texture="YNL_MOMENT_UNIT_ASSASSIN.dds"/>
+		<!-- キュッリイェ -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_YNL_KULLIYE"
+			 Texture="YNL_MOMENT_IMPROVEMENT_YNL_KULLIYE.dds"/>
+	</MomentIllustrations>
+	
 	<!-- AIの好み -->
 	<AiFavoredItems>
 		<Row ListType="YNL_KingHassanWonders" Item="BUILDING_KOTOKU_IN"/>		<!-- 高徳院 -->

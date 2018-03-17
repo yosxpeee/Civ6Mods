@@ -1,4 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
-
-</GameData>
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_YNL_KULLIYE" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE"
+			 Name="LOC_IMPROVEMENT_YNL_KULLIYE_NAME"
+			 Description="LOC_IMPROVEMENT_YNL_KULLIYE_DESCRIPTION"
+			 Icon="ICON_IMPROVEMENT_YNL_KULLIYE"
+			 PlunderType="PLUNDER_HEAL"
+			 PlunderAmount="100"
+			 Buildable="true"
+			 PrereqTech="TECH_CASTLES"
+			 TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_KULLIYE"
+			 OnePerCity="true"
+			 Housing="3"
+			 TilesRequired="1"
+			 Domain="DOMAIN_LAND"/>
+	</Improvements>
+	<!-- 改善できるタイル -->
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" TerrainType="TERRAIN_DESERT"/>			<!-- 砂漠(平地) -->
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" TerrainType="TERRAIN_PLAINS"/>			<!-- 平原(平地)-->
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" TerrainType="TERRAIN_GRASS"/>			<!-- 草地(平地)-->
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" TerrainType="TERRAIN_DESERT_HILLS"/>		<!-- 砂漠(丘陵)-->
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" TerrainType="TERRAIN_PLAINS_HILLS"/>		<!-- 平原(丘陵)-->
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" TerrainType="TERRAIN_GRASS_HILLS"/>		<!-- 草地(丘陵)-->
+	</Improvement_ValidTerrains>
+	<!-- 地形改善できるユニット -->
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<!-- 地形改善そのものの効果 -->
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_FAITH"      YieldChange="3"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<!-- 社会制度・テクノロジー取得による追加ボーナスを受けるためには、こちらに0を設定しておく必要がある -->
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_SCIENCE"    YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_CULTURE"    YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_GOLD"       YieldChange="0"/>
+	</Improvement_YieldChanges>
+	<!-- 社会制度・テクノロジー取得による追加ボーナス -->
+	<Improvement_BonusYieldChanges>
+		<Row Id="1051" ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_CHEMISTRY"/>			<!-- 化学 -->
+		<Row Id="1052" ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>		<!-- 都市化 -->
+		<Row Id="1053" ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_FAITH"   BonusYieldChange="1" PrereqCivic="CIVIC_REFORMED_CHURCH"/>	<!-- 宗教改革 -->
+		<Row Id="1054" ImprovementType="IMPROVEMENT_YNL_KULLIYE" YieldType="YIELD_GOLD"    BonusYieldChange="1" PrereqTech="TECH_ECONOMICS"/>			<!-- 経済学 -->
+	</Improvement_BonusYieldChanges>
+	<!-- テクノロジー取得による観光力 -->
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_YNL_KULLIYE" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<!-- 快適性+1 -->
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_YNL_KULLIYE</ImprovementType>
+			<ModifierId>YNL_KULLIYE_AMENITY</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_KULLIYE_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_KULLIYE_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>
