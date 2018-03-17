@@ -8,7 +8,7 @@
 		<Element>
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
-				<Element text="Sample_Units.artdef"/>
+				<Element text="YnlKingHassan_Units.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -30,10 +30,10 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
-				<Element text="Sample_Districts.artdef"/>
-				<Element text="Sample_Buildings.artdef"/>
-				<Element text="Sample_Improvements.artdef"/>
-				<Element text="Sample_Landmarks.artdef"/>
+				<Element text="YnlKingHassan_Districts.artdef"/>
+				<Element text="YnlKingHassan_Buildings.artdef"/>
+				<Element text="YnlKingHassan_Improvements.artdef"/>
+				<Element text="YnlKingHassan_Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -72,10 +72,10 @@
 		<Element>
 			<consumerName text="StrategicView_Sprite"/>
 			<relativeArtDefPaths>
-				<Element text="Sample_Districts.artdef"/>
-				<Element text="Sample_Buildings.artdef"/>
-				<Element text="Sample_Landmarks.artdef"/>
-				<Element text="Sample_Improvements.artdef"/>
+				<Element text="YnlKingHassan_Districts.artdef"/>
+				<Element text="YnlKingHassan_Buildings.artdef"/>
+				<Element text="YnlKingHassan_Landmarks.artdef"/>
+				<Element text="YnlKingHassan_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Sprite"/>
@@ -279,7 +279,7 @@
 		<Element>
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
-				<Element text="Sample_Improvements.artdef"/>
+				<Element text="YnlKingHassan_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -287,10 +287,10 @@
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
-				<Element text="Sample_Districts.artdef"/>
-				<Element text="Sample_Buildings.artdef"/>
-				<Element text="Sample_Landmarks.artdef"/>
-				<Element text="Sample_Improvements.artdef"/>
+				<Element text="YnlKingHassan_Districts.artdef"/>
+				<Element text="YnlKingHassan_Buildings.artdef"/>
+				<Element text="YnlKingHassan_Landmarks.artdef"/>
+				<Element text="YnlKingHassan_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -298,10 +298,10 @@
 		<Element>
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
-				<Element text="Sample_Districts.artdef"/>
-				<Element text="Sample_Buildings.artdef"/>
-				<Element text="Sample_Landmarks.artdef"/>
-				<Element text="Sample_Improvements.artdef"/>
+				<Element text="YnlKingHassan_Districts.artdef"/>
+				<Element text="YnlKingHassan_Buildings.artdef"/>
+				<Element text="YnlKingHassan_Landmarks.artdef"/>
+				<Element text="YnlKingHassan_Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -326,7 +326,7 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
-				<Element text="Sample_Leaders.artdef"/>
+				<Element text="YnlKingHassan_Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
@@ -567,6 +567,7 @@
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
 				<Element text="UILeaders"/>
+				<Element text="UI/YNL_KingHassan_Icons.blp"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

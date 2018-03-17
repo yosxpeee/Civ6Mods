@@ -10,6 +10,8 @@ NewLeader3:Yossie's New Leader - Nagato/Mutsu
 ![image](docs/images/ynl_NagatoMutsu.png)  
 NewLeader5:Yossie's New Leader - Tohoku 3 Sisters  
 ![image](docs/images/ynl_Zunko.png)  
+NewLeader6:Yossie's New Leader - King Hassan  
+![image](docs/images/ynl_KingHassan.jpg)  
 NewLeader7:Yossie's New Leader - Akitsumaru  
 ![image](docs/images/ynl_Akitumaru.png)  
 NewLeader8:Yossie's New Leader - Mesugaki(Kururu)  

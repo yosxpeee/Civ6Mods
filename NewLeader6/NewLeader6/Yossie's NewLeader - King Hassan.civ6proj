@@ -6,14 +6,14 @@
     <Guid>1f583f44-ca36-42b4-9489-4e33b3019351</Guid>
     <ProjectGuid>5091df6d-067a-4873-b3db-444af827b7dc</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
-    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <Teaser>Yossie's NewLeader - King Hassan</Teaser>
+    <Description>Yossie's NewLeader - King Hassan v1.0</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>-200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>NewLeader_UB.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_Leaders.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_LeaderAnimations.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File><File>NewLeader_DialogsJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/NewLeader_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/NewLeader_Expansion1Text.xml</File><File>Expansion1/NewLeader_Expansion1TextJP.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/LEADER_YNL_KING_HASSAN_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/YNL_KingHassan_Diplomacy_Background.dds</File><File>Textures/YNL_KingHassan_Loading_Background.dds</File><File>Textures/YNL_MOMENT_DISTRICT_BANSYOBYO.dds</File><File>Textures/YNL_MOMENT_IMPROVEMENT_YNL_KULLIYE.dds</File><File>Textures/YNL_MOMENT_UNIT_ASSASSIN.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>-200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YnlKingHassan_UB.xml</File><File>YnlKingHassan_Civilizations.xml</File><File>YnlKingHassan_Leaders.xml</File><File>YnlKingHassan_UD.xml</File><File>YnlKingHassan_UI.xml</File><File>YnlKingHassan_UP.xml</File><File>YnlKingHassan_UU.xml</File><File>YnlKingHassan_LeaderAnimations.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YnlKingHassan_ConfigText.xml</File><File>YnlKingHassan_Text.xml</File><File>YnlKingHassan_Dialogs.xml</File><File>YnlKingHassan_ConfigTextJP.xml</File><File>YnlKingHassan_TextJP.xml</File><File>YnlKingHassan_DialogsJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YnlKingHassan_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlKingHassan_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlKingHassan_Expansion1Text.xml</File><File>Expansion1/YnlKingHassan_Expansion1TextJP.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/LEADER_YNL_KING_HASSAN_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_KING_HASSAN.dds</File><File>Textures/YNL_KingHassan_Diplomacy_Background.dds</File><File>Textures/YNL_KingHassan_Loading_Background.dds</File><File>Textures/YNL_MOMENT_DISTRICT_BANSYOBYO.dds</File><File>Textures/YNL_MOMENT_IMPROVEMENT_YNL_KULLIYE.dds</File><File>Textures/YNL_MOMENT_UNIT_ASSASSIN.dds</File><File>Textures/ICON_YNL_KING_HASSAN256.dds</File><File>Textures/ICON_YNL_KING_HASSAN32.dds</File><File>Textures/ICON_YNL_KING_HASSAN45.dds</File><File>Textures/ICON_YNL_KING_HASSAN50.dds</File><File>Textures/ICON_YNL_KING_HASSAN55.dds</File><File>Textures/ICON_YNL_KING_HASSAN64.dds</File><File>Textures/ICON_YNL_KING_HASSAN80.dds</File><File>Textures/ICON_CIV_NIZARI256.dds</File><File>Textures/ICON_CIV_NIZARI22.dds</File><File>Textures/ICON_CIV_NIZARI30.dds</File><File>Textures/ICON_CIV_NIZARI36.dds</File><File>Textures/ICON_CIV_NIZARI44.dds</File><File>Textures/ICON_CIV_NIZARI45.dds</File><File>Textures/ICON_CIV_NIZARI48.dds</File><File>Textures/ICON_CIV_NIZARI50.dds</File><File>Textures/ICON_CIV_NIZARI64.dds</File><File>Textures/ICON_CIV_NIZARI80.dds</File><File>Textures/ICON_YNL_ASSASSIN22.dds</File><File>Textures/ICON_YNL_ASSASSIN256.dds</File><File>Textures/ICON_YNL_ASSASSIN32.dds</File><File>Textures/ICON_YNL_ASSASSIN38.dds</File><File>Textures/ICON_YNL_ASSASSIN50.dds</File><File>Textures/ICON_YNL_ASSASSIN80.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YnlKingHassan_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YnlKingHassan_ConfigText.xml</File><File>YnlKingHassan_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YnlKingHassan_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
     		<Criteria id="LeaderCriteria">
     			<LeaderPlayable>StandardPlayers::LEADER_YNL_KING_HASSAN,Players:Expansion1_Players::LEADER_YNL_KING_HASSAN</LeaderPlayable>
@@ -27,57 +27,196 @@
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion1" id="1B28771A-C749-434B-9053-D1380C553DE9" />
 </Associations>]]></AssociationData>
+    <Authors>yosxpeee</Authors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="ArtDefs\Sample_Buildings.artdef">
+    <Content Include="ArtDefs\YnlKingHassan_Buildings.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ArtDefs\Sample_Districts.artdef">
+    <Content Include="ArtDefs\YnlKingHassan_Districts.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ArtDefs\Sample_Improvements.artdef">
+    <Content Include="ArtDefs\YnlKingHassan_Improvements.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ArtDefs\Sample_Landmarks.artdef">
+    <Content Include="ArtDefs\YnlKingHassan_Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ArtDefs\Sample_Leaders.artdef">
+    <Content Include="ArtDefs\YnlKingHassan_Leaders.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ArtDefs\Sample_Units.artdef">
+    <Content Include="ArtDefs\YnlKingHassan_Units.artdef">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Expansion1\NewLeader_Expansion1TextJP.xml">
+    <Content Include="Expansion1\YnlKingHassan_Expansion1TextJP.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_ConfigTextJP.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI22.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_Dialogs.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI22.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_DialogsJP.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI256.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_LeaderAnimations.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI256.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_TextJP.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI30.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_UD.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI30.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_UI.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI36.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_UP.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI36.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_UU.xml">
+    <Content Include="Textures\ICON_CIV_NIZARI44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_NIZARI80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_ASSASSIN80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_KING_HASSAN80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_KingHassan_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_Dialogs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_DialogsJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_LeaderAnimations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_UD.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_UP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlKingHassan_UU.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_KING_HASSAN.dds">
@@ -162,19 +301,19 @@
     <Folder Include="Expansion1" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
-    <Content Include="Expansion1\NewLeader_Expansion1.xml">
+    <Content Include="Expansion1\YnlKingHassan_Expansion1.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Expansion1\NewLeader_Expansion1Text.xml">
+    <Content Include="Expansion1\YnlKingHassan_Expansion1Text.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="NewLeader_Config.xml" />
-    <Content Include="NewLeader_ConfigText.xml" />
-    <Content Include="NewLeader_Civilizations.xml" />
-    <Content Include="NewLeader_Icons.xml" />
-    <Content Include="NewLeader_Leaders.xml" />
-    <Content Include="NewLeader_UB.xml" />
-    <Content Include="NewLeader_Text.xml" />
+    <Content Include="YnlKingHassan_Config.xml" />
+    <Content Include="YnlKingHassan_ConfigText.xml" />
+    <Content Include="YnlKingHassan_Civilizations.xml" />
+    <Content Include="YnlKingHassan_Icons.xml" />
+    <Content Include="YnlKingHassan_Leaders.xml" />
+    <Content Include="YnlKingHassan_UB.xml" />
+    <Content Include="YnlKingHassan_Text.xml" />
     <None Include="ArtDefs\FallbackLeaders.artdef" />
     <None Include="XLPs\LeaderFallbacks.xlp" />
     <None Include="XLPs\UILeaders.xlp" />

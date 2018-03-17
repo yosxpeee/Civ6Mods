@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>髑髏の仮面を被った暗殺者。[NEWLINE]暗殺教団がアサシンとして成立した後、『山の翁』という名前が称号に成り代わってから誕生した最初のハサン・サッバーハであるとされる。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>暗殺教団においてただひとりの目撃者もいないとされたが、それもそのはず、この人物を見た者はその時点で命を終えている為だ。[NEWLINE][NEWLINE]『山の翁』の始まりであった彼は、同時に教団の腐敗を断罪する監視者としての人生を選んだ。[NEWLINE]神の教えのもと正しい教団ではあるが、その行いは人としての悪である事は免れない。だからこそ、この人物は教団が腐敗する事を許さなかった。[NEWLINE]神の教えを守るものたちが人の欲に溺れる。[NEWLINE]それこそが、神への最大の冒涜となるからである。</Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>※ここではキャラクターのモチーフとなった歴史上の人物「ハサン・サーバッフ」について述べる。[NEWLINE][NEWLINE]テヘラン南のクムに12イマーム派の家に生まれた。出身地クムは10世紀以降シーア派12イマーム派の中心地として発展してきた都市であり、自身も当初は12イマーム派の信徒であったという。父はイラクのクーファ出身で、その遠祖はイエメンの人であったと伝えられる。7歳で志学し、17歳の頃までレイ（ライイ、テヘランの前身）で数学・天文学・イスラームの宗教諸学の研究を行っていたという。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>1072年に、イスマーイール派のイラーク・アラビー（現在のイラク中南部）とイラーク・アジャミー（現在のイランのザグロス山脈一帯の諸地域）における管区長であったアブドゥル＝マリク・イブン・アッターシュからレイでダーイーの資格を認可され、正式にイスマーイール派の信徒になった。この直後、イブン・アッターシュから、カイロへ赴きファーティマ朝カリフの宮廷に出頭してカリフに謁見するよう命じられた。1090年、イラン中西部カズヴィーン近傍の要塞、アラムート城砦を奪取して拠点とし、のちシャイフル・ジャバル（山の長老）と呼ばれる事となった。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KING_HASSAN_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>1094年、ファーティマ朝第8代カリフ・ムスタンスィルの死後、カリフの後継者問題で廃嫡されたニザールを支持し、その代理人を称していわゆるニザール派を形成。主に城砦の奪取や要人の暗殺といった手段でセルジューク朝に抵抗し、その独特の暗殺戦術をして「アサッシン教団（暗殺教団）」と称された。教団はその戦術に加え、絶対的権威に対する服従を説いたタアリーム理論に基づく「新教説」（ダウワ・ジャディーダ）によって組織の結束に成功した。また自身も極めて禁欲的な生活を守り、それを犯した息子たちを処刑したという逸話も残されている。1124年5月にランマサル城塞の主に任じられていたキヤー・ブズルグ＝ウミードを自らの後継者に任命し、さらに伝道局部門にはデフダール・アブー・アリー・アルディスターニーを右に、ハサン・ブン・アーダム・カラーニーを左に、教団の軍事部門の指揮官としてキヤー・バー・ジャアファルを前衛に配するようそれぞれ任命した後、同月の1124年5月23日、アラムート城内で死去した。</Text>
+		</Replace>
+
+		<!-- Civilization specific historical text. -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_NIZARI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>暗殺教団は、イスラム教・シーア派の分派イスマーイール派（特にその一派ニザール派のシリアでの活動）に対する幻想的イメージに彩られた中世ヨーロッパ史料および東洋学、文学での呼称。神秘主義的カルト教団が存在し、彼らがアッバース朝、セルジューク朝とその諸アターベク政権、十字軍の要人らを狂信的に暗殺していったという伝説が根幹となる。史料的制約から19世紀には東洋学者らによってハシーシュ（大麻）を用いる教団という意味が付加された上で史実として扱われるようになったが、20世紀半ば以降、実際のニザール派の活動とは著しく乖離した伝説であることが判明している。またこの伝説の中の教団ハッシャーシーンが英語やフランス語で「暗殺者」を意味する「アサシン」（assassin）の語源となっていることは有名である。歴史としてではなく、おとぎ話や都市伝説などの類いとして扱われることが多い、未だ謎に包まれた史実のひとつである。</Text>
+		</Replace>
+
+		<!-- Civlization Citizen Names -->
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_1" Language="ja_JP">
+			<Text>アフマド・チャラビー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_2" Language="ja_JP">
+			<Text>アブドゥルアズィーズ・ハキーム</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_3" Language="ja_JP">
+			<Text>ガマール・アブドゥル＝ナーセル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_4" Language="ja_JP">
+			<Text>アリ・イブン・アビ・タリブ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_5" Language="ja_JP">
+			<Text>ヌスレット・ギョクチェ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_1" Language="ja_JP">
+			<Text>ハディージャ・ビント・フワイリド</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_2" Language="ja_JP">
+			<Text>アイーシャ・ビント・アブー・バクル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_3" Language="ja_JP">
+			<Text>シャジャル・アッ=ドゥッル</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_4" Language="ja_JP">
+			<Text>ラズィーヤ・スルターン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_5" Language="ja_JP">
+			<Text>ザイナブ・ビント・ジャフシュ</Text>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_1" Language="ja_JP">
+			<Text>アラムート</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_2" Language="ja_JP">
+			<Text>バニヤース</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_3" Language="ja_JP">
+			<Text>マスヤーフ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_4" Language="ja_JP">
+			<Text>ハマー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_5" Language="ja_JP">
+			<Text>バダフシャーン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_6" Language="ja_JP">
+			<Text>スルターニーヤ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_7" Language="ja_JP">
+			<Text>アフマドナガル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_8" Language="ja_JP">
+			<Text>カドキー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_9" Language="ja_JP">
+			<Text>ヤズド</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_10" Language="ja_JP">
+			<Text>ゴム</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_11" Language="ja_JP">
+			<Text>ケルマーン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_12" Language="ja_JP">
+			<Text>マハッラト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_13" Language="ja_JP">
+			<Text>タブリーズ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_14" Language="ja_JP">
+			<Text>ランバサル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_15" Language="ja_JP">
+			<Text>ゲルドクーフ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_16" Language="ja_JP">
+			<Text>クーヘスターン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_17" Language="ja_JP">
+			<Text>ガズヴィーン</Text>
+		</Replace>
+
+		<!-- Leader Quotes -->
+		<Replace Tag="LOC_LEADER_YNL_KING_HASSAN_QUOTE" Language="ja_JP">
+			<Text>好物か?首だな。</Text>
+		</Replace>
+		
+		<!-- Unique Project -->
+		<Replace Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_NAME" Language="ja_JP">
+			<Text>ダウワ・ジャディーダ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_SHORT_NAME" Language="ja_JP">
+			<Text>ダウワ・ジャディーダ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_DESCRIPTION" Language="ja_JP">
+			<Text>暗殺教団固有のプロジェクト。発動すると [ICON_Culture] 文化力、[ICON_Science] 科学力、[ICON_Faith] 信仰力、[ICON_Gold] ゴールドが毎ターン得られる。完了すると [ICON_GreatAdmiral] 大提督、[ICON_GreatGeneral] 大将軍の [ICON_GreatPerson] 偉人ポイントがもたらされる。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_KingHassan_Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_YNL_KING_HASSAN256"/>
+			<m_ObjectName text="ICON_YNL_KING_HASSAN256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KING_HASSAN32"/>
+			<m_ObjectName text="ICON_YNL_KING_HASSAN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KING_HASSAN45"/>
+			<m_ObjectName text="ICON_YNL_KING_HASSAN45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KING_HASSAN50"/>
+			<m_ObjectName text="ICON_YNL_KING_HASSAN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KING_HASSAN55"/>
+			<m_ObjectName text="ICON_YNL_KING_HASSAN55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KING_HASSAN64"/>
+			<m_ObjectName text="ICON_YNL_KING_HASSAN64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KING_HASSAN80"/>
+			<m_ObjectName text="ICON_YNL_KING_HASSAN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI22"/>
+			<m_ObjectName text="ICON_CIV_NIZARI22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI30"/>
+			<m_ObjectName text="ICON_CIV_NIZARI30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI36"/>
+			<m_ObjectName text="ICON_CIV_NIZARI36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI45"/>
+			<m_ObjectName text="ICON_CIV_NIZARI45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI48"/>
+			<m_ObjectName text="ICON_CIV_NIZARI48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI50"/>
+			<m_ObjectName text="ICON_CIV_NIZARI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI64"/>
+			<m_ObjectName text="ICON_CIV_NIZARI64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI80"/>
+			<m_ObjectName text="ICON_CIV_NIZARI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_NIZARI256"/>
+			<m_ObjectName text="ICON_CIV_NIZARI256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ASSASSIN22"/>
+			<m_ObjectName text="ICON_YNL_ASSASSIN22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ASSASSIN32"/>
+			<m_ObjectName text="ICON_YNL_ASSASSIN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ASSASSIN38"/>
+			<m_ObjectName text="ICON_YNL_ASSASSIN38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ASSASSIN50"/>
+			<m_ObjectName text="ICON_YNL_ASSASSIN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ASSASSIN80"/>
+			<m_ObjectName text="ICON_YNL_ASSASSIN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ASSASSIN256"/>
+			<m_ObjectName text="ICON_YNL_ASSASSIN256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

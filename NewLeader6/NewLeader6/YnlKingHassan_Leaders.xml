@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 指導者そのものの定義 -->
+		<Row Type="LEADER_YNL_KING_HASSAN" Kind="KIND_LEADER" />
+		<!-- 指導者特性 -->
+		<Row Type="TRAIT_LEADER_YNL_KING_HASSAN" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YNL_KING_HASSAN</LeaderType>
+			<Name>LOC_LEADER_YNL_KING_HASSAN_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN" Quote="LOC_LEADER_YNL_KING_HASSAN_QUOTE"/>
+	</LeaderQuotes>
+
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN" TraitType="TRAIT_LEADER_YNL_KING_HASSAN"/>
+	</LeaderTraits>
+
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YNL_KING_HASSAN"  Name="LOC_TRAIT_LEADER_YNL_KING_HASSAN_NAME" Description="LOC_TRAIT_LEADER_YNL_KING_HASSAN_DESCRIPTION"/>
+	</Traits>
+	<!-- 指導者特性の効果 -->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_KING_HASSAN</TraitType>
+			<ModifierId>TRAIT_KULLIYE_AQUEDUCT_ADJECENCY_CULTURE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_KULLIYE_AQUEDUCT_ADJECENCY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_KULLIYE_AQUEDUCT_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_KULLIYE_AQUEDUCT_ADJECENCY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KULLIYE_AQUEDUCT_ADJECENCY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_IS_KULLIYE_AQUEDUCT_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_IS_KULLIYE_AQUEDUCT_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_KULLIYE_AQUEDUCT_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_KULLIYE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_KULLIYE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_KULLIYE</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_YNL_KULLIYE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT_YNL</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
+	</RequirementArguments>
+	
+	<!-- AIの好みの親定義 -->
+	<AiListTypes>
+		<Row ListType="YNL_KingHassanWonders"/>
+		<Row ListType="YNL_KingHassanCivics"/>
+		<Row ListType="YNL_KingHassanTechs"/>
+		<Row ListType="YNL_KingHassanReligiousDistrict"/>
+	</AiListTypes>
+	<!-- AIの好みと指導者特性の紐付け -->
+	<AiLists>
+		<Row ListType="YNL_KingHassanWonders"             LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Buildings"/>
+		<Row ListType="YNL_KingHassanCivics"              LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Civics"/>
+		<Row ListType="YNL_KingHassanTechs"               LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Technologies"/>
+		<Row ListType="YNL_KingHassanReligiousDistrict"   LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Districts"/>
+	</AiLists>
+	<!-- 社会制度/テクノロジー/遺産の好みの詳細設定 -->
+	<AiFavoredItems>
+		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_STONEHENGE"/>			<!-- ストーンヘンジ -->
+		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_MAHABODHI_TEMPLE"/>    <!-- マハーボーディ寺院 -->
+		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_HAGIA_SOPHIA"/>		<!-- ハギアソフィア聖堂 -->
+		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_MONT_ST_MICHEL"/>		<!-- モンサンミシェル -->
+		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_CRISTO_REDENTOR"/>		<!-- コルコバードのキリスト像 -->
+
+		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_THEOLOGY"/>		        <!-- 神学 -->
+		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_DIVINE_RIGHT"/>			<!-- 王権神授説-->
+		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_REFORMED_CHURCH"/>		<!-- 宗教改革 -->
+		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_NATIONALISM"/>			<!-- ナショナリズム -->
+		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_MOBILIZATION"/>			<!-- 戦時動員 -->
+
+		<Row ListType="YNL_KingHassanTechs"               Item="TECH_ASTROLOGY"/>				<!-- 占星術 -->
+		<Row ListType="YNL_KingHassanTechs"               Item="TECH_CONSTRUCTIO"/>				<!-- 建築学 -->
+		<Row ListType="YNL_KingHassanTechs"               Item="TECH_MILITARY_TACTICS"/>		<!-- 戦術 -->
+		<Row ListType="YNL_KingHassanTechs"               Item="TECH_APPRENTICESHIP"/>			<!-- 徒弟制度 -->
+		<Row ListType="YNL_KingHassanTechs"               Item="TECH_METAL_CASTING"/>			<!-- 鋳造 -->
+
+		<Row ListType="YNL_KingHassanReligiousDistrict"   Item="DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL" Favored="true"/><!-- 晩鐘廟 -->
+		<Row ListType="YNL_KingHassanReligiousDistrict"   Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>				<!-- 工業地帯 -->
+	</AiFavoredItems>
+	<!-- 指導者が好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN"   ReligionType="RELIGION_ISLAM"/>
+	</FavoredReligions>
+
+	<!-- ローディング画面、外交画面 -->
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN" BackgroundImage="YNL_KingHassan_Loading_Background.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_KING_HASSAN.dds" LeaderText="LOC_LEADER_YNL_KING_HASSAN_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_YNL_KING_HASSAN" BackgroundImage="YNL_KingHassan_Diplomacy_Background.dds"/>
+	</DiplomacyInfo>
+
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_PRIMARY</Type>
+			<Color>155,155,155,128</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_SECONDARY</Type>
+			<Color>40,40,255,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_YNL_KING_HASSAN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>
