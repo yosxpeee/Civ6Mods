@@ -37,7 +37,7 @@
 			<Text>晩鐘廟</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL_DESCRIPTION" Language="ja_JP">
-			<Text>宗教活動のための区域。暗殺教団固有。聖地区域に取ってかわる。[NEWLINE][NEWLINE][ICON_GreatProphet] 大預言者ポイント+2、[ICON_GreatEngineer] 大技術者ポイント+1、[ICON_GreatScientist] 大科学者ポイント+1、[ICON_GreatMerchant] 大商人ポイント+1。他の区域1つにつき [ICON_Production] 生産力+1。ダウワ・ジャディーダ (プロジェクト) が解除される。ダウワ・ジャディーダが終了すると [ICON_GreatAdmiral] 大提督ポイントおよび [ICON_GreatGeneral] 大将軍ポイントが得られる。</Text>
+			<Text>宗教活動のための区域。暗殺教団固有。聖地区域に取ってかわる。[NEWLINE][NEWLINE][ICON_GreatProphet] 大預言者ポイント+2、[ICON_GreatEngineer] 大技術者ポイント+1、[ICON_GreatScientist] 大科学者ポイント+1、[ICON_GreatMerchant] 大商人ポイント+1。隣接する他の区域1つにつき [ICON_Production] 生産力+1。ダウワ・ジャディーダ (プロジェクト) が解除される。ダウワ・ジャディーダが終了すると [ICON_GreatAdmiral] 大提督ポイントおよび [ICON_GreatGeneral] 大将軍ポイントが得られる。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL_NAME" Language="ja_JP">
 			<Text>暗殺教団固有の区域: 晩鐘廟</Text>

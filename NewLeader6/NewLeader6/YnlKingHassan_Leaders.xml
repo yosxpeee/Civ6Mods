@@ -23,6 +23,7 @@
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YNL_KING_HASSAN" TraitType="TRAIT_LEADER_YNL_KING_HASSAN"/>
+		<Row LeaderType="LEADER_YNL_KING_HASSAN" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
 	</LeaderTraits>
 
 	<!-- 特性の親定義(特性の名称と説明文) -->
@@ -99,37 +100,40 @@
 		<Row ListType="YNL_KingHassanWonders"/>
 		<Row ListType="YNL_KingHassanCivics"/>
 		<Row ListType="YNL_KingHassanTechs"/>
-		<Row ListType="YNL_KingHassanReligiousDistrict"/>
+		<Row ListType="YNL_KingHassanDistrict"/>
 	</AiListTypes>
 	<!-- AIの好みと指導者特性の紐付け -->
 	<AiLists>
-		<Row ListType="YNL_KingHassanWonders"             LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Buildings"/>
-		<Row ListType="YNL_KingHassanCivics"              LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Civics"/>
-		<Row ListType="YNL_KingHassanTechs"               LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Technologies"/>
-		<Row ListType="YNL_KingHassanReligiousDistrict"   LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Districts"/>
+		<Row ListType="YNL_KingHassanWonders"    LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Buildings"/>
+		<Row ListType="YNL_KingHassanCivics"     LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Civics"/>
+		<Row ListType="YNL_KingHassanTechs"      LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Technologies"/>
+		<Row ListType="YNL_KingHassanDistrict"   LeaderType="TRAIT_LEADER_YNL_KING_HASSAN"   System="Districts"/>
 	</AiLists>
 	<!-- 社会制度/テクノロジー/遺産の好みの詳細設定 -->
 	<AiFavoredItems>
-		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_STONEHENGE"/>			<!-- ストーンヘンジ -->
-		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_MAHABODHI_TEMPLE"/>    <!-- マハーボーディ寺院 -->
-		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_HAGIA_SOPHIA"/>		<!-- ハギアソフィア聖堂 -->
-		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_MONT_ST_MICHEL"/>		<!-- モンサンミシェル -->
-		<Row ListType="YNL_KingHassanWonders"             Item="BUILDING_CRISTO_REDENTOR"/>		<!-- コルコバードのキリスト像 -->
+		<Row ListType="YNL_KingHassanWonders"    Item="BUILDING_STONEHENGE"/>		<!-- ストーンヘンジ -->
+		<Row ListType="YNL_KingHassanWonders"    Item="BUILDING_MAHABODHI_TEMPLE"/> <!-- マハーボーディ寺院 -->
+		<Row ListType="YNL_KingHassanWonders"    Item="BUILDING_HAGIA_SOPHIA"/>		<!-- ハギアソフィア聖堂 -->
+		<Row ListType="YNL_KingHassanWonders"    Item="BUILDING_MONT_ST_MICHEL"/>	<!-- モンサンミシェル -->
+		<Row ListType="YNL_KingHassanWonders"    Item="BUILDING_CRISTO_REDENTOR"/>	<!-- コルコバードのキリスト像 -->
 
-		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_THEOLOGY"/>		        <!-- 神学 -->
-		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_DIVINE_RIGHT"/>			<!-- 王権神授説-->
-		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_REFORMED_CHURCH"/>		<!-- 宗教改革 -->
-		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_NATIONALISM"/>			<!-- ナショナリズム -->
-		<Row ListType="YNL_KingHassanCivics"              Item="CIVIC_MOBILIZATION"/>			<!-- 戦時動員 -->
+		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_THEOLOGY"/>		    <!-- 神学 -->
+		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_DIVINE_RIGHT"/>		<!-- 王権神授説-->
+		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_REFORMED_CHURCH"/>		<!-- 宗教改革 -->
+		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_URBANIZATION"/>		<!-- 都市化 -->
+		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_NATIONALISM"/>			<!-- ナショナリズム -->
+		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_MOBILIZATION"/>		<!-- 戦時動員 -->
 
-		<Row ListType="YNL_KingHassanTechs"               Item="TECH_ASTROLOGY"/>				<!-- 占星術 -->
-		<Row ListType="YNL_KingHassanTechs"               Item="TECH_CONSTRUCTIO"/>				<!-- 建築学 -->
-		<Row ListType="YNL_KingHassanTechs"               Item="TECH_MILITARY_TACTICS"/>		<!-- 戦術 -->
-		<Row ListType="YNL_KingHassanTechs"               Item="TECH_APPRENTICESHIP"/>			<!-- 徒弟制度 -->
-		<Row ListType="YNL_KingHassanTechs"               Item="TECH_METAL_CASTING"/>			<!-- 鋳造 -->
+		<Row ListType="YNL_KingHassanTechs"      Item="TECH_ASTROLOGY"/>			<!-- 占星術 -->
+		<Row ListType="YNL_KingHassanTechs"      Item="TECH_ENGINEERING"/>			<!-- 工学 -->
+		<Row ListType="YNL_KingHassanTechs"      Item="TECH_MILITARY_TACTICS"/>		<!-- 戦術 -->
+		<Row ListType="YNL_KingHassanTechs"      Item="TECH_APPRENTICESHIP"/>		<!-- 徒弟制度 -->
+		<Row ListType="YNL_KingHassanTechs"      Item="TECH_METAL_CASTING"/>		<!-- 鋳造 -->
+		<Row ListType="YNL_KingHassanTechs"      Item="TECH_CASTLES"/>				<!-- 城 -->
 
-		<Row ListType="YNL_KingHassanReligiousDistrict"   Item="DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL" Favored="true"/><!-- 晩鐘廟 -->
-		<Row ListType="YNL_KingHassanReligiousDistrict"   Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>				<!-- 工業地帯 -->
+		<Row ListType="YNL_KingHassanDistrict"   Item="DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL" Favored="true"/>	<!-- 晩鐘廟 -->
+		<Row ListType="YNL_KingHassanDistrict"   Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>				<!-- 工業地帯 -->
+		<Row ListType="YNL_KingHassanDistrict"   Item="DISTRICT_AQUEDUCT" Favored="true"/>						<!-- 用水路 -->
 	</AiFavoredItems>
 	<!-- 指導者が好む宗教 -->
 	<FavoredReligions>

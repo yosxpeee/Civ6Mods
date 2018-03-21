@@ -34,6 +34,8 @@
 				<Element text="YnlKingHassan_Buildings.artdef"/>
 				<Element text="YnlKingHassan_Improvements.artdef"/>
 				<Element text="YnlKingHassan_Landmarks.artdef"/>
+				<Element text="YnlKingHassan_Civilizations.artdef"/>
+				<Element text="YnlKingHassan_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -258,6 +260,7 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
+				<Element text="YnlKingHassan_Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -265,6 +268,8 @@
 		<Element>
 			<consumerName text="Cultures"/>
 			<relativeArtDefPaths>
+				<Element text="YnlKingHassan_Civilizations.artdef"/>
+				<Element text="YnlKingHassan_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -291,6 +296,8 @@
 				<Element text="YnlKingHassan_Buildings.artdef"/>
 				<Element text="YnlKingHassan_Landmarks.artdef"/>
 				<Element text="YnlKingHassan_Improvements.artdef"/>
+				<Element text="YnlKingHassan_Civilizations.artdef"/>
+				<Element text="YnlKingHassan_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -309,6 +316,8 @@
 		<Element>
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
+				<Element text="YnlKingHassan_Civilizations.artdef"/>
+				<Element text="YnlKingHassan_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>

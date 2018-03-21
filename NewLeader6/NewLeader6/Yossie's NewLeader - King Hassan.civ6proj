@@ -7,7 +7,7 @@
     <ProjectGuid>5091df6d-067a-4873-b3db-444af827b7dc</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Yossie's NewLeader - King Hassan</Teaser>
-    <Description>Yossie's NewLeader - King Hassan v1.0</Description>
+    <Description>Yossie's NewLeader - King Hassan v1.01</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -33,6 +33,12 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ArtDefs\YnlKingHassan_Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlKingHassan_Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\YnlKingHassan_Buildings.artdef">
       <SubType>Content</SubType>
     </Content>

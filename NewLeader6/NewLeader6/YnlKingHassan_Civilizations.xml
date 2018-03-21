@@ -21,12 +21,13 @@
 			<Adjective>LOC_CIVILIZATION_YNL_NIZARI_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
 			<RandomCityNameDepth>17</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_MEDIT</Ethnicity>
 		</Row>
 	</Civilizations>
 
 	<!-- 文明に属する指導者と首都 -->
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" LeaderType="LEADER_YNL_KING_HASSAN" CapitalName="LOC_CIVLIZATION_FELINE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" LeaderType="LEADER_YNL_KING_HASSAN" CapitalName="LOC_CIVLIZATION_NIZARI_CITY_1" />
 	</CivilizationLeaders>
 
 	<!-- 文明が何の特性を持つか -->
@@ -107,22 +108,32 @@
 	</CivilizationCitizenNames>
 	<!-- 都市名 -->
 	<CityNames>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_1" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_2" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_3" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_4" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_5" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_6" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_7" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_8" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_9" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_10" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_11" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_12" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_13" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_14" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_15" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_16" />
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_FELINE_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CityName="LOC_CIVLIZATION_NIZARI_CITY_17" />
 	</CityNames>
+
+	<!-- スタート地点補正 -->
+	<StartBiasResources>
+		<!-- 硝石 -->
+		<Row CivilizationType="CIVILIZATION_YNL_POM" ResourceType="RESOURCE_NITER" Tier="2"/>
+	</StartBiasResources>
+	<StartBiasRivers>
+		<!-- 川 -->
+		<Row CivilizationType="CIVILIZATION_YNL_POM" Tier="5"/>
+	</StartBiasRivers>
 </GameData>
