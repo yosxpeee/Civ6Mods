@@ -69,25 +69,25 @@
 		<!-- 労働者ボーナス(MOD固有) -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_YNL_NIZARI</TraitType>
-			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
+			<ModifierId>TRAIT_BUILDERPRODUCTION_NIZARI</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 労働者ボーナス -->
 		<Row>
-			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
+			<ModifierId>TRAIT_BUILDERPRODUCTION_NIZARI</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 労働者ボーナス -->
 		<Row>
-			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
+			<ModifierId>TRAIT_BUILDERPRODUCTION_NIZARI</ModifierId>
 			<Name>UnitType</Name>
 			<Value>UNIT_BUILDER</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_BUILDERPRODUCTION_YOSXPEEE</ModifierId>
+			<ModifierId>TRAIT_BUILDERPRODUCTION_NIZARI</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
@@ -95,16 +95,16 @@
 
 	<!-- 市民名 -->
 	<CivilizationCitizenNames>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_MALE_1"   Female="0"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_MALE_2"   Female="0"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_MALE_3"   Female="0"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_MALE_4"   Female="0"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_MALE_5"   Female="0"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_FEMALE_1" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_FEMALE_2" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_FEMALE_3" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_FEMALE_4" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_FELINE_FEMALE_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_MALE_5"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" CitizenName="LOC_CITIZEN_NIZARI_FEMALE_5" Female="1"/>
 	</CivilizationCitizenNames>
 	<!-- 都市名 -->
 	<CityNames>
@@ -130,10 +130,10 @@
 	<!-- スタート地点補正 -->
 	<StartBiasResources>
 		<!-- 硝石 -->
-		<Row CivilizationType="CIVILIZATION_YNL_POM" ResourceType="RESOURCE_NITER" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" ResourceType="RESOURCE_NITER" Tier="2"/>
 	</StartBiasResources>
 	<StartBiasRivers>
 		<!-- 川 -->
-		<Row CivilizationType="CIVILIZATION_YNL_POM" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_YNL_NIZARI" Tier="5"/>
 	</StartBiasRivers>
 </GameData>
