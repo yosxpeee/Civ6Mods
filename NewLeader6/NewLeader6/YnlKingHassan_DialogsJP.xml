@@ -180,7 +180,7 @@
 			<Text>我は軍隊を派遣するのが好きなのだ。我が軍の強きことを誇示できるゆえ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_KING_HASSAN_ANY" Language="ja_JP">
-			<Text>貴国のいう通りだ。こんな手に訴えたことを悔いている。もう二度と繰り返しはせぬ。</Text>
+			<Text>汝のいう通りだ。こんな手に訴えたことを悔いている。もう二度と繰り返しはせぬ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_KING_HASSAN_ANY" Language="ja_JP">
 			<Text>ハッ！誰がそんな約束を真に受けると思うのだ？</Text>
@@ -210,7 +210,7 @@
 			<Text>了解した。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_KING_HASSAN_ANY" Language="ja_JP">
-			<Text>この侮辱は忘れぬぞ。貴公も憶えておくことだな。</Text>
+			<Text>この侮辱は忘れぬぞ。汝も憶えておくことだな。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_YNL_KING_HASSAN_ANY" Language="ja_JP">
 			<Text>わが国の文化や歴史を盗むとは不届きな輩よ。わが国から出て行ってもらおう！</Text>
@@ -247,7 +247,7 @@
 			<Text>都市国家のような小国にとって、我が国ほどふさわしい友人はいない。貴国にもそれを理解してもらえているようでなによりだ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KING_HASSAN_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
-			<Text>汝が抱える人口の多さは賞賛に値する。</Text>
+			<Text>汝の国が抱える人口の多さは賞賛に値する。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KING_HASSAN_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
 			<Text>汝の文明の科学研究に対する入れ込みようは大したものだ。</Text>
@@ -262,7 +262,7 @@
 			<Text>嬉しいことに、世の偉大な人物たちは、貴国よりも我が国のほうを高く評価してくれているようだ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KING_HASSAN_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
-			<Text>遺産の建設は我らに任せてもらえるとは、貴国の賢明な判断に感謝する。</Text>
+			<Text>遺産の建設を我らに任せてもらえるとは、貴国の賢明な判断に感謝する。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KING_HASSAN_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
 			<Text>都市国家の権利を守ろうとする汝の姿勢は、全世界がならうべき手本となるだろう。</Text>
@@ -296,17 +296,17 @@
 			<Text>貴国の民に平穏がもたらされんことを。自分と同じように信心深い者と出会えるのは喜ばしいことだ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KING_HASSAN_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
-			<Text>たいへん結構。探検はこちらに任せてくれ。</Text>
+			<Text>良い。実に良い。探検はこちらに任せるがよい。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KING_HASSAN_REASON_AGENDA_PARANOID" Language="ja_JP">
-			<Text>汝が我々に脅威を与えないと知り、安心した。</Text>
+			<Text>汝が我々に脅威を与えないと知り、安心したぞ。</Text>
 		</Replace>
 		<!-- Generic warnings for random agendas -->
 		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_KING_HASSAN_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
 			<Text>貴国は偉大な文化を生みだそうという熱意に欠けている。これでは我々は、どうやって貴国の人々のことを記憶に留めればよいのだ？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_KING_HASSAN_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
-			<Text>市民たちのためにもう少し快適性を増やそうとは思わないのか？ 皆が貴公の統治に満足しているとは思えないのだが。</Text>
+			<Text>民のためにもう少し快適性を増やそうとは思わぬのか？皆が汝の統治に満足しているとは思えぬのだが。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_KING_HASSAN_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
 			<Text>貴国は今にも破産しそうではないか。借金にまみれて暮らしていくつもりなのか？</Text>
