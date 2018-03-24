@@ -33,6 +33,7 @@
 		<!-- UD(商業ハブの使いまわし) -->
 		<Row Name="ICON_DISTRICT_LIVERY_COMPANY"            Atlas="ICON_ATLAS_DISTRICTS"     Index="6"/>
 		<Row Name="ICON_DISTRICT_LIVERY_COMPANY_FOW"        Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="6"/>
+		<Row Name="DISTRICT_LIVERY_COMPANY"                 Atlas="ICON_ATLAS_FONT_ICON_BASELINE_4" Index="178"/>
 		<!-- UU(機関銃の使いまわし) -->
 		<Row Name="ICON_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_WHITE"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="83" />
 		<Row Name="ICON_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_BLACK"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="83" />
