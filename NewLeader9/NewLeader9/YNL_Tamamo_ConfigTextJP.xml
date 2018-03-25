@@ -51,7 +51,7 @@
 			<Text>化学工場</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YNL_CHEMICAL_PLANT_DESCRIPTION" Language="ja_JP">
-			<Text>大和朝廷固有の建造物。9タイル以内のすべての都心の [ICON_Production] 生産力+4。さらに、電気 (技術) を研究済みの場合、その都市の [ICON_Science] 科学力+4。このボーナスは1つの都市に対して一度だけ適用され、都心の9タイル以内に同種の建造物が2つ以上あってもボーナスが増えることはない。</Text>
+			<Text>大和朝廷固有の建造物。工場に取って代わる。9タイル以内のすべての都心の [ICON_Production] 生産力+4。さらに、電気 (技術) を研究済みの場合、その都市の [ICON_Science] 科学力+4。このボーナスは1つの都市に対して一度だけ適用され、都心の9タイル以内に同種の建造物が2つ以上あってもボーナスが増えることはない。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_YNL_CHEMICAL_PLANT_NAME" Language="ja_JP">
 			<Text>大和朝廷固有の建造物: 化学工場</Text>
