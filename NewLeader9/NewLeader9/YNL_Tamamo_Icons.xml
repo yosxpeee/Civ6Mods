@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- 指導者アイコン -->
+		<Row Name="ICON_ATLAS_YNL_TAMAMO_LEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TAMAMO32"/>
+		<Row Name="ICON_ATLAS_YNL_TAMAMO_LEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TAMAMO45"/>
+		<Row Name="ICON_ATLAS_YNL_TAMAMO_LEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TAMAMO50"/>
+		<Row Name="ICON_ATLAS_YNL_TAMAMO_LEADER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TAMAMO55"/>
+		<Row Name="ICON_ATLAS_YNL_TAMAMO_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TAMAMO64"/>
+		<Row Name="ICON_ATLAS_YNL_TAMAMO_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TAMAMO80"/>
+		<Row Name="ICON_ATLAS_YNL_TAMAMO_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TAMAMO256"/>
+		<!-- 文明アイコン -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO45.dds"/><!--Baked in color-->
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_YAMATO256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- 指導者、文明 -->
+		<Row Name="ICON_CIVILIZATION_YNL_YAMATO_DYNASTY" Atlas="ICON_ATLAS_CIVILIZATION_YNL_YAMATO_DYNASTY" Index="0"/>
+		<Row Name="ICON_LEADER_YNL_TAMAMO"               Atlas="ICON_ATLAS_YNL_TAMAMO_LEADER"               Index="0"/>
+		<!-- ユニーク施設(クルガンの使いまわし) -->												              
+		<Row Name="ICON_IMPROVEMENT_YNL_SESSYOUSEKI"     Atlas="ICON_ATLAS_UNIT_ACTIONS"                    Index="19"/>
+		<!-- ユニーク建造物(工場の使いまわし) -->							                    
+		<Row Name="ICON_BUILDING_YNL_CHEMICAL_PLANT"     Atlas="ICON_ATLAS_BUILDINGS"                       Index="26"/>
+		<Row Name="ICON_BUILDING_YNL_CHEMICAL_PLANT_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW"                   Index="26"/>
+	</IconDefinitions>
+</GameData>

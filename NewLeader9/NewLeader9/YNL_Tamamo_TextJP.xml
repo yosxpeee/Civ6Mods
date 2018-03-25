@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAMAMO_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>三大化生の一角</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAMAMO_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>良妻願望マシマシな巫女呪術師。[NEWLINE][NEWLINE]平安時代末期、鳥羽上皇に仕えたとも言われている絶世の美女。[NEWLINE]白面金毛九尾の狐が化けたとも言われている。[NEWLINE]色々あって最後は宮廷を追われ、那須野で人間たちと一大決戦をした後、おとなしく退治されたとかなんとか。</Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAMAMO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>最初は藻女（みずくめ）と呼ばれたとされ、子に恵まれない夫婦の手で大切に育てられ、美しく成長した。18歳で宮中で仕え、のちに鳥羽上皇に仕える女官となって玉藻前（たまものまえ）と呼ばれる。美貌と博識から次第に鳥羽上皇に寵愛されるようになった。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAMAMO_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>しかしその後、上皇は次第に病に伏せるようになり、朝廷の医師にも原因が分からなかったが陰陽師・安倍泰成が玉藻前の仕業と見抜く。安倍が真言を唱えた事で玉藻前は変身を解かれ、九尾の狐の姿で宮中を脱走し、行方を眩ました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAMAMO_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>その後、那須野（現在の栃木県那須郡周辺）で婦女子をさらうなどの行為が宮中へ伝わり、鳥羽上皇はかねてからの那須野領主須藤権守貞信の要請に応え、討伐軍を編成。三浦介義明、千葉介常胤、上総介広常を将軍に、陰陽師・安部泰成を軍師に任命し、軍勢を那須野へと派遣。一度は大敗を喫するも、諸将は犬追物で騎射の訓練を積み、三浦介が放った二つの矢が脇腹と首筋を貫き、上総介の長刀が斬りつけたことで、九尾の狐は息絶えた。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAMAMO_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
+			<Text>その後、九尾の狐は巨大な毒石に変化し、近づく人間や動物等の命を奪うようになった。そのため村人は後にこの毒石を『殺生石』と名付けた。この殺生石は鳥羽上皇の死後も存在し、周囲の村人たちを恐れさせた。鎮魂のためにやって来た多くの高僧ですら、その毒気に次々と倒れたが、南北朝時代、会津の元現寺を開いた玄翁和尚が殺生石を破壊し、破壊された殺生石は各地へと飛散したといわれる。</Text>
+		</Replace>
+
+		<!-- Civilization specific historical text. -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_YAMATO_DYNASTY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>大和朝廷（やまとちょうてい）とは、[NEWLINE][NEWLINE]　1.『日本書紀』『古事記』に伝承されてきた律令国家成立以前の大和国（いまの奈良県）を本拠とする有力な政治勢力およびその政治組織。長年にわたり、現皇室の祖と考えられてきた。[NEWLINE]　2.大和時代（古墳時代）の政府・政権。「ヤマト王権」。[NEWLINE]　3.飛鳥時代または古墳時代後半の天子（天皇）を中心とする官僚制をともなった中央集権的な政府・政権。[NEWLINE][NEWLINE]この用語は、戦前においては1.の意味で用いられてきたが、戦後は単に「大和時代または古墳時代の政権」（2.）の意味で用いられるようになった。しかし、「朝廷」の語の検討や、古墳とくに前方後円墳の考古学的研究の進展により、近年では、3.のような限定的な意味で用いられることが増えている。</Text>
+		</Replace>
+
+		<!-- Civlization Citizen Names -->
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_1" Language="ja_JP">
+			<Text>源隆国</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_2" Language="ja_JP">
+			<Text>吉田兼好</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_3" Language="ja_JP">
+			<Text>鴨長明</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_MALE_4" Language="ja_JP">
+			<Text>慈円</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_1" Language="ja_JP">
+			<Text>阿仏尼</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_2" Language="ja_JP">
+			<Text>藤原得子</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_3" Language="ja_JP">
+			<Text>北条時子</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_4" Language="ja_JP">
+			<Text>宜秋門院丹後</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_FELINE_FEMALE_5" Language="ja_JP">
+			<Text>弁内侍</Text>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_0" Language="ja_JP">
+			<Text>京都</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_1" Language="ja_JP">
+			<Text>向日</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_2" Language="ja_JP">
+			<Text>長岡京</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_3" Language="ja_JP">
+			<Text>宇治</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_4" Language="ja_JP">
+			<Text>城陽</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_5" Language="ja_JP">
+			<Text>八幡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_6" Language="ja_JP">
+			<Text>京田辺</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_7" Language="ja_JP">
+			<Text>木津川</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_8" Language="ja_JP">
+			<Text>亀岡</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_9" Language="ja_JP">
+			<Text>南丹</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_10" Language="ja_JP">
+			<Text>福知山</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_11" Language="ja_JP">
+			<Text>舞鶴</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_12" Language="ja_JP">
+			<Text>綾部</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_13" Language="ja_JP">
+			<Text>宮津</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_14" Language="ja_JP">
+			<Text>京丹後</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_15" Language="ja_JP">
+			<Text>鎌倉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_16" Language="ja_JP">
+			<Text>奈良</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_FELINE_CITY_17" Language="ja_JP">
+			<Text>那須塩原</Text>
+		</Replace>
+		
+		<!-- Leader Quotes -->
+		<Replace Tag="LOC_LEADER_YNL_TAMAMO_QUOTE" Language="ja_JP">
+			<Text>みこーん！</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

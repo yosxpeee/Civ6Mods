@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_YNL_SESSYOUSEKI" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" 
+			 Name="LOC_IMPROVEMENT_YNL_SESSYOUSEKI_NAME" 
+			 Description="LOC_IMPROVEMENT_YNL_SESSYOUSEKI_DESCRIPTION" 
+			 Icon="ICON_IMPROVEMENT_YNL_SESSYOUSEKI" 
+			 PlunderType="PLUNDER_FAITH" 
+			 PlunderAmount="25" 
+			 Buildable="true" 
+			 TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_SESSYOUSEKI"
+			 OnePerCity="true"
+			 Domain="DOMAIN_LAND"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" YieldChangeId="Sessyouseki_FaithForest"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" YieldChangeId="Sessyouseki_FaithJungle"/>
+	</Improvement_Adjacencies>
+	<!-- 改善可能な地形：丘陵以外の陸地 -->
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" TerrainType="TERRAIN_SNOW"/>
+	</Improvement_ValidTerrains>
+	<!-- 地形改善を実行できるユニット：労働者 -->
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<!-- 地形改善そのものの効果：科学力、文化力、信仰力を各+1 -->
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" YieldType="YIELD_FAITH"   YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<!-- 技術獲得によるボーナス：科学理論取得で科学力+1、博物学取得で文化力+1、宗教改革取得で信仰力+1 -->
+	<Improvement_BonusYieldChanges>
+		<Row Id="215" ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+		<Row Id="216" ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_NATURAL_HISTORY"/>
+		<Row Id="217" ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" YieldType="YIELD_FAITH"   BonusYieldChange="1" PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+	</Improvement_BonusYieldChanges>
+	<!-- 観光力 -->
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_YNL_SESSYOUSEKI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<!-- 隣接ボーナス：森、熱帯雨林 -->
+	<Adjacency_YieldChanges>
+		<Row ID="Sessyouseki_FaithForest" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="Sessyouseki_FaithJungle" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE"/>
+	</Adjacency_YieldChanges>
+	<!-- 隣接ボーナス：聖地 -->
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_YNL_SESSYOUSEKI</ImprovementType>
+			<ModifierId>YNL_SESSYOUSEKI_HOLYSITEADJACENCY_FAITH</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_SESSYOUSEKI_HOLYSITEADJACENCY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_HOLYSITE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_SESSYOUSEKI_HOLYSITEADJACENCY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_SESSYOUSEKI_HOLYSITEADJACENCY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

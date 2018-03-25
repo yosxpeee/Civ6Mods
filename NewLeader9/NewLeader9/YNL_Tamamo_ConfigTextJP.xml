@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_YNL_YAMATO_DYNASTY_NAME" Language="ja_JP">
+			<Text>大和朝廷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YNL_YAMATO_DYNASTY_DESCRIPTION" Language="ja_JP">
+			<Text>大和朝廷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YNL_YAMATO_DYNASTY_ADJECTIVE" Language="ja_JP">
+			<Text>大和朝廷の</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY_NAME" Language="ja_JP">
+			<Text>島国の魂</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY_DESCRIPTION" Language="ja_JP">
+			<Text>沿岸都市の [ICON_Housing] 住宅+3。草原から [ICON_Faith] 信仰力+1を得る。守備隊が駐屯している都市は、ターン毎の忠誠心+2。</Text>
+		</Replace>
+
+		<!-- 指導者 -->
+		<Replace Tag="LOC_LEADER_YNL_TAMAMO_NAME" Language="ja_JP">
+			<Text>玉藻の前</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_TAMAMO_NAME" Language="ja_JP">
+			<Text>水天日光天照八野鎮石</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_TAMAMO_DESCRIPTION" Language="ja_JP">
+			<Text>大和朝廷の領土で異なる高級資源に関する施設が作られるたびに、[ICON_Strength] 戦闘力+1のボーナスを得る。全戦闘ユニットが移動あるいは攻撃した後でも、ターン終了時に回復する。戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の50%に等しい [ICON_Science] 科学力を得る。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_TAMAMO_DOM_TEXT" Language="ja_JP">
+			<Text>好きなものですか？それはもちろん、小さくとも素敵なマイホーム！まぁ広いに越したことはありませんが</Text>
+		</Replace>
+
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_YNL_SESSYOUSEKI_NAME" Language="ja_JP">
+			<Text>殺生石</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YNL_SESSYOUSEKI_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が殺生石を設置できるようになる。[NEWLINE][NEWLINE][ICON_Science] 科学力+1、[ICON_Culture] 文化力+1、[ICON_Faith] 信仰力+1。聖地 (区域) が隣接している場合は [ICON_Faith] 信仰力+2。隣接している森および熱帯雨林1タイルごとに [ICON_Faith] 信仰力+1。1都市につき1つのみ。丘陵には建設不可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_SESSYOUSEKI_NAME" Language="ja_JP">
+			<Text>玉藻の前固有の施設: 殺生石</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YNL_SESSYOUSEKI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>栃木県那須町の那須湯本温泉付近にある溶岩。付近一帯には硫化水素、亜硫酸ガスなどの有毒な火山ガスがたえず噴出しており、「鳥獣がこれに近づけばその命を奪う、殺生の石」として古くから知られている。松尾芭蕉も訪れており『おくのほそ道』にその様子が記されている。現在は、観光客が多く訪れる観光名所となっている。ただし、ガスの排出量が多い場合は立ち入りが規制される。</Text>
+		</Replace>
+
+		<!-- UB -->
+		<Replace Tag="LOC_BUILDING_YNL_CHEMICAL_PLANT_NAME" Language="ja_JP">
+			<Text>化学工場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YNL_CHEMICAL_PLANT_DESCRIPTION" Language="ja_JP">
+			<Text>大和朝廷固有の建造物。9タイル以内のすべての都心の [ICON_Production] 生産力+4。さらに、電気 (技術) を研究済みの場合、その都市の [ICON_Science] 科学力+4。このボーナスは1つの都市に対して一度だけ適用され、都心の9タイル以内に同種の建造物が2つ以上あってもボーナスが増えることはない。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_YNL_CHEMICAL_PLANT_NAME" Language="ja_JP">
+			<Text>大和朝廷固有の建造物: 化学工場</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_CHEMICAL_PLANT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>原料を化学反応によって加工する工場。日本では三菱ケミカルホールディングズ、住友化学などが有名な化学メーカーであり、大規模な工場を持っている。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

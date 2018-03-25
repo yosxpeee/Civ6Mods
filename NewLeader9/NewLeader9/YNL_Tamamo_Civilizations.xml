@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 文明そのものの定義 -->
+		<Row Type="CIVILIZATION_YNL_YAMATO_DYNASTY" Kind="KIND_CIVILIZATION" />
+		<!-- 文明特性の定義 -->
+		<Row Type="TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY"          Kind="KIND_TRAIT"/>
+		<!-- UI -->
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_SESSYOUSEKI" Kind="KIND_TRAIT"/>
+		<!-- UB -->
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_YNL_CHEMICAL_PLANT" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_YNL_YAMATO_DYNASTY</CivilizationType>
+			<Name>LOC_CIVILIZATION_YNL_YAMATO_DYNASTY_NAME</Name>
+			<Description>LOC_CIVILIZATION_YNL_YAMATO_DYNASTY_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_YNL_YAMATO_DYNASTY_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>18</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+		</Row>
+	</Civilizations>
+
+	<!-- 文明に属する指導者と首都 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" LeaderType="LEADER_YNL_TAMAMO" CapitalName="LOC_CIVLIZATION_FELINE_CITY_0" />
+	</CivilizationLeaders>
+
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<!-- 文明特性 -->
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" TraitType="TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" TraitType="TRAIT_CIVILIZATION_UNIT_JAPANESE_SAMURAI" />		<!-- 侍(バニラの日本のもの) -->
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_SESSYOUSEKI"/><!-- 殺生石 -->
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" TraitType="TRAIT_CIVILIZATION_BUILDING_YNL_CHEMICAL_PLANT"/><!-- 化学工場 -->
+	</CivilizationTraits>
+
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY" Name="LOC_TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY_NAME" Description="LOC_TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_SESSYOUSEKI" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_SESSYOUSEKI_NAME" />
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_YNL_CHEMICAL_PLANT" Name="LOC_TRAIT_CIVILIZATION_BUILDING_YNL_CHEMICAL_PLANT_NAME" />
+	</Traits>
+	
+	<!-- 文明特性 -->
+	<TraitModifiers>
+		<!-- 沿岸に建てた都市の住宅+3 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY</TraitType>
+			<ModifierId>TRAIT_COASTAL_HOUSING_YNL_TAMAMO</ModifierId>
+		</Row>
+		<!-- 平原から信仰力+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY</TraitType>
+			<ModifierId>TRAIT_INCREASED_GRASS_FAITH_YNL_TAMAMO</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY</TraitType>
+			<ModifierId>TRAIT_INCREASED_GRASS_HILLS_FAITH_YNL_TAMAMO</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- 沿岸に建てた都市の住宅+3 -->
+		<Row>
+			<ModifierId>TRAIT_COASTAL_HOUSING_YNL_TAMAMO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS_YNL_TAMAMO</SubjectRequirementSetId>
+		</Row>
+		<!-- 平原から信仰力+1 -->
+		<Row>
+			<ModifierId>TRAIT_INCREASED_GRASS_FAITH_YNL_TAMAMO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_GRASS_REQUIREMENTS_YNL_TAMAMO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_GRASS_HILLS_FAITH_YNL_TAMAMO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_YNL_TAMAMO</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 沿岸に建てた都市の住宅+3 -->
+		<Row>
+			<ModifierId>TRAIT_COASTAL_HOUSING_YNL_TAMAMO</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- 平原から信仰力+1 -->
+		<Row>
+			<ModifierId>TRAIT_INCREASED_GRASS_FAITH_YNL_TAMAMO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_GRASS_FAITH_YNL_TAMAMO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_GRASS_HILLS_FAITH_YNL_TAMAMO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_GRASS_HILLS_FAITH_YNL_TAMAMO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<!-- 沿岸に建てた都市の住宅+3 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 平原から信仰力+1 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- 沿岸に建てた都市の住宅+3 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementId>PLOT_IS_COASTAL_LAND_YNL_TAMAMO</RequirementId>
+		</Row>
+		<!-- 平原から信仰力+1 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_YNL_TAMAMO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_YNL_TAMAMO</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- 沿岸に建てた都市の住宅+3 -->
+		<Row>
+			<RequirementId>PLOT_IS_COASTAL_LAND_YNL_TAMAMO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_COASTAL_LAND</RequirementType>
+		</Row>
+		<!-- 平原から信仰力+1 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_YNL_TAMAMO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_YNL_TAMAMO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- 平原から信仰力+1 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_YNL_TAMAMO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_YNL_TAMAMO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_HILLS</Value>
+		</Row>
+	</RequirementArguments>
+	
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CitizenName="LOC_CITIZEN_FELINE_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_0" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" CityName="LOC_CIVLIZATION_FELINE_CITY_17" />
+	</CityNames>
+
+	<!-- スタート地点補正 -->
+	<StartBiasResources>
+		<!-- ダイヤ、石膏、象牙、ヒスイ、大理石、水銀、真珠、銀 -->
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_DIAMONDS" Tier="4"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_GYPSUM" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_IVORY" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_JADE" Tier="4"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_MARBLE" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_MERCURY" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_PEARLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_SILVER" Tier="4"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<!-- 沿岸 -->
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" TerrainType="TERRAIN_COAST" Tier="3"/>
+	</StartBiasTerrains>
+</GameData>

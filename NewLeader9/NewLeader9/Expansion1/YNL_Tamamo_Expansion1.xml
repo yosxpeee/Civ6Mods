@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 文明特性：都市に守備隊が駐留しているとターンごとの忠誠心+2 -->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY" ModifierId="TRAIT_SPIRITS_OF_ISLAND_COUNTRY_GARRISONIDENTITY"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_SPIRITS_OF_ISLAND_COUNTRY_GARRISONIDENTITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId><!-- RaFのxmlにある -->
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_SPIRITS_OF_ISLAND_COUNTRY_GARRISONIDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<!-- 歴史年表 -->
+	<MomentIllustrations>
+		<!-- 殺生石 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_YNL_SESSYOUSEKI"
+			 Texture="YNL_MOMENT_IMPROVEMENT_YNL_SESSYOUSEKI.dds"/>
+		<!-- 化学工場 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_YNL_CHEMICAL_PLANT"
+			 Texture="YNL_MOMENT_CEMICAL_PLANT.dds"/>
+	</MomentIllustrations>
+	
+	<!-- アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_YNL_TAMAMO" AgendaType="AGENDA_CHEOMSEONGDAE"/>
+	</HistoricalAgendas>
+	
+	<!-- スタート地点補正 -->
+	<StartBiasResources>
+		<!-- 琥珀 -->
+		<Row CivilizationType="CIVILIZATION_YNL_YAMATO_DYNASTY" ResourceType="RESOURCE_AMBER" Tier="3"/>
+	</StartBiasResources>
+</GameData>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_YNL_CHEMICAL_PLANT" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_YNL_CHEMICAL_PLANT" ReplacesBuildingType="BUILDING_FACTORY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_YNL_CHEMICAL_PLANT" 
+			 Name="LOC_BUILDING_YNL_CHEMICAL_PLANT_NAME" 
+			 Description="LOC_BUILDING_YNL_CHEMICAL_PLANT_DESCRIPTION" 
+			 PrereqTech="TECH_INDUSTRIALIZATION" 
+			 PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" 
+			 PurchaseYield="YIELD_GOLD" 
+			 Cost="420" 
+			 AdvisorType="ADVISOR_GENERIC" 
+			 Maintenance="2" 
+			 CitizenSlots="1" 
+			 RegionalRange="9" 
+			 TraitType="TRAIT_CIVILIZATION_BUILDING_YNL_CHEMICAL_PLANT"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_YNL_CHEMICAL_PLANT" PrereqBuilding="BUILDING_WORKSHOP"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_YNL_CHEMICAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_YNL_CHEMICAL_PLANT" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_YNL_CHEMICAL_PLANT</BuildingType>
+			<ModifierId>YNL_CHEMICALPLANT_SCIENCE</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<!-- 電気取得済みの場合、科学力+4 -->
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_CHEMICALPLANT_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>PLAYER_HAS_ELECTRICITYTECHNOLOGY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_CHEMICALPLANT_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_YNL_CHEMICAL_PLANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_CHEMICALPLANT_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_CHEMICALPLANT_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

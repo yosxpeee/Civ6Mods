@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's NewLeader - TamamoNoMae</Name>
+    <Guid>8d4280d9-dce8-431c-a770-faf498f1d9d0</Guid>
+    <ProjectGuid>5091df6d-067a-4873-b3db-444af827b7dc</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Yossie's NewLeader - TamamoNoMae</Teaser>
+    <Description>Yossie's NewLeader - TamamoNoMae v1.0</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>-200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YNL_Tamamo_UB.xml</File><File>YNL_Tamamo_Civilizations.xml</File><File>YNL_Tamamo_Leaders.xml</File><File>YNL_Tamamo_UD.xml</File><File>YNL_Tamamo_UI.xml</File><File>YNL_Tamamo_UP.xml</File><File>YNL_Tamamo_UU.xml</File><File>YNL_Tamamo_LeaderAnimations.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_Tamamo_ConfigText.xml</File><File>YNL_Tamamo_Text.xml</File><File>YNL_Tamamo_Dialogs.xml</File><File>YNL_Tamamo_ConfigTextJP.xml</File><File>YNL_Tamamo_TextJP.xml</File><File>YNL_Tamamo_DialogsJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_Tamamo_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YNL_Tamamo_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YNL_Tamamo_Expansion1Text.xml</File><File>Expansion1/YNL_Tamamo_Expansion1TextJP.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_TAMAMO.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_TAMAMO.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_TAMAMO.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_TAMAMO.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_TAMAMO.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TAMAMO.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_TAMAMO.dds</File><File>Textures/LEADER_YNL_TAMAMO_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_TAMAMO.dds</File><File>Textures/ICON_CIV_YNL_YAMATO256.dds</File><File>Textures/ICON_CIV_YNL_YAMATO45.dds</File><File>Textures/ICON_YNL_LEADER_TAMAMO256.dds</File><File>Textures/YNL_MOMENT_IMPROVEMENT_YNL_SESSYOUSEKI.dds</File><File>Textures/ICON_YNL_LEADER_TAMAMO32.dds</File><File>Textures/ICON_YNL_LEADER_TAMAMO45.dds</File><File>Textures/ICON_YNL_LEADER_TAMAMO50.dds</File><File>Textures/ICON_YNL_LEADER_TAMAMO55.dds</File><File>Textures/ICON_YNL_LEADER_TAMAMO64.dds</File><File>Textures/ICON_YNL_LEADER_TAMAMO80.dds</File><File>Textures/ICON_CIV_YNL_YAMATO22.dds</File><File>Textures/ICON_CIV_YNL_YAMATO30.dds</File><File>Textures/ICON_CIV_YNL_YAMATO36.dds</File><File>Textures/ICON_CIV_YNL_YAMATO44.dds</File><File>Textures/ICON_CIV_YNL_YAMATO48.dds</File><File>Textures/ICON_CIV_YNL_YAMATO50.dds</File><File>Textures/ICON_CIV_YNL_YAMATO64.dds</File><File>Textures/ICON_CIV_YNL_YAMATO80.dds</File><File>Textures/YNL_MOMENT_CEMICAL_PLANT.dds</File><File>Textures/diplomacy_ynl_tamamo.dds</File><File>Textures/loading_ynl_tamamo.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_Tamamo_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_Tamamo_ConfigText.xml</File><File>YNL_Tamamo_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_Tamamo_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria>
+    		<Criteria id="LeaderCriteria">
+    			<LeaderPlayable>StandardPlayers::LEADER_YNL_TAMAMO,Players:Expansion1_Players::LEADER_YNL_TAMAMO</LeaderPlayable>
+    		</Criteria>
+    		<Criteria id="LeaderCriteriaExpansion1">
+    			<LeaderPlayable>Players:Expansion1_Players::LEADER_YNL_TAMAMO</LeaderPlayable>
+    		</Criteria>
+    	</ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>NewLeader6</AssemblyName>
+    <RootNamespace>NewLeader6</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion1" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\YnlTamamoNoMae_Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlTamamoNoMae_Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlTamamoNoMae_Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlTamamoNoMae_Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlTamamoNoMae_Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlTamamoNoMae_Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlTamamoNoMae_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlTamamoNoMae_Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Expansion1\YNL_Tamamo_Expansion1TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\diplomacy_ynl_tamamo.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\loading_ynl_tamamo.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_CEMICAL_PLANT.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_CEMICAL_PLANT.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_IMPROVEMENT_YNL_SESSYOUSEKI.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_IMPROVEMENT_YNL_SESSYOUSEKI.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_Dialogs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_DialogsJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_LeaderAnimations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_UD.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_UP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_TAMAMO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_TAMAMO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_TAMAMO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_TAMAMO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_TAMAMO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_TAMAMO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_TAMAMO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_TAMAMO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_TAMAMO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_TAMAMO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TAMAMO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TAMAMO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_TAMAMO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_TAMAMO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_YNL_YAMATO45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TAMAMO256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_TAMAMO_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_TAMAMO_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_YNL_TAMAMO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_YNL_TAMAMO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_Tamamo_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Expansion1" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="Expansion1\YNL_Tamamo_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Expansion1\YNL_Tamamo_Expansion1Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YNL_Tamamo_Config.xml" />
+    <Content Include="YNL_Tamamo_ConfigText.xml" />
+    <Content Include="YNL_Tamamo_Civilizations.xml" />
+    <Content Include="YNL_Tamamo_Icons.xml" />
+    <Content Include="YNL_Tamamo_Leaders.xml" />
+    <Content Include="YNL_Tamamo_UB.xml" />
+    <Content Include="YNL_Tamamo_Text.xml" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

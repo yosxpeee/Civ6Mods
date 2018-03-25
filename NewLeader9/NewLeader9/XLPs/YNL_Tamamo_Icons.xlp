@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_Tamamo_Icons"/>
+	<m_Entries>
+		
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TAMAMO256"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TAMAMO256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TAMAMO32"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TAMAMO32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TAMAMO45"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TAMAMO45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TAMAMO50"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TAMAMO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TAMAMO55"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TAMAMO55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TAMAMO64"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TAMAMO64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TAMAMO80"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TAMAMO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO22"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO30"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO36"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO44"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO45"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO48"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO50"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO64"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO80"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_YAMATO256"/>
+			<m_ObjectName text="ICON_CIV_YNL_YAMATO256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

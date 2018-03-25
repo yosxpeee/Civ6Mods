@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 指導者そのものの定義 -->
+		<Row Type="LEADER_YNL_TAMAMO" Kind="KIND_LEADER" />
+		<!-- 指導者特性 -->
+		<Row Type="TRAIT_LEADER_YNL_TAMAMO" Kind="KIND_TRAIT"/>
+		<!-- 新規Modifier定義 -->
+		<Row Type="MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION_YNL" Kind="KIND_MODIFIER"/>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YNL_TAMAMO</LeaderType>
+			<Name>LOC_LEADER_YNL_TAMAMO_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<!-- 指導者が好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_YNL_TAMAMO" ReligionType="RELIGION_SHINTO"/>
+	</FavoredReligions>
+	
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YNL_TAMAMO" Quote="LOC_LEADER_YNL_TAMAMO_QUOTE"/>
+	</LeaderQuotes>
+
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YNL_TAMAMO" TraitType="TRAIT_LEADER_YNL_TAMAMO"/>
+		<Row LeaderType="LEADER_YNL_TAMAMO" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+	</LeaderTraits>
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YNL_TAMAMO" Name="LOC_TRAIT_LEADER_YNL_TAMAMO_NAME" Description="LOC_TRAIT_LEADER_YNL_TAMAMO_DESCRIPTION"/>
+	</Traits>
+	<!-- 指導者特性 -->
+	<TraitModifiers>
+		<!-- 高級資源による戦闘ボーナス(モンテスマのと同じ) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TAMAMO</TraitType>
+			<ModifierId>TRAIT_COMBAT_BONUS_PER_LUXURY</ModifierId>
+		</Row>
+		<!-- 移動後も回復 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TAMAMO</TraitType>
+			<ModifierId>TRAIT_TAMAMO_HEAL_EVERY_MOVE</ModifierId>
+		</Row>
+		<!-- ユニット撃破で科学力取得 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TAMAMO</TraitType>
+			<ModifierId>UNIQUE_LEADER_SCIENCE_KILLS_YNL_TAMAMO</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- 移動後も回復 -->
+		<Row>
+			<ModifierId>TRAIT_TAMAMO_HEAL_EVERY_MOVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION_YNL</ModifierType>
+		</Row>
+		<!-- ユニット撃破で科学力取得 -->
+		<Row>
+			<ModifierId>UNIQUE_LEADER_SCIENCE_KILLS_YNL_TAMAMO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ユニット撃破で科学力取得 -->
+		<Row>
+			<ModifierId>UNIQUE_LEADER_SCIENCE_KILLS_YNL_TAMAMO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_SCIENCE_KILLS_YNL_TAMAMO</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	<DynamicModifiers>
+		<!-- 移動後も回復 -->
+		<!-- マムルークのAbilityに設定されているModifierはCollectionTypeが違うので指導者特性には使えない。
+			 CollectionTypeを書き換えたものを新規定義し、それを使う。-->
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION_YNL</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_GRANT_HEAL_AFTER_ACTION</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<!-- AIの好みの親定義 -->
+	<AiListTypes>
+		<Row ListType="YNL_TamamoNoMaeWonders"/>
+		<Row ListType="YNL_TamamoNoMaeCivics"/>
+		<Row ListType="YNL_TamamoNoMaeTechs"/>
+		<Row ListType="YNL_TamamoNoMaeDistrict"/>
+		<Row ListType="YNL_TamamoNoMaeSciencePreference"/>
+	</AiListTypes>
+	<!-- AIの好みと指導者特性の紐付け -->
+	<AiLists>
+		<Row ListType="YNL_TamamoNoMaeWonders"           LeaderType="TRAIT_LEADER_YNL_TAMAMO" System="Buildings"/>
+		<Row ListType="YNL_TamamoNoMaeCivics"            LeaderType="TRAIT_LEADER_YNL_TAMAMO" System="Civics"/>
+		<Row ListType="YNL_TamamoNoMaeTechs"             LeaderType="TRAIT_LEADER_YNL_TAMAMO" System="Technologies"/>
+		<Row ListType="YNL_TamamoNoMaeDistrict"          LeaderType="TRAIT_LEADER_YNL_TAMAMO" System="Districts"/>
+		<Row ListType="YNL_TamamoNoMaeSciencePreference" LeaderType="TRAIT_LEADER_YNL_TAMAMO" System="Yields"/>
+	</AiLists>
+	<!-- 社会制度/テクノロジー/遺産/区域の好みの詳細設定 -->
+	<AiFavoredItems>
+		<Row ListType="YNL_TamamoNoMaeWonders"             Item="BUILDING_STONEHENGE"/>						<!-- ストーンヘンジ -->
+		<Row ListType="YNL_TamamoNoMaeWonders"             Item="BUILDING_GREAT_LIBRARY"/>					<!-- アレキサンドリア図書館 -->
+		<Row ListType="YNL_TamamoNoMaeWonders"             Item="BUILDING_COLOSSEUM"/>						<!-- コロシアム -->
+		<Row ListType="YNL_TamamoNoMaeWonders"             Item="BUILDING_FORBIDDEN_CITY"/>					<!-- 紫禁城 -->
+		<Row ListType="YNL_TamamoNoMaeWonders"             Item="BUILDING_OXFORD_UNIVERSITY"/>				<!-- オックスフォード大学 -->
+												           
+		<Row ListType="YNL_TamamoNoMaeCivics"              Item="CIVIC_THEOLOGY"/>							<!-- 神学 -->
+		<Row ListType="YNL_TamamoNoMaeCivics"              Item="CIVIC_DIVINE_RIGHT"/>						<!-- 王権神授説-->
+		<Row ListType="YNL_TamamoNoMaeCivics"              Item="CIVIC_REFORMED_CHURCH"/>					<!-- 宗教改革 -->
+		<Row ListType="YNL_TamamoNoMaeCivics"              Item="CIVIC_URBANIZATION"/>						<!-- 都市化 -->
+		<Row ListType="YNL_TamamoNoMaeCivics"              Item="CIVIC_NATURAL_HISTORY"/>					<!-- 博物学 -->
+		<Row ListType="YNL_TamamoNoMaeCivics"              Item="CIVIC_SPACE_RACE"/>						<!-- 宇宙開発競争 -->
+												           
+		<Row ListType="YNL_TamamoNoMaeTechs"               Item="TECH_ASTROLOGY"/>							<!-- 占星術 -->
+		<Row ListType="YNL_TamamoNoMaeTechs"               Item="TECH_MILITARY_TACTICS"/>					<!-- 戦術 -->
+		<Row ListType="YNL_TamamoNoMaeTechs"               Item="TECH_APPRENTICESHIP"/>						<!-- 徒弟制度 -->
+		<Row ListType="YNL_TamamoNoMaeTechs"               Item="TECH_ROCKETRY"/>							<!-- ロケット工学 -->
+		<Row ListType="YNL_TamamoNoMaeTechs"               Item="TECH_ROBOTICS"/>							<!-- ロボット工学 -->
+		<Row ListType="YNL_TamamoNoMaeTechs"               Item="TECH_NANOTECHNOLOGY"/>						<!-- ナノテクノロジー -->
+												           
+		<Row ListType="YNL_TamamoNoMaeDistrict"            Item="DISTRICT_CAMPUS" Favored="true"/>			<!-- キャンパス -->
+		<Row ListType="YNL_TamamoNoMaeDistrict"            Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>	<!-- 工業地帯 -->
+		
+		<Row ListType="YNL_TamamoNoMaeSciencePreference"   Item="YIELD_SCIENCE" Value="10"/>				<!-- 科学力 -->
+	</AiFavoredItems>
+
+	<!-- ローディング画面、外交画面 -->
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YNL_TAMAMO" BackgroundImage="loading_ynl_tamamo.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_TAMAMO.dds" LeaderText="LOC_LEADER_YNL_TAMAMO_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_YNL_TAMAMO" BackgroundImage="diplomacy_ynl_tamamo.dds"/>
+	</DiplomacyInfo>
+
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_TAMAMO_PRIMARY</Type>
+			<Color>58,65,189,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_TAMAMO_SECONDARY</Type>
+			<Color>198,129,39,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_YNL_TAMAMO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_YNL_TAMAMO_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_YNL_TAMAMO_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>
