@@ -12,10 +12,10 @@
 			<Text>こちらの国とあなたの国の間に正式な友好関係を結ぶことに同意してほしいですわ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TAMAMO_ANY" Language="ja_JP">
-			<Text>これはありがたい。</Text>
+			<Text>これはありがたいです。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TAMAMO_ANY" Language="ja_JP">
-			<Text>それは残念だ。</Text>
+			<Text>それは残念です。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YNL_TAMAMO_ANY" Language="ja_JP">
 			<Text>戦争・・・ですの？うふふ。滾ってきた……滾ってきましたよぉ</Text>
