@@ -25,5 +25,7 @@
 	<Improvement_BonusYieldChanges>
 		<!-- 化学取得で科学力+1 -->
 		<Row Id="201" ImprovementType="IMPROVEMENT_DRILLSHIP" YieldType="YIELD_SCIENCE" BonusYieldChange="1" PrereqTech="TECH_CHEMISTRY"/>
+		<!-- 電気取得でゴールド+1 -->
+		<Row Id="202" ImprovementType="IMPROVEMENT_DRILLSHIP" YieldType="YIELD_GOLD"    BonusYieldChange="1" PrereqTech="TECH_ELECTRICITY"/>
 	</Improvement_BonusYieldChanges>
 </GameInfo>

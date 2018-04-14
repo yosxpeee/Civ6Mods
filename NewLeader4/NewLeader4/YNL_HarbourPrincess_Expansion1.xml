@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 削除するデータ -->
+	<Delete ModifierId="COASTAL_FORT_TRADE_ROUTE_CAPACITY"/>
+
 	<!-- 歴史年表用の画像 -->
 	<MomentIllustrations>
 		<!-- 沿岸要塞 -->

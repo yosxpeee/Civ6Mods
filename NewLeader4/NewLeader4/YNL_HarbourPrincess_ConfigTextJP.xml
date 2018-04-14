@@ -32,7 +32,7 @@
 			<Text>沿岸要塞</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COASTAL_FORT_DESCRIPTION" Language="ja_JP">
-			<Text>海洋活動をつかさどる区域。深海棲艦固有。港区域に取ってかわる。この区域はHPを持つ。[NEWLINE]沿岸要塞建設時に無条件で [ICON_Traderoute] 交易路+1。(RaF)[NEWLINE]そのほかの能力は王立海軍造船所と同等。</Text>
+			<Text>海洋活動をつかさどる区域。深海棲艦固有。港区域に取ってかわる。この区域はHPを持ちZOCを発生させる。[NEWLINE]キャンパスに隣接すると [ICON_Science] 科学力+1、劇場広場に隣接すると [ICON_Culture] 文化力+1。[NEWLINE]そのほかの能力は王立海軍造船所と同等。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME" Language="ja_JP">
 			<Text>深海棲艦固有の区域: 沿岸要塞</Text>
