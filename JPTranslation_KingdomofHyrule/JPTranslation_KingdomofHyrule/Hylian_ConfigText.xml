@@ -45,6 +45,13 @@
 			<Text>Can be purchased with a large amount of faith. it is Powerful unit. Gain one free at the beginning of each new era. Can not be upgrade, but [ICON_Strength] strength can be reinforced by adjoining medic units. </Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_HYLIAN_AMBULANCE_NAME" Language="en_US">
+			<Text>Field Ambulance</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HYLIAN_AMBULANCE_DESCRIPTION" Language="en_US">
+			<Text>Modern era support unit. Increases healing for adjacent units. Gives units 1 bonus [ICON_Movement] Movement if move is started adjacent to the Convoy.</Text>
+		</Row>
+
 		<!-- Buildings -->
 		<Row Tag="LOC_BUILDING_TEMPLE_OF_TIME_NAME" Language="en_US">
 			<Text>Temple of Time</Text>

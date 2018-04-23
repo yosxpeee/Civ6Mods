@@ -37,29 +37,29 @@
 		<Row Name="ICON_ATLAS_ZELDA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Zelda80.dds"/>	<!-- ?? -->
 		<Row Name="ICON_ATLAS_ZELDA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Zelda256.dds"/><!-- Large Civilopedia -->
 		<!-- UU -->
-		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime22.dds"/>
-		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
-		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime50.dds"/>
-		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime80.dds"/>
-		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime256.dds"/>
-		<Row Name="ICON_HYLIAN_UNITS_FOW"                                  IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime22.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime80.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"              IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Link256.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="Link200.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Link50.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Link38.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_ASIAN_HYLIAN_UNIT_PORTRAITS"          IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="Link70.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_ASIAN_HYLIAN_UNIT_PORTRAITS"          IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="Link70.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="Link70.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="Link70.dds"/>
-		<Row Name="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="22"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime22.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="50"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime50.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="80"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime80.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS"                                      IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime256.dds"/>
+		<Row Name="ICON_HYLIAN_UNITS_FOW"                                  IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="22"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime22.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              IconSize="80"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime80.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"              IconSize="32"  IconsPerRow="2" IconsPerColumn="1" Filename="HeroOfTime32.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="256" IconsPerRow="2" IconsPerColumn="1" Filename="Link256.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="200" IconsPerRow="2" IconsPerColumn="1" Filename="Link200.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="95"  IconsPerRow="2" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="50"  IconsPerRow="2" IconsPerColumn="1" Filename="Link50.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                IconSize="38"  IconsPerRow="2" IconsPerColumn="1" Filename="Link38.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_ASIAN_HYLIAN_UNIT_PORTRAITS"          IconSize="70"  IconsPerRow="2" IconsPerColumn="1" Filename="Link70.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_ASIAN_HYLIAN_UNIT_PORTRAITS"          IconSize="95"  IconsPerRow="2" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  IconSize="70"  IconsPerRow="2" IconsPerColumn="1" Filename="Link70.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  IconSize="95"  IconsPerRow="2" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" IconSize="70"  IconsPerRow="2" IconsPerColumn="1" Filename="Link70.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" IconSize="95"  IconsPerRow="2" IconsPerColumn="1" Filename="Link95.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        IconSize="70"  IconsPerRow="2" IconsPerColumn="1" Filename="Link70.dds"/>
+		<Row Name="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        IconSize="95"  IconsPerRow="2" IconsPerColumn="1" Filename="Link95.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- UB -->
@@ -82,5 +82,15 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HERO_OF_TIME_PORTRAIT"   Atlas="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  Index="0"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HERO_OF_TIME_PORTRAIT" Atlas="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" Index="0"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HERO_OF_TIME_PORTRAIT" Atlas="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        Index="0"/>
+
+		<Row Name="ICON_UNIT_HYLIAN_AMBULANCE"                            Atlas="ICON_HYLIAN_UNITS"                                      Index="1"/>
+		<Row Name="ICON_UNIT_HYLIAN_AMBULANCE_FOW"                        Atlas="ICON_HYLIAN_UNITS_FOW"                                  Index="1"/>
+		<Row Name="ICON_UNIT_HYLIAN_AMBULANCE_WHITE"                      Atlas="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"              Index="1"/>
+		<Row Name="ICON_UNIT_HYLIAN_AMBULANCE_BLACK"                      Atlas="ICON_HYLIAN_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"              Index="1"/>
+		<Row Name="ICON_UNIT_HYLIAN_AMBULANCE_PORTRAIT"                   Atlas="ICON_HYLIAN_ATLAS_HYLIAN_UNIT_PORTRAITS"                Index="1"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HYLIAN_AMBULANCE_PORTRAIT"   Atlas="ICON_HYLIAN_ATLAS_ASIAN_HYLIAN_UNIT_PORTRAITS"          Index="1"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HYLIAN_AMBULANCE_PORTRAIT"   Atlas="ICON_HYLIAN_ATLAS_MEDITERRANEAN_HYLIAN_UNIT_PORTRAITS"  Index="1"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HYLIAN_AMBULANCE_PORTRAIT" Atlas="ICON_HYLIAN_ATLAS_SOUTH_AMERICAN_HYLIAN_UNIT_PORTRAITS" Index="1"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HYLIAN_AMBULANCE_PORTRAIT" Atlas="ICON_HYLIAN_ATLAS_AFRICAN_HYLIAN_UNIT_PORTRAITS"        Index="1"/>
 	</IconDefinitions>
 </GameData>

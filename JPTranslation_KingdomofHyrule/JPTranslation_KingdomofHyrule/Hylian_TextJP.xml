@@ -228,5 +228,15 @@
 		<Replace Tag="LOC_ABILITY_HERO_OF_TIME_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>回復ユニットが隣接している場合、戦闘力+{1_Amount}</Text>
 		</Replace>
+
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME2_NAME" Language="ja_JP">
+			<Text>衛生兵サポート2</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME2_DESCRIPTION" Language="ja_JP">
+			<Text>野戦救急車が隣接していると [ICON_Strength] 戦闘力+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>野戦救急車が隣接している場合、戦闘力+{1_Amount}</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

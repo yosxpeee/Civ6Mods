@@ -37,15 +37,5 @@
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_ZELDA_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="en_US">
 			<Text>Your people's "glorious age" looks a lot like gloating to me. I look forward to the day of your fall.</Text>
 		</Row>
-
-		<Row Tag="LOC_ABILITY_HERO_OF_TIME2_NAME" Language="en_US">
-			<Text>Supply Convoy Support</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_HERO_OF_TIME2_DESCRIPTION" Language="en_US">
-			<Text>+10 [ICON_Strength] Combat Strength if supply convoi units are adjecent.</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_HERO_OF_TIME_SUPPLY_CONVOY_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="en_US">
-			<Text>+{1_Amount} Combat Strength if supply convoi units are adjecent</Text>
-		</Row>
 	</LocalizedText>
 </GameData>

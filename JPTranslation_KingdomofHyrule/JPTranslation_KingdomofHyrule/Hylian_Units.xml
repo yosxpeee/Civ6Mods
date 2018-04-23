@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Types>
-		<Row Type="UNIT_HERO_OF_TIME" Kind="KIND_UNIT"/>
-		<Row Type="ABILITY_HERO_OF_TIME" Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_HERO_OF_TIME"     Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_HERO_OF_TIME"  Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HERO_OF_TIME2" Kind="KIND_ABILITY"/>
+
+		<Row Type="UNIT_HYLIAN_AMBULANCE"                         Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_HYLIAN_AMBULANCE_GRANT_MOVEMENT_BONUS" Kind="KIND_ABILITY"/>
 	</Types>
 	<Tags>
 		<Row Tag="CLASS_HERO_OF_TIME" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HYLIAN_AMBULANCE" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<TypeTags>
-		<Row Type="UNIT_HERO_OF_TIME" Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_HERO_OF_TIME" Tag="CLASS_HERO_OF_TIME"/>
-		<Row Type="ABILITY_HERO_OF_TIME" Tag="CLASS_HERO_OF_TIME"/>
+		<Row Type="UNIT_HERO_OF_TIME"     Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HERO_OF_TIME"     Tag="CLASS_HERO_OF_TIME"/>
+		<Row Type="ABILITY_HERO_OF_TIME"  Tag="CLASS_HERO_OF_TIME"/>
+		<Row Type="ABILITY_HERO_OF_TIME2" Tag="CLASS_HERO_OF_TIME"/>
+		
+		<Row Type="UNIT_HYLIAN_AMBULANCE"                         Tag="CLASS_MEDIC"/>
+		<Row Type="UNIT_HYLIAN_AMBULANCE"                         Tag="CLASS_HYLIAN_AMBULANCE"/>
+		<Row Type="ABILITY_HYLIAN_AMBULANCE_GRANT_MOVEMENT_BONUS" Tag="CLASS_HYLIAN_AMBULANCE"/>
 	</TypeTags>
 
 	<UnitAiInfos>
@@ -18,9 +28,13 @@
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_HYLIAN_AMBULANCE" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="UNIT_HYLIAN_AMBULANCE" AiType="UNITTYPE_SIEGE_ALL"/>
 	</UnitAiInfos>
 
 	<Units>
+		<!-- 時の勇者 -->
 		<Row UnitType="UNIT_HERO_OF_TIME" BaseMoves="3" Cost="1000"
 			 AdvisorType="ADVISOR_CONQUEST"	BaseSightRange="3"
 			 ZoneOfControl="true" Domain="DOMAIN_LAND"
@@ -31,16 +45,42 @@
 			 PromotionClass="PROMOTION_CLASS_MELEE"
 			 Maintenance="8" Combat="55" BuildCharges="3" InitialLevel="1"
 			 TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
+		<!-- 夜戦救急車 -->
+		<Row UnitType="UNIT_HYLIAN_AMBULANCE" BaseMoves="4" Cost="400" 
+			 AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" 
+			 ZoneOfControl="false" DOMAIN="DOMAIN_LAND" 
+			 FormationClass="FORMATION_CLASS_SUPPORT" 
+			 Name="LOC_UNIT_HYLIAN_AMBULANCE_NAME" 
+			 Description="LOC_UNIT_HYLIAN_AMBULANCE_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" 
+			 PromotionClass="PROMOTION_CLASS_SUPPORT" 
+			 Maintenance="1" PrereqTech="TECH_COMBUSTION"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_HYLIAN_AMBULANCE"/>
 	</Units>
 
-	<!-- アビリティ：CLASS_MEDICをもつユニットが隣接すると戦闘力+10 -->
+	<UnitUpgrades>
+		<Row Unit="UNIT_MEDIC" UpgradeUnit="UNIT_HYLIAN_AMBULANCE"/>
+	</UnitUpgrades>
+
 	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_HERO_OF_TIME" Name="LOC_ABILITY_HERO_OF_TIME_NAME" Description="LOC_ABILITY_HERO_OF_TIME_DESCRIPTION"/>
+		<!-- CLASS_MEDICをもつユニットが隣接すると戦闘力+10 -->
+		<Row UnitAbilityType="ABILITY_HERO_OF_TIME"  Name="LOC_ABILITY_HERO_OF_TIME_NAME"  Description="LOC_ABILITY_HERO_OF_TIME_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HERO_OF_TIME2" Name="LOC_ABILITY_HERO_OF_TIME2_NAME" Description="LOC_ABILITY_HERO_OF_TIME2_DESCRIPTION"/>
+		<!-- 移動力+1 -->
+		<Row UnitAbilityType="ABILITY_HYLIAN_AMBULANCE_GRANT_MOVEMENT_BONUS" Name="LOC_PLACEHOLDER"               Description="LOC_PLACEHOLDER"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row>
 			<UnitAbilityType>ABILITY_HERO_OF_TIME</UnitAbilityType>
 			<ModifierId>HERO_OF_TIME_SPECIFIC_UNIT_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HERO_OF_TIME2</UnitAbilityType>
+			<ModifierId>HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HYLIAN_AMBULANCE_GRANT_MOVEMENT_BONUS</UnitAbilityType>
+			<ModifierId>HYLIAN_AMBULANCE_BONUS_MOVEMENT</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
@@ -49,6 +89,17 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>HERO_OF_TIME_SPECIFIC_UNIT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HYLIAN_AMBULANCE_BONUS_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>HYLIAN_AMBULANCE_MOVEMENT_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -56,14 +107,34 @@
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
+		<Row>
+			<ModifierId>HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>HYLIAN_AMBULANCE_BONUS_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
-		<Row ModifierId="HERO_OF_TIME_SPECIFIC_UNIT_COMBAT" Context="Preview" Text="LOC_ABILITY_HERO_OF_TIME_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="HERO_OF_TIME_SPECIFIC_UNIT_COMBAT"         Context="Preview" Text="LOC_ABILITY_HERO_OF_TIME_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_COMBAT" Context="Preview" Text="LOC_ABILITY_HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_COMBAT_MODIFIER_DESCRIPTION"/>
 	</ModifierStrings>
 
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>HERO_OF_TIME_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 夜戦救急車 -->
+		<Row>
+			<RequirementSetId>HYLIAN_AMBULANCE_MOVEMENT_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -72,11 +143,33 @@
 			<RequirementSetId>HERO_OF_TIME_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
 			<RequirementId>HERO_OF_TIME_ADJACENT_MEDIC_BONUS_REQUIREMENTS</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HERO_OF_TIME_ADJACENT_HYLIAN_AMBULANCE_BONUS_REQUIREMENTS</RequirementId>
+		</Row>
+		<!-- 夜戦救急車 -->
+		<Row>
+			<RequirementSetId>HYLIAN_AMBULANCE_MOVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_TO_FRIENDLY_UNIT_REQUIREMENT_HYLIAN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HYLIAN_AMBULANCE_MOVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_DOMAIN_LAND</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
 			<RequirementId>HERO_OF_TIME_ADJACENT_MEDIC_BONUS_REQUIREMENTS</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>HERO_OF_TIME_ADJACENT_HYLIAN_AMBULANCE_BONUS_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- 夜戦救急車 -->
+		<Row>
+			<RequirementId>ADJACENT_TO_FRIENDLY_UNIT_REQUIREMENT_HYLIAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -84,6 +177,17 @@
 			<RequirementId>HERO_OF_TIME_ADJACENT_MEDIC_BONUS_REQUIREMENTS</RequirementId>
 			<Name>Tag</Name>
 			<Value>CLASS_MEDIC</Value>
+		</Row>
+		<Row>
+			<RequirementId>HERO_OF_TIME_ADJACENT_HYLIAN_AMBULANCE_BONUS_REQUIREMENTS</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_HYLIAN_AMBULANCE</Value>
+		</Row>
+		<!-- 夜戦救急車 -->
+		<Row>
+			<RequirementId>ADJACENT_TO_FRIENDLY_UNIT_REQUIREMENT_HYLIAN</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
 		</Row>
 	</RequirementArguments>
 
