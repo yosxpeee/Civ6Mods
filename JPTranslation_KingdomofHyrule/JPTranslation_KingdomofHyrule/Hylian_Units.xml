@@ -2,52 +2,16 @@
 <GameInfo>
 	<Types>
 		<Row Type="UNIT_HERO_OF_TIME" Kind="KIND_UNIT"/>
-		<Row Type="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME" Kind="KIND_TRAIT" />
+		<Row Type="ABILITY_HERO_OF_TIME" Kind="KIND_ABILITY"/>
 	</Types>
-
+	<Tags>
+		<Row Tag="CLASS_HERO_OF_TIME" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
 	<TypeTags>
 		<Row Type="UNIT_HERO_OF_TIME" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HERO_OF_TIME" Tag="CLASS_HERO_OF_TIME"/>
+		<Row Type="ABILITY_HERO_OF_TIME" Tag="CLASS_HERO_OF_TIME"/>
 	</TypeTags>
-
-	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME" Name="LOC_TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME_NAME"/>
-	</Traits>
-
-	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_HYLIAN" TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
-	</CivilizationTraits>
-
-	<Unit_BuildingPrereqs>
-		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_TEMPLE_OF_TIME" NumSupported="-1"/>
-	</Unit_BuildingPrereqs>
-
-	<Units>
-		<Row UnitType="UNIT_HERO_OF_TIME"
-			 BaseMoves="3"
-			 Cost="1000"
-			 AdvisorType="ADVISOR_CONQUEST"
-			 BaseSightRange="3"
-			 ZoneOfControl="true"
-			 Domain="DOMAIN_LAND"
-			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
-			 Name="LOC_UNIT_HERO_OF_TIME_NAME"
-			 Description="LOC_UNIT_HERO_OF_TIME_DESCRIPTION"
-			 PurchaseYield="YIELD_FAITH"
-			 MustPurchase="true"
-			 PromotionClass="PROMOTION_CLASS_MELEE"
-			 Maintenance="8"
-			 Combat="55"
-			 BuildCharges="3"
-			 StrategicResource="RESOURCE_IRON"
-			 PrereqTech="TECH_IRON_WORKING"
-			 InitialLevel="1"
-			 MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"
-			 TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
-	</Units>
-
-	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_HERO_OF_TIME" ReplacesUnitType="UNIT_SWORDSMAN" />
-	</UnitReplaces>
 
 	<UnitAiInfos>
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITAI_COMBAT"/>
@@ -55,4 +19,79 @@
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HERO_OF_TIME" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
+
+	<Units>
+		<Row UnitType="UNIT_HERO_OF_TIME" BaseMoves="3" Cost="1000"
+			 AdvisorType="ADVISOR_CONQUEST"	BaseSightRange="3"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 Name="LOC_UNIT_HERO_OF_TIME_NAME"
+			 Description="LOC_UNIT_HERO_OF_TIME_DESCRIPTION"
+			 PurchaseYield="YIELD_FAITH" MustPurchase="true"
+			 PromotionClass="PROMOTION_CLASS_MELEE"
+			 Maintenance="8" Combat="55" BuildCharges="3" InitialLevel="1"
+			 TraitType="TRAIT_CIVILIZATION_UNIT_HERO_OF_TIME"/>
+	</Units>
+
+	<!-- アビリティ：CLASS_MEDICをもつユニットが隣接すると戦闘力+10 -->
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_HERO_OF_TIME" Name="LOC_ABILITY_HERO_OF_TIME_NAME" Description="LOC_ABILITY_HERO_OF_TIME_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_HERO_OF_TIME</UnitAbilityType>
+			<ModifierId>HERO_OF_TIME_SPECIFIC_UNIT_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>HERO_OF_TIME_SPECIFIC_UNIT_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HERO_OF_TIME_SPECIFIC_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HERO_OF_TIME_SPECIFIC_UNIT_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="HERO_OF_TIME_SPECIFIC_UNIT_COMBAT" Context="Preview" Text="LOC_ABILITY_HERO_OF_TIME_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HERO_OF_TIME_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HERO_OF_TIME_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HERO_OF_TIME_ADJACENT_MEDIC_BONUS_REQUIREMENTS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>HERO_OF_TIME_ADJACENT_MEDIC_BONUS_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>HERO_OF_TIME_ADJACENT_MEDIC_BONUS_REQUIREMENTS</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_MEDIC</Value>
+		</Row>
+	</RequirementArguments>
+
+	<!-- 神殿が前提条件のユニットを時の神殿に対応させる指定 -->
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_TEMPLE_OF_TIME"/>
+		<Row Unit="UNIT_INQUISITOR" PrereqBuilding="BUILDING_TEMPLE_OF_TIME"/>
+		<Row Unit="UNIT_WARRIOR_MONK" PrereqBuilding="BUILDING_TEMPLE_OF_TIME"/>
+		<Row Unit="UNIT_GURU" PrereqBuilding="BUILDING_TEMPLE_OF_TIME"/>
+	</Unit_BuildingPrereqs>
 </GameInfo>

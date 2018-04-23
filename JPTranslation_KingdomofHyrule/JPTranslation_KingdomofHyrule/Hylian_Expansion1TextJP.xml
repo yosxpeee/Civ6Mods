@@ -37,5 +37,15 @@
 		<Replace Tag="LOC_DIPLO_WARNING_LEADER_ZELDA_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
 			<Text>「栄光の時代」を満喫しているところを悪いのですけど、どうにも鼻についてならないです。あなたの国が没落する日が今から楽しみです。</Text>
 		</Replace>
+
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME2_NAME" Language="ja_JP">
+			<Text>衛生兵サポート2</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME2_DESCRIPTION" Language="ja_JP">
+			<Text>補給部隊が隣接していると [ICON_Strength] 戦闘力+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME_SUPPLY_CONVOY_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>補給部隊が隣接している場合、戦闘力+{1_Amount}</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -218,5 +218,15 @@
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ZELDA_ANY" Language="en_US">
 			<Text>Thank you.</Text>
 		</Row>
+		
+		<Row Tag="LOC_ABILITY_HERO_OF_TIME_NAME" Language="en_US">
+			<Text>Medic Support</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HERO_OF_TIME_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength if medic units are adjecent.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HERO_OF_TIME_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} Combat Strength if medic units are adjecent</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

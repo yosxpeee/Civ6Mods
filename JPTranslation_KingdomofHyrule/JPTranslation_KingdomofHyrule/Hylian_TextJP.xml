@@ -218,5 +218,15 @@
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ZELDA_ANY" Language="ja_JP">
 			<Text>ありがとうございます。</Text>
 		</Replace>
+		
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME_NAME" Language="ja_JP">
+			<Text>衛生兵サポート1</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME_DESCRIPTION" Language="ja_JP">
+			<Text>回復ユニットが隣接していると [ICON_Strength] 戦闘力+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HERO_OF_TIME_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>回復ユニットが隣接している場合、戦闘力+{1_Amount}</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -1,5 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- アビリティ：CLASS_LOGISTIC_MOVEMENTをもつユニットが隣接すると戦闘力+10 -->
+	<Types>
+		<Row Type="ABILITY_HERO_OF_TIME2" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_HERO_OF_TIME2" Tag="CLASS_HERO_OF_TIME"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_HERO_OF_TIME2" Name="LOC_ABILITY_HERO_OF_TIME2_NAME" Description="LOC_ABILITY_HERO_OF_TIME2_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_HERO_OF_TIME2</UnitAbilityType>
+			<ModifierId>HERO_OF_TIME_SUPPLY_CONVOY_UNIT_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>HERO_OF_TIME_SUPPLY_CONVOY_UNIT_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HERO_OF_TIME_SUPPLY_CONVOY_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HERO_OF_TIME_SUPPLY_CONVOY_UNIT_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="HERO_OF_TIME_SUPPLY_CONVOY_UNIT_COMBAT" Context="Preview" Text="LOC_ABILITY_HERO_OF_TIME_SUPPLY_CONVOY_UNIT_COMBAT_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HERO_OF_TIME_SUPPLY_CONVOY_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HERO_OF_TIME_SUPPLY_CONVOY_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HERO_OF_TIME_ADJACENT_SUPPLY_CONVOY_BONUS_REQUIREMENTS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>HERO_OF_TIME_ADJACENT_SUPPLY_CONVOY_BONUS_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>HERO_OF_TIME_ADJACENT_SUPPLY_CONVOY_BONUS_REQUIREMENTS</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_LOGISTIC_MOVEMENT</Value>
+		</Row>
+	</RequirementArguments>
+
 	<!-- 歴史年表用の画像 -->
 	<MomentIllustrations>
 		<!-- 時の神殿 -->
