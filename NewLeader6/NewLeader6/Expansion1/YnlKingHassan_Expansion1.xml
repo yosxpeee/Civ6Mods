@@ -85,4 +85,9 @@
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_YNL_KING_HASSAN"   AgendaType="AGENDA_SPIRIT_OF_TUCAPEL"/>
 	</HistoricalAgendas>
+	
+	<!-- 区域の隣接ボーナス -->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_MAUSOLEUM_OF_THE_EVENING_BELL" YieldChangeId="Government_Faith"/>
+	</District_Adjacencies>
 </GameData>
