@@ -35,7 +35,8 @@
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_SNOW"/>
 	</Improvement_ValidTerrains>
 	<!-- 改善を行うことのできるユニット -->
-	<!-- UnitType : ユニットを指定。通常は労働者や工兵を指定することになる。 -->
+	<!-- UnitType : ユニットを指定。
+	　　　※通常は労働者や工兵を指定することになる。特殊なものだとバニラではカストラがレギオンを指定している。 -->
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
@@ -47,7 +48,8 @@
 	<!-- 技術・社会制度解禁による追加ボーナス -->
 	<Improvement_BonusYieldChanges>
 		<!-- 
-			Id               : バニラのファイルでは通し番号が付けられていたが、これがかぶったら何か困ることがあるのかは不明。 
+			Id               : バニラのファイルでは通し番号が付けられている。
+			　※DBの定義ではId,ImprovementType,YieldTypeで複合主キーとなっているので、3つすべてがかぶらない限りは問題はおきないと思われる。
 			ImprovementType  : 何の施設か。親定義と同じものにする。
 			YieldType        : ボーナスの種類
 			BonusYieldChange : ボーナスの値

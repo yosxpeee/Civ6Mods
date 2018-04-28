@@ -35,6 +35,12 @@
     <Folder Include="Artdefs\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
+    <Content Include="ArtDefs\YNL_Zunko_Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YNL_Zunko_Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\YNL_Zunko_Districts.artdef">
       <SubType>Content</SubType>
     </Content>

@@ -64,7 +64,7 @@
 			<Text>東北イタコ固有のユニット: 山伏</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMABUSHI_DESCRIPTION" Language="ja_JP">
-			<Text>伝道師に取ってかわる東北イタコ固有の古典時代のユニット。他文明の宗教ユニットへ攻撃できる。</Text>
+			<Text>東北イタコ固有の古典時代の陸上近接ユニット。武僧と同じクラス・昇進を持ち、防御側の敵ユニットをダメージで上回った場合は敵を後退させる。退却できない敵は追加ダメージを受ける。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMABUSHI_NAME" Language="ja_JP">
 			<Text>山伏</Text>

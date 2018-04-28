@@ -3,7 +3,10 @@
 	<Types>
 		<Row Type="BUILDING_ZUNDA_CAFE" Kind="KIND_BUILDING"/>
 	</Types>
-	<!-- ユニークである場合の置き換え対象。これがない場合は置き換えではなく別枠になる(サンプルのLITTER_BOXがそうなっている) -->
+	<!-- ユニークである場合の置き換え対象。これがない場合は置き換えではなく別枠になる・・・のですが、
+		 特定文明固有の完全な新規ユニーク建造物は作ってはいけません。
+		 その建物がある都市を落としたor落とされた瞬間ゲームがクラッシュします。(SDKのサンプルに存在するBUILDING_LITTER_BOXでも発生します)
+		 必ず何かの置き換えにしましょう。 -->
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_ZUNDA_CAFE" ReplacesBuildingType="BUILDING_WATER_MILL"/>
 	</BuildingReplaces>

@@ -6,12 +6,19 @@
 		<Row Type="UNIT_ZUNKO_HORSE_ARCHER" Kind="KIND_UNIT"/>
 	</Types>
 	<!-- UnitのAIの動き -->
-	<!-- バニラの設定にも宗教系ユニットに対しては何の設定もない。仕様？ -->
+	<!-- ※山伏は武僧と同じクラス、昇進のユニットとしたが、なぜかバニラの武僧にはここの項目に何の設定もない。
+		　 (宗教系のユニットもここの設定がないため、それをそのまま踏襲してしまったものと推測)
+	　　　 これでは探索等を一切行わないので、近接ユニットと同じ設定を追加した -->
 	<UnitAiInfos>
 		<Row UnitType="UNIT_FIGHTING_MONK" AiType="UNITAI_COMBAT"/>       <!-- 戦闘ユニット -->
 		<Row UnitType="UNIT_FIGHTING_MONK" AiType="UNITAI_EXPLORE"/>      <!-- 探索する -->
 		<Row UnitType="UNIT_FIGHTING_MONK" AiType="UNITTYPE_MELEE"/>      <!-- 近接ユニット -->
 		<Row UnitType="UNIT_FIGHTING_MONK" AiType="UNITTYPE_LAND_COMBAT"/><!-- 陸上タイプ -->
+
+		<Row UnitType="UNIT_YAMABUSHI" AiType="UNITAI_COMBAT"/>			<!-- 戦闘ユニット -->
+		<Row UnitType="UNIT_YAMABUSHI" AiType="UNITAI_EXPLORE"/>		<!-- 探索する -->
+		<Row UnitType="UNIT_YAMABUSHI" AiType="UNITTYPE_MELEE"/>		<!-- 近接ユニット -->
+		<Row UnitType="UNIT_YAMABUSHI" AiType="UNITTYPE_LAND_COMBAT"/>	<!-- 陸上タイプ -->
 		
 		<Row UnitType="UNIT_ZUNKO_HORSE_ARCHER" AiType="UNITAI_COMBAT"/>       <!-- 戦闘ユニット -->
 		<Row UnitType="UNIT_ZUNKO_HORSE_ARCHER" AiType="UNITTYPE_RANGED"/>     <!-- 遠隔ユニット -->
@@ -20,16 +27,14 @@
 	<!-- ユニークユニットの置き換え先 -->
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_FIGHTING_MONK" ReplacesUnitType="UNIT_MUSKETMAN"/>
-		<Row CivUniqueUnitType="UNIT_YAMABUSHI"     ReplacesUnitType="UNIT_MISSIONARY"/>
 	</UnitReplaces>
 	<!-- TypeとTagの紐付け -->
 	<TypeTags>
 		<!-- 山伏 -->
-		<!-- 伝道師が攻撃をしかけられないのは「CLASS_MISSIONARY」というタグが紐付いていて、これが攻撃できないという特性になっているため。つけなければ攻撃できるようになる。 -->
-		<Row Type="UNIT_YAMABUSHI" Tag="CLASS_LANDCIVILIAN"/>
-		<Row Type="UNIT_YAMABUSHI" Tag="CLASS_RELIGIOUS"/>
-		<Row Type="UNIT_YAMABUSHI" Tag="CLASS_RELIGIOUS_ALL"/>
-		<Row Type="UNIT_YAMABUSHI" Tag="CLASS_RELIGIOUS_SPREAD"/>
+		<!-- ウィングフッサーの特性をそのまま使用
+			 (ウイングフッサーはポーランドDLCのユニットだが、特性の設定だけはバニラに存在している) -->
+		<Row Type="UNIT_YAMABUSHI" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="UNIT_YAMABUSHI" Tag="CLASS_PUSHBACK"/>
 		<!-- 僧兵 -->
 		<!-- コンキスタドールと侍の特性をそのまま使用 -->
 		<Row Type="UNIT_FIGHTING_MONK" Tag="CLASS_MELEE"/>
@@ -54,26 +59,22 @@
 			MustPurchase          : TRUEにするとコストを支払わなければ作成できないユニットになる
 			TraitType             : 紐付く特性(ユニークユニットの場合必須)
 			PurchaseYield         : ユニット作成にかかるもの
-			PromotionClass        : 近接なのか遠隔なのかを指定する？
+			PromotionClass        : 昇進タイプ
 			Maintenance           : 維持費
 			Combat                : 近接戦闘力
 			RangedCombat          : 遠隔攻撃力
 			Range                 : 遠隔攻撃の射程
 			MandatoryObsoleteTech : 陳腐化する条件になるテクノロジー
 			PrereqTech            : 作成に必要なテクノロジー
+			PrereqCivic           : 作成に必要な社会制度
 		-->
-		<Row UnitType="UNIT_YAMABUSHI"          BaseMoves="4" Cost="75"                                 BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN"    Name="LOC_UNIT_YAMABUSHI_NAME"          Description="LOC_UNIT_YAMABUSHI_DESCRIPTION"          PurchaseYield="YIELD_FAITH" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="6" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" ReligiousStrength="100" SpreadCharges="3" TrackReligion="TRUE" MustPurchase="TRUE" ReligionEvictPercent="10" TraitType="TRAIT_LEADER_UNIT_YAMABUSHI" />
-		<Row UnitType="UNIT_FIGHTING_MONK"      BaseMoves="2" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"  Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_FIGHTING_MONK_NAME"      Description="LOC_UNIT_FIGHTING_MONK_DESCRIPTION"      PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE"  Maintenance="4" Combat="58" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" TraitType="TRAIT_LEADER_UNIT_FIGHTING_MONK"      PrereqCivic="CIVIC_REFORMED_CHURCH"/>
-		<Row UnitType="UNIT_ZUNKO_HORSE_ARCHER" BaseMoves="4" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ZUNKO_HORSE_ARCHER_NAME" Description="LOC_UNIT_ZUNKO_HORSE_ARCHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="2" Combat="18" MandatoryObsoleteTech="TECH_BALLISTICS"          TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" PrereqTech="TECH_HORSEBACK_RIDING" RangedCombat="28" Range="2" />
+		<Row UnitType="UNIT_YAMABUSHI"          BaseMoves="3" Cost="100"                                BaseSightRange="2" ZoneOfControl="true"  Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_YAMABUSHI_NAME"          Description="LOC_UNIT_YAMABUSHI_DESCRIPTION"          PurchaseYield="YIELD_FAITH" PromotionClass="PROMOTION_CLASS_MONK"   Maintenance="2" Combat="35"                                                  TraitType="TRAIT_LEADER_UNIT_YAMABUSHI"          PrereqCivic="CIVIC_THEOLOGY" MustPurchase="TRUE" />
+		<Row UnitType="UNIT_FIGHTING_MONK"      BaseMoves="2" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"  Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_FIGHTING_MONK_NAME"      Description="LOC_UNIT_FIGHTING_MONK_DESCRIPTION"      PurchaseYield="YIELD_GOLD"  PromotionClass="PROMOTION_CLASS_MELEE"  Maintenance="4" Combat="58" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" TraitType="TRAIT_LEADER_UNIT_FIGHTING_MONK"      PrereqCivic="CIVIC_REFORMED_CHURCH"/>
+		<Row UnitType="UNIT_ZUNKO_HORSE_ARCHER" BaseMoves="4" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_ZUNKO_HORSE_ARCHER_NAME" Description="LOC_UNIT_ZUNKO_HORSE_ARCHER_DESCRIPTION" PurchaseYield="YIELD_GOLD"  PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="2" Combat="18" MandatoryObsoleteTech="TECH_BALLISTICS"          TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" PrereqTech="TECH_HORSEBACK_RIDING" RangedCombat="28" Range="2" />
 	</Units>
 	<!-- ユニットのアップグレード先 -->
 	<UnitUpgrades>
 		<Row Unit="UNIT_FIGHTING_MONK"      UpgradeUnit="UNIT_INFANTRY"/>
 		<Row Unit="UNIT_ZUNKO_HORSE_ARCHER" UpgradeUnit="UNIT_FIELD_CANNON"/>
 	</UnitUpgrades>
-	<!-- ユニットの作成に必要な条件 -->
-	<Unit_BuildingPrereqs>
-		<!-- 山伏は伝道師の置き換えなので、伝道師と同じ社を指定 -->
-		<Row Unit="UNIT_YAMABUSHI" PrereqBuilding="BUILDING_SHRINE"/>
-	</Unit_BuildingPrereqs>
 </GameData>

@@ -30,10 +30,12 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
-				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Districts.artdef"/>
+				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Landmarks.artdef"/>
 				<Element text="YNL_Zunko_Improvements.artdef"/>
+				<Element text="YNL_Zunko_Civilizations.artdef"/>
+				<Element text="YNL_Zunko_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -72,8 +74,8 @@
 		<Element>
 			<consumerName text="StrategicView_Sprite"/>
 			<relativeArtDefPaths>
-				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Districts.artdef"/>
+				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Landmarks.artdef"/>
 				<Element text="YNL_Zunko_Improvements.artdef"/>
 			</relativeArtDefPaths>
@@ -258,6 +260,7 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_Zunko_Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -265,6 +268,8 @@
 		<Element>
 			<consumerName text="Cultures"/>
 			<relativeArtDefPaths>
+				<Element text="YNL_Zunko_Civilizations.artdef"/>
+				<Element text="YNL_Zunko_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -286,10 +291,12 @@
 		<Element>
 			<consumerName text="WorldView_Translate"/>
 			<relativeArtDefPaths>
-				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Districts.artdef"/>
+				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Landmarks.artdef"/>
 				<Element text="YNL_Zunko_Improvements.artdef"/>
+				<Element text="YNL_Zunko_Civilizations.artdef"/>
+				<Element text="YNL_Zunko_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -297,8 +304,8 @@
 		<Element>
 			<consumerName text="StrategicView_Translate"/>
 			<relativeArtDefPaths>
-				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Districts.artdef"/>
+				<Element text="YNL_Zunko_Buildings.artdef"/>
 				<Element text="YNL_Zunko_Landmarks.artdef"/>
 				<Element text="YNL_Zunko_Improvements.artdef"/>
 			</relativeArtDefPaths>
@@ -308,6 +315,8 @@
 		<Element>
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
+				<Element text="YnlKingHassan_Civilizations.artdef"/>
+				<Element text="YnlKingHassan_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>

@@ -64,7 +64,7 @@
 			<Text>Itako Tohoku unique unit: Yamabushi</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YAMABUSHI_DESCRIPTION" Language="en_US">
-			<Text>Itako Tohoku unique unit that replaces the Missionary. Can attack to religious unit of other civilizations.</Text>
+			<Text>Itako Tohoku unique unit. Class and Promotion are same as Warrior Monk. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YAMABUSHI_NAME" Language="en_US">
 			<Text>Yamabushi</Text>

@@ -87,7 +87,7 @@
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU"            Name="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_ZUNDA_CAFE"     Name="LOC_TRAIT_LEADER_BUILDING_ZUNDA_CAFE_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER" Name="LOC_TRAIT_LEADER_UNIT_ZUNDA_HORSE_ARCHER_NAME"/>
-		<!-- きりたん(指導者特性、UB、UB) -->
+		<!-- きりたん(指導者特性、UD、UD) -->
 		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU"           Name="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Description="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM" Name="LOC_TRAIT_LEADER_DISTRICT_NAMAHAGE_MUSEUM_NAME"/>
 		<Row TraitType="TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK" Name="LOC_TRAIT_LEADER_DISTRICT_INDUSTRIAL_PARK_NAME"/>
@@ -105,7 +105,8 @@
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FOOD"/> <!-- 砂漠丘陵から食糧ボーナス -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD"/> <!-- ツンドラ丘陵から食糧ボーナス -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD"/>   <!-- 雪原丘陵から食糧ボーナス -->
-		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_GUARANTEE_ONE_PROPHET"/>                 <!-- 最後の預言者取得 (アラビアで使われているものをそのまま使用) -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_GUARANTEE_ONE_PROPHET"/>				  <!-- 最後の預言者取得 (アラビアで使われているものをそのまま使用) -->
+		
 		<!-- ずん子 -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>                <!-- 陸上遠距離ユニットで敵文明のユニットを倒すと一定確率で労働者捕獲 -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION_ZUNKO"/>    <!-- 陸上遠距離ユニット生産ボーナス：古代 -->
@@ -678,7 +679,7 @@
 		<Row ListType="YNL_KiritanTechs"             Item="TECH_ASTROLOGY"/>
 		<Row ListType="YNL_KiritanTechs"             Item="TECH_HORSEBACK_RIDING"/>
 		<Row ListType="YNL_KiritanTechs"             Item="TECH_EDUCATION"/>
-		<Row ListType="YNL_KiritanReligiousDistrict" Item="DISTRICT_HOLY_SITE" Favored="true"/>
+		<Row ListType="YNL_KiritanReligiousDistrict" Item="DISTRICT_NAMAHAGE_MUSEUM" Favored="true"/>
 	</AiFavoredItems>
 
 	<!-- 指導者固有の性格(アジェンダ) -->
