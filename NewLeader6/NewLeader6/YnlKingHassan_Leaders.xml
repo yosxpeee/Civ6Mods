@@ -120,13 +120,12 @@
 		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_THEOLOGY"/>		    <!-- 神学 -->
 		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_DIVINE_RIGHT"/>		<!-- 王権神授説-->
 		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_REFORMED_CHURCH"/>		<!-- 宗教改革 -->
-		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_URBANIZATION"/>		<!-- 都市化 -->
+		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_FEUDALISM"/>			<!-- 封建制度 -->
 		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_NATIONALISM"/>			<!-- ナショナリズム -->
 		<Row ListType="YNL_KingHassanCivics"     Item="CIVIC_MOBILIZATION"/>		<!-- 戦時動員 -->
 
 		<Row ListType="YNL_KingHassanTechs"      Item="TECH_ASTROLOGY"/>			<!-- 占星術 -->
 		<Row ListType="YNL_KingHassanTechs"      Item="TECH_ENGINEERING"/>			<!-- 工学 -->
-		<Row ListType="YNL_KingHassanTechs"      Item="TECH_MILITARY_TACTICS"/>		<!-- 戦術 -->
 		<Row ListType="YNL_KingHassanTechs"      Item="TECH_APPRENTICESHIP"/>		<!-- 徒弟制度 -->
 		<Row ListType="YNL_KingHassanTechs"      Item="TECH_METAL_CASTING"/>		<!-- 鋳造 -->
 		<Row ListType="YNL_KingHassanTechs"      Item="TECH_CASTLES"/>				<!-- 城 -->

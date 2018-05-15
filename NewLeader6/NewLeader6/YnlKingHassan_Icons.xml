@@ -53,5 +53,7 @@
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_ASSASSIN_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="41"/>
 		<!-- ユニーク施設(スペインの伝道所の使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_YNL_KULLIYE"					  Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="20"/>
+		<!-- ユニークプロジェクト(祈祷の使いまわし) -->
+		<Row Name="ICON_PROJECT_DAWA_JADIDA"                          Atlas="ICON_ATLAS_PROJECTS" Index="15"/>
 	</IconDefinitions>
 </GameData>

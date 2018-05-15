@@ -116,13 +116,13 @@
 		</Row>
 		
 		<!-- Unique Project -->
-		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_NAME" Language="en_US">
+		<Row Tag="LOC_PROJECT_DAWA_JADIDA_NAME" Language="en_US">
 			<Text>da'wa jadida</Text>
 		</Row>
-		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_SHORT_NAME" Language="en_US">
+		<Row Tag="LOC_PROJECT_DAWA_JADIDA_SHORT_NAME" Language="en_US">
 			<Text>da'wa jadida</Text>
 		</Row>
-		<Row Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_PROJECT_DAWA_JADIDA_DESCRIPTION" Language="en_US">
 			<Text>Nizari unique project which provides [ICON_Culture] Culture, [ICON_Science] Science, [ICON_Faith] Faith and [ICON_Gold] Gold every turn when active and [ICON_GreatPerson] Great Person Points for [ICON_GreatAdmiral] Great Admirals, [ICON_GreatGeneral] Great Generals once finished.</Text>
 		</Row>
 	</LocalizedText>

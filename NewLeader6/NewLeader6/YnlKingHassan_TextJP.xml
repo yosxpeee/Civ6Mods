@@ -116,13 +116,13 @@
 		</Replace>
 		
 		<!-- Unique Project -->
-		<Replace Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_NAME" Language="ja_JP">
+		<Replace Tag="LOC_PROJECT_DAWA_JADIDA_NAME" Language="ja_JP">
 			<Text>ダウワ・ジャディーダ</Text>
 		</Replace>
-		<Replace Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_SHORT_NAME" Language="ja_JP">
+		<Replace Tag="LOC_PROJECT_DAWA_JADIDA_SHORT_NAME" Language="ja_JP">
 			<Text>ダウワ・ジャディーダ</Text>
 		</Replace>
-		<Replace Tag="LOC_PROJECT_PROJECT_DAWA_JADIDA_DESCRIPTION" Language="ja_JP">
+		<Replace Tag="LOC_PROJECT_DAWA_JADIDA_DESCRIPTION" Language="ja_JP">
 			<Text>暗殺教団固有のプロジェクト。発動すると [ICON_Culture] 文化力、[ICON_Science] 科学力、[ICON_Faith] 信仰力、[ICON_Gold] ゴールドが毎ターン得られる。完了すると [ICON_GreatAdmiral] 大提督、[ICON_GreatGeneral] 大将軍の [ICON_GreatPerson] 偉人ポイントがもたらされる。</Text>
 		</Replace>
 	</LocalizedText>

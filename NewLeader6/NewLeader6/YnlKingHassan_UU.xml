@@ -18,7 +18,7 @@
 		<Row Type="UNIT_YNL_ASSASSIN" Tag="CLASS_SAMURAI"/>
 	</TypeTags>
 	<Units>
-		<Row UnitType="UNIT_YNL_ASSASSIN" Cost="150" Maintenance="3" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="45" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_YNL_ASSASSIN_NAME"     Description="LOC_UNIT_YNL_ASSASSIN_DESCRIPTION"     PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_ASSASSIN" PrereqTech="TECH_MILITARY_TACTICS"/>
+		<Row UnitType="UNIT_YNL_ASSASSIN" Cost="150" Maintenance="3" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="48" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_YNL_ASSASSIN_NAME" Description="LOC_UNIT_YNL_ASSASSIN_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_ASSASSIN" PrereqCivic="CIVIC_FEUDALISM"/>
 	</Units>
 	<!-- ユニットのアップグレード先 -->
 	<UnitUpgrades>
