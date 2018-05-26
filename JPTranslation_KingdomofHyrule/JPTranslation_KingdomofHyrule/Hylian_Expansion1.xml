@@ -2,7 +2,10 @@
 <GameData>
 	<!-- RaFでは野戦救急車を補給部隊の置換にする -->
 	<UnitUpgrades>
-		<Delete Unit="UNIT_HYLIAN_AMBULANCE" />
+		<!-- バニラで有効になっている衛生兵から野戦救急車のアップグレードの記述を消す -->
+		<Delete Unit="UNIT_MEDIC" />
+		<!-- Delete文はキーが一致するレコードすべてが消されるため、バニラの記述(補給部隊へのアップグレード)を入れなおす -->
+		<Row Unit="UNIT_MEDIC" UpgradeUnit="UNIT_SUPPLY_CONVOY"/>
 	</UnitUpgrades>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_HYLIAN_AMBULANCE" ReplacesUnitType="UNIT_SUPPLY_CONVOY"/>
