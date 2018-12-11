@@ -54,6 +54,9 @@
     <Content Include="ArtDefs\Sample_Unit_Bins.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\IMP_YOSXPEEE_SAMPLE_TERRACES.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Expansion1\NewLeader_Expansion1TextJP.xml">
       <SubType>Content</SubType>
     </Content>
@@ -138,7 +141,11 @@
     <Content Include="Textures\PORTRAIT_LEADER_YOSXPEEE_SAMPLE.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="Artdefs\" />
+    <Folder Include="Assets\" />
     <Folder Include="Expansion1" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
