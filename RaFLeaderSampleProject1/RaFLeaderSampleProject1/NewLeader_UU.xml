@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 親定義 -->
+	<Types>
+		<!-- ユニット -->
+		<Row Type="UNIT_YOSXPEEE_SAMPLE_JANISSARIES"    Kind="KIND_UNIT"/>
+		<!-- アビリティ -->
+		<Row Type="ABILITY_YOSXPEEE_SAMPLE_JANISSARIES" Kind="KIND_ABILITY"/>
+	</Types>
+	<!-- AI設定 -->
+	<UnitAiInfos>
+		<Row UnitType="UNIT_YOSXPEEE_SAMPLE_JANISSARIES" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YOSXPEEE_SAMPLE_JANISSARIES" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_YOSXPEEE_SAMPLE_JANISSARIES" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_YOSXPEEE_SAMPLE_JANISSARIES" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<!-- 置換設定 -->
+	<UnitReplaces>
+		<!-- マスケット兵を置換する -->
+		<Row CivUniqueUnitType="UNIT_YOSXPEEE_SAMPLE_JANISSARIES" ReplacesUnitType="UNIT_MUSKETMAN"/>
+	</UnitReplaces>
+	<Tags>
+		<Row Tag="CLASS_YOSXPEEE_SAMPLE_JANISSARIES" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!-- ユニットとクラスの紐づけ -->
+		<Row Type="UNIT_YOSXPEEE_SAMPLE_JANISSARIES"    Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_YOSXPEEE_SAMPLE_JANISSARIES"    Tag="CLASS_YOSXPEEE_SAMPLE_JANISSARIES"/>
+		<!-- アビリティとクラスの紐づけ -->
+		<Row Type="ABILITY_YOSXPEEE_SAMPLE_JANISSARIES" Tag="CLASS_YOSXPEEE_SAMPLE_JANISSARIES"/>
+	</TypeTags>
+	<Units>
+		<!-- ユニットの主たるステータス -->
+		<Row UnitType="UNIT_YOSXPEEE_SAMPLE_JANISSARIES" Cost="240" Maintenance="4" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" 
+			 Domain="DOMAIN_LAND" Combat="58" StrategicResource="RESOURCE_NITER" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" 
+			 Name="LOC_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_NAME" Description="LOC_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_GUNPOWDER" 
+			 TraitType="TRAIT_CIVILIZATION_UNIT_YOSXPEEE_SAMPLE_JANISSARIES"/>
+	</Units>
+	<!-- アップグレード先 -->
+	<UnitUpgrades>
+		<!-- 歩兵 -->
+		<Row Unit="UNIT_YOSXPEEE_SAMPLE_JANISSARIES" UpgradeUnit="UNIT_INFANTRY"/>
+	</UnitUpgrades>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YOSXPEEE_SAMPLE_JANISSARIES" Name="LOC_ABILITY_YOSXPEEE_SAMPLE_JANISSARIES_NAME" Description="LOC_ABILITY_YOSXPEEE_SAMPLE_JANISSARIES_DESCRIPTION"/>
+	</UnitAbilities>
+	<!-- アビリティとModifierの紐づけ -->
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_YOSXPEEE_SAMPLE_JANISSARIES</UnitAbilityType>
+			<ModifierId>HEAL_AFTER_DEFEATING_YOSXPEEE_SAMPLE_JANISSARIES</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<!-- 効果の定義 -->
+	<Modifiers>
+		<Row>
+			<ModifierId>HEAL_AFTER_DEFEATING_YOSXPEEE_SAMPLE_JANISSARIES</ModifierId>
+			<!-- ユニットを倒すとHP回復 -->
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_FROM_COMBAT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<!-- 値の設定：50ポイント -->
+			<ModifierId>HEAL_AFTER_DEFEATING_YOSXPEEE_SAMPLE_JANISSARIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+	</RequirementSetRequirements>
+	<ModifierStrings>
+
+	</ModifierStrings>
+</GameInfo>

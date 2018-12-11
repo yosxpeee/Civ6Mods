@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 文明そのものの定義 -->
+		<Row Type="CIVILIZATION_YOSXPEEE_SAMPLE" Kind="KIND_CIVILIZATION" />
+		<!-- 文明特性の定義 -->
+		<Row Type="TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_YOSXPEEE_SAMPLE_JANISSARIES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationType>
+			<Name>LOC_CIVILIZATION_YOSXPEEE_SAMPLE_NAME</Name>
+			<Description>LOC_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_YOSXPEEE_SAMPLE_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+		</Row>
+	</Civilizations>
+
+	<!-- 文明に属する指導者と首都 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" LeaderType="LEADER_YOSXPEEE_SAMPLE" CapitalName="LOC_CIVLIZATION_FELINE_CITY_1" />
+	</CivilizationLeaders>
+
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<!-- 文明特性 -->
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" TraitType="TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE" />
+		<!-- UU -->
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" TraitType="TRAIT_CIVILIZATION_UNIT_YOSXPEEE_SAMPLE_JANISSARIES" />
+		<!-- UI -->
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" />
+	</CivilizationTraits>
+
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE"                      Name="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME"                  Description="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_YOSXPEEE_SAMPLE_JANISSARIES"     Name="LOC_TRAIT_CIVILIZATION_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_NAME" />
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_NAME" />
+	</Traits>
+	
+	<!-- 文明特性のサンプル：異端審問の回数+1 -->
+	<TraitModifiers>
+		<Row>
+			<!-- 異端審問の回数+1 -->
+			<TraitType>TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE</TraitType>
+			<!-- バニラのスペインのものをそのまま使用 -->
+			<ModifierId>TRAIT_ADJUST_INQUISITOR_CHARGES</ModifierId>
+		</Row>
+	</TraitModifiers>
+	
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CitizenName="LOC_CITIZEN_FELINE_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_YOSXPEEE_SAMPLE" CityName="LOC_CIVLIZATION_FELINE_CITY_10" />
+	</CityNames>
+</GameData>

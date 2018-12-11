@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
+			<Text>サンプル文明</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
+			<Text>サンプル文明</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_ADJECTIVE" Language="ja_JP">
+			<Text>サンプル文明の</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
+			<Text>サンプル文明特性</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
+			<Text>審問官が異端の排除を1回多くおこなえる。暗黒時代の文明に対し [ICON_Strength] 戦闘力+7。</Text>
+		</Replace>
+
+		<!-- 指導者 -->
+		<Replace Tag="LOC_LEADER_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
+			<Text>サンプル指導者</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_NAME" Language="ja_JP">
+			<Text>指導者特性のサンプル</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION" Language="ja_JP">
+			<Text>労働者の生産速度が50%向上、2つの専門区域を持つ都市の [ICON_Housing] 住宅+1。</Text>
+		</Replace>
+		
+		<!-- UU -->
+		<Replace Tag="LOC_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_NAME" Language="ja_JP">
+			<Text>イェニチェリ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_DESCRIPTION" Language="ja_JP">
+			<Text>マスケット兵に取ってかわるサンプル文明のルネサンス時代のユニット。マスケット兵よりも強力。敵ユニットを撃破するとヒットポイントが50回復する。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_NAME" Language="ja_JP">
+			<Text>サンプル文明固有のユニット: イェニチェリ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_NAME" Language="ja_JP">
+			<Text>棚田</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がサンプル文明固有の施設である棚田を建設できるようになる。[NEWLINE][NEWLINE][ICON_Food] 食料+1。隣接する山岳一つにつき [ICON_Food] 食料+1。丘陵にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_NAME" Language="ja_JP">
+			<Text>サンプル文明固有の地形改善: 棚田</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

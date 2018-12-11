@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Row Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="en_US">
+			<Text>Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
+			<Text>Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YOSXPEEE_SAMPLE_ADJECTIVE" Language="en_US">
+			<Text>Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_NAME" Language="en_US">
+			<Text>Sample Civilization Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
+			<Text>Inquisitors can Remove Heresy one extra time. +7 [ICON_Strength] strength versus civilizations in a Dark Age.</Text>
+		</Row>
+		
+		<!-- 指導者 -->
+		<Row Tag="LOC_LEADER_YOSXPEEE_SAMPLE_NAME" Language="en_US">
+			<Text>Sample Leader</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_NAME" Language="en_US">
+			<Text>Sample Leader Trait</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YOSXPEEE_SAMPLE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Production] Production toward Builders. +1 [ICON_Housing] Housing in all cities with at least 2 specialty districts.</Text>
+		</Row>
+
+		<!-- UU -->
+		<Row Tag="LOC_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_NAME" Language="en_US">
+			<Text>Janissaries</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_DESCRIPTION" Language="en_US">
+			<Text>Sample Civilization unique unit that replaces the Musket Man. Stronger than the Musket Man. When they eliminate a unit, they heal up to 50 hit points.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_NAME" Language="en_US">
+			<Text>Sample Civilization unique unit: Janissaries</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YOSXPEEE_SAMPLE_JANISSARIES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UI -->
+		<Row Tag="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_NAME" Language="en_US">
+			<Text>Terraces</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Terraces, unique to Sample Civilization.[NEWLINE][NEWLINE]+1 [ICON_Food] Food, +1 [ICON_Food] Food for each adjacent Mountains. Can be built on Hills. </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_NAME" Language="en_US">
+			<Text>Sample Civilization unique improvement: Terraces</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>

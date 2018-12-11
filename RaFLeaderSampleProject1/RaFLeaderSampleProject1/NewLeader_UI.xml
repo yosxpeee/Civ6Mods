@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<!-- 地形改善のステータス -->
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" 
+			 Name="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_NAME" 
+			 Description="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_DESCRIPTION" 
+			 Icon="ICON_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" 
+			 PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" Housing="1" TilesRequired="2"
+			 TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES"/>
+	</Improvements>
+	<!-- 改善可能な地形 -->
+	<Improvement_ValidTerrains>
+		<!-- 丘陵すべて -->
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" TerrainType="TERRAIN_GRASS_HILLS"/>
+	</Improvement_ValidTerrains>
+	<!-- 地形改善可能なユニット -->
+	<Improvement_ValidBuildUnits>
+		<!-- 労働者 -->
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<!-- 地形改善時の出力変更 -->
+	<Improvement_YieldChanges>
+		<!-- 食料+1 -->
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<!-- 隣接ボーナスの親定義 -->
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" YieldChangeId="YosxpeeeSampleTerraces_MedievalAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" YieldChangeId="YosxpeeeSampleTerraces_MechanizedAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" YieldChangeId="YosxpeeeSampleTerraces_Mountains_Food1"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" YieldChangeId="YosxpeeeSampleTerraces_Mountains_Food2"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" YieldChangeId="YosxpeeeSampleTerraces_Mountains_Food3"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" YieldChangeId="YosxpeeeSampleTerraces_Mountains_Food4"/>
+		<Row ImprovementType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" YieldChangeId="YosxpeeeSampleTerraces_Mountains_Food5"/>
+	</Improvement_Adjacencies>
+	<!-- 社会制度/テクノロジーによる隣接ボーナス -->
+	<Adjacency_YieldChanges>
+		<!-- 封建制度で0.5、共通規格で1.0(封建制度のボーナスは上書き) -->
+		<Row ID="YosxpeeeSampleTerraces_MedievalAdjacency"   Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" PrereqCivic="CIVIC_FEUDALISM" ObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="YosxpeeeSampleTerraces_MechanizedAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<!--  山岳から食料+1-->
+		<Row ID="YosxpeeeSampleTerraces_Mountains_Food1"     Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD1" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ID="YosxpeeeSampleTerraces_Mountains_Food2"     Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD2" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ID="YosxpeeeSampleTerraces_Mountains_Food3"     Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD3" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ID="YosxpeeeSampleTerraces_Mountains_Food4"     Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD4" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ID="YosxpeeeSampleTerraces_Mountains_Food5"     Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD5" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>
+	</Adjacency_YieldChanges>
+</GameData>
