@@ -56,5 +56,18 @@
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_NAME" Language="en_US">
+			<Text>Columna Traiana</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Columna Traiana, unique to Sample Civilization.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith, +3 [ICON_Culture] Culture. Can not be built on Hills. One per city.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_NAME" Language="en_US">
+			<Text>Sample Civilization unique improvement: Columna Traiana</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

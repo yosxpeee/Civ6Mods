@@ -64,5 +64,16 @@
 			<Icon>ICON_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<Row>
+			<!-- UI:記念柱 -->
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_YOSXPEEE_SAMPLE</CivilizationType>
+			<LeaderType>LEADER_YOSXPEEE_SAMPLE</LeaderType>
+			<Type>IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA</Type>
+			<Name>LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_NAME</Name>
+			<Description>LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

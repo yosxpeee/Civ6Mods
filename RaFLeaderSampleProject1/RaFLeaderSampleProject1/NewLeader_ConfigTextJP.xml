@@ -56,5 +56,18 @@
 		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
+
+		<Replace Tag="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_NAME" Language="ja_JP">
+			<Text>記念柱</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がサンプル文明固有の施設である記念柱を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+1、[ICON_Culture] 文化力+3。丘陵への建設不可。1都市につき1つのみ。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_NAME" Language="ja_JP">
+			<Text>サンプル文明固有の地形改善: 記念柱</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
