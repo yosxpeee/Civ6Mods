@@ -23,3 +23,5 @@ JPTranslation_KingdomofHyrule:The Kingdom of Hyrule
 ## Other MOD
 NewUnit2:Yossie's More Great Person  
 ![image](docs/images/ynl_MoreGreatPerson.jpg)  
+YossiesBattleground:Yossie's Battleground
+![image](docs/images/ybg.png)  
