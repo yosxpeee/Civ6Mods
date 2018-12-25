@@ -47,4 +47,23 @@
 			<Value>DARK</Value>
 		</Row>
 	</RequirementArguments>
+	
+	<!-- 歴史年表 -->
+	<MomentIllustrations>
+		<!-- イェニチェリ -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YOSXPEEE_SAMPLE_JANISSARIES"
+			 Texture="YNL_MOMENT_UNIT_YOSXPEEE_SAMPLE_JANISSARIES.dds"/>
+		<!-- 棚田 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES"
+			 Texture="YNL_MOMENT_IMPROVEMENT_YOSXPEEE_SAMPLE_TERRACES.dds"/>
+		<!-- 記念柱 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA"
+			 Texture="YNL_MOMENT_IMPROVEMENT_YOSXPEEE_SAMPLE_COLUMNA_TRAIANA.dds"/>
+	</MomentIllustrations>
 </GameData>
