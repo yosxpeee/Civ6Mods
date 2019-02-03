@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bba6f432-32e5-4cc5-92fc-423d856ad35b">
+	<Properties>
+		<Name>Yossie's Battleground</Name>
+		<Stability>3</Stability>
+		<Teaser>Original Map by yosxpeee</Teaser>
+		<Description>Original Map by yosxpeee</Description>
+		<Authors>yosxpeee</Authors>
+	</Properties>
+	
+	<Components>
+		<UpdateDatabase />
+	</Components>
+	
+	<Settings>
+		<Map id="YZSPMAP_MAP">
+			<Properties>
+				<Name>LOC_MAP_YZSP_NAME</Name>
+				<Description>LOC_MAP_YZSP_DESCRIPTION</Description>
+				<Group>StandardMaps</Group>
+			</Properties>
+			<Items>
+				<File>YossiesBattleground.Civ6Map</File>
+			</Items>
+		</Map>
+		<Map id="YZSPMAP_MAP_EXP1">
+			<Properties>
+				<Name>LOC_MAP_YZSP_NAME</Name>
+				<Description>LOC_MAP_YZSP_DESCRIPTION</Description>
+				<Group>Maps:Expansion1Maps</Group>
+			</Properties>
+			<Items>
+				<File>YossiesBattleground.Civ6Map</File>
+			</Items>
+		</Map>
+		<UpdateText id="YZSPMAP_TEXT">
+			<Items>
+				<File>YNL_YzspMAP_Text.xml</File>
+				<File>YNL_YzspMAP_TextJP.xml</File>
+			</Items>
+		</UpdateText>
+	</Settings>
+	
+	<Files>
+		<File>YNL_YzspMAP_Text.xml</File>
+		<File>YNL_YzspMAP_TextJP.xml</File>
+		<File>YossiesBattleground.Civ6Map</File>
+	</Files>
+</Mod>
