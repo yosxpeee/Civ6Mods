@@ -132,7 +132,7 @@
 			<Text>Factorys provide +{Amount} [ICON_Production] Production.</Text>
 		</Row>
 		<Row Tag="LOC_GREATPERSON_FACTORY_GOLD" Language="en_US">
-			<Text>Factorys provide +{Amount} [ICON_Gold] Production.</Text>
+			<Text>Factorys provide +{Amount} [ICON_Gold] Gold.</Text>
 		</Row>
 		<Row Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="en_US">
 			<Text>Grants 1 promotion level to a military land unit.</Text>
