@@ -13,6 +13,7 @@
 	</Components>
 	
 	<Settings>
+
 		<Map id="YZSPMAP_MAP">
 			<Properties>
 				<Name>LOC_MAP_YZSP_NAME</Name>
@@ -23,6 +24,17 @@
 				<File>YossiesBattleground.Civ6Map</File>
 			</Items>
 		</Map>
+		<Map id="YZSPMAP_MAP2">
+			<Properties>
+				<Name>LOC_MAP_YZSP2_NAME</Name>
+				<Description>LOC_MAP_YZSP2_DESCRIPTION</Description>
+				<Group>StandardMaps</Group>
+			</Properties>
+			<Items>
+				<File>FloodedPangea.Civ6Map</File>
+			</Items>
+		</Map>
+		
 		<Map id="YZSPMAP_MAP_EXP1">
 			<Properties>
 				<Name>LOC_MAP_YZSP_NAME</Name>
@@ -33,6 +45,38 @@
 				<File>YossiesBattleground.Civ6Map</File>
 			</Items>
 		</Map>
+		<Map id="YZSPMAP_MAP2_EXP1">
+			<Properties>
+				<Name>LOC_MAP_YZSP2_NAME</Name>
+				<Description>LOC_MAP_YZSP2_DESCRIPTION</Description>
+				<Group>Maps:Expansion1Maps</Group>
+			</Properties>
+			<Items>
+				<File>FloodedPangea.Civ6Map</File>
+			</Items>
+		</Map>
+		
+		<Map id="YZSPMAP_MAP_EXP2">
+			<Properties>
+				<Name>LOC_MAP_YZSP_NAME</Name>
+				<Description>LOC_MAP_YZSP_DESCRIPTION</Description>
+				<Group>Maps:Expansion2Maps</Group>
+			</Properties>
+			<Items>
+				<File>YossiesBattleground_GS.Civ6Map</File>
+			</Items>
+		</Map>
+		<Map id="YZSPMAP_MAP2_EXP2">
+			<Properties>
+				<Name>LOC_MAP_YZSP2_NAME</Name>
+				<Description>LOC_MAP_YZSP2_DESCRIPTION</Description>
+				<Group>Maps:Expansion2Maps</Group>
+			</Properties>
+			<Items>
+				<File>FloodedPangea_GS.Civ6Map</File>
+			</Items>
+		</Map>
+		
 		<UpdateText id="YZSPMAP_TEXT">
 			<Items>
 				<File>YNL_YzspMAP_Text.xml</File>
@@ -45,5 +89,8 @@
 		<File>YNL_YzspMAP_Text.xml</File>
 		<File>YNL_YzspMAP_TextJP.xml</File>
 		<File>YossiesBattleground.Civ6Map</File>
+		<File>FloodedPangea.Civ6Map</File>
+		<File>YossiesBattleground_GS.Civ6Map</File>
+		<File>FloodedPangea_GS.Civ6Map</File>
 	</Files>
 </Mod>
