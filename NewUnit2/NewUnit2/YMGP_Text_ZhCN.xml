@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOSEPH_SMITH_JR_NAME" Language="zh_Hans_CN">
+			<Text>约瑟夫·史密斯</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BOBBY_HENDERSON_NAME" Language="zh_Hans_CN">
+			<Text>博比·亨德森</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JHON_HARRISON_NAME" Language="zh_Hans_CN">
+			<Text>约翰·哈里森</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA_NAME" Language="zh_Hans_CN">
+			<Text>切·格瓦拉</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE_NAME" Language="zh_Hans_CN">
+			<Text>初音未来</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MARIE_CURIE_NAME" Language="zh_Hans_CN">
+			<Text>玛丽·居里</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER_NAME" Language="zh_Hans_CN">
+			<Text>约翰尼斯·维米尔</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HOWARD_PHILLIPS_LOVECRAFT_NAME" Language="zh_Hans_CN">
+			<Text>霍华德·菲利普·洛夫克拉夫特</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BILL_GATES_NAME" Language="zh_Hans_CN">
+			<Text>比尔·盖茨</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK_NAME" Language="zh_Hans_CN">
+			<Text>凯西·雷白克</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_SATHYA_SAI_BABA_NAME" Language="zh_Hans_CN">
+			<Text>实谛·赛·巴巴</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_CHARLES_TAZE_RUSSELL_NAME" Language="zh_Hans_CN">
+			<Text>查尔斯·泰兹·罗素</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU_NAME" Language="zh_Hans_CN">
+			<Text>角松洋介</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK_NAME" Language="zh_Hans_CN">
+			<Text>斯坦尼斯瓦夫·马切克</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE_NAME" Language="zh_Hans_CN">
+			<Text>弗罗伦斯·南丁格尔</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MIKI_NAKAYAMA_NAME" Language="zh_Hans_CN">
+			<Text>中山美伎</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NGO_VAN_CHIEU_NAME" Language="zh_Hans_CN">
+			<Text>吴文昭</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND_NAME" Language="zh_Hans_CN">
+			<Text>布拉德利·邦德</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_LADY_GAGA_NAME" Language="zh_Hans_CN">
+			<Text>Lady Gaga</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_PISANELLO_NAME" Language="zh_Hans_CN">
+			<Text>皮萨内洛</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TINTORETTO_NAME" Language="zh_Hans_CN">
+			<Text>丁托列托</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA_NAME" Language="zh_Hans_CN">
+			<Text>横山大观</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN_NAME" Language="zh_Hans_CN">
+			<Text>本杰明·富兰克林</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ALUBOMULLE_SUMANASARA_NAME" Language="zh_Hans_CN">
+			<Text>阿鲁老和尚</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_ELLEN_GOULD_WHITE_NAME" Language="zh_Hans_CN">
+			<Text>埃伦·古尔德·怀特</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="zh_Hans_CN">
+			<Text>关羽</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_YUKICHI_FUKUZAWA_NAME" Language="zh_Hans_CN">
+			<Text>福泽谕吉</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_THOMAS_TWINING_NAME" Language="zh_Hans_CN">
+			<Text>托马斯·川宁</Text>
+		</Replace>
+
+		<Replace Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发制图学的[ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SQUARE_RIGGINGTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发横帆装置的[ICON_TechBoosted]尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_WORKSHOP_PRODUCTION" Language="zh_Hans_CN">
+			<Text>工作坊额外提供 +{Amount} [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_NUCLEAR_FISSIONTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发核裂变的[ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_1INFOMATIONTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发{Amount : plural 1?technology; other?technologies;}个信息时代科技的[ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_COMPUTERS" Language="zh_Hans_CN">
+			<Text>获得”计算机“奢侈资源，可提供 +6 [ICON_Amenities] 宜居度。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_CASEY_RYBACK_ACTIVE" Language="zh_Hans_CN">
+			<Text>为海军远程单位提供+20% [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GOLD_EX" Language="zh_Hans_CN">
+			<Text>获得 {Amount} [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE" Language="zh_Hans_CN">
+			<Text>生成一个拥有一次晋升的导弹巡洋舰单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_STANISLAW_MACZEK_ACTIVE" Language="zh_Hans_CN">
+			<Text>生成一个拥有一次晋升的坦克单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SANITATIONTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发卫生设备的[ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_SCIENTIFIC_THEORYTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发科学理论的 [ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE" Language="zh_Hans_CN">
+			<Text>受伤单位每回合恢复+10生命值。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_ELECTRICITYTECHBOOST" Language="zh_Hans_CN">
+			<Text>触发电力的[ICON_TechBoosted] 尤里卡。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FACTORY_PRODUCTION" Language="zh_Hans_CN">
+			<Text>工厂额外提供 +{Amount} [ICON_Production] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_FACTORY_GOLD" Language="zh_Hans_CN">
+			<Text>工厂额外提供 +{Amount} [ICON_Gold] 金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="zh_Hans_CN">
+			<Text>为一个陆地军事单位提供一次晋升。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_UNIVERSITY_SCIENCE" Language="zh_Hans_CN">
+			<Text>大学额外提供 +{Amount} [ICON_Science] 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GREATPERSON_GRANT_TEA" Language="zh_Hans_CN">
+			<Text>获得 {Amount} [ICON_RESOURCE_TEA] 茶资源。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="zh_Hans_CN">
+			<Text>个人计算机</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
