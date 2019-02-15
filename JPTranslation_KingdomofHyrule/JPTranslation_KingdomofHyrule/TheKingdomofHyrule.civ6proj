@@ -13,102 +13,8 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData>
-		<![CDATA[<InGameActions>
-			<UpdateDatabase id="Gameplay">
-				<Properties>
-					<LoadOrder>-200</LoadOrder>
-				</Properties>
-				<Criteria>LeaderCriteria</Criteria>
-				<File>Hylian_Leaders.xml</File>
-				<File>Hylian_Civilizations.xml</File>
-				<File>Hylian_Buildings.xml</File>
-				<File>GameplayScripts/Hylian_GameplayScripts.xml</File>
-				<File>Hylian_Improvement.xml</File>
-				<File>Hylian_Units.xml</File>
-			</UpdateDatabase>
-			<UpdateText id="Text">
-				<Criteria>LeaderCriteria</Criteria>
-				<File>Hylian_ConfigText.xml</File>
-				<File>Hylian_Text.xml</File>
-				<File>Hylian_ConfigTextJP.xml</File>
-				<File>Hylian_TextJP.xml</File>
-			</UpdateText>
-			<UpdateIcons id="Icons">
-				<Criteria>LeaderCriteria</Criteria>
-				<File>Hylian_Icons.xml</File>
-			</UpdateIcons>
-			<UpdateArt id="Art">
-				<Criteria>LeaderCriteria</Criteria>
-				<File>(Mod Art Dependency File)</File>
-			</UpdateArt>
-			<ImportFiles id="HYLIAN_IMPORT">
-				<File>Textures/FALLBACK_NEUTRAL_ZELDA.dds</File>
-				<File>Textures/LEADER_ZELDA_NEUTRAL.dds</File>
-				<File>Textures/Fairy_Fountain128.dds</File>
-				<File>Textures/Fairy_Fountain256.dds</File>
-				<File>Textures/Fairy_Fountain32.dds</File>
-				<File>Textures/Fairy_Fountain38.dds</File>
-				<File>Textures/Fairy_Fountain50.dds</File>
-				<File>Textures/Fairy_Fountain80.dds</File>
-				<File>Textures/HeroOfTime32.dds</File>
-				<File>Textures/HeroOfTime40.dds</File>
-				<File>Textures/HeroOfTime50.dds</File>
-				<File>Textures/HeroOfTime80.dds</File>
-				<File>Textures/Hylian_Atlas22.dds</File>
-				<File>Textures/Hylian_Atlas256.dds</File>
-				<File>Textures/Hylian_Atlas30.dds</File>
-				<File>Textures/Hylian_Atlas36.dds</File>
-				<File>Textures/Hylian_Atlas44.dds</File>
-				<File>Textures/Hylian_Atlas45.dds</File>
-				<File>Textures/Hylian_Atlas48.dds</File>
-				<File>Textures/Hylian_Atlas50.dds</File>
-				<File>Textures/Hylian_Atlas64.dds</File>
-				<File>Textures/Hylian_Atlas80.dds</File>
-				<File>Textures/Link256.dds</File>
-				<File>Textures/Link32.dds</File>
-				<File>Textures/Link38.dds</File>
-				<File>Textures/Link50.dds</File>
-				<File>Textures/Link80.dds</File>
-				<File>Textures/Temple_Of_Time128.dds</File>
-				<File>Textures/Temple_Of_Time256.dds</File>
-				<File>Textures/Temple_Of_Time32.dds</File>
-				<File>Textures/Temple_Of_Time38.dds</File>
-				<File>Textures/Temple_Of_Time50.dds</File>
-				<File>Textures/Temple_Of_Time80.dds</File>
-				<File>Textures/Zelda_Diplomacy_Background.dds</File>
-				<File>Textures/Zelda_Loading_Background.dds</File>
-				<File>Textures/Zelda256.dds</File>
-				<File>Textures/Zelda32.dds</File>
-				<File>Textures/Zelda45.dds</File>
-				<File>Textures/Zelda48.dds</File>
-				<File>Textures/Zelda50.dds</File>
-				<File>Textures/Zelda55.dds</File>
-				<File>Textures/Zelda64.dds</File>
-				<File>Textures/Zelda80.dds</File>
-				<File>Textures/YNL_MOMENT_FAIRY_FOUNTAIN.dds</File>
-				<File>Textures/YNL_MOMENT_HERO_OF_TIME.dds</File>
-				<File>Textures/YNL_MOMENT_TEMPLE_OF_TIME.dds</File>
-				<File>Textures/YNL_MOMENT_FIELD_AMBULANCE.dds</File>
-			</ImportFiles>
-			<AddGameplayScripts id="Scripts">
-				<File>GameplayScripts/Hylian_GameplayScripts.lua</File>
-			</AddGameplayScripts>
-			<UpdateDatabase id="GameplayExpansion1">
-				<Properties><LoadOrder>1</LoadOrder></Properties>
-				<Criteria>LeaderCriteriaExpansion1</Criteria>
-				<File>Hylian_Expansion1.xml</File>
-			</UpdateDatabase>
-			<UpdateText id="TextExpansion1">
-				<Properties><LoadOrder>1</LoadOrder></Properties>
-				<Criteria>LeaderCriteriaExpansion1</Criteria>
-				<File>Hylian_Expansion1Text.xml</File>
-				<File>Hylian_Expansion1TextJP.xml</File>
-			</UpdateText>
-		</InGameActions>]]>
-	</InGameActionData>
-    <FrontEndActionData>
-    	<![CDATA[<FrontEndActions>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>-200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>Hylian_Leaders.xml</File><File>Hylian_Civilizations.xml</File><File>Hylian_Buildings.xml</File><File>GameplayScripts/Hylian_GameplayScripts.xml</File><File>Hylian_Improvement.xml</File><File>Hylian_Units.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>Hylian_ConfigText.xml</File><File>Hylian_Text.xml</File><File>Hylian_ConfigTextJP.xml</File><File>Hylian_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>Hylian_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="HYLIAN_IMPORT"><File>Textures/FALLBACK_NEUTRAL_ZELDA.dds</File><File>Textures/LEADER_ZELDA_NEUTRAL.dds</File><File>Textures/Fairy_Fountain128.dds</File><File>Textures/Fairy_Fountain256.dds</File><File>Textures/Fairy_Fountain32.dds</File><File>Textures/Fairy_Fountain38.dds</File><File>Textures/Fairy_Fountain50.dds</File><File>Textures/Fairy_Fountain80.dds</File><File>Textures/HeroOfTime32.dds</File><File>Textures/HeroOfTime50.dds</File><File>Textures/HeroOfTime80.dds</File><File>Textures/Hylian_Atlas22.dds</File><File>Textures/Hylian_Atlas256.dds</File><File>Textures/Hylian_Atlas30.dds</File><File>Textures/Hylian_Atlas36.dds</File><File>Textures/Hylian_Atlas44.dds</File><File>Textures/Hylian_Atlas45.dds</File><File>Textures/Hylian_Atlas48.dds</File><File>Textures/Hylian_Atlas50.dds</File><File>Textures/Hylian_Atlas64.dds</File><File>Textures/Hylian_Atlas80.dds</File><File>Textures/Link256.dds</File><File>Textures/Link38.dds</File><File>Textures/Link50.dds</File><File>Textures/Temple_Of_Time128.dds</File><File>Textures/Temple_Of_Time256.dds</File><File>Textures/Temple_Of_Time32.dds</File><File>Textures/Temple_Of_Time38.dds</File><File>Textures/Temple_Of_Time50.dds</File><File>Textures/Temple_Of_Time80.dds</File><File>Textures/Zelda_Diplomacy_Background.dds</File><File>Textures/Zelda256.dds</File><File>Textures/Zelda32.dds</File><File>Textures/Zelda45.dds</File><File>Textures/Zelda48.dds</File><File>Textures/Zelda50.dds</File><File>Textures/Zelda55.dds</File><File>Textures/Zelda64.dds</File><File>Textures/Zelda80.dds</File><File>Textures/YNL_MOMENT_FAIRY_FOUNTAIN.dds</File><File>Textures/YNL_MOMENT_HERO_OF_TIME.dds</File><File>Textures/YNL_MOMENT_TEMPLE_OF_TIME.dds</File><File>Textures/YNL_MOMENT_FIELD_AMBULANCE.dds</File><File>Textures/Link70.dds</File><File>Textures/Link95.dds</File><File>Textures/Link200.dds</File></ImportFiles><AddGameplayScripts id="Scripts"><File>GameplayScripts/Hylian_GameplayScripts.lua</File></AddGameplayScripts><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Hylian_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Hylian_Expansion1Text.xml</File><File>Hylian_Expansion1TextJP.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions>
     		<UpdateDatabase id="Config">
     			<File>Hylian_Config.xml</File>
     		</UpdateDatabase>
@@ -122,18 +28,15 @@
     		<UpdateArt id="ConfigArt">
     			<File>(Mod Art Dependency File)</File>
     		</UpdateArt>
-    	</FrontEndActions>]]>
-    </FrontEndActionData>
-    <ActionCriteriaData>
-    	<![CDATA[<ActionCriteria>
+    	</FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria>
     		<Criteria id="LeaderCriteria">
     			<LeaderPlayable>StandardPlayers::LEADER_ZELDA,Players:Expansion1_Players::LEADER_ZELDA,Players:Expansion2_Players::LEADER_ZELDA</LeaderPlayable>
     		</Criteria>
     		<Criteria id="LeaderCriteriaExpansion1">
     			<LeaderPlayable>Players:Expansion1_Players::LEADER_ZELDA,Players:Expansion2_Players::LEADER_ZELDA</LeaderPlayable>
     		</Criteria>
-    	</ActionCriteria>]]>
-    </ActionCriteriaData>
+    	</ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>JPTranslation_KingdomofHyrule</AssemblyName>
     <RootNamespace>JPTranslation_KingdomofHyrule</RootNamespace>
     <Authors>decster584</Authors>
