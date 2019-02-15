@@ -4,7 +4,7 @@
 		<Row Type="IMPROVEMENT_DRILLSHIP" Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<Improvements>
-		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" Name="LOC_IMPROVEMENT_DRILLSHIP_NAME" Description="LOC_IMPROVEMENT_DRILLSHIP_DESCRIPTION" Icon="ICON_IMPROVEMENT_DRILLSHIP" PlunderType="PLUNDER_HEAL" PlunderAmount="100" Buildable="true" PrereqTech="TECH_MACHINERY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP" TilesRequired="1" Domain="DOMAIN_SEA"/>
+		<Row ImprovementType="IMPROVEMENT_DRILLSHIP" Name="LOC_IMPROVEMENT_DRILLSHIP_NAME" Description="LOC_IMPROVEMENT_DRILLSHIP_DESCRIPTION" Icon="ICON_IMPROVEMENT_DRILLSHIP" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" PrereqTech="TECH_MACHINERY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_DRILLSHIP" TilesRequired="1" Domain="DOMAIN_SEA"/>
 	</Improvements>
 	<!-- 地形改善できる地形 -->
 	<Improvement_ValidTerrains>
