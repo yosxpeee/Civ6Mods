@@ -35,6 +35,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_YUKARI_YUDUKI</LeaderAbilityIcon>
 			<Portrait>LEADER_YUKARI_YUDUKI_NEUTRAL</Portrait>
 		</Row>
+		<!-- Expansion2 Support -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROYY</CivilizationType>
+			<LeaderType>LEADER_YUKARI_YUDUKI</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ROYY_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ROYY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YUKARI_YUDUKI_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YUKARI_YUDUKI</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ROYY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YUKARI_YUDUKI_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YUKARI_YUDUKI_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YUKARI_YUDUKI</LeaderAbilityIcon>
+			<Portrait>LEADER_YUKARI_YUDUKI_NEUTRAL</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- Vanilla -->
@@ -91,6 +108,37 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROYY</CivilizationType>
+			<LeaderType>LEADER_YUKARI_YUDUKI</LeaderType>
+			<Type>IMPROVEMENT_CYASHI</Type>
+			<Name>LOC_IMPROVEMENT_CYASHI_NAME</Name>
+			<Description>LOC_IMPROVEMENT_CYASHI_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_CYASHI</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- Expansion1 Support -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROYY</CivilizationType>
+			<LeaderType>LEADER_YUKARI_YUDUKI</LeaderType>
+			<Type>UNIT_UNIQUE_HOWITZER</Type>
+			<Name>LOC_UNIT_UNIQUE_HOWITZER_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_HOWITZER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_HOWITZER</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ROYY</CivilizationType>
+			<LeaderType>LEADER_YUKARI_YUDUKI</LeaderType>
+			<Type>BUILDING_TECHNOLOGICAL_UNIVERSITY</Type>
+			<Name>LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_NAME</Name>
+			<Description>LOC_BUILDING_TECHNOLOGICAL_UNIVERSITY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_TECHNOLOGICAL_UNIVERSITY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_ROYY</CivilizationType>
 			<LeaderType>LEADER_YUKARI_YUDUKI</LeaderType>
 			<Type>IMPROVEMENT_CYASHI</Type>
