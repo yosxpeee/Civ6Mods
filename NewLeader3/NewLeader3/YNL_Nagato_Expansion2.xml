@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 文明特性：台風の影響を受けない -->
+	<!-- 説明文の書き換え -->
+	<Traits>
+		<Update>
+			<Set Description="LOC_CIVILIZATION_PEOPLESOFTHESEA_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_PEOPLESOFTHESEA"/>
+		</Update>
+	</Traits>
+	<!-- 効果 -->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_4</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_5</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_4</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEOPLESOFTHESEA</TraitType>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_5</ModifierId>
+		</Row>
+	</TraitModifiers>
+</GameData>
