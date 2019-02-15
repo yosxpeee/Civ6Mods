@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_EXPANSION2_DESCRIPTION" Language="ja_JP">
+			<Text>雪原から [ICON_Food] 食糧+1、[ICON_Culture] 文化力+1、[ICON_Science] 科学力+1を得る。ツンドラから [ICON_Faith] 信仰力+1を得る。[NEWLINE]自軍ユニットはブリザードによるダメージを受けない。雪の恵み文明と戦争状態の文明は、雪の恵み文明の領土内でのブリザードのダメージ+100%。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

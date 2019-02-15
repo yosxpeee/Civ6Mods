@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Traits>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_SNOW_QUEEN"/>
+		</Update>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_CRIPPLING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_SIGNIFICANT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING</ModifierId>
+		</Row>
+	</TraitModifiers>
+</GameData>
