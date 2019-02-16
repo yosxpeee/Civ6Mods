@@ -16,14 +16,17 @@
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YnlKingHassan_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YnlKingHassan_ConfigText.xml</File><File>YnlKingHassan_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YnlKingHassan_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
     		<Criteria id="LeaderCriteria">
-    			<LeaderPlayable>StandardPlayers::LEADER_YNL_KING_HASSAN,Players:Expansion1_Players::LEADER_YNL_KING_HASSAN</LeaderPlayable>
+    			<LeaderPlayable>StandardPlayers::LEADER_YNL_KING_HASSAN,Players:Expansion1_Players::LEADER_YNL_KING_HASSAN,Players:Expansion2_Players::LEADER_YNL_KING_HASSAN</LeaderPlayable>
     		</Criteria>
     		<Criteria id="LeaderCriteriaExpansion1">
-    			<LeaderPlayable>Players:Expansion1_Players::LEADER_YNL_KING_HASSAN</LeaderPlayable>
+    			<LeaderPlayable>Players:Expansion1_Players::LEADER_YNL_KING_HASSAN,Players:Expansion2_Players::LEADER_YNL_KING_HASSAN</LeaderPlayable>
     		</Criteria>
-    	</ActionCriteria>]]></ActionCriteriaData>
+    	</ActionCriteria>]]>
+    </ActionCriteriaData>
     <AssemblyName>NewLeader6</AssemblyName>
     <RootNamespace>NewLeader6</RootNamespace>
+    <Authors>Yossie</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion1" id="1B28771A-C749-434B-9053-D1380C553DE9" />
 </Associations>]]></AssociationData>
