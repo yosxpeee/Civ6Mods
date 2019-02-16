@@ -110,6 +110,59 @@
 			<Portrait>PORTRAIT_KIRITAN_TOHOKU</Portrait>
 			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</PortraitBackground>
 		</Row>
+		<!-- Expansion2 Support -->
+		<!-- Domainと説明文のみ書き換え、それ以外同じものを用意 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_DPRT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_DPRT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ITAKO_TOHOKU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ITAKO_TOHOKU</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_DPRT_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_DPRT_EXPANSION2_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_DPRT</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ITAKO_TOHOKU</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_ITAKO_TOHOKU</Portrait>
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</PortraitBackground>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_DPRT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_DPRT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ZUNKO_TOHOKU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ZUNKO_TOHOKU</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_DPRT_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_DPRT_EXPANSION2_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_DPRT</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ZUNKO_TOHOKU</LeaderAbilityIcon>
+			<Portrait>LEADER_ZUNKO_TOHOKU_NEUTRAL</Portrait>
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</PortraitBackground>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_DPRT_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_DPRT</CivilizationIcon>
+			<LeaderName>LOC_LEADER_KIRITAN_TOHOKU_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_KIRITAN_TOHOKU</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_DPRT_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_DPRT_EXPANSION2_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_DPRT</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_KIRITAN_TOHOKU</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_KIRITAN_TOHOKU</Portrait>
+			<PortraitBackground>LEADER_T_ROOSEVELT_BACKGROUND</PortraitBackground>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- Valilla -->
@@ -292,6 +345,98 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
+			<Type>IMPROVEMENT_KOSHIN_TOWER</Type>
+			<Name>LOC_IMPROVEMENT_KOSHIN_TOWER_NAME</Name>
+			<Description>LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_KOSHIN_TOWER</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- Expansion1 Support -->
+		<!-- Domainのみ書き換え、それ以外同じものを用意 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<Type>UNIT_YAMABUSHI</Type>
+			<Name>LOC_UNIT_YAMABUSHI_NAME</Name>
+			<Description>LOC_UNIT_YAMABUSHI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YAMABUSHI</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<Type>UNIT_FIGHTING_MONK</Type>
+			<Name>LOC_UNIT_FIGHTING_MONK_NAME</Name>
+			<Description>LOC_UNIT_FIGHTING_MONK_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FIGHTING_MONK</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ITAKO_TOHOKU</LeaderType>
+			<Type>IMPROVEMENT_KOSHIN_TOWER</Type>
+			<Name>LOC_IMPROVEMENT_KOSHIN_TOWER_NAME</Name>
+			<Description>LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_KOSHIN_TOWER</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
+			<Type>UNIT_ZUNKO_HORSE_ARCHER</Type>
+			<Name>LOC_UNIT_ZUNKO_HORSE_ARCHER_NAME</Name>
+			<Description>LOC_UNIT_ZUNKO_HORSE_ARCHER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ZUNKO_HORSE_ARCHER</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
+			<Type>BUILDING_ZUNDA_CAFE</Type>
+			<Name>LOC_BUILDING_ZUNDA_CAFE_NAME</Name>
+			<Description>LOC_BUILDING_ZUNDA_CAFE_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_ZUNDA_CAFE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_ZUNKO_TOHOKU</LeaderType>
+			<Type>IMPROVEMENT_KOSHIN_TOWER</Type>
+			<Name>LOC_IMPROVEMENT_KOSHIN_TOWER_NAME</Name>
+			<Description>LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_KOSHIN_TOWER</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
+			<Type>DISTRICT_INDUSTRIAL_PARK</Type>
+			<Name>LOC_DISTRICT_INDUSTRIAL_PARK_NAME</Name>
+			<Description>LOC_DISTRICT_INDUSTRIAL_PARK_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_INDUSTRIAL_PARK</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
+			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
+			<Type>DISTRICT_NAMAHAGE_MUSEUM</Type>
+			<Name>LOC_DISTRICT_NAMAHAGE_MUSEUM_NAME</Name>
+			<Description>LOC_DISTRICT_NAMAHAGE_MUSEUM_DESCRIPTION</Description>
+			<Icon>ICON_DISTRICT_NAMAHAGE_MUSEUM</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_DPRT</CivilizationType>
 			<LeaderType>LEADER_KIRITAN_TOHOKU</LeaderType>
 			<Type>IMPROVEMENT_KOSHIN_TOWER</Type>
