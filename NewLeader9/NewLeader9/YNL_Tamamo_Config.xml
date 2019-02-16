@@ -37,6 +37,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_YNL_TAMAMO</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_YNL_TAMAMO</Portrait>
 		</Row>
+		<!-- GS -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_YAMATO_DYNASTY</CivilizationType>
+			<LeaderType>LEADER_YNL_TAMAMO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_YNL_YAMATO_DYNASTY_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_YNL_YAMATO_DYNASTY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_TAMAMO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_TAMAMO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_YNL_YAMATO_DYNASTY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_TAMAMO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_TAMAMO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_TAMAMO</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_YNL_TAMAMO</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- バニラ -->
@@ -98,6 +115,37 @@
 			<Type>BUILDING_YNL_CHEMICAL_PLANT</Type>
 			<Name>LOC_BUILDING_YNL_CHEMICAL_PLANT_NAME</Name>
 			<Description>LOC_BUILDING_YNL_CHEMICAL_PLANT_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_YNL_CHEMICAL_PLANT</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- GS -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_YAMATO_DYNASTY</CivilizationType>
+			<LeaderType>LEADER_YNL_TAMAMO</LeaderType>
+			<Type>UNIT_JAPANESE_SAMURAI</Type>
+			<Name>LOC_UNIT_JAPANESE_SAMURAI_NAME</Name>
+			<Description>LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_JAPANESE_SAMURAI</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_YAMATO_DYNASTY</CivilizationType>
+			<LeaderType>LEADER_YNL_TAMAMO</LeaderType>
+			<Type>IMPROVEMENT_YNL_SESSYOUSEKI</Type>
+			<Name>LOC_IMPROVEMENT_YNL_SESSYOUSEKI_NAME</Name>
+			<Description>LOC_IMPROVEMENT_YNL_SESSYOUSEKI_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_YNL_SESSYOUSEKI</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_YAMATO_DYNASTY</CivilizationType>
+			<LeaderType>LEADER_YNL_TAMAMO</LeaderType>
+			<Type>BUILDING_YNL_CHEMICAL_PLANT</Type>
+			<Name>LOC_BUILDING_YNL_CHEMICAL_PLANT_NAME</Name>
+			<Description>LOC_BUILDING_YNL_CHEMICAL_PLANT_EXPANSION2_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_YNL_CHEMICAL_PLANT</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>

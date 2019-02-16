@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_YNL_CHEMICAL_PLANT_EXPANSION2_DESCRIPTION" Language="ja_JP">
+			<Text>大和朝廷固有の建造物。電気 (技術) を研究済みの場合、その都市の [ICON_Science] 科学力+4。 [ICON_Production] 生産力ボーナスは、このタイプの建造物からボーナスをまだ得ていない、9タイル以内の全都心に適用される。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

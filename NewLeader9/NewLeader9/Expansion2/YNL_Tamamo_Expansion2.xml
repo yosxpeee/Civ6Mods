@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 文章の変更 -->
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_YNL_CHEMICAL_PLANT"/>
+			<Set>
+				<Description>LOC_BUILDING_YNL_CHEMICAL_PLANT_EXPANSION2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Buildings>
+	<!-- 必要電力 -->
+	<Buildings_XP2>
+		<Row BuildingType="BUILDING_YNL_CHEMICAL_PLANT" RequiredPower="2"/>
+	</Buildings_XP2>
+	<!-- ベースの生産力変更 -->
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_YNL_CHEMICAL_PLANT" YieldType="YIELD_PRODUCTION"/>
+			<Set>
+				<YieldChange>2</YieldChange>
+			</Set>
+		</Update>
+	</Building_YieldChanges>
+	<!-- 電力供給によるボーナス -->
+	<Building_YieldChangesBonusWithPower>
+		<Row BuildingType="BUILDING_YNL_CHEMICAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+	</Building_YieldChangesBonusWithPower>
+</GameData>
