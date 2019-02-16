@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 文章変更 -->
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_IMP_ARMY_ARMORY"/>
+			<Set>
+				<Description>LOC_IMP_ARMY_ARMORY_EXPANSION2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Buildings>
+	<!-- 効果の追加 -->
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_IMP_ARMY_ARMORY</BuildingType>
+			<ModifierId>IMP_ARMY_ARMORY_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>
