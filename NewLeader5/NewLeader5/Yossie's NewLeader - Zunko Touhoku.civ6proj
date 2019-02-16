@@ -38,6 +38,7 @@
     <AssemblyName>NewLeader5</AssemblyName>
     <RootNamespace>NewLeader5</RootNamespace>
     <Authors>Yossie</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
     <AssociationData><![CDATA[<Associations />]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
