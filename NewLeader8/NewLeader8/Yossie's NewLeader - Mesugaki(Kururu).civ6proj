@@ -17,16 +17,17 @@
     <ActionCriteriaData><![CDATA[
     	<ActionCriteria>
     		<Criteria id="LeaderCriteria">
-    			<LeaderPlayable>StandardPlayers::LEADER_YNL_MESUGAKI,Players:Expansion1_Players::LEADER_YNL_MESUGAKI</LeaderPlayable>
+    			<LeaderPlayable>StandardPlayers::LEADER_YNL_MESUGAKI,Players:Expansion1_Players::LEADER_YNL_MESUGAKI,Players:Expansion2_Players::LEADER_YNL_MESUGAKI</LeaderPlayable>
     		</Criteria>
     		<Criteria id="LeaderCriteriaExpansion1">
-    			<LeaderPlayable>Players:Expansion1_Players::LEADER_YNL_MESUGAKI</LeaderPlayable>
+    			<LeaderPlayable>Players:Expansion1_Players::LEADER_YNL_MESUGAKI,Players:Expansion2_Players::LEADER_YNL_MESUGAKI</LeaderPlayable>
     		</Criteria>
     	</ActionCriteria>
     ]]></ActionCriteriaData>
     <AssemblyName>NewLeader8</AssemblyName>
     <RootNamespace>NewLeader8</RootNamespace>
     <Authors>yosxpeee</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
