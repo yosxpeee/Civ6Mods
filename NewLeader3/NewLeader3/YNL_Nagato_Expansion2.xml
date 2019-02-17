@@ -27,4 +27,16 @@
 			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_5</ModifierId>
 		</Row>
 	</TraitModifiers>
+	<!-- ユニットの調整対応 -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO"/>
+			<Set>
+				<PrereqTech>TECH_REFINING</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+	<Units_XP2>
+		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
+	</Units_XP2>
 </GameData>

@@ -4,5 +4,8 @@
 		<Replace Tag="LOC_IMP_ARMY_ARMORY_EXPANSION2_DESCRIPTION" Language="ja_JP">
 			<Text>武器庫に取って代わるあきつ丸固有の建造物。[ICON_Production] 生産力+2、[ICON_Science] 科学力+1。全ての戦略資源から [ICON_Production] 生産力+1。この都市で訓練を受けた陸上ユニットの戦闘経験値+50%。[NEWLINE]戦略資源の備蓄+10。</Text>
 		</Replace>
+		<Row Tag="LOC_UNIT_YNL_KENPEI_EXPANSION2_DESCRIPTION" Language="ja_JP">
+			<Text>歩兵に取って代わるあきつ丸固有の近代の陸上近接戦闘上ユニット。ユニットを倒すと [ICON_GreatGeneral] 大将軍ポイント+5。[NEWLINE]戦略資源を必要としない。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

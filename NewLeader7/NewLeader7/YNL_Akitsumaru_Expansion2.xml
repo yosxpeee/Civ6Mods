@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 建造物の追加設定 -->
 	<!-- 文章変更 -->
 	<Buildings>
 		<Update>
@@ -29,4 +30,17 @@
 			<Value>10</Value>
 		</Row>
 	</ModifierArguments>
+	<!-- ユニットの説明文変更 -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_YNL_KENPEI"/>
+			<Set>
+				<Description>LOC_UNIT_YNL_KENPEI_EXPANSION2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Units>
+	<!-- ユニットの追加設定 -->
+	<Units_XP2>
+		<Row UnitType="UNIT_KAGOU" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+	</Units_XP2>
 </GameData>
