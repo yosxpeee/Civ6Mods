@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- バニラでは補給部隊を新規ユニットとして追加する -->
+	<UnitUpgrades>
+		<Row Unit="UNIT_MEDIC" UpgradeUnit="UNIT_HYLIAN_AMBULANCE"/>
+	</UnitUpgrades>
+</GameData>
