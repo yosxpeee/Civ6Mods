@@ -150,23 +150,4 @@
 
 		<Row ListType="YNL_YukariYudukiScienceDistrict" Item="DISTRICT_CAMPUS" Favored="true"/>
 	</AiFavoredItems>
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_YUKARI_YUDUKI_PRIMARY</Type>
-			<Color>204,153,255,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_YUKARI_YUDUKI_SECONDARY</Type>
-			<Color>204,51,255,255</Color>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_YUKARI_YUDUKI</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_YUKARI_YUDUKI_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_YUKARI_YUDUKI_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 </GameData>

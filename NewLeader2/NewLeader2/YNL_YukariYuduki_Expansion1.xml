@@ -22,4 +22,15 @@
 			 GameDataType="IMPROVEMENT_CYASHI"
 			 Texture="YNL_MOMENT_CYASHI.dds"/>
 	</MomentIllustrations>
+	<!-- 指導者特性の説明 -->
+	<Traits>
+		<Update>
+			<Set Description="LOC_TRAIT_LEADER_YUKARI_YUDUKI_EXPANSION1_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_YUKARI_YUDUKI"/>
+		</Update>
+	</Traits>
+	<!-- 補給部隊に移動力+1 -->
+	<TypeTags>
+		<Row Type="UNIT_SUPPLY_CONVOY" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+	</TypeTags>
 </GameData>

@@ -37,5 +37,10 @@
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_YUKARI_YUDUKI_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="en_US">
 			<Text>Your people's "glorious age" looks a lot like gloating to me. I look forward to the day of your fall.</Text>
 		</Row>
+		
+		<!-- RaF以降用の指導者詳細 -->
+		<Row Tag="LOC_TRAIT_LEADER_YUKARI_YUDUKI_EXPANSION1_DESCRIPTION" Language="en_US">
+			<Text>Gain +2 free [ICON_GreatMusician] Great Musician, [ICON_GreatScientist] Great Scientist points per turn. +1 [ICON_Movement] Movement for Recon, Settler, Builder, Medic, Supply Convoy and Military Engineer.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 文明特性：ブリザード耐性 -->
 	<Traits>
 		<Update>
 			<Set Description="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_EXPANSION2_DESCRIPTION"/>
@@ -24,4 +25,8 @@
 			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING</ModifierId>
 		</Row>
 	</TraitModifiers>
+	<!-- 偵察ユニットに移動力+1 -->
+	<TypeTags>
+		<Row Type="UNIT_SKIRMISHER" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
+	</TypeTags>
 </GameData>

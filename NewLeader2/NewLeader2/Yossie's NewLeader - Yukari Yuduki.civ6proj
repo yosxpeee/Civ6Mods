@@ -1,451 +1,579 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Yossie's NewLeader - Yukari Yuduki</Name>
-    <Guid>4da0a87d-a2ce-4d59-a55e-851ccd8b7d31</Guid>
-    <ProjectGuid>a6de64eb-2dc9-474b-8202-9c0a705ac194</ProjectGuid>
-    <ModVersion>1</ModVersion>
-    <Teaser>Yossie's NewLeader - Yukari Yuduki</Teaser>
-    <Description>Yossie's NewLeader - Yukari Yuduki v1.3</Description>
-    <AffectsSavedGames>true</AffectsSavedGames>
-    <SupportsSinglePlayer>true</SupportsSinglePlayer>
-    <SupportsMultiplayer>true</SupportsMultiplayer>
-    <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>-200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YNL_YukariYuduki_Civilization.xml</File><File>YNL_YukariYuduki_LoadingInfo.xml</File><File>YNL_YukariYuduki_DiplomacyInfo.xml</File><File>YNL_YukariYuduki_Leader.xml</File><File>YNL_YukariYuduki_UU.xml</File><File>YNL_YukariYuduki_UB.xml</File><File>YNL_YukariYuduki_Improvement.xml</File><File>YNL_YukariYuduki_LeaderAnimations.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YNL_YukariYuduki_ConfigText.xml</File><File>YNL_YukariYuduki_ConfigTextJP.xml</File><File>YNL_YukariYuduki_Text.xml</File><File>YNL_YukariYuduki_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YNL_YukariYuduki_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/YNL_YukariYuduki_Background.dds</File><File>Textures/YNL_YukariYuduki_Diplomacy.dds</File><File>Textures/YNL_YukariYuduki_Foreground.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UU22.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UU256.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UU32.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UU38.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UU50.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UU80.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UUPORT200.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UUPORT256.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UUPORT38.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UUPORT50.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UUPORT70.dds</File><File>Textures/YNL_YUKARI_YUDUKI_UUPORT95.dds</File><File>Textures/CYASHI256.dds</File><File>Textures/CYASHI38.dds</File><File>Textures/CYASHI50.dds</File><File>Textures/CYASHI80.dds</File><File>Textures/YNL_CIV_ROYY128.dds</File><File>Textures/YNL_CIV_ROYY22.dds</File><File>Textures/YNL_CIV_ROYY256.dds</File><File>Textures/YNL_CIV_ROYY30.dds</File><File>Textures/YNL_CIV_ROYY36.dds</File><File>Textures/YNL_CIV_ROYY44.dds</File><File>Textures/YNL_CIV_ROYY45.dds</File><File>Textures/YNL_CIV_ROYY48.dds</File><File>Textures/YNL_CIV_ROYY50.dds</File><File>Textures/YNL_CIV_ROYY64.dds</File><File>Textures/YNL_CIV_ROYY80.dds</File><File>Textures/FALLBACK_HAPPY_YUKARI_YUDUKI.dds</File><File>Textures/FALLBACK_STERN_YUKARI_YUDUKI.dds</File><File>Textures/FALLBACK_SURPRISED_AI_YUKARI_YUDUKI.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_YUKARI_YUDUKI.dds</File><File>Textures/FALLBACK_UNHAPPY_YUKARI_YUDUKI.dds</File><File>Textures/FALLBACK_DEFEAT_YUKARI_YUDUKI.dds</File><File>Textures/YNL_MOMENT_CYASHI.dds</File><File>Textures/YNL_MOMENT_TECHNOLOGICAL_UNIVERSITY.dds</File><File>Textures/YNL_MOMENT_UNIQUE_HOWITZER.dds</File><File>Textures/FALLBACK_NEUTRAL_YUKARI_YUDUKI.dds</File><File>Textures/LEADER_YUKARI_YUDUKI_NEUTRAL.dds</File></ImportFiles><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>YNL_YukariYuduki_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>YNL_YukariYuduki_Expansion1Text.xml</File><File>YNL_YukariYuduki_Expansion1TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayExpansion2"><Criteria>LeaderCriteriaExpansion2</Criteria><File>YNL_YukariYuduki_Expansion2.xml</File></UpdateDatabase><UpdateText id="TextExpansion2"><Criteria>LeaderCriteriaExpansion2</Criteria><File>YNL_YukariYuduki_Expansion2Text.xml</File><File>YNL_YukariYuduki_Expansion2TextJP.xml</File></UpdateText></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>YNL_YukariYuduki_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>YNL_YukariYuduki_ConfigText.xml</File><File>YNL_YukariYuduki_ConfigTextJP.xml</File><File>YNL_YukariYuduki_Expansion2Text.xml</File><File>YNL_YukariYuduki_Expansion2TextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>YNL_YukariYuduki_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <ActionCriteriaData><![CDATA[
-    	<ActionCriteria>
-    		<Criteria id="LeaderCriteria">
-    			<LeaderPlayable>StandardPlayers::LEADER_YUKARI_YUDUKI,Players:Expansion1_Players::LEADER_YUKARI_YUDUKI,Players:Expansion2_Players::LEADER_YUKARI_YUDUKI</LeaderPlayable>
-    		</Criteria>
-    		<Criteria id="LeaderCriteriaExpansion1">
-    			<LeaderPlayable>Players:Expansion1_Players::LEADER_YUKARI_YUDUKI,Players:Expansion2_Players::LEADER_YUKARI_YUDUKI</LeaderPlayable>
-    		</Criteria>
-    		<Criteria id="LeaderCriteriaExpansion2">
-    			<LeaderPlayable>Players:Expansion2_Players::LEADER_YUKARI_YUDUKI</LeaderPlayable>
-    		</Criteria>
-    	</ActionCriteria>]]></ActionCriteriaData>
-    <AssemblyName>NewLeader2</AssemblyName>
-    <RootNamespace>NewLeader2</RootNamespace>
-    <Authors>Yossie</Authors>
-    <CompatibleVersions>2.0</CompatibleVersions>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
-    <OutputPath>.</OutputPath>
-  </PropertyGroup>
-  <ItemGroup>
-    <Content Include="ArtDefs\YNL_YukariYuduki_Improvement.artdef">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ArtDefs\YNL_YukariYuduki_Landmarks.artdef">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ArtDefs\YNL_YukariYuduki_Buildings.artdef">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ArtDefs\YNL_YukariYuduki_Units.artdef">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ArtDefs\YNL_YukariYuduki_Unit_Bins.artdef">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\Assault_Gun.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_Expansion2.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_Expansion2Text.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_Expansion2TextJP.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_MOMENT_CYASHI.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_MOMENT_TECHNOLOGICAL_UNIVERSITY.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_MOMENT_UNIQUE_HOWITZER.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_Expansion1.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_Expansion1TextJP.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_Expansion1Text.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\Assault_Gun.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\Assault_Gun.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\ISU_152_Material.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\ISU_152_Tread_Material.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_DEFEAT_YUKARI_YUDUKI.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_DEFEAT_YUKARI_YUDUKI.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_HAPPY_YUKARI_YUDUKI.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_HAPPY_YUKARI_YUDUKI.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_STERN_YUKARI_YUDUKI.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_STERN_YUKARI_YUDUKI.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_SURPRISED_AI_YUKARI_YUDUKI.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_SURPRISED_AI_YUKARI_YUDUKI.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_YUKARI_YUDUKI.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_YUKARI_YUDUKI.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_UNHAPPY_YUKARI_YUDUKI.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_UNHAPPY_YUKARI_YUDUKI.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Generic_4x4_black_g.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Generic_4x4_black_g.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Generic_4x4_black_m.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Generic_4x4_black_m.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Generic_4x4_black_t.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Generic_4x4_black_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Generic_4x4_white_ao.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Generic_4x4_white_ao.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_a.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_a.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_n.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_n.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_t.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_treads_a.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_treads_a.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_treads_n.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\isu152_treads_n.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\Units.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_LeaderAnimations.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\CYASHI256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\CYASHI256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\CYASHI38.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\CYASHI38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\CYASHI50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\CYASHI50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\CYASHI80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\CYASHI80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY128.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY128.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY22.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY30.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY30.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY36.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY36.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY44.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY44.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY45.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY48.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY48.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY64.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_CIV_ROYY80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER32.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER45.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER55.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER55.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER64.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_Improvement.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU22.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU32.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU38.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU80.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UU80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT200.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT200.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT256.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT38.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT50.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT70.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT70.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT95.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT95.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="XLPs\YNL_YukariYuduki_Icons.xlp">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_UU.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_ConfigTextJP.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_TextJP.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_DiplomacyInfo.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YukariYuduki_Background.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YukariYuduki_Diplomacy.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\YNL_YukariYuduki_Foreground.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Folder Include="Artdefs\" />
-    <Folder Include="Assets" />
-    <Folder Include="Geometries" />
-    <Folder Include="Materials" />
-    <Folder Include="Textures\" />
-    <Folder Include="XLPs\" />
-    <Content Include="ArtDefs\YNL_YukariYuduki_Leaders.artdef">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_LoadingInfo.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YNL_YukariYuduki_Config.xml" />
-    <Content Include="YNL_YukariYuduki_ConfigText.xml" />
-    <Content Include="YNL_YukariYuduki_Civilization.xml" />
-    <Content Include="YNL_YukariYuduki_Icons.xml" />
-    <Content Include="YNL_YukariYuduki_Leader.xml" />
-    <Content Include="YNL_YukariYuduki_UB.xml" />
-    <Content Include="YNL_YukariYuduki_Text.xml" />
-    <Content Include="Textures\FALLBACK_NEUTRAL_YUKARI_YUDUKI.dds" />
-    <Content Include="Textures\FALLBACK_NEUTRAL_YUKARI_YUDUKI.tex" />
-    <Content Include="Textures\LEADER_YUKARI_YUDUKI_NEUTRAL.dds" />
-    <Content Include="Textures\LEADER_YUKARI_YUDUKI_NEUTRAL.tex" />
-    <None Include="ArtDefs\YNL_YukariYuduki_FallbackLeaders.artdef" />
-    <None Include="XLPs\LeaderFallbacks.xlp" />
-    <None Include="XLPs\UILeaders.xlp" />
-    <None Include="Mod.Art.xml" />
-  </ItemGroup>
-  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+		<Name>Yossie's NewLeader - Yukari Yuduki</Name>
+		<Guid>4da0a87d-a2ce-4d59-a55e-851ccd8b7d31</Guid>
+		<ProjectGuid>a6de64eb-2dc9-474b-8202-9c0a705ac194</ProjectGuid>
+		<ModVersion>1</ModVersion>
+		<Teaser>Yossie's NewLeader - Yukari Yuduki</Teaser>
+		<Description>Yossie's NewLeader - Yukari Yuduki v1.3</Description>
+		<AffectsSavedGames>true</AffectsSavedGames>
+		<SupportsSinglePlayer>true</SupportsSinglePlayer>
+		<SupportsMultiplayer>true</SupportsMultiplayer>
+		<SupportsHotSeat>true</SupportsHotSeat>
+		<ActionCriteriaData><![CDATA[<ActionCriteria>
+			<Criteria id="LeaderCriteria">
+				<LeaderPlayable>StandardPlayers::LEADER_YUKARI_YUDUKI,Players:Expansion1_Players::LEADER_YUKARI_YUDUKI,Players:Expansion2_Players::LEADER_YUKARI_YUDUKI</LeaderPlayable>
+			</Criteria>
+			<Criteria id="LeaderCriteriaExpansion1">
+				<LeaderPlayable>Players:Expansion1_Players::LEADER_YUKARI_YUDUKI,Players:Expansion2_Players::LEADER_YUKARI_YUDUKI</LeaderPlayable>
+			</Criteria>
+			<Criteria id="LeaderCriteriaExpansion2">
+				<LeaderPlayable>Players:Expansion2_Players::LEADER_YUKARI_YUDUKI</LeaderPlayable>
+			</Criteria>
+		</ActionCriteria>]]></ActionCriteriaData>
+		<InGameActionData><![CDATA[<InGameActions>
+			<UpdateColors id="GameplayColors">
+				<Criteria>LeaderCriteria</Criteria>
+				<File>YNL_YukariYuduki_CoreColors.xml</File>
+				<File>YNL_YukariYuduki_PlayerColors.xml</File>
+			</UpdateColors>
+			<UpdateDatabase id="Gameplay">
+				<Properties>
+					<LoadOrder>-200</LoadOrder>
+				</Properties>
+				<Criteria>LeaderCriteria</Criteria>
+				<File>YNL_YukariYuduki_Civilization.xml</File>
+				<File>YNL_YukariYuduki_LoadingInfo.xml</File>
+				<File>YNL_YukariYuduki_DiplomacyInfo.xml</File>
+				<File>YNL_YukariYuduki_Leader.xml</File>
+				<File>YNL_YukariYuduki_UU.xml</File>
+				<File>YNL_YukariYuduki_UB.xml</File>
+				<File>YNL_YukariYuduki_Improvement.xml</File>
+				<File>YNL_YukariYuduki_LeaderAnimations.xml</File>
+			</UpdateDatabase>
+				<UpdateText id="Text">
+				<Criteria>LeaderCriteria</Criteria>
+				<File>YNL_YukariYuduki_ConfigText.xml</File>
+				<File>YNL_YukariYuduki_ConfigTextJP.xml</File>
+				<File>YNL_YukariYuduki_Text.xml</File>
+				<File>YNL_YukariYuduki_TextJP.xml</File>
+			</UpdateText>
+			<UpdateIcons id="Icons">
+				<Criteria>LeaderCriteria</Criteria>
+				<File>YNL_YukariYuduki_Icons.xml</File>
+			</UpdateIcons>
+			<UpdateArt id="Art">
+				<Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File>
+			</UpdateArt>
+			<ImportFiles id="Import">
+				<File>Textures/YNL_YukariYuduki_Background.dds</File>
+				<File>Textures/YNL_YukariYuduki_Diplomacy.dds</File>
+				<File>Textures/YNL_YukariYuduki_Foreground.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UU22.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UU256.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UU32.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UU38.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UU50.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UU80.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UUPORT200.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UUPORT256.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UUPORT38.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UUPORT50.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UUPORT70.dds</File>
+				<File>Textures/YNL_YUKARI_YUDUKI_UUPORT95.dds</File>
+				<File>Textures/CYASHI256.dds</File>
+				<File>Textures/CYASHI38.dds</File>
+				<File>Textures/CYASHI50.dds</File>
+				<File>Textures/CYASHI80.dds</File>
+				<File>Textures/YNL_CIV_ROYY128.dds</File>
+				<File>Textures/YNL_CIV_ROYY22.dds</File>
+				<File>Textures/YNL_CIV_ROYY256.dds</File>
+				<File>Textures/YNL_CIV_ROYY30.dds</File>
+				<File>Textures/YNL_CIV_ROYY36.dds</File>
+				<File>Textures/YNL_CIV_ROYY44.dds</File>
+				<File>Textures/YNL_CIV_ROYY45.dds</File>
+				<File>Textures/YNL_CIV_ROYY48.dds</File>
+				<File>Textures/YNL_CIV_ROYY50.dds</File>
+				<File>Textures/YNL_CIV_ROYY64.dds</File>
+				<File>Textures/YNL_CIV_ROYY80.dds</File>
+				<File>Textures/FALLBACK_HAPPY_YUKARI_YUDUKI.dds</File>
+				<File>Textures/FALLBACK_STERN_YUKARI_YUDUKI.dds</File>
+				<File>Textures/FALLBACK_SURPRISED_AI_YUKARI_YUDUKI.dds</File>
+				<File>Textures/FALLBACK_SURPRISED_HUMAN_YUKARI_YUDUKI.dds</File>
+				<File>Textures/FALLBACK_UNHAPPY_YUKARI_YUDUKI.dds</File>
+				<File>Textures/FALLBACK_DEFEAT_YUKARI_YUDUKI.dds</File>
+				<File>Textures/YNL_MOMENT_CYASHI.dds</File>
+				<File>Textures/YNL_MOMENT_TECHNOLOGICAL_UNIVERSITY.dds</File>
+				<File>Textures/YNL_MOMENT_UNIQUE_HOWITZER.dds</File>
+				<File>Textures/FALLBACK_NEUTRAL_YUKARI_YUDUKI.dds</File>
+				<File>Textures/LEADER_YUKARI_YUDUKI_NEUTRAL.dds</File>
+			</ImportFiles>
+			<UpdateDatabase id="GameplayExpansion1">
+				<Properties>
+					<LoadOrder>1</LoadOrder>
+				</Properties>
+				<Criteria>LeaderCriteriaExpansion1</Criteria>
+				<File>YNL_YukariYuduki_Expansion1.xml</File>
+			</UpdateDatabase>
+			<UpdateText id="TextExpansion1">
+				<Properties>
+					<LoadOrder>1</LoadOrder>
+				</Properties>
+				<Criteria>LeaderCriteriaExpansion1</Criteria>
+				<File>YNL_YukariYuduki_Expansion1Text.xml</File>
+				<File>YNL_YukariYuduki_Expansion1TextJP.xml</File>
+			</UpdateText>
+				<UpdateDatabase id="GameplayExpansion2">
+					<Criteria>LeaderCriteriaExpansion2</Criteria>
+					<File>YNL_YukariYuduki_Expansion2.xml</File>
+			</UpdateDatabase>
+			<UpdateText id="TextExpansion2">
+				<Criteria>LeaderCriteriaExpansion2</Criteria>
+				<File>YNL_YukariYuduki_Expansion2Text.xml</File>
+				<File>YNL_YukariYuduki_Expansion2TextJP.xml</File>
+			</UpdateText>
+		</InGameActions>]]></InGameActionData>
+		<FrontEndActionData><![CDATA[<FrontEndActions>
+			<UpdateColors id="ConfigPlayerColor">
+				<File>YNL_YukariYuduki_CoreColors.xml</File>
+				<File>YNL_YukariYuduki_PlayerColors.xml</File>
+			</UpdateColors>
+			<UpdateDatabase id="Config">
+				<File>YNL_YukariYuduki_Config.xml</File>
+			</UpdateDatabase>
+			<UpdateText id="ConfigText">
+				<File>YNL_YukariYuduki_ConfigText.xml</File>
+				<File>YNL_YukariYuduki_ConfigTextJP.xml</File>
+				<File>YNL_YukariYuduki_Expansion2Text.xml</File>
+				<File>YNL_YukariYuduki_Expansion2TextJP.xml</File>
+				<File>YNL_YukariYuduki_Expansion1Text.xml</File>
+				<File>YNL_YukariYuduki_Expansion1TextJP.xml</File>
+			</UpdateText>
+			<UpdateIcons id="ConfigIcons">
+				<File>YNL_YukariYuduki_Icons.xml</File>
+			</UpdateIcons>
+			<UpdateArt id="ConfigArt">
+				<File>(Mod Art Dependency File)</File>
+			</UpdateArt>
+		</FrontEndActions>]]></FrontEndActionData>
+		<AssemblyName>NewLeader2</AssemblyName>
+		<RootNamespace>NewLeader2</RootNamespace>
+		<Authors>Yossie</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+		<OutputPath>.</OutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<Content Include="ArtDefs\YNL_YukariYuduki_Improvement.artdef">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="ArtDefs\YNL_YukariYuduki_Landmarks.artdef">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="ArtDefs\YNL_YukariYuduki_Buildings.artdef">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="ArtDefs\YNL_YukariYuduki_Units.artdef">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="ArtDefs\YNL_YukariYuduki_Unit_Bins.artdef">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Assets\Assault_Gun.ast">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_PlayerColors.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_CoreColors.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_Expansion2.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_Expansion2Text.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_Expansion2TextJP.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_MOMENT_CYASHI.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_MOMENT_TECHNOLOGICAL_UNIVERSITY.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_MOMENT_UNIQUE_HOWITZER.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_Expansion1.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_Expansion1TextJP.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_Expansion1Text.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Geometries\Assault_Gun.fgx">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Geometries\Assault_Gun.geo">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Materials\ISU_152_Material.mtl">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Materials\ISU_152_Tread_Material.mtl">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_DEFEAT_YUKARI_YUDUKI.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_DEFEAT_YUKARI_YUDUKI.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_HAPPY_YUKARI_YUDUKI.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_HAPPY_YUKARI_YUDUKI.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_STERN_YUKARI_YUDUKI.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_STERN_YUKARI_YUDUKI.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_SURPRISED_AI_YUKARI_YUDUKI.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_SURPRISED_AI_YUKARI_YUDUKI.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_SURPRISED_HUMAN_YUKARI_YUDUKI.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_SURPRISED_HUMAN_YUKARI_YUDUKI.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_UNHAPPY_YUKARI_YUDUKI.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\FALLBACK_UNHAPPY_YUKARI_YUDUKI.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\Generic_4x4_black_g.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\Generic_4x4_black_g.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\Generic_4x4_black_m.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\Generic_4x4_black_m.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\Generic_4x4_black_t.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\Generic_4x4_black_t.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\Generic_4x4_white_ao.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\Generic_4x4_white_ao.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_a.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_a.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_n.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_n.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_t.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_t.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_treads_a.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_treads_a.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_treads_n.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\isu152_treads_n.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="XLPs\Units.xlp">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_LeaderAnimations.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\CYASHI256.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\CYASHI256.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\CYASHI38.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\CYASHI38.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\CYASHI50.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\CYASHI50.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\CYASHI80.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\CYASHI80.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY128.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY128.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY22.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY22.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY256.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY256.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY30.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY30.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY36.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY36.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY44.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY44.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY45.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY45.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY48.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY48.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY50.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY50.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY64.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY64.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY80.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_CIV_ROYY80.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER256.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER256.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER32.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER32.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER45.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER45.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER50.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER50.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER55.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER55.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER64.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER64.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER80.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_LEADER80.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_Improvement.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU22.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU22.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU256.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU256.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU32.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU32.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU38.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU38.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU50.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU50.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU80.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UU80.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT200.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT200.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT256.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT256.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT38.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT38.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT50.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT50.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT70.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT70.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT95.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YUKARI_YUDUKI_UUPORT95.tex">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="XLPs\YNL_YukariYuduki_Icons.xlp">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_UU.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_ConfigTextJP.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_TextJP.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_DiplomacyInfo.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YukariYuduki_Background.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YukariYuduki_Diplomacy.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="Textures\YNL_YukariYuduki_Foreground.dds">
+			<SubType>Content</SubType>
+		</Content>
+		<Folder Include="Artdefs\" />
+		<Folder Include="Assets" />
+		<Folder Include="Geometries" />
+		<Folder Include="Materials" />
+		<Folder Include="Textures\" />
+		<Folder Include="XLPs\" />
+		<Content Include="ArtDefs\YNL_YukariYuduki_Leaders.artdef">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_LoadingInfo.xml">
+			<SubType>Content</SubType>
+		</Content>
+		<Content Include="YNL_YukariYuduki_Config.xml" />
+		<Content Include="YNL_YukariYuduki_ConfigText.xml" />
+		<Content Include="YNL_YukariYuduki_Civilization.xml" />
+		<Content Include="YNL_YukariYuduki_Icons.xml" />
+		<Content Include="YNL_YukariYuduki_Leader.xml" />
+		<Content Include="YNL_YukariYuduki_UB.xml" />
+		<Content Include="YNL_YukariYuduki_Text.xml" />
+		<Content Include="Textures\FALLBACK_NEUTRAL_YUKARI_YUDUKI.dds" />
+		<Content Include="Textures\FALLBACK_NEUTRAL_YUKARI_YUDUKI.tex" />
+		<Content Include="Textures\LEADER_YUKARI_YUDUKI_NEUTRAL.dds" />
+		<Content Include="Textures\LEADER_YUKARI_YUDUKI_NEUTRAL.tex" />
+		<None Include="ArtDefs\YNL_YukariYuduki_FallbackLeaders.artdef" />
+		<None Include="XLPs\LeaderFallbacks.xlp" />
+		<None Include="XLPs\UILeaders.xlp" />
+		<None Include="Mod.Art.xml" />
+	</ItemGroup>
+	<Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>
