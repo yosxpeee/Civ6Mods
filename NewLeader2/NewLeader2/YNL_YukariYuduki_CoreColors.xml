@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_YUKARI_YUDUKI_PRIMARY</Type>
+			<Color>204,153,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YUKARI_YUDUKI_SECONDARY</Type>
+			<Color>204,51,255,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>

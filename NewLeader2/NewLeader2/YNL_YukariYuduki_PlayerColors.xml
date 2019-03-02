@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_YUKARI_YUDUKI</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_YUKARI_YUDUKI_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_YUKARI_YUDUKI_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_PLAYER_DARK_PINK</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_PLAYER_LIGHT_GREEN</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_PLAYER_DARK_PURPLE</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_PLAYER_LIGHT_ORANGE</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_YELLOW_MD</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_RED_LT</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</Database>
