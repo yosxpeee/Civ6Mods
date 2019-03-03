@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 親定義 -->
+	<Types>
+		<!-- ユニット -->
+		<Row Type="UNIT_YNL_AKARI_HESSIANS"    Kind="KIND_UNIT"/>
+		<!-- アビリティ -->
+		<Row Type="ABILITY_YNL_AKARI_HESSIANS" Kind="KIND_ABILITY"/>
+		<!-- Modifier -->
+		<Row Type="MODIFIER_PLAYER_UNIT_ADJUST_HEAL_FROM_COMBAT_YNL" Kind="KIND_MODIFIER"/>
+	</Types>
+	<!-- AI設定 -->
+	<UnitAiInfos>
+		<Row UnitType="UNIT_YNL_AKARI_HESSIANS" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YNL_AKARI_HESSIANS" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_YNL_AKARI_HESSIANS" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_YNL_AKARI_HESSIANS" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<!-- 置換設定 -->
+	<UnitReplaces>
+		<!-- マスケット兵を置換する -->
+		<Row CivUniqueUnitType="UNIT_YNL_AKARI_HESSIANS" ReplacesUnitType="UNIT_MUSKETMAN"/>
+	</UnitReplaces>
+	<Tags>
+		<Row Tag="CLASS_YNL_AKARI_HESSIANS" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<!-- ユニットとクラスの紐づけ -->
+		<Row Type="UNIT_YNL_AKARI_HESSIANS"    Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_YNL_AKARI_HESSIANS"    Tag="CLASS_YNL_AKARI_HESSIANS"/>
+		<!-- アビリティとクラスの紐づけ -->
+		<Row Type="ABILITY_YNL_AKARI_HESSIANS" Tag="CLASS_YNL_AKARI_HESSIANS"/>
+	</TypeTags>
+	<Units>
+		<!-- ユニットの主たるステータス -->
+		<Row UnitType="UNIT_YNL_AKARI_HESSIANS" Cost="240" Maintenance="4" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" 
+			 Domain="DOMAIN_LAND" Combat="58" StrategicResource="RESOURCE_NITER" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" 
+			 Name="LOC_UNIT_YNL_AKARI_HESSIANS_NAME" Description="LOC_UNIT_YNL_AKARI_HESSIANS_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_GUNPOWDER" 
+			 TraitType="TRAIT_CIVILIZATION_UNIT_YNL_AKARI_HESSIANS"/>
+	</Units>
+	<Units_XP2>
+		<Row UnitType="UNIT_YNL_AKARI_HESSIANS" ResourceCost="20"/>
+	</Units_XP2>
+	<!-- アップグレード先 -->
+	<UnitUpgrades>
+		<!-- 歩兵 -->
+		<Row Unit="UNIT_YNL_AKARI_HESSIANS" UpgradeUnit="UNIT_INFANTRY"/>
+	</UnitUpgrades>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YNL_AKARI_HESSIANS" Name="LOC_ABILITY_YNL_AKARI_HESSIANS_NAME" Description="LOC_ABILITY_YNL_AKARI_HESSIANS_DESCRIPTION"/>
+	</UnitAbilities>
+	<!-- アビリティとModifierの紐づけ -->
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_AKARI_HESSIANS</UnitAbilityType>
+			<ModifierId>HEAL_AFTER_DEFEATING_YNL_AKARI_HESSIANS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<!-- 効果の定義 -->
+	<Modifiers>
+		<!-- ユニットを倒すとHP回復 -->
+		<!-- 似たような効果がバニラにあるが、それだと効果範囲が所有ユニット全部になってしまうので独自定義 -->
+		<Row>
+			<ModifierId>HEAL_AFTER_DEFEATING_YNL_AKARI_HESSIANS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_FROM_COMBAT_YNL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ユニットを倒すとHP回復 -->
+		<Row>
+			<ModifierId>HEAL_AFTER_DEFEATING_YNL_AKARI_HESSIANS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	<DynamicModifiers>
+		<Row>
+			<!-- ユニットに適用させる(アビリティにする)にはCOLLECTION_OWNERにする -->
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_FROM_COMBAT_YNL</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_POST_COMBAT_HEAL</EffectType>
+		</Row>
+	</DynamicModifiers>
+	
+	<RequirementSets>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+	</RequirementSetRequirements>
+	<ModifierStrings>
+
+	</ModifierStrings>
+</GameInfo>

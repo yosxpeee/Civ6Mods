@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader Dialog -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>互いの友好関係がずっと続きますように。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>私たちの国は、あなたの国との間に正式な友好関係を結ぶことにしました。お受けしてくれますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>これはありがたいです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>それは残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>っ・・・これは・・・つまみ食いがバレてしまいましたか！？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>良いものをお持ちですね。ほしいなあ・・・（ｿﾜｿﾜ）</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>こんなに早く決着がついてしまうなんて・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>こんなに早く決着がついてしまうなんて・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>使者が到着しました。しっかりとおもてなししますね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>ごめんなさい、承諾できません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>こちらの使節を受け入れてくれますか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>これはすばらしいです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>それは残念です。では、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>うーん・・・(‾^‾)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>これは、世界中が知るべき裏切りです。(非難)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>どうぞ、大使館の建設許可です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>私たちの国の大使館を置いてもらえないでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>今日という幸運な日に祝福を。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>それは残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>ようこそ。紲星あかりと申します。よろしくおねがいしますね！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>近くの街へご案内しますね。祝いの式典にぜひご参加ください！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>すばらしい！あなたの国の発展ぶりを拝見させていただきますね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>どちらも遠方の出ですね。お互いの国を互いの地図に記し合うというのはどうでしょう？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>ご希望をおうかがいします。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>高地は私たちのものだとわきまえているようですね。賢明なことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>山は私たちのものです。邪魔をするなら覚悟してくださいね？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>互いの同盟関係がずっと続きますように。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>同盟を希望するのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>これはありがたいです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>それは残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>いいですよ。喜んで取引に応じましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>この取引には応じられません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>ありがとうございます。これによってお互いに利益があるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>正直なところ、失望しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>私の希望にかなう取引です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>あなたの要求に得るところはないと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>わかりました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>こちっらの要求を呑むとは、賢明な判断です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>そうですか、では他の手段も考えますね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>和平ですか？いいでしょう。お受けしますね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>和平など受け入れられません！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>あなたの力はよく理解できました。和平を結びませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>これで戦争はおわりですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>そうですか・・・そんな・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>国境を開放しますね。ご自由にお入りください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>領内の通行許可をいただきたいのですが・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>これはすばらしいです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>それは残念です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>ごめんなさい！そんな近くに都市があるとは知らなかったんです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>我々も土地が必要なのだ。勝手なことを言って何様のつもりだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>私たちのすぐそばに都市を作らないでください。土地を求めるなら他の場所へお願いします！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>私たちの国に敬意を払わない国にどうして敬意を払えというのでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>ごめんなさい。蛮族を探していただけなんです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>あちこちに軍隊を派遣するのが好きなんです。自分たちの強さを教えられますから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>あなたのいう通りですね。こんな手に訴えたことを悔やんでいます。もう二度と繰り返しません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>誰がそんな約束を真に受けると思うのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>この土地があなたの国のものだとは知らなかった。単純な手違いです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>歴史の謎は万人に開示されるべきです。独占は許されません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>そちらの希望は尊重します。ですが、あなたは間違っています。いつかわかってくれるといいのですけど。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>心配はいりませんよ。これが一番なのですから。いずれわかるときが来ると思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>国境のすぐそばに兵を動かしましたね？私たちの国の美しい田園風景を楽しんでいるだけだといいのですけど・・・？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>やりかねないとは思っていましたが、まさかそこまで恥知らずだなんて。私たちの国に送ったスパイを今すぐ引き上げさせてください！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>この侮辱は忘れません。よく覚えておいてください！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>私たちの国の文化や歴史を盗まないでください。わが国から出て行ってもらいます！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>私たちの国を尊重してもらえないなら、あなたの国を尊重することもできません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>あなたの国の宗教家はやり方が強引だともっぱらの噂です。いますぐ立ち退かせてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>了解しました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_AKARI_KIZUNA_ANY" Language="ja_JP">
+			<Text>覚悟しておいてください。いずれ必ず報いがあると思いますよ。</Text>
+		</Replace>
+		<!-- Generic kudos for random agendas -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>あなたの国民が作り出している他に類を見ない文化には感銘を受けました。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>あなたの国民はあなたの統治を祝福していると聞きました。民の幸福を維持するのは素晴らしいことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>あなたの国は実に豊かな富に恵まれているようですね。お金はいくらあっても困るものではないですもんね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国民の生産力はまったく賞賛に値します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家のような小国にとって、私たちの国ほどふさわしい友人はいないのです。あなたの国にもそれを理解してもらえているようでなによりです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>あなたが抱える人口の多さは賞賛に値します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>あなたの文明の科学研究に対する入れ込みようは大したものです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>私は強力な軍隊を持つ指導者が大好きです！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明の真価が発揮されるのは戦いにおいてです。どこが最強の文明か、はっきりさせませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>嬉しいことに、この世界の偉大な人物たちは、あなたの国よりも私たちの国のほうを高く評価してくれているようです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>遺産の建設は私たちに任せてもらえるなんて、あなたの国の賢明な判断に感謝します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家の権利を守ろうとするあなたの姿勢は、全世界がならうべき手本となるでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強きは弱きを守るべき。賛同してくれて嬉しく思います。</Text>
+		</Replace>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>あなたの空軍の力はまったくもってあなどれません。大したものですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自らの面倒を見れない者を助けるのは、高貴なおこないだと思います。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>あの蛮族たちには我々も大いに悩まされていました。手助けに感謝します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>このかけがえのない大地の貴さを知る人々が私たちのほかにもいるとは嬉しい話です。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>世界は人が活用するためにあるのです。求めよ、さらば与えられん！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>私たちは志を同じくする仲間のようですね。そちらの政治体制を尊重します。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>偉大な指導者は同じことを考えるようですね。あの技術には多くの使い道がありますから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>あなたとあなたの民に平穏がもたらされますように。自分と同じように信心深い者と出会えるのは喜ばしいことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>たいへん結構です。探検はこちらに任せてください。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたが我々に脅威を与えないと知り、安心しました。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>あなたの国は偉大な文化を生みだそうという熱意に欠けています。これでは私たちは、どうやってあなたの国の人々のことを記憶に留めればよいのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>市民たちのためにもう少し快適性を増やそうとは思わないのですか？みなさんがあなたの統治に満足しているとは思えないのだすけど・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>あなたの国は今にも破産しそうじゃないですか。それじゃ満足にご飯が食べられませんよ！？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>あなたの国は都市国家との関係が浅くないようですね。できればそうした振る舞いは控えてほしいです。あのような国々との友好を深めるにふさわしいのは私たちのほうです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国はずいぶんとなまけ者が多いみたいですね。なにも生みだせない文明は、じきに人々の記憶から消えてしまいますよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>あなたの国は極端な人口不足に陥っています。それではほとんどなにもすることができないでしょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>あなたの国は技術研究に熱心ではないようですけど、それでどうやって人々の暮らしを豊かにするつもりなのです？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>そんなにささやかな軍隊しか持っていないなんて、不安を感じることはないんですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたの国の都市は私たち国にあまりに近く、あなたの国の軍はあまりに強いです。これではこちらも心穏やかではいられなくなると思いませんか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>多くの偉人を集めているようですけど、あまり余計なことはしないでほしいです。偉人は私たちの文明にこそふさわしいのですから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産の建設にかけては私たちの右に出る者はいないということをご存じないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>小さな国を襲うなんて臆病者のすることです。私たちの国にとってあなたの国は何の価値もありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>これは警告だと思ってください。今後は二度と小さな国を襲わないことです。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面を這い回るだけでは栄光をつかむことはできません。航空戦力の整備を急ぐことをおすすめしますよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者をいたぶるのは恥ずべきことです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分の首都の近くであのように蛮族たちをのさばらせておいてよいのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>これだけは言っておきますね。いたずらに自然を傷つければ、あなたの国のみならず誰もが報いを受けることになるのですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>周囲に広がる肥沃な大地に、なぜ手をつけようとしないですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>思想の違いもそうですけど、あなたの民を統治するやり方は私にとって許容できるものではありません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器こそが未来を切り開くんです！なぜそれがわからないのですか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>あなたはなにをしるべに道を歩むのですか？まさか信心を持たないというわけではないでしょう。人々に信仰の光を見せるのも統治者の務めですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見とは、早い者勝ちの競争です。あなたの国は私たちの国をさしおいて探検隊を派遣しました。そんな国に従うわけにはいきません。</Text>
+		</Replace>
+		<!-- RaF専用アジェンダ（専用のファイルに書くこと） -->
+		<!-- 堅物 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_CURMUDGEON_POSITIVE" Language="ja_JP">
+			<Text>偉大な指導者は、異性の手管に心を奪われたりしないものでは？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_CURMUDGEON_NEGATIVE" Language="ja_JP">
+			<Text>よく回る口だが、他にやることはないんですか？気が散って迷惑だし、非生産的です。</Text>
+		</Replace>
+		<!-- 色好み -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_FLIRTATIOUS_POSITIVE" Language="ja_JP">
+			<Text>あなたには敬服しています。多くの者がそうだろうが、私こそが最大にして最も重要な信奉者ですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_FLIRTATIOUS_NEGATIVE" Language="ja_JP">
+			<Text>「民の最善の利益のために交渉している」と言いいますけど、はたしてそうでしょうか？私の交友関係を妬んでいるだけに思えますけど・・・。</Text>
+		</Replace>
+		<!-- ゴシップ -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_GOSSIP_POSITIVE" Language="ja_JP">
+			<Text>「知は力なり」と言うように、他の国の秘密を知っている私たちの関係は盤石ですね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_GOSSIP_NEGATIVE" Language="ja_JP">
+			<Text>私はよく考えるんです、あなたの口数が少ないのはなぜだろうと。たぶん、興味を引けるような話を知らないのでは？</Text>
+		</Replace>
+		<!-- 追従 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="ja_JP">
+			<Text>私たち国の詩人や哲学者たちは、あなたの国の文明をこの世の光として称賛しています。私も同じ意見ですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="ja_JP">
+			<Text>世界にとってより尊い手本となることを目指してほしいです！あなたが国民を栄光に導けば、国民はあなたを愛するでしょう。</Text>
+		</Replace>
+		<!-- 人情家 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="ja_JP">
+			<Text>あなたは我慢強く、強い意志で苦難に耐えています。我々としても感に堪えません。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_AKARI_KIZUNA_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
+			<Text>「栄光の時代」を満喫しているところを悪いのですけど、どうにも鼻についてなりません。あなたの国が没落する日が今から楽しみです。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

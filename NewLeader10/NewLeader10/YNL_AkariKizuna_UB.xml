@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="BUILDING_YNL_VOICELOID_BIG_THEATER" Kind="KIND_BUILDING"/>
+	</Types>
+	<!-- 置き換え先 -->
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" ReplacesBuildingType="BUILDING_AMPHITHEATER"/>
+	</BuildingReplaces>
+	<!-- 主設定 -->
+	<Buildings>
+		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" Name="LOC_BUILDING_YNL_VOICELOID_BIG_THEATER_NAME" 
+			 PrereqCivic="CIVIC_DRAMA_POETRY" PrereqDistrict="DISTRICT_THEATER" 
+			 PurchaseYield="YIELD_GOLD" Cost="100" AdvisorType="ADVISOR_CULTURE" Maintenance="1" Housing="1" CitizenSlots="1"
+			 TraitType="TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER"/>
+	</Buildings>
+	<BuildingPrereqs>
+	</BuildingPrereqs>
+	<!-- 出力の設定 -->
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<!-- 時代ごとのボーナス -->
+	<Building_YieldsPerEra>
+		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldsPerEra>
+	<!-- 偉人ポイント -->
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<!-- 傑作スロット -->
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+	</Building_GreatWorks>
+	<BuildingModifiers>
+
+	</BuildingModifiers>
+	<Modifiers>
+
+	</Modifiers>
+	<ModifierArguments>
+
+	</ModifierArguments>
+	<RequirementSets>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+	</RequirementSetRequirements>
+	<Requirements>
+
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+</GameData>

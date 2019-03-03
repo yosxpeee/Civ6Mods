@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_Akari_Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_LEADER_YNL_AKARI256"/>
+			<m_ObjectName text="ICON_LEADER_YNL_AKARI256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_YNL_AKARI32"/>
+			<m_ObjectName text="ICON_LEADER_YNL_AKARI32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_YNL_AKARI45"/>
+			<m_ObjectName text="ICON_LEADER_YNL_AKARI45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_YNL_AKARI50"/>
+			<m_ObjectName text="ICON_LEADER_YNL_AKARI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_YNL_AKARI55"/>
+			<m_ObjectName text="ICON_LEADER_YNL_AKARI55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_YNL_AKARI64"/>
+			<m_ObjectName text="ICON_LEADER_YNL_AKARI64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_YNL_AKARI80"/>
+			<m_ObjectName text="ICON_LEADER_YNL_AKARI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI22"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI30"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI36"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI44"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI45"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI48"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI50"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI64"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI80"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIV_YNL_AKARI256"/>
+			<m_ObjectName text="ICON_CIV_YNL_AKARI256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_UU_HESSIANS22"/>
+			<m_ObjectName text="YNL_UU_HESSIANS22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_UU_HESSIANS32"/>
+			<m_ObjectName text="YNL_UU_HESSIANS32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_UU_HESSIANS38"/>
+			<m_ObjectName text="YNL_UU_HESSIANS38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_UU_HESSIANS50"/>
+			<m_ObjectName text="YNL_UU_HESSIANS50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_UU_HESSIANS80"/>
+			<m_ObjectName text="YNL_UU_HESSIANS80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_UU_HESSIANS256"/>
+			<m_ObjectName text="YNL_UU_HESSIANS256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_AKARI_TERRACES38"/>
+			<m_ObjectName text="YNL_AKARI_TERRACES38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_AKARI_TERRACES50"/>
+			<m_ObjectName text="YNL_AKARI_TERRACES50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_AKARI_TERRACES80"/>
+			<m_ObjectName text="YNL_AKARI_TERRACES80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_AKARI_TERRACES256"/>
+			<m_ObjectName text="YNL_AKARI_TERRACES256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

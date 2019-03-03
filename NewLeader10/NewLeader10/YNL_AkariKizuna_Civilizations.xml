@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 文明そのものの定義 -->
+		<Row Type="CIVILIZATION_YNL_AKARI_KIZUNA" Kind="KIND_CIVILIZATION" />
+		<!-- 文明特性の定義 -->
+		<Row Type="TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA"                   Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_YNL_AKARI_HESSIANS"            Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_AKARI_TERRACES"     Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_YNL_AKARI_KIZUNA</CivilizationType>
+			<Name>LOC_CIVILIZATION_YNL_AKARI_KIZUNA_NAME</Name>
+			<Description>LOC_CIVILIZATION_YNL_AKARI_KIZUNA_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_YNL_AKARI_KIZUNA_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>16</RandomCityNameDepth>
+		</Row>
+	</Civilizations>
+
+	<!-- 文明に属する指導者と首都 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" LeaderType="LEADER_YNL_AKARI_KIZUNA" CapitalName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_1" />
+	</CivilizationLeaders>
+
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<!-- 文明特性 -->
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TraitType="TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA" />
+		<!-- UU -->
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_AKARI_HESSIANS" />
+		<!-- UI -->
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_AKARI_TERRACES" />
+		<!-- UB -->
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TraitType="TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER" />
+	</CivilizationTraits>
+
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA"                   Name="LOC_TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA_NAME"               Description="LOC_TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_YNL_AKARI_HESSIANS"            Name="LOC_TRAIT_CIVILIZATION_UNIT_YNL_AKARI_HESSIANS_NAME" />
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_AKARI_TERRACES"     Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_AKARI_TERRACES_NAME" />
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER" Name="LOC_TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER_NAME" />
+	</Traits>
+	
+	<!-- 文明特性 -->
+	<TraitModifiers>
+		<!-- 国内交易路の生産力+2 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_YNL_KIZUNA_AKARI</ModifierId>
+		</Row>
+		<!-- ボーナス資源隣接の劇場広場区域から住宅+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_THEARTER_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+		</Row>
+		<!-- ボーナス資源隣接の劇場広場区域から住宅+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_CAMPUS_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+		</Row>
+		<!-- ボーナス資源隣接の商業ハブ区域から住宅+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_COMMERCIAL_HUB_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+		</Row>
+		<!-- ボーナス資源隣接の用水路から住宅+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_AQUEDUCT_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+		</Row>
+		<!-- 劇場広場に接した鉱山から科学力+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_MINES_SCIENCE_THEATER_YNL</ModifierId>
+		</Row>
+		<!-- 劇場広場に接した鉱山から文化力+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_MINES_CULTURE_THEATER_YNL</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- 国内交易路の生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_YNL_KIZUNA_AKARI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<!-- ボーナス資源隣接の劇場広場区域から住宅+1 -->
+		<Row>
+			<ModifierId>TRAIT_THEARTER_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_THEATER_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
+		<!-- ボーナス資源隣接のキャンパス区域から住宅+1 -->
+		<Row>
+			<ModifierId>TRAIT_CAMPUS_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_CAMPUS_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
+		<!-- ボーナス資源隣接の商業ハブ区域から住宅+1 -->
+		<Row>
+			<ModifierId>TRAIT_COMMERCIAL_HUB_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_COMMERCIAL_HUB_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
+		<!-- ボーナス資源隣接の用水路から住宅+1 -->
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AQUEDUCT_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
+		<!-- 劇場広場に接した鉱山から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_MINES_SCIENCE_THEATER_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_THEATER_MINES_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
+		<!-- 劇場広場に接した鉱山から文化力+1 -->
+		<Row>
+			<ModifierId>TRAIT_MINES_CULTURE_THEATER_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_THEATER_MINES_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 国内交易路の生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_YNL_KIZUNA_AKARI</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_YNL_KIZUNA_AKARI</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DOMESTIC_PRODUCTION_YNL_KIZUNA_AKARI</ModifierId>
+			<Name>Intercontinental</Name>
+			<Value>false</Value>
+		</Row>
+		<!-- ボーナス資源隣接の劇場広場区域から住宅+1 -->
+		<Row>
+			<ModifierId>TRAIT_THEARTER_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- ボーナス資源隣接のキャンパス区域から住宅+1 -->
+		<Row>
+			<ModifierId>TRAIT_CAMPUS_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- ボーナス資源隣接の商業ハブ区域から住宅+1 -->
+		<Row>
+			<ModifierId>TRAIT_COMMERCIAL_HUB_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- ボーナス資源隣接の商業ハブ区域から住宅+1 -->
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_HOUSING_FROM_BONUS_RESOURCES_YNL_AKARI_KIZUNA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 劇場広場に接した鉱山から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_MINES_SCIENCE_THEATER_YNL </ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MINES_SCIENCE_THEATER_YNL </ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 劇場広場に接した鉱山から文化力+1 -->
+		<Row>
+			<ModifierId>TRAIT_MINES_CULTURE_THEATER_YNL </ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MINES_CULTURE_THEATER_YNL </ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<!-- 条件：ボーナス資源隣接の劇場広場区域 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_THEATER_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：ボーナス資源隣接のキャンパス区域 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_CAMPUS_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：ボーナス資源隣接の商業ハブ区域 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_COMMERCIAL_HUB_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：ボーナス資源隣接の用水路 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_AQUEDUCT_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：劇場広場に接した鉱山 -->
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_THEATER_MINES_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- 条件：ボーナス資源隣接の劇場広場区域 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_THEATER_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_THEATER</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_THEATER_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS_YNL</RequirementId>
+		</Row>
+		<!-- 条件：ボーナス資源隣接のキャンパス区域 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_CAMPUS_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_CAMPUS</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_CAMPUS_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS_YNL</RequirementId>
+		</Row>
+		<!-- 条件：ボーナス資源隣接の商業ハブ区域 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_COMMERCIAL_HUB_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_COMMERCIAL_HUB</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_COMMERCIAL_HUB_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS_YNL</RequirementId>
+		</Row>
+		<!-- 条件：ボーナス資源隣接の用水路 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_AQUEDUCT_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_AQUEDUCT</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_AQUEDUCT_BONUS_RESOUCES_HOUSING_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS_YNL</RequirementId>
+		</Row>
+		<!-- 条件：劇場広場に接した鉱山 -->
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_THEATER_MINES_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_THEATER_MINES_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_THEATER_YNL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- 条件：ボーナス資源隣接 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_RESOURCE_CLASS_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 条件：劇場広場に隣接 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_THEATER_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- 条件：ボーナス資源隣接 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_BONUS_YNL</RequirementId>
+			<Name>ResourceClassType</Name>
+			<Value>RESOURCECLASS_BONUS</Value>
+		</Row>
+		<!-- 条件：劇場広場に隣接 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_THEATER_YNL</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+	</RequirementArguments>
+	
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CitizenName="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" CityName="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_16" />
+	</CityNames>
+	
+	<!-- スタート地点バイアス -->
+	<StartBiasTerrains>
+		<!-- 山岳（平原、草原に強め） -->
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TerrainType="TERRAIN_DESERT_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TerrainType="TERRAIN_GRASS_MOUNTAIN"  Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AKARI_KIZUNA" TerrainType="TERRAIN_SNOW_MOUNTAIN"   Tier="3"/>
+	</StartBiasTerrains>
+
+	<!-- 歴史年表 -->
+	<MomentIllustrations>
+		<!-- ヘシアン -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_AKARI_HESSIANS"
+			 Texture="YNL_MOMENT_UNIT_YNL_AKARI_HESSIANS.dds"/>
+		<!-- 高地農場 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_YNL_AKARI_TERRACES"
+			 Texture="YNL_MOMENT_IMPROVEMENT_YNL_AKARI_TERRACES.dds"/>
+		<!-- ボイスロイド大劇場 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_YNL_VOICELOID_BIG_THEATER"
+			 Texture="YNL_MOMENT_BUILDING_YNL_VOICELOID_BIG_THEATER.dds"/>
+	</MomentIllustrations>
+</GameData>

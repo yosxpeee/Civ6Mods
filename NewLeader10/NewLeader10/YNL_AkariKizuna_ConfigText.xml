@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Row Tag="LOC_CIVILIZATION_YNL_AKARI_KIZUNA_NAME" Language="en_US">
+			<Text>Union of Akari Kizuna Socialist Republics</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YNL_AKARI_KIZUNA_DESCRIPTION" Language="en_US">
+			<Text>Union of Akari Kizuna Socialist Republics</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_YNL_AKARI_KIZUNA_ADJECTIVE" Language="en_US">
+			<Text>Union of Akari Kizuna Socialist Republics</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA_NAME" Language="en_US">
+			<Text>Onion fields of the kolkhoz</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TradeRoute] Trade Routes between multiple continents receive +2 [ICON_Production] Production for routes between your own cities. +1 [ICON_Housing] Housing from Thearther/Campus/Commercial Hub/Aqueduct adjacent to Bonus Resouces. +1 [ICON_SCIENCE] Science and +1 [ICON_CULTURE] Sulture from Theater adjacent to mine.</Text>
+		</Row>
+		
+		<!-- 指導者 -->
+		<Row Tag="LOC_LEADER_YNL_AKARI_KIZUNA_NAME" Language="en_US">
+			<Text>Akari Kizuna</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_AKARI_KIZUNA_NAME" Language="en_US">
+			<Text>Greed Eater</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_AKARI_KIZUNA_DESCRIPTION" Language="en_US">
+			<Text>Allows Farms to be built on Tundra terrain. After Civil Engineering is unlocked Farms can be built on Tundra Hills. +50% [ICON_Production] Production toward Builders. +1 [ICON_Food] Food from all bonus resouces.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_AKARI_KIZUNA_DOM_TEXT" Language="en_US">
+			<Text>I'm a greedy, You're next.</Text>
+		</Row>
+		
+		<!-- UU -->
+		<Row Tag="LOC_UNIT_YNL_AKARI_HESSIANS_NAME" Language="en_US">
+			<Text>Hessian</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_AKARI_HESSIANS_DESCRIPTION" Language="en_US">
+			<Text>Union of Akari Kizuna Socialist Republics unique unit that replaces the Musket Man. Stronger than the Musket Man. When they eliminate a unit, they heal up to 50 hit points.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_AKARI_HESSIANS_NAME" Language="en_US">
+			<Text>Union of Akari Kizuna Socialist Republics unique unit: Hessian</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_AKARI_HESSIANS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UI -->
+		<Row Tag="LOC_IMPROVEMENT_YNL_AKARI_TERRACES_NAME" Language="en_US">
+			<Text>Akari Highland Farm</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_YNL_AKARI_TERRACES_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Akari Highland Farm, unique to Union of Akari Kizuna Socialist Republics.[NEWLINE][NEWLINE]+1 [ICON_Food] Food, +1 [ICON_Food] Food for each adjacent Mountains. +1 [ICON_Production] Production for each adjacent Plantation and Quarry. +2 [ICON_Production] Production for each adjacent Industrial Zone. Can be built on Hills. </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_AKARI_TERRACES_NAME" Language="en_US">
+			<Text>Union of Akari Kizuna Socialist Republics unique improvement: Akari Highland Farm</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YNL_AKARI_TERRACES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+		<!-- UB -->
+		<Row Tag="LOC_BUILDING_YNL_VOICELOID_BIG_THEATER_NAME" Language="en_US">
+			<Text>Voiceloid Big Theater</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_YNL_VOICELOID_BIG_THEATER_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Union of Akari Kizuna Socialist Republics. Replaces the Amphitheater and cheaper to build. +1 additional [ICON_CULTURE] Culture for each era since constructed or last repaired. +1 [ICON_Housing] Housing.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER_NAME" Language="en_US">
+			<Text>Union of Akari Kizuna Socialist Republics unique building: Voiceloid Big Theater</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_VOICELOID_BIG_THEATER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>

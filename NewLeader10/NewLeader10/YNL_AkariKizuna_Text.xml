@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKARI_KIZUNA_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>She illuminates you all with her voice.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKARI_KIZUNA_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKARI_KIZUNA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKARI_KIZUNA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_1" Language="en_US">
+			<Text>Chuck Mustang</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_2" Language="en_US">
+			<Text>Messer Ihlefeld</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_3" Language="en_US">
+			<Text>Keith Aero Windermere</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_4" Language="en_US">
+			<Text>Roid Brehm</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_1" Language="en_US">
+			<Text>Freyja Wion</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_2" Language="en_US">
+			<Text>Mikumo Guynemer</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_3" Language="en_US">
+			<Text>Kaname Buccaneer</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_4" Language="en_US">
+			<Text>Makina Nakajima</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_5" Language="en_US">
+			<Text>Mirage Farina Jenius</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_1" Language="en_US">
+			<Text>Sirius</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_2" Language="en_US">
+			<Text>Arcturus</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_3" Language="en_US">
+			<Text>Achernar</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_4" Language="en_US">
+			<Text>Aldebaran</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_5" Language="en_US">
+			<Text>Antares</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_6" Language="en_US">
+			<Text>Canopus</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_7" Language="en_US">
+			<Text>Capella</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_8" Language="en_US">
+			<Text>Spica</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_9" Language="en_US">
+			<Text>Deneb</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_10" Language="en_US">
+			<Text>Fomalhaut</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_11" Language="en_US">
+			<Text>Procyon</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_12" Language="en_US">
+			<Text>Vega</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_13" Language="en_US">
+			<Text>Betelgeuse</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_14" Language="en_US">
+			<Text>Pollux</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_15" Language="en_US">
+			<Text>Rigel</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_16" Language="en_US">
+			<Text>Regulus</Text>
+		</Row>
+		
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_YNL_AKARI_KIZUNA_QUOTE" Language="en_US">
+			<Text>I'm Hungry...</Text>
+		</Row>
+
+		<!-- Unit Ability -->
+		<Row Tag="LOC_ABILITY_YNL_AKARI_HESSIANS_NAME" Language="en_US">
+			<Text>Hessian's Power Attack</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_AKARI_HESSIANS_DESCRIPTION" Language="en_US">
+			<Text>When they eliminate a unit, they heal up to 50 hit points.</Text>
+		</Row>
+
+		<!-- UI Description -->
+		<Row Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD1" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD2" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD3" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD4" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD5" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

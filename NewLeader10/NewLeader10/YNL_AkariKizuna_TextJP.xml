@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKARI_KIZUNA_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>縁で結ばれた人達（星）との紲を灯で照らす</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKARI_KIZUNA_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>名前の由来とは何の関係もなく食料・生産のボーナスに特化した仕様。文明アイコンもおにぎりだし仕方ないね。世界を食らいつくすのだ。</Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKARI_KIZUNA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>紲星あかり（キズナアカリ）とは、VOICEROID2およびVOCALOID4用の音声ライブラリ、またはそのイメージキャラクターである。2017年12月22日にVOICEROID2が発売。2018年04月26日にVOCALOID4が発売された。声を担当するのは声優の米澤円氏。</Text>
+		</Replace>
+
+		<!-- Civilization specific historical text. -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKARI_KIZUNA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>なんとなくソ連っぽいものにしてみましたが、特に理由はありません_(:3 ⌒゛)_</Text>
+		</Replace>
+
+		<!-- Civlization Citizen Names -->
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_1" Language="ja_JP">
+			<Text>チャック・マスタング</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_2" Language="ja_JP">
+			<Text>メッサー・イーレフェルト</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_3" Language="ja_JP">
+			<Text>キース・エアロ・ウィンダミア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_MALE_4" Language="ja_JP">
+			<Text>ロイド・ブレーム</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_1" Language="ja_JP">
+			<Text>フレイア・ヴィオン</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_2" Language="ja_JP">
+			<Text>美雲・ギンヌメール</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_3" Language="ja_JP">
+			<Text>カナメ・バッカニア</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_4" Language="ja_JP">
+			<Text>マキナ・中島</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YOSXPEEE_SAMPLE_FEMALE_5" Language="ja_JP">
+			<Text>ミラージュ・ファリーナ・ジーナス</Text>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_1" Language="ja_JP">
+			<Text>シリウス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_2" Language="ja_JP">
+			<Text>アークトゥルス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_3" Language="ja_JP">
+			<Text>アケルナル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_4" Language="ja_JP">
+			<Text>アルデバラン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_5" Language="ja_JP">
+			<Text>アンタレス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_6" Language="ja_JP">
+			<Text>カノープス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_7" Language="ja_JP">
+			<Text>カペラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_8" Language="ja_JP">
+			<Text>スピカ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_9" Language="ja_JP">
+			<Text>デネブ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_10" Language="ja_JP">
+			<Text>フォーマルハウト</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_11" Language="ja_JP">
+			<Text>プロキオン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_12" Language="ja_JP">
+			<Text>ベガ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_13" Language="ja_JP">
+			<Text>ベテルギウス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_14" Language="ja_JP">
+			<Text>ポルックス</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_15" Language="ja_JP">
+			<Text>リゲル</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YOSXPEEE_SAMPLE_CITY_16" Language="ja_JP">
+			<Text>レグルス</Text>
+		</Replace>
+		
+		<!-- Leader Quotes -->
+		<Replace Tag="LOC_LEADER_YNL_AKARI_KIZUNA_QUOTE" Language="ja_JP">
+			<Text>お腹すいた・・・</Text>
+		</Replace>
+
+		<!-- Unit Ability -->
+		<Replace Tag="LOC_ABILITY_YNL_AKARI_HESSIANS_NAME" Language="ja_JP">
+			<Text>ヘシアンの猛攻</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_AKARI_HESSIANS_DESCRIPTION" Language="ja_JP">
+			<Text>敵ユニットを撃破するとヒットポイントが50回復する。</Text>
+		</Replace>
+
+		<!-- UI Description -->
+		<Replace Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD1" Language="ja_JP">
+			<Text>隣接する山岳タイルにより [ICON_Food] 食料+{1_num}。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD2" Language="ja_JP">
+			<Text>隣接する山岳タイルにより [ICON_Food] 食料+{1_num}。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD3" Language="ja_JP">
+			<Text>隣接する山岳タイルにより [ICON_Food] 食料+{1_num}。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD4" Language="ja_JP">
+			<Text>隣接する山岳タイルにより [ICON_Food] 食料+{1_num}。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD5" Language="ja_JP">
+			<Text>隣接する山岳タイルにより [ICON_Food] 食料+{1_num}。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

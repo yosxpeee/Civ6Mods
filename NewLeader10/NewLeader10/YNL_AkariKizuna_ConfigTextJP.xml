@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_YNL_AKARI_KIZUNA_NAME" Language="ja_JP">
+			<Text>紲星あかり社会主義共和国連邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YNL_AKARI_KIZUNA_DESCRIPTION" Language="ja_JP">
+			<Text>紲星あかり社会主義共和国連邦</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YNL_AKARI_KIZUNA_ADJECTIVE" Language="ja_JP">
+			<Text>紲星あかり社会主義共和国連邦の</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA_NAME" Language="ja_JP">
+			<Text>コルホーズの玉ねぎ畑</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_AKARI_KIZUNA_DESCRIPTION" Language="ja_JP">
+			<Text>国内交易路の [ICON_Production] 生産力+2。ボーナス資源に隣接した劇場広場/キャンパス/商業ハブ/用水路から [ICON_Housing] 住宅+1。劇場広場に隣接した鉱山から [ICON_SCIENCE] 科学力+1、[ICON_CULTURE] 文化力+1。</Text>
+		</Replace>
+
+		<!-- 指導者 -->
+		<Replace Tag="LOC_LEADER_YNL_AKARI_KIZUNA_NAME" Language="ja_JP">
+			<Text>紲星あかり</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_AKARI_KIZUNA_NAME" Language="ja_JP">
+			<Text>食欲旺盛</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_AKARI_KIZUNA_DESCRIPTION" Language="ja_JP">
+			<Text>ツンドラ地形に農場を作れる。「土木工学」の解除後は、ツンドラの丘陵に農場を作れるようになる。労働者の生産速度が50%向上、ボーナス資源から [ICON_Food] 食料+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_AKARI_KIZUNA_DOM_TEXT" Language="ja_JP">
+			<Text>なんでも食べる大食系後輩です☆彡</Text>
+		</Replace>
+		
+		<!-- UU -->
+		<Replace Tag="LOC_UNIT_YNL_AKARI_HESSIANS_NAME" Language="ja_JP">
+			<Text>ヘシアン</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_AKARI_HESSIANS_DESCRIPTION" Language="ja_JP">
+			<Text>マスケット兵に取ってかわる紲星あかり社会主義共和国連邦のルネサンス時代のユニット。マスケット兵よりも強力。敵ユニットを撃破するとヒットポイントが50回復する。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_AKARI_HESSIANS_NAME" Language="ja_JP">
+			<Text>紲星あかり社会主義共和国連邦固有のユニット: ヘシアン</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_AKARI_HESSIANS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_YNL_AKARI_TERRACES_NAME" Language="ja_JP">
+			<Text>あかり高地農場</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YNL_AKARI_TERRACES_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が紲星あかり社会主義共和国連邦固有の施設であるあかり高地農場を建設できるようになる。[NEWLINE][NEWLINE][ICON_Food] 食料+1。隣接する山岳1つにつき [ICON_Food] 食料+1。隣接する採石場、プランテーション1つにつき [ICON_Production] 生産力+1。隣接する工業地帯1つにつき [ICON_Production] 生産力+2。丘陵にのみ建設可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_AKARI_TERRACES_NAME" Language="ja_JP">
+			<Text>紲星あかり社会主義共和国連邦固有の地形改善: あかり高地農場</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YNL_AKARI_TERRACES_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- UB -->
+		<Replace Tag="LOC_BUILDING_YNL_VOICELOID_BIG_THEATER_NAME" Language="ja_JP">
+			<Text>ボイスロイド大劇場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YNL_VOICELOID_BIG_THEATER_DESCRIPTION" Language="ja_JP">
+			<Text>紲星あかり社会主義共和国連邦固有の建造物。円形闘技場に取ってかわり、より安価に建設できる。建設または最後の修復後、時代が進むごとに [ICON_CULTURE] 文化力+1。[ICON_Housing] 住宅+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER_NAME" Language="ja_JP">
+			<Text>紲星あかり社会主義共和国連邦固有の建造物: ボイスロイド大劇場</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_VOICELOID_BIG_THEATER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

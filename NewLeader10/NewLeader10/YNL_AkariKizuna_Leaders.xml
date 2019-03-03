@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 指導者そのものの定義 -->
+		<Row Type="LEADER_YNL_AKARI_KIZUNA" Kind="KIND_LEADER" />
+		<!-- 指導者特性 -->
+		<Row Type="TRAIT_LEADER_YNL_AKARI_KIZUNA" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YNL_AKARI_KIZUNA</LeaderType>
+			<Name>LOC_LEADER_YNL_AKARI_KIZUNA_NAME</Name>
+			<Sex>Female</Sex>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YNL_AKARI_KIZUNA" Quote="LOC_LEADER_YNL_AKARI_KIZUNA_QUOTE"/>
+	</LeaderQuotes>
+
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YNL_AKARI_KIZUNA" TraitType="TRAIT_LEADER_YNL_AKARI_KIZUNA"/>
+	</LeaderTraits>
+
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YNL_AKARI_KIZUNA" Name="LOC_TRAIT_LEADER_YNL_AKARI_KIZUNA_NAME" Description="LOC_TRAIT_LEADER_YNL_AKARI_KIZUNA_DESCRIPTION"/>
+	</Traits>
+
+	<!-- 指導者特性 -->
+	<TraitModifiers>
+		<!-- ツンドラに農場(GSのカナダ) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TUNDRA_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TUNDRA_HILLS_FARMS</ModifierId>
+		</Row>
+		<!-- 労働者の生産力50%アップ -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_BUILDER_PRODUCTION_YNL_AKARI_KIZUNA</ModifierId>
+		</Row>
+		<!-- ボーナス資源から食料+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_AKARI_KIZUNA</TraitType>
+			<ModifierId>TRAIT_BONUS_RESOUCES_FROM_FOOD_YNL</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- 労働者の生産力50%アップ -->
+		<Row>
+			<ModifierId>TRAIT_BUILDER_PRODUCTION_YNL_AKARI_KIZUNA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- ボーナス資源から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_BONUS_RESOUCES_FROM_FOOD_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_BONUS_FOODS_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 労働者の生産力50%アップ -->
+		<Row>
+			<ModifierId>TRAIT_BUILDER_PRODUCTION_YNL_AKARI_KIZUNA</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BUILDER_PRODUCTION_YNL_AKARI_KIZUNA</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- ボーナス資源から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_BONUS_RESOUCES_FROM_FOOD_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BONUS_RESOUCES_FROM_FOOD_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<!-- 領内にあるボーナス資源 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_BONUS_FOODS_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- 領内にあるボーナス資源 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_BONUS_FOODS_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_BONUS</RequirementId><!-- バニラにある -->
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+
+	</Requirements>
+	<RequirementArguments>
+
+	</RequirementArguments>
+
+	<!-- アジェンダ -->
+	<HistoricalAgendas>
+		<!-- インカと同じ -->
+		<Row LeaderType="LEADER_YNL_AKARI_KIZUNA" AgendaType="AGENDA_SAPA_INCA"/>
+	</HistoricalAgendas>
+	<!-- AIの好みの親定義 -->
+	<AiListTypes>
+		<Row ListType="YNL_AkariKizunaWonders"/>
+		<Row ListType="YNL_AkariKizunaCivics"/>
+		<Row ListType="YNL_AkariKizunaTechs"/>
+		<Row ListType="YNL_AkariKizunaDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- 遺産 -->
+		<Row ListType="YNL_AkariKizunaWonders"  LeaderType="TRAIT_LEADER_YNL_AKARI_KIZUNA" System="Buildings"/>
+		<!-- 社会制度 -->
+		<Row ListType="YNL_AkariKizunaCivics"   LeaderType="TRAIT_LEADER_YNL_AKARI_KIZUNA" System="Civics"/>
+		<!-- テクノロジー -->
+		<Row ListType="YNL_AkariKizunaTechs"    LeaderType="TRAIT_LEADER_YNL_AKARI_KIZUNA" System="Technologies"/>
+		<!-- 区域 -->
+		<Row ListType="YNL_AkariKizunaDistrict" LeaderType="TRAIT_LEADER_YNL_AKARI_KIZUNA" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- 遺産 -->
+		<!-- 大浴場、ピラミッド、ルール地方、エルミタージュ美術館、ボリショイ劇場、エッフェル塔 -->
+		<Row ListType="YNL_AkariKizunaWonders" Item="BUILDING_GREAT_BATH"/>
+		<Row ListType="YNL_AkariKizunaWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="YNL_AkariKizunaWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="YNL_AkariKizunaWonders" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="YNL_AkariKizunaWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="YNL_AkariKizunaWonders" Item="BUILDING_EIFFEL_TOWER"/>
+		<!-- 社会制度 -->
+		<!-- 政治哲学、演劇と詩、ヒューマニズム、オペラとバレエ、都市化-->
+		<Row ListType="YNL_AkariKizunaCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="YNL_AkariKizunaCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="YNL_AkariKizunaCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="YNL_AkariKizunaCivics" Item="CIVIC_OPERA_BALLET"/>
+		<Row ListType="YNL_AkariKizunaCivics" Item="CIVIC_URBANIZATION"/>
+		<!-- テクノロジー -->
+		<!-- 弓術、通貨、徒弟制度、軍事工学、火薬、印刷、 コンピューター、工業化 -->
+		<Row ListType="YNL_AkariKizunaTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="YNL_AkariKizunaTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_AkariKizunaTechs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="YNL_AkariKizunaTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_AkariKizunaTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="YNL_AkariKizunaTechs" Item="TECH_PRINTING"/>
+		<Row ListType="YNL_AkariKizunaTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_AkariKizunaTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 区域 -->
+		<!-- 劇場広場、工業地帯 -->
+		<Row ListType="YNL_AkariKizunaDistrict" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="YNL_AkariKizunaDistrict" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
+	</AiFavoredItems>
+	
+	<!-- ローディング画面、外交画面 -->
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YNL_AKARI_KIZUNA" BackgroundImage="ynl_loding_akari_kizuna.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_AKARI_KIZUNA.dds" LeaderText="LOC_LEADER_AKARI_KIZUNA_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_YNL_AKARI_KIZUNA" BackgroundImage="ynl_diplo_akari_kizuna.dds"/>
+	</DiplomacyInfo>
+</GameData>

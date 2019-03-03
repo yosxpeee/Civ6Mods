@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- 指導者アイコン -->
+		<Row Name="ICON_ATLAS_YNL_AKARI_LEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKARI32"/>
+		<Row Name="ICON_ATLAS_YNL_AKARI_LEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKARI45"/>
+		<Row Name="ICON_ATLAS_YNL_AKARI_LEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKARI50"/>
+		<Row Name="ICON_ATLAS_YNL_AKARI_LEADER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKARI55"/>
+		<Row Name="ICON_ATLAS_YNL_AKARI_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKARI64"/>
+		<Row Name="ICON_ATLAS_YNL_AKARI_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKARI80"/>
+		<Row Name="ICON_ATLAS_YNL_AKARI_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_YNL_AKARI256"/>
+		<!-- 文明アイコン -->
+		<!-- 45x45のものだけフルカラー、残りは透過と白（黒固定にしたい箇所があれば黒もOK）で作っておくと、マルチプレイ時の文明色指定で正しく表示される -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_YNL_AKARI256.dds"/>
+		<!-- UU -->
+		<Row Name="ICON_ATLAS_UNITS_YNL_UU_HESSIANS"                   IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS256.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_UU_HESSIANS"                   IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS80.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_UU_HESSIANS"                   IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS50.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_UU_HESSIANS"                   IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS38.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_UU_HESSIANS"                   IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS32.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_UU_HESSIANS"                   IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS22.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_UU_HESSIANS_FOW"               IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_UU_HESSIANS_FLAG_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_UU_HESSIANS_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_UU_HESSIANS_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_UU_HESSIANS_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_UU_HESSIANS32.dds"/>
+		<!-- UI -->
+		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_AKARI_TERRACES" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_AKARI_TERRACES38.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_AKARI_TERRACES" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_AKARI_TERRACES50.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_AKARI_TERRACES" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_AKARI_TERRACES80.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_AKARI_TERRACES" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_AKARI_TERRACES256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- 文明 -->
+		<Row Name="ICON_CIVILIZATION_YNL_AKARI_KIZUNA" Atlas="ICON_ATLAS_CIVILIZATION_YNL_UAKSR" Index="0"/>
+		<!-- 指導者 -->
+		<Row Name="ICON_LEADER_YNL_AKARI_KIZUNA"       Atlas="ICON_ATLAS_YNL_AKARI_LEADER"       Index="0"/>
+		<!-- UU -->
+		<!-- ヘシアン(ポートレイトはマスケット兵の使いまわし) -->
+		<Row Name="ICON_UNIT_YNL_AKARI_HESSIANS_WHITE"                      Atlas="ICON_ATLAS_UNIT_YNL_UU_HESSIANS_FLAG_SYMBOLS_WHITE" Index="0" />
+		<Row Name="ICON_UNIT_YNL_AKARI_HESSIANS_BLACK"                      Atlas="ICON_ATLAS_UNIT_YNL_UU_HESSIANS_FLAG_SYMBOLS_BLACK" Index="0" />
+		<Row Name="ICON_UNIT_YNL_AKARI_HESSIANS"                            Atlas="ICON_ATLAS_UNITS_YNL_UU_HESSIANS"                   Index="0" />
+		<Row Name="ICON_UNIT_YNL_AKARI_HESSIANS_FOW"                        Atlas="ICON_ATLAS_UNITS_YNL_UU_HESSIANS_FOW"               Index="0" />
+		<Row Name="ICON_UNIT_YNL_AKARI_HESSIANS_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                          Index="51"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_AKARI_HESSIANS_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"                    Index="51"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_AKARI_HESSIANS_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"            Index="51"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_AKARI_HESSIANSPORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"           Index="51"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_AKARI_HESSIANSPORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"                  Index="51"/>
+		<!-- UI -->
+		<!-- 高地農場 -->
+		<Row Name="ICON_IMPROVEMENT_YNL_AKARI_TERRACES" Atlas="ICON_ATLAS_IMPROVEMENT_YNL_AKARI_TERRACES" Index="0"/>
+		<!-- UB -->
+		<!-- ボイスロイド大劇場(円形闘技場の使いまわし) -->
+		<Row Name="ICON_BUILDING_YNL_VOICELOID_BIG_THEATER"     Atlas="ICON_ATLAS_BUILDINGS"     Index="16"/>
+		<Row Name="ICON_BUILDING_YNL_VOICELOID_BIG_THEATER_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="16"/>
+	</IconDefinitions>
+</GameData>
