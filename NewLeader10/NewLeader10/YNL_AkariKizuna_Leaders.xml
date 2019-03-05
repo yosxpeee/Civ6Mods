@@ -16,6 +16,11 @@
 		</Row>
 	</Leaders>
 
+	<!-- 指導者が好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_YNL_AKARI_KIZUNA" ReligionType="RELIGION_ZOROASTRIANISM"/>
+	</FavoredReligions>
+	
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_YNL_AKARI_KIZUNA" Quote="LOC_LEADER_YNL_AKARI_KIZUNA_QUOTE"/>
