@@ -34,9 +34,10 @@
 	</Improvement_ValidBuildUnits>
 	<!-- 地形改善時の出力変更 -->
 	<Improvement_YieldChanges>
-		<!-- 高地農場：食料+1、生産力+0(0なのに記述するのは隣接ボーナスで必要なため) -->
+		<!-- 高地農場：食料+1、生産力+0、ゴールド+0(0なのに記述するのは隣接ボーナスで必要なため) -->
 		<Row ImprovementType="IMPROVEMENT_YNL_AKARI_TERRACES" YieldType="YIELD_FOOD"       YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_YNL_AKARI_TERRACES" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_AKARI_TERRACES" YieldType="YIELD_GOLD"       YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<!-- 社会制度・テクノロジー取得による追加ボーナス -->
 	<Improvement_BonusYieldChanges>
