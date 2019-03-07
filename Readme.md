@@ -16,6 +16,10 @@ NewLeader7:Yossie's New Leader - Akitsumaru
 ![image](docs/images/ynl_Akitumaru.png)  
 NewLeader8:Yossie's New Leader - Mesugaki(Kururu)  
 ![image](docs/images/ynl_mesugaki.jpg)  
+NewLeader9:Yossie's New Leader - Tamamo No Mae  
+![image](docs/images/ynl_tamamo.png)  
+NewLeader10:Yossie's New Leader - Akari Kizuna)  
+![image](docs/images/ynl_AkariKizuna.png)  
 ## Japanese Translation Civ&Leader MOD(not my original)
 JPTranslation_KingdomofHyrule:The Kingdom of Hyrule  
 *Original Author:decster584*  
