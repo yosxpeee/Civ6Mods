@@ -65,11 +65,11 @@
 		<Row ID="YNLAkariTerraces_Mine_Production"       Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_QUARRY"/>
 		<Row ID="YNLAkariTerraces_Plantation_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
 		<!-- 高地農場：山岳から食料+1-->
-		<Row ID="YNLAkariTerraces_Mountains_Food1"       Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD1" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
-		<Row ID="YNLAkariTerraces_Mountains_Food2"       Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD2" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
-		<Row ID="YNLAkariTerraces_Mountains_Food3"       Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD3" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
-		<Row ID="YNLAkariTerraces_Mountains_Food4"       Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD4" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
-		<Row ID="YNLAkariTerraces_Mountains_Food5"       Description="LOC_DISTRICT_YOSXPEEE_SAMPLE_MOUNTAINS_FOOD5" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row ID="YNLAkariTerraces_Mountains_Food1"       Description="LOC_DISTRICT_YNL_AKARI_KIZUNA_MOUNTAINS_FOOD1" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ID="YNLAkariTerraces_Mountains_Food2"       Description="LOC_DISTRICT_YNL_AKARI_KIZUNA_MOUNTAINS_FOOD2" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ID="YNLAkariTerraces_Mountains_Food3"       Description="LOC_DISTRICT_YNL_AKARI_KIZUNA_MOUNTAINS_FOOD3" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ID="YNLAkariTerraces_Mountains_Food4"       Description="LOC_DISTRICT_YNL_AKARI_KIZUNA_MOUNTAINS_FOOD4" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ID="YNLAkariTerraces_Mountains_Food5"       Description="LOC_DISTRICT_YNL_AKARI_KIZUNA_MOUNTAINS_FOOD5" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>
 	</Adjacency_YieldChanges>
 	<!-- 観光力ボーナス -->
 	<Improvement_Tourism>
