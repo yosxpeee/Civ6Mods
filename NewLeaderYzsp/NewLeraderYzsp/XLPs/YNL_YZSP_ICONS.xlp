@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/YNL_YZSP_ICONS"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_YZSP256"/>
+			<m_ObjectName text="ICON_YNL_LEADER_YZSP256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_YZSP32"/>
+			<m_ObjectName text="ICON_YNL_LEADER_YZSP32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_YZSP45"/>
+			<m_ObjectName text="ICON_YNL_LEADER_YZSP45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_YZSP50"/>
+			<m_ObjectName text="ICON_YNL_LEADER_YZSP50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_YZSP55"/>
+			<m_ObjectName text="ICON_YNL_LEADER_YZSP55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_YZSP64"/>
+			<m_ObjectName text="ICON_YNL_LEADER_YZSP64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_YZSP80"/>
+			<m_ObjectName text="ICON_YNL_LEADER_YZSP80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD22"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD30"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD36"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD44"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD45"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD48"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD50"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD64"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD80"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CIV_AMLD256"/>
+			<m_ObjectName text="ICON_YNL_CIV_AMLD256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE22"/>
+			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE32"/>
+			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE38"/>
+			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE50"/>
+			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE80"/>
+			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE256"/>
+			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>

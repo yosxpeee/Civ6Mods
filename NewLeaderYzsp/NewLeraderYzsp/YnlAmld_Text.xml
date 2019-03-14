@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AMLD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>https://wiki.yjsnpi.nu/%E6%B7%AB%E5%A4%A2%E5%B9%B4%E8%A1%A8</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_1" Language="en_US">
+			<Text>YSKN</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_2" Language="en_US">
+			<Text>Senior Ikusabata</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_3" Language="en_US">
+			<Text>KKW</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_4" Language="en_US">
+			<Text>SMJ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_5" Language="en_US">
+			<Text>TMBK</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_6" Language="en_US">
+			<Text>NOT</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_FEMALE_1" Language="en_US">
+			<Text>Mosaic Sister</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_FEMALE_2" Language="en_US">
+			<Text>Pinky</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_FEMALE_3" Language="en_US">
+			<Text>NRK</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_1" Language="en_US">
+			<Text>Shimokitazawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_2" Language="en_US">
+			<Text>Sugamo</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_3" Language="en_US">
+			<Text>Uguisudani</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_4" Language="en_US">
+			<Text>Hattyonawate</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_5" Language="en_US">
+			<Text>Sensoku</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_6" Language="en_US">
+			<Text>Asagaya</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_7" Language="en_US">
+			<Text>Mejiro</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_8" Language="en_US">
+			<Text>Hatanodai</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_9" Language="en_US">
+			<Text>Jiyugaoka</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_10" Language="en_US">
+			<Text>Sendagaya</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_11" Language="en_US">
+			<Text>MinamiSenjyu</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_12" Language="en_US">
+			<Text>Shinkiba</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_13" Language="en_US">
+			<Text>Togoshiginza</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE" Language="en_US">
+			<Text>I'm 24 old, and Leader.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

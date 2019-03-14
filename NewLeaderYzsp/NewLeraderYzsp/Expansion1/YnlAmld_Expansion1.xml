@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表 -->
+	<MomentIllustrations>
+		<!-- 迫真空手部員 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_HAKUSHIN_KARATE"
+			 Texture="YNL_MOMENT_UNIT_YNL_HAKUSHIN_KARATE.dds"/>
+		<!-- 野獣先輩BB -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
+			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
+			 GameDataType="IMPROVEMENT_YNL_YZSP_BB"
+			 Texture="YNL_MOMENT_IMPROVEMENT_YNL_YZSP_BB.dds"/>
+		<!-- 屋上 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_YNL_ROOFTOP"
+			 Texture="YNL_MOMENT_BUILDING_YNL_ROOFTOP.dds"/>
+	</MomentIllustrations>
+</GameData>

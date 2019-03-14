@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 文明そのものの定義 -->
+		<Row Type="CIVILIZATION_YNL_AMLD" Kind="KIND_CIVILIZATION" />
+		<!-- 文明特性の定義 -->
+		<Row Type="TRAIT_CIVILIZATION_YNL_AMLD" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<Name>LOC_CIVILIZATION_YNL_AMLD_NAME</Name>
+			<Description>LOC_CIVILIZATION_YNL_AMLD_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_YNL_AMLD_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>13</RandomCityNameDepth>
+		</Row>
+	</Civilizations>
+
+	<!-- 文明に属する指導者と首都 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_KOJI_TADOKORO" CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_1" />
+	</CivilizationLeaders>
+
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<!-- 文明特性 -->
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" TraitType="TRAIT_CIVILIZATION_YNL_AMLD" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE"/>
+	</CivilizationTraits>
+
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AMLD" Name="LOC_TRAIT_CIVILIZATION_YNL_AMLD_NAME" Description="LOC_TRAIT_CIVILIZATION_YNL_AMLD_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB_NAME" />
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE" Name="LOC_TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE_NAME"/>
+	</Traits>
+	
+	<!-- 文明特性 -->
+	<TraitModifiers>
+		<!-- 熱帯雨林から商業ハブに隣接ボーナス(バニラのブラジル) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_AMAZON_RAINFOREST_COMMERCIALHUB_ADJACENCY</ModifierId>
+		</Row>
+		<!-- 熱帯雨林から聖地に隣接ボーナス(バニラのブラジル) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_AMAZON_RAINFOREST_HOLYSITE_ADJACENCY</ModifierId>
+		</Row>
+		<!-- 熱帯雨林からキャンパスに隣接ボーナス(バニラのブラジル) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_AMAZON_RAINFOREST_CAMPUS_ADJACENCY</ModifierId>
+		</Row>
+		<!-- 熱帯雨林から劇場広場に隣接ボーナス(バニラのブラジル) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_AMAZON_RAINFOREST_THEATER_ADJACENCY</ModifierId>
+		</Row>
+		<!-- 領内のお茶から文化を得る -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_TEA</ModifierId>
+		</Row>
+		<!-- 領内の砂糖から文化を得る -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SUGAR</ModifierId>
+		</Row>
+		<!-- 領内の香辛料から文化を得る -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SPICES</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_TEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>YZSP_RESOURCE_IS_TEA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SUGAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>YZSP_RESOURCE_IS_SUGAR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SPICES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>YZSP_RESOURCE_IS_SPICES</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_TEA</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_TEA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SUGAR</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SUGAR</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SPICES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SPICES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>YZSP_RESOURCE_IS_TEA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>YZSP_RESOURCE_IS_SUGAR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>YZSP_RESOURCE_IS_SPICES</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>YZSP_RESOURCE_IS_TEA</RequirementSetId>
+			<RequirementId>YZSP_REQUIRES_TEA_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YZSP_RESOURCE_IS_SUGAR</RequirementSetId>
+			<RequirementId>YZSP_REQUIRES_SUGAR_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YZSP_RESOURCE_IS_SPICES</RequirementSetId>
+			<RequirementId>YZSP_REQUIRES_SPICES_IN_PLOT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>YZSP_REQUIRES_TEA_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>YZSP_REQUIRES_SUGAR_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>YZSP_REQUIRES_SPICES_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>YZSP_REQUIRES_TEA_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_TEA</Value>
+		</Row>
+		<Row>
+			<RequirementId>YZSP_REQUIRES_SUGAR_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SUGAR</Value>
+		</Row>
+		<Row>
+			<RequirementId>YZSP_REQUIRES_SPICES_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SPICES</Value>
+		</Row>
+	</RequirementArguments>
+			
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_5" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_6" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_FEMALE_3" Female="1"/>
+	</CivilizationCitizenNames>
+	
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_10" />
+	</CityNames>
+
+	<!-- スタート地点バイアス -->
+	<StartBiasResources>
+		<!-- お茶、砂糖、香辛料 -->
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" ResourceType="RESOURCE_TEA" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" ResourceType="RESOURCE_SUGAR" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" ResourceType="RESOURCE_SPICES" Tier="5"/>
+	</StartBiasResources>
+	<StartBiasFeatures>
+		<!-- 熱帯雨林 -->
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" FeatureType="FEATURE_JUNGLE" Tier="2"/>
+	</StartBiasFeatures>
+</GameData>

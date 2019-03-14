@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 河川名 -->
+		<Replace Tag="LOC_NAMED_RIVER_YZSP_1_NAME" Language="ja_JP">
+			<Text>遠野川</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_RIVER_YZSP_2_NAME" Language="ja_JP">
+			<Text>TNOK川</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_RIVER_YZSP_3_NAME" Language="ja_JP">
+			<Text>MUR川</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_RIVER_YZSP_4_NAME" Language="ja_JP">
+			<Text>AKYS川</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_RIVER_YZSP_5_NAME" Language="ja_JP">
+			<Text>COAT川</Text>
+		</Replace>
+		<!-- 火山名 -->
+		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_1_NAME" Language="ja_JP">
+			<Text>893931岳</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_2_NAME" Language="ja_JP">
+			<Text>DB山</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_3_NAME" Language="ja_JP">
+			<Text>SNJ山</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_4_NAME" Language="ja_JP">
+			<Text>TDN岳</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_5_NAME" Language="ja_JP">
+			<Text>ひで火山</Text>
+		</Replace>
+		<!-- 山脈名 -->
+		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_1_NAME" Language="ja_JP">
+			<Text>114514山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_2_NAME" Language="ja_JP">
+			<Text>KMR山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_3_NAME" Language="ja_JP">
+			<Text>DRVS山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_4_NAME" Language="ja_JP">
+			<Text>KBTIT山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_5_NAME" Language="ja_JP">
+			<Text>Acceed山脈</Text>
+		</Replace>
+		<!-- 砂漠名 -->
+		<Replace Tag="LOC_NAMED_DESERT_YZSP_1_NAME" Language="ja_JP">
+			<Text>364364砂漠</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_DESERT_YZSP_2_NAME" Language="ja_JP">
+			<Text>GO砂漠</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_DESERT_YZSP_3_NAME" Language="ja_JP">
+			<Text>KYN砂漠</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_DESERT_YZSP_4_NAME" Language="ja_JP">
+			<Text>野獣砂漠</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_DESERT_YZSP_5_NAME" Language="ja_JP">
+			<Text>ゆうさく砂漠</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>TDNの出演で波紋を呼んだゲイビデオ「真夏の夜の淫夢」に出演していた男優の一人。出演箇所は四章「昏睡レイプ!野獣と化した先輩」で、このタイトルから野獣先輩という名前で呼ばれるようになった。本編での役名は「田所（先輩）」。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>序盤は兵営から生産力がでる特性を使って迫真空手ラッシュをキメる。土地を確保したら野獣先輩BBを置けるだけ置いて文化勝利を狙うとよいでしょう。高難易度では屋上建設での野獣先輩BB強化が活きてくるはず。</Text>
+		</Replace>
+
+		<!-- Leader specific historical text. -->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1999年発売作品のインタビューでは24歳で学生、身長170cm、体重74kgと答えている。これが本当なら生誕は1975年(昭和50年)となり、2018年時点で43歳を迎えていると考えられる。	本名は一切名乗っておらず不明だが、ネット上では「田所浩二」という仮名で呼ばれている。これは前述の「淫夢」四章での役名と、ブーム突入直前の2011年に強制わいせつ容疑で逮捕された男性「田所浩治」をかけたものである。</Text>
+		</Replace>
+
+		<!-- Civilization specific historical text. -->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AMLD_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>https://wiki.yjsnpi.nu/淫夢年表</Text>
+		</Replace>
+
+		<!-- Civlization Citizen Names -->
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_1" Language="ja_JP">
+			<Text>YSKN</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_2" Language="ja_JP">
+			<Text>軍畑先輩</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_3" Language="ja_JP">
+			<Text>KKW</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_4" Language="ja_JP">
+			<Text>SMJ</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_5" Language="ja_JP">
+			<Text>TMBK</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_6" Language="ja_JP">
+			<Text>NOT</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_FEMALE_1" Language="ja_JP">
+			<Text>モザイク姉貴</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_FEMALE_2" Language="ja_JP">
+			<Text>ピンキー</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_FEMALE_3" Language="ja_JP">
+			<Text>NRK</Text>
+		</Replace>
+
+		<!-- Civilization City Names-->
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_1" Language="ja_JP">
+			<Text>下北沢</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_2" Language="ja_JP">
+			<Text>巣鴨</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_3" Language="ja_JP">
+			<Text>鶯谷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_4" Language="ja_JP">
+			<Text>八丁畷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_5" Language="ja_JP">
+			<Text>洗足</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_6" Language="ja_JP">
+			<Text>阿佐ヶ谷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_7" Language="ja_JP">
+			<Text>目白</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_8" Language="ja_JP">
+			<Text>旗の台</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_9" Language="ja_JP">
+			<Text>自由が丘</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_10" Language="ja_JP">
+			<Text>千駄ヶ谷</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_11" Language="ja_JP">
+			<Text>南千住</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_12" Language="ja_JP">
+			<Text>新木場</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_13" Language="ja_JP">
+			<Text>戸越銀座</Text>
+		</Replace>
+		
+		<!-- Leader Quotes -->
+		<Replace Tag="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE" Language="ja_JP">
+			<Text>24歳、指導者です。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

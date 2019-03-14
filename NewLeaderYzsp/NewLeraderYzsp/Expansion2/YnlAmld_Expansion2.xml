@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 地名定義 -->
+	<Types>
+		<Row Type="NAMED_RIVER_YZSP_1" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_YZSP_2" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_YZSP_3" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_YZSP_4" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_RIVER_YZSP_5" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_VOLCANO_YZSP_1" Kind="KIND_NAMED_VOLCANO"/>
+		<Row Type="NAMED_VOLCANO_YZSP_2" Kind="KIND_NAMED_VOLCANO"/>
+		<Row Type="NAMED_VOLCANO_YZSP_3" Kind="KIND_NAMED_VOLCANO"/>
+		<Row Type="NAMED_VOLCANO_YZSP_4" Kind="KIND_NAMED_VOLCANO"/>
+		<Row Type="NAMED_VOLCANO_YZSP_5" Kind="KIND_NAMED_VOLCANO"/>
+		<Row Type="NAMED_MOUNTAIN_YZSP_1" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_YZSP_2" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_YZSP_3" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_YZSP_4" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_YZSP_5" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_DESERT_YZSP_1" Kind="KIND_NAMED_DESERT"/>
+		<Row Type="NAMED_DESERT_YZSP_2" Kind="KIND_NAMED_DESERT"/>
+		<Row Type="NAMED_DESERT_YZSP_3" Kind="KIND_NAMED_DESERT"/>
+		<Row Type="NAMED_DESERT_YZSP_4" Kind="KIND_NAMED_DESERT"/>
+		<Row Type="NAMED_DESERT_YZSP_5" Kind="KIND_NAMED_DESERT"/>
+	</Types>
+
+	<!-- 河川名と訳文の紐づけ -->
+	<NamedRivers>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_1" Name="LOC_NAMED_RIVER_YZSP_1_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_2" Name="LOC_NAMED_RIVER_YZSP_2_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_3" Name="LOC_NAMED_RIVER_YZSP_3_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_4" Name="LOC_NAMED_RIVER_YZSP_4_NAME"/>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_5" Name="LOC_NAMED_RIVER_YZSP_5_NAME"/>
+	</NamedRivers>
+	<!-- 火山名と訳文の紐づけ -->
+	<NamedVolcanoes>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_1" Name="LOC_NAMED_VOLCANO_YZSP_1_NAME"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_2" Name="LOC_NAMED_VOLCANO_YZSP_2_NAME"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_3" Name="LOC_NAMED_VOLCANO_YZSP_3_NAME"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_4" Name="LOC_NAMED_VOLCANO_YZSP_4_NAME"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_5" Name="LOC_NAMED_VOLCANO_YZSP_5_NAME"/>
+	</NamedVolcanoes>
+	<!-- 山脈名と訳文の紐づけ -->
+	<NamedMountains>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_1" Name="LOC_NAMED_MOUNTAIN_YZSP_1_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_2" Name="LOC_NAMED_MOUNTAIN_YZSP_2_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_3" Name="LOC_NAMED_MOUNTAIN_YZSP_3_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_4" Name="LOC_NAMED_MOUNTAIN_YZSP_4_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_5" Name="LOC_NAMED_MOUNTAIN_YZSP_5_NAME"/>
+	</NamedMountains>
+	<!-- 砂漠名と訳文の紐づけ -->
+	<NamedDeserts>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_1" Name="LOC_NAMED_DESERT_YZSP_1_NAME"/>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_2" Name="LOC_NAMED_DESERT_YZSP_2_NAME"/>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_3" Name="LOC_NAMED_DESERT_YZSP_3_NAME"/>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_4" Name="LOC_NAMED_DESERT_YZSP_4_NAME"/>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_5" Name="LOC_NAMED_DESERT_YZSP_5_NAME"/>
+	</NamedDeserts>
+
+	<!-- 河川名と文明の紐づけ -->
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_1" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_2" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_3" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_4" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedRiverType="NAMED_RIVER_YZSP_5" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+	</NamedRiverCivilizations>
+	<!-- 火山名と文明の紐づけ -->
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_1" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_2" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_3" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_4" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_YZSP_5" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+	</NamedVolcanoCivilizations>
+	<!-- 山脈名と文明の紐づけ -->
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_1" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_2" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_3" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_4" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YZSP_5" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+	</NamedMountainCivilizations>
+	<!-- 砂漠名と文明の紐づけ -->
+	<NamedDesertCivilizations>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_1" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_2" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_3" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_4" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedDesertType="NAMED_DESERT_YZSP_5" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+	</NamedDesertCivilizations>
+</GameData>

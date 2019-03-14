@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- RaF追加アジェンダ -->
+		<!-- 堅物 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_CURMUDGEON_POSITIVE" Language="ja_JP">
+			<Text>偉大な指導者は異性の手管に心を奪われたりはしない。当たり前だよなあ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_CURMUDGEON_NEGATIVE" Language="ja_JP">
+			<Text>よく回る口だけど、他にやることはないのか？</Text>
+		</Replace>
+		<!-- 色好み -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_FLIRTATIOUS_POSITIVE" Language="ja_JP">
+			<Text>ずっとお前のことが好きだったんだよ！(迫真)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_FLIRTATIOUS_NEGATIVE" Language="ja_JP">
+			<Text>こっちの交友関係を妬むなよ、気持ち悪いなあ。</Text>
+		</Replace>
+		<!-- ゴシップ -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_GOSSIP_POSITIVE" Language="ja_JP">
+			<Text>よその国の秘密を知っている俺たちの関係は盤石だな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_GOSSIP_NEGATIVE" Language="ja_JP">
+			<Text>よく考えるんだけどさ、お前の口数が少ないのって、興味を引けるような話をろくに知らないんじゃないのか？</Text>
+		</Replace>
+		<!-- 追従 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="ja_JP">
+			<Text>こっちの詩人や哲学者たちは、そっちの文明をこの世の光として称賛しているゾ。俺も同じ意見だ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="ja_JP">
+			<Text>世界のお手本を目指してほしいゾ！お前が民を栄光に導けば、民はお前を愛するはずだ。</Text>
+		</Replace>
+		<!-- 人情家 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="ja_JP">
+			<Text>お前は我慢強いな。本当に強い。俺たちとしても感に堪えないゾ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_KOJI_TADOKORO_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
+			<Text>「栄光の時代」か、うらやましいなあ。お前が没落する日が今から楽しみだゾ。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

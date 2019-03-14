@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<!-- 河川名 -->
+		<Row Tag="LOC_NAMED_RIVER_YZSP_1_NAME">
+			<Text>Tohno River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_YZSP_2_NAME">
+			<Text>TNOK River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_YZSP_3_NAME">
+			<Text>MUR River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_YZSP_4_NAME">
+			<Text>AKYS River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_YZSP_5_NAME">
+			<Text>COAT River</Text>
+		</Row>
+		<!-- 火山名 -->
+		<Row Tag="LOC_NAMED_VOLCANO_YZSP_1_NAME">
+			<Text>Mount 893931</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_YZSP_2_NAME">
+			<Text>Mount DB</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_YZSP_3_NAME">
+			<Text>Mount SNJ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_YZSP_4_NAME">
+			<Text>Mount TDN</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_YZSP_5_NAME">
+			<Text>Hide Volcano</Text>
+		</Row>
+		<!-- 山脈名 -->
+		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_1_NAME">
+			<Text>114514 Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_2_NAME">
+			<Text>KMR Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_3_NAME">
+			<Text>DRVS Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_4_NAME">
+			<Text>KBTIT Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_5_NAME">
+			<Text>Acceed Mountains</Text>
+		</Row>
+		<!-- 砂漠名 -->
+		<Row Tag="LOC_NAMED_DESERT_YZSP_1_NAME">
+			<Text>364364 Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_YZSP_2_NAME">
+			<Text>GO Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_YZSP_3_NAME">
+			<Text>KYN Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_YZSP_4_NAME">
+			<Text>Beast Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_YZSP_5_NAME">
+			<Text>Yusaku Desert</Text>
+		</Row>
+	</EnglishText>
+</GameData>

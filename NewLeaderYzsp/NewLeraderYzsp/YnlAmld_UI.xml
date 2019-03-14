@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="IMPROVEMENT_YNL_YZSP_BB" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<!-- 地形改善のステータス -->
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB"
+			 Name="LOC_IMPROVEMENT_YNL_YZSP_BB_NAME"
+			 Description="LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION"
+			 Icon="ICON_IMPROVEMENT_YNL_YZSP_BB"
+			 PlunderType="PLUNDER_CULTURE" PlunderAmount="15" Buildable="true"
+			 RequiresAdjacentBonusOrLuxury="true" SameAdjacentValid="false" PrereqTech="TECH_MASONRY"
+			 TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB"/>
+	</Improvements>
+	<!-- 改善可能な地形 -->
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TerrainType="TERRAIN_GRASS_HILLS"/>
+	</Improvement_ValidTerrains>
+	<!-- 地形改善可能なユニット -->
+	<Improvement_ValidBuildUnits>
+		<!-- 労働者 -->
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<!-- 地形改善時の出力変更 -->
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" YieldType="YIELD_GOLD" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<!-- 社会制度・テクノロジー取得による追加ボーナス -->
+	<Improvement_BonusYieldChanges>
+		<!-- コンピューター：文化+2 -->
+		<Row Id="114514_ComputersCulture" ImprovementType="IMPROVEMENT_YNL_YZSP_BB" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqTech="TECH_COMPUTERS"/>
+		<!-- ソーシャルメディア：ゴールド+2 -->
+		<Row Id="114514_SocialMediaGold" ImprovementType="IMPROVEMENT_YNL_YZSP_BB" YieldType="YIELD_GOLD" BonusYieldChange="2" PrereqCivic="CIVIC_SOCIAL_MEDIA"/>
+	</Improvement_BonusYieldChanges>
+	<!-- 隣接ボーナス親定義 -->
+	<Improvement_Adjacencies>
+	</Improvement_Adjacencies>
+	<!-- 隣接ボーナス設定 -->
+	<Adjacency_YieldChanges>
+	</Adjacency_YieldChanges>
+	<!-- 観光力ボーナス -->
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_YNL_YZSP_BB" TourismSource="TOURISMSOURCE_CULTURE" ScalingFactor="100"/>
+	</Improvement_Tourism>
+</GameData>

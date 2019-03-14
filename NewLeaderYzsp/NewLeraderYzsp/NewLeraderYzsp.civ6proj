@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's New Leraders &amp; Civilization - A Midsummer Lewd Dream</Name>
+    <Guid>6af94973-f8cf-4df2-a55c-57502eeb69eb</Guid>
+    <ProjectGuid>5091df6d-067a-4873-b3db-444af827b7dc</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>
+    </Teaser>
+    <Description>The Beast is most famous star.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ActionCriteriaData><![CDATA[<ActionCriteria>
+				<Criteria id="LeaderCriteria">
+					<LeaderPlayable>StandardPlayers::LEADER_YNL_KOJI_TADOKORO,Players:Expansion1_Players::LEADER_YNL_KOJI_TADOKORO,Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO</LeaderPlayable>
+				</Criteria>
+				<Criteria id="LeaderCriteriaExpansion1">
+					<LeaderPlayable>Players:Expansion1_Players::LEADER_YNL_KOJI_TADOKORO,Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO</LeaderPlayable>
+				</Criteria>
+				<Criteria id="LeaderCriteriaExpansion2">
+					<LeaderPlayable>Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO</LeaderPlayable>
+				</Criteria>
+		</ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateColors id="GameplayColors"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_CoreColors.xml</File><File>YnlAmld_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="Gameplay"><Properties><LoadOrder>200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YnlAmld_UB.xml</File><File>YnlAmld_Civilizations.xml</File><File>YnlAmld_Leaders.xml</File><File>YnlAmld_UD.xml</File><File>YnlAmld_UI.xml</File><File>YnlAmld_UP.xml</File><File>YnlAmld_UU.xml</File><File>YnlAmld_LeaderAnimations.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_ConfigText.xml</File><File>YnlAmld_Text.xml</File><File>YnlAmld_Dialogs.xml</File><File>YnlAmld_ConfigTextJP.xml</File><File>YnlAmld_TextJP.xml</File><File>YnlAmld_DialogsJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1Text.xml</File><File>Expansion1/YnlAmld_Expansion1TextJP.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/LEADER_YNL_KOJI_TADOKORO_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/ynl_KojiTadokoro_diplomacy.dds</File><File>Textures/ynl_KojiTadokoro_loading.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_ROOFTOP.dds</File><File>Textures/YNL_MOMENT_IMPROVEMENT_YNL_YZSP_BB.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_HAKUSHIN_KARATE.dds</File></ImportFiles><UpdateDatabase id="GameplayExpansion2"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2.xml</File></UpdateDatabase><UpdateText id="TextExpansion2"><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2Text.xml</File><File>Expansion2/YnlAmld_Expansion2TextJP.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions>
+			<UpdateColors id="ConfigPlayerColor">
+				<File>YnlAmld_CoreColors.xml</File>
+				<File>YnlAmld_PlayerColors.xml</File>
+			</UpdateColors>
+			<UpdateDatabase id="Config">
+				<File>YnlAmld_Config.xml</File>
+			</UpdateDatabase>
+			<UpdateText id="ConfigText">
+				<File>YnlAmld_ConfigText.xml</File>
+				<File>YnlAmld_ConfigTextJP.xml</File>
+			</UpdateText>
+			<UpdateIcons id="ConfigIcons">
+				<File>YnlAmld_Icons.xml</File>
+			</UpdateIcons>
+			<UpdateArt id="ConfigArt">
+				<File>(Mod Art Dependency File)</File>
+			</UpdateArt>
+		</FrontEndActions>]]></FrontEndActionData>
+    <AssemblyName>NewLeader6</AssemblyName>
+    <RootNamespace>NewLeader6</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <Authors>yosxpeee</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\YnlAmld_Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlAmld_Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlAmld_Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlAmld_Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlAmld_Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlAmld_Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\YnlAmld_Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\IMP_YNL_YZSP_BB.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Expansion1\YnlAmld_Expansion1TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Expansion2\YnlAmld_Expansion2Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Expansion2\YnlAmld_Expansion2TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Expansion2\YnlAmld_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_BUILDING_YNL_ROOFTOP.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_IMPROVEMENT_YNL_YZSP_BB.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_UNIT_YNL_HAKUSHIN_KARATE.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_CoreColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_PlayerColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_Dialogs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_DialogsJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_LeaderAnimations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_UD.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_UP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_KOJI_TADOKORO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_KOJI_TADOKORO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_KOJI_TADOKORO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_KOJI_TADOKORO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_KOJI_TADOKORO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_KOJI_TADOKORO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_KOJI_TADOKORO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_KOJI_TADOKORO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KOJI_TADOKORO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KOJI_TADOKORO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_KOJI_TADOKORO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_KOJI_TADOKORO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_CIV_AMLD80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_HAKUSHIN_KARATE80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_YZSP80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_KOJI_TADOKORO_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_KOJI_TADOKORO_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_YNL_KOJI_TADOKORO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_YNL_KOJI_TADOKORO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ynl_KojiTadokoro_diplomacy.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ynl_KojiTadokoro_loading.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\YNL_YZSP_ICONS.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Expansion1" />
+    <Folder Include="Expansion2" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="Expansion1\YnlAmld_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Expansion1\YnlAmld_Expansion1Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_Config.xml" />
+    <Content Include="YnlAmld_ConfigText.xml" />
+    <Content Include="YnlAmld_Civilizations.xml" />
+    <Content Include="YnlAmld_Icons.xml" />
+    <Content Include="YnlAmld_Leaders.xml" />
+    <Content Include="YnlAmld_UB.xml" />
+    <Content Include="YnlAmld_Text.xml" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

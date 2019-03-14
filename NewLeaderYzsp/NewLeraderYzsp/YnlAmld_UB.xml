@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_YNL_ROOFTOP" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_YNL_ROOFTOP" Name="LOC_BUILDING_YNL_ROOFTOP_NAME" Description="LOC_BUILDING_YNL_ROOFTOP_DESCRIPTION" 
+			 PrereqCivic="CIVIC_CAPITALISM" PrereqDistrict="DISTRICT_NEIGHBORHOOD" 
+			 PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_CULTURE" Maintenance="1" Entertainment="1"
+			 TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"/>
+	</Buildings>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_YNL_ROOFTOP" ReplacesBuildingType="BUILDING_SHOPPING_MALL"/>
+	</BuildingReplaces>
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_YNL_ROOFTOP" MutuallyExclusiveBuilding="BUILDING_FOOD_MARKET"/>
+	</MutuallyExclusiveBuildings>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_YNL_ROOFTOP</BuildingType>
+			<ModifierId>YNL_ROOFTOP_YZSP_BB_TOURISM</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_ROOFTOP_YZSP_BB_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_ROOFTOP_YZSP_BB_TOURISM</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_YNL_YZSP_BB</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_ROOFTOP_YZSP_BB_TOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

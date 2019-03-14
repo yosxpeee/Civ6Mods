@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 指導者そのものの定義 -->
+		<Row Type="LEADER_YNL_KOJI_TADOKORO" Kind="KIND_LEADER" />
+		<!-- 指導者特性 -->
+		<Row Type="TRAIT_LEADER_YNL_KOJI_TADOKORO" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_YNL_ROOFTOP" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_YNL_KOJI_TADOKORO</LeaderType>
+			<Name>LOC_LEADER_YNL_KOJI_TADOKORO_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" Quote="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE"/>
+	</LeaderQuotes>
+
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_YNL_KOJI_TADOKORO"/>
+		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"/>
+	</LeaderTraits>
+
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_YNL_KOJI_TADOKORO"    Name="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_NAME" Description="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP" Name="LOC_TRAIT_LEADER_BUILDING_YNL_ROOFTOP_NAME"/>
+	</Traits>
+
+	<!-- 指導者特性 -->
+	<TraitModifiers>
+		<!-- 軍事スロット+1(バニラのドイツ) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_KOJI_TADOKORO</TraitType>
+			<ModifierId>TRAIT_MILITARY_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+		<!-- 兵営から生産力+3 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_KOJI_TADOKORO</TraitType>
+			<ModifierId>TRAIT_ENCAMPMENT_PRODUCTION_YZSP</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- 兵営から生産力+3 -->
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PRODUCTION_YZSP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT_PRODUCTION_YZSP</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 兵営から生産力+3 -->
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PRODUCTION_YZSP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ENCAMPMENT_PRODUCTION_YZSP</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<!-- 条件：兵営区域 -->
+		<Row>
+			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_PRODUCTION_YZSP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- 条件：兵営区域 -->
+		<Row>
+			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_PRODUCTION_YZSP</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId><!-- バニラにある -->
+		</Row>
+	</RequirementSetRequirements>
+
+	<!-- アジェンダ -->
+	<HistoricalAgendas>
+		<!-- 日本と同じ -->
+		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" AgendaType="AGENDA_BUSHIDO"/>
+	</HistoricalAgendas>
+	<!-- AIの好みの親定義 -->
+	<AiListTypes>
+		<Row ListType="YNL_KojiTadokoroWonders"/>
+		<Row ListType="YNL_KojiTadokoroCivics"/>
+		<Row ListType="YNL_KojiTadokoroTechs"/>
+		<Row ListType="YNL_KojiTadokoroDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- 遺産 -->
+		<Row ListType="YNL_KojiTadokoroWonders"  LeaderType="TRAIT_LEADER_YNL_KOJI_TADOKORO" System="Buildings"/>
+		<!-- 社会制度 -->
+		<Row ListType="YNL_KojiTadokoroCivics"   LeaderType="TRAIT_LEADER_YNL_KOJI_TADOKORO" System="Civics"/>
+		<!-- テクノロジー -->
+		<Row ListType="YNL_KojiTadokoroTechs"    LeaderType="TRAIT_LEADER_YNL_KOJI_TADOKORO" System="Technologies"/>
+		<!-- 区域 -->
+		<Row ListType="YNL_KojiTadokoroDistrict" LeaderType="TRAIT_LEADER_YNL_KOJI_TADOKORO" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- 遺産 -->
+		<!-- 大浴場、ピラミッド、ルール地方、エルミタージュ美術館、ボリショイ劇場、ゴールデンゲートブリッジ -->
+		<Row ListType="YNL_KojiTadokoroWonders" Item="BUILDING_GREAT_BATH"/>
+		<Row ListType="YNL_KojiTadokoroWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="YNL_KojiTadokoroWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="YNL_KojiTadokoroWonders" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="YNL_KojiTadokoroWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="YNL_KojiTadokoroWonders" Item="BUILDING_GOLDEN_GATE_BRIDGE"/>
+		<!-- 社会制度 -->
+		<!-- 遊びと娯楽、政治哲学、演劇と詩、ヒューマニズム、オペラとバレエ、都市化、ソーシャルメディア-->
+		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_GAMES_RECREATION"/>
+		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_OPERA_BALLET"/>
+		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_URBANIZATION"/>
+		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_SOCIAL_MEDIA"/>
+		<!-- テクノロジー -->
+		<!-- 弓術、通貨、軍事工学、火薬、印刷、 コンピューター、工業化 -->
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_PRINTING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 区域 -->
+		<!-- 劇場広場、兵営 -->
+		<Row ListType="YNL_KojiTadokoroDistrict" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="YNL_KojiTadokoroDistrict" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
+	</AiFavoredItems>
+
+	<!-- ローディング画面、外交画面 -->
+	<LoadingInfo>
+		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds" LeaderText="LOC_LLEADER_YNL_KOJI_TADOKORO_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_YNL_KOJI_TADOKORO" BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
+	</DiplomacyInfo>
+	
+	<!-- 好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" ReligionType="RELIGION_ISLAM"/>
+	</FavoredReligions>
+</GameData>

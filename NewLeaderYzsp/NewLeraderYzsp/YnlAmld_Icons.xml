@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- 指導者 -->
+		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP32.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP45.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP50.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP55.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP64.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP80.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP256.DDS"/>
+		<!-- 文明 -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="36"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="44"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="48"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD256.dds"/>
+		<!-- UU -->
+		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE256.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE80.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE50.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE38.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE22.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE_FOW"               IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- 文明 -->
+		<Row Name="ICON_CIVILIZATION_YNL_AMLD" Atlas="ICON_ATLAS_CIVILIZATION_YNL_AMLD" Index="0"/>
+		<!-- 指導者 -->
+		<Row Name="ICON_LEADER_YNL_KOJI_TADOKORO"       Atlas="ICON_ATLAS_YNL_LEADER_YZSP" Index="0"/>
+		<!-- UI：野獣先輩BB(クルガンの使いまわし) -->
+		<Row Name="ICON_IMPROVEMENT_YNL_YZSP_BB" Atlas="ICON_ATLAS_UNIT_ACTIONS"   Index="19"/>
+		<!-- UU：迫真空手部員(ポートレイトは武僧の使いまわし) -->
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE"                            Atlas="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                    Index="0"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_FOW"                        Atlas="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE_FOW"                Index="0"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_WHITE"                      Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE"  Index="0"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_BLACK"                      Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_BLACK"  Index="0"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="35"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="35"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="35"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="35"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="35"/>
+		<!-- UB:屋上(研究所の使いまわし) -->
+		<Row Name="ICON_BUILDING_YNL_ROOFTOP" Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+	</IconDefinitions>
+</GameData>

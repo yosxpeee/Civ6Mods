@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<!-- バニラ(GS専用のため記述なし) -->
+		<!-- RaF(GS専用のため記述なし) -->
+		
+		<!-- GS -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_KOJI_TADOKORO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_YNL_AMLD_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_YNL_AMLD</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_KOJI_TADOKORO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_KOJI_TADOKORO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_YNL_AMLD_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_YNL_AMLD_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_YNL_AMLD</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_KOJI_TADOKORO</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_YNL_KOJI_TADOKORO</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<!-- バニラ(GS専用のため記述なし) -->
+		<!-- RaF(GS専用のため記述なし) -->
+		
+		<!-- GS -->
+		<!-- UI:野獣先輩BB -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_KOJI_TADOKORO</LeaderType>
+			<Type>IMPROVEMENT_YNL_YZSP_BB</Type>
+			<Name>LOC_IMPROVEMENT_YNL_YZSP_BB_NAME</Name>
+			<Description>LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_YNL_YZSP_BB</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<!-- UU:迫真空手部員 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_KOJI_TADOKORO</LeaderType>
+			<Type>UNIT_YNL_HAKUSHIN_KARATE</Type>
+			<Name>LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME</Name>
+			<Description>LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YNL_HAKUSHIN_KARATE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<!-- UB:屋上 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_KOJI_TADOKORO</LeaderType>
+			<Type>BUILDING_YNL_ROOFTOP</Type>
+			<Name>LOC_BUILDING_YNL_ROOFTOP_NAME</Name>
+			<Description>LOC_BUILDING_YNL_ROOFTOP_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_YNL_ROOFTOP</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

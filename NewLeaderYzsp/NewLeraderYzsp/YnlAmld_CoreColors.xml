@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー定義 -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_KOJI_TADOKORO_PRIMARY</Type>
+			<Color>111,75,62,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_KOJI_TADOKORO_SECONDARY</Type>
+			<Color>165,143,134,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>

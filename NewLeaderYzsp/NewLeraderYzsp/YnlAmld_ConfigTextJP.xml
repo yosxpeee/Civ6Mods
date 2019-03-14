@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明 -->
+		<Replace Tag="LOC_CIVILIZATION_YNL_AMLD_NAME" Language="ja_JP">
+			<Text>真夏の夜の淫夢</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YNL_AMLD_DESCRIPTION" Language="ja_JP">
+			<Text>真夏の夜の淫夢</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_YNL_AMLD_ADJECTIVE" Language="ja_JP">
+			<Text>真夏の夜の淫夢の</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_AMLD_NAME" Language="ja_JP">
+			<Text>アイスティーしかなかったんだけど、いいかな？</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_AMLD_DESCRIPTION" Language="ja_JP">
+			<Text>熱帯雨林タイルに隣接するキャンパス、商業ハブ、聖地、劇場広場は+1の隣接ボーナスを得る。[ICON_RESOURCE_TEA] 茶、[ICON_RESOURCE_SUGAR] 砂糖、[ICON_RESOURCE_SPICES] 香辛料から [ICON_CULTURE] 文化力+2。</Text>
+		</Replace>
+
+		<!-- 指導者 -->
+		<Replace Tag="LOC_LEADER_YNL_KOJI_TADOKORO_NAME" Language="ja_JP">
+			<Text>田所浩二</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_NAME" Language="ja_JP">
+			<Text>野獣先輩</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION" Language="ja_JP">
+			<Text>追加の軍事政策スロット。兵営のある各都市に [ICON_PRODUCTION] 生産力+3。</Text>
+		</Replace>
+		<Replace Tag="LOC_LLEADER_YNL_KOJI_TADOKORO_DOM_TEXT" Language="ja_JP">
+			<Text>オッスお願いしまーす！</Text>
+		</Replace>
+		
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="ja_JP">
+			<Text>野獣先輩BB</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が真夏の夜の淫夢固有の施設である野獣先輩BBを建設できるようになる。[NEWLINE][NEWLINE][ICON_GOLD] ゴールド+1、[ICON_Culture] 文化力+1。コンピューター解禁で [ICON_Culture] 文化力+2。ソーシャルメディア解禁で[ICON_GOLD] ゴールド+2。何らかの資源の周りにのみ建造可能。他の野獣先輩BBと隣接不可。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="ja_JP">
+			<Text>真夏の夜の淫夢固有の地形改善: 野獣先輩BB</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YNL_YZSP_BB_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- UU -->
+		<Replace Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
+			<Text>迫真空手部員</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="ja_JP">
+			<Text>剣士に取ってかわる真夏の夜の淫夢固有の古典時代の近接戦闘ユニット。[ICON_Movement] 移動力3。このユニットは戦略資源を必要とせず、武僧と同じ昇進を持つ。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
+			<Text>真夏の夜の淫夢固有のユニット: 迫真空手部員</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_HAKUSHIN_KARATE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		
+		<!-- UB -->
+		<Replace Tag="LOC_BUILDING_YNL_ROOFTOP_NAME" Language="ja_JP">
+			<Text>屋上</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YNL_ROOFTOP_DESCRIPTION" Language="ja_JP">
+			<Text>ショッピングモールに取って代わる近代の田所浩二固有の建造物。[ICON_Amenities] 快適性+1。野獣先輩BBの [ICON_Tourism] 観光力+100%。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_YNL_ROOFTOP_NAME" Language="ja_JP">
+			<Text>田所浩二固有の建造物: 屋上</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_ROOFTOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>まずうちさぁ…屋上あんだけど…焼いてかない？</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
