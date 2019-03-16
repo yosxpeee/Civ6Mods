@@ -20,6 +20,8 @@ NewLeader9:Yossie's New Leader - Tamamo No Mae
 ![image](docs/images/ynl_tamamo.png)  
 NewLeader10:Yossie's New Leader - Akari Kizuna)  
 ![image](docs/images/ynl_AkariKizuna.png)  
+NewLeaderYzsp:Yossie's New Leaders & Civilization - A Midsummer Lewd Dream)  
+![image](docs/images/ynl_yzsp.png)  
 ## Japanese Translation Civ&Leader MOD(not my original)
 JPTranslation_KingdomofHyrule:The Kingdom of Hyrule  
 *Original Author:decster584*  

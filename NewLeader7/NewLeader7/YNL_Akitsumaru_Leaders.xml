@@ -277,25 +277,4 @@
 	<LoadingInfo>
 		<Row LeaderType="LEADER_YNL_AKITSUMARU" BackgroundImage="Background_LoadingInfo_Akitsumaru.dds" ForegroundImage="Foreground_LoadingInfo_Akitsumaru.dds" LeaderText="LOC_LEADER_YNL_AKITSUMARU_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
-
-	<!-- プレイヤーカラー設定 -->
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_AKITSUMARU_PRIMARY</Type>
-			<Color>41,133,41,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_AKITSUMARU_SECONDARY</Type>
-			<Color>255,83,0,255</Color>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_YNL_AKITSUMARU</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_YNL_AKITSUMARU_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_YNL_AKITSUMARU_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 </GameData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_AKITSUMARU_PRIMARY</Type>
+			<Color>41,133,41,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_AKITSUMARU_SECONDARY</Type>
+			<Color>255,83,0,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>
