@@ -2,6 +2,7 @@
 <GameInfo>
 	<!-- 文明固有カラー定義 -->
 	<Colors>
+		<!-- 田所 -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_YNL_KOJI_TADOKORO_PRIMARY</Type>
 			<Color>111,75,62,255</Color>
@@ -9,6 +10,15 @@
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_YNL_KOJI_TADOKORO_SECONDARY</Type>
 			<Color>165,143,134,255</Color>
+		</Row>
+		<!-- 豪 -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_GO_IS_GOD_PRIMARY</Type>
+			<Color>40,26,20,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_GO_IS_GOD_SECONDARY</Type>
+			<Color>230,180,34,255</Color>
 		</Row>
 	</Colors>
 </GameInfo>

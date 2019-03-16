@@ -19,6 +19,7 @@
 		</Row>
 		
 		<!-- 指導者 -->
+		<!-- 田所 -->
 		<Row Tag="LOC_LEADER_YNL_KOJI_TADOKORO_NAME" Language="en_US">
 			<Text>Koji Tadokoro</Text>
 		</Row>
@@ -29,6 +30,19 @@
 			<Text>Additional Military policy slot. +3 [ICON_PRODUCTION] Production to each city with encampment.</Text>
 		</Row>
 		<Row Tag="LOC_LLEADER_YNL_KOJI_TADOKORO_DOM_TEXT" Language="en_US">
+			<Text>I really appreciate that.</Text>
+		</Row>
+		<!-- 豪 -->
+		<Row Tag="LOC_LEADER_YNL_GO_IS_GOD_NAME" Language="en_US">
+			<Text>GO</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_NAME" Language="en_US">
+			<Text>GO is GOD</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION" Language="en_US">
+			<Text>Levied units gain an ability giving them +2 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength. It costs no [ICON_GOLD] Gold or Resources to upgrade Levied units. If you Levy troops from a City-State receive 2 [ICON_ENVOY] Envoys with that City-State. Combat victories provide [ICON_Culture] Culture, [ICON_Science] Science, [ICON_Faith] Faith and [ICON_Gold] Gold equal to 10% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+		</Row>
+		<Row Tag="LOC_LLEADER_YNL_GO_IS_GOD_DOM_TEXT" Language="en_US">
 			<Text>I really appreciate that.</Text>
 		</Row>
 		
@@ -51,7 +65,7 @@
 			<Text>Hakushin Karate Member</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="en_US">
-			<Text>A Middsummer Lewd Dream unique Classical era melee unit that replaces the Swordsman. 3 [ICON_Movement] movement. this Unit no need strategic resouces, unit primotion is same as Warrior Monk.</Text>
+			<Text>A Middsummer Lewd Dream unique Classical era melee unit that replaces the Swordsman. 3 [ICON_Movement] movement. this unit no need strategic resouces. this unit have unique primotion.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="en_US">
 			<Text>A Middsummer Lewd Dream unique unit: Hakushin Karate Member</Text>
@@ -61,6 +75,7 @@
 		</Row>
 
 		<!-- UB -->
+		<!-- 屋上 -->
 		<Row Tag="LOC_BUILDING_YNL_ROOFTOP_NAME" Language="en_US">
 			<Text>Rooftop</Text>
 		</Row>
@@ -71,6 +86,19 @@
 			<Text>Koji Tadokoro unique building: Rooftop</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_ROOFTOP_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 娼館 -->
+		<Row Tag="LOC_BUILDING_YNL_BROTHEL_NAME" Language="en_US">
+			<Text>Brothel</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_YNL_BROTHEL_DESCRIPTION" Language="en_US">
+			<Text>GO unique Classical era building that replaces the Arena. +2 [ICON_Culture] Culture, +2 [ICON_Amenities] Amenity. Gain [ICON_CULTURE] Culture equal to 25% of the unit's cost when a non civilian unit is created in this city.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_YNL_BROTHEL_NAME" Language="en_US">
+			<Text>GO unique building: Brothel</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_BROTHEL_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

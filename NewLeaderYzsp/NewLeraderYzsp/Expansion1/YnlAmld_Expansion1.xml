@@ -17,5 +17,10 @@
 			 MomentDataType="MOMENT_DATA_BUILDING"
 			 GameDataType="BUILDING_YNL_ROOFTOP"
 			 Texture="YNL_MOMENT_BUILDING_YNL_ROOFTOP.dds"/>
+		<!-- 屋上 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_YNL_BROTHEL"
+			 Texture="YNL_MOMENT_BUILDING_YNL_BROTHEL.dds"/>
 	</MomentIllustrations>
 </GameData>

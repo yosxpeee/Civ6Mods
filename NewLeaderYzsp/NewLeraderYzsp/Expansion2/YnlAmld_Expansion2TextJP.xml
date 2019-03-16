@@ -17,6 +17,12 @@
 		<Replace Tag="LOC_NAMED_RIVER_YZSP_5_NAME" Language="ja_JP">
 			<Text>COAT川</Text>
 		</Replace>
+		<Replace Tag="LOC_NAMED_RIVER_YZSP_6_NAME" Language="ja_JP">
+			<Text>NKTIDKSG川</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_RIVER_YZSP_7_NAME" Language="ja_JP">
+			<Text>POPO川</Text>
+		</Replace>
 		<!-- 火山名 -->
 		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_1_NAME" Language="ja_JP">
 			<Text>893931岳</Text>
@@ -32,6 +38,12 @@
 		</Replace>
 		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_5_NAME" Language="ja_JP">
 			<Text>ひで火山</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_6_NAME" Language="ja_JP">
+			<Text>じゅんぺい火山</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_VOLCANO_YZSP_7_NAME" Language="ja_JP">
+			<Text>OGRSYN岳</Text>
 		</Replace>
 		<!-- 山脈名 -->
 		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_1_NAME" Language="ja_JP">
@@ -49,6 +61,12 @@
 		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_5_NAME" Language="ja_JP">
 			<Text>Acceed山脈</Text>
 		</Replace>
+		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_6_NAME" Language="ja_JP">
+			<Text>OOIZM山脈</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_MOUNTAIN_YZSP_7_NAME" Language="ja_JP">
+			<Text>KNJ山脈</Text>
+		</Replace>
 		<!-- 砂漠名 -->
 		<Replace Tag="LOC_NAMED_DESERT_YZSP_1_NAME" Language="ja_JP">
 			<Text>364364砂漠</Text>
@@ -64,6 +82,12 @@
 		</Replace>
 		<Replace Tag="LOC_NAMED_DESERT_YZSP_5_NAME" Language="ja_JP">
 			<Text>ゆうさく砂漠</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_DESERT_YZSP_6_NAME" Language="ja_JP">
+			<Text>KOR砂漠</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_DESERT_YZSP_7_NAME" Language="ja_JP">
+			<Text>TIC砂漠</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

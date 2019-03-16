@@ -1,33 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<!-- 親定義 -->
 	<Types>
 		<Row Type="BUILDING_YNL_ROOFTOP" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_BROTHEL" Kind="KIND_BUILDING"/>
 	</Types>
+	<!-- 主設定 -->
 	<Buildings>
+		<!-- 屋上 -->
 		<Row BuildingType="BUILDING_YNL_ROOFTOP" Name="LOC_BUILDING_YNL_ROOFTOP_NAME" Description="LOC_BUILDING_YNL_ROOFTOP_DESCRIPTION" 
 			 PrereqCivic="CIVIC_CAPITALISM" PrereqDistrict="DISTRICT_NEIGHBORHOOD" 
 			 PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_CULTURE" Maintenance="1" Entertainment="1"
 			 TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"/>
+		<!-- 娼館 -->
+		<Row BuildingType="BUILDING_YNL_BROTHEL" Name="LOC_BUILDING_YNL_BROTHEL_NAME" Description="LOC_BUILDING_YNL_BROTHEL_DESCRIPTION" 
+			 PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" 
+			 PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="2"
+			 TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL"/>
 	</Buildings>
+	<!-- 置き換え設定 -->
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_YNL_ROOFTOP" ReplacesBuildingType="BUILDING_SHOPPING_MALL"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_BROTHEL" ReplacesBuildingType="BUILDING_ARENA"/>
 	</BuildingReplaces>
+	<!-- 排他制御 -->
 	<MutuallyExclusiveBuildings>
 		<Row Building="BUILDING_YNL_ROOFTOP" MutuallyExclusiveBuilding="BUILDING_FOOD_MARKET"/>
 	</MutuallyExclusiveBuildings>
+	<!-- 出力ボーナス設定 -->
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_YNL_BROTHEL" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<!-- 特殊効果 -->
 	<BuildingModifiers>
+		<!-- 屋上：野獣先輩BBの観光力強化 -->
 		<Row>
 			<BuildingType>BUILDING_YNL_ROOFTOP</BuildingType>
 			<ModifierId>YNL_ROOFTOP_YZSP_BB_TOURISM</ModifierId>
 		</Row>
+		<!-- 娼館：建設した都市で軍事ユニット訓練すると文化力取得 -->
+		<Row>
+			<BuildingType>BUILDING_YNL_BROTHEL</BuildingType>
+			<ModifierId>BROTHEL_SCIENCE_TRAINED_UNIT_YNL</ModifierId>
+		</Row>
 	</BuildingModifiers>
 	<Modifiers>
+		<!-- 屋上：野獣先輩BBの観光力強化 -->
 		<Row>
 			<ModifierId>YNL_ROOFTOP_YZSP_BB_TOURISM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
 		</Row>
+		<!-- 娼館：建設した都市で軍事ユニット訓練すると文化力取得 -->
+		<Row>
+			<ModifierId>BROTHEL_SCIENCE_TRAINED_UNIT_YNL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_YIELD_PER_UNIT_COST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 屋上：野獣先輩BBの観光力強化 -->
 		<Row>
 			<ModifierId>YNL_ROOFTOP_YZSP_BB_TOURISM</ModifierId>
 			<Name>ImprovementType</Name>
@@ -38,5 +70,41 @@
 			<Name>ScalingFactor</Name>
 			<Value>200</Value>
 		</Row>
+		<!-- 娼館：建設した都市で軍事ユニット訓練すると文化力取得 -->
+		<Row>
+			<ModifierId>BROTHEL_SCIENCE_TRAINED_UNIT_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROTHEL_SCIENCE_TRAINED_UNIT_YNL</ModifierId>
+			<Name>UnitProductionPercent</Name>
+			<Value>25</Value>
+		</Row>
 	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>BROTHEL_UNIT_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>BROTHEL_UNIT_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_HAKUSHIN_KARATE_YNL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_HAKUSHIN_KARATE_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_HAKUSHIN_KARATE_YNL</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_HAKUSHIN_KARATE</Value>
+		</Row>
+	</RequirementArguments>
 </GameInfo>

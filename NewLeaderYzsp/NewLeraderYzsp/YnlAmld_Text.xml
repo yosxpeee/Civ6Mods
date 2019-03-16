@@ -38,6 +38,18 @@
 		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_6" Language="en_US">
 			<Text>NOT</Text>
 		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_7" Language="en_US">
+			<Text>AOK</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_8" Language="en_US">
+			<Text>EMT</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_9" Language="en_US">
+			<Text>Gengoro Hirano</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_YNL_AMLD_MALE_10" Language="en_US">
+			<Text>ONDISK</Text>
+		</Row>
 		<Row Tag="LOC_CITIZEN_YNL_AMLD_FEMALE_1" Language="en_US">
 			<Text>Mosaic Sister</Text>
 		</Row>
@@ -86,12 +98,85 @@
 			<Text>Shinkiba</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_13" Language="en_US">
-			<Text>Togoshiginza</Text>
+			<Text>Sangendyaya</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_14" Language="en_US">
+			<Text>Mizonokuchi</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_15" Language="en_US">
+			<Text>Minamishinjyuku</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_16" Language="en_US">
+			<Text>Noborito</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_17" Language="en_US">
+			<Text>Machida</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_18" Language="en_US">
+			<Text>Ikebukuro</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_19" Language="en_US">
+			<Text>Ikejiriohashi</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_20" Language="en_US">
+			<Text>Nishinippori</Text>
+		</Row>
+		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE" Language="en_US">
 			<Text>I'm 24 old, and Leader.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_YNL_GO_IS_GOD_QUOTE" Language="en_US">
+			<Text>You’ll be fine. No need to worry.</Text>
+		</Row>
+		
+		<!-- 昇進 -->
+		<Row Tag="LOC_PROMOTION_CLASS_HAKUSHIN_KARATE_YNL_NAME">
+			<Text>Hakushin Karate</Text>
+		</Row>
+		<!-- 昇進(個別名) -->
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_NAME">
+			<Text>Shadow Strike</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_NAME">
+			<Text>Nightwing's Veil</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_NAME">
+			<Text>Dirty Palms</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_NAME">
+			<Text>Guerrilla</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_NAME">
+			<Text>Shorten Distances</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_NAME">
+			<Text>Dancing Beast</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_NAME">
+			<Text>Crushing Blow</Text>
+		</Row>
+		<!-- 昇進(個別説明) -->
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_DESCRIPTION">
+			<Text>2x flanking bonus.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_DESCRIPTION">
+			<Text>Only adjacent enemy units can reveal this unit.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_DESCRIPTION">
+			<Text>+10 [ICON_Strength] Combat Strength in all situations.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_DESCRIPTION">
+			<Text>Can move after attacking.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_DESCRIPTION">
+			<Text>+1 additional attack per turn if [ICON_Movement] Movement allows.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_DESCRIPTION">
+			<Text>+1 [ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION">
+			<Text>+15 [ICON_Strength] Combat Strength in all situations.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

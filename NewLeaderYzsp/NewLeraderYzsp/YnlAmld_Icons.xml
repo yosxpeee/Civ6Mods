@@ -2,6 +2,7 @@
 <GameData>
 	<IconTextureAtlases>
 		<!-- 指導者 -->
+		<!-- 田所 -->
 		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP32.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP45.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP50.DDS"/>
@@ -9,6 +10,15 @@
 		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP64.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP80.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_YZSP" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_YZSP256.DDS"/>
+		<!-- 豪 -->
+		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO32.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO45.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO50.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO55.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO64.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO80.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO256.DDS"/>
+		
 		<!-- 文明 -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD22.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="30"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD30.dds"/>
@@ -20,6 +30,7 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD256.dds"/>
+		
 		<!-- UU -->
 		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE256.dds"/>
 		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE80.dds"/>
@@ -38,6 +49,7 @@
 		<Row Name="ICON_CIVILIZATION_YNL_AMLD" Atlas="ICON_ATLAS_CIVILIZATION_YNL_AMLD" Index="0"/>
 		<!-- 指導者 -->
 		<Row Name="ICON_LEADER_YNL_KOJI_TADOKORO"       Atlas="ICON_ATLAS_YNL_LEADER_YZSP" Index="0"/>
+		<Row Name="ICON_LEADER_YNL_GO_IS_GOD"           Atlas="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" Index="0"/>
 		<!-- UI：野獣先輩BB(クルガンの使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_YNL_YZSP_BB" Atlas="ICON_ATLAS_UNIT_ACTIONS"   Index="19"/>
 		<!-- UU：迫真空手部員(ポートレイトは武僧の使いまわし) -->
@@ -52,5 +64,7 @@
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="35"/>
 		<!-- UB:屋上(研究所の使いまわし) -->
 		<Row Name="ICON_BUILDING_YNL_ROOFTOP" Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+		<!-- UB：娼館(トラクトリの使いまわし) -->
+		<Row Name="ICON_BUILDING_YNL_BROTHEL" Atlas="ICON_ATLAS_BUILDINGS" Index="9"/>
 	</IconDefinitions>
 </GameData>

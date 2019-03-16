@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!-- Promotion Classes -->
+		<Row Type="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL" Kind="KIND_PROMOTION_CLASS"/>
+		<!-- 迫真空手 -->
+		<Row Type="PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE" Kind="KIND_PROMOTION"/>
+	</Types>
+	<!-- Promotion Tags, these are defined in the Units.XML -->
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL" Name="LOC_PROMOTION_CLASS_HAKUSHIN_KARATE_YNL_NAME"/>
+	</UnitPromotionClasses>
+	<UnitPromotions>
+		<!-- 迫真空手 -->
+		<Row UnitPromotionType="PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE"   Name="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_NAME"   Description="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_DESCRIPTION"   Level="1" Column="1" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"/>
+		<Row UnitPromotionType="PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL"   Name="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_NAME"   Description="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_DESCRIPTION"   Level="1" Column="3" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"/>
+		<Row UnitPromotionType="PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS" Name="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_NAME" Description="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"/>
+		<Row UnitPromotionType="PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA"       Name="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_NAME"       Description="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_DESCRIPTION"       Level="2" Column="3" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"/>
+		<Row UnitPromotionType="PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND"   Name="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_NAME"   Description="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_DESCRIPTION"   Level="3" Column="1" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"/>
+		<Row UnitPromotionType="PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE"   Name="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_NAME"   Description="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_DESCRIPTION"   Level="3" Column="3" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"/>
+		<Row UnitPromotionType="PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE"    Name="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_NAME"    Description="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION"    Level="4" Column="2" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"/>
+	</UnitPromotions>
+	<UnitPromotionPrereqs>
+		<!-- 迫真空手 -->
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS" PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS" PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA"       PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA"       PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND"   PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND"   PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE"   PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE"   PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE"    PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND"/>
+		<Row UnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE"    PrereqUnitPromotion="PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE"/>
+	</UnitPromotionPrereqs>
+	<UnitPromotionModifiers>
+		<!--迫真空手-->
+		<Row>
+			<!-- 武僧使い回し -->
+			<UnitPromotionType>PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE</UnitPromotionType>
+			<ModifierId>DOUBLE_ENVELOPMENT_BONUS_FLANKING_BONUS_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<!-- 武僧使い回し -->
+			<UnitPromotionType>PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL</UnitPromotionType>
+			<ModifierId>CAMOUFLAGE_STEALTH</ModifierId>
+		</Row>
+		<Row>
+			<!-- 武僧使い回し -->
+			<UnitPromotionType>PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS</UnitPromotionType>
+			<ModifierId>EXPLODING_PALMS_INCREASED_COMBAT_STRENGTH</ModifierId>
+		</Row>
+		<Row>
+			<!-- 偵察ユニット使いまわし -->
+			<UnitPromotionType>PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA</UnitPromotionType>
+			<ModifierId>FADE_BONUS_MOVE_AFTER_ATTACKING_YNL</ModifierId>
+		</Row>
+		<Row>
+			<!-- 武僧使い回し -->
+			<UnitPromotionType>PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND</UnitPromotionType>
+			<ModifierId>SWEEPING_WIND_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<!-- 武僧使い回し -->
+			<UnitPromotionType>PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND</UnitPromotionType>
+			<ModifierId>MOD_MOVE_AFTER_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<!-- 武僧使い回し -->
+			<UnitPromotionType>PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE</UnitPromotionType>
+			<ModifierId>DANCING_CRANE_BONUS_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<!-- 武僧使い回し -->
+			<UnitPromotionType>PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE</UnitPromotionType>
+			<ModifierId>COBRA_STRIKE_INCREASED_COMBAT_STRENGTH</ModifierId>
+		</Row>
+	</UnitPromotionModifiers>
+	<Modifiers>
+		<!-- 迫真空手 -->
+		<Row>
+			<ModifierId>FADE_BONUS_MOVE_AFTER_ATTACKING_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ATTACK_AND_MOVE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 迫真空手 -->
+		<Row>
+			<ModifierId>FADE_BONUS_MOVE_AFTER_ATTACKING_YNL</ModifierId>
+			<Name>CanMove</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+	</RequirementSetRequirements>
+	<Requirements>
+
+	</Requirements>
+	<RequirementArguments>
+
+	</RequirementArguments>
+	<ModifierStrings>
+		
+	</ModifierStrings>
+</GameInfo>

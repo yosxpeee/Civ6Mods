@@ -21,12 +21,29 @@
 			<LeaderAbilityIcon>ICON_LEADER_YNL_KOJI_TADOKORO</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_YNL_KOJI_TADOKORO</Portrait>
 		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_GO_IS_GOD</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_YNL_AMLD_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_YNL_AMLD</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_GO_IS_GOD_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_GO_IS_GOD</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_YNL_AMLD_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_YNL_AMLD_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_YNL_AMLD</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_GO_IS_GOD_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_GO_IS_GOD</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_YNL_GO_IS_GOD</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- バニラ(GS専用のため記述なし) -->
 		<!-- RaF(GS専用のため記述なし) -->
 		
 		<!-- GS -->
+		<!-- 田所 -->
 		<!-- UI:野獣先輩BB -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -58,6 +75,40 @@
 			<Name>LOC_BUILDING_YNL_ROOFTOP_NAME</Name>
 			<Description>LOC_BUILDING_YNL_ROOFTOP_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_YNL_ROOFTOP</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- 豪 -->
+		<!-- UI:野獣先輩BB -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_GO_IS_GOD</LeaderType>
+			<Type>IMPROVEMENT_YNL_YZSP_BB</Type>
+			<Name>LOC_IMPROVEMENT_YNL_YZSP_BB_NAME</Name>
+			<Description>LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_YNL_YZSP_BB</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<!-- UU:迫真空手部員 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_GO_IS_GOD</LeaderType>
+			<Type>UNIT_YNL_HAKUSHIN_KARATE</Type>
+			<Name>LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME</Name>
+			<Description>LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YNL_HAKUSHIN_KARATE</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<!-- UB:娼館 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_GO_IS_GOD</LeaderType>
+			<Type>BUILDING_YNL_BROTHEL</Type>
+			<Name>LOC_BUILDING_YNL_BROTHEL_NAME</Name>
+			<Description>LOC_BUILDING_YNL_BROTHEL_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_YNL_BROTHEL</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
 	</PlayerItems>

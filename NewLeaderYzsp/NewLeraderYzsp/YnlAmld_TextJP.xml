@@ -38,6 +38,18 @@
 		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_6" Language="ja_JP">
 			<Text>NOT</Text>
 		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_7" Language="ja_JP">
+			<Text>AOK</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_8" Language="ja_JP">
+			<Text>EMT</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_9" Language="ja_JP">
+			<Text>平野源五郎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AMLD_MALE_10" Language="ja_JP">
+			<Text>ONDISK</Text>
+		</Replace>
 		<Replace Tag="LOC_CITIZEN_YNL_AMLD_FEMALE_1" Language="ja_JP">
 			<Text>モザイク姉貴</Text>
 		</Replace>
@@ -86,12 +98,85 @@
 			<Text>新木場</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_13" Language="ja_JP">
-			<Text>戸越銀座</Text>
+			<Text>三軒茶屋</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_14" Language="ja_JP">
+			<Text>溝の口</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_15" Language="ja_JP">
+			<Text>南新宿</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_16" Language="ja_JP">
+			<Text>登戸</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_17" Language="ja_JP">
+			<Text>町田</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_18" Language="ja_JP">
+			<Text>池袋</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_19" Language="ja_JP">
+			<Text>池尻大橋</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_20" Language="ja_JP">
+			<Text>西日暮里</Text>
 		</Replace>
 		
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE" Language="ja_JP">
 			<Text>24歳、指導者です。</Text>
 		</Replace>
-	</LocalizedText>
+		<Replace Tag="LOC_LEADER_YNL_GO_IS_GOD_QUOTE" Language="ja_JP">
+			<Text>大丈夫大丈夫^^ ヘーキヘーキ^^</Text>
+		</Replace>
+
+		<!-- 昇進 -->
+		<Replace Tag="LOC_PROMOTION_CLASS_HAKUSHIN_KARATE_YNL_NAME" Language="ja_JP">
+			<Text>迫真空手</Text>
+		</Replace>
+		<!-- 昇進(個別名) -->
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_NAME" Language="ja_JP">
+			<Text>影の一撃</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_NAME" Language="ja_JP">
+			<Text>闇夜の帳</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_NAME" Language="ja_JP">
+			<Text>汚物掌</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_NAME" Language="ja_JP">
+			<Text>ゲリラ</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_NAME" Language="ja_JP">
+			<Text>縮地</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_NAME" Language="ja_JP">
+			<Text>野獣の舞</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_NAME" Language="ja_JP">
+			<Text>致命打</Text>
+		</Replace>
+		<!-- 昇進(個別説明) -->
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_DESCRIPTION" Language="ja_JP">
+			<Text>側面攻撃ボーナスが2倍になる。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_DESCRIPTION" Language="ja_JP">
+			<Text>隣接しないかぎり敵に発見されない。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_DESCRIPTION" Language="ja_JP">
+			<Text>あらゆる状況で [ICON_Strength] 戦闘力+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_DESCRIPTION" Language="ja_JP">
+			<Text>攻撃後に移動が可能。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] 移動ポイントが足りる場合、ターンごとの攻撃回数+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] 移動力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION" Language="ja_JP">
+			<Text>あらゆる状況で [ICON_Strength] 戦闘力+15。</Text>
+		</Replace>
+</LocalizedText>
 </GameData>

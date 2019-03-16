@@ -14,18 +14,17 @@
 		<Row CivUniqueUnitType="UNIT_YNL_HAKUSHIN_KARATE" ReplacesUnitType="UNIT_SWORDSMAN"/>
 	</UnitReplaces>
 	<Tags>
-
+		
 	</Tags>
 	<!-- 所有クラス -->
 	<TypeTags>
 		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Tag="CLASS_WARRIOR_MONK"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" Name="LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME" Description="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION"
 			 Cost="90"  Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="38" 
-			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MONK"  AdvisorType="ADVISOR_CONQUEST"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"  AdvisorType="ADVISOR_CONQUEST"
 			 PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_GAMES_RECREATION" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE"/>
 	</Units>
 	<!-- アップグレード先 -->

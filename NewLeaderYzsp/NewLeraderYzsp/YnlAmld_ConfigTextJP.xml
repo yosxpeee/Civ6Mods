@@ -19,6 +19,7 @@
 		</Replace>
 
 		<!-- 指導者 -->
+		<!-- 田所 -->
 		<Replace Tag="LOC_LEADER_YNL_KOJI_TADOKORO_NAME" Language="ja_JP">
 			<Text>田所浩二</Text>
 		</Replace>
@@ -28,8 +29,21 @@
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION" Language="ja_JP">
 			<Text>追加の軍事政策スロット。兵営のある各都市に [ICON_PRODUCTION] 生産力+3。</Text>
 		</Replace>
-		<Replace Tag="LOC_LLEADER_YNL_KOJI_TADOKORO_DOM_TEXT" Language="ja_JP">
+		<Replace Tag="LOC_LEADER_YNL_KOJI_TADOKORO_DOM_TEXT" Language="ja_JP">
 			<Text>オッスお願いしまーす！</Text>
+		</Replace>
+		<!-- 豪 -->
+		<Replace Tag="LOC_LEADER_YNL_GO_IS_GOD_NAME" Language="ja_JP">
+			<Text>GO</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_NAME" Language="ja_JP">
+			<Text>GO is GOD</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION" Language="ja_JP">
+			<Text>徴用されたユニットの [ICON_Movement] 移動力+2、 [ICON_Strength] 戦闘力+5。徴用されたユニットのアップグレードに [ICON_GOLD] ゴールドや資源が不要になる。部隊を徴用すると、その都市国家の [ICON_ENVOY] 代表団+2。戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の10%に等しい [ICON_Science] 科学力、[ICON_Culture] 文化力、[ICON_Faith] 信仰力、[ICON_Gold] ゴールドを得る。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_GO_IS_GOD_DOM_TEXT" Language="ja_JP">
+			<Text>ハイ、ヨロシクゥ！</Text>
 		</Replace>
 		
 		<!-- UI -->
@@ -51,7 +65,7 @@
 			<Text>迫真空手部員</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="ja_JP">
-			<Text>剣士に取ってかわる真夏の夜の淫夢固有の古典時代の近接戦闘ユニット。[ICON_Movement] 移動力3。このユニットは戦略資源を必要とせず、武僧と同じ昇進を持つ。</Text>
+			<Text>剣士に取ってかわる真夏の夜の淫夢固有の古典時代の近接戦闘ユニット。[ICON_Movement] 移動力3。このユニットは戦略資源を必要とせず、独自の昇進を持つ。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
 			<Text>真夏の夜の淫夢固有のユニット: 迫真空手部員</Text>
@@ -61,6 +75,7 @@
 		</Replace>
 		
 		<!-- UB -->
+		<!-- 屋上 -->
 		<Replace Tag="LOC_BUILDING_YNL_ROOFTOP_NAME" Language="ja_JP">
 			<Text>屋上</Text>
 		</Replace>
@@ -72,6 +87,19 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_ROOFTOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>まずうちさぁ…屋上あんだけど…焼いてかない？</Text>
+		</Replace>
+		<!-- 娼館 -->
+		<Replace Tag="LOC_BUILDING_YNL_BROTHEL_NAME" Language="ja_JP">
+			<Text>娼館</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YNL_BROTHEL_DESCRIPTION" Language="ja_JP">
+			<Text>アリーナに取って代わる古典時代のGO固有の建造物。[ICON_Culture] 文化力+2、[ICON_Amenities] 快適性+2。この都市で非民間人ユニットが作られた場合、そのユニットのコストの25%に相当する [ICON_CULTURE] 文化力が加算される。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_YNL_BROTHEL_NAME" Language="ja_JP">
+			<Text>GO固有の建造物: 娼館</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_BROTHEL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

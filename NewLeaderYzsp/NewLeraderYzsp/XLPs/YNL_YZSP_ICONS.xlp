@@ -9,6 +9,7 @@
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UI/YNL_YZSP_ICONS"/>
 	<m_Entries>
+		<!-- 指導者（田所） -->
 		<Element>
 			<m_EntryID text="ICON_YNL_LEADER_YZSP256"/>
 			<m_ObjectName text="ICON_YNL_LEADER_YZSP256"/>
@@ -37,6 +38,36 @@
 			<m_EntryID text="ICON_YNL_LEADER_YZSP80"/>
 			<m_ObjectName text="ICON_YNL_LEADER_YZSP80"/>
 		</Element>
+		<!-- 指導者（豪） -->
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_GO256"/>
+			<m_ObjectName text="ICON_YNL_LEADER_GO256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_GO32"/>
+			<m_ObjectName text="ICON_YNL_LEADER_GO32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_GO45"/>
+			<m_ObjectName text="ICON_YNL_LEADER_GO45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_GO50"/>
+			<m_ObjectName text="ICON_YNL_LEADER_GO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_GO55"/>
+			<m_ObjectName text="ICON_YNL_LEADER_GO55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_GO64"/>
+			<m_ObjectName text="ICON_YNL_LEADER_GO64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_GO80"/>
+			<m_ObjectName text="ICON_YNL_LEADER_GO80"/>
+		</Element>
+		<!-- 文明 -->
 		<Element>
 			<m_EntryID text="ICON_YNL_CIV_AMLD22"/>
 			<m_ObjectName text="ICON_YNL_CIV_AMLD22"/>
@@ -77,6 +108,7 @@
 			<m_EntryID text="ICON_YNL_CIV_AMLD256"/>
 			<m_ObjectName text="ICON_YNL_CIV_AMLD256"/>
 		</Element>
+		<!-- UU -->
 		<Element>
 			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE22"/>
 			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE22"/>

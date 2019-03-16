@@ -17,6 +17,12 @@
 		<Row Tag="LOC_NAMED_RIVER_YZSP_5_NAME">
 			<Text>COAT River</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_RIVER_YZSP_6_NAME">
+			<Text>NKTIDKSG River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_YZSP_7_NAME">
+			<Text>POPO River</Text>
+		</Row>
 		<!-- 火山名 -->
 		<Row Tag="LOC_NAMED_VOLCANO_YZSP_1_NAME">
 			<Text>Mount 893931</Text>
@@ -32,6 +38,12 @@
 		</Row>
 		<Row Tag="LOC_NAMED_VOLCANO_YZSP_5_NAME">
 			<Text>Hide Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_YZSP_6_NAME">
+			<Text>Jyunpei Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_YZSP_7_NAME">
+			<Text>Mount OGRSYN</Text>
 		</Row>
 		<!-- 山脈名 -->
 		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_1_NAME">
@@ -49,6 +61,12 @@
 		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_5_NAME">
 			<Text>Acceed Mountains</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_6_NAME">
+			<Text>OOIZM Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_7_NAME">
+			<Text>KNJ Mountains</Text>
+		</Row>
 		<!-- 砂漠名 -->
 		<Row Tag="LOC_NAMED_DESERT_YZSP_1_NAME">
 			<Text>364364 Desert</Text>
@@ -64,6 +82,12 @@
 		</Row>
 		<Row Tag="LOC_NAMED_DESERT_YZSP_5_NAME">
 			<Text>Yusaku Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_YZSP_6_NAME">
+			<Text>KOR Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_YZSP_7_NAME">
+			<Text>TIC Desert</Text>
 		</Row>
 	</EnglishText>
 </GameData>

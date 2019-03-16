@@ -9,6 +9,7 @@
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UILeaders"/>
 	<m_Entries>
+		<!-- 田所 -->
 		<Element>
 			<m_EntryID text="LEADER_YNL_KOJI_TADOKORO_NEUTRAL"/>
 			<m_ObjectName text="LEADER_YNL_KOJI_TADOKORO_NEUTRAL"/>
@@ -16,6 +17,15 @@
 		<Element>
 			<m_EntryID text="PORTRAIT_LEADER_YNL_KOJI_TADOKORO"/>
 			<m_ObjectName text="PORTRAIT_LEADER_YNL_KOJI_TADOKORO"/>
+		</Element>
+		<!-- 豪 -->
+		<Element>
+			<m_EntryID text="LEADER_YNL_GO_IS_GOD_NEUTRAL"/>
+			<m_ObjectName text="LEADER_YNL_GO_IS_GOD_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_YNL_GO_IS_GOD"/>
+			<m_ObjectName text="PORTRAIT_LEADER_YNL_GO_IS_GOD"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

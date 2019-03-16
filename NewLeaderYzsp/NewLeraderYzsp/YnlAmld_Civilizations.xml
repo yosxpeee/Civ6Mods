@@ -16,13 +16,14 @@
 			<Description>LOC_CIVILIZATION_YNL_AMLD_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_YNL_AMLD_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>13</RandomCityNameDepth>
+			<RandomCityNameDepth>20</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
 	<!-- 文明に属する指導者と首都 -->
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_KOJI_TADOKORO" CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_GO_IS_GOD"     CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_15" />
 	</CivilizationLeaders>
 
 	<!-- 文明が何の特性を持つか -->
@@ -195,6 +196,10 @@
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_4" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_5" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_6" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_7" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_8" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_9" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_MALE_10" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_FEMALE_1" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_FEMALE_2" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CitizenName="LOC_CITIZEN_YNL_AMLD_FEMALE_3" Female="1"/>
@@ -212,6 +217,16 @@
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_8" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_20" />
 	</CityNames>
 
 	<!-- スタート地点バイアス -->
