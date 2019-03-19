@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_YNL_NAGATO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_YNL_NAGATO_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_YNL_NAGATO_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_GREEN_DK</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_PLAYER_YNL_NAGATO_SECONDARY</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_PURPLE_DK</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_PLAYER_YNL_NAGATO_SECONDARY</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_AQUA_DK</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_PLAYER_YNL_NAGATO_SECONDARY</Alt3SecondaryColor>
+		</Row>
+		<Row>
+			<Type>LEADER_YNL_MUTSU</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_YNL_MUTSU_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_YNL_MUTSU_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_ORANGE_DK</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_PLAYER_YNL_MUTSU_SECONDARY</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_BLUE_DK</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_PLAYER_YNL_MUTSU_SECONDARY</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_YELLOW_DK</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_PLAYER_YNL_MUTSU_SECONDARY</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</Database>

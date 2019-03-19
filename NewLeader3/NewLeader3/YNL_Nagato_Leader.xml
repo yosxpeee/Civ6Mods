@@ -157,38 +157,4 @@
 		<Row LeaderType="LEADER_YNL_NAGATO" BackgroundImage="Background_LoadingInfo_Nagato.dds" ForegroundImage="Foreground_LoadingInfo_Nagato.dds" LeaderText="LOC_LEADER_YNL_NAGATO_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_MUTSU"  BackgroundImage="Background_LoadingInfo_Mutsu.dds"  ForegroundImage="Foreground_LoadingInfo_Mutsu.dds"  LeaderText="LOC_LEADER_YNL_MUTSU_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_NAGATO_PRIMARY</Type>
-			<Color>247,118,0,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_NAGATO_SECONDARY</Type>
-			<Color>251,234,220,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_MUTSU_PRIMARY</Type>
-			<Color>250,50,50,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_MUTSU_SECONDARY</Type>
-			<Color>251,234,220,255</Color>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_YNL_NAGATO</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_YNL_NAGATO_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_YNL_NAGATO_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-		<Row>
-			<Type>LEADER_YNL_MUTSU</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_YNL_MUTSU_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_YNL_MUTSU_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 </GameData>
