@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ZELDA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_HYRULE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_HYRULE_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_PLAYER_HYRULE_PRIMARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_YELLOW_LT</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_PLAYER_HYRULE_PRIMARY</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_AQUA_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_PLAYER_HYRULE_PRIMARY</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_RED_LT</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</Database>

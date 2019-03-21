@@ -35,29 +35,4 @@
 	<DiplomacyInfo>
 		<Row Type="LEADER_ZELDA" BackgroundImage="Zelda_Diplomacy_Background.dds"/>
 	</DiplomacyInfo>
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_HYRULE_PRIMARY</Type>
-			<Red>0.831</Red>
-			<Green>0.792</Green>
-			<Blue>0.564</Blue>
-			<Alpha>1</Alpha>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_HYRULE_SECONDARY</Type>
-			<Red>0.564</Red>
-			<Green>0.831</Green>
-			<Blue>0.658</Blue>
-			<Alpha>1</Alpha>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_ZELDA</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_HYRULE_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_HYRULE_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 </GameData>
