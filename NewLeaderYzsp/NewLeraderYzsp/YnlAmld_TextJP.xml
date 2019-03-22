@@ -8,10 +8,28 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>序盤は兵営から生産力がでる特性を使って迫真空手ラッシュをキメる。土地を確保したら野獣先輩BBを置けるだけ置いて文化勝利を狙うとよいでしょう。高難易度では屋上建設での野獣先輩BB強化が活きてくるはず。</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_GO_IS_GOD_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>主にCOATの作品の登場する男優。TDNが一章に出演した真夏の夜の淫夢の三章にマジメ君の大学の友人として登場。人気モデルらしく、他にも多数の作品に出演している。 </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_GO_IS_GOD_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>遊びと娯楽解禁と同時に、まだ戦士がいるお近くの都市国家を買収しましょう。無償で迫真空手部員にアップグレードして近隣に攻め込みます。ユニット生産を行う都市を決めたらそこに娼館を建てましょう。その都市でユニットを生産するだけで文化が進むようになります。生産したユニットでまた攻めます。つまり、文化勝利（物理）向きといえます。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>『悶絶少年 其の伍』に登場する男優。「葛城蓮」はACCEEDでの芸名。該当作品では学校帰りのひでを自宅に拉致し、竹刀で打ったり水風呂に沈めるなどして虐待した。一番最初に発掘されたこの作品でひでから｢おじさん｣と呼ばれている為、｢虐待おじさん｣の呼称が定着した。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>派手な効果は持っていませんが、鉱山/採石場とキャンパスの隣接を意識すること、UBの拷問器具工房を意識して建てることで科学力を伸ばしましょう。戦争では攻めている間は強キャラです(負傷したユニットに対し戦闘力+5)。</Text>
+		</Replace>
 
 		<!-- Leader specific historical text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>1999年発売作品のインタビューでは24歳で学生、身長170cm、体重74kgと答えている。これが本当なら生誕は1975年(昭和50年)となり、2018年時点で43歳を迎えていると考えられる。	本名は一切名乗っておらず不明だが、ネット上では「田所浩二」という仮名で呼ばれている。これは前述の「淫夢」四章での役名と、ブーム突入直前の2011年に強制わいせつ容疑で逮捕された男性「田所浩治」をかけたものである。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_GO_IS_GOD_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>「真夏の夜の淫夢」の第三章に出てくるギャル男（ガングロ）。役名は桜井。「変態面接官スーパーS14」によれば身長は174･5cm、体重が62～63kgで年齢が19歳。「真夏の夜の淫夢」出身にも関わらず、三章は「あ、さ、ビール買ってきて。ウン。ハイ、ヨロシクゥ！」というセリフ位しか見せ場もなく、「こんなんじゃ商品になんないんだよ」などと言われ、人気もいまひとつであった。[NEWLINE]「スカウト」では、ビデオ業者として登場。ガソリンスタンドであったSIYに気さくに話しかけ、稼げるバイトを紹介する。しかしその内容はオナニーの撮影というものであり、仕事となった途端態度を豹変させSIYを拘束・レイプする。さらにはSIYのギャラを10万円中5万もピンハネする。そのような言動から、一方ではカリスマ性を評価し「GOは神」「GO is GOD」と神格化され、もう一方ではゲスい行動や電話中の笑みを嫌われ「GOは屑」「Go is NOT GOD」とけなされている。 </Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ACCEED他作品にも多数出ており、KBTITや平野源五郎らと共にマジキチプレイをしている。『男だらけの大運動会』（2009年）では175cm、68kg、25歳と紹介されていたが、他社の作品では年齢が違っていたりするため本当の年齢は不明。</Text>
 		</Replace>
 
 		<!-- Civilization specific historical text. -->
@@ -121,6 +139,36 @@
 		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_20" Language="ja_JP">
 			<Text>西日暮里</Text>
 		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_21" Language="ja_JP">
+			<Text>高田馬場</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_22" Language="ja_JP">
+			<Text>二子玉川</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_23" Language="ja_JP">
+			<Text>用賀</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_23" Language="ja_JP">
+			<Text>経堂</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_24" Language="ja_JP">
+			<Text>武蔵小杉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_25" Language="ja_JP">
+			<Text>立川</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_26" Language="ja_JP">
+			<Text>新小岩</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_27" Language="ja_JP">
+			<Text>鷺ノ宮</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_28" Language="ja_JP">
+			<Text>等々力</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_30" Language="ja_JP">
+			<Text>九品仏</Text>
+		</Replace>
 		
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE" Language="ja_JP">
@@ -128,6 +176,9 @@
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_GO_IS_GOD_QUOTE" Language="ja_JP">
 			<Text>大丈夫大丈夫^^ ヘーキヘーキ^^</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_VIOLENCE_MAN_QUOTE" Language="ja_JP">
+			<Text>おじさんはねぇ、君みたいな可愛いねぇ、この悶絶顔が大好きなんだよ！</Text>
 		</Replace>
 
 		<!-- 昇進 -->
@@ -178,5 +229,5 @@
 		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION" Language="ja_JP">
 			<Text>あらゆる状況で [ICON_Strength] 戦闘力+15。</Text>
 		</Replace>
-</LocalizedText>
+	</LocalizedText>
 </GameData>

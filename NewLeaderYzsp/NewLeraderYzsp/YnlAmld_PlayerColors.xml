@@ -28,5 +28,17 @@
 			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_YNL_GO_IS_GOD_PRIMARY</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_LT</Alt3SecondaryColor>
 		</Row>
+		<Row>
+			<Type>LEADER_YNL_VIOLENCE_MAN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_PRIMARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_PURPLE_MD</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_PRIMARY</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_RED_MD</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_PRIMARY</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_MD</Alt3SecondaryColor>
+		</Row>
 	</PlayerColors>
 </Database>

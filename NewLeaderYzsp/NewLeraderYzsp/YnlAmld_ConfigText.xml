@@ -29,7 +29,7 @@
 		<Row Tag="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION" Language="en_US">
 			<Text>Additional Military policy slot. +3 [ICON_PRODUCTION] Production to each city with encampment.</Text>
 		</Row>
-		<Row Tag="LOC_LLEADER_YNL_KOJI_TADOKORO_DOM_TEXT" Language="en_US">
+		<Row Tag="LOC_LEADER_YNL_KOJI_TADOKORO_DOM_TEXT" Language="en_US">
 			<Text>I really appreciate that.</Text>
 		</Row>
 		<!-- 豪 -->
@@ -42,8 +42,21 @@
 		<Row Tag="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION" Language="en_US">
 			<Text>Levied units gain an ability giving them +2 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength. It costs no [ICON_GOLD] Gold or Resources to upgrade Levied units. If you Levy troops from a City-State receive 2 [ICON_ENVOY] Envoys with that City-State. Combat victories provide [ICON_Culture] Culture, [ICON_Science] Science, [ICON_Faith] Faith and [ICON_Gold] Gold equal to 10% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
 		</Row>
-		<Row Tag="LOC_LLEADER_YNL_GO_IS_GOD_DOM_TEXT" Language="en_US">
+		<Row Tag="LOC_LEADER_YNL_GO_IS_GOD_DOM_TEXT" Language="en_US">
 			<Text>I really appreciate that.</Text>
+		</Row>
+		<!-- 虐待おじさん -->
+		<Row Tag="LOC_LEADER_YNL_VIOLENCE_MAN_NAME" Language="en_US">
+			<Text>The Violence Man</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_NAME" Language="en_US">
+			<Text>Sadistic Streak</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_DESCRIPTION" Language="en_US">
+			<Text>All units receive +5 [ICON_Strength] Combat Strength when attacking wounded units. Mines and quarry receive +1 [ICON_SCIENCE] Science if there is an adjacent Campus district. Buildings that provide additional yields when [ICON_POWER] Powered receive +2 of that yield.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_YNL_VIOLENCE_MAN_DOM_TEXT" Language="en_US">
+			<Text>I will beat you if you move.</Text>
 		</Row>
 		
 		<!-- UI -->
@@ -99,6 +112,19 @@
 			<Text>GO unique building: Brothel</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_BROTHEL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 拷問器具工房 -->
+		<Row Tag="LOC_BUILDING_YNL_TORTURE_WORKSHOP_NAME" Language="en_US">
+			<Text>Torture Workshop</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_YNL_TORTURE_WORKSHOP_DESCRIPTION" Language="en_US">
+			<Text>The Violence Man unique Medival era building that replaces the Workshop. +2 [ICON_Science] Science, +2 [ICON_Production] Production. +1 [ICON_GreatEngineer] Great Engineer point, +1 [ICON_GreatScientist] Great Scientist point.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP_NAME" Language="en_US">
+			<Text>The Violence Man unique building: Torture Workshop</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_TORTURE_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

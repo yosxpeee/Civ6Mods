@@ -8,9 +8,27 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text></Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_GO_IS_GOD_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_GO_IS_GOD_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_GO_IS_GOD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 
@@ -121,6 +139,36 @@
 		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_20" Language="en_US">
 			<Text>Nishinippori</Text>
 		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_21" Language="en_US">
+			<Text>Takadanobaba</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_22" Language="en_US">
+			<Text>Futakotamagawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_23" Language="en_US">
+			<Text>Youga</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_24" Language="en_US">
+			<Text>Kyodo</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_25" Language="en_US">
+			<Text>Musashikosugi</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_26" Language="en_US">
+			<Text>Tachikawa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_27" Language="en_US">
+			<Text>Shinkoiwa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_28" Language="en_US">
+			<Text>Saginomiya</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_29" Language="en_US">
+			<Text>Todoroki</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_30" Language="en_US">
+			<Text>Kuhonbutu</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE" Language="en_US">
@@ -129,53 +177,56 @@
 		<Row Tag="LOC_LEADER_YNL_GO_IS_GOD_QUOTE" Language="en_US">
 			<Text>You’ll be fine. No need to worry.</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_YNL_VIOLENCE_MAN_QUOTE" Language="en_US">
+			<Text>I love the awful face of a cute boy like you!</Text>
+		</Row>
 		
 		<!-- 昇進 -->
-		<Row Tag="LOC_PROMOTION_CLASS_HAKUSHIN_KARATE_YNL_NAME">
+		<Row Tag="LOC_PROMOTION_CLASS_HAKUSHIN_KARATE_YNL_NAME" Language="en_US">
 			<Text>Hakushin Karate</Text>
 		</Row>
 		<!-- 昇進(個別名) -->
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_NAME">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_NAME" Language="en_US">
 			<Text>Shadow Strike</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_NAME">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_NAME" Language="en_US">
 			<Text>Nightwing's Veil</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_NAME">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_NAME" Language="en_US">
 			<Text>Dirty Palms</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_NAME">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_NAME" Language="en_US">
 			<Text>Guerrilla</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_NAME">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_NAME" Language="en_US">
 			<Text>Shorten Distances</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_NAME">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_NAME" Language="en_US">
 			<Text>Dancing Beast</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_NAME">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_NAME" Language="en_US">
 			<Text>Crushing Blow</Text>
 		</Row>
 		<!-- 昇進(個別説明) -->
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_DESCRIPTION" Language="en_US">
 			<Text>2x flanking bonus.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_DESCRIPTION" Language="en_US">
 			<Text>Only adjacent enemy units can reveal this unit.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_DESCRIPTION" Language="en_US">
 			<Text>+10 [ICON_Strength] Combat Strength in all situations.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_DESCRIPTION" Language="en_US">
 			<Text>Can move after attacking.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_DESCRIPTION" Language="en_US">
 			<Text>+1 additional attack per turn if [ICON_Movement] Movement allows.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Movement] Movement.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION" Language="en_US">
 			<Text>+15 [ICON_Strength] Combat Strength in all situations.</Text>
 		</Row>
 	</LocalizedText>

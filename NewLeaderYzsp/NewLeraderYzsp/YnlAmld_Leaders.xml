@@ -4,12 +4,16 @@
 		<!-- 指導者そのものの定義 -->
 		<Row Type="LEADER_YNL_KOJI_TADOKORO" Kind="KIND_LEADER" />
 		<Row Type="LEADER_YNL_GO_IS_GOD"     Kind="KIND_LEADER" />
+		<Row Type="LEADER_YNL_VIOLENCE_MAN"  Kind="KIND_LEADER" />
 		<!-- 指導者特性(田所) -->
 		<Row Type="TRAIT_LEADER_YNL_KOJI_TADOKORO"    Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_ROOFTOP" Kind="KIND_TRAIT"/>
 		<!-- 指導者特性(豪) -->
 		<Row Type="TRAIT_LEADER_YNL_GO_IS_GOD"        Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_BROTHEL" Kind="KIND_TRAIT"/>
+		<!-- 指導者特性(虐待おじさん) -->
+		<Row Type="TRAIT_LEADER_YNL_VIOLENCE_MAN"              Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP" Kind="KIND_TRAIT"/>
 	</Types>
 
 	<Leaders>
@@ -23,12 +27,18 @@
 			<Name>LOC_LEADER_YNL_GO_IS_GOD_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_YNL_VIOLENCE_MAN</LeaderType>
+			<Name>LOC_LEADER_YNL_VIOLENCE_MAN_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" Quote="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE"/>
-		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     Quote="LOC_LLEADER_YNL_GO_IS_GOD_QUOTE"/>
+		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     Quote="LOC_LEADER_YNL_GO_IS_GOD_QUOTE"/>
+		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  Quote="LOC_LEADER_YNL_VIOLENCE_MAN_QUOTE"/>
 	</LeaderQuotes>
 
 	<!-- 指導者が持つ特性 -->
@@ -39,6 +49,9 @@
 		<!-- 豪 -->
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_YNL_GO_IS_GOD"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL"/>
+		<!-- 虐待おじさん -->
+		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_YNL_VIOLENCE_MAN"/>
+		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP"/>
 	</LeaderTraits>
 
 	<!-- 特性の親定義(特性の名称と説明文) -->
@@ -49,6 +62,9 @@
 		<!-- 豪 -->
 		<Row TraitType="TRAIT_LEADER_YNL_GO_IS_GOD"        Name="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_NAME" Description="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL" Name="LOC_TRAIT_LEADER_BUILDING_YNL_BROTHEL_NAME"/>
+		<!-- 虐待おじさん -->
+		<Row TraitType="TRAIT_LEADER_YNL_VIOLENCE_MAN"              Name="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_NAME" Description="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP" Name="LOC_TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP_NAME"/>
 	</Traits>
 
 	<!-- 指導者特性 -->
@@ -102,6 +118,39 @@
 			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>
 			<ModifierId>UNIQUE_LEADER_GOLD_KILLS_YNL_GO_IS_GOD</ModifierId>
 		</Row>
+		<!-- 虐待おじさん -->
+		<!-- 傷ついたユニットへの戦闘力+5(バニラのトミュリス) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
+			<ModifierId>BONUS_VS_WOUNDED_UNITS</ModifierId>
+		</Row>
+		<!-- 電力が供給されると産出量が増える建造物の産出量+2(GSのイギリス) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_SCIENCE</ModifierId>
+		</Row>
+		<!-- キャンパスに接している鉱山から科学力+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
+			<ModifierId>TRAIT_MINES_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN</ModifierId>
+		</Row>
+		<!-- キャンパスに接している採石場から科学力+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
+			<ModifierId>TRAIT_QUARRY_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 田所 -->
@@ -132,6 +181,20 @@
 			<ModifierId>UNIQUE_LEADER_GOLD_KILLS_YNL_GO_IS_GOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
+		<!-- 虐待おじさん -->
+		<!-- キャンパスに接している鉱山から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_MINES_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_CAMPUS_MINES_REQUIREMENTS_YNL_VIOLENCE_MAN</SubjectRequirementSetId>
+		</Row>
+		<!-- キャンパスに接している採石場から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_QUARRY_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_CAMPUS_QUARRY_REQUIREMENTS_YNL_VIOLENCE_MAN</SubjectRequirementSetId>
+		</Row>
+	
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 田所 -->
@@ -191,11 +254,44 @@
 			<Name>PercentDefeatedStrength</Name>
 			<Value>10</Value>
 		</Row>
+		<!-- 虐待おじさん -->
+		<!-- キャンパスに接している鉱山から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_MINES_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN </ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MINES_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN </ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- キャンパスに接している採石場から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_QUARRY_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN </ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_QUARRY_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN </ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<!-- 条件：兵営区域 -->
 		<Row>
 			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_PRODUCTION_YZSP</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：キャンパス区域に隣接した鉱山 -->
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_MINES_REQUIREMENTS_YNL_VIOLENCE_MAN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：キャンパス区域に隣接した採石場 -->
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_QUARRY_REQUIREMENTS_YNL_VIOLENCE_MAN</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -205,14 +301,61 @@
 			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_PRODUCTION_YZSP</RequirementSetId>
 			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId><!-- バニラにある -->
 		</Row>
+		<!-- 条件：キャンパス区域に隣接した鉱山 -->
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_MINES_REQUIREMENTS_YNL_VIOLENCE_MAN</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_MINES_REQUIREMENTS_YNL_VIOLENCE_MAN</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS_YNL_VIOLENCE_MAN</RequirementId>
+		</Row>
+		<!-- 条件：キャンパス区域に隣接した採石場 -->
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_QUARRY_REQUIREMENTS_YNL_VIOLENCE_MAN</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_QUARRY_YNL_VIOLENCE_MAN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_QUARRY_REQUIREMENTS_YNL_VIOLENCE_MAN</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS_YNL_VIOLENCE_MAN</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
-
+	<Requirements>
+		<!-- 条件：採石場に隣接 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_QUARRY_YNL_VIOLENCE_MAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 条件：キャンパス区域に隣接 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS_YNL_VIOLENCE_MAN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- 条件：採石場に隣接 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_QUARRY_YNL_VIOLENCE_MAN</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_QUARRY</Value>
+		</Row>
+		<!-- 条件：キャンパス区域に隣接 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS_YNL_VIOLENCE_MAN</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+	</RequirementArguments>
+	
 	<!-- アジェンダ -->
 	<HistoricalAgendas>
-		<!-- 日本と同じ -->
+		<!-- 田所、豪：時宗と同じ -->
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" AgendaType="AGENDA_BUSHIDO"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     AgendaType="AGENDA_BUSHIDO"/>
+		<!-- 虐待おじさん：ピョートルと同じ -->
+		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  AgendaType="AGENDA_WESTERNIZER"/>
 	</HistoricalAgendas>
+	
 	<!-- AIの好みの親定義 -->
 	<AiListTypes>
 		<!-- 田所 -->
@@ -225,7 +368,13 @@
 		<Row ListType="YNL_GoIsGodCivics"/>
 		<Row ListType="YNL_GoIsGodTechs"/>
 		<Row ListType="YNL_GoIsGodDistrict"/>
+
+		<Row ListType="YNL_ViolenceManWonders"/>
+		<Row ListType="YNL_ViolenceManCivics"/>
+		<Row ListType="YNL_ViolenceManTechs"/>
+		<Row ListType="YNL_ViolenceManDistrict"/>
 	</AiListTypes>
+	<!-- AIリスト -->
 	<AiLists>
 		<!-- 田所 -->
 		<Row ListType="YNL_KojiTadokoroWonders"  LeaderType="TRAIT_LEADER_YNL_KOJI_TADOKORO" System="Buildings"/>
@@ -237,7 +386,13 @@
 		<Row ListType="YNL_GoIsGodCivics"   LeaderType="TRAIT_LEADER_YNL_GO_IS_GOD" System="Civics"/>
 		<Row ListType="YNL_GoIsGodTechs"    LeaderType="TRAIT_LEADER_YNL_GO_IS_GOD" System="Technologies"/>
 		<Row ListType="YNL_GoIsGodDistrict" LeaderType="TRAIT_LEADER_YNL_GO_IS_GOD" System="Districts"/>
+		<!-- 虐待おじさん -->
+		<Row ListType="YNL_ViolenceManWonders"  LeaderType="TRAIT_LEADER_YNL_VIOLENCE_MAN" System="Buildings"/>
+		<Row ListType="YNL_ViolenceManCivics"   LeaderType="TRAIT_LEADER_YNL_VIOLENCE_MAN" System="Civics"/>
+		<Row ListType="YNL_ViolenceManTechs"    LeaderType="TRAIT_LEADER_YNL_VIOLENCE_MAN" System="Technologies"/>
+		<Row ListType="YNL_ViolenceManDistrict" LeaderType="TRAIT_LEADER_YNL_VIOLENCE_MAN" System="Districts"/>
 	</AiLists>
+	<!-- 好みの設定 -->
 	<AiFavoredItems>
 		<!-- 田所 -->
 		<!-- 大浴場、ピラミッド、ルール地方、エルミタージュ美術館、ボリショイ劇場、ゴールデンゲートブリッジ -->
@@ -294,21 +449,51 @@
 		<!-- 劇場広場、兵営 -->
 		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_THEATER" Favored="true"/>
 		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
+
+		<!-- 虐待おじさん -->
+		<!-- アレキサンドリア図書館、ピラミッド、サンコーレ大学、紫禁城、ビッグベン、オックスフォード大学 -->
+		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_GREAT_LIBRARY"/>
+		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_UNIVERSITY_SANKORE"/>
+		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_FORBIDDEN_CITY"/>
+		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_BIG_BEN"/>
+		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
+		<!-- 遊びと娯楽、政治哲学、演劇と詩、ヒューマニズム、ナショナリズム、戦時動員、核開発-->
+		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_GAMES_RECREATION"/>
+		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_NATIONALISM"/>
+		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_NUCLEAR_PROGRAM"/>
+		<!-- 弓術、通貨、軍事工学、火薬、科学理論、弾道学、工業化 -->
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_SCIENTIFIC_THEORY"/>
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_BALLISTICS"/>
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- キャンパス -->
+		<Row ListType="YNL_ViolenceManDistrict" Item="DISTRICT_CAMPUS" Favored="true"/>
 	</AiFavoredItems>
 
 	<!-- ローディング画面、外交画面 -->
 	<LoadingInfo>
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds" LeaderText="LOC_LEADER_YNL_KOJI_TADOKORO_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_GO_IS_GOD.dds"     LeaderText="LOC_LEADER_YNL_GO_IS_GOD_DOM_TEXT"     PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds"  LeaderText="LOC_LEADER_YNL_VIOLENCE_MAN_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_KOJI_TADOKORO" BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 		<Row Type="LEADER_YNL_GO_IS_GOD"     BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
+		<Row Type="LEADER_YNL_VIOLENCE_MAN"  BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 	</DiplomacyInfo>
 	
 	<!-- 好む宗教 -->
 	<FavoredReligions>
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     ReligionType="RELIGION_JUDAISM"/>
+		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  ReligionType="RELIGION_SHINTO"/>
 	</FavoredReligions>
 </GameData>

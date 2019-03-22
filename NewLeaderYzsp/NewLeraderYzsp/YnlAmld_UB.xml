@@ -2,8 +2,9 @@
 <GameInfo>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="BUILDING_YNL_ROOFTOP" Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_YNL_BROTHEL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_ROOFTOP"          Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_BROTHEL"          Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_TORTURE_WORKSHOP" Kind="KIND_BUILDING"/>
 	</Types>
 	<!-- 主設定 -->
 	<Buildings>
@@ -17,11 +18,17 @@
 			 PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" 
 			 PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="2"
 			 TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL"/>
+		<!-- 拷問器具工房 -->
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" Name="LOC_BUILDING_YNL_TORTURE_WORKSHOP_NAME" Description="LOC_BUILDING_YNL_TORTURE_WORKSHOP_DESCRIPTION"
+			 PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" 
+			 PurchaseYield="YIELD_GOLD" Cost="195" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"
+		     TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP"/>
 	</Buildings>
 	<!-- 置き換え設定 -->
 	<BuildingReplaces>
-		<Row CivUniqueBuildingType="BUILDING_YNL_ROOFTOP" ReplacesBuildingType="BUILDING_SHOPPING_MALL"/>
-		<Row CivUniqueBuildingType="BUILDING_YNL_BROTHEL" ReplacesBuildingType="BUILDING_ARENA"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_ROOFTOP"          ReplacesBuildingType="BUILDING_SHOPPING_MALL"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_BROTHEL"          ReplacesBuildingType="BUILDING_ARENA"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_TORTURE_WORKSHOP" ReplacesBuildingType="BUILDING_WORKSHOP"/>
 	</BuildingReplaces>
 	<!-- 排他制御 -->
 	<MutuallyExclusiveBuildings>
@@ -29,8 +36,15 @@
 	</MutuallyExclusiveBuildings>
 	<!-- 出力ボーナス設定 -->
 	<Building_YieldChanges>
-		<Row BuildingType="BUILDING_YNL_BROTHEL" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_YNL_BROTHEL"          YieldType="YIELD_CULTURE"    YieldChange="2"/>
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" YieldType="YIELD_SCIENCE"    YieldChange="2"/>
 	</Building_YieldChanges>
+	<!-- 偉人ポイント -->
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
 	<!-- 特殊効果 -->
 	<BuildingModifiers>
 		<!-- 屋上：野獣先輩BBの観光力強化 -->
@@ -82,29 +96,4 @@
 			<Value>25</Value>
 		</Row>
 	</ModifierArguments>
-	<RequirementSets>
-		<Row>
-			<RequirementSetId>BROTHEL_UNIT_REQUIREMENTS_YNL</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
-		</Row>
-	</RequirementSets>
-	<RequirementSetRequirements>
-		<Row>
-			<RequirementSetId>BROTHEL_UNIT_REQUIREMENTS_YNL</RequirementSetId>
-			<RequirementId>REQUIREMENT_UNIT_IS_HAKUSHIN_KARATE_YNL</RequirementId>
-		</Row>
-	</RequirementSetRequirements>
-	<Requirements>
-		<Row>
-			<RequirementId>REQUIREMENT_UNIT_IS_HAKUSHIN_KARATE_YNL</RequirementId>
-			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
-		</Row>
-	</Requirements>
-	<RequirementArguments>
-		<Row>
-			<RequirementId>REQUIREMENT_UNIT_IS_HAKUSHIN_KARATE_YNL</RequirementId>
-			<Name>Tag</Name>
-			<Value>CLASS_HAKUSHIN_KARATE</Value>
-		</Row>
-	</RequirementArguments>
 </GameInfo>

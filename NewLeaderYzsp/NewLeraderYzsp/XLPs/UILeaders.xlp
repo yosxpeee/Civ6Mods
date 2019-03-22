@@ -27,6 +27,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_YNL_GO_IS_GOD"/>
 			<m_ObjectName text="PORTRAIT_LEADER_YNL_GO_IS_GOD"/>
 		</Element>
+		<!-- 虐待おじさん -->
+		<Element>
+			<m_EntryID text="LEADER_YNL_VIOLENCE_MAN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_YNL_VIOLENCE_MAN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_YNL_VIOLENCE_MAN"/>
+			<m_ObjectName text="PORTRAIT_LEADER_YNL_VIOLENCE_MAN"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

@@ -18,6 +18,14 @@
 		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO64.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO80.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_GO256.DDS"/>
+		<!-- 虐待おじさん -->
+		<Row Name="ICON_ATLAS_YNL_LEADER_VIOLENCE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_VIOLENCE32.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_VIOLENCE" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_VIOLENCE45.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_VIOLENCE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_VIOLENCE50.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_VIOLENCE" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_VIOLENCE55.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_VIOLENCE" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_VIOLENCE64.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_VIOLENCE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_VIOLENCE80.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_VIOLENCE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_VIOLENCE256.DDS"/>
 		
 		<!-- 文明 -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD22.dds"/>
@@ -46,25 +54,28 @@
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
-		<Row Name="ICON_CIVILIZATION_YNL_AMLD" Atlas="ICON_ATLAS_CIVILIZATION_YNL_AMLD" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_YNL_AMLD"    Atlas="ICON_ATLAS_CIVILIZATION_YNL_AMLD" Index="0"/>
 		<!-- 指導者 -->
-		<Row Name="ICON_LEADER_YNL_KOJI_TADOKORO"       Atlas="ICON_ATLAS_YNL_LEADER_YZSP" Index="0"/>
-		<Row Name="ICON_LEADER_YNL_GO_IS_GOD"           Atlas="ICON_ATLAS_YNL_LEADER_GO_IS_GOD" Index="0"/>
+		<Row Name="ICON_LEADER_YNL_KOJI_TADOKORO" Atlas="ICON_ATLAS_YNL_LEADER_YZSP"       Index="0"/>
+		<Row Name="ICON_LEADER_YNL_GO_IS_GOD"     Atlas="ICON_ATLAS_YNL_LEADER_GO_IS_GOD"  Index="0"/>
+		<Row Name="ICON_LEADER_YNL_VIOLENCE_MAN"  Atlas="ICON_ATLAS_YNL_LEADER_VIOLENCE"   Index="0"/>
 		<!-- UI：野獣先輩BB(クルガンの使いまわし) -->
-		<Row Name="ICON_IMPROVEMENT_YNL_YZSP_BB" Atlas="ICON_ATLAS_UNIT_ACTIONS"   Index="19"/>
+		<Row Name="ICON_IMPROVEMENT_YNL_YZSP_BB"  Atlas="ICON_ATLAS_UNIT_ACTIONS"          Index="19"/>
 		<!-- UU：迫真空手部員(ポートレイトは武僧の使いまわし) -->
 		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE"                            Atlas="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                    Index="0"/>
 		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_FOW"                        Atlas="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE_FOW"                Index="0"/>
 		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_WHITE"                      Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE"  Index="0"/>
 		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_BLACK"                      Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_BLACK"  Index="0"/>
-		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="35"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="35"/>
-		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="35"/>
-		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="35"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="35"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                             Index="35"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"                       Index="35"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"               Index="35"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2"              Index="35"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"                     Index="35"/>
 		<!-- UB:屋上(研究所の使いまわし) -->
-		<Row Name="ICON_BUILDING_YNL_ROOFTOP" Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
-		<!-- UB：娼館(トラクトリの使いまわし) -->
-		<Row Name="ICON_BUILDING_YNL_BROTHEL" Atlas="ICON_ATLAS_BUILDINGS" Index="9"/>
+		<Row Name="ICON_BUILDING_YNL_ROOFTOP"          Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+		<!-- UB:娼館(トラクトリの使いまわし) -->
+		<Row Name="ICON_BUILDING_YNL_BROTHEL"          Atlas="ICON_ATLAS_BUILDINGS" Index="9"/>
+		<!-- UB:拷問器具工房(工房の使いまわし) -->
+		<Row Name="ICON_BUILDING_YNL_TORTURE_WORKSHOP" Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
 	</IconDefinitions>
 </GameData>

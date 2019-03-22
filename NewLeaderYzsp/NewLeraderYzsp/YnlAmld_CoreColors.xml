@@ -20,5 +20,14 @@
 			<Type>COLOR_PLAYER_LEADER_YNL_GO_IS_GOD_SECONDARY</Type>
 			<Color>230,180,34,255</Color>
 		</Row>
+		<!-- 虐待おじさん -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_PRIMARY</Type>
+			<Color>28,48,92,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_SECONDARY</Type>
+			<Color>166,165,196,255</Color>
+		</Row>
 	</Colors>
 </GameInfo>

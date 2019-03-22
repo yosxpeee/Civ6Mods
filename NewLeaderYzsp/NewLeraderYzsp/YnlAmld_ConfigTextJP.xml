@@ -45,6 +45,19 @@
 		<Replace Tag="LOC_LEADER_YNL_GO_IS_GOD_DOM_TEXT" Language="ja_JP">
 			<Text>ハイ、ヨロシクゥ！</Text>
 		</Replace>
+		<!-- 虐待おじさん -->
+		<Replace Tag="LOC_LEADER_YNL_VIOLENCE_MAN_NAME" Language="ja_JP">
+			<Text>虐待おじさん</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_NAME" Language="ja_JP">
+			<Text>加虐体質</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_DESCRIPTION" Language="ja_JP">
+			<Text>負傷したユニットを攻撃する際、すべてのユニットの [ICON_Strength] 戦闘力+5。キャンパス区域に隣接している鉱山、採石場の [ICON_SCIENCE] 科学力+1。[ICON_POWER] 電力が供給されると産出量が増える建造物の産出量+2。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_VIOLENCE_MAN_DOM_TEXT" Language="ja_JP">
+			<Text>動いたら叩くぞ？</Text>
+		</Replace>
 		
 		<!-- UI -->
 		<Replace Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="ja_JP">
@@ -99,6 +112,19 @@
 			<Text>GO固有の建造物: 娼館</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_BROTHEL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<!-- 拷問器具工房 -->
+		<Replace Tag="LOC_BUILDING_YNL_TORTURE_WORKSHOP_NAME" Language="ja_JP">
+			<Text>拷問器具工房</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YNL_TORTURE_WORKSHOP_DESCRIPTION" Language="ja_JP">
+			<Text>工房に取って代わる中世の虐待おじさん固有の建造物。[ICON_Science] 科学力+2、[ICON_Production] 生産力+2。[ICON_GreatEngineer] 大技術者ポイント+1、[ICON_GreatScientist] 大科学者ポイント+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP_NAME" Language="ja_JP">
+			<Text>虐待おじさん固有の建造物: 拷問器具工房</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_TORTURE_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
 	</LocalizedText>

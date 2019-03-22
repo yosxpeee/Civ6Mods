@@ -67,6 +67,35 @@
 			<m_EntryID text="ICON_YNL_LEADER_GO80"/>
 			<m_ObjectName text="ICON_YNL_LEADER_GO80"/>
 		</Element>
+		<!-- 指導者（虐待おじさん） -->
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_VIOLENCE256"/>
+			<m_ObjectName text="ICON_YNL_LEADER_VIOLENCE256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_VIOLENCE32"/>
+			<m_ObjectName text="ICON_YNL_LEADER_VIOLENCE32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_VIOLENCE45"/>
+			<m_ObjectName text="ICON_YNL_LEADER_VIOLENCE45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_VIOLENCE50"/>
+			<m_ObjectName text="ICON_YNL_LEADER_VIOLENCE50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_VIOLENCE55"/>
+			<m_ObjectName text="ICON_YNL_LEADER_VIOLENCE55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_VIOLENCE64"/>
+			<m_ObjectName text="ICON_YNL_LEADER_VIOLENCE64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_VIOLENCE80"/>
+			<m_ObjectName text="ICON_YNL_LEADER_VIOLENCE80"/>
+		</Element>
 		<!-- 文明 -->
 		<Element>
 			<m_EntryID text="ICON_YNL_CIV_AMLD22"/>
