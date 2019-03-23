@@ -20,6 +20,14 @@
 		<Row DistrictType="DISTRICT_LIVERY_COMPANY" YieldChangeId="District_Gold"/>
 		<Row DistrictType="DISTRICT_LIVERY_COMPANY" YieldChangeId="CityCenter_Gold_Mesugaki"/>
 	</District_Adjacencies>
+	<ExcludedAdjacencies>
+		<!-- 隣接ボーナスの多重適用防止 -->
+		<Row YieldChangeId="District_Science"    TraitType="TRAIT_CIVILIZATION_YNL_POM"/>
+		<Row YieldChangeId="District_Faith"      TraitType="TRAIT_CIVILIZATION_YNL_POM"/>
+		<Row YieldChangeId="District_Gold"       TraitType="TRAIT_CIVILIZATION_YNL_POM"/>
+		<Row YieldChangeId="District_Culture"    TraitType="TRAIT_CIVILIZATION_YNL_POM"/>
+		<Row YieldChangeId="District_Production" TraitType="TRAIT_CIVILIZATION_YNL_POM"/>
+	</ExcludedAdjacencies>
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_LIVERY_COMPANY" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
 	</District_GreatPersonPoints>

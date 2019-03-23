@@ -326,25 +326,4 @@
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_MESUGAKI" BackgroundImage="YNL_Mesugaki_Diplomacy_Background.dds"/>
 	</DiplomacyInfo>
-
-	<!-- 固有カラー -->
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_MESUGAKI_PRIMARY</Type>
-			<Color>230,97,106,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_MESUGAKI_SECONDARY</Type>
-			<Color>179,191,244,255</Color>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_YNL_MESUGAKI</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_YNL_MESUGAKI_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_YNL_MESUGAKI_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 </GameData>

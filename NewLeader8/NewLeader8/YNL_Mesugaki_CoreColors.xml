@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー定義 -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_MESUGAKI_PRIMARY</Type>
+			<Color>230,97,106,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_MESUGAKI_SECONDARY</Type>
+			<Color>179,191,244,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>
