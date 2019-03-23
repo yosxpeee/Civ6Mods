@@ -3,4 +3,7 @@
 	<Units_XP2>
 		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
+	<Districts_XP2>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" AttackRange="2"/>
+	</Districts_XP2>
 </GameData>

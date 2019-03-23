@@ -488,25 +488,4 @@
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HARBOUR_PRINCESS" BackgroundImage="YNL_HarbourPrincess_Backgrouond_DiplomacyInfo.dds" ForegroundImage="LEADER_HARBOUR_PRINCESS_NEUTRAL" LeaderText="LOC_LEADER_HARBOUR_PRINCESS_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
-
-	<!-- 文明カラー設定 -->
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_HARBOUR_PRINCESS_PRIMARY</Type>
-			<Color>15,15,15,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_YNL_HARBOUR_PRINCESS_SECONDARY</Type>
-			<Color>0,0,192,255</Color>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_HARBOUR_PRINCESS</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_YNL_HARBOUR_PRINCESS_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_YNL_HARBOUR_PRINCESS_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 </GameData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー定義 -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_HARBOUR_PRINCESS_PRIMARY</Type>
+			<Color>15,15,15,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_HARBOUR_PRINCESS_SECONDARY</Type>
+			<Color>0,0,192,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>
