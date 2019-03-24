@@ -1,34 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<!-- 親定義 -->
 	<Types>
 		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_BLACK_CAR" Kind="KIND_UNIT"/>
+
+		<Row Type="ABILITY_YNL_BLACK_CAR" Kind="KIND_ABILITY"/>
 	</Types>
+	<!-- AI設定 -->
 	<UnitAiInfos>
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_YNL_BLACK_CAR" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="UNIT_YNL_BLACK_CAR" AiType="UNITTYPE_SIEGE_ALL"/>
 	</UnitAiInfos>
 	<!-- 置き換え設定 -->
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_YNL_HAKUSHIN_KARATE" ReplacesUnitType="UNIT_SWORDSMAN"/>
 	</UnitReplaces>
 	<Tags>
-		
+		<Row Tag="CLASS_YNL_BLACK_CAR" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<!-- 所有クラス -->
 	<TypeTags>
 		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_YNL_BLACK_CAR" Tag="CLASS_YNL_BLACK_CAR"/>
+
+		<Row Type="ABILITY_YNL_BLACK_CAR" Tag="CLASS_YNL_BLACK_CAR"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
+		<!-- 迫真空手部員 -->
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" Name="LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME" Description="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION"
 			 Cost="90"  Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="38" 
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"  AdvisorType="ADVISOR_CONQUEST"
 			 PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_GAMES_RECREATION" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE"/>
+		<!-- 黒塗りの高級車 -->
+		<Row UnitType="UNIT_YNL_BLACK_CAR" Name="LOC_UNIT_YNL_BLACK_CAR_NAME" Description="LOC_UNIT_YNL_BLACK_CAR_DESCRIPTION" 
+			 Cost="370" Maintenance="3" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" 
+			 FormationClass="FORMATION_CLASS_SUPPORT" PromotionClass="PROMOTION_CLASS_SUPPORT" AdvisorType="ADVISOR_CONQUEST" 
+			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_STEAM_POWER"
+			 TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<Row Unit="UNIT_YNL_HAKUSHIN_KARATE" UpgradeUnit="UNIT_MUSKETMAN"/>
 	</UnitUpgrades>
+
+	<!-- ユニットのアビリティ -->
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAR" Name="LOC_ABILITY_YNL_BLACK_CAR_NAME" Description="LOC_ABILITY_YNL_BLACK_CAR_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_BLACK_CAR</UnitAbilityType>
+			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId><!-- ヴァルのを使いまわし -->
+		</Row>
+		<Row>
+			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
 </GameInfo>

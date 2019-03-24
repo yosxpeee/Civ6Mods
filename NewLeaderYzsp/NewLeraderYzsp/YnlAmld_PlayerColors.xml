@@ -4,6 +4,7 @@
 	<!-- ここで指定したものがユニットのアイコンの色になる。 -->
 	<!-- PrimaryColorが透過部分、SecondaryColorが白い部分に塗られることになるので、文明のアイコンをそのように作っておく必要がある。 -->
 	<PlayerColors>
+		<!-- 田所 -->
 		<Row>
 			<Type>LEADER_YNL_KOJI_TADOKORO</Type>
 			<Usage>Unique</Usage>
@@ -16,6 +17,7 @@
 			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_YNL_KOJI_TADOKORO_PRIMARY</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_GREEN_LT</Alt3SecondaryColor>
 		</Row>
+		<!-- 豪 -->
 		<Row>
 			<Type>LEADER_YNL_GO_IS_GOD</Type>
 			<Usage>Unique</Usage>
@@ -28,6 +30,7 @@
 			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_YNL_GO_IS_GOD_PRIMARY</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_LT</Alt3SecondaryColor>
 		</Row>
+		<!-- 虐待おじさん -->
 		<Row>
 			<Type>LEADER_YNL_VIOLENCE_MAN</Type>
 			<Usage>Unique</Usage>
@@ -39,6 +42,19 @@
 			<Alt2SecondaryColor>COLOR_STANDARD_RED_MD</Alt2SecondaryColor>
 			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_PRIMARY</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_MD</Alt3SecondaryColor>
+		</Row>
+		<!-- TNOK -->
+		<Row>
+			<Type>LEADER_YNL_TNOK</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_YNL_TNOK_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_YNL_TNOK_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_PLAYER_LEADER_YNL_TNOK_PRIMARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_MAGENTA_MD</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_PLAYER_LEADER_YNL_TNOK_PRIMARY</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_GREEN_MD</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_YNL_TNOK_PRIMARY</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_AQUA_MD</Alt3SecondaryColor>
 		</Row>
 	</PlayerColors>
 </Database>

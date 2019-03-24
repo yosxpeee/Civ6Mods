@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 親定義 -->
 	<Types>
 		<!-- 指導者そのものの定義 -->
 		<Row Type="LEADER_YNL_KOJI_TADOKORO" Kind="KIND_LEADER" />
 		<Row Type="LEADER_YNL_GO_IS_GOD"     Kind="KIND_LEADER" />
 		<Row Type="LEADER_YNL_VIOLENCE_MAN"  Kind="KIND_LEADER" />
+		<Row Type="LEADER_YNL_TNOK"          Kind="KIND_LEADER" />
 		<!-- 指導者特性(田所) -->
-		<Row Type="TRAIT_LEADER_YNL_KOJI_TADOKORO"    Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_LEADER_BUILDING_YNL_ROOFTOP" Kind="KIND_TRAIT"/>
-		<!-- 指導者特性(豪) -->
-		<Row Type="TRAIT_LEADER_YNL_GO_IS_GOD"        Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_LEADER_BUILDING_YNL_BROTHEL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_YNL_KOJI_TADOKORO"             Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"          Kind="KIND_TRAIT"/>
+		<!-- 指導者特性(豪) -->						           
+		<Row Type="TRAIT_LEADER_YNL_GO_IS_GOD"                 Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_YNL_BROTHEL"          Kind="KIND_TRAIT"/>
 		<!-- 指導者特性(虐待おじさん) -->
 		<Row Type="TRAIT_LEADER_YNL_VIOLENCE_MAN"              Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP" Kind="KIND_TRAIT"/>
+		<!-- 指導者特性(TNOK) -->
+		<Row Type="TRAIT_LEADER_YNL_TNOK"                      Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"    Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"            Kind="KIND_TRAIT"/>
 	</Types>
 
+	<!-- 主設定 -->
 	<Leaders>
 		<Row>
 			<LeaderType>LEADER_YNL_KOJI_TADOKORO</LeaderType>
@@ -32,6 +39,11 @@
 			<Name>LOC_LEADER_YNL_VIOLENCE_MAN_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_YNL_TNOK</LeaderType>
+			<Name>LOC_LEADER_YNL_TNOK_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
@@ -39,6 +51,7 @@
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" Quote="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     Quote="LOC_LEADER_YNL_GO_IS_GOD_QUOTE"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  Quote="LOC_LEADER_YNL_VIOLENCE_MAN_QUOTE"/>
+		<Row LeaderType="LEADER_YNL_TNOK"          Quote="LOC_LEADER_YNL_TNOK_QUOTE"/>
 	</LeaderQuotes>
 
 	<!-- 指導者が持つ特性 -->
@@ -52,19 +65,27 @@
 		<!-- 虐待おじさん -->
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_YNL_VIOLENCE_MAN"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP"/>
+		<!-- TNOK -->
+		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_YNL_TNOK"/>
+		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"/>
+		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"/>
 	</LeaderTraits>
 
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
 		<!-- 田所 -->
-		<Row TraitType="TRAIT_LEADER_YNL_KOJI_TADOKORO"    Name="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_NAME" Description="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP" Name="LOC_TRAIT_LEADER_BUILDING_YNL_ROOFTOP_NAME"/>
-		<!-- 豪 -->
-		<Row TraitType="TRAIT_LEADER_YNL_GO_IS_GOD"        Name="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_NAME" Description="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL" Name="LOC_TRAIT_LEADER_BUILDING_YNL_BROTHEL_NAME"/>
+		<Row TraitType="TRAIT_LEADER_YNL_KOJI_TADOKORO"             Name="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_NAME" Description="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"          Name="LOC_TRAIT_LEADER_BUILDING_YNL_ROOFTOP_NAME"/>
+		<!-- 豪 -->										   	        
+		<Row TraitType="TRAIT_LEADER_YNL_GO_IS_GOD"                 Name="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_NAME"     Description="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL"          Name="LOC_TRAIT_LEADER_BUILDING_YNL_BROTHEL_NAME"/>
 		<!-- 虐待おじさん -->
-		<Row TraitType="TRAIT_LEADER_YNL_VIOLENCE_MAN"              Name="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_NAME" Description="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_YNL_VIOLENCE_MAN"              Name="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_NAME"  Description="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP" Name="LOC_TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP_NAME"/>
+		<!-- TNOK -->
+		<Row TraitType="TRAIT_LEADER_YNL_TNOK"                      Name="LOC_TRAIT_LEADER_YNL_TNOK_NAME"          Description="LOC_TRAIT_LEADER_YNL_TNOK_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"    Name="LOC_TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"            Name="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAR_NAME"/>
 	</Traits>
 
 	<!-- 指導者特性 -->
@@ -151,6 +172,21 @@
 			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
 			<ModifierId>TRAIT_QUARRY_SCIENCE_CAMPUS_YNL_VIOLENCE_MAN</ModifierId>
 		</Row>
+		<!-- TNOK -->
+		<!-- 高級資源からの快適性増加(バニラのモンテスマと同じ) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TNOK</TraitType>
+			<ModifierId>TRAIT_OWNED_LUXURY_EXTRA_AMENITIES</ModifierId>
+		</Row>
+		<!-- 都市の生産力とゴールドが3%x着任している総督のレベル分向上 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TNOK</TraitType>
+			<ModifierId>TRAIT_ADJUST_CITY_PRODUCTION_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TNOK</TraitType>
+			<ModifierId>TRAIT_ADJUST_CITY_GOLD_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 田所 -->
@@ -194,7 +230,16 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_ADJACENT_TO_CAMPUS_QUARRY_REQUIREMENTS_YNL_VIOLENCE_MAN</SubjectRequirementSetId>
 		</Row>
-	
+		<!-- TNOK -->
+		<!-- 都市の生産力とゴールドが3%x着任している総督のレベル分向上 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_PRODUCTION_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_GOLD_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 田所 -->
@@ -277,6 +322,28 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- TNOK -->
+		<!-- 都市の生産力とゴールドが3%x着任している総督のレベル分向上 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_PRODUCTION_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_PRODUCTION_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_GOLD_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CITY_GOLD_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<!-- 条件：兵営区域 -->
@@ -352,6 +419,8 @@
 		<!-- 田所、豪：時宗と同じ -->
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" AgendaType="AGENDA_BUSHIDO"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     AgendaType="AGENDA_BUSHIDO"/>
+		<!-- TNOK：ゴルゴーと同じ -->
+		<Row LeaderType="LEADER_YNL_TNOK"          AgendaType="AGENDA_WITH_YOUR_SHIELD_OR_ON_IT"/>
 		<!-- 虐待おじさん：ピョートルと同じ -->
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  AgendaType="AGENDA_WESTERNIZER"/>
 	</HistoricalAgendas>
@@ -363,16 +432,21 @@
 		<Row ListType="YNL_KojiTadokoroCivics"/>
 		<Row ListType="YNL_KojiTadokoroTechs"/>
 		<Row ListType="YNL_KojiTadokoroDistrict"/>
-
+		<!-- 豪 -->
 		<Row ListType="YNL_GoIsGodWonders"/>
 		<Row ListType="YNL_GoIsGodCivics"/>
 		<Row ListType="YNL_GoIsGodTechs"/>
 		<Row ListType="YNL_GoIsGodDistrict"/>
-
+		<!-- 虐待おじさん -->
 		<Row ListType="YNL_ViolenceManWonders"/>
 		<Row ListType="YNL_ViolenceManCivics"/>
 		<Row ListType="YNL_ViolenceManTechs"/>
 		<Row ListType="YNL_ViolenceManDistrict"/>
+		<!-- TNOK -->
+		<Row ListType="YNL_TNOKWonders"/>
+		<Row ListType="YNL_TNOKCivics"/>
+		<Row ListType="YNL_TNOKTechs"/>
+		<Row ListType="YNL_TNOKDistrict"/>
 	</AiListTypes>
 	<!-- AIリスト -->
 	<AiLists>
@@ -391,6 +465,11 @@
 		<Row ListType="YNL_ViolenceManCivics"   LeaderType="TRAIT_LEADER_YNL_VIOLENCE_MAN" System="Civics"/>
 		<Row ListType="YNL_ViolenceManTechs"    LeaderType="TRAIT_LEADER_YNL_VIOLENCE_MAN" System="Technologies"/>
 		<Row ListType="YNL_ViolenceManDistrict" LeaderType="TRAIT_LEADER_YNL_VIOLENCE_MAN" System="Districts"/>
+		<!-- TNOK -->
+		<Row ListType="YNL_TNOKWonders"  LeaderType="TRAIT_LEADER_YNL_TNOK" System="Buildings"/>
+		<Row ListType="YNL_TNOKCivics"   LeaderType="TRAIT_LEADER_YNL_TNOK" System="Civics"/>
+		<Row ListType="YNL_TNOKTechs"    LeaderType="TRAIT_LEADER_YNL_TNOK" System="Technologies"/>
+		<Row ListType="YNL_TNOKDistrict" LeaderType="TRAIT_LEADER_YNL_TNOK" System="Districts"/>
 	</AiLists>
 	<!-- 好みの設定 -->
 	<AiFavoredItems>
@@ -410,9 +489,10 @@
 		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_OPERA_BALLET"/>
 		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_URBANIZATION"/>
 		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_SOCIAL_MEDIA"/>
-		<!-- 弓術、通貨、軍事工学、火薬、印刷、 コンピューター、工業化 -->
+		<!-- 弓術、通貨、青銅器、軍事工学、火薬、印刷、 コンピューター、工業化 -->
 		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_ARCHERY"/>
 		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_BRONZE_WORKING"/>
 		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_MILITARY_ENGINEERING"/>
 		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_GUNPOWDER"/>
 		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_PRINTING"/>
@@ -446,9 +526,9 @@
 		<Row ListType="YNL_GoIsGodTechs" Item="TECH_PRINTING"/>
 		<Row ListType="YNL_GoIsGodTechs" Item="TECH_COMPUTERS"/>
 		<Row ListType="YNL_GoIsGodTechs" Item="TECH_INDUSTRIALIZATION"/>
-		<!-- 劇場広場、兵営 -->
+		<!-- 劇場広場、総合娯楽施設 -->
 		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_THEATER" Favored="true"/>
-		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
+		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="true"/>
 
 		<!-- 虐待おじさん -->
 		<!-- アレキサンドリア図書館、ピラミッド、サンコーレ大学、紫禁城、ビッグベン、オックスフォード大学 -->
@@ -466,9 +546,10 @@
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_NATIONALISM"/>
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_MOBILIZATION"/>
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_NUCLEAR_PROGRAM"/>
-		<!-- 弓術、通貨、軍事工学、火薬、科学理論、弾道学、工業化 -->
+		<!-- 弓術、通貨、徒弟制度、軍事工学、火薬、科学理論、弾道学、工業化 -->
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_ARCHERY"/>
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_APPRENTICESHIP"/>
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_MILITARY_ENGINEERING"/>
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_GUNPOWDER"/>
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_SCIENTIFIC_THEORY"/>
@@ -476,6 +557,35 @@
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_INDUSTRIALIZATION"/>
 		<!-- キャンパス -->
 		<Row ListType="YNL_ViolenceManDistrict" Item="DISTRICT_CAMPUS" Favored="true"/>
+
+		<!-- TNOK -->
+		<!-- 兵馬俑、ピラミッド、アルハンブラ宮殿、紫禁城、ビッグベン、ルール地方 -->
+		<Row ListType="YNL_TNOKWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="YNL_TNOKWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="YNL_TNOKWonders" Item="BUILDING_ALHAMBRA"/>
+		<Row ListType="YNL_TNOKWonders" Item="BUILDING_FORBIDDEN_CITY"/>
+		<Row ListType="YNL_TNOKWonders" Item="BUILDING_BIG_BEN"/>
+		<Row ListType="YNL_TNOKWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<!-- 遊びと娯楽、政治哲学、演劇と詩、ヒューマニズム、ナショナリズム、戦時動員、核開発-->
+		<Row ListType="YNL_TNOKCivics" Item="CIVIC_GAMES_RECREATION"/>
+		<Row ListType="YNL_TNOKCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="YNL_TNOKCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="YNL_TNOKCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="YNL_TNOKCivics" Item="CIVIC_NATIONALISM"/>
+		<Row ListType="YNL_TNOKCivics" Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="YNL_TNOKCivics" Item="CIVIC_NUCLEAR_PROGRAM"/>
+		<!-- 弓術、青銅器、通貨、軍事工学、火薬、科学理論、弾道学、工業化 -->
+		<Row ListType="YNL_TNOKTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_SCIENTIFIC_THEORY"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_BALLISTICS"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 商業ハブ、兵営 -->
+		<Row ListType="YNL_TNOKDistrict" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
+		<Row ListType="YNL_TNOKDistrict" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
 	</AiFavoredItems>
 
 	<!-- ローディング画面、外交画面 -->
@@ -483,11 +593,13 @@
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds" LeaderText="LOC_LEADER_YNL_KOJI_TADOKORO_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_GO_IS_GOD.dds"     LeaderText="LOC_LEADER_YNL_GO_IS_GOD_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds"  LeaderText="LOC_LEADER_YNL_VIOLENCE_MAN_DOM_TEXT"  PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_YNL_TNOK"          BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_TNOK.dds"          LeaderText="LOC_LEADER_YNL_TNOK_DOM_TEXT"          PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_KOJI_TADOKORO" BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 		<Row Type="LEADER_YNL_GO_IS_GOD"     BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 		<Row Type="LEADER_YNL_VIOLENCE_MAN"  BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
+		<Row Type="LEADER_YNL_TNOK"          BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 	</DiplomacyInfo>
 	
 	<!-- 好む宗教 -->
@@ -495,5 +607,6 @@
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     ReligionType="RELIGION_JUDAISM"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  ReligionType="RELIGION_SHINTO"/>
+		<Row LeaderType="LEADER_YNL_TNOK"          ReligionType="RELIGION_ZOROASTRIANISM"/>
 	</FavoredReligions>
 </GameData>

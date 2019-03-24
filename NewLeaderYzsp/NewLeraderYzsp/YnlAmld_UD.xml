@@ -1,4 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
-
-</GameData>
+<GameInfo>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="DISTRICT_YNL_OUTLAW_OFFICE" Kind="KIND_DISTRICT"/>
+	</Types>
+	<!-- 置き換え設定 -->
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_YNL_OUTLAW_OFFICE" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+	</DistrictReplaces>
+	<!-- 主設定 -->
+	<Districts>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" Name="LOC_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Description="LOC_DISTRICT_YNL_OUTLAW_OFFICE_DESCRIPTION" 
+			 PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" 
+			 Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			 CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" 
+			 RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" 
+			 InternalOnly="false" ZOC="true" HitPoints="100" 
+			 CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
+			 MilitaryDomain="DOMAIN_LAND" Appeal="-1" Housing="1" CityStrengthModifier="2"
+			 TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"/>
+	</Districts>
+	<!-- 隣接ボーナスの親定義 -->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldChangeId="OutlawDistrict_Gold"/>
+	</District_Adjacencies>
+	<!-- 除外する隣接ボーナス設定 -->
+	<ExcludedAdjacencies>
+		<!-- ジャングルからの隣接ボーナスの多重適用防止 -->
+		<Row YieldChangeId="Jungle_Science" TraitType="TRAIT_CIVILIZATION_YNL_AMLD"/>
+	</ExcludedAdjacencies>
+	<!-- 偉人ポイント -->
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<!-- 交易ボーナス -->
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+	<!-- 市民配置ボーナス -->
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</District_CitizenYieldChanges>
+	<!-- 隣接ボーナス -->
+	<Adjacency_YieldChanges>
+		<!-- 他の区域が1つ隣接ごとに1ゴールド -->
+		<Row ID="OutlawDistrict_Gold" Description="LOC_DISTRICT_DISTRICT_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+	</Adjacency_YieldChanges>
+</GameInfo>

@@ -340,5 +340,118 @@
 			<Leader>LEADER_YNL_VIOLENCE_MAN</Leader>
 			<Sequence>DEFEAT</Sequence>
 		</Row>
+
+		<!-- ========== TNOK ========== -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<Row>
+			<Name>NEUTRAL_NEGATIVE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+		</Row>
+		<Row>
+			<Name>NEUTRAL_POSITIVE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<!-- Transitions to Happy and Unhappy from Neutral -->
+		<Row>
+			<Name>NEUTRAL_TO_UNHAPPY</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+		</Row>
+		<Row>
+			<Name>UNHAPPY_TO_NEUTRAL</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<Row>
+			<Name>NEUTRAL_TO_HAPPY</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>HAPPY_IDLE</Sequence>
+		</Row>
+		<Row>
+			<Name>HAPPY_TO_NEUTRAL</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<Row>
+			<Name>HAPPY_IDLE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>HAPPY_IDLE</Sequence>
+		</Row>
+		<Row>
+			<Name>HAPPY_NEGATIVE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+		</Row>
+		<Row>
+			<Name>HAPPY_POSITIVE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>HAPPY_IDLE</Sequence>
+		</Row>
+		<Row>
+			<Name>UNHAPPY_IDLE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>UNHAPPY_IDLE</Sequence>
+		</Row>
+		<Row>
+			<Name>UNHAPPY_NEGATIVE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>UNHAPPY_IDLE</Sequence>
+		</Row>
+		<Row>
+			<Name>UNHAPPY_POSITIVE</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+		</Row>
+		<Row>
+			<Name>NEUTRAL_GREETING</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<!-- Enraged, from any of Neutral, Happy, Unhappy -->
+		<Row>
+			<Name>ENRAGED</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>UNHAPPY_IDLE</Sequence>
+		</Row>
+		<!-- VO Kudos and Warning from AI -->
+		<Row>
+			<Name>KUDOS</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+		</Row>
+		<Row>
+			<Name>WARNING</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>NEUTRAL_NEGATIVE</Sequence>
+		</Row>
+		<!-- VO War Declaration from Human and AI -->
+		<Row>
+			<Name>DECLARE_WAR_FROM_HUMAN</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>SURPRISED_HUMAN</Sequence>
+		</Row>
+		<Row>
+			<Name>DECLARE_WAR_FROM_AI</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>SURPRISED_AI</Sequence>
+		</Row>
+		<!-- VO Introduction from AI -->
+		<Row>
+			<Name>FIRST_MEET</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<!-- VO Defeat from AI -->
+		<Row>
+			<Name>DEFEAT</Name>
+			<Leader>LEADER_YNL_TNOK</Leader>
+			<Sequence>DEFEAT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

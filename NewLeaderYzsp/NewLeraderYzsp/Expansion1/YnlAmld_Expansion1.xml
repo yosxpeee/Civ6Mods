@@ -27,5 +27,15 @@
 			 MomentDataType="MOMENT_DATA_BUILDING"
 			 GameDataType="BUILDING_YNL_TORTURE_WORKSHOP"
 			 Texture="YNL_MOMENT_BUILDING_YNL_TORTURE_WORKSHOP.dds"/>
+		<!-- 組事務所 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_YNL_OUTLAW_OFFICE"
+			 Texture="YNL_MOMENT_DISTRICT_YNL_OUTLAW_OFFICE.dds"/>
+		<!-- 黒塗りの高級車 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_BLACK_CAR"
+			 Texture="YNL_MOMENT_UNIT_YNL_BLACK_CAR.dds"/>
 	</MomentIllustrations>
 </GameData>

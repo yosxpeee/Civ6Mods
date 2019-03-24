@@ -58,6 +58,19 @@
 		<Replace Tag="LOC_LEADER_YNL_VIOLENCE_MAN_DOM_TEXT" Language="ja_JP">
 			<Text>動いたら叩くぞ？</Text>
 		</Replace>
+		<!-- TNOK -->
+		<Replace Tag="LOC_LEADER_YNL_TNOK_NAME" Language="ja_JP">
+			<Text>TNOK</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_TNOK_NAME" Language="ja_JP">
+			<Text>金、暴力、SEX！</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_TNOK_DESCRIPTION" Language="ja_JP">
+			<Text>領土内にある高級資源が2つの都市に追加で [ICON_Amenities] 快適性+1をもたらす。[ICON_Governor] 総督が着任しているすべての都市の [ICON_PRODUCTION] 生産力と [ICON_GOLD] ゴールドが、獲得しているレベルアップ1つにつき+3% (最初のレベルアップを含む)。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_TNOK_DOM_TEXT" Language="ja_JP">
+			<Text>試合を終えて家路へ向かうサッカー部員達。[NEWLINE]疲れからか、不幸にも黒塗りの高級車に追突してしまう。[NEWLINE]後輩をかばいすべての責任を負った三浦に対し、[NEWLINE]車の主、暴力団員谷岡が言い渡した示談の条件とは・・・。</Text>
+		</Replace>
 		
 		<!-- UI -->
 		<Replace Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="ja_JP">
@@ -74,6 +87,7 @@
 		</Replace>
 
 		<!-- UU -->
+		<!-- 迫真空手部員 -->
 		<Replace Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
 			<Text>迫真空手部員</Text>
 		</Replace>
@@ -84,7 +98,20 @@
 			<Text>真夏の夜の淫夢固有のユニット: 迫真空手部員</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_HAKUSHIN_KARATE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>カスが効かねえんだよ！</Text>
+		</Replace>
+		<!-- 黒塗りの高級車 -->
+		<Replace Tag="LOC_UNIT_YNL_BLACK_CAR_NAME" Language="ja_JP">
+			<Text>黒塗りの高級車</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_BLACK_CAR_DESCRIPTION" Language="ja_JP">
+			<Text>TNOK固有の産業時代の支援ユニット。[ICON_Movement] 移動力5。隣接する敵ユニットの [ICON_Strength] 戦闘力-5。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_BLACK_CAR_NAME" Language="ja_JP">
+			<Text>真夏の夜の淫夢固有のユニット: 黒塗りの高級車</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_BLACK_CAR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>誰の車にぶつけたと思ってんだ？どう落とし前つけんだよ？</Text>
 		</Replace>
 		
 		<!-- UB -->
@@ -125,6 +152,19 @@
 			<Text>虐待おじさん固有の建造物: 拷問器具工房</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_TORTURE_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<!-- 組事務所 -->
+		<Replace Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="ja_JP">
+			<Text>組事務所</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_DESCRIPTION" Language="ja_JP">
+			<Text>兵営に取って代わるTNOK固有の区域。[ICON_Housing] 住宅+1。隣接する他の区域1つにつき [ICON_Gold] ゴールド+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="ja_JP">
+			<Text>TNOK固有の建造物: 組事務所</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YNL_OUTLAW_OFFICE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
 	</LocalizedText>

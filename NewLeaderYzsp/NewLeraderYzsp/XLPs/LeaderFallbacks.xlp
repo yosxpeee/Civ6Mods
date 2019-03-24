@@ -119,6 +119,43 @@
 			<m_EntryID text="FALLBACK_UNHAPPY_LEADER_YNL_VIOLENCE_MAN"/>
 			<m_ObjectName text="FALLBACK_UNHAPPY_LEADER_YNL_VIOLENCE_MAN"/>
 		</Element>
+
+		<!-- ========== TNOK ========== -->
+		<!-- 滅亡 -->
+		<Element>
+			<m_EntryID text="FALLBACK_DEFEAT_LEADER_YNL_TNOK"/>
+			<m_ObjectName text="FALLBACK_DEFEAT_LEADER_YNL_TNOK"/>
+		</Element>
+		<!-- 友好的 -->
+		<Element>
+			<m_EntryID text="FALLBACK_HAPPY_LEADER_YNL_TNOK"/>
+			<m_ObjectName text="FALLBACK_HAPPY_LEADER_YNL_TNOK"/>
+		</Element>
+		<!-- 通常 -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_YNL_TNOK"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_YNL_TNOK"/>
+		</Element>
+		<!-- 敵対的 -->
+		<Element>
+			<m_EntryID text="FALLBACK_STERN_LEADER_YNL_TNOK"/>
+			<m_ObjectName text="FALLBACK_STERN_LEADER_YNL_TNOK"/>
+		</Element>
+		<!-- 宣戦布告(AIから) -->
+		<Element>
+			<m_EntryID text="FALLBACK_SURPRISED_AI_LEADER_YNL_TNOK"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_AI_LEADER_YNL_TNOK"/>
+		</Element>
+		<!-- 宣戦布告(プレイヤーから) -->
+		<Element>
+			<m_EntryID text="FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TNOK"/>
+			<m_ObjectName text="FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TNOK"/>
+		</Element>
+		<!-- 非難声明、戦争状態 -->
+		<Element>
+			<m_EntryID text="FALLBACK_UNHAPPY_LEADER_YNL_TNOK"/>
+			<m_ObjectName text="FALLBACK_UNHAPPY_LEADER_YNL_TNOK"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

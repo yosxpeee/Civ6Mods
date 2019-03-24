@@ -20,7 +20,13 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>派手な効果は持っていませんが、鉱山/採石場とキャンパスの隣接を意識すること、UBの拷問器具工房を意識して建てることで科学力を伸ばしましょう。戦争では攻めている間は強キャラです(負傷したユニットに対し戦闘力+5)。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>TDN・DB・HTNが出演した「真夏の夜の淫夢」第一章で、ホモの暴力団員役として出演。その後出演したPower Grip 97では、IWSとの行為後に「最後が気持ちよかった」と小学生並みの感想を残した。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>組事務所がコストが安いうえに隣接する区域からゴールド（みかじめ料）を取得できるので、兵站の維持は幾分楽です。中盤からの戦争には黒塗りの高級車をお供にして乗り込みましょう。総督がいる都市の生産力、ゴールド出力が強化されるので、都市計画はしっかりと。</Text>
+		</Replace>
+		
 		<!-- Leader specific historical text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>1999年発売作品のインタビューでは24歳で学生、身長170cm、体重74kgと答えている。これが本当なら生誕は1975年(昭和50年)となり、2018年時点で43歳を迎えていると考えられる。	本名は一切名乗っておらず不明だが、ネット上では「田所浩二」という仮名で呼ばれている。これは前述の「淫夢」四章での役名と、ブーム突入直前の2011年に強制わいせつ容疑で逮捕された男性「田所浩治」をかけたものである。</Text>
@@ -31,7 +37,10 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ACCEED他作品にも多数出ており、KBTITや平野源五郎らと共にマジキチプレイをしている。『男だらけの大運動会』（2009年）では175cm、68kg、25歳と紹介されていたが、他社の作品では年齢が違っていたりするため本当の年齢は不明。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>某所ではフルネームが「谷岡俊一」と呼称されていることがあるが、なぜかといえばこの男優が元日本代表で今ではタレントとして活躍している某バレーボール選手にそっくりな面構えなためである。</Text>
+		</Replace>
+		
 		<!-- Civilization specific historical text. -->
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AMLD_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>https://wiki.yjsnpi.nu/淫夢年表</Text>
@@ -148,26 +157,56 @@
 		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_23" Language="ja_JP">
 			<Text>用賀</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_23" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_24" Language="ja_JP">
 			<Text>経堂</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_24" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_25" Language="ja_JP">
 			<Text>武蔵小杉</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_25" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_26" Language="ja_JP">
 			<Text>立川</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_26" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_27" Language="ja_JP">
 			<Text>新小岩</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_27" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_28" Language="ja_JP">
 			<Text>鷺ノ宮</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_28" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_29" Language="ja_JP">
 			<Text>等々力</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_30" Language="ja_JP">
 			<Text>九品仏</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_31" Language="ja_JP">
+			<Text>三ノ輪</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_32" Language="ja_JP">
+			<Text>中延</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_33" Language="ja_JP">
+			<Text>大岡山</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_34" Language="ja_JP">
+			<Text>八王子</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_35" Language="ja_JP">
+			<Text>蓮沼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_36" Language="ja_JP">
+			<Text>乃木坂</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_37" Language="ja_JP">
+			<Text>雑色</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_38" Language="ja_JP">
+			<Text>天空橋</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_39" Language="ja_JP">
+			<Text>田園調布</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_40" Language="ja_JP">
+			<Text>住吉</Text>
 		</Replace>
 		
 		<!-- Leader Quotes -->
@@ -180,7 +219,10 @@
 		<Replace Tag="LOC_LEADER_YNL_VIOLENCE_MAN_QUOTE" Language="ja_JP">
 			<Text>おじさんはねぇ、君みたいな可愛いねぇ、この悶絶顔が大好きなんだよ！</Text>
 		</Replace>
-
+		<Replace Tag="LOC_LEADER_YNL_TNOK_QUOTE" Language="ja_JP">
+			<Text>ワンワン鳴いてみろよ</Text>
+		</Replace>
+		
 		<!-- 昇進 -->
 		<Replace Tag="LOC_PROMOTION_CLASS_HAKUSHIN_KARATE_YNL_NAME" Language="ja_JP">
 			<Text>迫真空手</Text>
@@ -228,6 +270,17 @@
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION" Language="ja_JP">
 			<Text>あらゆる状況で [ICON_Strength] 戦闘力+15。</Text>
+		</Replace>
+
+		<!-- ユニットアビリティ -->
+		<Replace Tag="LOC_ABILITY_YNL_BLACK_CAR_NAME" Language="ja_JP">
+			<Text>恐怖</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_BLACK_CAR_DESCRIPTION" Language="ja_JP">
+			<Text>隣接する敵ユニットの [ICON_Strength] 戦闘力-5。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>黒塗りの高級車に隣接しているとき、戦闘力{1_Amount}</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

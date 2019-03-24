@@ -1108,5 +1108,374 @@
 		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_VIOLENCE_MAN_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
 			<Text>発見とは、早い者勝ちの競争だゾ。そっちはこっちをさしおいて探検隊を派遣したじゃないか。そんな国に従うわけにはいかないなあ。</Text>
 		</Replace>
+
+		<!-- 虐待おじさん -->
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>ああ、俺たちズッ友だよな！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>またの機会にお願いするゾ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>これは俺からのズッ友宣言だ。受けてくれるよな？な？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>ああ＾～いいっすね～。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>それは残念だなぁ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>じゃあオラオラ来いよオラァ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>おい免許持ってんのかゴルァ！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>工事完了です…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>工事完了です…</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>そっちの使節を歓迎するぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>悪いな、それは無理だ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>使節をそっちに向かわせた。土産はアイスティーしかなかったんだけど、いいよな？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>これはすばらしいな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>残念だな。じゃあ次の機会だな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>あ、ふーん・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>これは世界中が知るべき裏切りだな！(非難)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>これが大使館の建設許可だ。受け取ってくれよな！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>またの機会にお願いするぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>こっちの大使館を置いてもらってもいいか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>やったぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>それは残念だなぁ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>俺はTNOKだ。・・・なにじろじろ見てんだ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>近くの街へ案内してやるよ。ちょうど祭りやってるからぜひ参加してってくれ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>ああ＾～いいっすね～。そっちの発展ぶりが見られるのはうれしいぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>どちらも遠方の出だな。ここはお互いの国を互いの地図に記し合うというのはどうだ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>そっちの希望をうかがおうじゃないか。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>おまえはいい極道になるだろうな。打たれ強く、たくましく、そして勇敢だ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>戦いにビビってんのか？簡単に妥協してんじゃねえぞ？てめえの誇りはどこにいったんだ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>俺たちの同盟関係、ずっと続くことを願ってるゾ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>またの機会にお願いするぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>同盟を希望するのか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>ああ＾～いいっすね～。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>それは残念だなぁ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>いいゾ～コレ。喜んで取引に応じるぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>この取引には応じられないな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>恩に着るぜ！これでお互いに利益があるはずだな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>正直なところ、いささか失望したわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>こっちの希望にかなう取引だ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>そっちの要求を呑んだところで何の利益もないな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>ああ、いいぞ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>黙って言うこと聞くのか。わかってるじゃねえか。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>言うこと聞くって言ったよなおい！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>その和平の申し出、受ける。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>和平など受け入れられないなぁ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>すいません許してください！何でもしますから！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>これで戦争は終わり！閉廷！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>ならば戦いつづけるしかねえよなあ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>入って、どうぞ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>またの機会にお願いするぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>おう、ちょっと通らしてもらっても構わねえか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>ああ＾～いいっすね～。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>それは残念だなぁ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>これは申し訳なかった。そんな近くに都市があるとは知らなかった。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>こっちも土地が必要なんだ！勝手なことばかり言いやがって！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>こっちのすぐそばに都市を作らないでくれるか？向こうへ行けよ向こうへ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>了解した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>こっちに敬意を払わないなら、そっちに敬意を払う必要はないよなあ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>喧嘩をふっかける蛮族を探していただけなんだ。悪いな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>あちこちに軍隊を派遣するのが好きなんだよ。自分の強さを誇示できるダルルォ！？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>お前の言うとおりだな。もう二度としないと誓おう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>誰がそんな約束を真に受けると思うんだ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>そこがそっちのものだとは知らなかったわ。単純な手違いだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>歴史の謎は万人に開示されるべきなんだよなあ。独占は許されないぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>そっちの希望は尊重してやろう。だがそいつは筋が通らねえ。ま、いつかわかってくれるといいんだが。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>心配はいらないぜ。こいつが一番なんだ。いずれわかるときが来るさ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>なんで国境付近を兵がうろうろしてるんだ？こっちにカチコミかける気じゃねえだろうなあ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>了解した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>やりかねないとは思っていたが、まさかそこまで恥知らずとはたまげたな。スパイを今すぐ引き上げさせろ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>了解した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>この侮辱は忘れない。見とけよ見とけよ～。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>お前、人のものを・・・！さっさと出て行きやがれ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>了解した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>こっちを尊重してもらえないなら、そっちを尊重することもできねえなあ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>そっちの宗教家はやり方が強引で評判が悪いんだよなあ。いますぐ立ち退かせてもらえるかい？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>了解した。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_TNOK_ANY" Language="ja_JP">
+			<Text>覚悟決めろ。いずれ必ず報いがある。</Text>
+		</Replace>
+		<!-- Generic kudos for random agendas -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>ほう、すごいな。そっちの文化には感銘を受けたぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>そっちの民はお前の統治を祝福していると聞いた。民の幸福を維持するのは素晴らしいことだな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>ああ＾～いいっすね～。金はいくらあっても困るもんじゃねえからなあ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>そっちの民の生産力はまったく賞賛に値するぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家みたいな小さな国にとっては、うちの国ほどふさわしい友人はいない。そっちにも理解してもらえているようでなによりだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>そっちの人口の多さは賞賛に値する。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>そっちの科学研究に対する入れ込みようは大したもんだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>俺は強力な軍隊を持つ指導者を好む。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明の真価が発揮されるのは戦いにおいてだ。どこが最強の文明か、はっきりさせようじゃねえか。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>世界の偉大な人物たちは、そっちよりもこっちのほうを高く評価してくれているみたいだぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>遺産の建設はこっちに任せてもらえるんだな、感謝するぜ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家の権利を守ろうとするそっちの姿勢は、全世界がならうべきだな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強きは弱きを守るべき。賛同してくれて嬉しく思うぜ。</Text>
+		</Replace>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>そっちの空軍の力はまったくもってあなどれない。いや、大したもんだぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自分のケツも拭けないやつを助けるのは、高貴なおこないだと思うぜ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>あの蛮族どもにはこっちも大いに悩まされていたんだ。感謝するぜ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>このかけがえのない大地の貴さを知る人々が俺たちのほかにもいるとは嬉しい話だ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>世界は人が活用するためにある。いい世、来いよ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>俺たちは志を同じくする仲間だな。そっちの政治体制を尊重するぞ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>あの技術には多くの使い道があるというのは、そっちもわかってるみたいだな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>自分と同じように信心深い者と出会えるのは喜ばしいことだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>探検はこっちに任せてくれ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TNOK_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>そっちがこっちに脅威を与えないと知り、安心したわ。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>そっちはまともな文化を生みだそうという熱意がねえな。これじゃあどうやってそっちの人々のことを記憶に留めればよいのかわかんねえな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>汚い街だなあ・・・。そっちの人間がお前の統治に満足しているとは思えないんだが？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>おいおい、そっちはもう破産しそうじゃないか。借金まみれで暮らしていくつもりなのか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>そっちは都市国家とのずいぶんな仲がいいみたいだな。できればそういうのは控えてくれねえかな。ああいうところとの友好を深めるにふさわしいのはこっちだから。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>そっちはずいぶんと怠け者が多いなあ。なにも生みだせない文明は忘れられてしまうぞ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>そっちは極端な人口不足だなあ。それではほとんどなにもすることができないんじゃないのか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>そっちは技術研究に熱心じゃないみたいだな。それでどうやって暮らしを豊かにするつもりなんだ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>そんなにちっぽけな軍隊で不安を感じることはないのか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>そっちの街はこっちに近いし、軍はめちゃくちゃ強いじゃないか。これじゃこっちが心穏やかではいられなくなると思わないのか？(震え声)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>そっちはずいぶんと偉人を集めているみたいだけど、偉人がふさわしいのはこっちだからな？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産の建設にかけては俺たちが一番なのがわかってないのか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>小さな国を襲うとか臆病者のすることなんだよなあ・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>警告するぜ。今後は二度と小国を襲わないことだな。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面を這い回るだけでは栄光をつかむことはできないからな。航空戦力の整備を急ぐことをおすすめするぞ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者をいたぶるのは恥ずべきことだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分の首都の近くで蛮族がうろうろしてるみたいだけど、いいのか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>これだけは言っておこう。いたずらに自然を傷つければ誰もが報いを受けることになるんだぞ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>お、開いてんじゃーん（土地が）。なんで手をつけようとしねえの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>そっちの民を統治するやり方は俺にとって許容できるものではないなあ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器こそが未来を切り開くんだよ！なぜそれがわからないんだ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>お前はなにをしるべに道を歩むんだ？まさか信心を持たないというわけではないよなあ？人々に信仰の光を見せるのも統治者の務めだ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TNOK_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見とは、早い者勝ちの競争だ。そっちはこっちをさしおいて探検隊を派遣しやがった。そんな国に従うわけにはいかねえなあ。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

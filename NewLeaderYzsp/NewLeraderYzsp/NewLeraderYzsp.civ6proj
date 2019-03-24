@@ -15,16 +15,31 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
 				<Criteria id="LeaderCriteria">
-					<LeaderPlayable>StandardPlayers::LEADER_YNL_KOJI_TADOKORO,Players:Expansion1_Players::LEADER_YNL_KOJI_TADOKORO,Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO,StandardPlayers::LEADER_YNL_GO_IS_GOD,Players:Expansion1_Players::LEADER_YNL_GO_IS_GOD,Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD</LeaderPlayable>
+					<LeaderPlayable>
+						StandardPlayers::LEADER_YNL_KOJI_TADOKORO,Players:Expansion1_Players::LEADER_YNL_KOJI_TADOKORO,Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO,
+						StandardPlayers::LEADER_YNL_GO_IS_GOD,    Players:Expansion1_Players::LEADER_YNL_GO_IS_GOD,    Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD,
+						StandardPlayers::LEADER_YNL_VIOLENCE_MAN, Players:Expansion1_Players::LEADER_YNL_VIOLENCE_MAN, Players:Expansion2_Players::LEADER_YNL_VIOLENCE_MAN,
+						StandardPlayers::LEADER_YNL_TNOK,         Players:Expansion1_Players::LEADER_YNL_TNOK,         Players:Expansion2_Players::LEADER_YNL_TNOK
+					</LeaderPlayable>
 				</Criteria>
 				<Criteria id="LeaderCriteriaExpansion1">
-					<LeaderPlayable>Players:Expansion1_Players::LEADER_YNL_KOJI_TADOKORO,Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO,Players:Expansion1_Players::LEADER_YNL_GO_IS_GOD,Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD</LeaderPlayable>
+					<LeaderPlayable>
+						Players:Expansion1_Players::LEADER_YNL_KOJI_TADOKORO,Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO,
+						Players:Expansion1_Players::LEADER_YNL_GO_IS_GOD,    Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD,
+						Players:Expansion1_Players::LEADER_YNL_VIOLENCE_MAN, Players:Expansion2_Players::LEADER_YNL_VIOLENCE_MAN,
+						Players:Expansion1_Players::LEADER_YNL_TNOK,         Players:Expansion2_Players::LEADER_YNL_TNOK
+					</LeaderPlayable>
 				</Criteria>
 				<Criteria id="LeaderCriteriaExpansion2">
-					<LeaderPlayable>Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO,Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD</LeaderPlayable>
+					<LeaderPlayable>
+						Players:Expansion2_Players::LEADER_YNL_KOJI_TADOKORO,
+						Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD,
+						Players:Expansion2_Players::LEADER_YNL_VIOLENCE_MAN,
+						Players:Expansion2_Players::LEADER_YNL_TNOK
+					</LeaderPlayable>
 				</Criteria>
 		</ActionCriteria>]]></ActionCriteriaData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateColors id="GameplayColors"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_CoreColors.xml</File><File>YnlAmld_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="Gameplay"><Properties><LoadOrder>200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YnlAmld_UB.xml</File><File>YnlAmld_Civilizations.xml</File><File>YnlAmld_Leaders.xml</File><File>YnlAmld_UD.xml</File><File>YnlAmld_UI.xml</File><File>YnlAmld_UP.xml</File><File>YnlAmld_UU.xml</File><File>YnlAmld_LeaderAnimations.xml</File><File>YnlAmld_UnitPromotions.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_ConfigText.xml</File><File>YnlAmld_Text.xml</File><File>YnlAmld_Dialogs.xml</File><File>YnlAmld_ConfigTextJP.xml</File><File>YnlAmld_TextJP.xml</File><File>YnlAmld_DialogsJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1Text.xml</File><File>Expansion1/YnlAmld_Expansion1TextJP.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/LEADER_YNL_KOJI_TADOKORO_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/ynl_KojiTadokoro_diplomacy.dds</File><File>Textures/ynl_KojiTadokoro_loading.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_ROOFTOP.dds</File><File>Textures/YNL_MOMENT_IMPROVEMENT_YNL_YZSP_BB.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_HAKUSHIN_KARATE.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/LEADER_YNL_GO_IS_GOD_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_BROTHEL.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/LEADER_YNL_VIOLENCE_MAN_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_TORTURE_WORKSHOP.dds</File></ImportFiles><UpdateDatabase id="GameplayExpansion2"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2.xml</File></UpdateDatabase><UpdateText id="TextExpansion2"><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2Text.xml</File><File>Expansion2/YnlAmld_Expansion2TextJP.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateColors id="GameplayColors"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_CoreColors.xml</File><File>YnlAmld_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="Gameplay"><Properties><LoadOrder>200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YnlAmld_UB.xml</File><File>YnlAmld_Civilizations.xml</File><File>YnlAmld_Leaders.xml</File><File>YnlAmld_UD.xml</File><File>YnlAmld_UI.xml</File><File>YnlAmld_UP.xml</File><File>YnlAmld_UU.xml</File><File>YnlAmld_LeaderAnimations.xml</File><File>YnlAmld_UnitPromotions.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_ConfigText.xml</File><File>YnlAmld_Text.xml</File><File>YnlAmld_Dialogs.xml</File><File>YnlAmld_ConfigTextJP.xml</File><File>YnlAmld_TextJP.xml</File><File>YnlAmld_DialogsJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1Text.xml</File><File>Expansion1/YnlAmld_Expansion1TextJP.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/LEADER_YNL_KOJI_TADOKORO_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/ynl_KojiTadokoro_diplomacy.dds</File><File>Textures/ynl_KojiTadokoro_loading.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_ROOFTOP.dds</File><File>Textures/YNL_MOMENT_IMPROVEMENT_YNL_YZSP_BB.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_HAKUSHIN_KARATE.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/LEADER_YNL_GO_IS_GOD_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_BROTHEL.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/LEADER_YNL_VIOLENCE_MAN_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_TORTURE_WORKSHOP.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_TNOK.dds</File><File>Textures/LEADER_YNL_TNOK_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_TNOK.dds</File><File>Textures/YNL_MOMENT_DISTRICT_YNL_OUTLAW_OFFICE.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_BLACK_CAR.dds</File></ImportFiles><UpdateDatabase id="GameplayExpansion2"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2.xml</File></UpdateDatabase><UpdateText id="TextExpansion2"><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2Text.xml</File><File>Expansion2/YnlAmld_Expansion2TextJP.xml</File></UpdateText></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions>
 			<UpdateColors id="ConfigPlayerColor">
 				<File>YnlAmld_CoreColors.xml</File>
@@ -55,6 +70,150 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Animations\greatartist_late_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\greatartist_late_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_bombard_defense_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_bombard_defense_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_build.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_build.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_build_activate.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_build_activate.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\great_artist_late_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\YnlAmld_Buildings.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -79,6 +238,9 @@
     <Content Include="Assets\IMP_YNL_YZSP_BB.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Greatartist_Late.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Expansion1\YnlAmld_Expansion1TextJP.xml">
       <SubType>Content</SubType>
     </Content>
@@ -91,10 +253,52 @@
     <Content Include="Expansion2\YnlAmld_Expansion2.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Geometries\greatartist_late.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\greatartist_late.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\GreatAristLate_Car_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\GreatArtistLate_Girl_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\GreatArtistLate_Men_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Great_Artist_Late_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_TNOK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_TNOK.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_VIOLENCE_MAN.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_VIOLENCE_MAN.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_TNOK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_TNOK.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_VIOLENCE_MAN.dds">
@@ -103,10 +307,22 @@
     <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_VIOLENCE_MAN.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_TNOK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_TNOK.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_TNOK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_TNOK.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_VIOLENCE_MAN.dds">
@@ -115,10 +331,22 @@
     <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_VIOLENCE_MAN.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_TNOK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_TNOK.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_VIOLENCE_MAN.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_VIOLENCE_MAN.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TNOK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TNOK.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_VIOLENCE_MAN.dds">
@@ -127,10 +355,196 @@
     <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_VIOLENCE_MAN.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_TNOK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_TNOK.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_VIOLENCE_MAN.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_VIOLENCE_MAN.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greataristlate_car_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greataristlate_car_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greataristlate_car_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greataristlate_car_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greataristlate_car_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greataristlate_car_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greatartistlate_girl_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greatartistlate_girl_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greatartistlate_girl_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greatartistlate_girl_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greatartistlate_men_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greatartistlate_men_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greatartistlate_men_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\greatartistlate_men_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\great_artist_late_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\great_artist_late_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\great_artist_late_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\great_artist_late_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\great_artist_late_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\great_artist_late_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR200.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR70.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR70.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR95.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_PORTRAIT_UNIT_YNL_BLACK_CAR95.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_BLACK_CAR80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_TNOK80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_YNL_LEADER_VIOLENCE256.DDS">
@@ -175,10 +589,22 @@
     <Content Include="Textures\ICON_YNL_LEADER_VIOLENCE80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_YNL_TNOK_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_TNOK_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_YNL_VIOLENCE_MAN_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_YNL_VIOLENCE_MAN_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_YNL_TNOK.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_YNL_TNOK.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_YNL_VIOLENCE_MAN.dds">
@@ -187,7 +613,22 @@
     <Content Include="Textures\PORTRAIT_LEADER_YNL_VIOLENCE_MAN.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\White_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_DISTRICT_YNL_OUTLAW_OFFICE.dds">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\YNL_MOMENT_BUILDING_YNL_TORTURE_WORKSHOP.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_UNIT_YNL_BLACK_CAR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\units.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YnlAmld_UnitPromotions.xml">
@@ -538,10 +979,13 @@
     <Content Include="XLPs\YNL_YZSP_ICONS.xlp">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="Animations\" />
     <Folder Include="Artdefs\" />
     <Folder Include="Assets\" />
     <Folder Include="Expansion1" />
     <Folder Include="Expansion2" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Materials\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
     <Content Include="Expansion1\YnlAmld_Expansion1.xml">

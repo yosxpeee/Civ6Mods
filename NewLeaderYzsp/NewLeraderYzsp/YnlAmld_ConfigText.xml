@@ -58,6 +58,19 @@
 		<Row Tag="LOC_LEADER_YNL_VIOLENCE_MAN_DOM_TEXT" Language="en_US">
 			<Text>I will beat you if you move.</Text>
 		</Row>
+		<!-- TNOK -->
+		<Row Tag="LOC_LEADER_YNL_TNOK_NAME" Language="en_US">
+			<Text>TNOK</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_TNOK_NAME" Language="en_US">
+			<Text>Money, Violence and Sex</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_TNOK_DESCRIPTION" Language="en_US">
+			<Text>Luxury resources in his territory provide an [ICON_Amenities] Amenity to 2 extra cities. [ICON_Governor] Governors established in a city provide +3% [ICON_Production] Production and [ICON_Gold] Gold for each Promotion they have earned, including their first.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_YNL_TNOK_DOM_TEXT" Language="en_US">
+			<Text>The soccer members who go home after the game.[NEWLINE]They are tired, and unfortunately run into a black-painted luxury car.[NEWLINE]To Miura who has all the responsibility to cover the juniors, [NEWLINE]What is the condition of the talk that the car owner, gang member Tanioka told?</Text>
+		</Row>
 		
 		<!-- UI -->
 		<Row Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="en_US">
@@ -74,6 +87,7 @@
 		</Row>
 
 		<!-- UU -->
+		<!-- 迫真空手部員 -->
 		<Row Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="en_US">
 			<Text>Hakushin Karate Member</Text>
 		</Row>
@@ -84,6 +98,19 @@
 			<Text>A Middsummer Lewd Dream unique unit: Hakushin Karate Member</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_HAKUSHIN_KARATE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 黒塗りの高級車 -->
+		<Row Tag="LOC_UNIT_YNL_BLACK_CAR_NAME" Language="en_US">
+			<Text>Black Car</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_BLACK_CAR_DESCRIPTION" Language="en_US">
+			<Text>TNOK unique Industrial era support unit. 5 [ICON_Movement] movement. Adjacent enemy units receive -5 [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_BLACK_CAR_NAME" Language="en_US">
+			<Text>TNOK unique unit: Black Car</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_BLACK_CAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 
@@ -125,6 +152,19 @@
 			<Text>The Violence Man unique building: Torture Workshop</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_TORTURE_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 組事務所 -->
+		<Row Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="en_US">
+			<Text>Outlaw Office</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_DESCRIPTION" Language="en_US">
+			<Text>TNOK unique District that replaces the Encampment. Provides +1 [ICON_Housing] Housing. +1 [ICON_GOLD] Gold from the other adjecent districts.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="en_US">
+			<Text>TNOK unique district: Outlaw Office</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YNL_OUTLAW_OFFICE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

@@ -20,6 +20,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text></Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -31,7 +37,10 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_VIOLENCE_MAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AMLD_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>https://wiki.yjsnpi.nu/%E6%B7%AB%E5%A4%A2%E5%B9%B4%E8%A1%A8</Text>
@@ -169,6 +178,36 @@
 		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_30" Language="en_US">
 			<Text>Kuhonbutu</Text>
 		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_31" Language="en_US">
+			<Text>Minowa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_32" Language="en_US">
+			<Text>Nakanobe</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_33" Language="en_US">
+			<Text>Ohokayama</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_34" Language="en_US">
+			<Text>Hachiouji</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_35" Language="en_US">
+			<Text>Hasunuma</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_36" Language="en_US">
+			<Text>Nogisaka</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_37" Language="en_US">
+			<Text>Zoushiki</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_38" Language="en_US">
+			<Text>Tenkubashi</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_39" Language="en_US">
+			<Text>Denencyofu</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_40" Language="en_US">
+			<Text>Sumiyoshi</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE" Language="en_US">
@@ -179,6 +218,9 @@
 		</Row>
 		<Row Tag="LOC_LEADER_YNL_VIOLENCE_MAN_QUOTE" Language="en_US">
 			<Text>I love the awful face of a cute boy like you!</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_YNL_TNOK_QUOTE" Language="en_US">
+			<Text>Dare to singing like a dog!</Text>
 		</Row>
 		
 		<!-- 昇進 -->
@@ -228,6 +270,17 @@
 		</Row>
 		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION" Language="en_US">
 			<Text>+15 [ICON_Strength] Combat Strength in all situations.</Text>
+		</Row>
+
+		<!-- ユニットアビリティ -->
+		<Row Tag="LOC_ABILITY_YNL_BLACK_CAR_NAME" Language="en_US">
+			<Text>Fear</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_BLACK_CAR_DESCRIPTION" Language="en_US">
+			<Text>-5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>{1_Amount} Combat Strength when adjacent to an enemy Black Car</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

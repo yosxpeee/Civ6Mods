@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 親定義 -->
 	<Types>
 		<!-- 文明そのものの定義 -->
 		<Row Type="CIVILIZATION_YNL_AMLD" Kind="KIND_CIVILIZATION" />
@@ -9,6 +10,7 @@
 		<Row Type="TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE" Kind="KIND_TRAIT"/>
 	</Types>
 	
+	<!-- 主設定 -->
 	<Civilizations>
 		<Row>
 			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
@@ -16,7 +18,7 @@
 			<Description>LOC_CIVILIZATION_YNL_AMLD_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_YNL_AMLD_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>30</RandomCityNameDepth>
+			<RandomCityNameDepth>40</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
@@ -25,6 +27,7 @@
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_KOJI_TADOKORO" CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_GO_IS_GOD"     CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_15" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_VIOLENCE_MAN"  CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_TNOK"          CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_31" />
 	</CivilizationLeaders>
 
 	<!-- 文明が何の特性を持つか -->
@@ -81,16 +84,19 @@
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
+		<!-- 領内のお茶から文化を得る -->
 		<Row>
 			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_TEA</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>YZSP_RESOURCE_IS_TEA</SubjectRequirementSetId>
 		</Row>
+		<!-- 領内の砂糖から文化を得る -->
 		<Row>
 			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SUGAR</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>YZSP_RESOURCE_IS_SUGAR</SubjectRequirementSetId>
 		</Row>
+		<!-- 領内の香辛料から文化を得る -->
 		<Row>
 			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SPICES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
@@ -98,6 +104,7 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 領内のお茶から文化を得る -->
 		<Row>
 			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_TEA</ModifierId>
 			<Name>Amount</Name>
@@ -108,6 +115,7 @@
 			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
 		</Row>
+		<!-- 領内の砂糖から文化を得る -->
 		<Row>
 			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SUGAR</ModifierId>
 			<Name>Amount</Name>
@@ -118,6 +126,7 @@
 			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
 		</Row>
+		<!-- 領内の香辛料から文化を得る -->
 		<Row>
 			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_SPICES</ModifierId>
 			<Name>Amount</Name>
@@ -130,58 +139,70 @@
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
+		<!-- 条件：茶 -->
 		<Row>
 			<RequirementSetId>YZSP_RESOURCE_IS_TEA</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 条件：砂糖 -->
 		<Row>
 			<RequirementSetId>YZSP_RESOURCE_IS_SUGAR</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 条件：香辛料 -->
 		<Row>
 			<RequirementSetId>YZSP_RESOURCE_IS_SPICES</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
+		<!-- 条件：茶 -->
 		<Row>
 			<RequirementSetId>YZSP_RESOURCE_IS_TEA</RequirementSetId>
 			<RequirementId>YZSP_REQUIRES_TEA_IN_PLOT</RequirementId>
 		</Row>
+		<!-- 条件：砂糖 -->
 		<Row>
 			<RequirementSetId>YZSP_RESOURCE_IS_SUGAR</RequirementSetId>
 			<RequirementId>YZSP_REQUIRES_SUGAR_IN_PLOT</RequirementId>
 		</Row>
+		<!-- 条件：香辛料 -->
 		<Row>
 			<RequirementSetId>YZSP_RESOURCE_IS_SPICES</RequirementSetId>
 			<RequirementId>YZSP_REQUIRES_SPICES_IN_PLOT</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
+		<!-- 条件：茶 -->
 		<Row>
 			<RequirementId>YZSP_REQUIRES_TEA_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 条件：砂糖 -->
 		<Row>
 			<RequirementId>YZSP_REQUIRES_SUGAR_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 条件：香辛料 -->
 		<Row>
 			<RequirementId>YZSP_REQUIRES_SPICES_IN_PLOT</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<!-- 条件：茶 -->
 		<Row>
 			<RequirementId>YZSP_REQUIRES_TEA_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_TEA</Value>
 		</Row>
+		<!-- 条件：砂糖 -->
 		<Row>
 			<RequirementId>YZSP_REQUIRES_SUGAR_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_SUGAR</Value>
 		</Row>
+		<!-- 条件：香辛料 -->
 		<Row>
 			<RequirementId>YZSP_REQUIRES_SPICES_IN_PLOT</RequirementId>
 			<Name>ResourceType</Name>
@@ -238,17 +259,32 @@
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_28" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_29" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_31" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_32" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_33" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_34" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_35" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_36" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_37" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_38" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_39" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_40" />
 	</CityNames>
 
 	<!-- スタート地点バイアス -->
+	<StartBiasFeatures>
+		<!-- 熱帯雨林 -->
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" FeatureType="FEATURE_JUNGLE" Tier="2"/>
+	</StartBiasFeatures>
+	<StartBiasTerrains>
+		<!-- 草原、草原丘陵 -->
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" TerrainType="TERRAIN_GRASS" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" TerrainType="TERRAIN_GRASS_HILLS" Tier="2"/>
+	</StartBiasTerrains>
 	<StartBiasResources>
 		<!-- お茶、砂糖、香辛料 -->
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" ResourceType="RESOURCE_TEA" Tier="5"/>
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" ResourceType="RESOURCE_SUGAR" Tier="5"/>
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" ResourceType="RESOURCE_SPICES" Tier="5"/>
 	</StartBiasResources>
-	<StartBiasFeatures>
-		<!-- 熱帯雨林 -->
-		<Row CivilizationType="CIVILIZATION_YNL_AMLD" FeatureType="FEATURE_JUNGLE" Tier="2"/>
-	</StartBiasFeatures>
 </GameData>

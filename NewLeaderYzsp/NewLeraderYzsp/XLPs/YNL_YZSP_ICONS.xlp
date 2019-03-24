@@ -96,6 +96,35 @@
 			<m_EntryID text="ICON_YNL_LEADER_VIOLENCE80"/>
 			<m_ObjectName text="ICON_YNL_LEADER_VIOLENCE80"/>
 		</Element>
+		<!-- 指導者（TNOK） -->
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TNOK256"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TNOK256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TNOK32"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TNOK32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TNOK45"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TNOK45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TNOK50"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TNOK50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TNOK55"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TNOK55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TNOK64"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TNOK64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TNOK80"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TNOK80"/>
+		</Element>
 		<!-- 文明 -->
 		<Element>
 			<m_EntryID text="ICON_YNL_CIV_AMLD22"/>
@@ -137,7 +166,7 @@
 			<m_EntryID text="ICON_YNL_CIV_AMLD256"/>
 			<m_ObjectName text="ICON_YNL_CIV_AMLD256"/>
 		</Element>
-		<!-- UU -->
+		<!-- UU:迫真空手部員 -->
 		<Element>
 			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE22"/>
 			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE22"/>
@@ -161,6 +190,55 @@
 		<Element>
 			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE256"/>
 			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE256"/>
+		</Element>
+		<!-- UU:黒塗りの高級車 -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_BLACK_CAR22"/>
+			<m_ObjectName text="ICON_UNIT_YNL_BLACK_CAR22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_BLACK_CAR32"/>
+			<m_ObjectName text="ICON_UNIT_YNL_BLACK_CAR32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_BLACK_CAR38"/>
+			<m_ObjectName text="ICON_UNIT_YNL_BLACK_CAR38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_BLACK_CAR50"/>
+			<m_ObjectName text="ICON_UNIT_YNL_BLACK_CAR50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_BLACK_CAR80"/>
+			<m_ObjectName text="ICON_UNIT_YNL_BLACK_CAR80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_BLACK_CAR256"/>
+			<m_ObjectName text="ICON_UNIT_YNL_BLACK_CAR256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR38"/>
+			<m_ObjectName text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR50"/>
+			<m_ObjectName text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR70"/>
+			<m_ObjectName text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR95"/>
+			<m_ObjectName text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR200"/>
+			<m_ObjectName text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR256"/>
+			<m_ObjectName text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR256"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

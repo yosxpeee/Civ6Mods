@@ -29,5 +29,14 @@
 			<Type>COLOR_PLAYER_LEADER_YNL_VIOLENCE_MAN_SECONDARY</Type>
 			<Color>166,165,196,255</Color>
 		</Row>
+		<!-- TNOK -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_TNOK_PRIMARY</Type>
+			<Color>48,40,51,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_TNOK_SECONDARY</Type>
+			<Color>118,5,５,255</Color>
+		</Row>
 	</Colors>
 </GameInfo>
