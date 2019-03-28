@@ -125,15 +125,15 @@
 			<Icon>ICON_IMPROVEMENT_YNL_YZSP_BB</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
-		<!-- UU:迫真空手部員 -->
+		<!-- UU:オナガー -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
 			<LeaderType>LEADER_YNL_GO_IS_GOD</LeaderType>
-			<Type>UNIT_YNL_HAKUSHIN_KARATE</Type>
-			<Name>LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME</Name>
-			<Description>LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_YNL_HAKUSHIN_KARATE</Icon>
+			<Type>UNIT_YNL_ONAGER</Type>
+			<Name>LOC_UNIT_YNL_ONAGER_NAME</Name>
+			<Description>LOC_UNIT_YNL_ONAGER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YNL_ONAGER</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
 		<!-- UB:娼館 -->
@@ -159,15 +159,15 @@
 			<Icon>ICON_IMPROVEMENT_YNL_YZSP_BB</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
-		<!-- UU:迫真空手部員 -->
+		<!-- UU:国崩し-->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
 			<LeaderType>LEADER_YNL_VIOLENCE_MAN</LeaderType>
-			<Type>UNIT_YNL_HAKUSHIN_KARATE</Type>
-			<Name>LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME</Name>
-			<Description>LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_YNL_HAKUSHIN_KARATE</Icon>
+			<Type>UNIT_YNL_KUNIKUZUSHI</Type>
+			<Name>LOC_UNIT_YNL_KUNIKUZUSHI_NAME</Name>
+			<Description>LOC_UNIT_YNL_KUNIKUZUSHI_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YNL_KUNIKUZUSHI</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
 		<!-- UB:拷問器具工房 -->
@@ -193,15 +193,15 @@
 			<Icon>ICON_IMPROVEMENT_YNL_YZSP_BB</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
-		<!-- UU:迫真空手部員 -->
+		<!-- UU:極道の黒備え-->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
 			<LeaderType>LEADER_YNL_TNOK</LeaderType>
-			<Type>UNIT_YNL_HAKUSHIN_KARATE</Type>
-			<Name>LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME</Name>
-			<Description>LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_YNL_HAKUSHIN_KARATE</Icon>
+			<Type>UNIT_YNL_BLACK_CAVALRY</Type>
+			<Name>LOC_UNIT_YNL_BLACK_CAVALRY_NAME</Name>
+			<Description>LOC_UNIT_YNL_BLACK_CAVALRY_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YNL_BLACK_CAVALRY</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
 		<!-- UU:黒塗りの高級車 -->

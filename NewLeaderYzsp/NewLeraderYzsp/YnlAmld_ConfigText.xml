@@ -92,12 +92,38 @@
 			<Text>Hakushin Karate Member</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="en_US">
-			<Text>A Middsummer Lewd Dream unique Classical era melee unit that replaces the Swordsman. 3 [ICON_Movement] movement. this unit no need strategic resouces. this unit have unique primotion.</Text>
+			<Text>Koji Tadokoro unique Classical era melee unit that replaces the Swordsman. 3 [ICON_Movement] movement. this unit no need strategic resouces. this unit have unique primotion.</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="en_US">
-			<Text>A Middsummer Lewd Dream unique unit: Hakushin Karate Member</Text>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="en_US">
+			<Text>Koji Tadokoro unique unit: Hakushin Karate Member</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_HAKUSHIN_KARATE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- オナガー -->
+		<Row Tag="LOC_UNIT_YNL_ONAGER_NAME" Language="en_US">
+			<Text>Onager</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_ONAGER_DESCRIPTION" Language="en_US">
+			<Text>GO unique Classical era bombard unit that replaces the Catapult. Strongly beaten and generate ZOC.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_YNL_ONAGER_NAME" Language="en_US">
+			<Text>GO unique unit: Onager</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_ONAGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 極道の黒備え -->
+		<Row Tag="LOC_UNIT_YNL_BLACK_CAVALRY_NAME" Language="en_US">
+			<Text>Outlaw Black Horseman</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_BLACK_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>TNOK unique Classical era light cavalry unit that replaces the Horseman. Stronger than Horseman. Double Flanking Bonus.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY_NAME" Language="en_US">
+			<Text>TNOK unique unit: Outlaw Black Horseman</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_BLACK_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		<!-- 黒塗りの高級車 -->
@@ -107,13 +133,26 @@
 		<Row Tag="LOC_UNIT_YNL_BLACK_CAR_DESCRIPTION" Language="en_US">
 			<Text>TNOK unique Industrial era support unit. 5 [ICON_Movement] movement. Adjacent enemy units receive -5 [ICON_STRENGTH] Combat Strength.</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_BLACK_CAR_NAME" Language="en_US">
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAR_NAME" Language="en_US">
 			<Text>TNOK unique unit: Black Car</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_BLACK_CAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
+		<!-- 国崩し -->
+		<Row Tag="LOC_UNIT_YNL_KUNIKUZUSHI_NAME" Language="en_US">
+			<Text>Kunikuzushi</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_KUNIKUZUSHI_DESCRIPTION" Language="en_US">
+			<Text>The Violence Man unique Medival ranged unit that replace Crossbowman. Stronger than the Crossbowman.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI_NAME" Language="en_US">
+			<Text>The Violence Man unique unit: Kunikuzushi</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_KUNIKUZUSHI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- UB -->
 		<!-- 屋上 -->
 		<Row Tag="LOC_BUILDING_YNL_ROOFTOP_NAME" Language="en_US">
@@ -154,6 +193,8 @@
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_TORTURE_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		
+		<!-- UD -->
 		<!-- 組事務所 -->
 		<Row Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="en_US">
 			<Text>Outlaw Office</Text>

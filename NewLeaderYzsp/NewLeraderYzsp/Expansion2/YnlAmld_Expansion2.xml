@@ -113,9 +113,4 @@
 		<Row NamedDesertType="NAMED_DESERT_YZSP_6" CivilizationType="CIVILIZATION_YNL_AMLD"/>
 		<Row NamedDesertType="NAMED_DESERT_YZSP_7" CivilizationType="CIVILIZATION_YNL_AMLD"/>
 	</NamedDesertCivilizations>
-
-	<!-- 区域の射程 -->
-	<Districts_XP2>
-		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" AttackRange="2"/>
-	</Districts_XP2>
 </GameData>

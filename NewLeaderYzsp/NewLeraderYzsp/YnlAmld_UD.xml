@@ -4,10 +4,12 @@
 	<Types>
 		<Row Type="DISTRICT_YNL_OUTLAW_OFFICE" Kind="KIND_DISTRICT"/>
 	</Types>
+	
 	<!-- 置き換え設定 -->
 	<DistrictReplaces>
 		<Row CivUniqueDistrictType="DISTRICT_YNL_OUTLAW_OFFICE" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
 	</DistrictReplaces>
+	
 	<!-- 主設定 -->
 	<Districts>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" Name="LOC_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Description="LOC_DISTRICT_YNL_OUTLAW_OFFICE_DESCRIPTION" 
@@ -20,28 +22,39 @@
 			 MilitaryDomain="DOMAIN_LAND" Appeal="-1" Housing="1" CityStrengthModifier="2"
 			 TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"/>
 	</Districts>
+	
+	<!-- 区域の射程 -->
+	<Districts_XP2>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" AttackRange="2"/>
+	</Districts_XP2>
+	
 	<!-- 隣接ボーナスの親定義 -->
 	<District_Adjacencies>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldChangeId="OutlawDistrict_Gold"/>
 	</District_Adjacencies>
+	
 	<!-- 除外する隣接ボーナス設定 -->
 	<ExcludedAdjacencies>
 		<!-- ジャングルからの隣接ボーナスの多重適用防止 -->
 		<Row YieldChangeId="Jungle_Science" TraitType="TRAIT_CIVILIZATION_YNL_AMLD"/>
 	</ExcludedAdjacencies>
+	
 	<!-- 偉人ポイント -->
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
+	
 	<!-- 交易ボーナス -->
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
+	
 	<!-- 市民配置ボーナス -->
 	<District_CitizenYieldChanges>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</District_CitizenYieldChanges>
+	
 	<!-- 隣接ボーナス -->
 	<Adjacency_YieldChanges>
 		<!-- 他の区域が1つ隣接ごとに1ゴールド -->

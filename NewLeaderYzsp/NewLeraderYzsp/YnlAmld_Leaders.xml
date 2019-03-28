@@ -10,16 +10,20 @@
 		<!-- 指導者特性(田所) -->
 		<Row Type="TRAIT_LEADER_YNL_KOJI_TADOKORO"             Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"          Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE"      Kind="KIND_TRAIT"/>
 		<!-- 指導者特性(豪) -->						           
 		<Row Type="TRAIT_LEADER_YNL_GO_IS_GOD"                 Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_BROTHEL"          Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_YNL_ONAGER"               Kind="KIND_TRAIT"/>
 		<!-- 指導者特性(虐待おじさん) -->
 		<Row Type="TRAIT_LEADER_YNL_VIOLENCE_MAN"              Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI"          Kind="KIND_TRAIT"/>
 		<!-- 指導者特性(TNOK) -->
 		<Row Type="TRAIT_LEADER_YNL_TNOK"                      Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"    Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"            Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY"        Kind="KIND_TRAIT"/>
 	</Types>
 
 	<!-- 主設定 -->
@@ -59,16 +63,20 @@
 		<!-- 田所 -->
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_YNL_KOJI_TADOKORO"/>
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"/>
+		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE"/>
 		<!-- 豪 -->
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_YNL_GO_IS_GOD"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL"/>
+		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_UNIT_YNL_ONAGER"/>
 		<!-- 虐待おじさん -->
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_YNL_VIOLENCE_MAN"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP"/>
+		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI"/>
 		<!-- TNOK -->
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_YNL_TNOK"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"/>
+		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY"/>
 	</LeaderTraits>
 
 	<!-- 特性の親定義(特性の名称と説明文) -->
@@ -76,16 +84,20 @@
 		<!-- 田所 -->
 		<Row TraitType="TRAIT_LEADER_YNL_KOJI_TADOKORO"             Name="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_NAME" Description="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"          Name="LOC_TRAIT_LEADER_BUILDING_YNL_ROOFTOP_NAME"/>
-		<!-- 豪 -->										   	        
+		<Row TraitType="TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE"      Name="LOC_TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE_NAME"/>
+		<!-- 豪 -->
 		<Row TraitType="TRAIT_LEADER_YNL_GO_IS_GOD"                 Name="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_NAME"     Description="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL"          Name="LOC_TRAIT_LEADER_BUILDING_YNL_BROTHEL_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_YNL_ONAGER"               Name="LOC_TRAIT_LEADER_UNIT_YNL_ONAGER_NAME"/>
 		<!-- 虐待おじさん -->
 		<Row TraitType="TRAIT_LEADER_YNL_VIOLENCE_MAN"              Name="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_NAME"  Description="LOC_TRAIT_LEADER_YNL_VIOLENCE_MAN_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP" Name="LOC_TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI"          Name="LOC_TRAIT_LEADER_TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI_NAME"/>
 		<!-- TNOK -->
 		<Row TraitType="TRAIT_LEADER_YNL_TNOK"                      Name="LOC_TRAIT_LEADER_YNL_TNOK_NAME"          Description="LOC_TRAIT_LEADER_YNL_TNOK_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"    Name="LOC_TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"            Name="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAR_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY"        Name="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY_NAME"/>
 	</Traits>
 
 	<!-- 指導者特性 -->
@@ -489,15 +501,14 @@
 		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_OPERA_BALLET"/>
 		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_URBANIZATION"/>
 		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_SOCIAL_MEDIA"/>
-		<!-- 弓術、通貨、青銅器、軍事工学、火薬、印刷、 コンピューター、工業化 -->
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_ARCHERY"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_CURRENCY"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_BRONZE_WORKING"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_MILITARY_ENGINEERING"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_GUNPOWDER"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_PRINTING"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_COMPUTERS"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 弓術、通貨、軍事工学、火薬、印刷、 コンピューター、工業化 -->
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_PRINTING"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_INDUSTRIALIZATION"/>
 		<!-- 劇場広場、兵営 -->
 		<Row ListType="YNL_KojiTadokoroDistrict" Item="DISTRICT_THEATER" Favored="true"/>
 		<Row ListType="YNL_KojiTadokoroDistrict" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
@@ -518,14 +529,15 @@
 		<Row ListType="YNL_GoIsGodCivics" Item="CIVIC_OPERA_BALLET"/>
 		<Row ListType="YNL_GoIsGodCivics" Item="CIVIC_URBANIZATION"/>
 		<Row ListType="YNL_GoIsGodCivics" Item="CIVIC_SOCIAL_MEDIA"/>
-		<!-- 弓術、通貨、軍事工学、火薬、印刷、 コンピューター、工業化 -->
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_ARCHERY"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_CURRENCY"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_MILITARY_ENGINEERING"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_GUNPOWDER"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_PRINTING"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_COMPUTERS"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 通貨、青銅器、工学、軍事工学、鋳造、印刷、 コンピューター、工業化 -->
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_ENGINEERING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_METAL_CASTING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_PRINTING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_INDUSTRIALIZATION"/>
 		<!-- 劇場広場、総合娯楽施設 -->
 		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_THEATER" Favored="true"/>
 		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="true"/>
@@ -538,18 +550,18 @@
 		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_FORBIDDEN_CITY"/>
 		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_BIG_BEN"/>
 		<Row ListType="YNL_ViolenceManWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
-		<!-- 遊びと娯楽、政治哲学、演劇と詩、ヒューマニズム、ナショナリズム、戦時動員、核開発-->
-		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_GAMES_RECREATION"/>
+		<!-- 労働徴発、政治哲学、演劇と詩、ヒューマニズム、ナショナリズム、戦時動員、核開発-->
+		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_STATE_WORKFORCE"/>
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_DRAMA_POETRY"/>
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_HUMANISM"/>
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_NATIONALISM"/>
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_MOBILIZATION"/>
 		<Row ListType="YNL_ViolenceManCivics" Item="CIVIC_NUCLEAR_PROGRAM"/>
-		<!-- 弓術、通貨、徒弟制度、軍事工学、火薬、科学理論、弾道学、工業化 -->
+		<!-- 弓術、徒弟制度、機械、軍事工学、火薬、科学理論、弾道学、工業化 -->
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_ARCHERY"/>
-		<Row ListType="YNL_ViolenceManTechs" Item="TECH_CURRENCY"/>
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="YNL_ViolenceManTechs" Item="TECH_MACHINERY"/>
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_MILITARY_ENGINEERING"/>
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_GUNPOWDER"/>
 		<Row ListType="YNL_ViolenceManTechs" Item="TECH_SCIENTIFIC_THEORY"/>
@@ -566,22 +578,22 @@
 		<Row ListType="YNL_TNOKWonders" Item="BUILDING_FORBIDDEN_CITY"/>
 		<Row ListType="YNL_TNOKWonders" Item="BUILDING_BIG_BEN"/>
 		<Row ListType="YNL_TNOKWonders" Item="BUILDING_RUHR_VALLEY"/>
-		<!-- 遊びと娯楽、政治哲学、演劇と詩、ヒューマニズム、ナショナリズム、戦時動員、核開発-->
-		<Row ListType="YNL_TNOKCivics" Item="CIVIC_GAMES_RECREATION"/>
+		<!-- 軍事訓練、政治哲学、演劇と詩、ヒューマニズム、ナショナリズム、戦時動員、核開発-->
+		<Row ListType="YNL_TNOKCivics" Item="CIVIC_MILITARY_TRAINING"/>
 		<Row ListType="YNL_TNOKCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
 		<Row ListType="YNL_TNOKCivics" Item="CIVIC_DRAMA_POETRY"/>
 		<Row ListType="YNL_TNOKCivics" Item="CIVIC_HUMANISM"/>
 		<Row ListType="YNL_TNOKCivics" Item="CIVIC_NATIONALISM"/>
 		<Row ListType="YNL_TNOKCivics" Item="CIVIC_MOBILIZATION"/>
 		<Row ListType="YNL_TNOKCivics" Item="CIVIC_NUCLEAR_PROGRAM"/>
-		<!-- 弓術、青銅器、通貨、軍事工学、火薬、科学理論、弾道学、工業化 -->
-		<Row ListType="YNL_TNOKTechs" Item="TECH_ARCHERY"/>
-		<Row ListType="YNL_TNOKTechs" Item="TECH_BRONZE_WORKING"/>
+		<!-- 通貨、騎乗、青銅器、あぶみ、城、軍事学、蒸気機関、工業化 -->
 		<Row ListType="YNL_TNOKTechs" Item="TECH_CURRENCY"/>
-		<Row ListType="YNL_TNOKTechs" Item="TECH_MILITARY_ENGINEERING"/>
-		<Row ListType="YNL_TNOKTechs" Item="TECH_GUNPOWDER"/>
-		<Row ListType="YNL_TNOKTechs" Item="TECH_SCIENTIFIC_THEORY"/>
-		<Row ListType="YNL_TNOKTechs" Item="TECH_BALLISTICS"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_STIRRUPS"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_CASTLES"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_MILITARY_SCIENCE"/>
+		<Row ListType="YNL_TNOKTechs" Item="TECH_STEAM_POWER"/>
 		<Row ListType="YNL_TNOKTechs" Item="TECH_INDUSTRIALIZATION"/>
 		<!-- 商業ハブ、兵営 -->
 		<Row ListType="YNL_TNOKDistrict" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>

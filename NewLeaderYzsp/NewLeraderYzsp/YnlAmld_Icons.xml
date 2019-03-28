@@ -48,24 +48,36 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD256.dds"/>
 		
 		<!-- UU:迫真空手部員 -->
-		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE256.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE80.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE50.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE38.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                   IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE22.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE_FOW"               IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE"                    IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE"                    IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE"                    IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE"                    IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FOW"                IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE22.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_HAKUSHIN_KARATE32.dds"/>
+		<!-- UU:極道の黒備え -->
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY"                    IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY"                    IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY"                    IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY"                    IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY_FOW"                IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY_FLAG_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_BLACK_CAVALRY32.dds"/>
 		<!-- UU:黒塗りの高級車 -->
-		<Row Name="ICON_ATLAS_UNITS_YNL_BLACK_CAR"                         IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR256.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_BLACK_CAR"                         IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR80.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_BLACK_CAR"                         IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR50.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_BLACK_CAR"                         IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR38.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_BLACK_CAR"                         IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR32.dds"/>
-		<Row Name="ICON_ATLAS_UNITS_YNL_BLACK_CAR_FOW"                     IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR"                          IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR"                          IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR"                          IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR"                          IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR"                          IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR_FOW"                      IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR_FLAG_SYMBOLS_WHITE"       IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR22.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR_FLAG_SYMBOLS_WHITE"       IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_YNL_BLACK_CAR_FLAG_SYMBOLS_WHITE"       IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_BLACK_CAR80.dds"/>
@@ -83,6 +95,30 @@
 		<Row Name="ICON_ATLAS_SOUTH_AMERICAN_UNIT_YNL_BLACK_CAR_PORTRAITS" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR95.dds"/>
 		<Row Name="ICON_ATLAS_AFRICAN_UNIT_YNL_BLACK_CAR_PORTRAITS"        IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR70.dds"/>
 		<Row Name="ICON_ATLAS_AFRICAN_UNIT_YNL_BLACK_CAR_PORTRAITS"        IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR95.dds"/>
+		<!-- UU:オナガー -->
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER"                    IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER"                    IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER"                    IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER"                    IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FOW"                IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER32.dds"/>
+		<!-- UU:オナガー -->
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FOW"                IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI32.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -95,18 +131,38 @@
 		<!-- UI:野獣先輩BB(クルガンの使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_YNL_YZSP_BB"  Atlas="ICON_ATLAS_UNIT_ACTIONS"          Index="19"/>
 		<!-- UU:迫真空手部員(ポートレイトは武僧の使いまわし) -->
-		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE"                            Atlas="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE"                    Index="0"/>
-		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_FOW"                        Atlas="ICON_ATLAS_UNITS_YNL_HAKUSHIN_KARATE_FOW"                Index="0"/>
-		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_WHITE"                      Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE"  Index="0"/>
-		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_BLACK"                      Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_BLACK"  Index="0"/>
-		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                             Index="35"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"                       Index="35"/>
-		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"               Index="35"/>
-		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2"              Index="35"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"                     Index="35"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE"                            Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE"                    Index="0"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_FOW"                        Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FOW"                Index="0"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_WHITE"                      Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_BLACK"                      Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FLAG_SYMBOLS_BLACK" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                            Index="35"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"                      Index="35"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"              Index="35"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2"             Index="35"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_HAKUSHIN_KARATE_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"                    Index="35"/>
+		<!-- UU:オナガー(ポートレイトはカタパルトの使いまわし) -->
+		<Row Name="ICON_UNIT_YNL_ONAGER"                            Atlas="ICON_ATLAS_UNIT_ICON_YNL_ONAGER"                    Index="0"/>
+		<Row Name="ICON_UNIT_YNL_ONAGER_FOW"                        Atlas="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FOW"                Index="0"/>
+		<Row Name="ICON_UNIT_YNL_ONAGER_WHITE"                      Atlas="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_ONAGER_BLACK"                      Atlas="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_BLACK" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_ONAGER_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                          Index="37"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_ONAGER_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"                    Index="37"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_ONAGER_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"            Index="37"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_ONAGER_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"           Index="37"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_ONAGER_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"                  Index="37"/>
+		<!-- UU:極道の黒備え(ポートレイトは軽騎兵の使いまわし) -->
+		<Row Name="ICON_UNIT_YNL_BLACK_CAVALRY"                            Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY"                    Index="0"/>
+		<Row Name="ICON_UNIT_YNL_BLACK_CAVALRY_FOW"                        Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY_FOW"                Index="0"/>
+		<Row Name="ICON_UNIT_YNL_BLACK_CAVALRY_WHITE"                      Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY_FLAG_SYMBOLS_WHITE" Index="0" />
+		<Row Name="ICON_UNIT_YNL_BLACK_CAVALRY_BLACK"                      Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAVALRY_FLAG_SYMBOLS_BLACK" Index="0" />
+		<Row Name="ICON_UNIT_YNL_BLACK_CAVALRY_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                            Index="33"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_BLACK_CAVALRY_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"                      Index="33"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_BLACK_CAVALRY_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"              Index="33"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_BLACK_CAVALRY_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"             Index="33"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_BLACK_CAVALRY_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"                    Index="33"/>
 		<!-- UU:黒塗りの高級車 -->
-		<Row Name="ICON_UNIT_YNL_BLACK_CAR"                            Atlas="ICON_ATLAS_UNITS_YNL_BLACK_CAR"                         Index="0"/>
-		<Row Name="ICON_UNIT_YNL_BLACK_CAR_FOW"                        Atlas="ICON_ATLAS_UNITS_YNL_BLACK_CAR_FOW"                     Index="0"/>
+		<Row Name="ICON_UNIT_YNL_BLACK_CAR"                            Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAR"                          Index="0"/>
+		<Row Name="ICON_UNIT_YNL_BLACK_CAR_FOW"                        Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAR_FOW"                      Index="0"/>
 		<Row Name="ICON_UNIT_YNL_BLACK_CAR_WHITE"                      Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAR_FLAG_SYMBOLS_WHITE"       Index="0"/>
 		<Row Name="ICON_UNIT_YNL_BLACK_CAR_BLACK"                      Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAR_FLAG_SYMBOLS_BLACK"       Index="0"/>
 		<Row Name="ICON_UNIT_YNL_BLACK_CAR_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_YNL_BLACK_CAR_PORTRAITS"                Index="0"/>
@@ -114,6 +170,16 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_BLACK_CAR_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_YNL_BLACK_CAR_PORTRAITS"  Index="0"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_BLACK_CAR_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_YNL_BLACK_CAR_PORTRAITS" Index="0"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_BLACK_CAR_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_YNL_BLACK_CAR_PORTRAITS"        Index="0"/>
+		<!-- UU:国崩し(とりあえず虎蹲砲の使いまわし) -->
+		<Row Name="ICON_UNIT_YNL_KUNIKUZUSHI"                             Atlas="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    Index="0"/>
+		<Row Name="ICON_UNIT_YNL_KUNIKUZUSHI_FOW"                         Atlas="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FOW"                Index="0"/>
+		<Row Name="ICON_UNIT_YNL_KUNIKUZUSHI_WHITE"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_KUNIKUZUSHI_BLACK"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_BLACK" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"                    Atlas="ICON_ATLAS_UNIT_PORTRAITS"                               Index="48"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"    Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"                         Index="48"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"    Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"                 Index="48"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"                Index="48"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"                       Index="48"/>
 		<!-- UB:屋上(研究所の使いまわし) -->
 		<Row Name="ICON_BUILDING_YNL_ROOFTOP"          Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
 		<!-- UB:娼館(トラクトリの使いまわし) -->

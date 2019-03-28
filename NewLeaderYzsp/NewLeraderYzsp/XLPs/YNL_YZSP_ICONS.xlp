@@ -191,6 +191,31 @@
 			<m_EntryID text="ICON_YNL_HAKUSHIN_KARATE256"/>
 			<m_ObjectName text="ICON_YNL_HAKUSHIN_KARATE256"/>
 		</Element>
+		<!-- UU:極道の黒備え -->
+		<Element>
+			<m_EntryID text="ICON_YNL_BLACK_CAVALRY22"/>
+			<m_ObjectName text="ICON_YNL_BLACK_CAVALRY22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_BLACK_CAVALRY32"/>
+			<m_ObjectName text="ICON_YNL_BLACK_CAVALRY32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_BLACK_CAVALRY38"/>
+			<m_ObjectName text="ICON_YNL_BLACK_CAVALRY38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_BLACK_CAVALRY50"/>
+			<m_ObjectName text="ICON_YNL_BLACK_CAVALRY50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_BLACK_CAVALRY80"/>
+			<m_ObjectName text="ICON_YNL_BLACK_CAVALRY80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_BLACK_CAVALRY256"/>
+			<m_ObjectName text="ICON_YNL_BLACK_CAVALRY256"/>
+		</Element>
 		<!-- UU:黒塗りの高級車 -->
 		<Element>
 			<m_EntryID text="ICON_UNIT_YNL_BLACK_CAR22"/>
@@ -239,6 +264,56 @@
 		<Element>
 			<m_EntryID text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR256"/>
 			<m_ObjectName text="ICON_PORTRAIT_UNIT_YNL_BLACK_CAR256"/>
+		</Element>
+		<!-- UU:迫真空手部員 -->
+		<Element>
+			<m_EntryID text="ICON_YNL_ONAGER22"/>
+			<m_ObjectName text="ICON_YNL_ONAGER22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ONAGER32"/>
+			<m_ObjectName text="ICON_YNL_ONAGER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ONAGER38"/>
+			<m_ObjectName text="ICON_YNL_ONAGER38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ONAGER50"/>
+			<m_ObjectName text="ICON_YNL_ONAGER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ONAGER80"/>
+			<m_ObjectName text="ICON_YNL_ONAGER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_ONAGER256"/>
+			<m_ObjectName text="ICON_YNL_ONAGER256"/>
+		</Element>
+		<!-- UU:国崩し -->
+		<Element>
+			<m_EntryID text="ICON_YNL_KUNIKUZUSHI22"/>
+			<m_ObjectName text="ICON_YNL_KUNIKUZUSHI22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KUNIKUZUSHI32"/>
+			<m_ObjectName text="ICON_YNL_KUNIKUZUSHI32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KUNIKUZUSHI38"/>
+			<m_ObjectName text="ICON_YNL_KUNIKUZUSHI38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KUNIKUZUSHI50"/>
+			<m_ObjectName text="ICON_YNL_KUNIKUZUSHI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KUNIKUZUSHI80"/>
+			<m_ObjectName text="ICON_YNL_KUNIKUZUSHI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_KUNIKUZUSHI256"/>
+			<m_ObjectName text="ICON_YNL_KUNIKUZUSHI256"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

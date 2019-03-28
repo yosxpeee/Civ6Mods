@@ -2,11 +2,17 @@
 <GameInfo>
 	<!-- 親定義 -->
 	<Types>
+		<!-- ユニット -->
 		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_ONAGER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_BLACK_CAVALRY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_KUNIKUZUSHI" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_YNL_BLACK_CAR" Kind="KIND_UNIT"/>
-
+		<!-- アビリティ -->
 		<Row Type="ABILITY_YNL_BLACK_CAR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YNL_BLACK_CAVALRY" Kind="KIND_ABILITY"/>
 	</Types>
+
 	<!-- AI設定 -->
 	<UnitAiInfos>
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" AiType="UNITAI_COMBAT"/>
@@ -14,50 +20,120 @@
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" AiType="UNITTYPE_LAND_COMBAT"/>
 
+		<Row UnitType="UNIT_YNL_ONAGER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YNL_ONAGER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_YNL_ONAGER" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_YNL_ONAGER" AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_YNL_ONAGER" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_YNL_BLACK_CAVALRY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YNL_BLACK_CAVALRY" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_YNL_BLACK_CAVALRY" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_YNL_BLACK_CAVALRY" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_YNL_BLACK_CAVALRY" AiType="UNITTYPE_LAND_COMBAT"/>
+
 		<Row UnitType="UNIT_YNL_BLACK_CAR" AiType="UNITTYPE_SIEGE_SUPPORT"/>
 		<Row UnitType="UNIT_YNL_BLACK_CAR" AiType="UNITTYPE_SIEGE_ALL"/>
+
+		<Row UnitType="UNIT_YNL_KUNIKUZUSHI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YNL_KUNIKUZUSHI" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_YNL_KUNIKUZUSHI" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
+
 	<!-- 置き換え設定 -->
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_YNL_HAKUSHIN_KARATE" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_YNL_ONAGER"          ReplacesUnitType="UNIT_CATAPULT"/>
+		<Row CivUniqueUnitType="UNIT_YNL_BLACK_CAVALRY"   ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_YNL_KUNIKUZUSHI"     ReplacesUnitType="UNIT_CROSSBOWMAN"/>
 	</UnitReplaces>
+
+	<!-- クラスの親定義 -->
 	<Tags>
-		<Row Tag="CLASS_YNL_BLACK_CAR" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_YNL_BLACK_CAR"     Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_YNL_BLACK_CAVALRY" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
+
 	<!-- 所有クラス -->
 	<TypeTags>
-		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_YNL_BLACK_CAR" Tag="CLASS_YNL_BLACK_CAR"/>
-
-		<Row Type="ABILITY_YNL_BLACK_CAR" Tag="CLASS_YNL_BLACK_CAR"/>
+		<!-- ユニット -->
+		<Row Type="UNIT_YNL_HAKUSHIN_KARATE"  Tag="CLASS_MELEE"/>
+											  
+		<Row Type="UNIT_YNL_ONAGER"           Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_YNL_ONAGER"           Tag="CLASS_SIEGE_SETUP"/>
+		<Row Type="UNIT_YNL_ONAGER"           Tag="CLASS_FORWARD_OBSERVER"/>
+											  
+		<Row Type="UNIT_YNL_BLACK_CAVALRY"    Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_YNL_BLACK_CAVALRY"    Tag="CLASS_YNL_BLACK_CAVALRY"/>
+											  
+		<Row Type="UNIT_YNL_BLACK_CAR"        Tag="CLASS_YNL_BLACK_CAR"/>
+											  
+		<Row Type="UNIT_YNL_KUNIKUZUSHI"      Tag="CLASS_RANGED"/>
+		<!-- アビリティ -->
+		<Row Type="ABILITY_YNL_BLACK_CAR"     Tag="CLASS_YNL_BLACK_CAR"/>
+		<Row Type="ABILITY_YNL_BLACK_CAVALRY" Tag="CLASS_YNL_BLACK_CAVALRY"/>
 	</TypeTags>
+
 	<!-- 主設定 -->
 	<Units>
 		<!-- 迫真空手部員 -->
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" Name="LOC_UNIT_YNL_HAKUSHIN_KARATE_NAME" Description="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION"
 			 Cost="90"  Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="38" 
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HAKUSHIN_KARATE_YNL"  AdvisorType="ADVISOR_CONQUEST"
-			 PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_GAMES_RECREATION" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE"/>
+			 PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_GAMES_RECREATION" TraitType="TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE"/>
+		<!-- オナガー -->
+		<Row UnitType="UNIT_YNL_ONAGER" Name="LOC_UNIT_YNL_ONAGER_NAME" Description="LOC_UNIT_YNL_ONAGER_DESCRIPTION"
+			 Cost="130" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="35" Bombard="40" Range="2"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_ENGINEERING"
+			 TraitType="TRAIT_LEADER_UNIT_YNL_ONAGER" />
+		<!-- 極道の黒備え -->
+		<Row UnitType="UNIT_YNL_BLACK_CAVALRY" Name="LOC_UNIT_YNL_BLACK_CAVALRY_NAME" Description="LOC_UNIT_YNL_BLACK_CAVALRY_DESCRIPTION" 
+			 Cost="80" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="40" StrategicResource="RESOURCE_HORSES" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_HORSEBACK_RIDING"
+			 TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY" />
 		<!-- 黒塗りの高級車 -->
 		<Row UnitType="UNIT_YNL_BLACK_CAR" Name="LOC_UNIT_YNL_BLACK_CAR_NAME" Description="LOC_UNIT_YNL_BLACK_CAR_DESCRIPTION" 
 			 Cost="370" Maintenance="3" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" 
 			 FormationClass="FORMATION_CLASS_SUPPORT" PromotionClass="PROMOTION_CLASS_SUPPORT" AdvisorType="ADVISOR_CONQUEST" 
 			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_STEAM_POWER"
 			 TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"/>
+		<!-- 国崩し -->
+		<Row UnitType="UNIT_YNL_KUNIKUZUSHI" Name="LOC_UNIT_YNL_KUNIKUZUSHI_NAME" Description="LOC_UNIT_YNL_KUNIKUZUSHI_DESCRIPTION" 
+			 Cost="160" Maintenance="3" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="30" RangedCombat="50" Range="2" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_MACHINERY" 
+			 TraitType="TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI"/>
 	</Units>
+	<!-- ユニットの戦略資源消費 -->
+	<Units_XP2>
+		<Row UnitType="UNIT_YNL_ONAGER"        ResourceCost="20"/><!-- 一応カタパルトと同じように設定してあるが、戦略資源使わないのになぜ・・・？ -->
+		<Row UnitType="UNIT_YNL_BLACK_CAVALRY" ResourceCost="20"/>
+	</Units_XP2>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<Row Unit="UNIT_YNL_HAKUSHIN_KARATE" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_YNL_ONAGER"          UpgradeUnit="UNIT_BOMBARD"/>
+		<Row Unit="UNIT_YNL_BLACK_CAVALRY"   UpgradeUnit="UNIT_COURSER"/>
+		<Row Unit="UNIT_YNL_KUNIKUZUSHI"     UpgradeUnit="UNIT_FIELD_CANNON"/>
 	</UnitUpgrades>
 
 	<!-- ユニットのアビリティ -->
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAR" Name="LOC_ABILITY_YNL_BLACK_CAR_NAME" Description="LOC_ABILITY_YNL_BLACK_CAR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAVALRY" Name="LOC_ABILITY_YNL_BLACK_CAVALRY_NAME" Description="LOC_ABILITY_YNL_BLACK_CAVALRY_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
+		<!-- 黒塗りの高級車 -->
 		<Row>
 			<UnitAbilityType>ABILITY_YNL_BLACK_CAR</UnitAbilityType>
 			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT</ModifierId>
+		</Row>
+		<!-- 極道の黒備え -->
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_BLACK_CAVALRY</UnitAbilityType>
+			<ModifierId>YNL_BLACK_CAVALRY_INCREASED_FLANKING_BONUS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
@@ -70,6 +146,10 @@
 			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>YNL_BLACK_CAVALRY_INCREASED_FLANKING_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -81,6 +161,11 @@
 			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_BLACK_CAVALRY_INCREASED_FLANKING_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>100</Value>
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>

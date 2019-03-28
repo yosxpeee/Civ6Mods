@@ -92,13 +92,39 @@
 			<Text>迫真空手部員</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="ja_JP">
-			<Text>剣士に取ってかわる真夏の夜の淫夢固有の古典時代の近接戦闘ユニット。[ICON_Movement] 移動力3。このユニットは戦略資源を必要とせず、独自の昇進を持つ。</Text>
+			<Text>剣士に取ってかわる田所浩二固有の古典時代の近接戦闘ユニット。[ICON_Movement] 移動力3。このユニットは戦略資源を必要とせず、独自の昇進を持つ。</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
-			<Text>真夏の夜の淫夢固有のユニット: 迫真空手部員</Text>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
+			<Text>田所浩二固有のユニット: 迫真空手部員</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_HAKUSHIN_KARATE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>カスが効かねえんだよ！</Text>
+		</Replace>
+		<!-- オナガー -->
+		<Replace Tag="LOC_UNIT_YNL_ONAGER_NAME" Language="ja_JP">
+			<Text>オナガー</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_ONAGER_DESCRIPTION" Language="ja_JP">
+			<Text>カタパルトに取ってかわるGO固有の古典時代の攻城ユニット。カタパルトよりも打たれ強く、ZOCを発生させる。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_ONAGER_NAME" Language="ja_JP">
+			<Text>GO固有のユニット: オナガー</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_ONAGER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<!-- 極道の黒備え -->
+		<Replace Tag="LOC_UNIT_YNL_BLACK_CAVALRY_NAME" Language="ja_JP">
+			<Text>極道の黒備え</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_BLACK_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>軽騎兵に取ってかわるTNOK固有の古典時代の軽騎兵ユニット。軽騎兵よりも強い。側面攻撃2倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY_NAME" Language="ja_JP">
+			<Text>TNOK固有のユニット: 極道の黒備え</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_BLACK_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
 		</Replace>
 		<!-- 黒塗りの高級車 -->
 		<Replace Tag="LOC_UNIT_YNL_BLACK_CAR_NAME" Language="ja_JP">
@@ -107,11 +133,24 @@
 		<Replace Tag="LOC_UNIT_YNL_BLACK_CAR_DESCRIPTION" Language="ja_JP">
 			<Text>TNOK固有の産業時代の支援ユニット。[ICON_Movement] 移動力5。隣接する敵ユニットの [ICON_Strength] 戦闘力-5。</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_BLACK_CAR_NAME" Language="ja_JP">
-			<Text>真夏の夜の淫夢固有のユニット: 黒塗りの高級車</Text>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAR_NAME" Language="ja_JP">
+			<Text>TNOK固有のユニット: 黒塗りの高級車</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_BLACK_CAR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>誰の車にぶつけたと思ってんだ？どう落とし前つけんだよ？</Text>
+		</Replace>
+		<!-- 国崩し -->
+		<Replace Tag="LOC_UNIT_YNL_KUNIKUZUSHI_NAME" Language="ja_JP">
+			<Text>国崩し</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_KUNIKUZUSHI_DESCRIPTION" Language="ja_JP">
+			<Text>弩兵に取ってかわる虐待おじさん固有の中世の陸上遠距離ユニット。弩兵よりも強い。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI_NAME" Language="ja_JP">
+			<Text>虐待おじさん固有のユニット: 国崩し</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_KUNIKUZUSHI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
 		</Replace>
 		
 		<!-- UB -->
@@ -154,6 +193,8 @@
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_TORTURE_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
+		
+		<!-- UD -->
 		<!-- 組事務所 -->
 		<Replace Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="ja_JP">
 			<Text>組事務所</Text>

@@ -37,5 +37,20 @@
 			 MomentDataType="MOMENT_DATA_UNIT"
 			 GameDataType="UNIT_YNL_BLACK_CAR"
 			 Texture="YNL_MOMENT_UNIT_YNL_BLACK_CAR.dds"/>
+		<!-- 極道の黒備え -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_BLACK_CAVALRY"
+			 Texture="YNL_MOMENT_UNIT_YNL_BLACK_CAVALRY.dds"/>
+		<!-- オナガー -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_ONAGER"
+			 Texture="YNL_MOMENT_UNIT_YNL_ONAGER.dds"/>
+		<!-- 国崩し-->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_KUNIKUZUSHI"
+			 Texture="YNL_MOMENT_UNIT_YNL_KUNIKUZUSHI.dds"/>
 	</MomentIllustrations>
 </GameData>
