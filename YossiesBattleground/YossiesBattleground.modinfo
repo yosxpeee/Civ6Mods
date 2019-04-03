@@ -6,7 +6,7 @@
 		<Teaser>Original Map by yosxpeee</Teaser>
 		<Description>Original Map by yosxpeee</Description>
 		<Authors>yosxpeee</Authors>
-		<CompatibleVersions>2.0</CompatibleVersions>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
 	</Properties>
 	
 	<Components>
@@ -14,7 +14,6 @@
 	</Components>
 	
 	<Settings>
-
 		<Map id="YZSPMAP_MAP">
 			<Properties>
 				<Name>LOC_MAP_YZSP_NAME</Name>
@@ -59,7 +58,7 @@
 		
 		<Map id="YZSPMAP_MAP_EXP2">
 			<Properties>
-				<Name>LOC_MAP_YZSP_NAME</Name>
+				<Name>LOC_MAP_YZSP_GS_NAME</Name>
 				<Description>LOC_MAP_YZSP_DESCRIPTION</Description>
 				<Group>Maps:Expansion2Maps</Group>
 			</Properties>
@@ -69,7 +68,7 @@
 		</Map>
 		<Map id="YZSPMAP_MAP2_EXP2">
 			<Properties>
-				<Name>LOC_MAP_YZSP2_NAME</Name>
+				<Name>LOC_MAP_YZSP2_GS_NAME</Name>
 				<Description>LOC_MAP_YZSP2_DESCRIPTION</Description>
 				<Group>Maps:Expansion2Maps</Group>
 			</Properties>

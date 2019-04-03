@@ -4,11 +4,17 @@
 		<Replace Tag="LOC_MAP_YZSP_NAME" Language="ja_JP">
 			<Text>[YBG]Fiction Middle East</Text>
 		</Replace>
+		<Replace Tag="LOC_MAP_YZSP_GS_NAME" Language="ja_JP">
+			<Text>[YBG]Fiction Middle East(GS)</Text>
+		</Replace>
 		<Replace Tag="LOC_MAP_YZSP_DESCRIPTION" Language="ja_JP">
 			<Text>二人は幸せなキスをして終了</Text>
 		</Replace>
 		<Replace Tag="LOC_MAP_YZSP2_NAME" Language="ja_JP">
 			<Text>[YBG]Flooded Pangea</Text>
+		</Replace>
+		Replace Tag="LOC_MAP_YZSP2_GS_NAME" Language="ja_JP">
+			<Text>[YBG]Flooded Pangea(GS)</Text>
 		</Replace>
 		<Replace Tag="LOC_MAP_YZSP2_DESCRIPTION" Language="ja_JP">
 			<Text>野獣先輩地球説</Text>

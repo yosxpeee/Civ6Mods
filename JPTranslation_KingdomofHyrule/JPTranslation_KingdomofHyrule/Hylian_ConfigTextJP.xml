@@ -43,7 +43,7 @@
 			<Text>時の勇者</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HERO_OF_TIME_DESCRIPTION" Language="ja_JP">
-			<Text>膨大な信仰力を消費して獲得できる強力なユニット。新しい時代に進むたびに無償で1ユニット獲得できる。アップグレード不可能だが回復ユニットを隣接させることで [ICON_Strength] 戦闘力を補強できる。</Text>
+			<Text>膨大な信仰力を消費して獲得できる強力なユニット。新しい時代に進むたびに無償で1ユニット獲得できる。アップグレード不可能だが回復ユニットをスタックさせることで [ICON_Strength] 戦闘力を補強できる。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_HYLIAN_AMBULANCE_NAME" Language="ja_JP">

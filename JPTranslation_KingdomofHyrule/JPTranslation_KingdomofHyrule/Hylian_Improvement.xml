@@ -22,7 +22,7 @@
              Name="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_NAME"
              Description="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION"
              Icon="ICON_IMPROVEMENT_FAIRY_FOUNTAIN"
-             PlunderType="PLUNDER_CULTURE"
+             PlunderType="PLUNDER_FAITH"
              PlunderAmount="25"
              Buildable="true"
              Housing="0"

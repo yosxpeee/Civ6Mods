@@ -54,8 +54,8 @@
 		<AssemblyName>JPTranslation_KingdomofHyrule</AssemblyName>
 		<RootNamespace>JPTranslation_KingdomofHyrule</RootNamespace>
 		<Authors>decster584</Authors>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
 		<SpecialThanks>yosxpeee</SpecialThanks>
-		<CompatibleVersions>2.0</CompatibleVersions>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
 		<OutputPath>.</OutputPath>
