@@ -34,7 +34,7 @@
     <AssemblyName>NewLeader7</AssemblyName>
     <RootNamespace>NewLeader7</RootNamespace>
     <Authors>Yossie</Authors>
-    <CompatibleVersions>2.0</CompatibleVersions>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

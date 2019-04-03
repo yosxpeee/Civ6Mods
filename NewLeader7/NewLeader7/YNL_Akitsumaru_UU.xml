@@ -30,7 +30,7 @@
 		<Row Type="UNIT_FRIGATE"           Tag="CLASS_FORWARD_KAGOU1"/>
 		<Row Type="UNIT_BATTLESHIP"        Tag="CLASS_FORWARD_KAGOU1"/>
 		<Row Type="UNIT_MISSILE_CRUISER"   Tag="CLASS_FORWARD_KAGOU1"/>
-		<!-- 特定ユニットにカ号が隣接すると海洋略奪ユニットへの攻撃力+9 -->
+		<!-- 特定ユニットにカ号をスタックすると海洋略奪ユニットへの攻撃力+9 -->
 		<Row Type="UNIT_CARAVEL"		   Tag="CLASS_FORWARD_KAGOU2"/>
 		<Row Type="UNIT_IRONCLAD"		   Tag="CLASS_FORWARD_KAGOU2"/>
 		<Row Type="UNIT_DESTROYER"		   Tag="CLASS_FORWARD_KAGOU2"/>

@@ -43,7 +43,7 @@
 			<Text>カ号観測機</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KAGOU_DESCRIPTION" Language="ja_JP">
-			<Text>あきつ丸固有の近代の支援ユニット。カ号観測機が隣接したフリゲート艦/戦艦/ミサイル巡洋艦の [ICON_Range] 射程+1。[NEWLINE]カ号観測機が隣接したルネサンス時代以降の海洋ユニットは海洋略奪ユニットへの [ICON_Strength] 戦闘力+9。[NEWLINE]ステルスユニットが隣接タイルにいる場合、居場所がマップ上で明らかにされる。</Text>
+			<Text>あきつ丸固有の近代の支援ユニット。カ号観測機が隣接したフリゲート艦/戦艦/ミサイル巡洋艦の [ICON_Range] 射程+1。[NEWLINE]カ号観測機がスタックしたルネサンス時代以降の海洋ユニットは海洋略奪ユニットへの [ICON_Strength] 戦闘力+9。[NEWLINE]ステルスユニットが視界内にいる場合、居場所がマップ上で明らかにされる。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME" Language="ja_JP">
 			<Text>あきつ丸固有のユニット: カ号観測機</Text>

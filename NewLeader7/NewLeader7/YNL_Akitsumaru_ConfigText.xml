@@ -30,7 +30,7 @@
 			<Text>Imperial Army's Pride</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
-			<Text>Builds Encampment and Industial Zone districts in half the time. +50% [ICON_Production] Production toward Melee units.Land units receive +5 [ICON_Strength] Combat Strength in land tiles adjacent to Coast.</Text>
+			<Text>Builds Encampment and Industrial Zone districts in half the time. +50% [ICON_Production] Production toward Melee units.Land units receive +5 [ICON_Strength] Combat Strength in land tiles adjacent to Coast.</Text>
 		</Row>
 
 		<!-- DOM_TEXT -->
@@ -43,7 +43,7 @@
 			<Text>Ka Type Observation Autogyro</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_KAGOU_DESCRIPTION" Language="en_US">
-			<Text>Akitsumaru unique Modern era support unit. Adds +1 [ICON_Range] Range to Frigate, Battleship and Missile Cruiser. [NEWLINE]Naval units after the Renaissance era gains +9 [ICON_Strength] Strength when attacking to naval raider units. [NEWLINE]Reveal stealth units on the map when this unit on an adjacent tile.</Text>
+			<Text>Akitsumaru unique Modern era support unit. Adds +1 [ICON_Range] Range to Frigate, Battleship and Missile Cruiser. [NEWLINE]Naval units after the Renaissance era gains +9 [ICON_Strength] Strength when attacking to naval raider units. [NEWLINE]Reveal stealth units in view.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_UNIT_KAGOU_NAME" Language="en_US">
 			<Text>Akitsumaru unique unit: Ka Type Observation Autogyro</Text>
