@@ -10,7 +10,7 @@
 			 Name="LOC_IMPROVEMENT_YNL_YZSP_BB_NAME"
 			 Description="LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION"
 			 Icon="ICON_IMPROVEMENT_YNL_YZSP_BB"
-			 PlunderType="PLUNDER_CULTURE" PlunderAmount="15" Buildable="true"
+			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true"
 			 RequiresAdjacentBonusOrLuxury="true" SameAdjacentValid="false" PrereqTech="TECH_MASONRY"
 			 TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB"/>
 	</Improvements>

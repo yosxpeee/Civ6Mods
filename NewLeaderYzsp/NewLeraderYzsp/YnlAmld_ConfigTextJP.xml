@@ -40,7 +40,7 @@
 			<Text>GO is GOD</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION" Language="ja_JP">
-			<Text>徴用されたユニットの [ICON_Movement] 移動力+2、 [ICON_Strength] 戦闘力+5。徴用されたユニットのアップグレードに [ICON_GOLD] ゴールドや資源が不要になる。部隊を徴用すると、その都市国家の [ICON_ENVOY] 代表団+2。戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の10%に等しい [ICON_Science] 科学力、[ICON_Culture] 文化力、[ICON_Faith] 信仰力、[ICON_Gold] ゴールドを得る。</Text>
+			<Text>徴用されたユニットの [ICON_Movement] 移動力+2、 [ICON_Strength] 戦闘力+5。徴用されたユニットのアップグレードに必要な [ICON_GOLD] ゴールドや資源が75%低下する。部隊を徴用すると、その都市国家の [ICON_ENVOY] 代表団+2。戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の10%に等しい [ICON_Science] 科学力、[ICON_Culture] 文化力、[ICON_Faith] 信仰力、[ICON_Gold] ゴールドを得る。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_GO_IS_GOD_DOM_TEXT" Language="ja_JP">
 			<Text>ハイ、ヨロシクゥ！</Text>
@@ -77,7 +77,7 @@
 			<Text>野獣先輩BB</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION" Language="ja_JP">
-			<Text>労働者が真夏の夜の淫夢固有の施設である野獣先輩BBを建設できるようになる。[NEWLINE][NEWLINE][ICON_GOLD] ゴールド+1、[ICON_Culture] 文化力+1。コンピューター解禁で [ICON_Culture] 文化力+2。ソーシャルメディア解禁で[ICON_GOLD] ゴールド+2。何らかの資源の周りにのみ建造可能。他の野獣先輩BBと隣接不可。</Text>
+			<Text>労働者が真夏の夜の淫夢固有の施設である野獣先輩BBを建設できるようになる。[NEWLINE][NEWLINE][ICON_GOLD] ゴールド+1、[ICON_Culture] 文化力+1。コンピューター解禁で [ICON_Culture] 文化力+2。ソーシャルメディア解禁で[ICON_GOLD] ゴールド+2。ボーナス資源か高級資源の周りにのみ建造可能。他の野獣先輩BBと隣接不可。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="ja_JP">
 			<Text>真夏の夜の淫夢固有の地形改善: 野獣先輩BB</Text>
@@ -92,7 +92,7 @@
 			<Text>迫真空手部員</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="ja_JP">
-			<Text>剣士に取ってかわる田所浩二固有の古典時代の近接戦闘ユニット。[ICON_Movement] 移動力3。このユニットは戦略資源を必要とせず、独自の昇進を持つ。</Text>
+			<Text>田所浩二固有の古典時代の近接戦闘ユニット。[ICON_Movement] 移動力3。このユニットは戦略資源を必要とせず、独自の昇進を持つ。産業時代以降の陸軍ユニット隣接で [ICON_Strength] 戦闘力+12。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
 			<Text>田所浩二固有のユニット: 迫真空手部員</Text>

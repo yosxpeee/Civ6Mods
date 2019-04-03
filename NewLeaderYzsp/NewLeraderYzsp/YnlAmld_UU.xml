@@ -4,15 +4,21 @@
 	<Types>
 		<!-- ユニット -->
 		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_YNL_ONAGER" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_YNL_BLACK_CAVALRY" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_YNL_KUNIKUZUSHI" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_YNL_BLACK_CAR" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_ONAGER"          Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_BLACK_CAVALRY"   Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_KUNIKUZUSHI"     Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_BLACK_CAR"       Kind="KIND_UNIT"/>
 		<!-- アビリティ -->
-		<Row Type="ABILITY_YNL_BLACK_CAR" Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_YNL_BLACK_CAVALRY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YNL_HAKUSHIN_KARATE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YNL_BLACK_CAR"       Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YNL_BLACK_CAVALRY"   Kind="KIND_ABILITY"/>
 	</Types>
-
+	<!-- クラスの親定義 -->
+	<Tags>
+		<Row Tag="CLASS_YNL_HAKUSHIN_KARATE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_YNL_BLACK_CAR"       Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_YNL_BLACK_CAVALRY"   Vocabulary="ABILITY_CLASS"/>
+	</Tags>
 	<!-- AI設定 -->
 	<UnitAiInfos>
 		<Row UnitType="UNIT_YNL_HAKUSHIN_KARATE" AiType="UNITAI_COMBAT"/>
@@ -42,36 +48,31 @@
 
 	<!-- 置き換え設定 -->
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_YNL_HAKUSHIN_KARATE" ReplacesUnitType="UNIT_SWORDSMAN"/>
 		<Row CivUniqueUnitType="UNIT_YNL_ONAGER"          ReplacesUnitType="UNIT_CATAPULT"/>
 		<Row CivUniqueUnitType="UNIT_YNL_BLACK_CAVALRY"   ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_YNL_KUNIKUZUSHI"     ReplacesUnitType="UNIT_CROSSBOWMAN"/>
 	</UnitReplaces>
 
-	<!-- クラスの親定義 -->
-	<Tags>
-		<Row Tag="CLASS_YNL_BLACK_CAR"     Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_YNL_BLACK_CAVALRY" Vocabulary="ABILITY_CLASS"/>
-	</Tags>
-
 	<!-- 所有クラス -->
 	<TypeTags>
 		<!-- ユニット -->
-		<Row Type="UNIT_YNL_HAKUSHIN_KARATE"  Tag="CLASS_MELEE"/>
-											  
-		<Row Type="UNIT_YNL_ONAGER"           Tag="CLASS_SIEGE"/>
-		<Row Type="UNIT_YNL_ONAGER"           Tag="CLASS_SIEGE_SETUP"/>
-		<Row Type="UNIT_YNL_ONAGER"           Tag="CLASS_FORWARD_OBSERVER"/>
-											  
-		<Row Type="UNIT_YNL_BLACK_CAVALRY"    Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_YNL_BLACK_CAVALRY"    Tag="CLASS_YNL_BLACK_CAVALRY"/>
-											  
-		<Row Type="UNIT_YNL_BLACK_CAR"        Tag="CLASS_YNL_BLACK_CAR"/>
-											  
-		<Row Type="UNIT_YNL_KUNIKUZUSHI"      Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_YNL_HAKUSHIN_KARATE" Tag="CLASS_YNL_HAKUSHIN_KARATE"/>
+
+		<Row Type="UNIT_YNL_ONAGER"          Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_YNL_ONAGER"          Tag="CLASS_SIEGE_SETUP"/>
+		<Row Type="UNIT_YNL_ONAGER"          Tag="CLASS_FORWARD_OBSERVER"/>
+
+		<Row Type="UNIT_YNL_BLACK_CAVALRY"   Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_YNL_BLACK_CAVALRY"   Tag="CLASS_YNL_BLACK_CAVALRY"/>
+
+		<Row Type="UNIT_YNL_BLACK_CAR"       Tag="CLASS_YNL_BLACK_CAR"/>
+
+		<Row Type="UNIT_YNL_KUNIKUZUSHI"     Tag="CLASS_RANGED"/>
 		<!-- アビリティ -->
-		<Row Type="ABILITY_YNL_BLACK_CAR"     Tag="CLASS_YNL_BLACK_CAR"/>
-		<Row Type="ABILITY_YNL_BLACK_CAVALRY" Tag="CLASS_YNL_BLACK_CAVALRY"/>
+		<Row Type="ABILITY_YNL_HAKUSHIN_KARATE" Tag="CLASS_YNL_HAKUSHIN_KARATE"/>
+		<Row Type="ABILITY_YNL_BLACK_CAR"       Tag="CLASS_YNL_BLACK_CAR"/>
+		<Row Type="ABILITY_YNL_BLACK_CAVALRY"   Tag="CLASS_YNL_BLACK_CAVALRY"/>
 	</TypeTags>
 
 	<!-- 主設定 -->
@@ -113,7 +114,6 @@
 	</Units_XP2>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<Row Unit="UNIT_YNL_HAKUSHIN_KARATE" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_YNL_ONAGER"          UpgradeUnit="UNIT_BOMBARD"/>
 		<Row Unit="UNIT_YNL_BLACK_CAVALRY"   UpgradeUnit="UNIT_COURSER"/>
 		<Row Unit="UNIT_YNL_KUNIKUZUSHI"     UpgradeUnit="UNIT_FIELD_CANNON"/>
@@ -121,10 +121,16 @@
 
 	<!-- ユニットのアビリティ -->
 	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAR" Name="LOC_ABILITY_YNL_BLACK_CAR_NAME" Description="LOC_ABILITY_YNL_BLACK_CAR_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAVALRY" Name="LOC_ABILITY_YNL_BLACK_CAVALRY_NAME" Description="LOC_ABILITY_YNL_BLACK_CAVALRY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YNL_HAKUSHIN_KARATE" Name="LOC_ABILITY_YNL_HAKUSHIN_KARATE_NAME" Description="LOC_ABILITY_YNL_HAKUSHIN_KARATE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAR"       Name="LOC_ABILITY_YNL_BLACK_CAR_NAME"       Description="LOC_ABILITY_YNL_BLACK_CAR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAVALRY"   Name="LOC_ABILITY_YNL_BLACK_CAVALRY_NAME"   Description="LOC_ABILITY_YNL_BLACK_CAVALRY_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
+		<!-- 迫真空手部員 -->
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_HAKUSHIN_KARATE</UnitAbilityType>
+			<ModifierId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT</ModifierId>
+		</Row>
 		<!-- 黒塗りの高級車 -->
 		<Row>
 			<UnitAbilityType>ABILITY_YNL_BLACK_CAR</UnitAbilityType>
@@ -137,6 +143,13 @@
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
+		<!-- 迫真空手部員 -->
+		<Row>
+			<ModifierId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 黒塗りの高級車 -->
 		<Row>
 			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT</ModifierId>
 			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
@@ -146,12 +159,20 @@
 			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
+		<!-- 極道の黒備え -->
 		<Row>
 			<ModifierId>YNL_BLACK_CAVALRY_INCREASED_FLANKING_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 迫真空手部員 -->
+		<Row>
+			<ModifierId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+		<!-- 黒塗りの高級車 -->
 		<Row>
 			<ModifierId>YNL_BLACK_CAR_NEGATIVE_COMBAT</ModifierId>
 			<Name>ModifierId</Name>
@@ -162,6 +183,7 @@
 			<Name>Amount</Name>
 			<Value>-5</Value>
 		</Row>
+		<!-- 極道の黒備え -->
 		<Row>
 			<ModifierId>YNL_BLACK_CAVALRY_INCREASED_FLANKING_BONUS</ModifierId>
 			<Name>Percent</Name>
@@ -169,6 +191,244 @@
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
-		<Row ModifierId="YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT" Context="Preview" Text="LOC_ABILITY_YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER"   Context="Preview" Text="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
 	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_FIELD_CANNON_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CUIRASSIER_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CAVALRY_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_RANGER_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_INFANTRY_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_ARTILLERY_YNL</RequirementId>
+		</Row>
+			<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_AT_CREW_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_TANK_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MACHINE_GUN_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_SPEC_OPS_YNL</RequirementId>
+		</Row>
+			<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_HELICOPTER_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MECHANIZED_INFANTRY_YNL</RequirementId>
+		</Row>
+			<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_ROCKET_ARTILLERY_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MODERN_AT_YNL</RequirementId>
+		</Row>
+			<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MODERN_ARMOR_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_GIANT_DEATH_ROBOT_YNL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_FIELD_CANNON_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CUIRASSIER_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CAVALRY_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_RANGER_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_INFANTRY_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_ARTILLERY_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_AT_CREW_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_TANK_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+			<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MACHINE_GUN_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_SPEC_OPS_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_HELICOPTER_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MECHANIZED_INFANTRY_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_ROCKET_ARTILLERY_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MODERN_AT_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MODERN_ARMOR_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_GIANT_DEATH_ROBOT_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- 野戦砲 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_FIELD_CANNON_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_FIELD_CANNON</Value>
+		</Row>
+		<!-- 胸甲騎兵 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CUIRASSIER_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_CUIRASSIER</Value>
+		</Row>
+		<!-- 騎兵 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CAVALRY_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_CAVALRY</Value>
+		</Row>
+		<!-- レンジャー -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_RANGER_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_RANGER</Value>
+		</Row>
+		<!-- 歩兵 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_INFANTRY_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_INFANTRY</Value>
+		</Row>
+		<!-- 大砲 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_ARTILLERY_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ARTILLERY</Value>
+		</Row>
+		<!-- 対戦車兵 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_AT_CREW_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_AT_CREW</Value>
+		</Row>
+		<!-- 戦車 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_TANK_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TANK</Value>
+		</Row>
+		<!-- 機関銃 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MACHINE_GUN_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MACHINE_GUN</Value>
+		</Row>
+		<!-- 特殊部隊 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_SPEC_OPS_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SPEC_OPS</Value>
+		</Row>
+		<!-- ヘリコプター -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_HELICOPTER_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_HELICOPTER</Value>
+		</Row>
+		<!-- 機械化歩兵 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MECHANIZED_INFANTRY_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MECHANIZED_INFANTRY</Value>
+		</Row>
+		<!-- ロケット砲 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_ROCKET_ARTILLERY_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROCKET_ARTILLERY</Value>
+		</Row>
+		<!-- 近代的対戦車兵 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MODERN_AT_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MODERN_AT</Value>
+		</Row>
+		<!-- 近代的機甲部隊 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_MODERN_ARMOR_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MODERN_ARMOR</Value>
+		</Row>
+		<!-- 巨大殺人ロボ -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_GIANT_DEATH_ROBOT_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_GIANT_DEATH_ROBOT</Value>
+		</Row>
+	</RequirementArguments>
 </GameInfo>

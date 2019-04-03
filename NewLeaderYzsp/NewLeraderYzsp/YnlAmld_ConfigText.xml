@@ -40,7 +40,7 @@
 			<Text>GO is GOD</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_GO_IS_GOD_DESCRIPTION" Language="en_US">
-			<Text>Levied units gain an ability giving them +2 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength. It costs no [ICON_GOLD] Gold or Resources to upgrade Levied units. If you Levy troops from a City-State receive 2 [ICON_ENVOY] Envoys with that City-State. Combat victories provide [ICON_Culture] Culture, [ICON_Science] Science, [ICON_Faith] Faith and [ICON_Gold] Gold equal to 10% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>Levied units gain an ability giving them +2 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength. It cost 75% less [ICON_GOLD] Gold and resources to upgrade Levied units. If you Levy troops from a City-State receive 2 [ICON_ENVOY] Envoys with that City-State. Combat victories provide [ICON_Culture] Culture, [ICON_Science] Science, [ICON_Faith] Faith and [ICON_Gold] Gold equal to 10% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_YNL_GO_IS_GOD_DOM_TEXT" Language="en_US">
 			<Text>I really appreciate that.</Text>
@@ -77,7 +77,7 @@
 			<Text>The Beast BB</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a The Beast BB, unique to A Middsummer Lewd Dream.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold, +1 [ICON_Culture] Culture. +2 [ICON_CULTURE] Culture when unlock the Computers. +2 [ICON_GOLD] Gold whe unlock the Social Media. Can be built on Adjecent any resources. Cannot be built on adjacent to another The Beast BB.</Text>
+			<Text>Unlocks the Builder ability to construct a The Beast BB, unique to A Middsummer Lewd Dream.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold, +1 [ICON_Culture] Culture. +2 [ICON_CULTURE] Culture when unlock the Computers. +2 [ICON_GOLD] Gold whe unlock the Social Media. Can be built on Adjecent Bonus or Luxury resources. Cannot be built on adjacent to another The Beast BB.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="en_US">
 			<Text>A Middsummer Lewd Dream unique improvement: The Beast BB</Text>
@@ -92,7 +92,7 @@
 			<Text>Hakushin Karate Member</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="en_US">
-			<Text>Koji Tadokoro unique Classical era melee unit that replaces the Swordsman. 3 [ICON_Movement] movement. this unit no need strategic resouces. this unit have unique primotion.</Text>
+			<Text>Koji Tadokoro unique Classical era melee unit. 3 [ICON_Movement] movement. this unit no need strategic resouces. this unit have unique primotion. +12 [ICON_Strength] Combat Strength from Army units since the Industrial era.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE_NAME" Language="en_US">
 			<Text>Koji Tadokoro unique unit: Hakushin Karate Member</Text>

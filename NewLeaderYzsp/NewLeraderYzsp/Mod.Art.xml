@@ -35,6 +35,8 @@
 				<Element text="YnlAmld_Buildings.artdef"/>
 				<Element text="YnlAmld_Improvements.artdef"/>
 				<Element text="YnlAmld_Landmarks.artdef"/>
+				<Element text="YnlAmld_Civilizations.artdef"/>
+				<Element text="YnlAmld_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -252,6 +254,7 @@
 		<Element>
 			<consumerName text="Features"/>
 			<relativeArtDefPaths>
+				<Element text="YnlAmld_Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -266,6 +269,7 @@
 		<Element>
 			<consumerName text="Cultures"/>
 			<relativeArtDefPaths>
+				<Element text="YnlAmld_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -273,6 +277,7 @@
 		<Element>
 			<consumerName text="Resources"/>
 			<relativeArtDefPaths>
+				<Element text="YnlAmld_Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -292,6 +297,8 @@
 				<Element text="YnlAmld_Buildings.artdef"/>
 				<Element text="YnlAmld_Landmarks.artdef"/>
 				<Element text="YnlAmld_Improvements.artdef"/>
+				<Element text="YnlAmld_Civilizations.artdef"/>
+				<Element text="YnlAmld_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -310,6 +317,8 @@
 		<Element>
 			<consumerName text="Audio"/>
 			<relativeArtDefPaths>
+				<Element text="YnlAmld_Civilizations.artdef"/>
+				<Element text="YnlAmld_Cultures.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -522,6 +531,7 @@
 		<Element>
 			<libraryName text="StrategicView_Sprite"/>
 			<relativePackagePaths>
+				<Element text="YnlAmld_Civilizations.artdef"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

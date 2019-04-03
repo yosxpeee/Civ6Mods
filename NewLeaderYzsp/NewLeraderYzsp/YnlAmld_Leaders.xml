@@ -127,10 +127,12 @@
 			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>
 			<ModifierId>LEVY_UNITUPGRADEDISCOUNT</ModifierId>
 		</Row>
+<!--
 		<Row>
 			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>
 			<ModifierId>LEVY_IGNORERESOURCES</ModifierId>
 		</Row>
+-->
 		<!-- ユニット撃破で科学力取得 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>

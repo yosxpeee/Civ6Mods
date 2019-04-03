@@ -228,51 +228,52 @@
 			<Text>迫真空手</Text>
 		</Replace>
 		<!-- 昇進(個別名) -->
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_NAME" Language="ja_JP">
-			<Text>影の一撃</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_BEASTCRY_NAME" Language="ja_JP">
+			<Text>野獣の咆哮</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_NAME" Language="ja_JP">
-			<Text>闇夜の帳</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_BACKSTAB_NAME" Language="ja_JP">
+			<Text>バックスタブ</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_NAME" Language="ja_JP">
 			<Text>汚物掌</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_NAME" Language="ja_JP">
-			<Text>ゲリラ</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHUKUCHI_NAME" Language="ja_JP">
+			<Text>縮地法</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_NAME" Language="ja_JP">
-			<Text>縮地</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_CHARGE_NAME" Language="ja_JP">
+			<Text>猪突猛進</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_NAME" Language="ja_JP">
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_BEAST_NAME" Language="ja_JP">
 			<Text>野獣の舞</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_NAME" Language="ja_JP">
 			<Text>致命打</Text>
 		</Replace>
 		<!-- 昇進(個別説明) -->
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_DESCRIPTION" Language="ja_JP">
-			<Text>側面攻撃ボーナスが2倍になる。</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_BEASTCRY_DESCRIPTION" Language="ja_JP">
+			<Text>対近接および長距離戦闘ユニット [ICON_Strength] 戦闘力+7。</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_DESCRIPTION" Language="ja_JP">
-			<Text>隣接しないかぎり敵に発見されない。</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_BACKSTAB_DESCRIPTION" Language="ja_JP">
+			<Text>側面攻撃ボーナスが2倍になる。隣接しないかぎり敵に発見されない。</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_DESCRIPTION" Language="ja_JP">
 			<Text>あらゆる状況で [ICON_Strength] 戦闘力+10。</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_DESCRIPTION" Language="ja_JP">
-			<Text>攻撃後に移動が可能。</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHUKUCHI_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] 移動力+1。岸壁を登ることができる。</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_DESCRIPTION" Language="ja_JP">
-			<Text>[ICON_Movement] 移動ポイントが足りる場合、ターンごとの攻撃回数+1。</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_CHARGE_DESCRIPTION" Language="ja_JP">
+			<Text>守りを固めている敵に対する [ICON_Strength] 戦闘力+10。</Text>
 		</Replace>
-		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_DESCRIPTION" Language="ja_JP">
-			<Text>[ICON_Movement] 移動力+1。</Text>
+		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_BEAST_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] 移動ポイントが足りる場合、ターンごとの攻撃回数+1。攻撃後に移動が可能。</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION" Language="ja_JP">
 			<Text>あらゆる状況で [ICON_Strength] 戦闘力+15。</Text>
 		</Replace>
 
 		<!-- ユニットアビリティ -->
+		<!-- 黒塗りの高級車 -->
 		<Replace Tag="LOC_ABILITY_YNL_BLACK_CAR_NAME" Language="ja_JP">
 			<Text>恐怖</Text>
 		</Replace>
@@ -281,6 +282,16 @@
 		</Replace>
 		<Replace Tag="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>黒塗りの高級車に隣接しているとき、戦闘力{1_Amount}</Text>
+		</Replace>
+		<!-- 産業時代以降の軍事ユニット隣接時の戦闘ボーナス -->
+		<Replace Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
+			<Text>衛生兵支援</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代以降の軍事ユニットからの支援([ICON_Strength] 戦闘力+12)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代以降の軍事ユニットからの支援([ICON_Strength] 戦闘力+{1_Amount})</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

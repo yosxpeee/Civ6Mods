@@ -228,51 +228,52 @@
 			<Text>Hakushin Karate</Text>
 		</Row>
 		<!-- 昇進(個別名) -->
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_NAME" Language="en_US">
-			<Text>Shadow Strike</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_BEASTCRY_NAME" Language="en_US">
+			<Text>Beast Cry</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_NAME" Language="en_US">
-			<Text>Nightwing's Veil</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_BACKSTAB_NAME" Language="en_US">
+			<Text>Backstab</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_NAME" Language="en_US">
 			<Text>Dirty Palms</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_NAME" Language="en_US">
-			<Text>Guerrilla</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHUKUCHI_NAME" Language="en_US">
+			<Text>Shukuchi</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_NAME" Language="en_US">
-			<Text>Shorten Distances</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_CHARGE_NAME" Language="en_US">
+			<Text>Charge</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_NAME" Language="en_US">
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_BEAST_NAME" Language="en_US">
 			<Text>Dancing Beast</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_NAME" Language="en_US">
 			<Text>Crushing Blow</Text>
 		</Row>
 		<!-- 昇進(個別説明) -->
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHADOW_STRIKE_DESCRIPTION" Language="en_US">
-			<Text>2x flanking bonus.</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_BEASTCRY_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. melee and ranged units.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_TWILIGHT_VEIL_DESCRIPTION" Language="en_US">
-			<Text>Only adjacent enemy units can reveal this unit.</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_BACKSTAB_DESCRIPTION" Language="en_US">
+			<Text>2x flanking bonus. Only adjacent enemy units can reveal this unit.</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_EXPLODING_PALMS_DESCRIPTION" Language="en_US">
 			<Text>+10 [ICON_Strength] Combat Strength in all situations.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_GUERRILLA_DESCRIPTION" Language="en_US">
-			<Text>Can move after attacking.</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SHUKUCHI_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement. Can scale Cliff walls.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_SWEEPING_WIND_DESCRIPTION" Language="en_US">
-			<Text>+1 additional attack per turn if [ICON_Movement] Movement allows.</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_CHARGE_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength vs. fortified defender.</Text>
 		</Row>
-		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_CRANE_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Movement] Movement.</Text>
+		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_DANCING_BEAST_DESCRIPTION" Language="en_US">
+			<Text>+1 additional attack per turn if [ICON_Movement] Movement allows. Can move after attacking.</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_HAKUSHIN_KARATE_YNL_COBRA_STRIKE_DESCRIPTION" Language="en_US">
 			<Text>+15 [ICON_Strength] Combat Strength in all situations.</Text>
 		</Row>
 
 		<!-- ユニットアビリティ -->
+		<!-- 黒塗りの高級車 -->
 		<Row Tag="LOC_ABILITY_YNL_BLACK_CAR_NAME" Language="en_US">
 			<Text>Fear</Text>
 		</Row>
@@ -281,6 +282,16 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION" Language="en_US">
 			<Text>{1_Amount} Combat Strength when adjacent to an enemy Black Car</Text>
+		</Row>
+		<!-- 産業時代以降の軍事ユニット隣接時の戦闘ボーナス -->
+		<Row Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_NAME" Language="en_US">
+			<Text>Bonus from military units since the Industrial era.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="en_US">
+			<Text>+12 [ICON_Strength] Combat Strength from military units since the Industrial era.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} Combat Strength from military units since the Industrial era.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
