@@ -4,7 +4,7 @@
 		<Row Type="IMPROVEMENT_CYASHI" Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<Improvements>
-		<Row ImprovementType="IMPROVEMENT_CYASHI" Name="LOC_IMPROVEMENT_CYASHI_NAME" Description="LOC_IMPROVEMENT_CYASHI_DESCRIPTION" Icon="ICON_IMPROVEMENT_CYASHI" PlunderType="PLUNDER_SCIENCE" PlunderAmount="15" Buildable="true" PrereqTech="TECH_CASTLES" DefenseModifier="2" GrantFortification="2" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI"/>
+		<Row ImprovementType="IMPROVEMENT_CYASHI" Name="LOC_IMPROVEMENT_CYASHI_NAME" Description="LOC_IMPROVEMENT_CYASHI_DESCRIPTION" Icon="ICON_IMPROVEMENT_CYASHI" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqTech="TECH_CASTLES" DefenseModifier="2" GrantFortification="2" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CYASHI"/>
 	</Improvements>
 	<Improvement_ValidTerrains>
 		<Row ImprovementType="IMPROVEMENT_CYASHI" TerrainType="TERRAIN_DESERT_HILLS"/>
