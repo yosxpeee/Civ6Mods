@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_ITAKO_TOHOKU_PRIMARY</Type>
+			<Color>150,152,186,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_ITAKO_TOHOKU_SECONDARY</Type>
+			<Color>51,57,173,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_ZUNKO_TOHOKU_PRIMARY</Type>
+			<Color>18,94,8,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_ZUNKO_TOHOKU_SECONDARY</Type>
+			<Color>57,187,40,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_KIRITAN_TOHOKU_PRIMARY</Type>
+			<Color>251,218,192,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_KIRITAN_TOHOKU_SECONDARY</Type>
+			<Color>242,115,12,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>
