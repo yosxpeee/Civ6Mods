@@ -68,25 +68,6 @@
 		
 		<Row ListType="YNL_TyraelCultureDistrict" Item="DISTRICT_THEATER" Favored="true"/>
 	</AiFavoredItems>
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_TYRAEL_PRIMARY</Type>
-			<Color>225,225,225,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_TYRAEL_SECONDARY</Type>
-			<Color>38,85,115,255</Color>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_YNL_TYRAEL</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_TYRAEL_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_TYRAEL_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_TYRAEL" BackgroundImage="Tyrael_Diplomacy_Background.dds"/>

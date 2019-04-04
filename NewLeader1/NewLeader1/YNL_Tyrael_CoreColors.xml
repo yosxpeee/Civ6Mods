@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_TYRAEL_PRIMARY</Type>
+			<Color>225,225,225,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_TYRAEL_SECONDARY</Type>
+			<Color>38,85,115,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>
