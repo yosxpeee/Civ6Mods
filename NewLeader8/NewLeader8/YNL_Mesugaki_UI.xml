@@ -6,7 +6,7 @@
 	<Improvements>
 		<Row ImprovementType="IMPROVEMENT_BOARDING_HOUSE" Name="LOC_IMPROVEMENT_BOARDING_HOUSE_NAME" 
 			 Description="LOC_IMPROVEMENT_BOARDING_HOUSE_DESCRIPTION" Icon="ICON_IMPROVEMENT_BOARDING_HOUSE" 
-			 PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" SameAdjacentValid="false" PrereqCivic="CIVIC_CIVIL_ENGINEERING" 
+			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" SameAdjacentValid="false" PrereqCivic="CIVIC_CIVIL_ENGINEERING" 
 			 Housing="1" TilesRequired="1" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_BOARDING_HOUSE" Appeal="1"/>
 	</Improvements>
 	<Improvement_ValidTerrains>
