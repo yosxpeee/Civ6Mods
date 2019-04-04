@@ -146,25 +146,4 @@
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_KING_HASSAN" BackgroundImage="YNL_KingHassan_Diplomacy_Background.dds"/>
 	</DiplomacyInfo>
-
-	<!-- 文明固有カラー -->
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_PRIMARY</Type>
-			<Color>155,155,155,128</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_SECONDARY</Type>
-			<Color>40,40,255,255</Color>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_YNL_KING_HASSAN</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_LEADER_YNL_KING_HASSAN_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 </GameData>
