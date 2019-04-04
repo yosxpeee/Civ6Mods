@@ -141,25 +141,4 @@
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_TAMAMO" BackgroundImage="diplomacy_ynl_tamamo.dds"/>
 	</DiplomacyInfo>
-
-	<!-- 文明固有カラー -->
-	<Colors>
-		<Row>
-			<Type>COLOR_PLAYER_LEADER_YNL_TAMAMO_PRIMARY</Type>
-			<Color>58,65,189,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PLAYER_LEADER_YNL_TAMAMO_SECONDARY</Type>
-			<Color>198,129,39,255</Color>
-		</Row>
-	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_YNL_TAMAMO</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_LEADER_YNL_TAMAMO_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_LEADER_YNL_TAMAMO_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 </GameData>

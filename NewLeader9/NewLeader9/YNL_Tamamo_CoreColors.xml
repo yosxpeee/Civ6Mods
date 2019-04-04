@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_TAMAMO_PRIMARY</Type>
+			<Color>58,65,189,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_TAMAMO_SECONDARY</Type>
+			<Color>198,129,39,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>
