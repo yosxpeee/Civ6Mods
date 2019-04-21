@@ -1,27 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Maps>
-		<Row Domain="StandardMaps"        File="FloodedPangea.lua" Name="LOC_FloodedPangea_Map_NAME"     Description="LOC_FloodedPangea_Map_DESCRIPTION"/>
-		<Row Domain="Maps:Expansion1Maps" File="FloodedPangea.lua" Name="LOC_FloodedPangea_Map_RAF_NAME" Description="LOC_FloodedPangea_Map_RAF_DESCRIPTION"/>
-		<Row Domain="Maps:Expansion2Maps" File="FloodedPangea.lua" Name="LOC_FloodedPangea_Map_GS_NAME"  Description="LOC_FloodedPangea_Map_GS_DESCRIPTION"/>
+		<!-- 小 -->
+		<Row File="FloodedPangea.lua"     Name="LOC_FloodedPangea_Map_NAME"     Description="LOC_FloodedPangea_Map_DESCRIPTION"     />
+		<!-- 巨大 -->
+		<Row File="FictionMiddleEast.lua" Name="LOC_FictionMiddleEast_Map_NAME" Description="LOC_FictionMiddleEast_Map_DESCRIPTION" />
 	</Maps>
-
+	<MapSizes>
+		<!-- 小 -->
+		<Row Domain="FloodedPangea.lua"     MapSizeType="MAPSIZE_SMALL" Name="LOC_MAPSIZE_SMALL_NAME" Description="LOC_MAPSIZE_SMALL_DESCRIPTION" MinPlayers="2" MaxPlayers="10" DefaultPlayers="6"  MinCityStates="0" MaxCityStates="14" DefaultCityStates="9"  SortIndex="10"/>
+		<!-- 巨大 -->
+		<Row Domain="FictionMiddleEast.lua" MapSizeType="MAPSIZE_HUGE"  Name="LOC_MAPSIZE_HUGE_NAME"  Description="LOC_MAPSIZE_HUGE_DESCRIPTION"  MinPlayers="2" MaxPlayers="20" DefaultPlayers="12" MinCityStates="0" MaxCityStates="24" DefaultCityStates="18" SortIndex="10"/>
+	</MapSizes>
+	<MapDomainOverrides>
+		<!-- 小-->
+		<Row Map="FloodedPangea.lua"     ParameterId="MapSize" Domain="FloodedPangea.lua"/>
+		<!-- 巨大 -->
+		<Row Map="FictionMiddleEast.lua" ParameterId="MapSize" Domain="FictionMiddleEast.lua"/>
+	</MapDomainOverrides>
 	<Parameters>
-		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="RiversPlacement"         Name="LOC_MAP_RIVERS_PLACEMENT_NAME"          Description="LOC_MAP_RIVERS_PLACEMENT_DESCRIPTION"          Domain="RiversPlacement"         DefaultValue="PLACEMENT_IMPORT"  ConfigurationGroup="Map" ConfigurationId="RiversPlacement"	      GroupId="MapOptions"                      SortIndex="231"/>
-		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="FloodedPangea_MapSize"   Name="LOC_MAP_SIZE"                           Description=""                                              Domain="StandardMapSizes"        DefaultValue="MAPSIZE_SMALL"     ConfigurationGroup="Map" ConfigurationId="MAP_SIZE"                GroupId="MapOptions" Hash="1" Visible="0" SortIndex="225"/>
+		<!-- 小 -->
+		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="RiversPlacement"         Name="LOC_MAP_RIVERS_PLACEMENT_NAME"          Description="LOC_MAP_RIVERS_PLACEMENT_DESCRIPTION"          Domain="RiversPlacement"         DefaultValue="PLACEMENT_IMPORT"  ConfigurationGroup="Map" ConfigurationId="RiversPlacement"         GroupId="MapOptions"                      SortIndex="231"/>
 		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="NaturalWondersPlacement" Name="LOC_MAP_NATURAL_WONDERS_PLACEMENT_NAME" Description="LOC_MAP_NATURAL_WONDERS_PLACEMENT_DESCRIPTION" Domain="NaturalWondersPlacement" DefaultValue="PLACEMENT_IMPORT"  ConfigurationGroup="Map" ConfigurationId="NaturalWondersPlacement" GroupId="MapOptions" Hash="0"             SortIndex="244"/>
 		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="FeaturesPlacement"       Name="LOC_MAP_FEATURES_PLACEMENT_NAME"        Description="LOC_MAP_FEATURES_PLACEMENT_DESCRIPTION"        Domain="FeaturesPlacement"       DefaultValue="PLACEMENT_IMPORT"  ConfigurationGroup="Map" ConfigurationId="FeaturesPlacement"	      GroupId="MapOptions" Hash="0"             SortIndex="245"/>
 		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="Rainfall"                Name="LOC_MAP_RAINFALL_NAME"                  Description="LOC_MAP_RAINFALL_DESCRIPTION"                  Domain="Rainfall"                DefaultValue="2"                 ConfigurationGroup="Map" ConfigurationId="rainfall"	              GroupId="MapOptions" Hash="0"             SortIndex="250"/>
 		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="ResourcesPlacement"      Name="LOC_MAP_RESOURCES_PLACEMENT_NAME"       Description="LOC_MAP_RESOURCES_PLACEMENT_DESCRIPTION"       Domain="ResourcesPlacement"      DefaultValue="PLACEMENT_IMPORT"  ConfigurationGroup="Map" ConfigurationId="ResourcesPlacement"	  GroupId="MapOptions" Hash="0"             SortIndex="269"/>
 		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="Resources"               Name="LOC_MAP_RESOURCES_NAME"                 Description="LOC_MAP_RESOURCES_DESCRIPTION"                 Domain="Resources"               DefaultValue="2"                 ConfigurationGroup="Map" ConfigurationId="resources"	              GroupId="MapOptions" Hash="0"             SortIndex="270"/>
 		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="StartPosition"           Name="LOC_MAP_START_POSITION_NAME"            Description="LOC_MAP_START_POSITION_DESCRIPTION"            Domain="StartPosition"           DefaultValue="2"                 ConfigurationGroup="Map" ConfigurationId="start"	                  GroupId="MapOptions" Hash="0"             SortIndex="280"/>
-		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="HideSize"                Name="HideSize"                               Description=""                                              Domain="bool"                    DefaultValue="1"                 ConfigurationGroup="Map" ConfigurationId="HideSize"                GroupId="MapOptions"          Visible="0" SortIndex="2010"/>
 		<Row Key1="Map" Key2="FloodedPangea.lua" ParameterId="FloodedPangea_Map_Name"  Name="MapName"                                Description=""                                              Domain="text"                    DefaultValue="FloodedPangea_Map" ConfigurationGroup="Map" ConfigurationId="MapName"                 GroupId="MapOptions"          Visible="0" SortIndex="2010"/>
+		<!-- 巨大 -->
+		<Row Key1="Map" Key2="FictionMiddleEast.lua" ParameterId="RiversPlacement"            Name="LOC_MAP_RIVERS_PLACEMENT_NAME"          Description="LOC_MAP_RIVERS_PLACEMENT_DESCRIPTION"          Domain="RiversPlacement"         DefaultValue="PLACEMENT_IMPORT"      ConfigurationGroup="Map" ConfigurationId="RiversPlacement"         GroupId="MapOptions"                      SortIndex="231"/>
+		<Row Key1="Map" Key2="FictionMiddleEast.lua" ParameterId="NaturalWondersPlacement"    Name="LOC_MAP_NATURAL_WONDERS_PLACEMENT_NAME" Description="LOC_MAP_NATURAL_WONDERS_PLACEMENT_DESCRIPTION" Domain="NaturalWondersPlacement" DefaultValue="PLACEMENT_IMPORT"      ConfigurationGroup="Map" ConfigurationId="NaturalWondersPlacement" GroupId="MapOptions" Hash="0"             SortIndex="244"/>
+		<Row Key1="Map" Key2="FictionMiddleEast.lua" ParameterId="FeaturesPlacement"          Name="LOC_MAP_FEATURES_PLACEMENT_NAME"        Description="LOC_MAP_FEATURES_PLACEMENT_DESCRIPTION"        Domain="FeaturesPlacement"       DefaultValue="PLACEMENT_IMPORT"      ConfigurationGroup="Map" ConfigurationId="FeaturesPlacement"	     GroupId="MapOptions" Hash="0"             SortIndex="245"/>
+		<Row Key1="Map" Key2="FictionMiddleEast.lua" ParameterId="Rainfall"                   Name="LOC_MAP_RAINFALL_NAME"                  Description="LOC_MAP_RAINFALL_DESCRIPTION"                  Domain="Rainfall"                DefaultValue="2"                     ConfigurationGroup="Map" ConfigurationId="rainfall"	             GroupId="MapOptions" Hash="0"             SortIndex="250"/>
+		<Row Key1="Map" Key2="FictionMiddleEast.lua" ParameterId="ResourcesPlacement"         Name="LOC_MAP_RESOURCES_PLACEMENT_NAME"       Description="LOC_MAP_RESOURCES_PLACEMENT_DESCRIPTION"       Domain="ResourcesPlacement"      DefaultValue="PLACEMENT_IMPORT"      ConfigurationGroup="Map" ConfigurationId="ResourcesPlacement"	     GroupId="MapOptions" Hash="0"             SortIndex="269"/>
+		<Row Key1="Map" Key2="FictionMiddleEast.lua" ParameterId="Resources"                  Name="LOC_MAP_RESOURCES_NAME"                 Description="LOC_MAP_RESOURCES_DESCRIPTION"                 Domain="Resources"               DefaultValue="2"                     ConfigurationGroup="Map" ConfigurationId="resources"	             GroupId="MapOptions" Hash="0"             SortIndex="270"/>
+		<Row Key1="Map" Key2="FictionMiddleEast.lua" ParameterId="StartPosition"              Name="LOC_MAP_START_POSITION_NAME"            Description="LOC_MAP_START_POSITION_DESCRIPTION"            Domain="StartPosition"           DefaultValue="2"                     ConfigurationGroup="Map" ConfigurationId="start"	                 GroupId="MapOptions" Hash="0"             SortIndex="280"/>
+		<Row Key1="Map" Key2="FictionMiddleEast.lua" ParameterId="FictionMiddleEast_Map_Name" Name="MapName"                                Description=""                                              Domain="text"                    DefaultValue="FictionMiddleEast_Map" ConfigurationGroup="Map" ConfigurationId="MapName"                 GroupId="MapOptions"          Visible="0" SortIndex="2010"/>
 	</Parameters>
 	<MapSupportedValues>
+		<!-- 小 -->
 		<Row Map = "FloodedPangea.lua" Domain = "RiversPlacement"         Value = "PLACEMENT_DEFAULT" />
 		<Row Map = "FloodedPangea.lua" Domain = "NaturalWondersPlacement" Value = "PLACEMENT_DEFAULT" />
 		<Row Map = "FloodedPangea.lua" Domain = "FeaturesPlacement"       Value = "PLACEMENT_DEFAULT" />
 		<Row Map = "FloodedPangea.lua" Domain = "ResourcesPlacement"      Value = "PLACEMENT_DEFAULT" />
+		<!-- 巨大 -->
+		<Row Map = "FictionMiddleEast.lua" Domain = "RiversPlacement"         Value = "PLACEMENT_DEFAULT" />
+		<Row Map = "FictionMiddleEast.lua" Domain = "NaturalWondersPlacement" Value = "PLACEMENT_DEFAULT" />
+		<Row Map = "FictionMiddleEast.lua" Domain = "FeaturesPlacement"       Value = "PLACEMENT_DEFAULT" />
+		<Row Map = "FictionMiddleEast.lua" Domain = "ResourcesPlacement"      Value = "PLACEMENT_DEFAULT" />
 	</MapSupportedValues>
 </GameInfo>

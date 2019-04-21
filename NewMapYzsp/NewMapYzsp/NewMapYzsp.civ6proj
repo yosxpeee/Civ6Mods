@@ -21,40 +21,25 @@
 </Associations>]]></AssociationData>
     <AssemblyName>NewMapYzsp</AssemblyName>
     <RootNamespace>NewMapYzsp</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><ImportFiles id="Import"><File>FloodedPangea.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions>
-    	<UpdateDatabase id="Config">
-    		<File>YzspMap_Config.xml</File>
-    	</UpdateDatabase>
-    	<UpdateText id="Text">
-    		<File>YzspMap_ConfigText.xml</File>
-    		<File>YzspMap_ConfigTextJP.xml</File>
-    	</UpdateText>
-    	<AddMap id="MapsStandard">
-    		<Properties>
-    			<Name>LOC_FictionMiddleEast_Map_NAME</Name>
-    			<Description>LOC_FictionMiddleEast_Map_DESCRIPTION</Description>
-    			<Group>StandardMaps</Group>
-    		</Properties>
-    		<File>YossiesBattleground.Civ6Map</File>
-    	</AddMap>
-    	<AddMap id="MapsExp1">
-    		<Properties>
-    			<Name>LOC_FictionMiddleEast_Map_RAF_NAME</Name>
-    			<Description>LOC_FictionMiddleEast_Map_RAF_DESCRIPTION</Description>
-    			<Group>Maps:Expansion1Maps</Group>
-    		</Properties>
-    		<File>YossiesBattleground.Civ6Map</File>
-    	</AddMap>
-    	<AddMap id="MapsExp2">
-    		<Properties>
-    			<Name>LOC_FictionMiddleEast_Map_GS_NAME</Name>
-    			<Description>LOC_FictionMiddleEast_Map_GS_DESCRIPTION</Description>
-    			<Group>Maps:Expansion2Maps</Group>
-    		</Properties>
-    		<File>YossiesBattleground_GS.Civ6Map</File>
-    	</AddMap>
-    </FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[
+    	<InGameActions>
+    		<ImportFiles id="Import">
+    			<File>FloodedPangea.lua</File>
+    			<File>FictionMiddleEast.lua</File>
+    		</ImportFiles>
+    	</InGameActions>]]>
+    </InGameActionData>
+    <FrontEndActionData><![CDATA[
+    	<FrontEndActions>
+    		<UpdateDatabase id="Config">
+    			<File>YzspMap_Config.xml</File>
+    		</UpdateDatabase>
+    		<UpdateText id="Text">
+    			<File>YzspMap_ConfigText.xml</File>
+    			<File>YzspMap_ConfigTextJP.xml</File>
+    		</UpdateText>
+    	</FrontEndActions>]]>
+    </FrontEndActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -66,13 +51,10 @@
     <Content Include="FloodedPangea.lua">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="FictionMiddleEast.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="YzspMap_ConfigTextJP.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YossiesBattleground.Civ6Map">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YossiesBattleground_GS.Civ6Map">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YzspMap_ConfigText.xml">
