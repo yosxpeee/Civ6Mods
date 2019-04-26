@@ -125,6 +125,35 @@
 			<m_EntryID text="ICON_YNL_LEADER_TNOK80"/>
 			<m_ObjectName text="ICON_YNL_LEADER_TNOK80"/>
 		</Element>
+		<!-- 指導者（TDN） -->
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TDN256"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TDN256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TDN32"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TDN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TDN45"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TDN45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TDN50"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TDN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TDN55"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TDN55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TDN64"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TDN64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_TDN80"/>
+			<m_ObjectName text="ICON_YNL_LEADER_TDN80"/>
+		</Element>
 		<!-- 文明 -->
 		<Element>
 			<m_EntryID text="ICON_YNL_CIV_AMLD22"/>

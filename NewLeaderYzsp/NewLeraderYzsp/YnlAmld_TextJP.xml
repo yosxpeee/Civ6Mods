@@ -26,6 +26,12 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>組事務所がコストが安いうえに隣接する区域からゴールド（みかじめ料）を取得できるので、兵站の維持は幾分楽です。中盤からの戦争には黒塗りの高級車をお供にして乗り込みましょう。総督がいる都市の生産力、ゴールド出力が強化されるので、都市計画はしっかりと。</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TDN_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TDN_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
 		
 		<!-- Leader specific historical text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
@@ -39,6 +45,9 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>某所ではフルネームが「谷岡俊一」と呼称されていることがあるが、なぜかといえばこの男優が元日本代表で今ではタレントとして活躍している某バレーボール選手にそっくりな面構えなためである。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TDN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
 		</Replace>
 		
 		<!-- Civilization specific historical text. -->
@@ -222,6 +231,9 @@
 		<Replace Tag="LOC_LEADER_YNL_TNOK_QUOTE" Language="ja_JP">
 			<Text>ワンワン鳴いてみろよ</Text>
 		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_TDN_QUOTE" Language="ja_JP">
+			<Text>アッーーーー！！</Text>
+		</Replace>
 		
 		<!-- 昇進 -->
 		<Replace Tag="LOC_PROMOTION_CLASS_HAKUSHIN_KARATE_YNL_NAME" Language="ja_JP">
@@ -285,7 +297,7 @@
 		</Replace>
 		<!-- 産業時代以降の軍事ユニット隣接時の戦闘ボーナス -->
 		<Replace Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
-			<Text>衛生兵支援</Text>
+			<Text>産業時代以降のユニットからの支援</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="ja_JP">
 			<Text>産業時代以降の軍事ユニットからの支援([ICON_Strength] 戦闘力+12)</Text>

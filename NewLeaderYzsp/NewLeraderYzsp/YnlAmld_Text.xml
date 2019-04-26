@@ -26,6 +26,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text></Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TDN_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TDN_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -38,6 +44,9 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TNOK_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TDN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		
@@ -222,6 +231,9 @@
 		<Row Tag="LOC_LEADER_YNL_TNOK_QUOTE" Language="en_US">
 			<Text>Dare to singing like a dog!</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_YNL_TDN_QUOTE" Language="en_US">
+			<Text>aaaaaahhhhhhhh!!!</Text>
+		</Row>
 		
 		<!-- 昇進 -->
 		<Row Tag="LOC_PROMOTION_CLASS_HAKUSHIN_KARATE_YNL_NAME" Language="en_US">
@@ -285,7 +297,7 @@
 		</Row>
 		<!-- 産業時代以降の軍事ユニット隣接時の戦闘ボーナス -->
 		<Row Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_NAME" Language="en_US">
-			<Text>Bonus from military units since the Industrial era.</Text>
+			<Text>Bonus from military units since the Industrial era</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_DESCRIPTION" Language="en_US">
 			<Text>+12 [ICON_Strength] Combat Strength from military units since the Industrial era.</Text>

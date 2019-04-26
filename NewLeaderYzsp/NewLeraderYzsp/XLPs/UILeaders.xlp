@@ -45,6 +45,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_YNL_TNOK"/>
 			<m_ObjectName text="PORTRAIT_LEADER_YNL_TNOK"/>
 		</Element>
+		<!-- TDN -->
+		<Element>
+			<m_EntryID text="LEADER_YNL_TDN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_YNL_TDN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_YNL_TDN"/>
+			<m_ObjectName text="PORTRAIT_LEADER_YNL_TDN"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

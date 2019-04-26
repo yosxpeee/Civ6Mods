@@ -71,6 +71,19 @@
 		<Replace Tag="LOC_LEADER_YNL_TNOK_DOM_TEXT" Language="ja_JP">
 			<Text>試合を終えて家路へ向かうサッカー部員達。[NEWLINE]疲れからか、不幸にも黒塗りの高級車に追突してしまう。[NEWLINE]後輩をかばいすべての責任を負った三浦に対し、[NEWLINE]車の主、暴力団員谷岡が言い渡した示談の条件とは・・・。</Text>
 		</Replace>
+		<!-- TDN -->
+		<Replace Tag="LOC_LEADER_YNL_TDN_NAME" Language="ja_JP">
+			<Text>TDN</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_TDN_NAME" Language="ja_JP">
+			<Text>指名回避</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_TDN_DESCRIPTION" Language="ja_JP">
+			<Text>長距離戦闘ユニット防衛時にすべてのユニットの [ICON_Strength] 戦闘力+7。市民が山岳タイルを利用できるようになる。山岳タイルの [ICON_FAITH] 信仰力+2、[ICON_FOOD] 食料+1。隣接する鉱山1つにつき山岳タイルの [ICON_FAITH] 信仰力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_TDN_DOM_TEXT" Language="ja_JP">
+			<Text>オナシャス！センセンシャル！</Text>
+		</Replace>
 		
 		<!-- UI -->
 		<Replace Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="ja_JP">

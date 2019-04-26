@@ -34,6 +34,14 @@
 		<Row Name="ICON_ATLAS_YNL_LEADER_TNOK" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TNOK64.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_TNOK" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TNOK80.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_TNOK" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TNOK256.DDS"/>
+		<!-- TDN -->
+		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN32.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN45.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN50.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN55.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN64.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN80.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN256.DDS"/>
 		
 		<!-- 文明 -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD22.dds"/>
@@ -107,7 +115,7 @@
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_ONAGER_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_ONAGER32.dds"/>
-		<!-- UU:オナガー -->
+		<!-- UU:国崩し -->
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI256.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI50.dds"/>
@@ -128,6 +136,7 @@
 		<Row Name="ICON_LEADER_YNL_GO_IS_GOD"     Atlas="ICON_ATLAS_YNL_LEADER_GO_IS_GOD"  Index="0"/>
 		<Row Name="ICON_LEADER_YNL_VIOLENCE_MAN"  Atlas="ICON_ATLAS_YNL_LEADER_VIOLENCE"   Index="0"/>
 		<Row Name="ICON_LEADER_YNL_TNOK"          Atlas="ICON_ATLAS_YNL_LEADER_TNOK"       Index="0"/>
+		<Row Name="ICON_LEADER_YNL_TDN"           Atlas="ICON_ATLAS_YNL_LEADER_TDN"        Index="0"/>
 		<!-- UI:野獣先輩BB(クルガンの使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_YNL_YZSP_BB"  Atlas="ICON_ATLAS_UNIT_ACTIONS"          Index="19"/>
 		<!-- UU:迫真空手部員(ポートレイトは武僧の使いまわし) -->
@@ -170,7 +179,7 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_BLACK_CAR_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_YNL_BLACK_CAR_PORTRAITS"  Index="0"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_BLACK_CAR_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_YNL_BLACK_CAR_PORTRAITS" Index="0"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_BLACK_CAR_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_YNL_BLACK_CAR_PORTRAITS"        Index="0"/>
-		<!-- UU:国崩し(とりあえず虎蹲砲の使いまわし) -->
+		<!-- UU:国崩し(ポートレイトは虎蹲砲の使いまわし) -->
 		<Row Name="ICON_UNIT_YNL_KUNIKUZUSHI"                             Atlas="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI"                    Index="0"/>
 		<Row Name="ICON_UNIT_YNL_KUNIKUZUSHI_FOW"                         Atlas="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FOW"                Index="0"/>
 		<Row Name="ICON_UNIT_YNL_KUNIKUZUSHI_WHITE"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" Index="0"/>

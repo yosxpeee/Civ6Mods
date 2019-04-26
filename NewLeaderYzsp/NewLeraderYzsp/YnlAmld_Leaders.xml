@@ -7,6 +7,7 @@
 		<Row Type="LEADER_YNL_GO_IS_GOD"     Kind="KIND_LEADER" />
 		<Row Type="LEADER_YNL_VIOLENCE_MAN"  Kind="KIND_LEADER" />
 		<Row Type="LEADER_YNL_TNOK"          Kind="KIND_LEADER" />
+		<Row Type="LEADER_YNL_TDN"           Kind="KIND_LEADER" />
 		<!-- 指導者特性(田所) -->
 		<Row Type="TRAIT_LEADER_YNL_KOJI_TADOKORO"             Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"          Kind="KIND_TRAIT"/>
@@ -24,6 +25,8 @@
 		<Row Type="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"    Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"            Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY"        Kind="KIND_TRAIT"/>
+		<!-- 指導者特性(TDN) -->
+		<Row Type="TRAIT_LEADER_YNL_TDN"                       Kind="KIND_TRAIT"/>
 	</Types>
 
 	<!-- 主設定 -->
@@ -48,6 +51,11 @@
 			<Name>LOC_LEADER_YNL_TNOK_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_YNL_TDN</LeaderType>
+			<Name>LOC_LEADER_YNL_TDN_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
@@ -56,6 +64,7 @@
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     Quote="LOC_LEADER_YNL_GO_IS_GOD_QUOTE"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  Quote="LOC_LEADER_YNL_VIOLENCE_MAN_QUOTE"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          Quote="LOC_LEADER_YNL_TNOK_QUOTE"/>
+		<Row LeaderType="LEADER_YNL_TDN"           Quote="LOC_LEADER_YNL_TDN_QUOTE"/>
 	</LeaderQuotes>
 
 	<!-- 指導者が持つ特性 -->
@@ -77,6 +86,8 @@
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY"/>
+		<!-- TDN -->
+		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_YNL_TDN"/>
 	</LeaderTraits>
 
 	<!-- 特性の親定義(特性の名称と説明文) -->
@@ -98,6 +109,8 @@
 		<Row TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"    Name="LOC_TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"            Name="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAR_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY"        Name="LOC_TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY_NAME"/>
+		<!-- TDN -->
+		<Row TraitType="TRAIT_LEADER_YNL_TDN"                       Name="LOC_TRAIT_LEADER_YNL_TDN_NAME"           Description="LOC_TRAIT_LEADER_YNL_TDN_DESCRIPTION"/>
 	</Traits>
 
 	<!-- 指導者特性 -->
@@ -127,12 +140,6 @@
 			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>
 			<ModifierId>LEVY_UNITUPGRADEDISCOUNT</ModifierId>
 		</Row>
-<!--
-		<Row>
-			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>
-			<ModifierId>LEVY_IGNORERESOURCES</ModifierId>
-		</Row>
--->
 		<!-- ユニット撃破で科学力取得 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>
@@ -201,6 +208,64 @@
 			<TraitType>TRAIT_LEADER_YNL_TNOK</TraitType>
 			<ModifierId>TRAIT_ADJUST_CITY_GOLD_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
 		</Row>
+		<!-- TDN -->
+		<!-- 全ユニットの遠隔防御+7 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>YNL_TDN_RANGED_DEFENSE</ModifierId>
+		</Row>
+		<!-- 山岳に市民を配置できる(GSのインカと同じ) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_WORK_GRASS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_WORK_PLAINS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_WORK_DESERT_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_WORK_TUNDRA_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
+		</Row>
+		<!-- 山岳から信仰力+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_FAITH_MOUNTAIN_YNL</ModifierId>
+		</Row>
+		<!-- 山岳から食料+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_FOOD_MOUNTAIN_YNL</ModifierId>
+		</Row>
+		<!-- 山岳に隣接した鉱山1つにつき山岳の信仰力+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_FAITH_MINE_GRASS_MOUNTAIN_YNL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_FAITH_MINE_PLAINS_MOUNTAIN_YNL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_FAITH_MINE_DESERT_MOUNTAIN_YNL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_FAITH_MINE_TUNDRA_MOUNTAIN_YNL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
+			<ModifierId>TRAIT_FAITH_MINE_SNOW_MOUNTAIN_YNL</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 田所 -->
@@ -253,6 +318,46 @@
 		<Row>
 			<ModifierId>TRAIT_ADJUST_CITY_GOLD_PER_GOVERNOR_TITLE_MODIFIER_YNL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
+		<!-- TDN -->
+		<!-- 全ユニットの遠隔防御+7 -->
+		<Row>
+			<ModifierId>YNL_TDN_RANGED_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>YNL_TDN_RANGED_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 山岳から信仰力+2 -->
+		<Row>
+			<ModifierId>TRAIT_FAITH_MOUNTAIN_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_IS_MOUNTAIN</SubjectRequirementSetId><!-- GSにある -->
+		</Row>
+		<!-- 山岳から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_FOOD_MOUNTAIN_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_IS_MOUNTAIN</SubjectRequirementSetId><!-- GSにある -->
+		</Row>
+		<!-- 山岳に隣接した鉱山1つにつき山岳の信仰力+1 -->
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_GRASS_MOUNTAIN_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_PLAINS_MOUNTAIN_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_DESERT_MOUNTAIN_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_TUNDRA_MOUNTAIN_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_SNOW_MOUNTAIN_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -358,7 +463,139 @@
 			<Name>Amount</Name>
 			<Value>3</Value>
 		</Row>
+		<!-- 全ユニットの遠隔防御+7 -->
+		<Row>
+			<ModifierId>YNL_TDN_RANGED_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<!-- 山岳から信仰力+2 -->
+		<Row>
+			<ModifierId>TRAIT_FAITH_MOUNTAIN_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MOUNTAIN_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 山岳から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_FOOD_MOUNTAIN_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOOD_MOUNTAIN_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 山岳に隣接した鉱山1つにつき山岳の信仰力+1 -->
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_GRASS_MOUNTAIN_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_GRASS_MOUNTAIN_YNL</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_GRASS_MOUNTAIN_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_GRASS_MOUNTAIN_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_PLAINS_MOUNTAIN_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_PLAINS_MOUNTAIN_YNL</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_PLAINS_MOUNTAIN_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_PLAINS_MOUNTAIN_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_DESERT_MOUNTAIN_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_DESERT_MOUNTAIN_YNL</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_DESERT_MOUNTAIN_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_DESERT_MOUNTAIN_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_TUNDRA_MOUNTAIN_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_TUNDRA_MOUNTAIN_YNL</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_TUNDRA_MOUNTAIN_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_TUNDRA_MOUNTAIN_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_SNOW_MOUNTAIN_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_SNOW_MOUNTAIN_YNL</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_SNOW_MOUNTAIN_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_MINE_SNOW_MOUNTAIN_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="YNL_TDN_RANGED_DEFENSE" Context="Preview" Text="LOC_ABILITY_NAGAO_RANGED_DEFENSE_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
 	<RequirementSets>
 		<!-- 条件：兵営区域 -->
 		<Row>
@@ -373,6 +610,11 @@
 		<!-- 条件：キャンパス区域に隣接した採石場 -->
 		<Row>
 			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_QUARRY_REQUIREMENTS_YNL_VIOLENCE_MAN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：遠隔攻撃を受けたとき -->
+		<Row>
+			<RequirementSetId>YNL_TDN_RANGED_DEFENSE_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -399,6 +641,15 @@
 		<Row>
 			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_QUARRY_REQUIREMENTS_YNL_VIOLENCE_MAN</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS_YNL_VIOLENCE_MAN</RequirementId>
+		</Row>
+		<!-- 条件：遠隔攻撃を受けたとき -->
+		<Row>
+			<RequirementSetId>YNL_TDN_RANGED_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RANGED_COMBAT_REQUIREMENTS</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>YNL_TDN_RANGED_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId><!-- バニラにある -->
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
@@ -437,6 +688,8 @@
 		<Row LeaderType="LEADER_YNL_TNOK"          AgendaType="AGENDA_WITH_YOUR_SHIELD_OR_ON_IT"/>
 		<!-- 虐待おじさん：ピョートルと同じ -->
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  AgendaType="AGENDA_WESTERNIZER"/>
+		<!-- TDN：フェリペ二世と同じ -->
+		<Row LeaderType="LEADER_YNL_TDN"           AgendaType="AGENDA_COUNTER_REFORMER"/>
 	</HistoricalAgendas>
 	
 	<!-- AIの好みの親定義 -->
@@ -461,6 +714,11 @@
 		<Row ListType="YNL_TNOKCivics"/>
 		<Row ListType="YNL_TNOKTechs"/>
 		<Row ListType="YNL_TNOKDistrict"/>
+		<!-- TDN -->
+		<Row ListType="YNL_TDNWonders"/>
+		<Row ListType="YNL_TDNCivics"/>
+		<Row ListType="YNL_TDNTechs"/>
+		<Row ListType="YNL_TDNDistrict"/>
 	</AiListTypes>
 	<!-- AIリスト -->
 	<AiLists>
@@ -484,6 +742,11 @@
 		<Row ListType="YNL_TNOKCivics"   LeaderType="TRAIT_LEADER_YNL_TNOK" System="Civics"/>
 		<Row ListType="YNL_TNOKTechs"    LeaderType="TRAIT_LEADER_YNL_TNOK" System="Technologies"/>
 		<Row ListType="YNL_TNOKDistrict" LeaderType="TRAIT_LEADER_YNL_TNOK" System="Districts"/>
+		<!-- TDN -->
+		<Row ListType="YNL_TDNWonders"  LeaderType="TRAIT_LEADER_YNL_TDN" System="Buildings"/>
+		<Row ListType="YNL_TDNCivics"   LeaderType="TRAIT_LEADER_YNL_TDN" System="Civics"/>
+		<Row ListType="YNL_TDNTechs"    LeaderType="TRAIT_LEADER_YNL_TDN" System="Technologies"/>
+		<Row ListType="YNL_TDNDistrict" LeaderType="TRAIT_LEADER_YNL_TDN" System="Districts"/>
 	</AiLists>
 	<!-- 好みの設定 -->
 	<AiFavoredItems>
@@ -600,6 +863,33 @@
 		<!-- 商業ハブ、兵営 -->
 		<Row ListType="YNL_TNOKDistrict" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/>
 		<Row ListType="YNL_TNOKDistrict" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
+
+		<!-- TDN -->
+		<!-- ストーンヘンジ、アポロン神殿、マハーボーディー寺院、ハギアソフィア、モンサンミシェル、ミナークシアンマン寺院 -->
+		<Row ListType="YNL_TDNWonders" Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_TDNWonders" Item="BUILDING_ORACLE"/>
+		<Row ListType="YNL_TDNWonders" Item="BUILDING_MAHABODHI_TEMPLE"/>
+		<Row ListType="YNL_TDNWonders" Item="BUILDING_HAGIA_SOPHIA"/>
+		<Row ListType="YNL_TDNWonders" Item="BUILDING_MONT_ST_MICHEL"/>
+		<Row ListType="YNL_TDNWonders" Item="BUILDING_MEENAKSHI_TEMPLE"/>
+		<!-- 神秘主義異、政治哲学、神学、王権神授説、宗教改革、ナショナリズム、戦時動員-->
+		<Row ListType="YNL_TDNCivics" Item="CIVIC_MYSTICISM"/>
+		<Row ListType="YNL_TDNCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="YNL_TDNCivics" Item="CIVIC_THEOLOGY"/>
+		<Row ListType="YNL_TDNCivics" Item="CIVIC_DIVINE_RIGHT"/>
+		<Row ListType="YNL_TDNCivics" Item="CIVIC_REFORMED_CHURCH"/>
+		<Row ListType="YNL_TDNCivics" Item="CIVIC_NATIONALISM"/>
+		<Row ListType="YNL_TDNCivics" Item="CIVIC_MOBILIZATION"/>
+		<!-- 弓術、通貨、軍事工学、火薬、印刷、 コンピューター、工業化 -->
+		<Row ListType="YNL_TDNTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_PRINTING"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 聖地 -->
+		<Row ListType="YNL_TDNDistrict" Item="DISTRICT_HOLY_SITE" Favored="true"/>
 	</AiFavoredItems>
 
 	<!-- ローディング画面、外交画面 -->
@@ -608,12 +898,14 @@
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_GO_IS_GOD.dds"     LeaderText="LOC_LEADER_YNL_GO_IS_GOD_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds"  LeaderText="LOC_LEADER_YNL_VIOLENCE_MAN_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_TNOK.dds"          LeaderText="LOC_LEADER_YNL_TNOK_DOM_TEXT"          PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_YNL_TDN"           BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_TDN.dds"           LeaderText="LOC_LEADER_YNL_TDN_DOM_TEXT"           PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_KOJI_TADOKORO" BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 		<Row Type="LEADER_YNL_GO_IS_GOD"     BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 		<Row Type="LEADER_YNL_VIOLENCE_MAN"  BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 		<Row Type="LEADER_YNL_TNOK"          BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
+		<Row Type="LEADER_YNL_TDN"           BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 	</DiplomacyInfo>
 	
 	<!-- 好む宗教 -->
@@ -622,5 +914,6 @@
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     ReligionType="RELIGION_JUDAISM"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  ReligionType="RELIGION_SHINTO"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          ReligionType="RELIGION_ZOROASTRIANISM"/>
+		<Row LeaderType="LEADER_YNL_TDN"           ReligionType="RELIGION_CATHOLICISM"/>
 	</FavoredReligions>
 </GameData>

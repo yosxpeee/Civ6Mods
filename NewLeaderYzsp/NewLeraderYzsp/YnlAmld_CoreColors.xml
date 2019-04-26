@@ -36,7 +36,16 @@
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_YNL_TNOK_SECONDARY</Type>
-			<Color>118,5,５,255</Color>
+			<Color>118,5,5,255</Color>
+		</Row>
+		<!-- TDN -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_TDN_PRIMARY</Type>
+			<Color>0,105,91,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_TDN_SECONDARY</Type>
+			<Color>212,175,55,255</Color>
 		</Row>
 	</Colors>
 </GameInfo>
