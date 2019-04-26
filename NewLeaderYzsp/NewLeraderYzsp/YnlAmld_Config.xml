@@ -255,6 +255,16 @@
 			<Icon>ICON_IMPROVEMENT_YNL_YZSP_BB</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
-		
+		<!-- UB:立教大学 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_TDN</LeaderType>
+			<Type>BUILDING_YNL_SAINT_PAULS_UNIVERSITY</Type>
+			<Name>LOC_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_NAME</Name>
+			<Description>LOC_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_YNL_SAINT_PAULS_UNIVERSITY</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

@@ -79,7 +79,7 @@
 			<Text>指名回避</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_TDN_DESCRIPTION" Language="ja_JP">
-			<Text>長距離戦闘ユニット防衛時にすべてのユニットの [ICON_Strength] 戦闘力+7。市民が山岳タイルを利用できるようになる。山岳タイルの [ICON_FAITH] 信仰力+2、[ICON_FOOD] 食料+1。隣接する鉱山1つにつき山岳タイルの [ICON_FAITH] 信仰力+1。</Text>
+			<Text>長距離戦闘ユニットからの攻撃を受ける際にすべてのユニットの [ICON_Strength] 戦闘力+7。市民が山岳タイルを利用できるようになる。山岳タイルの [ICON_FAITH] 信仰力+2、[ICON_FOOD] 食料+1。隣接する鉱山1つにつき山岳タイルの [ICON_FAITH] 信仰力+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_TDN_DOM_TEXT" Language="ja_JP">
 			<Text>オナシャス！センセンシャル！</Text>
@@ -204,6 +204,19 @@
 			<Text>虐待おじさん固有の建造物: 拷問器具工房</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_TORTURE_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<!-- 立教大学 -->
+		<Replace Tag="LOC_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_NAME" Language="ja_JP">
+			<Text>立教大学</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_DESCRIPTION" Language="ja_JP">
+			<Text>大学に取って代わる中世のTDN固有の建造物。キャンパス (区域) の隣接ボーナスと同量の [ICON_Faith] 信仰力ボーナスを得る。この都市内のボーナス資源タイルごとに [ICON_Faith] 信仰力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_NAME" Language="ja_JP">
+			<Text>TDN固有の建造物: 立教大学</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
 		

@@ -2,9 +2,10 @@
 <GameInfo>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="BUILDING_YNL_ROOFTOP"          Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_YNL_BROTHEL"          Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_YNL_TORTURE_WORKSHOP" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_ROOFTOP"                Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_BROTHEL"                Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_TORTURE_WORKSHOP"       Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Kind="KIND_BUILDING"/>
 	</Types>
 	<!-- 主設定 -->
 	<Buildings>
@@ -23,28 +24,44 @@
 			 PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" 
 			 PurchaseYield="YIELD_GOLD" Cost="195" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"
 		     TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP"/>
+		<!-- 立教大学 -->
+		<Row BuildingType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Name="LOC_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_NAME" Description="LOC_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_DESCRIPTION" 
+			 PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CAMPUS" 
+			 PurchaseYield="YIELD_GOLD" Cost="250" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="1" CitizenSlots="1" 
+			 TraitType="TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY"/>
 	</Buildings>
 	<!-- 置き換え設定 -->
 	<BuildingReplaces>
-		<Row CivUniqueBuildingType="BUILDING_YNL_ROOFTOP"          ReplacesBuildingType="BUILDING_SHOPPING_MALL"/>
-		<Row CivUniqueBuildingType="BUILDING_YNL_BROTHEL"          ReplacesBuildingType="BUILDING_ARENA"/>
-		<Row CivUniqueBuildingType="BUILDING_YNL_TORTURE_WORKSHOP" ReplacesBuildingType="BUILDING_WORKSHOP"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_ROOFTOP"                ReplacesBuildingType="BUILDING_SHOPPING_MALL"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_BROTHEL"                ReplacesBuildingType="BUILDING_ARENA"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_TORTURE_WORKSHOP"       ReplacesBuildingType="BUILDING_WORKSHOP"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
 	</BuildingReplaces>
+	<!-- 事前に必要な建造物 -->
+	<BuildingPrereqs>
+		<Row Building="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" PrereqBuilding="BUILDING_LIBRARY"/>
+	</BuildingPrereqs>
 	<!-- 排他制御 -->
 	<MutuallyExclusiveBuildings>
 		<Row Building="BUILDING_YNL_ROOFTOP" MutuallyExclusiveBuilding="BUILDING_FOOD_MARKET"/>
 	</MutuallyExclusiveBuildings>
 	<!-- 出力ボーナス設定 -->
 	<Building_YieldChanges>
-		<Row BuildingType="BUILDING_YNL_BROTHEL"          YieldType="YIELD_CULTURE"    YieldChange="2"/>
-		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" YieldType="YIELD_SCIENCE"    YieldChange="2"/>
+		<Row BuildingType="BUILDING_YNL_BROTHEL"                YieldType="YIELD_CULTURE"    YieldChange="2"/>
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP"       YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP"       YieldType="YIELD_SCIENCE"    YieldChange="2"/>
+		<Row BuildingType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" YieldType="YIELD_SCIENCE"    YieldChange="4"/>
 	</Building_YieldChanges>
 	<!-- 偉人ポイント -->
 	<Building_GreatPersonPoints>
-		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
-		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP"       GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER"  PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_YNL_TORTURE_WORKSHOP"       GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
+	<!-- 区域の隣接ボーナスと同等の出力を得る設定 -->
+	<Building_YieldDistrictCopies>
+		<Row BuildingType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_FAITH"/>
+	</Building_YieldDistrictCopies>
 	<!-- 特殊効果 -->
 	<BuildingModifiers>
 		<!-- 屋上：野獣先輩BBの観光力強化 -->
@@ -56,6 +73,11 @@
 		<Row>
 			<BuildingType>BUILDING_YNL_BROTHEL</BuildingType>
 			<ModifierId>BROTHEL_SCIENCE_TRAINED_UNIT_YNL</ModifierId>
+		</Row>
+		<!-- 立教大学：ボーナス資源から信仰力+1 -->
+		<Row>
+			<BuildingType>BUILDING_YNL_SAINT_PAULS_UNIVERSITY</BuildingType>
+			<ModifierId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_FAITH</ModifierId>
 		</Row>
 	</BuildingModifiers>
 	<Modifiers>
@@ -70,6 +92,12 @@
 			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_YIELD_PER_UNIT_COST</ModifierType>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
+		</Row>
+		<!-- 立教大学：ボーナス資源から信仰力+1 -->
+		<Row>
+			<ModifierId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -95,5 +123,29 @@
 			<Name>UnitProductionPercent</Name>
 			<Value>25</Value>
 		</Row>
+		<!-- 立教大学：ボーナス資源から信仰力+1 -->
+		<Row>
+			<ModifierId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
+	<!-- 条件設定 -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_BONUS</RequirementId><!-- バニラにある -->
+		</Row>
+	</RequirementSetRequirements>
 </GameInfo>

@@ -206,6 +206,19 @@
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_TORTURE_WORKSHOP_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- 立教大学 -->
+		<Row Tag="LOC_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_NAME" Language="en_US">
+			<Text>Saint Paul's University</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_DESCRIPTION" Language="en_US">
+			<Text>TDN Man unique Medival era building that replaces the University. Bonus [ICON_Faith] Faith equal to the adjacency bonus of the Campus district. +1 [ICON_FAITH] Faith to each Bonus resource tile in this city.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_NAME" Language="en_US">
+			<Text>TDN unique building: Saint Paul's University</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UD -->
 		<!-- 組事務所 -->

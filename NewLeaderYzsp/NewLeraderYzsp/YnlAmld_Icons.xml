@@ -190,12 +190,14 @@
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"                Index="48"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"                       Index="48"/>
 		<!-- UB:屋上(研究所の使いまわし) -->
-		<Row Name="ICON_BUILDING_YNL_ROOFTOP"          Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
+		<Row Name="ICON_BUILDING_YNL_ROOFTOP"                Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
 		<!-- UB:娼館(トラクトリの使いまわし) -->
-		<Row Name="ICON_BUILDING_YNL_BROTHEL"          Atlas="ICON_ATLAS_BUILDINGS" Index="9"/>
+		<Row Name="ICON_BUILDING_YNL_BROTHEL"                Atlas="ICON_ATLAS_BUILDINGS" Index="9"/>
 		<!-- UB:拷問器具工房(工房の使いまわし) -->
-		<Row Name="ICON_BUILDING_YNL_TORTURE_WORKSHOP" Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
+		<Row Name="ICON_BUILDING_YNL_TORTURE_WORKSHOP"       Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
+		<!-- YB:立教大学(マドラサの使いまわし) -->
+		<Row Name="ICON_BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Atlas="ICON_ATLAS_BUILDINGS" Index="19"/>
 		<!-- UD:組事務所(兵営の使いまわし) -->
-		<Row Name="ICON_DISTRICT_YNL_OUTLAW_OFFICE"    Atlas="ICON_ATLAS_DISTRICTS" Index="3"/>
+		<Row Name="ICON_DISTRICT_YNL_OUTLAW_OFFICE"          Atlas="ICON_ATLAS_DISTRICTS" Index="3"/>
 	</IconDefinitions>
 </GameData>
