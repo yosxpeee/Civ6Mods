@@ -188,22 +188,22 @@
 	</RequirementSets>
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_YNL</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_YNL</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_YNL</RequirementId>
 			<Name>TerrainType</Name>
 			<Value>TERRAIN_SNOW</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_YNL</RequirementId>
 			<Name>TerrainType</Name>
 			<Value>TERRAIN_SNOW_HILLS</Value>
 		</Row>
@@ -211,11 +211,11 @@
 	<RequirementSetRequirements>
 		<Row>
 			<RequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_YNL</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_YNL</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	

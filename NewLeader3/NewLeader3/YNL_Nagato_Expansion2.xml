@@ -39,4 +39,8 @@
 	<Units_XP2>
 		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
+	<!-- 観光ポイント爆弾設定(ロックバンド用) -->
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_IMP_NAVYYARD" TourismBombValue="500"/>
+	</Building_TourismBombs_XP2>
 </GameData>

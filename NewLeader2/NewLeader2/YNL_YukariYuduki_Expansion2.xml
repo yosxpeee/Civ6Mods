@@ -29,4 +29,8 @@
 	<TypeTags>
 		<Row Type="UNIT_SKIRMISHER" Tag="CLASS_YNL_YUKARI_YUDUKI_QUICK"/>
 	</TypeTags>
+	<!-- 観光ポイント爆弾設定(ロックバンド用) -->
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_TECHNOLOGICAL_UNIVERSITY" TourismBombValue="500"/>
+	</Building_TourismBombs_XP2>
 </GameData>

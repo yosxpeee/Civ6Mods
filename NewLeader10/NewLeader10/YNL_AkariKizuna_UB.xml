@@ -33,24 +33,8 @@
 	<Building_GreatWorks>
 		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
 	</Building_GreatWorks>
-	<BuildingModifiers>
-
-	</BuildingModifiers>
-	<Modifiers>
-
-	</Modifiers>
-	<ModifierArguments>
-
-	</ModifierArguments>
-	<RequirementSets>
-
-	</RequirementSets>
-	<RequirementSetRequirements>
-
-	</RequirementSetRequirements>
-	<Requirements>
-
-	</Requirements>
-	<RequirementArguments>
-	</RequirementArguments>
+	<!-- 観光ポイント爆弾設定(ロックバンド用) -->
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" TourismBombValue="250"/>
+	</Building_TourismBombs_XP2>
 </GameData>
