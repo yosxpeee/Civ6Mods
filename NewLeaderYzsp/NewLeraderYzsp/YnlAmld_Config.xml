@@ -266,5 +266,27 @@
 			<Icon>ICON_BUILDING_YNL_SAINT_PAULS_UNIVERSITY</Icon>
 			<SortIndex>20</SortIndex>
 		</Row>
+		<!-- UB:ドーム球場 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_TDN</LeaderType>
+			<Type>BUILDING_YNL_DOMED_STADIUM</Type>
+			<Name>LOC_BUILDING_YNL_DOMED_STADIUM_NAME</Name>
+			<Description>LOC_BUILDING_YNL_DOMED_STADIUM_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_YNL_DOMED_STADIUM</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
+		<!-- UU:クリバナリウス -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_YNL_AMLD</CivilizationType>
+			<LeaderType>LEADER_YNL_TDN</LeaderType>
+			<Type>UNIT_YNL_CLIBANARIUS</Type>
+			<Name>LOC_UNIT_YNL_CLIBANARIUS_NAME</Name>
+			<Description>LOC_UNIT_YNL_CLIBANARIUS_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_YNL_CLIBANARIUS</Icon>
+			<SortIndex>40</SortIndex>
+		</Row>
 	</PlayerItems>
 </GameData>

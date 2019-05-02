@@ -23,6 +23,9 @@
 		<Row Tag="LOC_NAMED_RIVER_YZSP_7_NAME">
 			<Text>POPO River</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_RIVER_YZSP_8_NAME">
+			<Text>TJMT River</Text>
+		</Row>
 		<!-- 火山名 -->
 		<Row Tag="LOC_NAMED_VOLCANO_YZSP_1_NAME">
 			<Text>Mount 893931</Text>
@@ -44,6 +47,9 @@
 		</Row>
 		<Row Tag="LOC_NAMED_VOLCANO_YZSP_7_NAME">
 			<Text>Mount OGRSYN</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_YZSP_8_NAME">
+			<Text>Mount TONY</Text>
 		</Row>
 		<!-- 山脈名 -->
 		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_1_NAME">
@@ -67,6 +73,9 @@
 		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_7_NAME">
 			<Text>KNJ Mountains</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_YZSP_8_NAME">
+			<Text>MDU Mountains</Text>
+		</Row>
 		<!-- 砂漠名 -->
 		<Row Tag="LOC_NAMED_DESERT_YZSP_1_NAME">
 			<Text>364364 Desert</Text>
@@ -88,6 +97,9 @@
 		</Row>
 		<Row Tag="LOC_NAMED_DESERT_YZSP_7_NAME">
 			<Text>TIC Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_YZSP_8_NAME">
+			<Text>MRYMMRI Desert</Text>
 		</Row>
 	</EnglishText>
 </GameData>

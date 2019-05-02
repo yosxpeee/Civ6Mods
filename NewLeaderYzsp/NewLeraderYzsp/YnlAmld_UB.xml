@@ -6,6 +6,7 @@
 		<Row Type="BUILDING_YNL_BROTHEL"                Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_YNL_TORTURE_WORKSHOP"       Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_YNL_DOMED_STADIUM"          Kind="KIND_BUILDING"/>
 	</Types>
 	<!-- 主設定 -->
 	<Buildings>
@@ -29,6 +30,11 @@
 			 PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CAMPUS" 
 			 PurchaseYield="YIELD_GOLD" Cost="250" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="1" CitizenSlots="1" 
 			 TraitType="TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY"/>
+		<!-- ドーム球場 -->
+		<Row BuildingType="BUILDING_YNL_DOMED_STADIUM" Name="LOC_BUILDING_YNL_DOMED_STADIUM_NAME" Description="LOC_BUILDING_YNL_DOMED_STADIUM_DESCRIPTION" 
+			 PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" 
+			 PurchaseYield="YIELD_GOLD" Cost="660" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="1" RegionalRange="9"
+			 TraitType="TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM"/>
 	</Buildings>
 	<!-- 置き換え設定 -->
 	<BuildingReplaces>
@@ -36,10 +42,12 @@
 		<Row CivUniqueBuildingType="BUILDING_YNL_BROTHEL"                ReplacesBuildingType="BUILDING_ARENA"/>
 		<Row CivUniqueBuildingType="BUILDING_YNL_TORTURE_WORKSHOP"       ReplacesBuildingType="BUILDING_WORKSHOP"/>
 		<Row CivUniqueBuildingType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+		<Row CivUniqueBuildingType="BUILDING_YNL_DOMED_STADIUM"          ReplacesBuildingType="BUILDING_STADIUM"/>
 	</BuildingReplaces>
 	<!-- 事前に必要な建造物 -->
 	<BuildingPrereqs>
 		<Row Building="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" PrereqBuilding="BUILDING_LIBRARY"/>
+		<Row Building="BUILDING_YNL_DOMED_STADIUM"          PrereqBuilding="BUILDING_ZOO"/>
 	</BuildingPrereqs>
 	<!-- 排他制御 -->
 	<MutuallyExclusiveBuildings>
@@ -62,6 +70,15 @@
 	<Building_YieldDistrictCopies>
 		<Row BuildingType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_FAITH"/>
 	</Building_YieldDistrictCopies>
+	<!-- 電力による出力の上昇とその必要電力 -->
+	<Buildings_XP2>
+		<Row BuildingType="BUILDING_YNL_DOMED_STADIUM" RequiredPower="3" EntertainmentBonusWithPower="2"/>
+	</Buildings_XP2>
+	<!-- 観光ポイント爆弾設定(ロックバンド用) -->
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY" TourismBombValue="500"/>
+		<Row BuildingType="BUILDING_YNL_DOMED_STADIUM"          TourismBombValue="750"/>
+	</Building_TourismBombs_XP2>	
 	<!-- 特殊効果 -->
 	<BuildingModifiers>
 		<!-- 屋上：野獣先輩BBの観光力強化 -->
@@ -78,6 +95,20 @@
 		<Row>
 			<BuildingType>BUILDING_YNL_SAINT_PAULS_UNIVERSITY</BuildingType>
 			<ModifierId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_FAITH</ModifierId>
+		</Row>
+		<!-- ドーム球場：人口による観光力の追加ボーナス -->
+		<Row>
+			<BuildingType>BUILDING_YNL_DOMED_STADIUM</BuildingType>
+			<ModifierId>YNL_DOMED_STADIUM_10_POPULATION_TOURISM</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_YNL_DOMED_STADIUM</BuildingType>
+			<ModifierId>YNL_DOMED_STADIUM_20_POPULATION_TOURISM</ModifierId>
+		</Row>
+		<!-- ドーム球場：この都市を起点とする国家間の交易路に文化力+4 -->
+		<Row>
+			<BuildingType>BUILDING_YNL_DOMED_STADIUM</BuildingType>
+			<ModifierId>YNL_DOMED_STADIUM_INTERNATIONAL_CULTURE</ModifierId>
 		</Row>
 	</BuildingModifiers>
 	<Modifiers>
@@ -98,6 +129,22 @@
 			<ModifierId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_FAITH</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- ドーム球場：人口による観光力の追加ボーナス -->
+		<Row>
+			<ModifierId>YNL_DOMED_STADIUM_10_POPULATION_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>STADIUM_10_POPULATION_REQUIREMENTS</SubjectRequirementSetId><!-- GSにある -->
+		</Row>
+		<Row>
+			<ModifierId>YNL_DOMED_STADIUM_20_POPULATION_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>STADIUM_20_POPULATION_REQUIREMENTS</SubjectRequirementSetId><!-- GSにある -->
+		</Row>
+		<!-- ドーム球場：この都市を起点とする国家間の交易路に文化力+4 -->
+		<Row>
+			<ModifierId>YNL_DOMED_STADIUM_INTERNATIONAL_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -133,6 +180,28 @@
 			<ModifierId>YNL_SAINT_PAULS_UNIVERSITY_BONUSRESOURCE_FAITH</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
+		</Row>
+		<!-- ドーム球場：人口による観光力の追加ボーナス -->
+		<Row>
+			<ModifierId>YNL_DOMED_STADIUM_10_POPULATION_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_DOMED_STADIUM_20_POPULATION_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<!-- ドーム球場：この都市を起点とする国家間の交易路に文化力+4 -->
+		<Row>
+			<ModifierId>YNL_DOMED_STADIUM_INTERNATIONAL_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_DOMED_STADIUM_INTERNATIONAL_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- 条件設定 -->

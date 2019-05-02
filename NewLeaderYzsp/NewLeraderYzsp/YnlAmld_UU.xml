@@ -8,6 +8,7 @@
 		<Row Type="UNIT_YNL_BLACK_CAVALRY"   Kind="KIND_UNIT"/>
 		<Row Type="UNIT_YNL_KUNIKUZUSHI"     Kind="KIND_UNIT"/>
 		<Row Type="UNIT_YNL_BLACK_CAR"       Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_CLIBANARIUS"     Kind="KIND_UNIT"/>
 		<!-- アビリティ -->
 		<Row Type="ABILITY_YNL_HAKUSHIN_KARATE" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_YNL_BLACK_CAR"       Kind="KIND_ABILITY"/>
@@ -44,13 +45,19 @@
 		<Row UnitType="UNIT_YNL_KUNIKUZUSHI" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_YNL_KUNIKUZUSHI" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_YNL_KUNIKUZUSHI" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_YNL_CLIBANARIUS" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YNL_CLIBANARIUS" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_YNL_CLIBANARIUS" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_YNL_CLIBANARIUS" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 
 	<!-- 置き換え設定 -->
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_YNL_ONAGER"          ReplacesUnitType="UNIT_CATAPULT"/>
-		<Row CivUniqueUnitType="UNIT_YNL_BLACK_CAVALRY"   ReplacesUnitType="UNIT_HORSEMAN"/>
-		<Row CivUniqueUnitType="UNIT_YNL_KUNIKUZUSHI"     ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_YNL_ONAGER"        ReplacesUnitType="UNIT_CATAPULT"/>
+		<Row CivUniqueUnitType="UNIT_YNL_BLACK_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_YNL_KUNIKUZUSHI"   ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_YNL_CLIBANARIUS"   ReplacesUnitType="UNIT_HORSEMAN"/>
 	</UnitReplaces>
 
 	<!-- 所有クラス -->
@@ -69,6 +76,9 @@
 		<Row Type="UNIT_YNL_BLACK_CAR"       Tag="CLASS_YNL_BLACK_CAR"/>
 
 		<Row Type="UNIT_YNL_KUNIKUZUSHI"     Tag="CLASS_RANGED"/>
+
+		<Row Type="UNIT_YNL_CLIBANARIUS"     Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_YNL_CLIBANARIUS"     Tag="CLASS_CONQUISTADOR"/>
 		<!-- アビリティ -->
 		<Row Type="ABILITY_YNL_HAKUSHIN_KARATE" Tag="CLASS_YNL_HAKUSHIN_KARATE"/>
 		<Row Type="ABILITY_YNL_BLACK_CAR"       Tag="CLASS_YNL_BLACK_CAR"/>
@@ -106,17 +116,25 @@
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_MACHINERY" 
 			 TraitType="TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI"/>
+		<!-- クリバナリウス -->
+		<Row UnitType="UNIT_YNL_CLIBANARIUS" Name="LOC_UNIT_YNL_CLIBANARIUS_NAME" Description="LOC_UNIT_YNL_CLIBANARIUS_DESCRIPTION" 
+			 Cost="100" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="37" StrategicResource="RESOURCE_HORSES"
+		 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_HORSEBACK_RIDING" 
+			 TraitType="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS" />
 	</Units>
 	<!-- ユニットの戦略資源消費 -->
 	<Units_XP2>
 		<Row UnitType="UNIT_YNL_ONAGER"        ResourceCost="20"/><!-- 一応カタパルトと同じように設定してあるが、戦略資源使わないのになぜ・・・？ -->
 		<Row UnitType="UNIT_YNL_BLACK_CAVALRY" ResourceCost="20"/>
+		<Row UnitType="UNIT_YNL_CLIBANARIUS"   ResourceCost="10"/>
 	</Units_XP2>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<Row Unit="UNIT_YNL_ONAGER"          UpgradeUnit="UNIT_BOMBARD"/>
-		<Row Unit="UNIT_YNL_BLACK_CAVALRY"   UpgradeUnit="UNIT_COURSER"/>
-		<Row Unit="UNIT_YNL_KUNIKUZUSHI"     UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<Row Unit="UNIT_YNL_ONAGER"        UpgradeUnit="UNIT_BOMBARD"/>
+		<Row Unit="UNIT_YNL_BLACK_CAVALRY" UpgradeUnit="UNIT_COURSER"/>
+		<Row Unit="UNIT_YNL_KUNIKUZUSHI"   UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<Row Unit="UNIT_YNL_CLIBANARIUS"   UpgradeUnit="UNIT_KNIGHT"/>
 	</UnitUpgrades>
 
 	<!-- ユニットのアビリティ -->

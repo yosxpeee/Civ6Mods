@@ -47,10 +47,25 @@
 			 MomentDataType="MOMENT_DATA_UNIT"
 			 GameDataType="UNIT_YNL_ONAGER"
 			 Texture="YNL_MOMENT_UNIT_YNL_ONAGER.dds"/>
-		<!-- 国崩し-->
+		<!-- 国崩し -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
 			 MomentDataType="MOMENT_DATA_UNIT"
 			 GameDataType="UNIT_YNL_KUNIKUZUSHI"
 			 Texture="YNL_MOMENT_UNIT_YNL_KUNIKUZUSHI.dds"/>
+		<!-- クリバナリウス -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_CLIBANARIUS"
+			 Texture="YNL_MOMENT_UNIT_YNL_CLIBANARIUS.dds"/>
+		<!-- 立教大学 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_YNL_SAINT_PAULS_UNIVERSITY"
+			 Texture="YNL_MOMENT_BUILDING_YNL_SAINT_PAULS_UNIVERSITY.dds"/>
+		<!-- ドーム球場 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+			 MomentDataType="MOMENT_DATA_BUILDING"
+			 GameDataType="BUILDING_YNL_DOMED_STADIUM"
+			 Texture="YNL_MOMENT_BUILDING_YNL_DOMED_STADIUM.dds"/>
 	</MomentIllustrations>
 </GameData>

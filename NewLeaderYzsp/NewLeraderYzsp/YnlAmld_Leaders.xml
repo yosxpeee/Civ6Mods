@@ -28,6 +28,8 @@
 		<!-- 指導者特性(TDN) -->	
 		<Row Type="TRAIT_LEADER_YNL_TDN"                             Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM"          Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS"                Kind="KIND_TRAIT"/>
 	</Types>
 
 	<!-- 主設定 -->
@@ -90,6 +92,8 @@
 		<!-- TDN -->
 		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_YNL_TDN"/>
 		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY"/>
+		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM"/>
+		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS"/>
 	</LeaderTraits>
 
 	<!-- 特性の親定義(特性の名称と説明文) -->
@@ -114,6 +118,8 @@
 		<!-- TDN -->
 		<Row TraitType="TRAIT_LEADER_YNL_TDN"                             Name="LOC_TRAIT_LEADER_YNL_TDN_NAME"           Description="LOC_TRAIT_LEADER_YNL_TDN_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Name="LOC_TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_NAME"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM"          Name="LOC_TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS"                Name="LOC_TRAIT_LEADER_UNIT_YNL_CLIBANARIUS_NAME"/>
 	</Traits>
 
 	<!-- 指導者特性 -->
@@ -875,7 +881,7 @@
 		<Row ListType="YNL_TDNWonders" Item="BUILDING_HAGIA_SOPHIA"/>
 		<Row ListType="YNL_TDNWonders" Item="BUILDING_MONT_ST_MICHEL"/>
 		<Row ListType="YNL_TDNWonders" Item="BUILDING_MEENAKSHI_TEMPLE"/>
-		<!-- 神秘主義異、政治哲学、神学、王権神授説、宗教改革、ナショナリズム、戦時動員-->
+		<!-- 神秘主義、政治哲学、神学、王権神授説、宗教改革、ナショナリズム、戦時動員-->
 		<Row ListType="YNL_TDNCivics" Item="CIVIC_MYSTICISM"/>
 		<Row ListType="YNL_TDNCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
 		<Row ListType="YNL_TDNCivics" Item="CIVIC_THEOLOGY"/>
@@ -883,13 +889,14 @@
 		<Row ListType="YNL_TDNCivics" Item="CIVIC_REFORMED_CHURCH"/>
 		<Row ListType="YNL_TDNCivics" Item="CIVIC_NATIONALISM"/>
 		<Row ListType="YNL_TDNCivics" Item="CIVIC_MOBILIZATION"/>
-		<!-- 弓術、通貨、軍事工学、火薬、印刷、 コンピューター、工業化 -->
-		<Row ListType="YNL_TDNTechs" Item="TECH_ARCHERY"/>
+		<!-- 通貨、騎乗、青銅器、あぶみ、城、軍事学、蒸気機関、工業化 -->
 		<Row ListType="YNL_TDNTechs" Item="TECH_CURRENCY"/>
-		<Row ListType="YNL_TDNTechs" Item="TECH_MILITARY_ENGINEERING"/>
-		<Row ListType="YNL_TDNTechs" Item="TECH_GUNPOWDER"/>
-		<Row ListType="YNL_TDNTechs" Item="TECH_PRINTING"/>
-		<Row ListType="YNL_TDNTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_HORSEBACK_RIDING"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_STIRRUPS"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_CASTLES"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_MILITARY_SCIENCE"/>
+		<Row ListType="YNL_TDNTechs" Item="TECH_STEAM_POWER"/>
 		<Row ListType="YNL_TDNTechs" Item="TECH_INDUSTRIALIZATION"/>
 		<!-- 聖地 -->
 		<Row ListType="YNL_TDNDistrict" Item="DISTRICT_HOLY_SITE" Favored="true"/>

@@ -127,6 +127,18 @@
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI32.dds"/>
+		<!-- UU:国崩し -->
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FOW"                IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS32.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -189,14 +201,27 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"    Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"                 Index="48"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"                Index="48"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"                       Index="48"/>
+		<!-- UU:クリバナリウス(ポートレイトはヘタイロイの使いまわし) -->
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS"                             Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_FOW"                         Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FOW"                Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_WHITE"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_BLACK"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_BLACK" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_PORTRAIT"                    Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_CLIBANARIUS_PORTRAIT"    Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_CLIBANARIUS_PORTRAIT"    Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_CLIBANARIUS_PORTRAIT"  Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_CLIBANARIUS_PORTRAIT"  Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
+		
 		<!-- UB:屋上(研究所の使いまわし) -->
 		<Row Name="ICON_BUILDING_YNL_ROOFTOP"                Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
 		<!-- UB:娼館(トラクトリの使いまわし) -->
 		<Row Name="ICON_BUILDING_YNL_BROTHEL"                Atlas="ICON_ATLAS_BUILDINGS" Index="9"/>
 		<!-- UB:拷問器具工房(工房の使いまわし) -->
 		<Row Name="ICON_BUILDING_YNL_TORTURE_WORKSHOP"       Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
-		<!-- YB:立教大学(マドラサの使いまわし) -->
+		<!-- UB:立教大学(マドラサの使いまわし) -->
 		<Row Name="ICON_BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Atlas="ICON_ATLAS_BUILDINGS" Index="19"/>
+		<!-- UB:ドーム球場(スタジアムの使いまわし) -->
+		<Row Name="ICON_BUILDING_YNL_DOMED_STADIUM"          Atlas="ICON_ATLAS_BUILDINGS" Index="39"/>
 		<!-- UD:組事務所(兵営の使いまわし) -->
 		<Row Name="ICON_DISTRICT_YNL_OUTLAW_OFFICE"          Atlas="ICON_ATLAS_DISTRICTS" Index="3"/>
 	</IconDefinitions>

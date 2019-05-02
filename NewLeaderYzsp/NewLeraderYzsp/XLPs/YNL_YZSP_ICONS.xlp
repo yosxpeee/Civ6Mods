@@ -344,6 +344,31 @@
 			<m_EntryID text="ICON_YNL_KUNIKUZUSHI256"/>
 			<m_ObjectName text="ICON_YNL_KUNIKUZUSHI256"/>
 		</Element>
+		<!-- UU:クリバナリウス -->
+		<Element>
+			<m_EntryID text="ICON_YNL_CLIBANARIUS22"/>
+			<m_ObjectName text="ICON_YNL_CLIBANARIUS22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CLIBANARIUS32"/>
+			<m_ObjectName text="ICON_YNL_CLIBANARIUS32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CLIBANARIUS38"/>
+			<m_ObjectName text="ICON_YNL_CLIBANARIUS38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CLIBANARIUS50"/>
+			<m_ObjectName text="ICON_YNL_CLIBANARIUS50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CLIBANARIUS80"/>
+			<m_ObjectName text="ICON_YNL_CLIBANARIUS80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_CLIBANARIUS256"/>
+			<m_ObjectName text="ICON_YNL_CLIBANARIUS256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

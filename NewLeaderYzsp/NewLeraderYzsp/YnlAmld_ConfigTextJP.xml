@@ -165,6 +165,19 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_KUNIKUZUSHI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
+		<!-- クリバナリウス -->
+		<Replace Tag="LOC_UNIT_YNL_CLIBANARIUS_NAME" Language="ja_JP">
+			<Text>クリバナリウス</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_CLIBANARIUS_DESCRIPTION" Language="ja_JP">
+			<Text>軽騎兵に取ってかわるTDN固有の古典時代の重騎兵ユニット。軽騎兵よりも強く、同じタイルに宗教ユニットがいると [ICON_Strength] 戦闘力+10。このユニットが都市を制圧するか、このユニットが隣接した状態で都市を制圧すると、そのプレイヤーの宗教が自動的にその都市の主流宗教になる。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_CLIBANARIUS_NAME" Language="ja_JP">
+			<Text>TDN固有のユニット: クリバナリウス</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_CLIBANARIUS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
 		
 		<!-- UB -->
 		<!-- 屋上 -->
@@ -217,6 +230,19 @@
 			<Text>TDN固有の建造物: 立教大学</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<!-- ドーム球場 -->
+		<Replace Tag="LOC_BUILDING_YNL_DOMED_STADIUM_NAME" Language="ja_JP">
+			<Text>ドーム球場</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_YNL_DOMED_STADIUM_DESCRIPTION" Language="ja_JP">
+			<Text>スタジアムに取って代わる原子力時代のTDN固有の建造物。9タイル以内にある都心に [ICON_Amenities] 快適性ボーナスが及ぶ。このボーナスは1つの都市に対して一度だけ適用され、都心の9タイル以内に同種の建造物が2つ以上あってもボーナスが増えることはない。この都市の [ICON_CITIZEN] 人口が10以上の場合は [ICON_Tourism] 観光力+3。 [ICON_CITIZEN] 人口が20以上の場合は [ICON_Tourism] 観光力+7。この都市を起点とする国家間の [ICON_TradeRoute] 交易路の [ICON_Culture] 文化力+4</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM_NAME" Language="ja_JP">
+			<Text>TDN固有の建造物: ドーム球場</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_DOMED_STADIUM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
 		
