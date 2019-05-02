@@ -49,6 +49,7 @@
 			<Dependency type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
 		</Associations>]]></AssociationData>
     <Authors>yosxpeee</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
