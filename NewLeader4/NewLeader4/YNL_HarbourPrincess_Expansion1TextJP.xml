@@ -3,38 +3,38 @@
 	<LocalizedText>
 		<!-- RaF専用アジェンダ(専用ノファイルニ書クコト) -->
 		<!-- 堅物 -->
-		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESSREASON_AGENDA_CURMUDGEON_POSITIVE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_CURMUDGEON_POSITIVE" Language="ja_JP">
 			<Text>偉大ナ指導者ハ、異性ノ手管ニ心ヲ奪ワレタリハセヌモノデハナイカ?</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESSREASON_AGENDA_CURMUDGEON_NEGATIVE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_CURMUDGEON_NEGATIVE" Language="ja_JP">
 			<Text>ヨク回ル口ダナ。他ニヤルコトハナイノカ?気ガ散ッテ迷惑ダ。</Text>
 		</Replace>
 		<!-- 色好ミ -->
-		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESSREASON_AGENDA_FLIRTATIOUS_POSITIVE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_FLIRTATIOUS_POSITIVE" Language="ja_JP">
 			<Text>貴様ニハ敬服シテイルゾ。多クノ者ガソウダロウガ、我コソガ最大ニシテ最モ重要ナ信奉者ダ。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESSREASON_AGENDA_FLIRTATIOUS_NEGATIVE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_FLIRTATIOUS_NEGATIVE" Language="ja_JP">
 			<Text>「民の最善の利益のために交渉している」ト言ウガ・・・本当ニソウカ?我ノ交友関係ヲ妬ンデイルダケニ見エルゾ。</Text>
 		</Replace>
 		<!-- ゴシップ -->
-		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESSREASON_AGENDA_GOSSIP_POSITIVE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_GOSSIP_POSITIVE" Language="ja_JP">
 			<Text>「知は力なり」ト言ウヨウニ、他国ノ秘密ヲ知ッテイル私タチノ関係ハ盤石ダネ。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESSREASON_AGENDA_GOSSIP_NEGATIVE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_GOSSIP_NEGATIVE" Language="ja_JP">
 			<Text>我ハヨク考エルノダ、貴様ノ口数ガ少ナイノハナゼナノカト・・・。タブン、興味ヲ引ケルヨウナ話ヲロクニ知ラナイノデハ?</Text>
 		</Replace>
 		<!-- 追従 -->
-		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESSREASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="ja_JP">
 			<Text>我ガ国ノ詩人ヤ哲学者タチハ、貴様ノ国ノ文明ヲコノ世ノ光トシテ称賛シテイル。我モ同ジ意見ダ。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESSREASON_AGENDA_SYCOPHANT_DARK_AGE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="ja_JP">
 			<Text>世界ニトッテヨリ尊イ手本トナルコトヲ目指スガヨイ。貴様ガ民ヲ栄光ニ導ケバ、民ハ貴様ヲ愛スルデアロウ。</Text>
 		</Replace>
 		<!-- 人情家 -->
-		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESSREASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="ja_JP">
 			<Text>貴様ハトテモ我慢強ク、強イ意志デ苦難ニ耐エテイルナ。我ラトシテモ感ニ堪エヌ。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESSREASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
 			<Text>「栄光ノ時代」ヲ満喫シテイルトコロヲ悪イガ、ドウニモ鼻ニツイテナラナイ。貴様ノ国ガ没落スル日ガ今カラ楽シミダ。</Text>
 		</Replace>
 	</LocalizedText>
