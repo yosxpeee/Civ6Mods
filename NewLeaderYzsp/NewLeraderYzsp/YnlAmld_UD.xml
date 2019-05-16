@@ -3,29 +3,41 @@
 	<!-- 親定義 -->
 	<Types>
 		<Row Type="DISTRICT_YNL_OUTLAW_OFFICE" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_YNL_HAMAM" Kind="KIND_DISTRICT"/>
 	</Types>
 	
 	<!-- 置き換え設定 -->
 	<DistrictReplaces>
 		<Row CivUniqueDistrictType="DISTRICT_YNL_OUTLAW_OFFICE" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+		<Row CivUniqueDistrictType="DISTRICT_YNL_HAMAM" ReplacesDistrictType="DISTRICT_AQUEDUCT"/>
 	</DistrictReplaces>
 	
 	<!-- 主設定 -->
 	<Districts>
+		<!-- 組事務所 -->
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" Name="LOC_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Description="LOC_DISTRICT_YNL_OUTLAW_OFFICE_DESCRIPTION" 
 			 PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" 
-			 Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
-			 CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" 
-			 RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" 
-			 InternalOnly="false" ZOC="true" HitPoints="100" 
-			 CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
+			 Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"  CostProgressionParam1="40" 
+			 Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" 
+			 InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
 			 MilitaryDomain="DOMAIN_LAND" Appeal="-1" Housing="1" CityStrengthModifier="2"
 			 TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"/>
+		<!-- ハンマーム -->
+		<Row DistrictType="DISTRICT_YNL_HAMAM" Name="LOC_DISTRICT_YNL_HAMAM_NAME" Description="LOC_DISTRICT_YNL_HAMAM_DESCRIPTION" 
+			 PrereqTech="TECH_ENGINEERING" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC"
+			 Cost="18" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" 
+			 RequiresPlacement="true"  RequiresPopulation="false" Aqueduct="true" NoAdjacentCity="false" 
+			 InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" 
+			 MilitaryDomain="NO_DOMAIN" Housing="1" Entertainment="1" 
+			 TraitType="TRAIT_LEADER_DISTRICT_YNL_HAMAM"/>
 	</Districts>
 	
-	<!-- 区域の射程 -->
+	<!-- 主設定(GS用) -->
 	<Districts_XP2>
+		<!-- 区域の射程 -->
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" AttackRange="2"/>
+		<!-- 干ばつガード -->
+		<Row DistrictType="DISTRICT_YNL_HAMAM" PreventsDrought="true"/>
 	</Districts_XP2>
 	
 	<!-- 隣接ボーナスの親定義 -->
@@ -47,11 +59,12 @@
 	<!-- 交易ボーナス -->
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_YNL_HAMAM"         YieldType="YIELD_CULTURE"    YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	
 	<!-- 市民配置ボーナス -->
 	<District_CitizenYieldChanges>
-		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_CULTURE"    YieldChange="1"/>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	
@@ -60,4 +73,52 @@
 		<!-- 他の区域が1つ隣接ごとに1ゴールド -->
 		<Row ID="OutlawDistrict_Gold" Description="LOC_DISTRICT_DISTRICT_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
 	</Adjacency_YieldChanges>
+
+	<!-- 特殊効果 -->
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_YNL_HAMAM" ModifierId="YNL_HAMAM_ADDAMENITIES"/>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_HAMAM_ADDAMENITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_DISTRICT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_YNL_HAMAM_ADJACENT_TO_GEOTHERMAL</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_HAMAM_ADDAMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_YNL_HAMAM_ADJACENT_TO_GEOTHERMAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_YNL_HAMAM_ADJACENT_TO_GEOTHERMAL</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_YNL_HAMAM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_YNL_HAMAM_ADJACENT_TO_GEOTHERMAL</RequirementSetId>
+			<RequirementId>PLOT_ADJACENT_TO_GEOTHERMAL_FISSURE_REQUIREMENT</RequirementId><!-- GSにある -->
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_YNL_HAMAM</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_YNL_HAMAM</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_YNL_HAMAM</Value>
+		</Row>
+	</RequirementArguments>
 </GameInfo>

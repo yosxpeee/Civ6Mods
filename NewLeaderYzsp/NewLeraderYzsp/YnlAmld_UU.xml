@@ -9,16 +9,19 @@
 		<Row Type="UNIT_YNL_KUNIKUZUSHI"     Kind="KIND_UNIT"/>
 		<Row Type="UNIT_YNL_BLACK_CAR"       Kind="KIND_UNIT"/>
 		<Row Type="UNIT_YNL_CLIBANARIUS"     Kind="KIND_UNIT"/>
+		<Row Type="UNIT_YNL_FRANCISCA"       Kind="KIND_UNIT"/>
 		<!-- アビリティ -->
 		<Row Type="ABILITY_YNL_HAKUSHIN_KARATE" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_YNL_BLACK_CAR"       Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_YNL_BLACK_CAVALRY"   Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YNL_FRANCISCA"       Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- クラスの親定義 -->
 	<Tags>
 		<Row Tag="CLASS_YNL_HAKUSHIN_KARATE" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_YNL_BLACK_CAR"       Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_YNL_BLACK_CAVALRY"   Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_YNL_FRANCISCA"       Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<!-- AI設定 -->
 	<UnitAiInfos>
@@ -50,6 +53,12 @@
 		<Row UnitType="UNIT_YNL_CLIBANARIUS" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_YNL_CLIBANARIUS" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_YNL_CLIBANARIUS" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_YNL_FRANCISCA" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_YNL_FRANCISCA" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_YNL_FRANCISCA" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_YNL_FRANCISCA" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_YNL_FRANCISCA" AiType="UNITTYPE_RANGED"/>
 	</UnitAiInfos>
 
 	<!-- 置き換え設定 -->
@@ -58,6 +67,7 @@
 		<Row CivUniqueUnitType="UNIT_YNL_BLACK_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_YNL_KUNIKUZUSHI"   ReplacesUnitType="UNIT_CROSSBOWMAN"/>
 		<Row CivUniqueUnitType="UNIT_YNL_CLIBANARIUS"   ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_YNL_FRANCISCA"     ReplacesUnitType="UNIT_PIKEMAN"/>
 	</UnitReplaces>
 
 	<!-- 所有クラス -->
@@ -79,10 +89,16 @@
 
 		<Row Type="UNIT_YNL_CLIBANARIUS"     Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="UNIT_YNL_CLIBANARIUS"     Tag="CLASS_CONQUISTADOR"/>
+
+		<Row Type="UNIT_YNL_FRANCISCA"       Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_YNL_FRANCISCA"       Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_YNL_FRANCISCA"       Tag="CLASS_YNL_FRANCISCA"/>
+		
 		<!-- アビリティ -->
 		<Row Type="ABILITY_YNL_HAKUSHIN_KARATE" Tag="CLASS_YNL_HAKUSHIN_KARATE"/>
 		<Row Type="ABILITY_YNL_BLACK_CAR"       Tag="CLASS_YNL_BLACK_CAR"/>
 		<Row Type="ABILITY_YNL_BLACK_CAVALRY"   Tag="CLASS_YNL_BLACK_CAVALRY"/>
+		<Row Type="ABILITY_YNL_FRANCISCA"       Tag="CLASS_YNL_FRANCISCA"/>
 	</TypeTags>
 
 	<!-- 主設定 -->
@@ -119,9 +135,15 @@
 		<!-- クリバナリウス -->
 		<Row UnitType="UNIT_YNL_CLIBANARIUS" Name="LOC_UNIT_YNL_CLIBANARIUS_NAME" Description="LOC_UNIT_YNL_CLIBANARIUS_DESCRIPTION" 
 			 Cost="100" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="37" StrategicResource="RESOURCE_HORSES"
-		 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_HORSEBACK_RIDING" 
 			 TraitType="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS" />
+		<!-- フランキスカ -->
+		<Row UnitType="UNIT_YNL_FRANCISCA" Name="LOC_UNIT_YNL_FRANCISCA_NAME" Description="LOC_UNIT_YNL_FRANCISCA_DESCRIPTION" 
+			 Cost="150" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="40" RangedCombat="35" Range="2"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" AdvisorType="ADVISOR_CONQUEST" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqCivic="CIVIC_MILITARY_TRAINING"
+			 TraitType="TRAIT_LEADER_UNIT_YNL_FRANCISCA"/>
 	</Units>
 	<!-- ユニットの戦略資源消費 -->
 	<Units_XP2>
@@ -135,6 +157,7 @@
 		<Row Unit="UNIT_YNL_BLACK_CAVALRY" UpgradeUnit="UNIT_COURSER"/>
 		<Row Unit="UNIT_YNL_KUNIKUZUSHI"   UpgradeUnit="UNIT_FIELD_CANNON"/>
 		<Row Unit="UNIT_YNL_CLIBANARIUS"   UpgradeUnit="UNIT_KNIGHT"/>
+		<Row Unit="UNIT_YNL_FRANCISCA"     UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
 	</UnitUpgrades>
 
 	<!-- ユニットのアビリティ -->
@@ -142,6 +165,7 @@
 		<Row UnitAbilityType="ABILITY_YNL_HAKUSHIN_KARATE" Name="LOC_ABILITY_YNL_HAKUSHIN_KARATE_NAME" Description="LOC_ABILITY_YNL_HAKUSHIN_KARATE_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAR"       Name="LOC_ABILITY_YNL_BLACK_CAR_NAME"       Description="LOC_ABILITY_YNL_BLACK_CAR_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_YNL_BLACK_CAVALRY"   Name="LOC_ABILITY_YNL_BLACK_CAVALRY_NAME"   Description="LOC_ABILITY_YNL_BLACK_CAVALRY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YNL_FRANCISCA"       Name="LOC_ABILITY_YNL_FRANCISCA_NAME"       Description="LOC_ABILITY_YNL_FRANCISCA_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<!-- 迫真空手部員 -->
@@ -158,6 +182,11 @@
 		<Row>
 			<UnitAbilityType>ABILITY_YNL_BLACK_CAVALRY</UnitAbilityType>
 			<ModifierId>YNL_BLACK_CAVALRY_INCREASED_FLANKING_BONUS</ModifierId>
+		</Row>
+		<!-- フランキスカ -->
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_FRANCISCA</UnitAbilityType>
+			<ModifierId>YNL_FRANCISCA_ANTI_MELEE_COMBAT_BONUS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
@@ -181,6 +210,12 @@
 		<Row>
 			<ModifierId>YNL_BLACK_CAVALRY_INCREASED_FLANKING_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<!-- フランキスカ -->
+		<Row>
+			<ModifierId>YNL_FRANCISCA_ANTI_MELEE_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MELEE_OPPONENT_REQUIREMENTS_YNL</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -207,16 +242,27 @@
 			<Name>Percent</Name>
 			<Value>100</Value>
 		</Row>
+		<!-- フランキスカ -->
+		<Row>
+			<ModifierId>YNL_FRANCISCA_ANTI_MELEE_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT" Context="Preview" Text="LOC_ABILITY_YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION"/>
 		<Row ModifierId="YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER"   Context="Preview" Text="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="YNL_FRANCISCA_ANTI_MELEE_COMBAT_BONUS"    Context="Preview" Text="LOC_ABILITY_YNL_FRANCISCA_ANTI_MELEE_COMBAT_BONUS_DESCRIPTION"/>
 	</ModifierStrings>
 
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MELEE_OPPONENT_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
@@ -283,6 +329,10 @@
 		<Row>
 			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_GIANT_DEATH_ROBOT_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MELEE_OPPONENT_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>OPPONENT_IS_PROMOTION_CLASS_MELEE</RequirementId><!-- バニラにある -->
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>

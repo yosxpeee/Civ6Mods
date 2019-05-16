@@ -69,5 +69,18 @@
 			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_YNL_TDN_PRIMARY</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_AQUA_DK</Alt3SecondaryColor>
 		</Row>
+		<!-- MUR -->
+		<Row>
+			<Type>LEADER_YNL_MUR</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_YNL_MUR_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_YNL_MUR_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_PLAYER_LEADER_YNL_MUR_PRIMARY</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_PURPLE_DK</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_PLAYER_LEADER_YNL_MUR_PRIMARY</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_RED_DK</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_PLAYER_LEADER_YNL_MUR_PRIMARY</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt3SecondaryColor>
+		</Row>
 	</PlayerColors>
 </Database>

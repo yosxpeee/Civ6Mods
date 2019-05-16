@@ -17,7 +17,7 @@
 			<Description>LOC_CIVILIZATION_YNL_AMLD_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_YNL_AMLD_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>50</RandomCityNameDepth>
+			<RandomCityNameDepth>60</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
@@ -28,6 +28,7 @@
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_VIOLENCE_MAN"  CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_21" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_TNOK"          CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_42" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_TDN"           CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_50" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" LeaderType="LEADER_YNL_MUR"           CapitalName="LOC_CIVLIZATION_YNL_AMLD_CITY_51" />
 	</CivilizationLeaders>
 
 	<!-- 文明が何の特性を持つか -->
@@ -277,6 +278,16 @@
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_48" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_49" />
 		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_50" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_51" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_52" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_53" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_54" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_55" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_56" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_57" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_58" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_59" />
+		<Row CivilizationType="CIVILIZATION_YNL_AMLD" CityName="LOC_CIVLIZATION_YNL_AMLD_CITY_60" />
 	</CityNames>
 
 	<!-- スタート地点バイアス -->

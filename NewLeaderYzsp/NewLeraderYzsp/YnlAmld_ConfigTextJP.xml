@@ -27,7 +27,7 @@
 			<Text>野獣先輩</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION" Language="ja_JP">
-			<Text>追加の軍事政策スロット。兵営のある各都市に [ICON_PRODUCTION] 生産力+3。</Text>
+			<Text>追加の軍事政策スロット。兵営のある各都市に [ICON_PRODUCTION] 生産力+3。ダムのある各都市に [ICON_CULTURE] 文化力+2、娯楽による [ICON_AMENITIES] 快適性+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_KOJI_TADOKORO_DOM_TEXT" Language="ja_JP">
 			<Text>オッスお願いしまーす！</Text>
@@ -83,6 +83,19 @@
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_TDN_DOM_TEXT" Language="ja_JP">
 			<Text>オナシャス！センセンシャル！</Text>
+		</Replace>
+		<!-- MUR -->
+		<Replace Tag="LOC_LEADER_YNL_MUR_NAME" Language="ja_JP">
+			<Text>MUR</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_MUR_NAME" Language="ja_JP">
+			<Text>縦割れアナル</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_MUR_DESCRIPTION" Language="ja_JP">
+			<Text>固有総督であるKMRを雇用することができる。政府複合施設の建造物や区域1つにつき [ICON_TradeRoute] 交易路+1。野獣先輩BBが [ICON_FOOD] 食料+1をもたらす。</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_MUR_DOM_TEXT" Language="ja_JP">
+			<Text>そうだよ（便乗）</Text>
 		</Replace>
 		
 		<!-- UI -->
@@ -178,6 +191,19 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_CLIBANARIUS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
+		<!-- フランキスカ -->
+		<Replace Tag="LOC_UNIT_YNL_FRANCISCA_NAME" Language="ja_JP">
+			<Text>フランキスカ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_YNL_FRANCISCA_DESCRIPTION" Language="ja_JP">
+			<Text>長槍兵に取ってかわるMUR固有の中世の対騎兵ユニット。近接戦闘ユニットでありながら [ICON_Range] 射程2の長距離攻撃が可能。白兵ユニットに対して [ICON_Strength] 戦闘力+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_FRANCISCA_NAME" Language="ja_JP">
+			<Text>MUR固有のユニット: フランキスカ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_FRANCISCA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
 		
 		<!-- UB -->
 		<!-- 屋上 -->
@@ -258,6 +284,19 @@
 			<Text>TNOK固有の建造物: 組事務所</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YNL_OUTLAW_OFFICE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<!-- ハンマーム -->
+		<Replace Tag="LOC_DISTRICT_YNL_HAMAM_NAME" Language="ja_JP">
+			<Text>ハンマーム</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_YNL_HAMAM_DESCRIPTION" Language="ja_JP">
+			<Text>用水路に取って代わるMUR固有の区域。より安価に建設できる。[NEWLINE][NEWLINE]隣接する川、湖、オアシス、山岳から真水を都市にもたらす。都市に真水がまだ供給されていなかった場合は最大で [ICON_Housing] 住宅6を獲得。真水がすでに引かれている都市は [ICON_Housing] 住宅+2。地熱孔に隣接している場所に築くと [ICON_Amenities] 快適性+1。いずれの場合も浴場の特別ボーナスとして [ICON_Housing] 住宅+1、 [ICON_Amenities] 快適性+1。干ばつ中に [ICON_Food] 食料が失われない。都心に隣接している必要がある。この都市を目的地とする [ICON_TradeRoute] 交易路に [ICON_Culture] 文化力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_DISTRICT_YNL_HAMAM_NAME" Language="ja_JP">
+			<Text>MUR固有の建造物: ハンマーム</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YNL_HAMAM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
 	</LocalizedText>

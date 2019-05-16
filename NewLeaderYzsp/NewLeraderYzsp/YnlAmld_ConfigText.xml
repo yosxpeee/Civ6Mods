@@ -27,7 +27,7 @@
 			<Text>The Beast Senior</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_KOJI_TADOKORO_DESCRIPTION" Language="en_US">
-			<Text>Additional Military policy slot. +3 [ICON_PRODUCTION] Production to each city with encampment.</Text>
+			<Text>Additional Military policy slot. +3 [ICON_PRODUCTION] Production to each city with encampment. +2 [ICON_CULTURE] Culture and +1 [ICON_AMENITIES] Amenity from entertainment to each city with an dam.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_YNL_KOJI_TADOKORO_DOM_TEXT" Language="en_US">
 			<Text>I really appreciate that.</Text>
@@ -82,7 +82,20 @@
 			<Text>All units gain +7 [ICON_Strength] Combat Strength when defending against ranged units. Citizens may work Mountain tiles. Mountain tiles provide +2 [ICON_FAITH] Faith, +1 [ICON_FOOD] Food. +1 [ICON_FAITH] Faith to Mountain tiles for every adjacent Mines.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_YNL_TDN_DOM_TEXT" Language="en_US">
-			<Text></Text>
+			<Text>Please. I'm sorry.</Text>
+		</Row>
+		<!-- MUR -->
+		<Row Tag="LOC_LEADER_YNL_MUR_NAME" Language="en_US">
+			<Text>MUR</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_MUR_NAME" Language="en_US">
+			<Text>Vertical Cracked Anal</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_YNL_MUR_DESCRIPTION" Language="en_US">
+			<Text>Can employ a unique governor, KMR. +1 [ICON_TradeRoute] Trade Route capacity for each Government Plaza building and the Government Plaza district. The Beast BB provide +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_YNL_MUR_DOM_TEXT" Language="en_US">
+			<Text>I agree.(Jumped on the bandwagon)</Text>
 		</Row>
 		
 		<!-- UI -->
@@ -178,6 +191,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_CLIBANARIUS_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- フランキスカ -->
+		<Row Tag="LOC_UNIT_YNL_FRANCISCA_NAME" Language="en_US">
+			<Text>Francisca</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YNL_FRANCISCA_DESCRIPTION" Language="en_US">
+			<Text>MUR unique Medival anti cavalry unit that replace Pikeman. Melee class unit with a ranged attack, [ICON_Range] Range 2. Ignore unti-spear bonus.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_YNL_FRANCISCA_NAME" Language="en_US">
+			<Text>MUR unique unit: Clibanarius</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_FRANCISCA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB -->
 		<!-- 屋上 -->
@@ -258,6 +284,19 @@
 			<Text>TNOK unique district: Outlaw Office</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YNL_OUTLAW_OFFICE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- ハンマーム -->
+		<Row Tag="LOC_DISTRICT_YNL_HAMAM_NAME" Language="en_US">
+			<Text>Hamam</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_YNL_HAMAM_DESCRIPTION" Language="en_US">
+			<Text>MUR unique District that replaces the Aqueduct and cheaper to build. [NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. If built adjacent to a Geothermal Fissure +1 [ICON_Amenities] Amenity. In all cases the Hamam provides an additional bonus of +1 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center. [ICON_TradeRoute] Trade Routes with this city as a destination gain +1 [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_DISTRICT_YNL_HAMAM_NAME" Language="en_US">
+			<Text>MUR unique district: Hamam</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YNL_HAMAM_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

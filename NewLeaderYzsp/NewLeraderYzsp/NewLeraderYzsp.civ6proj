@@ -42,7 +42,7 @@
 					</LeaderPlayable>
 				</Criteria>
 		</ActionCriteria>]]></ActionCriteriaData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateColors id="GameplayColors"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_CoreColors.xml</File><File>YnlAmld_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="Gameplay"><Properties><LoadOrder>200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YnlAmld_UB.xml</File><File>YnlAmld_Civilizations.xml</File><File>YnlAmld_Leaders.xml</File><File>YnlAmld_UD.xml</File><File>YnlAmld_UI.xml</File><File>YnlAmld_UP.xml</File><File>YnlAmld_UU.xml</File><File>YnlAmld_LeaderAnimations.xml</File><File>YnlAmld_UnitPromotions.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_ConfigText.xml</File><File>YnlAmld_Text.xml</File><File>YnlAmld_Dialogs.xml</File><File>YnlAmld_ConfigTextJP.xml</File><File>YnlAmld_TextJP.xml</File><File>YnlAmld_DialogsJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1Text.xml</File><File>Expansion1/YnlAmld_Expansion1TextJP.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/LEADER_YNL_KOJI_TADOKORO_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/ynl_KojiTadokoro_diplomacy.dds</File><File>Textures/ynl_KojiTadokoro_loading.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_ROOFTOP.dds</File><File>Textures/YNL_MOMENT_IMPROVEMENT_YNL_YZSP_BB.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_HAKUSHIN_KARATE.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/LEADER_YNL_GO_IS_GOD_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_BROTHEL.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/LEADER_YNL_VIOLENCE_MAN_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_TORTURE_WORKSHOP.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_TNOK.dds</File><File>Textures/LEADER_YNL_TNOK_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_TNOK.dds</File><File>Textures/YNL_MOMENT_DISTRICT_YNL_OUTLAW_OFFICE.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_BLACK_CAR.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_BLACK_CAVALRY.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_ONAGER.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_KUNIKUZUSHI.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_TDN.dds</File><File>Textures/LEADER_YNL_TDN_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_TDN.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_DOMED_STADIUM.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_SAINT_PAULS_UNIVERSITY.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_CLIBANARIUS.dds</File></ImportFiles><UpdateDatabase id="GameplayExpansion2"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2.xml</File></UpdateDatabase><UpdateText id="TextExpansion2"><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2Text.xml</File><File>Expansion2/YnlAmld_Expansion2TextJP.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateColors id="GameplayColors"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_CoreColors.xml</File><File>YnlAmld_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="Gameplay"><Properties><LoadOrder>200</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>YnlAmld_UB.xml</File><File>YnlAmld_Civilizations.xml</File><File>YnlAmld_Leaders.xml</File><File>YnlAmld_UD.xml</File><File>YnlAmld_UI.xml</File><File>YnlAmld_UP.xml</File><File>YnlAmld_UU.xml</File><File>YnlAmld_LeaderAnimations.xml</File><File>YnlAmld_UnitPromotions.xml</File><File>YnlAmld_Governors.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_ConfigText.xml</File><File>YnlAmld_Text.xml</File><File>YnlAmld_Dialogs.xml</File><File>YnlAmld_ConfigTextJP.xml</File><File>YnlAmld_TextJP.xml</File><File>YnlAmld_DialogsJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>YnlAmld_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="GameplayExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1.xml</File></UpdateDatabase><UpdateText id="TextExpansion1"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion1</Criteria><File>Expansion1/YnlAmld_Expansion1Text.xml</File><File>Expansion1/YnlAmld_Expansion1TextJP.xml</File></UpdateText><ImportFiles id="Import"><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/LEADER_YNL_KOJI_TADOKORO_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_KOJI_TADOKORO.dds</File><File>Textures/ynl_KojiTadokoro_diplomacy.dds</File><File>Textures/ynl_KojiTadokoro_loading.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_ROOFTOP.dds</File><File>Textures/YNL_MOMENT_IMPROVEMENT_YNL_YZSP_BB.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_HAKUSHIN_KARATE.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/LEADER_YNL_GO_IS_GOD_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_GO_IS_GOD.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_BROTHEL.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/LEADER_YNL_VIOLENCE_MAN_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_VIOLENCE_MAN.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_TORTURE_WORKSHOP.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TNOK.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_TNOK.dds</File><File>Textures/LEADER_YNL_TNOK_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_TNOK.dds</File><File>Textures/YNL_MOMENT_DISTRICT_YNL_OUTLAW_OFFICE.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_BLACK_CAR.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_BLACK_CAVALRY.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_ONAGER.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_KUNIKUZUSHI.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TDN.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_TDN.dds</File><File>Textures/LEADER_YNL_TDN_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_TDN.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_DOMED_STADIUM.dds</File><File>Textures/YNL_MOMENT_BUILDING_YNL_SAINT_PAULS_UNIVERSITY.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_CLIBANARIUS.dds</File><File>Textures/FALLBACK_DEFEAT_LEADER_YNL_MUR.dds</File><File>Textures/FALLBACK_HAPPY_LEADER_YNL_MUR.dds</File><File>Textures/FALLBACK_NEUTRAL_LEADER_YNL_MUR.dds</File><File>Textures/FALLBACK_STERN_LEADER_YNL_MUR.dds</File><File>Textures/FALLBACK_SURPRISED_AI_LEADER_YNL_MUR.dds</File><File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_YNL_MUR.dds</File><File>Textures/FALLBACK_UNHAPPY_LEADER_YNL_MUR.dds</File><File>Textures/LEADER_YNL_MUR_NEUTRAL.dds</File><File>Textures/PORTRAIT_LEADER_YNL_MUR.dds</File><File>Textures/GovernorNormalYNL_KMR_GrandVisier.dds</File><File>Textures/GovernorSelectedYNL_KMR_GrandVisier.dds</File><File>Textures/YNL_MOMENT_GOVERNOR_YNL_KMR.dds</File><File>Textures/YNL_MOMENT_UNIT_YNL_FRANCISCA.dds</File><File>Textures/YNL_MOMENT_DISTRICT_YNL_HAMAM.dds</File></ImportFiles><UpdateDatabase id="GameplayExpansion2"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2.xml</File></UpdateDatabase><UpdateText id="TextExpansion2"><Criteria>LeaderCriteriaExpansion2</Criteria><File>Expansion2/YnlAmld_Expansion2Text.xml</File><File>Expansion2/YnlAmld_Expansion2TextJP.xml</File></UpdateText></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions>
 			<UpdateColors id="ConfigPlayerColor">
 				<File>YnlAmld_CoreColors.xml</File>
@@ -264,6 +264,132 @@
     <Content Include="Expansion2\YnlAmld_Expansion2.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\GovernorNormalYNL_KMR_GrandVisier.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorNormalYNL_KMR_GrandVisier.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelectedYNL_KMR_GrandVisier.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\GovernorSelectedYNL_KMR_GrandVisier.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_YNL_YZSP_BB256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_YNL_YZSP_BB256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_YNL_YZSP_BB38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_YNL_YZSP_BB38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_YNL_YZSP_BB50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_YNL_YZSP_BB50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_YNL_YZSP_BB80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_YNL_YZSP_BB80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_YNL_FRANCISCA80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorPromotions24.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorPromotions24.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_Governors32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_Governors32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_Governors64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_Governors64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorsCityBannerFill22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorsCityBannerFill22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorsCityBannerFill32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorsCityBannerFill32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorsCityBannerSlot22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorsCityBannerSlot22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorsCityBannerSlot32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_KMR_GovernorsCityBannerSlot32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_DISTRICT_YNL_HAMAM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_GOVERNOR_YNL_KMR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YNL_MOMENT_UNIT_YNL_FRANCISCA.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YnlAmld_Governors.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Geometries\greatartist_late.fgx">
       <SubType>Content</SubType>
     </Content>
@@ -294,6 +420,12 @@
     <Content Include="Textures\Black_Metalness.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_MUR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_MUR.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_TDN.dds">
       <SubType>Content</SubType>
     </Content>
@@ -310,6 +442,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_DEFEAT_LEADER_YNL_VIOLENCE_MAN.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_MUR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_MUR.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_TDN.dds">
@@ -330,6 +468,12 @@
     <Content Include="Textures\FALLBACK_HAPPY_LEADER_YNL_VIOLENCE_MAN.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_MUR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_MUR.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_TDN.dds">
       <SubType>Content</SubType>
     </Content>
@@ -346,6 +490,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_MUR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_MUR.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_TDN.dds">
@@ -366,6 +516,12 @@
     <Content Include="Textures\FALLBACK_STERN_LEADER_YNL_VIOLENCE_MAN.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_MUR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_MUR.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_TDN.dds">
       <SubType>Content</SubType>
     </Content>
@@ -384,6 +540,12 @@
     <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_YNL_VIOLENCE_MAN.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_MUR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_MUR.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_TDN.dds">
       <SubType>Content</SubType>
     </Content>
@@ -400,6 +562,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_YNL_VIOLENCE_MAN.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_MUR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_MUR.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_YNL_TDN.dds">
@@ -666,6 +834,48 @@
     <Content Include="Textures\ICON_YNL_KUNIKUZUSHI80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_YNL_LEADER_MUR80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_YNL_LEADER_TDN256.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -828,6 +1038,12 @@
     <Content Include="Textures\ICON_YNL_ONAGER80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_YNL_MUR_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YNL_MUR_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_YNL_TDN_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
@@ -844,6 +1060,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_YNL_VIOLENCE_MAN_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_YNL_MUR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_YNL_MUR.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_YNL_TDN.dds">

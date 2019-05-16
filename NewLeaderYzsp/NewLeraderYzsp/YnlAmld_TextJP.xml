@@ -32,6 +32,12 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TDN_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>信仰力のボーナスに重きを置いた指導者です。少々スタートは遅いですが、立教大学からかなりの信仰力がでます。クリバナリウスの運用方法はコンキスタドールと同一です。伝道師と一緒に他国へなだれ込みましょう。ドーム球場はおまけ。</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUR_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUR_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text></Text>
+		</Replace>
 		
 		<!-- Leader specific historical text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_KOJI_TADOKORO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
@@ -48,6 +54,9 @@
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TDN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>彼が横浜ベイスターズからドラフト一位で指名を受けることがほぼ確実となった2002年のある日、週刊現代がビデオのパッケージを持って立教大学野球部の監督のもとを尋ねる。その取材において監督は、あろうことか「うわあ…、これは多田野ですね。これは大坊で、ああ、こっちは羽田野ですね。間違いない。なんだこれは…。たまげたなあ…」などと、多田野のホモビデオ出演を認めたばかりか、聞かれてもいない大坊と羽田野の実名まで出してしまった。たとえ事実でもシラを切れよ（呆）</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
 		</Replace>
 		
 		<!-- Civilization specific historical text. -->
@@ -247,6 +256,36 @@
 		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_50" Language="ja_JP">
 			<Text>押上</Text>
 		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_51" Language="ja_JP">
+			<Text>新橋</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_52" Language="ja_JP">
+			<Text>竹ノ塚</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_53" Language="ja_JP">
+			<Text>稲城長沼</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_54" Language="ja_JP">
+			<Text>赤羽</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_55" Language="ja_JP">
+			<Text>練馬</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_56" Language="ja_JP">
+			<Text>舎人</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_57" Language="ja_JP">
+			<Text>大井町</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_58" Language="ja_JP">
+			<Text>蒲田</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_59" Language="ja_JP">
+			<Text>中野</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AMLD_CITY_60" Language="ja_JP">
+			<Text>中目黒</Text>
+		</Replace>
 		
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_KOJI_TADOKORO_QUOTE" Language="ja_JP">
@@ -263,6 +302,9 @@
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_TDN_QUOTE" Language="ja_JP">
 			<Text>アッーーーー！！</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_YNL_MUR_QUOTE" Language="ja_JP">
+			<Text>見たけりゃ見せてやるよ</Text>
 		</Replace>
 		
 		<!-- 昇進 -->
@@ -325,7 +367,7 @@
 		<Replace Tag="LOC_ABILITY_YNL_BLACK_CAR_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>黒塗りの高級車に隣接しているとき、戦闘力{1_Amount}</Text>
 		</Replace>
-		<!-- 産業時代以降の軍事ユニット隣接時の戦闘ボーナス -->
+		<!-- 迫真空手部員 -->
 		<Replace Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_NAME" Language="ja_JP">
 			<Text>産業時代以降のユニットからの支援</Text>
 		</Replace>
@@ -334,6 +376,77 @@
 		</Replace>
 		<Replace Tag="LOC_ABILITY_YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>産業時代以降の軍事ユニットからの支援([ICON_Strength] 戦闘力+{1_Amount})</Text>
+		</Replace>
+		<!-- フランキスカ -->
+		<Replace Tag="LOC_ABILITY_YNL_FRANCISCA_NAME" Language="ja_JP">
+			<Text>対白兵(フランキスカ)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_FRANCISCA_DESCRIPTION" Language="ja_JP">
+			<Text>白兵ユニットに対して [ICON_Strength] 戦闘力+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_FRANCISCA_ANTI_MELEE_COMBAT_BONUS_DESCRIPTION" Language="ja_JP">
+			<Text>白兵ユニットに対して [ICON_Strength] 戦闘力+10</Text>
+		</Replace>
+		
+		<!-- 総督 -->
+		<Replace Tag="LOC_PEDIA_PAGE_GOVERNOR_YNL_KMR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>野獣先輩二作目のBABYLON STAGE 27 誘惑のラビリンスの第三章「空手部・性の裏技」において一番下の後輩役として出演。芸名は直樹。『PG71』の紹介文によると建築関係の仕事をしているらしい。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_GOVERNOR_YNL_KMR_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>鬼畜な先輩二人に無理やり犯されるという境遇から当初は可哀相と同情されていたが、「ザ・フェチ Vol.4 アナルダンディズム」がUPされたことでイメージが一転。いわゆるスカトロ物で、数ある淫夢本編の中でも特に「汚すぎる」という評判である。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_PAGE_GOVERNOR_YNL_KMR_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>2013年の年末から2014年の年始にかけて、KMRと思われる男優の登場する作品がホモ達の手によって複数発掘された。声や喋り方、顔が非常にKMRのそれと酷似しており、同一人物ではないかと議論が重ねられている。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_YNL_KMR_NAME" Language="ja_JP">
+			<Text>KMR</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_YNL_KMR_TITLE" Language="ja_JP">
+			<Text>イケメン</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_YNL_KMR_SHORT_TITLE" Language="ja_JP">
+			<Text>イケメン</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_YNL_KMR_DESCRIPTION" Language="ja_JP">
+			<Text>軍事と内政双方の特性を持ったMUR固有のイケメン総督です。自文明の都市だけでなく他の文明の首都にも配属でき、軍事面では相手都市の真ん中へ配属させて忠誠度を複数都市まとめて下げる、防壁へのダメージを通りやすくする、内政面では序盤の土地拡張の加速、文化、科学へのボーナスを高める能力があります。</Text>
+		</Replace>
+
+		<!-- 総督の能力 -->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND_NAME" Language="ja_JP">
+			<Text>青年たちの週末</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND_DESCRIPTION" Language="ja_JP">
+			<Text>都市が産出する [ICON_Gold] ゴールド+15%。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH_NAME" Language="ja_JP">
+			<Text>誘惑のラビリンス</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH_DESCRIPTION" Language="ja_JP">
+			<Text>9タイル以内にある自文明が保有していない都市について、ターン毎に忠誠心-2。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_COLLEGE_KING_NAME" Language="ja_JP">
+			<Text>カレッジの王様</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_COLLEGE_KING_DESCRIPTION" Language="ja_JP">
+			<Text>都市のキャンパスと劇場広場の隣接ボーナスが2倍になる。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_DEEP_INSERT_NAME" Language="ja_JP">
+			<Text>ディープインサート</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_DEEP_INSERT_DESCRIPTION" Language="ja_JP">
+			<Text>防御に適した区域を攻撃する際、都心から10タイル以内にいる全ユニットの [ICON_Strength] 戦闘力+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND_NAME" Language="ja_JP">
+			<Text>極上リーマン捕獲指令</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND_DESCRIPTION" Language="ja_JP">
+			<Text>この都市で訓練されたすべての労働者の労働力+1。都市の新タイル取得が早まる。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_AWAKENED_KMR_NAME" Language="ja_JP">
+			<Text>超覚醒KMR</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_AWAKENED_KMR_DESCRIPTION" Language="ja_JP">
+			<Text>ターン毎に都市がおこなえる [ICON_Ranged] 長距離攻撃の回数+1。都市の領土で戦うすべての味方ユニットの [ICON_Strength] 戦闘力+5。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

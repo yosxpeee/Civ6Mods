@@ -154,6 +154,35 @@
 			<m_EntryID text="ICON_YNL_LEADER_TDN80"/>
 			<m_ObjectName text="ICON_YNL_LEADER_TDN80"/>
 		</Element>
+		<!-- 指導者（MUR） -->
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_MUR256"/>
+			<m_ObjectName text="ICON_YNL_LEADER_MUR256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_MUR32"/>
+			<m_ObjectName text="ICON_YNL_LEADER_MUR32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_MUR45"/>
+			<m_ObjectName text="ICON_YNL_LEADER_MUR45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_MUR50"/>
+			<m_ObjectName text="ICON_YNL_LEADER_MUR50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_MUR55"/>
+			<m_ObjectName text="ICON_YNL_LEADER_MUR55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_MUR64"/>
+			<m_ObjectName text="ICON_YNL_LEADER_MUR64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_YNL_LEADER_MUR80"/>
+			<m_ObjectName text="ICON_YNL_LEADER_MUR80"/>
+		</Element>
 		<!-- 文明 -->
 		<Element>
 			<m_EntryID text="ICON_YNL_CIV_AMLD22"/>
@@ -368,6 +397,85 @@
 		<Element>
 			<m_EntryID text="ICON_YNL_CLIBANARIUS256"/>
 			<m_ObjectName text="ICON_YNL_CLIBANARIUS256"/>
+		</Element>
+		<!-- UU:フランキスカ -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_FRANCISCA22"/>
+			<m_ObjectName text="ICON_UNIT_YNL_FRANCISCA22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_FRANCISCA32"/>
+			<m_ObjectName text="ICON_UNIT_YNL_FRANCISCA32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_FRANCISCA38"/>
+			<m_ObjectName text="ICON_UNIT_YNL_FRANCISCA38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_FRANCISCA50"/>
+			<m_ObjectName text="ICON_UNIT_YNL_FRANCISCA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_FRANCISCA80"/>
+			<m_ObjectName text="ICON_UNIT_YNL_FRANCISCA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YNL_FRANCISCA256"/>
+			<m_ObjectName text="ICON_UNIT_YNL_FRANCISCA256"/>
+		</Element>
+		<!-- 総督:KMR -->
+		<Element>
+			<m_EntryID text="YNL_KMR_Governors64"/>
+			<m_ObjectName text="YNL_KMR_Governors64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_KMR_GovernorsCityBannerFill32"/>
+			<m_ObjectName text="YNL_KMR_GovernorsCityBannerFill32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_KMR_GovernorsCityBannerSlot32"/>
+			<m_ObjectName text="YNL_KMR_GovernorsCityBannerSlot32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_KMR_Governors32"/>
+			<m_ObjectName text="YNL_KMR_Governors32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_KMR_GovernorsCityBannerFill22"/>
+			<m_ObjectName text="YNL_KMR_GovernorsCityBannerFill22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_KMR_GovernorsCityBannerSlot22"/>
+			<m_ObjectName text="YNL_KMR_GovernorsCityBannerSlot22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_KMR_GovernorPromotions24"/>
+			<m_ObjectName text="YNL_KMR_GovernorPromotions24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorNormalYNL_KMR_GrandVisier"/>
+			<m_ObjectName text="GovernorNormalYNL_KMR_GrandVisier"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GovernorSelectedYNL_KMR_GrandVisier"/>
+			<m_ObjectName text="GovernorSelectedYNL_KMR_GrandVisier"/>
+		</Element>
+		<!-- UI:野獣先輩BB -->
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_YNL_YZSP_BB38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_YNL_YZSP_BB38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_YNL_YZSP_BB50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_YNL_YZSP_BB50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_YNL_YZSP_BB80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_YNL_YZSP_BB80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_YNL_YZSP_BB256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_YNL_YZSP_BB256"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

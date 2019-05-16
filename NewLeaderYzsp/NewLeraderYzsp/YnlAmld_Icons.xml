@@ -42,6 +42,14 @@
 		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN64.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN80.DDS"/>
 		<Row Name="ICON_ATLAS_YNL_LEADER_TDN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_TDN256.DDS"/>
+		<!-- MUR -->
+		<Row Name="ICON_ATLAS_YNL_LEADER_MUR" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_MUR32.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_MUR" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_MUR45.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_MUR" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_MUR50.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_MUR" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_MUR55.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_MUR" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_MUR64.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_MUR" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_MUR80.DDS"/>
+		<Row Name="ICON_ATLAS_YNL_LEADER_MUR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_LEADER_MUR256.DDS"/>
 		
 		<!-- 文明 -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_YNL_AMLD" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CIV_AMLD22.dds"/>
@@ -139,6 +147,31 @@
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS32.dds"/>
+		<!-- UU:フランキスカ -->
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FOW"                IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FLAG_SYMBOLS_WHITE" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA32.dds"/>
+		<!-- 総督:KMR -->
+		<Row Name="ICON_ATLAS_GOVERNOR_YNL_KMR_PROMOTIONS"              IconSize="24" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_KMR_GovernorPromotions24.dds"/>
+		<Row Name="ICON_ATLAS_GOVERNORS_YNL_KMR"                        IconSize="32" IconsPerRow="8" IconsPerColumn="1" Filename="YNL_KMR_Governors32.dds"/>
+		<Row Name="ICON_ATLAS_GOVERNORS_YNL_KMR"                        IconSize="64" IconsPerRow="8" IconsPerColumn="1" Filename="YNL_KMR_Governors64.dds"/>
+		<Row Name="ICON_ATLAS_GOVERNORS_YNL_KMR_FILL"                   IconSize="32" IconsPerRow="8" IconsPerColumn="2" Filename="YNL_KMR_GovernorsCityBannerFill32.dds"/>
+		<Row Name="ICON_ATLAS_GOVERNORS_YNL_KMR_FILL"      Baseline="6" IconSize="22" IconsPerRow="8" IconsPerColumn="2" Filename="YNL_KMR_GovernorsCityBannerFill22.dds"/>
+		<Row Name="ICON_ATLAS_GOVERNORS_YNL_KMR_SLOT"                   IconSize="32" IconsPerRow="8" IconsPerColumn="2" Filename="YNL_KMR_GovernorsCityBannerSlot32.dds"/>
+		<Row Name="ICON_ATLAS_GOVERNORS_YNL_KMR_SLOT"      Baseline="6" IconSize="22" IconsPerRow="8" IconsPerColumn="2" Filename="YNL_KMR_GovernorsCityBannerSlot22.dds"/>
+		<!-- UI:野獣先輩BB -->
+		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_YZSP_BB" IconSize="38"  IconsPerRow="8" IconsPerColumn="12" Filename="ICON_IMPROVEMENT_YNL_YZSP_BB38.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_YZSP_BB" IconSize="50"  IconsPerRow="8" IconsPerColumn="12" Filename="ICON_IMPROVEMENT_YNL_YZSP_BB50.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_YZSP_BB" IconSize="80"  IconsPerRow="8" IconsPerColumn="12" Filename="ICON_IMPROVEMENT_YNL_YZSP_BB80.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_YZSP_BB" IconSize="256" IconsPerRow="8" IconsPerColumn="12" Filename="ICON_IMPROVEMENT_YNL_YZSP_BB256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -149,8 +182,9 @@
 		<Row Name="ICON_LEADER_YNL_VIOLENCE_MAN"  Atlas="ICON_ATLAS_YNL_LEADER_VIOLENCE"   Index="0"/>
 		<Row Name="ICON_LEADER_YNL_TNOK"          Atlas="ICON_ATLAS_YNL_LEADER_TNOK"       Index="0"/>
 		<Row Name="ICON_LEADER_YNL_TDN"           Atlas="ICON_ATLAS_YNL_LEADER_TDN"        Index="0"/>
-		<!-- UI:野獣先輩BB(クルガンの使いまわし) -->
-		<Row Name="ICON_IMPROVEMENT_YNL_YZSP_BB"  Atlas="ICON_ATLAS_UNIT_ACTIONS"          Index="19"/>
+		<Row Name="ICON_LEADER_YNL_MUR"           Atlas="ICON_ATLAS_YNL_LEADER_MUR"        Index="0"/>
+		<!-- UI:野獣先輩BB -->
+		<Row Name="ICON_IMPROVEMENT_YNL_YZSP_BB"  Atlas="ICON_ATLAS_IMPROVEMENT_YNL_YZSP_BB" Index="0"/>
 		<!-- UU:迫真空手部員(ポートレイトは武僧の使いまわし) -->
 		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE"                            Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE"                    Index="0"/>
 		<Row Name="ICON_UNIT_YNL_HAKUSHIN_KARATE_FOW"                        Atlas="ICON_ATLAS_UNIT_YNL_HAKUSHIN_KARATE_FOW"                Index="0"/>
@@ -211,7 +245,17 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_CLIBANARIUS_PORTRAIT"    Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_CLIBANARIUS_PORTRAIT"  Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_CLIBANARIUS_PORTRAIT"  Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
-		
+		<!-- UU:フランキスカ(ポートレイトはバーサーカーの使いまわし) -->
+		<Row Name="ICON_UNIT_YNL_FRANCISCA"                            Atlas="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    Index="0"/>
+		<Row Name="ICON_UNIT_YNL_FRANCISCA_FOW"                        Atlas="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FOW"                Index="0"/>
+		<Row Name="ICON_UNIT_YNL_FRANCISCA_WHITE"                      Atlas="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FLAG_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_FRANCISCA_BLACK"                      Atlas="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FLAG_SYMBOLS_BLACK" Index="0"/>
+		<Row Name="ICON_UNIT_YNL_FRANCISCA_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                             Index="42"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_FRANCISCA_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"                       Index="42"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_FRANCISCA_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"               Index="42"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_FRANCISCA_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"              Index="42"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_FRANCISCA_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"                     Index="42"/>
+
 		<!-- UB:屋上(研究所の使いまわし) -->
 		<Row Name="ICON_BUILDING_YNL_ROOFTOP"                Atlas="ICON_ATLAS_BUILDINGS" Index="37"/>
 		<!-- UB:娼館(トラクトリの使いまわし) -->
@@ -223,6 +267,20 @@
 		<!-- UB:ドーム球場(スタジアムの使いまわし) -->
 		<Row Name="ICON_BUILDING_YNL_DOMED_STADIUM"          Atlas="ICON_ATLAS_BUILDINGS" Index="39"/>
 		<!-- UD:組事務所(兵営の使いまわし) -->
-		<Row Name="ICON_DISTRICT_YNL_OUTLAW_OFFICE"          Atlas="ICON_ATLAS_DISTRICTS" Index="3"/>
+		<Row Name="ICON_DISTRICT_YNL_OUTLAW_OFFICE"          Atlas="ICON_ATLAS_DISTRICTS"     Index="3"/>
+		<Row Name="ICON_DISTRICT_YNL_OUTLAW_OFFICE_FOW"      Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="3"/>
+		<!-- UD:ハンマーム(浴場の使いまわし) -->
+		<Row Name="ICON_DISTRICT_YNL_HAMAM"                  Atlas="ICON_ATLAS_DISTRICTS"     Index="11"/>
+		<Row Name="ICON_DISTRICT_YNL_HAMAM_FOW"              Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="11"/>
+
+		<!-- 総督:KMR -->
+		<Row Name="ICON_GOVERNOR_YNL_KMR_PROMOTION" Atlas="ICON_ATLAS_GOVERNOR_YNL_KMR_PROMOTIONS" Index="0"/>
+		<Row Name="ICON_GOVERNOR_YNL_KMR"           Atlas="ICON_ATLAS_GOVERNORS_YNL_KMR"           Index="0"/>
+		<Row Name="ICON_GOVERNOR_YNL_KMR_FILL"      Atlas="ICON_ATLAS_GOVERNORS_YNL_KMR_FILL"      Index="0"/>
+		<Row Name="ICON_GOVERNOR_YNL_KMR_SLOT"      Atlas="ICON_ATLAS_GOVERNORS_YNL_KMR_SLOT"      Index="0"/>
 	</IconDefinitions>
+	<IconAliases>
+		<Row Name="GOVERNOR_YNL_KMR_SLOT" OtherName="ICON_GOVERNOR_YNL_KMR_SLOT" />
+		<Row Name="GOVERNOR_YNL_KMR_FILL" OtherName="ICON_GOVERNOR_YNL_KMR_FILL" />
+	</IconAliases>
 </GameData>

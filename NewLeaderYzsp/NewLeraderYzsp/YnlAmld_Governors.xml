@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<!-- 総督(親定義) -->
+		<Row Type="GOVERNOR_YNL_KMR" Kind="KIND_GOVERNOR"/>
+		<!-- 総督の昇進 -->
+		<Row Type="GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND"                   Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH"               Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_YNL_DEEP_INSERT"                     Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_YNL_COLLEGE_KING"                    Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_YNL_AWAKENED_KMR"                    Kind="KIND_GOVERNOR_PROMOTION"/>
+	</Types>
+	<!-- 主設定 -->
+	<Governors>
+		<Row GovernorType="GOVERNOR_YNL_KMR" Image="GOVERNOR_YNL_KMR" 
+			 Name="LOC_GOVERNOR_YNL_KMR_NAME" Title="LOC_GOVERNOR_YNL_KMR_TITLE" ShortTitle="LOC_GOVERNOR_YNL_KMR_SHORT_TITLE" Description="LOC_GOVERNOR_YNL_KMR_DESCRIPTION" 
+			 IdentityPressure="8" TransitionStrength="150" AssignCityState="true" PortraitImage="GovernorNormalYNL_KMR_GrandVisier" PortraitImageSelected="GovernorSelectedYNL_KMR_GrandVisier" 
+			 TraitType="TRAIT_LEADER_YNL_MUR"/>
+	</Governors>
+	<!-- 主設定(GS追加分) -->
+	<Governors_XP2>
+		<Row GovernorType="GOVERNOR_YNL_KMR" AssignToMajor="true"/>
+	</Governors_XP2>
+	<!-- 昇進セット -->
+	<GovernorPromotionSets>
+		<Row GovernorType="GOVERNOR_YNL_KMR" GovernorPromotion="GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND"/>
+		<Row GovernorType="GOVERNOR_YNL_KMR" GovernorPromotion="GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH"/>
+		<Row GovernorType="GOVERNOR_YNL_KMR" GovernorPromotion="GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND"/>
+		<Row GovernorType="GOVERNOR_YNL_KMR" GovernorPromotion="GOVERNOR_PROMOTION_YNL_DEEP_INSERT"/>
+		<Row GovernorType="GOVERNOR_YNL_KMR" GovernorPromotion="GOVERNOR_PROMOTION_YNL_COLLEGE_KING"/>
+		<Row GovernorType="GOVERNOR_YNL_KMR" GovernorPromotion="GOVERNOR_PROMOTION_YNL_AWAKENED_KMR"/>
+	</GovernorPromotionSets>
+	<GovernorPromotions>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND"                   Name="LOC_GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND_NAME"                   Description="LOC_GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND_DESCRIPTION"                   Level="0" Column="1" BaseAbility="true"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH"               Name="LOC_GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH_NAME"               Description="LOC_GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH_DESCRIPTION"               Level="1" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND" Name="LOC_GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND_NAME" Description="LOC_GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND_DESCRIPTION" Level="1" Column="2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_DEEP_INSERT"                     Name="LOC_GOVERNOR_PROMOTION_YNL_DEEP_INSERT_NAME"                     Description="LOC_GOVERNOR_PROMOTION_YNL_DEEP_INSERT_DESCRIPTION"                     Level="2" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_COLLEGE_KING"                    Name="LOC_GOVERNOR_PROMOTION_YNL_COLLEGE_KING_NAME"                    Description="LOC_GOVERNOR_PROMOTION_YNL_COLLEGE_KING_DESCRIPTION"                    Level="2" Column="2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_AWAKENED_KMR"                    Name="LOC_GOVERNOR_PROMOTION_YNL_AWAKENED_KMR_NAME"                    Description="LOC_GOVERNOR_PROMOTION_YNL_AWAKENED_KMR_DESCRIPTION"                    Level="3" Column="1"/>
+	</GovernorPromotions>
+	<GovernorPromotionPrereqs>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH"               PrereqGovernorPromotion="GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND" PrereqGovernorPromotion="GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_DEEP_INSERT"                     PrereqGovernorPromotion="GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_COLLEGE_KING"                    PrereqGovernorPromotion="GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_AWAKENED_KMR"                    PrereqGovernorPromotion="GOVERNOR_PROMOTION_YNL_DEEP_INSERT"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_YNL_AWAKENED_KMR"                    PrereqGovernorPromotion="GOVERNOR_PROMOTION_YNL_COLLEGE_KING"/>
+	</GovernorPromotionPrereqs>
+	<GovernorPromotionModifiers>
+		<!-- 青年たちの週末 -->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_YOUTH_WEEKEND</GovernorPromotionType>
+			<ModifierId>YNL_YOUTH_WEEKEND_GOLD_YIELD_BONUS</ModifierId>
+		</Row>
+		<!-- 誘惑のラビリンス -->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_TEMPEST_LABYRINTH</GovernorPromotionType>
+			<ModifierId>EMISSARY_IDENTITY_PRESSURE_TO_FOREIGN_CITIES</ModifierId><!-- アマニの公使と同じ -->
+		</Row>
+		<!-- 極上リーマン捕獲指令 -->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND</GovernorPromotionType>
+			<ModifierId>GUILDMASTER_ADDITIONAL_BUILDER_CHARGES</ModifierId><!-- 梁のギルドマスターと同じ -->
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND</GovernorPromotionType>
+			<ModifierId>LAND_ACQUISITION_FASTER_PLOT_ANNEXING</ModifierId><!-- レイナの土地取得(の片方)と同じ -->
+		</Row>
+		<!-- ディープインサート -->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_DEEP_INSERT</GovernorPromotionType>
+			<ModifierId>SERASKER_ADJUST_GOVERNOR_COMBAT_DISTRICT</ModifierId><!-- イブラヒムのセラスケルと同じ -->
+		</Row>
+		<!-- カレッジの王様 -->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_COLLEGE_KING</GovernorPromotionType>
+			<ModifierId>YNL_COLLEGE_KING_BONUS_THEATER_DISTRICT_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_COLLEGE_KING</GovernorPromotionType>
+			<ModifierId>YNL_COLLEGE_KING_BONUS_CAMPUS_DISTRICT_ADJACENCY</ModifierId>
+		</Row>
+		<!-- 覚醒KMR -->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_AWAKENED_KMR</GovernorPromotionType>
+			<ModifierId>CITY_DEFENDER_ADJUST_ATTACKS_PER_TURN</ModifierId><!-- ビクター銃眼(の片方)と同じ -->
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_YNL_AWAKENED_KMR</GovernorPromotionType>
+			<ModifierId>HEAD_FALCONER_ADJUST_CITY_COMBAT_BONUS</ModifierId><!-- イブラヒムの鷹匠頭と同じ -->
+		</Row>
+	</GovernorPromotionModifiers>
+	<Modifiers>
+		<!-- 青年たちの週末 -->
+		<Row>
+			<ModifierId>YNL_YOUTH_WEEKEND_GOLD_YIELD_BONUS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<!-- カレッジの王様 -->
+		<Row>
+			<ModifierId>YNL_COLLEGE_KING_BONUS_THEATER_DISTRICT_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<ModifierId>YNL_COLLEGE_KING_BONUS_CAMPUS_DISTRICT_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_CITY_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId><!-- バニラにある -->
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 青年たちの週末 -->
+		<Row>
+			<ModifierId>YNL_YOUTH_WEEKEND_GOLD_YIELD_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_YOUTH_WEEKEND_GOLD_YIELD_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<!-- カレッジの王様 -->
+		<Row>
+			<ModifierId>YNL_COLLEGE_KING_BONUS_THEATER_DISTRICT_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_COLLEGE_KING_BONUS_THEATER_DISTRICT_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_COLLEGE_KING_BONUS_CAMPUS_DISTRICT_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_COLLEGE_KING_BONUS_CAMPUS_DISTRICT_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

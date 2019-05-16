@@ -8,6 +8,7 @@
 		<Row Type="LEADER_YNL_VIOLENCE_MAN"  Kind="KIND_LEADER" />
 		<Row Type="LEADER_YNL_TNOK"          Kind="KIND_LEADER" />
 		<Row Type="LEADER_YNL_TDN"           Kind="KIND_LEADER" />
+		<Row Type="LEADER_YNL_MUR"           Kind="KIND_LEADER" />
 		<!-- 指導者特性(田所) -->
 		<Row Type="TRAIT_LEADER_YNL_KOJI_TADOKORO"                   Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"                Kind="KIND_TRAIT"/>
@@ -30,6 +31,10 @@
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM"          Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS"                Kind="KIND_TRAIT"/>
+		<!-- 指導者特性(MUR) -->
+		<Row Type="TRAIT_LEADER_YNL_MUR"                             Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_DISTRICT_YNL_HAMAM"                  Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_YNL_FRANCISCA"                  Kind="KIND_TRAIT"/>
 	</Types>
 
 	<!-- 主設定 -->
@@ -59,6 +64,11 @@
 			<Name>LOC_LEADER_YNL_TDN_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_YNL_MUR</LeaderType>
+			<Name>LOC_LEADER_YNL_MUR_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
@@ -68,6 +78,7 @@
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  Quote="LOC_LEADER_YNL_VIOLENCE_MAN_QUOTE"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          Quote="LOC_LEADER_YNL_TNOK_QUOTE"/>
 		<Row LeaderType="LEADER_YNL_TDN"           Quote="LOC_LEADER_YNL_TDN_QUOTE"/>
+		<Row LeaderType="LEADER_YNL_MUR"           Quote="LOC_LEADER_YNL_MUR_QUOTE"/>
 	</LeaderQuotes>
 
 	<!-- 指導者が持つ特性 -->
@@ -76,24 +87,34 @@
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_YNL_KOJI_TADOKORO"/>
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_BUILDING_YNL_ROOFTOP"/>
 		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_UNIT_YNL_HAKUSHIN_KARATE"/>
+		<Row LeaderType="LEADER_YNL_KOJI_TADOKORO" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/><!-- AI:文化志向 -->
 		<!-- 豪 -->
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_YNL_GO_IS_GOD"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_BUILDING_YNL_BROTHEL"/>
 		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_UNIT_YNL_ONAGER"/>
+		<Row LeaderType="LEADER_YNL_GO_IS_GOD"     TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/><!-- AI:文化志向 -->
 		<!-- 虐待おじさん -->
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_YNL_VIOLENCE_MAN"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP"/>
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI"/>
+		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/><!-- AI:科学志向 -->
 		<!-- TNOK -->
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_YNL_TNOK"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAR"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_UNIT_YNL_BLACK_CAVALRY"/>
+		<Row LeaderType="LEADER_YNL_TNOK"          TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- AI:領土拡張志向 -->
 		<!-- TDN -->
 		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_YNL_TDN"/>
 		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY"/>
 		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM"/>
 		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS"/>
+		<Row LeaderType="LEADER_YNL_TDN"           TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/><!-- AI:宗教志向 -->
+		<!-- MUR -->
+		<Row LeaderType="LEADER_YNL_MUR"           TraitType="TRAIT_LEADER_YNL_MUR"/>
+		<Row LeaderType="LEADER_YNL_MUR"           TraitType="TRAIT_LEADER_DISTRICT_YNL_HAMAM"/>
+		<Row LeaderType="LEADER_YNL_MUR"           TraitType="TRAIT_LEADER_UNIT_YNL_FRANCISCA"/>
+		<Row LeaderType="LEADER_YNL_MUR"           TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- AI:領土拡張志向 -->
 	</LeaderTraits>
 
 	<!-- 特性の親定義(特性の名称と説明文) -->
@@ -120,6 +141,10 @@
 		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY" Name="LOC_TRAIT_LEADER_BUILDING_YNL_SAINT_PAULS_UNIVERSITY_NAME"/>
 		<Row TraitType="TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM"          Name="LOC_TRAIT_LEADER_BUILDING_YNL_DOMED_STADIUM_NAME"/>
 		<Row TraitType="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS"                Name="LOC_TRAIT_LEADER_UNIT_YNL_CLIBANARIUS_NAME"/>
+		<!-- MUR -->
+		<Row TraitType="TRAIT_LEADER_YNL_MUR"                             Name="LOC_TRAIT_LEADER_YNL_MUR_NAME"           Description="LOC_TRAIT_LEADER_YNL_MUR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_DISTRICT_YNL_HAMAM"                  Name="LOC_TRAIT_LEADER_DISTRICT_YNL_HAMAM_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_YNL_FRANCISCA"                  Name="LOC_TRAIT_LEADER_UNIT_YNL_FRANCISCA_NAME"/>
 	</Traits>
 
 	<!-- 指導者特性 -->
@@ -134,6 +159,15 @@
 		<Row>
 			<TraitType>TRAIT_LEADER_YNL_KOJI_TADOKORO</TraitType>
 			<ModifierId>TRAIT_ENCAMPMENT_PRODUCTION_YZSP</ModifierId>
+		</Row>
+		<!-- ダムのある都市に快適性+1、文化力+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_KOJI_TADOKORO</TraitType>
+			<ModifierId>TRAIT_DAM_AMENITY_YZSP</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_KOJI_TADOKORO</TraitType>
+			<ModifierId>TRAIT_DAM_CULTURE_YZSP</ModifierId>
 		</Row>
 		<!-- 豪 -->
 		<!-- 徴兵いろいろ(GSのハンガリー) -->
@@ -275,6 +309,29 @@
 			<TraitType>TRAIT_LEADER_YNL_TDN</TraitType>
 			<ModifierId>TRAIT_FAITH_MINE_SNOW_MOUNTAIN_YNL</ModifierId>
 		</Row>
+		<!-- MUR -->
+		<!-- 政府複合施設の建造物や区域1つにつき交易路+1(ディードーと同じ) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_DISTRICT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_1_BUILDING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_2_BUILDING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_3_BUILDING</ModifierId>
+		</Row>
+		<!-- 野獣先輩BBが設置されたタイルに食料+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
+			<ModifierId>TRAIT_YNL_MUR_BB_FOOD</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 田所 -->
@@ -283,6 +340,17 @@
 			<ModifierId>TRAIT_ENCAMPMENT_PRODUCTION_YZSP</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
 			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT_PRODUCTION_YZSP</SubjectRequirementSetId>
+		</Row>
+		<!-- ダムのある都市に快適性+1、文化力+2 -->
+		<Row>
+			<ModifierId>TRAIT_DAM_AMENITY_YZSP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_DAM</SubjectRequirementSetId><!-- GSにある -->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DAM_CULTURE_YZSP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_DAM</SubjectRequirementSetId><!-- GSにある -->
 		</Row>
 		<!-- 豪 -->
 		<!-- ユニット撃破で科学力取得 -->
@@ -368,6 +436,13 @@
 			<ModifierId>TRAIT_FAITH_MINE_SNOW_MOUNTAIN_YNL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
 		</Row>
+		<!-- MUR -->
+		<!-- 野獣先輩BBが設置されたタイルに食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_BB_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_YZSP_BB_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 田所 -->
@@ -381,6 +456,22 @@
 			<ModifierId>TRAIT_ENCAMPMENT_PRODUCTION_YZSP</ModifierId>
 			<Name>Amount</Name>
 			<Value>3</Value>
+		</Row>
+		<!-- ダムのある都市に快適性+1、文化力+2 -->
+		<Row>
+			<ModifierId>TRAIT_DAM_AMENITY_YZSP</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DAM_CULTURE_YZSP</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DAM_CULTURE_YZSP</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
 		</Row>
 		<!-- 豪 -->
 		<!-- ユニット撃破で科学力取得 -->
@@ -601,6 +692,18 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- MUR -->
+		<!-- 野獣先輩BBが設置されたタイルに食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_BB_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_BB_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="YNL_TDN_RANGED_DEFENSE" Context="Preview" Text="LOC_ABILITY_NAGAO_RANGED_DEFENSE_MODIFIER_DESCRIPTION"/>
@@ -624,6 +727,11 @@
 		<!-- 条件：遠隔攻撃を受けたとき -->
 		<Row>
 			<RequirementSetId>YNL_TDN_RANGED_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：野獣先輩BBが設置されている -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_YZSP_BB_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -660,6 +768,11 @@
 			<RequirementSetId>YNL_TDN_RANGED_DEFENSE_REQUIREMENTS</RequirementSetId>
 			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId><!-- バニラにある -->
 		</Row>
+		<!-- 条件：野獣先輩BBが設置されている -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_YZSP_BB_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_YZSP_BB</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<!-- 条件：採石場に隣接 -->
@@ -671,6 +784,11 @@
 		<Row>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS_YNL_VIOLENCE_MAN</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 条件：野獣先輩BBが設置されている -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_YZSP_BB</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -686,6 +804,12 @@
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_CAMPUS</Value>
 		</Row>
+		<!-- 条件：野獣先輩BBが設置されている -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_YZSP_BB</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_YNL_YZSP_BB</Value>
+		</Row>
 	</RequirementArguments>
 	
 	<!-- アジェンダ -->
@@ -699,6 +823,8 @@
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  AgendaType="AGENDA_WESTERNIZER"/>
 		<!-- TDN：フェリペ二世と同じ -->
 		<Row LeaderType="LEADER_YNL_TDN"           AgendaType="AGENDA_COUNTER_REFORMER"/>
+		<!-- MUR：ギルガメシュと同じ -->
+		<Row LeaderType="LEADER_YNL_MUR"           AgendaType="AGENDA_ALLY_OF_ENKIDU"/>
 	</HistoricalAgendas>
 	
 	<!-- AIの好みの親定義 -->
@@ -728,6 +854,12 @@
 		<Row ListType="YNL_TDNCivics"/>
 		<Row ListType="YNL_TDNTechs"/>
 		<Row ListType="YNL_TDNDistrict"/>
+		<!-- MUR -->
+		<Row ListType="YNL_MURWonders"/>
+		<Row ListType="YNL_MURCivics"/>
+		<Row ListType="YNL_MURTechs"/>
+		<Row ListType="YNL_MURDistrict"/>
+		<Row ListType="YNL_MURGovernor"/>
 	</AiListTypes>
 	<!-- AIリスト -->
 	<AiLists>
@@ -756,6 +888,12 @@
 		<Row ListType="YNL_TDNCivics"   LeaderType="TRAIT_LEADER_YNL_TDN" System="Civics"/>
 		<Row ListType="YNL_TDNTechs"    LeaderType="TRAIT_LEADER_YNL_TDN" System="Technologies"/>
 		<Row ListType="YNL_TDNDistrict" LeaderType="TRAIT_LEADER_YNL_TDN" System="Districts"/>
+		<!-- MUR -->
+		<Row ListType="YNL_MURWonders"  LeaderType="TRAIT_LEADER_YNL_MUR" System="Buildings"/>
+		<Row ListType="YNL_MURCivics"   LeaderType="TRAIT_LEADER_YNL_MUR" System="Civics"/>
+		<Row ListType="YNL_MURTechs"    LeaderType="TRAIT_LEADER_YNL_MUR" System="Technologies"/>
+		<Row ListType="YNL_MURDistrict" LeaderType="TRAIT_LEADER_YNL_MUR" System="Districts"/>
+		<Row ListType="YNL_MURGovernor" LeaderType="TRAIT_LEADER_YNL_MUR" System="Buildings"/>
 	</AiLists>
 	<!-- 好みの設定 -->
 	<AiFavoredItems>
@@ -776,13 +914,13 @@
 		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_URBANIZATION"/>
 		<Row ListType="YNL_KojiTadokoroCivics" Item="CIVIC_SOCIAL_MEDIA"/>
 		<!-- 弓術、通貨、軍事工学、火薬、印刷、 コンピューター、工業化 -->
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_ARCHERY"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_CURRENCY"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_MILITARY_ENGINEERING"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_GUNPOWDER"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_PRINTING"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_COMPUTERS"/>
-		<Row ListType="YNL_GoIsGodTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_PRINTING"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_INDUSTRIALIZATION"/>
 		<!-- 劇場広場、兵営 -->
 		<Row ListType="YNL_KojiTadokoroDistrict" Item="DISTRICT_THEATER" Favored="true"/>
 		<Row ListType="YNL_KojiTadokoroDistrict" Item="DISTRICT_ENCAMPMENT" Favored="true"/>
@@ -804,14 +942,14 @@
 		<Row ListType="YNL_GoIsGodCivics" Item="CIVIC_URBANIZATION"/>
 		<Row ListType="YNL_GoIsGodCivics" Item="CIVIC_SOCIAL_MEDIA"/>
 		<!-- 通貨、青銅器、工学、軍事工学、鋳造、印刷、 コンピューター、工業化 -->
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_CURRENCY"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_BRONZE_WORKING"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_ENGINEERING"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_MILITARY_ENGINEERING"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_METAL_CASTING"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_PRINTING"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_COMPUTERS"/>
-		<Row ListType="YNL_KojiTadokoroTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_ENGINEERING"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_METAL_CASTING"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_PRINTING"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_GoIsGodTechs" Item="TECH_INDUSTRIALIZATION"/>
 		<!-- 劇場広場、総合娯楽施設 -->
 		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_THEATER" Favored="true"/>
 		<Row ListType="YNL_GoIsGodDistrict" Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="true"/>
@@ -900,6 +1038,37 @@
 		<Row ListType="YNL_TDNTechs" Item="TECH_INDUSTRIALIZATION"/>
 		<!-- 聖地 -->
 		<Row ListType="YNL_TDNDistrict" Item="DISTRICT_HOLY_SITE" Favored="true"/>
+
+		<!-- MUR -->
+		<!-- 大浴場、兵馬俑、ルール地方、エルミタージュ美術館、ボリショイ劇場、ゴールデンゲートブリッジ -->
+		<Row ListType="YNL_MURWonders" Item="BUILDING_GREAT_BATH"/>
+		<Row ListType="YNL_MURWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="YNL_MURWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="YNL_MURWonders" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="YNL_MURWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="YNL_MURWonders" Item="BUILDING_GOLDEN_GATE_BRIDGE"/>
+		<!-- 政治哲学、軍事訓練、演劇と詩、ヒューマニズム、オペラとバレエ、都市化、ソーシャルメディア-->
+		<Row ListType="YNL_MURCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="YNL_MURCivics" Item="CIVIC_MILITARY_TRAINING"/>
+		<Row ListType="YNL_MURCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="YNL_MURCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="YNL_MURCivics" Item="CIVIC_OPERA_BALLET"/>
+		<Row ListType="YNL_MURCivics" Item="CIVIC_URBANIZATION"/>
+		<Row ListType="YNL_MURCivics" Item="CIVIC_SOCIAL_MEDIA"/>
+		<!-- 青銅器、通貨、軍事工学、鋳造、印刷、 コンピューター、工業化 -->
+		<Row ListType="YNL_MURTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="YNL_MURTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="YNL_MURTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="YNL_MURTechs" Item="TECH_METAL_CASTING"/>
+		<Row ListType="YNL_MURTechs" Item="TECH_PRINTING"/>
+		<Row ListType="YNL_MURTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="YNL_MURTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 政府複合施設、劇場広場、ハンマーム -->
+		<Row ListType="YNL_MURDistrict" Item="DISTRICT_GOVERNMENT" Favored="true"/>
+		<Row ListType="YNL_MURDistrict" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="YNL_MURDistrict" Item="DISTRICT_YNL_HAMAM" Favored="true"/>
+		<!-- 総督 -->
+		<Row ListType="YNL_MURGovernor" Item="PSEUDOYIELD_GOVERNOR" Value="50"/>
 	</AiFavoredItems>
 
 	<!-- ローディング画面、外交画面 -->
@@ -909,6 +1078,7 @@
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_VIOLENCE_MAN.dds"  LeaderText="LOC_LEADER_YNL_VIOLENCE_MAN_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_TNOK.dds"          LeaderText="LOC_LEADER_YNL_TNOK_DOM_TEXT"          PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_TDN"           BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_TDN.dds"           LeaderText="LOC_LEADER_YNL_TDN_DOM_TEXT"           PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_YNL_MUR"           BackgroundImage="ynl_KojiTadokoro_loading.dds" ForegroundImage="FALLBACK_NEUTRAL_LEADER_YNL_MUR.dds"           LeaderText="LOC_LEADER_YNL_MUR_DOM_TEXT"           PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_KOJI_TADOKORO" BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
@@ -916,6 +1086,7 @@
 		<Row Type="LEADER_YNL_VIOLENCE_MAN"  BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 		<Row Type="LEADER_YNL_TNOK"          BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 		<Row Type="LEADER_YNL_TDN"           BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
+		<Row Type="LEADER_YNL_MUR"           BackgroundImage="ynl_KojiTadokoro_diplomacy.dds"/>
 	</DiplomacyInfo>
 	
 	<!-- 好む宗教 -->
@@ -925,5 +1096,6 @@
 		<Row LeaderType="LEADER_YNL_VIOLENCE_MAN"  ReligionType="RELIGION_SHINTO"/>
 		<Row LeaderType="LEADER_YNL_TNOK"          ReligionType="RELIGION_ZOROASTRIANISM"/>
 		<Row LeaderType="LEADER_YNL_TDN"           ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_YNL_MUR"           ReligionType="RELIGION_SIKHISM"/>
 	</FavoredReligions>
 </GameData>

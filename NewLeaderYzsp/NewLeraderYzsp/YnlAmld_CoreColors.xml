@@ -47,5 +47,14 @@
 			<Type>COLOR_PLAYER_LEADER_YNL_TDN_SECONDARY</Type>
 			<Color>212,175,55,255</Color>
 		</Row>
+		<!-- MUR -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_MUR_PRIMARY</Type>
+			<Color>191,121,78,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_YNL_MUR_SECONDARY</Type>
+			<Color>248,252,248,255</Color>
+		</Row>
 	</Colors>
 </GameInfo>

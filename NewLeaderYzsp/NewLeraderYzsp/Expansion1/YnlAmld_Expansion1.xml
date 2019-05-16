@@ -67,5 +67,20 @@
 			 MomentDataType="MOMENT_DATA_BUILDING"
 			 GameDataType="BUILDING_YNL_DOMED_STADIUM"
 			 Texture="YNL_MOMENT_BUILDING_YNL_DOMED_STADIUM.dds"/>
+		<!-- KMR -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_GOVERNOR"
+			 MomentDataType="MOMENT_DATA_GOVERNOR"
+			 GameDataType="GOVERNOR_YNL_KMR"
+			 Texture="YNL_MOMENT_GOVERNOR_YNL_KMR.dds"/>
+		<!-- フランキスカ -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_YNL_FRANCISCA"
+			 Texture="YNL_MOMENT_UNIT_YNL_FRANCISCA.dds"/>
+		<!-- ハンマーム -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"
+			 MomentDataType="MOMENT_DATA_DISTRICT"
+			 GameDataType="DISTRICT_YNL_HAMAM"
+			 Texture="YNL_MOMENT_DISTRICT_YNL_HAMAM.dds"/>
 	</MomentIllustrations>
 </GameData>
