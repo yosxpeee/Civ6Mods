@@ -76,18 +76,39 @@
 
 	<!-- 特殊効果 -->
 	<DistrictModifiers>
+		<!-- ハンマーム -->
 		<Row DistrictType="DISTRICT_YNL_HAMAM" ModifierId="YNL_HAMAM_ADDAMENITIES"/>
+		<!-- 組事務所 -->
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" ModifierId="YNL_OUTLAW_OFFICE_GRANT_TAPIOCA"/>
 	</DistrictModifiers>
 	<Modifiers>
+		<!-- ハンマーム -->
 		<Row>
 			<ModifierId>YNL_HAMAM_ADDAMENITIES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_DISTRICT_AMENITY</ModifierType>
 			<SubjectRequirementSetId>DISTRICT_IS_YNL_HAMAM_ADJACENT_TO_GEOTHERMAL</SubjectRequirementSetId>
 		</Row>
+		<!-- 組事務所 -->
+		<Row>
+			<ModifierId>YNL_OUTLAW_OFFICE_GRANT_TAPIOCA</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- ハンマーム -->
 		<Row>
 			<ModifierId>YNL_HAMAM_ADDAMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 組事務所 -->
+		<Row>
+			<ModifierId>YNL_OUTLAW_OFFICE_GRANT_TAPIOCA</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_YNL_TAPIOCA_MILKTEA</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_OUTLAW_OFFICE_GRANT_TAPIOCA</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>

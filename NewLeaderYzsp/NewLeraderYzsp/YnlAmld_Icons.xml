@@ -172,6 +172,13 @@
 		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_YZSP_BB" IconSize="50"  IconsPerRow="8" IconsPerColumn="12" Filename="ICON_IMPROVEMENT_YNL_YZSP_BB50.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_YZSP_BB" IconSize="80"  IconsPerRow="8" IconsPerColumn="12" Filename="ICON_IMPROVEMENT_YNL_YZSP_BB80.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_YNL_YZSP_BB" IconSize="256" IconsPerRow="8" IconsPerColumn="12" Filename="ICON_IMPROVEMENT_YNL_YZSP_BB256.dds"/>
+		<!-- 高級資源:タピオカミルクティー -->
+		<Row Name="ICON_ATLAS_YNL_RESOURCES"     IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA64.dds"/>
+		<Row Name="ICON_ATLAS_YNL_RESOURCES"     IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA38.dds"/>
+		<Row Name="ICON_ATLAS_YNL_RESOURCES"     IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA50.dds"/>
+		<Row Name="ICON_ATLAS_YNL_RESOURCES"     IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA256.dds"/>
+		<Row Name="ICON_ATLAS_YNL_RESOURCES_FOW" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA64.dds"/>
+		<Row Name="ICON_ATLAS_YNL_RESOURCES_FOW" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -278,6 +285,10 @@
 		<Row Name="ICON_GOVERNOR_YNL_KMR"           Atlas="ICON_ATLAS_GOVERNORS_YNL_KMR"           Index="0"/>
 		<Row Name="ICON_GOVERNOR_YNL_KMR_FILL"      Atlas="ICON_ATLAS_GOVERNORS_YNL_KMR_FILL"      Index="0"/>
 		<Row Name="ICON_GOVERNOR_YNL_KMR_SLOT"      Atlas="ICON_ATLAS_GOVERNORS_YNL_KMR_SLOT"      Index="0"/>
+		
+		<!-- 高級資源:タピオカミルクティー -->
+		<Row Name="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA"     Atlas="ICON_ATLAS_YNL_RESOURCES"     Index="0"/>
+		<Row Name="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA_FOW" Atlas="ICON_ATLAS_YNL_RESOURCES_FOW" Index="0"/>
 	</IconDefinitions>
 	<IconAliases>
 		<Row Name="GOVERNOR_YNL_KMR_SLOT" OtherName="ICON_GOVERNOR_YNL_KMR_SLOT" />

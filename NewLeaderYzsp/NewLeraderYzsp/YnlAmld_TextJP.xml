@@ -448,5 +448,10 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_YNL_AWAKENED_KMR_DESCRIPTION" Language="ja_JP">
 			<Text>ターン毎に都市がおこなえる [ICON_Ranged] 長距離攻撃の回数+1。都市の領土で戦うすべての味方ユニットの [ICON_Strength] 戦闘力+5。</Text>
 		</Replace>
+
+		<!-- 固有高級資源 -->
+		<Replace Tag="LOC_RESOURCE_YNL_TAPIOCA_MILKTEA_NAME" Language="ja_JP">
+			<Text>タピオカミルクティー</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

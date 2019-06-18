@@ -477,6 +477,23 @@
 			<m_EntryID text="ICON_IMPROVEMENT_YNL_YZSP_BB256"/>
 			<m_ObjectName text="ICON_IMPROVEMENT_YNL_YZSP_BB256"/>
 		</Element>
+		<!-- 高級資源:タピオカミルクティー -->
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA38"/>
+			<m_ObjectName text="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA50"/>
+			<m_ObjectName text="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA64"/>
+			<m_ObjectName text="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA256"/>
+			<m_ObjectName text="ICON_RESOURCE_YNL_TAPIOCA_MILKTEA256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

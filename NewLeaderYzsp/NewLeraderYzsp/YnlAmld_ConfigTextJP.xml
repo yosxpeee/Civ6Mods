@@ -278,7 +278,7 @@
 			<Text>組事務所</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_DESCRIPTION" Language="ja_JP">
-			<Text>兵営に取って代わるTNOK固有の区域。[ICON_Housing] 住宅+1。隣接する他の区域1つにつき [ICON_Gold] ゴールド+1。</Text>
+			<Text>兵営に取って代わるTNOK固有の区域。[ICON_Housing] 住宅+1。隣接する他の区域1つにつき [ICON_Gold] ゴールド+1。タピオカミルクティーを1つ得る。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="ja_JP">
 			<Text>TNOK固有の建造物: 組事務所</Text>

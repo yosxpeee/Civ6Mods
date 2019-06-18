@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="RESOURCE_YNL_TAPIOCA_MILKTEA" Kind="KIND_RESOURCE"/>
+	</Types>
+	<Resources>
+		<Row ResourceType="RESOURCE_YNL_TAPIOCA_MILKTEA" Name="LOC_RESOURCE_YNL_TAPIOCA_MILKTEA_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="0"/>
+	</Resources>
+</GameInfo>

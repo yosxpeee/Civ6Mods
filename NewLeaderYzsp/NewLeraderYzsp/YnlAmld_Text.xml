@@ -428,25 +428,30 @@
 			<Text>College King</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_YNL_COLLEGE_KING_DESCRIPTION" Language="en_US">
-			<Text>>Double adjacency bonuses from Campus and Theater in the city.</Text>
+			<Text>Double adjacency bonuses from Campus and Theater in the city.</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_YNL_DEEP_INSERT_NAME" Language="en_US">
 			<Text>Deep Insert</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_YNL_DEEP_INSERT_DESCRIPTION" Language="en_US">
-			<Text>>Grants all units within 10 tiles of the City Center +10 [ICON_Strength] Combat Strength when attacking defensible districts.</Text>
+			<Text>Grants all units within 10 tiles of the City Center +10 [ICON_Strength] Combat Strength when attacking defensible districts.</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND_NAME" Language="en_US">
 			<Text>Super Salaryman Capture Command</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_YNL_SUPER_SALARYMAN_CAPTURE_COMMAND_DESCRIPTION" Language="en_US">
-			<Text>>All Builders trained in this city will get +1 build charge. Acquire new tiles in city faster.</Text>
+			<Text>All Builders trained in this city will get +1 build charge. Acquire new tiles in city faster.</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_YNL_AWAKENED_KMR_NAME" Language="en_US">
 			<Text>Awakened KMR</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_YNL_AWAKENED_KMR_DESCRIPTION" Language="en_US">
-			<Text>>City gains an additional [ICON_Ranged] Ranged Strike per turn. All friendly units fighting within the city's territory gain +5 [ICON_Strength] Combat Strength.</Text>
+			<Text>City gains an additional [ICON_Ranged] Ranged Strike per turn. All friendly units fighting within the city's territory gain +5 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		
+		<!-- 固有高級資源 -->
+		<Row Tag="LOC_RESOURCE_YNL_TAPIOCA_MILKTEA_NAME" Language="en_US">
+			<Text>Tapioca Milk Tea</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
