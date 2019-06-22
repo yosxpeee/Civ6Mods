@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<GreatWorks>
+		<Update>
+			<Where GreatWorkType="GREATWORK_CHE_GUEVARA"/>
+			<Set Tourism="2"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_1"/>
+			<Set Tourism="2"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_2"/>
+			<Set Tourism="2"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="GREATWORK_BRADLEY_BOND_1"/>
+			<Set Tourism="2"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="GREATWORK_BRADLEY_BOND_2"/>
+			<Set Tourism="2"/>
+		</Update>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Update>
+			<Where GreatWorkType="GREATWORK_CHE_GUEVARA"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_1"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_2"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="GREATWORK_BRADLEY_BOND_1"/>
+			<Set YieldChange="2"/>
+		</Update>
+		<Update>
+			<Where GreatWorkType="GREATWORK_BRADLEY_BOND_2"/>
+			<Set YieldChange="2"/>
+		</Update>
+	</GreatWork_YieldChanges>
+</GameInfo>
