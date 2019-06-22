@@ -23,4 +23,8 @@
 			<ModifierId>TRAIT_AVOID_THOUSAND_FLOOD</ModifierId>
 		</Row>
 	</TraitModifiers>
+	<!-- ユニット -->
+	<Units_XP2>
+		<Row UnitType="UNIT_FIGHTING_MONK" ResourceCost="10"/>
+	</Units_XP2>
 </GameData>

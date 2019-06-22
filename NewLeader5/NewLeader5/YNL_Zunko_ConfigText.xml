@@ -38,13 +38,13 @@
 			<Text>Zunda Arrow</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION" Language="en_US">
-			<Text>Can capture defeated enemy civilization combat units and convert them to Builders. +25% [ICON_Production] Production toward Ranged units.</Text>
+			<Text>Can capture defeated enemy civilization combat units and convert them to Builders. +25% [ICON_Production] Production toward Ranged units. When you capture a Barbarian Outpost, receive a Tribal Village reward in addition to the usual [ICON_Gold] Gold.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Language="en_US">
 			<Text>Cloister</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION" Language="en_US">
-			<Text>Industrial Zone and Entertainment Complex districts in half the time. One extra Wildcard policy slot in any government.</Text>
+			<Text>Industrial Zone and Entertainment Complex districts in half the time. One extra Wildcard policy slot in any government. Each Archaeological Museum holds 6 [ICON_GreatWork_Artifact] Artifacts instead of 3, and can support 2 Archaeologists at once. Archaeological Museums are automatically themed when they have 6 [ICON_GreatWork_Artifact] Artifacts.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_ZUNDA_CAFE_NAME" Language="en_US">
@@ -64,7 +64,7 @@
 			<Text>Itako Tohoku unique unit: Yamabushi</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YAMABUSHI_DESCRIPTION" Language="en_US">
-			<Text>Itako Tohoku unique unit. Class and Promotion are same as Warrior Monk. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.</Text>
+			<Text>Itako Tohoku unique unit. Class and Promotion are same as Warrior Monk. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage. Shrine is required to produce this unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YAMABUSHI_NAME" Language="en_US">
 			<Text>Yamabushi</Text>
@@ -77,7 +77,7 @@
 			<Text>Itako Tohoku unique unit: Fighting Monk</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FIGHTING_MONK_DESCRIPTION" Language="en_US">
-			<Text>Itako Tohoku unique Renaissance era unit that replaces the Musketman. +10 [ICON_Strength] Combat Strength when there is a Missionary, Inquisitor, or Apostle in the same hex. If this unit captures a city or is adjacent to a city when it is captured, the city will automatically adopt the Conquistador player's Religion as the dominant Religion. Does not suffer combat penalties when damaged.</Text>
+			<Text>Itako Tohoku unique Renaissance era unit that replaces the Musketman. +10 [ICON_Strength] Combat Strength when there is a Missionary, Inquisitor, or Apostle in the same hex. If this unit captures a city or is adjacent to a city when it is captured, the city will automatically adopt the Conquistador player's Religion as the dominant Religion. Does not suffer combat penalties when damaged. Temple is required to produce this unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_FIGHTING_MONK_NAME" Language="en_US">
 			<Text>Fighting Monk</Text>
@@ -137,5 +137,5 @@
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_KOSHIN_TOWER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-</LocalizedText>
+	</LocalizedText>
 </GameData>

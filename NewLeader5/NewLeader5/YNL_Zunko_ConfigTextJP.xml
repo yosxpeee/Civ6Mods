@@ -38,13 +38,13 @@
 			<Text>ずんだアロー</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_DESCRIPTION" Language="ja_JP">
-			<Text>すべての陸上長距離戦闘ユニットは倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる能力を得る。長距離戦闘ユニットの [ICON_Production] 生産力+25%。</Text>
+			<Text>すべての陸上長距離戦闘ユニットは倒した敵文明の戦闘ユニットを捕獲して労働者に変換できる能力を得る。長距離戦闘ユニットの [ICON_Production] 生産力+25%。蛮族の前哨地を占領すると、通常の [ICON_Gold] ゴールドに加えて、原住民の集落から報酬を得られる。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_NAME" Language="ja_JP">
 			<Text>ひきこもる</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_KIRITAN_TOHOKU_DESCRIPTION" Language="ja_JP">
-			<Text>工業地帯および総合娯楽施設の建設にかかる時間が半分になる。政府のワイルドカード政策スロットが1つ増える。</Text>
+			<Text>工業地帯および総合娯楽施設の建設にかかる時間が半分になる。政府のワイルドカード政策スロットが1つ増える。考古博物館の所蔵する [ICON_GreatWork_Artifact] 秘宝が3つから6つになり、一度に2人の考古学者を支援できる。 [ICON_GreatWork_Artifact] 秘宝が6つになると、考古博物館は自動的にテーマ化される。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_ZUNDA_CAFE_NAME" Language="ja_JP">
@@ -64,7 +64,7 @@
 			<Text>東北イタコ固有のユニット: 山伏</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMABUSHI_DESCRIPTION" Language="ja_JP">
-			<Text>東北イタコ固有の古典時代の陸上近接ユニット。武僧と同じクラス・昇進を持ち、防御側の敵ユニットをダメージで上回った場合は敵を後退させる。退却できない敵は追加ダメージを受ける。</Text>
+			<Text>東北イタコ固有の古典時代の陸上近接ユニット。武僧と同じクラス・昇進を持ち、防御側の敵ユニットをダメージで上回った場合は敵を後退させる。退却できない敵は追加ダメージを受ける。このユニットの生産には社が必要。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMABUSHI_NAME" Language="ja_JP">
 			<Text>山伏</Text>
@@ -77,7 +77,7 @@
 			<Text>東北イタコ固有のユニット: 僧兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_FIGHTING_MONK_DESCRIPTION" Language="ja_JP">
-			<Text>マスケット銃兵に取ってかわる東北イタコ固有のルネサンス時代のユニット。同じタイルに伝道師、審問官、使徒のいずれかがいると [ICON_Strength] 戦闘力+10。このユニットが都市を制圧するか、このユニットが隣接した状態で都市を制圧すると、その都市をプレイヤーの主流宗教に改宗させることができる。ダメージを受けても戦闘ペナルティが生じない。</Text>
+			<Text>マスケット銃兵に取ってかわる東北イタコ固有のルネサンス時代のユニット。同じタイルに伝道師、審問官、使徒のいずれかがいると [ICON_Strength] 戦闘力+10。このユニットが都市を制圧するか、このユニットが隣接した状態で都市を制圧すると、その都市をプレイヤーの主流宗教に改宗させることができる。ダメージを受けても戦闘ペナルティが生じない。このユニットの生産には神殿が必要。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_FIGHTING_MONK_NAME" Language="ja_JP">
 			<Text>僧兵</Text>

@@ -106,9 +106,9 @@
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD"/> <!-- ツンドラ丘陵から食糧ボーナス -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD"/>   <!-- 雪原丘陵から食糧ボーナス -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_GUARANTEE_ONE_PROPHET"/>				  <!-- 最後の預言者取得 (アラビアで使われているものをそのまま使用) -->
-		
 		<!-- ずん子 -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>                <!-- 陸上遠距離ユニットで敵文明のユニットを倒すと一定確率で労働者捕獲 -->
+		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_BARBARIAN_CAMP_GOODY"/>					<!-- 蛮族野営地排除で小屋ボーナス(シュメールと同じ) -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION_ZUNKO"/>    <!-- 陸上遠距離ユニット生産ボーナス：古代 -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION_ZUNKO"/>  <!-- 陸上遠距離ユニット生産ボーナス：古典 -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION_ZUNKO"/>   <!-- 陸上遠距離ユニット生産ボーナス：中世 -->
@@ -120,6 +120,9 @@
 		<!-- きりたん -->
 		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_KIRITAN"/>               <!-- 工業地帯への生産ボーナス -->
 		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_BOOST_DISTRICT_ENTERTAINMENT_COMPLEX_PRODUCTION_KIRITAN"/><!-- 娯楽施設への生産ボーナス -->
+		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_DOUBLE_ARCHAEOLOGY_SLOTS"/>								 <!-- 大英博物館 -->
+		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_SUPPORT_TWO_ARCHAEOLOGISTS"/>							 <!-- 大英博物館 -->
+		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_AUTO_THEME_ARCHAEOLOGY_MUSEUM"/>							 <!-- 大英博物館 -->
 		<Row TraitType="TRAIT_LEADER_KIRITAN_TOHOKU" ModifierId="TRAIT_WILDCARD_GOVERNMENT_SLOT"/>                               <!-- 政府のワイルドカードスロット+1(ギリシャで使われているものをそのまま使用) -->
 	</TraitModifiers>
 
@@ -177,6 +180,7 @@
 		</Row>
 		<!-- ずん子 -->
 		<!-- この記述で作成したユニットのアビリティが指導者特性として扱われるようになる -->
+		<!-- 遠距離ユニットで他文明のユニットに勝利すると確率で労働者捕獲 -->
 		<Row>
 			<ModifierId>TRAIT_YNL_ZUNKO_CAPTURE_WORKER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
