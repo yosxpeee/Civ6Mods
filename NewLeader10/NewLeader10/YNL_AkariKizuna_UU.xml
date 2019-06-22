@@ -41,7 +41,7 @@
 			 TraitType="TRAIT_CIVILIZATION_UNIT_YNL_AKARI_HESSIANS"/>
 	</Units>
 	<Units_XP2>
-		<Row UnitType="UNIT_YNL_AKARI_HESSIANS" ResourceCost="20"/>
+		<Row UnitType="UNIT_YNL_AKARI_HESSIANS" ResourceCost="10"/>
 	</Units_XP2>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
