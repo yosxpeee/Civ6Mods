@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<!-- RaFで追加された効果などを使う場合はこちらにまとめて記載してある -->
-
+	<!-- ユニットアビリティ -->
+	<!-- (ラウタロのトキと同じように追加したものの、ユニットのツールチップに表示されていないので意味があるのか不明) -->
+	<Types>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Tag="CLASS_AIRCRAFT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL</UnitAbilityType>
+			<ModifierId>COMBAT_BONUS_VS_DARK_AGE_YNL</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
 	<!-- 指導者特性 -->
 	<TraitModifiers>
 		<!-- 暗黒時代の文明に対し戦闘力+8 -->
@@ -11,6 +40,11 @@
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
+			<ModifierId>COMBAT_BONUS_VS_DARK_AGE_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
+		<Row>
 			<!-- 暗黒時代の文明に対し戦闘力+8 -->
 			<ModifierId>TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
@@ -18,6 +52,11 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>COMBAT_BONUS_VS_DARK_AGE_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
 		<Row>
 			<!-- 暗黒時代の文明に対し戦闘力+8 -->
 			<ModifierId>TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL</ModifierId>
@@ -28,6 +67,7 @@
 	<!-- 戦闘プレビューの説明 -->
 	<ModifierStrings>
 		<!-- 暗黒時代の文明に対し戦闘力+8 -->
+		<Row ModifierId="COMBAT_BONUS_VS_DARK_AGE_YNL"           Context="Preview" Text="LOC_ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL_DESCRIPTION"/>
 		<Row ModifierId="TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL" Context="Preview" Text="LOC_TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL_DESCRIPTION"/>
 	</ModifierStrings>
 	<!-- 効果発動条件 -->

@@ -42,5 +42,8 @@
 		<Row Tag="LOC_TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL_DESCRIPTION" Language="en_US">
 			<Text>+8 versus civilizations in a Dark Age</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL_DESCRIPTION" Language="en_US">
+			<Text>+8 [ICON_Strength] Combat Strength versus civilizations in a Dark Age.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
