@@ -3,4 +3,8 @@
 	<Units_XP2>
 		<Row UnitType="UNIT_HYLIAN_AMBULANCE" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
 	</Units_XP2>
+	<!-- 殺人ロボに対して妖精の泉の効果を有効にする -->
+	<TypeTags>
+		<Row Type="ABILITY_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL" Tag="CLASS_GIANT_DEATH_ROBOT"/>
+	</TypeTags>
 </GameData>

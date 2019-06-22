@@ -36,7 +36,10 @@
 		<Row Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Language="en_US">
 			<Text>Unique to Hylian. Provides +1 [ICON_Culture] culture, and units on this tile completely heal after standing on it for a full turn. Improve culture yield by 1 when built adjacent to woods. Can only be built by the Hero of Time.</Text>
 		</Row>
-
+		<Row Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL_DESCRIPTION" Language="en_US">
+			<Text>All Armys completely heal after standing on Fairy Fountain for a full turn.</Text>
+		</Row>
+		
 		<!-- Units -->
 		<Row Tag="LOC_UNIT_HERO_OF_TIME_NAME" Language="en_US">
 			<Text>Hero of Time</Text>

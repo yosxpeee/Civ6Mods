@@ -37,7 +37,10 @@
 		<Replace Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_DESCRIPTION" Language="ja_JP">
 			<Text>ハイラル文明固有の地形改善。[ICON_Culture] 文化力+1。妖精の泉を建設したしたタイル上にいる全てのユニットはターン開始時に全回復。隣接した森林の数 [ICON_Culture] +1。時の勇者のみ建設できる。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_IMPROVEMENT_FAIRY_FOUNTAIN_HEAL_DESCRIPTION" Language="ja_JP">
+			<Text>妖精の泉を建設したタイル上にいるとターン開始時に全回復。</Text>
+		</Replace>
+		
 		<!-- Units -->
 		<Replace Tag="LOC_UNIT_HERO_OF_TIME_NAME" Language="ja_JP">
 			<Text>時の勇者</Text>
