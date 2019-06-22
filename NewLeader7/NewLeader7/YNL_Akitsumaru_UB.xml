@@ -74,9 +74,8 @@
 		<!-- 経験値+50% -->
 		<Row>
 			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
 			<Permanent>true</Permanent>
-			<SubjectRequirementSetId>ARMORY_LAND_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<!-- 馬から生産力を得る -->
 		<Row>
@@ -125,8 +124,8 @@
 		<!-- 経験値+50% -->
 		<Row>
 			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP</Value>
 		</Row>
 		<!-- 馬から生産力を得る -->
 		<Row>

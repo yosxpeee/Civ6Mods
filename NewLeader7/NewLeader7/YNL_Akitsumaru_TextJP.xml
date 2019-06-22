@@ -2,133 +2,140 @@
 <GameData>
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
 			<Text>丙型特種船「あきつ丸」</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_DETAILED_BODY" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>支援ユニットである「カ号観測機」でルネサンス時代以降の洋上ユニットの対潜戦闘能力を向上させることができます。さらに洋上遠距離ユニットは射程が増加し、戦闘や都市砲撃を有利に進めることができます。陸軍兵器廠は通常の武器庫の能力に加えて科学力を得ることができ、建造された都市はある戦略資源から生産力を追加で得ることができます。また、憲兵はわずかながら通常の歩兵よりも強いユニットで、敵対ユニットを倒すことで大将軍ポイントを入手できます。</Text>
-		</Row>
+		</Replace>
 
 		<!-- Leader specific historical text. -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>あきつ丸は播磨造船所において1940年（昭和15年）9月17日に起工、1941年9月24日に進水し、太平洋戦争（大東亜戦争）突入間もない1942年（昭和17年）1月30日に竣工した。[NEWLINE][NEWLINE]あきつ丸を含む量産特種船は、大発等の泛水設備として主にドック（舟艇格納庫）を船体内に設けている。また、あきつ丸は全通飛行甲板を有する空母型であり、島型船橋・マスト・煙突は右舷に寄せられ飛行甲板の下には航空機格納庫を備えている。飛行甲板後端に設置された航空機用エレベーターで、格納庫から飛行甲板へ航空機を移動した。搭載機の目的は上陸戦時に搭載機（戦闘機）を発進させ上陸部隊の支援であった。搭載機の発船（発艦）にこそ飛行甲板を使用するが、「神州丸」同様に着船（着艦）は想定されておらず、機体は占領した敵飛行場・臨時造成飛行場に着陸、陸上・水上に不時着・不時着水するか、操縦者は乗機を捨て落下傘降下によって収容される。そのため、通常の空母なら着船コースとなる船尾中央にはデリックが屹立しており、着船制動装置・着船指揮装置も無く、エレベーターの装備位置も飛行甲板後端のみとなる。[NEWLINE][NEWLINE]実戦では1942年の蘭印作戦に参加し、その輸送能力、揚陸支援能力をいかんなく発揮した。その後はカ号観測機・三式指揮連絡機の運用のための改装を経て1944年8月7日より、主に門司-釜山航路の対馬海峡・朝鮮海峡において対潜哨戒任務に従事。同年11月、フィリピン防衛戦のため精鋭第23師団を緊急輸送する「ヒ81船団」の一員として参加、護衛艦艇および「神鷹」九三一空機の哨戒の隙を突いたアメリカ海軍の潜水艦クイーンフィッシュの発射した2本の魚雷があきつ丸の左舷船尾に命中、ほぼ轟沈という形で戦没。</Text>
-		</Row>
+		</Replace>
 
 		<!-- Civilization specific historical text. -->
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>大日本帝国とは、1889年（明治22年）の大日本帝国憲法発布時に憲法典の名称として使用されたことから権威づけられ、1947年（昭和22年）の日本国憲法施行時までの約58年間、天皇が大日本帝国憲法を通じて統治する日本として使用された国号のひとつとされる。[NEWLINE][NEWLINE]最盛時には現在の日本の領土に加え、南樺太・千島列島・朝鮮半島・台湾・澎湖列島・新南群島などを領有していた他、北東アジアや太平洋にいくつかの委任統治領や租借地を保有した。</Text>
-		</Row>
+		</Replace>
 
 		<!-- Civlization Citizen Names -->
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_1" Language="ja_JP">
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_1" Language="ja_JP">
 			<Text>山田稔</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_2" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_2" Language="ja_JP">
 			<Text>つるの剛士</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_3" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_3" Language="ja_JP">
 			<Text>栗栖健一</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_4" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_4" Language="ja_JP">
 			<Text>桜金造</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_1" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_1" Language="ja_JP">
 			<Text>川村ゆきえ</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_2" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_2" Language="ja_JP">
 			<Text>大槻ひびき</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_3" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_3" Language="ja_JP">
 			<Text>安西ひろこ </Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_4" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_4" Language="ja_JP">
 			<Text>冨永愛</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_5" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_FEMALE_5" Language="ja_JP">
 			<Text>西川史子</Text>
-		</Row>
+		</Replace>
 
 		<!-- 都市名 -->
 		<!-- 陸軍船舶司令部があった場所 -->
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_1" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_1" Language="ja_JP">
 			<Text>宇品</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_2" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_2" Language="ja_JP">
 			<Text>門司</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_3" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_3" Language="ja_JP">
 			<Text>昭南</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_4" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_4" Language="ja_JP">
 			<Text>ラバウル</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_5" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_5" Language="ja_JP">
 			<Text>ダバオ</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_6" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_6" Language="ja_JP">
 			<Text>上海</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_7" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_7" Language="ja_JP">
 			<Text>セブ</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_8" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_8" Language="ja_JP">
 			<Text>小樽</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_9" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_9" Language="ja_JP">
 			<Text>マニラ</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_10" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_10" Language="ja_JP">
 			<Text>ウェワク</Text>
-		</Row>
+		</Replace>
 		<!-- あきつ丸が建造された場所(播磨造船所の所在地) -->
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_11" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_11" Language="ja_JP">
 			<Text>相生</Text>
-		</Row>
+		</Replace>
 		<!-- 陸軍技術研究所があった場所 -->
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_12" Language="ja_JP">
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_12" Language="ja_JP">
 			<Text>小金井</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_13" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_13" Language="ja_JP">
 			<Text>相模原</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_14" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_14" Language="ja_JP">
 			<Text>小平</Text>
-		</Row>
-		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_15" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_15" Language="ja_JP">
 			<Text>姫路</Text>
-		</Row>
+		</Replace>
 
 		<!-- Leader Quotes -->
-		<Row Tag="LOC_LEADER_YNL_AKITSUMARU_QUOTE" Language="ja_JP">
+		<Replace Tag="LOC_LEADER_YNL_AKITSUMARU_QUOTE" Language="ja_JP">
 			<Text>あきつ丸、いざ出港する！</Text>
-		</Row>
+		</Replace>
 
 		<!-- Unit Ability -->
-		<Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_NAME" Language="ja_JP">
+		<Replace Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_NAME" Language="ja_JP">
 			<Text>視界良好</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
 			<Text>地形によって視界が制限されない。</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>障害なき視界</Text>
-		</Row>
+		</Replace>
 
-		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_NAME" Language="ja_JP">
+		<Replace Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_NAME" Language="ja_JP">
 			<Text>対潜支援</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
 			<Text>海洋略奪ユニットに対して [ICON_Strength] 戦闘力+9。</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>海洋略奪ユニットに対して [ICON_Strength] 戦闘力+9</Text>
-		</Row>
+		</Replace>
 
-		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_NAME" Language="ja_JP">
+		<Replace Tag="LOC_ABILITY_UNIT_YNL_KENPEI_NAME" Language="ja_JP">
 			<Text>憲兵の栄誉</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION" Language="ja_JP">
 			<Text>あきつ丸固有の近代の陸上近接戦闘上ユニット。ユニットを倒すと [ICON_GreatGeneral] 大将軍ポイント+5。</Text>
-		</Row>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_NAME" Language="ja_JP">
+			<Text>士魂部隊</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION" Language="ja_JP">
+			<Text>帝国陸軍兵器廠による経験値+50%</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

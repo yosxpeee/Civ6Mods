@@ -9,6 +9,8 @@
 		<Row Type="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Kind="KIND_ABILITY"/>
 		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
 		<Row Type="ABILITY_UNIT_YNL_KENPEI"                    Kind="KIND_ABILITY"/>
+		<!-- 帝国陸軍兵器廠の経験値アップ -->
+		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP"    Kind="KIND_ABILITY"/>
 	</Types>
 	<TypeTags>
 		<!-- FEATUREを見通す -->
@@ -19,6 +21,13 @@
 		<Row Type="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Tag="CLASS_FORWARD_KAGOU2"/>
 		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
 		<Row Type="ABILITY_UNIT_YNL_KENPEI"                    Tag="CLASS_YNL_KENPEI"/>
+		<!-- 帝国陸軍兵器廠の経験値アップ -->
+		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_SIEGE"/>
 	</TypeTags>
 	
 	<UnitAbilities>
@@ -30,12 +39,18 @@
 		<Row UnitAbilityType="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Name="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_NAME"     Description="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION"/>
 		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
 		<Row UnitAbilityType="ABILITY_UNIT_YNL_KENPEI"                    Name="LOC_ABILITY_UNIT_YNL_KENPEI_NAME"                    Description="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION"/>
+		<!-- 帝国陸軍兵器廠の経験値アップ -->
+		<Row UnitAbilityType="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP"    Name="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_NAME"    Description="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION" Inactive="true"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
-		<!-- FEATUREを見通す -->
+		<!-- FEATURE、TERRAINを見通す -->
 		<Row>
 			<UnitAbilityType>ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</UnitAbilityType>
-			<ModifierId>UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</ModifierId>
+			<ModifierId>UNOBSTRUCTED_VIEW</ModifierId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</UnitAbilityType>
+			<ModifierId>UNOBSTRUCTED_VIEW_TERRAIN</ModifierId><!-- バニラにある -->
 		</Row>
 		<!-- カ号が隣接している場合射程+1 -->
 		<Row>
@@ -52,14 +67,14 @@
 			<UnitAbilityType>ABILITY_UNIT_YNL_KENPEI</UnitAbilityType>
 			<ModifierId>UNIT_YNL_KENPEI_GREAT_ADMIRAL_POINTS</ModifierId>
 		</Row>
+		<!-- 帝国陸軍兵器廠の経験値アップ -->
+		<Row>
+			<UnitAbilityType>ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP</UnitAbilityType>
+			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 
 	<Modifiers>
-		<!-- FEATUREを見通す -->
-		<Row>
-			<ModifierId>UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SEE_THROUGH_FEATURES</ModifierType>
-		</Row>
 		<!-- カ号が隣接している場合射程+1 -->
 		<Row>
 			<ModifierId>RECEIVE_RANGE_BONUS_YNL_AKITSUMARU</ModifierId>
@@ -77,14 +92,14 @@
 			<ModifierId>UNIT_YNL_KENPEI_GREAT_ADMIRAL_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
 		</Row>
+		<!-- 帝国陸軍兵器廠の経験値アップ -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<!-- FEATUREを見通す -->
-		<Row>
-			<ModifierId>UNOBSTRUCTED_VIEW_YNL_AKITSUMARU</ModifierId>
-			<Name>CanSee</Name>
-			<Value>true</Value>
-		</Row>
 		<!-- カ号が隣接している場合射程+1 -->
 		<Row>
 			<ModifierId>RECEIVE_RANGE_BONUS_YNL_AKITSUMARU</ModifierId>
@@ -108,10 +123,15 @@
 			<Name>GreatPersonClassType</Name>
 			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
 		</Row>
+		<!-- 帝国陸軍兵器廠の経験値アップ -->
+		<Row>
+			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
 	</ModifierArguments>
 	
 	<ModifierStrings>
-		<Row ModifierId="UNOBSTRUCTED_VIEW_YNL_AKITSUMARU"        Context="Preview" Text="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_MODIFIER_DESCRIPTION"/>
 		<Row ModifierId="MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU" Context="Preview" Text="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION"/>
 	</ModifierStrings>
 

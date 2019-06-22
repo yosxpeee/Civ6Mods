@@ -10,6 +10,15 @@
 			</Set>
 		</Update>
 	</Buildings>
+	<!-- 効果変更 -->
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_IMP_ARMY_ARMORY" YieldType="YIELD_PRODUCTION"/>
+			<Set>
+				<YieldChange>3</YieldChange>
+			</Set>
+		</Update>
+	</Building_YieldChanges>
 	<!-- 効果の追加 -->
 	<BuildingModifiers>
 		<Row>

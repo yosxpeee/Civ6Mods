@@ -127,5 +127,12 @@
 		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION" Language="en_US">
 			<Text>Akitsumaru unique Modern era naval melee unit. +5 [ICON_GreatGeneral] Great General points for killing units.</Text>
 		</Row>
+
+		<Row Tag="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_NAME" Language="en_US">
+			<Text>Spirits of Imperial Army</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION" Language="en_US">
+			<Text>+50% Earned experience from Imperial Army Armory</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
