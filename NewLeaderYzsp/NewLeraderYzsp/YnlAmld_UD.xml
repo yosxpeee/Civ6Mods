@@ -43,6 +43,7 @@
 	<!-- 隣接ボーナスの親定義 -->
 	<District_Adjacencies>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldChangeId="OutlawDistrict_Gold"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE"   YieldChangeId="YNLHamam_Production"/>
 	</District_Adjacencies>
 	
 	<!-- 除外する隣接ボーナス設定 -->
@@ -64,16 +65,22 @@
 	
 	<!-- 市民配置ボーナス -->
 	<District_CitizenYieldChanges>
-		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_CULTURE"    YieldChange="1"/>
+		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_GOLD"       YieldChange="1"/>
 		<Row DistrictType="DISTRICT_YNL_OUTLAW_OFFICE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	
 	<!-- 隣接ボーナス -->
 	<Adjacency_YieldChanges>
 		<!-- 他の区域が1つ隣接ごとに1ゴールド -->
-		<Row ID="OutlawDistrict_Gold" Description="LOC_DISTRICT_DISTRICT_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		<Row ID="OutlawDistrict_Gold" Description="LOC_DISTRICT_DISTRICT_GOLD"        YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		<Row ID="YNLHamam_Production" Description="LOC_DISTRICT_YNL_HAMAM_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_YNL_HAMAM"/>
 	</Adjacency_YieldChanges>
 
+	<!-- 労働者、工兵による建造促進 -->
+	<District_BuildChargeProductions>
+		<Row DistrictType="DISTRICT_YNL_HAMAM" UnitType="UNIT_MILITARY_ENGINEER" PercentProductionPerCharge="20"/>
+	</District_BuildChargeProductions>
+	
 	<!-- 特殊効果 -->
 	<DistrictModifiers>
 		<!-- ハンマーム -->

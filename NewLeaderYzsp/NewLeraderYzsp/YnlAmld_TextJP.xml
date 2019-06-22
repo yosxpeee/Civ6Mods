@@ -453,5 +453,9 @@
 		<Replace Tag="LOC_RESOURCE_YNL_TAPIOCA_MILKTEA_NAME" Language="ja_JP">
 			<Text>タピオカミルクティー</Text>
 		</Replace>
+
+		<Replace Tag="LOC_DISTRICT_YNL_HAMAM_PRODUCTION" Language="ja_JP">
+			<Text>隣接するハンマーム {1_Num : plural 2?district; other?districts;} により [ICON_PRODUCTION] 生産力+{1_num}。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

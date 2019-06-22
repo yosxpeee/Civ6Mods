@@ -453,5 +453,9 @@
 		<Row Tag="LOC_RESOURCE_YNL_TAPIOCA_MILKTEA_NAME" Language="en_US">
 			<Text>Tapioca Milk Tea</Text>
 		</Row>
+
+		<Row Tag="LOC_DISTRICT_YNL_HAMAM_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_PRODUCTION] Production from the adjacent Hamam {1_Num : plural 2?district; other?districts;}.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

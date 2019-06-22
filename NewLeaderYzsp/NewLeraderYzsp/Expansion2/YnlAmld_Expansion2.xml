@@ -34,6 +34,14 @@
 		<Row Type="NAMED_DESERT_YZSP_6" Kind="KIND_NAMED_DESERT"/>
 		<Row Type="NAMED_DESERT_YZSP_7" Kind="KIND_NAMED_DESERT"/>
 		<Row Type="NAMED_DESERT_YZSP_8" Kind="KIND_NAMED_DESERT"/>
+		<Row Type="NAMED_LAKE_YZSP_1" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_YZSP_2" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_YZSP_3" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_YZSP_4" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_SEA_YZSP_1" Kind="KIND_NAMED_SEA"/>
+		<Row Type="NAMED_SEA_YZSP_2" Kind="KIND_NAMED_SEA"/>
+		<Row Type="NAMED_SEA_YZSP_3" Kind="KIND_NAMED_SEA"/>
+		<Row Type="NAMED_SEA_YZSP_4" Kind="KIND_NAMED_SEA"/>
 	</Types>
 
 	<!-- 河川名と訳文の紐づけ -->
@@ -80,7 +88,21 @@
 		<Row NamedDesertType="NAMED_DESERT_YZSP_7" Name="LOC_NAMED_DESERT_YZSP_7_NAME"/>
 		<Row NamedDesertType="NAMED_DESERT_YZSP_8" Name="LOC_NAMED_DESERT_YZSP_8_NAME"/>
 	</NamedDeserts>
-
+	<!-- 湖と訳文の紐づけ -->
+	<NamedLakes>
+		<Row NamedLakeType="NAMED_LAKE_YZSP_1" Name="LOC_NAMED_LAKE_YZSP_1_NAME"/>
+		<Row NamedLakeType="NAMED_LAKE_YZSP_2" Name="LOC_NAMED_LAKE_YZSP_2_NAME"/>
+		<Row NamedLakeType="NAMED_LAKE_YZSP_3" Name="LOC_NAMED_LAKE_YZSP_3_NAME"/>
+		<Row NamedLakeType="NAMED_LAKE_YZSP_4" Name="LOC_NAMED_LAKE_YZSP_4_NAME"/>
+	</NamedLakes>
+	<!-- 海と訳文の紐づけ -->
+	<NamedSeas>
+		<Row NamedSeaType="NAMED_SEA_YZSP_1" Name="LOC_NAMED_SEA_YZSP_1_NAME"/>
+		<Row NamedSeaType="NAMED_SEA_YZSP_2" Name="LOC_NAMED_SEA_YZSP_2_NAME"/>
+		<Row NamedSeaType="NAMED_SEA_YZSP_3" Name="LOC_NAMED_SEA_YZSP_3_NAME"/>
+		<Row NamedSeaType="NAMED_SEA_YZSP_4" Name="LOC_NAMED_SEA_YZSP_4_NAME"/>
+	</NamedSeas>
+	
 	<!-- 河川名と文明の紐づけ -->
 	<NamedRiverCivilizations>
 		<Row NamedRiverType="NAMED_RIVER_YZSP_1" CivilizationType="CIVILIZATION_YNL_AMLD"/>
@@ -125,4 +147,18 @@
 		<Row NamedDesertType="NAMED_DESERT_YZSP_7" CivilizationType="CIVILIZATION_YNL_AMLD"/>
 		<Row NamedDesertType="NAMED_DESERT_YZSP_8" CivilizationType="CIVILIZATION_YNL_AMLD"/>
 	</NamedDesertCivilizations>
+	<!-- 湖名と文明の紐づけ -->
+	<NamedLakeCivilizations>
+		<Row NamedLakeType="NAMED_LAKE_YZSP_1" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedLakeType="NAMED_LAKE_YZSP_2" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedLakeType="NAMED_LAKE_YZSP_3" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedLakeType="NAMED_LAKE_YZSP_4" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+	</NamedLakeCivilizations>
+	<!-- 海名と文明の紐づけ -->
+	<NamedSeaCivilizations>
+		<Row NamedSeaType="NAMED_SEA_YZSP_1" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedSeaType="NAMED_SEA_YZSP_2" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedSeaType="NAMED_SEA_YZSP_3" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+		<Row NamedSeaType="NAMED_SEA_YZSP_4" CivilizationType="CIVILIZATION_YNL_AMLD"/>
+	</NamedSeaCivilizations>
 </GameData>

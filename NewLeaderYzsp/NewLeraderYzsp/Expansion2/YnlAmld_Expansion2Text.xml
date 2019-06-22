@@ -101,5 +101,31 @@
 		<Row Tag="LOC_NAMED_DESERT_YZSP_8_NAME">
 			<Text>MRYMMRI Desert</Text>
 		</Row>
+		<!-- 湖名 -->
+		<Row Tag="LOC_NAMED_LAKE_YZSP_1_NAME">
+			<Text>TMNG Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_YZSP_2_NAME">
+			<Text>SEIYA Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_YZSP_3_NAME">
+			<Text>FJWR Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_YZSP_4_NAME">
+			<Text>WKY Lake</Text>
+		</Row>
+		<!-- 海名 -->
+		<Row Tag="LOC_NAMED_SEA_YZSP_1_NAME">
+			<Text>SBR Sea</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_YZSP_2_NAME">
+			<Text>Bay of NSOK</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_YZSP_3_NAME">
+			<Text>FKTK Sea</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_YZSP_4_NAME">
+			<Text>Bay of Nagi</Text>
+		</Row>
 	</EnglishText>
 </GameData>

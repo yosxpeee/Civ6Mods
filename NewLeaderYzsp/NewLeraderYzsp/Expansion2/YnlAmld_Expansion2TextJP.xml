@@ -101,5 +101,31 @@
 		<Replace Tag="LOC_NAMED_DESERT_YZSP_8_NAME" Language="ja_JP">
 			<Text>MRYMMRI砂漠</Text>
 		</Replace>
+		<!-- 湖名 -->
+		<Replace Tag="LOC_NAMED_LAKE_YZSP_1_NAME" Language="ja_JP">
+			<Text>TMNG湖</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_LAKE_YZSP_2_NAME" Language="ja_JP">
+			<Text>SEIYA湖</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_LAKE_YZSP_3_NAME" Language="ja_JP">
+			<Text>FJWR湖</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_LAKE_YZSP_4_NAME" Language="ja_JP">
+			<Text>WKY湖</Text>
+		</Replace>
+		<!-- 海名 -->
+		<Replace Tag="LOC_NAMED_SEA_YZSP_1_NAME" Language="ja_JP">
+			<Text>SBR海</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_SEA_YZSP_2_NAME" Language="ja_JP">
+			<Text>NSOK湾</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_SEA_YZSP_3_NAME" Language="ja_JP">
+			<Text>FKTK海</Text>
+		</Replace>
+		<Replace Tag="LOC_NAMED_SEA_YZSP_4_NAME" Language="ja_JP">
+			<Text>奈義湾</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

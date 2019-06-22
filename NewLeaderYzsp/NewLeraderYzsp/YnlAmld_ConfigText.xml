@@ -237,7 +237,7 @@
 			<Text>Torture Workshop</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_YNL_TORTURE_WORKSHOP_DESCRIPTION" Language="en_US">
-			<Text>The Violence Man unique Medival era building that replaces the Workshop. +2 [ICON_Science] Science, +2 [ICON_Production] Production. +1 [ICON_GreatEngineer] Great Engineer point, +1 [ICON_GreatScientist] Great Scientist point.</Text>
+			<Text>The Violence Man unique Medival era building that replaces the Workshop. +2 [ICON_Science] Science, +3 [ICON_Production] Production. +1 [ICON_GreatEngineer] Great Engineer point, +1 [ICON_GreatScientist] Great Scientist point.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_BUILDING_YNL_TORTURE_WORKSHOP_NAME" Language="en_US">
 			<Text>The Violence Man unique building: Torture Workshop</Text>
@@ -291,7 +291,7 @@
 			<Text>Hamam</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_YNL_HAMAM_DESCRIPTION" Language="en_US">
-			<Text>MUR unique District that replaces the Aqueduct and cheaper to build. [NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. If built adjacent to a Geothermal Fissure +1 [ICON_Amenities] Amenity. In all cases the Hamam provides an additional bonus of +1 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center. [ICON_TradeRoute] Trade Routes with this city as a destination gain +1 [ICON_Culture] Culture.</Text>
+			<Text>MUR unique District that replaces the Aqueduct and cheaper to build. [NEWLINE][NEWLINE]It provides this city with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain. Cities that do not yet have existing fresh water receive up to 6 [ICON_Housing] Housing. Cities that already have existing fresh water will instead get +2 [ICON_Housing] Housing. If built adjacent to a Geothermal Fissure +1 [ICON_Amenities] Amenity. In all cases the Hamam provides an additional bonus of +1 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. Prevents [ICON_Food] Food loss during Drought. Must be built adjacent to the City Center. Military Engineers can spend a charge to complete 20% of a Hamam's production. [ICON_TradeRoute] Trade Routes with this city as a destination gain +1 [ICON_Culture] Culture.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_DISTRICT_YNL_HAMAM_NAME" Language="en_US">
 			<Text>MUR unique district: Hamam</Text>

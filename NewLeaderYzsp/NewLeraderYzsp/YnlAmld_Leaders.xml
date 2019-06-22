@@ -226,6 +226,10 @@
 			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
 			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_SCIENCE</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_FOOD</ModifierId>
+		</Row>
 		<!-- キャンパスに接している鉱山から科学力+1 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_YNL_VIOLENCE_MAN</TraitType>
