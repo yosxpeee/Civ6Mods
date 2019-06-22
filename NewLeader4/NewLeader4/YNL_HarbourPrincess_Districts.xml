@@ -51,8 +51,8 @@
 		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_GOLD"       YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
 	</District_TradeRouteYields>
 	<District_CitizenYieldChanges>
-		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_GOLD"    YieldChange="2"/>
-		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldType="YIELD_FOOD" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<Adjacency_YieldChanges>
 		<Row ID="YNL_CoastalFort_Gold"			   Description="LOC_DISTRICT_DISTRICT_COASTAL_FORT_GOLD" YieldType="YIELD_GOLD"    YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COASTAL_FORT"/>
