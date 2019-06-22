@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<!-- 文章の変更 -->
 	<Buildings>
+		<!-- 文章の変更 -->
 		<Update>
 			<Where BuildingType="BUILDING_YNL_CHEMICAL_PLANT"/>
 			<Set>
 				<Description>LOC_BUILDING_YNL_CHEMICAL_PLANT_EXPANSION2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+		<!-- コストの変更 -->
+		<Update>
+			<Where BuildingType="BUILDING_YNL_CHEMICAL_PLANT"/>
+			<Set>
+				<Cost>330</Cost>
 			</Set>
 		</Update>
 	</Buildings>
@@ -18,12 +25,12 @@
 		<Update>
 			<Where BuildingType="BUILDING_YNL_CHEMICAL_PLANT" YieldType="YIELD_PRODUCTION"/>
 			<Set>
-				<YieldChange>2</YieldChange>
+				<YieldChange>3</YieldChange>
 			</Set>
 		</Update>
 	</Building_YieldChanges>
 	<!-- 電力供給によるボーナス -->
 	<Building_YieldChangesBonusWithPower>
-		<Row BuildingType="BUILDING_YNL_CHEMICAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Row BuildingType="BUILDING_YNL_CHEMICAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="5"/>
 	</Building_YieldChangesBonusWithPower>
 </GameData>
