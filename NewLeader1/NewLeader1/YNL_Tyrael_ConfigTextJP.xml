@@ -21,7 +21,7 @@
 			<Text>ティラエルの加護</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_TYRAELS_MIGHT_DESCRIPTION" Language="ja_JP">
-			<Text>都市建設時に領土が追加される。ツンドラから [ICON_Food] 食糧+1と [ICON_Production] 生産力+1を得る。</Text>
+			<Text>都市建設時に領土が追加される。ツンドラから [ICON_Food] 食糧+1と [ICON_Production] 生産力+1を得る。用水路から [ICON_Faith] 信仰力+1、[ICON_CULTURE] 文化力+1。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_TYRAEL_NAME" Language="ja_JP">
@@ -51,7 +51,7 @@
 			<Text>ティラエル固有のユニット: バリスタ</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_BALLISTA_DESCRIPTION" Language="ja_JP">
-			<Text>カタパルトに取ってかわるティラエル固有の太古のユニット。カタパルトよりも強力。</Text>
+			<Text>カタパルトに取ってかわるティラエル固有の太古のユニット。カタパルトよりも強力。[ICON_Movement] 移動力3。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_BALLISTA_NAME" Language="ja_JP">
 			<Text>バリスタ</Text>

@@ -63,6 +63,14 @@
 			<TraitType>TRAIT_CIVILIZATION_TYRAELS_MIGHT</TraitType>
 			<ModifierId>TRAIT_INCREASED_TILES</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TYRAELS_MIGHT</TraitType>
+			<ModifierId>TRAIT_AQUEDUCT_FAITH_YNL_TYRAEL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TYRAELS_MIGHT</TraitType>
+			<ModifierId>TRAIT_AQUEDUCT_CULTURE_YNL_TYRAEL</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -74,6 +82,16 @@
 			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_FAITH_YNL_TYRAEL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_AQUEDUCT_YNL_TYRAEL</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_CULTURE_YNL_TYRAEL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_AQUEDUCT_YNL_TYRAEL</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -97,7 +115,39 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_FAITH_YNL_TYRAEL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_FAITH_YNL_TYRAEL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_CULTURE_YNL_TYRAEL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_CULTURE_YNL_TYRAEL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_AQUEDUCT_YNL_TYRAEL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_AQUEDUCT_YNL_TYRAEL</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_AQUEDUCT</RequirementId><!-- バニラにある -->
+		</Row>
+	</RequirementSetRequirements>
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_WOD" CityName="LOC_CIVLIZATION_WOD_CITY_2" />

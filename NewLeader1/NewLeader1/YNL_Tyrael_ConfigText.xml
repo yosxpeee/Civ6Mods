@@ -21,7 +21,7 @@
 			<Text>Tyrael's Might</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_TYRAELS_MIGHT_DESCRIPTION" Language="en_US">
-			<Text>Extra territory upon founding cities. +1 [ICON_Food] Food and +1 [ICON_Production] Production from Tundra.</Text>
+			<Text>Extra territory upon founding cities. +1 [ICON_Food] Food and +1 [ICON_Production] Production from Tundra. +1 [ICON_FAITH] Faith and +1 [ICON_CULTURE] Culture from Aqueduct.</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_LEADER_YNL_TYRAEL_NAME" Language="en_US">
@@ -51,7 +51,7 @@
 			<Text>Tyrael unique unit: Ballista</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_UNIQUE_BALLISTA_DESCRIPTION" Language="en_US">
-			<Text>Tyrael unique unit that replaces the Catapult. Stronger than the Catapult.</Text>
+			<Text>Tyrael unique unit that replaces the Catapult. Stronger than the Catapult, 3 [ICON_Movement] Movement.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_UNIQUE_BALLISTA_NAME" Language="en_US">
 			<Text>Ballista</Text>
