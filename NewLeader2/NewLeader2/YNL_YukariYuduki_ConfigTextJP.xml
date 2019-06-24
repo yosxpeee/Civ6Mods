@@ -21,7 +21,7 @@
 			<Text>雪の恵み</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_DESCRIPTION" Language="ja_JP">
-			<Text>雪原から [ICON_Food] 食糧+1、[ICON_Culture] 文化力+1、[ICON_Science] 科学力+1を得る。ツンドラから [ICON_Faith] 信仰力+1を得る。</Text>
+			<Text>雪原から [ICON_Food] 食糧+1、[ICON_Culture] 文化力+1、[ICON_Science] 科学力+1を得る。ツンドラから [ICON_Faith] 信仰力+1を得る。隣接するツンドラやツンドラの丘陵タイル1つにつき、都心の [ICON_FOOD] 食料+1。隣接する雪原や雪原の丘陵タイル1つにつき、都心の [ICON_GOLD] ゴールド+1。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_YUKARI_YUDUKI_NAME" Language="ja_JP">

@@ -32,7 +32,7 @@
 			<Text>イタコの口寄せ</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ITAKO_TOHOKU_DESCRIPTION" Language="ja_JP">
-			<Text>最後から2番目の大預言者を獲得すると (まだ [ICON_GreatProphet] 大預言者を獲得していない場合)、自動的に最後の [ICON_GreatProphet] 大預言者を獲得する。丘陵から [ICON_Faith] 信仰力+2、[ICON_Food] 食糧+1を得る。</Text>
+			<Text>最後から2番目の大預言者を獲得すると (まだ [ICON_GreatProphet] 大預言者を獲得していない場合)、自動的に最後の [ICON_GreatProphet] 大預言者を獲得する。丘陵から [ICON_Faith] 信仰力+1、[ICON_Food] 食糧+1を得る。用水路に隣接している場合、庚申塔から [ICON_PRODUCTION] 生産力+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ZUNKO_TOHOKU_NAME" Language="ja_JP">
 			<Text>ずんだアロー</Text>
@@ -64,7 +64,7 @@
 			<Text>東北イタコ固有のユニット: 山伏</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMABUSHI_DESCRIPTION" Language="ja_JP">
-			<Text>東北イタコ固有の古典時代の陸上近接ユニット。武僧と同じクラス・昇進を持ち、防御側の敵ユニットをダメージで上回った場合は敵を後退させる。退却できない敵は追加ダメージを受ける。このユニットの生産には社が必要。</Text>
+			<Text>東北イタコ固有の古典時代の陸上近接ユニット。武僧と同じクラス・似た昇進を持ち、防御側の敵ユニットをダメージで上回った場合は敵を後退させる。退却できない敵は追加ダメージを受ける。このユニットの生産には社が必要。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YAMABUSHI_NAME" Language="ja_JP">
 			<Text>山伏</Text>

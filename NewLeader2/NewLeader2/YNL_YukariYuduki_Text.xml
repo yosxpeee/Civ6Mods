@@ -119,6 +119,20 @@
 		<Row Tag="LOC_LEADER_YUKARI_YUDUKI_DOM_TEXT" Language="en_US">
 			<Text>Yukari-san kawaii yatta!!</Text>
 		</Row>
+
+		<!-- 都心のボーナス -->
+		<Row Tag="LOC_DISTRICT_TUNDRA_FOOD_YNL" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Tundra {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TUNDRA_HILLS_FOOD_YNL" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Tundra Hills {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SNOW_GOLD_YNL" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Snow {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SNOW_HILLS_GOLD_YNL" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Snow Hills {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
 		
 		<!-- Leader Dialog -->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="en_US">

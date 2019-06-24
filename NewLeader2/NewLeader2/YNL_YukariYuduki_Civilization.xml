@@ -47,6 +47,7 @@
 	</Traits>
 
 	<TraitModifiers>
+		<!-- 雪原・雪原丘陵から食料+1、科学+1、文化+1 -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
 			<ModifierId>TRAIT_INCREASED_SNOW_FOOD</ModifierId>
@@ -71,16 +72,36 @@
 			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
 			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_SCIENCE</ModifierId>
 		</Row>
+		<!-- ツンドラ・ツンドラ丘陵から信仰+1 -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
-			<ModifierId>TRAIT_INCREASED_TUNDRA_FAITH</ModifierId>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_FAITH</ModifierId><!-- バニラにある -->
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
-			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_FAITH</ModifierId>
+			<ModifierId>TRAIT_INCREASED_TUNDRA_HILLS_FAITH</ModifierId><!-- バニラにある -->
+		</Row>
+		<!-- ツンドラ接したタイル1つにつき、都心の食料+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_TUNDRA_CITY_CENTER_FOOD_YNL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_TUNDRA_HILLS_CITY_CENTER_FOOD_YNL</ModifierId>
+		</Row>
+		<!-- 雪原に接したタイル1つにつき、都心のゴールド+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_SNOW_CITY_CENTER_GOLD_YNL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SNOW_QUEEN</TraitType>
+			<ModifierId>TRAIT_SNOW_HILLS_CITY_CENTER_GOLD_YNL</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
+		<!-- 雪原・雪原丘陵から食料+1、科学+1、文化+1 -->
 		<Row>
 			<ModifierId>TRAIT_INCREASED_SNOW_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
@@ -110,9 +131,28 @@
 			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_SCIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- ツンドラ接したタイル1つにつき、都心の食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_CITY_CENTER_FOOD_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_HILLS_CITY_CENTER_FOOD_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- 雪原に接したタイル1つにつき、都心のゴールド+1 -->
+		<Row>
+			<ModifierId>TRAIT_SNOW_CITY_CENTER_GOLD_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_HILLS_CITY_CENTER_GOLD_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 雪原・雪原丘陵から食料+1、科学+1、文化+1 -->
 		<Row>
 			<ModifierId>TRAIT_INCREASED_SNOW_FOOD</ModifierId>
 			<Name>YieldType</Name>
@@ -170,6 +210,108 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_INCREASED_SNOW_HILLS_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- ツンドラに接したタイル1つにつき、都心の食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_TUNDRA_FOOD_YNL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_HILLS_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_TUNDRA_HILLS_FOOD_YNL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_HILLS_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_HILLS_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_HILLS_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TUNDRA_HILLS_CITY_CENTER_FOOD_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 雪原に接したタイル1つにつき、都心のゴールド+1 -->
+		<Row>
+			<ModifierId>TRAIT_SNOW_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_SNOW_GOLD_YNL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_HILLS_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_SNOW_HILLS_GOLD_YNL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_HILLS_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_HILLS_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_HILLS_CITY_CENTER_GOLD_YNL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SNOW_HILLS_CITY_CENTER_GOLD_YNL</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -243,7 +385,7 @@
 	</CityNames>
 
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_ROYY" TerrainType="TERRAIN_TUNDRA" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_ROYY" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" TerrainType="TERRAIN_TUNDRA" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_ROYY" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="5"/>
 	</StartBiasTerrains>
 </GameData>

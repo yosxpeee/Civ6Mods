@@ -120,6 +120,20 @@
 			<Text>ゆかりさんカワイイヤッター</Text>
 		</Replace>
 
+		<!-- 都心のボーナス -->
+		<Replace Tag="LOC_DISTRICT_TUNDRA_FOOD_YNL" Language="ja_JP">
+			<Text>隣接するツンドラタイルにより [ICON_Food] 食料+{1_num}。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TUNDRA_HILLS_FOOD_YNL" Language="ja_JP">
+			<Text>隣接するツンドラ (丘陵) タイルにより [ICON_Food] 食料+{1_num}。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SNOW_GOLD_YNL" Language="ja_JP">
+			<Text>隣接する雪原タイルにより [ICON_Gold] ゴールド+{1_num}。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_SNOW_HILLS_GOLD_YNL" Language="ja_JP">
+			<Text>隣接する雪原 (丘陵) タイルにより [ICON_Gold] ゴールド+{1_num}。</Text>
+		</Replace>
+		
 		<!-- Leader Dialog -->
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YUKARI_YUDUKI_ANY" Language="ja_JP">
 			<Text>これからは仲良くやっていきましょう。</Text>

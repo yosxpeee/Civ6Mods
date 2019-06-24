@@ -21,7 +21,7 @@
 			<Text>Snow Gift</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_SNOW_QUEEN_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Food] Food, +1 [ICON_Culture] Culture and +1 [ICON_Science] Science from Snow. +1 [ICON_Faith] Faith from Tundra.</Text>
+			<Text>+1 [ICON_Food] Food, +1 [ICON_Culture] Culture and +1 [ICON_Science] Science from Snow. +1 [ICON_Faith] Faith from Tundra. City Centers gain +1 [ICON_FOOD] Food for every adjacent Tundra and Tundra Hills tiles. City Centers gain +1 [ICON_GOLD] Gold for every adjacent Snow and Snow Hills tiles.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_YUKARI_YUDUKI_NAME" Language="en_US">

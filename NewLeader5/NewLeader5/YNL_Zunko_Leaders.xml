@@ -105,6 +105,7 @@
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FOOD"/> <!-- 砂漠丘陵から食糧ボーナス -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FOOD"/> <!-- ツンドラ丘陵から食糧ボーナス -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD"/>   <!-- 雪原丘陵から食糧ボーナス -->
+		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_YNL_ITAKO_KOSHIN_TOWER_PRODUCTION_AQUEDUCT"/> <!-- 用水路隣接の庚申塔から生産力+1 -->
 		<Row TraitType="TRAIT_LEADER_ITAKO_TOHOKU" ModifierId="TRAIT_GUARANTEE_ONE_PROPHET"/>				  <!-- 最後の預言者取得 (アラビアで使われているものをそのまま使用) -->
 		<!-- ずん子 -->
 		<Row TraitType="TRAIT_LEADER_ZUNKO_TOHOKU" ModifierId="TRAIT_YNL_ZUNKO_CAPTURE_WORKER"/>                <!-- 陸上遠距離ユニットで敵文明のユニットを倒すと一定確率で労働者捕獲 -->
@@ -178,6 +179,11 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_KOSHIN_TOWER_PRODUCTION_AQUEDUCT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_AQUEDUCT_KOSHIN_TOWER_REQUIREMENTS_YNL_ITAKO_TOHOKU</SubjectRequirementSetId>
+		</Row>
 		<!-- ずん子 -->
 		<!-- この記述で作成したユニットのアビリティが指導者特性として扱われるようになる -->
 		<!-- 遠距離ユニットで他文明のユニットに勝利すると確率で労働者捕獲 -->
@@ -244,7 +250,7 @@
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FAITH</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FAITH</ModifierId>
@@ -254,7 +260,7 @@
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_PLAINS_HILLS_FAITH</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FAITH</ModifierId>
@@ -264,7 +270,7 @@
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_DESERT_HILLS_FAITH</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH</ModifierId>
@@ -274,7 +280,7 @@
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_TUNDRA_HILLS_FAITH</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH</ModifierId>
@@ -284,7 +290,7 @@
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FAITH</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_GRASS_HILLS_FOOD</ModifierId>
@@ -333,6 +339,16 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_YNL_ITAKO_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_KOSHIN_TOWER_PRODUCTION_AQUEDUCT </ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_ITAKO_KOSHIN_TOWER_PRODUCTION_AQUEDUCT </ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -491,7 +507,7 @@
 
 	<!-- ユニットのアビリティ設定 -->
 	<UnitAbilities>
-		<!-- Inactive : たぶんパッシブスキルかどうか？？？バニラのものにもあったりなかったりしてて正直よくわからず。-->
+		<!-- Inactive : アクティブの逆という意味なので表記のみの設定ということだろうか？-->
 		<Row UnitAbilityType="ABILITY_YNL_ZUNKO_CAPTURE_WORKER" Name="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_NAME" Description="LOC_ABILITY_YNL_ZUNKO_CAPTURE_WORKER_DESCRIPTION" Inactive="true"/>
 	</UnitAbilities>
 	<!-- アビリティとModifierの紐付け -->
@@ -527,7 +543,43 @@
 			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_AQUEDUCT_KOSHIN_TOWER_REQUIREMENTS_YNL_ITAKO_TOHOKU</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_ITAKO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS_ITAKO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS_ITAKO</RequirementId>
+		</Row>
+		<!--
+		<Row>
+			<RequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TUNDRA_HILLS</RequirementId>
+		</Row>
+		-->
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_ITAKO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_AQUEDUCT_KOSHIN_TOWER_REQUIREMENTS_YNL_ITAKO_TOHOKU</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_KOSHIN_TOWER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_AQUEDUCT_KOSHIN_TOWER_REQUIREMENTS_YNL_ITAKO_TOHOKU</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT_YNL_ITAKO_TOHOKU</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
 	<Requirements>
 		<!-- REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES = RequirementArgumentsで指定するTERRAINに合致するものを条件とする -->
 		<Row>
@@ -551,6 +603,14 @@
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_ITAKO</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_KOSHIN_TOWER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT_YNL_ITAKO_TOHOKU</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -581,31 +641,17 @@
 			<Name>TerrainType</Name>
 			<Value>TERRAIN_SNOW_HILLS</Value>
 		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_KOSHIN_TOWER</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_KOSHIN_TOWER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT_YNL_ITAKO_TOHOKU</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
 	</RequirementArguments>
-	<RequirementSetRequirements>
-		<Row>
-			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_ITAKO</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS_ITAKO</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS_ITAKO</RequirementId>
-		</Row>
-		<!--
-		<Row>
-			<RequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_TUNDRA_HILLS</RequirementId>
-		</Row>
-		-->
-		<Row>
-			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS_ITAKO</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS_ITAKO</RequirementId>
-		</Row>
-	</RequirementSetRequirements>
 
 	<!-- AIの好みの親定義。上から社会制度、テクノロジー、遺産、区域のタイプ -->
 	<AiListTypes>

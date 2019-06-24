@@ -192,5 +192,9 @@
 		<Replace Tag="LOC_DISTRICT_FOREST_CULTURE_NAMAHAGE" Language="ja_JP">
 			<Text>隣接する森タイルにより [ICON_Culture] 文化力+{1_num}。</Text>
 		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_CLASS_YAMABUSHI_NAME" Language="ja_JP">
+			<Text>山伏</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
