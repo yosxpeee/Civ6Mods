@@ -34,7 +34,7 @@
 			<Text>ビッグセブンの力(陸奥)</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION" Language="ja_JP">
-			<Text>敵ユニットを撃破するとヒットポイントが50回復する。[NEWLINE]海洋近接戦闘ユニットが沿岸を略奪できるようになる。</Text>
+			<Text>敵ユニットを撃破するとヒットポイントが50回復する。[NEWLINE]海洋近接戦闘ユニットが沿岸を略奪できるようになる。[NEWLINE]友好的な領土に兵営か工業地帯を完成させると、隣接するタイルで文化爆弾が発動する。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION" Language="ja_JP">
 			<Text>海洋近接戦闘ユニットが沿岸を略奪できるようになる。[NEWLINE]聖域および港の建設にかかる時間が半分になる。[NEWLINE]労働者の使用回数制限が通常よりも1回増加。</Text>

@@ -40,8 +40,11 @@
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  Name="LOC_TRAIT_LEADER_YNL_MUTSU_NAME"  Description="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="HEAL_AFTER_DEFEATING_UNIT_NAGATO"/>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="HEAL_AFTER_DEFEATING_UNIT_NAGATO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT_NAGATO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE_NAGATO"/>
+		
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_BOOST_HOLY_SITE_PRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU"/>
@@ -55,6 +58,14 @@
 		<Row>
 			<ModifierId>HEAL_AFTER_DEFEATING_UNIT_NAGATO</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_FROM_COMBAT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT_NAGATO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE_NAGATO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -72,6 +83,16 @@
 			<ModifierId>HEAL_AFTER_DEFEATING_UNIT_NAGATO</ModifierId>
 			<Name>Amount</Name>
 			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT_NAGATO</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE_NAGATO</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
 		</Row>
 	</ModifierArguments>
 
