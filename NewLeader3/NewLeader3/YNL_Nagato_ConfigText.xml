@@ -73,10 +73,23 @@
 			<Text>Peoples of the Sea unique unit: Nagato Class Battleship</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION" Language="en_US">
-			<Text>Peoples of the Sea unique unit that replaces the Battleship. Stronger than the Normal Battleship. 4 [ICON_Movement] Movement.</Text>
+			<Text>Peoples of the Sea unique unit that replaces the Battleship. Stronger than the Normal Battleship. 4 [ICON_Movement] Movement. +10 [ICON_Strength] Combat Strength if there is at least one Destroyer adjacent.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="en_US">
 			<Text>Nagato Class Battleship</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME" Language="en_US">
+			<Text>Peoples of the Sea unique unit: Nagato Class DDG</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION" Language="en_US">
+			<Text>Peoples of the Sea unique unit that replaces the Missile Cruiser. Stronger than the Normal Missile Cruiser. +10 [ICON_Strength] Combat Strength when defending against ranged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME" Language="en_US">
+			<Text>Nagato Class DDG</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

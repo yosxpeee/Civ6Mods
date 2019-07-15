@@ -883,5 +883,15 @@
 		<Replace Tag="LOC_ABILITY_BATTLESHIP_NAGATO_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>駆逐艦の隣にいるとき、戦闘力+{1_Amount}。</Text>
 		</Replace>
+
+		<Replace Tag="LOC_ABILITY_MISSILE_CRUISER_NAGATO_NAME" Language="ja_JP">
+			<Text>重ミサイル巡洋艦</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_MISSILE_CRUISER_NAGATO_DESCRIPTION" Language="ja_JP">
+			<Text>長距離戦闘ユニットに対する [ICON_Strength] 戦闘力+10。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_NAGATO_RANGED_DEFENSE_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>長距離戦闘ユニット防衛時に戦闘力+{1_Amount}</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

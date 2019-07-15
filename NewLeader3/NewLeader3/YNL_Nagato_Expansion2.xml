@@ -35,9 +35,16 @@
 				<PrereqTech>TECH_REFINING</PrereqTech>
 			</Set>
 		</Update>
+		<Update>
+			<Where UnitType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
 	</Units>
 	<Units_XP2>
-		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO"      ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
 	<!-- 観光ポイント爆弾設定(ロックバンド用) -->
 	<Building_TourismBombs_XP2>

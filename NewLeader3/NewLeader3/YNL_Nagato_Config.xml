@@ -117,11 +117,21 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
 			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
+			<Type>UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Type>
+			<Name>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
 			<Type>BUILDING_IMP_NAVYYARD</Type>
 			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
 			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
-			<SortIndex>20</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -131,7 +141,7 @@
 			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
 			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
-			<SortIndex>30</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -147,11 +157,21 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
 			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
+			<Type>UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Type>
+			<Name>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
 			<Type>BUILDING_IMP_NAVYYARD</Type>
 			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
 			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
-			<SortIndex>20</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -161,7 +181,7 @@
 			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
 			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
-			<SortIndex>30</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 		<!-- Expansion1 Support -->
 		<Row>
@@ -178,11 +198,21 @@
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
 			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
+			<Type>UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Type>
+			<Name>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
 			<Type>BUILDING_IMP_NAVYYARD</Type>
 			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
 			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
-			<SortIndex>20</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -192,7 +222,7 @@
 			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
 			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
-			<SortIndex>30</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -208,11 +238,21 @@
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
 			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
+			<Type>UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Type>
+			<Name>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
 			<Type>BUILDING_IMP_NAVYYARD</Type>
 			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
 			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
-			<SortIndex>20</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -222,7 +262,7 @@
 			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
 			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
-			<SortIndex>30</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 		<!-- Expansion2 Support -->
 		<Row>
@@ -239,11 +279,21 @@
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
 			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
+			<Type>UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Type>
+			<Name>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_NAGATO</LeaderType>
 			<Type>BUILDING_IMP_NAVYYARD</Type>
 			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
 			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
-			<SortIndex>20</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -253,7 +303,7 @@
 			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
 			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
-			<SortIndex>30</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -269,11 +319,21 @@
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
 			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
+			<Type>UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Type>
+			<Name>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_MUTSU</LeaderType>
 			<Type>BUILDING_IMP_NAVYYARD</Type>
 			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
 			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
-			<SortIndex>20</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -283,7 +343,7 @@
 			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
 			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
-			<SortIndex>30</SortIndex>
+			<SortIndex>40</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

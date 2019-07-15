@@ -883,5 +883,15 @@
 		<Row Tag="LOC_ABILITY_BATTLESHIP_NAGATO_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION" Language="en_US">
 			<Text>+{1_Amount} Combat Strength when next to Destroyer</Text>
 		</Row>
+
+		<Row Tag="LOC_ABILITY_MISSILE_CRUISER_NAGATO_NAME" Language="en_US">
+			<Text>Heavy Missile Cruiser</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MISSILE_CRUISER_NAGATO_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when defending against ranged units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NAGATO_RANGED_DEFENSE_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+{1_Amount} Combat Strength when defending Ranged</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

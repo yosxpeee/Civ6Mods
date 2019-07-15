@@ -1,40 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Types>
-		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO" Kind="KIND_UNIT"/>
-		<Row Type="ABILITY_BATTLESHIP_NAGATO"     Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO"      Kind="KIND_UNIT"/>
+		<Row Type="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" Kind="KIND_UNIT"/>
+		
+		<Row Type="ABILITY_BATTLESHIP_NAGATO"          Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MISSILE_CRUISER_NAGATO"     Kind="KIND_ABILITY"/>
 	</Types>
 	<Tags>
-		<Row Tag="CLASS_BATTLESHIP_NAGATO" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_BATTLESHIP_NAGATO"      Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_MISSILE_CRUISER_NAGATO" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" AiType="UNITTYPE_NAVAL"/>
+
+		<Row UnitType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" ReplacesUnitType="UNIT_BATTLESHIP"/>
+		<Row CivUniqueUnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO"      ReplacesUnitType="UNIT_BATTLESHIP"/>
+		<Row CivUniqueUnitType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" ReplacesUnitType="UNIT_MISSILE_CRUISER"/>
 	</UnitReplaces>
 	<TypeTags>
 		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO" Tag="CLASS_NAVAL_RANGED"/>
 		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO" Tag="CLASS_ANTI_AIR"/>
-
 		<Row Type="UNIT_UNIQUE_BATTLESHIP_NAGATO" Tag="CLASS_BATTLESHIP_NAGATO"/>
-		<Row Type="ABILITY_BATTLESHIP_NAGATO"     Tag="CLASS_BATTLESHIP_NAGATO"/>
+
+		<Row Type="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" Tag="CLASS_MISSILE_CRUISER_NAGATO"/>
+		
+		<Row Type="ABILITY_BATTLESHIP_NAGATO"      Tag="CLASS_BATTLESHIP_NAGATO"/>
+		<Row Type="ABILITY_MISSILE_CRUISER_NAGATO" Tag="CLASS_MISSILE_CRUISER_NAGATO"/>
 	</TypeTags>
 	<Units>
-		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO" BaseMoves="4" Cost="450" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Description="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="6" Combat="75" RangedCombat="85" Range="3" PrereqTech="TECH_STEEL" TraitType="TRAIT_CIVILIZATION_UNIT_UNIQUE_BATTLESHIP_NAGATO" StrategicResource="RESOURCE_COAL" AntiAirCombat="100"/>
+		<Row UnitType="UNIT_UNIQUE_BATTLESHIP_NAGATO"      BaseMoves="4" Cost="450" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Name="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME"      Description="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION"      PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Maintenance="6" Combat="75" RangedCombat="85"  Range="3" PrereqTech="TECH_STEEL"  TraitType="TRAIT_CIVILIZATION_UNIT_UNIQUE_BATTLESHIP_NAGATO"      AntiAirCombat="100" StrategicResource="RESOURCE_COAL"/>
+		<Row UnitType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" BaseMoves="5" Cost="700" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Name="LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME" Description="LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" Maintenance="8" Combat="85" RangedCombat="100" Range="3" PrereqTech="TECH_LASERS" TraitType="TRAIT_CIVILIZATION_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" AntiAirCombat="125" CanTargetAir="TRUE"/>
 	</Units>
 	<UnitUpgrades>
-		<Row Unit="UNIT_UNIQUE_BATTLESHIP_NAGATO" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
+		<Row Unit="UNIT_UNIQUE_BATTLESHIP_NAGATO" UpgradeUnit="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO"/>
 	</UnitUpgrades>
 	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_BATTLESHIP_NAGATO" Name="LOC_ABILITY_BATTLESHIP_NAGATO_NAME" Description="LOC_ABILITY_BATTLESHIP_NAGATO_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BATTLESHIP_NAGATO"      Name="LOC_ABILITY_BATTLESHIP_NAGATO_NAME"      Description="LOC_ABILITY_BATTLESHIP_NAGATO_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MISSILE_CRUISER_NAGATO" Name="LOC_ABILITY_MISSILE_CRUISER_NAGATO_NAME" Description="LOC_ABILITY_MISSILE_CRUISER_NAGATO_DESCRIPTION"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<Row>
 			<UnitAbilityType>ABILITY_BATTLESHIP_NAGATO</UnitAbilityType>
 			<ModifierId>NAGATO_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MISSILE_CRUISER_NAGATO</UnitAbilityType>
+			<ModifierId>NAGATO_RANGED_DEFENSE</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<Modifiers>
@@ -43,6 +63,11 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>NAGATO_PLOT_IS_DESTROYER_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>NAGATO_RANGED_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NAGATO_RANGED_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -50,13 +75,23 @@
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
+		<Row>
+			<ModifierId>NAGATO_RANGED_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="NAGATO_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_BATTLESHIP_NAGATO_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="NAGATO_RANGED_DEFENSE"  Context="Preview" Text="LOC_ABILITY_NAGATO_RANGED_DEFENSE_MODIFIER_DESCRIPTION"/>
 	</ModifierStrings>
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>NAGATO_PLOT_IS_DESTROYER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NAGATO_RANGED_DEFENSE_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -64,6 +99,14 @@
 		<Row>
 			<RequirementSetId>NAGATO_PLOT_IS_DESTROYER_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_DESTROYER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAGATO_RANGED_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RANGED_COMBAT_REQUIREMENTS</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>NAGATO_RANGED_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId><!-- バニラにある -->
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>

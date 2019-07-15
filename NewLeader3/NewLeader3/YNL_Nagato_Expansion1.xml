@@ -7,6 +7,11 @@
 			 MomentDataType="MOMENT_DATA_UNIT"
 			 GameDataType="UNIT_UNIQUE_BATTLESHIP_NAGATO"
 			 Texture="YNL_MOMENT_UNIQUE_BATTLESHIP_NAGATO.dds"/>
+		<!-- ながと型ミサイル護衛艦 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO"
+			 Texture="YNL_MOMENT_UNIQUE_MISSILE_CRUISER_NAGATO.dds"/>
 		<!-- 家船 -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT"
 			 MomentDataType="MOMENT_DATA_IMPROVEMENT"
