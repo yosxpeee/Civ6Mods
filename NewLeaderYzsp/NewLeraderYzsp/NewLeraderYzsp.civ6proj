@@ -20,7 +20,8 @@
 						StandardPlayers::LEADER_YNL_GO_IS_GOD,    Players:Expansion1_Players::LEADER_YNL_GO_IS_GOD,    Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD,
 						StandardPlayers::LEADER_YNL_VIOLENCE_MAN, Players:Expansion1_Players::LEADER_YNL_VIOLENCE_MAN, Players:Expansion2_Players::LEADER_YNL_VIOLENCE_MAN,
 						StandardPlayers::LEADER_YNL_TNOK,         Players:Expansion1_Players::LEADER_YNL_TNOK,         Players:Expansion2_Players::LEADER_YNL_TNOK,
-						StandardPlayers::LEADER_YNL_TDN,          Players:Expansion1_Players::LEADER_YNL_TDN,          Players:Expansion2_Players::LEADER_YNL_TDN
+						StandardPlayers::LEADER_YNL_TDN,          Players:Expansion1_Players::LEADER_YNL_TDN,          Players:Expansion2_Players::LEADER_YNL_TDN,
+						StandardPlayers::LEADER_YNL_MUR,          Players:Expansion1_Players::LEADER_YNL_MUR,          Players:Expansion2_Players::LEADER_YNL_MUR
 					</LeaderPlayable>
 				</Criteria>
 				<Criteria id="LeaderCriteriaExpansion1">
@@ -29,7 +30,8 @@
 						Players:Expansion1_Players::LEADER_YNL_GO_IS_GOD,    Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD,
 						Players:Expansion1_Players::LEADER_YNL_VIOLENCE_MAN, Players:Expansion2_Players::LEADER_YNL_VIOLENCE_MAN,
 						Players:Expansion1_Players::LEADER_YNL_TNOK,         Players:Expansion2_Players::LEADER_YNL_TNOK,
-						Players:Expansion1_Players::LEADER_YNL_TDN,          Players:Expansion2_Players::LEADER_YNL_TDN
+						Players:Expansion1_Players::LEADER_YNL_TDN,          Players:Expansion2_Players::LEADER_YNL_TDN,
+						Players:Expansion1_Players::LEADER_YNL_MUR,          Players:Expansion2_Players::LEADER_YNL_MUR
 					</LeaderPlayable>
 				</Criteria>
 				<Criteria id="LeaderCriteriaExpansion2">
@@ -38,7 +40,8 @@
 						Players:Expansion2_Players::LEADER_YNL_GO_IS_GOD,
 						Players:Expansion2_Players::LEADER_YNL_VIOLENCE_MAN,
 						Players:Expansion2_Players::LEADER_YNL_TNOK,
-						Players:Expansion2_Players::LEADER_YNL_TDN
+						Players:Expansion2_Players::LEADER_YNL_TDN,
+						Players:Expansion2_Players::LEADER_YNL_MUR
 					</LeaderPlayable>
 				</Criteria>
 		</ActionCriteria>]]></ActionCriteriaData>
