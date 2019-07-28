@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="LEADER_SAMPLELEADER"       Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_SAMPLELEADER" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 指導者の主定義 -->
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_SAMPLELEADER</LeaderType>
+			<Name>LOC_LEADER_SAMPLELEADER_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SAMPLELEADER" Quote="LOC_LEADER_SAMPLELEADER_QUOTE"/>
+	</LeaderQuotes>
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SAMPLELEADER" TraitType="TRAIT_LEADER_SAMPLELEADER"/>
+	</LeaderTraits>
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_SAMPLELEADER" Name="LOC_TRAIT_LEADER_SAMPLELEADER_NAME" Description="LOC_TRAIT_LEADER_SAMPLELEADER_DESCRIPTION"/>
+	</Traits>
+	<!--- 固有アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_SAMPLELEADER" AgendaType="AGENDA_BUSHIDO"/>
+	</HistoricalAgendas>
+	<!-- 好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_SAMPLELEADER" ReligionType="RELIGION_ISLAM"/>
+	</FavoredReligions>
+	<!-- 外交画面、ローディング画面 -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_SAMPLELEADER" BackgroundImage="hogehoge_DiplomacyInfo_Background.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_SAMPLELEADER" ForegroundImage="hogehoge_LoadingInfo_Foreground.dds" BackgroundImage="hogehoge_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_SAMPLELEADER_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+</GameData>

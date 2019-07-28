@@ -1,0 +1,16 @@
+<Database>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_SAMPLELEADER</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_SAMPLELEADER_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_SAMPLELEADER_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_GREEN_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_GREEN_DK</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_PURPLE_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_PURPLE_DK</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_AQUA_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_AQUA_DK</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</Database>

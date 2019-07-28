@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_SAMPLECIV_NAME" Language="ja_JP">
+			<Text>超サンプル文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SAMPLECIV_DESCRIPTION" Language="ja_JP">
+			<Text>高貴なる超サンプル文明</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SAMPLECIV_ADJECTIVE" Language="ja_JP">
+			<Text>超サンプル文明の</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SAMPLECIV_NAME" Language="ja_JP">
+			<Text>超サンプル文明の特性</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SAMPLECIV_DESCRIPTION" Language="ja_JP">
+			<Text>特性なし</Text>
+		</Row>
+
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_SAMPLELEADER_NAME" Language="ja_JP">
+			<Text>超サンプル指導者</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAMPLELEADER_NAME" Language="ja_JP">
+			<Text>超サンプル指導者の特性</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAMPLELEADER_DESCRIPTION" Language="ja_JP">
+			<Text>特性なし</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

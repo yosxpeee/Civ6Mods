@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SAMPLECIV</CivilizationType>
+			<LeaderType>LEADER_SAMPLELEADER</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_SAMPLECIV_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_SAMPLECIV</CivilizationIcon>
+			<LeaderName>LOC_LEADER_SAMPLELEADER_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_SAMPLELEADER</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_SAMPLECIV_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_SAMPLECIV_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_SAMPLECIV</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_SAMPLELEADER_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_SAMPLELEADER_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_SAMPLELEADER</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_SAMPLELEADER</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+
+	</PlayerItems>
+</GameData>

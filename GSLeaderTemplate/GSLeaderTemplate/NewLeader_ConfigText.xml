@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_SAMPLECIV_NAME" Language="en_US">
+			<Text>Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SAMPLECIV_DESCRIPTION" Language="en_US">
+			<Text>The Majestic Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SAMPLECIV_ADJECTIVE" Language="en_US">
+			<Text>Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SAMPLECIV_NAME" Language="en_US">
+			<Text>Super Sample Civilization's Traits</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SAMPLECIV_DESCRIPTION" Language="en_US">
+			<Text>No traits</Text>
+		</Row>
+
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_SAMPLELEADER_NAME" Language="en_US">
+			<Text>Super Sample Leader</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAMPLELEADER_NAME" Language="en_US">
+			<Text>Super Sample Leader's Traits</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAMPLELEADER_DESCRIPTION" Language="en_US">
+			<Text>No traits</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

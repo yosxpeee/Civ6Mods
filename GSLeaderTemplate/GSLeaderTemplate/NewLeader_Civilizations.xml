@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="CIVILIZATION_SAMPLECIV"       Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_SAMPLECIV" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_SAMPLECIV</CivilizationType>
+			<Name>LOC_CIVILIZATION_SAMPLECIV_NAME</Name>
+			<Description>LOC_CIVILIZATION_SAMPLECIV_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_SAMPLECIV_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+		</Row>
+	</Civilizations>
+	<!-- 文明に属する指導者 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" LeaderType="LEADER_SAMPLELEADER" CapitalName="LOC_CIVLIZATION_SAMPLECIV_CITY_1" />
+	</CivilizationLeaders>
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" TraitType="TRAIT_CIVILIZATION_SAMPLECIV" />
+	</CivilizationTraits>
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_SAMPLECIV" Name="LOC_TRAIT_CIVILIZATION_SAMPLECIV_NAME" Description="LOC_TRAIT_CIVILIZATION_SAMPLECIV_DESCRIPTION"/>
+	</Traits>
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CitizenName="LOC_CITIZEN_SAMPLECIV_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_SAMPLECIV" CityName="LOC_CIVLIZATION_SAMPLECIV_CITY_10" />
+	</CityNames>
+</GameData>

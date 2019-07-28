@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_SAMPLELEADER_PRIMARY</Type>
+			<Color>255,255,255,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_SAMPLELEADER_SECONDARY</Type>
+			<Color>0,0,0,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>

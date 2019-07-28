@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/NewLeader_Icons"/>
+	<m_Entries>
+		<!-- Civilization -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SAMPLECIV256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SAMPLECIV256"/>
+		</Element>
+		<!-- Leader -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAMPLELEADER32"/>
+			<m_ObjectName text="ICON_LEADER_SAMPLELEADER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAMPLELEADER45"/>
+			<m_ObjectName text="ICON_LEADER_SAMPLELEADER45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAMPLELEADER50"/>
+			<m_ObjectName text="ICON_LEADER_SAMPLELEADER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAMPLELEADER55"/>
+			<m_ObjectName text="ICON_LEADER_SAMPLELEADER55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAMPLELEADER64"/>
+			<m_ObjectName text="ICON_LEADER_SAMPLELEADER64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAMPLELEADER80"/>
+			<m_ObjectName text="ICON_LEADER_SAMPLELEADER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SAMPLELEADER256"/>
+			<m_ObjectName text="ICON_LEADER_SAMPLELEADER256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

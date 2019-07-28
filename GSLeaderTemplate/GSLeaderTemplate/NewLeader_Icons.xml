@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- 文明 -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SAMPLECIV" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SAMPLECIV256.dds"/>
+		<!-- 指導者 -->
+		<Row Name="ICON_ATLAS_LEADER_SAMPLELEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAMPLELEADER32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAMPLELEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAMPLELEADER45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAMPLELEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAMPLELEADER50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAMPLELEADER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAMPLELEADER55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAMPLELEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAMPLELEADER64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAMPLELEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAMPLELEADER80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SAMPLELEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SAMPLELEADER256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- 文明 -->
+		<Row Name="ICON_CIVILIZATION_SAMPLECIV" Atlas="ICON_ATLAS_CIVILIZATION_SAMPLECIV" Index="0"/>
+		<!-- 指導者 -->
+		<Row Name="ICON_LEADER_SAMPLELEADER" Atlas="ICON_ATLAS_LEADER_SAMPLELEADER" Index="0"/>
+	</IconDefinitions>
+</GameData>

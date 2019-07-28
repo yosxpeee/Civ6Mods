@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Example - New Leader and Civilization</Name>
+    <Guid>457b201e-bd52-49ea-8635-c2f366bcdef5</Guid>
+    <ProjectGuid>3a0eb59d-17ac-41aa-8761-25cbe34be218</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/hogehoge_DiplomacyInfo_Background.dds</File><File>Textures/hogehoge_LoadingInfo_Background.dds</File><File>Textures/hogehoge_LoadingInfo_Foreground.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:Expansion2_Players::LEADER_SAMPLELEADER</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>GSLeaderTemplate</AssemblyName>
+    <RootNamespace>GSLeaderTemplate</RootNamespace>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_CoreColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_Dialogs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_DialogsJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_LeaderAnimations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_Moments.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_PlayerColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UD.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_SAMPLELEADER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_DEFEAT_LEADER_SAMPLELEADER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_SAMPLELEADER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_HAPPY_LEADER_SAMPLELEADER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_SAMPLELEADER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_SAMPLELEADER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_STERN_LEADER_SAMPLELEADER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_SAMPLELEADER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_AI_LEADER_SAMPLELEADER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_SAMPLELEADER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_SURPRISED_HUMAN_LEADER_SAMPLELEADER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_SAMPLELEADER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_UNHAPPY_LEADER_SAMPLELEADER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hogehoge_DiplomacyInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hogehoge_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hogehoge_LoadingInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_SAMPLECIV80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_SAMPLELEADER80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_SAMPLELEADER_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_SAMPLELEADER.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_SAMPLELEADER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\NewLeader_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="NewLeader_Config.xml" />
+    <Content Include="NewLeader_ConfigText.xml" />
+    <Content Include="NewLeader_Civilizations.xml" />
+    <Content Include="NewLeader_Icons.xml" />
+    <Content Include="NewLeader_Leaders.xml" />
+    <Content Include="NewLeader_UB.xml" />
+    <Content Include="NewLeader_Text.xml" />
+    <None Include="Textures\FALLBACK_NEUTRAL_LEADER_SAMPLELEADER.tex" />
+    <None Include="Textures\LEADER_SAMPLELEADER_NEUTRAL.tex" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
