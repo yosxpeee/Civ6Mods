@@ -113,6 +113,9 @@
 		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
 			<Text>正直なところ、いささか失望した。</Text>
 		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
+			<Text>私の希望にかなう取引だ。</Text>
+		</Replace>
 		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
 			<Text>貴国の要求に得るところなしと考えられたし。</Text>
 		</Replace>
@@ -131,11 +134,29 @@
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
 			<Text>和平など受け入れられない！</Text>
 		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
+			<Text>和平を結びたいのだが？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
+			<Text>戦争の終結を知られたし。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
+			<Text>ならば戦いつづけるのみ。</Text>
+		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
 			<Text>自由に我が国の国境に入られたし。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
 			<Text>またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
+			<Text>領内の通行を許可してもらいたい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
+			<Text>これはすばらしい。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
+			<Text>それは残念。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SAMPLELEADER_ANY" Language="ja_JP">
 			<Text>これは申し訳ない！ そんな近くに都市があるとは知らなかった。</Text>

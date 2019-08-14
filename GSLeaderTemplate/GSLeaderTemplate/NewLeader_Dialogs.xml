@@ -113,6 +113,9 @@
 		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="en_US">
 			<Text>I must say, I'm a bit disappointed.</Text>
 		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_SAMPLELEADER_ANY" Language="en_US">
+			<Text>This deal is more to my liking.</Text>
+		</Replace>
 		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_SAMPLELEADER_ANY" Language="en_US">
 			<Text>Making demands will get you nowhere.</Text>
 		</Replace>
@@ -131,11 +134,29 @@
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAMPLELEADER_ANY" Language="en_US">
 			<Text>There can be no peace between us!</Text>
 		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="en_US">
+			<Text>Peace, mmkay?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="en_US">
+			<Text>The war is over.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="en_US">
+			<Text>Then the war continues.</Text>
+		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAMPLELEADER_ANY" Language="en_US">
 			<Text>We are happy to open up our borders to your units.</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAMPLELEADER_ANY" Language="en_US">
 			<Text>We are not interested at this time.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="en_US">
+			<Text>Will you allow our units to cross through your territory?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="en_US">
+			<Text>Excellent!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_SAMPLELEADER_ANY" Language="en_US">
+			<Text>That is unfortunate.</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_SAMPLELEADER_ANY" Language="en_US">
 			<Text>My sincerest apologies! I didn't notice your city was so close.</Text>
