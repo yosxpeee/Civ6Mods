@@ -893,5 +893,9 @@
 		<Replace Tag="LOC_ABILITY_NAGATO_RANGED_DEFENSE_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>長距離戦闘ユニット防衛時に戦闘力+{1_Amount}</Text>
 		</Replace>
+
+		<Replace Tag="LOC_ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION" Language="ja_JP">
+			<Text>敵ユニットを倒すと [ICON_Damaged] 体力+50。(長門)</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

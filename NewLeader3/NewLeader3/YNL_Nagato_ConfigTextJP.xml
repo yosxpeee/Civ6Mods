@@ -46,6 +46,9 @@
 		<Replace Tag="LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION" Language="ja_JP">
 			<Text>海の民固有の建造物。この都市で訓練を受けた海洋ユニットの戦闘経験値+25%、港 (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。[ICON_Science] 科学力+2、[ICON_Housing] 住宅+1、[ICON_GreatAdmiral] 大提督ポイント+2。</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_IMP_NAVYYARD_EXPANSION2_DESCRIPTION" Language="ja_JP">
+			<Text>海の民固有の建造物。この都市で訓練を受けた海洋ユニットの戦闘経験値+25%、港 (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。[ICON_Science] 科学力+2、[ICON_Housing] 住宅+1、[ICON_GreatAdmiral] 大提督ポイント+2。この都市の未開発沿岸タイルごとに [ICON_PRODUCTION] 生産力+1。</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_IMP_NAVYYARD_NAME" Language="ja_JP">
 			<Text>海の民固有の建造物: 帝国海軍工廠</Text>
 		</Replace>

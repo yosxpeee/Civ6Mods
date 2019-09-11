@@ -106,7 +106,7 @@
 		<Row>
 			<ModifierId>HERO_OF_TIME_HYLIAN_AMBULANCE_UNIT_COMBAT</ModifierId>
 			<Name>Amount</Name>
-			<Value>20</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>HYLIAN_AMBULANCE_BONUS_MOVEMENT</ModifierId>
@@ -156,11 +156,11 @@
 	<Requirements>
 		<Row>
 			<RequirementId>HERO_OF_TIME_ADJACENT_MEDIC_BONUS_REQUIREMENTS</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_UNIT_TYPE_MATCHES</RequirementType>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
 		<Row>
 			<RequirementId>HERO_OF_TIME_ADJACENT_HYLIAN_AMBULANCE_BONUS_REQUIREMENTS</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_UNIT_TYPE_MATCHES</RequirementType>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
 		<!-- 夜戦救急車隣接で移動力+1 -->
 		<Row>
@@ -171,13 +171,13 @@
 	<RequirementArguments>
 		<Row>
 			<RequirementId>HERO_OF_TIME_ADJACENT_MEDIC_BONUS_REQUIREMENTS</RequirementId>
-			<Name>UnitType</Name>
-			<Value>UNIT_MEDIC</Value>
+			<Name>Tag</Name>
+			<Value>CLASS_MEDIC</Value>
 		</Row>
 		<Row>
 			<RequirementId>HERO_OF_TIME_ADJACENT_HYLIAN_AMBULANCE_BONUS_REQUIREMENTS</RequirementId>
-			<Name>UnitType</Name>
-			<Value>UNIT_HYLIAN_AMBULANCE</Value>
+			<Name>Tag</Name>
+			<Value>CLASS_HYLIAN_AMBULANCE</Value>
 		</Row>
 		<!-- 夜戦救急車隣接で移動力+1 -->
 		<Row>

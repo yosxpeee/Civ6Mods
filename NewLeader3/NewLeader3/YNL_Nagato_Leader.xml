@@ -57,7 +57,8 @@
 		</Row>
 		<Row>
 			<ModifierId>HEAL_AFTER_DEFEATING_UNIT_NAGATO</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_FROM_COMBAT</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+<!--			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_FROM_COMBAT</ModifierType>-->
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT_NAGATO</ModifierId>
@@ -81,8 +82,8 @@
 		</Row>
 		<Row>
 			<ModifierId>HEAL_AFTER_DEFEATING_UNIT_NAGATO</ModifierId>
-			<Name>Amount</Name>
-			<Value>50</Value>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT_NAGATO</ModifierId>

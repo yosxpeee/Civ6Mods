@@ -893,5 +893,9 @@
 		<Row Tag="LOC_ABILITY_NAGATO_RANGED_DEFENSE_MODIFIER_DESCRIPTION" Language="en_US">
 			<Text>+{1_Amount} Combat Strength when defending Ranged</Text>
 		</Row>
+
+		<Row Tag="LOC_ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION" Language="en_US">
+			<Text>+50 [ICON_Damaged] Health after defeating an enemy unit. (Nagato)</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

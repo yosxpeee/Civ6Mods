@@ -121,6 +121,13 @@
 			<Text>+9 [ICON_Strength] Strength when attacking to naval raider unit</Text>
 		</Row>
 
+		<Row Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_NAME" Language="en_US">
+			<Text>Observed fire</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Range] Range when Adjecent Ka Type Observation Autogyro.</Text>
+		</Row>
+		
 		<Row Tag="LOC_ABILITY_UNIT_YNL_KENPEI_NAME" Language="en_US">
 			<Text>Kenpei's Honor</Text>
 		</Row>

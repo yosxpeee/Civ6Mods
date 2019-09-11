@@ -5,7 +5,7 @@
 		<Row Type="ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU"   Kind="KIND_ABILITY"/>
 		<!-- カ号が隣接している場合射程+1 -->
 		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Kind="KIND_ABILITY"/>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row Type="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Kind="KIND_ABILITY"/>
 		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
 		<Row Type="ABILITY_UNIT_YNL_KENPEI"                    Kind="KIND_ABILITY"/>
@@ -17,7 +17,7 @@
 		<Row Type="ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU"   Tag="CLASS_KAGOU"/>
 		<!-- カ号が隣接している場合射程+1 -->
 		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Tag="CLASS_FORWARD_KAGOU1"/>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row Type="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Tag="CLASS_FORWARD_KAGOU2"/>
 		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
 		<Row Type="ABILITY_UNIT_YNL_KENPEI"                    Tag="CLASS_YNL_KENPEI"/>
@@ -35,7 +35,7 @@
 		<Row UnitAbilityType="ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU"   Name="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_NAME"   Description="LOC_ABILITY_UNOBSTRUCTED_VIEW_YNL_AKITSUMARU_DESCRIPTION"/>
 		<!-- カ号が隣接している場合射程+1 -->
 		<Row UnitAbilityType="ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU" Name="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_NAME" Description="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_DESCRIPTION"/>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row UnitAbilityType="ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU"     Name="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_NAME"     Description="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION"/>
 		<!-- 憲兵がユニットを倒すと大将軍ポイント+5 -->
 		<Row UnitAbilityType="ABILITY_UNIT_YNL_KENPEI"                    Name="LOC_ABILITY_UNIT_YNL_KENPEI_NAME"                    Description="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION"/>
@@ -57,7 +57,7 @@
 			<UnitAbilityType>ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU</UnitAbilityType>
 			<ModifierId>RECEIVE_RANGE_BONUS_YNL_AKITSUMARU</ModifierId>
 		</Row>
-		<!-- カ号がスタックしている場合海洋略奪ユニットへの攻撃力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットへの攻撃力+9 -->
 		<Row>
 			<UnitAbilityType>ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU</UnitAbilityType>
 			<ModifierId>MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU</ModifierId>
@@ -81,7 +81,7 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
 			<SubjectRequirementSetId>RANGE_BONUS_REQUIREMENTS_YNL_AKITSUMARU</SubjectRequirementSetId>
 		</Row>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row>
 			<ModifierId>MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
@@ -106,7 +106,7 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row>
 			<ModifierId>MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU</ModifierId>
 			<Name>Amount</Name>
@@ -141,7 +141,7 @@
 			<RequirementSetId>RANGE_BONUS_REQUIREMENTS_YNL_AKITSUMARU</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row>
 			<RequirementSetId>YNL_UNIT_KAGOU_ADJACENT_VS_NAVAL_RAIDER_BONUS_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
@@ -153,9 +153,9 @@
 			<RequirementSetId>RANGE_BONUS_REQUIREMENTS_YNL_AKITSUMARU</RequirementSetId>
 			<RequirementId>ADJACENT_FRIENDLY_OBSERVER_UNIT_REQUIREMENT_YNL_AKITSUMARU</RequirementId>
 		</Row>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row>
-			<!-- カ号スタック -->
+			<!-- カ号隣接 -->
 			<RequirementSetId>YNL_UNIT_KAGOU_ADJACENT_VS_NAVAL_RAIDER_BONUS_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_KAGOU</RequirementId>
 		</Row>
@@ -171,11 +171,11 @@
 			<RequirementId>ADJACENT_FRIENDLY_OBSERVER_UNIT_REQUIREMENT_YNL_AKITSUMARU</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row>
-			<!-- カ号スタック -->
+			<!-- カ号隣接 -->
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_KAGOU</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_UNIT_TYPE_MATCHES</RequirementType>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
 		<Row>
 			<!-- 海洋略奪ユニット攻撃時 -->
@@ -190,12 +190,12 @@
 			<Name>Tag</Name>
 			<Value>CLASS_KAGOU</Value>
 		</Row>
-		<!-- カ号がスタックしている場合海洋略奪ユニットに対する戦闘力+9 -->
+		<!-- カ号が隣接している場合海洋略奪ユニットに対する戦闘力+9 -->
 		<Row>
-			<!-- カ号スタック -->
+			<!-- カ号隣接 -->
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_KAGOU</RequirementId>
-			<Name>UnitType</Name>
-			<Value>UNIT_KAGOU</Value>
+			<Name>Tag</Name>
+			<Value>CLASS_KAGOU</Value>
 		</Row>
 		<Row>
 			<!-- 海洋略奪ユニット攻撃時 -->

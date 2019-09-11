@@ -50,4 +50,8 @@
 	<Building_TourismBombs_XP2>
 		<Row BuildingType="BUILDING_IMP_NAVYYARD" TourismBombValue="500"/>
 	</Building_TourismBombs_XP2>
+	<!-- 建造物の効果 -->
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_IMP_NAVYYARD" ModifierId="SHIPYARD_UNIMPROVED_COAST_PRODUCTION"/>
+	</BuildingModifiers>
 </GameData>
