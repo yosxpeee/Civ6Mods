@@ -13,10 +13,12 @@
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
+	<!-- 出力 -->
 	<Improvement_YieldChanges>
 		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" YieldType="YIELD_GOLD"       YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_HOUSEBOAT" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</Improvement_YieldChanges>
+	<!-- テクノロジー取得による出力 -->
 	<Improvement_BonusYieldChanges>
 		<Row Id="51" ImprovementType="IMPROVEMENT_HOUSEBOAT" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_MASS_PRODUCTION"/>
 	</Improvement_BonusYieldChanges>

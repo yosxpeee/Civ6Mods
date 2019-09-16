@@ -9,19 +9,87 @@
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_IMP_NAVYYARD" ReplacesBuildingType="BUILDING_SHIPYARD"/>
 	</BuildingReplaces>
+	<!-- 出力 -->
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_IMP_NAVYYARD" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 	</Building_YieldChanges>
+	<!-- 偉人ポイント -->
 	<Building_GreatPersonPoints>
 		<Row BuildingType="BUILDING_IMP_NAVYYARD" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="2"/>
 	</Building_GreatPersonPoints>
+	<!-- 区域の隣接ボーナスのコピー -->
 	<Building_YieldDistrictCopies>
 		<Row BuildingType="BUILDING_IMP_NAVYYARD" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_PRODUCTION"/>
 	</Building_YieldDistrictCopies>
+	<!-- 建設条件 -->
+	<BuildingPrereqs>
+		<Row Building="BUILDING_IMP_NAVYYARD" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+	</BuildingPrereqs>
+	<!-- 建物の特殊能力 -->
 	<BuildingModifiers>
+		<!-- 取得経験値増加 -->
 		<Row>
 			<BuildingType>BUILDING_IMP_NAVYYARD</BuildingType>
-			<ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierId>IMP_NAVYYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<!-- 家船の生産力+1 -->
+		<Row>
+			<BuildingType>BUILDING_IMP_NAVYYARD</BuildingType>
+			<ModifierId>IMP_NAVYYARD_FOOD_MODIFIER</ModifierId>
 		</Row>
 	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>IMP_NAVYYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>IMP_NAVYYARD_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>IMP_NAVYYARD_FOOD_MODIFIER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>IMP_NAVYYARD_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_NAVYYARD_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMP_NAVYYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>IMP_NAVYYARD_FOOD_MODIFIER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>IMP_NAVYYARD_FOOD_MODIFIER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_HOUSEBOAT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_HOUSEBOAT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_HOUSEBOAT</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_HOUSEBOAT</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

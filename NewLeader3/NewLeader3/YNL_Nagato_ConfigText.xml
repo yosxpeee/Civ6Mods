@@ -44,10 +44,10 @@
 			<Text>Imperial Navy Yard</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Peoples of the Sea. +25% combat experience for all naval units trained in this city. Bonus [ICON_Production] Production equal to the adjacency bonus of the Harbor district. +2 [ICON_Science] Science, +1 [ICON_Housing] Housing. +2 [ICON_GreatAdmiral] great admiral points per turn.</Text>
+			<Text>A building unique to Peoples of the Sea. +25% combat experience for all naval units trained in this city. Bonus [ICON_Production] Production equal to the adjacency bonus of the Harbor district. +2 [ICON_Science] Science, +1 [ICON_Housing] Housing. +2 [ICON_GreatAdmiral] great admiral points per turn. +1 [ICON_FOOD] Food for each House Boat in this city.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_IMP_NAVYYARD_EXPANSION2_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Peoples of the Sea. +25% combat experience for all naval units trained in this city. Bonus [ICON_Production] Production equal to the adjacency bonus of the Harbor district. +2 [ICON_Science] Science, +1 [ICON_Housing] Housing. +2 [ICON_GreatAdmiral] great admiral points per turn. +1 [ICON_PRODUCTION] Production on all unimproved Coast tiles for this city. </Text>
+			<Text>A building unique to Peoples of the Sea. +25% combat experience for all naval units trained in this city. Bonus [ICON_Production] Production equal to the adjacency bonus of the Harbor district. +2 [ICON_Science] Science, +1 [ICON_Housing] Housing. +2 [ICON_GreatAdmiral] great admiral points per turn. +1 [ICON_FOOD] Food for each House Boat in this city. +1 [ICON_PRODUCTION] Production on all unimproved Coast tiles for this city. </Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_IMP_NAVYYARD_NAME" Language="en_US">
 			<Text>Peoples of the Sea unique building: Imperial Navy Yard</Text>

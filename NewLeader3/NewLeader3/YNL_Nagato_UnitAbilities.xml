@@ -2,8 +2,13 @@
 <GameData>
 	<Types>
 		<Row Type="ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP" Kind="KIND_ABILITY"/>
 	</Types>
 	<TypeTags>
+		<Row Type="ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP" Tag="CLASS_NAVAL_CARRIER"/>
 		<Row Type="ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT" Tag="CLASS_RECON"/>
 		<Row Type="ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT" Tag="CLASS_MELEE"/>
 		<Row Type="ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT" Tag="CLASS_RANGED"/>
@@ -19,9 +24,14 @@
 		<Row Type="ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT" Tag="CLASS_RANGED_CAVALRY"/>
 	</TypeTags>
 	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP" Name="LOC_ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP_NAME" Description="LOC_ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP_DESCRIPTION" Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT" Name="LOC_ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT_NAME" Description="LOC_ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION" Inactive="true"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP</UnitAbilityType>
+			<ModifierId>IMP_NAVYYARD_TRAINED_UNIT_XP</ModifierId>
+		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT</UnitAbilityType>
 			<ModifierId>NAGATO_HEAL_AFTER_DEFEATING_UNIT</ModifierId>
@@ -29,11 +39,21 @@
 	</UnitAbilityModifiers>
 	<Modifiers>
 		<Row>
+			<ModifierId>IMP_NAVYYARD_TRAINED_UNIT_XP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
 			<ModifierId>NAGATO_HEAL_AFTER_DEFEATING_UNIT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_FROM_COMBAT</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>IMP_NAVYYARD_TRAINED_UNIT_XP</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
 		<Row>
 			<ModifierId>NAGATO_HEAL_AFTER_DEFEATING_UNIT</ModifierId>
 			<Name>Amount</Name>

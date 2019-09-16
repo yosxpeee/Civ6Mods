@@ -894,7 +894,10 @@
 			<Text>+{1_Amount} Combat Strength when defending Ranged</Text>
 		</Row>
 
-		<Row Tag="LOC_ABILITY_TOMYRIS_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION" Language="en_US">
+		<Row Tag="LOC_ABILITY_IMP_NAVYYARD_TRAINED_UNIT_XP_DESCRIPTION" Language="en_US">
+			<Text>+25% Earned experience from Imperial Navy Yard</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION" Language="en_US">
 			<Text>+50 [ICON_Damaged] Health after defeating an enemy unit. (Nagato)</Text>
 		</Row>
 	</LocalizedText>
