@@ -22,15 +22,15 @@
 			<Text>Land of the Rising Sun</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
-			<Text>Each city can build one more district than usual (exceeding the normal limit based on [ICON_Citizen] Population). Builds Encampment and Industrial Zone districts in half the time. </Text>
+			<Text>Each city can build one more district than usual (exceeding the normal limit based on [ICON_Citizen] Population). Builds Encampment and Industrial Zone districts in half the time. +50% [ICON_Production] Production toward Melee units.</Text>
 		</Row>
 
 		<!-- Leader Traits -->
 		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_NAME" Language="en_US">
-			<Text>Imperial Army's Pride</Text>
+			<Text>Pioneer of assault ship</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
-			<Text>Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking. Land units receive +5 [ICON_Strength] Combat Strength in land tiles adjacent to Coast. naval units receive +5 [ICON_Strength] Combat Strength in shallow water tiles. +50% [ICON_Production] Production toward Melee units.</Text>
+			<Text>Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking. Land units receive +5 [ICON_Strength] Combat Strength in land tiles adjacent to Coast. naval units receive +5 [ICON_Strength] Combat Strength in shallow water tiles.</Text>
 		</Row>
 
 		<!-- DOM_TEXT -->

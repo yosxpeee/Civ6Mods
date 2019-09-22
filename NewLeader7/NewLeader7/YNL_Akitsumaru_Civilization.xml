@@ -51,6 +51,15 @@
 		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>
 		<!-- 工業地帯建造時間半分 -->
 		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU"/>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>
+		<!-- 陸上近接攻撃ユニット生産ボーナス -->
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>
 	</TraitModifiers>
 	<!-- Modifier系 -->
 	<Modifiers>
@@ -58,6 +67,39 @@
 		<Row>
 			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- 各時代ごとの陸上近接戦闘ユニット生産ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -71,6 +113,127 @@
 			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
 			<Name>Amount</Name>
 			<Value>100</Value>
+		</Row>
+		<!-- 各時代ごとの陸上近接戦闘ユニット生産ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
 	<CityNames>
