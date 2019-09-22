@@ -30,9 +30,17 @@
 		<Row TraitType="TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY" Name="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME"/>
 	</Traits>
 	<TraitModifiers>
+		<!-- 乗船および下船時に追加の移動コストがかからなくなる(バニラのノルウェーと同じ) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_AKITSUMARU</TraitType>
+			<ModifierId>TRAIT_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
+		</Row>
+		<!-- 沿岸タイルにいる海洋ユニットの戦闘力+5(バニラの北条時宗と同じ) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_AKITSUMARU</TraitType>
+			<ModifierId>TRAIT_COMBAT_BONUS_NAVAL_SHALLOW_WATER</ModifierId>
+		</Row>
 		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_COMBAT_BONUS_LAND_ON_COAST"/>						<!-- 海に接した陸上タイルにいる陸上ユニットの戦闘力+5(バニラ) -->
-		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>						<!-- 兵営建造時間半分(バニラ) -->
-		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU"/>	<!-- 工業地帯建造時間半分 -->
 		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>		<!-- 陸上近接攻撃ユニット生産ボーナス：古代 -->
 		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_CLASSICAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>	<!-- 陸上近接攻撃ユニット生産ボーナス：古典 -->
 		<Row TraitType="TRAIT_LEADER_YNL_AKITSUMARU" ModifierId="TRAIT_MEDIEVAL_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU"/>		<!-- 陸上近接攻撃ユニット生産ボーナス：中世 -->
@@ -45,11 +53,6 @@
 	
 	<!-- Modifier系 -->
 	<Modifiers>
-		<!-- 工業地帯建造時間半分 -->
-		<Row>
-			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
-		</Row>
 		<!-- 各時代ごとの陸上近接戦闘ユニット生産ボーナス -->
 		<Row>
 			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>
@@ -85,17 +88,6 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<!-- 工業地帯建造時間半分 -->
-		<Row>
-			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
-			<Name>Amount</Name>
-			<Value>100</Value>
-		</Row>
 		<!-- 各時代ごとの陸上近接戦闘ユニット生産ボーナス -->
 		<Row>
 			<ModifierId>TRAIT_ANCIENT_MELEE_UNIT_PRODUCTION_YNL_AKITSUMARU</ModifierId>

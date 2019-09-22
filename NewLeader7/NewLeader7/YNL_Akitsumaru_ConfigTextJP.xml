@@ -22,7 +22,7 @@
 			<Text>日出ずる国</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
-			<Text>乗船時と下船時に追加の [ICON_Movement] 移動コストがかからなくなる。各都市に ([ICON_Citizen] 人口にもとづく通常の制限を超えて) 1つ多く区域を建設できる。浅瀬タイルにいる海洋ユニットが [ICON_Strength] 戦闘力+5のボーナスを得る。</Text>
+			<Text>各都市に ([ICON_Citizen] 人口にもとづく通常の制限を超えて) 1つ多く区域を建設できる。兵営、工業地帯 (区域) の建設にかかる時間が半分になる。</Text>
 		</Row>
 
 		<!-- Leader Traits -->
@@ -30,7 +30,7 @@
 			<Text>帝国陸軍の誇り</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
-			<Text>兵営、工業地帯 (区域) の建設にかかる時間が半分になる。陸上近接戦闘ユニットの [ICON_Production] 生産力+50%。海に接した陸上タイルにいる陸上ユニットが [ICON_Strength] 戦闘力+5のボーナス。</Text>
+			<Text>乗船時と下船時に追加の [ICON_Movement] 移動コストがかからなくなる。海に接した陸上タイルにいる陸上ユニットが [ICON_Strength] 戦闘力+5のボーナス。浅瀬タイルにいる海洋ユニットが [ICON_Strength] 戦闘力+5のボーナスを得る。陸上近接戦闘ユニットの [ICON_Production] 生産力+50%。</Text>
 		</Row>
 
 		<!-- DOM_TEXT -->

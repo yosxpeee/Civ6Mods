@@ -41,23 +41,38 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_YNL_KENPEI" Name="LOC_TRAIT_CIVILIZATION_UNIT_YNL_KENPEI_NAME"/>
 	</Traits>
 	<TraitModifiers>
-		<!-- 乗船および下船時に追加の移動コストがかからなくなる(バニラのノルウェーと同じ) -->
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_YNL_AKITSUMARU</TraitType>
-			<ModifierId>TRAIT_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
-		</Row>
+
 		<!-- 区域を人口制限よりも1つ多く建設できる(バニラのドイツと同じ) -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_YNL_AKITSUMARU</TraitType>
 			<ModifierId>TRAIT_EXTRA_DISTRICT_EACH_CITY</ModifierId>
 		</Row>
-		<!-- 沿岸タイルにいる海洋ユニットの戦闘力+5(バニラの北条時宗と同じ) -->
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_YNL_AKITSUMARU</TraitType>
-			<ModifierId>TRAIT_COMBAT_BONUS_NAVAL_SHALLOW_WATER</ModifierId>
-		</Row>
+		<!-- 兵営建造時間半分(バニラ) -->
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>
+		<!-- 工業地帯建造時間半分 -->
+		<Row TraitType="TRAIT_CIVILIZATION_YNL_AKITSUMARU" ModifierId="TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU"/>
 	</TraitModifiers>
-
+	<!-- Modifier系 -->
+	<Modifiers>
+		<!-- 工業地帯建造時間半分 -->
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 工業地帯建造時間半分 -->
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BOOST_INDUSTRIAL_ZONE_PRODUCTION_YNL_AKITSUMARU</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_2" />
