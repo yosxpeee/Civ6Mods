@@ -11,6 +11,11 @@
 		<Row Type="ABILITY_UNIT_YNL_KENPEI"                    Kind="KIND_ABILITY"/>
 		<!-- 帝国陸軍兵器廠の経験値アップ -->
 		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP"    Kind="KIND_ABILITY"/>
+		<!-- 乗船および下船時に追加の移動コストがかからなくなる -->
+		<Row Type="ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST" Kind="KIND_ABILITY"/>
+		<!-- 沿岸、浅瀬の戦闘ボーナス -->
+		<Row Type="ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS"       Kind="KIND_ABILITY"/>
 	</Types>
 	<TypeTags>
 		<!-- FEATUREを見通す -->
@@ -28,6 +33,22 @@
 		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP" Tag="CLASS_SIEGE"/>
+		<!-- 乗船および下船時に追加の移動コストがかからなくなる -->
+		<Row Type="ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST" Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST" Tag="CLASS_SUPPORT"/>
+		<!-- 沿岸、浅瀬の戦闘ボーナス -->
+		<Row Type="ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS" Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS" Tag="CLASS_SIEGE"/>
 	</TypeTags>
 	
 	<UnitAbilities>
@@ -41,6 +62,11 @@
 		<Row UnitAbilityType="ABILITY_UNIT_YNL_KENPEI"                    Name="LOC_ABILITY_UNIT_YNL_KENPEI_NAME"                    Description="LOC_ABILITY_UNIT_YNL_KENPEI_DESCRIPTION"/>
 		<!-- 帝国陸軍兵器廠の経験値アップ -->
 		<Row UnitAbilityType="ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP"    Name="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_NAME"    Description="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION" Inactive="true"/>
+		<!-- 乗船および下船時に追加の移動コストがかからなくなる -->
+		<Row UnitAbilityType="ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST" Name="LOC_ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST_NAME" Description="LOC_ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION" Inactive="true"/>
+		<!-- 沿岸、浅瀬の戦闘ボーナス -->
+		<Row UnitAbilityType="ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS" Name="LOC_ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS_NAME" Description="LOC_ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS"       Name="LOC_ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS_NAME"       Description="LOC_ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS_DESCRIPTION"       Inactive="true"/>
 	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<!-- FEATURE、TERRAINを見通す -->
@@ -72,6 +98,20 @@
 			<UnitAbilityType>ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP</UnitAbilityType>
 			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP</ModifierId>
 		</Row>
+		<!-- 乗船および下船時に追加の移動コストがかからなくなる -->
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST</UnitAbilityType>
+			<ModifierId>YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
+		</Row>
+		<!-- 沿岸、浅瀬の戦闘ボーナス -->
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS</UnitAbilityType>
+			<ModifierId>YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS</UnitAbilityType>
+			<ModifierId>YNL_AKITSUMARU_COASTAL_COMBAT_BONUS</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 
 	<Modifiers>
@@ -97,6 +137,22 @@
 			<ModifierId>IMP_ARMY_ARMORY_TRAINED_UNIT_XP</ModifierId>
 			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
 			<Permanent>true</Permanent>
+		</Row>
+		<!-- 乗船および下船時に追加の移動コストがかからなくなる -->
+		<Row>
+			<ModifierId>YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_SHORES</ModifierType>
+		</Row>
+		<!-- 沿岸、浅瀬の戦闘ボーナス -->
+		<Row>
+			<ModifierId>YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_IN_SHALLOW_WATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>YNL_AKITSUMARU_COASTAL_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_ON_COAST</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -129,10 +185,29 @@
 			<Name>Amount</Name>
 			<Value>50</Value>
 		</Row>
+		<!-- 乗船および下船時に追加の移動コストがかからなくなる -->
+		<Row>
+			<ModifierId>YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<!-- 沿岸、浅瀬の戦闘ボーナス -->
+		<Row>
+			<ModifierId>YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_AKITSUMARU_COASTAL_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 	</ModifierArguments>
 	
 	<ModifierStrings>
-		<Row ModifierId="MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU" Context="Preview" Text="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS" Context="Preview" Text="LOC_PROMOTION_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION"/>
+		<Row ModifierId="YNL_AKITSUMARU_COASTAL_COMBAT_BONUS"       Context="Preview" Text="LOC_PROMOTION_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS_DESCRIPTION"/>
+		<Row ModifierId="MODIFIER_VS_NAVAL_RAIDER_YNL_AKITSUMARU"   Context="Preview" Text="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION"/>
 	</ModifierStrings>
 
 	<RequirementSets>

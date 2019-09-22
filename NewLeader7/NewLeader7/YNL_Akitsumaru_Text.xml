@@ -141,5 +141,21 @@
 		<Row Tag="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION" Language="en_US">
 			<Text>+50% Earned experience from Imperial Army Armory</Text>
 		</Row>
+
+		<Row Tag="LOC_ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION" Language="en_US">
+			<Text>Ignores additional movement cost from embarking and disembarking. (Akitsumaru)</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in shallow waters</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength on coastal land</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when fighting in shallow water. (Akitsumaru)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when fighting on coastal land. (Akitsumaru)</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

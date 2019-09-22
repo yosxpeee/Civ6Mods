@@ -144,5 +144,21 @@
 		<Replace Tag="LOC_ABILITY_IMP_ARMY_ARMORY_TRAINED_UNIT_XP_DESCRIPTION" Language="ja_JP">
 			<Text>帝国陸軍兵器廠による経験値+50%</Text>
 		</Replace>
+
+		<Replace Tag="LOC_ABILITY_YNL_AKITSUMARU_IGNORE_EMBARK_DISEMBARK_COST_DESCRIPTION" Language="ja_JP">
+			<Text>乗船と下船に追加移動コストを必要としなくなる。(あきつ丸)</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION" Language="ja_JP">
+			<Text>浅瀬では [ICON_Strength] 戦闘力+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS_DESCRIPTION" Language="ja_JP">
+			<Text>沿岸地域では [ICON_Strength] 戦闘力+5。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_AKITSUMARU_SHALLOW_WATER_COMBAT_BONUS_DESCRIPTION" Language="ja_JP">
+			<Text>浅瀬での戦闘時の [ICON_Strength] 戦闘力+5。(あきつ丸)</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_YNL_AKITSUMARU_COASTAL_COMBAT_BONUS_DESCRIPTION" Language="ja_JP">
+			<Text>沿岸地域での戦闘時の [ICON_Strength] 戦闘力+5。(あきつ丸)</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
