@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー -->
+	<Colors>
+		<!-- メネリク2世 -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_MENELIK2_PRIMARY</Type>
+			<Color>18,43,16,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_MENELIK2_SECONDARY</Type>
+			<Color>255,50,50,255</Color>
+		</Row>
+		<!-- ナポレオン -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_NAPOLEON_PRIMARY</Type>
+			<Color>205,94,60,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_NAPOLEON_SECONDARY</Type>
+			<Color>30,30,30,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>

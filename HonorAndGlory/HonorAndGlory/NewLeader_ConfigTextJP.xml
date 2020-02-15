@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明(エチオピア帝国) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_NAME" Language="ja_JP">
+			<Text>エチオピア帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION" Language="ja_JP">
+			<Text>エチオピア帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_ADJECTIVE" Language="ja_JP">
+			<Text>エチオピア帝国の</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_NAME" Language="ja_JP">
+			<Text>アフリカの角</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION" Language="ja_JP">
+			<Text>エチオピア帝国より高度な文明とつながっている [ICON_TradeRoute] 交易路から [ICON_Science] 科学力または [ICON_Culture] 文化力を得る (進んでいる技術または社会制度3つにつき+1)。牧草地から [ICON_FOOD] 食糧+1。</Text>
+		</Row>
+
+		<!-- 指導者(メネリク2世) -->
+		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="ja_JP">
+			<Text>メネリク2世</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME" Language="ja_JP">
+			<Text>アドワの精神</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION" Language="ja_JP">
+			<Text>友好的な領土から4タイル以内にいるユニットの [ICON_Strength] 戦闘力+3。他文明の都市を起点または目的地とする [ICON_TradeRoute] 交易路により、自分の [ICON_GOLD] ゴールド+1。</Text>
+		</Row>
+
+		<!-- 指導者(ナポレオン) -->
+		<Row Tag="LOC_LEADER_HAG_NAPOLEON_NAME" Language="ja_JP">
+			<Text>ナポレオン</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME" Language="ja_JP">
+			<Text>グランダルメ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION" Language="ja_JP">
+			<Text>陸上近接ユニットの [ICON_Movement] 移動力+1。兵営から [ICON_CULTURE] 文化力+2。兵営を有する都市を占領すると、すべての軍事ユニットが完全に回復する。</Text>
+		</Row>
+		
+		<!-- UU(マハール・セファリ) -->
+		<Replace Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="ja_JP">
+			<Text>マハール・セファリ</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_DESCRIPTION" Language="ja_JP">
+			<Text>原子力時代のエチオピア帝国固有のユニット。兵士に取って代わる。丘陵地形での戦闘時に [ICON_Strength] 戦闘力+7。丘陵でも [ICON_Movement] 移動ペナルティが発生しない。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="ja_JP">
+			<Text>エチオピア帝国固有のユニット: マハール・セファリ</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+		<!-- UB(ステッレ) -->
+		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="ja_JP">
+			<Text>ステッレ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_DESCRIPTION" Language="ja_JP">
+			<Text>エチオピア帝国固有の建造物。モニュメントに取って代わる。[ICON_Culture] 文化力+1、[ICON_Faith] 信仰力+2、この都市のターン毎の忠誠心+1。都市の忠誠心が最大になっている場合は [ICON_Culture] 文化力+1。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="ja_JP">
+			<Text>エチオピア帝国固有の建造物: Stele</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_ETHIOPIA_STELE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+	</LocalizedText>
+</GameData>

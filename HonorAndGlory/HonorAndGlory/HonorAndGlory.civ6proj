@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Hornor and Glory</Name>
+    <Guid>457b201e-bd52-49ea-8635-c2f366bcdef5</Guid>
+    <ProjectGuid>3a0eb59d-17ac-41aa-8761-25cbe34be218</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This mod adds a lot of leaders and civilizations.</Teaser>
+    <Description>This mod adds a lot of leaders and civilizations.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:Expansion2_Players::LEADER_HAG_MENELIK2,Players:Expansion2_Players::LEADER_HAG_NAPOLEON</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>GSLeaderTemplate</AssemblyName>
+    <RootNamespace>GSLeaderTemplate</RootNamespace>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+</Associations>]]></AssociationData>
+    <Authors>yosxpeee</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_CoreColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_Dialogs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_DialogsJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_LeaderAnimations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_Moments.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_PlayerColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UD.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_NAPOLEON.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_NAPOLEON.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_NAPOLEON_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_NAPOLEON_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Menelik2_DiplomacyInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Menelik2_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Menelik2_LoadingInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK2256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK2256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK232.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK232.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK245.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK245.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK250.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK250.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK255.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK255.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK264.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK264.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK280.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MENELIK280.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_MENELIK2_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_HAG_Ethiopia_Stele.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Napoleon_DiplomacyInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Napoleon_LoadingInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Napoleon_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_MENELIK2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_MENELIK2.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_NAPOLEON.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_NAPOLEON.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\NewLeader_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="NewLeader_Config.xml" />
+    <Content Include="NewLeader_ConfigText.xml" />
+    <Content Include="NewLeader_Civilizations.xml" />
+    <Content Include="NewLeader_Icons.xml" />
+    <Content Include="NewLeader_Leaders.xml" />
+    <Content Include="NewLeader_UB.xml" />
+    <Content Include="NewLeader_Text.xml" />
+    <None Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.tex" />
+    <None Include="Textures\LEADER_HAG_MENELIK2_NEUTRAL.tex" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

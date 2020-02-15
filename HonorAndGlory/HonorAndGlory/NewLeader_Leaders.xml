@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<!-- メネリク2世 -->
+		<Row Type="LEADER_HAG_MENELIK2"       Kind="KIND_LEADER" />
+		<Row Type="LEADER_HAG_NAPOLEON"       Kind="KIND_LEADER" />
+		<!-- ナポレオン -->
+		<Row Type="TRAIT_LEADER_HAG_MENELIK2" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_HAG_NAPOLEON" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 指導者の主定義 -->
+	<Leaders>
+		<!-- メネリク2世 -->
+		<Row>
+			<LeaderType>LEADER_HAG_MENELIK2</LeaderType>
+			<Name>LOC_LEADER_HAG_MENELIK2_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+		<!-- ナポレオン -->
+		<Row>
+			<LeaderType>LEADER_HAG_NAPOLEON</LeaderType>
+			<Name>LOC_LEADER_HAG_NAPOLEON_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_HAG_MENELIK2" Quote="LOC_LEADER_HAG_MENELIK2_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON" Quote="LOC_LEADER_HAG_NAPOLEON_QUOTE"/>
+	</LeaderQuotes>
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_HAG_MENELIK2" TraitType="TRAIT_LEADER_HAG_MENELIK2"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON" TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
+	</LeaderTraits>
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_HAG_MENELIK2" Name="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME" Description="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_NAPOLEON" Name="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME" Description="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION"/>
+	</Traits>
+	<!-- 使用する特性の指定 -->
+	<TraitModifiers>
+		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
+		</Row>
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+		</Row>
+		
+		<!-- 陸軍近接ユニットの移動力+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT</ModifierId>
+		</Row>
+		<!-- 兵営から文化力+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ENCAMPMENT_CULTURE</ModifierId>
+		</Row>
+		<!-- 兵営のある都市を占領すると全ユニットが全回復する -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		
+		<!-- 陸軍近接ユニットの移動力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- 兵営から文化力+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ENCAMPMENT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</SubjectRequirementSetId>
+		</Row>
+		<!-- 兵営のある都市を占領すると全ユニットが全回復する -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT_MACEDON</SubjectRequirementSetId><!-- マケドニア・ペルシャDLCにある -->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_DAMAGE</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</Value>
+		</Row>
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		
+		<!-- 陸軍近接ユニットの移動力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT</Value>
+		</Row>
+		<!-- 兵営から文化力+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ENCAMPMENT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ENCAMPMENT_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 兵営のある都市を占領すると全ユニットが全回復する -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 条件 -->
+	<RequirementSets>
+		<!-- 条件：すべてを満たす -->
+		<Row>
+			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- 条件：兵営区域 -->
+		<Row>
+			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId><!-- バニラにある -->
+		</Row>
+	</RequirementSetRequirements>
+	<!--- 固有アジェンダ -->
+	<HistoricalAgendas>
+		<!-- メネリク2世：欧化主義者(バニラのピョートルと同一) -->
+		<Row LeaderType="LEADER_HAG_MENELIK2" AgendaType="AGENDA_WESTERNIZER"/>
+		<!-- ナポレオン：機を見るに敏(マケドニア・ペルシャDLCのキュロスと同じ) -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON" AgendaType="AGENDA_BACKSTABBER"/>
+	</HistoricalAgendas>
+	<!-- 好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_HAG_MENELIK2" ReligionType="RELIGION_ORTHODOXY"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON" ReligionType="RELIGION_CATHOLICISM"/>
+	</FavoredReligions>
+	<!-- 外交画面、ローディング画面 -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_HAG_MENELIK2" BackgroundImage="Menelik2_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_NAPOLEON" BackgroundImage="Napoleon_DiplomacyInfo_Background.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_HAG_MENELIK2" ForegroundImage="Menelik2_LoadingInfo_Foreground.dds" BackgroundImage="Menelik2_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON" ForegroundImage="Napoleon_LoadingInfo_Foreground.dds" BackgroundImage="Napoleon_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+</GameData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"     MomentDataType="MOMENT_DATA_UNIT"     GameDataType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Texture="Moment_Spy_MaxLevel.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_HAG_ETHIOPIA_STELE"    Texture="Moment_HAG_Ethiopia_Stele.dds"/>
+	</MomentIllustrations>
+</GameData>

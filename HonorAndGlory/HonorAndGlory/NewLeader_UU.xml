@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Kind="KIND_UNIT"/>
+	</Types>
+	<!-- AIの動き -->
+	<UnitAiInfos>
+		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<!-- TypeとTagの紐づけ -->
+	<TypeTags>
+		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Tag="CLASS_GEORGIAN_KHEVSURETI"/><!-- グルジアのヘヴスルと同じ -->
+	</TypeTags>
+	<!-- 置換元 -->
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" ReplacesUnitType="UNIT_INFANTRY"/>
+	</UnitReplaces>
+	<!-- 主設定 -->
+	<Units>
+		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Cost="430" Maintenance="6" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" 
+			 Name="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Description="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_REPLACEABLE_PARTS" 
+			 TraitType="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"/>
+	</Units>
+	<!-- アップグレード先 -->
+	<UnitUpgrades>
+		<!-- マハール・セファリ：機械化歩兵-->
+		<Row Unit="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
+	</UnitUpgrades>
+</GameData>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1" Language="en_US">
+			<Text>Jhon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_2" Language="en_US">
+			<Text>Charles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_3" Language="en_US">
+			<Text>Bobby</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_4" Language="en_US">
+			<Text>Tom</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_1" Language="en_US">
+			<Text>Kitty</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_2" Language="en_US">
+			<Text>Curly</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_3" Language="en_US">
+			<Text>Jeanne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_4" Language="en_US">
+			<Text>Antoinette</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Language="en_US">
+			<Text>Elizabeth</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_1" Language="en_US">
+			<Text>Addis Ababa</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_2" Language="en_US">
+			<Text>City1</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_3" Language="en_US">
+			<Text>City2</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_4" Language="en_US">
+			<Text>City3</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_5" Language="en_US">
+			<Text>City4</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_6" Language="en_US">
+			<Text>City5</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_7" Language="en_US">
+			<Text>City6</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_8" Language="en_US">
+			<Text>City7</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_9" Language="en_US">
+			<Text>City8</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_10" Language="en_US">
+			<Text>City9</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
+		
+		<!-- Leader DOM -->
+		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		
+		<!-- Unit Abilities Text -->
+		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_NAME" Language="en_US">
+			<Text>Spirit of Adwa</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory.</Text>
+		</Row>
+		<!-- Unit Abilities Preview Text -->
+		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

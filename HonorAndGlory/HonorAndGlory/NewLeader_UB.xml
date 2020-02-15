@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="BUILDING_HAG_ETHIOPIA_STELE" Kind="KIND_BUILDING"/>
+	</Types>
+	<!-- 置換設定 -->
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_HAG_ETHIOPIA_STELE" ReplacesBuildingType="BUILDING_MONUMENT"/>
+	</BuildingReplaces>
+	<!-- 主設定 -->
+	<Buildings>
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" Name="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Description="LOC_BUILDING_HAG_ETHIOPIA_STELE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE"
+             TraitType="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"/>
+	</Buildings>
+	<!-- 出力 -->
+	<Building_YieldChanges>
+		<!-- 信仰力+2、文化力+1 -->
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" YieldType="YIELD_FAITH"   YieldChange="2"/>
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldChanges>
+	<!-- 建造物が持つ特殊効果 -->
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" ModifierId="MONUMENT_LOYALTY"/>					<!-- RaFにある -->
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" ModifierId="MONUMENT_CULTURE_AT_FULL_LOYALTY"/>	<!-- RaFにある -->
+	</BuildingModifiers>
+</GameData>
