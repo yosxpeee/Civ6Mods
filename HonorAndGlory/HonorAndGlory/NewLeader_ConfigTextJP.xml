@@ -18,6 +18,23 @@
 			<Text>エチオピア帝国より高度な文明とつながっている [ICON_TradeRoute] 交易路から [ICON_Science] 科学力または [ICON_Culture] 文化力を得る (進んでいる技術または社会制度3つにつき+1)。牧草地から [ICON_FOOD] 食糧+1。</Text>
 		</Row>
 
+		<!-- 文明(ティムール朝) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_NAME" Language="ja_JP">
+			<Text>ティムール朝</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_DESCRIPTION" Language="ja_JP">
+			<Text>ティムール朝</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_ADJECTIVE" Language="ja_JP">
+			<Text>ティムール朝の</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_NAME" Language="ja_JP">
+			<Text>マー・ワラー・アンナフル</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_DESCRIPTION" Language="ja_JP">
+			<Text>商業ハブは隣接した他の区域から [ICON_GOLD] ゴールド+1。全ての専門区域はオアシスから対応する隣接ボーナス+2。</Text>
+		</Row>
+		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="ja_JP">
 			<Text>メネリク2世</Text>
@@ -39,6 +56,17 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION" Language="ja_JP">
 			<Text>陸上近接ユニットの [ICON_Movement] 移動力+1。兵営から [ICON_CULTURE] 文化力+2。兵営を有する都市を占領すると、すべての軍事ユニットが完全に回復する。</Text>
 		</Row>
+
+		<!-- 指導者(ティムール) -->
+		<Row Tag="LOC_LEADER_HAG_TIMUR_NAME" Language="ja_JP">
+			<Text>ティムール</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TIMUR_NAME" Language="ja_JP">
+			<Text>2つの星が交わるとき</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION" Language="ja_JP">
+			<Text>全ての騎兵ユニットは倒したユニットの基本 [ICON_Strength] 戦闘力の100%に相当する [ICON_GOLD] ゴールドを得る。占領した都市は区域をゴールドで購入できるようになる。</Text>
+		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
 		<Replace Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="ja_JP">
@@ -54,6 +82,20 @@
 			<Text></Text>
 		</Replace>
 
+		<!-- UU(アルバン) -->
+		<Row Tag="LOC_UNIT_HAG_TIMURID_ARBAN_NAME" Language="ja_JP">
+			<Text>アルバン</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_TIMURID_ARBAN_DESCRIPTION" Language="ja_JP">
+			<Text>中世のティムール固有のユニット。動きの遅い民間人や支援ユニットを、その高い [ICON_Movement] 移動力を利用して護衛できる。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_TIMURID_ARBAN_NAME" Language="ja_JP">
+			<Text>ティムール朝固有のユニット: アルバン</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_TIMURID_ARBAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="ja_JP">
 			<Text>ステッレ</Text>
@@ -62,9 +104,23 @@
 			<Text>エチオピア帝国固有の建造物。モニュメントに取って代わる。[ICON_Culture] 文化力+1、[ICON_Faith] 信仰力+2、この都市のターン毎の忠誠心+1。都市の忠誠心が最大になっている場合は [ICON_Culture] 文化力+1。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="ja_JP">
-			<Text>エチオピア帝国固有の建造物: Stele</Text>
+			<Text>エチオピア帝国固有の建造物: ステッレ</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_ETHIOPIA_STELE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+
+		<!-- UB(天文台) -->
+		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="ja_JP">
+			<Text>天文台</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_DESCRIPTION" Language="ja_JP">
+			<Text>ティムール朝固有の建造物。大学に取って代わる。[ICON_Science] 科学力+5、[ICON_Amenities] 快適性+1。キャンパス (区域) の隣接ボーナスと同量の [ICON_Culture] 文化力ボーナスを得る。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="ja_JP">
+			<Text>ティムール朝固有の建造物: 天文台</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TIMURID_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

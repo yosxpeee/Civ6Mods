@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- もともと偉人にいる人たちを指導者にしたので代わりの人を追加 -->
+	<!-- ナポレオン ＞ フランソワ・ジョゼフ・ルフェーヴル-->
+	<!-- ティムール ＞ ミーラーン・シャー-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionRequiresUnitMilitaryFormation="STANDARD_MILITARY_FORMATION" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH_NAME"               GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL"   Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND"                                                                   ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" ModifierId="GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               ModifierId="GREATPERSON_HAG_MIRAN_SHAH_ACTIVE"               AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               ModifierId="GREATPERSON_HAG_MIRAN_SHAH_ACTIVE_UNIT_BONUS"    AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<!-- 大軍団にする -->
+		<Row>
+			<ModifierId>GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MILITARY_FORMATION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- Lv1アップ、経験値+25% -->
+		<Row>
+			<ModifierId>GREATPERSON_HAG_MIRAN_SHAH_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HAG_MIRAN_SHAH_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ABILITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE</ModifierId>
+			<Name>MilitaryFormationType</Name>
+			<Value>ARMY_MILITARY_FORMATION</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>GREATPERSON_HAG_MIRAN_SHAH_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HAG_MIRAN_SHAH_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_HAG_MIRAN_SHAH_ACTIVE"               Context="Summary" Text="LOC_GREATPERSON_HAG_MIRAN_SHAH_ACTIVE"/>
+	</ModifierStrings>
+</GameInfo>

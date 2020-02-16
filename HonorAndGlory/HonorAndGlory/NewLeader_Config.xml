@@ -35,6 +35,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_NAPOLEON</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_NAPOLEON</Portrait>
 		</Row>
+		<!-- ティムール朝(ティムール) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_TIMURID</CivilizationType>
+			<LeaderType>LEADER_HAG_TIMUR</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_TIMURID_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_TIMURID</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_TIMUR_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_TIMUR</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_TIMURID_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_TIMURID_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_TIMURID</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_TIMUR_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_TIMUR</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_TIMUR</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->
@@ -74,6 +91,23 @@
 			 Icon="ICON_IMPROVEMENT_CHATEAU" 
 			 Name="LOC_IMPROVEMENT_CHATEAU_NAME" 
 			 Description="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION" 
+			 SortIndex="20"/>
+		<!-- ティムール -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_TIMURID"
+			 LeaderType="LEADER_HAG_TIMUR"
+			 Type="UNIT_HAG_TIMURID_ARBAN"
+			 Icon="ICON_UNIT_HAG_TIMURID_ARBAN"
+			 Name="LOC_UNIT_HAG_TIMURID_ARBAN_NAME"
+			 Description="LOC_UNIT_HAG_TIMURID_ARBAN_DESCRIPTION"
+			 SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_TIMURID"
+			 LeaderType="LEADER_HAG_TIMUR"
+			 Type="BUILDING_HAG_TIMURID_OBSERVATORY"
+			 Icon="ICON_BUILDING_HAG_TIMURID_OBSERVATORY"
+			 Name="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME"
+			 Description="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_DESCRIPTION"
 			 SortIndex="20"/>
 	</PlayerItems>
 </GameData>

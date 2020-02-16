@@ -4,10 +4,13 @@
 	<Types>
 		<!-- メネリク2世 -->
 		<Row Type="LEADER_HAG_MENELIK2"       Kind="KIND_LEADER" />
-		<Row Type="LEADER_HAG_NAPOLEON"       Kind="KIND_LEADER" />
-		<!-- ナポレオン -->
 		<Row Type="TRAIT_LEADER_HAG_MENELIK2" Kind="KIND_TRAIT"/>
+		<!-- ナポレオン -->
+		<Row Type="LEADER_HAG_NAPOLEON"       Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_NAPOLEON" Kind="KIND_TRAIT"/>
+		<!-- ティムール -->
+		<Row Type="LEADER_HAG_TIMUR"          Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_TIMUR"    Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -23,21 +26,30 @@
 			<Name>LOC_LEADER_HAG_NAPOLEON_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- ティムール -->
+		<Row>
+			<LeaderType>LEADER_HAG_TIMUR</LeaderType>
+			<Name>LOC_LEADER_HAG_TIMUR_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_HAG_MENELIK2" Quote="LOC_LEADER_HAG_MENELIK2_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON" Quote="LOC_LEADER_HAG_NAPOLEON_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"    Quote="LOC_LEADER_HAG_TIMUR_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
 		<Row LeaderType="LEADER_HAG_MENELIK2" TraitType="TRAIT_LEADER_HAG_MENELIK2"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON" TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"    TraitType="TRAIT_LEADER_HAG_TIMUR"/>
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_HAG_MENELIK2" Name="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME" Description="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_NAPOLEON" Name="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME" Description="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"    Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"    Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -71,6 +83,18 @@
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
 		</Row>
+		
+		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TIMUR</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD</ModifierId>
+		</Row>
+		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TIMUR</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY</ModifierId>
+		</Row>
+		
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -111,6 +135,23 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_DAMAGE</ModifierType>
 			<Permanent>true</Permanent>
 			<RunOnce>true</RunOnce>
+		</Row>
+
+		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ADJUST_CAN_PURCHASE_DISTRICTS</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>false</RunOnce>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -171,6 +212,24 @@
 			<Name>Amount</Name>
 			<Value>-100</Value>
 		</Row>
+
+		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD</Value>
+		</Row>
+		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY_MODIFIER</ModifierId>
+			<Name>CanPurchase</Name>
+			<Value>true</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -193,19 +252,24 @@
 		<Row LeaderType="LEADER_HAG_MENELIK2" AgendaType="AGENDA_WESTERNIZER"/>
 		<!-- ナポレオン：機を見るに敏(マケドニア・ペルシャDLCのキュロスと同じ) -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON" AgendaType="AGENDA_BACKSTABBER"/>
+		<!-- ティムール：機を見るに敏(マケドニア・ペルシャDLCのキュロスと同じ) 暫定 -->
+		<Row LeaderType="LEADER_HAG_TIMUR"    AgendaType="AGENDA_BACKSTABBER"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
 		<Row LeaderType="LEADER_HAG_MENELIK2" ReligionType="RELIGION_ORTHODOXY"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"    ReligionType="RELIGION_ISLAM"/>
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
 		<Row Type="LEADER_HAG_MENELIK2" BackgroundImage="Menelik2_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_NAPOLEON" BackgroundImage="Napoleon_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_TIMUR"    BackgroundImage="Timur_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_MENELIK2" ForegroundImage="Menelik2_LoadingInfo_Foreground.dds" BackgroundImage="Menelik2_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON" ForegroundImage="Napoleon_LoadingInfo_Foreground.dds" BackgroundImage="Napoleon_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"    ForegroundImage="Timur_LoadingInfo_Foreground.dds"    BackgroundImage="Timur_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

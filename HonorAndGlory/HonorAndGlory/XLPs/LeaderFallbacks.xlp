@@ -19,6 +19,11 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_NAPOLEON"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_NAPOLEON"/>
 		</Element>
+		<!-- ティムール -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_TIMUR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_TIMUR"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

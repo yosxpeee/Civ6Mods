@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-
+		<!-- アジェンダ固有の賞賛/非難 -->
+		<!-- ※最低限賞賛のセリフは入れる必要あり。デフォルトが空文なので・・・ -->
+		<!-- メネリク2世 -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_MENELIK2_ANY" Language="ja_JP">
+			<Text>そなたの文明は万人の手本だ。文化も科学も充実し、欠けているものなど何ひとつとしてない。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MENELIK2_ANY" Language="ja_JP">
+			<Text>民は知識と美に飢えているのに、どうして科学と芸術から目を背けるのだ？</Text>
+		</Replace>
+		<!-- ナポレオン -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_NAPOLEON_ANY" Language="ja_JP">
+			<Text>世の中には断れない話というのもあるものだ。これは教えられたぞ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_NAPOLEON_ANY" Language="ja_JP">
+			<Text>騙し討ちは望むところだ。自分がしかける側ならばな。</Text>
+		</Replace>
+		<!-- ティムール -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_TIMUR_ANY" Language="ja_JP">
+			<Text>世の中には断れない話というのもあるものだ。これは教えられたぞ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TIMUR_ANY" Language="ja_JP">
+			<Text>騙し討ちは望むところだ。自分がしかける側ならばな。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

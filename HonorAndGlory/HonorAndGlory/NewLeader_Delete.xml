@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!-- 大将軍のナポレオンとティムールを削除 -->
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE"/>
+		<Delete Type="LOC_GREAT_PERSON_INDIVIDUAL_TIMUR_NAME"/>
+	</Types>
+</GameData>

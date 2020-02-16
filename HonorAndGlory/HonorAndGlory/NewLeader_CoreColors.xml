@@ -20,5 +20,14 @@
 			<Type>COLOR_PLAYER_LEADER_HAG_NAPOLEON_SECONDARY</Type>
 			<Color>30,30,30,255</Color>
 		</Row>
-	</Colors>
+		<!-- ティムール -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_TIMUR_PRIMARY</Type>
+			<Color>64,96,64,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_TIMUR_SECONDARY</Type>
+			<Color>240,30,30,255</Color>
+		</Row>
+</Colors>
 </GameInfo>

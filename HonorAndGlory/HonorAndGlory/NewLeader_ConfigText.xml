@@ -18,6 +18,23 @@
 			<Text>Receives [ICON_Science] Science or [ICON_Culture] Culture from [ICON_TradeRoute] Trade Routes to civilizations that are more advanced than Etiopia Empire (+1 per 3 technologies or civics ahead). +1 [ICON_FOOD] Food from Camp.</Text>
 		</Row>
 
+		<!-- 文明(ティムール朝) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_NAME" Language="en_US">
+			<Text>Timurid Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_DESCRIPTION" Language="en_US">
+			<Text>Timurid Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_ADJECTIVE" Language="en_US">
+			<Text>Timurid Empire</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_NAME" Language="en_US">
+			<Text>Ma-wara an-Nahr</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_DESCRIPTION" Language="en_US">
+			<Text>Commercial Hub receives +1 [ICON_GOLD] Gold from the adjacent other districts. All districts receive +2 additional standard adjacency bonus for being adjacent to oasis.</Text>
+		</Row>
+		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="en_US">
 			<Text>Menelik II</Text>
@@ -39,6 +56,17 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Movement] Movement to military melee units. +2 [ICON_CULTURE] Culture to each city with encampment.  All military units heal completely when this player captures a city with a encampment.</Text>
 		</Row>
+
+		<!-- 指導者(ティムール) -->
+		<Row Tag="LOC_LEADER_HAG_TIMUR_NAME" Language="en_US">
+			<Text>Timur</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TIMUR_NAME" Language="en_US">
+			<Text>When two stars meet</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION" Language="en_US">
+			<Text>All Cavarly units Gain [ICON_GOLD] Gold equal to 100% that unit's base [ICON_Strength] Combat Strength. Allows city to purchase districts with [ICON_Gold] Gold when this player captures a city.</Text>
+		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
 		<Row Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="en_US">
@@ -54,6 +82,20 @@
 			<Text></Text>
 		</Row>
 
+		<!-- UU(アルバン) -->
+		<Row Tag="LOC_UNIT_HAG_TIMURID_ARBAN_NAME" Language="en_US">
+			<Text>Arban</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_TIMURID_ARBAN_DESCRIPTION" Language="en_US">
+			<Text>Timurid unique Medieval era unit. Replace the Courser. Can escort moving civilian and support units at their higher [ICON_Movement] Movement speed.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_TIMURID_ARBAN_NAME" Language="en_US">
+			<Text>Timurid unique unit: Arban</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_TIMURID_ARBAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">
 			<Text>Stele</Text>
@@ -65,6 +107,20 @@
 			<Text>Etiopia Empire unique building: Stele</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_ETHIOPIA_STELE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UB(天文台) -->
+		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="en_US">
+			<Text>Observatory</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Timurid. Replaces the University. +5 [ICON_Science] Science, +1 [ICON_Amenities] Amenity. Bonus [ICON_Culture] Culture equal to the adjacency bonus of the Campus district.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="en_US">
+			<Text>Timurid unique building: Observatory</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TIMURID_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

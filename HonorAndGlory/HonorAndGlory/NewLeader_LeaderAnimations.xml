@@ -14,5 +14,11 @@
 			<Leader>LEADER_HAG_NAPOLEON</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- ティムール -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_TIMUR</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

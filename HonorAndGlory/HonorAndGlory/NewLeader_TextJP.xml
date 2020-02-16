@@ -8,18 +8,40 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
+		
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>指導者の歴史的背景(Civilopedia)</Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>指導者の歴史的背景(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>指導者の歴史的背景(Civilopedia)</Text>
+		</Row>
+		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>文明の歴史的背景(Civilopedia)</Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_TIMURID_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>文明の歴史的背景(Civilopedia)</Text>
+		</Row>
+		
 		<!-- Civlization Citizen Names -->
+		<!-- エチオピア帝国 -->
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1" Language="ja_JP">
 			<Text>ジョン</Text>
 		</Row>
@@ -48,43 +70,194 @@
 			<Text>エリザベス</Text>
 		</Row>
 
+		<!-- ティムール -->
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_1" Language="ja_JP">
+			<Text>ジョン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_2" Language="ja_JP">
+			<Text>チャールズ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_3" Language="ja_JP">
+			<Text>ボビー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_4" Language="ja_JP">
+			<Text>トム</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_1" Language="ja_JP">
+			<Text>キティ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_2" Language="ja_JP">
+			<Text>カーリー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_3" Language="ja_JP">
+			<Text>ジャンヌ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_4" Language="ja_JP">
+			<Text>アントワネット</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_5" Language="ja_JP">
+			<Text>エリザベス</Text>
+		</Row>
+		
 		<!-- Civilization City Names-->
+		<!-- エチオピア帝国 -->
+		<!-- 現エチオピアの都市名を設定 -->
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_1" Language="ja_JP">
 			<Text>アディスアベバ</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_2" Language="ja_JP">
-			<Text>都市1</Text>
+			<Text>アダマ</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_3" Language="ja_JP">
-			<Text>都市2</Text>
+			<Text>ゴンダール</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_4" Language="ja_JP">
-			<Text>都市3</Text>
+			<Text>メックエル</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_5" Language="ja_JP">
-			<Text>都市4</Text>
+			<Text>アワッサ</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_6" Language="ja_JP">
-			<Text>都市5</Text>
+			<Text>ディレ・ダワ</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_7" Language="ja_JP">
-			<Text>都市6</Text>
+			<Text>バハルダール</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_8" Language="ja_JP">
-			<Text>都市7</Text>
+			<Text>デセ</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_9" Language="ja_JP">
-			<Text>都市8</Text>
+			<Text>ジンマ</Text>
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_10" Language="ja_JP">
-			<Text>都市9</Text>
+			<Text>ジジガ</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_11" Language="ja_JP">
+			<Text>アクスム</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_12" Language="ja_JP">
+			<Text>セメラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_13" Language="ja_JP">
+			<Text>ティヤ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_14" Language="ja_JP">
+			<Text>ドーロ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_15" Language="ja_JP">
+			<Text>バドメ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_16" Language="ja_JP">
+			<Text>ハラール</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_17" Language="ja_JP">
+			<Text>ベコジ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_18" Language="ja_JP">
+			<Text>マジ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_19" Language="ja_JP">
+			<Text>モヤレ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_20" Language="ja_JP">
+			<Text>ラリベラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_21" Language="ja_JP">
+			<Text>ワルデル</Text>
+		</Row>
+		
+		<!-- ティムール朝 -->
+		<!-- 現ウズベキスタン共和国の都市名を設定 -->
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_1" Language="ja_JP">
+			<Text>サマルカンド</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_2" Language="ja_JP">
+			<Text>タシュケント</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_3" Language="ja_JP">
+			<Text>チルチク</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_4" Language="ja_JP">
+			<Text>アングレン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_5" Language="ja_JP">
+			<Text>アンディジャン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_6" Language="ja_JP">
+			<Text>シャフリハン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_7" Language="ja_JP">
+			<Text>ブハラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_8" Language="ja_JP">
+			<Text>カガン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_9" Language="ja_JP">
+			<Text>ジザフ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_10" Language="ja_JP">
+			<Text>ザーミン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_11" Language="ja_JP">
+			<Text>コーカンド</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_12" Language="ja_JP">
+			<Text>マルギラン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_13" Language="ja_JP">
+			<Text>ウルゲンチ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_14" Language="ja_JP">
+			<Text>ヒヴァ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_15" Language="ja_JP">
+			<Text>ナマンガン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_16" Language="ja_JP">
+			<Text>チュスト</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_17" Language="ja_JP">
+			<Text>ナヴォイ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_18" Language="ja_JP">
+			<Text>ザラフシャン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_19" Language="ja_JP">
+			<Text>カッタクルガン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_20" Language="ja_JP">
+			<Text>グリスタン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_21" Language="ja_JP">
+			<Text>ヤンギイェル</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_22" Language="ja_JP">
+			<Text>テルメズ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_23" Language="ja_JP">
+			<Text>デナウ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_24" Language="ja_JP">
+			<Text>カルシ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_25" Language="ja_JP">
+			<Text>シャフリサブス</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_26" Language="ja_JP">
+			<Text>ヌクス</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_27" Language="ja_JP">
+			<Text>ホジェリ</Text>
+		</Row>
+		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_TIMUR_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
 		</Row>
 		
@@ -93,6 +266,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_TIMUR_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		
@@ -106,6 +282,48 @@
 		<!-- Unit Abilities Preview Text -->
 		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2_DESCRIPTION" Language="ja_JP">
 			<Text>友好的な領土から4タイル以内にいるユニットの [ICON_Strength] 戦闘力+3。</Text>
+		</Row>
+
+		<!-- 隣接ボーナス効果 -->
+		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_GOLD" Language="ja_JP">
+			<Text>隣接するオアシスタイルにより [ICON_Gold] ゴールド+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_SCIENCE" Language="ja_JP">
+			<Text>隣接するオアシスタイルにより [ICON_Science] 科学力+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_FAITH" Language="ja_JP">
+			<Text>隣接するオアシスタイルにより [ICON_Faith] 信仰力+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_CULTURE" Language="ja_JP">
+			<Text>隣接するオアシスタイルにより [ICON_Culture] 文化力+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_PRODUCTION" Language="ja_JP">
+			<Text>隣接するオアシスタイルにより [ICON_Production] 生産力+{1_num}。</Text>
+		</Row>
+
+		<!-- 大将軍 -->
+		<!-- フランソワ・ジョゼフ・ルフェーヴル -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE_NAME" Language="ja_JP">
+			<Text>フランソワ・ジョゼフ・ルフェーヴル</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE" Language="ja_JP">
+			<Text>陸上ユニットで大軍団を編成する。</Text>
+		</Row>
+		<!-- ミーラーン・シャー -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH_NAME" Language="ja_JP">
+			<Text>ミーラーン・シャー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAG_MIRAN_SHAH_ACTIVE" Language="ja_JP">
+			<Text>陸上軍事ユニット1つのレベル+1、戦闘経験値+25%。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘経験値+25%。(ミーラーン・シャー)</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

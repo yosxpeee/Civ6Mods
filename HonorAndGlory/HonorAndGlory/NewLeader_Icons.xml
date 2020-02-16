@@ -2,6 +2,7 @@
 <GameData>
 	<IconTextureAtlases>
 		<!-- 文明 -->
+		<!-- エチオピア帝国 -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ETHIOPIA" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ETHIOPIA22.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ETHIOPIA" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ETHIOPIA30.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ETHIOPIA" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ETHIOPIA36.dds"/>
@@ -12,6 +13,18 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ETHIOPIA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ETHIOPIA64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ETHIOPIA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ETHIOPIA80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ETHIOPIA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ETHIOPIA256.dds"/>
+		<!-- ティムール朝 -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID256.dds"/>
+		
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
 		<Row Name="ICON_ATLAS_LEADER_HAG_MENELIK2" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MENELIK232.dds"/>
@@ -29,16 +42,74 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_NAPOLEON" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_NAPOLEON64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_NAPOLEON" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_NAPOLEON80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_NAPOLEON" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_NAPOLEON256.dds"/>
+		<!-- ティムール -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR256.dds"/>
+		
+		<!-- ユニット -->
+		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="22"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units22.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="32"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units32.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="38"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units38.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="50"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units50.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="80"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units80.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units256.dds"/>
+		
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits38"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits50"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits70"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits95"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256"/>
+
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits38afr"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits50afr"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits70afr"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits95afr"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200afr"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256afr"/>
+
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits38sou"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits50sou"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits70sou"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits95sou"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200sou"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256sou"/>
+
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits38asi"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits50asi"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits70asi"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits95asi"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200asi"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256asi"/>
+
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits38med"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits50med"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits70med"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits95med"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200med"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256med"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
 		<!-- エチオピア帝国 -->
 		<Row Name="ICON_CIVILIZATION_HAG_ETHIOPIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_ETHIOPIA" Index="0"/>
+		<!-- ティムール超 -->
+		<Row Name="ICON_CIVILIZATION_HAG_TIMURID" Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" Index="0"/>
+		
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
 		<Row Name="ICON_LEADER_HAG_MENELIK2" Atlas="ICON_ATLAS_LEADER_HAG_MENELIK2" Index="0"/>
 		<!-- ナポレオン -->
 		<Row Name="ICON_LEADER_HAG_NAPOLEON" Atlas="ICON_ATLAS_LEADER_HAG_NAPOLEON" Index="0"/>
+		<!-- ティムール -->
+		<Row Name="ICON_LEADER_HAG_TIMUR" Atlas="ICON_ATLAS_LEADER_HAG_TIMUR" Index="0"/>
+		
 		<!-- UU -->
 		<!-- マハール・セファリ(兵士の使いまわし) -->
 		<Row Name="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"                            Atlas="ICON_ATLAS_UNITS"                           Index="71"/>
@@ -50,10 +121,23 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="5"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="5"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="5"/>
+		<!-- アルバン(ケシクの使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN"                                   Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNITS"                         Index="4"/>
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_FOW"                               Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNITS"                         Index="4"/>
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_WHITE"                             Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNITS"                         Index="4"/>
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_BLACK"                             Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNITS"                         Index="4"/>
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_PORTRAIT"                          Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS"                Index="4"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_TIMURID_ARBAN_PORTRAIT"        Atlas="ICON_HAG_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS"        Index="4"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_TIMURID_ARBAN_PORTRAIT" Atlas="ICON_HAG_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="4"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_TIMURID_ARBAN_PORTRAIT"          Atlas="ICON_HAG_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS"          Index="4"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_TIMURID_ARBAN_PORTRAIT"  Atlas="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS"  Index="4"/>
+
 		<!-- UB -->
-		<!-- ステッレ -->
-		<!-- UB(モニュメントの使いまわし) -->
-		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE"  Atlas="ICON_ATLAS_BUILDINGS"     Index="0"/>
-		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE"  Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+		<!-- ステッレ(モニュメントの使いまわし) -->
+		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE" Atlas="ICON_ATLAS_BUILDINGS"     Index="0"/>
+		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+		<!-- 天文台(マドラサの使いまわし) -->
+		<Row Name="ICON_BUILDING_HAG_TIMURID_OBSERVATORY" Atlas="ICON_ATLAS_BUILDINGS"     Index="19"/>
+		<Row Name="ICON_BUILDING_HAG_TIMURID_OBSERVATORY" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="19"/>
 	</IconDefinitions>
 </GameData>

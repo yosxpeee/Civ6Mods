@@ -9,7 +9,7 @@
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UI/NewLeader_Icons"/>
 	<m_Entries>
-		<!-- Civilization -->
+		<!-- 文明(エチオピア帝国) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA22"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA22"/>
@@ -49,6 +49,47 @@
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA256"/>
+		</Element>
+		<!-- 文明(エチオピア帝国) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID256"/>
 		</Element>
 		<!-- 指導者(メネリク2世) -->
 		<Element>
@@ -107,6 +148,35 @@
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_NAPOLEON256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_NAPOLEON256"/>
+		</Element>
+		<!-- 指導者(ティムール) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TIMUR32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TIMUR32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TIMUR45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TIMUR45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TIMUR50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TIMUR50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TIMUR55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TIMUR55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TIMUR64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TIMUR64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TIMUR80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TIMUR80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TIMUR256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TIMUR256"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
