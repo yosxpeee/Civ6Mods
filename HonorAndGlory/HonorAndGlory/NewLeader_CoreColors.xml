@@ -9,7 +9,7 @@
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_MENELIK2_SECONDARY</Type>
-			<Color>255,50,50,255</Color>
+			<Color>254,242,99,255</Color>
 		</Row>
 		<!-- ナポレオン -->
 		<Row>
@@ -23,11 +23,11 @@
 		<!-- ティムール -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_TIMUR_PRIMARY</Type>
-			<Color>64,96,64,160</Color>
+			<Color>32,32,32,160</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_TIMUR_SECONDARY</Type>
 			<Color>240,30,30,255</Color>
 		</Row>
-</Colors>
+	</Colors>
 </GameInfo>
