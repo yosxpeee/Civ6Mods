@@ -34,6 +34,23 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_DESCRIPTION" Language="en_US">
 			<Text>Commercial Hub receives +1 [ICON_GOLD] Gold from the adjacent other districts. All districts receive +2 additional standard adjacency bonus for being adjacent to oasis.</Text>
 		</Row>
+
+		<!-- 文明(ユーゴスラビア) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_NAME" Language="en_US">
+			<Text>Yugoslavia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION" Language="en_US">
+			<Text>Yugoslavia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_ADJECTIVE" Language="en_US">
+			<Text>Yugoslavia</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_NAME" Language="en_US">
+			<Text>Brotherhood and Unity</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION" Language="en_US">
+			<Text>[ICON_Governor] Governors established in a city provide +3% [ICON_Culture] Culture for each Promotion they have earned, including their first. Mines provide +1 [ICON_SCIENCE] Science if adjacent to an Industrial Zone.</Text>
+		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="en_US">
@@ -66,6 +83,17 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION" Language="en_US">
 			<Text>All Cavarly units Gain [ICON_GOLD] Gold equal to 100% that unit's base [ICON_Strength] Combat Strength. Allows city to purchase districts with [ICON_Gold] Gold when this player captures a city.</Text>
+		</Row>
+
+		<!-- 指導者(チトー) -->
+		<Row Tag="LOC_LEADER_HAG_TITO_NAME" Language="en_US">
+			<Text>Josip Broz Tito</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TITO_NAME" Language="en_US">
+			<Text>Titoism</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION" Language="en_US">
+			<Text>Roads built in your territory are one level more advanced than usual. Receive +2 [ICON_Production] Production for routes between your own cities. [ICON_TradeRoute] Trade Routes to foreign cities provide +2 [ICON_Gold] Gold to you.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

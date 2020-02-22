@@ -91,6 +91,47 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_TIMURID256"/>
 		</Element>
+		<!-- 文明(ユーゴスラビア) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA256"/>
+		</Element>
 		<!-- 指導者(メネリク2世) -->
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_MENELIK232"/>
@@ -177,6 +218,35 @@
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_TIMUR256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_TIMUR256"/>
+		</Element>
+		<!-- 指導者(チトー) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TITO32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TITO32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TITO45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TITO45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TITO50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TITO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TITO55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TITO55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TITO64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TITO64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TITO80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TITO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_TITO256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_TITO256"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

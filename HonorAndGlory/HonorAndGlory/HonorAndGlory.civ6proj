@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
             <Criteria id="LeaderCriteria">
@@ -20,6 +20,7 @@
                     Players:Expansion2_Players::LEADER_HAG_MENELIK2,
                     Players:Expansion2_Players::LEADER_HAG_NAPOLEON,
                     Players:Expansion2_Players::LEADER_HAG_TIMUR,
+                    Players:Expansion2_Players::LEADER_HAG_TITO
                 </LeaderPlayable>
             </Criteria>
         </ActionCriteria>]]></ActionCriteriaData>
@@ -109,6 +110,9 @@
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.dds">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_NAPOLEON.dds">
       <SubType>Content</SubType>
     </Content>
@@ -119,6 +123,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_TIMUR.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_TITO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_TITO.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_TIMURID22.DDS">
@@ -179,6 +189,66 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_TIMURID80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON256.DDS">
@@ -265,6 +335,48 @@
     <Content Include="Textures\ICON_LEADER_HAG_TIMUR80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_TITO80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_HAG_NAPOLEON_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
@@ -275,6 +387,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_HAG_TIMUR_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_TITO_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_TITO_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Menelik2_DiplomacyInfo_Background.dds">
@@ -391,6 +509,9 @@
     <Content Include="Textures\LEADER_HAG_MENELIK2_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_HAG_MENELIK2_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\Moment_HAG_Ethiopia_Stele.dds">
       <SubType>Content</SubType>
     </Content>
@@ -424,6 +545,12 @@
     <Content Include="Textures\PORTRAIT_LEADER_HAG_TIMUR.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_TITO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_TITO.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\Timur_DiplomacyInfo_Background.dds">
       <SubType>Content</SubType>
     </Content>
@@ -431,6 +558,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Timur_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tito_DiplomacyInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tito_LoadingInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tito_LoadingInfo_Foreground.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\NewLeader_Icons.xlp">
@@ -446,8 +582,6 @@
     <Content Include="NewLeader_Leaders.xml" />
     <Content Include="NewLeader_UB.xml" />
     <Content Include="NewLeader_Text.xml" />
-    <None Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.tex" />
-    <None Include="Textures\LEADER_HAG_MENELIK2_NEUTRAL.tex" />
     <None Include="ArtDefs\FallbackLeaders.artdef" />
     <None Include="XLPs\LeaderFallbacks.xlp" />
     <None Include="XLPs\UILeaders.xlp" />

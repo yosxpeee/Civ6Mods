@@ -24,6 +24,17 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_TIMURID256.dds"/>
+		<!-- ユーゴスラビア -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA256.dds"/>
 		
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
@@ -50,6 +61,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_TIMUR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TIMUR256.dds"/>
+		<!-- チトー -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO256.dds"/>
 		
 		<!-- ユニット -->
 		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
@@ -97,18 +116,24 @@
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
+		<!-- Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"-->
 		<!-- エチオピア帝国 -->
 		<Row Name="ICON_CIVILIZATION_HAG_ETHIOPIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_ETHIOPIA" Index="0"/>
-		<!-- ティムール超 -->
+		<!-- ティムール朝 -->
 		<Row Name="ICON_CIVILIZATION_HAG_TIMURID" Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" Index="0"/>
+		<!-- ユーゴスラビア -->
+		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" Index="0"/>
 		
 		<!-- 指導者 -->
+		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
 		<!-- メネリク2世 -->
 		<Row Name="ICON_LEADER_HAG_MENELIK2" Atlas="ICON_ATLAS_LEADER_HAG_MENELIK2" Index="0"/>
 		<!-- ナポレオン -->
 		<Row Name="ICON_LEADER_HAG_NAPOLEON" Atlas="ICON_ATLAS_LEADER_HAG_NAPOLEON" Index="0"/>
 		<!-- ティムール -->
 		<Row Name="ICON_LEADER_HAG_TIMUR" Atlas="ICON_ATLAS_LEADER_HAG_TIMUR" Index="0"/>
+		<!-- チトー -->
+		<Row Name="ICON_LEADER_HAG_TITO" Atlas="ICON_ATLAS_LEADER_HAG_TITO" Index="0"/>
 		
 		<!-- UU -->
 		<!-- マハール・セファリ(兵士の使いまわし) -->

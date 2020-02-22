@@ -11,6 +11,9 @@
 		<!-- ティムール -->
 		<Row Type="LEADER_HAG_TIMUR"          Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_TIMUR"    Kind="KIND_TRAIT"/>
+		<!-- チトー -->
+		<Row Type="LEADER_HAG_TITO"           Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_TITO"     Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -32,24 +35,33 @@
 			<Name>LOC_LEADER_HAG_TIMUR_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- チトー -->
+		<Row>
+			<LeaderType>LEADER_HAG_TITO</LeaderType>
+			<Name>LOC_LEADER_HAG_TITO_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_HAG_MENELIK2" Quote="LOC_LEADER_HAG_MENELIK2_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON" Quote="LOC_LEADER_HAG_NAPOLEON_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"    Quote="LOC_LEADER_HAG_TIMUR_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_TITO"     Quote="LOC_LEADER_HAG_TITO_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
 		<Row LeaderType="LEADER_HAG_MENELIK2" TraitType="TRAIT_LEADER_HAG_MENELIK2"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON" TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"    TraitType="TRAIT_LEADER_HAG_TIMUR"/>
+		<Row LeaderType="LEADER_HAG_TITO"     TraitType="TRAIT_LEADER_HAG_TITO"/>
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_HAG_MENELIK2" Name="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME" Description="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_NAPOLEON" Name="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME" Description="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"    Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"    Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_TITO"     Name="LOC_TRAIT_LEADER_HAG_TITO_NAME"     Description="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -94,7 +106,22 @@
 			<TraitType>TRAIT_LEADER_HAG_TIMUR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY</ModifierId>
 		</Row>
-		
+
+		<!-- 道路のレベル+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
+			<ModifierId>TRAIT_SATRAPIES_IMPROVED_ROUTE_LEVEL</ModifierId><!-- マケドニア・ペルシアDLCのペルシアと同じ -->
+		</Row>
+		<!-- 国内交易路から生産力+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNAL_TRADE_PRODUCTION</ModifierId>
+		</Row>
+		<!-- 国外交易路からゴールド+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -128,7 +155,7 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT_MACEDON</SubjectRequirementSetId><!-- マケドニア・ペルシャDLCにある -->
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT_MACEDON</SubjectRequirementSetId><!-- マケドニア・ペルシアDLCにある -->
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE_MODIFIER</ModifierId>
@@ -152,6 +179,17 @@
 			<ModifierType>MODIFIER_CITY_ADJUST_CAN_PURCHASE_DISTRICTS</ModifierType>
 			<Permanent>true</Permanent>
 			<RunOnce>false</RunOnce>
+		</Row>
+
+		<!-- 国内交易路からハンマー+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNAL_TRADE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<!-- 国外交易路からゴールド+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -230,6 +268,29 @@
 			<Name>CanPurchase</Name>
 			<Value>true</Value>
 		</Row>
+		
+		<!-- 国内交易路からハンマー+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNAL_TRADE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNAL_TRADE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 国外交易路からゴールド+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -250,26 +311,31 @@
 	<HistoricalAgendas>
 		<!-- メネリク2世：欧化主義者(バニラのピョートルと同一) -->
 		<Row LeaderType="LEADER_HAG_MENELIK2" AgendaType="AGENDA_WESTERNIZER"/>
-		<!-- ナポレオン：機を見るに敏(マケドニア・ペルシャDLCのキュロスと同じ) -->
+		<!-- ナポレオン：機を見るに敏(マケドニア・ペルシアDLCのキュロスと同じ) -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON" AgendaType="AGENDA_BACKSTABBER"/>
-		<!-- ティムール：機を見るに敏(マケドニア・ペルシャDLCのキュロスと同じ) 暫定 -->
+		<!-- ティムール：機を見るに敏(マケドニア・ペルシアDLCのキュロスと同じ) -->
 		<Row LeaderType="LEADER_HAG_TIMUR"    AgendaType="AGENDA_BACKSTABBER"/>
+		<!-- ティムール：機を見るに敏(RaFのパウンドメーカーと同じ) -->
+		<Row LeaderType="LEADER_HAG_TITO"     AgendaType="AGENDA_IRON_CONFEDERACY"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
 		<Row LeaderType="LEADER_HAG_MENELIK2" ReligionType="RELIGION_ORTHODOXY"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON" ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"    ReligionType="RELIGION_ISLAM"/>
+		<!-- チトーはなし -->
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
 		<Row Type="LEADER_HAG_MENELIK2" BackgroundImage="Menelik2_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_NAPOLEON" BackgroundImage="Napoleon_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_TIMUR"    BackgroundImage="Timur_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_TITO"     BackgroundImage="Tito_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_MENELIK2" ForegroundImage="Menelik2_LoadingInfo_Foreground.dds" BackgroundImage="Menelik2_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON" ForegroundImage="Napoleon_LoadingInfo_Foreground.dds" BackgroundImage="Napoleon_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"    ForegroundImage="Timur_LoadingInfo_Foreground.dds"    BackgroundImage="Timur_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_TITO"     ForegroundImage="Tito_LoadingInfo_Foreground.dds"     BackgroundImage="Tito_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

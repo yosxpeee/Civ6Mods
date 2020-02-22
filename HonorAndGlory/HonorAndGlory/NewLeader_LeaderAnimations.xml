@@ -20,5 +20,11 @@
 			<Leader>LEADER_HAG_TIMUR</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- チトー -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_TITO</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

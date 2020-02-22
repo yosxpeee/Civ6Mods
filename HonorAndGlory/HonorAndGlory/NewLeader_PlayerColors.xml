@@ -41,21 +41,24 @@
 			<Alt3PrimaryColor>COLOR_STANDARD_ORANGE_MD</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_YELLOW_DK</Alt3SecondaryColor>
 		</Row>
+		<!-- チトー -->
+		<Row>
+			<Type>LEADER_HAG_TITO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_HAG_TITO_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_HAG_TITO_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_AQUA_MD</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_RED_DK</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_GREEN_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_BLUE_MD</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_DK</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_LT</Alt3SecondaryColor>
+		</Row>
 	</PlayerColors>
 </Database>
 
 <!--
-あと6人分しかないなあ・・・
-
-<Color>COLOR_STANDARD_AQUA_MD</Color>
-<Color>COLOR_STANDARD_RED_DK</Color>
-
-<Color>COLOR_STANDARD_GREEN_LT</Color>
-<Color>COLOR_STANDARD_BLUE_MD</Color>
-
-<Color>COLOR_STANDARD_WHITE_DK</Color>
-<Color>COLOR_STANDARD_MAGENTA_LT</Color>
-
+あと5人分
 
 <Color>COLOR_STANDARD_PURPLE_MD</Color>
 <Color>COLOR_STANDARD_ORANGE_DK</Color>

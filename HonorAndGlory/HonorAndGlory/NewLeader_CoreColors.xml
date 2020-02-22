@@ -5,29 +5,38 @@
 		<!-- メネリク2世 -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_MENELIK2_PRIMARY</Type>
-			<Color>18,43,16,255</Color>
+			<Color>18,43,16,255</Color><!-- 深緑 -->
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_MENELIK2_SECONDARY</Type>
-			<Color>254,242,99,255</Color>
+			<Color>254,242,99,255</Color><!-- 黄色 -->
 		</Row>
 		<!-- ナポレオン -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_NAPOLEON_PRIMARY</Type>
-			<Color>205,94,60,255</Color>
+			<Color>205,94,60,255</Color><!-- オレンジ -->
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_NAPOLEON_SECONDARY</Type>
-			<Color>30,30,30,255</Color>
+			<Color>30,30,30,255</Color><!-- 黒 -->
 		</Row>
 		<!-- ティムール -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_TIMUR_PRIMARY</Type>
-			<Color>32,32,32,160</Color>
+			<Color>32,32,32,160</Color><!-- 黒、半透明 -->
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_TIMUR_SECONDARY</Type>
-			<Color>240,30,30,255</Color>
+			<Color>240,30,30,255</Color><!-- 赤 -->
+		</Row>
+		<!-- ユーゴスラビア -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_TITO_PRIMARY</Type>
+			<Color>240,0,0,255</Color><!-- 赤 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_TITO_SECONDARY</Type>
+			<Color>30,80,162,255</Color><!-- 青 -->
 		</Row>
 	</Colors>
 </GameInfo>

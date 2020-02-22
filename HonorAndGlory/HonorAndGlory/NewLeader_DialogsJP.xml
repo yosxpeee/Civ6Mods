@@ -24,5 +24,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TIMUR_ANY" Language="ja_JP">
 			<Text>騙し討ちは望むところだ。自分がしかける側ならばな。</Text>
 		</Replace>
+		<!-- チトー -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_TITO_ANY" Language="ja_JP">
+			<Text>世界に友情を告げようとする者に、私は心から敬服する。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TITO_ANY" Language="ja_JP">
+			<Text>友はよく考えて選べ。選ばないという選択肢はないのだから。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

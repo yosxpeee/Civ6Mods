@@ -36,6 +36,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_TIMUR"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_TIMUR"/>
 		</Element>
+		<!-- チトー -->
+		<Element>
+			<m_EntryID text="LEADER_HAG_TITO_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HAG_TITO_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_HAG_TITO"/>
+			<m_ObjectName text="PORTRAIT_LEADER_HAG_TITO"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

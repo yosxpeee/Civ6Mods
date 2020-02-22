@@ -24,5 +24,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TIMUR_ANY" Language="en_US">
 			<Text>If there's deception afoot, I prefer it when I am the one providing the intrigue.</Text>
 		</Replace>
+		<!-- チトー -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_TITO_ANY" Language="en_US">
+			<Text>I have great respect for those who declare their friendships to the world.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TITO_ANY" Language="en_US">
+			<Text>Choose your friendships wisely—but you must choose.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

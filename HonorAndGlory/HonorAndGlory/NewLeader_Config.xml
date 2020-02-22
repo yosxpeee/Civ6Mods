@@ -52,6 +52,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_TIMUR</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_TIMUR</Portrait>
 		</Row>
+		<!-- ユーゴスラビア(チトー) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_YUGOSLAVIA</CivilizationType>
+			<LeaderType>LEADER_HAG_TITO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_YUGOSLAVIA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_YUGOSLAVIA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_TITO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_TITO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_YUGOSLAVIA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_TITO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_TITO</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_TITO</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->

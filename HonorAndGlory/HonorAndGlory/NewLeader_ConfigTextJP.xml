@@ -34,6 +34,23 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_DESCRIPTION" Language="ja_JP">
 			<Text>商業ハブは隣接した他の区域から [ICON_GOLD] ゴールド+1。全ての専門区域はオアシスから対応する隣接ボーナス+2。</Text>
 		</Row>
+
+		<!-- 文明(ユーゴスラビア) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_NAME" Language="ja_JP">
+			<Text>ユーゴスラビア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION" Language="ja_JP">
+			<Text>ユーゴスラビア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_ADJECTIVE" Language="ja_JP">
+			<Text>ユーゴスラビアの</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_NAME" Language="ja_JP">
+			<Text>兄弟愛と統一</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Governor] 総督が着任しているすべての都市の [ICON_CULTURE] 文化力が、獲得しているレベルアップ1つにつき+3% (最初のレベルアップを含む)。工業地帯に隣接している場合、鉱山から [ICON_SCIENCE] 科学力+1。</Text>
+		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="ja_JP">
@@ -66,6 +83,17 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION" Language="ja_JP">
 			<Text>全ての騎兵ユニットは倒したユニットの基本 [ICON_Strength] 戦闘力の100%に相当する [ICON_GOLD] ゴールドを得る。占領した都市は区域をゴールドで購入できるようになる。</Text>
+		</Row>
+
+		<!-- 指導者(チトー) -->
+		<Row Tag="LOC_LEADER_HAG_TITO_NAME" Language="ja_JP">
+			<Text>ヨシップ・ブロズ・チトー</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TITO_NAME" Language="ja_JP">
+			<Text>チトー主義</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION" Language="ja_JP">
+			<Text>自文明の領土内における道路の移動速度上昇効果が、本来よりも1段階上の扱いとなる。 [ICON_TradeRoute] 国内交易路から [ICON_Production] 生産力+2、 [ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+2。</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

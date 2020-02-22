@@ -20,6 +20,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Detail)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TITO_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TITO_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -31,6 +37,9 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TITO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
 		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -39,8 +48,12 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_TIMURID_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_YUGOSLAVIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
+		</Row>
 		
-		<!-- Civlization Citizen Names -->
+		<!-- Civilization Citizen Names -->
+		<!-- ※今全部一緒 -->
 		<!-- エチオピア帝国 -->
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1" Language="en_US">
 			<Text>Jhon</Text>
@@ -98,153 +111,218 @@
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_5" Language="en_US">
 			<Text>Elizabeth</Text>
 		</Row>
+
+		<!-- ユーゴスラビア -->
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_1" Language="en_US">
+			<Text>Jhon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_2" Language="en_US">
+			<Text>Charles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_3" Language="en_US">
+			<Text>Bobby</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_4" Language="en_US">
+			<Text>Tom</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_1" Language="en_US">
+			<Text>Kitty</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_2" Language="en_US">
+			<Text>Curly</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_3" Language="en_US">
+			<Text>Jeanne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_4" Language="en_US">
+			<Text>Antoinette</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_5" Language="en_US">
+			<Text>Elizabeth</Text>
+		</Row>
 		
 		<!-- Civilization City Names-->
 		<!-- エチオピア帝国 -->
 		<!-- 現エチオピアの都市名を設定 -->
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_1" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_1" Language="en_US">
 			<Text>Addis Ababa</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_2" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_2" Language="en_US">
 			<Text>Adama</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_3" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_3" Language="en_US">
 			<Text>Gondar</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_4" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_4" Language="en_US">
 			<Text>Mekelle</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_5" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_5" Language="en_US">
 			<Text>Awasa</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_6" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_6" Language="en_US">
 			<Text>Dire Dawa</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_7" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_7" Language="en_US">
 			<Text>Bahir Dar</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_8" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_8" Language="en_US">
 			<Text>Dessie</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_9" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_9" Language="en_US">
 			<Text>Jimma</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_10" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_10" Language="en_US">
 			<Text>Jijiga</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_11" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_11" Language="en_US">
 			<Text>Aksum</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_12" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_12" Language="en_US">
 			<Text>Semera</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_13" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_13" Language="en_US">
 			<Text>Tiya</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_14" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_14" Language="en_US">
 			<Text>Dolo</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_15" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_15" Language="en_US">
 			<Text>Badme</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_16" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_16" Language="en_US">
 			<Text>Harar</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_17" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_17" Language="en_US">
 			<Text>Bekoji</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_18" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_18" Language="en_US">
 			<Text>Maji</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_19" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_19" Language="en_US">
 			<Text>Moyale</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_20" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_20" Language="en_US">
 			<Text>Lalibela</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_ETHIOPIA_CITY_21" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_21" Language="en_US">
 			<Text>Werder</Text>
 		</Row>
 		
 		<!-- ティムール朝 -->
 		<!-- 現ウズベキスタン共和国の都市名を設定 -->
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_1" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_1" Language="en_US">
 			<Text>Samarkand</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_2" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_2" Language="en_US">
 			<Text>Toshkent</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_3" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_3" Language="en_US">
 			<Text>Chirchiq</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_4" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_4" Language="en_US">
 			<Text>Angren</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_5" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_5" Language="en_US">
 			<Text>Andijon</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_6" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_6" Language="en_US">
 			<Text>Shakhrihon</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_7" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_7" Language="en_US">
 			<Text>Buxoro</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_8" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_8" Language="en_US">
 			<Text>Kogon</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_9" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_9" Language="en_US">
 			<Text>Jizzax</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_10" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_10" Language="en_US">
 			<Text>Zomin</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_11" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_11" Language="en_US">
 			<Text>Qo‘qon</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_12" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_12" Language="en_US">
 			<Text>Margʻilon</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_13" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_13" Language="en_US">
 			<Text>Urganch</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_14" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_14" Language="en_US">
 			<Text>Xiva</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_15" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_15" Language="en_US">
 			<Text>Namangan</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_16" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_16" Language="en_US">
 			<Text>Chust</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_17" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_17" Language="en_US">
 			<Text>Navoiy</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_18" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_18" Language="en_US">
 			<Text>Zarafshon</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_19" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_19" Language="en_US">
 			<Text>Kattaqo’rg’on</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_20" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_20" Language="en_US">
 			<Text>Guliston</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_21" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_21" Language="en_US">
 			<Text>Yangiyer</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_22" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_22" Language="en_US">
 			<Text>Termiz</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_23" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_23" Language="en_US">
 			<Text>Denov</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_24" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_24" Language="en_US">
 			<Text>Qarshi</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_25" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_25" Language="en_US">
 			<Text>Shahrisabz</Text>
 		</Row>
-		<Row Tag="LOC_CIVLIZATION_HAG_TIMURID_CITY_26" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_26" Language="en_US">
 			<Text>Noʻkis</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_27" Language="en_US">
+			<Text>Xo‘jayli</Text>
+		</Row>
+		
+		<!-- ユーゴスラビア -->
+		<!-- 今は仮 -->
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" Language="en_US">
+			<Text>Beograd</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_2" Language="en_US">
+			<Text>City1</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_3" Language="en_US">
+			<Text>City2</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_4" Language="en_US">
+			<Text>City3</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_5" Language="en_US">
+			<Text>City4</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_6" Language="en_US">
+			<Text>City5</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_7" Language="en_US">
+			<Text>City6</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_8" Language="en_US">
+			<Text>City7</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_9" Language="en_US">
+			<Text>City8</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_10" Language="en_US">
+			<Text>City9</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->
@@ -257,6 +335,9 @@
 		<Row Tag="LOC_LEADER_HAG_TIMUR_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_TITO_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="en_US">
@@ -266,6 +347,9 @@
 			<Text>Loading Text</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TIMUR_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_TITO_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
 		
