@@ -1,4 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
-
-</GameData>
+<GameInfo>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<!-- 設定本体 -->
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" 
+			 Name="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" 
+			 Description="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_DESCRIPTION" 
+			 Icon="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" 
+			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" OnePerCity="true"
+			 PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI"/>
+	</Improvements>
+	<!-- 隣接ボーナス指定 -->
+	<Improvement_Adjacencies>
+	</Improvement_Adjacencies>
+	<!-- 設置可能な特徴 -->
+	<Improvement_ValidFeatures>
+	</Improvement_ValidFeatures>
+	<!-- 設置可能な地形 -->
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	<!-- 設置可能な資源 -->
+	<Improvement_ValidResources>
+	</Improvement_ValidResources>
+	<!--地形改善できるユニット -->
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<!-- 出力 -->
+	<Improvement_YieldChanges>
+		<!-- ステチュツィ：ゴールド+1、文化+1-->
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"    YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<!-- 追加出力 -->
+	<Improvement_BonusYieldChanges>
+		<!-- ステチュツィ：都市化で文化+1、マスメディアでゴールド+1 -->
+		<Row Id="HAG_01" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
+		<Row Id="HAG_02" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"    BonusYieldChange="1" PrereqCivic="CIVIC_MASS_MEDIA"/>
+	</Improvement_BonusYieldChanges>
+	<!-- 観光力 -->
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<!-- 隣接ボーナス詳細 -->
+	<Adjacency_YieldChanges>
+	</Adjacency_YieldChanges>
+	<!-- 固有能力指定 -->
+	<ImprovementModifiers>
+		<!-- ステチュツィ：快適性+3 -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_HAG_YUGOSLAVIA_STECCI</ImprovementType>
+			<ModifierId>HAG_YUGOSLAVIA_STECCI_AMENITY</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<!-- 固有能力詳細 -->
+	<Modifiers>
+		<!-- ステチュツィ：快適性+3 -->
+		<Row>
+			<ModifierId>HAG_YUGOSLAVIA_STECCI_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<!-- 固有能力詳細の引数 -->
+	<ModifierArguments>
+		<!-- ステチュツィ：快適性+3 -->
+		<Row>
+			<ModifierId>HAG_YUGOSLAVIA_STECCI_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

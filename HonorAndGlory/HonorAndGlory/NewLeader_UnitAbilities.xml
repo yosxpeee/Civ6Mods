@@ -7,6 +7,7 @@
 		<Row Type="ABILITY_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD"        Kind="KIND_ABILITY"/>
 
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE"                     Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                    Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
@@ -35,6 +36,8 @@
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_SIEGE"/>
+
+		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>	
 	</TypeTags>
 	<!-- アビリティの名前、説明 -->
 	<UnitAbilities>
@@ -43,6 +46,8 @@
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD"        Name="LOC_ABILITY_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD_NAME"        Description="LOC_ABILITY_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD_DESCRIPTION"        Inactive="true"/>
 
 		<Row UnitAbilityType="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE"                     Name="LOC_ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE_NAME"                     Description="LOC_ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE_DESCRIPTION"                     Inactive="true"/>
+
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                    Name="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"                    Description="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -65,6 +70,11 @@
 		<Row>
 			<UnitAbilityType>ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE</UnitAbilityType>
 			<ModifierId>HAG_MIRAN_SHAH_BONUS_EXPERIENCE</ModifierId>
+		</Row>
+		<!-- 丘陵で移動力が落ちない -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN</UnitAbilityType>
+			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId><!-- GSのグルジアのヘヴスルと同じ -->
 		</Row>
 	</UnitAbilityModifiers>
 	<!-- 効果の定義 -->

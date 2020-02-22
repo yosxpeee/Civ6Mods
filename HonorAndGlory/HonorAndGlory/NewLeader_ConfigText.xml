@@ -123,6 +123,20 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_TIMURID_ARBAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<!-- UU(M48山砲) -->
+		<Row Tag="LOC_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME" Language="en_US">
+			<Text>Mountain Gun M48</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION" Language="en_US">
+			<Text>Yugoslavia unique Atomic era unit. Replace the Artillery. No [ICON_Movement] Movement penalty in Hill terrain. No need Oil.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME" Language="en_US">
+			<Text>Yugoslavia unique unit: Mountain Gun M48</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">
@@ -149,6 +163,20 @@
 			<Text>Timurid unique building: Observatory</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TIMURID_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UI(ステチュツィ) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="en_US">
+			<Text>Stecci</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Stecci, unique to Yugoslavia.[NEWLINE][NEWLINE]+1 [ICON_Culture] Production, +1 [ICON_Faith] Faith, +3 [ICON_Amenities] Amenity. One per City.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="en_US">
+			<Text>Yugoslavia unique improvement: Stecci</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

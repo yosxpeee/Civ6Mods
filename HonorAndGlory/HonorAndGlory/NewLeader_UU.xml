@@ -4,7 +4,12 @@
 	<Types>
 		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_TIMURID_ARBAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Kind="KIND_UNIT"/>
 	</Types>
+	<!-- クラス定義 -->
+	<Tags>
+		<Row Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
 	<!-- AIの動き -->
 	<UnitAiInfos>
 		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" AiType="UNITAI_COMBAT"/>
@@ -17,19 +22,32 @@
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
 		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Tag="CLASS_GEORGIAN_KHEVSURETI"/><!-- グルジアのヘヴスルと同じ -->
+		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Tag="CLASS_GEORGIAN_KHEVSURETI"/><!-- GSのグルジアのヘヴスルと同じ -->
 
 		<Row Type="UNIT_HAG_TIMURID_ARBAN" Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_HAG_TIMURID_ARBAN" Tag="CLASS_MONGOLIAN_KESHIG"/><!-- モンゴルのケシクと同じ -->
+		<Row Type="UNIT_HAG_TIMURID_ARBAN" Tag="CLASS_MONGOLIAN_KESHIG"/><!-- RaFのモンゴルのケシクと同じ -->
+
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_SIEGE_SETUP"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_TARGETTING_ASSIST"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" ReplacesUnitType="UNIT_INFANTRY"/>
-		<Row CivUniqueUnitType="UNIT_HAG_TIMURID_ARBAN"         ReplacesUnitType="UNIT_COURSER"/>
+		<Row CivUniqueUnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   ReplacesUnitType="UNIT_INFANTRY"/>
+		<Row CivUniqueUnitType="UNIT_HAG_TIMURID_ARBAN"           ReplacesUnitType="UNIT_COURSER"/>
+		<Row CivUniqueUnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ReplacesUnitType="UNIT_ARTILLERY"/>
 	</UnitReplaces>
 	<!-- 主設定 -->
 	<Units>
@@ -48,6 +66,13 @@
 			 Name="LOC_UNIT_HAG_TIMURID_ARBAN_NAME" Description="LOC_UNIT_HAG_TIMURID_ARBAN_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_CASTLES"
 			 TraitType="TRAIT_UNIT_HAG_TIMURID_ARBAN"/>
+		
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Cost="430" Maintenance="6" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="60" Bombard="80" Range="2" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME" Description="LOC_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_STEEL"
+			 TraitType="TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -55,6 +80,8 @@
 		<Row Unit="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
 		<!-- アルバン：騎兵-->
 		<Row Unit="UNIT_HAG_TIMURID_ARBAN" UpgradeUnit="UNIT_CAVALRY"/>
+		<!-- M48山砲：ロケット砲 -->
+		<Row Unit="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" UpgradeUnit="UNIT_ROCKET_ARTILLERY"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>

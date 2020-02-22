@@ -115,12 +115,26 @@
 			<Text>アルバン</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAG_TIMURID_ARBAN_DESCRIPTION" Language="ja_JP">
-			<Text>中世のティムール固有のユニット。動きの遅い民間人や支援ユニットを、その高い [ICON_Movement] 移動力を利用して護衛できる。</Text>
+			<Text>中世のティムール固有のユニット。コーサーに取って代わる。動きの遅い民間人や支援ユニットを、その高い [ICON_Movement] 移動力を利用して護衛できる。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_TIMURID_ARBAN_NAME" Language="ja_JP">
 			<Text>ティムール朝固有のユニット: アルバン</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_TIMURID_ARBAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+
+		<!-- UU(M48山砲) -->
+		<Row Tag="LOC_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME" Language="ja_JP">
+			<Text>M48山砲</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION" Language="ja_JP">
+			<Text>原子力時代のユーゴスラビア固有のユニット。大砲に取って代わる。丘陵でも [ICON_Movement] 移動ペナルティが発生しない。石油を必要としない。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT__UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME" Language="ja_JP">
+			<Text>ユーゴスラビア固有のユニット: M48山砲</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE__UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
 		
@@ -149,6 +163,21 @@
 			<Text>ティムール朝固有の建造物: 天文台</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TIMURID_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+
+
+		<!-- UI(ステチュツィ) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="ja_JP">
+			<Text>ステチュツィ</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がユーゴスラビアの施設であるステチュツィを建設できるようになる。[NEWLINE][NEWLINE][ICON_Culture] 文化力+1、[ICON_Faith] 信仰力+1、[ICON_Amenities] 快適性+3。1都市につき1つのみ。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="ja_JP">
+			<Text>>ユーゴスラビア固有の施設: キュッリイェ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
 	</LocalizedText>
