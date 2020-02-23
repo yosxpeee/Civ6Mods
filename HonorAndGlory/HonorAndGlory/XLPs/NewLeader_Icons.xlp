@@ -248,6 +248,41 @@
 			<m_EntryID text="ICON_LEADER_HAG_TITO256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_TITO256"/>
 		</Element>
+
+		<!-- 宗教(ジャイナ教) -->
+		<Element>
+			<m_EntryID text="ReligionHAGJainism22"/>
+			<m_ObjectName text="ReligionHAGJainism22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGJainism50"/>
+			<m_ObjectName text="ReligionHAGJainism50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGJainism100"/>
+			<m_ObjectName text="ReligionHAGJainism100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGJainism270"/>
+			<m_ObjectName text="ReligionHAGJainism270"/>
+		</Element>
+		<!-- 宗教(マニ教) -->
+		<Element>
+			<m_EntryID text="ReligionHAGManichaeism22"/>
+			<m_ObjectName text="ReligionHAGManichaeism22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGManichaeism50"/>
+			<m_ObjectName text="ReligionHAGManichaeism50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGManichaeism100"/>
+			<m_ObjectName text="ReligionHAGManichaeism100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGManichaeism270"/>
+			<m_ObjectName text="ReligionHAGManichaeism270"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

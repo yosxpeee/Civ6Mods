@@ -113,6 +113,18 @@
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits95med"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200med"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256med"/>
+
+		<!-- 宗教 -->
+		<!-- ジャイナ教 -->
+		<Row Name="ICON_ATLAS_RELIGIONS_HAG_JAINISM" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGJainism22"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_HAG_JAINISM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGJainism50"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_HAG_JAINISM" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGJainism100"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_HAG_JAINISM" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGJainism270"/>
+		<!-- マニ教 -->
+		<Row Name="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGManichaeism22"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGManichaeism50"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGManichaeism100"/>
+		<Row Name="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGManichaeism270"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -178,5 +190,11 @@
 		<!-- UI -->
 		<!-- ステチュツィ(クルガンの使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="19"/>
+		
+		<!-- 宗教 -->
+		<!-- ジャイナ教 -->
+		<Row Name="ICON_RELIGION_HAG_JAINISM"     Atlas="ICON_ATLAS_RELIGIONS_HAG_JAINISM"     Index="0"/>
+		<!-- マニ教 -->
+		<Row Name="ICON_RELIGION_HAG_MANICHAEISM" Atlas="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" Index="0"/>
 	</IconDefinitions>
 </GameData>

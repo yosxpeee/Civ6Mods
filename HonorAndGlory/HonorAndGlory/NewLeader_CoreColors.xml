@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
-	<!-- 文明固有カラー -->
+	<!-- カラー設定 -->
 	<Colors>
+		<!-- 指導者 -->
 		<!-- メネリク2世 -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_MENELIK2_PRIMARY</Type>
@@ -37,6 +38,18 @@
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_TITO_SECONDARY</Type>
 			<Color>30,80,162,255</Color><!-- 青 -->
+		</Row>
+		
+		<!-- 宗教 -->
+		<!-- ジャイナ教 -->
+		<Row>
+			<Type>COLOR_RELIGION_HAG_JAINISM</Type>
+			<Color>255,99,49,255</Color>
+		</Row>
+		<!-- マニ教 -->
+		<Row>
+			<Type>COLOR_RELIGION_HAG_MANICHAEISM</Type>
+			<Color>135,5,0,255</Color>
 		</Row>
 	</Colors>
 </GameInfo>

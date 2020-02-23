@@ -403,5 +403,21 @@
 		<Row Tag="LOC_ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE_DESCRIPTION" Language="ja_JP">
 			<Text>戦闘経験値+25%。(ミーラーン・シャー)</Text>
 		</Row>
+
+		<!-- 宗教 -->
+		<!-- ジャイナ教 -->
+		<Row Tag="LOC_RELIGION_HAG_JAINISM" Language="ja_JP">
+			<Text>ジャイナ教</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_JAINISM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+		<!-- マニ教 -->
+		<Row Tag="LOC_RELIGION_HAG_MANICHAEISM" Language="ja_JP">
+			<Text>マニ教</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_MANICHAEISM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

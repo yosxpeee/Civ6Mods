@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="RELIGION_HAG_JAINISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_HAG_MANICHAEISM" Kind="KIND_RELIGION"/>
+	</Types>
+	<Religions>
+		<Row>
+			<ReligionType>RELIGION_HAG_JAINISM</ReligionType>
+			<Name>LOC_RELIGION_HAG_JAINISM</Name>
+			<IconString>H1</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_HAG_JAINISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_HAG_MANICHAEISM</ReligionType>
+			<Name>LOC_RELIGION_HAG_MANICHAEISM</Name>
+			<IconString>H2</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_HAG_MANICHAEISM</Color>
+		</Row>
+	</Religions>
+</GameData>

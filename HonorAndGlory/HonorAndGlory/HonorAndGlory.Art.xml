@@ -65,6 +65,7 @@
 		<Element>
 			<consumerName text="StrategicView_Properties"/>
 			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -76,6 +77,7 @@
 				<Element text="Buildings.artdef"/>
 				<Element text="Landmarks.artdef"/>
 				<Element text="Improvements.artdef"/>
+				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Sprite"/>
@@ -86,6 +88,7 @@
 		<Element>
 			<consumerName text="StrategicView_Route"/>
 			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Route"/>
@@ -96,6 +99,7 @@
 		<Element>
 			<consumerName text="StrategicView_TerrainType"/>
 			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
@@ -108,6 +112,7 @@
 		<Element>
 			<consumerName text="StrategicView_TerrainBlendCorners"/>
 			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlendCorners"/>
@@ -118,6 +123,7 @@
 		<Element>
 			<consumerName text="StrategicView_TerrainBlend"/>
 			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_TerrainBlend"/>
@@ -180,6 +186,7 @@
 		<Element>
 			<consumerName text="UILensAsset"/>
 			<relativeArtDefPaths>
+				<Element text="Overlay.artdef"/>	
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="OverlayTexture"/>
@@ -190,6 +197,7 @@
 		<Element>
 			<consumerName text="Overlay"/>
 			<relativeArtDefPaths>
+				<Element text="Overlay.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="OverlayTexture"/>
@@ -430,6 +438,7 @@
 		<Element>
 			<consumerName text="RangeArrows"/>
 			<relativeArtDefPaths>
+				<Element text="Overlay.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="OverlayTexture"/>

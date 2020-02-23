@@ -406,5 +406,21 @@
 		<Row Tag="LOC_ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
 			<Text>+25% Earned experience from combat (Miran Shah)</Text>
 		</Row>
+		
+		<!-- 宗教 -->
+		<!-- ジャイナ教 -->
+		<Row Tag="LOC_RELIGION_HAG_JAINISM" Language="en_US">
+			<Text>Jainism</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_JAINISM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Replace>
+		<!-- マニ教 -->
+		<Row Tag="LOC_RELIGION_HAG_MANICHAEISM" Language="en_US">
+			<Text>Manichaeism</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_MANICHAEISM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>
