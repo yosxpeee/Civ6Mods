@@ -51,5 +51,10 @@
 			<Type>COLOR_RELIGION_HAG_MANICHAEISM</Type>
 			<Color>135,5,0,255</Color>
 		</Row>
+		<!-- バハーイー教 -->
+		<Row>
+			<Type>COLOR_RELIGION_HAG_BAHAI_FAITH</Type>
+			<Color>128,128,128,255</Color>
+		</Row>
 	</Colors>
 </GameInfo>

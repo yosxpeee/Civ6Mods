@@ -422,5 +422,12 @@
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_MANICHAEISM_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- バハーイー教 -->
+		<Row Tag="LOC_RELIGION_HAG_BAHAI_FAITH" Language="en_US">
+			<Text>Bahaʼi</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_BAHAI_FAITH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

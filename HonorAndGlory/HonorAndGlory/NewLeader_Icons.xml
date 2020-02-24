@@ -125,6 +125,11 @@
 		<Row Name="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGManichaeism50"/>
 		<Row Name="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGManichaeism100"/>
 		<Row Name="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGManichaeism270"/>
+		<!-- バハーイー教 -->
+		<Row Name="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGBahaiFaith22"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGBahaiFaith50"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGBahaiFaith100"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGBahaiFaith270"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -196,5 +201,7 @@
 		<Row Name="ICON_RELIGION_HAG_JAINISM"     Atlas="ICON_ATLAS_RELIGIONS_HAG_JAINISM"     Index="0"/>
 		<!-- マニ教 -->
 		<Row Name="ICON_RELIGION_HAG_MANICHAEISM" Atlas="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" Index="0"/>
+		<!-- バハーイー教 -->
+		<Row Name="ICON_RELIGION_HAG_BAHAI_FAITH" Atlas="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH"  Index="0"/>
 	</IconDefinitions>
 </GameData>

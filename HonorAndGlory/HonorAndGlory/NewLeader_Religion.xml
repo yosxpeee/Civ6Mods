@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="RELIGION_HAG_JAINISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_HAG_JAINISM"     Kind="KIND_RELIGION"/>
 		<Row Type="RELIGION_HAG_MANICHAEISM" Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_HAG_BAHAI_FAITH" Kind="KIND_RELIGION"/>
 	</Types>
 	<Religions>
+		<!-- ジャイナ教 -->
 		<Row>
 			<ReligionType>RELIGION_HAG_JAINISM</ReligionType>
 			<Name>LOC_RELIGION_HAG_JAINISM</Name>
@@ -12,12 +14,21 @@
 			<RequiresCustomName>false</RequiresCustomName>
 			<Color>COLOR_RELIGION_HAG_JAINISM</Color>
 		</Row>
+		<!-- マニ教 -->
 		<Row>
 			<ReligionType>RELIGION_HAG_MANICHAEISM</ReligionType>
 			<Name>LOC_RELIGION_HAG_MANICHAEISM</Name>
 			<IconString>H2</IconString>
 			<RequiresCustomName>false</RequiresCustomName>
 			<Color>COLOR_RELIGION_HAG_MANICHAEISM</Color>
+		</Row>
+		<!-- バハーイー教 -->
+		<Row>
+			<ReligionType>RELIGION_HAG_BAHAI_FAITH</ReligionType>
+			<Name>LOC_RELIGION_HAG_BAHAI_FAITH</Name>
+			<IconString>H3</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_HAG_BAHAI_FAITH</Color>
 		</Row>
 	</Religions>
 </GameData>

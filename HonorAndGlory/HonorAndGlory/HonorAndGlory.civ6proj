@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
             <Criteria id="LeaderCriteria">
@@ -533,6 +533,9 @@
     <Content Include="Textures\Moment_HAG_Yugoslavia_Stecci.dds">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\Moment_Religion_HAG_BahaiFaith.dds">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\Moment_Religion_HAG_Jainism.dds">
       <SubType>Content</SubType>
     </Content>
@@ -570,6 +573,30 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_HAG_TITO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionHAGBahaiFaith100.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionHAGBahaiFaith100.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionHAGBahaiFaith22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionHAGBahaiFaith22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionHAGBahaiFaith270.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionHAGBahaiFaith270.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionHAGBahaiFaith50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionHAGBahaiFaith50.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ReligionHAGJainism100.dds">
