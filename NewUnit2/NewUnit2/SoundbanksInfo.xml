@@ -1,55 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths>
-		<ProjectRoot>C:\Users\yos-2nd\Documents\WwiseProjects\TheTest\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\yos-2nd\Documents\WwiseProjects\TheTest\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\yos-2nd\Documents\WwiseProjects\TheTest\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\GitHub\Civ6Mods\WwiseProject\YossiesGreatPerson\</ProjectRoot>
+		<SourceFilesRoot>D:\GitHub\Civ6Mods\WwiseProject\YossiesGreatPerson\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GitHub\Civ6Mods\WwiseProject\YossiesGreatPerson\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\yos-2nd\Documents\WwiseProjects\TheTest\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\GitHub\Civ6Mods\WwiseProject\YossiesGreatPerson\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles>
-		<File Id="962746" Language="English(US)">
-			<ShortName>GREAT_WRITING_BRADLEY_BOND_2.wav</ShortName>
-			<Path>Voices\English(US)\GREAT_WRITING_BRADLEY_BOND_2_9E69E797.wem</Path>
-		</File>
-		<File Id="25911282" Language="Japanese">
-			<ShortName>GREAT_WRITING_BRADLEY_BOND_2.wav</ShortName>
-			<Path>Voices\Japanese\GREAT_WRITING_BRADLEY_BOND_2_9E69E797.wem</Path>
-		</File>
-		<File Id="237183443" Language="Japanese">
-			<ShortName>GREAT_WRITING_BRADLEY_BOND_1.wav</ShortName>
-			<Path>Voices\Japanese\GREAT_WRITING_BRADLEY_BOND_1_9E69E797.wem</Path>
-		</File>
-		<File Id="360588486" Language="English(US)">
-			<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2.wav</ShortName>
-			<Path>Voices\English(US)\GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2_9E69E797.wem</Path>
-		</File>
-		<File Id="409548585" Language="English(US)">
-			<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1.wav</ShortName>
-			<Path>Voices\English(US)\GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1_9E69E797.wem</Path>
-		</File>
-		<File Id="508125436" Language="Japanese">
-			<ShortName>GREAT_WRITING_CHE_GUEVARA.wav</ShortName>
-			<Path>Voices\Japanese\GREAT_WRITING_CHE_GUEVARA_9E69E797.wem</Path>
-		</File>
-		<File Id="612215233" Language="English(US)">
-			<ShortName>GREAT_WRITING_BRADLEY_BOND_1.wav</ShortName>
-			<Path>Voices\English(US)\GREAT_WRITING_BRADLEY_BOND_1_9E69E797.wem</Path>
-		</File>
-		<File Id="639553065" Language="Japanese">
-			<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2.wav</ShortName>
-			<Path>Voices\Japanese\GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2_9E69E797.wem</Path>
-		</File>
-		<File Id="706652733" Language="Japanese">
-			<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1.wav</ShortName>
-			<Path>Voices\Japanese\GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1_9E69E797.wem</Path>
-		</File>
-		<File Id="1033470238" Language="English(US)">
-			<ShortName>GREAT_WRITING_CHE_GUEVARA.wav</ShortName>
-			<Path>Voices\English(US)\GREAT_WRITING_CHE_GUEVARA_9E69E797.wem</Path>
-		</File>
-	</StreamedFiles>
+	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX">
@@ -66,7 +25,6 @@
 				<Event Id="951475713" Name="Play_GMMikuHatsuneShiteyanyo"/>
 				<Event Id="2053762018" Name="Play_GREAT_WRITING_BRADLEY_BOND_1"/>
 				<Event Id="2053762017" Name="Play_GREAT_WRITING_BRADLEY_BOND_2"/>
-				<Event Id="1201497883" Name="Play_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1560334183" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1560334180" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 				<Event Id="307043716" Name="Stop_GMLadyGagaBadRomance"/>
@@ -75,33 +33,41 @@
 				<Event Id="1505226199" Name="Stop_GMMikuHatsuneShiteyanyo"/>
 				<Event Id="911409940" Name="Stop_GREAT_WRITING_BRADLEY_BOND_1"/>
 				<Event Id="911409943" Name="Stop_GREAT_WRITING_BRADLEY_BOND_2"/>
-				<Event Id="2211809681" Name="Stop_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1003875953" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1003875954" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 			</IncludedEvents>
-			<ReferencedStreamedFiles>
-				<File Id="962746"/>
-				<File Id="360588486"/>
-				<File Id="409548585"/>
-				<File Id="612215233"/>
-				<File Id="1033470238"/>
-			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="99016954" Language="SFX">
+				<File Id="267353842" Language="SFX">
+					<ShortName>GMLadyGagaPokerFace.wav</ShortName>
+					<Path>SFX\GMLadyGagaPokerFace_9E69E797.wem</Path>
+				</File>
+				<File Id="323678475" Language="English(US)">
+					<ShortName>GREAT_WRITING_BRADLEY_BOND_2_English.wav</ShortName>
+					<Path>Voices\English(US)\GREAT_WRITING_BRADLEY_BOND_2_English_9E69E797.wem</Path>
+				</File>
+				<File Id="636793616" Language="SFX">
 					<ShortName>GMMikuHatsuneShiteyanyo.wav</ShortName>
 					<Path>SFX\GMMikuHatsuneShiteyanyo_9E69E797.wem</Path>
 				</File>
-				<File Id="590763009" Language="SFX">
-					<ShortName>GMMikuHatsuneMelt.wav</ShortName>
-					<Path>SFX\GMMikuHatsuneMelt_9E69E797.wem</Path>
+				<File Id="667534117" Language="English(US)">
+					<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2_English.wav</ShortName>
+					<Path>Voices\English(US)\GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2_English_9E69E797.wem</Path>
 				</File>
-				<File Id="689515117" Language="SFX">
+				<File Id="817730043" Language="English(US)">
+					<ShortName>GREAT_WRITING_BRADLEY_BOND_1_English.wav</ShortName>
+					<Path>Voices\English(US)\GREAT_WRITING_BRADLEY_BOND_1_English_9E69E797.wem</Path>
+				</File>
+				<File Id="824060357" Language="SFX">
 					<ShortName>GMLadyGagaBadRomance.wav</ShortName>
 					<Path>SFX\GMLadyGagaBadRomance_9E69E797.wem</Path>
 				</File>
-				<File Id="912631088" Language="SFX">
-					<ShortName>GMLadyGagaPokerFace.wav</ShortName>
-					<Path>SFX\GMLadyGagaPokerFace_9E69E797.wem</Path>
+				<File Id="989280113" Language="English(US)">
+					<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1_English.wav</ShortName>
+					<Path>Voices\English(US)\GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1_English_9E69E797.wem</Path>
+				</File>
+				<File Id="1014960865" Language="SFX">
+					<ShortName>GMMikuHatsuneMelt.wav</ShortName>
+					<Path>SFX\GMMikuHatsuneMelt_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -115,7 +81,6 @@
 				<Event Id="951475713" Name="Play_GMMikuHatsuneShiteyanyo"/>
 				<Event Id="2053762018" Name="Play_GREAT_WRITING_BRADLEY_BOND_1"/>
 				<Event Id="2053762017" Name="Play_GREAT_WRITING_BRADLEY_BOND_2"/>
-				<Event Id="1201497883" Name="Play_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1560334183" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1560334180" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 				<Event Id="307043716" Name="Stop_GMLadyGagaBadRomance"/>
@@ -124,33 +89,41 @@
 				<Event Id="1505226199" Name="Stop_GMMikuHatsuneShiteyanyo"/>
 				<Event Id="911409940" Name="Stop_GREAT_WRITING_BRADLEY_BOND_1"/>
 				<Event Id="911409943" Name="Stop_GREAT_WRITING_BRADLEY_BOND_2"/>
-				<Event Id="2211809681" Name="Stop_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1003875953" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1003875954" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 			</IncludedEvents>
-			<ReferencedStreamedFiles>
-				<File Id="25911282"/>
-				<File Id="237183443"/>
-				<File Id="508125436"/>
-				<File Id="639553065"/>
-				<File Id="706652733"/>
-			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
-				<File Id="99016954" Language="SFX">
+				<File Id="24937938" Language="Japanese">
+					<ShortName>GREAT_WRITING_BRADLEY_BOND_2_Japanese.wav</ShortName>
+					<Path>Voices\Japanese\GREAT_WRITING_BRADLEY_BOND_2_Japanese_9E69E797.wem</Path>
+				</File>
+				<File Id="176123058" Language="Japanese">
+					<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1_Japanese.wav</ShortName>
+					<Path>Voices\Japanese\GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1_Japanese_9E69E797.wem</Path>
+				</File>
+				<File Id="260548376" Language="Japanese">
+					<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2_Japanese.wav</ShortName>
+					<Path>Voices\Japanese\GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2_Japanese_9E69E797.wem</Path>
+				</File>
+				<File Id="267353842" Language="SFX">
+					<ShortName>GMLadyGagaPokerFace.wav</ShortName>
+					<Path>SFX\GMLadyGagaPokerFace_9E69E797.wem</Path>
+				</File>
+				<File Id="636793616" Language="SFX">
 					<ShortName>GMMikuHatsuneShiteyanyo.wav</ShortName>
 					<Path>SFX\GMMikuHatsuneShiteyanyo_9E69E797.wem</Path>
 				</File>
-				<File Id="590763009" Language="SFX">
-					<ShortName>GMMikuHatsuneMelt.wav</ShortName>
-					<Path>SFX\GMMikuHatsuneMelt_9E69E797.wem</Path>
-				</File>
-				<File Id="689515117" Language="SFX">
+				<File Id="824060357" Language="SFX">
 					<ShortName>GMLadyGagaBadRomance.wav</ShortName>
 					<Path>SFX\GMLadyGagaBadRomance_9E69E797.wem</Path>
 				</File>
-				<File Id="912631088" Language="SFX">
-					<ShortName>GMLadyGagaPokerFace.wav</ShortName>
-					<Path>SFX\GMLadyGagaPokerFace_9E69E797.wem</Path>
+				<File Id="903785065" Language="Japanese">
+					<ShortName>GREAT_WRITING_BRADLEY_BOND_1_Japanese.wav</ShortName>
+					<Path>Voices\Japanese\GREAT_WRITING_BRADLEY_BOND_1_Japanese_9E69E797.wem</Path>
+				</File>
+				<File Id="1014960865" Language="SFX">
+					<ShortName>GMMikuHatsuneMelt.wav</ShortName>
+					<Path>SFX\GMMikuHatsuneMelt_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
