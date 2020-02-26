@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE3FE5F8-8AFD-41C6-9D3D-BDA89C7FD87F}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{AE3FE5F8-8AFD-41C6-9D3D-BDA89C7FD87F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="YMGP_GreatPersonSound" ID="{A5877165-0EBC-484A-9B0B-D997A0C3F199}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_GMLadyGagaPokerFace" ID="{9B5E8B2D-E155-4ABF-8325-2FC01B3ADDDF}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1" ID="{E531063C-CA1F-477B-B1CF-277725CE2631}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GMMikuHatsuneShiteyanyo" ID="{98A65041-9C39-4E5E-AE61-DFF17DD261A7}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_GREAT_WRITING_BRADLEY_BOND_1" ID="{0FA84C60-7F3D-45D7-AD40-F22896DF84FF}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GREAT_WRITING_BRADLEY_BOND_2" ID="{5478126A-9B3A-4D3F-AD55-4A3851E1ECA0}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_GMLadyGagaPokerFace" ID="{10272A6B-C53A-4BDD-802A-76B2E6595E3D}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GMMikuHatsuneMelt" ID="{E18D8573-14A5-446F-A727-0CC7A63FFE9A}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2" ID="{8E74D27E-95AA-4E13-892E-34A46C68A316}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GREAT_WRITING_BRADLEY_BOND_1" ID="{E9A02281-96E6-4B98-A478-23BB9B69E605}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GMLadyGagaBadRomance" ID="{571F2992-A959-45AF-924E-0D04D98FAA04}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1" ID="{C9AA0C9F-FD38-4B6F-ACA1-E8A9E06E9F03}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_GMMikuHatsuneMelt" ID="{D5B5C8B6-ECE9-4DDC-9036-B112C6E1FCD5}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_GREAT_WRITING_BRADLEY_BOND_2" ID="{992916D8-DD9E-4B43-AF3C-645798FEFEE1}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_GMLadyGagaBadRomance" ID="{9D5C81DB-5B59-4C91-ABC7-2DC53F532FFA}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2" ID="{82F818F3-0AD4-43CC-9066-6B8F60578902}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_GMMikuHatsuneShiteyanyo" ID="{27782EFC-04CF-40D8-B3E0-6CD422382483}" WorkUnitID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

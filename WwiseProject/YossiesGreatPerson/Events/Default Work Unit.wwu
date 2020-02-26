@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2442A71E-AE90-4BCF-8CBB-56F1D87981DC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_GMLadyGagaBadRomance" ID="{571F2992-A959-45AF-924E-0D04D98FAA04}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5E38F4B1-A440-4421-894C-4AB84B861BE4}" ShortID="802111157" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B830EE74-2B24-4E59-AFE1-DA1B05271E2C}" Global="false">
+									<ObjectRef Name="GMLadyGagaBadRomance" ID="{C9EB575C-4031-4E57-A5AC-000E4A3CBA1D}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GMLadyGagaPokerFace" ID="{9B5E8B2D-E155-4ABF-8325-2FC01B3ADDDF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{DC11362F-B2E9-4A45-AB1E-E1FA7E20A581}" ShortID="791068971" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{BC2F6511-444E-4E5B-938A-70B1391865D6}" Global="false">
+									<ObjectRef Name="GMLadyGagaPokerFace" ID="{7AE559B5-9CA9-4CA3-B059-892F539A65A0}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GMMikuHatsuneMelt" ID="{E18D8573-14A5-446F-A727-0CC7A63FFE9A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{558B9E3D-F0FA-4BB9-8BFE-FCC8277C71DB}" ShortID="257107792" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{E1CAE06C-FCC2-4C19-80FA-30028B1448FA}" Global="false">
+									<ObjectRef Name="GMMikuHatsuneMelt" ID="{EAAF6682-0C85-4222-94D4-F57A9BFE62DA}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GMMikuHatsuneShiteyanyo" ID="{98A65041-9C39-4E5E-AE61-DFF17DD261A7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9ABF5251-193F-4E34-A3BA-3B33653D20CE}" ShortID="15748127" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{CA078E71-61CC-474F-B080-7C44B7415AD2}" Global="false">
+									<ObjectRef Name="GMMikuHatsuneShiteyanyo" ID="{66C60635-BEDA-40A6-B8CD-ECFF2A5C0F29}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GMLadyGagaBadRomance" ID="{9D5C81DB-5B59-4C91-ABC7-2DC53F532FFA}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{1036D75B-6A6A-4C49-9168-713B3786E841}" ShortID="1038136615" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{4B33F26A-5848-46E0-9FB4-5AD449847E24}" Global="false">
+									<ObjectRef Name="GMLadyGagaBadRomance" ID="{C9EB575C-4031-4E57-A5AC-000E4A3CBA1D}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GMLadyGagaPokerFace" ID="{10272A6B-C53A-4BDD-802A-76B2E6595E3D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{F0F66DBE-3CE3-429C-8CEC-60D3CBDF98AA}" ShortID="748282489" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{72A0079F-A4DC-44AE-99F7-9E5F9AB19932}" Global="false">
+									<ObjectRef Name="GMLadyGagaPokerFace" ID="{7AE559B5-9CA9-4CA3-B059-892F539A65A0}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GMMikuHatsuneMelt" ID="{D5B5C8B6-ECE9-4DDC-9036-B112C6E1FCD5}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{0CCF4C4A-4A95-4A8B-9CD5-830F9502FAFA}" ShortID="246535380" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{0E3D16A3-B0B0-4196-98A6-DABB07AA5982}" Global="false">
+									<ObjectRef Name="GMMikuHatsuneMelt" ID="{EAAF6682-0C85-4222-94D4-F57A9BFE62DA}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GMMikuHatsuneShiteyanyo" ID="{27782EFC-04CF-40D8-B3E0-6CD422382483}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{242A0D1D-DD2A-4AE2-95DC-A4131A89E99A}" ShortID="824022158" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{BBC7EF81-5CA3-430E-AAD3-92D6C0C47F8C}" Global="false">
+									<ObjectRef Name="GMMikuHatsuneShiteyanyo" ID="{66C60635-BEDA-40A6-B8CD-ECFF2A5C0F29}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2" ID="{82F818F3-0AD4-43CC-9066-6B8F60578902}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9D4DDDD0-B4A4-4894-B824-7BD0D2165EBE}" ShortID="238829459" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{6BF350E2-D7EC-40F9-9AF7-92815721E7B1}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2" ID="{09CA2B78-0DB8-4BAC-84F4-B57EB3457995}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2" ID="{8E74D27E-95AA-4E13-892E-34A46C68A316}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{1C4A6D7D-8F3B-405D-AE90-C14EAFBFE818}" ShortID="908541179" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{23462252-366D-43F4-81FF-8C32622CF2B5}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2" ID="{09CA2B78-0DB8-4BAC-84F4-B57EB3457995}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1" ID="{C9AA0C9F-FD38-4B6F-ACA1-E8A9E06E9F03}">
+					<ChildrenList>
+						<Action Name="Play" ID="{47BA8943-D966-42BE-9D91-547E4060174A}" ShortID="967845553" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{8F30A6B1-FF7A-427E-91A7-8EC4721B6343}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1" ID="{9C98E246-8AC1-432C-A7FE-602609ECE5A7}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1" ID="{E531063C-CA1F-477B-B1CF-277725CE2631}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{13993BDF-0321-4988-B2E8-8645C5D7975C}" ShortID="356312757" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E98F692C-0802-4F9F-8395-99B2D11AD347}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1" ID="{9C98E246-8AC1-432C-A7FE-602609ECE5A7}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GREAT_WRITING_BRADLEY_BOND_1" ID="{E9A02281-96E6-4B98-A478-23BB9B69E605}">
+					<ChildrenList>
+						<Action Name="Play" ID="{747C66FD-2452-4046-B24B-9B085951874E}" ShortID="274570608" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D8CE6FF3-1EE4-4D8E-9135-043867D338D2}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_BRADLEY_BOND_1" ID="{CAE333B2-D7BC-4589-8EC9-E9C1C87E4165}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GREAT_WRITING_BRADLEY_BOND_1" ID="{0FA84C60-7F3D-45D7-AD40-F22896DF84FF}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{EDDE6E9F-1CCC-486E-A262-8E88259431B4}" ShortID="38217503" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3BC457E8-3A26-45C1-93FB-80E4F78777E7}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_BRADLEY_BOND_1" ID="{CAE333B2-D7BC-4589-8EC9-E9C1C87E4165}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GREAT_WRITING_BRADLEY_BOND_2" ID="{5478126A-9B3A-4D3F-AD55-4A3851E1ECA0}">
+					<ChildrenList>
+						<Action Name="Play" ID="{09A188B8-E0FF-4129-8F0D-7C145EA9C16D}" ShortID="247415499" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{733BB544-D526-43B5-AE50-8A0898166263}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_BRADLEY_BOND_2" ID="{C603F3D7-C561-4F29-AD03-C4D3B42D674D}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GREAT_WRITING_BRADLEY_BOND_2" ID="{992916D8-DD9E-4B43-AF3C-645798FEFEE1}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{4304E0BD-CC1A-4183-8630-873B4FFD09A8}" ShortID="709187789" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{3F592349-FA89-45B3-AB28-258BEF064446}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_BRADLEY_BOND_2" ID="{C603F3D7-C561-4F29-AD03-C4D3B42D674D}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
