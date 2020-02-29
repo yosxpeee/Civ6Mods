@@ -66,7 +66,7 @@
 			<Text>アフリカの玄関口</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="ja_JP">
-			<Text>[ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+3、[ICON_Culture] 文化力+1。他文明の都市を起点とする [ICON_TradeRoute] 交易路により、自分の [ICON_FOOD] 食糧+1。</Text>
+			<Text>[ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+3、[ICON_Culture] 文化力+1。他文明の都市を起点とする [ICON_TradeRoute] 交易路により、自分の [ICON_FOOD] 食糧+2。他文明の [ICON_TradeRoute] 交易路でモロッコとの交易がおこなわれた場合、その文明に [ICON_Gold] ゴールド+2。</Text>
 		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
@@ -118,10 +118,10 @@
 			<Text>ムーレイ・イスマーイール</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME" Language="ja_JP">
-			<Text>名称未定</Text>
+			<Text>秩序、権威、鉄の意志</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="ja_JP">
-			<Text>特性なし</Text>
+			<Text>全ユニットの防戦時に [ICON_Strength] 戦闘力+3。守備隊が駐屯している都市は、ターン毎の忠誠心+3。軍団または大軍団の場合は+5。</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
@@ -163,6 +163,20 @@
 			<Text>ユーゴスラビア固有のユニット: M48山砲</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE__UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+
+		<!-- UU(ベルベル人の騎兵) -->
+		<Row Tag="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME" Language="ja_JP">
+			<Text>ベルベル人の騎兵</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代のモロッコ固有のユニット。騎兵に取って代わる。砂漠タイルでの [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME" Language="ja_JP">
+			<Text>モロッコ固有のユニット: ベルベル人の騎兵</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
 		

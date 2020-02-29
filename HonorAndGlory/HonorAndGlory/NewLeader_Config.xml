@@ -161,7 +161,14 @@
 			 Description="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_DESCRIPTION"
 			 SortIndex="20"/>
 		<!-- モロッコ -->
-
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_MOROCCO"
+			 LeaderType="LEADER_HAG_MULAY_ISMAIL"
+			 Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"
+			 Icon="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"
+			 Name="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"
+			 Description="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION"
+			 SortIndex="10"/>
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_HAG_MOROCCO"
 			 LeaderType="LEADER_HAG_MULAY_ISMAIL"

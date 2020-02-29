@@ -149,6 +149,66 @@
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_TITO.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_TIMURID22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -267,6 +327,72 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_YUGOSLAVIA80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_LEADER_HAG_NAPOLEON256.DDS">

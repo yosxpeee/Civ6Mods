@@ -66,7 +66,7 @@
 			<Text>African gateway</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="en_US">
-			<Text>[ICON_TradeRoute] Trade Routes to foreign cities provide +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_GOLD] Gold to you.[ICON_TradeRoute] Trade Routes from foreign cities provide +2 [ICON_FOOD] Food to you.</Text>
+			<Text>[ICON_TradeRoute] Trade Routes to foreign cities provide +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_GOLD] Gold to you.[ICON_TradeRoute] Trade Routes from foreign cities provide +2 [ICON_FOOD] Food to you. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Gold] Gold for them.</Text>
 		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
@@ -99,7 +99,7 @@
 			<Text>When two stars meet</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION" Language="en_US">
-			<Text>All Cavarly units Gain [ICON_GOLD] Gold equal to 100% that unit's base [ICON_Strength] Combat Strength. Allows city to purchase districts with [ICON_Gold] Gold when this player captures a city.</Text>
+			<Text>All Cavalry units Gain [ICON_GOLD] Gold equal to 100% that unit's base [ICON_Strength] Combat Strength. Allows city to purchase districts with [ICON_Gold] Gold when this player captures a city.</Text>
 		</Row>
 
 		<!-- 指導者(チトー) -->
@@ -118,10 +118,10 @@
 			<Text>Mulay Ismail</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>Order, Rule and Iron Will</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="en_US">
-			<Text>No traits</Text>
+			<Text>Gain +3 [ICON_Strength] Combat Strength bonus when defending to all units. Cities with a garrisoned unit get +3 Loyalty per turn, or +5 if it is a Corps or Army.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
@@ -163,6 +163,20 @@
 			<Text>Yugoslavia unique unit: Mountain Gun M48</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UU(ベルベル人の騎兵) -->
+		<Row Tag="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME" Language="en_US">
+			<Text>Berbers Cavalry</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>Morocco unique Industrial era unit. Replace the Cavalry. +5 [ICON_Strength] Combat Strength bonus on Desert.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME" Language="en_US">
+			<Text>Morocco unique unit: Berbers Cavalry</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		

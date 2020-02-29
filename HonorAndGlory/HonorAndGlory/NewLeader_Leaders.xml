@@ -77,7 +77,8 @@
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
-		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
+		<!-- メネリク2世 -->
+		<!-- 友好な領土から4タイル以内での戦闘ボーナス+4 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
@@ -91,7 +92,8 @@
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
 		</Row>
-		
+
+		<!-- ナポレオン -->
 		<!-- 陸軍近接ユニットの移動力+1 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
@@ -107,11 +109,12 @@
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
 		</Row>
-		
+
+		<!-- ティムール -->
 		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TIMUR</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD</ModifierId>
 		</Row>
 		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
 		<Row>
@@ -119,6 +122,7 @@
 			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY</ModifierId>
 		</Row>
 
+		<!-- チトー -->
 		<!-- 道路のレベル+1 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
@@ -134,10 +138,26 @@
 			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
 		</Row>
+		
+		<!-- ムーレイ・イスマイール -->
+		<!-- 全ユニット防戦時に戦闘力+3 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</ModifierId>
+		</Row>
+		<!-- 都市へユニットを駐留させると忠誠心+3(軍団、大軍団だと+5) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
+			<ModifierId>TRAIT_ISIBONGO_GARRISONIDENTITY</ModifierId><!-- RaFのシャカと同じ -->
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
+			<ModifierId>TRAIT_ISIBONGO_GARRISONFORMATIONIDENTITY</ModifierId><!-- RaFのシャカと同じ -->
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
-		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
+		<!-- 友好な領土から4タイル以内での戦闘ボーナス+4 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
@@ -178,7 +198,7 @@
 
 		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
@@ -203,10 +223,16 @@
 			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
+
+		<!-- 全ユニット防戦時に戦闘力+3 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
 	<ModifierArguments>
-		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
+		<!-- 友好な領土から4タイル以内での戦闘ボーナス+4 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
 			<Name>AbilityType</Name>
@@ -265,9 +291,9 @@
 
 		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD</ModifierId>
 			<Name>AbilityType</Name>
-			<Value>ABILITY_LEADER_HAG_TIMUR_CAVARLY_COMBAT_WIN_GET_GOLD</Value>
+			<Value>ABILITY_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD</Value>
 		</Row>
 		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
 		<Row>
@@ -302,6 +328,13 @@
 			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
+		</Row>
+
+		<!-- 全ユニット防戦時に戦闘力+3 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->

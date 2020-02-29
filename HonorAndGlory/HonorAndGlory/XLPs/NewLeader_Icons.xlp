@@ -132,6 +132,47 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA256"/>
 		</Element>
+		<!-- 文明(ユーゴスラビア) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO256"/>
+		</Element>
 		<!-- 指導者(メネリク2世) -->
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_MENELIK232"/>
@@ -161,6 +202,7 @@
 			<m_EntryID text="ICON_LEADER_HAG_MENELIK2256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_MENELIK2256"/>
 		</Element>
+		
 		<!-- 指導者(ナポレオン) -->
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_NAPOLEON32"/>
@@ -248,7 +290,54 @@
 			<m_EntryID text="ICON_LEADER_HAG_TITO256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_TITO256"/>
 		</Element>
-
+		<!-- 指導者(ムーレイ・イスマーイール) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MULAY_ISMAIL32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MULAY_ISMAIL32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MULAY_ISMAIL45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MULAY_ISMAIL45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MULAY_ISMAIL50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MULAY_ISMAIL50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MULAY_ISMAIL55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MULAY_ISMAIL55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MULAY_ISMAIL64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MULAY_ISMAIL64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MULAY_ISMAIL80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MULAY_ISMAIL80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MULAY_ISMAIL256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MULAY_ISMAIL256"/>
+		</Element>
+		
+		<!-- 地形改善(カスバ) -->
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_CASBAH38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_CASBAH38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_CASBAH50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_CASBAH50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_CASBAH80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_CASBAH80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_CASBAH256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_CASBAH256"/>
+		</Element>
+		
 		<!-- 宗教(ジャイナ教) -->
 		<Element>
 			<m_EntryID text="ReligionHAGJainism22"/>

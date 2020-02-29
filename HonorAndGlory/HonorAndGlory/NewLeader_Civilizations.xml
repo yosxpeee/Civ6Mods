@@ -17,9 +17,10 @@
 		<Row Type="TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"  Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Kind="KIND_TRAIT"/>
 
-		<Row Type="CIVILIZATION_HAG_MOROCCO"             Kind="KIND_CIVILIZATION" />
-		<Row Type="TRAIT_CIVILIZATION_HAG_MOROCCO"       Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_HAG_MOROCCO"               Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAG_MOROCCO"         Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"   Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>
@@ -87,6 +88,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TraitType="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI"/>
 
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TraitType="TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TraitType="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
 	</CivilizationTraits>
 	<!-- 特性名と詳細説明の定義 -->
@@ -104,6 +106,7 @@
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Name="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME"/>
 
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO"          Name="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_NAME"         Description="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"  Name="LOC_TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"    Name="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
@@ -134,9 +137,11 @@
 		<!-- モロッコ -->
 		<!-- 国外交易路からゴールド+3、文化+1 -->
 		<!-- 他文明が起点の交易路1つにつき食料+2 -->
+		<!-- 他文明からの交易路は相手にゴールド+2を与える -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_INTERNATIONAL_TRADE_GOLD"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_INTERNATIONAL_TRADE_CULTURE"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_FOOD_FROM_INCOMING_TRADE_ROUTES"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_INCOMING_TRADE_OFFER_GOLD"/>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -193,6 +198,11 @@
 		<Row>
 			<ModifierId>TRAIT_HAG_MOROCCO_FOOD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<!-- 他文明からの交易路は相手にゴールド+2を与える -->
+		<Row>
+			<ModifierId>TRAIT_HAG_MOROCCO_INCOMING_TRADE_OFFER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -405,6 +415,17 @@
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
+		<!-- 他文明からの交易路は相手にゴールド+2を与える -->
+		<Row>
+			<ModifierId>TRAIT_HAG_MOROCCO_INCOMING_TRADE_OFFER_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HAG_MOROCCO_INCOMING_TRADE_OFFER_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
@@ -559,6 +580,8 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" ResourceType="RESOURCE_SHEEP" Tier="5"/>
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" ResourceType="RESOURCE_CATTLE" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" ResourceType="RESOURCE_HORSES" Tier="3"/>
+		<!-- モロッコ：馬 -->
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" ResourceType="RESOURCE_HORSES" Tier="1"/>
 	</StartBiasResources>
 	<StartBiasFeatures>
 		<!-- ティムール朝：オアシス -->

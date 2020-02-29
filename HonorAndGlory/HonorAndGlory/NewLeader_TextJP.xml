@@ -440,11 +440,18 @@
 		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_DESCRIPTION" Language="ja_JP">
 			<Text>友好的な領土から4タイル以内にいるユニットの [ICON_Strength] 戦闘力+3。</Text>
 		</Row>
+		
 		<!-- Unit Abilities Preview Text -->
 		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2_DESCRIPTION" Language="ja_JP">
 			<Text>友好的な領土から4タイル以内にいるユニットの [ICON_Strength] 戦闘力+3。</Text>
 		</Row>
-
+		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="ja_JP">
+			<Text>砂漠タイルでの [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="ja_JP">
+			<Text>防戦時はユニットの [ICON_Strength] 戦闘力+3。</Text>
+		</Row>
+		
 		<!-- 隣接ボーナス効果 -->
 		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_GOLD" Language="ja_JP">
 			<Text>隣接するオアシスタイルにより [ICON_Gold] ゴールド+{1_num}。</Text>

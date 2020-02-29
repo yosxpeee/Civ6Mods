@@ -35,7 +35,18 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_YUGOSLAVIA256.dds"/>
-		
+		<!-- モロッコ -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO256.dds"/>
+
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
 		<Row Name="ICON_ATLAS_LEADER_HAG_MENELIK2" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MENELIK232.dds"/>
@@ -69,6 +80,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO256.dds"/>
+		<!-- ムーレイ・イスマーイール-->
+		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL256.dds"/>
 		
 		<!-- ユニット -->
 		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
@@ -114,6 +133,13 @@
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200med"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256med"/>
 
+		<!-- UI -->
+		<!-- カスバ -->
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH38.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH50.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH80.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH256.dds"/>
+		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->
 		<Row Name="ICON_ATLAS_RELIGIONS_HAG_JAINISM" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGJainism22"/>
@@ -141,7 +167,7 @@
 		<!-- ユーゴスラビア -->
 		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" Index="0"/>
 		<!-- モロッコ -->
-		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO" Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -154,7 +180,7 @@
 		<!-- チトー -->
 		<Row Name="ICON_LEADER_HAG_TITO" Atlas="ICON_ATLAS_LEADER_HAG_TITO" Index="0"/>
 		<!-- ムーレイ・イスマーイール-->
-		<Row Name="ICON_LEADER_HAG_MULAY_ISMAIL" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<Row Name="ICON_LEADER_HAG_MULAY_ISMAIL" Atlas="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" Index="0"/>
 		
 		<!-- UU -->
 		<!-- マハール・セファリ(兵士の使いまわし) -->
@@ -187,7 +213,17 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="6"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="6"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="6"/>
-
+		<!-- ベルベル人の騎兵(騎兵の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                                   Atlas="ICON_ATLAS_UNITS"                           Index="61"/>
+		<Row Name="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="61"/>
+		<Row Name="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="61"/>
+		<Row Name="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="61"/>
+		<Row Name="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                  Index="59"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"            Index="59"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"    Index="59"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"   Index="59"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"          Index="59"/>
+		
 		<!-- UB -->
 		<!-- ステッレ(モニュメントの使いまわし) -->
 		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE" Atlas="ICON_ATLAS_BUILDINGS"     Index="0"/>
@@ -199,9 +235,8 @@
 		<!-- UI -->
 		<!-- ステチュツィ(クルガンの使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="19"/>
-		<!-- UI -->
-		<!-- ステチュツィ(階段井戸の使いまわし) -->
-		<Row Name="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="22"/>
+		<!-- カスバ -->
+		<Row Name="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH" Atlas="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" Index="0"/>
 		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->
