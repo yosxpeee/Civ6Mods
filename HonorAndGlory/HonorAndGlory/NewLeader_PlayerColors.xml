@@ -54,21 +54,24 @@
 			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_DK</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_LT</Alt3SecondaryColor>
 		</Row>
+		<!-- ムーレイ・イスマーイール-->
+		<Row>
+			<Type>LEADER_HAG_MULAY_ISMAIL</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_HAG_MULAY_ISMAIL_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_HAG_MULAY_ISMAIL_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_PURPLE_MD</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_ORANGE_DK</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_YELLOW_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_AQUA_DK</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_RED_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_GREEN_MD</Alt3SecondaryColor>
+		</Row>
 	</PlayerColors>
 </Database>
 
 <!--
-あと5人分
-
-<Color>COLOR_STANDARD_PURPLE_MD</Color>
-<Color>COLOR_STANDARD_ORANGE_DK</Color>
-
-<Color>COLOR_STANDARD_YELLOW_LT</Color>
-<Color>COLOR_STANDARD_AQUA_DK</Color>
-
-<Color>COLOR_STANDARD_RED_LT</Color>
-<Color>COLOR_STANDARD_GREEN_MD</Color>
-
+あと4人分
 
 <Color>COLOR_STANDARD_BLUE_DK</Color>
 <Color>COLOR_STANDARD_WHITE_LT</Color>

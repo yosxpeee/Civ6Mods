@@ -140,6 +140,8 @@
 		<Row Name="ICON_CIVILIZATION_HAG_TIMURID" Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" Index="0"/>
 		<!-- ユーゴスラビア -->
 		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" Index="0"/>
+		<!-- モロッコ -->
+		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -151,6 +153,8 @@
 		<Row Name="ICON_LEADER_HAG_TIMUR" Atlas="ICON_ATLAS_LEADER_HAG_TIMUR" Index="0"/>
 		<!-- チトー -->
 		<Row Name="ICON_LEADER_HAG_TITO" Atlas="ICON_ATLAS_LEADER_HAG_TITO" Index="0"/>
+		<!-- ムーレイ・イスマーイール-->
+		<Row Name="ICON_LEADER_HAG_MULAY_ISMAIL" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
 		
 		<!-- UU -->
 		<!-- マハール・セファリ(兵士の使いまわし) -->

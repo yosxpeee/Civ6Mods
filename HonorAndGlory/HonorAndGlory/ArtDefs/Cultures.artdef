@@ -24,7 +24,7 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag001"/>
+									<m_ParamName text="Civilizations_hag01"/>
 								</Element>
 								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_HAG_YUGOSLAVIA"/>
@@ -33,6 +33,14 @@
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations_hag02"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HAG_MOROCCO"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_hag03"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -56,7 +64,7 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag002"/>
+									<m_ParamName text="Civilizations_hag01"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -80,7 +88,7 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag002"/>
+									<m_ParamName text="Civilizations_hag01"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -104,7 +112,15 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag001"/>
+									<m_ParamName text="Civilizations_hag01"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HAG_MOROCCO"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_hag02"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -152,7 +168,7 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag001"/>
+									<m_ParamName text="Civilizations_hag01"/>
 								</Element>
 								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_HAG_YUGOSLAVIA"/>
@@ -160,7 +176,15 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag002"/>
+									<m_ParamName text="Civilizations_hag02"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HAG_MOROCCO"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_hag03"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -188,7 +212,7 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag001"/>
+									<m_ParamName text="Civilizations_hag01"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -212,7 +236,15 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag001"/>
+									<m_ParamName text="Civilizations_hag01"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HAG_MOROCCO"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_hag02"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -236,7 +268,7 @@
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag002"/>
+									<m_ParamName text="Civilizations_hag01"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>

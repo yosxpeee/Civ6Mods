@@ -16,6 +16,9 @@
 		<Row Type="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA"       Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"  Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Kind="KIND_TRAIT"/>
+
+		<Row Type="CIVILIZATION_HAG_MOROCCO"       Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAG_MOROCCO" Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>
@@ -49,13 +52,24 @@
 			<RandomCityNameDepth>10</RandomCityNameDepth>
 			<Ethnicity>ETHNICITY_EURO</Ethnicity>
 		</Row>
+		<!-- モロッコ -->
+		<Row>
+			<CivilizationType>CIVILIZATION_HAG_MOROCCO</CivilizationType>
+			<Name>LOC_CIVILIZATION_HAG_MOROCCO_NAME</Name>
+			<Description>LOC_CIVILIZATION_HAG_MOROCCO_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_HAG_MOROCCO_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_AFRICAN</Ethnicity>
+		</Row>
 	</Civilizations>
 	<!-- 文明に属する指導者 -->
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   LeaderType="LEADER_HAG_MENELIK2" CapitalName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_1" />
-		<Row CivilizationType="CIVILIZATION_FRANCE"         LeaderType="LEADER_HAG_NAPOLEON" CapitalName="LOC_CITY_NAME_PARIS" />
-		<Row CivilizationType="CIVILIZATION_HAG_TIMURID"    LeaderType="LEADER_HAG_TIMUR"    CapitalName="LOC_CIVILIZATION_HAG_TIMURID_CITY_1" />
-		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" LeaderType="LEADER_HAG_TITO"     CapitalName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   LeaderType="LEADER_HAG_MENELIK2"     CapitalName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_FRANCE"         LeaderType="LEADER_HAG_NAPOLEON"     CapitalName="LOC_CITY_NAME_PARIS" />
+		<Row CivilizationType="CIVILIZATION_HAG_TIMURID"    LeaderType="LEADER_HAG_TIMUR"        CapitalName="LOC_CIVILIZATION_HAG_TIMURID_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" LeaderType="LEADER_HAG_TITO"         CapitalName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO"    LeaderType="LEADER_HAG_MULAY_ISMAIL" CapitalName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" />
 	</CivilizationLeaders>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>
@@ -70,6 +84,8 @@
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TraitType="TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TraitType="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI"/>
+
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" />
 	</CivilizationTraits>
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
@@ -84,6 +100,8 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA"       Name="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_NAME"    Description="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"  Name="LOC_TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Name="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO"       Name="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_NAME"    Description="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -457,12 +475,26 @@
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_8" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_10" />
+
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_10" />
 	</CityNames>
 	<!-- 開始位置補正 -->
 	<StartBiasTerrains>
 		<!-- ティムール朝：砂漠 -->
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT" Tier="2"/>
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT_HILLS" Tier="2"/>
+		<!-- モロッコ：砂漠 -->
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
 		<!-- エチオピア帝国：羊、家畜、馬 -->

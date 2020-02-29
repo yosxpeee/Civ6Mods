@@ -51,6 +51,23 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION" Language="en_US">
 			<Text>[ICON_Governor] Governors established in a city provide +3% [ICON_Culture] Culture for each Promotion they have earned, including their first. Mines provide +1 [ICON_SCIENCE] Science if adjacent to an Industrial Zone.</Text>
 		</Row>
+
+		<!-- 文明(モロッコ) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_NAME" Language="en_US">
+			<Text>Morocco</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="en_US">
+			<Text>Morocco</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_ADJECTIVE" Language="en_US">
+			<Text>Morocco</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_NAME" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="en_US">
+			<Text>No traits</Text>
+		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="en_US">
@@ -94,6 +111,17 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION" Language="en_US">
 			<Text>Roads built in your territory are one level more advanced than usual. Receive +2 [ICON_Production] Production for routes between your own cities. [ICON_TradeRoute] Trade Routes to foreign cities provide +2 [ICON_Gold] Gold to you.</Text>
+		</Row>
+
+		<!-- 指導者(ムーレイ・イスマーイール -->
+		<Row Tag="LOC_LEADER_HAG_MULAY_ISMAIL_NAME" Language="en_US">
+			<Text>Mulay Ismail</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="en_US">
+			<Text>No traits</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

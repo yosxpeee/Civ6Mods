@@ -30,7 +30,7 @@
 			<Type>COLOR_PLAYER_LEADER_HAG_TIMUR_SECONDARY</Type>
 			<Color>240,30,30,255</Color><!-- 赤 -->
 		</Row>
-		<!-- ユーゴスラビア -->
+		<!-- チトー -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_TITO_PRIMARY</Type>
 			<Color>240,0,0,255</Color><!-- 赤 -->
@@ -38,6 +38,15 @@
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_TITO_SECONDARY</Type>
 			<Color>30,80,162,255</Color><!-- 青 -->
+		</Row>
+		<!-- ムーレイ・イスマーイール -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_MULAY_ISMAIL_PRIMARY</Type>
+			<Color>115,0,0,160</Color><!-- 暗い赤、半透明 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_MULAY_ISMAIL_SECONDARY</Type>
+			<Color>196,196,196,255</Color><!-- 明るめの灰 -->
 		</Row>
 		
 		<!-- 宗教 -->

@@ -20,7 +20,16 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TITO_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TITO_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
 		
@@ -37,6 +46,9 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TITO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>指導者の歴史的背景(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>指導者の歴史的背景(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
@@ -46,6 +58,9 @@
 			<Text>文明の歴史的背景(Civilopedia)</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_YUGOSLAVIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>文明の歴史的背景(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_MOROCCO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>文明の歴史的背景(Civilopedia)</Text>
 		</Row>
 		
@@ -135,6 +150,35 @@
 			<Text>アントワネット</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_5" Language="ja_JP">
+			<Text>エリザベス</Text>
+		</Row>
+
+		<!-- モロッコ -->
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_1" Language="ja_JP">
+			<Text>ジョン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_2" Language="ja_JP">
+			<Text>チャールズ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_3" Language="ja_JP">
+			<Text>ボビー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_4" Language="ja_JP">
+			<Text>トム</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_1" Language="ja_JP">
+			<Text>キティ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_2" Language="ja_JP">
+			<Text>カーリー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_3" Language="ja_JP">
+			<Text>ジャンヌ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_4" Language="ja_JP">
+			<Text>アントワネット</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Language="ja_JP">
 			<Text>エリザベス</Text>
 		</Row>
 		
@@ -321,6 +365,39 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_10" Language="ja_JP">
 			<Text>都市9</Text>
 		</Row>
+
+		<!-- モロッコ -->
+		<!-- 今は仮 -->
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" Language="ja_JP">
+			<Text>メクネス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_2" Language="ja_JP">
+			<Text>都市1</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_3" Language="ja_JP">
+			<Text>都市2</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_4" Language="ja_JP">
+			<Text>都市3</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_5" Language="ja_JP">
+			<Text>都市4</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_6" Language="ja_JP">
+			<Text>都市5</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_7" Language="ja_JP">
+			<Text>都市6</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_8" Language="ja_JP">
+			<Text>都市7</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_9" Language="ja_JP">
+			<Text>都市8</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_10" Language="ja_JP">
+			<Text>都市9</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="ja_JP">
@@ -335,6 +412,9 @@
 		<Row Tag="LOC_LEADER_HAG_TITO_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_MULAY_ISMAIL_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="ja_JP">
@@ -347,6 +427,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TITO_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_MULAY_ISMAIL_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		

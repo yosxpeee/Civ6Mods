@@ -31,5 +31,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TITO_ANY" Language="en_US">
 			<Text>Choose your friendships wisely—but you must choose.</Text>
 		</Replace>
+		<!-- ムーレイ・イスマーイール-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_MULAY_ISMAIL_ANY" Language="en_US">
+			<Text>Rejoice with me, friend, for we are free from every want and can devote our time to the will of God.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MULAY_ISMAIL_ANY" Language="en_US">
+			<Text>What have you done, that God has withdrawn his bounty from you? See that you return to righteousness!</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

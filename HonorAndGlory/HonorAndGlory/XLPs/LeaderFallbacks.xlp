@@ -29,6 +29,11 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_TITO"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_TITO"/>
 		</Element>
+		<!-- ムーレイ・イスマーイール-->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_MULAY_ISMAIL"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_MULAY_ISMAIL"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

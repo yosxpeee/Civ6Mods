@@ -69,6 +69,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_TITO</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_TITO</Portrait>
 		</Row>
+		<!-- モロッコ(ムーレイ・イスマーイール) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_MOROCCO</CivilizationType>
+			<LeaderType>LEADER_HAG_MULAY_ISMAIL</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_MOROCCO_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_MOROCCO</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_MULAY_ISMAIL_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_MULAY_ISMAIL</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_MOROCCO</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_MULAY_ISMAIL</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_MULAY_ISMAIL</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->
