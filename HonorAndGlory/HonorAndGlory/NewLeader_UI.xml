@@ -3,24 +3,36 @@
 	<!-- 親定義 -->
 	<Types>
 		<Row Type="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_HAG_MOROCCO_CASBAH"    Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<!-- 設定本体 -->
 	<Improvements>
+		<!-- ステチュツィ：封建主義で解禁 -->
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" 
 			 Name="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" 
 			 Description="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_DESCRIPTION" 
 			 Icon="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" 
 			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" OnePerCity="true"
 			 PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI"/>
+		<!-- カスバ：城で解禁 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"
+			 Name="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME"
+			 Description="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION"
+			 Icon="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH"
+			 PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" Housing="1" TilesRequired="2"
+			 PrereqTech="TECH_CASTLES" TraitType="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
 	</Improvements>
 	<!-- 隣接ボーナス指定 -->
 	<Improvement_Adjacencies>
 	</Improvement_Adjacencies>
 	<!-- 設置可能な特徴 -->
 	<Improvement_ValidFeatures>
+		<!-- カスバ：氾濫原(砂漠) -->
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" FeatureType="FEATURE_FLOODPLAINS"/>
 	</Improvement_ValidFeatures>
 	<!-- 設置可能な地形 -->
 	<Improvement_ValidTerrains>
+		<!-- ステチュツィ：どこでも -->
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_DESERT"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_TUNDRA"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_PLAINS"/>
@@ -31,6 +43,9 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_PLAINS_HILLS"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_GRASS_HILLS"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<!-- カスバ：砂漠のみ -->
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" TerrainType="TERRAIN_DESERT_HILLS"/>
 	</Improvement_ValidTerrains>
 	<!-- 設置可能な資源 -->
 	<Improvement_ValidResources>
@@ -38,21 +53,31 @@
 	<!--地形改善できるユニット -->
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
 	<!-- 出力 -->
 	<Improvement_YieldChanges>
 		<!-- ステチュツィ：ゴールド+1、文化+1-->
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"    YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<!-- カスバ：ゴールド+1、生産力+1、食糧+1 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_GOLD"       YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_FOOD"       YieldChange="1"/>
 	</Improvement_YieldChanges>
 	<!-- 追加出力 -->
 	<Improvement_BonusYieldChanges>
 		<!-- ステチュツィ：都市化で文化+1、マスメディアでゴールド+1 -->
 		<Row Id="HAG_01" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
 		<Row Id="HAG_02" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"    BonusYieldChange="1" PrereqCivic="CIVIC_MASS_MEDIA"/>
+		<!-- カスバ：都市化でゴールド+1、工業化で生産力+1、共通規格で食糧+1 -->
+		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"       BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
+		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_INDUSTRIALIZATION"/>
+		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_FOOD"       BonusYieldChange="1" PrereqTech="TECH_REPLACEABLE_PARTS"/>
 	</Improvement_BonusYieldChanges>
 	<!-- 観光力 -->
 	<Improvement_Tourism>
+		<!-- 文化の出る改善共通：航空技術で観光力+1 -->
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
 	</Improvement_Tourism>
 	<!-- 隣接ボーナス詳細 -->

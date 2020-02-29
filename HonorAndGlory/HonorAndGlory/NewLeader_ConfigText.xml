@@ -63,10 +63,10 @@
 			<Text>Morocco</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_NAME" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>African gateway</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="en_US">
-			<Text>No traits</Text>
+			<Text>[ICON_TradeRoute] Trade Routes to foreign cities provide +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_GOLD] Gold to you.[ICON_TradeRoute] Trade Routes from foreign cities provide +2 [ICON_FOOD] Food to you.</Text>
 		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
@@ -199,12 +199,26 @@
 			<Text>Stecci</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Stecci, unique to Yugoslavia.[NEWLINE][NEWLINE]+1 [ICON_Culture] Production, +1 [ICON_Faith] Faith, +3 [ICON_Amenities] Amenity. One per City.</Text>
+			<Text>Unlocks the Builder ability to construct a Stecci, unique to Yugoslavia.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, +3 [ICON_Amenities] Amenity. One per City.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="en_US">
 			<Text>Yugoslavia unique improvement: Stecci</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UI(カスバ) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="en_US">
+			<Text>Casbah</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Casbah, unique to Morocco.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, +1 [ICON_Food] Food, +0.5 [ICON_Housing] Housing. Can be built on Desert, Desert Hills and Desert Floodplain.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="en_US">
+			<Text>Morocco unique improvement: Casbah</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MOROCCO_CASBAH_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

@@ -68,6 +68,9 @@
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\IMP_HAG_Casbah.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="NewLeader_ConfigTextJP.xml">
       <SubType>Content</SubType>
     </Content>
@@ -695,7 +698,11 @@
     <Content Include="XLPs\NewLeader_Icons.xlp">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="Artdefs\" />
+    <Folder Include="Assets\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
     <Content Include="NewLeader_Config.xml" />

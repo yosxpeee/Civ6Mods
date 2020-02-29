@@ -63,10 +63,10 @@
 			<Text>モロッコの</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_NAME" Language="ja_JP">
-			<Text>名称未定</Text>
+			<Text>アフリカの玄関口</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="ja_JP">
-			<Text>特性なし</Text>
+			<Text>[ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+3、[ICON_Culture] 文化力+1。他文明の都市を起点とする [ICON_TradeRoute] 交易路により、自分の [ICON_FOOD] 食糧+1。</Text>
 		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
@@ -110,7 +110,7 @@
 			<Text>チトー主義</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION" Language="ja_JP">
-			<Text>自文明の領土内における道路の移動速度上昇効果が、本来よりも1段階上の扱いとなる。 [ICON_TradeRoute] 国内交易路から [ICON_Production] 生産力+2、 [ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+2。</Text>
+			<Text>自文明の領土内における道路の移動速度上昇効果が、本来よりも1段階上の扱いとなる。 [ICON_TradeRoute] 国内交易路から [ICON_Production] 生産力+2、[ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+2。</Text>
 		</Row>
 
 		<!-- 指導者(ムーレイ・イスマーイール) -->
@@ -202,9 +202,23 @@
 			<Text>労働者がユーゴスラビアの施設であるステチュツィを建設できるようになる。[NEWLINE][NEWLINE][ICON_Culture] 文化力+1、[ICON_Faith] 信仰力+1、[ICON_Amenities] 快適性+3。1都市につき1つのみ。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="ja_JP">
-			<Text>>ユーゴスラビア固有の施設: キュッリイェ</Text>
+			<Text>>ユーゴスラビア固有の施設: ステチュツィ</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+
+		<!-- UI(カスバ) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="ja_JP">
+			<Text>カスバ</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がモロッコの施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1, [ICON_Housing] 住宅+0.5。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="ja_JP">
+			<Text>>モロッコ固有の施設: カスバ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MOROCCO_CASBAH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
 	</LocalizedText>
