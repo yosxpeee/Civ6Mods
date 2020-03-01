@@ -227,7 +227,7 @@
 			<Text>Casbah</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Casbah, unique to Morocco.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, +1 [ICON_Food] Food, +0.5 [ICON_Housing] Housing. Can be built on Desert, Desert Hills and Desert Floodplain.</Text>
+			<Text>Unlocks the Builder ability to construct a Casbah, unique to Morocco.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, +1 [ICON_Food] Food, +0.5 [ICON_Housing] Housing. Receive +1 [ICON_Gold] Gold if adjacent to other Casbah. Can be built on Desert, Desert Hills and Desert Floodplain.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="en_US">
 			<Text>Morocco unique improvement: Casbah</Text>

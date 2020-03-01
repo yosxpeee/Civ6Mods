@@ -24,6 +24,7 @@
 	</Improvements>
 	<!-- 隣接ボーナス指定 -->
 	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldChangeId="HAG_Casbah_SameImprovementAdjacency"/>
 	</Improvement_Adjacencies>
 	<!-- 設置可能な特徴 -->
 	<Improvement_ValidFeatures>
@@ -82,6 +83,8 @@
 	</Improvement_Tourism>
 	<!-- 隣接ボーナス詳細 -->
 	<Adjacency_YieldChanges>
+		<!-- カスバ：同じ改善同士でゴールド+0.5 -->
+		<Row ID="HAG_Casbah_SameImprovementAdjacency" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
 	</Adjacency_YieldChanges>
 	<!-- 固有能力指定 -->
 	<ImprovementModifiers>

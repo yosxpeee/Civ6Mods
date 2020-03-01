@@ -227,7 +227,7 @@
 			<Text>カスバ</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がモロッコの施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1, [ICON_Housing] 住宅+0.5。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
+			<Text>労働者がモロッコの施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1, [ICON_Housing] 住宅+0.5。他のカスバと隣接させると [ICON_Gold] ゴールド+1。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="ja_JP">
 			<Text>>モロッコ固有の施設: カスバ</Text>
