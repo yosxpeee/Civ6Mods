@@ -334,71 +334,221 @@
 		</Row>
 
 		<!-- ユーゴスラビア -->
-		<!-- 今は仮 -->
+		<!-- 構成国の都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" Language="ja_JP">
 			<Text>ベオグラード</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_2" Language="ja_JP">
-			<Text>都市1</Text>
+			<Text>ノヴィ・サド</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_3" Language="ja_JP">
-			<Text>都市2</Text>
+			<Text>ニシュ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_4" Language="ja_JP">
-			<Text>都市3</Text>
+			<Text>クラグイェヴァツ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_5" Language="ja_JP">
-			<Text>都市4</Text>
+			<Text>スボティツァ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_6" Language="ja_JP">
-			<Text>都市5</Text>
+			<Text>ズレニャニン</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_7" Language="ja_JP">
-			<Text>都市6</Text>
+			<Text>パンチェヴォ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_8" Language="ja_JP">
-			<Text>都市7</Text>
+			<Text>チャチャク</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_9" Language="ja_JP">
-			<Text>都市8</Text>
+			<Text>クラリェヴォ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_10" Language="ja_JP">
-			<Text>都市9</Text>
+			<Text>ノヴィ・パザル</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_11" Language="ja_JP">
+			<Text>サラエボ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_12" Language="ja_JP">
+			<Text>バニャ・ルカ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_13" Language="ja_JP">
+			<Text>トゥズラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_14" Language="ja_JP">
+			<Text>ゼニツァ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_15" Language="ja_JP">
+			<Text>ビイェリナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_16" Language="ja_JP">
+			<Text>スコピエ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_17" Language="ja_JP">
+			<Text>クマノヴォ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_18" Language="ja_JP">
+			<Text>ビトラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_19" Language="ja_JP">
+			<Text>プレリプ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_20" Language="ja_JP">
+			<Text>テトヴォ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_21" Language="ja_JP">
+			<Text>ザグレブ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_22" Language="ja_JP">
+			<Text>スプリト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_23" Language="ja_JP">
+			<Text>リエカ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_24" Language="ja_JP">
+			<Text>オシエク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_25" Language="ja_JP">
+			<Text>ザダル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_26" Language="ja_JP">
+			<Text>リュブリャナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_27" Language="ja_JP">
+			<Text>マリボル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_28" Language="ja_JP">
+			<Text>ツェリェ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_29" Language="ja_JP">
+			<Text>クラーニ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_30" Language="ja_JP">
+			<Text>ヴェレニエ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_31" Language="ja_JP">
+			<Text>ボドゴリツァ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_32" Language="ja_JP">
+			<Text>ニクシッチ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_33" Language="ja_JP">
+			<Text>プリェヴリャ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_34" Language="ja_JP">
+			<Text>ビイェロ・ポリエ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_35" Language="ja_JP">
+			<Text>ツェティニェ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_36" Language="ja_JP">
+			<Text>プリシュティナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_37" Language="ja_JP">
+			<Text>プリズレン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_38" Language="ja_JP">
+			<Text>フェリザイ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_39" Language="ja_JP">
+			<Text>ペヤ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_40" Language="ja_JP">
+			<Text>ジャコヴァ</Text>
+		</Row>
+		
 		<!-- モロッコ -->
-		<!-- 今は仮 -->
+		<!-- 現モロッコの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" Language="ja_JP">
 			<Text>メクネス</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_2" Language="ja_JP">
-			<Text>都市1</Text>
+			<Text>カサブランカ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_3" Language="ja_JP">
-			<Text>都市2</Text>
+			<Text>タンジェ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_4" Language="ja_JP">
-			<Text>都市3</Text>
+			<Text>マラケシュ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_5" Language="ja_JP">
-			<Text>都市4</Text>
+			<Text>サレ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_6" Language="ja_JP">
-			<Text>都市5</Text>
+			<Text>ラバト</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_7" Language="ja_JP">
-			<Text>都市6</Text>
+			<Text>ウジダ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_8" Language="ja_JP">
-			<Text>都市7</Text>
+			<Text>ケニトラ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_9" Language="ja_JP">
-			<Text>都市8</Text>
+			<Text>アガディール</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_10" Language="ja_JP">
-			<Text>都市9</Text>
+			<Text>テトゥアン</Text>
 		</Row>
-		
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_11" Language="ja_JP">
+			<Text>テマラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_12" Language="ja_JP">
+			<Text>サフィ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_13" Language="ja_JP">
+			<Text>モハメディア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_14" Language="ja_JP">
+			<Text>フルーブガ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_15" Language="ja_JP">
+			<Text>アル・ジャディーダ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_16" Language="ja_JP">
+			<Text>ベニ・メラル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_17" Language="ja_JP">
+			<Text>アイット・メルル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_18" Language="ja_JP">
+			<Text>ナドール</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_19" Language="ja_JP">
+			<Text>ダー・バワザー</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_20" Language="ja_JP">
+			<Text>タザ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_21" Language="ja_JP">
+			<Text>セタト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_22" Language="ja_JP">
+			<Text>ベレチド</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_23" Language="ja_JP">
+			<Text>ケミセット</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_24" Language="ja_JP">
+			<Text>イネガーヌ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_25" Language="ja_JP">
+			<Text>クサール・アルケビール</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_26" Language="ja_JP">
+			<Text>アライシュ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_27" Language="ja_JP">
+			<Text>ゲルミン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_28" Language="ja_JP">
+			<Text>ケニフラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_29" Language="ja_JP">
+			<Text>ベルカン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_30" Language="ja_JP">
+			<Text>タウリルト</Text>
+		</Row>
+
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>

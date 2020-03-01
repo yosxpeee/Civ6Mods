@@ -10,6 +10,7 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"  Texture="Moment_HAG_Yugoslavia_M48.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Texture="Moment_HAG_Yugoslavia_Stecci.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    Texture="Moment_Infrastructure_India.dds"/><!-- 階段井戸の使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"  Texture="Moment_UniqueUnit_America_Roughrider.dds"/><!-- ラフライダーの使いまわし -->
 		<!-- 宗教 -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"     Texture="Moment_Religion_HAG_Jainism.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_MANICHAEISM" Texture="Moment_Religion_HAG_Manichaeism.dds"/>

@@ -334,71 +334,221 @@
 		</Row>
 		
 		<!-- ユーゴスラビア -->
-		<!-- 今は仮 -->
+		<!-- 構成国の都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" Language="en_US">
 			<Text>Beograd</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_2" Language="en_US">
-			<Text>City1</Text>
+			<Text>Novi Sad</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_3" Language="en_US">
-			<Text>City2</Text>
+			<Text>Nis</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_4" Language="en_US">
-			<Text>City3</Text>
+			<Text>Kragujevac</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_5" Language="en_US">
-			<Text>City4</Text>
+			<Text>Subotica</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_6" Language="en_US">
-			<Text>City5</Text>
+			<Text>Zrenjanin</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_7" Language="en_US">
-			<Text>City6</Text>
+			<Text>Pancevo</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_8" Language="en_US">
-			<Text>City7</Text>
+			<Text>Cacak</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_9" Language="en_US">
-			<Text>City8</Text>
+			<Text>Kraljevo</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_10" Language="en_US">
-			<Text>City9</Text>
+			<Text>Novi Pazar</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_11" Language="en_US">
+			<Text>Sarajevo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_12" Language="en_US">
+			<Text>Banja Luka</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_13" Language="en_US">
+			<Text>Tuzla</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_14" Language="en_US">
+			<Text>Zenica</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_15" Language="en_US">
+			<Text>Bijeljina</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_16" Language="en_US">
+			<Text>Skopje</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_17" Language="en_US">
+			<Text>Kumanovo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_18" Language="en_US">
+			<Text>Bitola</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_19" Language="en_US">
+			<Text>Prilep</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_20" Language="en_US">
+			<Text>Tetovo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_21" Language="en_US">
+			<Text>Zagreb</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_22" Language="en_US">
+			<Text>Split</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_23" Language="en_US">
+			<Text>Rijeka</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_24" Language="en_US">
+			<Text>Osijek</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_25" Language="en_US">
+			<Text>Zadar</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_26" Language="en_US">
+			<Text>Ljubljana</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_27" Language="en_US">
+			<Text>Maribor</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_28" Language="en_US">
+			<Text>Celje</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_29" Language="en_US">
+			<Text>Kranj</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_30" Language="en_US">
+			<Text>Velenje</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_31" Language="en_US">
+			<Text>Podgorica</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_32" Language="en_US">
+			<Text>Niksic</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_33" Language="en_US">
+			<Text>Pljevlja</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_34" Language="en_US">
+			<Text>Bijelo Polje</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_35" Language="en_US">
+			<Text>Cetinje</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_36" Language="en_US">
+			<Text>Prishtina</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_37" Language="en_US">
+			<Text>Prizreni</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_38" Language="en_US">
+			<Text>Ferizaj</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_39" Language="en_US">
+			<Text>Peje</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_40" Language="en_US">
+			<Text>Gjakove</Text>
+		</Row>
+		
 		<!-- モロッコ -->
-		<!-- 今は仮 -->
+		<!-- 現モロッコの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" Language="en_US">
 			<Text>Meknes</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_2" Language="en_US">
-			<Text>City1</Text>
+			<Text>Casablanca</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_3" Language="en_US">
-			<Text>City2</Text>
+			<Text>Tanger</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_4" Language="en_US">
-			<Text>City3</Text>
+			<Text>Marrakish</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_5" Language="en_US">
-			<Text>City4</Text>
+			<Text>Sale</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_6" Language="en_US">
-			<Text>City5</Text>
+			<Text>Rabat</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_7" Language="en_US">
-			<Text>City6</Text>
+			<Text>Oujda</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_8" Language="en_US">
-			<Text>City7</Text>
+			<Text>Kenitra</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_9" Language="en_US">
-			<Text>City8</Text>
+			<Text>Agadir</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_10" Language="en_US">
-			<Text>City9</Text>
+			<Text>Tetouan</Text>
 		</Row>
-		
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_11" Language="en_US">
+			<Text>Temara</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_12" Language="en_US">
+			<Text>Safi</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_13" Language="en_US">
+			<Text>Mohammedia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_14" Language="en_US">
+			<Text>Khouribga</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_15" Language="en_US">
+			<Text>El Jadida</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_16" Language="en_US">
+			<Text>Beni Mellal</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_17" Language="en_US">
+			<Text>Ait Melloul</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_18" Language="en_US">
+			<Text>Nador</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_19" Language="en_US">
+			<Text>Dar Bouazza</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_20" Language="en_US">
+			<Text>Taza</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_21" Language="en_US">
+			<Text>Settat</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_22" Language="en_US">
+			<Text>Berrechid</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_23" Language="en_US">
+			<Text>Khemisset</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_24" Language="en_US">
+			<Text>Inezgane</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_25" Language="en_US">
+			<Text>Ksar el-Kebir</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_26" Language="en_US">
+			<Text>Larache</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_27" Language="en_US">
+			<Text>Guelmim</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_28" Language="en_US">
+			<Text>Khenifra</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_29" Language="en_US">
+			<Text>Berkane</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_30" Language="en_US">
+			<Text>Taourirt</Text>
+		</Row>
+
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
