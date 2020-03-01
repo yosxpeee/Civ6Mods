@@ -38,6 +38,204 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Animations\u_morocco_berber_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_attack_city.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_attack_city.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_charge_attack.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_charge_attack.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_charge_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_charge_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_shuffle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_shuffle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_stop_run_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_stop_run_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_turnrunleft.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_turnrunleft.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_turnrunright.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_turnrunright.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_morocco_berber_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Buildings.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -65,10 +263,25 @@
     <Content Include="ArtDefs\StrategicView.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\IMP_HAG_Casbah.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Morocco_Berber.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_morocco_berber.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_morocco_berber.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\U_Morocco_Berber_Warrior_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="NewLeader_ConfigTextJP.xml">
@@ -119,6 +332,18 @@
     <Content Include="NewLeader_UU.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\Black_Gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.dds">
       <SubType>Content</SubType>
     </Content>
@@ -147,6 +372,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_TITO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO22.DDS">
@@ -821,14 +1052,44 @@
     <Content Include="Textures\Tito_LoadingInfo_Foreground.dds">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\u_morocco_berber_warrior_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_morocco_berber_warrior_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_morocco_berber_warrior_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_morocco_berber_warrior_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_morocco_berber_warrior_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_morocco_berber_warrior_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\NewLeader_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\units_civ5.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\tilebases.xlp">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="Animations\" />
     <Folder Include="Artdefs\" />
     <Folder Include="Assets\" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Materials\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
     <Content Include="NewLeader_Config.xml" />

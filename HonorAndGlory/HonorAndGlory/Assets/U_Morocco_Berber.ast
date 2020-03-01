@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:AssetInstance>
+<m_BehaviorData>
+<m_behaviorDataSets>
+<m_animationBindings>
+<m_Bindings>
+<Element>
+<m_SlotName text="ATTACK_A"/> 
+<m_AnimationName text="u_morocco_berber_attacka"/> 
+</Element>
+<Element>
+<m_SlotName text="BACKWARD_A"/> 
+<m_AnimationName text="u_morocco_berber_shuffle"/> 
+</Element>
+<Element>
+<m_SlotName text="BREATHING_A"/> 
+<m_AnimationName text="u_morocco_berber_idlea"/> 
+</Element>
+<Element>
+<m_SlotName text="BREATHING_COMBAT_A"/> 
+<m_AnimationName text="u_morocco_berber_combat_ready_idle"/> 
+</Element>
+<Element>
+<m_SlotName text="DODGE_A"/> 
+<m_AnimationName text="u_morocco_berber_bombard_defense"/> 
+</Element>
+<Element>
+<m_SlotName text="DEFEND_A"/> 
+<m_AnimationName text="u_morocco_berber_bombard_defense"/> 
+</Element>
+<Element>
+<m_SlotName text="DEFEND_1"/> 
+<m_AnimationName text="u_morocco_berber_bombard_defense"/> 
+</Element>
+<Element>
+<m_SlotName text="FORWARD_A"/> 
+<m_AnimationName text="u_morocco_berber_shuffle"/> 
+</Element>
+<Element>
+<m_SlotName text="HERO_A"/> 
+<m_AnimationName text="u_morocco_berber_attack_city"/> 
+</Element>
+<Element>
+<m_SlotName text="HERO_1"/> 
+<m_AnimationName text="u_morocco_berber_attack_city"/> 
+</Element>
+<Element>
+<m_SlotName text="REACT_A"/> 
+<m_AnimationName text="u_morocco_berber_attackb"/> 
+</Element>
+<Element>
+<m_SlotName text="REACT_RANGED_A"/> 
+<m_AnimationName text="u_morocco_berber_attacka"/> 
+</Element>
+<Element>
+<m_SlotName text="REACT_RANGED_B"/> 
+<m_AnimationName text="u_morocco_berber_attackb"/> 
+</Element>
+<Element>
+<m_SlotName text="REACT_RANGED_C"/> 
+<m_AnimationName text="u_morocco_berber_attacka"/> 
+</Element>
+<Element>
+<m_SlotName text="REACT_RANGED_D"/> 
+<m_AnimationName text="u_morocco_berber_attackb"/> 
+</Element>
+<Element>
+<m_SlotName text="SPAWN"/> 
+<m_AnimationName text="u_morocco_berber_victory"/> 
+</Element>
+<Element>
+<m_SlotName text="RUN_A"/> 
+<m_AnimationName text="u_morocco_berber_run"/> 
+</Element>
+<Element>
+<m_SlotName text="RUN_COMBAT"/> 
+<m_AnimationName text="u_morocco_berber_run"/> 
+</Element>
+<Element>
+<m_SlotName text="RUN_STOP"/> 
+<m_AnimationName text="u_morocco_berber_stop_run"/> 
+</Element>
+<Element>
+<m_SlotName text="RUN_STOP_B"/> 
+<m_AnimationName text="u_morocco_berber_stop_run"/> 
+</Element>
+<Element>
+<m_SlotName text="RUN_STOP_C"/> 
+<m_AnimationName text="u_morocco_berber_stop_run"/> 
+</Element>
+<Element>
+<m_SlotName text="RUN_STOP_D"/> 
+<m_AnimationName text="u_morocco_berber_stop_run"/> 
+</Element>
+<Element>
+<m_SlotName text="TURN_L"/> 
+<m_AnimationName text="u_morocco_berber_shuffle"/> 
+</Element>
+<Element>
+<m_SlotName text="TURN_R"/> 
+<m_AnimationName text="u_morocco_berber_shuffle"/> 
+</Element>
+<Element>
+<m_SlotName text="VICTORY"/> 
+<m_AnimationName text="u_morocco_berber_victory"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_A"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_1"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_2"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_3"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_4"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_5"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_6"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_7"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_8"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_9"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_10"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_11"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_12"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_13"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_14"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_15"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_16"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_17"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_18"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_19"/> 
+<m_AnimationName text="u_morocco_berber_deathb"/> 
+</Element>
+<Element>
+<m_SlotName text="DEATH_20"/> 
+<m_AnimationName text="u_morocco_berber_deatha"/> 
+</Element>
+</m_Bindings>
+</m_animationBindings>
+<m_timelineBindings>
+<m_Bindings>
+<Element>
+<m_SlotName text="ATTACK_A"/>
+<m_TimelineName text="ATTACK_A"/>
+</Element>
+<Element>
+<m_SlotName text="BACKWARD_A"/>
+<m_TimelineName text="BACKWARD_A"/>
+</Element>
+<Element>
+<m_SlotName text="BREATHING_A"/>
+<m_TimelineName text="BREATHING_A"/>
+</Element>
+<Element>
+<m_SlotName text="BREATHING_COMBAT_A"/>
+<m_TimelineName text="BREATHING_COMBAT_A"/>
+</Element>
+<Element>
+<m_SlotName text="DODGE_A"/>
+<m_TimelineName text="DODGE_A"/>
+</Element>
+<Element>
+<m_SlotName text="DEFEND_A"/>
+<m_TimelineName text="DEFEND_A"/>
+</Element>
+<Element>
+<m_SlotName text="DEFEND_1"/>
+<m_TimelineName text="DEFEND_1"/>
+</Element>
+<Element>
+<m_SlotName text="FORWARD_A"/>
+<m_TimelineName text="FORWARD_A"/>
+</Element>
+<Element>
+<m_SlotName text="HERO_A"/>
+<m_TimelineName text="HERO_A"/>
+</Element>
+<Element>
+<m_SlotName text="HERO_1"/>
+<m_TimelineName text="HERO_1"/>
+</Element>
+<Element>
+<m_SlotName text="REACT_A"/>
+<m_TimelineName text="REACT_A"/>
+</Element>
+<Element>
+<m_SlotName text="REACT_RANGED_A"/>
+<m_TimelineName text="REACT_RANGED_A"/>
+</Element>
+<Element>
+<m_SlotName text="REACT_RANGED_B"/>
+<m_TimelineName text="REACT_RANGED_B"/>
+</Element>
+<Element>
+<m_SlotName text="REACT_RANGED_C"/>
+<m_TimelineName text="REACT_RANGED_C"/>
+</Element>
+<Element>
+<m_SlotName text="REACT_RANGED_D"/>
+<m_TimelineName text="REACT_RANGED_D"/>
+</Element>
+<Element>
+<m_SlotName text="SPAWN"/>
+<m_TimelineName text="SPAWN"/>
+</Element>
+<Element>
+<m_SlotName text="RUN_A"/>
+<m_TimelineName text="RUN_A"/>
+</Element>
+<Element>
+<m_SlotName text="RUN_COMBAT"/>
+<m_TimelineName text="RUN_COMBAT"/>
+</Element>
+<Element>
+<m_SlotName text="RUN_STOP"/>
+<m_TimelineName text="RUN_STOP"/>
+</Element>
+<Element>
+<m_SlotName text="RUN_STOP_B"/>
+<m_TimelineName text="RUN_STOP_B"/>
+</Element>
+<Element>
+<m_SlotName text="RUN_STOP_C"/>
+<m_TimelineName text="RUN_STOP_C"/>
+</Element>
+<Element>
+<m_SlotName text="RUN_STOP_D"/>
+<m_TimelineName text="RUN_STOP_D"/>
+</Element>
+<Element>
+<m_SlotName text="TURN_L"/>
+<m_TimelineName text="TURN_L"/>
+</Element>
+<Element>
+<m_SlotName text="TURN_R"/>
+<m_TimelineName text="TURN_R"/>
+</Element>
+<Element>
+<m_SlotName text="VICTORY"/>
+<m_TimelineName text="VICTORY"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_A"/>
+<m_TimelineName text="DEATH_A"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_1"/>
+<m_TimelineName text="DEATH_1"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_2"/>
+<m_TimelineName text="DEATH_2"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_3"/>
+<m_TimelineName text="DEATH_3"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_4"/>
+<m_TimelineName text="DEATH_4"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_5"/>
+<m_TimelineName text="DEATH_5"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_6"/>
+<m_TimelineName text="DEATH_6"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_7"/>
+<m_TimelineName text="DEATH_7"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_8"/>
+<m_TimelineName text="DEATH_8"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_9"/>
+<m_TimelineName text="DEATH_9"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_10"/>
+<m_TimelineName text="DEATH_10"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_11"/>
+<m_TimelineName text="DEATH_11"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_12"/>
+<m_TimelineName text="DEATH_12"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_13"/>
+<m_TimelineName text="DEATH_13"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_14"/>
+<m_TimelineName text="DEATH_14"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_15"/>
+<m_TimelineName text="DEATH_15"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_16"/>
+<m_TimelineName text="DEATH_16"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_17"/>
+<m_TimelineName text="DEATH_17"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_18"/>
+<m_TimelineName text="DEATH_18"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_19"/>
+<m_TimelineName text="DEATH_19"/>
+</Element>
+<Element>
+<m_SlotName text="DEATH_20"/>
+<m_TimelineName text="DEATH_20"/>
+</Element>
+</m_Bindings>
+</m_timelineBindings>
+<m_timelines>
+<m_Timelines>
+<Element>
+<m_Name text="ATTACK_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_attacka"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="BACKWARD_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_shuffle"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="BREATHING_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_idlea"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="BREATHING_COMBAT_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_combat_ready_idle"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DODGE_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_bombard_defense"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEFEND_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_bombard_defense"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEFEND_1"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_bombard_defense"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="FORWARD_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_shuffle"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="HERO_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_attack_city"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="HERO_1"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_attack_city"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="REACT_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_attackb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="REACT_RANGED_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_attacka"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="REACT_RANGED_B"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_attackb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="REACT_RANGED_C"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_attacka"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="REACT_RANGED_D"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_attackb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="SPAWN"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_victory"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="RUN_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_run"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="RUN_COMBAT"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_run"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="RUN_STOP"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_stop_run"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="RUN_STOP_B"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_stop_run"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="RUN_STOP_C"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_stop_run"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="RUN_STOP_D"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_stop_run"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="TURN_L"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_shuffle"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="TURN_R"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_shuffle"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="VICTORY"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_victory"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_A"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_1"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_2"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_3"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_4"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_5"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_6"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_7"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_8"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_9"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_10"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_11"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_12"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_13"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_14"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_15"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_16"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_17"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_18"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_19"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deathb"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+<Element>
+<m_Name text="DEATH_20"/>
+<m_Description text=""/>
+<m_AnimationName text="u_morocco_berber_deatha"/>
+<m_fDuration>0.000000</m_fDuration>
+<m_Triggers/>
+</Element>
+</m_Timelines>
+</m_timelines>
+<m_attachmentPoints>
+<m_Points>
+</m_Points>
+</m_attachmentPoints>
+</m_behaviorDataSets>
+<m_behaviorInstances/>
+<m_dsgName text="potential_any_graph"/>
+<m_referenceGeometryNames/>
+</m_BehaviorData>
+<m_GeometrySet>
+<m_ModelInstances>
+<Element>
+<m_Name text="WORLD_center"/>
+<m_GeoName text="u_morocco_berber"/>
+<m_GroupStates>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="U_Morocco_Berber_Warrior_DIFF"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="U_Morocco_Berber_Warrior_DIFF.dds"/>
+<m_MeshName text="Berber_Warrior"/>
+<m_StateName text="Default"/>
+</Element>
+<Element>
+<m_Values>
+<m_Values>
+<Element class="AssetObjects:ObjectValue">
+<m_ObjectName text="U_Morocco_Berber_Warrior_DIFF"/>
+<m_eObjectType>MATERIAL</m_eObjectType>
+<m_ParamName text="Material"/>
+</Element>
+</m_Values>
+</m_Values>
+<m_GroupName text="U_Morocco_Berber_Warrior_DIFF.dds.001"/>
+<m_MeshName text="bw_Horse"/>
+<m_StateName text="Default"/>
+</Element>
+</m_GroupStates>
+</Element>
+</m_ModelInstances>
+</m_GeometrySet>
+<m_CookParams>
+<m_Values/>
+</m_CookParams>
+<m_Version>
+<major>0</major>
+<minor>0</minor>
+<build>0</build>
+<revision>0</revision>
+</m_Version>
+<m_ParticleEffects/>
+<m_Geometries/>
+<m_Animations/>
+<m_Materials/>
+<m_ClassName text="Unit"/>
+<m_DataFiles/>
+<m_Name text="U_Morocco_Berber"/>
+<m_Description text="U_Morocco_Berber"/>
+<m_Tags>
+<Element text="Unit"/>
+</m_Tags>
+<m_Groups/>
+</AssetObjects:AssetInstance>

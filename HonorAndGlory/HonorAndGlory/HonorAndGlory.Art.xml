@@ -9,6 +9,7 @@
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
 				<Element text="Units.artdef"/>
+				<Element text="Unit_Bins.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -324,6 +325,8 @@
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Cultures.artdef"/>
+				<Element text="Units.artdef"/>
+				<Element text="Unit_Bins.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -590,6 +593,7 @@
 		<Element>
 			<libraryName text="Unit"/>
 			<relativePackagePaths>
+				<Element text="units/units_civ5"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
