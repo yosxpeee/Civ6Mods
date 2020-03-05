@@ -113,7 +113,7 @@
 			<Text>Roads built in your territory are one level more advanced than usual. Receive +2 [ICON_Production] Production for routes between your own cities. [ICON_TradeRoute] Trade Routes to foreign cities provide +2 [ICON_Gold] Gold to you.</Text>
 		</Row>
 
-		<!-- 指導者(ムーレイ・イスマーイール -->
+		<!-- 指導者(ムーレイ・イスマーイール) -->
 		<Row Tag="LOC_LEADER_HAG_MULAY_ISMAIL_NAME" Language="en_US">
 			<Text>Mulay Ismail</Text>
 		</Row>
@@ -122,6 +122,17 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="en_US">
 			<Text>Gain +3 [ICON_Strength] Combat Strength bonus when defending to all units. Cities with a garrisoned unit get +3 Loyalty per turn, or +5 if it is a Corps or Army.</Text>
+		</Row>
+
+		<!-- 指導者(東條英機) -->
+		<Row Tag="LOC_LEADER_HAG_HIDEKI_TOJO_NAME" Language="en_US">
+			<Text>Hideki Tojo</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME" Language="en_US">
+			<Text>No Name</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION" Language="en_US">
+			<Text>No Traits</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
@@ -177,6 +188,20 @@
 			<Text>Morocco unique unit: Berbers Cavalry</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UU(零戦) -->
+		<Row Tag="LOC_UNIT_HAG_JAPAN_ZERO_NAME" Language="en_US">
+			<Text>Zero Fighter</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_JAPAN_ZERO_DESCRIPTION" Language="en_US">
+			<Text>Hideki Tojo unique Atomic era unit. Replace the Fighter. Gains +5 [ICON_Strength] Combat Strength against fighter aircraft, lower maintenace cost than fighter and gains +50% experience.  </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_JAPAN_ZERO_NAME" Language="en_US">
+			<Text>Morocco unique unit: Berbers Cavalry</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_JAPAN_ZERO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		

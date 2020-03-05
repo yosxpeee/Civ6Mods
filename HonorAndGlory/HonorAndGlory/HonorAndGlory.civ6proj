@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_DiplomacyInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Foreground.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
             <Criteria id="LeaderCriteria">
@@ -20,7 +20,9 @@
                     Players:Expansion2_Players::LEADER_HAG_MENELIK2,
                     Players:Expansion2_Players::LEADER_HAG_NAPOLEON,
                     Players:Expansion2_Players::LEADER_HAG_TIMUR,
-                    Players:Expansion2_Players::LEADER_HAG_TITO
+                    Players:Expansion2_Players::LEADER_HAG_TITO,
+                    Players:Expansion2_Players::LEADER_HAG_MULAY_ISMAIL,
+                    Players:Expansion2_Players::LEADER_HAG_HIDEKI_TOJO
                 </LeaderPlayable>
             </Criteria>
         </ActionCriteria>]]></ActionCriteriaData>
@@ -38,6 +40,54 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Animations\u_japanese_zero_attack_air.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_attack_air.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_bombardment.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_bombardment.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_japanese_zero_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Animations\u_morocco_berber_attacka.anm">
       <SubType>Content</SubType>
     </Content>
@@ -272,13 +322,25 @@
     <Content Include="Assets\IMP_HAG_Casbah.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\U_Japanese_Zero.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\U_Morocco_Berber.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_japanese_zero.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_japanese_zero.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\u_morocco_berber.fgx">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\u_morocco_berber.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\U_Japanese_Zero_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\U_Morocco_Berber_Warrior_DIFF.mtl">
@@ -344,6 +406,12 @@
     <Content Include="Textures\Black_Metalness.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_HIDEKI_TOJO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_HIDEKI_TOJO.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.dds">
       <SubType>Content</SubType>
     </Content>
@@ -378,6 +446,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HidekiTojo_DiplomacyInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HidekiTojo_LoadingInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\HidekiTojo_LoadingInfo_Foreground.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO22.DDS">
@@ -584,6 +661,48 @@
     <Content Include="Textures\ICON_IMPROVEMENT_HAG_CASBAH80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_LEADER_HAG_MULAY_ISMAIL256.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -750,6 +869,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_LEADER_HAG_TITO80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_HIDEKI_TOJO_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_HIDEKI_TOJO_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_HAG_MULAY_ISMAIL_NEUTRAL.dds">
@@ -932,6 +1057,12 @@
     <Content Include="Textures\Napoleon_LoadingInfo_Foreground.dds">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_HIDEKI_TOJO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_HIDEKI_TOJO.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\PORTRAIT_LEADER_HAG_MENELIK2.dds">
       <SubType>Content</SubType>
     </Content>
@@ -1050,6 +1181,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Tito_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_japanese_zero_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_japanese_zero_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_japanese_zero_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_japanese_zero_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_japanese_zero_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_japanese_zero_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\u_morocco_berber_warrior_diff.DDS">

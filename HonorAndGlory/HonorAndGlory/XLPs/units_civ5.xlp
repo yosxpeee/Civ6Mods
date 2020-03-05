@@ -10,6 +10,10 @@
 	<m_PackageName text="units/units_civ5"/>
 	<m_Entries>
 		<Element>
+			<m_EntryID text="U_Japanese_Zero"/>
+			<m_ObjectName text="U_Japanese_Zero"/>
+		</Element>
+		<Element>
 			<m_EntryID text="U_Morocco_Berber"/>
 			<m_ObjectName text="U_Morocco_Berber"/>
 		</Element>

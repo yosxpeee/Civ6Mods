@@ -32,5 +32,11 @@
 			<Leader>LEADER_HAG_MULAY_ISMAIL</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- 東條英機 -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_HIDEKI_TOJO</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

@@ -48,6 +48,15 @@
 			<Type>COLOR_PLAYER_LEADER_HAG_MULAY_ISMAIL_SECONDARY</Type>
 			<Color>196,196,196,255</Color><!-- 明るめの灰 -->
 		</Row>
+		<!-- 東條英機 -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_HIDEKI_TOJO_PRIMARY</Type>
+			<Color>255,255,255,255</Color><!-- 白 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_HIDEKI_TOJO_SECONDARY</Type>
+			<Color>230,180,34,255</Color><!-- 金色 -->
+		</Row>
 		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->

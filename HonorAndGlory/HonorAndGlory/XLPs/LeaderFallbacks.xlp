@@ -34,6 +34,11 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_MULAY_ISMAIL"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_MULAY_ISMAIL"/>
 		</Element>
+		<!-- 東條英機-->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_HIDEKI_TOJO"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_HIDEKI_TOJO"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

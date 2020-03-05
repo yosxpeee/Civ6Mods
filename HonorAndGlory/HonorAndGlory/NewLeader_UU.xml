@@ -2,10 +2,11 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_TIMURID_ARBAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_TIMURID_ARBAN"           Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_JAPAN_ZERO"              Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -36,6 +37,9 @@
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_HAG_JAPAN_ZERO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_JAPAN_ZERO" AiType="UNITTYPE_AIR"/>
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
@@ -52,6 +56,10 @@
 		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
 
 		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_LIGHT_CAVALRY"/>
+
+		<Row Type="UNIT_HAG_JAPAN_ZERO" Tag="CLASS_AIRCRAFT"/>
+		<Row Type="UNIT_HAG_JAPAN_ZERO" Tag="CLASS_AIR_FIGHTER"/>
+		<Row Type="UNIT_HAG_JAPAN_ZERO" Tag="CLASS_MUSTANG"/><!-- バニラのP51マスタングと同じ -->
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
@@ -59,6 +67,7 @@
 		<Row CivUniqueUnitType="UNIT_HAG_TIMURID_ARBAN"           ReplacesUnitType="UNIT_COURSER"/>
 		<Row CivUniqueUnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ReplacesUnitType="UNIT_ARTILLERY"/>
 		<Row CivUniqueUnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ReplacesUnitType="UNIT_CAVALRY"/>
+		<Row CivUniqueUnitType="UNIT_HAG_JAPAN_ZERO"              ReplacesUnitType="UNIT_FIGHTER"/>
 	</UnitReplaces>
 	<!-- 主設定 -->
 	<Units>
@@ -91,6 +100,15 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME" Description="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_MILITARY_SCIENCE"
 			 TraitType="TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"/>
+
+		<Row UnitType="UNIT_HAG_JAPAN_ZERO" Cost="520" Maintenance="5" BaseMoves="8" BaseSightRange="4" 
+			 ZoneOfControl="false" Domain="DOMAIN_AIR" Combat="105" RangedCombat="105" Range="5" StrategicResource="RESOURCE_ALUMINUM" 
+			 FormationClass="FORMATION_CLASS_AIR" PromotionClass="PROMOTION_CLASS_AIR_FIGHTER" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_JAPAN_ZERO_NAME" Description="LOC_UNIT_HAG_JAPAN_ZERO_DESCRIPTION" 
+			 CanCapture="False" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqTech="TECH_ADVANCED_FLIGHT" 
+			 Stackable="TRUE" PrereqDistrict="DISTRICT_AERODROME" CanTargetAir="TRUE"
+			 TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
+
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -102,6 +120,8 @@
 		<Row Unit="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" UpgradeUnit="UNIT_ROCKET_ARTILLERY"/>
 		<!-- ベルベル人の騎兵：ヘリコプター -->
 		<Row Unit="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" UpgradeUnit="UNIT_HELICOPTER"/>
+		<!-- 零戦：ジェット戦闘機 -->
+		<Row Unit="UNIT_HAG_JAPAN_ZERO" UpgradeUnit="UNIT_JET_FIGHTER"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>
@@ -109,5 +129,6 @@
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           ResourceCost="10"/>
 		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ResourceCost="20"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ResourceCost="20"/>
+		<Row UnitType="UNIT_HAG_JAPAN_ZERO"              ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
 </GameData>

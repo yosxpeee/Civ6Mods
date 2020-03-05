@@ -80,7 +80,7 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_TITO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TITO256.dds"/>
-		<!-- ムーレイ・イスマーイール-->
+		<!-- ムーレイ・イスマーイール -->
 		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL32.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL45.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL50.dds"/>
@@ -88,6 +88,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MULAY_ISMAIL256.dds"/>
+		<!-- 東條英機 -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_HIDEKI_TOJO32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_HIDEKI_TOJO45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_HIDEKI_TOJO50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_HIDEKI_TOJO55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_HIDEKI_TOJO64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_HIDEKI_TOJO80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_HIDEKI_TOJO256.dds"/>
 		
 		<!-- ユニット -->
 		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
@@ -181,6 +189,8 @@
 		<Row Name="ICON_LEADER_HAG_TITO" Atlas="ICON_ATLAS_LEADER_HAG_TITO" Index="0"/>
 		<!-- ムーレイ・イスマーイール-->
 		<Row Name="ICON_LEADER_HAG_MULAY_ISMAIL" Atlas="ICON_ATLAS_LEADER_HAG_MULAY_ISMAIL" Index="0"/>
+		<!-- 東條英機-->
+		<Row Name="ICON_LEADER_HAG_HIDEKI_TOJO" Atlas="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" Index="0"/>
 		
 		<!-- UU -->
 		<!-- マハール・セファリ(兵士の使いまわし) -->
@@ -223,6 +233,16 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"    Index="59"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"   Index="59"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"          Index="59"/>
+		<!-- 零戦(戦闘機の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_JAPAN_ZERO"                                   Atlas="ICON_ATLAS_UNITS"                           Index="79"/>
+		<Row Name="ICON_UNIT_HAG_JAPAN_ZERO_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="79"/>
+		<Row Name="ICON_UNIT_HAG_JAPAN_ZERO_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="79"/>
+		<Row Name="ICON_UNIT_HAG_JAPAN_ZERO_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="79"/>
+		<Row Name="ICON_UNIT_HAG_JAPAN_ZERO_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="13"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_JAPAN_ZERO_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="13"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_JAPAN_ZERO_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="13"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_JAPAN_ZERO_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="13"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_JAPAN_ZERO_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="13"/>
 		
 		<!-- UB -->
 		<!-- ステッレ(モニュメントの使いまわし) -->

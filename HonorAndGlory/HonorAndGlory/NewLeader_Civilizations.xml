@@ -72,6 +72,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID"    LeaderType="LEADER_HAG_TIMUR"        CapitalName="LOC_CIVILIZATION_HAG_TIMURID_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" LeaderType="LEADER_HAG_TITO"         CapitalName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO"    LeaderType="LEADER_HAG_MULAY_ISMAIL" CapitalName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_JAPAN"          LeaderType="LEADER_HAG_HIDEKI_TOJO"  CapitalName="LOC_CITY_NAME_TOKYO" />
 	</CivilizationLeaders>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>

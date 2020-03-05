@@ -86,6 +86,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_MULAY_ISMAIL</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_MULAY_ISMAIL</Portrait>
 		</Row>
+		<!-- 日本(東條英機) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<LeaderType>LEADER_HAG_HIDEKI_TOJO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_JAPAN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_JAPAN</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_HIDEKI_TOJO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_HIDEKI_TOJO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_JAPAN</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>LEADER_HAG_HIDEKI_TOJO</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_HIDEKI_TOJO</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->
@@ -177,5 +194,30 @@
 			 Name="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME"
 			 Description="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION"
 			 SortIndex="20"/>
+		<!-- 日本 -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_JAPAN" 
+			 LeaderType="LEADER_HAG_HIDEKI_TOJO" 
+			 Type="UNIT_JAPANESE_SAMURAI" 
+			 Icon="ICON_UNIT_JAPANESE_SAMURAI" 
+			 Name="LOC_UNIT_JAPANESE_SAMURAI_NAME" 
+			 Description="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION" 
+			 SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_JAPAN"
+			 LeaderType="LEADER_HAG_HIDEKI_TOJO"
+			 Type="UNIT_HAG_JAPAN_ZERO"
+			 Icon="ICON_UNIT_HAG_JAPAN_ZERO"
+			 Name="LOC_UNIT_HAG_JAPAN_ZERO_NAME"
+			 Description="LOC_UNIT_HAG_JAPAN_ZERO_DESCRIPTION"
+			 SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_JAPAN" 
+			 LeaderType="LEADER_HAG_HIDEKI_TOJO" 
+			 Type="BUILDING_ELECTRONICS_FACTORY" 
+			 Icon="ICON_BUILDING_ELECTRONICS_FACTORY" 
+			 Name="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" 
+			 Description="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" 
+			 SortIndex="30" />
 	</PlayerItems>
 </GameData>

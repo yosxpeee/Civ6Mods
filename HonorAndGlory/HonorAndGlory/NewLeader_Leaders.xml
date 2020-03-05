@@ -17,6 +17,10 @@
 		<!-- ムーレイ・イスマーイール-->
 		<Row Type="LEADER_HAG_MULAY_ISMAIL"       Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_MULAY_ISMAIL" Kind="KIND_TRAIT"/>
+		<!-- 東條英機-->
+		<Row Type="LEADER_HAG_HIDEKI_TOJO"        Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_HIDEKI_TOJO"  Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_JAPAN_ZERO"     Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -50,6 +54,12 @@
 			<Name>LOC_LEADER_HAG_MULAY_ISMAIL_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- 東條英機-->
+		<Row>
+			<LeaderType>LEADER_HAG_HIDEKI_TOJO</LeaderType>
+			<Name>LOC_LEADER_HAG_HIDEKI_TOJO_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
@@ -58,6 +68,7 @@
 		<Row LeaderType="LEADER_HAG_TIMUR"        Quote="LOC_LEADER_HAG_TIMUR_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_TITO"         Quote="LOC_LEADER_HAG_TITO_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" Quote="LOC_LEADER_HAG_MULAY_ISMAIL_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  Quote="LOC_LEADER_HAG_HIDEKI_TOJO_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
@@ -66,6 +77,9 @@
 		<Row LeaderType="LEADER_HAG_TIMUR"        TraitType="TRAIT_LEADER_HAG_TIMUR"/>
 		<Row LeaderType="LEADER_HAG_TITO"         TraitType="TRAIT_LEADER_HAG_TITO"/>
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"/>
+		
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -74,6 +88,9 @@
 		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"        Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"        Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_TITO"         Name="LOC_TRAIT_LEADER_HAG_TITO_NAME"         Description="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL" Name="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME" Description="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
+
+		<Row TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  Name="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME"  Description="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"     Name="LOC_TRAIT_UNIT_HAG_JAPAN_ZERO_NAME"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -364,14 +381,17 @@
 		<Row LeaderType="LEADER_HAG_TITO"         AgendaType="AGENDA_IRON_CONFEDERACY"/>
 		<!-- ムーレイ・イスマーイール：サヘルの承認(RaFのマンサ・ムーサと同じ) -->
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" AgendaType="AGENDA_LORD_OF_MINES"/>
+		<!-- 東條英機：サヘルの承認(バニラの北条時宗と同じ) -->
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" AgendaType="AGENDA_BUSHIDO"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
 		<Row LeaderType="LEADER_HAG_MENELIK2"     ReligionType="RELIGION_ORTHODOXY"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"     ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"        ReligionType="RELIGION_ISLAM"/>
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ReligionType="RELIGION_ISLAM"/>
 		<!-- チトーはなし -->
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ReligionType="RELIGION_ISLAM"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ReligionType="RELIGION_BUDDHISM"/>
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
@@ -380,12 +400,14 @@
 		<Row Type="LEADER_HAG_TIMUR"        BackgroundImage="Timur_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_TITO"         BackgroundImage="Tito_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_MULAY_ISMAIL" BackgroundImage="MulayIsmail_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_HIDEKI_TOJO"  BackgroundImage="HidekiTojo_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
-		<Row LeaderType="LEADER_HAG_MENELIK2"     ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"    BackgroundImage="Menelik2_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"    BackgroundImage="Napoleon_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_TIMUR"        ForegroundImage="Timur_LoadingInfo_Foreground.dds"       BackgroundImage="Timur_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_TITO"         ForegroundImage="Tito_LoadingInfo_Foreground.dds"        BackgroundImage="Tito_LoadingInfo_Background.dds"        LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ForegroundImage="MulayIsmail_LoadingInfo_Foreground.dds" BackgroundImage="MulayIsmail_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_MENELIK2"     ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"    BackgroundImage="Menelik2_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"     PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON"     ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"    BackgroundImage="Napoleon_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT"     PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"        ForegroundImage="Timur_LoadingInfo_Foreground.dds"       BackgroundImage="Timur_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_TIMUR_DOM_TEXT"        PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_TITO"         ForegroundImage="Tito_LoadingInfo_Foreground.dds"        BackgroundImage="Tito_LoadingInfo_Background.dds"        LeaderText="LOC_LEADER_HAG_TITO_DOM_TEXT"         PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ForegroundImage="MulayIsmail_LoadingInfo_Foreground.dds" BackgroundImage="MulayIsmail_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MULAY_ISMAIL_DOM_TEXT" PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ForegroundImage="HidekiTojo_LoadingInfo_Foreground.dds"  BackgroundImage="HidekiTojo_LoadingInfo_Background.dds"  LeaderText="LOC_LEADER_HAG_HIDEKI_TOJO_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>
