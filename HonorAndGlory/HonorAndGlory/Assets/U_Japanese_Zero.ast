@@ -204,6 +204,10 @@
 						<m_SlotName text="DEATH_20"/>
 						<m_TimelineName text="DEATH_20"/>
 					</Element>
+					<Element>
+						<m_SlotName text="SPAWN"/>
+						<m_TimelineName text="SPAWN"/>
+					</Element>
 				</m_Bindings>
 			</m_timelineBindings>
 			<m_timelines>
@@ -1131,6 +1135,25 @@
 								<m_Type>LIGHT</m_Type>
 							</Element>
 						</m_Tracks>
+					</Element>
+					<Element>
+						<m_Name text="SPAWN"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>7.633334</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="PropFighterTakeOffRun"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.020370</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
 					</Element>
 				</m_Timelines>
 			</m_timelines>

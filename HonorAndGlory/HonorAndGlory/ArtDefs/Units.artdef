@@ -1453,24 +1453,6 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<!--
-						<Element class="AssetObjects:ArtDefReferenceValue">
-							<m_ElementName text="Tank"/>
-							<m_RootCollectionName text="UnitMovementTypes"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Movement"/>
-						</Element>
-						<Element class="AssetObjects:ArtDefReferenceValue">
-							<m_ElementName text="TankCombat"/>
-							<m_RootCollectionName text="MemberCombat"/>
-							<m_ArtDefPath text="Units.artdef"/>
-							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
-							<m_ParamName text="Combat"/>
-						</Element>
-						-->
 						<Element class="AssetObjects..ArtDefReferenceValue">
 							<m_ElementName text="Biplane"/>
 							<m_RootCollectionName text="UnitMovementTypes"/>

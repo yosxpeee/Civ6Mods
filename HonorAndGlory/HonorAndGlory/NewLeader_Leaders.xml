@@ -171,6 +171,29 @@
 			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
 			<ModifierId>TRAIT_ISIBONGO_GARRISONFORMATIONIDENTITY</ModifierId><!-- RaFのシャカと同じ -->
 		</Row>
+		
+		<!-- 東條英機 -->
+		<!-- 全ユニット同盟1つごとに戦闘力+3 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE</ModifierId>
+		</Row>
+		<!-- 漁船に文化+1-->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_CULTURE</ModifierId>
+		</Row>
+		<!-- 岩礁タイル上の漁船は文化+1-->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_PLOT_REEF_CULTURE</ModifierId>
+		</Row>
+		<!-- 岩礁タイルに隣接した漁船は文化+1-->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
+		</Row>
+
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -245,6 +268,30 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		
+		<!-- 全ユニット同盟1つごとに戦闘力+3 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- 漁船に文化+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_REQUIREMENTS</SubjectRequirementSetId><!-- バニラにある -->
+		</Row>
+		<!-- 岩礁タイル上の漁船は文化+1-->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_PLOT_REEF_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_PLOT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</SubjectRequirementSetId>
+		</Row>
+		<!-- 岩礁タイルに隣接した漁船は文化+1-->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_ADJECENT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -353,12 +400,64 @@
 			<Name>AbilityType</Name>
 			<Value>ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</Value>
 		</Row>
+
+		<!-- 全ユニット同盟1つごとに戦闘力+3 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE</Value>
+		</Row>
+		<!-- 漁船に文化+1(礁のタイル上や隣接でさらに+1) -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_PLOT_REEF_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_PLOT_REEF_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
 		<!-- 条件：すべてを満たす -->
 		<Row>
 			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!--
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISHINGBOATS_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		-->
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISHINGBOATS_PLOT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISHINGBOATS_ADJECENT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -368,7 +467,49 @@
 			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
 			<RequirementId>REQUIRES_DISTRICT_IS_ENCAMPMENT</RequirementId><!-- バニラにある -->
 		</Row>
+		<!-- 条件：漁船かつ礁タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISHINGBOATS_PLOT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FISHINGBOATS</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISHINGBOATS_PLOT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+		</Row>
+		<!-- 条件：漁船かつ礁タイル隣接 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISHINGBOATS_ADJECENT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FISHINGBOATS</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISHINGBOATS_ADJECENT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
+	<!-- 条件詳細 -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<!-- 条件詳細の引数 -->
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_REEF</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_REEF</Value>
+		</Row>
+	</RequirementArguments>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
 		<!-- メネリク2世：欧化主義者(バニラのピョートルと同一) -->
