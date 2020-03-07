@@ -100,7 +100,7 @@
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
 		</Row>
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+1 -->
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
@@ -202,7 +202,7 @@
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+1 -->
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
@@ -302,7 +302,7 @@
 			<Name>AbilityType</Name>
 			<Value>ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</Value>
 		</Row>
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+1 -->
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
 			<Name>YieldType</Name>
@@ -311,7 +311,7 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
@@ -321,7 +321,7 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		
 		<!-- 陸軍近接ユニットの移動力+1 -->
@@ -446,12 +446,6 @@
 			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
-		<!--
-		<Row>
-			<RequirementSetId>PLOT_HAS_FISHINGBOATS_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		-->
 		<Row>
 			<RequirementSetId>PLOT_HAS_FISHINGBOATS_PLOT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>

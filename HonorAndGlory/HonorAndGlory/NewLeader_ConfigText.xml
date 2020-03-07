@@ -15,7 +15,7 @@
 			<Text>Horn of Africa</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION" Language="en_US">
-			<Text>Receives [ICON_Science] Science or [ICON_Culture] Culture from [ICON_TradeRoute] Trade Routes to civilizations that are more advanced than Etiopia Empire (+1 per 3 technologies or civics ahead). +1 [ICON_FOOD] Food from Camp.</Text>
+			<Text>Receives [ICON_Science] Science or [ICON_Culture] Culture from [ICON_TradeRoute] Trade Routes to civilizations that are more advanced than Etiopia Empire (+1 per 3 technologies or civics ahead). +1 [ICON_FOOD] Food from Pasture. +1 [ICON_Production] Production from Pasture on Desert Hills.</Text>
 		</Row>
 
 		<!-- 文明(ティムール朝) -->
@@ -77,7 +77,7 @@
 			<Text>Spirit of Adwa</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION" Language="en_US">
-			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_GOLD] Gold to you.</Text>
+			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_GOLD] Gold to you.</Text>
 		</Row>
 
 		<!-- 指導者(ナポレオン) -->

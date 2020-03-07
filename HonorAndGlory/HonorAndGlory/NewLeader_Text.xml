@@ -557,6 +557,9 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_30" Language="en_US">
 			<Text>Taourirt</Text>
 		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_31" Language="en_US">
+			<Text>Merzouga</Text>
+		</Row>
 
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="en_US">
@@ -677,6 +680,138 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_BAHAI_FAITH_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
+		</Row>
+		
+		<!-- 地名 -->
+		<!-- 川 -->
+		<Row Tag="LOC_NAMED_HAG_RIVER_KASHKADARYA_NAME" Language="en_US">
+			<Text>Kashkadarya River</Text>
+		</Row>
+		<Row Tag="NAMED_HAG_RIVER_SURKHANDARYA" Language="en_US">
+			<Text>Surkhandarya River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_DRAA_RIVER_NAME" Language="en_US">
+			<Text>Draa River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_OUM_ER_RBIA_RIVER_NAME" Language="en_US">
+			<Text>Oum Er-Rbia River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_SEBOU_RIVER_NAME" Language="en_US">
+			<Text>Sebou River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_MOULOUYA_RIVER_NAME" Language="en_US">
+			<Text>Moulouya River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_SAVA_RIVER_NAME" Language="en_US">
+			<Text>Sava River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_LJUBLJANICA_RIVER_NAME" Language="en_US">
+			<Text>Ljubljanica River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_NERETVA_RIVER_NAME" Language="en_US">
+			<Text>Neretva River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_KRKA_RIVER_NAME" Language="en_US">
+			<Text>Krka River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_DRAGONJA_RIVER_NAME" Language="en_US">
+			<Text>Dragonja River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_BLUE_NILE_RIVER_NAME" Language="en_US">
+			<Text>Blue Nile River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_AWASH_RIVER_NAME" Language="en_US">
+			<Text>Awash River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_OMO_RIVER_NAME" Language="en_US">
+			<Text>Omo River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_JUBBA_RIVER_NAME" Language="en_US">
+			<Text>Jubba River</Text>
+		</Row>
+		<!-- 火山 -->
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_ADWA_NAME" Language="en_US">
+			<Text>Adwa Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_AFDERA_NAME" Language="en_US">
+			<Text>Afdera Volcano</Text>
+		</Row>
+		<!-- 山・山脈 -->
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME" Language="en_US">
+			<Text>Khazret Sultan</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_ADELUNG_NAME" Language="en_US">
+			<Text>Mount Adelung</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_TOUBKAL_NAME" Language="en_US">
+			<Text>Toubkal</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_JBEL_BOU_IBLANE_NAME" Language="en_US">
+			<Text>Jbel Bou Iblane</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BJELASNICA_NAME" Language="en_US">
+			<Text>Bjelasnica</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DURMITOR_NAME" Language="en_US">
+			<Text>Durmitor</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_SOLUNSKA_GLAVA_NAME" Language="en_US">
+			<Text>Solunska Glava</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_MIDZHUR_NAME" Language="en_US">
+			<Text>Mount Midzhur</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_JAHORINA_NAME" Language="en_US">
+			<Text>Mount Jahorina</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_IGMAN_NAME" Language="en_US">
+			<Text>Mount Igman</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_RAS_DASHEN_NAME" Language="en_US">
+			<Text>Ras Dashen</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BWAHIT_NAME" Language="en_US">
+			<Text>Mount Bwahit</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BATU_NAME" Language="en_US">
+			<Text>Mount Batu</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_ENTOTO_NAME" Language="en_US">
+			<Text>Mount Entoto</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_TULLU_DIMTU_NAME" Language="en_US">
+			<Text>Mount Tullu Dimtu</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DENDI_NAME" Language="en_US">
+			<Text>Mount Dendi</Text>
+		</Row>
+		<!-- 湖 -->
+		<Row Tag="LOC_NAMED_HAG_LAKE_RYBACHIY_ZALIV_NAME" Language="en_US">
+			<Text>Rybachiy Zaliv</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_AYDAR_LAKE_NAME" Language="en_US">
+			<Text>Aydar Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_DAYET_SRIJI_LAKE_NAME" Language="en_US">
+			<Text>Dayet Sriji Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_OHRID_LAKE_NAME" Language="en_US">
+			<Text>Ohrid Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_SKADAR_LAKE_NAME" Language="en_US">
+			<Text>Skadar Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_PALIC_LAKE_NAME" Language="en_US">
+			<Text>Palic Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_LANGANO_LAKE_NAME" Language="en_US">
+			<Text>Langano Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_AWASA_LAKE_NAME" Language="en_US">
+			<Text>Awasa Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_ABAYA_LAKE_NAME" Language="en_US">
+			<Text>Abaya Lake</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

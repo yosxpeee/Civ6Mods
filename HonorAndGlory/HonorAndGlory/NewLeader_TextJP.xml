@@ -557,7 +557,10 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_30" Language="ja_JP">
 			<Text>タウリルト</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_31" Language="ja_JP">
+			<Text>メルズーガ</Text>
+		</Row>
+		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
@@ -680,6 +683,138 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_BAHAI_FAITH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
+		</Row>
+
+		<!-- 地名 -->
+		<!-- 川 -->
+		<Row Tag="LOC_NAMED_HAG_RIVER_KASHKADARYA_NAME" Language="ja_JP">
+			<Text>カシュカダリヤ川</Text>
+		</Row>
+		<Row Tag="NAMED_HAG_RIVER_SURKHANDARYA" Language="ja_JP">
+			<Text>スルハンダリヤ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_DRAA_RIVER_NAME" Language="ja_JP">
+			<Text>ドラー川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_OUM_ER_RBIA_RIVER_NAME" Language="ja_JP">
+			<Text>ウムエルビア川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_SEBOU_RIVER_NAME" Language="ja_JP">
+			<Text>セブー川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_MOULOUYA_RIVER_NAME" Language="ja_JP">
+			<Text>ムルヤ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_SAVA_RIVER_NAME" Language="ja_JP">
+			<Text>サヴァ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_LJUBLJANICA_RIVER_NAME" Language="ja_JP">
+			<Text>リュブリャニツァ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_NERETVA_RIVER_NAME" Language="ja_JP">
+			<Text>ネレトヴァ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_KRKA_RIVER_NAME" Language="ja_JP">
+			<Text>クルカ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_DRAGONJA_RIVER_NAME" Language="ja_JP">
+			<Text>ドラゴニャ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_BLUE_NILE_RIVER_NAME" Language="ja_JP">
+			<Text>青ナイル川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_AWASH_RIVER_NAME" Language="ja_JP">
+			<Text>アワッシュ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_OMO_RIVER_NAME" Language="ja_JP">
+			<Text>オモ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_JUBBA_RIVER_NAME" Language="ja_JP">
+			<Text>ジュバ川</Text>
+		</Row>
+		<!-- 火山 -->
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_ADWA_NAME" Language="ja_JP">
+			<Text>アドワ火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_AFDERA_NAME" Language="ja_JP">
+			<Text>アフデラ火山</Text>
+		</Row>
+		<!-- 山・山脈 -->
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME" Language="ja_JP">
+			<Text>ハズレット・スルタン山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_ADELUNG_NAME" Language="ja_JP">
+			<Text>アデルング山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_TOUBKAL_NAME" Language="ja_JP">
+			<Text>ツブカル山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_JBEL_BOU_IBLANE_NAME" Language="ja_JP">
+			<Text>ジベル・ブゥ・イブランヌ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BJELASNICA_NAME" Language="ja_JP">
+			<Text>ビイェラシュニツァ山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DURMITOR_NAME" Language="ja_JP">
+			<Text>ドゥルミトル山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_SOLUNSKA_GLAVA_NAME" Language="ja_JP">
+			<Text>ソルンスカ・グラヴァ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_MIDZHUR_NAME" Language="ja_JP">
+			<Text>ミジュル山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_JAHORINA_NAME" Language="ja_JP">
+			<Text>ヤホリナ山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_IGMAN_NAME" Language="ja_JP">
+			<Text>イグマン山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_RAS_DASHEN_NAME" Language="ja_JP">
+			<Text>ラス・ダシェン山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BWAHIT_NAME" Language="ja_JP">
+			<Text>ビュアト山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BATU_NAME" Language="ja_JP">
+			<Text>バトゥ山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_ENTOTO_NAME" Language="ja_JP">
+			<Text>エントット山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_TULLU_DIMTU_NAME" Language="ja_JP">
+			<Text>トゥルー・ディムトゥ山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DENDI_NAME" Language="ja_JP">
+			<Text>デンディ山</Text>
+		</Row>
+		<!-- 湖 -->
+		<Row Tag="LOC_NAMED_HAG_LAKE_RYBACHIY_ZALIV_NAME" Language="ja_JP">
+			<Text>ライバチイー・ザリブ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_AYDAR_LAKE_NAME" Language="ja_JP">
+			<Text>アイダール湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_DAYET_SRIJI_LAKE_NAME" Language="ja_JP">
+			<Text>ダイエ・スリジュ湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_OHRID_LAKE_NAME" Language="ja_JP">
+			<Text>オフリド湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_SKADAR_LAKE_NAME" Language="ja_JP">
+			<Text>シュコダル湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_PALIC_LAKE_NAME" Language="ja_JP">
+			<Text>パリチ湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_LANGANO_LAKE_NAME" Language="ja_JP">
+			<Text>ランガノ湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_AWASA_LAKE_NAME" Language="ja_JP">
+			<Text>アワッサ湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_ABAYA_LAKE_NAME" Language="ja_JP">
+			<Text>アバヤ湖</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

@@ -2,21 +2,22 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
+		<!-- エチオピア帝国 -->
 		<Row Type="CIVILIZATION_HAG_ETHIOPIA"             Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_HAG_ETHIOPIA"       Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"  Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"     Kind="KIND_TRAIT"/>
-
+		<!-- ティムール朝 -->
 		<Row Type="CIVILIZATION_HAG_TIMURID"               Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_HAG_TIMURID"         Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_TIMURID_ARBAN"           Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_BUILDING_HAG_TIMURID_OBSERVATORY" Kind="KIND_TRAIT"/>
-
+		<!-- ユーゴスラビア -->
 		<Row Type="CIVILIZATION_HAG_YUGOSLAVIA"             Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA"       Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"  Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Kind="KIND_TRAIT"/>
-
+		<!-- モロッコ -->
 		<Row Type="CIVILIZATION_HAG_MOROCCO"               Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_HAG_MOROCCO"         Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Kind="KIND_TRAIT"/>
@@ -61,7 +62,7 @@
 			<Description>LOC_CIVILIZATION_HAG_MOROCCO_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_HAG_MOROCCO_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<RandomCityNameDepth>31</RandomCityNameDepth>
 			<Ethnicity>ETHNICITY_AFRICAN</Ethnicity>
 		</Row>
 	</Civilizations>
@@ -114,9 +115,10 @@
 	<TraitModifiers>
 		<!-- エチオピア帝国 -->
 		<!-- 先進国からの交易路に文化or科学力プラス(バニラのピョートルと同一) -->
-		<!-- 牧草地から食料+1 -->
+		<!-- 牧草地から食料+1(砂漠タイルだと生産力も+1) -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS"/>
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_CAMP_FOOD"/>	
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_PASTURE_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT"/>
 		
 		<!-- ティムール朝 -->
 		<!-- 商業ハブは他の区域から隣接ボーナス+1 -->
@@ -148,9 +150,15 @@
 	<Modifiers>
 		<!-- 牧草地から食料+1 -->
 		<Row>
-			<ModifierId>TRAIT_HAG_ETHIOPIA_CAMP_FOOD</ModifierId>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_PASTURE_REQUIREMENTS</SubjectRequirementSetId><!-- バニラにある -->
+		</Row>
+		<!-- 砂漠タイル上の牧草地から生産力+1 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</SubjectRequirementSetId>
 		</Row>
 		
 		<!-- 全ての専門区域はオアシスから隣接ボーナス+2 -->
@@ -210,12 +218,23 @@
 	<ModifierArguments>
 		<!-- 牧草地から食料+1 -->
 		<Row>
-			<ModifierId>TRAIT_HAG_ETHIOPIA_CAMP_FOOD</ModifierId>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_FOOD</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_HAG_ETHIOPIA_CAMP_FOOD</ModifierId>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 牧草地から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -434,9 +453,14 @@
 			<RequirementSetId>PLOT_IS_MINE_INDUSTRIAL_ZONE_ADJACENT_REQUIREMENTS_HAG_YUGOSLAVIA</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<!-- 条件定義 -->
 	<RequirementSetRequirements>
+		<!-- 工業地帯隣接の鉱山 -->
 		<Row>
 			<RequirementSetId>PLOT_IS_MINE_INDUSTRIAL_ZONE_ADJACENT_REQUIREMENTS_HAG_YUGOSLAVIA</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_INDUSTRIAL_ZONE_HAG_YUGOSLAVIA</RequirementId>
@@ -444,6 +468,16 @@
 		<Row>
 			<RequirementSetId>PLOT_IS_MINE_INDUSTRIAL_ZONE_ADJACENT_REQUIREMENTS_HAG_YUGOSLAVIA</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId><!-- バニラにある -->
+		</Row>
+		<!-- 砂漠丘陵上の牧草地 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PASTURE</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<!-- 牧草地の改善ができるのは羊が配置されている場合のみ、羊は丘陵にしか配置されない-->
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId><!-- バニラにある -->
 		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
@@ -555,7 +589,37 @@
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_8" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_10" />
-
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_31" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_32" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_33" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_34" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_35" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_36" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_37" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_38" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_39" />
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_40" />
+		
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_2" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_3" />
@@ -566,12 +630,40 @@
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_8" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_31" />
 	</CityNames>
 	<!-- 開始位置補正 -->
 	<StartBiasTerrains>
+		<!-- エチオピア帝国：砂漠(山岳含む) -->
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_HILLS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_MOUNTAIN" Tier="1"/>
 		<!-- ティムール朝：砂漠 -->
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT" Tier="2"/>
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT_HILLS" Tier="2"/>
+		<!-- ユーゴスラビア：山 -->
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="2"/>
 		<!-- モロッコ：砂漠 -->
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>

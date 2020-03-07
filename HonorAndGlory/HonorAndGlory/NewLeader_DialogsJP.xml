@@ -31,12 +31,19 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TITO_ANY" Language="ja_JP">
 			<Text>友はよく考えて選べ。選ばないという選択肢はないのだから。</Text>
 		</Replace>
-		<!-- ムーレイ・イスマーイール-->
+		<!-- ムーレイ・イスマーイール -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_MULAY_ISMAIL_ANY" Language="ja_JP">
 			<Text>ともに喜ぼう。我々はあらゆる欲から自由になり、持てる時間を神の御心に捧げられるのだから。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MULAY_ISMAIL_ANY" Language="ja_JP">
 			<Text>どうしたのだ？ 神がそなたから恩寵を取り上げたのか？ 正しき道に戻るのだ！</Text>
+		</Replace>
+		<!-- 東條英機 -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_HIDEKI_TOJO_ANY" Language="ja_JP">
+			<Text>雄々しく、輝かしい日輪のごとく、そなたは大国を築かれた。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_HIDEKI_TOJO_ANY" Language="ja_JP">
+			<Text>武士道とは心、技、体を鍛えることなり… 貴国の民は、どこでそれをしようと？</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
