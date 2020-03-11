@@ -54,13 +54,13 @@
 
 		<!-- 文明(モロッコ) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_NAME" Language="ja_JP">
-			<Text>モロッコ</Text>
+			<Text>モロッコ王国</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="ja_JP">
-			<Text>モロッコ</Text>
+			<Text>モロッコ王国</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_ADJECTIVE" Language="ja_JP">
-			<Text>モロッコの</Text>
+			<Text>モロッコ王国の</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_NAME" Language="ja_JP">
 			<Text>アフリカの玄関口</Text>
@@ -154,7 +154,7 @@
 			<Text>アルバン</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAG_TIMURID_ARBAN_DESCRIPTION" Language="ja_JP">
-			<Text>中世のティムール固有のユニット。コーサーに取って代わる。動きの遅い民間人や支援ユニットを、その高い [ICON_Movement] 移動力を利用して護衛できる。</Text>
+			<Text>中世のティムール朝固有のユニット。コーサーに取って代わる。動きの遅い民間人や支援ユニットを、その高い [ICON_Movement] 移動力を利用して護衛できる。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_TIMURID_ARBAN_NAME" Language="ja_JP">
 			<Text>ティムール朝固有のユニット: アルバン</Text>
@@ -182,10 +182,10 @@
 			<Text>ベルベル人の騎兵</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION" Language="ja_JP">
-			<Text>産業時代のモロッコ固有のユニット。騎兵に取って代わる。砂漠タイルでの [ICON_Strength] 戦闘力+5。</Text>
+			<Text>産業時代のモロッコ王国固有のユニット。騎兵に取って代わる。砂漠タイルでの [ICON_Strength] 戦闘力+5。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME" Language="ja_JP">
-			<Text>モロッコ固有のユニット: ベルベル人の騎兵</Text>
+			<Text>モロッコ王国固有のユニット: ベルベル人の騎兵</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
@@ -252,10 +252,10 @@
 			<Text>カスバ</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がモロッコの施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1, [ICON_Housing] 住宅+0.5。他のカスバと隣接させると [ICON_Gold] ゴールド+1。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
+			<Text>労働者がモロッコ王国の施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1, [ICON_Housing] 住宅+0.5。他のカスバと隣接させると [ICON_Gold] ゴールド+1。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="ja_JP">
-			<Text>>モロッコ固有の施設: カスバ</Text>
+			<Text>>モロッコ王国固有の施設: カスバ</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MOROCCO_CASBAH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>

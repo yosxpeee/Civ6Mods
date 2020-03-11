@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Hornor and Glory</Name>
+    <Name>Honor and Glory - Leaders, Civilizations and Religions</Name>
     <Guid>457b201e-bd52-49ea-8635-c2f366bcdef5</Guid>
     <ProjectGuid>3a0eb59d-17ac-41aa-8761-25cbe34be218</ProjectGuid>
     <ModVersion>1</ModVersion>
