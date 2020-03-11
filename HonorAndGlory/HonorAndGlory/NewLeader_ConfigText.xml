@@ -88,7 +88,7 @@
 			<Text>Grande Armee</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Movement] Movement to military melee units. +2 [ICON_CULTURE] Culture to each city with encampment.  All military units heal completely when this player captures a city with a encampment.</Text>
+			<Text>+1 [ICON_Movement] Movement to military melee units. +2 [ICON_CULTURE] Culture to each city with encampment. +1 [ICON_CULTURE] Culture to each city with buildings on encampment. All military units heal completely when this player captures a city with a encampment.</Text>
 		</Row>
 
 		<!-- 指導者(ティムール) -->

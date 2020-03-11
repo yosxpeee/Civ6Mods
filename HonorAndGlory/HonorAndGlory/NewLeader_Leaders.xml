@@ -73,13 +73,25 @@
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
 		<Row LeaderType="LEADER_HAG_MENELIK2"     TraitType="TRAIT_LEADER_HAG_MENELIK2"/>
+		
 		<Row LeaderType="LEADER_HAG_NAPOLEON"     TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON"     TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"     TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		
 		<Row LeaderType="LEADER_HAG_TIMUR"        TraitType="TRAIT_LEADER_HAG_TIMUR"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+
 		<Row LeaderType="LEADER_HAG_TITO"         TraitType="TRAIT_LEADER_HAG_TITO"/>
+		<Row LeaderType="LEADER_HAG_TITO"         TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_TITO"         TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/><!-- 科学勝利狙い -->
+		
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"/>
 		
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>
+		<!-- 軍拡主義 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -120,6 +132,23 @@
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ENCAMPMENT_CULTURE</ModifierId>
+		</Row>
+		<!-- 兵営区域の建造物から文化力+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_BARRACKS_CULTURE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_STABLE_CULTURE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ARMORY_CULTURE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MILITARY_ACADEMY_CULTURE_MODIFIER</ModifierId>
 		</Row>
 		<!-- 兵営のある都市を占領すると全ユニットが全回復する -->
 		<Row>
@@ -222,6 +251,23 @@
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ENCAMPMENT_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
 			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</SubjectRequirementSetId>
+		</Row>
+		<!-- 兵営区域の建造物から文化力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_BARRACKS_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_STABLE_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ARMORY_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MILITARY_ACADEMY_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
 		</Row>
 		<!-- 兵営のある都市を占領すると全ユニットが全回復する -->
 		<Row>
@@ -340,6 +386,67 @@
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ENCAMPMENT_CULTURE</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
+		</Row>
+		<!-- 兵営区域の建造物から文化力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_BARRACKS_CULTURE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BARRACKS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_BARRACKS_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_BARRACKS_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_STABLE_CULTURE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STABLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_STABLE_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_STABLE_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ARMORY_CULTURE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ARMORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ARMORY_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ARMORY_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MILITARY_ACADEMY_CULTURE_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MILITARY_ACADEMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MILITARY_ACADEMY_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MILITARY_ACADEMY_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
 		</Row>
 		<!-- 兵営のある都市を占領すると全ユニットが全回復する -->
 		<Row>
@@ -504,19 +611,177 @@
 			<Value>FEATURE_REEF</Value>
 		</Row>
 	</RequirementArguments>
+	<!-- AIの好み -->
+	<AiListTypes>
+		<!-- メネリク2世 -->
+		<Row ListType="HAGMenelik2District"/>
+		<Row ListType="HAGMenelik2Civics"/>
+		<Row ListType="HAGMenelik2Tech"/>
+		<Row ListType="HAGMenelik2Wonders"/>
+		<!-- ナポレオン -->
+		<Row ListType="HAGNapoleonDistrict"/>
+		<Row ListType="HAGNapoleonCivics"/>
+		<Row ListType="HAGNapoleonTech"/>
+		<Row ListType="HAGNapoleonWonders"/>
+		<Row ListType="HAGNapoleonMeleeLoverList"/>
+		<!-- ティムール -->
+		<Row ListType="HAGTimurDistrict"/>
+		<Row ListType="HAGTimurCivics"/>
+		<Row ListType="HAGTimurTech"/>
+		<Row ListType="HAGTimurWonders"/>
+		<!-- チトー -->
+		<Row ListType="HAGTitoDistrict"/>
+		<Row ListType="HAGTitoCivics"/>
+		<Row ListType="HAGTitoTech"/>
+		<Row ListType="HAGTitoWonders"/>
+		<Row ListType="HAGTitoScience"/>
+		<!-- ムーレイ・イスマーイール -->
+		<Row ListType="HAGMulayIsmailDistrict"/>
+		<Row ListType="HAGMulayIsmailCivics"/>
+		<Row ListType="HAGMulayIsmailTech"/>
+		<Row ListType="HAGMulayIsmailWonders"/>
+		<Row ListType="HAGMulayIsmailUnits"/>
+		<Row ListType="HAGMulayIsmailGold"/>
+		<!-- 東條英機 -->
+		<Row ListType="HAGHidekiTojoDistrict"/>
+		<Row ListType="HAGHidekiTojoCivics"/>
+		<Row ListType="HAGHidekiTojoTech"/>
+		<Row ListType="HAGHidekiTojoWonders"/>
+		<Row ListType="HAGHidekiTojoCulture"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- メネリク2世 -->
+		<Row ListType="HAGMenelik2District" LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Districts"/>
+		<Row ListType="HAGMenelik2Civics"   LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Civics"/>
+		<Row ListType="HAGMenelik2Tech"     LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Technologies"/>
+		<Row ListType="HAGMenelik2Wonders"  LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Buildings"/>
+		
+		<!-- ナポレオン -->															      
+		<Row ListType="HAGNapoleonDistrict"       LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Districts"/>
+		<Row ListType="HAGNapoleonCivics"         LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Civics"/>
+		<Row ListType="HAGNapoleonTech"           LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Technologies"/>
+		<Row ListType="HAGNapoleonWonders"        LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Buildings"/>
+		<Row ListType="HAGNapoleonMeleeLoverList" LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="UnitPromotionClasses"/>
+
+		<!-- ティムール -->															      
+		<Row ListType="HAGTimurDistrict"       LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Districts"/>
+		<Row ListType="HAGTimurCivics"         LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Civics"/>
+		<Row ListType="HAGTimurTech"           LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Technologies"/>
+		<Row ListType="HAGTimurWonders"        LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Buildings"/>
+		<!-- チトー -->															  	      
+		<Row ListType="HAGTitoDistrict"        LeaderType="TRAIT_LEADER_HAG_TITO"         System="Districts"/>
+		<Row ListType="HAGTitoCivics"          LeaderType="TRAIT_LEADER_HAG_TITO"         System="Civics"/>
+		<Row ListType="HAGTitoTech"            LeaderType="TRAIT_LEADER_HAG_TITO"         System="Technologies"/>
+		<Row ListType="HAGTitoWonders"         LeaderType="TRAIT_LEADER_HAG_TITO"         System="Buildings"/>
+		<Row ListType="HAGTitoScience"         LeaderType="TRAIT_LEADER_HAG_TITO"         System="Yields"/>
+		<!-- ムーレイ・イスマーイール -->
+		<Row ListType="HAGMulayIsmailDistrict" LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Districts"/>
+		<Row ListType="HAGMulayIsmailCivics"   LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Civics"/>
+		<Row ListType="HAGMulayIsmailTech"     LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Technologies"/>
+		<Row ListType="HAGMulayIsmailWonders"  LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Buildings"/>
+		<Row ListType="HAGMulayIsmailUnits"    LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Units"/>
+		<Row ListType="HAGMulayIsmailGold"     LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Yields"/>
+		<!-- 東條英機 -->
+		<Row ListType="HAGHidekiTojoDistrict"  LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Districts"/>
+		<Row ListType="HAGHidekiTojoCivics"    LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Civics"/>
+		<Row ListType="HAGHidekiTojoTech"      LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Technologies"/>
+		<Row ListType="HAGHidekiTojoWonders"   LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Buildings"/>
+		<Row ListType="HAGHidekiTojoCulture"   LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Yields"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- メネリク2世 -->
+		<Row ListType="HAGMenelik2District"    Item="DISTRICT_COMMERCIAL_HUB"  Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGMenelik2Civics"      Item="CIVIC_MEDIEVAL_FAIRES"    Favored="true"/><!-- 中世の市 -->
+		<Row ListType="HAGMenelik2Civics"      Item="CIVIC_GUILDS"             Favored="true"/><!-- ギルド -->
+		<Row ListType="HAGMenelik2Tech"        Item="TECH_CURRENCY"            Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGMenelik2Tech"        Item="TECH_REPLACEABLE_PARTS"   Favored="true"/><!-- 共通規格 -->
+		<Row ListType="HAGMenelik2Wonders"     Item="BUILDING_HANGING_GARDENS" Favored="true"/><!-- 空中庭園 -->
+		<Row ListType="HAGMenelik2Wonders"     Item="BUILDING_GREAT_ZIMBABWE"  Favored="true"/><!-- グレート・ジンバブエ遺跡 -->
+
+		<!-- ナポレオン -->
+		<Row ListType="HAGNapoleonDistrict"       Item="DISTRICT_ENCAMPMENT"        Favored="true"/><!-- 兵営 -->
+		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_NATIONALISM"          Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_MOBILIZATION"         Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGNapoleonTech"           Item="TECH_BRONZE_WORKING"        Favored="true"/><!-- 青銅器 -->
+		<Row ListType="HAGNapoleonTech"           Item="TECH_GUNPOWDER"             Favored="true"/><!-- 火薬 -->
+		<Row ListType="HAGNapoleonTech"           Item="TECH_MILITARY_SCIENCE"      Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGNapoleonTech"           Item="TECH_REPLACEABLE_PARTS"     Favored="true"/><!-- 共通規格 -->
+		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_TERRACOTTA_ARMY"   Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_ALHAMBRA"          Favored="true"/><!-- アルハンブラ宮殿 -->
+		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_FORBIDDEN_CITY"    Favored="true"/><!-- 紫禁城 -->
+		<Row ListType="HAGNapoleonMeleeLoverList" Item="PROMOTION_CLASS_MELEE"      Value="100"/>
+
+		<!-- ティムール -->													     
+		<Row ListType="HAGTimurDistrict"       Item="DISTRICT_COMMERCIAL_HUB"     Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGTimurCivics"         Item="CIVIC_MEDIEVAL_FAIRES"       Favored="true"/><!-- 中世の市 -->
+		<Row ListType="HAGTimurCivics"         Item="CIVIC_GUILDS"                Favored="true"/><!-- ギルド -->
+		<Row ListType="HAGTimurTech"           Item="TECH_CURRENCY"               Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGTimurTech"           Item="TECH_CASTLES"                Favored="true"/><!-- 城 -->
+		<Row ListType="HAGTimurTech"           Item="TECH_ASTRONOMY"              Favored="true"/><!-- 天文学 -->
+		<Row ListType="HAGTimurWonders"        Item="BUILDING_COLOSSEUM"          Favored="true"/><!-- コロッセオ -->
+		<Row ListType="HAGTimurWonders"        Item="BUILDING_TAJ_MAHAL"          Favored="true"/><!-- タージ・マハル(RaF) -->
+		<Row ListType="HAGTimurWonders"        Item="BUILDING_UNIVERSITY_SANKORE" Favored="true"/><!-- サンコーレ大学(GS) -->
+		
+		<!-- チトー -->
+		<Row ListType="HAGTitoDistrict"        Item="DISTRICT_CAMPUS"            Favored="true"/><!-- キャンパス -->
+		<Row ListType="HAGTitoDistrict"        Item="DISTRICT_INDUSTRIAL_ZONE"   Favored="true"/><!-- 工業地帯 -->
+		<Row ListType="HAGTitoCivics"          Item="CIVIC_FEUDALISM"            Favored="true"/><!-- 封建制度 -->
+		<Row ListType="HAGTitoCivics"          Item="CIVIC_CIVIL_SERVICE"        Favored="true"/><!-- 公務員制度 -->
+		<Row ListType="HAGTitoCivics"          Item="CIVIC_DIPLOMATIC_SERVICE"   Favored="true"/><!-- 外交官 -->
+		<Row ListType="HAGTitoTech"            Item="TECH_WRITING"               Favored="true"/><!-- 筆記 -->
+		<Row ListType="HAGTitoTech"            Item="TECH_APPRENTICESHIP"        Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGTitoTech"            Item="TECH_STEEL"                 Favored="true"/><!-- 鉄鋼 -->
+		<Row ListType="HAGTitoWonders"         Item="BUILDING_GREAT_LIBRARY"     Favored="true"/><!-- アレキサンドリア図書館 -->
+		<Row ListType="HAGTitoWonders"         Item="BUILDING_MACHU_PICCHU"      Favored="true"/><!-- マチュ・ピチュ(GS) -->
+		<Row ListType="HAGTitoWonders"         Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/><!-- オックスフォード大学 -->
+		<Row ListType="HAGTitoWonders"         Item="BUILDING_RUHR_VALLEY"       Favored="true"/><!-- ルール地方 -->
+		<Row ListType="HAGTitoScience"         Item="YIELD_SCIENCE"              Value="10"/>
+		
+		<!-- ムーレイ・イスマーイール -->
+		<Row ListType="HAGMulayIsmailDistrict" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGMulayIsmailCivics"   Item="CIVIC_MERCANTILISM"      Favored="true"/><!-- 重商主義 -->
+		<Row ListType="HAGMulayIsmailCivics"   Item="CIVIC_NATIONALISM"       Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGMulayIsmailCivics"   Item="CIVIC_MOBILIZATION"      Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGMulayIsmailTech"     Item="TECH_CURRENCY"           Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGMulayIsmailTech"     Item="TECH_CASTLES"            Favored="true"/><!-- 城 -->
+		<Row ListType="HAGMulayIsmailTech"     Item="TECH_MILITARY_SCIENCE"   Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_PYRAMIDS"       Favored="true"/><!-- ピラミッド -->
+		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_PETRA"          Favored="true"/><!-- ペトラ -->
+		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_TAJ_MAHAL"      Favored="true"/><!-- タージ・マハル(RaF) -->
+		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_BIG_BEN"        Favored="true"/><!-- ビッグ・ベン -->
+		<Row ListType="HAGMulayIsmailUnits"    Item="UNIT_TRADER"             Value="1"/>
+		<Row ListType="HAGMulayIsmailGold"     Item="YIELD_GOLD"              Value="15"/>
+
+		<!-- 東條英機 -->														  
+		<Row ListType="HAGHidekiTojoDistrict"  Item="DISTRICT_ENCAMPMENT"       Favored="true"/><!-- 兵営 -->
+		<Row ListType="HAGHidekiTojoDistrict"  Item="DISTRICT_THEATER"          Favored="true"/><!-- 劇場広場 -->
+		<Row ListType="HAGHidekiTojoCivics"    Item="CIVIC_DRAMA_POETRY"        Favored="true"/><!-- 演劇と詩 -->
+		<Row ListType="HAGHidekiTojoCivics"    Item="CIVIC_CIVIL_SERVICE"       Favored="true"/><!-- 公務員制度 -->
+		<Row ListType="HAGHidekiTojoCivics"    Item="CIVIC_DIPLOMATIC_SERVICE"  Favored="true"/><!-- 外交官 -->
+		<Row ListType="HAGHidekiTojoTech"      Item="TECH_BRONZE_WORKING"       Favored="true"/><!-- 青銅器 -->
+		<Row ListType="HAGHidekiTojoTech"      Item="TECH_MILITARY_TACTICS"     Favored="true"/><!-- 戦術 -->
+		<Row ListType="HAGHidekiTojoTech"      Item="TECH_REFINING"             Favored="true"/><!-- 精製技術 -->
+		<Row ListType="HAGHidekiTojoTech"      Item="TECH_FLIGHT"               Favored="true"/><!-- 航空技術 -->
+		<Row ListType="HAGHidekiTojoTech"      Item="TECH_ADVANCED_FLIGHT"      Favored="true"/><!-- 高度な航空技術 -->
+		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_GREAT_LIGHTHOUSE" Favored="true"/><!-- ファロス灯台 -->
+		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_VENETIAN_ARSENAL" Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
+		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_KOTOKU_IN"        Favored="true"/><!-- 高徳院(RaF) -->
+		<Row ListType="HAGHidekiTojoCulture"   Item="YIELD_CULTURE"             Value="7"/>
+	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
 		<!-- メネリク2世：欧化主義者(バニラのピョートルと同一) -->
 		<Row LeaderType="LEADER_HAG_MENELIK2"     AgendaType="AGENDA_WESTERNIZER"/>
-		<!-- ナポレオン：機を見るに敏(マケドニア・ペルシアDLCのキュロスと同じ) -->
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     AgendaType="AGENDA_BACKSTABBER"/>
+		<!-- ナポレオン：短くも偉大なる生涯(マケドニア・ペルシアDLCのアレクサンドロスと同じ) -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"     AgendaType="AGENDA_SHORT_LIFE_GLORY"/>
 		<!-- ティムール：機を見るに敏(マケドニア・ペルシアDLCのキュロスと同じ) -->
 		<Row LeaderType="LEADER_HAG_TIMUR"        AgendaType="AGENDA_BACKSTABBER"/>
 		<!-- チトー：鉄の同盟(RaFのパウンドメーカーと同じ) -->
 		<Row LeaderType="LEADER_HAG_TITO"         AgendaType="AGENDA_IRON_CONFEDERACY"/>
-		<!-- ムーレイ・イスマーイール：サヘルの承認(RaFのマンサ・ムーサと同じ) -->
+		<!-- ムーレイ・イスマーイール：サヘルの商人(RaFのマンサ・ムーサと同じ) -->
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" AgendaType="AGENDA_LORD_OF_MINES"/>
-		<!-- 東條英機：サヘルの承認(バニラの北条時宗と同じ) -->
+		<!-- 東條英機：武士道(バニラの北条時宗と同じ) -->
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" AgendaType="AGENDA_BUSHIDO"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->

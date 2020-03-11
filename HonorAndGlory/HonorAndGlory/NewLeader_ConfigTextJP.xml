@@ -88,7 +88,7 @@
 			<Text>グランダルメ</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION" Language="ja_JP">
-			<Text>陸上近接ユニットの [ICON_Movement] 移動力+1。兵営から [ICON_CULTURE] 文化力+2。兵営を有する都市を占領すると、すべての軍事ユニットが完全に回復する。</Text>
+			<Text>陸上近接ユニットの [ICON_Movement] 移動力+1。兵営から [ICON_CULTURE] 文化力+2。兵営区域の建造物から [ICON_CULTURE] 文化力+1。兵営を有する都市を占領すると、すべての軍事ユニットが完全に回復する。</Text>
 		</Row>
 
 		<!-- 指導者(ティムール) -->
