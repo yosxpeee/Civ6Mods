@@ -782,7 +782,7 @@
 		<!-- ムーレイ・イスマーイール：サヘルの商人(RaFのマンサ・ムーサと同じ) -->
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" AgendaType="AGENDA_LORD_OF_MINES"/>
 		<!-- 東條英機：武士道(バニラの北条時宗と同じ) -->
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" AgendaType="AGENDA_BUSHIDO"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  AgendaType="AGENDA_BUSHIDO"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>

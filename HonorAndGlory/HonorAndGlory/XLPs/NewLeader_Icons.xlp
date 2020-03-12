@@ -349,6 +349,82 @@
 			<m_ObjectName text="ICON_LEADER_HAG_HIDEKI_TOJO256"/>
 		</Element>
 		
+		<!-- ユニット(マハール・セファリ) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI256"/>
+		</Element>
+		<!-- ユニット(ベルベル人の騎兵) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY256"/>
+		</Element>
+		<!-- ユニット(零戦) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_JAPAN_ZERO22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_JAPAN_ZERO22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_JAPAN_ZERO32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_JAPAN_ZERO32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_JAPAN_ZERO38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_JAPAN_ZERO38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_JAPAN_ZERO50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_JAPAN_ZERO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_JAPAN_ZERO80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_JAPAN_ZERO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_JAPAN_ZERO256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_JAPAN_ZERO256"/>
+		</Element>
+		
 		<!-- 地形改善(カスバ) -->
 		<Element>
 			<m_EntryID text="ICON_IMPROVEMENT_HAG_CASBAH38"/>

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>Honor and Glory - Leaders, Civilizations and Religions</Name>
-    <Guid>457b201e-bd52-49ea-8635-c2f366bcdef5</Guid>
+    <Guid>a2e4a823-dfbd-4885-8df0-aa2dd5a49278</Guid>
     <ProjectGuid>3a0eb59d-17ac-41aa-8761-25cbe34be218</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>This mod adds 6 leaders, 4 civilizations and 3 religions.</Teaser>
@@ -872,6 +872,114 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_LEADER_HAG_TITO80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_JAPAN_ZERO80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_HAG_HIDEKI_TOJO_NEUTRAL.dds">

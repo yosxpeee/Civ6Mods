@@ -27,13 +27,13 @@
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_CAPSULE_BODY" Language="ja_JP">
-			<Text>指導者の詳細文章(Civilopedia)</Text>
+			<Text>指導者の概要文章(Civilopedia)</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_HIDEKI_TOJO_CHAPTER_CAPSULE_BODY" Language="ja_JP">
-			<Text>指導者の詳細文章(Civilopedia)</Text>
+			<Text>指導者の概要文章(Civilopedia)</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_HIDEKI_TOJO_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
@@ -74,121 +74,120 @@
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
-		<!-- ※今全部一緒 -->
 		<!-- エチオピア帝国 -->
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1" Language="ja_JP">
-			<Text>ジョン</Text>
+			<Text>ギルマ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_2" Language="ja_JP">
-			<Text>チャールズ</Text>
+			<Text>ムラトゥ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_3" Language="ja_JP">
-			<Text>ボビー</Text>
+			<Text>アベベ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_4" Language="ja_JP">
-			<Text>トム</Text>
+			<Text>カッサ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_1" Language="ja_JP">
-			<Text>キティ</Text>
+			<Text>メセレッチ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_2" Language="ja_JP">
-			<Text>カーリー</Text>
+			<Text>メロン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_3" Language="ja_JP">
-			<Text>ジャンヌ</Text>
+			<Text>サーレワーク</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_4" Language="ja_JP">
-			<Text>アントワネット</Text>
+			<Text>リヤ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Language="ja_JP">
-			<Text>エリザベス</Text>
+			<Text>ローラ</Text>
 		</Row>
 
 		<!-- ティムール -->
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_1" Language="ja_JP">
-			<Text>ジョン</Text>
+			<Text>ザファル</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_2" Language="ja_JP">
-			<Text>チャールズ</Text>
+			<Text>ベルディ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_3" Language="ja_JP">
-			<Text>ボビー</Text>
+			<Text>タシュ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_4" Language="ja_JP">
-			<Text>トム</Text>
+			<Text>ズムラド</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_1" Language="ja_JP">
-			<Text>キティ</Text>
+			<Text>グル</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_2" Language="ja_JP">
-			<Text>カーリー</Text>
+			<Text>ニルファル</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_3" Language="ja_JP">
-			<Text>ジャンヌ</Text>
+			<Text>アイム</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_4" Language="ja_JP">
-			<Text>アントワネット</Text>
+			<Text>ブヴィ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_5" Language="ja_JP">
-			<Text>エリザベス</Text>
+			<Text>ニサ</Text>
 		</Row>
 
 		<!-- ユーゴスラビア -->
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_1" Language="ja_JP">
-			<Text>ジョン</Text>
+			<Text>ズラタン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_2" Language="ja_JP">
-			<Text>チャールズ</Text>
+			<Text>ゾラン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_3" Language="ja_JP">
-			<Text>ボビー</Text>
+			<Text>ネマニャ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_4" Language="ja_JP">
-			<Text>トム</Text>
+			<Text>パヴレ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_1" Language="ja_JP">
-			<Text>キティ</Text>
+			<Text>アンドリヤナ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_2" Language="ja_JP">
-			<Text>カーリー</Text>
+			<Text>イェレナ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_3" Language="ja_JP">
-			<Text>ジャンヌ</Text>
+			<Text>インディラ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_4" Language="ja_JP">
-			<Text>アントワネット</Text>
+			<Text>ドラガナ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_5" Language="ja_JP">
-			<Text>エリザベス</Text>
+			<Text>ゴルダナ</Text>
 		</Row>
 
 		<!-- モロッコ -->
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_1" Language="ja_JP">
-			<Text>ジョン</Text>
+			<Text>アブド</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_2" Language="ja_JP">
-			<Text>チャールズ</Text>
+			<Text>イドリース</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_3" Language="ja_JP">
-			<Text>ボビー</Text>
+			<Text>ヤフヤー</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_4" Language="ja_JP">
-			<Text>トム</Text>
+			<Text>ハサン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_1" Language="ja_JP">
-			<Text>キティ</Text>
+			<Text>サミラ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_2" Language="ja_JP">
-			<Text>カーリー</Text>
+			<Text>アイシャ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_3" Language="ja_JP">
-			<Text>ジャンヌ</Text>
+			<Text>マリカ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_4" Language="ja_JP">
-			<Text>アントワネット</Text>
+			<Text>ファティマ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Language="ja_JP">
-			<Text>エリザベス</Text>
+			<Text>ナディア</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -566,13 +565,13 @@
 			<Text>指導者の一言コメント</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="ja_JP">
-			<Text>指導者の一言コメント</Text>
+			<Text>勝利はわが迅速果敢な行動にあり</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TIMUR_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TITO_QUOTE" Language="ja_JP">
-			<Text>指導者の一言コメント</Text>
+			<Text>工場を労働者に</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_MULAY_ISMAIL_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
@@ -668,21 +667,21 @@
 			<Text>ジャイナ教</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_JAINISM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>仏教とほぼ同時代、紀元前5世紀に開かれたインドの宗教の一つ。マハーヴィーラを開祖とし、徹底した苦行・禁欲主義をもって知られる。仏教と異なりインド以外の地にはほとんど伝わらなかったが、その国内に深く根を下ろして、およそ2500年の長い期間にわたりインド文化の諸方面に影響を与え続け、今日もなおわずかだが無視できない信徒数を保っている。</Text>
 		</Row>
 		<!-- マニ教 -->
 		<Row Tag="LOC_RELIGION_HAG_MANICHAEISM" Language="ja_JP">
 			<Text>マニ教</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_MANICHAEISM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>サーサーン朝ペルシャのマニを開祖とする、3世紀ごろに開かれた宗教。ユダヤ教・ゾロアスター教・キリスト教・グノーシス主義などの流れを汲み、経典宗教の特徴をもつ。かつては北アフリカ・イベリア半島から中国にかけてユーラシア大陸で広く信仰された世界宗教であったが、今日においては中華人民共和国の福建省泉州市においてマニ教寺院が現存するのみである。</Text>
 		</Row>
 		<!-- バハーイー教 -->
 		<Row Tag="LOC_RELIGION_HAG_BAHAI_FAITH" Language="ja_JP">
 			<Text>バハーイー教</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_BAHAI_FAITH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>19世紀半ばにイランでバハー・ウッラーが創始した一神教。イスラエルのハイファにあるカルメル山に本部を持つ。バハーイーの教えの中心には、すべての国々、民族、信条、階級の繁栄が保証される統一された世界の秩序という目的がある。</Text>
 		</Row>
 
 		<!-- 地名 -->

@@ -74,121 +74,120 @@
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
-		<!-- ※今全部一緒 -->
 		<!-- エチオピア帝国 -->
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1" Language="en_US">
-			<Text>Jhon</Text>
+			<Text>Girma</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_2" Language="en_US">
-			<Text>Charles</Text>
+			<Text>Mulatu</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_3" Language="en_US">
-			<Text>Bobby</Text>
+			<Text>Abebe</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_4" Language="en_US">
-			<Text>Tom</Text>
+			<Text>Kassa</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_1" Language="en_US">
-			<Text>Kitty</Text>
+			<Text>Meselech</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_2" Language="en_US">
-			<Text>Curly</Text>
+			<Text>Meron</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_3" Language="en_US">
-			<Text>Jeanne</Text>
+			<Text>Sahle-Work</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_4" Language="en_US">
-			<Text>Antoinette</Text>
+			<Text>Liya</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Language="en_US">
-			<Text>Elizabeth</Text>
+			<Text>Lola</Text>
 		</Row>
 
 		<!-- ティムール朝 -->
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_1" Language="en_US">
-			<Text>Jhon</Text>
+			<Text>Zafal</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_2" Language="en_US">
-			<Text>Charles</Text>
+			<Text>Berdi</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_3" Language="en_US">
-			<Text>Bobby</Text>
+			<Text>Tosh</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_4" Language="en_US">
-			<Text>Tom</Text>
+			<Text>Zumrad</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_1" Language="en_US">
-			<Text>Kitty</Text>
+			<Text>Gul</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_2" Language="en_US">
-			<Text>Curly</Text>
+			<Text>Nilufar</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_3" Language="en_US">
-			<Text>Jeanne</Text>
+			<Text>Oim</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_4" Language="en_US">
-			<Text>Antoinette</Text>
+			<Text>Buvi</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_5" Language="en_US">
-			<Text>Elizabeth</Text>
+			<Text>Nisa</Text>
 		</Row>
 
 		<!-- ユーゴスラビア -->
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_1" Language="en_US">
-			<Text>Jhon</Text>
+			<Text>Zlatan</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_2" Language="en_US">
-			<Text>Charles</Text>
+			<Text>Zoran</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_3" Language="en_US">
-			<Text>Bobby</Text>
+			<Text>Nemanja</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_4" Language="en_US">
-			<Text>Tom</Text>
+			<Text>Pavle</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_1" Language="en_US">
-			<Text>Kitty</Text>
+			<Text>Andrijana</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_2" Language="en_US">
-			<Text>Curly</Text>
+			<Text>Jelena</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_3" Language="en_US">
-			<Text>Jeanne</Text>
+			<Text>Indira</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_4" Language="en_US">
-			<Text>Antoinette</Text>
+			<Text>Dragana</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_5" Language="en_US">
-			<Text>Elizabeth</Text>
+			<Text>Gordana</Text>
 		</Row>
 
 		<!-- モロッコ -->
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_1" Language="en_US">
-			<Text>Jhon</Text>
+			<Text>Abd</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_2" Language="en_US">
-			<Text>Charles</Text>
+			<Text>Idris</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_3" Language="en_US">
-			<Text>Bobby</Text>
+			<Text>Yahya</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_4" Language="en_US">
-			<Text>Tom</Text>
+			<Text>Hassan</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_1" Language="en_US">
-			<Text>Kitty</Text>
+			<Text>Samira</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_2" Language="en_US">
-			<Text>Curly</Text>
+			<Text>Aicha</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_3" Language="en_US">
-			<Text>Jeanne</Text>
+			<Text>Malika</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_4" Language="en_US">
-			<Text>Antoinette</Text>
+			<Text>Fatima</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Language="en_US">
-			<Text>Elizabeth</Text>
+			<Text>Nadia</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -291,10 +290,10 @@
 			<Text>Zomin</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_11" Language="en_US">
-			<Text>Qo‘qon</Text>
+			<Text>Qo'qon</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_12" Language="en_US">
-			<Text>Margʻilon</Text>
+			<Text>Marg'ilon</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_13" Language="en_US">
 			<Text>Urganch</Text>
@@ -336,10 +335,10 @@
 			<Text>Shahrisabz</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_26" Language="en_US">
-			<Text>Noʻkis</Text>
+			<Text>No'kis</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_27" Language="en_US">
-			<Text>Xo‘jayli</Text>
+			<Text>Xo'jayli</Text>
 		</Row>
 		
 		<!-- ユーゴスラビア -->
@@ -676,7 +675,7 @@
 		</Row>
 		<!-- バハーイー教 -->
 		<Row Tag="LOC_RELIGION_HAG_BAHAI_FAITH" Language="en_US">
-			<Text>Bahaʼi</Text>
+			<Text>Baha'i</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_BAHAI_FAITH_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
