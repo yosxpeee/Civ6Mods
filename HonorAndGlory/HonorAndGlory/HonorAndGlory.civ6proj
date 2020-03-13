@@ -40,6 +40,192 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Animations\ethiopian_mehal_sefari_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_attack_city.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_attack_city.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_charge_attack.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_charge_attack.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_charge_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_charge_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_shuffle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_shuffle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_stop_run_b.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_stop_run_b.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\ethiopian_mehal_sefari_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Animations\u_japanese_zero_attack_air.anm">
       <SubType>Content</SubType>
     </Content>
@@ -319,6 +505,9 @@
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Ethiopian_Mehal_Sefari.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\IMP_HAG_Casbah.ast">
       <SubType>Content</SubType>
     </Content>
@@ -326,6 +515,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\U_Morocco_Berber.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\ethiopian_mehal_sefari.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\ethiopian_mehal_sefari.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\u_japanese_zero.fgx">
@@ -338,6 +533,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\u_morocco_berber.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Mehal_Sefari_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\U_Japanese_Zero_DIFF.mtl">
@@ -1010,6 +1208,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_HAG_TITO_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\mehal_sefari_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\mehal_sefari_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\mehal_sefari_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\mehal_sefari_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\mehal_sefari_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\mehal_sefari_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Menelik2_DiplomacyInfo_Background.dds">
