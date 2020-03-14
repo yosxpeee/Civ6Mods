@@ -86,6 +86,57 @@
 							<m_Name text="RELIGION_HAG_BAHAI_FAITH"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_NESTORIANISM"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_FSM"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_IPU"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="ReligionLensIcons"/>

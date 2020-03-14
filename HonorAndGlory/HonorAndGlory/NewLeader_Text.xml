@@ -713,6 +713,27 @@
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_BAHAI_FAITH_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- ネストリウス派(景教) -->
+		<Row Tag="LOC_RELIGION_HAG_NESTORIANISM" Language="en_US">
+			<Text>Nestorianism</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_NESTORIANISM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 空飛ぶスパゲッティ・モンスター教 -->
+		<Row Tag="LOC_RELIGION_HAG_FSM" Language="en_US">
+			<Text>Pastafarianism</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_FSM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 見えざるピンクのユニコーン -->
+		<Row Tag="LOC_RELIGION_HAG_IPU" Language="en_US">
+			<Text>Invisible Pink Unicorn</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_IPU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- 地名 -->
 		<!-- 川 -->

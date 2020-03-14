@@ -186,6 +186,21 @@
 		<Row Name="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGBahaiFaith50"/>
 		<Row Name="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGBahaiFaith100"/>
 		<Row Name="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGBahaiFaith270"/>
+		<!-- ネストリウス派(景教) -->
+		<Row Name="ICON_ATLAS_RELIGION_HAG_NESTORIANISM" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGNestorianism22"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_NESTORIANISM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGNestorianism50"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_NESTORIANISM" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGNestorianism100"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_NESTORIANISM" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGNestorianism270"/>
+		<!-- 空飛ぶスパゲッティ・モンスター教 -->
+		<Row Name="ICON_ATLAS_RELIGION_HAG_FSM" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGFSM22"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_FSM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGFSM50"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_FSM" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGFSM100"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_FSM" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGFSM270"/>
+		<!-- 見えざるピンクのユニコーン -->
+		<Row Name="ICON_ATLAS_RELIGION_HAG_IPU" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGIPU22"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_IPU" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGIPU50"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_IPU" IconSize="100" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGIPU100"/>
+		<Row Name="ICON_ATLAS_RELIGION_HAG_IPU" IconSize="270" IconsPerRow="1" IconsPerColumn="1" Filename="ReligionHAGIPU270"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -276,16 +291,22 @@
 		
 		<!-- UI -->
 		<!-- ステチュツィ(クルガンの使いまわし) -->
-		<Row Name="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Atlas="ICON_ATLAS_UNIT_ACTIONS" Index="19"/>
+		<Row Name="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Atlas="ICON_ATLAS_UNIT_ACTIONS"           Index="19"/>
 		<!-- カスバ -->
-		<Row Name="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH" Atlas="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" Index="0"/>
+		<Row Name="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH"    Atlas="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" Index="0"/>
 		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->
-		<Row Name="ICON_RELIGION_HAG_JAINISM"     Atlas="ICON_ATLAS_RELIGIONS_HAG_JAINISM"     Index="0"/>
+		<Row Name="ICON_RELIGION_HAG_JAINISM"      Atlas="ICON_ATLAS_RELIGIONS_HAG_JAINISM"      Index="0"/>
 		<!-- マニ教 -->
-		<Row Name="ICON_RELIGION_HAG_MANICHAEISM" Atlas="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM" Index="0"/>
+		<Row Name="ICON_RELIGION_HAG_MANICHAEISM"  Atlas="ICON_ATLAS_RELIGIONS_HAG_MANICHAEISM"  Index="0"/>
 		<!-- バハーイー教 -->
-		<Row Name="ICON_RELIGION_HAG_BAHAI_FAITH" Atlas="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH"  Index="0"/>
+		<Row Name="ICON_RELIGION_HAG_BAHAI_FAITH"  Atlas="ICON_ATLAS_RELIGION_HAG_BAHAI_FAITH"   Index="0"/>
+		<!-- ネストリウス派(景教) -->
+		<Row Name="ICON_RELIGION_HAG_NESTORIANISM" Atlas="ICON_ATLAS_RELIGION_HAG_NESTORIANISM"  Index="0"/>
+		<!-- 空飛ぶスパゲッティ・モンスター教 -->
+		<Row Name="ICON_RELIGION_HAG_FSM"          Atlas="ICON_ATLAS_RELIGION_HAG_FSM"           Index="0"/>
+		<!-- 見えざるピンクのユニコーン -->
+		<Row Name="ICON_RELIGION_HAG_IPU"          Atlas="ICON_ATLAS_RELIGION_HAG_IPU"           Index="0"/>
 	</IconDefinitions>
 </GameData>

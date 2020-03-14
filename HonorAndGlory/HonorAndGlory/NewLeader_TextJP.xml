@@ -716,6 +716,27 @@
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_BAHAI_FAITH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>19世紀半ばにイランでバハー・ウッラーが創始した一神教。イスラエルのハイファにあるカルメル山に本部を持つ。バハーイーの教えの中心には、すべての国々、民族、信条、階級の繁栄が保証される統一された世界の秩序という目的がある。</Text>
 		</Row>
+		<!-- ネストリウス派(景教) -->
+		<Row Tag="LOC_RELIGION_HAG_NESTORIANISM" Language="ja_JP">
+			<Text>ネストリウス派(景教)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_NESTORIANISM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>古代キリスト教の教派の1つ。コンスタンティノポリス総主教ネストリオスにより説かれた。日本には唐代の中国を経由して「景教」の名で伝わっている。キリストの位格は1つではなく、人格と神格に分離されると考えることが特徴で、この考え方は現在のアッシリア東方教会が継承している。</Text>
+		</Row>
+		<!-- 空飛ぶスパゲッティ・モンスター教 -->
+		<Row Tag="LOC_RELIGION_HAG_FSM" Language="ja_JP">
+			<Text>空飛ぶスパゲッティ・モンスター教</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_FSM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アメリカ合衆国のオレゴン州立大学物理学科卒業生のボビー・ヘンダーソンが「インテリジェント・デザイン説」を公教育に持ち込むことを批判するために創始した冗談宗教。日本を含む幾つかの国や地域に支部や信仰コミュニティを持つ。</Text>
+		</Row>
+		<!-- 見えざるピンクのユニコーン -->
+		<Row Tag="LOC_RELIGION_HAG_IPU" Language="ja_JP">
+			<Text>見えざるピンクのユニコーン </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_IPU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>有神論を風刺したパロディカルトにおける女神であり、「見えないのにピンク色」という逆説的なユニコーンの形をとっている。その特徴は有神論の神性に関するいくつかの矛盾を皮肉っている点にあり、無神論者や他の宗教懐疑論者が使用する修辞的な例証として作られた。</Text>
+		</Row>
 
 		<!-- 地名 -->
 		<!-- 川 -->

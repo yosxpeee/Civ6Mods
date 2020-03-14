@@ -74,5 +74,20 @@
 			<Type>COLOR_RELIGION_HAG_BAHAI_FAITH</Type>
 			<Color>128,128,128,255</Color>
 		</Row>
+		<!-- ネストリウス派(景教) -->
+		<Row>
+			<Type>COLOR_RELIGION_HAG_NESTORIANISM</Type>
+			<Color>95,76,134,255</Color>
+		</Row>
+		<!-- 空飛ぶスパゲッティ・モンスター教 -->
+		<Row>
+			<Type>COLOR_RELIGION_HAG_FSM</Type>
+			<Color>254,245,177,255</Color>
+		</Row>
+		<!-- 見えざるピンクのユニコーン -->
+		<Row>
+			<Type>COLOR_RELIGION_HAG_IPU</Type>
+			<Color>255,192,203,255</Color>
+		</Row>
 	</Colors>
 </GameInfo>

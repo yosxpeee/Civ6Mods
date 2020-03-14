@@ -3,6 +3,6 @@
 	<Types>
 		<!-- 大将軍のナポレオンとティムールを削除 -->
 		<Delete Type="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE"/>
-		<Delete Type="LOC_GREAT_PERSON_INDIVIDUAL_TIMUR_NAME"/>
+		<Delete Type="GREAT_PERSON_INDIVIDUAL_TIMUR"/>
 	</Types>
 </GameData>

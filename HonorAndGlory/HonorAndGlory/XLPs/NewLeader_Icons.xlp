@@ -494,6 +494,57 @@
 			<m_EntryID text="ReligionHAGBahaiFaith270"/>
 			<m_ObjectName text="ReligionHAGBahaiFaith270"/>
 		</Element>
+		<!-- 宗教(ネストリウス派) -->
+		<Element>
+			<m_EntryID text="ReligionHAGNestorianism22"/>
+			<m_ObjectName text="ReligionHAGNestorianism22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGNestorianism50"/>
+			<m_ObjectName text="ReligionHAGNestorianism50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGNestorianism100"/>
+			<m_ObjectName text="ReligionHAGNestorianism100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGNestorianism270"/>
+			<m_ObjectName text="ReligionHAGNestorianism270"/>
+		</Element>
+		<!-- 宗教(空飛ぶスパゲッティ・モンスター教) -->
+		<Element>
+			<m_EntryID text="ReligionHAGFSM22"/>
+			<m_ObjectName text="ReligionHAGFSM22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGFSM50"/>
+			<m_ObjectName text="ReligionHAGFSM50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGFSM100"/>
+			<m_ObjectName text="ReligionHAGFSM100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGFSM270"/>
+			<m_ObjectName text="ReligionHAGFSM270"/>
+		</Element>
+		<!-- 宗教(見えざるピンクのユニコーン) -->
+		<Element>
+			<m_EntryID text="ReligionHAGIPU22"/>
+			<m_ObjectName text="ReligionHAGIPU22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGIPU50"/>
+			<m_ObjectName text="ReligionHAGIPU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGIPU100"/>
+			<m_ObjectName text="ReligionHAGIPU100"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionHAGIPU270"/>
+			<m_ObjectName text="ReligionHAGIPU270"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

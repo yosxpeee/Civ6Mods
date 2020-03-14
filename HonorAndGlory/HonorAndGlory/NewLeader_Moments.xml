@@ -14,8 +14,11 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_JAPAN_ZERO"               Texture="Moment_HAG_HidekiTojo_Zero.dds"/>
 
 		<!-- 宗教 -->
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"     Texture="Moment_Religion_HAG_Jainism.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_MANICHAEISM" Texture="Moment_Religion_HAG_Manichaeism.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_BAHAI_FAITH" Texture="Moment_Religion_HAG_BahaiFaith.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"      Texture="Moment_Religion_HAG_Jainism.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_MANICHAEISM"  Texture="Moment_Religion_HAG_Manichaeism.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_BAHAI_FAITH"  Texture="Moment_Religion_HAG_BahaiFaith.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_NESTORIANISM" Texture="Moment_Religion_HAG_Nestorianism.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_FSM"          Texture="Moment_Religion_HAG_Pastafarianism.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_IPU"          Texture="Moment_Religion_HAG_IPU.dds"/>
 	</MomentIllustrations>
 </GameData>
