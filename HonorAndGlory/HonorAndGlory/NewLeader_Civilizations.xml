@@ -659,8 +659,8 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_HILLS" Tier="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_MOUNTAIN" Tier="1"/>
 		<!-- ティムール朝：砂漠 -->
-		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT" Tier="2"/>
-		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT_HILLS" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT_HILLS" Tier="1"/>
 		<!-- ユーゴスラビア：山 -->
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="2"/>
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="2"/>
@@ -675,6 +675,16 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" ResourceType="RESOURCE_HORSES" Tier="3"/>
 		<!-- モロッコ：馬 -->
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" ResourceType="RESOURCE_HORSES" Tier="1"/>
+		<!-- ティムール朝：馬 -->
+		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" ResourceType="RESOURCE_HORSES" Tier="3"/>
+		<!-- ユーゴスラビア：戦略資源 -->
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_ALUMINUM" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_COAL" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_HORSES" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_IRON" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_NITER" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_OIL" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_URANIUM" Tier="3"/>
 	</StartBiasResources>
 	<StartBiasFeatures>
 		<!-- ティムール朝：オアシス -->

@@ -72,9 +72,9 @@
 		<Row Id="HAG_01" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
 		<Row Id="HAG_02" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"    BonusYieldChange="1" PrereqCivic="CIVIC_MASS_MEDIA"/>
 		<!-- カスバ：都市化でゴールド+1、工業化で生産力+1、共通規格で食糧+1 -->
-		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"       BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
-		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_INDUSTRIALIZATION"/>
-		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_FOOD"       BonusYieldChange="1" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_GOLD"       BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
+		<Row Id="HAG_04" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_INDUSTRIALIZATION"/>
+		<Row Id="HAG_05" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_FOOD"       BonusYieldChange="1" PrereqTech="TECH_REPLACEABLE_PARTS"/>
 	</Improvement_BonusYieldChanges>
 	<!-- 観光力 -->
 	<Improvement_Tourism>
@@ -83,7 +83,7 @@
 	</Improvement_Tourism>
 	<!-- 隣接ボーナス詳細 -->
 	<Adjacency_YieldChanges>
-		<!-- カスバ：同じ改善同士でゴールド+0.5 -->
+		<!-- カスバ：同じ改善同士でゴールド+1 -->
 		<Row ID="HAG_Casbah_SameImprovementAdjacency" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
 	</Adjacency_YieldChanges>
 	<!-- 固有能力指定 -->

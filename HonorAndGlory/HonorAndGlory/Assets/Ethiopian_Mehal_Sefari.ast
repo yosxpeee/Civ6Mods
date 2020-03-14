@@ -1196,6 +1196,7 @@
 								<m_fDuration>0.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
+							<!--
 							<Element>
 								<m_eType>ASSET_FX</m_eType>
 								<m_Name text="20"/>
@@ -1207,7 +1208,6 @@
 								<m_fDuration>0.200000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
-							<!--
 							<Element>
 								<m_eType>ARTDEF_VFX</m_eType>
 								<m_Name text="23"/>
@@ -1386,6 +1386,7 @@
 								<m_fDuration>0.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
+							<!--
 							<Element>
 								<m_eType>ARTDEF_VFX</m_eType>
 								<m_Name text="108"/>
@@ -1397,7 +1398,6 @@
 								<m_fDuration>0.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
-							<!--
 							<Element>
 								<m_eType>ACTION</m_eType>
 								<m_Name text="109"/>
