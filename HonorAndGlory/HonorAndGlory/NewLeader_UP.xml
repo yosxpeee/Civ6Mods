@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GameData>
-
-</GameData>
+<GameInfo>
+	<Types>
+		<Row Type="PROJECT_HAG_FEITORIA_CAPITAL_MOVE" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_HAG_FEITORIA_CAPITAL_MOVE" Name="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_NAME" ShortName="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_SHORT_NAME" 
+			 Description="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_DESCRIPTION" PrereqDistrict="DISTRICT_HAG_PORTUGAL_FEITORIA"
+			 Cost="100" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500"/>
+	</Projects>
+	<Projects_XP2>
+		<Row ProjectType="PROJECT_HAG_FEITORIA_CAPITAL_MOVE" MaxSimultaneousInstances="1"/>
+	</Projects_XP2>
+	<ProjectPrereqs>
+	</ProjectPrereqs>
+	<Project_ResourceCosts>
+	</Project_ResourceCosts>
+	<Project_BuildingCosts>
+	</Project_BuildingCosts>
+	<Project_YieldConversions>
+	</Project_YieldConversions>
+	<ProjectCompletionModifiers>
+	</ProjectCompletionModifiers>
+	<Modifiers>
+	</Modifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+</GameInfo>

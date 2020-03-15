@@ -222,6 +222,35 @@
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Language="en_US">
 			<Text>Nadia</Text>
 		</Row>
+
+		<!-- ポルトガル -->
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_1" Language="en_US">
+			<Text>Abd</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_2" Language="en_US">
+			<Text>Idris</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_3" Language="en_US">
+			<Text>Yahya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_4" Language="en_US">
+			<Text>Hassan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_1" Language="en_US">
+			<Text>Samira</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_2" Language="en_US">
+			<Text>Aicha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_3" Language="en_US">
+			<Text>Malika</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_4" Language="en_US">
+			<Text>Fatima</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_5" Language="en_US">
+			<Text>Nadia</Text>
+		</Row>
 		
 		<!-- Civilization City Names-->
 		<!-- エチオピア帝国 -->
@@ -593,6 +622,39 @@
 			<Text>Merzouga</Text>
 		</Row>
 
+		<!-- ポルトガル -->
+		<!-- 今は仮 -->
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="en_US">
+			<Text>Lisbon</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_2" Language="en_US">
+			<Text>aaa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_3" Language="en_US">
+			<Text>bbb</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_4" Language="en_US">
+			<Text>ccc</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_5" Language="en_US">
+			<Text>ddd</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_6" Language="en_US">
+			<Text>eee</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_7" Language="en_US">
+			<Text>fff</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_8" Language="en_US">
+			<Text>ggg</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_9" Language="en_US">
+			<Text>hhh</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_10" Language="en_US">
+			<Text>iii</Text>
+		</Row>
+		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
@@ -874,6 +936,17 @@
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_ABAYA_LAKE_NAME" Language="en_US">
 			<Text>Abaya Lake</Text>
+		</Row>
+
+		<!-- プロジェクト -->
+		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_NAME" Language="en_US">
+			<Text>Move Capital</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_SHORT_NAME" Language="en_US">
+			<Text>Move Capital</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_DESCRIPTION" Language="en_US">
+			<Text>Maria I unique project available to any city with a Feitoria. When complete, the Portugal [ICON_Capital] Capital moves to this city.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

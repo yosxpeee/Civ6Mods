@@ -505,6 +505,21 @@
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\DIS_Feitoria_Ancient_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_Feitoria_Ancient_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_Feitoria_Classical_Base_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_Feitoria_Classical_Base_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\DIS_Feitoria_Classical_Base_03.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Ethiopian_Mehal_Sefari.ast">
       <SubType>Content</SubType>
     </Content>

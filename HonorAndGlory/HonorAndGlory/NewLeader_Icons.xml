@@ -162,13 +162,22 @@
 		<Row Name="ICON_ATLAS_UNIT_HAG_JAPAN_ZERO" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_JAPAN_ZERO50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_JAPAN_ZERO" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_JAPAN_ZERO80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_JAPAN_ZERO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_JAPAN_ZERO256.dds"/>
-
+		
 		<!-- UI -->
 		<!-- カスバ -->
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH38.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH50.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH80.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH256.dds"/>
+
+		<!-- UP -->
+		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
+		<Row Name="ICON_HAG_ATLAS_XP2_PROJECTS" IconSize="30"  IconsPerRow="4" IconsPerColumn="4" Filename="XP2_Projects30"/>
+		<Row Name="ICON_HAG_ATLAS_XP2_PROJECTS" IconSize="32"  IconsPerRow="4" IconsPerColumn="4" Filename="XP2_Projects32"/>
+		<Row Name="ICON_HAG_ATLAS_XP2_PROJECTS" IconSize="38"  IconsPerRow="4" IconsPerColumn="4" Filename="XP2_Projects38"/>
+		<Row Name="ICON_HAG_ATLAS_XP2_PROJECTS" IconSize="50"  IconsPerRow="4" IconsPerColumn="4" Filename="XP2_Projects50"/>
+		<Row Name="ICON_HAG_ATLAS_XP2_PROJECTS" IconSize="80"  IconsPerRow="4" IconsPerColumn="4" Filename="XP2_Projects80"/>
+		<Row Name="ICON_HAG_ATLAS_XP2_PROJECTS" IconSize="256" IconsPerRow="4" IconsPerColumn="4" Filename="XP2_Projects256"/>
 		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->
@@ -293,12 +302,21 @@
 		<Row Name="ICON_BUILDING_HAG_TIMURID_OBSERVATORY" Atlas="ICON_ATLAS_BUILDINGS"     Index="19"/>
 		<Row Name="ICON_BUILDING_HAG_TIMURID_OBSERVATORY" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="19"/>
 		
+		<!-- UD -->
+		<!-- フェイトリア(兵営の使いまわし) -->
+		<Row Name="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA"     Atlas="ICON_ATLAS_DISTRICTS"     Index="3"/>
+		<Row Name="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="3"/>
+
 		<!-- UI -->
 		<!-- ステチュツィ(クルガンの使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Atlas="ICON_ATLAS_UNIT_ACTIONS"           Index="19"/>
 		<!-- カスバ -->
 		<Row Name="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH"    Atlas="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" Index="0"/>
 		
+		<!-- UP -->
+		<!-- 遷都(フェニキアの遷都プロジェクト使いまわし) -->
+		<Row Name="ICON_PROJECT_HAG_FEITORIA_CAPITAL_MOVE" Atlas="ICON_HAG_ATLAS_XP2_PROJECTS" Index="5"/>
+
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->
 		<Row Name="ICON_RELIGION_HAG_JAINISM"      Atlas="ICON_ATLAS_RELIGIONS_HAG_JAINISM"      Index="0"/>

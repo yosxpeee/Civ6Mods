@@ -236,6 +236,12 @@
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
 		</Row>
 
+		<!-- マリア1世 -->
+		<!-- フェイトリアのある都市へ遷都できる -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -351,6 +357,12 @@
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_ADJECENT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</SubjectRequirementSetId>
+		</Row>
+
+		<!-- フェイトリアのある都市へ遷都できる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CAPITAL</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -557,6 +569,13 @@
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
+		</Row>
+
+		<!-- フェイトリアのある都市へ遷都できる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_HAG_FEITORIA_CAPITAL_MOVE</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->

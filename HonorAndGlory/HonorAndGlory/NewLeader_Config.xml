@@ -236,5 +236,14 @@
 			 Name="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" 
 			 Description="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" 
 			 SortIndex="30" />
+		<!-- ポルトガル -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_PORTUGAL"
+			 LeaderType="LEADER_HAG_MARIA_I"
+			 Type="DISTRICT_HAG_PORTUGAL_FEITORIA"
+			 Icon="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA"
+			 Name="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME"
+			 Description="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION"
+			 SortIndex="20"/>
 	</PlayerItems>
 </GameData>

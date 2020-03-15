@@ -160,7 +160,7 @@
 			<Text>a Piedosa</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="en_US">
-			<Text>No traits</Text>
+			<Text>Can move their original [ICON_Capital] Capital to any city with a Feitoria they founded by completing a unique project in that city.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
@@ -261,6 +261,29 @@
 			<Text></Text>
 		</Row>
 
+		<!-- UD(フェイトリア) -->
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
+			<Text>Feitoria</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Portugal Empire. Replaces the Encampment. +2 [ICON_Production] Production and +2 [ICON_Food] Food for adjecent Harbor tiles. +1 [ICON_Gold] Gold for each adjacent Plantations.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
+			<Text>Feitoria Empire unique building: Feitoria</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Harbor district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Harbor district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Plantation; other?Plantations;}.</Text>
+		</Row>
+		
 		<!-- UI(ステチュツィ) -->
 		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="en_US">
 			<Text>Stecci</Text>

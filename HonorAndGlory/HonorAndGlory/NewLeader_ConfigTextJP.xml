@@ -86,17 +86,6 @@
 			<Text>特になし</Text>
 		</Row>
 
-		<!-- 指導者(マリア1世) -->
-		<Row Tag="LOC_LEADER_HAG_MARIA_I_NAME" Language="ja_JP">
-			<Text>マリア1世</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME" Language="ja_JP">
-			<Text>敬虔女王</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="ja_JP">
-			<Text>特になし</Text>
-		</Row>
-		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="ja_JP">
 			<Text>メネリク2世</Text>
@@ -162,7 +151,18 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION" Language="ja_JP">
 			<Text>有効な同盟1つごとに全ユニットの [ICON_Strength] 戦闘力+3。漁船から [ICON_Culture] 文化力+1。(礁タイルの上にあるとさらに [ICON_Culture] 文化力+1。漁船に隣接する礁タイル1つごとに [ICON_Culture] 文化力+1。2つの効果は累積する。)</Text>
 		</Row>
-		
+
+		<!-- 指導者(マリア1世) -->
+		<Row Tag="LOC_LEADER_HAG_MARIA_I_NAME" Language="ja_JP">
+			<Text>マリア1世</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME" Language="ja_JP">
+			<Text>敬虔女王</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="ja_JP">
+			<Text>自分が築いたフェイトリアがある都市に元々の [ICON_Capital] 首都を移すことができる (新たな首都にしたい都市で固有のプロジェクトを完了すること)。</Text>
+		</Row>
+
 		<!-- UU(マハール・セファリ) -->
 		<Replace Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="ja_JP">
 			<Text>マハール・セファリ</Text>
@@ -261,6 +261,29 @@
 			<Text>天体や天文現象の観測を行ったり、観測結果を解析して天文学の研究を行うための施設。現代では学術研究目的以外に、宇宙の観察や学習といった天文教育・普及活動の拠点としての性格を持つ天文台もある。</Text>
 		</Row>
 
+		<!-- UD(フェイトリア) -->
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
+			<Text>フェイトリア</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="ja_JP">
+			<Text>ポルトガル帝国固有の区域。兵営に取って代わる。隣接する港から [ICON_Food] 食糧+2、[ICON_Production] 生産力+2。隣接するプランテーションから [ICON_Gold] ゴールド+1。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
+			<Text>ポルトガル帝国固有の区域: フェイトリア</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PRODUCTION" Language="ja_JP">
+			<Text>隣接する港区域により [ICON_Production] 生産力+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FOOD" Language="ja_JP">
+			<Text>隣接する港区域により [ICON_Food] 食糧+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="ja_JP">
+			<Text>隣接するプランテーションにより [ICON_Gold] ゴールド+{1_num}。</Text>
+		</Row>
+		
 		<!-- UI(ステチュツィ) -->
 		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="ja_JP">
 			<Text>ステチュツィ</Text>

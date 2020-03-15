@@ -13,6 +13,26 @@
 			<m_EntryID text="IMP_HAG_Casbah"/>
 			<m_ObjectName text="IMP_HAG_Casbah"/>
 		</Element>
+		<Element>
+			<m_EntryID text="DIS_Feitoria_Ancient_Base_01"/>
+			<m_ObjectName text="DIS_Feitoria_Ancient_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Feitoria_Ancient_Base_02"/>
+			<m_ObjectName text="DIS_Feitoria_Ancient_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Feitoria_Classical_Base_01"/>
+			<m_ObjectName text="DIS_Feitoria_Classical_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Feitoria_Classical_Base_02"/>
+			<m_ObjectName text="DIS_Feitoria_Classical_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Feitoria_Classical_Base_03"/>
+			<m_ObjectName text="DIS_Feitoria_Classical_Base_03"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
