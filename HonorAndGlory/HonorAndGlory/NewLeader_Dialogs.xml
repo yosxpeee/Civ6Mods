@@ -45,5 +45,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_HIDEKI_TOJO_ANY" Language="en_US">
 			<Text>What have you done, that God has withdrawn his bounty from you? See that you return to righteousness!</Text>
 		</Replace>
+		<!-- マリア1世 -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_MARIA_I_ANY" Language="en_US">
+			<Text>Please accept my warmest thanks for your kind endeavors on the continent we share.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MARIA_I_ANY" Language="en_US">
+			<Text>You tread on dangerous waters in the face of Portugal and her loyal colonies.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

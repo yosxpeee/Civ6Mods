@@ -68,6 +68,34 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="ja_JP">
 			<Text>[ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+3、[ICON_Culture] 文化力+1。他文明の都市を起点とする [ICON_TradeRoute] 交易路により、自分の [ICON_FOOD] 食糧+2。他文明の [ICON_TradeRoute] 交易路でモロッコとの交易がおこなわれた場合、その文明に [ICON_Gold] ゴールド+2。</Text>
 		</Row>
+
+		<!-- 文明(ポルトガル) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_NAME" Language="ja_JP">
+			<Text>ポルトガル帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="ja_JP">
+			<Text>ポルトガル帝国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_ADJECTIVE" Language="ja_JP">
+			<Text>ポルトガル帝国の</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME" Language="ja_JP">
+			<Text>海上帝国</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="ja_JP">
+			<Text>特になし</Text>
+		</Row>
+
+		<!-- 指導者(マリア1世) -->
+		<Row Tag="LOC_LEADER_HAG_MARIA_I_NAME" Language="ja_JP">
+			<Text>マリア1世</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME" Language="ja_JP">
+			<Text>敬虔女王</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="ja_JP">
+			<Text>特になし</Text>
+		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="ja_JP">

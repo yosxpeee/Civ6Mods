@@ -68,6 +68,23 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="en_US">
 			<Text>[ICON_TradeRoute] Trade Routes to foreign cities provide +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_GOLD] Gold to you.[ICON_TradeRoute] Trade Routes from foreign cities provide +2 [ICON_FOOD] Food to you. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Gold] Gold for them.</Text>
 		</Row>
+
+		<!-- 文明(ポルトガル) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_NAME" Language="en_US">
+			<Text>Portugal Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="en_US">
+			<Text>Portugal Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_ADJECTIVE" Language="en_US">
+			<Text>Portugal Empire</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME" Language="en_US">
+			<Text>Colonial Empire</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="en_US">
+			<Text>No traits</Text>
+		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="en_US">
@@ -133,6 +150,17 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION" Language="en_US">
 			<Text>All Units have +3 [ICON_Strength] Combat Strength from each active Alliance. Fishing Boats provides +1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture if Fishing Boats on a reef. +1 [ICON_Culture] Culture if Fishing Boats adjecent to reef.</Text>
+		</Row>
+
+		<!-- 指導者(マリア1世) -->
+		<Row Tag="LOC_LEADER_HAG_MARIA_I_NAME" Language="en_US">
+			<Text>Maria I</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME" Language="en_US">
+			<Text>a Piedosa</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="en_US">
+			<Text>No traits</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

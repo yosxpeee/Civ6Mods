@@ -103,6 +103,23 @@
 			<LeaderAbilityIcon>LEADER_HAG_HIDEKI_TOJO</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_HIDEKI_TOJO</Portrait>
 		</Row>
+		<!-- ポルトガル(マリア1世) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_PORTUGAL</CivilizationType>
+			<LeaderType>LEADER_HAG_MARIA_I</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_PORTUGAL_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_PORTUGAL</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_MARIA_I_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_MARIA_I</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_PORTUGAL</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_MARIA_I_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>LEADER_HAG_MARIA_I</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_MARIA_I</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->

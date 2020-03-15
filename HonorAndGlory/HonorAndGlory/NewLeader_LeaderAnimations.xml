@@ -38,5 +38,11 @@
 			<Leader>LEADER_HAG_HIDEKI_TOJO</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- マリア1世 -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_MARIA_I</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

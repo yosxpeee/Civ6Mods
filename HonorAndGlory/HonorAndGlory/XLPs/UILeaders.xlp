@@ -45,7 +45,7 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_TITO"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_TITO"/>
 		</Element>
-		<!-- ムーレイ・イスマーイール-->
+		<!-- ムーレイ・イスマーイール -->
 		<Element>
 			<m_EntryID text="LEADER_HAG_MULAY_ISMAIL_NEUTRAL"/>
 			<m_ObjectName text="LEADER_HAG_MULAY_ISMAIL_NEUTRAL"/>
@@ -54,7 +54,7 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_MULAY_ISMAIL"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_MULAY_ISMAIL"/>
 		</Element>
-		<!-- 東條英機-->
+		<!-- 東條英機 -->
 		<Element>
 			<m_EntryID text="LEADER_HAG_HIDEKI_TOJO_NEUTRAL"/>
 			<m_ObjectName text="LEADER_HAG_HIDEKI_TOJO_NEUTRAL"/>
@@ -62,6 +62,15 @@
 		<Element>
 			<m_EntryID text="PORTRAIT_LEADER_HAG_HIDEKI_TOJO"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_HIDEKI_TOJO"/>
+		</Element>
+		<!-- マリア1世 -->
+		<Element>
+			<m_EntryID text="LEADER_HAG_MARIA_I_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HAG_MARIA_I_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_HAG_MARIA_I"/>
+			<m_ObjectName text="PORTRAIT_LEADER_HAG_MARIA_I"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

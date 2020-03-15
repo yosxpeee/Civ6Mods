@@ -609,6 +609,12 @@
 		<Row Tag="LOC_LEADER_HAG_MULAY_ISMAIL_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_HIDEKI_TOJO_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_MARIA_I_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="en_US">
@@ -627,6 +633,9 @@
 			<Text>Loading Text</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_HIDEKI_TOJO_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_MARIA_I_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
 		

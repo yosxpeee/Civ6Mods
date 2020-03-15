@@ -612,6 +612,9 @@
 		<Row Tag="LOC_LEADER_HAG_HIDEKI_TOJO_QUOTE" Language="ja_JP">
 			<Text>恥を知るものは強し</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_MARIA_I_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="ja_JP">
@@ -630,6 +633,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_HIDEKI_TOJO_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_MARIA_I_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		

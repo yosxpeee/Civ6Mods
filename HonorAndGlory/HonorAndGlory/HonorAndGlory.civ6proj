@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File><File>NewLeader_NamedPlace.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_DiplomacyInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_HidekiTojo_Zero.dds</File><File>Textures/Moment_Religion_HAG_Nestorianism.dds</File><File>Textures/Moment_Religion_HAG_IPU.dds</File><File>Textures/Moment_Religion_HAG_Pastafarianism.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File><File>NewLeader_NamedPlace.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_DiplomacyInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_HidekiTojo_Zero.dds</File><File>Textures/Moment_Religion_HAG_Nestorianism.dds</File><File>Textures/Moment_Religion_HAG_IPU.dds</File><File>Textures/Moment_Religion_HAG_Pastafarianism.dds</File><File>Textures/MariaI_LoadingInfo_Foreground.dds</File><File>Textures/MariaI_DiplomacyInfo_Background.dds</File><File>Textures/MariaI_LoadingInfo_Background.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
             <Criteria id="LeaderCriteria">
@@ -613,6 +613,12 @@
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_HIDEKI_TOJO.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MARIA_I.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MARIA_I.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.dds">
       <SubType>Content</SubType>
     </Content>
@@ -1186,6 +1192,12 @@
     <Content Include="Textures\LEADER_HAG_HIDEKI_TOJO_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_HAG_MARIA_I_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_MARIA_I_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_HAG_MULAY_ISMAIL_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
@@ -1208,6 +1220,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_HAG_TITO_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MariaI_DiplomacyInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MariaI_LoadingInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\MariaI_LoadingInfo_Foreground.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\mehal_sefari_diff.DDS">
@@ -1400,6 +1421,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_HAG_HIDEKI_TOJO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_MARIA_I.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_MARIA_I.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_HAG_MENELIK2.dds">

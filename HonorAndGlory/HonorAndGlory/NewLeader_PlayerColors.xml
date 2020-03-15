@@ -80,21 +80,24 @@
 			<Alt3PrimaryColor>COLOR_STANDARD_ORANGE_LT</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_YELLOW_MD</Alt3SecondaryColor>
 		</Row>
+		<!-- マリア1世 -->
+		<Row>
+			<Type>LEADER_HAG_MARIA_I</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_HAG_MARIA_I_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_HAG_MARIA_I_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_AQUA_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_RED_MD</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_GREEN_DK</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_BLUE_LT</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_MD</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_DK</Alt3SecondaryColor>
+		</Row>
 	</PlayerColors>
 </Database>
 
 <!--
-あと3人分
-
-<Color>COLOR_STANDARD_AQUA_LT</Color>
-<Color>COLOR_STANDARD_RED_MD</Color>
-
-<Color>COLOR_STANDARD_GREEN_DK</Color>
-<Color>COLOR_STANDARD_BLUE_LT</Color>
-
-<Color>COLOR_STANDARD_WHITE_MD</Color>
-<Color>COLOR_STANDARD_MAGENTA_DK</Color>
-
+あと2人分
 
 <Color>COLOR_STANDARD_PURPLE_LT</Color>
 <Color>COLOR_STANDARD_ORANGE_MD</Color>
