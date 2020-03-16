@@ -11,7 +11,7 @@
 	<!-- 主設定 -->
 	<Districts>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" Name="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Description="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" 
-			 PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="54" 
+			 PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27" 
 			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" 
 			 Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" 
 			 NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
