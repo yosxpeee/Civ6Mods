@@ -1005,10 +1005,10 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text=""/>
+									<m_EntryName text="DIS_ENC_Tower_Industrial"/>
 									<m_XLPClass text="TileBase"/>
-									<m_XLPPath text=""/>
-									<m_BLPPackage text=""/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
 									<m_LibraryName text="TileBase"/>
 									<m_ParamName text="Asset"/>
 								</Element>
@@ -1049,7 +1049,7 @@
 							<z>0.000000</z>
 						</m_orientation>
 						<m_Name text="DIS_ENC_Tower_Industrial013"/>
-						<m_BoneName text="DIS_ENC_Tower_Industrial013"/>
+						<m_BoneName text=""/>
 						<m_ModelInstanceName text="DIS_ENC_Industrial_Base_04"/>
 						<m_scale>1.000000</m_scale>
 					</Element>
@@ -1057,10 +1057,10 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text=""/>
+									<m_EntryName text="DIS_ENC_Tower_Industrial"/>
 									<m_XLPClass text="TileBase"/>
-									<m_XLPPath text=""/>
-									<m_BLPPackage text=""/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
 									<m_LibraryName text="TileBase"/>
 									<m_ParamName text="Asset"/>
 								</Element>
@@ -1101,7 +1101,7 @@
 							<z>0.000000</z>
 						</m_orientation>
 						<m_Name text="DIS_ENC_Tower_Industrial015"/>
-						<m_BoneName text="DIS_ENC_Tower_Industrial015"/>
+						<m_BoneName text=""/>
 						<m_ModelInstanceName text="DIS_ENC_Industrial_Base_04"/>
 						<m_scale>1.000000</m_scale>
 					</Element>

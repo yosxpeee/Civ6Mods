@@ -948,5 +948,31 @@
 		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_DESCRIPTION" Language="en_US">
 			<Text>Maria I unique project available to any city with a Feitoria. When complete, the Portugal [ICON_Capital] Capital moves to this city.</Text>
 		</Row>
+		
+		<!-- 都市国家 -->
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Language="en_US">
+			<Text>Ryukyu</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_DESCRIPTION" Language="en_US">
+			<Text>Ryukyu city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_ADJECTIVE" Language="en_US">
+			<Text>Ryukyu</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_NAME" Language="en_US">
+			<Text>Ryukyu Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_DESCRIPTION" Language="en_US">
+			<Text>Your Trader units are immune to being plundered on water tiles.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_RYUKYU_1" Language="en_US">
+			<Text>Ryukyu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_RYUKYU" Language="en_US">
+			<Text>Ryukyu</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

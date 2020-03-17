@@ -2,6 +2,8 @@
 <Database>
 	<PlayerColors>
 		<!-- NOTE:メインカラー以外はCOLOR_STANDARD～を適当な順序で機械的に割り当て -->
+		
+		<!-- 指導者 -->
 		<!-- メネリク2世 -->
 		<Row>
 			<Type>LEADER_HAG_MENELIK2</Type>
@@ -92,6 +94,15 @@
 			<Alt2SecondaryColor>COLOR_STANDARD_BLUE_LT</Alt2SecondaryColor>
 			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_MD</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_DK</Alt3SecondaryColor>
+		</Row>
+
+		<!-- 都市国家 -->
+		<!-- 琉球 -->
+		<Row>
+			<Type>CIVILIZATION_HAG_RYUKYU</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_TRADE_SECONDARY</SecondaryColor>
 		</Row>
 	</PlayerColors>
 </Database>

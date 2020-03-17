@@ -132,7 +132,7 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_YUGOSLAVIA256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_YUGOSLAVIA256"/>
 		</Element>
-		<!-- 文明(ユーゴスラビア) -->
+		<!-- 文明(モロッコ) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO22"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO22"/>
@@ -173,6 +173,48 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_MOROCCO256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_MOROCCO256"/>
 		</Element>
+		<!-- 文明(ポルトガル) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL256"/>
+		</Element>
+		
 		<!-- 指導者(メネリク2世) -->
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_MENELIK232"/>
@@ -202,7 +244,6 @@
 			<m_EntryID text="ICON_LEADER_HAG_MENELIK2256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_MENELIK2256"/>
 		</Element>
-		
 		<!-- 指導者(ナポレオン) -->
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_NAPOLEON32"/>
@@ -347,6 +388,77 @@
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_HIDEKI_TOJO256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_HIDEKI_TOJO256"/>
+		</Element>
+		<!-- 指導者(マリア1世) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MARIA_I32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MARIA_I32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MARIA_I45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MARIA_I45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MARIA_I50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MARIA_I50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MARIA_I55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MARIA_I55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MARIA_I64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MARIA_I64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MARIA_I80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MARIA_I80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MARIA_I256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MARIA_I256"/>
+		</Element>
+
+		<!-- 都市国家(琉球) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU256"/>
 		</Element>
 		
 		<!-- ユニット(マハール・セファリ) -->

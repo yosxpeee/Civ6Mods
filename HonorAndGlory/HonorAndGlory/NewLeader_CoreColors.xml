@@ -57,14 +57,14 @@
 			<Type>COLOR_PLAYER_LEADER_HAG_HIDEKI_TOJO_SECONDARY</Type>
 			<Color>230,180,34,255</Color><!-- 金色 -->
 		</Row>
-		<!--ポルトガル -->
+		<!-- マリア1世 -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_MARIA_I_PRIMARY</Type>
-			<Color>255,255,255,255</Color><!-- 白 -->
+			<Color>0,0,255,255</Color><!-- 青 -->
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_MARIA_I_SECONDARY</Type>
-			<Color>0,0,0,255</Color><!-- 黒 -->
+			<Color>255,255,255,255</Color><!-- 白 -->
 		</Row>
 		
 		<!-- 宗教 -->
