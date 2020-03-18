@@ -83,7 +83,7 @@
 			<Text>海上帝国</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="ja_JP">
-			<Text>すべての都市国家の国境が開放される。</Text>
+			<Text>すべての都市国家の国境が開放される。自文明の首都が存在しない大陸で都市を最初に建設するたびに [ICON_TradeRoute] 交易路の上限が1つ増える。</Text>
 		</Row>
 
 		<!-- 指導者(メネリク2世) -->
@@ -160,7 +160,7 @@
 			<Text>敬虔女王</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="ja_JP">
-			<Text>自分が築いたフェイトリアがある都市に元々の [ICON_Capital] 首都を移すことができる (新たな首都にしたい都市で固有のプロジェクトを完了すること)。</Text>
+			<Text>自分が築いたフェイトリアがある都市に元々の [ICON_Capital] 首都を移すことができる (新たな首都にしたい都市で固有のプロジェクトを完了すること)。自文明の首都が存在しない大陸に都市を建造すると、その都市は毎ターン忠誠心+4。</Text>
 		</Row>
 
 		<!-- UU(マハール・セファリ) -->
@@ -266,7 +266,7 @@
 			<Text>フェイトリア</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="ja_JP">
-			<Text>ポルトガル帝国固有の区域。兵営に取って代わる。隣接する港から [ICON_Food] 食糧+2、[ICON_Production] 生産力+2。隣接するプランテーションから [ICON_Gold] ゴールド+1。</Text>
+			<Text>ポルトガル帝国固有の区域。兵営に取って代わる。隣接する沿岸タイル2つごとに [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接する港、運河から [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接するプランテーションから [ICON_Gold] ゴールド+1。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
 			<Text>ポルトガル帝国固有の区域: フェイトリア</Text>
@@ -274,11 +274,23 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PRODUCTION" Language="ja_JP">
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION" Language="ja_JP">
+			<Text>隣接する沿岸タイル2つごとに [ICON_Production] 生産力+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_FOOD" Language="ja_JP">
+			<Text>隣接する沿岸タイル2つごとに [ICON_Food] 食糧+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_PRODUCTION" Language="ja_JP">
 			<Text>隣接する港区域により [ICON_Production] 生産力+{1_num}。</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FOOD" Language="ja_JP">
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_FOOD" Language="ja_JP">
 			<Text>隣接する港区域により [ICON_Food] 食糧+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_CANAL_PRODUCTION" Language="ja_JP">
+			<Text>隣接する運河区域により [ICON_Production] 生産力+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_CANAL_FOOD" Language="ja_JP">
+			<Text>隣接する運河区域により [ICON_Food] 食糧+{1_num}。</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="ja_JP">
 			<Text>隣接するプランテーションにより [ICON_Gold] ゴールド+{1_num}。</Text>

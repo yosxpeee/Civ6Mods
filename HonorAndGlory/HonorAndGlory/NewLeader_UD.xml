@@ -20,8 +20,12 @@
 	</Districts>
 	<!-- 隣接ボーナス定義 -->
 	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Coast_Production"/>
+		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Coast_Food"/>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Harbor_Production"/>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Harbor_Food"/>
+		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Canal_Production"/>
+		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Canal_Food"/>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Plantation_Gold"/>
 	</District_Adjacencies>
 	<ExcludedAdjacencies>
@@ -48,9 +52,16 @@
 	</AppealHousingChanges>
 	<!-- 隣接ボーナス主設定 -->
 	<Adjacency_YieldChanges>
-		<Row ID="HAG_Feitoria_Harbor_Production" Description="LOC_DISTRICT_HAG_PORTUGAL_PRODUCTION"      YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
-		<Row ID="HAG_Feitoria_Harbor_Food"       Description="LOC_DISTRICT_HAG_PORTUGAL_FOOD"            YieldType="YIELD_FOOD"       YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
-		<Row ID="HAG_Feitoria_Plantation_Gold"   Description="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
+		<!-- 沿岸2タイルにつき食糧+1、生産力+1 -->
+		<Row ID="HAG_Feitoria_Coast_Production"  Description="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION"  YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
+		<Row ID="HAG_Feitoria_Coast_Food"        Description="LOC_DISTRICT_HAG_PORTUGAL_COAST_FOOD"        YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
+		<!-- 港、運河で食糧+1、生産力+1 -->
+		<Row ID="HAG_Feitoria_Harbor_Production" Description="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
+		<Row ID="HAG_Feitoria_Harbor_Food"       Description="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_FOOD"       YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
+		<Row ID="HAG_Feitoria_Canal_Production"  Description="LOC_DISTRICT_HAG_PORTUGAL_CANAL_PRODUCTION"  YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row ID="HAG_Feitoria_Canal_Food"        Description="LOC_DISTRICT_HAG_PORTUGAL_CANAL_FOOD"        YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<!-- プランテーション1つにつきゴールド+1 -->
+		<Row ID="HAG_Feitoria_Plantation_Gold"   Description="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD"   YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
 	</Adjacency_YieldChanges>
 	<DistrictModifiers>
 	</DistrictModifiers>

@@ -242,6 +242,11 @@
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
 		</Row>
+		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -363,6 +368,12 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_CAPITAL</ModifierType>
+		</Row>
+		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_FOUNDED_ON_NON_HOME_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -576,6 +587,12 @@
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
 			<Name>ProjectType</Name>
 			<Value>PROJECT_HAG_FEITORIA_CAPITAL_MOVE</Value>
+		</Row>
+		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->

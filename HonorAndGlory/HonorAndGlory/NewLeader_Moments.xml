@@ -12,6 +12,7 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    Texture="Moment_Infrastructure_India.dds"/><!-- 階段井戸の使いまわし -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"  Texture="Moment_UniqueUnit_America_Roughrider.dds"/><!-- ラフライダーの使いまわし -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_JAPAN_ZERO"               Texture="Moment_HAG_HidekiTojo_Zero.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"    MomentDataType="MOMENT_DATA_DISTRICT"    GameDataType="DISTRICT_HAG_PORTUGAL_FEITORIA"    Texture="Moment_HAG_Portugal_Feitoria.dds"/>
 
 		<!-- 宗教 -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"      Texture="Moment_Religion_HAG_Jainism.dds"/>

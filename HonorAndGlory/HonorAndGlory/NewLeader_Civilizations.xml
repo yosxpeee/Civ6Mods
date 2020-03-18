@@ -169,7 +169,9 @@
 		
 		<!-- ポルトガル -->
 		<!-- 都市国家の国境が常に解放される -->
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL" ModifierId="GUNBOATDIPLOMACY_OPENBORDERS"/>
+		<!-- 首都のない大陸に都市を建設すると交易路+1 -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL" ModifierId="GUNBOATDIPLOMACY_OPENBORDERS"/><!-- 社会政策の砲艦外交にある -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL" ModifierId="TRAIT_FOREIGN_CONTINENT_TRADE_ROUTE"/><!-- ヴィクトリアと同じ(GS追加能力) -->
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -522,6 +524,7 @@
 	</RequirementArguments>
 	<!-- 市民名 -->
 	<CivilizationCitizenNames>
+		<!--エチオピア帝国 -->
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_MALE_2"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_MALE_3"   Female="0"/>
@@ -531,7 +534,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Female="1"/>
-
+		<!-- ティムール朝 -->
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CitizenName="LOC_CITIZEN_HAG_TIMURID_MALE_1"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CitizenName="LOC_CITIZEN_HAG_TIMURID_MALE_2"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CitizenName="LOC_CITIZEN_HAG_TIMURID_MALE_3"   Female="0"/>
@@ -541,7 +544,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CitizenName="LOC_CITIZEN_HAG_TIMURID_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CitizenName="LOC_CITIZEN_HAG_TIMURID_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CitizenName="LOC_CITIZEN_HAG_TIMURID_FEMALE_5" Female="1"/>
-
+		<!-- ユーゴスラビア -->
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CitizenName="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_1"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CitizenName="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_2"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CitizenName="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_3"   Female="0"/>
@@ -551,7 +554,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CitizenName="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CitizenName="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CitizenName="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_5" Female="1"/>
-
+		<!-- モロッコ王国 -->
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CitizenName="LOC_CITIZEN_HAG_MOROCCO_MALE_1"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CitizenName="LOC_CITIZEN_HAG_MOROCCO_MALE_2"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CitizenName="LOC_CITIZEN_HAG_MOROCCO_MALE_3"   Female="0"/>
@@ -561,7 +564,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CitizenName="LOC_CITIZEN_HAG_MOROCCO_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CitizenName="LOC_CITIZEN_HAG_MOROCCO_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CitizenName="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Female="1"/>
-
+		<!-- ポルトガル帝国 -->
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" CitizenName="LOC_CITIZEN_HAG_PORTUGAL_MALE_1"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" CitizenName="LOC_CITIZEN_HAG_PORTUGAL_MALE_2"   Female="0"/>
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" CitizenName="LOC_CITIZEN_HAG_PORTUGAL_MALE_3"   Female="0"/>
@@ -574,6 +577,7 @@
 	</CivilizationCitizenNames>
 	<!-- 都市名 -->
 	<CityNames>
+		<!-- エチオピア帝国 -->
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_2" />
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_3" />
@@ -595,7 +599,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_19" />
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_20" />
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_21" />
-		
+		<!-- ティムール朝 -->
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CityName="LOC_CIVILIZATION_HAG_TIMURID_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CityName="LOC_CIVILIZATION_HAG_TIMURID_CITY_2" />
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CityName="LOC_CIVILIZATION_HAG_TIMURID_CITY_3" />
@@ -623,7 +627,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CityName="LOC_CIVILIZATION_HAG_TIMURID_CITY_25" />
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CityName="LOC_CIVILIZATION_HAG_TIMURID_CITY_26" />
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" CityName="LOC_CIVILIZATION_HAG_TIMURID_CITY_27" />
-
+		<!-- ユーゴスラビア -->
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_2" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_3" />
@@ -664,7 +668,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_38" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_39" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" CityName="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_40" />
-		
+		<!-- モロッコ王国 -->
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_2" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_3" />
@@ -696,7 +700,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_29" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_30" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" CityName="LOC_CIVILIZATION_HAG_MOROCCO_CITY_31" />
-
+		<!-- ポルトガル帝国 -->
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" CityName="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" CityName="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_2" />
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" CityName="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_3" />
@@ -723,6 +727,8 @@
 		<!-- モロッコ：砂漠 -->
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>
+		<!-- ポルトガル：沿岸 -->
+		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" TerrainType="TERRAIN_COAST" Tier="3"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
 		<!-- エチオピア帝国：羊、家畜、馬 -->
