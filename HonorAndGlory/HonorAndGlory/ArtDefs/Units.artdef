@@ -767,7 +767,7 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="HAG_Nau"/>
+										<m_ElementName text="UnitMember_U_Portugal_Carrack"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1755,7 +1755,6 @@
 				<m_ChildCollections>
 					<Element>
 						<m_CollectionName text="Cultures"/>
-						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 						<Element>
 							<m_Fields>
 								<m_Values/>
@@ -1763,15 +1762,14 @@
 							<m_ChildCollections>
 								<Element>
 									<m_CollectionName text="Variations"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 									<Element>
 										<m_Fields>
 											<m_Values>
-												<Element class="AssetObjects..FloatValue">
-													<m_fValue>0.600000</m_fValue>
+												<Element class="AssetObjects:FloatValue">
+													<m_fValue>1.0</m_fValue>
 													<m_ParamName text="Scale"/>
 												</Element>
-												<Element class="AssetObjects..BoolValue">
+												<Element class="AssetObjects:BoolValue">
 													<m_bValue>false</m_bValue>
 													<m_ParamName text="IsAttachment"/>
 												</Element>
@@ -1780,16 +1778,15 @@
 										<m_ChildCollections>
 											<Element>
 												<m_CollectionName text="Attachments"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 												<Element>
 													<m_Fields>
 														<m_Values>
-															<Element class="AssetObjects..StringValue">
+															<Element class="AssetObjects:StringValue">
 																<m_Value text="Root"/>
 																<m_ParamName text="Point"/>
 															</Element>
-															<Element class="AssetObjects..ArtDefReferenceValue">
-																<m_ElementName text="USE_CIV_COLOR"/>
+															<Element class="AssetObjects:ArtDefReferenceValue">
+																<m_ElementName text="Color_DarkRed"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="Units.artdef"/>
 																<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1801,13 +1798,12 @@
 													<m_ChildCollections>
 														<Element>
 															<m_CollectionName text="Bins"/>
-															<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 															<Element>
 																<m_Fields>
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Ships/Caravel"/>
+																<m_Name text="Units/U_Portugal_Carrack"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -1827,13 +1823,41 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="HAG_Nau"/>
+				<m_Name text="UnitMember_U_Portugal_Carrack"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
 		<Element>
 			<m_CollectionName text="UnitTintTypes"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Colors"/>
+						<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:RGBValue">
+										<m_r>127</m_r>
+										<m_g>12</m_g>
+										<m_b>12</m_b>
+										<m_ParamName text="Color"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Colors001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Color_DarkRed"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values/>

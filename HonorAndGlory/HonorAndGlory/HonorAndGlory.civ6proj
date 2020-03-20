@@ -472,6 +472,114 @@
     <Content Include="Animations\u_morocco_berber_victory.fgx">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Animations\u_portugal_carrack_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_portugal_carrack_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Buildings.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -556,6 +664,9 @@
     <Content Include="Assets\U_Morocco_Berber.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\U_Portugal_Carrack.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Geometries\ethiopian_mehal_sefari.fgx">
       <SubType>Content</SubType>
     </Content>
@@ -574,6 +685,12 @@
     <Content Include="Geometries\u_morocco_berber.geo">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Geometries\u_portugal_carrack.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_portugal_carrack.geo">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\Mehal_Sefari_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
@@ -581,6 +698,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\U_Morocco_Berber_Warrior_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\U_Portugal_Carrack_DAMG_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\U_Portugal_Carrack_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="NewLeader_CityStates.xml">
@@ -1390,6 +1513,42 @@
     <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_HAG_HIDEKI_TOJO_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
@@ -1862,6 +2021,36 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\u_morocco_berber_warrior_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_damg_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_damg_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_damg_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_damg_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_portugal_carrack_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\White_AO.dds">

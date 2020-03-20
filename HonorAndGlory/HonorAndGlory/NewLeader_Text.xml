@@ -937,6 +937,12 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_JUBBA_RIVER_NAME" Language="en_US">
 			<Text>Jubba River</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_TAJO_RIVER_NAME" Language="en_US">
+			<Text>Tajo River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_MONDEGO_RIVER_NAME" Language="en_US">
+			<Text>Mondego River</Text>
+		</Row>
 		<!-- 火山 -->
 		<Row Tag="LOC_NAMED_HAG_VOLCANO_ADWA_NAME" Language="en_US">
 			<Text>Adwa Volcano</Text>
@@ -1021,7 +1027,10 @@
 		<Row Tag="LOC_NAMED_HAG_LAKE_ABAYA_LAKE_NAME" Language="en_US">
 			<Text>Abaya Lake</Text>
 		</Row>
-
+		<Row Tag="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME" Language="en_US">
+			<Text>Santo Andre Lake</Text>
+		</Row>
+		
 		<!-- プロジェクト -->
 		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_NAME" Language="en_US">
 			<Text>Move Capital</Text>

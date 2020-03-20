@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_AnimationName text="u_portugal_carrack_attacka"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_A"/>
+						<m_AnimationName text="u_portugal_carrack_idlea"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_COMBAT_A"/>
+						<m_AnimationName text="u_portugal_carrack_combat_ready_idle"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DODGE_A"/>
+						<m_AnimationName text="u_portugal_carrack_bombard_defense"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_AnimationName text="u_portugal_carrack_bombard_defense"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_1"/>
+						<m_AnimationName text="u_portugal_carrack_bombard_defense"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HERO_A"/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HERO_1"/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_A"/>
+						<m_AnimationName text="u_portugal_carrack_attacka"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_B"/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_C"/>
+						<m_AnimationName text="u_portugal_carrack_attacka"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_D"/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+					</Element>
+					<Element>
+						<m_SlotName text="SPAWN"/>
+						<m_AnimationName text="u_portugal_carrack_victory"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_AnimationName text="u_portugal_carrack_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_AnimationName text="u_portugal_carrack_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_AnimationName text="u_portugal_carrack_stop_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_B"/>
+						<m_AnimationName text="u_portugal_carrack_stop_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_C"/>
+						<m_AnimationName text="u_portugal_carrack_stop_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_D"/>
+						<m_AnimationName text="u_portugal_carrack_stop_run"/>
+					</Element>
+					<Element>
+						<m_SlotName text="VICTORY"/>
+						<m_AnimationName text="u_portugal_carrack_victory"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_2"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_4"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_6"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_8"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_10"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_12"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_14"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_16"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_18"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_20"/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="ATTACK_A"/>
+						<m_TimelineName text="ATTACK_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_A"/>
+						<m_TimelineName text="BREATHING_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="BREATHING_COMBAT_A"/>
+						<m_TimelineName text="BREATHING_COMBAT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DODGE_A"/>
+						<m_TimelineName text="DODGE_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_A"/>
+						<m_TimelineName text="DEFEND_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEFEND_1"/>
+						<m_TimelineName text="DEFEND_1"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HERO_A"/>
+						<m_TimelineName text="HERO_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HERO_1"/>
+						<m_TimelineName text="HERO_1"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_A"/>
+						<m_TimelineName text="REACT_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_A"/>
+						<m_TimelineName text="REACT_RANGED_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_B"/>
+						<m_TimelineName text="REACT_RANGED_B"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_C"/>
+						<m_TimelineName text="REACT_RANGED_C"/>
+					</Element>
+					<Element>
+						<m_SlotName text="REACT_RANGED_D"/>
+						<m_TimelineName text="REACT_RANGED_D"/>
+					</Element>
+					<Element>
+						<m_SlotName text="SPAWN"/>
+						<m_TimelineName text="SPAWN"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_A"/>
+						<m_TimelineName text="RUN_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_COMBAT"/>
+						<m_TimelineName text="RUN_COMBAT"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP"/>
+						<m_TimelineName text="RUN_STOP"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_B"/>
+						<m_TimelineName text="RUN_STOP_B"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_C"/>
+						<m_TimelineName text="RUN_STOP_C"/>
+					</Element>
+					<Element>
+						<m_SlotName text="RUN_STOP_D"/>
+						<m_TimelineName text="RUN_STOP_D"/>
+					</Element>
+					<Element>
+						<m_SlotName text="VICTORY"/>
+						<m_TimelineName text="VICTORY"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_A"/>
+						<m_TimelineName text="DEATH_A"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_2"/>
+						<m_TimelineName text="DEATH_2"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_4"/>
+						<m_TimelineName text="DEATH_4"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_6"/>
+						<m_TimelineName text="DEATH_6"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_8"/>
+						<m_TimelineName text="DEATH_8"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_10"/>
+						<m_TimelineName text="DEATH_10"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_12"/>
+						<m_TimelineName text="DEATH_12"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_14"/>
+						<m_TimelineName text="DEATH_14"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_16"/>
+						<m_TimelineName text="DEATH_16"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_18"/>
+						<m_TimelineName text="DEATH_18"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DEATH_20"/>
+						<m_TimelineName text="DEATH_20"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="ATTACK_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_attacka"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<!--
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.685399</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							-->
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonPowderFire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.642592</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonRaise"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonRaise"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.131481</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonPowderFire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.761110</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonLower"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.599447</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonLower"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.994472</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodRunStop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.790366</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.890838</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<!--
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="80"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Cannon_L_02"/>
+								<m_fStartTime>0.682460</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="81"/>
+								<m_Description text=""/>
+								<m_FXName text="Cannonball_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Hitloc_02"/>
+								<m_fStartTime>0.680825</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="82"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Cannon_L_01"/>
+								<m_fStartTime>0.669751</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="87"/>
+								<m_Description text=""/>
+								<m_FXName text="Cannonball_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Hitloc_01"/>
+								<m_fStartTime>0.689915</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							-->
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="BREATHING_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_idlea"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="BREATHING_COMBAT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_combat_ready_idle"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DODGE_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_bombard_defense"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEFEND_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_bombard_defense"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEFEND_1"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_bombard_defense"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="HERO_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<!--
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.685399</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							-->
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonPowderFire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.642592</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonRaise"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonRaise"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.131481</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonPowderFire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.761110</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonLower"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.599447</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonLower"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.994472</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodRunStop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.790366</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.890838</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<!--
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="80"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Cannon_L_02"/>
+								<m_fStartTime>0.682460</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="81"/>
+								<m_Description text=""/>
+								<m_FXName text="Cannonball_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Hitloc_02"/>
+								<m_fStartTime>0.680825</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="82"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Cannon_L_01"/>
+								<m_fStartTime>0.669751</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="87"/>
+								<m_Description text=""/>
+								<m_FXName text="Cannonball_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Hitloc_01"/>
+								<m_fStartTime>0.689915</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							-->
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="HERO_1"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<!--
+							<Element>
+								<m_eType>ACTION</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="HIT"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.685399</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							-->
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonPowderFire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.642592</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonRaise"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonRaise"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.131481</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonPowderFire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.761110</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonLower"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.599447</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipCannonLower"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.994472</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="9"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodRunStop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.790366</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="10"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.890838</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<!--
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="80"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Cannon_L_02"/>
+								<m_fStartTime>0.682460</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="81"/>
+								<m_Description text=""/>
+								<m_FXName text="Cannonball_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Hitloc_02"/>
+								<m_fStartTime>0.680825</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="82"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Caravel_Cannon_MuzzFlash_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Cannon_L_01"/>
+								<m_fStartTime>0.669751</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ARTDEF_VFX</m_eType>
+								<m_Name text="87"/>
+								<m_Description text=""/>
+								<m_FXName text="Cannonball_Hit"/>
+								<m_CollectionName text="MaterialVFX"/>
+								<m_AttachmentPointName text="FX_Hitloc_01"/>
+								<m_fStartTime>0.689915</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							-->
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="REACT_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_attacka"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_B"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_C"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_attacka"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="REACT_RANGED_D"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_attackb"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="SPAWN"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_victory"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="RUN_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="22"/>
+								<m_Description text=""/>
+								<m_FXName text="CaravelRunStart"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="34"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.134339</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="55"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.449557</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="56"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.003585</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="57"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.509979</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="58"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.006143</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="59"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.588304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="60"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.270260</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="61"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRunSplash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.523704</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="62"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRoapCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.728261</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="63"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.617678</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="64"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRunSplash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.082389</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="65"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRoapCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.376149</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="29"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.068382</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<!--
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="32"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Privateer_Wake_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.833330</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="35"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Privateer_Wake_01_Turb"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.833333</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							-->
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="RUN_COMBAT"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="23"/>
+								<m_Description text=""/>
+								<m_FXName text="CaravelRunStart"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="27"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.128905</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="42"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.449557</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="45"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.003585</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="46"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.509979</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="47"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.006143</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="48"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.265565</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="49"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRunSplash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.523704</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="50"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRoapCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.376149</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="51"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.588304</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="52"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.617678</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="53"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRunSplash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>2.082389</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="54"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRoapCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.728261</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="31"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>1.068382</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							<!--
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="36"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Privateer_Wake_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.833330</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="37"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Privateer_Wake_01_Turb"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>2.833333</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							-->
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_stop_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="24"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodRunStop"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="25"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreak"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.510206</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="26"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipSailFlap"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.125443</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<!--
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="43"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Privateer_Wake_01_Turb"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.500000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="78"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Privateer_Idle_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.500000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							-->
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_B"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_stop_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_C"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_stop_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="RUN_STOP_D"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_stop_run"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="VICTORY"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_victory"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_2"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="19"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodLargeDeath"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="20"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipWoodCreakLow"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.086957</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="28"/>
+								<m_Description text=""/>
+								<m_FXName text="ShipRunSplash"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.524297</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<!--
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="79"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Ship_Sinking_Privateer_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Wake_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>1.960000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="86"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Explo_Powder_Wood_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Hitloc_01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+							-->
+							<Element>
+								<m_eType>SOUND</m_eType>
+								<m_Name text="89"/>
+								<m_Description text=""/>
+								<m_FXName text="Stop_Unit_Movement_Master"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>1</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_4"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_6"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_8"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_10"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_12"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_14"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_16"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_18"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+					<Element>
+						<m_Name text="DEATH_20"/>
+						<m_Description text=""/>
+						<m_AnimationName text="u_portugal_carrack_deatha"/>
+						<m_fDuration>0.000000</m_fDuration>
+						<m_Triggers/>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+				</m_Points>
+			</m_attachmentPoints>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="potential_any_graph"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="World_Center"/>
+				<m_GeoName text="u_portugal_carrack"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="U_Portugal_Carrack_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="U_Portugal_Carrack_DIFF.dds"/>
+						<m_MeshName text="Portuguese_Carrack"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>0</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="Unit"/>
+	<m_DataFiles/>
+	<m_Name text="U_Portugal_Carrack"/>
+	<m_Description text="U_Portugal_Carrack"/>
+	<m_Tags>
+		<Element text="Unit"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects:AssetInstance>

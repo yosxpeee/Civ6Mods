@@ -697,6 +697,12 @@
 		<Row ListType="HAGHidekiTojoTech"/>
 		<Row ListType="HAGHidekiTojoWonders"/>
 		<Row ListType="HAGHidekiTojoCulture"/>
+		<!-- マリア1世 -->
+		<Row ListType="HAGMariaIDistrict"/>
+		<Row ListType="HAGMariaICivics"/>
+		<Row ListType="HAGMariaITech"/>
+		<Row ListType="HAGMariaIWonders"/>
+		<Row ListType="HAGMariaIGold"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- メネリク2世 -->
@@ -704,14 +710,12 @@
 		<Row ListType="HAGMenelik2Civics"   LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Civics"/>
 		<Row ListType="HAGMenelik2Tech"     LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Technologies"/>
 		<Row ListType="HAGMenelik2Wonders"  LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Buildings"/>
-		
 		<!-- ナポレオン -->															      
 		<Row ListType="HAGNapoleonDistrict"       LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Districts"/>
 		<Row ListType="HAGNapoleonCivics"         LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Civics"/>
 		<Row ListType="HAGNapoleonTech"           LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Technologies"/>
 		<Row ListType="HAGNapoleonWonders"        LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Buildings"/>
 		<Row ListType="HAGNapoleonMeleeLoverList" LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="UnitPromotionClasses"/>
-
 		<!-- ティムール -->															      
 		<Row ListType="HAGTimurDistrict"       LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Districts"/>
 		<Row ListType="HAGTimurCivics"         LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Civics"/>
@@ -736,6 +740,12 @@
 		<Row ListType="HAGHidekiTojoTech"      LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Technologies"/>
 		<Row ListType="HAGHidekiTojoWonders"   LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Buildings"/>
 		<Row ListType="HAGHidekiTojoCulture"   LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Yields"/>
+		<!-- マリア1世 -->
+		<Row ListType="HAGMariaIDistrict" LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Districts"/>
+		<Row ListType="HAGMariaICivics"   LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Civics"/>
+		<Row ListType="HAGMariaITech"     LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Technologies"/>
+		<Row ListType="HAGMariaIWonders"  LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Buildings"/>
+		<Row ListType="HAGMariaIGold"     LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Yields"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- メネリク2世 -->
@@ -746,7 +756,6 @@
 		<Row ListType="HAGMenelik2Tech"        Item="TECH_REPLACEABLE_PARTS"   Favored="true"/><!-- 共通規格 -->
 		<Row ListType="HAGMenelik2Wonders"     Item="BUILDING_HANGING_GARDENS" Favored="true"/><!-- 空中庭園 -->
 		<Row ListType="HAGMenelik2Wonders"     Item="BUILDING_GREAT_ZIMBABWE"  Favored="true"/><!-- グレート・ジンバブエ遺跡 -->
-
 		<!-- ナポレオン -->
 		<Row ListType="HAGNapoleonDistrict"       Item="DISTRICT_ENCAMPMENT"        Favored="true"/><!-- 兵営 -->
 		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/><!-- 政治哲学 -->
@@ -760,7 +769,6 @@
 		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_ALHAMBRA"          Favored="true"/><!-- アルハンブラ宮殿 -->
 		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_FORBIDDEN_CITY"    Favored="true"/><!-- 紫禁城 -->
 		<Row ListType="HAGNapoleonMeleeLoverList" Item="PROMOTION_CLASS_MELEE"      Value="100"/>
-
 		<!-- ティムール -->													     
 		<Row ListType="HAGTimurDistrict"       Item="DISTRICT_COMMERCIAL_HUB"     Favored="true"/><!-- 商業ハブ -->
 		<Row ListType="HAGTimurCivics"         Item="CIVIC_MEDIEVAL_FAIRES"       Favored="true"/><!-- 中世の市 -->
@@ -771,7 +779,6 @@
 		<Row ListType="HAGTimurWonders"        Item="BUILDING_COLOSSEUM"          Favored="true"/><!-- コロッセオ -->
 		<Row ListType="HAGTimurWonders"        Item="BUILDING_TAJ_MAHAL"          Favored="true"/><!-- タージ・マハル(RaF) -->
 		<Row ListType="HAGTimurWonders"        Item="BUILDING_UNIVERSITY_SANKORE" Favored="true"/><!-- サンコーレ大学(GS) -->
-		
 		<!-- チトー -->
 		<Row ListType="HAGTitoDistrict"        Item="DISTRICT_CAMPUS"            Favored="true"/><!-- キャンパス -->
 		<Row ListType="HAGTitoDistrict"        Item="DISTRICT_INDUSTRIAL_ZONE"   Favored="true"/><!-- 工業地帯 -->
@@ -786,7 +793,6 @@
 		<Row ListType="HAGTitoWonders"         Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/><!-- オックスフォード大学 -->
 		<Row ListType="HAGTitoWonders"         Item="BUILDING_RUHR_VALLEY"       Favored="true"/><!-- ルール地方 -->
 		<Row ListType="HAGTitoScience"         Item="YIELD_SCIENCE"              Value="10"/>
-		
 		<!-- ムーレイ・イスマーイール -->
 		<Row ListType="HAGMulayIsmailDistrict" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/><!-- 商業ハブ -->
 		<Row ListType="HAGMulayIsmailCivics"   Item="CIVIC_MERCANTILISM"      Favored="true"/><!-- 重商主義 -->
@@ -801,7 +807,6 @@
 		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_BIG_BEN"        Favored="true"/><!-- ビッグ・ベン -->
 		<Row ListType="HAGMulayIsmailUnits"    Item="UNIT_TRADER"             Value="1"/>
 		<Row ListType="HAGMulayIsmailGold"     Item="YIELD_GOLD"              Value="15"/>
-
 		<!-- 東條英機 -->														  
 		<Row ListType="HAGHidekiTojoDistrict"  Item="DISTRICT_ENCAMPMENT"       Favored="true"/><!-- 兵営 -->
 		<Row ListType="HAGHidekiTojoDistrict"  Item="DISTRICT_THEATER"          Favored="true"/><!-- 劇場広場 -->
@@ -817,6 +822,20 @@
 		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_VENETIAN_ARSENAL" Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
 		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_KOTOKU_IN"        Favored="true"/><!-- 高徳院(RaF) -->
 		<Row ListType="HAGHidekiTojoCulture"   Item="YIELD_CULTURE"             Value="7"/>
+
+		<!-- マリア1世 -->
+		<Row ListType="HAGMariaIDistrict"    Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGMariaIDistrict"    Item="DISTRICT_HAG_PORTUGAL_FEITORIA" Favored="true"/><!-- フェイトリア -->
+		<Row ListType="HAGMariaICivics"      Item="CIVIC_MEDIEVAL_FAIRES"          Favored="true"/><!-- 中世の市 -->
+		<Row ListType="HAGMariaICivics"      Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
+		<Row ListType="HAGMariaICivics"      Item="CIVIC_MERCANTILISM"             Favored="true"/><!-- 重商主義 -->
+		<Row ListType="HAGMariaITech"        Item="TECH_BRONZE_WORKING"            Favored="true"/><!-- 青銅器 -->
+		<Row ListType="HAGMariaITech"        Item="TECH_CURRENCY"                  Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGMariaITech"        Item="TECH_CARTOGRAPHY"               Favored="true"/><!-- 地図製作法 -->
+		<Row ListType="HAGMariaIWonders"     Item="BUILDING_COLOSSUS"              Favored="true"/><!-- ロードス島の巨神像 -->
+		<Row ListType="HAGMariaIWonders"     Item="BUILDING_CASA_DE_CONTRATACION"  Favored="true"/><!-- 通商院 -->
+		<Row ListType="HAGMariaIWonders"     Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
+		<Row ListType="HAGMariaIGold"        Item="YIELD_GOLD"                     Value="10"/>
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>

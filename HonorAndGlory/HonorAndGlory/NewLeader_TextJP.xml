@@ -937,6 +937,12 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_JUBBA_RIVER_NAME" Language="ja_JP">
 			<Text>ジュバ川</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_TAJO_RIVER_NAME" Language="ja_JP">
+			<Text>テージョ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_MONDEGO_RIVER_NAME" Language="ja_JP">
+			<Text>モンデゴ川</Text>
+		</Row>
 		<!-- 火山 -->
 		<Row Tag="LOC_NAMED_HAG_VOLCANO_ADWA_NAME" Language="ja_JP">
 			<Text>アドワ火山</Text>
@@ -1021,7 +1027,10 @@
 		<Row Tag="LOC_NAMED_HAG_LAKE_ABAYA_LAKE_NAME" Language="ja_JP">
 			<Text>アバヤ湖</Text>
 		</Row>
-
+		<Row Tag="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME" Language="ja_JP">
+			<Text>サント・アンドレー湖</Text>
+		</Row>
+		
 		<!-- プロジェクト -->
 		<Replace Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_NAME" Language="ja_JP">
 			<Text>遷都</Text>

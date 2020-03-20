@@ -536,6 +536,31 @@
 			<m_EntryID text="ICON_UNIT_HAG_JAPAN_ZERO256"/>
 			<m_ObjectName text="ICON_UNIT_HAG_JAPAN_ZERO256"/>
 		</Element>
+		<!-- ユニット(ナウ船) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_PORTUGAL_NAU22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_PORTUGAL_NAU22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_PORTUGAL_NAU32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_PORTUGAL_NAU32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_PORTUGAL_NAU38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_PORTUGAL_NAU38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_PORTUGAL_NAU50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_PORTUGAL_NAU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_PORTUGAL_NAU80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_PORTUGAL_NAU80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_PORTUGAL_NAU256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_PORTUGAL_NAU256"/>
+		</Element>
 		
 		<!-- 地形改善(カスバ) -->
 		<Element>
