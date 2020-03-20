@@ -232,6 +232,20 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_JAPAN_ZERO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>第二次世界大戦中に日本が使用した戦闘機。空母から戦えるように設計されており、第二次世界大戦の開戦当初は世界最高の艦上戦闘機であった。機動力と航続距離の長さから零戦は格闘戦に優れており、性能で劣るアメリカ軍機やイギリス軍機をいとも簡単に倒すことができた。戦争が進むにつれ、連合国の戦闘機が劇的に進化を遂げる一方で、日本空軍は深刻さを増す材料と人員の不足に苦しんでいた。そして戦争終結時までに零戦は完敗を喫したのである。しかしその絶頂期には、零戦は実に素晴らしい戦闘機であり、広大な太平洋劇場を支配していたのである。</Text>
 		</Row>
+
+		<!-- UU(ナウ船) -->
+		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_NAME" Language="ja_JP">
+			<Text>ナウ船</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" Language="ja_JP">
+			<Text>ルネサンス時代のポルトガル帝国固有のユニット。キャラベルに取って代わる。[ICON_Movement] 移動力+1、視界+1。すべての陣形ユニットは護衛の [ICON_Movement] 移動速度を継承する。ナウ船の4タイル以内にいる交易商ユニットは、水域タイルで略奪を受けない。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_PORTUGAL_NAU_NAME" Language="ja_JP">
+			<Text>ポルトガル帝国固有の建造物: ナウ船</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_PORTUGAL_NAU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="ja_JP">
@@ -266,7 +280,7 @@
 			<Text>フェイトリア</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="ja_JP">
-			<Text>ポルトガル帝国固有の区域。兵営に取って代わる。隣接する沿岸タイル2つごとに [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接する港、運河から [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接するプランテーションから [ICON_Gold] ゴールド+1。</Text>
+			<Text>ポルトガル帝国固有の区域。兵営に取って代わる。隣接する沿岸タイル2つごとに [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接する港、運河から [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接するプランテーション、鉱山から [ICON_Gold] ゴールド+1。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
 			<Text>ポルトガル帝国固有の区域: フェイトリア</Text>

@@ -225,31 +225,31 @@
 
 		<!-- ポルトガル -->
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_1" Language="en_US">
-			<Text>Abd</Text>
+			<Text>Silvinho</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_2" Language="en_US">
-			<Text>Idris</Text>
+			<Text>Anderson</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_3" Language="en_US">
-			<Text>Yahya</Text>
+			<Text>Danilo</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_4" Language="en_US">
-			<Text>Hassan</Text>
+			<Text>Norbert</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_1" Language="en_US">
-			<Text>Samira</Text>
+			<Text>Valentina</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_2" Language="en_US">
-			<Text>Aicha</Text>
+			<Text>Manuela</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_3" Language="en_US">
-			<Text>Malika</Text>
+			<Text>Beatriz</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_4" Language="en_US">
-			<Text>Fatima</Text>
+			<Text>Yasmin</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_5" Language="en_US">
-			<Text>Nadia</Text>
+			<Text>Pietra</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -628,31 +628,115 @@
 			<Text>Lisbon</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_2" Language="en_US">
-			<Text>aaa</Text>
+			<Text>Porto</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_3" Language="en_US">
-			<Text>bbb</Text>
+			<Text>Vila Nova de Gaia</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_4" Language="en_US">
-			<Text>ccc</Text>
+			<Text>Amadora</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_5" Language="en_US">
-			<Text>ddd</Text>
+			<Text>Braga</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_6" Language="en_US">
-			<Text>eee</Text>
+			<Text>Coimbra</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_7" Language="en_US">
-			<Text>fff</Text>
+			<Text>Funchal</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_8" Language="en_US">
-			<Text>ggg</Text>
+			<Text>Almada</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_9" Language="en_US">
-			<Text>hhh</Text>
+			<Text>Setubal</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_10" Language="en_US">
-			<Text>iii</Text>
+			<Text>Agualva-Cacem</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_11" Language="en_US">
+			<Text>Barreiro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_12" Language="en_US">
+			<Text>Queluz</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_13" Language="en_US">
+			<Text>Aveiro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_14" Language="en_US">
+			<Text>Guimaraes</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_15" Language="en_US">
+			<Text>Viseu</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_16" Language="en_US">
+			<Text>Rio Tinto</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_17" Language="en_US">
+			<Text>Odivelas</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_18" Language="en_US">
+			<Text>Leiria</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_19" Language="en_US">
+			<Text>Matosinhos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_20" Language="en_US">
+			<Text>Amora</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_21" Language="en_US">
+			<Text>Evora</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_22" Language="en_US">
+			<Text>Ponta Delgada</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_23" Language="en_US">
+			<Text>Portimao</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_24" Language="en_US">
+			<Text>Faro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_25" Language="en_US">
+			<Text>Ermesinde</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_26" Language="en_US">
+			<Text>Maia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_27" Language="en_US">
+			<Text>Povoa de Varzim</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_28" Language="en_US">
+			<Text>Viana do Castelo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_29" Language="en_US">
+			<Text>Figueira da Foz</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_30" Language="en_US">
+			<Text>Covilha</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_31" Language="en_US">
+			<Text>Castelo Branco</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_32" Language="en_US">
+			<Text>Guarda</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_33" Language="en_US">
+			<Text>Vila do Conde</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_34" Language="en_US">
+			<Text>Seixal</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_35" Language="en_US">
+			<Text>Olhao</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_36" Language="en_US">
+			<Text>Montijo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_37" Language="en_US">
+			<Text>Santarem</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_38" Language="en_US">
+			<Text>Vila Nova de Famalicao</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->

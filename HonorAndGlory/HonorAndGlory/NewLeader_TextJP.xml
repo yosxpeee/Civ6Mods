@@ -225,31 +225,31 @@
 
 		<!-- ポルトガル -->
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_1" Language="ja_JP">
-			<Text>Abd</Text>
+			<Text>シウヴィーニョ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_2" Language="ja_JP">
-			<Text>Idris</Text>
+			<Text>アンデルソン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_3" Language="ja_JP">
-			<Text>Yahya</Text>
+			<Text>ダニーロ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_4" Language="ja_JP">
-			<Text>Hassan</Text>
+			<Text>ノルベルト</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_1" Language="ja_JP">
-			<Text>Samira</Text>
+			<Text>ヴァレンチナ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_2" Language="ja_JP">
-			<Text>Aicha</Text>
+			<Text>マヌエラ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_3" Language="ja_JP">
-			<Text>Malika</Text>
+			<Text>ベアトリズ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_4" Language="ja_JP">
-			<Text>Fatima</Text>
+			<Text>ヤスミン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_5" Language="ja_JP">
-			<Text>Nadia</Text>
+			<Text>ピエトラ</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -628,31 +628,115 @@
 			<Text>リスボン</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_2" Language="ja_JP">
-			<Text>aaa</Text>
+			<Text>ポルト</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_3" Language="ja_JP">
-			<Text>bbb</Text>
+			<Text>ヴィラ・ノヴァ・デ・ガイア</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_4" Language="ja_JP">
-			<Text>ccc</Text>
+			<Text>アマドーラ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_5" Language="ja_JP">
-			<Text>ddd</Text>
+			<Text>ブラガ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_6" Language="ja_JP">
-			<Text>eee</Text>
+			<Text>コインブラ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_7" Language="ja_JP">
-			<Text>fff</Text>
+			<Text>フンシャル</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_8" Language="ja_JP">
-			<Text>ggg</Text>
+			<Text>アルマダ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_9" Language="ja_JP">
-			<Text>hhh</Text>
+			<Text>セトゥーバル</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_10" Language="ja_JP">
-			<Text>iii</Text>
+			<Text>アグアルヴァ・カセーン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_11" Language="ja_JP">
+			<Text>バレイロ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_12" Language="ja_JP">
+			<Text>ケルース</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_13" Language="ja_JP">
+			<Text>アヴェイロ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_14" Language="ja_JP">
+			<Text>ギマランイス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_15" Language="ja_JP">
+			<Text>ビセウ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_16" Language="ja_JP">
+			<Text>リオ・ティント</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_17" Language="ja_JP">
+			<Text>オディベラス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_18" Language="ja_JP">
+			<Text>レイリア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_19" Language="ja_JP">
+			<Text>マトジニョシュ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_20" Language="ja_JP">
+			<Text>アモラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_21" Language="ja_JP">
+			<Text>エヴォラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_22" Language="ja_JP">
+			<Text>ポンタ・デルガータ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_23" Language="ja_JP">
+			<Text>ポルティマオ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_24" Language="ja_JP">
+			<Text>ファロ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_25" Language="ja_JP">
+			<Text>エルメシンデ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_26" Language="ja_JP">
+			<Text>マイア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_27" Language="ja_JP">
+			<Text>ポヴォア・デ・バルジン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_28" Language="ja_JP">
+			<Text>ヴィアナ・ド・カステロ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_29" Language="ja_JP">
+			<Text>フィゲイラ・ダ・フォズ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_30" Language="ja_JP">
+			<Text>コビリャン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_31" Language="ja_JP">
+			<Text>カステロ・ブランコ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_32" Language="ja_JP">
+			<Text>グァルダ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_33" Language="ja_JP">
+			<Text>ヴィラ・ド・コンデ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_34" Language="ja_JP">
+			<Text>セイシャル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_35" Language="ja_JP">
+			<Text>オリョン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_36" Language="ja_JP">
+			<Text>モンティージョ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_37" Language="ja_JP">
+			<Text>サンタレン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_38" Language="ja_JP">
+			<Text>ヴィラ・ノヴァ・デ・ファマリカン</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->

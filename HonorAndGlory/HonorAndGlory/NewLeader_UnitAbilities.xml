@@ -13,6 +13,7 @@
 		<!-- ユニークユニット -->
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                    Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                    Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"                               Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
@@ -24,10 +25,11 @@
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_SIEGE"/>
-		<!-- 指導者特性 -->
+		<!-- ユニークユニット -->
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"/>
-		<!-- ユニークユニット -->
+		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
+		<!-- 指導者特性 -->
 		<Row Type="ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY" Tag="CLASS_RECON"/>
 		<Row Type="ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY" Tag="CLASS_MELEE"/>
 		<Row Type="ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY" Tag="CLASS_RANGED"/>
@@ -81,6 +83,7 @@
 		<!-- ユニークユニット -->
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                    Name="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"                    Description="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                    Name="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"                    Description="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_PORTUGAL_NAU"                               Name="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_NAME"                               Description="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -98,6 +101,16 @@
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY</UnitAbilityType>
 			<ModifierId>COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL</ModifierId>
+		</Row>
+		<!-- ナウ船：陣形を組むと移動力を共有する -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
+			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId><!-- インドネシアのジョングと同じ(Modifierのデータはバニラにある) -->
+		</Row>
+		<!-- ナウ船：4タイル以内の洋上にいる交易商ガード -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
+			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId><!-- GSのフェニキアのビレームと同じ -->
 		</Row>
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
 		<Row>

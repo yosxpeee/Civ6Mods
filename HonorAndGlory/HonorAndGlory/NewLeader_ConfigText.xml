@@ -232,6 +232,20 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_JAPAN_ZERO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<!-- UU(ナウ船) -->
+		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_NAME" Language="en_US">
+			<Text>Nau</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" Language="en_US">
+			<Text>Portugal unique Renaissance era unit. Replace the Caravel. +1 [ICON_Movement] Movement, +1 Sight. Formation units all inherit escort's [ICON_Movement] Movement speed. Trader units are immune to being plundered if they are within 4 tiles of a Nau and on a water tile.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_PORTUGAL_NAU_NAME" Language="en_US">
+			<Text>Portugal unique unit: Nau</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_PORTUGAL_NAU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">
@@ -266,7 +280,7 @@
 			<Text>Feitoria</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Portugal Empire. Replaces the Encampment. +1 [ICON_Production] Production and +1 [ICON_Food] Food for every two adjecent Coast tiles. +1 [ICON_Production] Production and +1 [ICON_Food] Food for each adjecent Harbor/Canal tiles. +1 [ICON_Gold] Gold for each adjacent Plantations.</Text>
+			<Text>A district unique to Portugal Empire. Replaces the Encampment. +1 [ICON_Production] Production and +1 [ICON_Food] Food for every two adjecent Coast tiles. +1 [ICON_Production] Production and +1 [ICON_Food] Food for each adjecent Harbor/Canal tiles. +1 [ICON_Gold] Gold for each adjacent Plantations and Mines.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
 			<Text>Portugal Empire unique building: Feitoria</Text>
