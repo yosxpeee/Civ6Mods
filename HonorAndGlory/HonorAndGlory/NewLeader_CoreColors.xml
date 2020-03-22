@@ -66,6 +66,15 @@
 			<Type>COLOR_PLAYER_LEADER_HAG_MARIA_I_SECONDARY</Type>
 			<Color>255,255,255,255</Color><!-- 白 -->
 		</Row>
+		<!-- スターリン -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_STALIN_PRIMARY</Type>
+			<Color>240,0,0,160</Color><!-- 赤、半透明 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_STALIN_SECONDARY</Type>
+			<Color>255,215,0,255</Color><!-- 黄色 -->
+		</Row>
 		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->

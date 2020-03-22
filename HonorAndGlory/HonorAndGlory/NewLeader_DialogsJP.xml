@@ -52,5 +52,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MARIA_I_ANY" Language="ja_JP">
 			<Text>ポルトガルとその忠実なる植民地を前にして、危うい橋を渡ろうというのですね。</Text>
 		</Replace>
+		<!-- スターリン-->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_STALIN_ANY" Language="ja_JP">
+			<Text>世界に友情を告げようとする者に、私は心から敬服する。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_STALIN_ANY" Language="ja_JP">
+			<Text>友はよく考えて選べ。選ばないという選択肢はないのだから。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

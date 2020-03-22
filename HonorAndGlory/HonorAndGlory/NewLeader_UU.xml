@@ -8,6 +8,7 @@
 		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_JAPAN_ZERO"              Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_RUSSIAN_T34"             Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -45,6 +46,10 @@
 		<Row UnitType="UNIT_HAG_PORTUGAL_NAU" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_PORTUGAL_NAU" AiType="UNITTYPE_NAVAL"/>
 
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
@@ -68,6 +73,9 @@
 
 		<Row Type="UNIT_HAG_PORTUGAL_NAU" Tag="CLASS_NAVAL_MELEE"/>
 		<Row Type="UNIT_HAG_PORTUGAL_NAU" Tag="CLASS_HAG_PORTUGAL_NAU"/>
+
+		<Row Type="UNIT_HAG_RUSSIAN_T34" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_HAG_RUSSIAN_T34" Tag="CLASS_HEAVY_CAVALRY"/>
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
@@ -77,6 +85,7 @@
 		<Row CivUniqueUnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ReplacesUnitType="UNIT_CAVALRY"/>
 		<Row CivUniqueUnitType="UNIT_HAG_JAPAN_ZERO"              ReplacesUnitType="UNIT_FIGHTER"/>
 		<Row CivUniqueUnitType="UNIT_HAG_PORTUGAL_NAU"            ReplacesUnitType="UNIT_CARAVEL"/>
+		<Row CivUniqueUnitType="UNIT_HAG_RUSSIAN_T34"             ReplacesUnitType="UNIT_TANK"/>
 	</UnitReplaces>
 	<!-- 主設定 -->
 	<Units>
@@ -125,28 +134,38 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_PORTUGAL_NAU_NAME" Description="LOC_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_CARTOGRAPHY"
 			 TraitType="TRAIT_UNIT_HAG_PORTUGAL_NAU"/>
-	</Units>
+		<!-- T-34 -->
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34" Cost="480" Maintenance="6" BaseMoves="4" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="85" StrategicResource="RESOURCE_OIL" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_RUSSIAN_T34_NAME" Description="LOC_UNIT_HAG_RUSSIAN_T34_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_COMBUSTION"
+			 TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"/>
+	 </Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<!-- マハール・セファリ：機械化歩兵-->
-		<Row Unit="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
+		<Row Unit="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
 		<!-- アルバン：騎兵-->
-		<Row Unit="UNIT_HAG_TIMURID_ARBAN" UpgradeUnit="UNIT_CAVALRY"/>
+		<Row Unit="UNIT_HAG_TIMURID_ARBAN"           UpgradeUnit="UNIT_CAVALRY"/>
 		<!-- M48山砲：ロケット砲 -->
 		<Row Unit="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" UpgradeUnit="UNIT_ROCKET_ARTILLERY"/>
 		<!-- ベルベル人の騎兵：ヘリコプター -->
 		<Row Unit="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" UpgradeUnit="UNIT_HELICOPTER"/>
 		<!-- 零戦：ジェット戦闘機 -->
-		<Row Unit="UNIT_HAG_JAPAN_ZERO" UpgradeUnit="UNIT_JET_FIGHTER"/>
+		<Row Unit="UNIT_HAG_JAPAN_ZERO"              UpgradeUnit="UNIT_JET_FIGHTER"/>
 		<!-- ナウ船：装甲艦 -->
-		<Row Unit="UNIT_HAG_PORTUGAL_NAU" UpgradeUnit="UNIT_IRONCLAD"/>
+		<Row Unit="UNIT_HAG_PORTUGAL_NAU"            UpgradeUnit="UNIT_IRONCLAD"/>
+		<!-- T-34：近代的機甲部隊 -->
+		<Row Unit="UNIT_HAG_RUSSIAN_T34"             UpgradeUnit="UNIT_MODERN_ARMOR"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>
-		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"      ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           ResourceCost="10"/>
 		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ResourceCost="20"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ResourceCost="20"/>
 		<Row UnitType="UNIT_HAG_JAPAN_ZERO"              ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"      ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
 </GameData>

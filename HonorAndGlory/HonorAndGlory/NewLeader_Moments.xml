@@ -14,6 +14,7 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_JAPAN_ZERO"               Texture="Moment_HAG_HidekiTojo_Zero.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"    MomentDataType="MOMENT_DATA_DISTRICT"    GameDataType="DISTRICT_HAG_PORTUGAL_FEITORIA"    Texture="Moment_HAG_Portugal_Feitoria.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_PORTUGAL_NAU"             Texture="Moment_FirstSeaUnitMid.dds"/><!-- 世界で最初にキャラベル作ったときの使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_RUSSIAN_T34"              Texture="Moment_HAG_StalinT34.dds"/>
 
 		<!-- 宗教 -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"      Texture="Moment_Religion_HAG_Jainism.dds"/>

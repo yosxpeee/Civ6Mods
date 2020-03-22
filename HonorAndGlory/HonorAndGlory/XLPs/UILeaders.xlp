@@ -72,6 +72,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_MARIA_I"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_MARIA_I"/>
 		</Element>
+		<!-- スターリン -->
+		<Element>
+			<m_EntryID text="LEADER_HAG_STALIN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HAG_STALIN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_HAG_STALIN"/>
+			<m_ObjectName text="PORTRAIT_LEADER_HAG_STALIN"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

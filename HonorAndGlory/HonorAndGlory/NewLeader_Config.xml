@@ -120,6 +120,23 @@
 			<LeaderAbilityIcon>LEADER_HAG_MARIA_I</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_MARIA_I</Portrait>
 		</Row>
+		<!-- ロシア(スターリン) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
+			<LeaderType>LEADER_HAG_STALIN</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_RUSSIA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_RUSSIA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_STALIN_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_STALIN</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_RUSSIA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_STALIN_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>LEADER_HAG_STALIN</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_STALIN</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->
@@ -253,5 +270,30 @@
 			 Name="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME"
 			 Description="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION"
 			 SortIndex="20"/>
+		<!-- ロシア -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_RUSSIA" 
+			 LeaderType="LEADER_HAG_STALIN" 
+			 Type="UNIT_RUSSIAN_COSSACK" 
+			 Icon="ICON_UNIT_RUSSIAN_COSSACK" 
+			 Name="LOC_UNIT_RUSSIAN_COSSACK_NAME" 
+			 Description="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION" 
+			 SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_RUSSIA"
+			 LeaderType="LEADER_HAG_STALIN"
+			 Type="UNIT_HAG_RUSSIAN_T34"
+			 Icon="ICON_UNIT_HAG_RUSSIAN_T34"
+			 Name="LOC_UNIT_HAG_RUSSIAN_T34_NAME"
+			 Description="LOC_UNIT_HAG_RUSSIAN_T34_DESCRIPTION"
+			 SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_RUSSIA" 
+			 LeaderType="LEADER_HAG_STALIN" 
+			 Type="DISTRICT_LAVRA" 
+			 Icon="ICON_DISTRICT_LAVRA" 
+			 Name="LOC_DISTRICT_LAVRA_NAME" 
+			 Description="LOC_DISTRICT_LAVRA_DESCRIPTION" 
+			 SortIndex="30" />
 	</PlayerItems>
 </GameData>

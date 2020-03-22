@@ -418,7 +418,36 @@
 			<m_EntryID text="ICON_LEADER_HAG_MARIA_I256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_MARIA_I256"/>
 		</Element>
-
+		<!-- 指導者(スターリン) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_STALIN32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_STALIN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_STALIN45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_STALIN45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_STALIN50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_STALIN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_STALIN55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_STALIN55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_STALIN64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_STALIN64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_STALIN80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_STALIN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_STALIN256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_STALIN256"/>
+		</Element>
+		
 		<!-- 都市国家(琉球) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU22"/>

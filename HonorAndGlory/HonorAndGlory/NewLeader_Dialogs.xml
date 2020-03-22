@@ -52,5 +52,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MARIA_I_ANY" Language="en_US">
 			<Text>You tread on dangerous waters in the face of Portugal and her loyal colonies.</Text>
 		</Replace>
+		<!-- スターリン -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_STALIN_ANY" Language="en_US">
+			<Text>I have great respect for those who declare their friendships to the world.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_STALIN_ANY" Language="en_US">
+			<Text>Choose your friendships wisely—but you must choose.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

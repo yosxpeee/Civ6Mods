@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- リアル地球系マップへの登録 -->
+	<!-- 残念ながら都市国家はここに書いても出現するようにならない。(バニラのXMLファイルにもプレイヤーとして使える指導者しか記載がない) -->
+	<MapLeaders>
+		<!-- 東アジア(DLC) -->
+		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TIMUR"/>
+		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_HIDEKI_TOJO"/>
+		
+		<!-- ヨーロッパ(GS) -->
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_NAPOLEON"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TITO"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MARIA_I"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_STALIN"/>
+		
+		<!-- 地球(GS) -->
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MENELIK2"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_NAPOLEON"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TIMUR"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TITO"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MULAY_ISMAIL"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_HIDEKI_TOJO"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MARIA_I"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_STALIN"/>
+	</MapLeaders>
+	<MapStartPositions>
+		<!-- 東アジア(DLC) -->
+		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" Plot="3951" Type="LEADER" Value="LEADER_HAG_TIMUR"/>
+		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" Plot="3921" Type="LEADER" Value="LEADER_HAG_HIDEKI_TOJO"/>
+
+		<!-- ヨーロッパ(GS) -->
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="1538" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="1302" Type="LEADER" Value="LEADER_HAG_TITO"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="520"  Type="LEADER" Value="LEADER_HAG_MARIA_I"/>
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="2494" Type="LEADER" Value="LEADER_HAG_STALIN"/>
+
+		<!-- 地球(GS) -->
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="2905" Type="LEADER" Value="LEADER_HAG_MENELIK2"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3650" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3667" Type="LEADER" Value="LEADER_HAG_TIMUR"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3486" Type="LEADER" Value="LEADER_HAG_TITO"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="2978" Type="LEADER" Value="LEADER_HAG_MULAY_ISMAIL"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3518" Type="LEADER" Value="LEADER_HAG_HIDEKI_TOJO"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3142" Type="LEADER" Value="LEADER_HAG_MARIA_I"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3995" Type="LEADER" Value="LEADER_HAG_STALIN"/>
+	</MapStartPositions>
+</GameData>

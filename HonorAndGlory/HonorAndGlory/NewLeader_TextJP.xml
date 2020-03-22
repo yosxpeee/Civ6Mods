@@ -38,6 +38,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_HIDEKI_TOJO_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
@@ -91,6 +97,21 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_HIDEKI_TOJO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>日本の陸軍軍人、政治家。階級は陸軍大将。栄典は従二位勲一等功二級。軍人として陸軍次官、陸軍航空総監、陸軍大臣、参謀総長、政治家として内閣総理大臣（第40代）、内務大臣、外務大臣、文部大臣、商工大臣、軍需大臣を歴任した。</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ポルトガル王国（ポルトガル・ブラジル及びアルガルヴェ連合王国）女王（在位：1777年 - 1816年）。ジョゼ1世と王妃マリアナ・ヴィトーリアの娘。「敬虔女王」（a Piedosa）と呼ばれる。亡くなるまで24年間の長きにわたって完全な狂気に陥り、ブラジルにおいては狂女ドナ・マリア（Dona Maria, a Louca）と呼ばれる。在位中に、宮廷のブラジル移転およびポルトガル・ブラジル及びアルガルヴェ連合王国の成立というポルトガル海上帝国において重大な転換点を迎えた女王であった。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ソビエト連邦の第2代最高指導者。自身の思想と相容れない政治家と関係者、一般党員、民衆、軍人に至るまでを粛清、100万人以上を有罪、半数を銃殺、地区委員会や共和国委員会が丸ごと消滅するなど徹底した恐怖政治を行ったことで知られる。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>このことから冷酷無比というイメージが付きまとう人物だが、それだけとは言えない人間らしい一面も多く持ち、二人目の妻ナジェージダが死亡したとき（自殺と言われている）も、「私はもう終わりだ！」と泣き崩れ、ナジェージダとの間に設けた息子のワーシリーに「パパ泣かないで」とか励まされている。ナジェージダには頭が上がらず、彼女に怒鳴られて浴室に閉じこもり、頭を抱えていたという逸話まで残っている。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>彼は理想として常に革命的政治を優先し、歴史と変革の先導者「スターリン」であり続けようとした。しかし、元来の複雑な出自や性格の板挟みにあい、非常に難解な精神理論に基づいて行動していたため、妻や娘を愛するスターリンもいれば、人民の命を全く顧みないスターリンがおり、革命家仲間を愛するスターリンもいれば、裏切り者を容赦なく粛清したスターリンがいたのである。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
+			<Text>1953年3月1日、ラヴレンチー・ベリヤ、ゲオルギー・マレンコフ、ニコライ・ブルガーニン、ニキータ・フルシチョフとの徹夜の夕食の後、スターリンは寝室で脳卒中の発作で倒れた。発作は右半身を麻痺させ、昏睡状態が続いた。一時は意識を回復するも、重い障害のために意思の疎通ができなかった。4日後の1953年3月5日、スターリンは危篤に陥り死亡した。74歳没。 </Text>
+		</Row>
 		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
@@ -104,6 +125,9 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_MOROCCO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>北アフリカ北西部のマグリブに位置する立憲君主制国家。東にアルジェリアと、南に西サハラ（サハラ・アラブ民主共和国）と、北にスペインの飛地（セウタとメリリャ）に接し、西は大西洋に、北は地中海に面している。1915年にスペインの保護領となるまではアラウィー・スルタン国と呼ばれていた。1956年に独立して現在のモロッコ王国となる。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>南ヨーロッパのイベリア半島に位置する。首都はリスボン。現在のポルトガルの前身となるポルトガル王国（Reino de Portugal）は大航海時代においてスペイン王国とともに活躍し、アフリカ・アジア・南米に広大な植民地を領有したことから「ポルトガル海上帝国」とも呼ばれた。ナポレオン戦争時には戦争から逃れるために宮廷を最大の植民地であるブラジルへ移したこともある。</Text>
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
@@ -623,7 +647,6 @@
 		</Row>
 
 		<!-- ポルトガル -->
-		<!-- 今は仮 -->
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="ja_JP">
 			<Text>リスボン</Text>
 		</Row>
@@ -761,6 +784,9 @@
 		<Row Tag="LOC_LEADER_HAG_MARIA_I_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_STALIN_QUOTE" Language="ja_JP">
+			<Text>愛とか友情などというものはすぐに壊れるが、恐怖は長続きする</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="ja_JP">
@@ -782,6 +808,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_MARIA_I_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_STALIN_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		
@@ -1065,7 +1094,7 @@
 			<Text>琉球</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>1429年から1879年までの450年間にわたり琉球諸島を中心に存在した王国。王家の紋章は左三巴紋で「左御紋（ひだりごもん、沖縄方言：フィジャイグムン）」と呼ばれた。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

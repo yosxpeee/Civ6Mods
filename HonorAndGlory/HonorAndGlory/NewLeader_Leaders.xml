@@ -24,6 +24,10 @@
 		<!-- マリア1世 -->
 		<Row Type="LEADER_HAG_MARIA_I"            Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_MARIA_I"      Kind="KIND_TRAIT"/>
+		<!-- スターリン -->
+		<Row Type="LEADER_HAG_STALIN"             Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_STALIN"       Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_RUSSIAN_T34"    Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -69,6 +73,12 @@
 			<Name>LOC_LEADER_HAG_MARIA_I_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- スターリン -->
+		<Row>
+			<LeaderType>LEADER_HAG_STALIN</LeaderType>
+			<Name>LOC_LEADER_HAG_STALIN_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
@@ -79,6 +89,7 @@
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" Quote="LOC_LEADER_HAG_MULAY_ISMAIL_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  Quote="LOC_LEADER_HAG_HIDEKI_TOJO_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"      Quote="LOC_LEADER_HAG_MARIA_I_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_STALIN"       Quote="LOC_LEADER_HAG_STALIN_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
@@ -103,6 +114,12 @@
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
 
 		<Row LeaderType="LEADER_HAG_MARIA_I"      TraitType="TRAIT_LEADER_HAG_MARIA_I"/>
+
+		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_LEADER_HAG_STALIN"/>
+		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"/>
+		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -111,11 +128,11 @@
 		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"        Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"        Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_TITO"         Name="LOC_TRAIT_LEADER_HAG_TITO_NAME"         Description="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL" Name="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME" Description="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
-
 		<Row TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  Name="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME"  Description="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"     Name="LOC_TRAIT_UNIT_HAG_JAPAN_ZERO_NAME"/>
-
 		<Row TraitType="TRAIT_LEADER_HAG_MARIA_I"      Name="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME"      Description="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_STALIN"       Name="LOC_TRAIT_LEADER_HAG_STALIN_NAME"       Description="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"    Name="LOC_TRAIT_UNIT_HAG_RUSSIAN_T34_NAME"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -247,6 +264,51 @@
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
 		</Row>
+		
+		<!-- スターリン -->
+		<!-- 戦略資源の生産力+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>EQUESTRIAN_ORDERS_ADDITIONAL_HORSES_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>EQUESTRIAN_ORDERS_ADDITIONAL_IRON_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>DRILL_MANUALS_ADDITIONAL_NITER_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>DRILL_MANUALS_ADDITIONAL_COAL_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>RESOURCE_MANAGEMENT_ADDITIONAL_ALUMINUM_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>RESOURCE_MANAGEMENT_ADDITIONAL_OIL_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
+		</Row>
+		<!-- 全都市の快適性-1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
+		</Row>
+		<!-- 工業地帯と兵営のコスト半分 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>TRAIT_BOOST_ENCAMPMENT_PRODUCTION</ModifierId><!-- バニラの北条時宗と同じ -->
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -374,6 +436,22 @@
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
 			<SubjectRequirementSetId>CITY_FOUNDED_ON_NON_HOME_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		
+		<!-- ウランの生産力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+		</Row>
+		<!-- 全都市の快適性-1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+		</Row>
+		<!-- 工業地帯のコスト半分 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -594,6 +672,35 @@
 			<Name>Amount</Name>
 			<Value>4</Value>
 		</Row>
+		
+		<!-- 戦ウランの生産力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+		<!-- 全都市の快適性-1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<!-- 工業地帯のコスト半分 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -703,6 +810,11 @@
 		<Row ListType="HAGMariaITech"/>
 		<Row ListType="HAGMariaIWonders"/>
 		<Row ListType="HAGMariaIGold"/>
+		<!-- スターリン -->
+		<Row ListType="HAGStalinDistrict"/>
+		<Row ListType="HAGStalinCivics"/>
+		<Row ListType="HAGStalinTech"/>
+		<Row ListType="HAGStalinWonders"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- メネリク2世 -->
@@ -746,6 +858,11 @@
 		<Row ListType="HAGMariaITech"     LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Technologies"/>
 		<Row ListType="HAGMariaIWonders"  LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Buildings"/>
 		<Row ListType="HAGMariaIGold"     LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Yields"/>
+		<!-- ナポレオン -->
+		<Row ListType="HAGStalinDistrict" LeaderType="TRAIT_LEADER_HAG_STALIN" System="Districts"/>
+		<Row ListType="HAGStalinCivics"   LeaderType="TRAIT_LEADER_HAG_STALIN" System="Civics"/>
+		<Row ListType="HAGStalinTech"     LeaderType="TRAIT_LEADER_HAG_STALIN" System="Technologies"/>
+		<Row ListType="HAGStalinWonders"  LeaderType="TRAIT_LEADER_HAG_STALIN" System="Buildings"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- メネリク2世 -->
@@ -822,7 +939,6 @@
 		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_VENETIAN_ARSENAL" Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
 		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_KOTOKU_IN"        Favored="true"/><!-- 高徳院(RaF) -->
 		<Row ListType="HAGHidekiTojoCulture"   Item="YIELD_CULTURE"             Value="7"/>
-
 		<!-- マリア1世 -->
 		<Row ListType="HAGMariaIDistrict"    Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
 		<Row ListType="HAGMariaIDistrict"    Item="DISTRICT_HAG_PORTUGAL_FEITORIA" Favored="true"/><!-- フェイトリア -->
@@ -836,6 +952,19 @@
 		<Row ListType="HAGMariaIWonders"     Item="BUILDING_CASA_DE_CONTRATACION"  Favored="true"/><!-- 通商院 -->
 		<Row ListType="HAGMariaIWonders"     Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
 		<Row ListType="HAGMariaIGold"        Item="YIELD_GOLD"                     Value="10"/>
+		<!-- スターリン -->
+		<Row ListType="HAGStalinDistrict" Item="DISTRICT_INDUSTRIAL_ZONE"   Favored="true"/><!-- 工業地帯 -->
+		<Row ListType="HAGStalinCivics"   Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGStalinCivics"   Item="CIVIC_NATIONALISM"          Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGStalinCivics"   Item="CIVIC_MOBILIZATION"         Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGStalinCivics"   Item="CIVIC_CLASS_STRUGGLE"       Favored="true"/><!-- 階級闘争 -->
+		<Row ListType="HAGStalinTech"     Item="TECH_APPRENTICESHIP"        Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGStalinTech"     Item="TECH_GUNPOWDER"             Favored="true"/><!-- 火薬 -->
+		<Row ListType="HAGStalinTech"     Item="TECH_MILITARY_SCIENCE"      Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGStalinTech"     Item="TECH_COMBUSTION"            Favored="true"/><!-- 内燃機関 -->
+		<Row ListType="HAGStalinWonders"  Item="BUILDING_TERRACOTTA_ARMY"   Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGStalinWonders"  Item="BUILDING_ALHAMBRA"          Favored="true"/><!-- アルハンブラ宮殿 -->
+		<Row ListType="HAGStalinWonders"  Item="BUILDING_FORBIDDEN_CITY"    Favored="true"/><!-- 紫禁城 -->
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
@@ -853,6 +982,8 @@
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  AgendaType="AGENDA_BUSHIDO"/>
 		<!-- マリア1世：太陽の沈まぬ国(バニラのヴィクトリアと同じ) -->
 		<Row LeaderType="LEADER_HAG_MARIA_I"      AgendaType="AGENDA_SUN_NEVER_SETS"/>
+		<!-- スターリン：鉄の同盟(RaFのパウンドメーカーと同じ) -->
+		<Row LeaderType="LEADER_HAG_STALIN"       AgendaType="AGENDA_IRON_CONFEDERACY"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
@@ -863,6 +994,7 @@
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ReligionType="RELIGION_BUDDHISM"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"      ReligionType="RELIGION_CATHOLICISM"/>
+		<!-- スターリンはなし -->
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
@@ -873,6 +1005,7 @@
 		<Row Type="LEADER_HAG_MULAY_ISMAIL" BackgroundImage="MulayIsmail_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_HIDEKI_TOJO"  BackgroundImage="HidekiTojo_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_MARIA_I"      BackgroundImage="MariaI_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_STALIN"       BackgroundImage="Stalin_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_MENELIK2"     ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"    BackgroundImage="Menelik2_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"     PlayDawnOfManAudio="1"/>
@@ -882,5 +1015,6 @@
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ForegroundImage="MulayIsmail_LoadingInfo_Foreground.dds" BackgroundImage="MulayIsmail_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MULAY_ISMAIL_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ForegroundImage="HidekiTojo_LoadingInfo_Foreground.dds"  BackgroundImage="HidekiTojo_LoadingInfo_Background.dds"  LeaderText="LOC_LEADER_HAG_HIDEKI_TOJO_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"      ForegroundImage="MariaI_LoadingInfo_Foreground.dds"      BackgroundImage="MariaI_LoadingInfo_Background.dds"      LeaderText="LOC_LEADER_HAG_MARIA_I_DOM_TEXT"      PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_STALIN"       ForegroundImage="Stalin_LoadingInfo_Foreground.dds"      BackgroundImage="Stalin_LoadingInfo_Background.dds"      LeaderText="LOC_LEADER_HAG_STALIN_DOM_TEXT"       PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

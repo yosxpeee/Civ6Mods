@@ -163,6 +163,17 @@
 			<Text>自分が築いたフェイトリアがある都市に元々の [ICON_Capital] 首都を移すことができる (新たな首都にしたい都市で固有のプロジェクトを完了すること)。自文明の首都が存在しない大陸に都市を建造すると、その都市は毎ターン忠誠心+4。</Text>
 		</Row>
 
+		<!-- 指導者(スターリン) -->
+		<Row Tag="LOC_LEADER_HAG_STALIN_NAME" Language="ja_JP">
+			<Text>ヨシフ・スターリン</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_NAME" Language="ja_JP">
+			<Text>スタハノフ運動</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="ja_JP">
+			<Text>開発したすべての戦略資源のターン毎の産出量+1。兵営、工業地帯 (区域) の建設にかかる時間が半分になる。全ての都市の [ICON_Amenities] 快適性-1。</Text>
+		</Row>
+		
 		<!-- UU(マハール・セファリ) -->
 		<Replace Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="ja_JP">
 			<Text>マハール・セファリ</Text>
@@ -246,6 +257,20 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_PORTUGAL_NAU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
+
+		<!-- UU(T-34) -->
+		<Row Tag="LOC_UNIT_HAG_RUSSIAN_T34_NAME" Language="ja_JP">
+			<Text>T-34</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_RUSSIAN_T34_DESCRIPTION" Language="ja_JP">
+			<Text>近代のヨシフ・スターリン固有のユニット。戦車に取って代わる。[ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_RUSSIAN_T34_NAME" Language="ja_JP">
+			<Text>ヨシフ・スターリン固有の建造物: T-34</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_RUSSIAN_T34_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>第二次世界大戦から冷戦時代にかけてソビエト連邦を中心に使用された中戦車。1945年末までに5万7,000輌以上のT-34が作られた。当時としては強力な砲を備え、防御面では避弾経始を考慮した傾斜装甲を採用していた。</Text>
+		</Row>
 		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="ja_JP">
@@ -286,7 +311,7 @@
 			<Text>ポルトガル帝国固有の区域: フェイトリア</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>キャラック船のことをポルトガルではナウ（Nau）と呼ばれる。北欧系のコグ船と南欧系のキャラベル船の長所を受け継ぎ、3本のマストのうちフォア・メインマストに横帆、ミズンマストに縦帆と異なった種類の帆を見事に組み合わせた艤装を持ち、自在に張り替えたり数を増減させたりすることが容易であるため、高い帆走能力を持つ。</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION" Language="ja_JP">
 			<Text>隣接する沿岸タイル2つごとに [ICON_Production] 生産力+{1_num}。</Text>
@@ -318,7 +343,7 @@
 			<Text>労働者がユーゴスラビアの施設であるステチュツィを建設できるようになる。[NEWLINE][NEWLINE][ICON_Culture] 文化力+1、[ICON_Faith] 信仰力+1、[ICON_Amenities] 快適性+3。1都市につき1つのみ。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="ja_JP">
-			<Text>>ユーゴスラビア固有の施設: ステチュツィ</Text>
+			<Text>ユーゴスラビア固有の施設: ステチュツィ</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ボスニア・ヘルツェゴビナや中世にボスニア王国の領域であったクロアチア（ダルマチア）、モンテネグロ、セルビアとボスニア・ヘルツェゴビナの国境付近に散在する巨大な中世の墓碑である。</Text>
@@ -332,7 +357,7 @@
 			<Text>労働者がモロッコ王国の施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1, [ICON_Housing] 住宅+0.5。他のカスバと隣接させると [ICON_Gold] ゴールド+1。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="ja_JP">
-			<Text>>モロッコ王国固有の施設: カスバ</Text>
+			<Text>モロッコ王国固有の施設: カスバ</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MOROCCO_CASBAH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>カスバは地方部に見られるメディナ（街のなかの、壁に囲まれた地域）の一種で、普通は丘の上か斜面に築かれた小規模な集落を指す。元来は部族の長やイマームと呼ばれるイスラム指導者の居所であり、壁が高く窓のない家屋が建ち並び、そのあいだを縫うようにせまい路地が走っているのを特徴とする。たいていは要塞化された塔が1つ建っていて、それが中心をなす。1900年代の初頭まで、カスバは北アフリカ沿岸や中東では珍しくなかった。カスバを建設することは、モロッコやアルジェリアに住むアラブ系の一族にとって、富貴と権勢の象徴だったのである。</Text>

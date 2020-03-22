@@ -25,6 +25,10 @@
 			<m_EntryID text="U_Portugal_Carrack"/>
 			<m_ObjectName text="U_Portugal_Carrack"/>
 		</Element>
+		<Element>
+			<m_EntryID text="T34_Tank"/>
+			<m_ObjectName text="T34_Tank"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

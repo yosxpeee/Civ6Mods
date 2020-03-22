@@ -95,7 +95,20 @@
 			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_MD</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_DK</Alt3SecondaryColor>
 		</Row>
-
+		<!-- スターリン -->
+		<Row>
+			<Type>LEADER_HAG_STALIN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_HAG_STALIN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_HAG_STALIN_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_PURPLE_LT</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_ORANGE_MD</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_YELLOW_DK</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_AQUA_MD</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_RED_DK</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_GREEN_LT</Alt3SecondaryColor>
+		</Row>
+		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
 		<Row>
@@ -108,18 +121,7 @@
 </Database>
 
 <!--
-あと2人分
-
-<Color>COLOR_STANDARD_PURPLE_LT</Color>
-<Color>COLOR_STANDARD_ORANGE_MD</Color>
-
-<Color>COLOR_STANDARD_YELLOW_DK</Color>
-<Color>COLOR_STANDARD_AQUA_MD</Color>
-
-<Color>COLOR_STANDARD_RED_DK</Color>
-<Color>COLOR_STANDARD_GREEN_LT</Color>
-
-
+あと1人分
 <Color>COLOR_STANDARD_BLUE_MD</Color>
 <Color>COLOR_STANDARD_WHITE_DK</Color>
 

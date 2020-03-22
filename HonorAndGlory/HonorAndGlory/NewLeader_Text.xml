@@ -38,6 +38,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_HIDEKI_TOJO_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Detail)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -91,6 +97,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_HIDEKI_TOJO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
 		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -104,6 +116,18 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_MOROCCO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
@@ -623,7 +647,6 @@
 		</Row>
 
 		<!-- ポルトガル -->
-		<!-- 今は仮 -->
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="en_US">
 			<Text>Lisbon</Text>
 		</Row>
@@ -761,6 +784,9 @@
 		<Row Tag="LOC_LEADER_HAG_MARIA_I_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_STALIN_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="en_US">
@@ -782,6 +808,9 @@
 			<Text>Loading Text</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_MARIA_I_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_STALIN_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
 		
@@ -863,7 +892,7 @@
 		</Row>
 		<!-- バハーイー教 -->
 		<Row Tag="LOC_RELIGION_HAG_BAHAI_FAITH" Language="en_US">
-			<Text>Baha'i</Text>
+			<Text>Baha'i Faith</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_HAG_BAHAI_FAITH_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>

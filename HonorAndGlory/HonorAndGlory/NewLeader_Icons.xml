@@ -115,7 +115,15 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_MARIA_I" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MARIA_I64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_MARIA_I" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MARIA_I80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_MARIA_I" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MARIA_I256.dds"/>
-
+		<!-- スターリン -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN256.dds"/>
+		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_RYUKYU22.dds"/>
@@ -280,6 +288,8 @@
 		<Row Name="ICON_LEADER_HAG_HIDEKI_TOJO" Atlas="ICON_ATLAS_LEADER_HAG_HIDEKI_TOJO" Index="0"/>
 		<!-- マリア1世 -->
 		<Row Name="ICON_LEADER_HAG_MARIA_I" Atlas="ICON_ATLAS_LEADER_HAG_MARIA_I" Index="0"/>
+		<!-- スターリン -->
+		<Row Name="ICON_LEADER_HAG_STALIN" Atlas="ICON_ATLAS_LEADER_HAG_STALIN" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -346,6 +356,16 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HAG_PORTUGAL_NAU_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="53"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HAG_PORTUGAL_NAU_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="53"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_PORTUGAL_NAU_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="53"/>
+		<!-- T-34(戦車の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34"                                   Atlas="ICON_ATLAS_UNITS"                           Index="78"/>
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="78"/>
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="78"/>
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="78"/>
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="12"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="12"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="12"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="12"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="12"/>
 		
 		<!-- UB -->
 		<!-- ステッレ(モニュメントの使いまわし) -->
