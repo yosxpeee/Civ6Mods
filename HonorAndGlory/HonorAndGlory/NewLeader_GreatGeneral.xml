@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<!-- もともと偉人にいる人たちを指導者にしたので代わりの人を追加 -->
-	<!-- ナポレオン ＞ フランソワ・ジョゼフ・ルフェーヴル-->
-	<!-- ティムール ＞ ミーラーン・シャー-->
+	<!-- ナポレオン       ＞ フランソワ・ジョゼフ・ルフェーヴル-->
+	<!-- ティムール       ＞ ミーラーン・シャー-->
+	<!-- シモン・ボリバル ＞ アントニオ・ホセ・デ・スクレ(予定) -->
 	<Types>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>

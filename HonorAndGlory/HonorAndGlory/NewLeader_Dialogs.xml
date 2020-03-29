@@ -59,5 +59,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_STALIN_ANY" Language="en_US">
 			<Text>Choose your friendships wisely—but you must choose.</Text>
 		</Replace>
+		<!-- シモン・ボリバル -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_SIMON_BOLIVAL_ANY" Language="en_US">
+			<Text>I commend your perseverance. We share a common interest in protecting those who often cannot protect themselves.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_SIMON_BOLIVAL_ANY" Language="en_US">
+			<Text>War can only bring us loss. Loss of lives, loss of productivity, loss of our very humanity!</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

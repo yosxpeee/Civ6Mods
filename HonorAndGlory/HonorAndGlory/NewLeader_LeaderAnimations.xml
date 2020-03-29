@@ -50,5 +50,11 @@
 			<Leader>LEADER_HAG_STALIN</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- シモン・ボリバル -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_SIMON_BOLIVAR</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

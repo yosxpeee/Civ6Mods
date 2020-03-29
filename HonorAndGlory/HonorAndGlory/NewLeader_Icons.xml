@@ -57,6 +57,17 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL256.dds"/>
+		<!-- コロンビア -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA256.dds"/>
 		
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
@@ -123,6 +134,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_STALIN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_STALIN256.dds"/>
+		<!-- シモン・ボリバル -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR256.dds"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -267,10 +286,12 @@
 		<Row Name="ICON_CIVILIZATION_HAG_TIMURID" Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" Index="0"/>
 		<!-- ユーゴスラビア -->
 		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" Index="0"/>
-		<!-- モロッコ -->
+		<!-- モロッコ王国 -->
 		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO" Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" Index="0"/>
-		<!-- ポルトガル -->
+		<!-- ポルトガル帝国 -->
 		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL" Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" Index="0"/>
+		<!-- コロンビア -->
+		<Row Name="ICON_CIVILIZATION_HAG_COLOMBIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -290,6 +311,8 @@
 		<Row Name="ICON_LEADER_HAG_MARIA_I" Atlas="ICON_ATLAS_LEADER_HAG_MARIA_I" Index="0"/>
 		<!-- スターリン -->
 		<Row Name="ICON_LEADER_HAG_STALIN" Atlas="ICON_ATLAS_LEADER_HAG_STALIN" Index="0"/>
+		<!-- シモン・ボリバル -->
+		<Row Name="ICON_LEADER_HAG_SIMON_BOLIVAR" Atlas="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->

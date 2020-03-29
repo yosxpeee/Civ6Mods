@@ -100,7 +100,7 @@
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_JAPAN</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>LEADER_HAG_HIDEKI_TOJO</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_HIDEKI_TOJO</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_HIDEKI_TOJO</Portrait>
 		</Row>
 		<!-- ポルトガル(マリア1世) -->
@@ -117,7 +117,7 @@
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_PORTUGAL</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_MARIA_I_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>LEADER_HAG_MARIA_I</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_MARIA_I</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_MARIA_I</Portrait>
 		</Row>
 		<!-- ロシア(スターリン) -->
@@ -134,8 +134,25 @@
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_RUSSIA</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_STALIN_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>LEADER_HAG_STALIN</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_STALIN</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_STALIN</Portrait>
+		</Row>
+		<!-- コロンビア(シモン・ボリバル) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_COLOMBIA</CivilizationType>
+			<LeaderType>LEADER_HAG_SIMON_BOLIVAR</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_COLOMBIA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_COLOMBIA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_SIMON_BOLIVAR_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_SIMON_BOLIVAR</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_COLOMBIA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_SIMON_BOLIVAR</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_SIMON_BOLIVAR</Portrait>
 		</Row>
 	</Players>
 	<PlayerItems>
@@ -194,7 +211,7 @@
 			 Name="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME"
 			 Description="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_DESCRIPTION"
 			 SortIndex="20"/>
-		<!-- ユーゴスラビア -->
+		<!-- チトー -->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"
 			 LeaderType="LEADER_HAG_TITO"
@@ -211,7 +228,7 @@
 			 Name="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME"
 			 Description="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_DESCRIPTION"
 			 SortIndex="20"/>
-		<!-- モロッコ -->
+		<!-- ムーレイ・イスマーイール -->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_HAG_MOROCCO"
 			 LeaderType="LEADER_HAG_MULAY_ISMAIL"
@@ -228,7 +245,7 @@
 			 Name="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME"
 			 Description="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION"
 			 SortIndex="20"/>
-		<!-- 日本 -->
+		<!-- 東條英機 -->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_JAPAN" 
 			 LeaderType="LEADER_HAG_HIDEKI_TOJO" 
@@ -253,7 +270,7 @@
 			 Name="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" 
 			 Description="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" 
 			 SortIndex="30" />
-		<!-- ポルトガル -->
+		<!-- マリア1世 -->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_HAG_PORTUGAL"
 			 LeaderType="LEADER_HAG_MARIA_I"
@@ -270,7 +287,7 @@
 			 Name="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME"
 			 Description="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION"
 			 SortIndex="20"/>
-		<!-- ロシア -->
+		<!-- スターリン -->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_RUSSIA" 
 			 LeaderType="LEADER_HAG_STALIN" 

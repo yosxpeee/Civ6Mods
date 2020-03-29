@@ -86,6 +86,23 @@
 			<Text>Open Borders with all city-states. Each time you found your first city on a continent other than your home continent receive a [ICON_TradeRoute] Trade Route capacity.</Text>
 		</Row>
 		
+		<!-- 文明(コロンビア) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_NAME" Language="en_US">
+			<Text>Colombia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="en_US">
+			<Text>Colombia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_ADJECTIVE" Language="en_US">
+			<Text>Colombia</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME" Language="en_US">
+			<Text>Latin American Intersection</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+			
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="en_US">
 			<Text>Menelik II</Text>
@@ -172,6 +189,17 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="en_US">
 			<Text>All improved strategic resources yield 1 additional resource per turn. Builds Encampment and Industrial Zone Square districts in half the time. All cities -1 [ICON_Amenities] Amenity.</Text>
+		</Row>
+		
+		<!-- 指導者(シモン・ボリバル) -->
+		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="en_US">
+			<Text>Simon Bolivar</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="en_US">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="en_US">
+			<Text>Unknown</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

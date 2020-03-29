@@ -81,6 +81,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_STALIN"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_STALIN"/>
 		</Element>
+		<!-- シモン・ボリバル -->
+		<Element>
+			<m_EntryID text="LEADER_HAG_SIMON_BOLIVAR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HAG_SIMON_BOLIVAR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
+			<m_ObjectName text="PORTRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

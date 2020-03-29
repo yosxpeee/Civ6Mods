@@ -44,14 +44,28 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
+		<!-- メネリク2世 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ショアの王（ネグ）のハイレ・マラコトの王子として生まれ、王位を継承。エチオピア中興の祖である皇帝テオドロス2世がショアを攻撃した際に捕虜とされたが、かえってテオドロスに可愛がられ、このことが自身に大きな影響を与えた。後にヨハンネス4世の跡を継いで皇帝に即位した。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
 			<Text>第一次エチオピア戦争においてイタリア王国を破り、列強にエチオピアの独立を承認させた。これは、当時のアフリカ大陸の諸王国の中で唯一独立を保つことができた事例として有名となった。</Text>
 		</Row>
+		<!-- ナポレオン -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>文明社会に生きていてナポレオンの名を知らない者はいないだろう。よって、彼の歴史を解説する本項目では、退屈な部分を飛ばしてすぐに流血の史実へと入る。</Text>
 		</Row>
@@ -64,6 +78,7 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
 			<Text>しかし、ナポレオンでさえも損耗に打ち勝つことはできなかった。やがて、しぶとく戦い続けた敵軍――彼らは敗北を決して認めなかった――が流れを変えた。フランス軍はロシアとスペインで兵と物資の両方に埋めようのない大損害を被る。1813年のライプツィヒの戦い、1815年のワーテルローの戦いでは連合軍も協力することを学んだ。敗北してなおナポレオンは恐れられ、イギリスは彼を遠く離れたセントヘレナ島に幽閉した。1821年、彼は51歳で死去した。</Text>
 		</Row>
+		<!-- ティムール -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ティムール (西洋では「跛者のティムール」や「タマレイン」とも呼ばれる) は14世紀に活躍したモンゴル＝テュルク系の軍事指導者である。容赦のない性格だったらしく、数々の残虐行為で知られている。不遇な境遇から身を起こしたティムールは、やがてイランと中央アジアにまたがる一大王朝を築いた。その意味において、後の文化の繁栄は彼のおかげといえるだろう。</Text>
 		</Row>
@@ -79,9 +94,11 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_HISTORY_PARA_5" Language="ja_JP">
 			<Text>ティムールはトルコで語り継がれているナスレッディンの寓話にもたびたび登場する。お話の中の彼は、単純で素朴な知恵者であるナスレッディンの引き立て役で、残酷な権力者として描かれている。興味を持たれた向きは、一読してみるとよいだろう。</Text>
 		</Row>
+		<!-- チトー -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TITO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>第二次世界大戦からその死まで、最もユーゴスラビアに影響を与えた政治家であり、ユーゴスラビア社会主義連邦共和国大統領、ユーゴスラビア共産主義者同盟の指導者である。「ティトー元帥」という呼び名でも知られている。本名はヨシップ・ブロズ。「チトー（Tito）」という名前は、「お前（Ti）があれ（to）をしろ」という横柄な文章から取られたもので、冗談のネタになることもあった。</Text>
 		</Row>
+		<!-- ムーレイ・イスマーイール -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>アラウィー朝モロッコの第2代スルターン（在位：1672年 - 1727年）である。 ムーレイ・シャリーフの七男であり、継兄であるムーレイ・アル＝ラシードが1672年に死去した時には、フェズの王国の知事として、1667年からモロッコ北部を統治した。その後、1687年まで甥のムーレイ・アフメドと王座争いをし、これに勝利した。</Text>
 		</Row>
@@ -94,12 +111,15 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
 			<Text>彼はから40km以上に広がる、庭園、記念碑や多くのモスクを兼ね備えた巨大な都、メクネスの建設に着手した。しかし、その完成を見ることなく、彼は病気で薨去した。死後、再び国内は混乱し、分裂状態になった。彼が26歳で就任してからの統治期間は55年であり、これはモロッコの専制君主としては最長の在位記録である。 </Text>
 		</Row>
+		<!-- 東條英機 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_HIDEKI_TOJO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>日本の陸軍軍人、政治家。階級は陸軍大将。栄典は従二位勲一等功二級。軍人として陸軍次官、陸軍航空総監、陸軍大臣、参謀総長、政治家として内閣総理大臣（第40代）、内務大臣、外務大臣、文部大臣、商工大臣、軍需大臣を歴任した。</Text>
 		</Row>
+		<!-- マリア1世 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ポルトガル王国（ポルトガル・ブラジル及びアルガルヴェ連合王国）女王（在位：1777年 - 1816年）。ジョゼ1世と王妃マリアナ・ヴィトーリアの娘。「敬虔女王」（a Piedosa）と呼ばれる。亡くなるまで24年間の長きにわたって完全な狂気に陥り、ブラジルにおいては狂女ドナ・マリア（Dona Maria, a Louca）と呼ばれる。在位中に、宮廷のブラジル移転およびポルトガル・ブラジル及びアルガルヴェ連合王国の成立というポルトガル海上帝国において重大な転換点を迎えた女王であった。</Text>
 		</Row>
+		<!-- スターリン -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ソビエト連邦の第2代最高指導者。自身の思想と相容れない政治家と関係者、一般党員、民衆、軍人に至るまでを粛清、100万人以上を有罪、半数を銃殺、地区委員会や共和国委員会が丸ごと消滅するなど徹底した恐怖政治を行ったことで知られる。</Text>
 		</Row>
@@ -111,6 +131,10 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
 			<Text>1953年3月1日、ラヴレンチー・ベリヤ、ゲオルギー・マレンコフ、ニコライ・ブルガーニン、ニキータ・フルシチョフとの徹夜の夕食の後、スターリンは寝室で脳卒中の発作で倒れた。発作は右半身を麻痺させ、昏睡状態が続いた。一時は意識を回復するも、重い障害のために意思の疎通ができなかった。4日後の1953年3月5日、スターリンは危篤に陥り死亡した。74歳没。 </Text>
+		</Row>
+		<!-- シモン・ボリバル -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
 		</Row>
 		
 		<!-- Civilization specific historical text. -->
@@ -128,6 +152,9 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>南ヨーロッパのイベリア半島に位置する。首都はリスボン。現在のポルトガルの前身となるポルトガル王国（Reino de Portugal）は大航海時代においてスペイン王国とともに活躍し、アフリカ・アジア・南米に広大な植民地を領有したことから「ポルトガル海上帝国」とも呼ばれた。ナポレオン戦争時には戦争から逃れるために宮廷を最大の植民地であるブラジルへ移したこともある。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_COLOMBIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
@@ -159,7 +186,6 @@
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Language="ja_JP">
 			<Text>ローラ</Text>
 		</Row>
-
 		<!-- ティムール -->
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_1" Language="ja_JP">
 			<Text>ザファル</Text>
@@ -188,7 +214,6 @@
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_5" Language="ja_JP">
 			<Text>ニサ</Text>
 		</Row>
-
 		<!-- ユーゴスラビア -->
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_1" Language="ja_JP">
 			<Text>ズラタン</Text>
@@ -217,7 +242,6 @@
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_5" Language="ja_JP">
 			<Text>ゴルダナ</Text>
 		</Row>
-
 		<!-- モロッコ -->
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_1" Language="ja_JP">
 			<Text>アブド</Text>
@@ -246,7 +270,6 @@
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Language="ja_JP">
 			<Text>ナディア</Text>
 		</Row>
-
 		<!-- ポルトガル -->
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_1" Language="ja_JP">
 			<Text>シウヴィーニョ</Text>
@@ -273,6 +296,34 @@
 			<Text>ヤスミン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_5" Language="ja_JP">
+			<Text>ピエトラ</Text>
+		</Row>
+		<!-- コロンビア -->
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_1" Language="ja_JP">
+			<Text>シウヴィーニョ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_2" Language="ja_JP">
+			<Text>アンデルソン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_3" Language="ja_JP">
+			<Text>ダニーロ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_4" Language="ja_JP">
+			<Text>ノルベルト</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_1" Language="ja_JP">
+			<Text>ヴァレンチナ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_2" Language="ja_JP">
+			<Text>マヌエラ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_3" Language="ja_JP">
+			<Text>ベアトリズ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_4" Language="ja_JP">
+			<Text>ヤスミン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Language="ja_JP">
 			<Text>ピエトラ</Text>
 		</Row>
 		
@@ -761,6 +812,38 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_38" Language="ja_JP">
 			<Text>ヴィラ・ノヴァ・デ・ファマリカン</Text>
 		</Row>
+
+		<!-- コロンビア -->
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" Language="ja_JP">
+			<Text>ボゴタ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_2" Language="ja_JP">
+			<Text>City1</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_3" Language="ja_JP">
+			<Text>City2</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_4" Language="ja_JP">
+			<Text>City3</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_5" Language="ja_JP">
+			<Text>City4</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_6" Language="ja_JP">
+			<Text>City5</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_7" Language="ja_JP">
+			<Text>City6</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_8" Language="ja_JP">
+			<Text>City7</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_9" Language="ja_JP">
+			<Text>City8</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_10" Language="ja_JP">
+			<Text>City9</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="ja_JP">
@@ -787,6 +870,9 @@
 		<Row Tag="LOC_LEADER_HAG_STALIN_QUOTE" Language="ja_JP">
 			<Text>愛とか友情などというものはすぐに壊れるが、恐怖は長続きする</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="ja_JP">
@@ -811,6 +897,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_STALIN_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		

@@ -108,6 +108,19 @@
 			<Alt3PrimaryColor>COLOR_STANDARD_RED_DK</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_GREEN_LT</Alt3SecondaryColor>
 		</Row>
+		<!-- シモン・ボリバル -->
+		<Row>
+			<Type>LEADER_HAG_SIMON_BOLIVAR</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_HAG_SIMON_BOLIVAR_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_HAG_SIMON_BOLIVAR_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_BLUE_MD</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_WHITE_DK</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_MAGENTA_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_PURPLE_MD</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_ORANGE_DK</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_YELLOW_LT</Alt3SecondaryColor>
+		</Row>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -120,15 +133,3 @@
 	</PlayerColors>
 </Database>
 
-<!--
-あと1人分
-<Color>COLOR_STANDARD_BLUE_MD</Color>
-<Color>COLOR_STANDARD_WHITE_DK</Color>
-
-<Color>COLOR_STANDARD_MAGENTA_LT</Color>
-<Color>COLOR_STANDARD_PURPLE_MD</Color>
-
-<Color>COLOR_STANDARD_ORANGE_DK</Color>
-<Color>COLOR_STANDARD_YELLOW_LT</Color>
-
--->

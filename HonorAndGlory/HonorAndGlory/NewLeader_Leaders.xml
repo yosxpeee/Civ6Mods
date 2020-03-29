@@ -3,31 +3,34 @@
 	<!-- 親定義 -->
 	<Types>
 		<!-- メネリク2世 -->
-		<Row Type="LEADER_HAG_MENELIK2"           Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_MENELIK2"     Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_MENELIK2"            Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_MENELIK2"      Kind="KIND_TRAIT"/>
 		<!-- ナポレオン -->					      
-		<Row Type="LEADER_HAG_NAPOLEON"           Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_NAPOLEON"     Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_NAPOLEON"            Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_NAPOLEON"      Kind="KIND_TRAIT"/>
 		<!-- ティムール -->					      
-		<Row Type="LEADER_HAG_TIMUR"              Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_TIMUR"        Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_TIMUR"               Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_TIMUR"         Kind="KIND_TRAIT"/>
 		<!-- チトー -->					          
-		<Row Type="LEADER_HAG_TITO"               Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_TITO"         Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_TITO"                Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_TITO"          Kind="KIND_TRAIT"/>
 		<!-- ムーレイ・イスマーイール -->
-		<Row Type="LEADER_HAG_MULAY_ISMAIL"       Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_MULAY_ISMAIL" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_MULAY_ISMAIL"        Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_MULAY_ISMAIL"  Kind="KIND_TRAIT"/>
 		<!-- 東條英機 -->
-		<Row Type="LEADER_HAG_HIDEKI_TOJO"        Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_HIDEKI_TOJO"  Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_UNIT_HAG_JAPAN_ZERO"     Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_HIDEKI_TOJO"         Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_HIDEKI_TOJO"   Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_JAPAN_ZERO"      Kind="KIND_TRAIT"/>
 		<!-- マリア1世 -->
-		<Row Type="LEADER_HAG_MARIA_I"            Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_MARIA_I"      Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_MARIA_I"             Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_MARIA_I"       Kind="KIND_TRAIT"/>
 		<!-- スターリン -->
-		<Row Type="LEADER_HAG_STALIN"             Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_STALIN"       Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_UNIT_HAG_RUSSIAN_T34"    Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_STALIN"              Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_STALIN"        Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_RUSSIAN_T34"     Kind="KIND_TRAIT"/>
+		<!-- シモン・ボリバル -->
+		<Row Type="LEADER_HAG_SIMON_BOLIVAR"       Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_SIMON_BOLIVAR" Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -79,60 +82,70 @@
 			<Name>LOC_LEADER_HAG_STALIN_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- シモン・ボリバル -->
+		<Row>
+			<LeaderType>LEADER_HAG_SIMON_BOLIVAR</LeaderType>
+			<Name>LOC_LEADER_HAG_SIMON_BOLIVAR_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_HAG_MENELIK2"     Quote="LOC_LEADER_HAG_MENELIK2_QUOTE"/>
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     Quote="LOC_LEADER_HAG_NAPOLEON_QUOTE"/>
-		<Row LeaderType="LEADER_HAG_TIMUR"        Quote="LOC_LEADER_HAG_TIMUR_QUOTE"/>
-		<Row LeaderType="LEADER_HAG_TITO"         Quote="LOC_LEADER_HAG_TITO_QUOTE"/>
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" Quote="LOC_LEADER_HAG_MULAY_ISMAIL_QUOTE"/>
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  Quote="LOC_LEADER_HAG_HIDEKI_TOJO_QUOTE"/>
-		<Row LeaderType="LEADER_HAG_MARIA_I"      Quote="LOC_LEADER_HAG_MARIA_I_QUOTE"/>
-		<Row LeaderType="LEADER_HAG_STALIN"       Quote="LOC_LEADER_HAG_STALIN_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_MENELIK2"      Quote="LOC_LEADER_HAG_MENELIK2_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      Quote="LOC_LEADER_HAG_NAPOLEON_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"         Quote="LOC_LEADER_HAG_TIMUR_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_TITO"          Quote="LOC_LEADER_HAG_TITO_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  Quote="LOC_LEADER_HAG_MULAY_ISMAIL_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   Quote="LOC_LEADER_HAG_HIDEKI_TOJO_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_MARIA_I"       Quote="LOC_LEADER_HAG_MARIA_I_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_STALIN"        Quote="LOC_LEADER_HAG_STALIN_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" Quote="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
-		<Row LeaderType="LEADER_HAG_MENELIK2"     TraitType="TRAIT_LEADER_HAG_MENELIK2"/>
+		<Row LeaderType="LEADER_HAG_MENELIK2"      TraitType="TRAIT_LEADER_HAG_MENELIK2"/>
 		
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
 		
-		<Row LeaderType="LEADER_HAG_TIMUR"        TraitType="TRAIT_LEADER_HAG_TIMUR"/>
-		<Row LeaderType="LEADER_HAG_TIMUR"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_TIMUR"         TraitType="TRAIT_LEADER_HAG_TIMUR"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"         TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
 
-		<Row LeaderType="LEADER_HAG_TITO"         TraitType="TRAIT_LEADER_HAG_TITO"/>
-		<Row LeaderType="LEADER_HAG_TITO"         TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
-		<Row LeaderType="LEADER_HAG_TITO"         TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/><!-- 科学勝利狙い -->
+		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_HAG_TITO"/>
+		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/><!-- 科学勝利狙い -->
 		
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"/>
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"/>
 		
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"/>
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
 
-		<Row LeaderType="LEADER_HAG_MARIA_I"      TraitType="TRAIT_LEADER_HAG_MARIA_I"/>
+		<Row LeaderType="LEADER_HAG_MARIA_I"       TraitType="TRAIT_LEADER_HAG_MARIA_I"/>
 
-		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_LEADER_HAG_STALIN"/>
-		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"/>
-		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
-		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
-		<Row LeaderType="LEADER_HAG_STALIN"       TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_HAG_STALIN"/>
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"/>
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_HAG_MENELIK2"     Name="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME"     Description="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_NAPOLEON"     Name="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME"     Description="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"        Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"        Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_TITO"         Name="LOC_TRAIT_LEADER_HAG_TITO_NAME"         Description="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL" Name="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME" Description="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  Name="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME"  Description="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION"/>
-		<Row TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"     Name="LOC_TRAIT_UNIT_HAG_JAPAN_ZERO_NAME"/>
-		<Row TraitType="TRAIT_LEADER_HAG_MARIA_I"      Name="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME"      Description="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_STALIN"       Name="LOC_TRAIT_LEADER_HAG_STALIN_NAME"       Description="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION"/>
-		<Row TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"    Name="LOC_TRAIT_UNIT_HAG_RUSSIAN_T34_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_MENELIK2"      Name="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME"      Description="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_NAPOLEON"      Name="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME"      Description="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"         Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"         Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_TITO"          Name="LOC_TRAIT_LEADER_HAG_TITO_NAME"          Description="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"  Name="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME"  Description="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"   Name="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME"   Description="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"      Name="LOC_TRAIT_UNIT_HAG_JAPAN_ZERO_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_MARIA_I"       Name="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME"       Description="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_STALIN"        Name="LOC_TRAIT_LEADER_HAG_STALIN_NAME"        Description="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"     Name="LOC_TRAIT_UNIT_HAG_RUSSIAN_T34_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" Name="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Description="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -815,6 +828,11 @@
 		<Row ListType="HAGStalinCivics"/>
 		<Row ListType="HAGStalinTech"/>
 		<Row ListType="HAGStalinWonders"/>
+		<!-- シモン・ボリバル -->
+		<Row ListType="HAGSimonBolivarDistrict"/>
+		<Row ListType="HAGSimonBolivarCivics"/>
+		<Row ListType="HAGSimonBolivarTech"/>
+		<Row ListType="HAGSimonBolivarWonders"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- メネリク2世 -->
@@ -858,11 +876,16 @@
 		<Row ListType="HAGMariaITech"     LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Technologies"/>
 		<Row ListType="HAGMariaIWonders"  LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Buildings"/>
 		<Row ListType="HAGMariaIGold"     LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Yields"/>
-		<!-- ナポレオン -->
+		<!-- スターリン-->
 		<Row ListType="HAGStalinDistrict" LeaderType="TRAIT_LEADER_HAG_STALIN" System="Districts"/>
 		<Row ListType="HAGStalinCivics"   LeaderType="TRAIT_LEADER_HAG_STALIN" System="Civics"/>
 		<Row ListType="HAGStalinTech"     LeaderType="TRAIT_LEADER_HAG_STALIN" System="Technologies"/>
 		<Row ListType="HAGStalinWonders"  LeaderType="TRAIT_LEADER_HAG_STALIN" System="Buildings"/>
+		<!-- シモン・ボリバル -->
+		<Row ListType="HAGSimonBolivarDistrict" LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Districts"/>
+		<Row ListType="HAGSimonBolivarCivics"   LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Civics"/>
+		<Row ListType="HAGSimonBolivarTech"     LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Technologies"/>
+		<Row ListType="HAGSimonBolivarWonders"  LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Buildings"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- メネリク2世 -->
@@ -965,25 +988,36 @@
 		<Row ListType="HAGStalinWonders"  Item="BUILDING_TERRACOTTA_ARMY"   Favored="true"/><!-- 兵馬俑 -->
 		<Row ListType="HAGStalinWonders"  Item="BUILDING_ALHAMBRA"          Favored="true"/><!-- アルハンブラ宮殿 -->
 		<Row ListType="HAGStalinWonders"  Item="BUILDING_FORBIDDEN_CITY"    Favored="true"/><!-- 紫禁城 -->
+		<!-- シモン・ボリバル -->
+		<Row ListType="HAGSimonBolivarDistrict"    Item="DISTRICT_COMMERCIAL_HUB"  Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGSimonBolivarCivics"      Item="CIVIC_MEDIEVAL_FAIRES"    Favored="true"/><!-- 中世の市 -->
+		<Row ListType="HAGSimonBolivarCivics"      Item="CIVIC_GUILDS"             Favored="true"/><!-- ギルド -->
+		<Row ListType="HAGSimonBolivarTech"        Item="TECH_CURRENCY"            Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGSimonBolivarTech"        Item="TECH_HORSEBACK_RIDING"    Favored="true"/><!-- 騎乗 -->
+		<Row ListType="HAGSimonBolivarTech"        Item="TECH_MILITARY_SCIENCE"    Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_HANGING_GARDENS" Favored="true"/><!-- 空中庭園 -->
+		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_GREAT_ZIMBABWE"  Favored="true"/><!-- グレート・ジンバブエ遺跡 -->
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
 		<!-- メネリク2世：欧化主義者(バニラのピョートルと同一) -->
-		<Row LeaderType="LEADER_HAG_MENELIK2"     AgendaType="AGENDA_WESTERNIZER"/>
+		<Row LeaderType="LEADER_HAG_MENELIK2"      AgendaType="AGENDA_WESTERNIZER"/>
 		<!-- ナポレオン：短くも偉大なる生涯(マケドニア・ペルシアDLCのアレクサンドロスと同じ) -->
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     AgendaType="AGENDA_SHORT_LIFE_GLORY"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      AgendaType="AGENDA_SHORT_LIFE_GLORY"/>
 		<!-- ティムール：機を見るに敏(マケドニア・ペルシアDLCのキュロスと同じ) -->
-		<Row LeaderType="LEADER_HAG_TIMUR"        AgendaType="AGENDA_BACKSTABBER"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"         AgendaType="AGENDA_BACKSTABBER"/>
 		<!-- チトー：鉄の同盟(RaFのパウンドメーカーと同じ) -->
-		<Row LeaderType="LEADER_HAG_TITO"         AgendaType="AGENDA_IRON_CONFEDERACY"/>
+		<Row LeaderType="LEADER_HAG_TITO"          AgendaType="AGENDA_IRON_CONFEDERACY"/>
 		<!-- ムーレイ・イスマーイール：サヘルの商人(RaFのマンサ・ムーサと同じ) -->
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" AgendaType="AGENDA_LORD_OF_MINES"/>
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  AgendaType="AGENDA_LORD_OF_MINES"/>
 		<!-- 東條英機：武士道(バニラの北条時宗と同じ) -->
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  AgendaType="AGENDA_BUSHIDO"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   AgendaType="AGENDA_BUSHIDO"/>
 		<!-- マリア1世：太陽の沈まぬ国(バニラのヴィクトリアと同じ) -->
-		<Row LeaderType="LEADER_HAG_MARIA_I"      AgendaType="AGENDA_SUN_NEVER_SETS"/>
+		<Row LeaderType="LEADER_HAG_MARIA_I"       AgendaType="AGENDA_SUN_NEVER_SETS"/>
 		<!-- スターリン：鉄の同盟(RaFのパウンドメーカーと同じ) -->
-		<Row LeaderType="LEADER_HAG_STALIN"       AgendaType="AGENDA_IRON_CONFEDERACY"/>
+		<Row LeaderType="LEADER_HAG_STALIN"        AgendaType="AGENDA_IRON_CONFEDERACY"/>
+		<!-- シモン・ボリバル：不断の警戒(バニラのジョン・カーティンと同じ) -->
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" AgendaType="AGENDA_PERPETUALLY_ON_GUARD"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
@@ -995,26 +1029,29 @@
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ReligionType="RELIGION_BUDDHISM"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"      ReligionType="RELIGION_CATHOLICISM"/>
 		<!-- スターリンはなし -->
+		<!-- シモンボ・リバルはなし -->
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
-		<Row Type="LEADER_HAG_MENELIK2"     BackgroundImage="Menelik2_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_NAPOLEON"     BackgroundImage="Napoleon_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_TIMUR"        BackgroundImage="Timur_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_TITO"         BackgroundImage="Tito_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_MULAY_ISMAIL" BackgroundImage="MulayIsmail_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_HIDEKI_TOJO"  BackgroundImage="HidekiTojo_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_MARIA_I"      BackgroundImage="MariaI_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_STALIN"       BackgroundImage="Stalin_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_MENELIK2"      BackgroundImage="Menelik2_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_NAPOLEON"      BackgroundImage="Napoleon_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_TIMUR"         BackgroundImage="Timur_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_TITO"          BackgroundImage="Tito_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_MULAY_ISMAIL"  BackgroundImage="MulayIsmail_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_HIDEKI_TOJO"   BackgroundImage="HidekiTojo_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_MARIA_I"       BackgroundImage="MariaI_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_STALIN"        BackgroundImage="Stalin_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_SIMON_BOLIVAR" BackgroundImage="SimonBolivar_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
-		<Row LeaderType="LEADER_HAG_MENELIK2"     ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"    BackgroundImage="Menelik2_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"     PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"    BackgroundImage="Napoleon_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT"     PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_TIMUR"        ForegroundImage="Timur_LoadingInfo_Foreground.dds"       BackgroundImage="Timur_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_TIMUR_DOM_TEXT"        PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_TITO"         ForegroundImage="Tito_LoadingInfo_Foreground.dds"        BackgroundImage="Tito_LoadingInfo_Background.dds"        LeaderText="LOC_LEADER_HAG_TITO_DOM_TEXT"         PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ForegroundImage="MulayIsmail_LoadingInfo_Foreground.dds" BackgroundImage="MulayIsmail_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_MULAY_ISMAIL_DOM_TEXT" PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ForegroundImage="HidekiTojo_LoadingInfo_Foreground.dds"  BackgroundImage="HidekiTojo_LoadingInfo_Background.dds"  LeaderText="LOC_LEADER_HAG_HIDEKI_TOJO_DOM_TEXT"  PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_MARIA_I"      ForegroundImage="MariaI_LoadingInfo_Foreground.dds"      BackgroundImage="MariaI_LoadingInfo_Background.dds"      LeaderText="LOC_LEADER_HAG_MARIA_I_DOM_TEXT"      PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_STALIN"       ForegroundImage="Stalin_LoadingInfo_Foreground.dds"      BackgroundImage="Stalin_LoadingInfo_Background.dds"      LeaderText="LOC_LEADER_HAG_STALIN_DOM_TEXT"       PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_MENELIK2"      ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"     BackgroundImage="Menelik2_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"      PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"     BackgroundImage="Napoleon_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT"      PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"         ForegroundImage="Timur_LoadingInfo_Foreground.dds"        BackgroundImage="Timur_LoadingInfo_Background.dds"        LeaderText="LOC_LEADER_HAG_TIMUR_DOM_TEXT"         PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_TITO"          ForegroundImage="Tito_LoadingInfo_Foreground.dds"         BackgroundImage="Tito_LoadingInfo_Background.dds"         LeaderText="LOC_LEADER_HAG_TITO_DOM_TEXT"          PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  ForegroundImage="MulayIsmail_LoadingInfo_Foreground.dds"  BackgroundImage="MulayIsmail_LoadingInfo_Background.dds"  LeaderText="LOC_LEADER_HAG_MULAY_ISMAIL_DOM_TEXT"  PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   ForegroundImage="HidekiTojo_LoadingInfo_Foreground.dds"   BackgroundImage="HidekiTojo_LoadingInfo_Background.dds"   LeaderText="LOC_LEADER_HAG_HIDEKI_TOJO_DOM_TEXT"   PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_MARIA_I"       ForegroundImage="MariaI_LoadingInfo_Foreground.dds"       BackgroundImage="MariaI_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_MARIA_I_DOM_TEXT"       PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_STALIN"        ForegroundImage="Stalin_LoadingInfo_Foreground.dds"       BackgroundImage="Stalin_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_STALIN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" ForegroundImage="SimonBolivar_LoadingInfo_Foreground.dds" BackgroundImage="SimonBolivar_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_SIMON_BOLIVAR_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

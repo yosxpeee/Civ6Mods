@@ -44,14 +44,28 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Detail)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
+		<!-- メネリク2世 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- ナポレオン -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Everyone in civilization has heard of Napoleon, so this historical entry will skip over the boring bits and get right to the bloodletting.</Text>
 		</Row>
@@ -64,6 +78,7 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text>But even Napoleon couldn’t overcome attrition, and eventually his stubborn enemies – who just wouldn’t stay beaten – turned the tide. In Russia and in Spain, the French suffered losses in men and material that couldn’t be replaced. And the coalition allies even learned to cooperate, as at Leipzig in 1813 and at Waterloo in 1815. Even in defeat, so feared was Napoleon that the British imprisoned him on the remote isle of St. Helena, where he died in 1821 at the age of 51.</Text>
 		</Row>
+		<!-- ティムール -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Timur (frequently known as "Timur the Lame" or "Tamerlane" in the West) was a Turkic Mongol warlord of the 12th Century, a redoubtable, ruthless ruler who rose from humble origins to establish a dynasty in Iran and Central Asia at the time of his death, leading to an era of flourishing culture afterwards. </Text>
 		</Row>
@@ -79,9 +94,11 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TIMUR_CHAPTER_HISTORY_PARA_5" Language="en_US">
 			<Text>In the Nasreddin wisdom stories, Timur sometimes appears as the cruel, powerful foil to Nasreddin's simply, folksy wisdom. Interested persons are encouraged to read them.</Text>
 		</Row>
+		<!-- チトー -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TITO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
+		<!-- ムーレイ・イスマーイール -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
@@ -94,13 +111,29 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MULAY_ISMAIL_CHAPTER_HISTORY_PARA_4" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- 東條英機 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_HIDEKI_TOJO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
+		<!-- マリア1世 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MARIA_I_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
+		<!-- スターリン -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_STALIN_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- シモン・ボリバル -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
 		
@@ -120,14 +153,8 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text></Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_3" Language="en_US">
-			<Text></Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_4" Language="en_US">
-			<Text></Text>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_COLOMBIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
@@ -159,7 +186,6 @@
 		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Language="en_US">
 			<Text>Lola</Text>
 		</Row>
-
 		<!-- ティムール朝 -->
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_1" Language="en_US">
 			<Text>Zafal</Text>
@@ -188,7 +214,6 @@
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_FEMALE_5" Language="en_US">
 			<Text>Nisa</Text>
 		</Row>
-
 		<!-- ユーゴスラビア -->
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_MALE_1" Language="en_US">
 			<Text>Zlatan</Text>
@@ -217,7 +242,6 @@
 		<Row Tag="LOC_CITIZEN_HAG_YUGOSLAVIA_FEMALE_5" Language="en_US">
 			<Text>Gordana</Text>
 		</Row>
-
 		<!-- モロッコ -->
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_MALE_1" Language="en_US">
 			<Text>Abd</Text>
@@ -246,7 +270,6 @@
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Language="en_US">
 			<Text>Nadia</Text>
 		</Row>
-
 		<!-- ポルトガル -->
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_1" Language="en_US">
 			<Text>Silvinho</Text>
@@ -273,6 +296,34 @@
 			<Text>Yasmin</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_5" Language="en_US">
+			<Text>Pietra</Text>
+		</Row>
+		<!-- コロンビア -->
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_1" Language="en_US">
+			<Text>Silvinho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_2" Language="en_US">
+			<Text>Anderson</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_3" Language="en_US">
+			<Text>Danilo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_4" Language="en_US">
+			<Text>Norbert</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_1" Language="en_US">
+			<Text>Valentina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_2" Language="en_US">
+			<Text>Manuela</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_3" Language="en_US">
+			<Text>Beatriz</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_4" Language="en_US">
+			<Text>Yasmin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Language="en_US">
 			<Text>Pietra</Text>
 		</Row>
 		
@@ -761,6 +812,38 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_38" Language="en_US">
 			<Text>Vila Nova de Famalicao</Text>
 		</Row>
+
+		<!-- コロンビア -->
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" Language="en_US">
+			<Text>Bogota</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_2" Language="en_US">
+			<Text>City1</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_3" Language="en_US">
+			<Text>City2</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_4" Language="en_US">
+			<Text>City3</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_5" Language="en_US">
+			<Text>City4</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_6" Language="en_US">
+			<Text>City5</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_7" Language="en_US">
+			<Text>City6</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_8" Language="en_US">
+			<Text>City7</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_9" Language="en_US">
+			<Text>City8</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_10" Language="en_US">
+			<Text>City9</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="en_US">
@@ -787,6 +870,9 @@
 		<Row Tag="LOC_LEADER_HAG_STALIN_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="en_US">
@@ -811,6 +897,9 @@
 			<Text>Loading Text</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_STALIN_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
 		
