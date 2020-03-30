@@ -88,19 +88,19 @@
 		
 		<!-- 文明(コロンビア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_NAME" Language="en_US">
-			<Text>Colombia</Text>
+			<Text>Gran Colombia</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="en_US">
-			<Text>Colombia</Text>
+			<Text>Gran Colombia</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_ADJECTIVE" Language="en_US">
-			<Text>Colombia</Text>
+			<Text>Gran Colombia</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME" Language="en_US">
 			<Text>Latin American Intersection</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>Happy cities receive an additional +5% [ICON_CULTURE] Culture and +5% [ICON_PRODUCTION] Production. Happy cities generate +1 [ICON_GreatWriter] Great Writer point, +1 [ICON_GreatArtist] Great Artist point and +1 [ICON_GreatMusician] Great Musician point per Theater. Ecstatic cities double all these amounts.</Text>
 		</Row>
 			
 		<!-- 指導者(メネリク2世) -->
@@ -196,10 +196,10 @@
 			<Text>Simon Bolivar</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>El Libertador</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>Can declare a War of Liberation after gaining the Defensive Tactics Civic. +100% [ICON_Culture] Culture if they have liberated a city in the past 10 turns.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

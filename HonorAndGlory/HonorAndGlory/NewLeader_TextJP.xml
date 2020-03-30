@@ -300,31 +300,31 @@
 		</Row>
 		<!-- コロンビア -->
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_1" Language="ja_JP">
-			<Text>シウヴィーニョ</Text>
+			<Text>アレハンドロ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_2" Language="ja_JP">
-			<Text>アンデルソン</Text>
+			<Text>ヘルマン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_3" Language="ja_JP">
-			<Text>ダニーロ</Text>
+			<Text>ヘスース</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_4" Language="ja_JP">
-			<Text>ノルベルト</Text>
+			<Text>ホセ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_1" Language="ja_JP">
-			<Text>ヴァレンチナ</Text>
+			<Text>アレハンドラ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_2" Language="ja_JP">
-			<Text>マヌエラ</Text>
+			<Text>フアナ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_3" Language="ja_JP">
-			<Text>ベアトリズ</Text>
+			<Text>リス</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_4" Language="ja_JP">
-			<Text>ヤスミン</Text>
+			<Text>マルタ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Language="ja_JP">
-			<Text>ピエトラ</Text>
+			<Text>シャキーラ</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -698,6 +698,7 @@
 		</Row>
 
 		<!-- ポルトガル -->
+		<!-- 現在のポルトガルの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="ja_JP">
 			<Text>リスボン</Text>
 		</Row>
@@ -814,35 +815,126 @@
 		</Row>
 
 		<!-- コロンビア -->
+		<!-- 現在のコロンビア、ベネズエラ、エクアドル、パナマの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" Language="ja_JP">
 			<Text>ボゴタ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_2" Language="ja_JP">
-			<Text>City1</Text>
+			<Text>メデジン</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_3" Language="ja_JP">
-			<Text>City2</Text>
+			<Text>カリ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_4" Language="ja_JP">
-			<Text>City3</Text>
+			<Text>バランキージャ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_5" Language="ja_JP">
-			<Text>City4</Text>
+			<Text>カルタヘナ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_6" Language="ja_JP">
-			<Text>City5</Text>
+			<Text>ククタ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_7" Language="ja_JP">
-			<Text>City6</Text>
+			<Text>ソレダード</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_8" Language="ja_JP">
-			<Text>City7</Text>
+			<Text>イバゲ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_9" Language="ja_JP">
-			<Text>City8</Text>
+			<Text>ブカラマンガ</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_10" Language="ja_JP">
-			<Text>City9</Text>
+			<Text>ソアチャ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_11" Language="ja_JP">
+			<Text>マラカイボ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_12" Language="ja_JP">
+			<Text>カラカス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_13" Language="ja_JP">
+			<Text>バレンシア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_14" Language="ja_JP">
+			<Text>バルキシメト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_15" Language="ja_JP">
+			<Text>グアヤナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_16" Language="ja_JP">
+			<Text>マトゥリン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_17" Language="ja_JP">
+			<Text>マラカイ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_18" Language="ja_JP">
+			<Text>バルセロナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_19" Language="ja_JP">
+			<Text>ペタレ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_20" Language="ja_JP">
+			<Text>ボリバル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_21" Language="ja_JP">
+			<Text>グアヤキル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_22" Language="ja_JP">
+			<Text>キト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_23" Language="ja_JP">
+			<Text>クエンカ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_24" Language="ja_JP">
+			<Text>サント・ドミンゴ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_25" Language="ja_JP">
+			<Text>マチャラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_26" Language="ja_JP">
+			<Text>ドゥラン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_27" Language="ja_JP">
+			<Text>マンタ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_28" Language="ja_JP">
+			<Text>ポルトビエホ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_29" Language="ja_JP">
+			<Text>ロハ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_30" Language="ja_JP">
+			<Text>アンバト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_31" Language="ja_JP">
+			<Text>パナマ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_32" Language="ja_JP">
+			<Text>サン・ミゲリート</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_33" Language="ja_JP">
+			<Text>ラス・クンブレス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_34" Language="ja_JP">
+			<Text>ラ・チョレラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_35" Language="ja_JP">
+			<Text>トクメン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_36" Language="ja_JP">
+			<Text>パコラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_37" Language="ja_JP">
+			<Text>アライハン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_38" Language="ja_JP">
+			<Text>ダビッド</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_39" Language="ja_JP">
+			<Text>ビスタ・アレグレ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_40" Language="ja_JP">
+			<Text>サンティアーゴ・デ・ベラグアス</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->
@@ -1061,12 +1153,27 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_MONDEGO_RIVER_NAME" Language="ja_JP">
 			<Text>モンデゴ川</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_ATRATO_RIVER_NAME" Language="ja_JP">
+			<Text>アトラト川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_GUAYAS_RIVER_NAME" Language="ja_JP">
+			<Text>グアヤス川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_GATUN_RIVER_NAME" Language="ja_JP">
+			<Text>ガトゥン川</Text>
+		</Row>
 		<!-- 火山 -->
 		<Row Tag="LOC_NAMED_HAG_VOLCANO_ADWA_NAME" Language="ja_JP">
 			<Text>アドワ火山</Text>
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_VOLCANO_AFDERA_NAME" Language="ja_JP">
 			<Text>アフデラ火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_CUMBAL_NAME" Language="ja_JP">
+			<Text>クンバル火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_NEVADO_DEL_HUILA_NAME" Language="ja_JP">
+			<Text>ネバドデルウイラ</Text>
 		</Row>
 		<!-- 山・山脈 -->
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME" Language="ja_JP">
@@ -1117,6 +1224,18 @@
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DENDI_NAME" Language="ja_JP">
 			<Text>デンディ山</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_CHIMBORAZO_NAME" Language="ja_JP">
+			<Text>チンボラソ山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_CRISTOBAL_COLON_NAME" Language="ja_JP">
+			<Text>クリストバル・コロン山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_PICO_EL_TURMAL_NAME" Language="ja_JP">
+			<Text>ピコ・エル・トゥルマル</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_SANTIAGO_NAME" Language="ja_JP">
+			<Text>サンチアゴ山</Text>
+		</Row>
 		<!-- 湖 -->
 		<Row Tag="LOC_NAMED_HAG_LAKE_RYBACHIY_ZALIV_NAME" Language="ja_JP">
 			<Text>ライバチイー・ザリブ</Text>
@@ -1147,6 +1266,18 @@
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME" Language="ja_JP">
 			<Text>サント・アンドレー湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_CIENAGA_DE_GUAJARO_NAME" Language="ja_JP">
+			<Text>シエナガ・デ・グアハロ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_CIENAGA_DE_QUINTANILLA_NAME" Language="ja_JP">
+			<Text>シエナガ・デ・キンタニージャ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_LURUACO_LAKE_NAME" Language="ja_JP">
+			<Text>ルルアコ湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_BAYANO_LAKE_NAME" Language="ja_JP">
+			<Text>バヤノ湖</Text>
 		</Row>
 		
 		<!-- プロジェクト -->

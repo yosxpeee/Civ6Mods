@@ -322,6 +322,18 @@
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
 		</Row>
+		
+		<!-- シモン・ボリバル -->
+		<!-- 解放戦争の開始が早い -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
+			<ModifierId>TRAIT_LIBERATION_WAR_PREREQ_OVERRIDE</ModifierId><!-- GSのロバート・ブルースと同じ -->
+		</Row>
+		<!-- 都市国家を解放すると10ターンの間文化出力が100%上がる -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -465,6 +477,12 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		
+		<!-- 都市国家を解放すると10ターンの間文化出力が100%上がる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -711,6 +729,28 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		
+		<!-- 都市国家を解放すると10ターンの間文化出力が100%上がる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>LIBERATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>

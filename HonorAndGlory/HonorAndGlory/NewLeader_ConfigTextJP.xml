@@ -88,19 +88,19 @@
 
 		<!-- 文明(コロンビア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_NAME" Language="ja_JP">
-			<Text>コロンビア</Text>
+			<Text>大コロンビア</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="ja_JP">
-			<Text>コロンビア</Text>
+			<Text>大コロンビア</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_ADJECTIVE" Language="ja_JP">
-			<Text>コロンビアの</Text>
+			<Text>大コロンビアの</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME" Language="ja_JP">
 			<Text>ラテン・アメリカの交差点</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>「幸せである」状態の都市は [ICON_CULTURE] 文化力+5%と[ICON_PRODUCTION] 生産力+5%。また、劇場広場毎に [ICON_GreatWriter] 大著述家ポイント+1、[ICON_GreatArtist] 大芸術家ポイント+1、[ICON_GreatMusician] 大音楽家ポイント+1を産出する。「興奮している」状態の都市はこのボーナスが2倍になる。</Text>
 		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
@@ -199,7 +199,7 @@
 			<Text>解放者</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>社会制度「防御戦術」を獲得すると、解放戦争を宣言できるようになる。過去10ターンに都市を解放すると、[ICON_Culture] 文化力+100%。</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

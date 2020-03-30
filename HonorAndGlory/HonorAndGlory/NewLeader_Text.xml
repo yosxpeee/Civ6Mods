@@ -300,31 +300,31 @@
 		</Row>
 		<!-- コロンビア -->
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_1" Language="en_US">
-			<Text>Silvinho</Text>
+			<Text>Alejandro</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_2" Language="en_US">
-			<Text>Anderson</Text>
+			<Text>Jerman</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_3" Language="en_US">
-			<Text>Danilo</Text>
+			<Text>Jesus</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_4" Language="en_US">
-			<Text>Norbert</Text>
+			<Text>Jose</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_1" Language="en_US">
-			<Text>Valentina</Text>
+			<Text>Alejandra</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_2" Language="en_US">
-			<Text>Manuela</Text>
+			<Text>Juana</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_3" Language="en_US">
-			<Text>Beatriz</Text>
+			<Text>Liz</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_4" Language="en_US">
-			<Text>Yasmin</Text>
+			<Text>Martha</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Language="en_US">
-			<Text>Pietra</Text>
+			<Text>Shakira</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -698,6 +698,7 @@
 		</Row>
 
 		<!-- ポルトガル -->
+		<!-- 現在のポルトガルの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="en_US">
 			<Text>Lisbon</Text>
 		</Row>
@@ -814,35 +815,126 @@
 		</Row>
 
 		<!-- コロンビア -->
+		<!-- 現在のコロンビア、ベネズエラ、エクアドル、パナマの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" Language="en_US">
 			<Text>Bogota</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_2" Language="en_US">
-			<Text>City1</Text>
+			<Text>Medellin</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_3" Language="en_US">
-			<Text>City2</Text>
+			<Text>Cali</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_4" Language="en_US">
-			<Text>City3</Text>
+			<Text>Barranquilla</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_5" Language="en_US">
-			<Text>City4</Text>
+			<Text>Cartagena</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_6" Language="en_US">
-			<Text>City5</Text>
+			<Text>Cucuta</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_7" Language="en_US">
-			<Text>City6</Text>
+			<Text>Soledad</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_8" Language="en_US">
-			<Text>City7</Text>
+			<Text>Ibague</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_9" Language="en_US">
-			<Text>City8</Text>
+			<Text>Bucaramanga</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_10" Language="en_US">
-			<Text>City9</Text>
+			<Text>Soacha</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_11" Language="en_US">
+			<Text>Maracaibo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_12" Language="en_US">
+			<Text>Caracas</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_13" Language="en_US">
+			<Text>Valencia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_14" Language="en_US">
+			<Text>Barquisimeto</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_15" Language="en_US">
+			<Text>Guayana</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_16" Language="en_US">
+			<Text>Maturin</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_17" Language="en_US">
+			<Text>Maracay</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_18" Language="en_US">
+			<Text>Barcelona</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_19" Language="en_US">
+			<Text>Petare</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_20" Language="en_US">
+			<Text>Bolivar</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_21" Language="en_US">
+			<Text>Guayaquil</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_22" Language="en_US">
+			<Text>Quito</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_23" Language="en_US">
+			<Text>Cuenca</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_24" Language="en_US">
+			<Text>Santo Domingo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_25" Language="en_US">
+			<Text>Machala</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_26" Language="en_US">
+			<Text>Duran</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_27" Language="en_US">
+			<Text>Manta</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_28" Language="en_US">
+			<Text>Portoviejo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_29" Language="en_US">
+			<Text>Loja</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_30" Language="en_US">
+			<Text>Ambato</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_31" Language="en_US">
+			<Text>Panama</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_32" Language="en_US">
+			<Text>San Miguelito</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_33" Language="en_US">
+			<Text>Las Cumbres</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_34" Language="en_US">
+			<Text>La Chorrera</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_35" Language="en_US">
+			<Text>Tocumen</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_36" Language="en_US">
+			<Text>Pacora</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_37" Language="en_US">
+			<Text>Arraijan</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_38" Language="en_US">
+			<Text>David</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_39" Language="en_US">
+			<Text>Vista Alegre</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_40" Language="en_US">
+			<Text>Santiago de Veraguas</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->
@@ -1061,12 +1153,27 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_MONDEGO_RIVER_NAME" Language="en_US">
 			<Text>Mondego River</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_ATRATO_RIVER_NAME" Language="en_US">
+			<Text>Atrato River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_GUAYAS_RIVER_NAME" Language="en_US">
+			<Text>Guayas River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_GATUN_RIVER_NAME" Language="en_US">
+			<Text>Gatun River</Text>
+		</Row>
 		<!-- 火山 -->
 		<Row Tag="LOC_NAMED_HAG_VOLCANO_ADWA_NAME" Language="en_US">
 			<Text>Adwa Volcano</Text>
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_VOLCANO_AFDERA_NAME" Language="en_US">
 			<Text>Afdera Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_CUMBAL_NAME" Language="en_US">
+			<Text>Cumbal Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_NEVADO_DEL_HUILA_NAME" Language="en_US">
+			<Text>Nevado Del Huila</Text>
 		</Row>
 		<!-- 山・山脈 -->
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME" Language="en_US">
@@ -1117,6 +1224,18 @@
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DENDI_NAME" Language="en_US">
 			<Text>Mount Dendi</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_CHIMBORAZO_NAME" Language="en_US">
+			<Text>Mount Chimborazo</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_CRISTOBAL_COLON_NAME" Language="en_US">
+			<Text>Mount Cristobal Colon</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_PICO_EL_TURMAL_NAME" Language="en_US">
+			<Text>Pico El Turmal</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_SANTIAGO_NAME" Language="en_US">
+			<Text>Mount Santiago</Text>
+		</Row>
 		<!-- 湖 -->
 		<Row Tag="LOC_NAMED_HAG_LAKE_RYBACHIY_ZALIV_NAME" Language="en_US">
 			<Text>Rybachiy Zaliv</Text>
@@ -1148,7 +1267,19 @@
 		<Row Tag="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME" Language="en_US">
 			<Text>Santo Andre Lake</Text>
 		</Row>
-		
+		<Row Tag="LOC_NAMED_HAG_LAKE_CIENAGA_DE_GUAJARO_NAME" Language="en_US">
+			<Text>Cienaga De Guajaro</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_CIENAGA_DE_QUINTANILLA_NAME" Language="en_US">
+			<Text>Cienaga De Quintanilla</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_LURUACO_LAKE_NAME" Language="en_US">
+			<Text>Luruaco Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_BAYANO_LAKE_NAME" Language="en_US">
+			<Text>Bayano Lake</Text>
+		</Row>
+
 		<!-- プロジェクト -->
 		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_NAME" Language="en_US">
 			<Text>Move Capital</Text>
