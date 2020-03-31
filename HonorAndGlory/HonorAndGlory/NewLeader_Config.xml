@@ -261,7 +261,7 @@
 			 Icon="ICON_UNIT_HAG_JAPAN_ZERO"
 			 Name="LOC_UNIT_HAG_JAPAN_ZERO_NAME"
 			 Description="LOC_UNIT_HAG_JAPAN_ZERO_DESCRIPTION"
-			 SortIndex="10" />
+			 SortIndex="20" />
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_JAPAN" 
 			 LeaderType="LEADER_HAG_HIDEKI_TOJO" 
@@ -303,7 +303,7 @@
 			 Icon="ICON_UNIT_HAG_RUSSIAN_T34"
 			 Name="LOC_UNIT_HAG_RUSSIAN_T34_NAME"
 			 Description="LOC_UNIT_HAG_RUSSIAN_T34_DESCRIPTION"
-			 SortIndex="10" />
+			 SortIndex="20" />
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_RUSSIA" 
 			 LeaderType="LEADER_HAG_STALIN" 
@@ -312,5 +312,14 @@
 			 Name="LOC_DISTRICT_LAVRA_NAME" 
 			 Description="LOC_DISTRICT_LAVRA_DESCRIPTION" 
 			 SortIndex="30" />
+		<!-- シモン・ボリバル -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_COLOMBIA"
+			 LeaderType="LEADER_HAG_SIMON_BOLIVAR"
+			 Type="UNIT_HAG_COLOMBIA_LLANERO"
+			 Icon="ICON_UNIT_HAG_COLOMBIA_LLANERO"
+			 Name="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME"
+			 Description="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"
+			 SortIndex="10" />
 	</PlayerItems>
 </GameData>

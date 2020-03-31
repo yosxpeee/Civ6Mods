@@ -9,12 +9,14 @@
 		<Row Type="UNIT_HAG_JAPAN_ZERO"              Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34"             Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_COLOMBIA_LLANERO"        Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
 		<Row Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_PORTUGAL_NAU"            Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_COLOMBIA_LLANERO"        Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<!-- AIの動き -->
 	<UnitAiInfos>
@@ -50,6 +52,12 @@
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
@@ -76,6 +84,9 @@
 
 		<Row Type="UNIT_HAG_RUSSIAN_T34" Tag="CLASS_HEAVY_CHARIOT"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34" Tag="CLASS_HEAVY_CAVALRY"/>
+
+		<Row Type="UNIT_HAG_COLOMBIA_LLANERO" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_HAG_COLOMBIA_LLANERO" Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
@@ -141,7 +152,14 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_RUSSIAN_T34_NAME" Description="LOC_UNIT_HAG_RUSSIAN_T34_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_COMBUSTION"
 			 TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"/>
-	 </Units>
+		<!-- リャネロ -->
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" Cost="385" Maintenance="2" BaseMoves="5" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="67" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Description="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_RIFLING" 
+			 TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO" />
+	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<!-- マハール・セファリ：機械化歩兵-->
@@ -158,6 +176,8 @@
 		<Row Unit="UNIT_HAG_PORTUGAL_NAU"            UpgradeUnit="UNIT_IRONCLAD"/>
 		<!-- T-34：近代的機甲部隊 -->
 		<Row Unit="UNIT_HAG_RUSSIAN_T34"             UpgradeUnit="UNIT_MODERN_ARMOR"/>
+		<!-- リャネロ：近代的機甲部隊 -->
+		<Row Unit="UNIT_HAG_COLOMBIA_LLANERO"        UpgradeUnit="UNIT_MODERN_ARMOR"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>

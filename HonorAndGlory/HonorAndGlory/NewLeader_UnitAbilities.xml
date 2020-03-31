@@ -14,6 +14,7 @@
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                    Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                    Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"                               Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"                           Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
@@ -29,6 +30,7 @@
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"/>
 		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
+		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
 		<!-- 指導者特性 -->
 		<Row Type="ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY" Tag="CLASS_RECON"/>
 		<Row Type="ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY" Tag="CLASS_MELEE"/>
@@ -84,6 +86,7 @@
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                    Name="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"                    Description="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                    Name="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"                    Description="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_PORTUGAL_NAU"                               Name="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_NAME"                               Description="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"                           Name="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_NAME"                           Description="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -111,6 +114,11 @@
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
 			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId><!-- GSのフェニキアのビレームと同じ -->
+		</Row>
+		<!-- リャネロ：平地で戦闘力+5 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_COLOMBIA_LLANERO</UnitAbilityType>
+			<ModifierId>HAG_LLANERO_BONUS_ON_FLAT</ModifierId>
 		</Row>
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
 		<Row>
@@ -151,6 +159,12 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>ADJECENT_DESERT_REQUIREMENTS_LEADER_HAG_MULAY_ISMAIL</SubjectRequirementSetId>
 		</Row>
+		<!-- リャネロ：平地で戦闘力+5 -->
+		<Row>
+			<ModifierId>HAG_LLANERO_BONUS_ON_FLAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
 		<Row>
 			<ModifierId>COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2</ModifierId>
@@ -185,6 +199,12 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
+		<!-- リャネロ：平地で戦闘力+5 -->
+		<Row>
+			<ModifierId>HAG_LLANERO_BONUS_ON_FLAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス+3 -->
 		<Row>
 			<ModifierId>COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2</ModifierId>
@@ -206,13 +226,20 @@
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
+		<!-- 砂漠or砂漠丘陵 -->
 		<Row>
 			<RequirementSetId>ADJECENT_DESERT_REQUIREMENTS_LEADER_HAG_MULAY_ISMAIL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- 平地 -->
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<!-- 条件定義 -->
 	<RequirementSetRequirements>
+		<!-- 砂漠or砂漠丘陵 -->
 		<Row>
 			<RequirementSetId>ADJECENT_DESERT_REQUIREMENTS_LEADER_HAG_MULAY_ISMAIL</RequirementSetId>
 			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_LEADER_HAG_MULAY_ISMAIL</RequirementId>
@@ -221,20 +248,90 @@
 			<RequirementSetId>ADJECENT_DESERT_REQUIREMENTS_LEADER_HAG_MULAY_ISMAIL</RequirementSetId>
 			<RequirementId>PLOT_IS_DESERT_HILLS_TERRAIN_REQUIREMENT</RequirementId><!-- バニラにある -->
 		</Row>
+		<!-- 平地 -->
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_SNOW_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
+		<!-- 砂漠にいる -->
 		<Row>
 			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_LEADER_HAG_MULAY_ISMAIL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 平地にいる -->
+		<Row>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_SNOW_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
 	<RequirementArguments>
+		<!-- 砂漠にいる -->
 		<Row>
 			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_LEADER_HAG_MULAY_ISMAIL</RequirementId>
 			<Name>TerrainType</Name>
 			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<!-- 平地にいる -->
+		<Row>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_SNOW_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
 		</Row>
 	</RequirementArguments>
 	<!-- 戦闘プレビューのテキスト -->
@@ -242,5 +339,6 @@
 		<Row ModifierId="COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2"  Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2_DESCRIPTION"/>
 		<Row ModifierId="COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL" Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
 		<Row ModifierId="COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL"  Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
+		<Row ModifierId="HAG_LLANERO_BONUS_ON_FLAT"                            Context="Preview" Text="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION"/>
 	</ModifierStrings>
 </GameData>

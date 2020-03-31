@@ -1013,6 +1013,9 @@
 		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="ja_JP">
 			<Text>防戦時はユニットの [ICON_Strength] 戦闘力+3。</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION" Language="ja_JP">
+			<Text>平地での戦闘時に [ICON_Strength] 戦闘力+{1_Amount}。</Text>
+		</Row>
 		
 		<!-- 隣接ボーナス効果 -->
 		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_GOLD" Language="ja_JP">

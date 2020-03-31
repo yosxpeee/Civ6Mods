@@ -299,6 +299,20 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_RUSSIAN_T34_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<!-- UU(リャネロ) -->
+		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="en_US">
+			<Text>Llanero</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" Language="en_US">
+			<Text>Colombia unique Industrial era unit. +5 [ICON_Strength] Strength when fighting on flag ground. Lower maintenance cost.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="en_US">
+			<Text>Colombia unique unit: Llanero</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">

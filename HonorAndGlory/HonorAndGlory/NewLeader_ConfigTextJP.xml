@@ -280,7 +280,7 @@
 			<Text>ルネサンス時代のポルトガル帝国固有のユニット。キャラベルに取って代わる。[ICON_Movement] 移動力+1、視界+1。すべての陣形ユニットは護衛の [ICON_Movement] 移動速度を継承する。ナウ船の4タイル以内にいる交易商ユニットは、水域タイルで略奪を受けない。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_PORTUGAL_NAU_NAME" Language="ja_JP">
-			<Text>ポルトガル帝国固有の建造物: ナウ船</Text>
+			<Text>ポルトガル帝国固有のユニット: ナウ船</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_PORTUGAL_NAU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
@@ -294,10 +294,24 @@
 			<Text>近代のヨシフ・スターリン固有のユニット。戦車に取って代わる。[ICON_Strength] 戦闘力+5。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_RUSSIAN_T34_NAME" Language="ja_JP">
-			<Text>ヨシフ・スターリン固有の建造物: T-34</Text>
+			<Text>ヨシフ・スターリン固有のユニット: T-34</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_RUSSIAN_T34_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>第二次世界大戦から冷戦時代にかけてソビエト連邦を中心に使用された中戦車。1945年末までに5万7,000輌以上のT-34が作られた。当時としては強力な砲を備え、防御面では避弾経始を考慮した傾斜装甲を採用していた。</Text>
+		</Row>
+
+		<!-- UU(リャネロ) -->
+		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="ja_JP">
+			<Text>リャネロ</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代の大コロンビア固有のユニット。平地での [ICON_Strength] 戦闘力+5。維持コストが比較的低い。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="ja_JP">
+			<Text>大コロンビア固有のユニット: Llanero</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アルゼンチンとウルグアイにまたがるパンパの牧童(カウボーイ)。ベネズエラやコロンビア東部ではリャネロ、ブラジルではガウショ、チリではワッソという。南アメリカ解放の父シモン･ボリバルの優秀な兵力として働き、ベネズエラの解放に重要な役割を果たした。</Text>
 		</Row>
 		
 		<!-- UB(ステッレ) -->
