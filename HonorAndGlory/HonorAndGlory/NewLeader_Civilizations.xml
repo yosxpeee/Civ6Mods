@@ -31,6 +31,7 @@
 		<Row Type="CIVILIZATION_HAG_COLOMBIA"              Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_HAG_COLOMBIA"        Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_COLOMBIA_LLANERO"        Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_HAG_TEJO_ARENA"          Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>
@@ -131,6 +132,7 @@
 
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA" />
 	</CivilizationTraits>
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
@@ -156,6 +158,7 @@
 
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA"          Name="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME"         Description="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO"          Name="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME"/>
+		<Row TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA"            Name="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>

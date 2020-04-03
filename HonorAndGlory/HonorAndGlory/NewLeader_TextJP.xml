@@ -134,7 +134,13 @@
 		</Row>
 		<!-- シモン・ボリバル -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>シモン・ボリバル (シモン・ホセ・アントニオ・デ・ラ・サンティシマ・トリニダード・ボリバル・イ・パラシオス) は、1783年7月、ベネズエラのカラカスに生まれた。生家は金や銅の鉱山で富を築いた名家だった。両親の死後の1799年、教育を受けるため彼はスペインに渡った。[NEWLINE]「植民地人」を見下すスペイン人への嫌悪のほかに、ボリバルがここで得たのは若い妻だった。1802年にボリバルはマリア (マリア・テレサ・ロドリゲス・デル・トロ・イ・アライサ) と結婚する。その後、夫婦でベネズエラに戻るが、マリアは黄熱病に倒れてしまう。独り身になったボリバルは再び渡欧。ナポレオン1世を知り、心酔するも、ナポレオンが兄ジョゼフをスペイン王に立てたことから袂を別つ。1810年、ベネズエラの独立を目指して抵抗運動に参加。ほどなくして革命政権によってイギリスに派遣され、南米諸国の「自由」の戦いへの支持を訴えた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>だが、ベネズエラに戻ってからは芳しくない状況がつづいた。1813年5月、スペイン人に支配された国を取り戻さんと、ボリバルは軍を率いて進んだ。「カンパーニャ・アドミラブル (素晴らしき闘争)」 はこのようにして始まり、短命に終わったが、その年のうちにベネズエラ第二共和国の成立に至った。ボリバルは「解放者」と呼ばれ、南米全土で賞賛を浴びるが、その後首都カラカスが内戦状態に陥ったことから、ジャマイカへの亡命を余儀なくされる。ボリバルはこの地で『ジャマイカ書簡』を執筆。これは自由な中南米を目指す彼の理想を描いた論文で、多大な影響を及ぼした。イギリスやアメリカの後ろ盾を得るには至らなかったものの、ハイチの支援を取りつけることに成功している。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>3年にわたって一進一退の攻防がつづいた後、ボリバルは軍事面で卓越した指導力を発揮する。1819年のヌエバ・グラナダ進攻を皮切りに、解放者ことボリバルに率いられた革命は次々と成功を収めていった。文明史上稀に見る快進撃だった。ボリバルのリーダーシップのもと、1821年には大コロンビア (現在のベネズエラ、コロンビア、パナマ、エクアドル) が成立。1824年にはボリバルの手でペルーが解放され、翌1825年にはボリビアの建国に至る。ボリバルは大コロンビアの大統領に就任したが、その在任期間は短く、1830年に職を辞し、同年12月に結核で死去した。</Text>
 		</Row>
 		
 		<!-- Civilization specific historical text. -->
@@ -154,7 +160,7 @@
 			<Text>南ヨーロッパのイベリア半島に位置する。首都はリスボン。現在のポルトガルの前身となるポルトガル王国（Reino de Portugal）は大航海時代においてスペイン王国とともに活躍し、アフリカ・アジア・南米に広大な植民地を領有したことから「ポルトガル海上帝国」とも呼ばれた。ナポレオン戦争時には戦争から逃れるために宮廷を最大の植民地であるブラジルへ移したこともある。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_COLOMBIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>1819年から1831年まで南アメリカ北部にあったコロンビア共和国を指す。グラン・コロンビアとも呼ばれる。旧ヌエバ・グラナダ副王領の領域だったベネズエラ、ヌエバ・グラナダ、南部地区（グアヤキル、キト、クエンカの連合）からなり、その領域は現在のベネズエラ、コロンビア、エクアドル、パナマの全域と、ガイアナ、ブラジル、ペルーの一部に相当する。</Text>
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
@@ -963,7 +969,7 @@
 			<Text>愛とか友情などというものはすぐに壊れるが、恐怖は長続きする</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE" Language="ja_JP">
-			<Text>指導者の一言コメント</Text>
+			<Text>最大の背信は、忘恩である</Text>
 		</Row>
 		
 		<!-- Leader DOM -->
@@ -1058,7 +1064,17 @@
 		<Row Tag="LOC_ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE_DESCRIPTION" Language="ja_JP">
 			<Text>戦闘経験値+25%。(ミーラーン・シャー)</Text>
 		</Row>
-
+		<!-- アントニオ・ホセ・デ・スクレ -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE_NAME" Language="ja_JP">
+			<Text>アントニオ・ホセ・デ・スクレ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>南アメリカの諸国をスペインから独立に導いた軍人、政治家。第2代ボリビア大統領。初代はシモン・ボリバルが名目的な立場のみだったので、事実上の初代大統領であり、またボリバルの部下かつ良き理解者としても知られる。 </Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAG_ANTONIO_JOSE_DE_SUCRE_ACTIVE" Language="ja_JP">
+			<Text>ターン毎のこの都市の忠誠心+4。</Text>
+		</Row>
+		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->
 		<Row Tag="LOC_RELIGION_HAG_JAINISM" Language="ja_JP">

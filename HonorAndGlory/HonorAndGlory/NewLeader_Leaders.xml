@@ -115,7 +115,7 @@
 
 		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_HAG_TITO"/>
 		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
-		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/><!-- 科学勝利狙い -->
+		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/><!-- 科学重視 -->
 		
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"/>
 		
@@ -124,6 +124,7 @@
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
 
 		<Row LeaderType="LEADER_HAG_MARIA_I"       TraitType="TRAIT_LEADER_HAG_MARIA_I"/>
+		<Row LeaderType="LEADER_HAG_MARIA_I"       TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
 
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_HAG_STALIN"/>
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"/>
@@ -132,6 +133,7 @@
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
 
 		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/><!-- 文化重視 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -324,12 +326,12 @@
 		</Row>
 		
 		<!-- シモン・ボリバル -->
-		<!-- 解放戦争の開始が早い -->
+		<!-- 保護戦争の開始が早い -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
-			<ModifierId>TRAIT_LIBERATION_WAR_PREREQ_OVERRIDE</ModifierId><!-- GSのロバート・ブルースと同じ -->
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
 		</Row>
-		<!-- 都市国家を解放すると10ターンの間文化出力が100%上がる -->
+		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
@@ -478,8 +480,13 @@
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
 		</Row>
-		
-		<!-- 都市国家を解放すると10ターンの間文化出力が100%上がる -->
+
+		<!-- 保護戦争の開始が早い -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_ACTION_OVERRIDE</ModifierType>
+		</Row>
+		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
@@ -732,8 +739,19 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
-		
-		<!-- 都市国家を解放すると10ターンの間文化出力が100%上がる -->
+
+		<!-- 保護戦争の開始が早い -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>DiplomaticAction</Name>
+			<Value>DIPLOACTION_DECLARE_PROTECTORATE_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MILITARY_TRADITION</Value>
+		</Row>
+		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
 			<Name>DiplomaticYieldSource</Name>
@@ -873,6 +891,7 @@
 		<Row ListType="HAGSimonBolivarCivics"/>
 		<Row ListType="HAGSimonBolivarTech"/>
 		<Row ListType="HAGSimonBolivarWonders"/>
+		<Row ListType="HAGSimonBolivarCulture"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- メネリク2世 -->
@@ -926,6 +945,7 @@
 		<Row ListType="HAGSimonBolivarCivics"   LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Civics"/>
 		<Row ListType="HAGSimonBolivarTech"     LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Technologies"/>
 		<Row ListType="HAGSimonBolivarWonders"  LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Buildings"/>
+		<Row ListType="HAGSimonBolivarCulture"  LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Yields"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- メネリク2世 -->
@@ -1029,14 +1049,21 @@
 		<Row ListType="HAGStalinWonders"  Item="BUILDING_ALHAMBRA"          Favored="true"/><!-- アルハンブラ宮殿 -->
 		<Row ListType="HAGStalinWonders"  Item="BUILDING_FORBIDDEN_CITY"    Favored="true"/><!-- 紫禁城 -->
 		<!-- シモン・ボリバル -->
-		<Row ListType="HAGSimonBolivarDistrict"    Item="DISTRICT_COMMERCIAL_HUB"  Favored="true"/><!-- 商業ハブ -->
-		<Row ListType="HAGSimonBolivarCivics"      Item="CIVIC_MEDIEVAL_FAIRES"    Favored="true"/><!-- 中世の市 -->
-		<Row ListType="HAGSimonBolivarCivics"      Item="CIVIC_GUILDS"             Favored="true"/><!-- ギルド -->
-		<Row ListType="HAGSimonBolivarTech"        Item="TECH_CURRENCY"            Favored="true"/><!-- 通貨 -->
-		<Row ListType="HAGSimonBolivarTech"        Item="TECH_HORSEBACK_RIDING"    Favored="true"/><!-- 騎乗 -->
-		<Row ListType="HAGSimonBolivarTech"        Item="TECH_MILITARY_SCIENCE"    Favored="true"/><!-- 軍事学 -->
-		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_HANGING_GARDENS" Favored="true"/><!-- 空中庭園 -->
-		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_GREAT_ZIMBABWE"  Favored="true"/><!-- グレート・ジンバブエ遺跡 -->
+		<Row ListType="HAGSimonBolivarDistrict"    Item="DISTRICT_THEATER"               Favored="true"/><!-- 劇場広場 -->
+		<Row ListType="HAGSimonBolivarDistrict"    Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="true"/><!-- 総合娯楽施設 -->
+		<Row ListType="HAGSimonBolivarCivics"      Item="CIVIC_GAMES_RECREATION"         Favored="true"/><!-- 遊びと娯楽 -->
+		<Row ListType="HAGSimonBolivarTech"        Item="CIVIC_DRAMA_POETRY"             Favored="true"/><!-- 演劇と詩 -->
+		<Row ListType="HAGSimonBolivarTech"        Item="CIVIC_HUMANISM"                 Favored="true"/><!-- ヒューマニズム -->
+		<Row ListType="HAGSimonBolivarCivics"      Item="CIVIC_OPERA_BALLET"             Favored="true"/><!-- オペラとバレエ -->
+		<Row ListType="HAGSimonBolivarTech"        Item="TECH_HORSEBACK_RIDING"          Favored="true"/><!-- 騎乗 -->
+		<Row ListType="HAGSimonBolivarTech"        Item="TECH_PRINTING"                  Favored="true"/><!-- 印刷 -->
+		<Row ListType="HAGSimonBolivarTech"        Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGSimonBolivarTech"        Item="TECH_COMPUTERS"                 Favored="true"/><!-- コンピュータ -->
+		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_HANGING_GARDENS"       Favored="true"/><!-- 空中庭園 -->
+		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_HERMITAGE"             Favored="true"/><!-- エルミタージュ美術館 -->
+		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_SYDNEY_OPERA_HOUSE"    Favored="true"/><!-- シドニーオペラハウス -->
+		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_CRISTO_REDENTOR"       Favored="true"/><!-- コルコバードのキリスト像 -->
+		<Row ListType="HAGSimonBolivarCulture"     Item="YIELD_CULTURE"                  Value="15"/>
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>

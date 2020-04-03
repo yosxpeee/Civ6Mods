@@ -134,9 +134,14 @@
 		</Row>
 		<!-- シモン・ボリバル -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Leader specific historical text</Text>
+			<Text>Simón José Antonio de la Santisima Trinidad Bolivar y Palacios was born in July 1783 AD in Caracas to a family rich from gold and copper mines in Venezuela; upon the death of his parents, he was sent to Spain in 1799 to gain an education. Besides a dislike for the heavy-handed Spanish attitude towards “colonials,” Simón acquired a young wife, Maria Teresa Rodriguez del Toro y Alaysa in 1802. Returning to Venezuela with her husband, she died from yellow fever … leaving Bolivar free to return to Europe and make the acquaintance of Napoleon I, whom he came to admire. But when Napoleon made Joseph king of Spain, Bolivar joined the resistance movement in 1810 to make Venezuela independent. He was shortly thereafter sent to Britain by the revolutionary junta to gain support for the Latin American fight for “freedom.”</Text>
 		</Row>
-		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>But things did not go well back in Venezuela, and in May 1813 Bolivar led an invasion to wrest control of the country from the Spanish; thus began the 'Campaña Admirable' which resulted in the creation of the brief Venezuelan Republic later that year. Bolivar was hailed across the continent as El Liberator. But the ensuing civil war in his homeland forced him into exile in Jamaica, where he drafted La Carta de Jamaica, an influential treatise outlining his vision for a free Central and South America. Although he failed in his efforts to gain the backing of either Great Britain or the United States, he did manage support from Haiti.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>After three years of indecisive defeats and victories, Bolivar displayed his brilliance in military affairs by his campaign to capture New Grenada in 1819. There followed a string of revolutionary successes by El Liberator unmatched in the course of civilization. In 1821 the nation of Gran Colombia (what is now Venezuela, Colombia, Panama and Ecuador) was created under Bolivar’s leadership. In 1824 he liberated Peru, followed by the creation of Bolivia in 1825. After a brief stint as dictator of Gran Columbia, Bolivar resigned his post in 1830, dying of tuberculosis in December of that year.</Text>
+		</Row>
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
@@ -1058,7 +1063,17 @@
 		<Row Tag="LOC_ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
 			<Text>+25% Earned experience from combat (Miran Shah)</Text>
 		</Row>
-		
+		<!-- アントニオ・ホセ・デ・スクレ -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE_NAME" Language="en_US">
+			<Text>Simón Bolívar</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Simón José Antonio de la Santisima Trinidad Bolivar y Palacios was born in July 1783 AD in Caracas to a family rich from gold and copper mines in Venezuela; upon the death of his parents, he was sent to Spain in 1799 to gain an education. Besides a dislike for the heavy-handed Spanish attitude towards “colonials,” Simón acquired a young wife, Maria Teresa Rodriguez del Toro y Alaysa in 1802. Returning to Venezuela with her husband, she died from yellow fever … leaving Bolivar free to return to Europe and make the acquaintance of Napoleon I, whom he came to admire. But when Napoleon made Joseph king of Spain, Bolivar joined the resistance movement in 1810 to make Venezuela independent. He was shortly thereafter sent to Britain by the revolutionary junta to gain support for the Latin American fight for “freedom.”</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAG_ANTONIO_JOSE_DE_SUCRE_ACTIVE" Language="en_US">
+			<Text>Grants +4 Loyalty per turn for this city.</Text>
+		</Row>
+
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->
 		<Row Tag="LOC_RELIGION_HAG_JAINISM" Language="en_US">

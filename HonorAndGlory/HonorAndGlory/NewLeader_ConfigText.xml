@@ -199,7 +199,7 @@
 			<Text>El Libertador</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="en_US">
-			<Text>Can declare a War of Liberation after gaining the Defensive Tactics Civic. +100% [ICON_Culture] Culture if they have liberated a city in the past 10 turns.</Text>
+			<Text>Can declare a War of Protectorate after gaining the Military Tradition Civic. +100% [ICON_Culture] Culture if they have liberated a city in the past 10 turns.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
@@ -342,6 +342,20 @@
 			<Text></Text>
 		</Row>
 
+		<!-- UB(テホのアリーナ) -->
+		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_NAME" Language="en_US">
+			<Text>Tejo Arena</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Gran Colombia. Replaces the Arena. +2 [ICON_Culture] Culture, +1 [ICON_Amenities] Amenity. Add +2 [ICON_Culture] Culture when unlock the Gun Powder technology.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME" Language="en_US">
+			<Text>Gran Colombia unique building: Tejo Arena</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TEJO_ARENA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- UD(フェイトリア) -->
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
 			<Text>Feitoria</Text>

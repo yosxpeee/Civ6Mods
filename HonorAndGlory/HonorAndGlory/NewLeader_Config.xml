@@ -321,5 +321,13 @@
 			 Name="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME"
 			 Description="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"
 			 SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_COLOMBIA"
+			 LeaderType="LEADER_HAG_SIMON_BOLIVAR"
+			 Type="BUILDING_HAG_TEJO_ARENA"
+			 Icon="ICON_BUILDING_HAG_TEJO_ARENA"
+			 Name="LOC_BUILDING_HAG_TEJO_ARENA_NAME"
+			 Description="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION"
+			 SortIndex="20" />
 	</PlayerItems>
 </GameData>

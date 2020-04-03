@@ -4,11 +4,13 @@
 	<Types>
 		<Row Type="BUILDING_HAG_ETHIOPIA_STELE"      Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_HAG_TIMURID_OBSERVATORY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HAG_TEJO_ARENA"          Kind="KIND_BUILDING"/>
 	</Types>
 	<!-- 置換設定 -->
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_HAG_ETHIOPIA_STELE"      ReplacesBuildingType="BUILDING_MONUMENT"/>
 		<Row CivUniqueBuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+		<Row CivUniqueBuildingType="BUILDING_HAG_TEJO_ARENA"          ReplacesBuildingType="BUILDING_ARENA"/>
 	</BuildingReplaces>
 	<!-- 主設定 -->
 	<Buildings>
@@ -21,6 +23,11 @@
 			 PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="250" AdvisorType="ADVISOR_TECHNOLOGY" 
 			 Maintenance="2" Housing="1" CitizenSlots="1" Entertainment="1" PrereqTech="TECH_ASTRONOMY" 
 			 TraitType="TRAIT_BUILDING_HAG_TIMURID_OBSERVATORY"/>
+		<!-- テホのアリーナ -->
+		<Row BuildingType="BUILDING_HAG_TEJO_ARENA" Name="LOC_BUILDING_HAG_TEJO_ARENA_NAME" Description="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION" 
+			 PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" 
+			 Maintenance="1" Entertainment="1" PrereqCivic="CIVIC_GAMES_RECREATION" 
+			 TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA"/>
 	</Buildings>
 	<!-- 前提の建造物 -->
 	<BuildingPrereqs>
@@ -33,6 +40,8 @@
 		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<!-- 天文台：科学力+5 -->
 		<Row BuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" YieldType="YIELD_SCIENCE" YieldChange="5"/>
+		<!-- テホのアリーナ：文化力+2 -->
+		<Row BuildingType="BUILDING_HAG_TEJO_ARENA" YieldType="YIELD_CULTURE" YieldChange="2"/>
 	</Building_YieldChanges>
 	<!-- 偉人ポイント -->
 	<Building_GreatPersonPoints>
@@ -48,9 +57,64 @@
 	<BuildingModifiers>
 		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" ModifierId="MONUMENT_LOYALTY"/>					<!-- RaFにある -->
 		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" ModifierId="MONUMENT_CULTURE_AT_FULL_LOYALTY"/>	<!-- RaFにある -->
+		<Row BuildingType="BUILDING_HAG_TEJO_ARENA"     ModifierId="HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER"/>
 	</BuildingModifiers>
+	<!-- 特殊効果の内容 -->
+	<Modifiers>
+		<Row>
+			<ModifierId>HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_TECH_GUNPOWDER_REQUIREMENTS_HAG</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HAG_TEJO_ARENA</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 特殊効果の発動条件 -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TECH_GUNPOWDER_REQUIREMENTS_HAG</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TECH_GUNPOWDER_REQUIREMENTS_HAG</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_TECH_GUNPOWDER_HAG</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TECH_GUNPOWDER_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TECH_GUNPOWDER_HAG</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_GUNPOWDER</Value>
+		</Row>
+	</RequirementArguments>
 	<!-- ロックバンド用観光爆弾 -->
 	<Building_TourismBombs_XP2>
 		<Row BuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" TourismBombValue="500"/>
+		<Row BuildingType="BUILDING_ARENA" TourismBombValue="250"/>
 	</Building_TourismBombs_XP2>
 </GameData>

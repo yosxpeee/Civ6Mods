@@ -402,11 +402,14 @@
 		
 		<!-- UB -->
 		<!-- ステッレ(モニュメントの使いまわし) -->
-		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE" Atlas="ICON_ATLAS_BUILDINGS"     Index="0"/>
-		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
+		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE"      Atlas="ICON_ATLAS_BUILDINGS"     Index="0"/>
+		<Row Name="ICON_BUILDING_HAG_ETHIOPIA_STELE"      Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="0"/>
 		<!-- 天文台(マドラサの使いまわし) -->
 		<Row Name="ICON_BUILDING_HAG_TIMURID_OBSERVATORY" Atlas="ICON_ATLAS_BUILDINGS"     Index="19"/>
 		<Row Name="ICON_BUILDING_HAG_TIMURID_OBSERVATORY" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="19"/>
+		<!-- テホのアリーナ(トラクトリの使いまわし) -->
+		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA"          Atlas="ICON_ATLAS_BUILDINGS"     Index="9"/>
+		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA"          Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="9"/>
 		
 		<!-- UD -->
 		<!-- フェイトリア(兵営の使いまわし) -->
