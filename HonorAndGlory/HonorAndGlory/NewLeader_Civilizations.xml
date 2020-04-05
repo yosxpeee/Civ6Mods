@@ -107,6 +107,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL"   LeaderType="LEADER_HAG_MARIA_I"       CapitalName="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_RUSSIA"         LeaderType="LEADER_HAG_STALIN"        CapitalName="LOC_CITY_NAME_MOSCOW" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   LeaderType="LEADER_HAG_SIMON_BOLIVAR" CapitalName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_GERMANY"        LeaderType="LEADER_HAG_ADOLF_HITLER"  CapitalName="LOC_CITY_NAME_BERLIN" />
 	</CivilizationLeaders>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>

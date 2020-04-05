@@ -2,6 +2,116 @@
 <GameInfo>
 	<!-- カラー設定 -->
 	<Colors>
+		<!-- 指導者のサブカラー用 -->
+		<Row>
+			<Type>COLOR_STANDARD_RED_LT_HAG</Type>
+			<Color>229,117,116,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_RED_MD_HAG</Type>
+			<Color>202,20,21,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_RED_DK_HAG</Type>
+			<Color>120,0,1,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_ORANGE_LT_HAG</Type>
+			<Color>255,178,60,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_ORANGE_MD_HAG</Type>
+			<Color>255,129,18,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_ORANGE_DK_HAG</Type>
+			<Color>120,61,2,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_YELLOW_LT_HAG</Type>
+			<Color>234,225,157,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_YELLOW_MD_HAG</Type>
+			<Color>247,216,1,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_YELLOW_DK_HAG</Type>
+			<Color>134,114,2,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_GREEN_LT_HAG</Type>
+			<Color>136,249,78,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_GREEN_MD_HAG</Type>
+			<Color>97,191,34,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_GREEN_DK_HAG</Type>
+			<Color>21,108,48,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_AQUA_LT_HAG</Type>
+			<Color>125,236,227,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_AQUA_MD_HAG</Type>
+			<Color>0,192,155,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_AQUA_DK_HAG</Type>
+			<Color>1,79,81,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_BLUE_LT_HAG</Type>
+			<Color>116,163,243,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_BLUE_MD_HAG</Type>
+			<Color>0,79,206,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_BLUE_DK_HAG</Type>
+			<Color>1,42,108,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_PURPLE_LT_HAG</Type>
+			<Color>183,128,230,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_PURPLE_MD_HAG</Type>
+			<Color>109,0,205,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_PURPLE_DK_HAG</Type>
+			<Color>55,0,101,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_MAGENTA_LT_HAG</Type>
+			<Color>255,153,255,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_MAGENTA_MD_HAG</Type>
+			<Color>255,0,255,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_MAGENTA_DK_HAG</Type>
+			<Color>117,0,115,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_WHITE_LT_HAG</Type>
+			<Color>249,249,249,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_WHITE_MD_HAG</Type>
+			<Color>83,83,83,160</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_STANDARD_WHITE_DK_HAG</Type>
+			<Color>24,24,24,160</Color>
+		</Row>
+		
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
 		<Row>
@@ -83,6 +193,15 @@
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_SIMON_BOLIVAR_SECONDARY</Type>
 			<Color>80,89,104,255</Color><!-- 少し青みがかった灰色 -->
+		</Row>
+		<!-- アドルフ・ヒトラー -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_ADOLF_HITLER_PRIMARY</Type>
+			<Color>24,24,24,255</Color><!-- 黒 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_ADOLF_HITLER_SECONDARY</Type>
+			<Color>174,174,174,255</Color><!-- 灰色 -->
 		</Row>
 		
 		<!-- 宗教 -->

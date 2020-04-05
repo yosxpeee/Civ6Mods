@@ -154,6 +154,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_SIMON_BOLIVAR</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_SIMON_BOLIVAR</Portrait>
 		</Row>
+		<!-- ドイツ(アドルフ・ヒトラー) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<LeaderType>LEADER_HAG_ADOLF_HITLER</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_GERMANY_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_GERMANY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_ADOLF_HITLER_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_ADOLF_HITLER</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_IMPERIAL_FREE_CITIES_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_GERMANY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_ADOLF_HITLER</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_ADOLF_HITLER</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->
@@ -329,5 +346,30 @@
 			 Name="LOC_BUILDING_HAG_TEJO_ARENA_NAME"
 			 Description="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION"
 			 SortIndex="20" />
+		<!-- アドルフ・ヒトラー -->
+		<Row Domain="Players:Expansion2_Players" 
+			 CivilizationType="CIVILIZATION_GERMANY" 
+			 LeaderType="LEADER_HAG_ADOLF_HITLER" 
+			 Type="UNIT_GERMAN_UBOAT" 
+			 Icon="ICON_UNIT_GERMAN_UBOAT" 
+			 Name="LOC_UNIT_GERMAN_UBOAT_NAME" 
+			 Description="LOC_UNIT_GERMAN_UBOAT_DESCRIPTION" 
+			 SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_GERMANY"
+			 LeaderType="LEADER_HAG_ADOLF_HITLER"
+			 Type="UNIT_HAG_GERMANY_JU87"
+			 Icon="ICON_UNIT_HAG_GERMANY_JU87"
+			 Name="LOC_UNIT_HAG_GERMANY_JU87_NAME"
+			 Description="LOC_UNIT_HAG_GERMANY_JU87_DESCRIPTION"
+			 SortIndex="20" />
+		<Row Domain="Players:Expansion2_Players" 
+			 CivilizationType="CIVILIZATION_GERMANY" 
+			 LeaderType="LEADER_HAG_ADOLF_HITLER" 
+			 Type="DISTRICT_HANSA" 
+			 Icon="ICON_DISTRICT_HANSA" 
+			 Name="LOC_DISTRICT_HANSA_NAME" 
+			 Description="LOC_DISTRICT_HANSA_DESCRIPTION" 
+			 SortIndex="30" />
 	</PlayerItems>
 </GameData>

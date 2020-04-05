@@ -56,6 +56,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Detail)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ADOLF_HITLER_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ADOLF_HITLER_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- メネリク2世 -->
@@ -142,6 +148,11 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text>After three years of indecisive defeats and victories, Bolivar displayed his brilliance in military affairs by his campaign to capture New Grenada in 1819. There followed a string of revolutionary successes by El Liberator unmatched in the course of civilization. In 1821 the nation of Gran Colombia (what is now Venezuela, Colombia, Panama and Ecuador) was created under Bolivar’s leadership. In 1824 he liberated Peru, followed by the creation of Bolivia in 1825. After a brief stint as dictator of Gran Columbia, Bolivar resigned his post in 1830, dying of tuberculosis in December of that year.</Text>
 		</Row>
+		<!-- アドルフ・ヒトラー -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ADOLF_HITLER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
@@ -970,6 +981,9 @@
 		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="en_US">
@@ -999,13 +1013,8 @@
 		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
-		
-		<!-- Unit Abilities Text -->
-		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_NAME" Language="en_US">
-			<Text>Spirit of Adwa</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_DESCRIPTION" Language="en_US">
-			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory.</Text>
+		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
 		</Row>
 		
 		<!-- Unit Abilities Preview Text -->
@@ -1020,6 +1029,12 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION" Language="en_US">
 			<Text>+{1_Amount} [ICON_Strength] Combat Strength on Flat ground</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength bonus to heavy cavarly unit</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength bonus to naval ranged unit</Text>
 		</Row>
 		
 		<!-- 隣接ボーナス効果 -->

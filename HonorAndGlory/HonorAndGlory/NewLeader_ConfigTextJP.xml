@@ -201,6 +201,17 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="ja_JP">
 			<Text>社会制度「軍の伝統」を獲得すると、保護戦争を宣言できるようになる。過去10ターンに都市を解放すると、[ICON_Culture] 文化力+100%。</Text>
 		</Row>
+
+		<!-- 指導者(アドルフ・ヒトラー) -->
+		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_NAME" Language="ja_JP">
+			<Text>アドルフ・ヒトラー</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME" Language="ja_JP">
+			<Text>第三帝国総統</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION" Language="ja_JP">
+			<Text>未定</Text>
+		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
 		<Replace Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="ja_JP">
@@ -283,7 +294,7 @@
 			<Text>ポルトガル帝国固有のユニット: ナウ船</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_PORTUGAL_NAU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>15世紀に地中海で開発されたキャラック船という種類の帆船。ポルトガルでは「ナウ」と呼ばれる。乗員、物資、貨物を運ぶための豊富なスペースを有していたことから、貿易船として都合が良く、貨物と物資の積載能力が高かったため、航行期間を長期化でき、より少ない寄港による効率的な航海ルートを選択することもできた。 </Text>
 		</Row>
 
 		<!-- UU(T-34) -->
@@ -312,6 +323,20 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>アルゼンチンとウルグアイにまたがるパンパの牧童(カウボーイ)。ベネズエラやコロンビア東部ではリャネロ、ブラジルではガウショ、チリではワッソという。南アメリカ解放の父シモン･ボリバルの優秀な兵力として働き、ベネズエラの解放に重要な役割を果たした。</Text>
+		</Row>
+
+		<!-- UU(Ju87) -->
+		<Row Tag="LOC_UNIT_HAG_GERMANY_JU87_NAME" Language="ja_JP">
+			<Text>Ju87</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_GERMANY_JU87_DESCRIPTION" Language="ja_JP">
+			<Text>原子力時代のアドルフ・ヒトラー固有のユニット。重騎兵ユニットおよび海洋遠距離ユニットに対し [ICON_Strength] 戦闘力+10。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_GERMANY_JU87_NAME" Language="ja_JP">
+			<Text>アドルフ・ヒトラー固有のユニット: Ju87</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GERMANY_JU87_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ドイツにおいて第二次世界大戦中に使用された急降下爆撃機。愛称の「シュトゥーカ」（Stuka）とは、本来は本機種の固有の愛称ではなく、"急降下爆撃機"を意味するドイツ語の「Sturzkampfflugzeug」（シュトゥルツカンプフルクツォイク）の略であったが、本機がドイツ軍の用いた急降下爆撃機の代表として扱われたため、この名が用いられるようになった。日本語では「スツーカ」「ストゥーカ（ステューカ）」とも表記されている。</Text>
 		</Row>
 		
 		<!-- UB(ステッレ) -->

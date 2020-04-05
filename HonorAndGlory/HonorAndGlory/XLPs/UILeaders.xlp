@@ -90,6 +90,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
 		</Element>
+		<!-- アドルフ・ヒトラー -->
+		<Element>
+			<m_EntryID text="LEADER_HAG_ADOLF_HITLER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HAG_ADOLF_HITLER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_HAG_ADOLF_HITLER"/>
+			<m_ObjectName text="PORTRAIT_LEADER_HAG_ADOLF_HITLER"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

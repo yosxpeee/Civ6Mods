@@ -142,6 +142,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR256.dds"/>
+		<!-- アドルフ・ヒトラー -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER256.dds"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -313,7 +321,9 @@
 		<Row Name="ICON_LEADER_HAG_STALIN" Atlas="ICON_ATLAS_LEADER_HAG_STALIN" Index="0"/>
 		<!-- シモン・ボリバル -->
 		<Row Name="ICON_LEADER_HAG_SIMON_BOLIVAR" Atlas="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" Index="0"/>
-		
+		<!-- アドルフ・ヒトラー -->
+		<Row Name="ICON_LEADER_HAG_ADOLF_HITLER" Atlas="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" Index="0"/>
+
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
 	    <Row Name="ICON_CIVILIZATION_HAG_RYUKYU" Atlas="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" Index="0"/>
@@ -399,6 +409,16 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_COLOMBIA_LLANERO_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="1"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_COLOMBIA_LLANERO_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="1"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_COLOMBIA_LLANERO_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="1"/>
+		<!-- Ju87(爆撃機の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87"                                   Atlas="ICON_ATLAS_UNITS"                           Index="81"/>
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="81"/>
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="81"/>
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="81"/>
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="15"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_GERMANY_JU87_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="15"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_GERMANY_JU87_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="15"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_GERMANY_JU87_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="15"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_GERMANY_JU87_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="15"/>
 		
 		<!-- UB -->
 		<!-- ステッレ(モニュメントの使いまわし) -->

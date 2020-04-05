@@ -201,6 +201,17 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="en_US">
 			<Text>Can declare a War of Protectorate after gaining the Military Tradition Civic. +100% [ICON_Culture] Culture if they have liberated a city in the past 10 turns.</Text>
 		</Row>
+
+		<!-- 指導者(アドルフ・ヒトラー) -->
+		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_NAME" Language="en_US">
+			<Text>Adolf Hitler</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME" Language="en_US">
+			<Text>Third Reich Fuhrer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION" Language="en_US">
+			<Text>No traits</Text>
+		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
 		<Row Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="en_US">
@@ -311,6 +322,20 @@
 			<Text>Colombia unique unit: Llanero</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UU(Ju87) -->
+		<Row Tag="LOC_UNIT_HAG_GERMANY_JU87_NAME" Language="en_US">
+			<Text>Ju87</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_GERMANY_JU87_DESCRIPTION" Language="en_US">
+			<Text>Adolf Hitler unique Atomic era unit. +10 [ICON_Strength] Strength to heavy cavalry unit and naval ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_GERMANY_JU87_NAME" Language="en_US">
+			<Text>Adolf Hitler unique unit: Ju87</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GERMANY_JU87_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		

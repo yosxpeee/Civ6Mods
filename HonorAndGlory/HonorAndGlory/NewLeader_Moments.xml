@@ -17,6 +17,8 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_RUSSIAN_T34"              Texture="Moment_HAG_StalinT34.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_COLOMBIA_LLANERO"         Texture="Moment_UniqueUnit_America_Roughrider.dds"/><!-- ラフライダーの使いまわし -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_TEJO_ARENA"           Texture="Moment_HAG_Colombia_TejoArena.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_GERMANY_JU87"             Texture="Moment_HAG_AdolfHitler_Ju87.dds"/>
+		<!-- ラフライダーの使いまわし -->
 
 		<!-- 宗教 -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"      Texture="Moment_Religion_HAG_Jainism.dds"/>

@@ -517,7 +517,36 @@
 			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR256"/>
 		</Element>
-		
+		<!-- 指導者(アドルフ・ヒトラー) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ADOLF_HITLER32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ADOLF_HITLER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ADOLF_HITLER45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ADOLF_HITLER45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ADOLF_HITLER50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ADOLF_HITLER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ADOLF_HITLER55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ADOLF_HITLER55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ADOLF_HITLER64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ADOLF_HITLER64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ADOLF_HITLER80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ADOLF_HITLER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ADOLF_HITLER256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ADOLF_HITLER256"/>
+		</Element>
+
 		<!-- 都市国家(琉球) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU22"/>

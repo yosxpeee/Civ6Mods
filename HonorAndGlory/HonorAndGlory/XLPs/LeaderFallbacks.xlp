@@ -54,6 +54,11 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_SIMON_BOLIVAR"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_SIMON_BOLIVAR"/>
 		</Element>
+		<!-- アドルフ・ヒトラー -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_ADOLF_HITLER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_ADOLF_HITLER"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

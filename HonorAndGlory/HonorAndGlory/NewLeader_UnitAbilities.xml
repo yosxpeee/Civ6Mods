@@ -15,6 +15,7 @@
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                    Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"                               Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"                           Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"                               Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
@@ -26,11 +27,6 @@
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE" Tag="CLASS_SIEGE"/>
-		<!-- ユニークユニット -->
-		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
-		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"/>
-		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
-		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
 		<!-- 指導者特性 -->
 		<Row Type="ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY" Tag="CLASS_RECON"/>
 		<Row Type="ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY" Tag="CLASS_MELEE"/>
@@ -71,6 +67,12 @@
 		<Row Type="ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE" Tag="CLASS_NAVAL_RAIDER"/>
 		<Row Type="ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE" Tag="CLASS_NAVAL_CARRIER"/>
 		<Row Type="ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE" Tag="CLASS_AIRCRAFT"/>
+		<!-- ユニークユニット -->
+		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
+		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"/>
+		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
+		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
+		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"            Tag="CLASS_HAG_GERMANY_JU87"/>
 	</TypeTags>
 	<!-- アビリティの名前、説明 -->
 	<UnitAbilities>
@@ -87,6 +89,7 @@
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                    Name="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"                    Description="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_PORTUGAL_NAU"                               Name="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_NAME"                               Description="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"                           Name="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_NAME"                           Description="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_GERMANY_JU87"                               Name="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_NAME"                               Description="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -119,6 +122,15 @@
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_COLOMBIA_LLANERO</UnitAbilityType>
 			<ModifierId>HAG_LLANERO_BONUS_ON_FLAT</ModifierId>
+		</Row>
+		<!-- Ju87：重騎兵と海洋遠距離に対し戦闘力+10 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_GERMANY_JU87</UnitAbilityType>
+			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_GERMANY_JU87</UnitAbilityType>
+			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED</ModifierId>
 		</Row>
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
 		<Row>
@@ -165,6 +177,17 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<!-- Ju87：重騎兵と海洋遠距離に対し戦闘力+10 -->
+		<Row>
+			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_CLASS_HEAVY_CAVALRY_HAG_JU87</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_CLASS_NAVAL_RANGED_HAG_JU87</SubjectRequirementSetId>
+		</Row>
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
 		<Row>
 			<ModifierId>COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2</ModifierId>
@@ -205,6 +228,18 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
+		<!-- Ju87：重騎兵と海洋遠距離に対し戦闘力+10 -->
+		<Row>
+			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス+3 -->
 		<Row>
 			<ModifierId>COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2</ModifierId>
@@ -235,6 +270,16 @@
 		<Row>
 			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- 相手が重騎兵 -->
+		<Row>
+			<RequirementSetId>UNIT_IS_CLASS_HEAVY_CAVALRY_HAG_JU87</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 相手が海洋遠距離 -->
+		<Row>
+			<RequirementSetId>UNIT_IS_CLASS_NAVAL_RANGED_HAG_JU87</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<!-- 条件定義 -->
@@ -269,6 +314,16 @@
 			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
 			<RequirementId>PLOT_IS_SNOW_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
 		</Row>
+		<!-- 相手が重騎兵 -->
+		<Row>
+			<RequirementSetId>UNIT_IS_CLASS_HEAVY_CAVALRY_HAG_JU87</RequirementSetId>
+			<RequirementId>UNIT_IS_CLASS_HEAVY_CAVALRY_REQUIREMENT_HAG_JU87</RequirementId>
+		</Row>
+		<!-- 相手が海洋遠距離 -->
+		<Row>
+			<RequirementSetId>UNIT_IS_CLASS_NAVAL_RANGED_HAG_JU87</RequirementSetId>
+			<RequirementId>UNIT_IS_CLASS_NAVAL_RANGED_REQUIREMENT_HAG_JU87</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
@@ -297,6 +352,16 @@
 		<Row>
 			<RequirementId>PLOT_IS_SNOW_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 相手が重騎兵 -->
+		<Row>
+			<RequirementId>UNIT_IS_CLASS_HEAVY_CAVALRY_REQUIREMENT_HAG_JU87</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- 相手が海洋遠距離 -->
+		<Row>
+			<RequirementId>UNIT_IS_CLASS_NAVAL_RANGED_REQUIREMENT_HAG_JU87</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
@@ -333,6 +398,18 @@
 			<Name>TerrainType</Name>
 			<Value>TERRAIN_SNOW</Value>
 		</Row>
+		<!-- 相手が重騎兵 -->
+		<Row>
+			<RequirementId>UNIT_IS_CLASS_HEAVY_CAVALRY_REQUIREMENT_HAG_JU87</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<!-- 相手が海洋遠距離 -->
+		<Row>
+			<RequirementId>UNIT_IS_CLASS_NAVAL_RANGED_REQUIREMENT_HAG_JU87</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RANGED</Value>
+		</Row>
 	</RequirementArguments>
 	<!-- 戦闘プレビューのテキスト -->
 	<ModifierStrings>
@@ -340,5 +417,7 @@
 		<Row ModifierId="COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL" Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
 		<Row ModifierId="COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL"  Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
 		<Row ModifierId="HAG_LLANERO_BONUS_ON_FLAT"                            Context="Preview" Text="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION"/>
+		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY"            Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY_DESCRIPTION"/>
+		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED"             Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED_DESCRIPTION"/>
 	</ModifierStrings>
 </GameData>

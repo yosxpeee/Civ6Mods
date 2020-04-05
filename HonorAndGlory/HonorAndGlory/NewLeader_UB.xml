@@ -115,6 +115,6 @@
 	<!-- ロックバンド用観光爆弾 -->
 	<Building_TourismBombs_XP2>
 		<Row BuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" TourismBombValue="500"/>
-		<Row BuildingType="BUILDING_ARENA" TourismBombValue="250"/>
+		<Row BuildingType="BUILDING_HAG_TEJO_ARENA"          TourismBombValue="250"/>
 	</Building_TourismBombs_XP2>
 </GameData>
