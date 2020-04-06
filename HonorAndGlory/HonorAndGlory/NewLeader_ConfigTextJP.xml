@@ -199,7 +199,7 @@
 			<Text>解放者</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="ja_JP">
-			<Text>社会制度「軍の伝統」を獲得すると、保護戦争を宣言できるようになる。過去10ターンに都市を解放すると、[ICON_Culture] 文化力+100%。</Text>
+			<Text>社会制度「軍の伝統」を獲得すると、保護戦争を宣言できるようになる。都市を解放すると10ターンの間 [ICON_Culture] 文化力+100%。</Text>
 		</Row>
 
 		<!-- 指導者(アドルフ・ヒトラー) -->
@@ -207,10 +207,10 @@
 			<Text>アドルフ・ヒトラー</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME" Language="ja_JP">
-			<Text>第三帝国総統</Text>
+			<Text>東方生存圏</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>社会制度「軍の伝統」を獲得すると、領土拡張戦争を宣言できるようになる。領土拡張戦争の宣言から20ターンの間、[ICON_Movement] 移動力+2。ハンザに隣接した鉱山は [ICON_Science] 科学力+1。</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

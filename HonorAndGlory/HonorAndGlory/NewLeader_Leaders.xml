@@ -346,6 +346,23 @@
 			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
 		</Row>
+		
+		<!-- アドルフ・ヒトラー -->
+		<!-- 領土拡張戦争の解禁が早い(軍の伝統) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_ADOLF_HITLER</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_TERRITORIAL_WAR_PREREQ_OVERRIDE</ModifierId>
+		</Row>
+		<!-- 領土拡張戦争を宣言すると20ターンの間移動力+2 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_ADOLF_HITLER</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_TERRITORIAL_WAR_MOVEMENT</ModifierId>
+		</Row>
+		<!-- 工業地帯に隣接した鉱山から科学力+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_ADOLF_HITLER</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -500,6 +517,23 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<!-- 領土拡張戦争の解禁が早い(軍の伝統) -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_TERRITORIAL_WAR_PREREQ_OVERRIDE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_ACTION_OVERRIDE</ModifierType>
+		</Row>
+		<!-- 領土拡張戦争を宣言すると20ターンの間移動力+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_TERRITORIAL_WAR_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER</ModifierType>
+		</Row>
+		<!-- ハンザに隣接した鉱山から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_MINE_HANSA_ADJACENT_REQUIREMENTS_LEADER_ADOLF_HITLER</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -782,6 +816,45 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
+
+		<!-- 領土拡張戦争の解禁が早い(軍の伝統) -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_TERRITORIAL_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>DiplomaticAction</Name>
+			<Value>DIPLOACTION_DECLARE_TERRITORIAL_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_TERRITORIAL_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MILITARY_TRADITION</Value>
+		</Row>
+		<!-- 領土拡張戦争を宣言すると20ターンの間移動力+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_TERRITORIAL_WAR_MOVEMENT</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>TERRITORIAL_EXPANSION_WAR_INITIATED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_TERRITORIAL_WAR_MOVEMENT</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_TERRITORIAL_WAR_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- ハンザに隣接した鉱山から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -798,6 +871,10 @@
 			<RequirementSetId>PLOT_HAS_FISHINGBOATS_ADJECENT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_MINE_HANSA_ADJACENT_REQUIREMENTS_LEADER_ADOLF_HITLER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<!-- 条件：兵営区域 -->
@@ -812,7 +889,7 @@
 		</Row>
 		<Row>
 			<RequirementSetId>PLOT_HAS_FISHINGBOATS_PLOT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<RequirementId>REQUIRES_PLOT_REEF_LEADER_HAG_TOJO_HIDEKI</RequirementId>
 		</Row>
 		<!-- 条件：漁船かつ礁タイル隣接 -->
 		<Row>
@@ -821,31 +898,49 @@
 		</Row>
 		<Row>
 			<RequirementSetId>PLOT_HAS_FISHINGBOATS_ADJECENT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_HAG_TOJO_HIDEKI</RequirementId>
+		</Row>
+		<!-- 条件：ハンザに隣接した鉱山 -->
+		<Row>
+			<RequirementSetId>PLOT_IS_MINE_HANSA_ADJACENT_REQUIREMENTS_LEADER_ADOLF_HITLER</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_HANSA_LEADER_HAG_ADOLF_HITLER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_MINE_HANSA_ADJACENT_REQUIREMENTS_LEADER_ADOLF_HITLER</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId><!-- バニラにある -->
 		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<RequirementId>REQUIRES_PLOT_REEF_LEADER_HAG_TOJO_HIDEKI</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_HAG_TOJO_HIDEKI</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_HANSA_LEADER_HAG_ADOLF_HITLER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
 	<RequirementArguments>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<RequirementId>REQUIRES_PLOT_REEF_LEADER_HAG_TOJO_HIDEKI</RequirementId>
 			<Name>FeatureType</Name>
 			<Value>FEATURE_REEF</Value>
 		</Row>
 		<Row>
-			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_TOJO_HIDEKI</RequirementId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_REEF_LEADER_HAG_TOJO_HIDEKI</RequirementId>
 			<Name>FeatureType</Name>
 			<Value>FEATURE_REEF</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_HANSA_LEADER_HAG_ADOLF_HITLER</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HANSA</Value>
 		</Row>
 	</RequirementArguments>
 	<!-- AIの好み -->
@@ -911,196 +1006,196 @@
 	</AiListTypes>
 	<AiLists>
 		<!-- メネリク2世 -->
-		<Row ListType="HAGMenelik2District" LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Districts"/>
-		<Row ListType="HAGMenelik2Civics"   LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Civics"/>
-		<Row ListType="HAGMenelik2Tech"     LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Technologies"/>
-		<Row ListType="HAGMenelik2Wonders"  LeaderType="TRAIT_LEADER_HAG_MENELIK2" System="Buildings"/>
-		<!-- ナポレオン -->															      
-		<Row ListType="HAGNapoleonDistrict"       LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Districts"/>
-		<Row ListType="HAGNapoleonCivics"         LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Civics"/>
-		<Row ListType="HAGNapoleonTech"           LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Technologies"/>
-		<Row ListType="HAGNapoleonWonders"        LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="Buildings"/>
-		<Row ListType="HAGNapoleonMeleeLoverList" LeaderType="TRAIT_LEADER_HAG_NAPOLEON" System="UnitPromotionClasses"/>
+		<Row ListType="HAGMenelik2District"       LeaderType="TRAIT_LEADER_HAG_MENELIK2"      System="Districts"/>
+		<Row ListType="HAGMenelik2Civics"         LeaderType="TRAIT_LEADER_HAG_MENELIK2"      System="Civics"/>
+		<Row ListType="HAGMenelik2Tech"           LeaderType="TRAIT_LEADER_HAG_MENELIK2"      System="Technologies"/>
+		<Row ListType="HAGMenelik2Wonders"        LeaderType="TRAIT_LEADER_HAG_MENELIK2"      System="Buildings"/>
+		<!-- ナポレオン -->
+		<Row ListType="HAGNapoleonDistrict"       LeaderType="TRAIT_LEADER_HAG_NAPOLEON"      System="Districts"/>
+		<Row ListType="HAGNapoleonCivics"         LeaderType="TRAIT_LEADER_HAG_NAPOLEON"      System="Civics"/>
+		<Row ListType="HAGNapoleonTech"           LeaderType="TRAIT_LEADER_HAG_NAPOLEON"      System="Technologies"/>
+		<Row ListType="HAGNapoleonWonders"        LeaderType="TRAIT_LEADER_HAG_NAPOLEON"      System="Buildings"/>
+		<Row ListType="HAGNapoleonMeleeLoverList" LeaderType="TRAIT_LEADER_HAG_NAPOLEON"      System="UnitPromotionClasses"/>
 		<!-- ティムール -->															      
-		<Row ListType="HAGTimurDistrict"       LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Districts"/>
-		<Row ListType="HAGTimurCivics"         LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Civics"/>
-		<Row ListType="HAGTimurTech"           LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Technologies"/>
-		<Row ListType="HAGTimurWonders"        LeaderType="TRAIT_LEADER_HAG_TIMUR"        System="Buildings"/>
+		<Row ListType="HAGTimurDistrict"          LeaderType="TRAIT_LEADER_HAG_TIMUR"         System="Districts"/>
+		<Row ListType="HAGTimurCivics"            LeaderType="TRAIT_LEADER_HAG_TIMUR"         System="Civics"/>
+		<Row ListType="HAGTimurTech"              LeaderType="TRAIT_LEADER_HAG_TIMUR"         System="Technologies"/>
+		<Row ListType="HAGTimurWonders"           LeaderType="TRAIT_LEADER_HAG_TIMUR"         System="Buildings"/>
 		<!-- チトー -->															  	      
-		<Row ListType="HAGTitoDistrict"        LeaderType="TRAIT_LEADER_HAG_TITO"         System="Districts"/>
-		<Row ListType="HAGTitoCivics"          LeaderType="TRAIT_LEADER_HAG_TITO"         System="Civics"/>
-		<Row ListType="HAGTitoTech"            LeaderType="TRAIT_LEADER_HAG_TITO"         System="Technologies"/>
-		<Row ListType="HAGTitoWonders"         LeaderType="TRAIT_LEADER_HAG_TITO"         System="Buildings"/>
-		<Row ListType="HAGTitoScience"         LeaderType="TRAIT_LEADER_HAG_TITO"         System="Yields"/>
+		<Row ListType="HAGTitoDistrict"           LeaderType="TRAIT_LEADER_HAG_TITO"          System="Districts"/>
+		<Row ListType="HAGTitoCivics"             LeaderType="TRAIT_LEADER_HAG_TITO"          System="Civics"/>
+		<Row ListType="HAGTitoTech"               LeaderType="TRAIT_LEADER_HAG_TITO"          System="Technologies"/>
+		<Row ListType="HAGTitoWonders"            LeaderType="TRAIT_LEADER_HAG_TITO"          System="Buildings"/>
+		<Row ListType="HAGTitoScience"            LeaderType="TRAIT_LEADER_HAG_TITO"          System="Yields"/>
 		<!-- ムーレイ・イスマーイール -->
-		<Row ListType="HAGMulayIsmailDistrict" LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Districts"/>
-		<Row ListType="HAGMulayIsmailCivics"   LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Civics"/>
-		<Row ListType="HAGMulayIsmailTech"     LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Technologies"/>
-		<Row ListType="HAGMulayIsmailWonders"  LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Buildings"/>
-		<Row ListType="HAGMulayIsmailUnits"    LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Units"/>
-		<Row ListType="HAGMulayIsmailGold"     LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL" System="Yields"/>
+		<Row ListType="HAGMulayIsmailDistrict"    LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL"  System="Districts"/>
+		<Row ListType="HAGMulayIsmailCivics"      LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL"  System="Civics"/>
+		<Row ListType="HAGMulayIsmailTech"        LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL"  System="Technologies"/>
+		<Row ListType="HAGMulayIsmailWonders"     LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL"  System="Buildings"/>
+		<Row ListType="HAGMulayIsmailUnits"       LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL"  System="Units"/>
+		<Row ListType="HAGMulayIsmailGold"        LeaderType="TRAIT_LEADER_HAG_MULAY_ISMAIL"  System="Yields"/>
 		<!-- 東條英機 -->
-		<Row ListType="HAGHidekiTojoDistrict"  LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Districts"/>
-		<Row ListType="HAGHidekiTojoCivics"    LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Civics"/>
-		<Row ListType="HAGHidekiTojoTech"      LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Technologies"/>
-		<Row ListType="HAGHidekiTojoWonders"   LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Buildings"/>
-		<Row ListType="HAGHidekiTojoCulture"   LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"  System="Yields"/>
+		<Row ListType="HAGHidekiTojoDistrict"     LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"   System="Districts"/>
+		<Row ListType="HAGHidekiTojoCivics"       LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"   System="Civics"/>
+		<Row ListType="HAGHidekiTojoTech"         LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"   System="Technologies"/>
+		<Row ListType="HAGHidekiTojoWonders"      LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"   System="Buildings"/>
+		<Row ListType="HAGHidekiTojoCulture"      LeaderType="TRAIT_LEADER_HAG_HIDEKI_TOJO"   System="Yields"/>
 		<!-- マリア1世 -->
-		<Row ListType="HAGMariaIDistrict" LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Districts"/>
-		<Row ListType="HAGMariaICivics"   LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Civics"/>
-		<Row ListType="HAGMariaITech"     LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Technologies"/>
-		<Row ListType="HAGMariaIWonders"  LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Buildings"/>
-		<Row ListType="HAGMariaIGold"     LeaderType="TRAIT_LEADER_HAG_MARIA_I" System="Yields"/>
+		<Row ListType="HAGMariaIDistrict"         LeaderType="TRAIT_LEADER_HAG_MARIA_I"       System="Districts"/>
+		<Row ListType="HAGMariaICivics"           LeaderType="TRAIT_LEADER_HAG_MARIA_I"       System="Civics"/>
+		<Row ListType="HAGMariaITech"             LeaderType="TRAIT_LEADER_HAG_MARIA_I"       System="Technologies"/>
+		<Row ListType="HAGMariaIWonders"          LeaderType="TRAIT_LEADER_HAG_MARIA_I"       System="Buildings"/>
+		<Row ListType="HAGMariaIGold"             LeaderType="TRAIT_LEADER_HAG_MARIA_I"       System="Yields"/>
 		<!-- スターリン -->
-		<Row ListType="HAGStalinDistrict" LeaderType="TRAIT_LEADER_HAG_STALIN" System="Districts"/>
-		<Row ListType="HAGStalinCivics"   LeaderType="TRAIT_LEADER_HAG_STALIN" System="Civics"/>
-		<Row ListType="HAGStalinTech"     LeaderType="TRAIT_LEADER_HAG_STALIN" System="Technologies"/>
-		<Row ListType="HAGStalinWonders"  LeaderType="TRAIT_LEADER_HAG_STALIN" System="Buildings"/>
+		<Row ListType="HAGStalinDistrict"         LeaderType="TRAIT_LEADER_HAG_STALIN"        System="Districts"/>
+		<Row ListType="HAGStalinCivics"           LeaderType="TRAIT_LEADER_HAG_STALIN"        System="Civics"/>
+		<Row ListType="HAGStalinTech"             LeaderType="TRAIT_LEADER_HAG_STALIN"        System="Technologies"/>
+		<Row ListType="HAGStalinWonders"          LeaderType="TRAIT_LEADER_HAG_STALIN"        System="Buildings"/>
 		<!-- シモン・ボリバル -->
-		<Row ListType="HAGSimonBolivarDistrict" LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Districts"/>
-		<Row ListType="HAGSimonBolivarCivics"   LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Civics"/>
-		<Row ListType="HAGSimonBolivarTech"     LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Technologies"/>
-		<Row ListType="HAGSimonBolivarWonders"  LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Buildings"/>
-		<Row ListType="HAGSimonBolivarCulture"  LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Yields"/>
+		<Row ListType="HAGSimonBolivarDistrict"   LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Districts"/>
+		<Row ListType="HAGSimonBolivarCivics"     LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Civics"/>
+		<Row ListType="HAGSimonBolivarTech"       LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Technologies"/>
+		<Row ListType="HAGSimonBolivarWonders"    LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Buildings"/>
+		<Row ListType="HAGSimonBolivarCulture"    LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Yields"/>
 		<!-- アドルフ・ヒトラー -->
-		<Row ListType="HAGHitlerDistrict" LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER" System="Districts"/>
-		<Row ListType="HAGHitlerCivics"   LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER" System="Civics"/>
-		<Row ListType="HAGHitlerTech"     LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER" System="Technologies"/>
-		<Row ListType="HAGHitlerWonders"  LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER" System="Buildings"/>
-		<Row ListType="HAGHitlerScience"  LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER" System="Yields"/>
+		<Row ListType="HAGHitlerDistrict"         LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Districts"/>
+		<Row ListType="HAGHitlerCivics"           LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Civics"/>
+		<Row ListType="HAGHitlerTech"             LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Technologies"/>
+		<Row ListType="HAGHitlerWonders"          LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Buildings"/>
+		<Row ListType="HAGHitlerScience"          LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Yields"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- メネリク2世 -->
-		<Row ListType="HAGMenelik2District"    Item="DISTRICT_COMMERCIAL_HUB"  Favored="true"/><!-- 商業ハブ -->
-		<Row ListType="HAGMenelik2Civics"      Item="CIVIC_MEDIEVAL_FAIRES"    Favored="true"/><!-- 中世の市 -->
-		<Row ListType="HAGMenelik2Civics"      Item="CIVIC_GUILDS"             Favored="true"/><!-- ギルド -->
-		<Row ListType="HAGMenelik2Tech"        Item="TECH_CURRENCY"            Favored="true"/><!-- 通貨 -->
-		<Row ListType="HAGMenelik2Tech"        Item="TECH_REPLACEABLE_PARTS"   Favored="true"/><!-- 共通規格 -->
-		<Row ListType="HAGMenelik2Wonders"     Item="BUILDING_HANGING_GARDENS" Favored="true"/><!-- 空中庭園 -->
-		<Row ListType="HAGMenelik2Wonders"     Item="BUILDING_GREAT_ZIMBABWE"  Favored="true"/><!-- グレート・ジンバブエ遺跡 -->
+		<Row ListType="HAGMenelik2District"       Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGMenelik2Civics"         Item="CIVIC_MEDIEVAL_FAIRES"          Favored="true"/><!-- 中世の市 -->
+		<Row ListType="HAGMenelik2Civics"         Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
+		<Row ListType="HAGMenelik2Tech"           Item="TECH_CURRENCY"                  Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGMenelik2Tech"           Item="TECH_REPLACEABLE_PARTS"         Favored="true"/><!-- 共通規格 -->
+		<Row ListType="HAGMenelik2Wonders"        Item="BUILDING_HANGING_GARDENS"       Favored="true"/><!-- 空中庭園 -->
+		<Row ListType="HAGMenelik2Wonders"        Item="BUILDING_GREAT_ZIMBABWE"        Favored="true"/><!-- グレート・ジンバブエ遺跡 -->
 		<!-- ナポレオン -->
-		<Row ListType="HAGNapoleonDistrict"       Item="DISTRICT_ENCAMPMENT"        Favored="true"/><!-- 兵営 -->
-		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/><!-- 政治哲学 -->
-		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_NATIONALISM"          Favored="true"/><!-- ナショナリズム -->
-		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_MOBILIZATION"         Favored="true"/><!-- 戦時動員 -->
-		<Row ListType="HAGNapoleonTech"           Item="TECH_BRONZE_WORKING"        Favored="true"/><!-- 青銅器 -->
-		<Row ListType="HAGNapoleonTech"           Item="TECH_GUNPOWDER"             Favored="true"/><!-- 火薬 -->
-		<Row ListType="HAGNapoleonTech"           Item="TECH_MILITARY_SCIENCE"      Favored="true"/><!-- 軍事学 -->
-		<Row ListType="HAGNapoleonTech"           Item="TECH_REPLACEABLE_PARTS"     Favored="true"/><!-- 共通規格 -->
-		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_TERRACOTTA_ARMY"   Favored="true"/><!-- 兵馬俑 -->
-		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_ALHAMBRA"          Favored="true"/><!-- アルハンブラ宮殿 -->
-		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_FORBIDDEN_CITY"    Favored="true"/><!-- 紫禁城 -->
-		<Row ListType="HAGNapoleonMeleeLoverList" Item="PROMOTION_CLASS_MELEE"      Value="100"/>
-		<!-- ティムール -->													     
-		<Row ListType="HAGTimurDistrict"       Item="DISTRICT_COMMERCIAL_HUB"     Favored="true"/><!-- 商業ハブ -->
-		<Row ListType="HAGTimurCivics"         Item="CIVIC_MEDIEVAL_FAIRES"       Favored="true"/><!-- 中世の市 -->
-		<Row ListType="HAGTimurCivics"         Item="CIVIC_GUILDS"                Favored="true"/><!-- ギルド -->
-		<Row ListType="HAGTimurTech"           Item="TECH_CURRENCY"               Favored="true"/><!-- 通貨 -->
-		<Row ListType="HAGTimurTech"           Item="TECH_CASTLES"                Favored="true"/><!-- 城 -->
-		<Row ListType="HAGTimurTech"           Item="TECH_ASTRONOMY"              Favored="true"/><!-- 天文学 -->
-		<Row ListType="HAGTimurWonders"        Item="BUILDING_COLOSSEUM"          Favored="true"/><!-- コロッセオ -->
-		<Row ListType="HAGTimurWonders"        Item="BUILDING_TAJ_MAHAL"          Favored="true"/><!-- タージ・マハル(RaF) -->
-		<Row ListType="HAGTimurWonders"        Item="BUILDING_UNIVERSITY_SANKORE" Favored="true"/><!-- サンコーレ大学(GS) -->
+		<Row ListType="HAGNapoleonDistrict"       Item="DISTRICT_ENCAMPMENT"            Favored="true"/><!-- 兵営 -->
+		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_MOBILIZATION"             Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGNapoleonTech"           Item="TECH_BRONZE_WORKING"            Favored="true"/><!-- 青銅器 -->
+		<Row ListType="HAGNapoleonTech"           Item="TECH_GUNPOWDER"                 Favored="true"/><!-- 火薬 -->
+		<Row ListType="HAGNapoleonTech"           Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGNapoleonTech"           Item="TECH_REPLACEABLE_PARTS"         Favored="true"/><!-- 共通規格 -->
+		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
+		<Row ListType="HAGNapoleonWonders"        Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
+		<Row ListType="HAGNapoleonMeleeLoverList" Item="PROMOTION_CLASS_MELEE"          Value="100"/>
+		<!-- ティムール -->
+		<Row ListType="HAGTimurDistrict"          Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGTimurCivics"            Item="CIVIC_MEDIEVAL_FAIRES"          Favored="true"/><!-- 中世の市 -->
+		<Row ListType="HAGTimurCivics"            Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
+		<Row ListType="HAGTimurTech"              Item="TECH_CURRENCY"                  Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGTimurTech"              Item="TECH_CASTLES"                   Favored="true"/><!-- 城 -->
+		<Row ListType="HAGTimurTech"              Item="TECH_ASTRONOMY"                 Favored="true"/><!-- 天文学 -->
+		<Row ListType="HAGTimurWonders"           Item="BUILDING_COLOSSEUM"             Favored="true"/><!-- コロッセオ -->
+		<Row ListType="HAGTimurWonders"           Item="BUILDING_TAJ_MAHAL"             Favored="true"/><!-- タージ・マハル(RaF) -->
+		<Row ListType="HAGTimurWonders"           Item="BUILDING_UNIVERSITY_SANKORE"    Favored="true"/><!-- サンコーレ大学(GS) -->
 		<!-- チトー -->
-		<Row ListType="HAGTitoDistrict"        Item="DISTRICT_CAMPUS"            Favored="true"/><!-- キャンパス -->
-		<Row ListType="HAGTitoDistrict"        Item="DISTRICT_INDUSTRIAL_ZONE"   Favored="true"/><!-- 工業地帯 -->
-		<Row ListType="HAGTitoCivics"          Item="CIVIC_FEUDALISM"            Favored="true"/><!-- 封建制度 -->
-		<Row ListType="HAGTitoCivics"          Item="CIVIC_CIVIL_SERVICE"        Favored="true"/><!-- 公務員制度 -->
-		<Row ListType="HAGTitoCivics"          Item="CIVIC_DIPLOMATIC_SERVICE"   Favored="true"/><!-- 外交官 -->
-		<Row ListType="HAGTitoTech"            Item="TECH_WRITING"               Favored="true"/><!-- 筆記 -->
-		<Row ListType="HAGTitoTech"            Item="TECH_APPRENTICESHIP"        Favored="true"/><!-- 徒弟制度 -->
-		<Row ListType="HAGTitoTech"            Item="TECH_STEEL"                 Favored="true"/><!-- 鉄鋼 -->
-		<Row ListType="HAGTitoWonders"         Item="BUILDING_GREAT_LIBRARY"     Favored="true"/><!-- アレキサンドリア図書館 -->
-		<Row ListType="HAGTitoWonders"         Item="BUILDING_MACHU_PICCHU"      Favored="true"/><!-- マチュ・ピチュ(GS) -->
-		<Row ListType="HAGTitoWonders"         Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/><!-- オックスフォード大学 -->
-		<Row ListType="HAGTitoWonders"         Item="BUILDING_RUHR_VALLEY"       Favored="true"/><!-- ルール地方 -->
-		<Row ListType="HAGTitoScience"         Item="YIELD_SCIENCE"              Value="10"/>
+		<Row ListType="HAGTitoDistrict"           Item="DISTRICT_CAMPUS"                Favored="true"/><!-- キャンパス -->
+		<Row ListType="HAGTitoDistrict"           Item="DISTRICT_INDUSTRIAL_ZONE"       Favored="true"/><!-- 工業地帯 -->
+		<Row ListType="HAGTitoCivics"             Item="CIVIC_FEUDALISM"                Favored="true"/><!-- 封建制度 -->
+		<Row ListType="HAGTitoCivics"             Item="CIVIC_CIVIL_SERVICE"            Favored="true"/><!-- 公務員制度 -->
+		<Row ListType="HAGTitoCivics"             Item="CIVIC_DIPLOMATIC_SERVICE"       Favored="true"/><!-- 外交官 -->
+		<Row ListType="HAGTitoTech"               Item="TECH_WRITING"                   Favored="true"/><!-- 筆記 -->
+		<Row ListType="HAGTitoTech"               Item="TECH_APPRENTICESHIP"            Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGTitoTech"               Item="TECH_STEEL"                     Favored="true"/><!-- 鉄鋼 -->
+		<Row ListType="HAGTitoWonders"            Item="BUILDING_GREAT_LIBRARY"         Favored="true"/><!-- アレキサンドリア図書館 -->
+		<Row ListType="HAGTitoWonders"            Item="BUILDING_MACHU_PICCHU"          Favored="true"/><!-- マチュ・ピチュ(GS) -->
+		<Row ListType="HAGTitoWonders"            Item="BUILDING_OXFORD_UNIVERSITY"     Favored="true"/><!-- オックスフォード大学 -->
+		<Row ListType="HAGTitoWonders"            Item="BUILDING_RUHR_VALLEY"           Favored="true"/><!-- ルール地方 -->
+		<Row ListType="HAGTitoScience"            Item="YIELD_SCIENCE"                  Value="10"/>
 		<!-- ムーレイ・イスマーイール -->
-		<Row ListType="HAGMulayIsmailDistrict" Item="DISTRICT_COMMERCIAL_HUB" Favored="true"/><!-- 商業ハブ -->
-		<Row ListType="HAGMulayIsmailCivics"   Item="CIVIC_MERCANTILISM"      Favored="true"/><!-- 重商主義 -->
-		<Row ListType="HAGMulayIsmailCivics"   Item="CIVIC_NATIONALISM"       Favored="true"/><!-- ナショナリズム -->
-		<Row ListType="HAGMulayIsmailCivics"   Item="CIVIC_MOBILIZATION"      Favored="true"/><!-- 戦時動員 -->
-		<Row ListType="HAGMulayIsmailTech"     Item="TECH_CURRENCY"           Favored="true"/><!-- 通貨 -->
-		<Row ListType="HAGMulayIsmailTech"     Item="TECH_CASTLES"            Favored="true"/><!-- 城 -->
-		<Row ListType="HAGMulayIsmailTech"     Item="TECH_MILITARY_SCIENCE"   Favored="true"/><!-- 軍事学 -->
-		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_PYRAMIDS"       Favored="true"/><!-- ピラミッド -->
-		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_PETRA"          Favored="true"/><!-- ペトラ -->
-		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_TAJ_MAHAL"      Favored="true"/><!-- タージ・マハル(RaF) -->
-		<Row ListType="HAGMulayIsmailWonders"  Item="BUILDING_BIG_BEN"        Favored="true"/><!-- ビッグ・ベン -->
-		<Row ListType="HAGMulayIsmailUnits"    Item="UNIT_TRADER"             Value="1"/>
-		<Row ListType="HAGMulayIsmailGold"     Item="YIELD_GOLD"              Value="15"/>
-		<!-- 東條英機 -->														  
-		<Row ListType="HAGHidekiTojoDistrict"  Item="DISTRICT_ENCAMPMENT"       Favored="true"/><!-- 兵営 -->
-		<Row ListType="HAGHidekiTojoDistrict"  Item="DISTRICT_THEATER"          Favored="true"/><!-- 劇場広場 -->
-		<Row ListType="HAGHidekiTojoCivics"    Item="CIVIC_DRAMA_POETRY"        Favored="true"/><!-- 演劇と詩 -->
-		<Row ListType="HAGHidekiTojoCivics"    Item="CIVIC_CIVIL_SERVICE"       Favored="true"/><!-- 公務員制度 -->
-		<Row ListType="HAGHidekiTojoCivics"    Item="CIVIC_DIPLOMATIC_SERVICE"  Favored="true"/><!-- 外交官 -->
-		<Row ListType="HAGHidekiTojoTech"      Item="TECH_BRONZE_WORKING"       Favored="true"/><!-- 青銅器 -->
-		<Row ListType="HAGHidekiTojoTech"      Item="TECH_MILITARY_TACTICS"     Favored="true"/><!-- 戦術 -->
-		<Row ListType="HAGHidekiTojoTech"      Item="TECH_REFINING"             Favored="true"/><!-- 精製技術 -->
-		<Row ListType="HAGHidekiTojoTech"      Item="TECH_FLIGHT"               Favored="true"/><!-- 航空技術 -->
-		<Row ListType="HAGHidekiTojoTech"      Item="TECH_ADVANCED_FLIGHT"      Favored="true"/><!-- 高度な航空技術 -->
-		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_GREAT_LIGHTHOUSE" Favored="true"/><!-- ファロス灯台 -->
-		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_VENETIAN_ARSENAL" Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
-		<Row ListType="HAGHidekiTojoWonders"   Item="BUILDING_KOTOKU_IN"        Favored="true"/><!-- 高徳院(RaF) -->
-		<Row ListType="HAGHidekiTojoCulture"   Item="YIELD_CULTURE"             Value="7"/>
+		<Row ListType="HAGMulayIsmailDistrict"    Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGMulayIsmailCivics"      Item="CIVIC_MERCANTILISM"             Favored="true"/><!-- 重商主義 -->
+		<Row ListType="HAGMulayIsmailCivics"      Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGMulayIsmailCivics"      Item="CIVIC_MOBILIZATION"             Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGMulayIsmailTech"        Item="TECH_CURRENCY"                  Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGMulayIsmailTech"        Item="TECH_CASTLES"                   Favored="true"/><!-- 城 -->
+		<Row ListType="HAGMulayIsmailTech"        Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGMulayIsmailWonders"     Item="BUILDING_PYRAMIDS"              Favored="true"/><!-- ピラミッド -->
+		<Row ListType="HAGMulayIsmailWonders"     Item="BUILDING_PETRA"                 Favored="true"/><!-- ペトラ -->
+		<Row ListType="HAGMulayIsmailWonders"     Item="BUILDING_TAJ_MAHAL"             Favored="true"/><!-- タージ・マハル(RaF) -->
+		<Row ListType="HAGMulayIsmailWonders"     Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
+		<Row ListType="HAGMulayIsmailUnits"       Item="UNIT_TRADER"                    Value="1"/>
+		<Row ListType="HAGMulayIsmailGold"        Item="YIELD_GOLD"                     Value="15"/>
+		<!-- 東條英機 -->
+		<Row ListType="HAGHidekiTojoDistrict"     Item="DISTRICT_ENCAMPMENT"            Favored="true"/><!-- 兵営 -->
+		<Row ListType="HAGHidekiTojoDistrict"     Item="DISTRICT_THEATER"               Favored="true"/><!-- 劇場広場 -->
+		<Row ListType="HAGHidekiTojoCivics"       Item="CIVIC_DRAMA_POETRY"             Favored="true"/><!-- 演劇と詩 -->
+		<Row ListType="HAGHidekiTojoCivics"       Item="CIVIC_CIVIL_SERVICE"            Favored="true"/><!-- 公務員制度 -->
+		<Row ListType="HAGHidekiTojoCivics"       Item="CIVIC_DIPLOMATIC_SERVICE"       Favored="true"/><!-- 外交官 -->
+		<Row ListType="HAGHidekiTojoTech"         Item="TECH_BRONZE_WORKING"            Favored="true"/><!-- 青銅器 -->
+		<Row ListType="HAGHidekiTojoTech"         Item="TECH_MILITARY_TACTICS"          Favored="true"/><!-- 戦術 -->
+		<Row ListType="HAGHidekiTojoTech"         Item="TECH_REFINING"                  Favored="true"/><!-- 精製技術 -->
+		<Row ListType="HAGHidekiTojoTech"         Item="TECH_FLIGHT"                    Favored="true"/><!-- 航空技術 -->
+		<Row ListType="HAGHidekiTojoTech"         Item="TECH_ADVANCED_FLIGHT"           Favored="true"/><!-- 高度な航空技術 -->
+		<Row ListType="HAGHidekiTojoWonders"      Item="BUILDING_GREAT_LIGHTHOUSE"      Favored="true"/><!-- ファロス灯台 -->
+		<Row ListType="HAGHidekiTojoWonders"      Item="BUILDING_VENETIAN_ARSENAL"      Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
+		<Row ListType="HAGHidekiTojoWonders"      Item="BUILDING_KOTOKU_IN"             Favored="true"/><!-- 高徳院(RaF) -->
+		<Row ListType="HAGHidekiTojoCulture"      Item="YIELD_CULTURE"                  Value="7"/>
 		<!-- マリア1世 -->
-		<Row ListType="HAGMariaIDistrict"    Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
-		<Row ListType="HAGMariaIDistrict"    Item="DISTRICT_HAG_PORTUGAL_FEITORIA" Favored="true"/><!-- フェイトリア -->
-		<Row ListType="HAGMariaICivics"      Item="CIVIC_MEDIEVAL_FAIRES"          Favored="true"/><!-- 中世の市 -->
-		<Row ListType="HAGMariaICivics"      Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
-		<Row ListType="HAGMariaICivics"      Item="CIVIC_MERCANTILISM"             Favored="true"/><!-- 重商主義 -->
-		<Row ListType="HAGMariaITech"        Item="TECH_BRONZE_WORKING"            Favored="true"/><!-- 青銅器 -->
-		<Row ListType="HAGMariaITech"        Item="TECH_CURRENCY"                  Favored="true"/><!-- 通貨 -->
-		<Row ListType="HAGMariaITech"        Item="TECH_CARTOGRAPHY"               Favored="true"/><!-- 地図製作法 -->
-		<Row ListType="HAGMariaIWonders"     Item="BUILDING_COLOSSUS"              Favored="true"/><!-- ロードス島の巨神像 -->
-		<Row ListType="HAGMariaIWonders"     Item="BUILDING_CASA_DE_CONTRATACION"  Favored="true"/><!-- 通商院 -->
-		<Row ListType="HAGMariaIWonders"     Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
-		<Row ListType="HAGMariaIGold"        Item="YIELD_GOLD"                     Value="10"/>
+		<Row ListType="HAGMariaIDistrict"         Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
+		<Row ListType="HAGMariaIDistrict"         Item="DISTRICT_HAG_PORTUGAL_FEITORIA" Favored="true"/><!-- フェイトリア -->
+		<Row ListType="HAGMariaICivics"           Item="CIVIC_MEDIEVAL_FAIRES"          Favored="true"/><!-- 中世の市 -->
+		<Row ListType="HAGMariaICivics"           Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
+		<Row ListType="HAGMariaICivics"           Item="CIVIC_MERCANTILISM"             Favored="true"/><!-- 重商主義 -->
+		<Row ListType="HAGMariaITech"             Item="TECH_BRONZE_WORKING"            Favored="true"/><!-- 青銅器 -->
+		<Row ListType="HAGMariaITech"             Item="TECH_CURRENCY"                  Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGMariaITech"             Item="TECH_CARTOGRAPHY"               Favored="true"/><!-- 地図製作法 -->
+		<Row ListType="HAGMariaIWonders"          Item="BUILDING_COLOSSUS"              Favored="true"/><!-- ロードス島の巨神像 -->
+		<Row ListType="HAGMariaIWonders"          Item="BUILDING_CASA_DE_CONTRATACION"  Favored="true"/><!-- 通商院 -->
+		<Row ListType="HAGMariaIWonders"          Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
+		<Row ListType="HAGMariaIGold"             Item="YIELD_GOLD"                     Value="10"/>
 		<!-- スターリン -->
-		<Row ListType="HAGStalinDistrict" Item="DISTRICT_INDUSTRIAL_ZONE"   Favored="true"/><!-- 工業地帯 -->
-		<Row ListType="HAGStalinCivics"   Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/><!-- 政治哲学 -->
-		<Row ListType="HAGStalinCivics"   Item="CIVIC_NATIONALISM"          Favored="true"/><!-- ナショナリズム -->
-		<Row ListType="HAGStalinCivics"   Item="CIVIC_MOBILIZATION"         Favored="true"/><!-- 戦時動員 -->
-		<Row ListType="HAGStalinCivics"   Item="CIVIC_CLASS_STRUGGLE"       Favored="true"/><!-- 階級闘争 -->
-		<Row ListType="HAGStalinTech"     Item="TECH_APPRENTICESHIP"        Favored="true"/><!-- 徒弟制度 -->
-		<Row ListType="HAGStalinTech"     Item="TECH_GUNPOWDER"             Favored="true"/><!-- 火薬 -->
-		<Row ListType="HAGStalinTech"     Item="TECH_MILITARY_SCIENCE"      Favored="true"/><!-- 軍事学 -->
-		<Row ListType="HAGStalinTech"     Item="TECH_COMBUSTION"            Favored="true"/><!-- 内燃機関 -->
-		<Row ListType="HAGStalinWonders"  Item="BUILDING_TERRACOTTA_ARMY"   Favored="true"/><!-- 兵馬俑 -->
-		<Row ListType="HAGStalinWonders"  Item="BUILDING_ALHAMBRA"          Favored="true"/><!-- アルハンブラ宮殿 -->
-		<Row ListType="HAGStalinWonders"  Item="BUILDING_FORBIDDEN_CITY"    Favored="true"/><!-- 紫禁城 -->
+		<Row ListType="HAGStalinDistrict"         Item="DISTRICT_INDUSTRIAL_ZONE"       Favored="true"/><!-- 工業地帯 -->
+		<Row ListType="HAGStalinCivics"           Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGStalinCivics"           Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGStalinCivics"           Item="CIVIC_MOBILIZATION"             Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGStalinCivics"           Item="CIVIC_CLASS_STRUGGLE"           Favored="true"/><!-- 階級闘争 -->
+		<Row ListType="HAGStalinTech"             Item="TECH_APPRENTICESHIP"            Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGStalinTech"             Item="TECH_GUNPOWDER"                 Favored="true"/><!-- 火薬 -->
+		<Row ListType="HAGStalinTech"             Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGStalinTech"             Item="TECH_COMBUSTION"                Favored="true"/><!-- 内燃機関 -->
+		<Row ListType="HAGStalinWonders"          Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGStalinWonders"          Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
+		<Row ListType="HAGStalinWonders"          Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
 		<!-- シモン・ボリバル -->
-		<Row ListType="HAGSimonBolivarDistrict"    Item="DISTRICT_THEATER"               Favored="true"/><!-- 劇場広場 -->
-		<Row ListType="HAGSimonBolivarDistrict"    Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="true"/><!-- 総合娯楽施設 -->
-		<Row ListType="HAGSimonBolivarCivics"      Item="CIVIC_GAMES_RECREATION"         Favored="true"/><!-- 遊びと娯楽 -->
-		<Row ListType="HAGSimonBolivarTech"        Item="CIVIC_DRAMA_POETRY"             Favored="true"/><!-- 演劇と詩 -->
-		<Row ListType="HAGSimonBolivarTech"        Item="CIVIC_HUMANISM"                 Favored="true"/><!-- ヒューマニズム -->
-		<Row ListType="HAGSimonBolivarCivics"      Item="CIVIC_OPERA_BALLET"             Favored="true"/><!-- オペラとバレエ -->
-		<Row ListType="HAGSimonBolivarTech"        Item="TECH_HORSEBACK_RIDING"          Favored="true"/><!-- 騎乗 -->
-		<Row ListType="HAGSimonBolivarTech"        Item="TECH_PRINTING"                  Favored="true"/><!-- 印刷 -->
-		<Row ListType="HAGSimonBolivarTech"        Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
-		<Row ListType="HAGSimonBolivarTech"        Item="TECH_COMPUTERS"                 Favored="true"/><!-- コンピュータ -->
-		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_HANGING_GARDENS"       Favored="true"/><!-- 空中庭園 -->
-		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_HERMITAGE"             Favored="true"/><!-- エルミタージュ美術館 -->
-		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_SYDNEY_OPERA_HOUSE"    Favored="true"/><!-- シドニーオペラハウス -->
-		<Row ListType="HAGSimonBolivarWonders"     Item="BUILDING_CRISTO_REDENTOR"       Favored="true"/><!-- コルコバードのキリスト像 -->
-		<Row ListType="HAGSimonBolivarCulture"     Item="YIELD_CULTURE"                  Value="15"/>
+		<Row ListType="HAGSimonBolivarDistrict"   Item="DISTRICT_THEATER"               Favored="true"/><!-- 劇場広場 -->
+		<Row ListType="HAGSimonBolivarDistrict"   Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="true"/><!-- 総合娯楽施設 -->
+		<Row ListType="HAGSimonBolivarCivics"     Item="CIVIC_GAMES_RECREATION"         Favored="true"/><!-- 遊びと娯楽 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="CIVIC_DRAMA_POETRY"             Favored="true"/><!-- 演劇と詩 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="CIVIC_HUMANISM"                 Favored="true"/><!-- ヒューマニズム -->
+		<Row ListType="HAGSimonBolivarCivics"     Item="CIVIC_OPERA_BALLET"             Favored="true"/><!-- オペラとバレエ -->
+		<Row ListType="HAGSimonBolivarTech"       Item="TECH_HORSEBACK_RIDING"          Favored="true"/><!-- 騎乗 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="TECH_PRINTING"                  Favored="true"/><!-- 印刷 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="TECH_COMPUTERS"                 Favored="true"/><!-- コンピュータ -->
+		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_HANGING_GARDENS"       Favored="true"/><!-- 空中庭園 -->
+		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_HERMITAGE"             Favored="true"/><!-- エルミタージュ美術館 -->
+		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_SYDNEY_OPERA_HOUSE"    Favored="true"/><!-- シドニーオペラハウス -->
+		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_CRISTO_REDENTOR"       Favored="true"/><!-- コルコバードのキリスト像 -->
+		<Row ListType="HAGSimonBolivarCulture"    Item="YIELD_CULTURE"                  Value="15"/>
 		<!-- アドルフ・ヒトラー -->
-		<Row ListType="HAGHitlerDistrict" Item="DISTRICT_INDUSTRIAL_ZONE"   Favored="true"/><!-- 工業地帯 -->
-		<Row ListType="HAGHitlerCivics"   Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/><!-- 政治哲学 -->
-		<Row ListType="HAGHitlerCivics"   Item="CIVIC_NATIONALISM"          Favored="true"/><!-- ナショナリズム -->
-		<Row ListType="HAGHitlerCivics"   Item="CIVIC_MOBILIZATION"         Favored="true"/><!-- 戦時動員 -->
-		<Row ListType="HAGHitlerCivics"   Item="CIVIC_CLASS_STRUGGLE"       Favored="true"/><!-- 階級闘争 -->
-		<Row ListType="HAGHitlerTech"     Item="TECH_APPRENTICESHIP"        Favored="true"/><!-- 徒弟制度 -->
-		<Row ListType="HAGHitlerTech"     Item="TECH_GUNPOWDER"             Favored="true"/><!-- 火薬 -->
-		<Row ListType="HAGHitlerTech"     Item="TECH_MILITARY_SCIENCE"      Favored="true"/><!-- 軍事学 -->
-		<Row ListType="HAGHitlerTech"     Item="TECH_ADVANCED_FLIGHT"       Favored="true"/><!-- 高度な航空技術 -->
-		<Row ListType="HAGHitlerTech"     Item="TECH_ELECTRICITY"           Favored="true"/><!-- 電気 -->
-		<Row ListType="HAGHitlerWonders"  Item="BUILDING_TERRACOTTA_ARMY"   Favored="true"/><!-- 兵馬俑 -->
-		<Row ListType="HAGHitlerWonders"  Item="BUILDING_ALHAMBRA"          Favored="true"/><!-- アルハンブラ宮殿 -->
-		<Row ListType="HAGHitlerWonders"  Item="BUILDING_FORBIDDEN_CITY"    Favored="true"/><!-- 紫禁城 -->
-		<Row ListType="HAGHitlerScience"  Item="YIELD_SCIENCE"              Value="12"/>
+		<Row ListType="HAGHitlerDistrict"         Item="DISTRICT_INDUSTRIAL_ZONE"       Favored="true"/><!-- 工業地帯 -->
+		<Row ListType="HAGHitlerCivics"           Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGHitlerCivics"           Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGHitlerCivics"           Item="CIVIC_MOBILIZATION"             Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGHitlerCivics"           Item="CIVIC_CLASS_STRUGGLE"           Favored="true"/><!-- 階級闘争 -->
+		<Row ListType="HAGHitlerTech"             Item="TECH_APPRENTICESHIP"            Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGHitlerTech"             Item="TECH_GUNPOWDER"                 Favored="true"/><!-- 火薬 -->
+		<Row ListType="HAGHitlerTech"             Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGHitlerTech"             Item="TECH_ADVANCED_FLIGHT"           Favored="true"/><!-- 高度な航空技術 -->
+		<Row ListType="HAGHitlerTech"             Item="TECH_ELECTRICITY"               Favored="true"/><!-- 電気 -->
+		<Row ListType="HAGHitlerWonders"          Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGHitlerWonders"          Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
+		<Row ListType="HAGHitlerWonders"          Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
+		<Row ListType="HAGHitlerScience"          Item="YIELD_SCIENCE"                  Value="12"/>
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
@@ -1123,20 +1218,17 @@
 		<!-- シモン・ボリバル：不断の警戒(バニラのジョン・カーティンと同じ) -->
 		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" AgendaType="AGENDA_PERPETUALLY_ON_GUARD"/>
 		<!-- ヒトラー：鉄冠(バニラのフリードリヒと同じ) -->
-		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  AgendaType="AGENDA_PERPETUALLY_ON_GUARD"/>
+		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  AgendaType="AGENDA_IRON_CROWN"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
+		<!-- チトー、スターリン、シモンボリバル、ヒトラーはなし -->
 		<Row LeaderType="LEADER_HAG_MENELIK2"     ReligionType="RELIGION_ORTHODOXY"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"     ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"        ReligionType="RELIGION_ISLAM"/>
-		<!-- チトーはなし -->
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ReligionType="RELIGION_BUDDHISM"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"      ReligionType="RELIGION_CATHOLICISM"/>
-		<!-- スターリンはなし -->
-		<!-- シモンボ・リバルはなし -->
-		<!-- ヒトラーはなし -->
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>

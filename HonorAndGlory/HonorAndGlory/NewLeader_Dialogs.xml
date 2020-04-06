@@ -66,5 +66,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_SIMON_BOLIVAL_ANY" Language="en_US">
 			<Text>War can only bring us loss. Loss of lives, loss of productivity, loss of our very humanity!</Text>
 		</Replace>
+		<!-- アドルフ・ヒトラー -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="en_US">
+			<Text>I commend you on your prudence. To aid that city-state is to invite death.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="en_US">
+			<Text>I will destroy my enemies, and if you continue to help them, I will destroy you as well.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

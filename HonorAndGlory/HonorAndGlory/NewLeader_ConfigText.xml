@@ -207,10 +207,10 @@
 			<Text>Adolf Hitler</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME" Language="en_US">
-			<Text>Third Reich Fuhrer</Text>
+			<Text>Lebensraum im Osten</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION" Language="en_US">
-			<Text>No traits</Text>
+			<Text>Can declare a War of Territorial Expansion after gaining the Military Tradition Civic. +2 [ICON_Movement] Movement for the first 20 turns after declaring a War of Territorial Expansion. Mins provide +1 [ICON_Science] Science if adjacent to an Hansa.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

@@ -66,5 +66,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_SIMON_BOLIVAL_ANY" Language="en_US">
 			<Text>戦争は喪失しかもたらさない。人命の喪失、生産性の喪失、人間性の喪失だ！</Text>
 		</Replace>
+		<!-- アドルフ・ヒトラー -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="en_US">
+			<Text>その思慮深さ、お見事。あの都市国家に手を差し伸べるのは、死を招き入れるのと同じだからな。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="en_US">
+			<Text>警告しておこう。これ以降も私の敵に肩入れするようなら、貴公も私の敵とみなす。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
