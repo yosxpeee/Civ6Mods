@@ -29,6 +29,10 @@
 			<m_EntryID text="T34_Tank"/>
 			<m_ObjectName text="T34_Tank"/>
 		</Element>
+		<Element>
+			<m_EntryID text="u_germany_ju87"/>
+			<m_ObjectName text="u_germany_ju87"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

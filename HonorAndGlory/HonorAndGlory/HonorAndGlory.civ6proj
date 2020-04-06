@@ -669,6 +669,9 @@
     <Content Include="Assets\T34_Tank.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\u_germany_ju87.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\U_Japanese_Zero.ast">
       <SubType>Content</SubType>
     </Content>
@@ -688,6 +691,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\T34_Tank.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_germany_ju87.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_germany_ju87.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\u_japanese_zero.fgx">
@@ -712,6 +721,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\T34_Material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\u_germany_ju87_diff.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\U_Japanese_Zero_DIFF.mtl">
@@ -2323,6 +2335,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Tito_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_germany_ju87_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\u_germany_ju87_diff.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\u_japanese_zero_diff.DDS">
