@@ -197,11 +197,11 @@
 		<!-- アドルフ・ヒトラー -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_ADOLF_HITLER_PRIMARY</Type>
-			<Color>24,24,24,255</Color><!-- 黒 -->
+			<Color>24,24,36,160</Color><!-- 黒、半透明 -->
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_ADOLF_HITLER_SECONDARY</Type>
-			<Color>174,174,174,255</Color><!-- 灰色 -->
+			<Color>174,0,0,255</Color><!-- 暗い赤 -->
 		</Row>
 		
 		<!-- 宗教 -->
