@@ -4,6 +4,7 @@
 	<Types>
 		<Row Type="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Kind="KIND_IMPROVEMENT"/>
 		<Row Type="IMPROVEMENT_HAG_MOROCCO_CASBAH"    Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_HAG_ITALY_DUOMO"       Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<!-- 設定本体 -->
 	<Improvements>
@@ -21,10 +22,24 @@
 			 Icon="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH"
 			 PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" Housing="1" TilesRequired="2"
 			 PrereqTech="TECH_CASTLES" TraitType="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
+		<!-- ドゥオモ広場：王権神授説で解禁 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" 
+			 Name="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_NAME" 
+			 Description="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_DESCRIPTION" 
+			 Icon="ICON_IMPROVEMENT_HAG_ITALY_DUOMO" 
+			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" OnePerCity="true"
+			 PrereqCivic="CIVIC_DIVINE_RIGHT" TraitType="TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO"/>
 	</Improvements>
 	<!-- 隣接ボーナス指定 -->
 	<Improvement_Adjacencies>
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldChangeId="HAG_Casbah_SameImprovementAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_CityCenterAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_CampusAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_CommercialHubAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_HarborAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_HolySiteAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_IndustrialZoneAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_TheaterAdjacency"/>
 	</Improvement_Adjacencies>
 	<!-- 設置可能な特徴 -->
 	<Improvement_ValidFeatures>
@@ -47,6 +62,12 @@
 		<!-- カスバ：砂漠のみ -->
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" TerrainType="TERRAIN_DESERT"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<!-- ステチュツィ：平地のみ -->
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" TerrainType="TERRAIN_SNOW"/>
 	</Improvement_ValidTerrains>
 	<!-- 設置可能な資源 -->
 	<Improvement_ValidResources>
@@ -55,6 +76,7 @@
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" UnitType="UNIT_BUILDER"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"       UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
 	<!-- 出力 -->
 	<Improvement_YieldChanges>
@@ -65,16 +87,23 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_GOLD"       YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_FOOD"       YieldChange="1"/>
+		<!-- ドゥオモ広場：信仰力+1(他の出力の0は隣接ボーナス用) -->
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_FAITH"      YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_FOOD"       YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_SCIENCE"    YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_CULTURE"    YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_GOLD"       YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<!-- 追加出力 -->
 	<Improvement_BonusYieldChanges>
 		<!-- ステチュツィ：都市化で文化+1、マスメディアでゴールド+1 -->
-		<Row Id="HAG_01" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
-		<Row Id="HAG_02" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"    BonusYieldChange="1" PrereqCivic="CIVIC_MASS_MEDIA"/>
+		<Row Id="HAG_01" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_CULTURE"    BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
+		<Row Id="HAG_02" ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" YieldType="YIELD_GOLD"       BonusYieldChange="1" PrereqCivic="CIVIC_MASS_MEDIA"/>
 		<!-- カスバ：都市化でゴールド+1、工業化で生産力+1、共通規格で食糧+1 -->
-		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_GOLD"       BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
-		<Row Id="HAG_04" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_INDUSTRIALIZATION"/>
-		<Row Id="HAG_05" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldType="YIELD_FOOD"       BonusYieldChange="1" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    YieldType="YIELD_GOLD"       BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
+		<Row Id="HAG_04" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_INDUSTRIALIZATION"/>
+		<Row Id="HAG_05" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    YieldType="YIELD_FOOD"       BonusYieldChange="1" PrereqTech="TECH_REPLACEABLE_PARTS"/>
 	</Improvement_BonusYieldChanges>
 	<!-- 観光力 -->
 	<Improvement_Tourism>
@@ -84,7 +113,15 @@
 	<!-- 隣接ボーナス詳細 -->
 	<Adjacency_YieldChanges>
 		<!-- カスバ：同じ改善同士でゴールド+1 -->
-		<Row ID="HAG_Casbah_SameImprovementAdjacency" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
+		<Row ID="HAG_Casbah_SameImprovementAdjacency" Description="Placeholder" YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
+		<!-- ドゥオモ広場：対応した区域の出力+2 -->
+		<Row ID="HAG_Duomo_CityCenterAdjacency"       Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="HAG_Duomo_CampusAdjacency"           Description="Placeholder" YieldType="YIELD_SCIENCE"    YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
+		<Row ID="HAG_Duomo_CommercialHubAdjacency"    Description="Placeholder" YieldType="YIELD_GOLD"       YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="HAG_Duomo_HarborAdjacency"           Description="Placeholder" YieldType="YIELD_GOLD"       YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row ID="HAG_Duomo_HolySiteAdjacency"         Description="Placeholder" YieldType="YIELD_FAITH"      YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="HAG_Duomo_IndustrialZoneAdjacency"   Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="HAG_Duomo_TheaterAdjacency"          Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
 	</Adjacency_YieldChanges>
 	<!-- 固有能力指定 -->
 	<ImprovementModifiers>
@@ -93,12 +130,22 @@
 			<ImprovementType>IMPROVEMENT_HAG_YUGOSLAVIA_STECCI</ImprovementType>
 			<ModifierId>HAG_YUGOSLAVIA_STECCI_AMENITY</ModifierId>
 		</Row>
+		<!-- ドゥオモ広場：快適性+1 -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_HAG_ITALY_DUOMO</ImprovementType>
+			<ModifierId>HAG_ITALY_DUOMO_AMENITY</ModifierId>
+		</Row>
 	</ImprovementModifiers>
 	<!-- 固有能力詳細 -->
 	<Modifiers>
 		<!-- ステチュツィ：快適性+3 -->
 		<Row>
 			<ModifierId>HAG_YUGOSLAVIA_STECCI_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row>
+		<!-- ドゥオモ広場：快適性+1 -->
+		<Row>
+			<ModifierId>HAG_ITALY_DUOMO_AMENITY</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
 		</Row>
 	</Modifiers>
@@ -109,6 +156,12 @@
 			<ModifierId>HAG_YUGOSLAVIA_STECCI_AMENITY</ModifierId>
 			<Name>Amount</Name>
 			<Value>3</Value>
+		</Row>
+		<!-- ドゥオモ広場：快適性+1 -->
+		<Row>
+			<ModifierId>HAG_ITALY_DUOMO_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
 </GameInfo>

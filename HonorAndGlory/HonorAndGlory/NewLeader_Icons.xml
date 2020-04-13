@@ -445,6 +445,8 @@
 		<Row Name="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Atlas="ICON_ATLAS_UNIT_ACTIONS"           Index="19"/>
 		<!-- カスバ -->
 		<Row Name="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH"    Atlas="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" Index="0"/>
+		<!-- ドゥオモ広場(伝道所の使いまわし) -->
+		<Row Name="ICON_IMPROVEMENT_HAG_ITALY_DUOMO"       Atlas="ICON_ATLAS_UNIT_ACTIONS"           Index="20"/>
 		
 		<!-- UP -->
 		<!-- 遷都(フェニキアの遷都プロジェクト使いまわし) -->

@@ -472,5 +472,19 @@
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MOROCCO_CASBAH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>カスバは地方部に見られるメディナ（街のなかの、壁に囲まれた地域）の一種で、普通は丘の上か斜面に築かれた小規模な集落を指す。元来は部族の長やイマームと呼ばれるイスラム指導者の居所であり、壁が高く窓のない家屋が建ち並び、そのあいだを縫うようにせまい路地が走っているのを特徴とする。たいていは要塞化された塔が1つ建っていて、それが中心をなす。1900年代の初頭まで、カスバは北アフリカ沿岸や中東では珍しくなかった。カスバを建設することは、モロッコやアルジェリアに住むアラブ系の一族にとって、富貴と権勢の象徴だったのである。</Text>
 		</Row>
+
+		<!-- UI(ドゥオモ広場) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_NAME" Language="ja_JP">
+			<Text>ドゥオモ広場</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がイタリア固有の施設であるドゥオモ広場を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+1、[ICON_Amenities] 快適性+1。隣接する区域からの産出量が増加する。都心に隣接している場合、 [ICON_Food] 食料+2。その他隣接ボーナスが発生する区域が隣接している場合、該当するボーナスが+2。1都市につき1つのみ。平地にのみ建造可能。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO_NAME" Language="ja_JP">
+			<Text>イタリア固有の施設: ドゥオモ広場</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_ITALY_DUOMO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>イタリアの主要な都市にある教会堂に面した広場のこと。ドゥオモとはラテン語のDomusが語源で、神の家を意味する。ミラノのドゥオーモやピサのドゥオモ広場が有名。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

@@ -388,5 +388,14 @@
 			 Name="LOC_DISTRICT_HANSA_NAME" 
 			 Description="LOC_DISTRICT_HANSA_DESCRIPTION" 
 			 SortIndex="30" />
-	</PlayerItems>
+		<!-- ムッソリーニ -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_ITALY"
+			 LeaderType="LEADER_HAG_MUSSOLINI"
+			 Type="IMPROVEMENT_HAG_ITALY_DUOMO"
+			 Icon="ICON_IMPROVEMENT_HAG_ITALY_DUOMO"
+			 Name="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_NAME"
+			 Description="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_DESCRIPTION"
+			 SortIndex="20"/>
+		</PlayerItems>
 </GameData>

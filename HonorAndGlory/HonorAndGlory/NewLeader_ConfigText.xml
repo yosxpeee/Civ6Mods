@@ -449,7 +449,7 @@
 			<Text>Stecci</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Stecci, unique to Yugoslavia.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, +3 [ICON_Amenities] Amenity. One per City.</Text>
+			<Text>Unlocks the Builder ability to construct a Stecci, unique to Yugoslavia.[NEWLINE][NEWLINE]+1 [ICON_Culture] Culture, +1 [ICON_Faith] Faith, +3 [ICON_Amenities] Amenity. One per City. Can be built on flat place.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="en_US">
 			<Text>Yugoslavia unique improvement: Stecci</Text>
@@ -469,6 +469,20 @@
 			<Text>Kingdom of Morocco unique improvement: Casbah</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MOROCCO_CASBAH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UI(ドゥオモ広場) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_NAME" Language="en_US">
+			<Text>Duomo</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Duomo, unique to Italy.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith, +1 [ICON_Amenities] Amenity. Receives additional yields from adjacent districts. +2 [ICON_Food] Food if adjacent to a city center. For all other districts that award adjacency bonuses: +2 of the appropriate yield if that district is adjacent. One per city.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO_NAME" Language="en_US">
+			<Text>Italy unique improvement: Duomo</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_ITALY_DUOMO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>
