@@ -300,6 +300,8 @@
 		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL" Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" Index="0"/>
 		<!-- コロンビア -->
 		<Row Name="ICON_CIVILIZATION_HAG_COLOMBIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" Index="0"/>
+		<!-- イタリア -->
+		<Row Name="ICON_CIVILIZATION_HAG_ITALY" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -323,7 +325,9 @@
 		<Row Name="ICON_LEADER_HAG_SIMON_BOLIVAR" Atlas="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" Index="0"/>
 		<!-- アドルフ・ヒトラー -->
 		<Row Name="ICON_LEADER_HAG_ADOLF_HITLER" Atlas="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" Index="0"/>
-
+		<!-- ムッソリーニ -->
+		<Row Name="ICON_LEADER_HAG_MUSSOLINI" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
 	    <Row Name="ICON_CIVILIZATION_HAG_RYUKYU" Atlas="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" Index="0"/>

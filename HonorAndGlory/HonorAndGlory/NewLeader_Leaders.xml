@@ -35,6 +35,9 @@
 		<Row Type="LEADER_HAG_ADOLF_HITLER"        Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_ADOLF_HITLER"  Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_GERMANY_JU87"    Kind="KIND_TRAIT"/>
+		<!-- ムッソリーニ -->
+		<Row Type="LEADER_HAG_MUSSOLINI"           Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_MUSSOLINI"     Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -98,6 +101,12 @@
 			<Name>LOC_LEADER_HAG_ADOLF_HITLER_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- ムッソリーニ -->
+		<Row>
+			<LeaderType>LEADER_HAG_MUSSOLINI</LeaderType>
+			<Name>LOC_LEADER_HAG_MUSSOLINI_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
@@ -111,6 +120,7 @@
 		<Row LeaderType="LEADER_HAG_STALIN"        Quote="LOC_LEADER_HAG_STALIN_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" Quote="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  Quote="LOC_LEADER_HAG_ADOLF_HITLER_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     Quote="LOC_LEADER_HAG_MUSSOLINI_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
@@ -142,6 +152,10 @@
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_HAG_MUSSOLINI"/>
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -158,16 +172,17 @@
 		<Row TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" Name="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Description="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_ADOLF_HITLER"  Name="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME"  Description="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"    Name="LOC_TRAIT_UNIT_HAG_GERMANY_JU87_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_MUSSOLINI"     Name="LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME"     Description="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
 		<!-- メネリク2世 -->
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス+4 -->
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
 		</Row>
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
@@ -179,16 +194,17 @@
 
 		<!-- ナポレオン -->
 		<!-- 陸軍近接ユニットの移動力+1 -->
+		<!-- 兵営から文化力+2 -->
+		<!-- 兵営区域の建造物から文化力+1 -->
+		<!-- 兵営のある都市を占領すると全ユニットが全回復する -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT</ModifierId>
 		</Row>
-		<!-- 兵営から文化力+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_ENCAMPMENT_CULTURE</ModifierId>
 		</Row>
-		<!-- 兵営区域の建造物から文化力+1 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_BARRACKS_CULTURE_MODIFIER</ModifierId>
@@ -205,7 +221,6 @@
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MILITARY_ACADEMY_CULTURE_MODIFIER</ModifierId>
 		</Row>
-		<!-- 兵営のある都市を占領すると全ユニットが全回復する -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
@@ -213,11 +228,11 @@
 
 		<!-- ティムール -->
 		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
+		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TIMUR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD</ModifierId>
 		</Row>
-		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TIMUR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY</ModifierId>
@@ -225,16 +240,16 @@
 
 		<!-- チトー -->
 		<!-- 道路のレベル+1 -->
+		<!-- 国内交易路から生産力+2 -->
+		<!-- 国外交易路からゴールド+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
 			<ModifierId>TRAIT_SATRAPIES_IMPROVED_ROUTE_LEVEL</ModifierId><!-- マケドニア・ペルシアDLCのペルシアと同じ -->
 		</Row>
-		<!-- 国内交易路から生産力+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNAL_TRADE_PRODUCTION</ModifierId>
 		</Row>
-		<!-- 国外交易路からゴールド+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
@@ -242,11 +257,11 @@
 		
 		<!-- ムーレイ・イスマイール -->
 		<!-- 全ユニット防戦時に戦闘力+3 -->
+		<!-- 都市へユニットを駐留させると忠誠心+3(軍団、大軍団だと+5) -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</ModifierId>
 		</Row>
-		<!-- 都市へユニットを駐留させると忠誠心+3(軍団、大軍団だと+5) -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
 			<ModifierId>TRAIT_ISIBONGO_GARRISONIDENTITY</ModifierId><!-- RaFのシャカと同じ -->
@@ -258,21 +273,21 @@
 		
 		<!-- 東條英機 -->
 		<!-- 全ユニット同盟1つごとに戦闘力+3 -->
+		<!-- 漁船に文化+1-->
+		<!-- 岩礁タイル上の漁船は文化+1-->
+		<!-- 岩礁タイルに隣接した漁船は文化+1-->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE</ModifierId>
 		</Row>
-		<!-- 漁船に文化+1-->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_CULTURE</ModifierId>
 		</Row>
-		<!-- 岩礁タイル上の漁船は文化+1-->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_PLOT_REEF_CULTURE</ModifierId>
 		</Row>
-		<!-- 岩礁タイルに隣接した漁船は文化+1-->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
@@ -280,11 +295,11 @@
 
 		<!-- マリア1世 -->
 		<!-- フェイトリアのある都市へ遷都できる -->
+		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
 		</Row>
-		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
@@ -292,6 +307,8 @@
 		
 		<!-- スターリン -->
 		<!-- 戦略資源の生産力+1 -->
+		<!-- 全都市の快適性-1 -->
+		<!-- 工業地帯と兵営のコスト半分 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>EQUESTRIAN_ORDERS_ADDITIONAL_HORSES_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
@@ -320,12 +337,10 @@
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
 		</Row>
-		<!-- 全都市の快適性-1 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
 		</Row>
-		<!-- 工業地帯と兵営のコスト半分 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_BOOST_ENCAMPMENT_PRODUCTION</ModifierId><!-- バニラの北条時宗と同じ -->
@@ -337,11 +352,11 @@
 		
 		<!-- シモン・ボリバル -->
 		<!-- 保護戦争の開始が早い -->
+		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
 		</Row>
-		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
@@ -349,19 +364,24 @@
 		
 		<!-- アドルフ・ヒトラー -->
 		<!-- 領土拡張戦争の解禁が早い(軍の伝統) -->
+		<!-- 領土拡張戦争を宣言すると20ターンの間移動力+2 -->
+		<!-- 工業地帯に隣接した鉱山から科学力+1 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_ADOLF_HITLER</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_TERRITORIAL_WAR_PREREQ_OVERRIDE</ModifierId>
 		</Row>
-		<!-- 領土拡張戦争を宣言すると20ターンの間移動力+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_ADOLF_HITLER</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_ADOLF_TERRITORIAL_WAR_MOVEMENT</ModifierId>
 		</Row>
-		<!-- 工業地帯に隣接した鉱山から科学力+1 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_ADOLF_HITLER</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE</ModifierId>
+		</Row>
+		<!-- ムッソリーニ -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MUSSOLINI</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
@@ -534,6 +554,11 @@
 			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_MINE_HANSA_ADJACENT_REQUIREMENTS_LEADER_ADOLF_HITLER</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -855,6 +880,18 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -1003,6 +1040,11 @@
 		<Row ListType="HAGHitlerTech"/>
 		<Row ListType="HAGHitlerWonders"/>
 		<Row ListType="HAGHitlerScience"/>
+		<!-- ムッソリーニ -->
+		<Row ListType="HAGMussoliniDistrict"/>
+		<Row ListType="HAGMussoliniCivics"/>
+		<Row ListType="HAGMussoliniTech"/>
+		<Row ListType="HAGMussoliniWonders"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- メネリク2世 -->
@@ -1063,6 +1105,11 @@
 		<Row ListType="HAGHitlerTech"             LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Technologies"/>
 		<Row ListType="HAGHitlerWonders"          LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Buildings"/>
 		<Row ListType="HAGHitlerScience"          LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Yields"/>
+		<!-- ムッソリーニ -->
+		<Row ListType="HAGMussoliniDistrict"      LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"  System="Districts"/>
+		<Row ListType="HAGMussoliniCivics"        LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"  System="Civics"/>
+		<Row ListType="HAGMussoliniTech"          LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"  System="Technologies"/>
+		<Row ListType="HAGMussoliniWonders"       LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"  System="Buildings"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- メネリク2世 -->
@@ -1196,6 +1243,21 @@
 		<Row ListType="HAGHitlerWonders"          Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
 		<Row ListType="HAGHitlerWonders"          Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
 		<Row ListType="HAGHitlerScience"          Item="YIELD_SCIENCE"                  Value="12"/>
+		<!-- ムッソリーニ -->
+		<Row ListType="HAGMussoliniDistrict"      Item="DISTRICT_INDUSTRIAL_ZONE"       Favored="true"/><!-- 工業地帯 -->
+		<Row ListType="HAGMussoliniCivics"        Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGMussoliniCivics"        Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGMussoliniCivics"        Item="CIVIC_MOBILIZATION"             Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGMussoliniCivics"        Item="CIVIC_CLASS_STRUGGLE"           Favored="true"/><!-- 階級闘争 -->
+		<Row ListType="HAGMussoliniTech"          Item="TECH_APPRENTICESHIP"            Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGMussoliniTech"          Item="TECH_GUNPOWDER"                 Favored="true"/><!-- 火薬 -->
+		<Row ListType="HAGMussoliniTech"          Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGMussoliniTech"          Item="TECH_ADVANCED_FLIGHT"           Favored="true"/><!-- 高度な航空技術 -->
+		<Row ListType="HAGMussoliniTech"          Item="TECH_REFINING"                  Favored="true"/><!-- 精製技術 -->
+		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
+		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
+		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_VENETIAN_ARSENAL"      Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
@@ -1219,10 +1281,12 @@
 		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" AgendaType="AGENDA_PERPETUALLY_ON_GUARD"/>
 		<!-- ヒトラー：鉄冠(バニラのフリードリヒと同じ) -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  AgendaType="AGENDA_IRON_CROWN"/>
+		<!-- ムッソリーニ：大王志向(バニラのトラヤヌスと同じ) -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     AgendaType="AGENDA_OPTIMUS_PRINCEPS"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
-		<!-- チトー、スターリン、シモンボリバル、ヒトラーはなし -->
+		<!-- チトー、スターリン、シモンボリバル、ヒトラー、ムッソリーニはなし -->
 		<Row LeaderType="LEADER_HAG_MENELIK2"     ReligionType="RELIGION_ORTHODOXY"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"     ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"        ReligionType="RELIGION_ISLAM"/>
@@ -1242,6 +1306,7 @@
 		<Row Type="LEADER_HAG_STALIN"        BackgroundImage="Stalin_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_SIMON_BOLIVAR" BackgroundImage="SimonBolivar_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_ADOLF_HITLER"  BackgroundImage="Hitler_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_MUSSOLINI"     BackgroundImage="Mussolini_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_MENELIK2"      ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"     BackgroundImage="Menelik2_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"      PlayDawnOfManAudio="1"/>
@@ -1254,5 +1319,6 @@
 		<Row LeaderType="LEADER_HAG_STALIN"        ForegroundImage="Stalin_LoadingInfo_Foreground.dds"       BackgroundImage="Stalin_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_STALIN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" ForegroundImage="SimonBolivar_LoadingInfo_Foreground.dds" BackgroundImage="SimonBolivar_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_SIMON_BOLIVAR_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  ForegroundImage="Hitler_LoadingInfo_Foreground.dds"       BackgroundImage="Hitler_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_ADOLF_HITLER_DOM_TEXT"  PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     ForegroundImage="Mussolini_LoadingInfo_Foreground.dds"    BackgroundImage="Mussolini_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

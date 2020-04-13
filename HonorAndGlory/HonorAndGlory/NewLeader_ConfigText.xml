@@ -102,7 +102,24 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="en_US">
 			<Text>Happy cities receive an additional +5% [ICON_CULTURE] Culture and +5% [ICON_PRODUCTION] Production. Happy cities generate +1 [ICON_GreatWriter] Great Writer point, +1 [ICON_GreatArtist] Great Artist point and +1 [ICON_GreatMusician] Great Musician point per Theater. Ecstatic cities double all these amounts.</Text>
 		</Row>
-			
+
+		<!-- 文明(イタリア) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="en_US">
+			<Text>Italy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_DESCRIPTION" Language="en_US">
+			<Text>Italy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_ADJECTIVE" Language="en_US">
+			<Text>Italy</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ITALY_NAME" Language="en_US">
+			<Text>Mare Nostrum</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ITALY_DESCRIPTION" Language="en_US">
+			<Text>Italy receives +1 [ICON_GreatMerchant] Great Merchant point from Bank and +1 [ICON_GreatAdmiral] Great Admiral point from Shipyard.</Text>
+		</Row>
+		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="en_US">
 			<Text>Menelik II</Text>
@@ -211,6 +228,17 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION" Language="en_US">
 			<Text>Can declare a War of Territorial Expansion after gaining the Military Tradition Civic. +2 [ICON_Movement] Movement for the first 20 turns after declaring a War of Territorial Expansion. Mins provide +1 [ICON_Science] Science if adjacent to an Hansa.</Text>
+		</Row>
+
+		<!-- 指導者(ムッソリーニ) -->
+		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_NAME" Language="en_US">
+			<Text>Benito Mussolini</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME" Language="en_US">
+			<Text>The rise of fascism</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_FAVOR] Diplomatic Favor per turn for every Military slot in their government.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

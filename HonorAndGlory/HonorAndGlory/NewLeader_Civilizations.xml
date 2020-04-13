@@ -32,6 +32,9 @@
 		<Row Type="TRAIT_CIVILIZATION_HAG_COLOMBIA"        Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_COLOMBIA_LLANERO"        Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_BUILDING_HAG_TEJO_ARENA"          Kind="KIND_TRAIT"/>
+		<!-- イタリア -->
+		<Row Type="CIVILIZATION_HAG_ITALY"                 Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAG_ITALY"           Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>
@@ -95,6 +98,16 @@
 			<RandomCityNameDepth>40</RandomCityNameDepth>
 			<Ethnicity>ETHNICITY_EURO</Ethnicity>
 		</Row>
+		<!-- イタリア -->
+		<Row>
+			<CivilizationType>CIVILIZATION_HAG_ITALY</CivilizationType>
+			<Name>LOC_CIVILIZATION_HAG_ITALY_NAME</Name>
+			<Description>LOC_CIVILIZATION_HAG_ITALY_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_HAG_ITALY_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>40</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+		</Row>
 	</Civilizations>
 	<!-- 文明に属する指導者 -->
 	<CivilizationLeaders>
@@ -108,6 +121,7 @@
 		<Row CivilizationType="CIVILIZATION_RUSSIA"         LeaderType="LEADER_HAG_STALIN"        CapitalName="LOC_CITY_NAME_MOSCOW" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   LeaderType="LEADER_HAG_SIMON_BOLIVAR" CapitalName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_GERMANY"        LeaderType="LEADER_HAG_ADOLF_HITLER"  CapitalName="LOC_CITY_NAME_BERLIN" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY"      LeaderType="LEADER_HAG_MUSSOLINI"     CapitalName="LOC_CITY_NAME_ROME" />
 	</CivilizationLeaders>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>
@@ -134,6 +148,8 @@
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA" />
+
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" TraitType="TRAIT_CIVILIZATION_HAG_ITALY" />
 	</CivilizationTraits>
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
@@ -153,13 +169,15 @@
 		<Row TraitType="TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"  Name="LOC_TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"    Name="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME"/>
 
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL"          Name="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME"         Description="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION"/>
-		<Row TraitType="TRAIT_UNIT_HAG_PORTUGAL_NAU"              Name="LOC_TRAIT_UNIT_HAG_PORTUGAL_NAU_NAME"/>
-		<Row TraitType="TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA"     Name="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL"         Name="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME"        Description="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_PORTUGAL_NAU"             Name="LOC_TRAIT_UNIT_HAG_PORTUGAL_NAU_NAME"/>
+		<Row TraitType="TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA"    Name="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME"/>
 
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA"          Name="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME"         Description="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION"/>
-		<Row TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO"          Name="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME"/>
-		<Row TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA"            Name="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA"         Name="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME"        Description="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO"         Name="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME"/>
+		<Row TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA"           Name="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY"            Name="LOC_TRAIT_CIVILIZATION_HAG_ITALY_NAME"           Description="LOC_TRAIT_CIVILIZATION_HAG_ITALY_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -215,6 +233,12 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_ECSTATIC"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_HAPPY"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_ECSTATIC"/>
+		
+		<!-- イタリア -->
+		<!-- 造船所の大提督ポイント+1 -->
+		<!-- 銀行の大商人ポイント+1 -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY" ModifierId="TRAIT_CIVILIZATION_HAG_ITALY_GREAT_ADMIRAL_SHIPYARD_MODIFIER"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY" ModifierId="TRAIT_CIVILIZATION_HAG_ITALY_GREAT_MERCHANT_BANK_MODIFIER"/>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -323,6 +347,19 @@
 			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_ECSTATIC</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_GREAT_PERSON</ModifierType>
 			<SubjectRequirementSetId>PLAYER_HAS_THEATER_ECSTATIC_REQUIREMENTS_HAG_COLOMBIA</SubjectRequirementSetId>
+		</Row>
+		
+		<!-- 造船所の大提督ポイント+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_ADMIRAL_SHIPYARD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_SHIPYARD</SubjectRequirementSetId><!-- GSにある -->
+		</Row>
+		<!-- 銀行の大商人ポイント+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_MERCHANT_BANK_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_BANK_HAG_ITALY</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -680,6 +717,27 @@
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_ADMIRAL_SHIPYARD_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_ADMIRAL_SHIPYARD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_MERCHANT_BANK_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_MERCHANT_BANK_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
@@ -697,6 +755,10 @@
 		</Row>
 		<Row>
 			<RequirementSetId>PLAYER_HAS_THEATER_ECSTATIC_REQUIREMENTS_HAG_COLOMBIA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_BANK_HAG_ITALY</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -730,12 +792,21 @@
 			<RequirementSetId>PLAYER_HAS_THEATER_ECSTATIC_REQUIREMENTS_HAG_COLOMBIA</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_THEATER_DISTRICT</RequirementId><!-- バニラにある -->
 		</Row>
+		<!-- 建物が銀行である -->
+		<Row>
+			<RequirementSetId>BUILDING_IS_BANK_HAG_ITALY</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_BANK_HAG_ITALY</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
 		<Row>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_INDUSTRIAL_ZONE_HAG_YUGOSLAVIA</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_BANK_HAG_ITALY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
 		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
@@ -744,6 +815,11 @@
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_INDUSTRIAL_ZONE_HAG_YUGOSLAVIA</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_BANK_HAG_ITALY</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BANK</Value>
 		</Row>
 	</RequirementArguments>
 	<!-- 市民名 -->
@@ -808,6 +884,16 @@
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Female="1"/>
+		<!-- イタリア -->
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CitizenName="LOC_CITIZEN_HAG_ITALY_FEMALE_5" Female="1"/>
 	</CivilizationCitizenNames>
 	<!-- 都市名 -->
 	<CityNames>
@@ -1014,6 +1100,47 @@
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_38" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_39" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_40" />
+		<!-- イタリア -->
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CITY_NAME_ROME" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_31" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_32" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_33" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_34" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_35" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_36" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_37" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_38" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_39" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_40" />
 	</CityNames>
 	<!-- 開始位置補正 -->
 	<StartBiasTerrains>

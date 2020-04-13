@@ -62,6 +62,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ADOLF_HITLER_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MUSSOLINI_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MUSSOLINI_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- メネリク2世 -->
@@ -150,6 +156,10 @@
 		</Row>
 		<!-- アドルフ・ヒトラー -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ADOLF_HITLER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ドイツの政治家。ドイツ国首相、および国家元首（総統）であり、国家と一体であるとされた国家社会主義ドイツ労働者党（ナチス）の指導者。1933年に首相に指名され、1年程度で指導者原理に基づく党と指導者による一極集中独裁指導体制を築いたため、独裁者の典型とされる。その冒険的な外交政策と人種主義に基づく政策は、全世界を第二次世界大戦へと導き、ユダヤ人などに対する組織的な大虐殺「ホロコースト」を引き起こした。敗戦を目前にした1945年4月30日、自ら命を絶った。</Text>
+		</Row>
+		<!-- ムッソリーニ -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MUSSOLINI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
 		
@@ -984,6 +994,9 @@
 		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_QUOTE" Language="ja_JP">
 			<Text>平和は剣によって守られる</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_QUOTE" Language="ja_JP">
+			<Text>流された血により、時は進んでいる</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="ja_JP">
@@ -1014,6 +1027,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		

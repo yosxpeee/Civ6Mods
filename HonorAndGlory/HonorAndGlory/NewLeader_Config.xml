@@ -171,6 +171,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_ADOLF_HITLER</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_ADOLF_HITLER</Portrait>
 		</Row>
+		<!-- イタリア(ムッソリーニ) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_ITALY</CivilizationType>
+			<LeaderType>LEADER_HAG_MUSSOLINI</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_ITALY_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_ITALY</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_MUSSOLINI_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_MUSSOLINI</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_ITALY_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_ITALY_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_ITALY</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_MUSSOLINI</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_MUSSOLINI</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->

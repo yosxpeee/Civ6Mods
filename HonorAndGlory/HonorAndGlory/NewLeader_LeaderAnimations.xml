@@ -56,10 +56,16 @@
 			<Leader>LEADER_HAG_SIMON_BOLIVAR</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
-		<!-- シモン・ボリバル -->
+		<!-- アドルフ・ヒトラー -->
 		<Row>
 			<Name>NEUTRAL_IDLE</Name>
 			<Leader>LEADER_HAG_ADOLF_HITLER</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<!-- ムッソリーニ -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_MUSSOLINI</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
 	</LeaderAnimations>

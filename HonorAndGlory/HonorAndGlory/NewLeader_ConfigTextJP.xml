@@ -102,6 +102,23 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="ja_JP">
 			<Text>「幸せである」状態の都市は [ICON_CULTURE] 文化力+5%と[ICON_PRODUCTION] 生産力+5%。また、劇場広場毎に [ICON_GreatWriter] 大著述家ポイント+1、[ICON_GreatArtist] 大芸術家ポイント+1、[ICON_GreatMusician] 大音楽家ポイント+1を産出する。「興奮している」状態の都市はこのボーナスが2倍になる。</Text>
 		</Row>
+
+		<!-- 文明(イタリア) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="ja_JP">
+			<Text>イタリア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_DESCRIPTION" Language="ja_JP">
+			<Text>イタリア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_ADJECTIVE" Language="ja_JP">
+			<Text>イタリアの</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ITALY_NAME" Language="ja_JP">
+			<Text>我らが海</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ITALY_DESCRIPTION" Language="ja_JP">
+			<Text>銀行による [ICON_GreatMerchant] 大商人ポイント+1、造船所による [ICON_GreatAdmiral] 大提督ポイント+1。</Text>
+		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="ja_JP">
@@ -211,6 +228,17 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION" Language="ja_JP">
 			<Text>社会制度「軍の伝統」を獲得すると、領土拡張戦争を宣言できるようになる。領土拡張戦争の宣言から20ターンの間、[ICON_Movement] 移動力+2。ハンザに隣接した鉱山は [ICON_Science] 科学力+1。</Text>
+		</Row>
+
+		<!-- 指導者(ムッソリーニ) -->
+		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_NAME" Language="ja_JP">
+			<Text>ベニート・ムッソリーニ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME" Language="ja_JP">
+			<Text>ファシズムの台頭</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION" Language="ja_JP">
+			<Text>政府の軍事政策スロット1つにつき毎ターン [ICON_FAVOR] 外交的支持+1。</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

@@ -73,5 +73,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="en_US">
 			<Text>I will destroy my enemies, and if you continue to help them, I will destroy you as well.</Text>
 		</Replace>
+		<!-- ムッソリーニ -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_MUSSOLINI_ANY" Language="en_US">
+			<Text>The reach of your empire is as Jupiter’s over the heavens. Well done.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MUSSOLINI_ANY" Language="en_US">
+			<Text>You have left the richest parts of the land for your enemies to claim. Are you so scared of expansion?</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

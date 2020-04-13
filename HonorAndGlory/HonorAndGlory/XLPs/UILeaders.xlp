@@ -99,6 +99,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_ADOLF_HITLER"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_ADOLF_HITLER"/>
 		</Element>
+		<!-- ムッソリーニ -->
+		<Element>
+			<m_EntryID text="LEADER_HAG_MUSSOLINI_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HAG_MUSSOLINI_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_HAG_MUSSOLINI"/>
+			<m_ObjectName text="PORTRAIT_LEADER_HAG_MUSSOLINI"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
