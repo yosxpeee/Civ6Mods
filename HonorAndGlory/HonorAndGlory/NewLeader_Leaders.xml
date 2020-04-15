@@ -156,6 +156,7 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/><!-- 外交勝利狙い -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -371,7 +372,7 @@
 		</Row>
 		<!-- ムッソリーニ -->
 		<!-- 軍事政策スロット1つにつきターンごとの外交的支持+1 -->
-		<!-- 陸上近接および海洋遠距離ユニットの側面攻撃ボーナス2倍 -->
+		<!-- 陸上近接および海洋近接ユニットの側面攻撃ボーナス2倍 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MUSSOLINI</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
@@ -553,10 +554,12 @@
 			<SubjectRequirementSetId>PLOT_IS_MINE_HANSA_ADJACENT_REQUIREMENTS_LEADER_ADOLF_HITLER</SubjectRequirementSetId>
 		</Row>
 
+		<!-- 軍事政策スロット1つにつきターンごとの外交的支持+1 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
 		</Row>
+		<!-- 陸上近接および海洋近接ユニットの側面攻撃ボーナス2倍 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
@@ -882,6 +885,7 @@
 			<Value>1</Value>
 		</Row>
 
+		<!-- 軍事政策スロット1つにつきターンごとの外交的支持+1 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
 			<Name>GovernmentSlotType</Name>
@@ -892,12 +896,12 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- 陸上近接および海洋近接ユニットの側面攻撃ボーナス2倍 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</Value>
 		</Row>
-		
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -970,6 +974,7 @@
 	</Requirements>
 	<!-- 条件詳細の引数 -->
 	<RequirementArguments>
+		<!-- 礁 -->
 		<Row>
 			<RequirementId>REQUIRES_PLOT_REEF_LEADER_HAG_TOJO_HIDEKI</RequirementId>
 			<Name>FeatureType</Name>
@@ -980,6 +985,7 @@
 			<Name>FeatureType</Name>
 			<Value>FEATURE_REEF</Value>
 		</Row>
+		<!-- ハンザ -->
 		<Row>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_HANSA_LEADER_HAG_ADOLF_HITLER</RequirementId>
 			<Name>DistrictType</Name>
@@ -1260,9 +1266,9 @@
 		<Row ListType="HAGMussoliniTech"          Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
 		<Row ListType="HAGMussoliniTech"          Item="TECH_ADVANCED_FLIGHT"           Favored="true"/><!-- 高度な航空技術 -->
 		<Row ListType="HAGMussoliniTech"          Item="TECH_REFINING"                  Favored="true"/><!-- 精製技術 -->
-		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_POTALA_PALACE"         Favored="true"/><!-- ポタラ宮 -->
 		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
-		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
+		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_STATUE_LIBERTY"        Favored="true"/><!-- 自由の女神(GS) -->
 		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_VENETIAN_ARSENAL"      Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
