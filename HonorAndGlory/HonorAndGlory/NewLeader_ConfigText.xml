@@ -342,7 +342,20 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GERMANY_JU87_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
+		<!-- UU(カラビニエリ) -->
+		<Row Tag="LOC_UNIT_HAG_ITALY_CARABINIERI_NAME" Language="en_US">
+			<Text>Carabinieri</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_ITALY_CARABINIERI_DESCRIPTION" Language="en_US">
+			<Text>Italy unique Industrial era unit. +10 [ICON_Strength] Combat Strength when fighting on your capital's continent. [ICON_GreatGeneral] Great General points for killing units.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_ITALY_CARABINIERI_NAME" Language="en_US">
+			<Text>Italy unique unit: Carabinieri</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ITALY_CARABINIERI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">
 			<Text>Stele</Text>

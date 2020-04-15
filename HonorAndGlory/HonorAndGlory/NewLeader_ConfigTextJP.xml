@@ -222,7 +222,7 @@
 			<Text>ファシズムの台頭</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION" Language="ja_JP">
-			<Text>政府の軍事政策スロット1つにつき毎ターン [ICON_FAVOR] 外交的支持+1。陸上近接ユニットと海洋遠近接ユニットは側面攻撃が2倍になる。</Text>
+			<Text>政府の軍事政策スロット1つにつき毎ターン [ICON_FAVOR] 外交的支持+1。陸上近接ユニットと海洋近接ユニットは側面攻撃が2倍になる。</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
@@ -341,6 +341,19 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GERMANY_JU87_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ドイツにおいて第二次世界大戦中に使用された急降下爆撃機。愛称の「シュトゥーカ」（Stuka）とは、本来は本機種の固有の愛称ではなく、"急降下爆撃機"を意味するドイツ語の「Sturzkampfflugzeug」（シュトゥルツカンプフルクツォイク）の略であったが、本機がドイツ軍の用いた急降下爆撃機の代表として扱われたため、この名が用いられるようになった。日本語では「スツーカ」「ストゥーカ（ステューカ）」とも表記されている。</Text>
+		</Row>
+		<!-- UU(カラビニエリ) -->
+		<Row Tag="LOC_UNIT_HAG_ITALY_CARABINIERI_NAME" Language="ja_JP">
+			<Text>カラビニエリ</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_ITALY_CARABINIERI_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代のイタリア固有のユニット。自国の首都がある大陸での戦闘では [ICON_Strength] 戦闘力+10。ユニットを倒すことで [ICON_GreatGeneral] 大将軍ポイントを獲得。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_ITALY_CARABINIERI_NAME" Language="ja_JP">
+			<Text>イタリア固有のユニット: カラビニエリ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ITALY_CARABINIERI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>イタリアの国家憲兵。平時にはイタリアの警察機関の一つとして、国家警察（Polizia di Stato）や財務警察（Guardia di Finanza）などとともに警察活動を行う。有事には憲兵および戦闘部隊として機能する。1814年にピエモンテ州に於いて、サルデーニャ王国国王ヴィットーリオ・エマヌエーレ1世により設立されたのが興りである。</Text>
 		</Row>
 		
 		<!-- UB(ステッレ) -->

@@ -255,6 +255,47 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA256"/>
 		</Element>
+		<!-- 文明(イタリア) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY256"/>
+		</Element>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Element>
@@ -546,7 +587,36 @@
 			<m_EntryID text="ICON_LEADER_HAG_ADOLF_HITLER256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_ADOLF_HITLER256"/>
 		</Element>
-
+		<!-- 指導者(ムッソリーニ) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MUSSOLINI32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MUSSOLINI32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MUSSOLINI45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MUSSOLINI45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MUSSOLINI50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MUSSOLINI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MUSSOLINI55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MUSSOLINI55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MUSSOLINI64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MUSSOLINI64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MUSSOLINI80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MUSSOLINI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_MUSSOLINI256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_MUSSOLINI256"/>
+		</Element>
+		
 		<!-- 都市国家(琉球) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU22"/>
@@ -688,6 +758,31 @@
 		<Element>
 			<m_EntryID text="ICON_UNIT_HAG_PORTUGAL_NAU256"/>
 			<m_ObjectName text="ICON_UNIT_HAG_PORTUGAL_NAU256"/>
+		</Element>
+		<!-- ユニット(カラビニエリ) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ITALY_CARABINIERI22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ITALY_CARABINIERI22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ITALY_CARABINIERI32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ITALY_CARABINIERI32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ITALY_CARABINIERI38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ITALY_CARABINIERI38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ITALY_CARABINIERI50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ITALY_CARABINIERI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ITALY_CARABINIERI80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ITALY_CARABINIERI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ITALY_CARABINIERI256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ITALY_CARABINIERI256"/>
 		</Element>
 		
 		<!-- 地形改善(カスバ) -->

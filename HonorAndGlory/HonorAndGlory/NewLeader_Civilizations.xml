@@ -36,6 +36,7 @@
 		<Row Type="CIVILIZATION_HAG_ITALY"                 Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_HAG_ITALY"           Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO"      Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_ITALY_CARABINIERI"       Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>
@@ -146,6 +147,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY"      TraitType="TRAIT_CIVILIZATION_HAG_ITALY" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY"      TraitType="TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY"      TraitType="TRAIT_UNIT_HAG_ITALY_CARABINIERI" />
 	</CivilizationTraits>
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
@@ -169,6 +171,7 @@
 		<Row TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA"           Name="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY"            Name="LOC_TRAIT_CIVILIZATION_HAG_ITALY_NAME"           Description="LOC_TRAIT_CIVILIZATION_HAG_ITALY_DESCRIPTION"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO"       Name="LOC_TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO_NAME"/>
+		<Row TraitType="TRAIT_UNIT_HAG_ITALY_CARABINIERI"        Name="LOC_TRAIT_UNIT_HAG_ITALY_CARABINIERI_NAME"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>

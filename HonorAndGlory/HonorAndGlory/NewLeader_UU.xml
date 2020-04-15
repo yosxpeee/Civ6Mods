@@ -11,6 +11,7 @@
 		<Row Type="UNIT_HAG_RUSSIAN_T34"             Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_COLOMBIA_LLANERO"        Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -57,6 +58,11 @@
 		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITTYPE_NUCLEAR"/>
 		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITTYPE_AIR_SIEGE"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITTYPE_LAND_COMBAT"/>
+
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
@@ -82,6 +88,8 @@
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_AIRCRAFT"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_AIR_BOMBER"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_HAG_GERMANY_JU87"/>
+		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Tag="CLASS_GARDE"/><!-- どうしようかな -->
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
@@ -163,6 +171,13 @@
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqTech="TECH_ADVANCED_FLIGHT" 
 			 Stackable="TRUE" PrereqDistrict="DISTRICT_AERODROME" CanTargetAir="TRUE" WMDCapable="true"
 			 TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"/>
+		<!-- カラビニエリ -->
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI" Cost="340" Maintenance="5" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="65" StrategicResource="RESOURCE_NITER"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_ITALY_CARABINIERI_NAME" Description="LOC_UNIT_HAG_ITALY_CARABINIERI_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_MILITARY_SCIENCE" 
+			 TraitType="TRAIT_UNIT_HAG_ITALY_CARABINIERI"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -184,6 +199,8 @@
 		<Row Unit="UNIT_HAG_COLOMBIA_LLANERO"        UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<!-- Ju87：ジェット爆撃機 -->
 		<Row Unit="UNIT_HAG_GERMANY_JU87"            UpgradeUnit="UNIT_JET_BOMBER"/>
+		<!-- カラビニエリ：機械化歩兵 -->
+		<Row Unit="UNIT_HAG_ITALY_CARABINIERI"       UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>
@@ -191,6 +208,7 @@
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           ResourceCost="10"/>
 		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ResourceCost="20"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ResourceCost="20"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       ResourceCost="10"/>
 		<Row UnitType="UNIT_HAG_JAPAN_ZERO"              ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"      ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAG_GERMANY_JU87"            ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>

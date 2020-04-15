@@ -19,6 +19,7 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_TEJO_ARENA"           Texture="Moment_HAG_Colombia_TejoArena.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_GERMANY_JU87"             Texture="Moment_HAG_AdolfHitler_Ju87.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_ITALY_DUOMO"       Texture="Moment_DistrictBuiltHolySite.dds"/><!-- 隣接+3以上の聖地を建てたときの使い回し -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ITALY_CARABINIERI"        Texture="Moment_UniqueUnit_France_GardeImperiale.dds"/><!-- 皇帝近衛兵の使いまわし -->
 
 		<!-- 宗教 -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"      Texture="Moment_Religion_HAG_Jainism.dds"/>

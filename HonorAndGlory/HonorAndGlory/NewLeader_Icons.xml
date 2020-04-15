@@ -68,6 +68,17 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA256.dds"/>
+		<!-- イタリア -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY256.dds"/>
 		
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
@@ -150,6 +161,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ADOLF_HITLER256.dds"/>
+		<!-- ムッソリーニ -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI256.dds"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -236,7 +255,14 @@
 		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU256.dds"/>
-
+		<!-- カラビニエリ -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ITALY_CARABINIERI22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ITALY_CARABINIERI32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ITALY_CARABINIERI38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ITALY_CARABINIERI50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ITALY_CARABINIERI80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ITALY_CARABINIERI256.dds"/>
+		
 		<!-- UI -->
 		<!-- カスバ -->
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH38.dds"/>
@@ -301,7 +327,7 @@
 		<!-- コロンビア -->
 		<Row Name="ICON_CIVILIZATION_HAG_COLOMBIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" Index="0"/>
 		<!-- イタリア -->
-		<Row Name="ICON_CIVILIZATION_HAG_ITALY" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_ITALY" Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -326,7 +352,7 @@
 		<!-- アドルフ・ヒトラー -->
 		<Row Name="ICON_LEADER_HAG_ADOLF_HITLER" Atlas="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" Index="0"/>
 		<!-- ムッソリーニ -->
-		<Row Name="ICON_LEADER_HAG_MUSSOLINI" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<Row Name="ICON_LEADER_HAG_MUSSOLINI" Atlas="ICON_ATLAS_LEADER_HAG_MUSSOLINI" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -423,6 +449,16 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_GERMANY_JU87_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="15"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_GERMANY_JU87_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="15"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_GERMANY_JU87_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="15"/>
+		<!-- カラビニエリ(ポートレイトは皇帝近衛兵の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_ITALY_CARABINIERI"                                   Atlas="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI"       Index="0"/>
+		<Row Name="ICON_UNIT_HAG_ITALY_CARABINIERI_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI"       Index="0"/>
+		<Row Name="ICON_UNIT_HAG_ITALY_CARABINIERI_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI"       Index="0"/>
+		<Row Name="ICON_UNIT_HAG_ITALY_CARABINIERI_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI"       Index="0"/>
+		<Row Name="ICON_UNIT_HAG_ITALY_CARABINIERI_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                   Index="62"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_ITALY_CARABINIERI_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"             Index="62"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_ITALY_CARABINIERI_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"     Index="62"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_ITALY_CARABINIERI_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"    Index="62"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_ITALY_CARABINIERI_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"           Index="62"/>
 		
 		<!-- UB -->
 		<!-- ステッレ(モニュメントの使いまわし) -->
