@@ -173,6 +173,12 @@
 		<Row NamedRiverType="NAMED_HAG_RIVER_ATRATO_RIVER"          CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_GUAYAS_RIVER"          CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_GATUN_RIVER"           CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
+		<!-- イタリア -->
+		<Row NamedRiverType="NAMED_RIVER_ARNO_RIVER"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_OFANTO_RIVER"              CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_PO"                        CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_RUBICON"                   CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_TIBER"                     CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 	</NamedRiverCivilizations>									    
 	<NamedVolcanoCivilizations>
 		<!-- 火山 -->
@@ -185,6 +191,12 @@
 		<Row NamedVolcanoType="NAMED_VOLCANO_GALERAS"               CivilizationType="CIVILIZATION_HAG_COLOMBIA"/><!-- 既存 -->
 		<Row NamedVolcanoType="NAMED_HAG_VOLCANO_CUMBAL"            CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
 		<Row NamedVolcanoType="NAMED_HAG_VOLCANO_NEVADO_DEL_HUILA"  CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
+		<!-- イタリア -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_ETNA"                  CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_LARDERELLO_VOLCANO"    CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_PHLEGRAEAN_FIELDS"     CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_STROMBOLI"             CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_VULSINI"               CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 	</NamedVolcanoCivilizations>
 	<NamedMountainCivilizations>
 		<!-- 山・山脈 -->
@@ -213,6 +225,12 @@
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_CRISTOBAL_COLON" CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_PICO_EL_TURMAL"  CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_SANTIAGO"        CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
+		<!-- イタリア -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_ALPS"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_APENNINES"           CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_CHIANTI_MOUNTAINS"   CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_DOLOMITES"           CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_SIBILLINI_MOUNTAINS" CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 	</NamedMountainCivilizations>
 	<NamedDesertCivilizations>
 		<!-- 砂漠 -->
@@ -222,6 +240,8 @@
 		<Row NamedDesertType="NAMED_DESERT_KYZYLKUM"                CivilizationType="CIVILIZATION_HAG_TIMURID"/><!-- 既存 -->
 		<!-- モロッコ -->							                 
 		<Row NamedDesertType="NAMED_DESERT_SAHARA"                  CivilizationType="CIVILIZATION_HAG_TIMURID"/><!-- 既存 -->
+		<!-- イタリア -->
+		<Row NamedDesertType="NAMED_DESERT_ACCONA_DESERT"           CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 	</NamedDesertCivilizations>
 	<NamedLakeCivilizations>
 		<!-- 湖 -->
@@ -250,6 +270,14 @@
 		<Row NamedLakeType="NAMED_HAG_LAKE_CIENAGA_DE_QUINTANILLA"  CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_LURUACO_LAKE"            CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_BAYANO_LAKE"             CivilizationType="CIVILIZATION_HAG_COLOMBIA"/>
+		<!-- イタリア -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_BENACUS"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_BOLSENA"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_BRACCIANO"              CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_ISEO"                   CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_LARIUS"                 CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_TRASIMENE"              CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_VERBANUS"               CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 	</NamedLakeCivilizations>
 	<NamedSeaCivilizations>
 		<!-- 海・湾 -->
@@ -259,5 +287,11 @@
 		<Row NamedSeaType="NAMED_SEA_ALBORAN_SEA"                   CivilizationType="CIVILIZATION_HAG_MOROCCO"/><!-- 既存 -->
 		<!-- コロンビア -->
 		<Row NamedSeaType="NAMED_SEA_LAKE_MARACAIBO"                CivilizationType="CIVILIZATION_HAG_COLOMBIA"/><!-- 既存 -->
+		<!-- イタリア -->
+		<Row NamedSeaType="NAMED_SEA_ADRIATIC_SEA"                  CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_IONIAN_SEA"                    CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_LIGURIAN_SEA"                  CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_MEDITERRANEAN_SEA"             CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_TYRRHENIAN_SEA"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 	</NamedSeaCivilizations>
 </GameInfo>

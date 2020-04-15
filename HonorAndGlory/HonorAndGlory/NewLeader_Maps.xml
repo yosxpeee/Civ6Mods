@@ -2,6 +2,7 @@
 <GameData>
 	<!-- リアル地球系マップへの登録 -->
 	<!-- 残念ながら都市国家はここに書いても出現するようにならない。(バニラのXMLファイルにもプレイヤーとして使える指導者しか記載がない) -->
+	<!-- マップ指定のID=DLCのMODID -->
 	<MapLeaders>
 		<!-- 東アジア(DLC) -->
 		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TIMUR"/>
@@ -13,7 +14,8 @@
 		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MARIA_I"/>
 		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_STALIN"/>
 		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_ADOLF_HITLER"/>
-
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
+		
 		<!-- 地球(GS) -->
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MENELIK2"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_NAPOLEON"/>
@@ -25,6 +27,7 @@
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_STALIN"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_SIMON_BOLIVAR"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_ADOLF_HITLER"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
 	</MapLeaders>
 	<MapStartPositions>
 		<!-- 東アジア(DLC) -->
@@ -37,7 +40,8 @@
 		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="520"  Type="LEADER" Value="LEADER_HAG_MARIA_I"/>
 		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="2494" Type="LEADER" Value="LEADER_HAG_STALIN"/>
 		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="2138" Type="LEADER" Value="LEADER_HAG_ADOLF_HITLER"/>
-
+		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="794"  Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
+		
 		<!-- 地球(GS) -->
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="2905" Type="LEADER" Value="LEADER_HAG_MENELIK2"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3650" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
@@ -49,5 +53,6 @@
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3995" Type="LEADER" Value="LEADER_HAG_STALIN"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="2373" Type="LEADER" Value="LEADER_HAG_SIMON_BOLIVAR"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3822" Type="LEADER" Value="LEADER_HAG_ADOLF_HITLER"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3318" Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
 	</MapStartPositions>
 </GameData>

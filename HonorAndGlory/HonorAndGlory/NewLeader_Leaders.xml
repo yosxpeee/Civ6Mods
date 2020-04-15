@@ -191,7 +191,6 @@
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
 		</Row>
-
 		<!-- ナポレオン -->
 		<!-- 陸軍近接ユニットの移動力+1 -->
 		<!-- 兵営から文化力+2 -->
@@ -225,7 +224,6 @@
 			<TraitType>TRAIT_LEADER_HAG_NAPOLEON</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
 		</Row>
-
 		<!-- ティムール -->
 		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
 		<!-- 占領した都市は区域をゴールドで購入できるようになる -->
@@ -237,7 +235,6 @@
 			<TraitType>TRAIT_LEADER_HAG_TIMUR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TIMUR_CAN_PURCHASE_CAPTURED_CITY</ModifierId>
 		</Row>
-
 		<!-- チトー -->
 		<!-- 道路のレベル+1 -->
 		<!-- 国内交易路から生産力+2 -->
@@ -254,7 +251,6 @@
 			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNATIONAL_TRADE_GOLD</ModifierId>
 		</Row>
-		
 		<!-- ムーレイ・イスマイール -->
 		<!-- 全ユニット防戦時に戦闘力+3 -->
 		<!-- 都市へユニットを駐留させると忠誠心+3(軍団、大軍団だと+5) -->
@@ -270,7 +266,6 @@
 			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
 			<ModifierId>TRAIT_ISIBONGO_GARRISONFORMATIONIDENTITY</ModifierId><!-- RaFのシャカと同じ -->
 		</Row>
-		
 		<!-- 東條英機 -->
 		<!-- 全ユニット同盟1つごとに戦闘力+3 -->
 		<!-- 漁船に文化+1-->
@@ -292,7 +287,6 @@
 			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
 		</Row>
-
 		<!-- マリア1世 -->
 		<!-- フェイトリアのある都市へ遷都できる -->
 		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
@@ -304,7 +298,6 @@
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
 		</Row>
-		
 		<!-- スターリン -->
 		<!-- 戦略資源の生産力+1 -->
 		<!-- 全都市の快適性-1 -->
@@ -349,7 +342,6 @@
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
 		</Row>
-		
 		<!-- シモン・ボリバル -->
 		<!-- 保護戦争の開始が早い -->
 		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
@@ -361,7 +353,6 @@
 			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
 		</Row>
-		
 		<!-- アドルフ・ヒトラー -->
 		<!-- 領土拡張戦争の解禁が早い(軍の伝統) -->
 		<!-- 領土拡張戦争を宣言すると20ターンの間移動力+2 -->
@@ -379,9 +370,15 @@
 			<ModifierId>TRAIT_LEADER_HAG_ADOLF_HITLER_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE</ModifierId>
 		</Row>
 		<!-- ムッソリーニ -->
+		<!-- 軍事政策スロット1つにつきターンごとの外交的支持+1 -->
+		<!-- 陸上近接および海洋遠距離ユニットの側面攻撃ボーナス2倍 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MUSSOLINI</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MUSSOLINI</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
@@ -559,6 +556,10 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_SLOT_MILITARY_FAVOR</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -891,7 +892,12 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</Value>
+		</Row>
+		
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>

@@ -17,7 +17,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION" Language="en_US">
 			<Text>Receives [ICON_Science] Science or [ICON_Culture] Culture from [ICON_TradeRoute] Trade Routes to civilizations that are more advanced than Etiopia Empire (+1 per 3 technologies or civics ahead). +1 [ICON_FOOD] Food from Pasture. +1 [ICON_Production] Production from Pasture on Desert Hills.</Text>
 		</Row>
-
 		<!-- 文明(ティムール朝) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_NAME" Language="en_US">
 			<Text>Timurid Empire</Text>
@@ -34,7 +33,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_DESCRIPTION" Language="en_US">
 			<Text>Commercial Hub receives +1 [ICON_GOLD] Gold from the adjacent other districts. All districts receive +2 additional standard adjacency bonus for being adjacent to oasis.</Text>
 		</Row>
-
 		<!-- 文明(ユーゴスラビア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_NAME" Language="en_US">
 			<Text>Yugoslavia</Text>
@@ -51,7 +49,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION" Language="en_US">
 			<Text>[ICON_Governor] Governors established in a city provide +3% [ICON_Culture] Culture for each Promotion they have earned, including their first. Mines provide +1 [ICON_SCIENCE] Science if adjacent to an Industrial Zone.</Text>
 		</Row>
-
 		<!-- 文明(モロッコ) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_NAME" Language="en_US">
 			<Text>Kingdom of Morocco</Text>
@@ -68,7 +65,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="en_US">
 			<Text>[ICON_TradeRoute] Trade Routes to foreign cities provide +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_GOLD] Gold to you.[ICON_TradeRoute] Trade Routes from foreign cities provide +2 [ICON_FOOD] Food to you. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Gold] Gold for them.</Text>
 		</Row>
-
 		<!-- 文明(ポルトガル) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_NAME" Language="en_US">
 			<Text>Portugal Empire</Text>
@@ -85,7 +81,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="en_US">
 			<Text>Open Borders with all city-states. Each time you found your first city on a continent other than your home continent receive a [ICON_TradeRoute] Trade Route capacity.</Text>
 		</Row>
-		
 		<!-- 文明(コロンビア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_NAME" Language="en_US">
 			<Text>Gran Colombia</Text>
@@ -102,7 +97,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="en_US">
 			<Text>Happy cities receive an additional +5% [ICON_CULTURE] Culture and +5% [ICON_PRODUCTION] Production. Happy cities generate +1 [ICON_GreatWriter] Great Writer point, +1 [ICON_GreatArtist] Great Artist point and +1 [ICON_GreatMusician] Great Musician point per Theater. Ecstatic cities double all these amounts.</Text>
 		</Row>
-
 		<!-- 文明(イタリア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="en_US">
 			<Text>Italy</Text>
@@ -130,7 +124,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION" Language="en_US">
 			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_GOLD] Gold to you.</Text>
 		</Row>
-
 		<!-- 指導者(ナポレオン) -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_NAME" Language="en_US">
 			<Text>Napoleon</Text>
@@ -141,7 +134,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Movement] Movement to military melee units. +2 [ICON_CULTURE] Culture to each city with encampment. +1 [ICON_CULTURE] Culture to each city with buildings on encampment. All military units heal completely when this player captures a city with a encampment.</Text>
 		</Row>
-
 		<!-- 指導者(ティムール) -->
 		<Row Tag="LOC_LEADER_HAG_TIMUR_NAME" Language="en_US">
 			<Text>Timur</Text>
@@ -152,7 +144,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION" Language="en_US">
 			<Text>All Cavalry units Gain [ICON_GOLD] Gold equal to 100% that unit's base [ICON_Strength] Combat Strength. Allows city to purchase districts with [ICON_Gold] Gold when this player captures a city.</Text>
 		</Row>
-
 		<!-- 指導者(チトー) -->
 		<Row Tag="LOC_LEADER_HAG_TITO_NAME" Language="en_US">
 			<Text>Josip Broz Tito</Text>
@@ -163,7 +154,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION" Language="en_US">
 			<Text>Roads built in your territory are one level more advanced than usual. Receive +2 [ICON_Production] Production for routes between your own cities. [ICON_TradeRoute] Trade Routes to foreign cities provide +2 [ICON_Gold] Gold to you.</Text>
 		</Row>
-
 		<!-- 指導者(ムーレイ・イスマーイール) -->
 		<Row Tag="LOC_LEADER_HAG_MULAY_ISMAIL_NAME" Language="en_US">
 			<Text>Mulay Ismail</Text>
@@ -174,7 +164,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="en_US">
 			<Text>Gain +3 [ICON_Strength] Combat Strength bonus when defending to all units. Cities with a garrisoned unit get +3 Loyalty per turn, or +5 if it is a Corps or Army.</Text>
 		</Row>
-
 		<!-- 指導者(東條英機) -->
 		<Row Tag="LOC_LEADER_HAG_HIDEKI_TOJO_NAME" Language="en_US">
 			<Text>Hideki Tojo</Text>
@@ -185,7 +174,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION" Language="en_US">
 			<Text>All Units have +3 [ICON_Strength] Combat Strength from each active Alliance. Fishing Boats provides +1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture if Fishing Boats on a reef. +1 [ICON_Culture] Culture if Fishing Boats adjecent to reef.</Text>
 		</Row>
-
 		<!-- 指導者(マリア1世) -->
 		<Row Tag="LOC_LEADER_HAG_MARIA_I_NAME" Language="en_US">
 			<Text>Maria I</Text>
@@ -196,7 +184,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="en_US">
 			<Text>Can move their original [ICON_Capital] Capital to any city with a Feitoria they founded by completing a unique project in that city. Each time you found city on a continent other than your home continent receive +4 Identity per turn.</Text>
 		</Row>
-
 		<!-- 指導者(スターリン) -->
 		<Row Tag="LOC_LEADER_HAG_STALIN_NAME" Language="en_US">
 			<Text>Joseph Stalin</Text>
@@ -207,7 +194,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="en_US">
 			<Text>All improved strategic resources yield 1 additional resource per turn. Builds Encampment and Industrial Zone Square districts in half the time. All cities -1 [ICON_Amenities] Amenity.</Text>
 		</Row>
-		
 		<!-- 指導者(シモン・ボリバル) -->
 		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="en_US">
 			<Text>Simon Bolivar</Text>
@@ -218,7 +204,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="en_US">
 			<Text>Can declare a War of Protectorate after gaining the Military Tradition Civic. +100% [ICON_Culture] Culture if they have liberated a city in the past 10 turns.</Text>
 		</Row>
-
 		<!-- 指導者(アドルフ・ヒトラー) -->
 		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_NAME" Language="en_US">
 			<Text>Adolf Hitler</Text>
@@ -229,7 +214,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION" Language="en_US">
 			<Text>Can declare a War of Territorial Expansion after gaining the Military Tradition Civic. +2 [ICON_Movement] Movement for the first 20 turns after declaring a War of Territorial Expansion. Mins provide +1 [ICON_Science] Science if adjacent to an Hansa.</Text>
 		</Row>
-
 		<!-- 指導者(ムッソリーニ) -->
 		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_NAME" Language="en_US">
 			<Text>Benito Mussolini</Text>
@@ -238,7 +222,7 @@
 			<Text>The rise of fascism</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_FAVOR] Diplomatic Favor per turn for every Military slot in their government.</Text>
+			<Text>+1 [ICON_FAVOR] Diplomatic Favor per turn for every Military slot in their government. Military melee units and Naval melee units increases +100% Flanking bonus.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
@@ -254,7 +238,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UU(アルバン) -->
 		<Row Tag="LOC_UNIT_HAG_TIMURID_ARBAN_NAME" Language="en_US">
 			<Text>Arban</Text>
@@ -268,7 +251,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_TIMURID_ARBAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UU(M48山砲) -->
 		<Row Tag="LOC_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME" Language="en_US">
 			<Text>Mountain Gun M48</Text>
@@ -282,7 +264,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UU(ベルベル人の騎兵) -->
 		<Row Tag="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME" Language="en_US">
 			<Text>Berbers Cavalry</Text>
@@ -296,7 +277,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UU(零戦) -->
 		<Row Tag="LOC_UNIT_HAG_JAPAN_ZERO_NAME" Language="en_US">
 			<Text>Zero Fighter</Text>
@@ -310,7 +290,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_JAPAN_ZERO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UU(ナウ船) -->
 		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_NAME" Language="en_US">
 			<Text>Nau</Text>
@@ -324,7 +303,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_PORTUGAL_NAU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UU(T-34) -->
 		<Row Tag="LOC_UNIT_HAG_RUSSIAN_T34_NAME" Language="en_US">
 			<Text>T-34</Text>
@@ -338,7 +316,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_RUSSIAN_T34_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UU(リャネロ) -->
 		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="en_US">
 			<Text>Llanero</Text>
@@ -352,7 +329,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UU(Ju87) -->
 		<Row Tag="LOC_UNIT_HAG_GERMANY_JU87_NAME" Language="en_US">
 			<Text>Ju87</Text>
@@ -366,7 +342,7 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GERMANY_JU87_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-		
+
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">
 			<Text>Stele</Text>
@@ -380,7 +356,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_ETHIOPIA_STELE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UB(天文台) -->
 		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="en_US">
 			<Text>Observatory</Text>
@@ -394,7 +369,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TIMURID_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UB(テホのアリーナ) -->
 		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_NAME" Language="en_US">
 			<Text>Tejo Arena</Text>
@@ -443,7 +417,7 @@
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="en_US">
 			<Text>+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Plantation; other?Plantations;}.</Text>
 		</Row>
-		
+
 		<!-- UI(ステチュツィ) -->
 		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="en_US">
 			<Text>Stecci</Text>
@@ -457,7 +431,6 @@
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UI(カスバ) -->
 		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="en_US">
 			<Text>Casbah</Text>
@@ -471,7 +444,6 @@
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MOROCCO_CASBAH_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
 		<!-- UI(ドゥオモ広場) -->
 		<Row Tag="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_NAME" Language="en_US">
 			<Text>Duomo</Text>

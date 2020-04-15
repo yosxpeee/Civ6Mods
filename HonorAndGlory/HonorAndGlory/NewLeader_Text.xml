@@ -182,6 +182,9 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_COLOMBIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ITALY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
+		</Row>
 		
 		<!-- Civilization Citizen Names -->
 		<!-- エチオピア帝国 -->
@@ -352,6 +355,34 @@
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Language="en_US">
 			<Text>Shakira</Text>
 		</Row>
+		<!-- イタリア -->
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_1" Language="en_US">
+			<Text>Abelardo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_2" Language="en_US">
+			<Text>Baldo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_3" Language="en_US">
+			<Text>Bernardo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_4" Language="en_US">
+			<Text>Cesare</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_1" Language="en_US">
+			<Text>Antonella</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_2" Language="en_US">
+			<Text>Brigitta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_3" Language="en_US">
+			<Text>Marianna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_4" Language="en_US">
+			<Text>Pamela</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_5" Language="en_US">
+			<Text>Rosetta</Text>
+		</Row>
 		
 		<!-- Civilization City Names-->
 		<!-- エチオピア帝国 -->
@@ -419,7 +450,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_21" Language="en_US">
 			<Text>Werder</Text>
 		</Row>
-		
 		<!-- ティムール朝 -->
 		<!-- 現ウズベキスタン共和国の都市名を設定 -->
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_1" Language="en_US">
@@ -503,7 +533,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_27" Language="en_US">
 			<Text>Xo'jayli</Text>
 		</Row>
-		
 		<!-- ユーゴスラビア -->
 		<!-- 構成国の都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" Language="en_US">
@@ -626,7 +655,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_40" Language="en_US">
 			<Text>Gjakove</Text>
 		</Row>
-		
 		<!-- モロッコ -->
 		<!-- 現モロッコの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" Language="en_US">
@@ -722,7 +750,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_31" Language="en_US">
 			<Text>Merzouga</Text>
 		</Row>
-
 		<!-- ポルトガル -->
 		<!-- 現在のポルトガルの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="en_US">
@@ -839,7 +866,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_38" Language="en_US">
 			<Text>Vila Nova de Famalicao</Text>
 		</Row>
-
 		<!-- コロンビア -->
 		<!-- 現在のコロンビア、ベネズエラ、エクアドル、パナマの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" Language="en_US">
@@ -961,6 +987,128 @@
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_40" Language="en_US">
 			<Text>Santiago de Veraguas</Text>
+		</Row>
+		<!-- イタリア -->
+		<!-- 現在のイタリアの都市名から(一部ローマと被り) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_1" Language="en_US"><!-- 未使用 -->
+			<Text>Roma</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_2" Language="en_US">
+			<Text>Milan</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_3" Language="en_US">
+			<Text>Naples</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_4" Language="en_US">
+			<Text>Turin</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_5" Language="en_US">
+			<Text>Palermo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_6" Language="en_US">
+			<Text>Genoa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_7" Language="en_US">
+			<Text>Sanremo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_8" Language="en_US">
+			<Text>Florence</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_9" Language="en_US">
+			<Text>Bari</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_10" Language="en_US">
+			<Text>Catania</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_11" Language="en_US">
+			<Text>Venice</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_12" Language="en_US"><!-- 未使用 -->
+			<Text>Verona</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_13" Language="en_US">
+			<Text>Messina</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_14" Language="en_US">
+			<Text>Padua</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_15" Language="en_US">
+			<Text>Trieste</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_16" Language="en_US">
+			<Text>Brescia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_17" Language="en_US">
+			<Text>Taranto</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_18" Language="en_US">
+			<Text>Parma</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_19" Language="en_US">
+			<Text>Prato</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_20" Language="en_US">
+			<Text>Modena</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_21" Language="en_US">
+			<Text>Reggio Calabria</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_22" Language="en_US">
+			<Text>Reggio Emilia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_23" Language="en_US">
+			<Text>Perugia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_24" Language="en_US">
+			<Text>Livorno</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_25" Language="en_US"><!-- 未使用 -->
+			<Text>Ravenna</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_26" Language="en_US">
+			<Text>Cagliari</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_27" Language="en_US">
+			<Text>Foggia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_28" Language="en_US">
+			<Text>Rimini</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_29" Language="en_US">
+			<Text>Salerno</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_30" Language="en_US">
+			<Text>Ferrara</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_31" Language="en_US">
+			<Text>Sassari</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_32" Language="en_US">
+			<Text>Latina</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_33" Language="en_US">
+			<Text>Giugliano in Campania</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_34" Language="en_US">
+			<Text>Monza</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_35" Language="en_US">
+			<Text>Syracuse</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_36" Language="en_US">
+			<Text>Bergamo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_37" Language="en_US">
+			<Text>Pescara</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_38" Language="en_US">
+			<Text>Trento</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_39" Language="en_US">
+			<Text>Forlì</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_40" Language="en_US">
+			<Text>Vicenza</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->

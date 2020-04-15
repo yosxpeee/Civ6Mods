@@ -129,57 +129,44 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" />
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   TraitType="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"/>
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   TraitType="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"/>
-														    
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID"    TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" />
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID"    TraitType="TRAIT_UNIT_HAG_TIMURID_ARBAN"/>
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID"    TraitType="TRAIT_BUILDING_HAG_TIMURID_OBSERVATORY"/>
-
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TraitType="TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" />
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TraitType="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI"/>
-
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO"    TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO"    TraitType="TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" />
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO"    TraitType="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
-
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL"   TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL" />
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL"   TraitType="TRAIT_UNIT_HAG_PORTUGAL_NAU"/>
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL"   TraitType="TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA"/>
-
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO" />
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA" />
-
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY"      TraitType="TRAIT_CIVILIZATION_HAG_ITALY" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY"      TraitType="TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO" />
-
 	</CivilizationTraits>
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA"         Name="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_NAME"       Description="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"    Name="LOC_TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME"/>
 		<Row TraitType="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"       Name="LOC_TRAIT_BUILDING_HAG_ETHIOPIA_STELE_NAME"/>
-
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID"          Name="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_NAME"         Description="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_TIMURID_ARBAN"            Name="LOC_TRAIT_UNIT_HAG_TIMURID_ARBAN_NAME"/>
 		<Row TraitType="TRAIT_BUILDING_HAG_TIMURID_OBSERVATORY"  Name="LOC_TRAIT_BUILDING_HAG_TIMURID_OBSERVATORY_NAME"/>
-
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA"       Name="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_NAME"      Description="LOC_TRAIT_CIVILIZATION_HAG_YUGOSLAVIA_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"  Name="LOC_TRAIT_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Name="LOC_TRAIT_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME"/>
-
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO"          Name="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_NAME"         Description="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"  Name="LOC_TRAIT_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"    Name="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME"/>
-
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL"         Name="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME"        Description="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_PORTUGAL_NAU"             Name="LOC_TRAIT_UNIT_HAG_PORTUGAL_NAU_NAME"/>
 		<Row TraitType="TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA"    Name="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME"/>
-
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA"         Name="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME"        Description="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO"         Name="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME"/>
 		<Row TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA"           Name="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME"/>
-
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY"            Name="LOC_TRAIT_CIVILIZATION_HAG_ITALY_NAME"           Description="LOC_TRAIT_CIVILIZATION_HAG_ITALY_DESCRIPTION"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO"       Name="LOC_TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO_NAME"/>
 	</Traits>
@@ -191,7 +178,6 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_PASTURE_FOOD"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT"/>
-		
 		<!-- ティムール朝 -->
 		<!-- 商業ハブは他の区域から隣接ボーナス+1 -->
 		<!-- 全ての専門区域はオアシスから隣接ボーナス+2 -->
@@ -202,13 +188,11 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" ModifierId="TRAIT_HAG_TIMURID_ADJACENT_OASIS_HOLYSITE_ADJACENCY_FAITH"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" ModifierId="TRAIT_HAG_TIMURID_ADJACENT_OASIS_THEATER_ADJACENCY_CULTURE"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" ModifierId="TRAIT_HAG_TIMURID_ADJACENT_OASIS_INDUSTRIAL_ZONE_ADJACENCY_PRODUCTION"/>
-		
 		<!-- ユーゴスラビア -->
 		<!-- 総督が着任しているすべての都市の文化が昇進ごとに3%上昇 -->
 		<!-- 工業地帯に隣接している鉱山は科学+1 -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA" ModifierId="TRAIT_ADJUST_CITY_CULTURE_PER_GOVERNOR_TITLE_MODIFIER"/><!-- RaFのソンドクと同じ -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA" ModifierId="TRAIT_HAG_YUGOSLAVIA_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE"/>
-		
 		<!-- モロッコ -->
 		<!-- 国外交易路からゴールド+3、文化+1 -->
 		<!-- 他文明が起点の交易路1つにつき食料+2 -->
@@ -217,13 +201,11 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_INTERNATIONAL_TRADE_CULTURE"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_FOOD_FROM_INCOMING_TRADE_ROUTES"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_INCOMING_TRADE_OFFER_GOLD"/>
-		
 		<!-- ポルトガル -->
 		<!-- 都市国家の国境が常に解放される -->
 		<!-- 首都のない大陸に都市を建設すると交易路+1 -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL" ModifierId="GUNBOATDIPLOMACY_OPENBORDERS"/><!-- 社会政策の砲艦外交にある -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_PORTUGAL" ModifierId="TRAIT_FOREIGN_CONTINENT_TRADE_ROUTE"/><!-- ヴィクトリアと同じ(GS追加能力) -->
-		
 		<!-- コロンビア -->
 		<!-- 幸せである状態の都市は文化力+5%、生産力+5%(興奮している状態だと2倍) -->
 		<!-- 幸せである状態の都市は劇場広場からの大著述家、大芸術家、大音楽家の偉人ポイント+1(興奮している状態だと2倍) -->
@@ -237,12 +219,16 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_ECSTATIC"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_HAPPY"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_ECSTATIC"/>
-		
 		<!-- イタリア -->
 		<!-- 造船所の大提督ポイント+1 -->
 		<!-- 銀行の大商人ポイント+1 -->
+		<!-- 蟹、魚、小麦、鯨から食料+1 -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY" ModifierId="TRAIT_CIVILIZATION_HAG_ITALY_GREAT_ADMIRAL_SHIPYARD_MODIFIER"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY" ModifierId="TRAIT_CIVILIZATION_HAG_ITALY_GREAT_MERCHANT_BANK_MODIFIER"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY" ModifierId="TRAIT_CIVILIZATION_HAG_ITALY_CRABS_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY" ModifierId="TRAIT_CIVILIZATION_HAG_ITALY_FISH_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY" ModifierId="TRAIT_CIVILIZATION_HAG_ITALY_WHEAT_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ITALY" ModifierId="TRAIT_CIVILIZATION_HAG_ITALY_WHALES_FOOD"/>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -365,6 +351,30 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
 			<SubjectRequirementSetId>BUILDING_IS_BANK_HAG_ITALY</SubjectRequirementSetId>
 		</Row>
+		<!-- 蟹から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_CRABS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_CRABS_REQUIREMENTS_HAG_ITALY</SubjectRequirementSetId>
+		</Row>
+		<!-- 魚から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_FISH_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FISH_REQUIREMENTS_HAG_ITALY</SubjectRequirementSetId>
+		</Row>
+		<!-- 小麦から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_WHEAT_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_WHEAT_REQUIREMENTS_HAG_ITALY</SubjectRequirementSetId>
+		</Row>
+		<!-- 鯨から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_WHALES_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_WHALES_REQUIREMENTS_HAG_ITALY</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
 	<ModifierArguments>
@@ -379,7 +389,7 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<!-- 牧草地から食料+1 -->
+		<!-- 砂漠上の牧草地から生産力+1 -->
 		<Row>
 			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
 			<Name>YieldType</Name>
@@ -722,6 +732,7 @@
 			<Value>2</Value>
 		</Row>
 
+		<!-- 造船所から大提督ポイント+1 -->
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_ADMIRAL_SHIPYARD_MODIFIER</ModifierId>
 			<Name>GreatPersonClassType</Name>
@@ -732,6 +743,7 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- 銀行から大商人ポイント+1 -->
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_MERCHANT_BANK_MODIFIER</ModifierId>
 			<Name>GreatPersonClassType</Name>
@@ -739,6 +751,50 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_MERCHANT_BANK_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 蟹から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_CRABS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_CRABS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 魚から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_FISH_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_FISH_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 小麦から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_WHEAT_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_WHEAT_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 鯨から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_WHALES_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_WHALES_FOOD</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -763,6 +819,22 @@
 		</Row>
 		<Row>
 			<RequirementSetId>BUILDING_IS_BANK_HAG_ITALY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_CRABS_REQUIREMENTS_HAG_ITALY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISH_REQUIREMENTS_HAG_ITALY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_WHEAT_REQUIREMENTS_HAG_ITALY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_WHALES_REQUIREMENTS_HAG_ITALY</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -801,6 +873,26 @@
 			<RequirementSetId>BUILDING_IS_BANK_HAG_ITALY</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_BANK_HAG_ITALY</RequirementId>
 		</Row>
+		<!-- 蟹タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_CRABS_REQUIREMENTS_HAG_ITALY</RequirementSetId>
+			<RequirementId>REQUIRES_CRABS_IN_PLOT_HAG_ITALY</RequirementId>
+		</Row>
+		<!-- 魚タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_FISH_REQUIREMENTS_HAG_ITALY</RequirementSetId>
+			<RequirementId>REQUIRES_FISH_IN_PLOT_HAG_ITALY</RequirementId>
+		</Row>
+		<!-- 小麦タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_WHEAT_REQUIREMENTS_HAG_ITALY</RequirementSetId>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT_HAG_ITALY</RequirementId>
+		</Row>
+		<!-- 鯨タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_WHALES_REQUIREMENTS_HAG_ITALY</RequirementSetId>
+			<RequirementId>REQUIRES_WHALES_IN_PLOT_HAG_ITALY</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
@@ -811,6 +903,22 @@
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_BANK_HAG_ITALY</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CRABS_IN_PLOT_HAG_ITALY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_FISH_IN_PLOT_HAG_ITALY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT_HAG_ITALY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WHALES_IN_PLOT_HAG_ITALY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
@@ -824,6 +932,26 @@
 			<RequirementId>REQUIRES_CITY_HAS_BANK_HAG_ITALY</RequirementId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_BANK</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CRABS_IN_PLOT_HAG_ITALY</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_CRABS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_FISH_IN_PLOT_HAG_ITALY</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_FISH</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT_HAG_ITALY</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WHEAT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WHALES_IN_PLOT_HAG_ITALY</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WHALES</Value>
 		</Row>
 	</RequirementArguments>
 	<!-- 市民名 -->
@@ -1116,7 +1244,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_10" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_11" />
-		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CITY_NAME_VERONA" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_13" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_14" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_15" />
@@ -1129,7 +1257,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_22" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_23" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_24" />
-		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CITY_NAME_RAVENNA" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_26" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_27" />
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" CityName="LOC_CIVILIZATION_HAG_ITALY_CITY_28" />
@@ -1185,6 +1313,9 @@
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" ResourceType="RESOURCE_SPICES" Tier="3"/>
 		<!-- コロンビア：コーヒー -->
 		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" ResourceType="RESOURCE_COFFEE" Tier="3"/>
+		<!-- イタリア：小麦、魚 -->
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" ResourceType="RESOURCE_WHEAT" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" ResourceType="RESOURCE_FISH" Tier="3"/>		
 	</StartBiasResources>
 	<StartBiasFeatures>
 		<!-- ティムール朝：オアシス -->

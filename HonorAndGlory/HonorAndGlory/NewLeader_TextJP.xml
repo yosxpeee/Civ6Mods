@@ -160,7 +160,7 @@
 		</Row>
 		<!-- ムッソリーニ -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MUSSOLINI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>イタリアの政治家、教師、軍人。イタリア社会党で活躍した後に新たな政治思想ファシズムを独自に構築し、国家ファシスト党による一党独裁制を確立した。第二次世界大戦ではドイツ・日本と共に枢軸国として連合国と戦った。しかし緒戦の躓きから1943年に失脚、1945年4月に愛人にペタッチと共に銃殺され61年間の人生に幕を下ろした。</Text>
 		</Row>
 		
 		<!-- Civilization specific historical text. -->
@@ -181,6 +181,9 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_COLOMBIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>1819年から1831年まで南アメリカ北部にあったコロンビア共和国を指す。グラン・コロンビアとも呼ばれる。旧ヌエバ・グラナダ副王領の領域だったベネズエラ、ヌエバ・グラナダ、南部地区（グアヤキル、キト、クエンカの連合）からなり、その領域は現在のベネズエラ、コロンビア、エクアドル、パナマの全域と、ガイアナ、ブラジル、ペルーの一部に相当する。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ITALY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>南ヨーロッパに位置する共和制国家。首都はローマ。総面積は30万1,338km2で、イタリアではロ・スティヴァレ（lo Stivale）と称されるブーツ状の国土をしており、国土の大部分は温帯に属する。地中海性気候が農業と歴史に大きな影響を与えている。 </Text>
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
@@ -352,6 +355,34 @@
 		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Language="ja_JP">
 			<Text>シャキーラ</Text>
 		</Row>
+		<!-- イタリア -->
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_1" Language="ja_JP">
+			<Text>アベラルド</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_2" Language="ja_JP">
+			<Text>バルド</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_3" Language="ja_JP">
+			<Text>ベルナルド</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_4" Language="ja_JP">
+			<Text>チェーザレ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_1" Language="ja_JP">
+			<Text>アントネッラ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_2" Language="ja_JP">
+			<Text>ブリジッタ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_3" Language="ja_JP">
+			<Text>マリアンナ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_4" Language="ja_JP">
+			<Text>パメラ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_5" Language="ja_JP">
+			<Text>ロゼッタ</Text>
+		</Row>
 		
 		<!-- Civilization City Names-->
 		<!-- エチオピア帝国 -->
@@ -419,7 +450,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_21" Language="ja_JP">
 			<Text>ワルデル</Text>
 		</Row>
-		
 		<!-- ティムール朝 -->
 		<!-- 現ウズベキスタン共和国の都市名を設定 -->
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_1" Language="ja_JP">
@@ -503,7 +533,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_27" Language="ja_JP">
 			<Text>ホジェリ</Text>
 		</Row>
-
 		<!-- ユーゴスラビア -->
 		<!-- 構成国の都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_1" Language="ja_JP">
@@ -626,7 +655,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_YUGOSLAVIA_CITY_40" Language="ja_JP">
 			<Text>ジャコヴァ</Text>
 		</Row>
-		
 		<!-- モロッコ -->
 		<!-- 現モロッコの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_1" Language="ja_JP">
@@ -722,7 +750,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_31" Language="ja_JP">
 			<Text>メルズーガ</Text>
 		</Row>
-
 		<!-- ポルトガル -->
 		<!-- 現在のポルトガルの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="ja_JP">
@@ -839,7 +866,6 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_38" Language="ja_JP">
 			<Text>ヴィラ・ノヴァ・デ・ファマリカン</Text>
 		</Row>
-
 		<!-- コロンビア -->
 		<!-- 現在のコロンビア、ベネズエラ、エクアドル、パナマの都市名から -->
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" Language="ja_JP">
@@ -961,6 +987,128 @@
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_40" Language="ja_JP">
 			<Text>サンティアーゴ・デ・ベラグアス</Text>
+		</Row>
+		<!-- イタリア -->
+		<!-- 現在のイタリアの都市名から(一部ローマと被り) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_1" Language="ja_JP"><!-- 未使用 -->
+			<Text>ローマ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_2" Language="ja_JP">
+			<Text>ミラノ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_3" Language="ja_JP">
+			<Text>ナポリ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_4" Language="ja_JP">
+			<Text>トリノ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_5" Language="ja_JP">
+			<Text>パレルモ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_6" Language="ja_JP">
+			<Text>ジェノバ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_7" Language="ja_JP">
+			<Text>サンレモ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_8" Language="ja_JP">
+			<Text>フィレンツェ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_9" Language="ja_JP">
+			<Text>バーリ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_10" Language="ja_JP">
+			<Text>カターニア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_11" Language="ja_JP">
+			<Text>ヴェネツィア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_12" Language="ja_JP"><!-- 未使用 -->
+			<Text>ヴェローナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_13" Language="ja_JP">
+			<Text>メッシーナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_14" Language="ja_JP">
+			<Text>パドヴァ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_15" Language="ja_JP">
+			<Text>トリエステ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_16" Language="ja_JP">
+			<Text>ブレシア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_17" Language="ja_JP">
+			<Text>ターラント</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_18" Language="ja_JP">
+			<Text>パルマ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_19" Language="ja_JP">
+			<Text>プラート</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_20" Language="ja_JP">
+			<Text>モデナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_21" Language="ja_JP">
+			<Text>レッジョ・ディ・カラブリア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_22" Language="ja_JP">
+			<Text>レッジョ・エミリア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_23" Language="ja_JP">
+			<Text>ペルージャ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_24" Language="ja_JP">
+			<Text>リボルノ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_25" Language="ja_JP"><!-- 未使用 -->
+			<Text>ラベンナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_26" Language="ja_JP">
+			<Text>カリャリ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_27" Language="ja_JP">
+			<Text>フォッジャ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_28" Language="ja_JP">
+			<Text>リミニ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_29" Language="ja_JP">
+			<Text>サレルノ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_30" Language="ja_JP">
+			<Text>フェラーラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_31" Language="ja_JP">
+			<Text>サッサリ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_32" Language="ja_JP">
+			<Text>ラティーナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_33" Language="ja_JP">
+			<Text>ジュリアーノ・イン・カンパーニア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_34" Language="ja_JP">
+			<Text>モンツァ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_35" Language="ja_JP">
+			<Text>シラクサ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_36" Language="ja_JP">
+			<Text>ベルガモ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_37" Language="ja_JP">
+			<Text>ペスカーラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_38" Language="ja_JP">
+			<Text>トレント</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_39" Language="ja_JP">
+			<Text>フォルリ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_40" Language="ja_JP">
+			<Text>ヴィチェンツァ</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->
@@ -1347,7 +1495,7 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_DESCRIPTION" Language="ja_JP">
 			<Text>琉球都市国家</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU__ADJECTIVE" Language="ja_JP">
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_ADJECTIVE" Language="ja_JP">
 			<Text>琉球</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_NAME" Language="ja_JP">
