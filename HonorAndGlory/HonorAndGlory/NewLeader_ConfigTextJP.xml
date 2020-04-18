@@ -126,7 +126,7 @@
 		</Row>
 		<!-- 指導者(ナポレオン) -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_NAME" Language="ja_JP">
-			<Text>ナポレオン</Text>
+			<Text>ナポレオン・ボナパルト</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME" Language="ja_JP">
 			<Text>グランダルメ</Text>
@@ -408,7 +408,7 @@
 			<Text>ポルトガル帝国固有の区域: フェイトリア</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>キャラック船のことをポルトガルではナウ（Nau）と呼ばれる。北欧系のコグ船と南欧系のキャラベル船の長所を受け継ぎ、3本のマストのうちフォア・メインマストに横帆、ミズンマストに縦帆と異なった種類の帆を見事に組み合わせた艤装を持ち、自在に張り替えたり数を増減させたりすることが容易であるため、高い帆走能力を持つ。</Text>
+			<Text>ポルトガルではナウ（Nau）と呼ばれるキャラック船のこと。北欧系のコグ船と南欧系のキャラベル船の長所を受け継ぎ、3本のマストのうちフォア・メインマストに横帆、ミズンマストに縦帆と異なった種類の帆を見事に組み合わせた艤装を持ち、自在に張り替えたり数を増減させたりすることが容易であるため、高い帆走能力を持つ。</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION" Language="ja_JP">
 			<Text>隣接する沿岸タイル2つごとに [ICON_Production] 生産力+{1_num}。</Text>

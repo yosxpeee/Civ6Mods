@@ -62,7 +62,6 @@
 		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITTYPE_LAND_COMBAT"/>
-
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
@@ -78,7 +77,7 @@
 		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_HAG_JAPAN_ZERO"              Tag="CLASS_AIRCRAFT"/>
 		<Row Type="UNIT_HAG_JAPAN_ZERO"              Tag="CLASS_AIR_FIGHTER"/>
-		<Row Type="UNIT_HAG_JAPAN_ZERO"              Tag="CLASS_MUSTANG"/><!-- バニラのP51マスタングと同じ -->
+		<Row Type="UNIT_HAG_JAPAN_ZERO"              Tag="CLASS_MUSTANG"/><!-- バニラのアメリカのP51マスタングと同じ -->
 		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_NAVAL_MELEE"/>
 		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34"             Tag="CLASS_HEAVY_CHARIOT"/>
@@ -89,7 +88,7 @@
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_AIR_BOMBER"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_HAG_GERMANY_JU87"/>
 		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Tag="CLASS_GARDE"/><!-- どうしようかな -->
+		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Tag="CLASS_GARDE"/><!-- バニラのフランスの皇帝近衛兵と同じ -->
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
@@ -208,9 +207,9 @@
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           ResourceCost="10"/>
 		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ResourceCost="20"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ResourceCost="20"/>
-		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       ResourceCost="10"/>
 		<Row UnitType="UNIT_HAG_JAPAN_ZERO"              ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"      ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAG_GERMANY_JU87"            ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       ResourceCost="10"/>
 	</Units_XP2>
 </GameData>

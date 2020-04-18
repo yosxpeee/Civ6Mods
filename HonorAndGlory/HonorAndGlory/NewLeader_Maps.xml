@@ -1,22 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<!-- リアル地球系マップへの登録 -->
-	<!-- 残念ながら都市国家はここに書いても出現するようにならない。(バニラのXMLファイルにもプレイヤーとして使える指導者しか記載がない) -->
-	<!-- マップ指定のID=DLCのMODID -->
+
+	<!-- NOTE -->
+	<!-- マップ指定のID=DLCやMODのMODID -->
+	<!-- 地球マップは指導者追加のみを行うのでマップファイルの追加なし -->
+
+	<!-- 新しいマップの追加 -->
+	<Maps>
+		<!-- 東アジアマップ：琉球を追加したもの -->
+		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" Name="LOC_MAP_TSLEAST_ASIA_STANDARD_NAME" Description="LOC_MAP_TSLEAST_ASIA_STANDARD_DESCRIPTION" Image="Map_TrueStartEastAsia" StaticMap="1" RequiresUniqueLeaders="1" SortIndex="620"/>
+		<!-- ヨーロッパマップ：リスボンを削除したもの -->
+		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"   Name="LOC_TSLEUROPE_NAME"                 Description="LOC_TSLEUROPE_DESCRIPTION"                 Image="Map_TrueStartEurope"   StaticMap="1" RequiresUniqueLeaders="1" SortIndex="1020"/>
+	</Maps>
+	<!-- マップサイズの定義 -->
+	<MapSizes>
+		<Row Domain="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" MapSizeType="MAPSIZE_STANDARD" Name="LOC_MAPSIZE_STANDARD_NAME" Description="LOC_MAPSIZE_STANDARD_DESCRIPTION" MinPlayers="2" MaxPlayers="6" DefaultPlayers="6" MinCityStates="0" MaxCityStates="6"  DefaultCityStates="6"  SortIndex="10"/>
+		<Row Domain="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"   MapSizeType="MAPSIZE_STANDARD" Name="LOC_MAPSIZE_STANDARD_NAME" Description="LOC_MAPSIZE_STANDARD_DESCRIPTION" MinPlayers="2" MaxPlayers="8" DefaultPlayers="8" MinCityStates="0" MaxCityStates="10" DefaultCityStates="10" SortIndex="10"/>
+	</MapSizes>
+	<!-- マップサイズの上書き設定 -->
+	<MapDomainOverrides>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" ParameterId="MapSize" Domain="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"   ParameterId="MapSize" Domain="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"/>
+	</MapDomainOverrides>
+	<DomainValueFilters>
+		<!-- 元のマップを除外 -->
+		<Row Domain="Maps:Expansion2Maps" Value="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" Filter="difference" />
+		<Row Domain="Maps:Expansion2Maps" Value="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Filter="difference" />
+	</DomainValueFilters>
 	<MapLeaders>
 		<!-- 東アジア(DLC) -->
-		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TIMUR"/>
-		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_HIDEKI_TOJO"/>
+		<!-- このMODのマップへ追加している(バニラ等すべて追加) -->
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="RANDOM"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_CHANDRAGUPTA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_GANDHI"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_GENGHIS_KHAN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_GITARJA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_HOJO"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_JAYAVARMAN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_QIN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_SEONDEOK"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_TOMYRIS"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_TIMUR"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_HIDEKI_TOJO"/>
 		
 		<!-- ヨーロッパ(GS) -->
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_NAPOLEON"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TITO"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MARIA_I"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_STALIN"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_ADOLF_HITLER"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
+		<!-- このMODのマップへ追加している(バニラ等すべて追加) -->
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="RANDOM"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_ALEXANDER"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_BARBAROSSA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_CATHERINE_DE_MEDICI"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_ELEANOR_ENGLAND"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_ELEANOR_FRANCE"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_GORGO"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HARDRADA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_JADWIGA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_KRISTINA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_MATTHIAS_CORVINUS"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_PERICLES"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_PETER_GREAT"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_PHILIP_II"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_ROBERT_THE_BRUCE"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_SULEIMAN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_TAMAR"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_TOMYRIS"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_TRAJAN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_VICTORIA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_WILHELMINA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_NAPOLEON"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_TITO"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_MARIA_I"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_STALIN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_ADOLF_HITLER"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
 		
 		<!-- 地球(GS) -->
+		<!-- GSのマップへ追加している(このMODの指導者のみ) -->
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MENELIK2"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_NAPOLEON"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TIMUR"/>
@@ -29,19 +88,25 @@
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_ADOLF_HITLER"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
 	</MapLeaders>
+	<ParameterDependencies>
+		<Row ParameterId="Resources"     ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map"/>
+		<Row ParameterId="StartPosition" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map"/>
+		<Row ParameterId="Resources"     ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"/>
+		<Row ParameterId="StartPosition" ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"/>
+	</ParameterDependencies>
 	<MapStartPositions>
 		<!-- 東アジア(DLC) -->
-		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" Plot="3951" Type="LEADER" Value="LEADER_HAG_TIMUR"/>
-		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" Plot="3921" Type="LEADER" Value="LEADER_HAG_HIDEKI_TOJO"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" Plot="3951" Type="LEADER" Value="LEADER_HAG_TIMUR"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" Plot="3921" Type="LEADER" Value="LEADER_HAG_HIDEKI_TOJO"/>
 
 		<!-- ヨーロッパ(GS) -->
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="1538" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="1302" Type="LEADER" Value="LEADER_HAG_TITO"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="520"  Type="LEADER" Value="LEADER_HAG_MARIA_I"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="2494" Type="LEADER" Value="LEADER_HAG_STALIN"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="2138" Type="LEADER" Value="LEADER_HAG_ADOLF_HITLER"/>
-		<Row Map="{1B28771A-C749-434B-9053-D1380C553DE9}Maps/TSLEuropeStandard_XP2.Civ6Map" Plot="794"  Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
-		
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="1538" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="1302" Type="LEADER" Value="LEADER_HAG_TITO"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="520"  Type="LEADER" Value="LEADER_HAG_MARIA_I"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="2494" Type="LEADER" Value="LEADER_HAG_STALIN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="2138" Type="LEADER" Value="LEADER_HAG_ADOLF_HITLER"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="794"  Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
+
 		<!-- 地球(GS) -->
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="2905" Type="LEADER" Value="LEADER_HAG_MENELIK2"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3650" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
