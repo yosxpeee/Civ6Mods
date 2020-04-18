@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>285</build>
+		<revision>455</revision>
+	</m_Version>
+	<m_ClassName text="UILensAsset"/>
+	<m_PackageName text="UILensAssets"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Religion_Pressure_HAG_JAINISM_Box"/>
+			<m_ObjectName text="Religion_Pressure_HAG_JAINISM_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_HAG_JAINISM_Box"/>
+			<m_ObjectName text="Religion_Overlay_HAG_JAINISM_Box"/>
+		</Element>
+		
+		<Element>
+			<m_EntryID text="Religion_Pressure_HAG_MANICHAEISM_Box"/>
+			<m_ObjectName text="Religion_Pressure_HAG_MANICHAEISM_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_HAG_MANICHAEISM_Box"/>
+			<m_ObjectName text="Religion_Overlay_HAG_MANICHAEISM_Box"/>
+		</Element>
+		
+		<Element>
+			<m_EntryID text="Religion_Pressure_HAG_BAHAI_FAITH_Box"/>
+			<m_ObjectName text="Religion_Pressure_HAG_BAHAI_FAITH_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_HAG_BAHAI_FAITH_Box"/>
+			<m_ObjectName text="Religion_Overlay_HAG_BAHAI_FAITH_Box"/>
+		</Element>
+		
+		<Element>
+			<m_EntryID text="Religion_Pressure_HAG_NESTORIANISM_Box"/>
+			<m_ObjectName text="Religion_Pressure_HAG_NESTORIANISM_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_HAG_NESTORIANISM_Box"/>
+			<m_ObjectName text="Religion_Overlay_HAG_NESTORIANISM_Box"/>
+		</Element>
+		
+		<Element>
+			<m_EntryID text="Religion_Pressure_HAG_FSM_Box"/>
+			<m_ObjectName text="Religion_Pressure_HAG_FSM_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_HAG_FSM_Box"/>
+			<m_ObjectName text="Religion_Overlay_HAG_FSM_Box"/>
+		</Element>
+		
+		<Element>
+			<m_EntryID text="Religion_Pressure_HAG_IPU_Box"/>
+			<m_ObjectName text="Religion_Pressure_HAG_IPU_Box"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Religion_Overlay_HAG_IPU_Box"/>
+			<m_ObjectName text="Religion_Overlay_HAG_IPU_Box"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

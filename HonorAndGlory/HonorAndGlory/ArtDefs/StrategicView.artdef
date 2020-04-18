@@ -165,7 +165,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ReligionPressureIcon_Buddhism"/>
+										<m_ElementName text="ReligionPressureIcon_HAG_JAINISM"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -245,7 +245,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ReligionPressureIcon_Buddhism"/>
+										<m_ElementName text="ReligionPressureIcon_HAG_MANICHAEISM"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -325,7 +325,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ReligionPressureIcon_Buddhism"/>
+										<m_ElementName text="ReligionPressureIcon_HAG_BAHAI_FAITH"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -405,7 +405,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ReligionPressureIcon_Buddhism"/>
+										<m_ElementName text="ReligionPressureIcon_HAG_NESTORIANISM"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -485,7 +485,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ReligionPressureIcon_Buddhism"/>
+										<m_ElementName text="ReligionPressureIcon_HAG_FSM"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -565,7 +565,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="ReligionPressureIcon_Buddhism"/>
+										<m_ElementName text="ReligionPressureIcon_HAG_IPU"/>
 										<m_RootCollectionName text="UILensEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -587,6 +587,336 @@
 		<Element>
 			<m_CollectionName text="UILensEntries"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_JAINISM"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Visible_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_JAINISM"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Revealed_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>255.000000</m_r>
+							<m_g>255.000000</m_g>
+							<m_b>255.000000</m_b>
+							<m_ParamName text="TintColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Scale"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ReligionPressureIcon_HAG_JAINISM"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_MANICHAEISM"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Visible_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_MANICHAEISM"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Revealed_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>255.000000</m_r>
+							<m_g>255.000000</m_g>
+							<m_b>255.000000</m_b>
+							<m_ParamName text="TintColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Scale"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ReligionPressureIcon_HAG_MANICHAEISM"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_BAHAI_FAITH"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Visible_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_BAHAI_FAITH"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Revealed_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>255.000000</m_r>
+							<m_g>255.000000</m_g>
+							<m_b>255.000000</m_b>
+							<m_ParamName text="TintColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Scale"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ReligionPressureIcon_HAG_BAHAI_FAITH"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_NESTORIANISM"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Visible_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_NESTORIANISM"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Revealed_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>255.000000</m_r>
+							<m_g>255.000000</m_g>
+							<m_b>255.000000</m_b>
+							<m_ParamName text="TintColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Scale"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ReligionPressureIcon_HAG_NESTORIANISM"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_FSM"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Visible_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_FSM"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Revealed_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>255.000000</m_r>
+							<m_g>255.000000</m_g>
+							<m_b>255.000000</m_b>
+							<m_ParamName text="TintColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Scale"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ReligionPressureIcon_HAG_FSM"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_IPU"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Visible_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ReligionPressureIcon_HAG_IPU"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_UILenses.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_uilenses"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Revealed_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..RGBValue">
+							<m_r>255.000000</m_r>
+							<m_g>255.000000</m_g>
+							<m_b>255.000000</m_b>
+							<m_ParamName text="TintColor"/>
+						</Element>
+						<Element class="AssetObjects..FloatValue">
+							<m_fValue>1.000000</m_fValue>
+							<m_ParamName text="Scale"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="ReligionPressureIcon_HAG_IPU"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
 		</Element>
 	</m_RootCollections>
 </AssetObjects..ArtDefSet>

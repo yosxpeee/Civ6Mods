@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>312</build>
+		<revision>562</revision>
+	</m_Version>
+	<m_ClassName text="StrategicView_Sprite"/>
+	<m_PackageName text="strategicview/strategicview_uilenses"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_HAG_JAINISM"/>
+			<m_ObjectName text="ReligionPressureIcon_HAG_JAINISM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_HAG_MANICHAEISM"/>
+			<m_ObjectName text="ReligionPressureIcon_HAG_MANICHAEISM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_HAG_BAHAI_FAITH"/>
+			<m_ObjectName text="ReligionPressureIcon_HAG_BAHAI_FAITH"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_HAG_NESTORIANISM"/>
+			<m_ObjectName text="ReligionPressureIcon_HAG_NESTORIANISM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_HAG_FSM"/>
+			<m_ObjectName text="ReligionPressureIcon_HAG_FSM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ReligionPressureIcon_HAG_IPU"/>
+			<m_ObjectName text="ReligionPressureIcon_HAG_IPU"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

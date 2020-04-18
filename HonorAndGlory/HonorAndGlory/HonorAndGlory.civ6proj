@@ -671,6 +671,42 @@
     <Content Include="Assets\IMP_HAG_Duomo.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Religion_Overlay_HAG_BAHAI_FAITH_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Overlay_HAG_FSM_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Overlay_HAG_IPU_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Overlay_HAG_JAINISM_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Overlay_HAG_MANICHAEISM_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Overlay_HAG_NESTORIANISM_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Pressure_HAG_BAHAI_FAITH_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Pressure_HAG_FSM_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Pressure_HAG_IPU_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Pressure_HAG_JAINISM_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Pressure_HAG_MANICHAEISM_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Religion_Pressure_HAG_NESTORIANISM_Box.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\T34_Tank.ast">
       <SubType>Content</SubType>
     </Content>
@@ -735,6 +771,42 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Mehal_Sefari_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Overlay_HAG_BAHAI_FAITH_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Overlay_HAG_FSM_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Overlay_HAG_IPU_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Overlay_HAG_JAINISM_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Overlay_HAG_MANICHAEISM_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Overlay_HAG_NESTORIANISM_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Pressure_HAG_BAHAI_FAITH_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Pressure_HAG_FSM_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Pressure_HAG_IPU_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Pressure_HAG_JAINISM_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Pressure_HAG_MANICHAEISM_material.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Religion_Pressure_HAG_NESTORIANISM_material.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\T34_Material.mtl">
@@ -2447,6 +2519,114 @@
     <Content Include="Textures\ReligionHAGNestorianism50.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_BAHAI_FAITH.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_BAHAI_FAITH.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_FSM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_FSM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_IPU.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_IPU.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_JAINISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_JAINISM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_MANICHAEISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_MANICHAEISM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_NESTORIANISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ReligionPressureIcon_HAG_NESTORIANISM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_BAHAI_FAITH.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_BAHAI_FAITH.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_FSM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_FSM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_IPU.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_IPU.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_JAINISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_JAINISM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_MANICHAEISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_MANICHAEISM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_NESTORIANISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Overlay_HAG_NESTORIANISM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_BAHAI_FAITH.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_BAHAI_FAITH.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_FSM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_FSM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_IPU.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_IPU.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_JAINISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_JAINISM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_MANICHAEISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_MANICHAEISM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_NESTORIANISM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Religion_Pressure_HAG_NESTORIANISM.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\SimonBolivar_DiplomacyInfo_Background.dds">
       <SubType>Content</SubType>
     </Content>
@@ -2598,6 +2778,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\NewLeader_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView_UILenses.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILensModels.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\units_civ5.xlp">

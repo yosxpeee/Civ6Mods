@@ -27,6 +27,648 @@
 					<Element>
 						<m_CollectionName text="Model"/>
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_JAINISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModel"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Default"/>
+										<m_RootCollectionName text="Coord3D_WS"/>
+										<m_ArtDefPath text="Overlay.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="Overlay"/>
+										<m_ParamName text="MoveOffset"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="RotateToAlign"/>
+									</Element>
+									<Element class="AssetObjects..RGBValue">
+										<m_r>0.000000</m_r>
+										<m_g>0.000000</m_g>
+										<m_b>0.000000</m_b>
+										<m_ParamName text="RGBColor"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="AnimType"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="NumTiles"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="AnimDuration"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="AutoPlay"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Alpha"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV Offset Start"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV_Scale"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsBillboard"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_JAINISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModelFOW"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Religion_Pressure_HAG_JAINISM_Box"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="SplineBorder"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="LensModel"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Religion_Pressure_HAG_JAINISM"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Filled"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Texture"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Model"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_MANICHAEISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModel"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Default"/>
+										<m_RootCollectionName text="Coord3D_WS"/>
+										<m_ArtDefPath text="Overlay.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="Overlay"/>
+										<m_ParamName text="MoveOffset"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="RotateToAlign"/>
+									</Element>
+									<Element class="AssetObjects..RGBValue">
+										<m_r>0.000000</m_r>
+										<m_g>0.000000</m_g>
+										<m_b>0.000000</m_b>
+										<m_ParamName text="RGBColor"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="AnimType"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="NumTiles"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="AnimDuration"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="AutoPlay"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Alpha"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV Offset Start"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV_Scale"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsBillboard"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_MANICHAEISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModelFOW"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Religion_Pressure_HAG_MANICHAEISM_Box"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="SplineBorder"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="LensModel"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Religion_Pressure_HAG_MANICHAEISM"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Filled"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Texture"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Model"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_BAHAI_FAITH_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModel"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Default"/>
+										<m_RootCollectionName text="Coord3D_WS"/>
+										<m_ArtDefPath text="Overlay.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="Overlay"/>
+										<m_ParamName text="MoveOffset"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="RotateToAlign"/>
+									</Element>
+									<Element class="AssetObjects..RGBValue">
+										<m_r>0.000000</m_r>
+										<m_g>0.000000</m_g>
+										<m_b>0.000000</m_b>
+										<m_ParamName text="RGBColor"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="AnimType"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="NumTiles"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="AnimDuration"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="AutoPlay"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Alpha"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV Offset Start"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV_Scale"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsBillboard"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_BAHAI_FAITH_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModelFOW"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Religion_Pressure_HAG_BAHAI_FAITH_Box"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="SplineBorder"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="LensModel"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Religion_Pressure_HAG_BAHAI_FAITH"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Filled"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Texture"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Model"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_NESTORIANISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModel"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Default"/>
+										<m_RootCollectionName text="Coord3D_WS"/>
+										<m_ArtDefPath text="Overlay.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="Overlay"/>
+										<m_ParamName text="MoveOffset"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="RotateToAlign"/>
+									</Element>
+									<Element class="AssetObjects..RGBValue">
+										<m_r>0.000000</m_r>
+										<m_g>0.000000</m_g>
+										<m_b>0.000000</m_b>
+										<m_ParamName text="RGBColor"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="AnimType"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="NumTiles"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="AnimDuration"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="AutoPlay"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Alpha"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV Offset Start"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV_Scale"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsBillboard"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_NESTORIANISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModelFOW"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Religion_Pressure_HAG_NESTORIANISM_Box"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="SplineBorder"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="LensModel"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Religion_Pressure_HAG_NESTORIANISM"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Filled"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Texture"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Model"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_FSM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModel"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Default"/>
+										<m_RootCollectionName text="Coord3D_WS"/>
+										<m_ArtDefPath text="Overlay.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="Overlay"/>
+										<m_ParamName text="MoveOffset"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="RotateToAlign"/>
+									</Element>
+									<Element class="AssetObjects..RGBValue">
+										<m_r>0.000000</m_r>
+										<m_g>0.000000</m_g>
+										<m_b>0.000000</m_b>
+										<m_ParamName text="RGBColor"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="AnimType"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="NumTiles"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="AnimDuration"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="AutoPlay"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Alpha"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV Offset Start"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV_Scale"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsBillboard"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_FSM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModelFOW"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Religion_Pressure_HAG_FSM_Box"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="SplineBorder"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="LensModel"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Religion_Pressure_HAG_FSM"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Filled"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Texture"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Model"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_IPU_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModel"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Default"/>
+										<m_RootCollectionName text="Coord3D_WS"/>
+										<m_ArtDefPath text="Overlay.artdef"/>
+										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_TemplateName text="Overlay"/>
+										<m_ParamName text="MoveOffset"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="RotateToAlign"/>
+									</Element>
+									<Element class="AssetObjects..RGBValue">
+										<m_r>0.000000</m_r>
+										<m_g>0.000000</m_g>
+										<m_b>0.000000</m_b>
+										<m_ParamName text="RGBColor"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="AnimType"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="NumTiles"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="AnimDuration"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="AutoPlay"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Alpha"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV Offset Start"/>
+									</Element>
+									<Element class="AssetObjects..Coord2DValue">
+										<m_x>0.000000</m_x>
+										<m_y>0.000000</m_y>
+										<m_ParamName text="UV_Scale"/>
+									</Element>
+									<Element class="AssetObjects..BoolValue">
+										<m_bValue>false</m_bValue>
+										<m_ParamName text="IsBillboard"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_IPU_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="HexModelFOW"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Religion_Pressure_HAG_IPU_Box"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="SplineBorder"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="LensModel"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Religion_Pressure_HAG_IPU"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Filled"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Texture"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Model"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 					</Element>
 					<Element>
 						<m_CollectionName text="SplineBorder"/>
@@ -39,7 +681,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_EntryName text="Religion_Overlay_HAG_JAINISM_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="UILensModels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -56,7 +698,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_EntryName text="Religion_Overlay_HAG_MANICHAEISM_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="UILensModels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -73,7 +715,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_EntryName text="Religion_Overlay_HAG_BAHAI_FAITH_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="UILensModels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -90,7 +732,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_EntryName text="Religion_Overlay_HAG_NESTORIANISM_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="UILensModels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -107,7 +749,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_EntryName text="Religion_Overlay_HAG_FSM_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="UILensModels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -124,7 +766,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..BLPEntryValue">
-										<m_EntryName text="Religion_Overlay_Buddhism_Box"/>
+										<m_EntryName text="Religion_Overlay_HAG_IPU_Box"/>
 										<m_XLPClass text="UILensAsset"/>
 										<m_XLPPath text="UILensModels.xlp"/>
 										<m_BLPPackage text="UILensAssets"/>
@@ -140,6 +782,137 @@
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="ReligionLensIcons"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Filled"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Texture"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="Model"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="SplineBorder"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+					<Element>
+						<m_CollectionName text="LensModel"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_JAINISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_JAINISM"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_MANICHAEISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_MANICHAEISM"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_BAHAI_FAITH_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_BAHAI_FAITH"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_NESTORIANISM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_NESTORIANISM"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_FSM_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_FSM"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="Religion_Pressure_HAG_IPU_Box"/>
+										<m_XLPClass text="UILensAsset"/>
+										<m_XLPPath text="UILensModels.xlp"/>
+										<m_BLPPackage text="UILensAssets"/>
+										<m_LibraryName text="UILensAsset"/>
+										<m_ParamName text="BaseModel"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="RELIGION_HAG_IPU"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="ReligionLensArrows"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

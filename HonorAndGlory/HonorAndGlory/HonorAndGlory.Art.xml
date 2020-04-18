@@ -541,6 +541,7 @@
 		<Element>
 			<libraryName text="StrategicView_Sprite"/>
 			<relativePackagePaths>
+				<Element text="strategicview/strategicview_uilenses"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -582,6 +583,7 @@
 		<Element>
 			<libraryName text="UILensAsset"/>
 			<relativePackagePaths>
+				<Element text="UILensAssets.blp"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
