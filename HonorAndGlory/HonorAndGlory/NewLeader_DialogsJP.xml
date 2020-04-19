@@ -54,24 +54,24 @@
 		</Replace>
 		<!-- スターリン-->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_STALIN_ANY" Language="ja_JP">
-			<Text>世界に友情を告げようとする者に、私は心から敬服する。</Text>
+			<Text>あなたの民の生産力はまったく賞賛に値する。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_STALIN_ANY" Language="ja_JP">
-			<Text>友はよく考えて選べ。選ばないという選択肢はないのだから。</Text>
+			<Text>貴国はずいぶんと怠惰な者が多いようだ。なにも生みだせない文明は、じきに人々の記憶から消えてしまうだろう。</Text>
 		</Replace>
 		<!-- シモン・ボリバル -->
-		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_SIMON_BOLIVAL_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_SIMON_BOLIVAR_ANY" Language="ja_JP">
 			<Text>その忍耐力には感服する。自衛が難しい者を守ることは、我々共通の利益だ。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_SIMON_BOLIVAL_ANY" Language="ja_JP">
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_SIMON_BOLIVAR_ANY" Language="ja_JP">
 			<Text>戦争は喪失しかもたらさない。人命の喪失、生産性の喪失、人間性の喪失だ！</Text>
 		</Replace>
 		<!-- アドルフ・ヒトラー -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="ja_JP">
-			<Text>その思慮深さ、お見事。あの都市国家に手を差し伸べるのは、死を招き入れるのと同じだからな。</Text>
+			<Text>貴国の民は故郷に誇りを持っている。よい指導者に恵まれているな。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="ja_JP">
-			<Text>警告しておこう。これ以降も私の敵に肩入れするようなら、貴公も私の敵とみなす。</Text>
+			<Text>そんなつまらぬ民をどう導いているのだ？それとも彼らはあなたを手本にしているのか？</Text>
 		</Replace>
 		<!-- ムッソリーニ -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_MUSSOLINI_ANY" Language="ja_JP">

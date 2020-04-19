@@ -1513,5 +1513,137 @@
 		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		
+		<!-- アジェンダ -->
+		<!-- 先駆者に学べ(メネリク2世) -->
+		<Row Tag="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_NAME" Language="en_US">
+			<Text>Learn from the pioneers</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_DESCRIPTION" Language="en_US">
+			<Text>Friendly to those civilizations that are ahead of him in [ICON_Science] Science and [ICON_Culture] Culture.  Dislikes backwards civilizations that are lacking in [ICON_Science] Science and [ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LAGGING" Language="en_US">
+			<Text>Menelik II is disappointed you have little science and culture</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LEADING" Language="en_US">
+			<Text>Menelik II is pleased with your Science and Culture</Text>
+		</Row>
+		<!-- 百日天下(ナポレオン) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Row Tag="LOC_AGENDA_HAG_HUNDRED_DAYS_NAME" Language="en_US">
+			<Text>Hundred Days</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_HUNDRED_DAYS_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations at war with major powers other than France. Has disdain for civilizations at peace.  Grievances against this leader decay at twice the usual rate.</Text>
+		</Row>
+		<!-- サーヒブ・キラーン(ティムール) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Row Tag="LOC_AGENDA_HAG_SAHIB_QIRAN_NAME" Language="en_US">
+			<Text>Sahib Qiran</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_SAHIB_QIRAN_DESCRIPTION" Language="en_US">
+			<Text>Likes leaders who have declared a Surprise War. Dismisses leaders who do not use Surprise War declarations.</Text>
+		</Row>
+		<!-- 6つの共和国(チトー) -->
+		<Row Tag="LOC_AGENDA_HAG_SIX_REPUBLICS_NAME" Language="en_US">
+			<Text>Iron Confederacy</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_SIX_REPUBLICS_DESCRIPTION" Language="en_US">
+			<Text>Tries to form multiple alliances and respects those who do likewise. Dislikes those with few alliances.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HAG_TITO_REASON_ANY" Language="en_US">
+			<Text>(You have meny alliances.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HAG_TITO_REASON_ANY" Language="en_US">
+			<Text>(You have few alliances.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_SIX_REPUBLICS_MANY_ALLIANCES" Language="en_US">
+			<Text>Tito approves of your alliance-making</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_SIX_REPUBLICS_FEW_ALLIANCES" Language="en_US">
+			<Text>Tito is unhappy you are in so few alliances</Text>
+		</Row>
+		<!-- アラウィー朝(ムーレイ・イスマーイール) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Row Tag="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_NAME" Language="en_US">
+			<Text>Alaouite Dynasty</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_DESCRIPTION" Language="en_US">
+			<Text>Tries to maximize [ICON_Gold] Gold output from cities and [ICON_TradeRoute] Trade Routes. Respects civilizations that act similarly, dislikes those who do not.</Text>
+		</Row>
+		<!-- 戦陣訓(東條英機) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Row Tag="LOC_AGENDA_HAG_SENJINKUN_NAME" Language="en_US">
+			<Text>Senjinkun</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_SENJINKUN_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations that have a strong military and [ICON_Faith]Faith and [ICON_Culture] Culture output. Dislikes civilizations that are strong in military but weak in [ICON_Faith]Faith and [ICON_Culture] Culture output.</Text>
+		</Row>
+		<!-- ブラガンサ朝(マリア１世) -->
+		<Row Tag="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_NAME" Language="en_US">
+			<Text>Brigantine Dynasty</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations from her home continent, and wants to expand to all continents. Doesn’t like civilizations on continents where Portugal has no city.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT" Language="en_US">
+			<Text>Maria I is pleased you share the same home continent</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT" Language="en_US">
+			<Text>Maria I wants to expand to a continent you occupy</Text>
+		</Row>
+		<!-- 五か年計画(スターリン) -->
+		<Row Tag="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_NAME" Language="en_US">
+			<Text>Five Year Plan</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_DESCRIPTION" Language="en_US">
+			<Text>Tries to build up industry, and likes civilizations that also focus on [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HAG_STALIN_REASON_AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY" Language="en_US">
+			<Text>(Your civilization is high productivity.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HAG_STALIN_REASON_AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY" Language="en_US">
+			<Text>(Your civilization is low productivity.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY" Language="en_US">
+			<Text>Stalin is pleased to see another industrious civilization</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY" Language="en_US">
+			<Text>Stalin dislike civilizations with low productivity</Text>
+		</Row>
+		<!-- カタルヘナ宣言(シモンボリバル) -->
+		<Row Tag="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_NAME" Language="en_US">
+			<Text>El Manifesta de Cartagena</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations that liberate cities. Dislikes civilizations in a war that are occupying enemy cities.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_LIBERATE" Language="en_US">
+			<Text>Simon Bolivar is pleased that you liberated a city</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_OCCUPY" Language="en_US">
+			<Text>Simon Bolivar is unhappy you are occupying enemy cities</Text>
+		</Row>
+		<!-- ハーケンクロイツ(アドルフ・ヒトラー) -->
+		<Row Tag="LOC_AGENDA_HAG_HAKENKREUZ_NAME" Language="en_US">
+			<Text>Hakenkreuz</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_HAKENKREUZ_DESCRIPTION" Language="en_US">
+			<Text>Tries to create and maintain a high degree of cultural loyalty. Dislikes civilizations that lose cities by failing to maintain the loyalty of their people, likes those that gain cities through loyalty.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_HAKENKREUZ_GAINING_CITIES" Language="en_US">
+			<Text>Adolf Hitler approves of winning land through loyalty</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_HAKENKREUZ_LOSING_CITIES" Language="en_US">
+			<Text>Adolf Hitler dislikes those who cannot secure the loyalty of their people</Text>
+		</Row>
+		<!-- 黒シャツ隊(ムッソリーニ) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Row Tag="LOC_AGENDA_HAG_BLACKSHIRTS_NAME" Language="en_US">
+			<Text>Blackshirts</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION" Language="en_US">
+			<Text>Tries to include as much territory as possible in their empire.  Does not like civilizations who control little territory.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

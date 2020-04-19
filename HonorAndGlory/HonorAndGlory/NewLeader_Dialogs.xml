@@ -54,24 +54,24 @@
 		</Replace>
 		<!-- スターリン -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_STALIN_ANY" Language="en_US">
-			<Text>I have great respect for those who declare their friendships to the world.</Text>
+			<Text>I extend my heartiest congratulations on the productivity of your people.</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_STALIN_ANY" Language="en_US">
-			<Text>Choose your friendships wisely—but you must choose.</Text>
+			<Text>Your people are lazy and unworthy. If you can produce nothing, your civilization will soon be forgotten.</Text>
 		</Replace>
 		<!-- シモン・ボリバル -->
-		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_SIMON_BOLIVAL_ANY" Language="en_US">
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_SIMON_BOLIVAR_ANY" Language="en_US">
 			<Text>I commend your perseverance. We share a common interest in protecting those who often cannot protect themselves.</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_SIMON_BOLIVAL_ANY" Language="en_US">
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_SIMON_BOLIVAR_ANY" Language="en_US">
 			<Text>War can only bring us loss. Loss of lives, loss of productivity, loss of our very humanity!</Text>
 		</Replace>
 		<!-- アドルフ・ヒトラー -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="en_US">
-			<Text>I commend you on your prudence. To aid that city-state is to invite death.</Text>
+			<Text>Your people take great pride in where they come from. It is clear they follow your lead.</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ADOLF_HITLER_ANY" Language="en_US">
-			<Text>I will destroy my enemies, and if you continue to help them, I will destroy you as well.</Text>
+			<Text>How do you lead such a boring people? Do they follow the example you set?</Text>
 		</Replace>
 		<!-- ムッソリーニ -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_MUSSOLINI_ANY" Language="en_US">

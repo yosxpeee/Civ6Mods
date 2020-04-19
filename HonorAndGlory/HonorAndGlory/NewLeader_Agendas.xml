@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_SAHIB_QIRAN"               Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_SENJINKUN"                 Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_BLACKSHIRTS"               Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_HAKENKREUZ"                Kind="KIND_TRAIT"/>
+	</Types>
+	<PlotEvalConditions>
+	</PlotEvalConditions>
+	<AiListTypes>
+		<Row ListType="HAGLearnFromThePioneersResolution"/>
+		<Row ListType="HAGHundredDaysDiplomacy"/>
+		<Row ListType="HAGHundredDaysResolutions"/>
+		<Row ListType="HAGHundredDaysDiscussions"/>
+		<Row ListType="HAGSahibQiranDiplomacy"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"/>
+		<Row ListType="HAGSixRepublicsResolutions"/>
+		<Row ListType="HAGAlaouiteDynastyPseudoYields"/>
+		<Row ListType="HAGAlaouiteDynastyYields"/>
+		<Row ListType="HAGAlaouiteDynastyResolutions"/>
+		<Row ListType="HAGBrigantineDynastySettleAllContinents"/>
+		<Row ListType="HAGBrigantineDynastyResolutions"/>
+		<Row ListType="HAGFiveYearPlanPreference"/>
+		<Row ListType="HAGFiveYearPlanResolutions"/>
+		<Row ListType="HAGFiveYearPlanDiscussions"/>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions"/>
+		<Row ListType="HAGBlackShirtsResolutions"/>
+		<Row ListType="HAGBlackShirtsDiscussions"/>
+		<Row ListType="HAGHakenkreuzSettlingChanges"/>
+		<Row ListType="HAGHakenkreuzResolutions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="HAGLearnFromThePioneersResolution"       AgendaType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   System="Resolutions"/>
+		<Row ListType="HAGHundredDaysDiplomacy"                 AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="DiplomaticActions"/>
+		<Row ListType="HAGHundredDaysResolutions"               AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="Resolutions"/>
+		<Row ListType="HAGHundredDaysDiscussions"               AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="Discussions"/>
+		<Row ListType="HAGSahibQiranDiplomacy"                  AgendaType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"               System="DiplomaticActions"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                AgendaType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             System="DiplomaticActions"/>
+		<Row ListType="HAGSixRepublicsResolutions"              AgendaType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             System="Resolutions"/>
+		<Row ListType="HAGAlaouiteDynastyPseudoYields"          AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          System="PseudoYields"/>
+		<Row ListType="HAGAlaouiteDynastyYields"                AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          System="Yields"/>
+		<Row ListType="HAGAlaouiteDynastyResolutions"           AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          System="Resolutions"/>
+		<Row ListType="HAGBrigantineDynastySettleAllContinents" AgendaType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        System="PlotEvaluations"/>
+		<Row ListType="HAGBrigantineDynastyResolutions"         AgendaType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        System="Resolutions"/>
+		<Row ListType="HAGFiveYearPlanPreference"               AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            System="Yields"/>
+		<Row ListType="HAGFiveYearPlanResolutions"              AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            System="Resolutions"/>
+		<Row ListType="HAGFiveYearPlanDiscussions"              AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            System="Discussions"/>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    AgendaType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" System="Discussions"/>
+		<Row ListType="HAGBlackShirtsResolutions"               AgendaType="TRAIT_AGENDA_HAG_BLACKSHIRTS"               System="Resolutions"/>
+		<Row ListType="HAGBlackShirtsDiscussions"               AgendaType="TRAIT_AGENDA_HAG_BLACKSHIRTS"               System="Discussions"/>
+		<Row ListType="HAGHakenkreuzSettlingChanges"            AgendaType="TRAIT_AGENDA_HAG_HAKENKREUZ"                System="PlotEvaluations"/>
+		<Row ListType="HAGHakenkreuzResolutions"                AgendaType="TRAIT_AGENDA_HAG_HAKENKREUZ"                System="Resolutions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="HAGLearnFromThePioneersResolution"       Item="WC_RES_TRADE_TREATY" Favored="true"/>
+		<Row ListType="HAGHundredDaysDiplomacy"                 Item="DIPLOACTION_MAKE_PEACE" Favored="false"/>
+		<Row ListType="HAGHundredDaysResolutions"               Item="WC_RES_MERCENARY_COMPANIES" Favored="false"/>
+		<Row ListType="HAGHundredDaysDiscussions"               Item="WC_EMERGENCY_MILITARY" Favored="false"/>
+		<Row ListType="HAGSahibQiranDiplomacy"                  Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="true"/>
+		<Row ListType="HAGSahibQiranDiplomacy"                  Item="DIPLOACTION_DENOUNCE" Favored="false"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                Item="DIPLOACTION_ALLIANCE_RESEARCH" Favored="true"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                Item="DIPLOACTION_ALLIANCE_MILITARY" Favored="true"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                Item="DIPLOACTION_ALLIANCE_ECONOMIC" Favored="true"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                Item="DIPLOACTION_ALLIANCE_CULTURAL" Favored="true"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                Item="DIPLOACTION_ALLIANCE_RELIGIOUS" Favored="true"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                Item="DIPLOACTION_ALLIANCE_TEAMUP" Favored="true"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="false"/>
+		<Row ListType="HAGSixRepublicsResolutions"              Item="WC_RES_TRADE_TREATY" Favored="true"/>
+		<Row ListType="HAGAlaouiteDynastyPseudoYields"          Item="PSEUDOYIELD_UNIT_TRADE" Value="50"/>
+		<Row ListType="HAGAlaouiteDynastyYields"                Item="YIELD_GOLD" Value="25"/>
+		<Row ListType="HAGAlaouiteDynastyResolutions"           Item="WC_RES_TRADE_TREATY" Favored="true"/>
+		<Row ListType="HAGAlaouiteDynastyResolutions"           Item="WC_RES_MERCENARY_COMPANIES" Favored="true"/>
+		<Row ListType="HAGAlaouiteDynastyResolutions"           Item="WC_RES_URBAN_DEVELOPMENT" Favored="false"/>
+		<Row ListType="HAGBrigantineDynastySettleAllContinents" Item="Foreign Continent" Favored="true" Value="120"/>
+		<Row ListType="HAGBrigantineDynastyResolutions"         Item="WC_RES_DEFORESTATION_TREATY" Favored="false"/>
+		<Row ListType="HAGBrigantineDynastyResolutions"         Item="WC_RES_GLOBAL_ENERGY_TREATY" Favored="false"/>
+		<Row ListType="HAGFiveYearPlanPreference"               Item="YIELD_PRODUCTION" Value="20"/>
+		<Row ListType="HAGFiveYearPlanResolutions"              Item="WC_RES_DEFORESTATION_TREATY" Favored="false"/>
+		<Row ListType="HAGFiveYearPlanResolutions"              Item="WC_RES_GLOBAL_ENERGY_TREATY" Favored="false"/>
+		<Row ListType="HAGFiveYearPlanDiscussions"              Item="WC_EMERGENCY_CLIMATE_ACCORDS" Favored="false"/>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    Item="WC_EMERGENCY_CITY_STATE" Favored="true"/>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    Item="WC_EMERGENCY_MILITARY" Favored="true"/>
+		<Row ListType="HAGBlackShirtsResolutions"               Item="WC_RES_BORDER_CONTROL" Favored="false"/>
+		<Row ListType="HAGBlackShirtsDiscussions"               Item="WC_EMERGENCY_MILITARY" Favored="false"/>
+		<Row ListType="HAGHakenkreuzSettlingChanges"            Item="Nearest Friendly City" Favored="false" Value="-5"/>
+		<Row ListType="HAGHakenkreuzResolutions"                Item="WC_RES_MIGRATION_TREATY" Favored="false"/>
+	</AiFavoredItems>
+	<TriggeredBehaviorTrees>
+	</TriggeredBehaviorTrees>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SENJINKUN"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
+	</Traits>
+	<Agendas>
+		<Row AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   Name="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_NAME"   Description="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              Name="LOC_AGENDA_HAG_HUNDRED_DAYS_NAME"              Description="LOC_AGENDA_HAG_HUNDRED_DAYS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_SAHIB_QIRAN"               Name="LOC_AGENDA_HAG_SAHIB_QIRAN_NAME"               Description="LOC_AGENDA_HAG_SAHIB_QIRAN_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_SIX_REPUBLICS"             Name="LOC_AGENDA_HAG_SIX_REPUBLICS_NAME"             Description="LOC_AGENDA_HAG_SIX_REPUBLICS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_ALAOUITE_DYNASTY"          Name="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_NAME"          Description="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_SENJINKUN"                 Name="LOC_AGENDA_HAG_SENJINKUN_NAME"                 Description="LOC_AGENDA_HAG_SENJINKUN_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_BRIGANTINE_DYNASTY"        Name="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_NAME"        Description="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"            Name="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_NAME"            Description="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" Name="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_NAME" Description="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               Name="LOC_AGENDA_HAG_BLACKSHIRTS_NAME"               Description="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                Name="LOC_AGENDA_HAG_HAKENKREUZ_NAME"                Description="LOC_AGENDA_HAG_HAKENKREUZ_DESCRIPTION"/>
+	</Agendas>
+	<RandomAgendas>
+	</RandomAgendas>
+	<AgendaPreferredLeaders>
+	</AgendaPreferredLeaders>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   AgendaTwo="AGENDA_TECHNOPHILE"/>
+		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_HAG_SAHIB_QIRAN"               AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_HAG_ALAOUITE_DYNASTY"          AgendaTwo="AGENDA_MONEY_GRUBBER"/>
+		<Row AgendaOne="AGENDA_HAG_SENJINKUN"                 AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_HAG_SENJINKUN"                 AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_HAG_SENJINKUN"                 AgendaTwo="AGENDA_DEVOUT"/>
+		<Row AgendaOne="AGENDA_HAG_SENJINKUN"                 AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_HAG_FIVE_YEAR_PLAN"            AgendaTwo="AGENDA_INDUSTRIALIST"/>
+		<Row AgendaOne="AGENDA_HAG_FIVE_YEAR_PLAN"            AgendaTwo="AGENDA_NATURALIST"/>
+		<Row AgendaOne="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_HAG_BLACKSHIRTS"               AgendaTwo="AGENDA_EXPANSIONIST"/>
+	</ExclusiveAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
+		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"/>
+		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              TraitType="TRAIT_AGENDA_IGNORE_WARMONGERING"/>
+		<Row AgendaType="AGENDA_HAG_SAHIB_QIRAN"               TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"/>
+		<Row AgendaType="AGENDA_HAG_SIX_REPUBLICS"             TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"/>
+		<Row AgendaType="AGENDA_HAG_ALAOUITE_DYNASTY"          TraitType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"/>
+		<Row AgendaType="AGENDA_HAG_SENJINKUN"                 TraitType="TRAIT_AGENDA_HAG_SENJINKUN"/>
+		<Row AgendaType="AGENDA_HAG_BRIGANTINE_DYNASTY"        TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"/>
+		<Row AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"            TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"/>
+		<Row AgendaType="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" TraitType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA"/>
+		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
+		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
+	</AgendaTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   ModifierId="AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   ModifierId="AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              ModifierId="AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"               ModifierId="AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             ModifierId="AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             ModifierId="AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          ModifierId="AGENDA_HAG_ALAOUITE_DYNASTY"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SENJINKUN"                 ModifierId="AGENDA_HAG_SENJINKUN"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" ModifierId="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" ModifierId="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"               ModifierId="AGENDA_HAG_BLACKSHIRTS"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"/>
+	</TraitModifiers>
+	<!-- アジェンダの効果 -->
+	<Modifiers>
+		<!-- 科学力・文化力が低い -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_LAGS_PROGRESS</SubjectRequirementSetId>
+		</Row>
+		<!-- 科学力・文化力が高い -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_LEADS_PROGRESS</SubjectRequirementSetId>
+		</Row>
+		<!-- 戦争の状態 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_SHORT_LIFE_GLORY</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- 奇襲戦争 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_OPPORTUNIST</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- 同盟が多い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MANY_ALLIANCES</SubjectRequirementSetId>
+		</Row>
+		<!-- 同盟が少ない -->
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_FEW_ALLIANCES</SubjectRequirementSetId>
+		</Row>
+		<!-- ゴールドと交易路 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_ALAOUITE_DYNASTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_LORD_OF_MINES</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- 信仰力と文化力 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_SENJINKUN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_BUSHIDO</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- 首都のある大陸 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_SAME_HOME_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<!-- 首都のない大陸 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ON_NEW_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<!-- 生産力が高い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_INDUSTRY</SubjectRequirementSetId>
+		</Row>
+		<!-- 生産力が低い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_INDUSTRY</SubjectRequirementSetId>
+		</Row>
+		<!-- 都市を解放する -->
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_CITY_LIBERATED</SubjectRequirementSetId>
+		</Row>
+		<!-- 都市を占領する -->
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_PERPETUALLY_ON_GUARD</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- 領地の広さ -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKSHIRTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_OPTIMUS_PRINCEPS</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- 忠誠心を維持できている -->
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_GAINING_CITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_SPIRIT_OF_TUCAPEL</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- 忠誠心を維持できていない -->
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_LOSING_CITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_SPIRIT_OF_TUCAPEL</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 科学力・文化力が低い -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-7</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- ピョートルと同じ文章で問題ない -->
+			<Value>LOC_DIPLO_WARNING_LEADER_PETER_GREAT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LAGGING</Value>
+		</Row>
+		<!-- 科学力・文化力が高い -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- ピョートルと同じ文章で問題ない -->
+			<Value>LOC_DIPLO_KUDO_LEADER_PETER_GREAT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LEADING</Value>
+		</Row>
+		<!-- 戦争の状態 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
+			<Name>MajorWarBonus</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
+			<Name>EachWarDeclaredBonus</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
+			<Name>MaxWarDeclaredBonus</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
+			<Name>NotAtWarPenalty</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
+			<Name>SinceWarPenaltyTurns</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</Value>
+		</Row>
+		<!-- 奇襲戦争 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR</ModifierId>
+			<Name>RecentSurpriseWarBonus</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR</ModifierId>
+			<Name>SurpriseWarDegradeTurns</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR</ModifierId>
+			<Name>EachSurpriseWarBonus</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR</ModifierId>
+			<Name>NeverSurpriseWarPenalty</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR</Value>
+		</Row>
+		<!-- 同盟が多い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES</ModifierId>
+			<Name>MaxValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_HAG_TITO_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_SIX_REPUBLICS_MANY_ALLIANCES</Value>
+		</Row>
+		<!-- 同盟が少ない -->
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES</ModifierId>
+			<Name>MaxValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES</ModifierId>
+			<Name>IncrementTurns</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_HAG_TITO_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_SIX_REPUBLICS_FEW_ALLIANCES</Value>
+		</Row>
+		<!-- ゴールドと交易路 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_ALAOUITE_DYNASTY</ModifierId>
+			<Name>TopPercentage</Name>
+			<Value>65</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ALAOUITE_DYNASTY</ModifierId>
+			<Name>BottomPercentage</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ALAOUITE_DYNASTY</ModifierId>
+			<Name>TopRankingDiploMod</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ALAOUITE_DYNASTY</ModifierId>
+			<Name>BottomRankingDiploMod</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ALAOUITE_DYNASTY</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_HAG_ALAOUITE_DYNASTY</Value>
+		</Row>
+		<!-- 信仰力と文化力 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_SENJINKUN</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_HAG_SENJINKUN</Value>
+		</Row>
+		<!-- 首都のある大陸 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- ヴィクトリアと同じ文章で問題ない -->
+			<Value>LOC_DIPLO_KUDO_LEADER_VICTORIA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT</Value>
+		</Row>
+		<!-- 首都のない大陸 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- ヴィクトリアと同じ文章で問題ない -->
+			<Value>LOC_DIPLO_WARNING_LEADER_VICTORIA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT</Value>
+		</Row>
+		<!-- 生産力が高い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_HAG_STALIN_REASON_AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY</Value>
+		</Row>
+		<!-- 生産力が低い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_HAG_STALIN_REASON_AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY</Value>
+		</Row>
+		<!-- 都市を解放する -->
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- このままでよい -->
+			<Value>LOC_DIPLO_KUDO_LEADER_JOHN_CURTIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_LIBERATE</Value>
+		</Row>
+		<!-- 都市を占領する -->
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION</ModifierId>
+			<Name>PenaltyPerOccupiedCity</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- このままでよい -->
+			<Value>LOC_DIPLO_WARNING_LEADER_JOHN_CURTIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<!-- Modifierとdllで紐づいている模様、反映されない -->
+			<Value>LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_OCCUPY</Value>
+		</Row>
+		<!-- 領地の広さ -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKSHIRTS</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_HAG_BLACKSHIRTS_WARNING</Value>
+		</Row>
+		<!-- 忠誠心を維持できている -->
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_GAINING_CITIES</ModifierId>
+			<Name>CityGainUpperBound</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_GAINING_CITIES</ModifierId>
+			<Name>CityGainLowerBound</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_GAINING_CITIES</ModifierId>
+			<Name>ScorePerCity</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_GAINING_CITIES</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- そのままで問題ない -->
+			<Value>LOC_DIPLO_KUDO_LEADER_LAUTARO_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_GAINING_CITIES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<!-- Modifierとdllで紐づいている模様、反映されない -->
+			<Value>LOC_DIPLO_MODIFIER_AGENDA_HAG_HAKENKREUZ_GAINING_CITIES</Value>
+		</Row>
+		<!-- 忠誠心を維持できていない -->
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_LOSING_CITIES</ModifierId>
+			<Name>CityGainUpperBound</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_LOSING_CITIES</ModifierId>
+			<Name>CityGainLowerBound</Name>
+			<Value>-3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_LOSING_CITIES</ModifierId>
+			<Name>ScorePerCity</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_LOSING_CITIES</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- そのままで問題ない -->
+			<Value>LOC_DIPLO_WARNING_LEADER_LAUTARO_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_HAKENKREUZ_LOSING_CITIES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<!-- Modifierとdllで紐づいている模様、反映されない -->
+			<Value>LOC_DIPLO_MODIFIER_AGENDA_HAG_HAKENKREUZ_LOSING_CITIES</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- アジェンダに紐づく印象の上下のテキスト -->
+	<!-- ※これを忘れると「理由不明」になってしまう -->
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2"      Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2"     Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON"            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR"                Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES"          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES"         Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_ALAOUITE_DYNASTY"                     Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_SENJINKUN"                            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT"    Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT"     Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY"         Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY"          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_BLACKSHIRTS"                          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"             Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameInfo>

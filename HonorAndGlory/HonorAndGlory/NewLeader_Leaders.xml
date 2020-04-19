@@ -1273,28 +1273,28 @@
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
-		<!-- メネリク2世：欧化主義者(バニラのピョートルと同一) -->
-		<Row LeaderType="LEADER_HAG_MENELIK2"      AgendaType="AGENDA_WESTERNIZER"/>
-		<!-- ナポレオン：短くも偉大なる生涯(マケドニア・ペルシアDLCのアレクサンドロスと同じ) -->
-		<Row LeaderType="LEADER_HAG_NAPOLEON"      AgendaType="AGENDA_SHORT_LIFE_GLORY"/>
-		<!-- ティムール：機を見るに敏(マケドニア・ペルシアDLCのキュロスと同じ) -->
-		<Row LeaderType="LEADER_HAG_TIMUR"         AgendaType="AGENDA_BACKSTABBER"/>
-		<!-- チトー：鉄の同盟(RaFのパウンドメーカーと同じ) -->
-		<Row LeaderType="LEADER_HAG_TITO"          AgendaType="AGENDA_IRON_CONFEDERACY"/>
-		<!-- ムーレイ・イスマーイール：サヘルの商人(RaFのマンサ・ムーサと同じ) -->
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  AgendaType="AGENDA_LORD_OF_MINES"/>
-		<!-- 東條英機：武士道(バニラの北条時宗と同じ) -->
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   AgendaType="AGENDA_BUSHIDO"/>
-		<!-- マリア1世：太陽の沈まぬ国(バニラのヴィクトリアと同じ) -->
-		<Row LeaderType="LEADER_HAG_MARIA_I"       AgendaType="AGENDA_SUN_NEVER_SETS"/>
-		<!-- スターリン：鉄の同盟(RaFのパウンドメーカーと同じ) -->
-		<Row LeaderType="LEADER_HAG_STALIN"        AgendaType="AGENDA_IRON_CONFEDERACY"/>
-		<!-- シモン・ボリバル：不断の警戒(バニラのジョン・カーティンと同じ) -->
-		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" AgendaType="AGENDA_PERPETUALLY_ON_GUARD"/>
-		<!-- ヒトラー：鉄冠(バニラのフリードリヒと同じ) -->
-		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  AgendaType="AGENDA_IRON_CROWN"/>
-		<!-- ムッソリーニ：大王志向(バニラのトラヤヌスと同じ) -->
-		<Row LeaderType="LEADER_HAG_MUSSOLINI"     AgendaType="AGENDA_OPTIMUS_PRINCEPS"/>
+		<!-- メネリク2世：先駆者に学べ(中身はバニラのピョートルと同一) -->
+		<Row LeaderType="LEADER_HAG_MENELIK2"      AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
+		<!-- ナポレオン：百日天下(中身はマケドニア・ペルシアDLCのアレクサンドロスと同じ) -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      AgendaType="AGENDA_HAG_HUNDRED_DAYS"/>
+		<!-- ティムール：サーヒブ・キラーン(中身はマケドニア・ペルシアDLCのキュロスと同じ) -->
+		<Row LeaderType="LEADER_HAG_TIMUR"         AgendaType="AGENDA_HAG_SAHIB_QIRAN"/>
+		<!-- チトー：6つの共和国(中身はRaFのパウンドメーカーと同じ) -->
+		<Row LeaderType="LEADER_HAG_TITO"          AgendaType="AGENDA_HAG_SIX_REPUBLICS"/>
+		<!-- ムーレイ・イスマーイール：アラウィー朝(中身はRaFのマンサ・ムーサと同じ) -->
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  AgendaType="AGENDA_HAG_ALAOUITE_DYNASTY"/>
+		<!-- 東條英機：戦陣訓(中身はバニラの北条時宗と同じ) -->
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   AgendaType="AGENDA_HAG_SENJINKUN"/>
+		<!-- マリア1世：ブラガンサ朝(中身はバニラのヴィクトリアと同じ) -->
+		<Row LeaderType="LEADER_HAG_MARIA_I"       AgendaType="AGENDA_HAG_BRIGANTINE_DYNASTY"/>
+		<!-- スターリン：五か年計画(中身はバニラの隠しアジェンダにある重工業主義者と同じ) -->
+		<Row LeaderType="LEADER_HAG_STALIN"        AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"/>
+		<!-- シモン・ボリバル：カルタヘナ宣言(中身はオーストラリアDLCのジョン・カーティンと同じ) -->
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" AgendaType="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA"/>
+		<!-- ヒトラー：ハーケンクロイツ() -->
+		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  AgendaType="AGENDA_HAG_HAKENKREUZ"/>
+		<!-- ムッソリーニ：黒シャツ隊(中身はバニラのトラヤヌスと同じ) -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     AgendaType="AGENDA_HAG_BLACKSHIRTS"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>

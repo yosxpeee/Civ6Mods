@@ -1513,5 +1513,136 @@
 		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>1429年から1879年までの450年間にわたり琉球諸島を中心に存在した王国。王家の紋章は左三巴紋で「左御紋（ひだりごもん、沖縄方言：フィジャイグムン）」と呼ばれた。</Text>
 		</Row>
+		
+		<!-- アジェンダ -->
+		<!-- 先駆者に学べ(メネリク2世) -->
+		<Replace Tag="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_NAME" Language="ja_JP">
+			<Text>先駆者に学べ</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_DESCRIPTION" Language="ja_JP">
+			<Text>自分より [ICON_Science] 科学力と [ICON_Culture] 文化力の高い文明を好み、 [ICON_Science] 科学力と [ICON_Culture] 文化力の低い文明を嫌う。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LAGGING" Language="ja_JP">
+			<Text>メネリク2世はあなたの科学力と文化力の低さに失望している</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LEADING" Language="ja_JP">
+			<Text>メネリク2世はあなたの科学力と文化力に満足している</Text>
+		</Replace>
+		<!-- 百日天下(ナポレオン) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Replace Tag="LOC_AGENDA_HAG_HUNDRED_DAYS_NAME" Language="ja_JP">
+			<Text>百日天下</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_HUNDRED_DAYS_DESCRIPTION" Language="ja_JP">
+			<Text>主要な文明 (フランスを除く) と戦争状態にある文明を好み、戦争状態にない文明を嫌う。この指導者に対する不平は、通常の倍の速度で薄らいでいく。</Text>
+		</Replace>
+		<!-- サーヒブ・キラーン -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Replace Tag="LOC_AGENDA_HAG_SAHIB_QIRAN_NAME" Language="ja_JP">
+			<Text>サーヒブ・キラーン</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_SAHIB_QIRAN_DESCRIPTION" Language="ja_JP">
+			<Text>奇襲戦争を宣言する指導者を好み、そうでない指導者を好まない。</Text>
+		</Replace>
+		<!-- 6つの共和国(チトー) -->
+		<Replace Tag="LOC_AGENDA_HAG_SIX_REPUBLICS_NAME" Language="ja_JP">
+			<Text>6つの共和国</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_SIX_REPUBLICS_DESCRIPTION" Language="ja_JP">
+			<Text>複数の同盟を結ぶことに腐心する。同じようにふるまう文明に敬意を払う。同盟が少ない相手を嫌う。</Text>
+		</Replace>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HAG_TITO_REASON_ANY" Language="ja_JP">
+			<Text>(同盟が多い)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HAG_TITO_REASON_ANY" Language="ja_JP">
+			<Text>(同盟が少ない)</Text>
+		</Row>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_SIX_REPUBLICS_MANY_ALLIANCES" Language="ja_JP">
+			<Text>チトーはあなたの同盟を増やす才能を好ましく思っている</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_SIX_REPUBLICS_FEW_ALLIANCES" Language="ja_JP">
+			<Text>チトーはあなたの同盟が少ないことを不満に思っている</Text>
+		</Replace>
+		<!-- アラウィー朝(ムーレイ・イスマーイール) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Replace Tag="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_NAME" Language="ja_JP">
+			<Text>アラウィー朝</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_DESCRIPTION" Language="ja_JP">
+			<Text>都市や [ICON_TradeRoute] 交易路が生み出す [ICON_Gold] ゴールドの最大化を目指す。同じ行動原理を持つ文明を好み、そうでない文明を嫌う。</Text>
+		</Replace>
+		<!-- 戦陣訓(東條英機) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Replace Tag="LOC_AGENDA_HAG_SENJINKUN_NAME" Language="ja_JP">
+			<Text>戦陣訓</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_SENJINKUN_DESCRIPTION" Language="ja_JP">
+			<Text>強力な軍事力と [ICON_Faith] 信仰力と [ICON_Culture] 文化力を併せ持つ文明を好む。軍事力は強くても [ICON_Faith] 信仰力と [ICON_Culture] 文化力の伴わない文明は好まない。</Text>
+		</Replace>
+		<!-- ブラガンサ朝(マリア１世) -->
+		<Replace Tag="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_NAME" Language="ja_JP">
+			<Text>ブラガンサ朝</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_DESCRIPTION" Language="ja_JP">
+			<Text>自分の文明と同じ大陸に存在する文明を好み、自分の文明をあらゆる大陸に広げようとする。ポルトガルの都市が存在しない大陸の文明は好まない。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT" Language="ja_JP">
+			<Text>マリア1世はあなたと同じ大陸に首都があること満足している</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT" Language="ja_JP">
+			<Text>マリア1世はあなたの領土がある別の大陸への進出を望んでいる</Text>
+		</Replace>
+		<!-- 五か年計画(スターリン) -->
+		<Replace Tag="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_NAME" Language="ja_JP">
+			<Text>五か年計画</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_DESCRIPTION" Language="ja_JP">
+			<Text>工業の発展を重視し、[ICON_Production] 生産力に力を入れている文明を好む。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HAG_STALIN_REASON_AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>(生産力が高い)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HAG_STALIN_REASON_AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY" Language="ja_JP">
+			<Text>(生産力が低い)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>スターリンは自分たちと同じ工業的な文明に出会えて喜んでいる</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY" Language="ja_JP">
+			<Text>スターリンは生産力が低い文明を好まない</Text>
+		</Replace>
+		<!-- カタルヘナ宣言(シモンボリバル) -->
+		<Replace Tag="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_NAME" Language="ja_JP">
+			<Text>カタルヘナ宣言</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_DESCRIPTION" Language="ja_JP">
+			<Text>都市を解放する文明を好む。戦争状態にあり、敵の都市を占領しようとする文明を嫌う。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_LIBERATE" Language="ja_JP">
+			<Text>シモン・ボリバルは、あなたが都市を解放したことを喜んでいる</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_OCCUPY" Language="ja_JP">
+			<Text>シモン・ボリバルは、あなたが敵の都市を占領したことを不満に思っている</Text>
+		</Replace>
+		<!-- ハーケンクロイツ(アドルフ・ヒトラー) -->
+		<Replace Tag="LOC_AGENDA_HAG_HAKENKREUZ_NAME" Language="ja_JP">
+			<Text>ハーケンクロイツ</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_HAKENKREUZ_DESCRIPTION" Language="ja_JP">
+			<Text>文化的な忠誠心を高め、それを高い水準に保つことを重視する。人々の忠誠心によって都市を得る文明を好み、忠誠心によって都市を失う文明を嫌う。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_HAKENKREUZ_GAINING_CITIES" Language="ja_JP">
+			<Text>アドルフ・ヒトラーは忠誠心による土地の獲得を好ましく思っている</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_HAKENKREUZ_LOSING_CITIES" Language="ja_JP">
+			<Text>アドルフ・ヒトラーは民の忠誠心を保てない指導者を嫌っている</Text>
+		</Replace>
+		<!-- 黒シャツ隊(ムッソリーニ) -->
+		<Replace Tag="LOC_AGENDA_HAG_BLACKSHIRTS_NAME" Language="ja_JP">
+			<Text>黒シャツ隊</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION" Language="ja_JP">
+			<Text>自分の領土を可能なかぎり広げようとし、小さな領土しか持たない文明を嫌う。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
