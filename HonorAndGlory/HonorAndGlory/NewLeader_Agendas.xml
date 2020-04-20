@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<!-- アジェンダの親定義 -->
 	<Types>
 		<Row Type="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              Kind="KIND_TRAIT"/>
@@ -15,6 +16,7 @@
 	</Types>
 	<PlotEvalConditions>
 	</PlotEvalConditions>
+	<!-- AIの動き -->
 	<AiListTypes>
 		<Row ListType="HAGLearnFromThePioneersResolution"/>
 		<Row ListType="HAGHundredDaysDiplomacy"/>
@@ -95,6 +97,7 @@
 	</AiFavoredItems>
 	<TriggeredBehaviorTrees>
 	</TriggeredBehaviorTrees>
+	<!-- 効果の親定義 -->
 	<Traits>
 		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"/>
@@ -108,6 +111,7 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
 	</Traits>
+	<!-- アジェンダの名前と説明 -->
 	<Agendas>
 		<Row AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   Name="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_NAME"   Description="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              Name="LOC_AGENDA_HAG_HUNDRED_DAYS_NAME"              Description="LOC_AGENDA_HAG_HUNDRED_DAYS_DESCRIPTION"/>
@@ -125,6 +129,7 @@
 	</RandomAgendas>
 	<AgendaPreferredLeaders>
 	</AgendaPreferredLeaders>
+	<!-- 排他するアジェンダ -->
 	<ExclusiveAgendas>
 		<Row AgendaOne="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   AgendaTwo="AGENDA_CULTURED"/>
 		<Row AgendaOne="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   AgendaTwo="AGENDA_TECHNOPHILE"/>
@@ -142,6 +147,7 @@
 		<Row AgendaOne="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" AgendaTwo="AGENDA_DARWINIST"/>
 		<Row AgendaOne="AGENDA_HAG_BLACKSHIRTS"               AgendaTwo="AGENDA_EXPANSIONIST"/>
 	</ExclusiveAgendas>
+	<!-- アジェンダとTraitの紐づけ -->
 	<AgendaTraits>
 		<Row AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
 		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"/>
@@ -156,6 +162,7 @@
 		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
 		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
 	</AgendaTraits>
+	<!-- Traitに紐づく効果 -->
 	<TraitModifiers>
 		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   ModifierId="AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   ModifierId="AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2"/>
@@ -175,7 +182,7 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"/>
 	</TraitModifiers>
-	<!-- アジェンダの効果 -->
+	<!-- ここからアジェンダの効果詳細 -->
 	<Modifiers>
 		<!-- 科学力・文化力が低い -->
 		<Row>
