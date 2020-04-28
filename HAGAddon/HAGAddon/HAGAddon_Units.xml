@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_UNIT"/>
+	</Types>
+	<!-- クラス定義 -->
+	<Tags>
+		<Row Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<!-- AI設定 -->
+	<UnitAiInfos>
+		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<!-- 置換設定 -->
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" ReplacesUnitType="UNIT_PIKEMAN"/>
+	</UnitReplaces>
+	<Tags>
+	</Tags>
+	<!-- 所有クラス -->
+	<TypeTags>
+		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
+	</TypeTags>
+	<!-- 主設定 -->
+	<Units>
+		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Cost="200" Maintenance="3" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="44" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Description="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_MILITARY_TACTICS"
+			 TraitType="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
+	</Units>
+	<!-- アップグレード先 -->
+	<UnitUpgrades>
+		<!-- ランツクネヒト：槍銃兵 -->
+		<Row Unit="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
+	</UnitUpgrades>
+	<Unit_BuildingPrereqs>
+	</Unit_BuildingPrereqs>
+</GameInfo>

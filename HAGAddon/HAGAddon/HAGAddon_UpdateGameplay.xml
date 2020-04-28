@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 区域 -->
+	<!-- 説明文 -->
+	<Districts>
+		<!-- ハンザ -->
+		<Update>
+			<Where Description="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION"/>
+			<Set Description="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION"/>
+		</Update>
+	</Districts>
+	
+	<!-- ユニット -->
+	<!-- 説明文 -->
+	<Units>
+		<!-- ベルセルク -->
+		<Update>
+			<Where Description="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION"/>
+			<Set Description="LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION"/>
+		</Update>
+	</Units>
+	<!-- 戦闘時のアビリティ表示 -->
+	<UnitAbilities>
+		<!-- ベルセルク -->
+		<Update>
+			<Where Description="LOC_ABILITY_BERSERKER_RAGE_DESCRIPTION"/>
+			<Set Description="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION"/>
+		</Update>
+	</UnitAbilities>
+	<!-- アップグレード先 -->
+	<UnitUpgrades>
+		<!-- ヴァル：胸甲騎兵に変更 -->
+		<Update>
+			<Where Unit="UNIT_INDIAN_VARU"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- サカ族弓騎兵：弩兵に変更 -->
+		<Update>
+			<Where Unit="UNIT_SCYTHIAN_HORSE_ARCHER"/>
+			<Set>
+				<UpgradeUnit>UNIT_CROSSBOWMAN</UpgradeUnit>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+</GameData>

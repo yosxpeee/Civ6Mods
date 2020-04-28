@@ -1,0 +1,64 @@
+<GameInfo>
+	<Types>
+	</Types>
+	<NamedRivers>
+	</NamedRivers>
+	<NamedVolcanoes>
+	</NamedVolcanoes>
+	<NamedMountains>
+	</NamedMountains>
+	<NamedDeserts>
+	</NamedDeserts>
+	<NamedLakes>
+	</NamedLakes>
+	<NamedSeas>
+	</NamedSeas>
+	<NamedOceans>
+	</NamedOceans>
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_DANUBE"      CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedRiverType="NAMED_RIVER_ELBE"        CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedRiverType="NAMED_RIVER_ODER"        CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedRiverType="NAMED_RIVER_RHINE"       CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedRiverType="NAMED_RIVER_WESER_RIVER" CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+	</NamedRiverCivilizations>
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_VOLCANO_LAACHER_SEE" CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+	</NamedVolcanoCivilizations>
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ALPS"                        CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_BLACK_FOREST_MOUNTAINS"      CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_HARZ"                        CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ORE_MOUNTAINS"               CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_THURINGIAN_FOREST_MOUNTAINS" CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+	</NamedMountainCivilizations>
+	<NamedDesertCivilizations>
+	</NamedDesertCivilizations>
+	<NamedLakeCivilizations>
+		<Row NamedLakeType="NAMED_LAKE_KONIGSSEE"       CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_AMMER"      CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_CHIEMSEE"   CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_CONSTANCE"  CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_KUMMEROW"   CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_MURITZ"     CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_SCHWERIN"   CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_STARNBERG"  CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_WALCHEN"    CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_PLAUER_SEE"      CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_SAALER_BODDEN"   CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_SCHAALSEE"       CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedLakeType="NAMED_LAKE_STEINHUDER_MEER" CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+	</NamedLakeCivilizations>
+	<NamedSeaCivilizations>
+		<Row NamedSeaType="NAMED_SEA_BALTIC_SEA"                 CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_BAY_OF_MECKLENBURG"         CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_DOLLART"                    CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_FLENSBURG_FIRTH"            CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_GERMAN_BIGHT"               CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_HELIGOLAND_BIGHT"           CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_JADE_BIGHT"                 CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_NORDFRIESISCHES_WATTENMEER" CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_NORTH_SEA"                  CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+		<Row NamedSeaType="NAMED_SEA_WADDEN_SEA"                 CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"/>
+	</NamedSeaCivilizations>
+</GameInfo>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_ABILITY"/>
+	</Types>
+	<!-- アビリティを持つクラス -->
+	<TypeTags>
+		<Row Type="ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
+	</TypeTags>
+	<!-- アビリティの名前、説明 -->
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Name="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Description="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_MODIFIER_DESCRIPTION"/>
+	</UnitAbilities>
+	<!-- アビリティが持つModifier -->
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT</UnitAbilityType>
+			<ModifierId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<!-- 効果の定義 -->
+	<Modifiers>
+		<Row>
+			<ModifierId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<!-- 効果のパラメータ -->
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 条件：判定種別 -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<!-- 条件定義 -->
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- 条件詳細 -->
+	<Requirements>
+		<Row>
+			<RequirementId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<!-- 条件詳細の引数 -->
+	<RequirementArguments>
+		<Row>
+			<RequirementId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+	</RequirementArguments>
+	<!-- 戦闘プレビューのテキスト -->
+	<ModifierStrings>
+		<Row ModifierId="HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE" Context="Preview" Text="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+</GameData>

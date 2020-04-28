@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
+		</Row>
+		
+		<!-- 都市名(神聖ローマ帝国) -->
+		<!-- オーストリアとチェコから -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_11" Language="en_US">
+			<Text>Vienna</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_12" Language="en_US">
+			<Text>Graz</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_13" Language="en_US">
+			<Text>Linz</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_14" Language="en_US">
+			<Text>Salzburg</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_15" Language="en_US">
+			<Text>Innsbruck</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_16" Language="en_US">
+			<Text>Klagenfurt</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_17" Language="en_US">
+			<Text>Wels</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_18" Language="en_US">
+			<Text>Villach</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_19" Language="en_US">
+			<Text>Sankt Polten</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_20" Language="en_US">
+			<Text>Dornbirn</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_21" Language="en_US">
+			<Text>Praha</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_22" Language="en_US">
+			<Text>Brno</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_23" Language="en_US">
+			<Text>Ostrava</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_24" Language="en_US">
+			<Text>Plzen</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_25" Language="en_US">
+			<Text>Liberec</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_26" Language="en_US">
+			<Text>Olomouc</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_27" Language="en_US">
+			<Text>Usti nad Labem</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_28" Language="en_US">
+			<Text>Hradec kralove</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_29" Language="en_US">
+			<Text>Ceske Budejovice</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_30" Language="en_US">
+			<Text>Pardubice</Text>
+		</Row>
+
+		<!-- 市民名 -->
+		<!-- 神聖ローマ帝国 -->
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_1" Language="en_US">
+			<Text>Abelard</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_2" Language="en_US">
+			<Text>Giomar</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_3" Language="en_US">
+			<Text>Hunfried</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_4" Language="en_US">
+			<Text>Konrad</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_1" Language="en_US">
+			<Text>Binga</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_2" Language="en_US">
+			<Text>Herta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_3" Language="en_US">
+			<Text>Johanna</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_4" Language="en_US">
+			<Text>Lorelei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_5" Language="en_US">
+			<Text>Porsche</Text>
+		</Row>
+		
+		<!-- ユニットアビリティ -->
+		<Row Tag="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength]Combat Strength when attacking.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

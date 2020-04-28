@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Players>
+		<!-- 神聖ローマ帝国(フリードリヒ) -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" 
+			 LeaderType="LEADER_BARBAROSSA" 
+			 CivilizationName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_NAME" 
+			 CivilizationIcon="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" 
+			 LeaderName="LOC_LEADER_BARBAROSSA_NAME" 
+			 LeaderIcon="ICON_LEADER_BARBAROSSA" 
+			 CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_NAME" 
+			 CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_DESCRIPTION" 
+			 CivilizationAbilityIcon="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" 
+			 LeaderAbilityName="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_NAME" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION" 
+			 LeaderAbilityIcon="ICON_LEADER_BARBAROSSA"/>
+	</Players>
+	<PlayerItems>
+		<!-- 神聖ローマ帝国(フリードリヒ) -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"
+			 LeaderType="LEADER_BARBAROSSA"
+			 Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"
+			 Icon="ICON_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"
+			 Name="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME"
+			 Description="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_DESCRIPTION"
+			 SortIndex="10" />
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"
+			 LeaderType="LEADER_BARBAROSSA"
+			 Type="DISTRICT_HANSA"
+			 Icon="ICON_DISTRICT_HANSA"
+			 Name="LOC_DISTRICT_HANSA_NAME"
+			 Description="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION"
+			 SortIndex="20" />
+	</PlayerItems>
+</GameInfo>

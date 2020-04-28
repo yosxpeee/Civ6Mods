@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<!-- 神聖ローマ帝国 -->
+		<Row Type="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"             Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"       Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"   Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Civilizations>
+		<!-- 神聖ローマ帝国 -->
+		<Row>
+			<CivilizationType>CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</CivilizationType>
+			<Name>LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_NAME</Name>
+			<Description>LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>30</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+		</Row>
+	</Civilizations>
+	<!-- 文明に属する指導者 -->
+	<CivilizationLeaders>
+		<!-- バニラのフリードリヒを所属させる -->
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   LeaderType="LEADER_BARBAROSSA"      CapitalName="LOC_CITY_NAME_AACHEN" />
+	</CivilizationLeaders>
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   TraitType="TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   TraitType="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   TraitType="TRAIT_CIVILIZATION_DISTRICT_HANSA" />
+	</CivilizationTraits>
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"     Name="LOC_TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_NAME"       Description="LOC_TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Name="LOC_TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME"/>
+	</Traits>
+	<!-- 使用する特性の指定 -->
+	<TraitModifiers>
+		<!-- 神聖ローマ帝国 -->
+		<!-- 国内交易路からゴールド+1、生産力+1 -->
+		<!-- 通貨で交易路+1、無償の交易商入手 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_TRADE_ROUTE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_ADD_TRADER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 国内交易路からゴールド+1、生産力+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<!-- 通貨で交易路+1、無償の交易商入手 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CURRENCY_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_ADD_TRADER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<OwnerRequirementsetId>PLAYER_HAS_CURRENCY_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</OwnerRequirementsetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 国内交易路からゴールド+1、生産力+1 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 通貨で交易路+1、無償の交易商入手 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_ADD_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_ADD_TRADER</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_ADD_TRADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 条件：判定種別 -->
+	<RequirementSets>
+		<!-- 首都が存在し、通貨の技術を持っている -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CURRENCY_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<!-- 条件定義 -->
+	<RequirementSetRequirements>
+		<!-- 首都が存在し、通貨の技術を持っている -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CURRENCY_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CURRENCY_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CURRENCY_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<!-- RaFにある -->
+			<RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- 条件詳細 -->
+	<Requirements>
+		<!-- 通貨の技術 -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CURRENCY_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<!-- 条件詳細の引数 -->
+	<RequirementArguments>
+		<!-- 通貨の技術 -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CURRENCY_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CURRENCY</Value>
+		</Row>
+	</RequirementArguments>
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<!--神聖ローマ帝国 -->
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CitizenName="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<!-- 神聖ローマ帝国 -->
+		<!-- 1/3はバニラのドイツから -->
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_AACHEN" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_COLOGNE" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_FRANKFURT" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_MAGDEBURG" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_MAINZ" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_HEIDELBERG" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_TRIER" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_BERLIN" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_ULM" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CITY_NAME_HAMBURG" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" CityName="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_30" />
+	</CityNames>
+	<!-- 開始位置補正 -->
+	<StartBiasTerrains>
+	</StartBiasTerrains>
+	<StartBiasResources>
+	</StartBiasResources>
+	<StartBiasFeatures>
+	</StartBiasFeatures>
+</GameData>

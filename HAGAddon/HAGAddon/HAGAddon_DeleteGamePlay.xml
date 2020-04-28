@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 文明と指導者の紐づけ -->
+	<CivilizationLeaders>
+		<!-- ドイツからフリードリヒを削除 -->
+		<Delete CivilizationType="CIVILIZATION_GERMANY" LeaderType="LEADER_BARBAROSSA" />
+	</CivilizationLeaders>
+	<!-- ユニットアビリティ -->
+	<UnitAbilityModifiers>
+		<!-- ベルセルクの防戦時ペナルティ削除 -->
+		<Delete UnitAbilityType="ABILITY_BERSERKER_RAGE" ModifierId="UNIT_WEAK_WHEN_DEFENDING" />
+	</UnitAbilityModifiers>
+</GameData>

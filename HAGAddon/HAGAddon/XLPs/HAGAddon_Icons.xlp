@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/HAGAddon_Icons"/>
+	<m_Entries>
+		<!-- 文明(神聖ローマ帝国) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

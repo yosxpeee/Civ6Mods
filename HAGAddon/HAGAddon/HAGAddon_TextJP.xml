@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>現在のドイツ、オーストリア、チェコ、イタリア北部を中心に存在していた国家。9～10世紀に成立し、1806年まで続いた。西ローマ帝国の後継国家を称した。中世以降は国号に「ドイツ国民の」が加えられ（解散時には単なる「ドイツ帝国」）ドイツ人国家としての性格を明確化したが（ただし、支配下にかなりの他民族領域も含まれる）、同時に国家としての統一性は形骸化し、分立するドイツ諸邦の形式的な連合体へと変質していった。</Text>
+		</Row>
+		
+		<!-- 都市名(神聖ローマ帝国) -->
+		<!-- オーストリアとチェコから -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_11" Language="ja_JP">
+			<Text>ウィーン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_12" Language="ja_JP">
+			<Text>グラーツ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_13" Language="ja_JP">
+			<Text>リンツ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_14" Language="ja_JP">
+			<Text>ザルツブルグ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_15" Language="ja_JP">
+			<Text>インスブルック</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_16" Language="ja_JP">
+			<Text>クラーゲンフルト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_17" Language="ja_JP">
+			<Text>ヴェルス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_18" Language="ja_JP">
+			<Text>フィラッハ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_19" Language="ja_JP">
+			<Text>ザンクト・ペルテン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_20" Language="ja_JP">
+			<Text>ドルンビルン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_21" Language="ja_JP">
+			<Text>プラハ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_22" Language="ja_JP">
+			<Text>ブルノ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_23" Language="ja_JP">
+			<Text>オストラバ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_24" Language="ja_JP">
+			<Text>プルゼニ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_25" Language="ja_JP">
+			<Text>リベレツ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_26" Language="ja_JP">
+			<Text>オロモウツ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_27" Language="ja_JP">
+			<Text>ウースチー・ナド・ラベム</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_28" Language="ja_JP">
+			<Text>フラデツ・クラーロヴェー</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_29" Language="ja_JP">
+			<Text>チェスケー・ブジェヨヴィツェ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CITY_30" Language="ja_JP">
+			<Text>パルドゥビツェ</Text>
+		</Row>
+		
+		<!-- 市民名 -->
+		<!-- 神聖ローマ帝国 -->
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_1" Language="ja_JP">
+			<Text>アベラール</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_2" Language="ja_JP">
+			<Text>ジオマー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_3" Language="ja_JP">
+			<Text>ハンフリード</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_MALE_4" Language="ja_JP">
+			<Text>コンラート</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_1" Language="ja_JP">
+			<Text>ビンガ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_2" Language="ja_JP">
+			<Text>ハータ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_3" Language="ja_JP">
+			<Text>ヨハンナ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_4" Language="ja_JP">
+			<Text>ローレライ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAGA_HOLY_ROMAN_EMPIRE_FEMALE_5" Language="ja_JP">
+			<Text>ポルシェ</Text>
+		</Row>
+
+		<!-- ユニットアビリティ -->
+		<Row Tag="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>攻撃時に [ICON_Strength] 戦闘力+10。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

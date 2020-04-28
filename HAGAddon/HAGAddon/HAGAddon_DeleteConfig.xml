@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- バニラのドイツ(フリードリヒ)を削除 -->
+	<Players>
+		<Delete Domain="Players:Expansion2_Players" LeaderType="LEADER_BARBAROSSA"/>
+	</Players>
+	<PlayerItems>
+		<Delete Domain="Players:Expansion2_Players" LeaderType="LEADER_BARBAROSSA"/>
+	</PlayerItems>
+</GameData>

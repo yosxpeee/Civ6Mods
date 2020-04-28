@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Honor and Glory -system revised-</Name>
+    <Guid>2868122e-7a4a-4ffb-8da8-7f28b510438c</Guid>
+    <ProjectGuid>fcfbb727-b03d-477c-98ed-4f76a6f65183</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>add great person, common units.</Teaser>
+    <Description>add great person, common units.</Description>
+    <Authors>yosxpeee</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>HAGAddon</AssemblyName>
+    <RootNamespace>HAGAddon</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="Honor And Glory - Leaders, Civilizations and Religions" id="a2e4a823-dfbd-4885-8df0-aa2dd5a49278" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File>HAGAddon_UpdateConfig.xml</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="HAGAddon.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Moments.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_NamedPlace.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_DeleteConfig.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_DeleteGamePlay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_UpdateConfig.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_UpdateGameplay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_HAGA_Landsknecht.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\HAGAddon_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
