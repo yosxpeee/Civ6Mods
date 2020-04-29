@@ -3,6 +3,7 @@
 	<!-- 親定義 -->
 	<Types>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_TREBUCHET"                     Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -14,6 +15,11 @@
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -25,20 +31,32 @@
 	<TypeTags>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_ANTI_CAVALRY"/>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
+		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_SIEGE_SETUP"/>
+		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_FORWARD_OBSERVER"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
+		<!-- ランツクネヒト -->
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Cost="200" Maintenance="3" BaseMoves="2" BaseSightRange="2" 
 			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="44" 
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Description="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_MILITARY_TACTICS"
 			 TraitType="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
+		<!-- トレビュシェット -->
+		<Row UnitType="UNIT_HAGA_TREBUCHET" Cost="220" Maintenance="3" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="33" Bombard="45" Range="2" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_TREBUCHET_NAME" Description="LOC_UNIT_HAGA_TREBUCHET_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_MILITARY_ENGINEERING"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<!-- ランツクネヒト：槍銃兵 -->
 		<Row Unit="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
+		<!-- トレビュシェット：射石砲 -->
+		<Row Unit="UNIT_HAGA_TREBUCHET" UpgradeUnit="UNIT_BOMBARD"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>

@@ -34,6 +34,16 @@
 		<Row Tag="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_MODIFIER_DESCRIPTION" Language="en_US">
 			<Text>+7 [ICON_Strength] Combat bonus to Melee units.</Text>
 		</Row>
+		<!-- ユニット(トレビュシェット) -->
+		<Row Tag="LOC_UNIT_HAGA_TREBUCHET_NAME" Language="en_US">
+			<Text>Trebuchet</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_TREBUCHET_DESCRIPTION" Language="en_US">
+			<Text>Medieval era bombard unit, ideal for attacking cities. Cannot move and attack on the same turn unless they've earned the Expert Crew promotion.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="en_US">

@@ -22,6 +22,7 @@
   <Dependency type="Mod" title="Honor And Glory - Leaders, Civilizations and Religions" id="a2e4a823-dfbd-4885-8df0-aa2dd5a49278" />
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Dlc" title="DLC: Khmer and Indonesia Civilization Pack" id="1F367231-A040-4793-BDBB-088816853683" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File>HAGAddon_UpdateConfig.xml</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
     <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
@@ -33,6 +34,180 @@
     <None Include="HAGAddon.Art.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Animations\trebuchet_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_attack_city.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_attack_city.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_bombardment.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_bombardment.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_stop_run_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_stop_run_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trebuchet_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Civilizations.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -40,6 +215,18 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Unit_Bins.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Trebuchet.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\trebuchet.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\trebuchet.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="HAGAddon_Civilizations.xml">
@@ -85,6 +272,30 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="HAGAddon_UpdateGameplay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TrebuchetCrew_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Trebuchet_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Moment_HAGA_Landsknecht.dds">
@@ -150,12 +361,61 @@
     <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\trebuchetcrew_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchetcrew_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchetcrew_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchetcrew_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchetcrew_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchetcrew_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchet_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchet_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchet_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchet_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchet_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trebuchet_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\HAGAddon_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\units_civ5.xlp">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArtDefs" />
+    <Folder Include="Animations" />
+    <Folder Include="Assets" />
+    <Folder Include="Geometries" />
+    <Folder Include="Materials" />
     <Folder Include="XLPs" />
     <Folder Include="Textures" />
   </ItemGroup>

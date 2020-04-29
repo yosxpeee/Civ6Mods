@@ -34,7 +34,17 @@
 		<Row Tag="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>陸上近接ユニットに対し [ICON_Strength] 戦闘力+7</Text>
 		</Row>
-
+		<!-- トレビュシェット -->
+		<Row Tag="LOC_UNIT_HAGA_TREBUCHET_NAME" Language="ja_JP">
+			<Text>トレビュシェット</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_TREBUCHET_DESCRIPTION" Language="ja_JP">
+			<Text>中世時代の砲撃ユニット。都市を攻撃する際に力を発揮する。「熟練搭乗員」レベルアップを獲得しない限り、同じターンに移動と攻撃の両方をおこなうことはできない。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>工業をつかさどる区域。神聖ローマ帝国およびドイツ固有。工業地帯区域に取ってかわり、より安価に建設できる。[NEWLINE][NEWLINE]商業ハブ、用水路、運河、ダム区域に隣接している場合、 [ICON_Production] 生産力ボーナス+2。資源に隣接している場合、それぞれ [ICON_Production] 生産力ボーナス+1。2つの区域タイルに隣接している場合、 [ICON_Production] 生産力ボーナス+1。</Text>

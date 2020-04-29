@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- ======================================================================= -->
 	<!-- 区域 -->
+	<!-- ======================================================================= -->
 	<!-- 説明文 -->
 	<Districts>
 		<!-- ハンザ -->
@@ -10,7 +12,9 @@
 		</Update>
 	</Districts>
 	
+	<!-- ======================================================================= -->
 	<!-- ユニット -->
+	<!-- ======================================================================= -->
 	<!-- 説明文 -->
 	<Units>
 		<!-- ベルセルク -->
@@ -29,9 +33,23 @@
 	</UnitAbilities>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
+		<!-- カタパルト：トレビュシェットに変更 -->
+		<Update>
+			<Where Unit="UNIT_CATAPULT"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_TREBUCHET</UpgradeUnit>
+			</Set>
+		</Update>
 		<!-- ヴァル：胸甲騎兵に変更 -->
 		<Update>
 			<Where Unit="UNIT_INDIAN_VARU"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- マムルーク：胸甲騎兵に変更 -->
+		<Update>
+			<Where Unit="UNIT_ARABIAN_MAMLUK"/>
 			<Set>
 				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
 			</Set>
@@ -44,4 +62,9 @@
 			</Set>
 		</Update>
 	</UnitUpgrades>
+	<!-- 置換設定 -->
+	<UnitReplaces>
+		<!-- ダムレイは置換にする -->
+		<Row CivUniqueUnitType="UNIT_KHMER_DOMREY" ReplacesUnitType="UNIT_HAGA_TREBUCHET"/>
+	</UnitReplaces>
 </GameData>
