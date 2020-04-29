@@ -4,6 +4,7 @@
 	<Types>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_LONGSWORDSMAN" Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -20,6 +21,10 @@
 		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -34,6 +39,7 @@
 		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_HAGA_LONGSWORDSMAN" Tag="CLASS_MELEE"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
@@ -50,6 +56,12 @@
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_TREBUCHET_NAME" Description="LOC_UNIT_HAGA_TREBUCHET_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_MILITARY_ENGINEERING"/>
+		<!-- 長剣士 -->
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" Cost="160" Maintenance="3" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="42" StrategicResource="RESOURCE_IRON" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_LONGSWORDSMAN_NAME" Description="LOC_UNIT_HAGA_LONGSWORDSMAN_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_MILITARY_TACTICS"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -57,7 +69,13 @@
 		<Row Unit="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
 		<!-- トレビュシェット：射石砲 -->
 		<Row Unit="UNIT_HAGA_TREBUCHET" UpgradeUnit="UNIT_BOMBARD"/>
+		<!-- 長剣士：マスケット兵 -->
+		<Row Unit="UNIT_HAGA_LONGSWORDSMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>
+	<!-- 戦略資源のコスト -->
+	<Units_XP2>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" ResourceCost="20"/>
+	</Units_XP2>
 </GameInfo>

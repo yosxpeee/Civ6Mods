@@ -31,6 +31,26 @@
 			<Set Description="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION"/>
 		</Update>
 	</UnitAbilities>
+	<!-- 基本性能 -->
+	<Units>
+		<!-- ベルセルク -->
+		<Update>
+			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
+			<Set>
+				<Combat>42</Combat>
+			</Set>
+		</Update>
+	</Units>
+	<!-- ユニットアビリティ -->
+	<ModifierArguments>
+		<!-- ベルセルク -->
+		<Update>
+			<Where ModifierId="UNIT_STRONG_WHEN_ATTACKING"/>
+			<Set>
+				<Value>8</Value>
+			</Set>
+		</Update>
+	</ModifierArguments>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<!-- カタパルト：トレビュシェットに変更 -->
@@ -38,6 +58,13 @@
 			<Where Unit="UNIT_CATAPULT"/>
 			<Set>
 				<UpgradeUnit>UNIT_HAGA_TREBUCHET</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- 剣士：長剣士に変更 -->
+		<Update>
+			<Where Unit="UNIT_SWORDSMAN"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_LONGSWORDSMAN</UpgradeUnit>
 			</Set>
 		</Update>
 		<!-- ヴァル：胸甲騎兵に変更 -->
@@ -64,7 +91,11 @@
 	</UnitUpgrades>
 	<!-- 置換設定 -->
 	<UnitReplaces>
-		<!-- ダムレイは置換にする -->
-		<Row CivUniqueUnitType="UNIT_KHMER_DOMREY" ReplacesUnitType="UNIT_HAGA_TREBUCHET"/>
+		<!-- ダムレイはトレビュシェットの置換にする -->
+		<Row CivUniqueUnitType="UNIT_KHMER_DOMREY"        ReplacesUnitType="UNIT_HAGA_TREBUCHET"/>
+		<!-- 侍、ベルセルク、ヘヴスルは長剣士の置換にする -->
+		<Row CivUniqueUnitType="UNIT_JAPANESE_SAMURAI"    ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_NORWEGIAN_BERSERKER" ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_GEORGIAN_KHEVSURETI" ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
 	</UnitReplaces>
 </GameData>

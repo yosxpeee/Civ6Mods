@@ -34,6 +34,192 @@
     <None Include="HAGAddon.Art.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Animations\longswordsman_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_attack_city.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_attack_city.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_charge_attack.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_charge_attack.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_charge_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_charge_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_death_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_death_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_death_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_death_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_shuffle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_shuffle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_stop_run_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_stop_run_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\longswordsman_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Animations\trebuchet_attacka.anm">
       <SubType>Content</SubType>
     </Content>
@@ -220,7 +406,16 @@
     <Content Include="ArtDefs\Unit_Bins.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Longswordsman.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Trebuchet.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\longswordsman.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\longswordsman.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\trebuchet.fgx">
@@ -274,6 +469,9 @@
     <Content Include="HAGAddon_UpdateGameplay.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Materials\Longswordsman_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\TrebuchetCrew_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
@@ -296,6 +494,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\longswordsman_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\longswordsman_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\longswordsman_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\longswordsman_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\longswordsman_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\longswordsman_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Moment_HAGA_Landsknecht.dds">

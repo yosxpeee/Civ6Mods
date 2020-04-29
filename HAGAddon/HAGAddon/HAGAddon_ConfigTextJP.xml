@@ -44,13 +44,23 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Row>
+		<!-- 長剣士 -->
+		<Row Tag="LOC_UNIT_HAGA_LONGSWORDSMAN_NAME" Language="ja_JP">
+			<Text>長剣士</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_LONGSWORDSMAN_DESCRIPTION" Language="ja_JP">
+			<Text>中世時代の強力な近接戦闘ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>工業をつかさどる区域。神聖ローマ帝国およびドイツ固有。工業地帯区域に取ってかわり、より安価に建設できる。[NEWLINE][NEWLINE]商業ハブ、用水路、運河、ダム区域に隣接している場合、 [ICON_Production] 生産力ボーナス+2。資源に隣接している場合、それぞれ [ICON_Production] 生産力ボーナス+1。2つの区域タイルに隣接している場合、 [ICON_Production] 生産力ボーナス+1。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION" Language="ja_JP">
-			<Text>ノルウェー固有の中世の近接戦闘ユニット。敵の領地で移動を開始した場合は [ICON_Movement] 移動力4。攻撃時は [ICON_Strength] 戦闘力+10。</Text>
+			<Text>ノルウェー固有の中世の近接戦闘ユニット。敵の領地で移動を開始した場合は [ICON_Movement] 移動力4。攻撃時は [ICON_Strength] 戦闘力+8。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

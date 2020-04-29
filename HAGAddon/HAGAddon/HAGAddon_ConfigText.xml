@@ -44,13 +44,23 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- ユニット(長剣士) -->
+		<Row Tag="LOC_UNIT_HAGA_LONGSWORDSMAN_NAME" Language="en_US">
+			<Text>Longswordsman</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_LONGSWORDSMAN_DESCRIPTION" Language="en_US">
+			<Text>Strong Medieval era melee unit.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="en_US">
 			<Text>A district unique to Holy Roman Empire and Germany for industrial activity. Replaces the Industrial Zone district and cheaper to build.[NEWLINE][NEWLINE]+ 2[ICON_Production] Production bonus for each adjacent Commercial Hub, Aqueduct, Canal, and Dam districts. +1 [ICON_Production] Production bonus for each adjacent resource. +1 [ICON_Production] Production bonus for every two adjacent district tiles.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION" Language="en_US">
-			<Text>Norwegian unique Medieval era melee unit. 4 [ICON_Movement] Movement if this unit starts in enemy territory. +10 [ICON_Strength] Combat Strength when attacking.</Text>
+			<Text>Norwegian unique Medieval era melee unit. 4 [ICON_Movement] Movement if this unit starts in enemy territory. +8 [ICON_Strength] Combat Strength when attacking.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

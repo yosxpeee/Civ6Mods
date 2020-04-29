@@ -101,7 +101,7 @@
 		
 		<!-- ユニットアビリティ -->
 		<Row Tag="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION" Language="en_US">
-			<Text>+10 [ICON_Strength]Combat Strength when attacking.</Text>
+			<Text>+8 [ICON_Strength]Combat Strength when attacking.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
