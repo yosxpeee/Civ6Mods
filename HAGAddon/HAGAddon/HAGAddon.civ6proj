@@ -25,7 +25,7 @@
   <Dependency type="Dlc" title="DLC: Khmer and Indonesia Civilization Pack" id="1F367231-A040-4793-BDBB-088816853683" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File>HAGAddon_UpdateConfig.xml</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -394,10 +394,16 @@
     <Content Include="Animations\trebuchet_victory.fgx">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Civilizations.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ArtDefs\Units.artdef">
@@ -422,6 +428,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\trebuchet.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Beliefs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Buildings.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="HAGAddon_Civilizations.xml">

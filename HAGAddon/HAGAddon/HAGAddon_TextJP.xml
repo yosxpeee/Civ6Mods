@@ -103,5 +103,21 @@
 		<Row Tag="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>攻撃時に [ICON_Strength] 戦闘力+8。</Text>
 		</Row>
+
+		<!-- 崇拝の信仰 -->
+		<Row Tag="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_NAME" Language="ja_JP">
+			<Text>マシュリク・アル・アドゥカル</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_DESCRIPTION" Language="ja_JP">
+			<Text>マシュリク・アル・アドゥカルが建設可能になる ([ICON_Faith] 信仰力+3、[ICON_CULTURE] 文化力+2)。</Text>
+		</Row>
+
+		<!-- 建造物 -->
+		<Row Tag="LOC_BUILDING_HAGA_MASHRIQU_L_ADHKAR_NAME" Language="ja_JP">
+			<Text>マシュリク・アル・アドゥカル</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAGA_MASHRIQU_L_ADHKAR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>マシュリク・アル・アドゥカル(Mashriqu-l-Adhkar)とは、バハーイー教の聖典で「夜明けの場」と呼ばれる機関を指す。英語ではバハーイー・ハウス・オブ・ワーシップ(Baha'i House of worship)と呼ばれる。これは病院、大学を含む複合体の中心を形成する。現在世界に9つ存在し、バハーイー教徒以外の宗教信者にも開放されている。特にインドのデリーにあるものはロータス・テンプルと呼ばれ観光地になっている。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

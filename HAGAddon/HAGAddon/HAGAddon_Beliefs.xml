@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BELIEF_HAGA_MASHRIQU_L_ADHKAR" Kind="KIND_BELIEF"/>
+	</Types>
+	<Beliefs>
+		<Row BeliefType="BELIEF_HAGA_MASHRIQU_L_ADHKAR" Name="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_NAME" Description="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_DESCRIPTION" BeliefClassType="BELIEF_CLASS_WORSHIP"/>
+	</Beliefs>
+	<BeliefModifiers>
+		<Row BeliefType="BELIEF_HAGA_MASHRIQU_L_ADHKAR">
+			<ModifierId>ALLOW_HAGA_MASHRIQU_L_ADHKAR</ModifierId>
+		</Row>
+	</BeliefModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ALLOW_HAGA_MASHRIQU_L_ADHKAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADD_RELIGIOUS_BUILDING</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ALLOW_HAGA_MASHRIQU_L_ADHKAR</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HAGA_MASHRIQU_L_ADHKAR</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+	</RequirementSets>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+	<ModifierStrings>
+	</ModifierStrings>
+</GameInfo>

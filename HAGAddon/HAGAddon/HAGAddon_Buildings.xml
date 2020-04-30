@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_HAGA_MASHRIQU_L_ADHKAR" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" Name="LOC_BUILDING_HAGA_MASHRIQU_L_ADHKAR_NAME" 
+			 PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="1"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_HAGA_MASHRIQU_L_ADHKAR" PrereqBuilding="BUILDING_TEMPLE"/>
+	</BuildingPrereqs>
+	<MutuallyExclusiveBuildings>
+	</MutuallyExclusiveBuildings>
+	<Building_ValidFeatures>
+	</Building_ValidFeatures>
+	<Building_RequiredFeatures>
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_CitizenYieldChanges>
+		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_FAITH" YieldChange="1"/>
+	</Building_CitizenYieldChanges>
+	<Building_YieldsPerEra>
+	</Building_YieldsPerEra>
+	<Building_GreatPersonPoints>
+	</Building_GreatPersonPoints>
+	<Building_YieldDistrictCopies>
+	</Building_YieldDistrictCopies>
+	<Building_GreatWorks>
+	</Building_GreatWorks>
+	<BuildingModifiers>
+	</BuildingModifiers>
+	<Modifiers>
+	</Modifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+	<RequirementSets>
+	</RequirementSets>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+</GameInfo>
