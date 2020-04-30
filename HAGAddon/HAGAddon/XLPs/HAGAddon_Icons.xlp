@@ -50,6 +50,56 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE256"/>
 		</Element>
+		<!-- ユニット(長剣士) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LONGSWORDSMAN22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LONGSWORDSMAN22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LONGSWORDSMAN32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LONGSWORDSMAN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LONGSWORDSMAN38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LONGSWORDSMAN38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LONGSWORDSMAN50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LONGSWORDSMAN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LONGSWORDSMAN80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LONGSWORDSMAN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LONGSWORDSMAN256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LONGSWORDSMAN256"/>
+		</Element>
+		<!-- ユニット(トレビュシェット) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TREBUCHET22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TREBUCHET22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TREBUCHET32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TREBUCHET32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TREBUCHET38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TREBUCHET38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TREBUCHET50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TREBUCHET50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TREBUCHET80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TREBUCHET80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TREBUCHET256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TREBUCHET256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

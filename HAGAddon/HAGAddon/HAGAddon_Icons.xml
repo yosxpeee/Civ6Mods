@@ -13,6 +13,22 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE256.dds"/>
+
+		<!-- ユニット -->
+		<!-- 長剣士 -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN256.dds"/>
+		<!-- トレビュシェット -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- 文明 -->
@@ -30,21 +46,21 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="50"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="50"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="50"/>
-		<!-- トレビュシェット(仮) -->
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET"                                   Atlas="ICON_ATLAS_UNITS"                         Index="46"/>
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                     Index="46"/>
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"       Index="46"/>
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"       Index="46"/>
+		<!-- トレビュシェット -->
+		<Row Name="ICON_UNIT_HAGA_TREBUCHET"                                   Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_TREBUCHET_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_TREBUCHET_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_TREBUCHET_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_TREBUCHET_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="37"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_TREBUCHET_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="37"/>
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_TREBUCHET_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="37"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_TREBUCHET_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="37"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_TREBUCHET_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="37"/>
-		<!-- 長剣士(仮) -->
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN"                                   Atlas="ICON_ATLAS_UNITS"                         Index="46"/>
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                     Index="46"/>
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"       Index="46"/>
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"       Index="46"/>
+		<!-- 長剣士 -->
+		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN"                                   Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="32"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="32"/>
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="32"/>
