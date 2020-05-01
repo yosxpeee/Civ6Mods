@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<!-- 親定義 -->
 	<Types>
 		<Row Type="BELIEF_HAGA_MASHRIQU_L_ADHKAR" Kind="KIND_BELIEF"/>
+		<Row Type="BELIEF_HAGA_DERASAR" Kind="KIND_BELIEF"/>
 	</Types>
+	<!-- 主設定 -->
 	<Beliefs>
 		<Row BeliefType="BELIEF_HAGA_MASHRIQU_L_ADHKAR" Name="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_NAME" Description="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_DESCRIPTION" BeliefClassType="BELIEF_CLASS_WORSHIP"/>
+		<Row BeliefType="BELIEF_HAGA_DERASAR" Name="LOC_BELIEF_HAGA_DERASAR_NAME" Description="LOC_BELIEF_HAGA_DERASAR_DESCRIPTION" BeliefClassType="BELIEF_CLASS_WORSHIP"/>
 	</Beliefs>
+	<!-- 効果との紐づけ -->
 	<BeliefModifiers>
 		<Row BeliefType="BELIEF_HAGA_MASHRIQU_L_ADHKAR">
 			<ModifierId>ALLOW_HAGA_MASHRIQU_L_ADHKAR</ModifierId>
 		</Row>
+		<Row BeliefType="BELIEF_HAGA_DERASAR">
+			<ModifierId>ALLOW_HAGA_DERASAR</ModifierId>
+		</Row>
 	</BeliefModifiers>
+	<!-- 効果 -->
 	<Modifiers>
 		<Row>
 			<ModifierId>ALLOW_HAGA_MASHRIQU_L_ADHKAR</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_RELIGION_ADD_RELIGIOUS_BUILDING</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>ALLOW_HAGA_DERASAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADD_RELIGIOUS_BUILDING</ModifierType>
+		</Row>
 	</Modifiers>
+	<!-- 効果の引数 -->
 	<ModifierArguments>
 		<Row>
 			<ModifierId>ALLOW_HAGA_MASHRIQU_L_ADHKAR</ModifierId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_HAGA_MASHRIQU_L_ADHKAR</Value>
 		</Row>
+		<Row>
+			<ModifierId>ALLOW_HAGA_DERASAR</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HAGA_DERASAR</Value>
+		</Row>
 	</ModifierArguments>
+	<!--
 	<RequirementSets>
 	</RequirementSets>
 	<RequirementSetRequirements>
@@ -34,4 +54,5 @@
 	</RequirementArguments>
 	<ModifierStrings>
 	</ModifierStrings>
+	-->
 </GameInfo>

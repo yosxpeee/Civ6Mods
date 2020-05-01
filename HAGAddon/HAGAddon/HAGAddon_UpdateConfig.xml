@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 固有アイテム -->
 	<PlayerItems>
+		<!-- ベルセルク -->
 		<Update>
 			<Where CivilizationType="CIVILIZATION_NORWAY" LeaderType="LEADER_HARDRADA" Type="UNIT_NORWEGIAN_BERSERKER"/>
 			<Set>

@@ -33,7 +33,8 @@
 	<IconDefinitions>
 		<!-- Beliefs -->
 		<Row Name="ICON_BELIEF_HAGA_MASHRIQU_L_ADHKAR" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
-		
+		<Row Name="ICON_BELIEF_HAGA_DERASAR"           Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="22"/>
+
 		<!-- 文明 -->
 		<!-- Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"-->
 		<Row Name="ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" Atlas="ICON_ATLAS_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" Index="0"/>
@@ -49,7 +50,7 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="50"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="50"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="50"/>
-		<!-- トレビュシェット -->
+		<!-- トレビュシェット(ポートレイトはカタパルトの使いまわし) -->
 		<Row Name="ICON_UNIT_HAGA_TREBUCHET"                                   Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_TREBUCHET_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_TREBUCHET_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
@@ -59,7 +60,7 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_TREBUCHET_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="37"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_TREBUCHET_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="37"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_TREBUCHET_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="37"/>
-		<!-- 長剣士 -->
+		<!-- 長剣士(ポートレイトは剣士の使いまわし) -->
 		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN"                                   Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
@@ -71,7 +72,11 @@
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="32"/>
 
 		<!-- 建造物 -->
-		<Row Name="ICON_BUILDING_HAGA_MASHRIQU_L_ADHKAR"            Atlas="ICON_ATLAS_BUILDINGS"     Index="45"/>
-		<Row Name="ICON_BUILDING_HAGA_MASHRIQU_L_ADHKAR_FOW"        Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="45"/>
+		<!-- マシュリク・アル・アドゥカル(シナゴーグの使いまわし) -->
+		<Row Name="ICON_BUILDING_HAGA_MASHRIQU_L_ADHKAR"     Atlas="ICON_ATLAS_BUILDINGS"     Index="45"/>
+		<Row Name="ICON_BUILDING_HAGA_MASHRIQU_L_ADHKAR_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="45"/>
+		<!-- デラサール(ガードワラの使いまわし) -->
+		<Row Name="ICON_BUILDING_HAGA_DERASAR"               Atlas="ICON_ATLAS_BUILDINGS"     Index="41"/>
+		<Row Name="ICON_BUILDING_HAGA_DERASAR_FOW"           Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="41"/>
 	</IconDefinitions>
 </GameData>

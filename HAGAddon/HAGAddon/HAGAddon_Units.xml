@@ -4,7 +4,7 @@
 	<Types>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAGA_LONGSWORDSMAN" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -16,15 +16,15 @@
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_SIEGE"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_SIEGE_ALL"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET" AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -36,10 +36,10 @@
 	<TypeTags>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_ANTI_CAVALRY"/>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
-		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_SIEGE"/>
-		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_SIEGE_SETUP"/>
-		<Row Type="UNIT_HAGA_TREBUCHET" Tag="CLASS_FORWARD_OBSERVER"/>
-		<Row Type="UNIT_HAGA_LONGSWORDSMAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_SIEGE_SETUP"/>
+		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Tag="CLASS_MELEE"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>

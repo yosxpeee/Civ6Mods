@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<!-- 親定義 -->
 	<Types>
 		<Row Type="BUILDING_HAGA_MASHRIQU_L_ADHKAR" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HAGA_DERASAR"           Kind="KIND_BUILDING"/>
 	</Types>
-	<BuildingReplaces>
-	</BuildingReplaces>
+	<!-- 主設定 -->
 	<Buildings>
+		<!-- マシュリク・アル・アドゥカル -->
 		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" Name="LOC_BUILDING_HAGA_MASHRIQU_L_ADHKAR_NAME" 
 			 PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="1"/>
+		<!-- デラサール -->
+		<Row BuildingType="BUILDING_HAGA_DERASAR" Name="LOC_BUILDING_HAGA_DERASAR_NAME"
+			 PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="1"/>
 	</Buildings>
+	<!-- 建築に必要となる前提の建物 -->
 	<BuildingPrereqs>
 		<Row Building="BUILDING_HAGA_MASHRIQU_L_ADHKAR" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_HAGA_DERASAR"           PrereqBuilding="BUILDING_TEMPLE"/>
 	</BuildingPrereqs>
+	<!-- 出力設定 -->
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_HAGA_DERASAR"           YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_HAGA_DERASAR"           YieldType="YIELD_GOLD" YieldChange="2"/>
+	</Building_YieldChanges>
+	<!-- 市民配置時の出力 -->
+	<Building_CitizenYieldChanges>
+		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row BuildingType="BUILDING_HAGA_DERASAR"           YieldType="YIELD_FAITH" YieldChange="1"/>
+	</Building_CitizenYieldChanges>
+	<!--
+	<BuildingReplaces>
+	</BuildingReplaces>
 	<MutuallyExclusiveBuildings>
 	</MutuallyExclusiveBuildings>
 	<Building_ValidFeatures>
@@ -20,13 +42,6 @@
 	</Building_RequiredFeatures>
 	<Building_ValidTerrains>
 	</Building_ValidTerrains>
-	<Building_YieldChanges>
-		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_FAITH" YieldChange="3"/>
-		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_CULTURE" YieldChange="2"/>
-	</Building_YieldChanges>
-	<Building_CitizenYieldChanges>
-		<Row BuildingType="BUILDING_HAGA_MASHRIQU_L_ADHKAR" YieldType="YIELD_FAITH" YieldChange="1"/>
-	</Building_CitizenYieldChanges>
 	<Building_YieldsPerEra>
 	</Building_YieldsPerEra>
 	<Building_GreatPersonPoints>
@@ -49,4 +64,5 @@
 	</Requirements>
 	<RequirementArguments>
 	</RequirementArguments>
+	-->
 </GameInfo>

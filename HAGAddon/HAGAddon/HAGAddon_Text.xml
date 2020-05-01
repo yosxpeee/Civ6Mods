@@ -111,12 +111,24 @@
 		<Row Tag="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_DESCRIPTION" Language="en_US">
 			<Text>Allows construction of Mashriqu-l-Adhkar (+3 [ICON_Faith] Faith, +2 [ICON_CULTURE] Culture).</Text>
 		</Row>
+		<Row Tag="LOC_BELIEF_HAGA_DERASAR_NAME" Language="en_US">
+			<Text>Derasar</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_HAGA_DERASAR_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Derasar (+3 [ICON_Faith] Faith, +2 [ICON_GOLD] Gold).</Text>
+		</Row>
 		
 		<!-- 建造物 -->
 		<Row Tag="LOC_BUILDING_HAGA_MASHRIQU_L_ADHKAR_NAME" Language="en_US">
 			<Text>Mashriqu-l-Adhkar</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAGA_MASHRIQU_L_ADHKAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAGA_DERASAR_NAME" Language="en_US">
+			<Text>Derasar</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAGA_DERASAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>
