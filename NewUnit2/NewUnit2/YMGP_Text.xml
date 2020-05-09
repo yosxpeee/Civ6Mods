@@ -117,7 +117,7 @@
 			<Text>Instantly creates a missile cruiser unit with 1 promotion level.</Text>
 		</Row>
 		<Row Tag="LOC_GREATPERSON_STANISLAW_MACZEK_ACTIVE" Language="en_US">
-			<Text>Instantly creates a Tank unit with 1 promotion level.</Text>
+			<Text>+20% [ICON_Production] Production towards units of the Heavy Cavalry promotion class.</Text>
 		</Row>
 		<Row Tag="LOC_GREATPERSON_SANITATIONTECHBOOST" Language="en_US">
 			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Sanitation technology.</Text>

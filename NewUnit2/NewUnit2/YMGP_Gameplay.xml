@@ -10,7 +10,6 @@
 		<Row Type="GREAT_PERSON_INDIVIDUAL_NGO_VAN_CHIEU"             Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_ALUBOMULLE_SUMANASARA"     Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_ELLEN_GOULD_WHITE"         Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
-		<Row Type="GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI"      Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<!-- 大技術者 -->
 		<Row Type="GREAT_PERSON_INDIVIDUAL_JHON_HARRISON"             Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_BENJAMIN_FRANKLIN"         Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
@@ -36,6 +35,7 @@
 		<Row Type="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"               Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"          Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_GUAN_YU"                   Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI"      Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<!-- 大提督 -->
 		<Row Type="GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU"         Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK"              Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
@@ -65,7 +65,7 @@
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE"              Name="LOC_GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE_NAME"              GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"  EraType="ERA_INFORMATION" ActionCharges="0" Gender="F"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LADY_GAGA"                 Name="LOC_GREAT_PERSON_INDIVIDUAL_LADY_GAGA_NAME"                 GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"  EraType="ERA_INFORMATION" ActionCharges="0" Gender="F"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"               Name="LOC_GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA_NAME"               GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"   EraType="ERA_INFORMATION" ActionCharges="0" Gender="M" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"          Name="LOC_GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK_NAME"          GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"   EraType="ERA_ATOMIC"      ActionCharges="1" Gender="M" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"          Name="LOC_GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK_NAME"          GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"   EraType="ERA_ATOMIC"      ActionCharges="1" Gender="M" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUAN_YU"                   Name="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME"                   GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"   EraType="ERA_CLASSICAL"   ActionCharges="1" Gender="M" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI"      Name="LOC_GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI_NAME"      GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL"   EraType="ERA_RENAISSANCE" ActionCharges="1" Gender="M" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK"              Name="LOC_GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK_NAME"              GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL"   EraType="ERA_INFORMATION" ActionCharges="1" Gender="M" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
@@ -97,7 +97,7 @@
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BILL_GATES"           ModifierId="GREATPERSON_GOLD_EX"                         AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CASEY_RYBACK"         ModifierId="GREATPERSON_CASEY_RYBACK_ACTIVE"             AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YOUSUKE_KADOMATSU"    ModifierId="GREATPERSON_YOUSUKE_KADOMATSU_ACTIVE"        AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"     ModifierId="GREATPERSON_STANISLAW_MACZEK_ACTIVE"         AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK"     ModifierId="GREATPERSON_STANISLAW_MACZEK_ACTIVE"         AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_SANITATIONTECHBOOST"             AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_SCIENTIFIC_THEORYTECHBOOST"      AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE" ModifierId="GREATPERSON_FLORENCE_NIGHTINGALE_ACTIVE"     AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
@@ -167,8 +167,7 @@
 		</Row>
 		<Row>
 			<ModifierId>GREATPERSON_STANISLAW_MACZEK_ACTIVE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
-			<RunOnce>true</RunOnce>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
 			<Permanent>true</Permanent>
 		</Row>
 		<Row>
@@ -332,13 +331,13 @@
 		</Row>
 		<Row>
 			<ModifierId>GREATPERSON_STANISLAW_MACZEK_ACTIVE</ModifierId>
-			<Name>UnitType</Name>
-			<Value>UNIT_TANK</Value>
+			<Name>Amount</Name>
+			<Value>20</Value>
 		</Row>
 		<Row>
 			<ModifierId>GREATPERSON_STANISLAW_MACZEK_ACTIVE</ModifierId>
-			<Name>Experience</Name>
-			<Value>-1</Value>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
 		</Row>
 		<Row>
 			<ModifierId>GREATPERSON_SANITATIONTECHBOOST</ModifierId>

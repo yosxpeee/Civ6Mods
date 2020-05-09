@@ -117,7 +117,7 @@
 			<Text>レベルが1つ上がったミサイル巡洋艦ユニットが瞬時に完成する。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_STANISLAW_MACZEK_ACTIVE" Language="ja_JP">
-			<Text>レベルが1つ上がった戦車ユニットが瞬時に完成する。</Text>
+			<Text>重騎兵のレベルアップ・クラスを持つユニットに対して [ICON_Production] 生産力+20%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_SANITATIONTECHBOOST" Language="ja_JP">
 			<Text>「公衆衛生」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>

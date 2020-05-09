@@ -117,7 +117,7 @@
 			<Text>生成一个拥有一次晋升的导弹巡洋舰单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_STANISLAW_MACZEK_ACTIVE" Language="zh_Hans_CN">
-			<Text>生成一个拥有一次晋升的坦克单位。</Text>
+			<Text>为重骑兵单位提供+20% [ICON_Production] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_SANITATIONTECHBOOST" Language="zh_Hans_CN">
 			<Text>触发卫生设备的[ICON_TechBoosted] 尤里卡。</Text>
