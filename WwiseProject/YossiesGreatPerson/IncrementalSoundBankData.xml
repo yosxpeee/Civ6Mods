@@ -2,14 +2,14 @@
 <IncrementalBankBuild Version="4" Flags="601859981">
 	<Platform GUID="{89A5D2A6-C3DD-49EE-BBEA-954920C15602}">
 		<Language ID="0">
-			<Bank Name="Init" Hash="3958984000" StreamHash="0" Timestamp="132271121639398796"/>
+			<Bank Name="Init" Hash="3958984000" StreamHash="157587662" Timestamp="132335082929270567"/>
 			<Bank Name="SoundBank" Hash="2119074066" StreamHash="0" Timestamp="132271121639138733"/>
 		</Language>
 		<Language ID="12">
-			<Bank Name="YMGP_GreatPersonSound" Hash="2255654961" StreamHash="157587662" Timestamp="132272068875828051"/>
+			<Bank Name="YMGP_GreatPersonSound" Hash="3029842413" StreamHash="157587662" Timestamp="132335082928800462"/>
 		</Language>
 		<Language ID="22">
-			<Bank Name="YMGP_GreatPersonSound" Hash="1663386935" StreamHash="157587662" Timestamp="132272068876394796"/>
+			<Bank Name="YMGP_GreatPersonSound" Hash="540759353" StreamHash="157587662" Timestamp="132335082929100527"/>
 		</Language>
 	</Platform>
 </IncrementalBankBuild>

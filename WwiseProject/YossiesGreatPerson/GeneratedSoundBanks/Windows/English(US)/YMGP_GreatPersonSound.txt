@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1003875953	Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1			\Default Work Unit\Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1	
 	1003875954	Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2			\Default Work Unit\Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2	
 	1076062894	Play_GMLadyGagaBadRomance			\Default Work Unit\Play_GMLadyGagaBadRomance	
+	1201497883	Play_GREAT_WRITING_CHE_GUEVARA			\Default Work Unit\Play_GREAT_WRITING_CHE_GUEVARA	
 	1419947054	Play_GMMikuHatsuneMelt			\Default Work Unit\Play_GMMikuHatsuneMelt	
 	1505226199	Stop_GMMikuHatsuneShiteyanyo			\Default Work Unit\Stop_GMMikuHatsuneShiteyanyo	
 	1530648796	Stop_GMLadyGagaPokerFace			\Default Work Unit\Stop_GMLadyGagaPokerFace	
@@ -14,9 +15,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	1560334183	Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1			\Default Work Unit\Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1	
 	2053762017	Play_GREAT_WRITING_BRADLEY_BOND_2			\Default Work Unit\Play_GREAT_WRITING_BRADLEY_BOND_2	
 	2053762018	Play_GREAT_WRITING_BRADLEY_BOND_1			\Default Work Unit\Play_GREAT_WRITING_BRADLEY_BOND_1	
+	2211809681	Stop_GREAT_WRITING_CHE_GUEVARA			\Default Work Unit\Stop_GREAT_WRITING_CHE_GUEVARA	
 	4219555920	Stop_GMMikuHatsuneMelt			\Default Work Unit\Stop_GMMikuHatsuneMelt	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124161111	GREAT_WRITING_CHE_GUEVARA	D:\GitHub\Civ6Mods\WwiseProject\YossiesGreatPerson\.cache\Windows\Voices\English(US)\GREAT_WRITING_CHE_GUEVARA_english_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GREAT_WRITING_CHE_GUEVARA		403536
 	267353842	GMLadyGagaPokerFace	D:\GitHub\Civ6Mods\WwiseProject\YossiesGreatPerson\.cache\Windows\SFX\GMLadyGagaPokerFace_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GMLadyGagaPokerFace		3324000
 	323678475	GREAT_WRITING_BRADLEY_BOND_2	D:\GitHub\Civ6Mods\WwiseProject\YossiesGreatPerson\.cache\Windows\Voices\English(US)\GREAT_WRITING_BRADLEY_BOND_2_English_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GREAT_WRITING_BRADLEY_BOND_2		500384
 	636793616	GMMikuHatsuneShiteyanyo	D:\GitHub\Civ6Mods\WwiseProject\YossiesGreatPerson\.cache\Windows\SFX\GMMikuHatsuneShiteyanyo_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\GMMikuHatsuneShiteyanyo		3061856

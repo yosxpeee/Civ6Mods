@@ -203,6 +203,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GREAT_WRITING_CHE_GUEVARA" ID="{6C5CEE09-6A63-43AA-A936-CDA920C70AE2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4FDB2CA4-DE8D-4434-986C-829C290A40E1}" ShortID="65072732" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BE148D56-3833-47A0-A0AF-11A48212768C}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_CHE_GUEVARA" ID="{6D77E0AD-A079-4432-BEAF-A845679A1C3E}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GREAT_WRITING_CHE_GUEVARA" ID="{E8F14797-1302-4EF2-877B-713D8152F66A}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{966335FC-93EC-43CE-AEA3-6F8EF910EB44}" ShortID="603101278" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{E746211B-883E-4652-91A4-394294372739}" Global="false">
+									<ObjectRef Name="GREAT_WRITING_CHE_GUEVARA" ID="{6D77E0AD-A079-4432-BEAF-A845679A1C3E}" WorkUnitID="{B3EE70BC-017B-4DC0-8FF8-03719622DDA0}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

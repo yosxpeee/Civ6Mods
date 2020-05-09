@@ -25,6 +25,7 @@
 				<Event Id="951475713" Name="Play_GMMikuHatsuneShiteyanyo"/>
 				<Event Id="2053762018" Name="Play_GREAT_WRITING_BRADLEY_BOND_1"/>
 				<Event Id="2053762017" Name="Play_GREAT_WRITING_BRADLEY_BOND_2"/>
+				<Event Id="1201497883" Name="Play_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1560334183" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1560334180" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 				<Event Id="307043716" Name="Stop_GMLadyGagaBadRomance"/>
@@ -33,10 +34,15 @@
 				<Event Id="1505226199" Name="Stop_GMMikuHatsuneShiteyanyo"/>
 				<Event Id="911409940" Name="Stop_GREAT_WRITING_BRADLEY_BOND_1"/>
 				<Event Id="911409943" Name="Stop_GREAT_WRITING_BRADLEY_BOND_2"/>
+				<Event Id="2211809681" Name="Stop_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1003875953" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1003875954" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="124161111" Language="English(US)">
+					<ShortName>GREAT_WRITING_CHE_GUEVARA_english.wav</ShortName>
+					<Path>Voices\English(US)\GREAT_WRITING_CHE_GUEVARA_english_9E69E797.wem</Path>
+				</File>
 				<File Id="267353842" Language="SFX">
 					<ShortName>GMLadyGagaPokerFace.wav</ShortName>
 					<Path>SFX\GMLadyGagaPokerFace_9E69E797.wem</Path>
@@ -81,6 +87,7 @@
 				<Event Id="951475713" Name="Play_GMMikuHatsuneShiteyanyo"/>
 				<Event Id="2053762018" Name="Play_GREAT_WRITING_BRADLEY_BOND_1"/>
 				<Event Id="2053762017" Name="Play_GREAT_WRITING_BRADLEY_BOND_2"/>
+				<Event Id="1201497883" Name="Play_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1560334183" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1560334180" Name="Play_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 				<Event Id="307043716" Name="Stop_GMLadyGagaBadRomance"/>
@@ -89,6 +96,7 @@
 				<Event Id="1505226199" Name="Stop_GMMikuHatsuneShiteyanyo"/>
 				<Event Id="911409940" Name="Stop_GREAT_WRITING_BRADLEY_BOND_1"/>
 				<Event Id="911409943" Name="Stop_GREAT_WRITING_BRADLEY_BOND_2"/>
+				<Event Id="2211809681" Name="Stop_GREAT_WRITING_CHE_GUEVARA"/>
 				<Event Id="1003875953" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 				<Event Id="1003875954" Name="Stop_GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 			</IncludedEvents>
@@ -96,6 +104,10 @@
 				<File Id="24937938" Language="Japanese">
 					<ShortName>GREAT_WRITING_BRADLEY_BOND_2_Japanese.wav</ShortName>
 					<Path>Voices\Japanese\GREAT_WRITING_BRADLEY_BOND_2_Japanese_9E69E797.wem</Path>
+				</File>
+				<File Id="64300432" Language="Japanese">
+					<ShortName>GREAT_WRITING_CHE_GUEVARA_japanese.wav</ShortName>
+					<Path>Voices\Japanese\GREAT_WRITING_CHE_GUEVARA_japanese_9E69E797.wem</Path>
 				</File>
 				<File Id="176123058" Language="Japanese">
 					<ShortName>GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1_Japanese.wav</ShortName>
