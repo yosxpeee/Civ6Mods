@@ -79,6 +79,9 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="zh_Hans_CN">
 			<Text>关羽</Text>
 		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="zh_Hans_CN">
+			<Text>尼古拉·舒比奇·兹林斯基</Text>
+		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_YUKICHI_FUKUZAWA_NAME" Language="zh_Hans_CN">
 			<Text>福泽谕吉</Text>
 		</Replace>
@@ -137,6 +140,9 @@
 		<Replace Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="zh_Hans_CN">
 			<Text>为一个陆地军事单位提供一次晋升。</Text>
 		</Replace>
+		<Replace Tag="LOC_GREATPERSON_NIKOLA_SUBIC_ZRINSKI_ACTIVE" Language="zh_Hans_CN">
+			<Text>赠予军事陆地单位1次强化等级和+50%战斗经验值。</Text>
+		</Replace>
 		<Replace Tag="LOC_GREATPERSON_UNIVERSITY_SCIENCE" Language="zh_Hans_CN">
 			<Text>大学额外提供 +{Amount} [ICON_Science] 生产力。</Text>
 		</Replace>
@@ -146,6 +152,10 @@
 
 		<Replace Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="zh_Hans_CN">
 			<Text>个人计算机</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_NIKOLA_SUBIC_ZRINSKI_BONUS_EXPERIENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>战斗经验值+50。（尼古拉·舒比奇·兹林斯基）</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -41,7 +41,7 @@
 			<Text>Yousuke Kadomatsu</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_STANISLAW_MACZEK_NAME" Language="en_US">
-			<Text>Stanisław Maczek</Text>
+			<Text>Stanislaw Maczek</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_FLORENCE_NIGHTINGALE_NAME" Language="en_US">
 			<Text>Florence Nightingale</Text>
@@ -50,7 +50,7 @@
 			<Text>Miki Nakayama</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_NGO_VAN_CHIEU_NAME" Language="en_US">
-			<Text>Ngô Văn Chiêu</Text>
+			<Text>Ngo Van Chieu</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND_NAME" Language="en_US">
 			<Text>Bradley bond</Text>
@@ -78,6 +78,9 @@
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="en_US">
 			<Text>Guan Yu</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI_NAME" Language="en_US">
+			<Text>Nikola Subic Zrinski</Text>
 		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_YUKICHI_FUKUZAWA_NAME" Language="en_US">
 			<Text>Yukichi Fukuzawa</Text>
@@ -137,6 +140,9 @@
 		<Row Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="en_US">
 			<Text>Grants 1 promotion level to a military land unit.</Text>
 		</Row>
+		<Row Tag="LOC_GREATPERSON_NIKOLA_SUBIC_ZRINSKI_ACTIVE" Language="en_US">
+			<Text>Grants 1 promotion level and +50% combat experience to a military land unit.</Text>
+		</Row>
 		<Row Tag="LOC_GREATPERSON_UNIVERSITY_SCIENCE" Language="en_US">
 			<Text>University provide +{Amount} [ICON_Science] Scienece.</Text>
 		</Row>
@@ -146,6 +152,10 @@
 
 		<Row Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="en_US">
 			<Text>Personal computers</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_NIKOLA_SUBIC_ZRINSKI_BONUS_EXPERIENCE_DESCRIPTION" Language="en_US">
+			<Text>+50 Earned experience from combat. (Nikola Subic Zrinski)</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

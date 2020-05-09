@@ -79,6 +79,9 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="ja_JP">
 			<Text>関羽</Text>
 		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI_NAME" Language="ja_JP">
+			<Text>ニコラ・シュビッチ・ズリンスキ</Text>
+		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_YUKICHI_FUKUZAWA_NAME" Language="ja_JP">
 			<Text>福沢諭吉</Text>
 		</Replace>
@@ -137,6 +140,9 @@
 		<Replace Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="ja_JP">
 			<Text>陸上軍事ユニット1つのレベルを1上げる。</Text>
 		</Replace>
+		<Replace Tag="LOC_GREATPERSON_NIKOLA_SUBIC_ZRINSKI_ACTIVE" Language="ja_JP">
+			<Text>陸上軍事ユニット1つのレベル+1、戦闘経験値+50%。</Text>
+		</Replace>
 		<Replace Tag="LOC_GREATPERSON_UNIVERSITY_SCIENCE" Language="ja_JP">
 			<Text>大学により [ICON_Science] 科学力+{Amount}。</Text>
 		</Replace>
@@ -146,6 +152,10 @@
 
 		<Replace Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="ja_JP">
 			<Text>パーソナルコンピューター</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_NIKOLA_SUBIC_ZRINSKI_BONUS_EXPERIENCE_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘経験値+50%。(ニコラ・シュビッチ・ズリンスキ)</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

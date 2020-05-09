@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Types>
+		<!-- 音楽 -->
 		<Row Type="GREATWORK_MIKU_HATSUNE_1"              Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_MIKU_HATSUNE_2"              Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_LADY_GAGA_1"                 Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_LADY_GAGA_2"                 Kind="KIND_GREATWORK"/>
-		
+		<!-- 絵画・彫刻 -->
 		<Row Type="GREATWORK_VERMEER_1"                   Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_VERMEER_2"                   Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_VERMEER_3"                   Kind="KIND_GREATWORK"/>
@@ -18,7 +19,7 @@
 		<Row Type="GREATWORK_TAIKAN_1"                    Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_TAIKAN_2"                    Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_TAIKAN_3"                    Kind="KIND_GREATWORK"/>
-
+		<!-- 書物 -->
 		<Row Type="GREATWORK_CHE_GUEVARA"                 Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_1" Kind="KIND_GREATWORK"/>
 		<Row Type="GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_2" Kind="KIND_GREATWORK"/>
@@ -26,11 +27,16 @@
 		<Row Type="GREATWORK_BRADLEY_BOND_2"              Kind="KIND_GREATWORK"/>
 	</Types>
 	<GreatWorks>
+		<!-- 音楽 -->
 		<Row GreatWorkType="GREATWORK_MIKU_HATSUNE_1"              GreatWorkObjectType="GREATWORKOBJECT_MUSIC"     GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE"              Name="LOC_GREATWORK_MIKU_HATSUNE_1_NAME" Audio="GMMikuHatsuneShiteyanyo" Tourism="4"/>
 		<Row GreatWorkType="GREATWORK_MIKU_HATSUNE_2"              GreatWorkObjectType="GREATWORKOBJECT_MUSIC"     GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIKU_HATSUNE"              Name="LOC_GREATWORK_MIKU_HATSUNE_2_NAME" Audio="GMMikuHatsuneMelt"       Tourism="4"/>
 		<Row GreatWorkType="GREATWORK_LADY_GAGA_1"                 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"     GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LADY_GAGA"                 Name="LOC_GREATWORK_LADY_GAGA_1_NAME"    Audio="GMLadyGagaBadRomance"    Tourism="4"/>
 		<Row GreatWorkType="GREATWORK_LADY_GAGA_2"                 GreatWorkObjectType="GREATWORKOBJECT_MUSIC"     GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LADY_GAGA"                 Name="LOC_GREATWORK_LADY_GAGA_2_NAME"    Audio="GMLadyGagaPokerFace"     Tourism="4"/>
-
+		<!-- 絵画・彫刻 -->
+		<!-- LANDSCAPE:風景画-->
+		<!-- PORTRAIT :肖像画-->
+		<!-- RELIGIOUS:宗教画-->
+		<!-- SCULPTURE:彫刻-->
 		<Row GreatWorkType="GREATWORK_VERMEER_1"                   GreatWorkObjectType="GREATWORKOBJECT_LANDSCAPE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER"          Name="LOC_GREATWORK_VERMEER_1_NAME"    Image="" Tourism="2"/>
 		<Row GreatWorkType="GREATWORK_VERMEER_2"                   GreatWorkObjectType="GREATWORKOBJECT_PORTRAIT"  GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER"          Name="LOC_GREATWORK_VERMEER_2_NAME"    Image="" Tourism="2"/>
 		<Row GreatWorkType="GREATWORK_VERMEER_3"                   GreatWorkObjectType="GREATWORKOBJECT_PORTRAIT"  GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHANNES_VERMEER"          Name="LOC_GREATWORK_VERMEER_3_NAME"    Image="" Tourism="2"/>
@@ -43,8 +49,8 @@
 		<Row GreatWorkType="GREATWORK_TAIKAN_1"                    GreatWorkObjectType="GREATWORKOBJECT_PORTRAIT"  GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA"           Name="LOC_GREATWORK_TAIKAN_1_NAME"     Image="" Tourism="2"/>
 		<Row GreatWorkType="GREATWORK_TAIKAN_2"                    GreatWorkObjectType="GREATWORKOBJECT_LANDSCAPE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA"           Name="LOC_GREATWORK_TAIKAN_2_NAME"     Image="" Tourism="2"/>
 		<Row GreatWorkType="GREATWORK_TAIKAN_3"                    GreatWorkObjectType="GREATWORKOBJECT_LANDSCAPE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TAIKAN_YOKOYAMA"           Name="LOC_GREATWORK_TAIKAN_3_NAME"     Image="" Tourism="2"/>
-
-		<Row GreatWorkType="GREATWORK_CHE_GUEVARA"                 GreatWorkObjectType="GREATWORKOBJECT_WRITING"   GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"               Name="LOC_GREATWORK_CHE_GUEVARA_NAME" Quote="LOC_GREATWORK_CHE_GUEVARA_QUOTE" Tourism="4" Audio="GREAT_WRITING_CHE_GUEVARA"/>
+		<!-- 書物 -->
+		<Row GreatWorkType="GREATWORK_CHE_GUEVARA"                 GreatWorkObjectType="GREATWORKOBJECT_WRITING"   GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHE_GUEVARA"               Name="LOC_GREATWORK_CHE_GUEVARA_NAME"    Quote="LOC_GREATWORK_CHE_GUEVARA_QUOTE"                 Tourism="4" Audio="GREAT_WRITING_CHE_GUEVARA"/>
 		<Row GreatWorkType="GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_1" GreatWorkObjectType="GREATWORKOBJECT_WRITING"   GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HOWARD_PHILLIPS_LOVECRAFT" Name="LOC_GREATWORK_LOVECRAFT_1_NAME"    Quote="LOC_GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_1_QUOTE" Tourism="4" Audio="GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_1"/>
 		<Row GreatWorkType="GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_2" GreatWorkObjectType="GREATWORKOBJECT_WRITING"   GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HOWARD_PHILLIPS_LOVECRAFT" Name="LOC_GREATWORK_LOVECRAFT_2_NAME"    Quote="LOC_GREATWORK_HOWARD_PHILLIPS_LOVECRAFT_2_QUOTE" Tourism="4" Audio="GREAT_WRITING_HOWARD_PHILLIPS_LOVECRAFT_2"/>
 		<Row GreatWorkType="GREATWORK_BRADLEY_BOND_1"              GreatWorkObjectType="GREATWORKOBJECT_WRITING"   GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BRADLEY_BOND"              Name="LOC_GREATWORK_BRADLEY_BOND_1_NAME" Quote="LOC_GREATWORK_BRADLEY_BOND_1_QUOTE"              Tourism="4" Audio="GREAT_WRITING_BRADLEY_BOND_1"/>
