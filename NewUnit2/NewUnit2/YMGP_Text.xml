@@ -79,6 +79,9 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="en_US">
 			<Text>Guan Yu</Text>
 		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_YOSHITUNE_MINAMOTO_NAME" Language="en_US">
+			<Text>Yoshitune Minamoto</Text>
+		</Row>
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI_NAME" Language="en_US">
 			<Text>Nikola Subic Zrinski</Text>
 		</Row>
@@ -88,7 +91,37 @@
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_THOMAS_TWINING_NAME" Language="en_US">
 			<Text>Thomas Twining</Text>
 		</Row>
-
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_NESTORIUS_NAME" Language="en_US">
+			<Text>Nestorius</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MAHAVIRA_NAME" Language="en_US">
+			<Text>Mahavira</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANI_NAME" Language="en_US">
+			<Text>Mani</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MOSES_NAME" Language="en_US">
+			<Text>Moses</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_MUHAMMAD_NAME" Language="en_US">
+			<Text>Muhammad</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GURU_NANAK_NAME" Language="en_US">
+			<Text>Guru Nanak</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_BAHA_ULLAH_NAME" Language="en_US">
+			<Text>Baha'u'llah</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_STEVE_ELEY_NAME" Language="en_US">
+			<Text>Steve Eley</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOHN_WESLEY_NAME" Language="en_US">
+			<Text>John Wesley</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HUYNH_PHU_SO_NAME" Language="en_US">
+			<Text>Huynh Phu So</Text>
+		</Row>
+		
 		<Row Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="en_US">
 			<Text>Triggers the [ICON_TechBoosted] Eureka moment for the Cartography technology.</Text>
 		</Row>
@@ -140,16 +173,19 @@
 		<Row Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="en_US">
 			<Text>Grants 1 promotion level to a military land unit.</Text>
 		</Row>
+		<Row Tag="LOC_GREATPERSON_YOSHITUNE_MINAMOTO_ACTIVE" Language="en_US">
+			<Text>Forms a Corps out of a military land unit.</Text>
+		</Row>
 		<Row Tag="LOC_GREATPERSON_NIKOLA_SUBIC_ZRINSKI_ACTIVE" Language="en_US">
 			<Text>Grants 1 promotion level and +50% combat experience to a military land unit.</Text>
 		</Row>
-		<Row Tag="LOC_GREATPERSON_UNIVERSITY_SCIENCE" Language="en_US">
+		<Row Tag="LOC_GREATPERSON_UNIVERSITY_YUKICHI_FUKUZAWA_SCIENCE" Language="en_US">
 			<Text>University provide +{Amount} [ICON_Science] Scienece.</Text>
 		</Row>
 		<Row Tag="LOC_GREATPERSON_GRANT_TEA" Language="en_US">
 			<Text>Grants {Amount} [ICON_RESOURCE_TEA] Teas.</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="en_US">
 			<Text>Personal computers</Text>
 		</Row>

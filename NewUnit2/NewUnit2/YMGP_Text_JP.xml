@@ -79,6 +79,9 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="ja_JP">
 			<Text>関羽</Text>
 		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_YOSHITUNE_MINAMOTO_NAME" Language="ja_JP">
+			<Text>源義経</Text>
+		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI_NAME" Language="ja_JP">
 			<Text>ニコラ・シュビッチ・ズリンスキ</Text>
 		</Replace>
@@ -88,7 +91,37 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_THOMAS_TWINING_NAME" Language="ja_JP">
 			<Text>トーマス・トワイニング</Text>
 		</Replace>
-
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NESTORIUS_NAME" Language="ja_JP">
+			<Text>ネストリウス</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MAHAVIRA_NAME" Language="ja_JP">
+			<Text>マハーヴィーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANI_NAME" Language="ja_JP">
+			<Text>マニ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MOSES_NAME" Language="ja_JP">
+			<Text>モーセ</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MUHAMMAD_NAME" Language="ja_JP">
+			<Text>ムハンマド</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GURU_NANAK_NAME" Language="ja_JP">
+			<Text>グル・ナーナク</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BAHA_ULLAH_NAME" Language="ja_JP">
+			<Text>バハー・ウッラー</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STEVE_ELEY_NAME" Language="ja_JP">
+			<Text>スティーヴ・イーリー</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOHN_WESLEY_NAME" Language="ja_JP">
+			<Text>ジョン・ウェスレー</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HUYNH_PHU_SO_NAME" Language="ja_JP">
+			<Text>フイン・フー・ソー</Text>
+		</Replace>
+		
 		<Replace Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="ja_JP">
 			<Text>「地図製作術」に対して [ICON_TechBoosted] ひらめきを発動する。</Text>
 		</Replace>
@@ -140,16 +173,19 @@
 		<Replace Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="ja_JP">
 			<Text>陸上軍事ユニット1つのレベルを1上げる。</Text>
 		</Replace>
+		<Replace Tag="LOC_GREATPERSON_YOSHITUNE_MINAMOTO_ACTIVE" Language="ja_JP">
+			<Text>陸上軍事ユニットで軍団を編成する。</Text>
+		</Replace>
 		<Replace Tag="LOC_GREATPERSON_NIKOLA_SUBIC_ZRINSKI_ACTIVE" Language="ja_JP">
 			<Text>陸上軍事ユニット1つのレベル+1、戦闘経験値+50%。</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_UNIVERSITY_SCIENCE" Language="ja_JP">
+		<Replace Tag="LOC_GREATPERSON_UNIVERSITY_YUKICHI_FUKUZAWA_SCIENCE" Language="ja_JP">
 			<Text>大学により [ICON_Science] 科学力+{Amount}。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_TEA" Language="ja_JP">
 			<Text>[ICON_RESOURCE_TEA] 茶+{Amount}。</Text>
 		</Replace>
-
+		
 		<Replace Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="ja_JP">
 			<Text>パーソナルコンピューター</Text>
 		</Replace>

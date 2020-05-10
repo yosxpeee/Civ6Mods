@@ -79,7 +79,10 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="zh_Hans_CN">
 			<Text>关羽</Text>
 		</Replace>
-		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUAN_YU_NAME" Language="zh_Hans_CN">
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_YOSHITUNE_MINAMOTO_NAME" Language="zh_Hans_CN">
+			<Text>源義經</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NIKOLA_SUBIC_ZRINSKI_NAME" Language="zh_Hans_CN">
 			<Text>尼古拉·舒比奇·兹林斯基</Text>
 		</Replace>
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_YUKICHI_FUKUZAWA_NAME" Language="zh_Hans_CN">
@@ -88,7 +91,37 @@
 		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_THOMAS_TWINING_NAME" Language="zh_Hans_CN">
 			<Text>托马斯·川宁</Text>
 		</Replace>
-
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NESTORIUS_NAME" Language="zh_Hans_CN">
+			<Text>聂斯脱利</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MAHAVIRA_NAME" Language="zh_Hans_CN">
+			<Text>筏馱摩那</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MANI_NAME" Language="zh_Hans_CN">
+			<Text>摩尼</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MOSES_NAME" Language="zh_Hans_CN">
+			<Text>摩西</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_MUHAMMAD_NAME" Language="zh_Hans_CN">
+			<Text>穆罕默德</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_GURU_NANAK_NAME" Language="zh_Hans_CN">
+			<Text>古魯那納克</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_BAHA_ULLAH_NAME" Language="zh_Hans_CN">
+			<Text>巴哈欧拉</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_STEVE_ELEY_NAME" Language="zh_Hans_CN">
+			<Text>Steve Eley</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_JOHN_WESLEY_NAME" Language="zh_Hans_CN">
+			<Text>約翰·衛斯理</Text>
+		</Replace>
+		<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_HUYNH_PHU_SO_NAME" Language="zh_Hans_CN">
+			<Text>黄富楚</Text>
+		</Replace>
+		
 		<Replace Tag="LOC_GREATPERSON_CARTOGRAPHYTECHBOOST" Language="zh_Hans_CN">
 			<Text>触发制图学的[ICON_TechBoosted] 尤里卡。</Text>
 		</Replace>
@@ -140,16 +173,19 @@
 		<Replace Tag="LOC_GREATPERSON_GUAN_YU_ACTIVE" Language="zh_Hans_CN">
 			<Text>为一个陆地军事单位提供一次晋升。</Text>
 		</Replace>
+		<Replace Tag="LOC_GREATPERSON_YOSHITUNE_MINAMOTO_ACTIVE" Language="zh_Hans_CN">
+			<Text>把一个军事陆地单变成军团。</Text>
+		</Replace>
 		<Replace Tag="LOC_GREATPERSON_NIKOLA_SUBIC_ZRINSKI_ACTIVE" Language="zh_Hans_CN">
 			<Text>赠予军事陆地单位1次强化等级和+50%战斗经验值。</Text>
 		</Replace>
-		<Replace Tag="LOC_GREATPERSON_UNIVERSITY_SCIENCE" Language="zh_Hans_CN">
+		<Replace Tag="LOC_GREATPERSON_UNIVERSITY_YUKICHI_FUKUZAWA_SCIENCE" Language="zh_Hans_CN">
 			<Text>大学额外提供 +{Amount} [ICON_Science] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GREATPERSON_GRANT_TEA" Language="zh_Hans_CN">
 			<Text>获得 {Amount} [ICON_RESOURCE_TEA] 茶资源。</Text>
 		</Replace>
-
+		
 		<Replace Tag="LOC_RESOURCE_COMPUTERS_NAME" Language="zh_Hans_CN">
 			<Text>个人计算机</Text>
 		</Replace>

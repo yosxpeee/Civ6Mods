@@ -59,6 +59,81 @@ Chinese Translation : Flactine</Description>
     <Content Include="Expansion2\YMGP_Expansion2.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\Pisanello1_Portrait.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Pisanello1_Portrait.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Pisanello2_Religious.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Pisanello2_Religious.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Pisanello3_Religious.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Pisanello3_Religious.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Taikan1_Portrait.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Taikan1_Portrait.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Taikan2_Landscape.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Taikan2_Landscape.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Taikan3_Landscape.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Taikan3_Landscape.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tintoretto1_Religious.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tintoretto1_Religious.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tintoretto2_Religious.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tintoretto2_Religious.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tintoretto3_Religious.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Tintoretto3_Religious.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Vermeer1_Landscape.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Vermeer1_Landscape.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Vermeer2_Portrait.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Vermeer2_Portrait.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Vermeer3_Portrait.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Vermeer3_Portrait.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="YMGP_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="YMGP_Text_ZhCN.xml">
       <SubType>Content</SubType>
     </Content>
@@ -162,9 +237,6 @@ Chinese Translation : Flactine</Description>
       <SubType>Content</SubType>
     </Content>
     <Content Include="YMGP_Icon.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YMGP_Text.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YMGP_Text_JP.xml">
