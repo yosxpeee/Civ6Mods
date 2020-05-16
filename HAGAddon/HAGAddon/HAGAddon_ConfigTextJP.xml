@@ -15,7 +15,7 @@
 			<Text>帝国郵便</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_DESCRIPTION" Language="ja_JP">
-			<Text>通貨の技術を得ると [ICON_TradeRoute] 交易路の数+1、交易商を無償で1つ得る。[ICON_TradeRoute] 国内交易路から [ICON_Production] 生産力+1、[ICON_GOLD] ゴールド+1。</Text>
+			<Text>通貨、重商主義、経済学の解禁時に [ICON_TradeRoute] 交易路の数+1、交易商を無償で1つ得る。[ICON_TradeRoute] 国内交易路から [ICON_Production] 生産力+1、[ICON_GOLD] ゴールド+1。</Text>
 		</Row>
 
 		<!-- ユニット(ランツクネヒト) -->
@@ -61,6 +61,12 @@
 		</Row>
 		<Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>ノルウェー固有の中世の近接戦闘ユニット。敵の領地で移動を開始した場合は [ICON_Movement] 移動力4。攻撃時は [ICON_Strength] 戦闘力+8。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>黄金時代または英雄時代の開始時に公約を選択すると、それらのボーナスに加えて、時代スコアを高める通常の時代のボーナスが得られる。防御施設に対する [ICON_Production] 生産力+50%。何らかの資源上の鉱山から [ICON_FAITH] 信仰力+1。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>科学を探求する韓国固有の区域。キャンパス区域に取ってかわる。 [ICON_SCIENCE] 科学力+6。丘陵の上にのみ建設可能。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<!-- ======================================================================= -->
+	<!-- 文明 -->
+	<!-- ======================================================================= -->
+	<!-- 説明文 -->
+	<Traits>
+		<!-- グルジア -->
+		<Update>
+			<Where Description="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_EXPANSION2_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION"/>
+		</Update>
+	</Traits>
+	
+	<!-- ======================================================================= -->
 	<!-- 区域 -->
 	<!-- ======================================================================= -->
 	<!-- 説明文 -->
 	<Districts>
 		<!-- ハンザ -->
 		<Update>
-			<Where Description="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION"/>
-			<Set Description="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION"/>
+			<Where Description="LOC_CIVILIZATION_GEORGIA_DESCRIPTION"/>
+			<Set Description="LOC_CIVILIZATION_GEORGIA_HAGA_DESCRIPTION"/>
 		</Update>
 	</Districts>
+	<Adjacency_YieldChanges>
+		<!-- 書院 -->
+		<Update>
+			<Where ID="BaseDistrict_Science"/>
+			<Set YieldChange="6"/>
+		</Update>
+	</Adjacency_YieldChanges>
 	
 	<!-- ======================================================================= -->
 	<!-- ユニット -->

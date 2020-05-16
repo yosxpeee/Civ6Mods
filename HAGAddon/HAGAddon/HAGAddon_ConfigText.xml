@@ -15,7 +15,7 @@
 			<Text>Reichspost</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_TradeRoute] Trade Route capacity and a free Trader with the Currency technology. Receive +1 [ICON_Production] Production and +1 [ICON_GOLD] Gold for routes between your own cities.</Text>
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity and a free Trader with the Currency technology, Mechantilism Civic and Economics technology. Receive +1 [ICON_Production] Production and +1 [ICON_GOLD] Gold for routes between your own cities.</Text>
 		</Row>
 
 		<!-- ユニット(ランツクネヒト) -->
@@ -57,10 +57,16 @@
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Holy Roman Empire and Germany for industrial activity. Replaces the Industrial Zone district and cheaper to build.[NEWLINE][NEWLINE]+ 2[ICON_Production] Production bonus for each adjacent Commercial Hub, Aqueduct, Canal, and Dam districts. +1 [ICON_Production] Production bonus for each adjacent resource. +1 [ICON_Production] Production bonus for every two adjacent district tiles.</Text>
+			<Text>A district unique to Holy Roman Empire and Germany for industrial activity. Replaces the Industrial Zone district and cheaper to build.[NEWLINE][NEWLINE]+2 [ICON_Production] Production bonus for each adjacent Commercial Hub, Aqueduct, Canal, and Dam districts. +1 [ICON_Production] Production bonus for each adjacent resource. +1 [ICON_Production] Production bonus for every two adjacent district tiles.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION" Language="en_US">
 			<Text>Norwegian unique Medieval era melee unit. 4 [ICON_Movement] Movement if this unit starts in enemy territory. +8 [ICON_Strength] Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION" Language="en_US">
+			<Text>When making Dedications at the beginning of a Golden Age or Heroic Age, receive the Normal Age bonus towards improving Era Score in addition to the other bonus. +50% [ICON_Production] Production towards defensive buildings. Mines over any resources and luxury resources provide +1 [ICON_FAITH] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. +6 [ICON_SCIENCE] Science. Must be built on Hills.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

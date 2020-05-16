@@ -27,6 +27,7 @@
 	</CivilizationLeaders>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>
+		<!-- 神聖ローマ帝国 -->
 		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   TraitType="TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE" />
 		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   TraitType="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" />
 		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   TraitType="TRAIT_CIVILIZATION_DISTRICT_HANSA" />
@@ -40,7 +41,7 @@
 	<TraitModifiers>
 		<!-- 神聖ローマ帝国 -->
 		<!-- 国内交易路からゴールド+1、生産力+1 -->
-		<!-- 通貨で交易路+1、無償の交易商入手 -->
+		<!-- 通貨、重商主義、経済学で交易路+1、無償の交易商入手 -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
 			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_INTERNAL_TRADE_PRODUCTION</ModifierId>
@@ -56,6 +57,36 @@
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
 			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_CURRENCY_ADD_TRADER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_MERCANTILISM_TRADE_ROUTE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_MERCANTILISM_ADD_TRADER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ECONOMICS_TRADE_ROUTE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ECONOMICS_ADD_TRADER</ModifierId>
+		</Row>
+		<!-- グルジア -->
+		<!-- ボーナス資源、高級資源、戦略資源の鉱山から信仰力+１ -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS</TraitType>
+			<ModifierId>TRAIT_BONUS_MINE_FAITH_HAGA</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS</TraitType>
+			<ModifierId>TRAIT_LUXURY_MINE_FAITH_HAGA</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS</TraitType>
+			<ModifierId>TRAIT_STRATEGIC_MINE_FAITH_HAGA</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
@@ -81,6 +112,51 @@
 			<OwnerRequirementsetId>PLAYER_HAS_CURRENCY_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</OwnerRequirementsetId>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
+		</Row>
+		<!-- 重商主義で交易路+1、無償の交易商入手 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_MERCANTILISM_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MERCANTILISM_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_MERCANTILISM_ADD_TRADER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<OwnerRequirementsetId>PLAYER_HAS_MERCANTILISM_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</OwnerRequirementsetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- 経済学で交易路+1、無償の交易商入手 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ECONOMICS_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_ECONOMICS_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ECONOMICS_ADD_TRADER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<OwnerRequirementsetId>PLAYER_HAS_ECONOMICS_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</OwnerRequirementsetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ボーナス資源、高級資源、戦略資源の鉱山から信仰力+1 -->
+		<Row>
+			<ModifierId>TRAIT_BONUS_MINE_FAITH_HAGA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>PLOT_HAS_BONUS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LUXURY_MINE_FAITH_HAGA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>PLOT_HAS_LUXURY_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_FAITH_HAGA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -127,12 +203,95 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- 重商主義で交易路+1、無償の交易商入手 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_MERCANTILISM_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_MERCANTILISM_ADD_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_MERCANTILISM_ADD_TRADER</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_MERCANTILISM_ADD_TRADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 経済学で交易路+1、無償の交易商入手 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ECONOMICS_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ECONOMICS_ADD_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ECONOMICS_ADD_TRADER</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_ECONOMICS_ADD_TRADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- ボーナス資源、高級資源、戦略資源の鉱山から信仰力+1 -->
+		<Row>
+			<ModifierId>TRAIT_BONUS_MINE_FAITH_HAGA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BONUS_MINE_FAITH_HAGA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LUXURY_MINE_FAITH_HAGA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LUXURY_MINE_FAITH_HAGA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_FAITH_HAGA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_FAITH_HAGA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
 		<!-- 首都が存在し、通貨の技術を持っている -->
 		<Row>
 			<RequirementSetId>PLAYER_HAS_CURRENCY_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 首都が存在し、重商主義の社会制度を持っている -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MERCANTILISM_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 首都が存在し、経済学の技術を持っている -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ECONOMICS_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -148,12 +307,42 @@
 			<!-- RaFにある -->
 			<RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
 		</Row>
+		<!-- 首都が存在し、重商主義の社会制度を持っている -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MERCANTILISM_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_MERCANTILISM_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MERCANTILISM_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<!-- RaFにある -->
+			<RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
+		</Row>
+		<!-- 首都が存在し、経済学の技術を持っている -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ECONOMICS_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_ECONOMICS_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ECONOMICS_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<!-- RaFにある -->
+			<RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
 		<!-- 通貨の技術 -->
 		<Row>
 			<RequirementId>REQUIRES_PLAYER_HAS_CURRENCY_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- 重商主義の社会制度 -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_MERCANTILISM_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<!-- 経済学の技術 -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_ECONOMICS_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
 		</Row>
 	</Requirements>
@@ -164,6 +353,18 @@
 			<RequirementId>REQUIRES_PLAYER_HAS_CURRENCY_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
 			<Name>TechnologyType</Name>
 			<Value>TECH_CURRENCY</Value>
+		</Row>
+		<!-- 重商主義の社会制度 -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_MERCANTILISM_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MERCANTILISM</Value>
+		</Row>
+		<!-- 経済学の技術 -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_ECONOMICS_HAGA_HOLY_ROMAN_EMPIRE</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ECONOMICS</Value>
 		</Row>
 	</RequirementArguments>
 	<!-- 市民名 -->
