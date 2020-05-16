@@ -45,6 +45,8 @@
 	</Building_YieldChanges>
 	<!-- 偉人ポイント -->
 	<Building_GreatPersonPoints>
+		<!-- ステッレ：大預言者+1 -->
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
 		<!-- 天文台：大科学者+1 -->
 		<Row BuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>

@@ -361,7 +361,7 @@
 			<Text>ステッレ</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_DESCRIPTION" Language="ja_JP">
-			<Text>エチオピア帝国固有の建造物。モニュメントに取って代わる。[ICON_Culture] 文化力+1、[ICON_Faith] 信仰力+2、この都市のターン毎の忠誠心+1。都市の忠誠心が最大になっている場合は [ICON_Culture] 文化力+1。</Text>
+			<Text>エチオピア帝国固有の建造物。モニュメントに取って代わる。[ICON_Culture] 文化力+1、[ICON_Faith] 信仰力+2、[ICON_GreatProphet] 大預言者ポイント+1。この都市のターン毎の忠誠心+1。都市の忠誠心が最大になっている場合は [ICON_Culture] 文化力+1。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="ja_JP">
 			<Text>エチオピア帝国固有の建造物: ステッレ</Text>

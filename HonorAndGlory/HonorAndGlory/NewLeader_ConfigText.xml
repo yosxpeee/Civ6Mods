@@ -361,7 +361,7 @@
 			<Text>Stele</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Etiopia Empire. Replaces the Monument. +1 [ICON_Culture] Culture, +2 [ICON_Faith] Faith, Provides +1 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +1 [ICON_Culture] Culture.</Text>
+			<Text>A building unique to Etiopia Empire. Replaces the Monument. +1 [ICON_Culture] Culture, +2 [ICON_Faith] Faith, +1 [ICON_GreatProphet] Great Prophet point. Provides +1 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +1 [ICON_Culture] Culture.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">
 			<Text>Etiopia Empire unique building: Stele</Text>
