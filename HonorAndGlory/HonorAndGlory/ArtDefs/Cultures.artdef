@@ -82,6 +82,14 @@
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations_hag03"/>
 								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HAG_USSR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="Civilizations_hag04"/>
+								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
 						</Element>
@@ -266,6 +274,14 @@
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations_hag001"/>
 								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HAG_USSR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_hag002"/>
+								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
 						</Element>
@@ -305,6 +321,14 @@
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations_hag03"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HAG_USSR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_hag04"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -365,6 +389,14 @@
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations_hag02"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="CIVILIZATION_HAG_USSR"/>
+									<m_RootCollectionName text="Civilization"/>
+									<m_ArtDefPath text="Civilizations.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Civilizations"/>
+									<m_ParamName text="Civilizations_hag03"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>

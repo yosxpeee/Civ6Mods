@@ -126,37 +126,38 @@
 	<LeaderTraits>
 		<Row LeaderType="LEADER_HAG_MENELIK2"      TraitType="TRAIT_LEADER_HAG_MENELIK2"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
-		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
-		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
-		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_TIMUR"         TraitType="TRAIT_LEADER_HAG_TIMUR"/>
-		<Row LeaderType="LEADER_HAG_TIMUR"         TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_TIMUR"         TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_HAG_TITO"/>
-		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
-		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/><!-- 科学重視 -->
+		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/>			<!-- 科学重視 -->
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_MARIA_I"       TraitType="TRAIT_LEADER_HAG_MARIA_I"/>
-		<Row LeaderType="LEADER_HAG_MARIA_I"       TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_MARIA_I"       TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_HAG_STALIN"/>
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"/>
-		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
-		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
-		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/>			<!-- 科学重視 -->
 		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
-		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/><!-- 文化重視 -->
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>		<!-- 文化重視 -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_HAG_ADOLF_HITLER"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"/>
-		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
-		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
-		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_HAG_MUSSOLINI"/>
-		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_EXPANSIONIST"/><!-- 拡張思考 -->
-		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/><!-- 軍拡主義 -->
-		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/><!-- 宗教軽視 -->
-		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/><!-- 外交勝利狙い -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/>	<!-- 外交勝利狙い -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -301,8 +302,7 @@
 		</Row>
 		<!-- スターリン -->
 		<!-- 戦略資源の生産力+1 -->
-		<!-- 全都市の快適性-1 -->
-		<!-- 工業地帯と兵営のコスト半分 -->
+		<!-- 工業地帯、兵営、キャンパスのコスト半分 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>EQUESTRIAN_ORDERS_ADDITIONAL_HORSES_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
@@ -331,10 +331,12 @@
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
 		</Row>
+		<!--
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
 		</Row>
+		-->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_BOOST_ENCAMPMENT_PRODUCTION</ModifierId><!-- バニラの北条時宗と同じ -->
@@ -342,6 +344,10 @@
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_CAMPUS_PRODUCTION</ModifierId>
 		</Row>
 		<!-- シモン・ボリバル -->
 		<!-- 保護戦争の開始が早い -->
@@ -520,12 +526,16 @@
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
 		</Row>
-		<!-- 工業地帯のコスト半分 -->
+		<!-- 工業地帯の建造コスト半分 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
 		</Row>
-
+		<!-- キャンパスの建造コスト半分 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_CAMPUS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
 		<!-- 保護戦争の開始が早い -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
@@ -801,7 +811,7 @@
 			<Name>Amount</Name>
 			<Value>-1</Value>
 		</Row>
-		<!-- 工業地帯のコスト半分 -->
+		<!-- 工業地帯の建造コスト半分 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
 			<Name>DistrictType</Name>
@@ -812,7 +822,17 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
-
+		<!-- キャンパスの建造コスト半分 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_CAMPUS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_CAMPUS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
 		<!-- 保護戦争の開始が早い -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>

@@ -113,6 +113,22 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ITALY_DESCRIPTION" Language="en_US">
 			<Text>Italy receives +1 [ICON_GreatMerchant] Great Merchant point from Bank and +1 [ICON_GreatAdmiral] Great Admiral point from Shipyard.</Text>
 		</Row>
+		<!-- 文明(ソ連) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_NAME" Language="en_US">
+			<Text>U.S.S.R.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_DESCRIPTION" Language="en_US">
+			<Text>U.S.S.R.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_ADJECTIVE" Language="en_US">
+			<Text>U.S.S.R.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_USSR_NAME" Language="en_US">
+			<Text>Bolsheviks</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_USSR_DESCRIPTION" Language="en_US">
+			<Text>Extra territory upon founding cities. Allows Farms to be built on Tundra terrain. After Civil Engineering is unlocked Farms can be built on Tundra Hills. Units do not receive damage from Blizzards. Civilizations that are at war with U.S.S.R. receive +100% unit damage from Blizzards in U.S.S.R. territory.</Text>
+		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="en_US">
@@ -192,7 +208,7 @@
 			<Text>Stakhanovite movement</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="en_US">
-			<Text>All improved strategic resources yield 1 additional resource per turn. Builds Encampment and Industrial Zone Square districts in half the time. All cities -1 [ICON_Amenities] Amenity.</Text>
+			<Text>All improved strategic resources yield 1 additional resource per turn. Builds Encampment, Campus and Industrial Zone Square districts in half the time.</Text>
 		</Row>
 		<!-- 指導者(シモン・ボリバル) -->
 		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="en_US">
@@ -392,7 +408,23 @@
 		<Row Tag="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME" Language="en_US">
 			<Text>Gran Colombia unique building: Tejo Arena</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TEJO_ARENA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_TEJO_ARENA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- UB(宇宙科学研究所) -->
+		<Row Tag="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_NAME" Language="en_US">
+			<Text>Space Research Lab</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_DESCRIPTION" Language="en_US">
+			<Text>A building unique to U.S.S.R., Replaces the Research Lab. +4 [ICON_Science] Science, +2 [ICON_GreatScientist]. 15% [ICON_Production] Production increase to all space-program projects in the city.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_NAME" Language="en_US">
+			<Text>U.S.S.R. unique building: Space Research Lab</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text></Text>
 		</Row>
 		
@@ -406,7 +438,7 @@
 		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
 			<Text>Portugal Empire unique building: Feitoria</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION" Language="en_US">

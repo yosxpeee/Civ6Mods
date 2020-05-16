@@ -152,13 +152,13 @@
 		<Row NamedRiverType="NAMED_RIVER_AMU_DARYA"                 CivilizationType="CIVILIZATION_HAG_TIMURID"/><!-- 既存 -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_KASHKADARYA"           CivilizationType="CIVILIZATION_HAG_TIMURID"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_SURKHANDARYA"          CivilizationType="CIVILIZATION_HAG_TIMURID"/>
-		<!-- ユーゴスラビア -->								   	    
+		<!-- ユーゴスラビア -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_SAVA_RIVER"            CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_LJUBLJANICA_RIVER"     CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_NERETVA_RIVER"         CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_KRKA_RIVER"            CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_DRAGONJA_RIVER"        CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
-		<!-- モロッコ -->										     
+		<!-- モロッコ -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_DRAA_RIVER"            CivilizationType="CIVILIZATION_HAG_MOROCCO"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_OUM_ER_RBIA_RIVER"     CivilizationType="CIVILIZATION_HAG_MOROCCO"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_SEBOU_RIVER"           CivilizationType="CIVILIZATION_HAG_MOROCCO"/>
@@ -179,7 +179,17 @@
 		<Row NamedRiverType="NAMED_RIVER_PO"                        CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedRiverType="NAMED_RIVER_RUBICON"                   CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedRiverType="NAMED_RIVER_TIBER"                     CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
-	</NamedRiverCivilizations>									    
+		<!-- ソ連 -->
+		<Row NamedRiverType="NAMED_RIVER_DAUGAVA"                   CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_DNIEPER"                   CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_DON"                       CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_LENA"                      CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_NORTHERN_DVINA"            CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_OB"                        CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_URAL"                      CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_VOLGA"                     CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_YENISEI"                   CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+	</NamedRiverCivilizations>
 	<NamedVolcanoCivilizations>
 		<!-- 火山 -->
 		<!-- エチオピア帝国 -->								   	    
@@ -197,6 +207,12 @@
 		<Row NamedVolcanoType="NAMED_VOLCANO_PHLEGRAEAN_FIELDS"     CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedVolcanoType="NAMED_VOLCANO_STROMBOLI"             CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedVolcanoType="NAMED_VOLCANO_VULSINI"               CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<!-- ソ連 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_AVACHINSKY"            CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_BEZYMIANNY"            CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_ELBRUS"                CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_KORYAKSKY"             CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedVolcanoType="NAMED_VOLCANO_SHIVELUCH"             CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 	</NamedVolcanoCivilizations>
 	<NamedMountainCivilizations>
 		<!-- 山・山脈 -->
@@ -231,6 +247,15 @@
 		<Row NamedMountainType="NAMED_MOUNTAIN_CHIANTI_MOUNTAINS"   CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedMountainType="NAMED_MOUNTAIN_DOLOMITES"           CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedMountainType="NAMED_MOUNTAIN_SIBILLINI_MOUNTAINS" CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<!-- ソ連 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_BAIKAL_MOUNTAINS"    CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_CAUCASUS"            CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_CHERSKY"             CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_PUTORANA_PLATEAU"    CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_SAYAN_MOUNTAINS"     CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_STANOVOY_MOUNTAINS"  CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_URALS"               CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedMountainType="NAMED_MOUNTAIN_VERKHOYANSK"         CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 	</NamedMountainCivilizations>
 	<NamedDesertCivilizations>
 		<!-- 砂漠 -->
@@ -278,6 +303,14 @@
 		<Row NamedLakeType="NAMED_LAKE_LAKE_LARIUS"                 CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedLakeType="NAMED_LAKE_LAKE_TRASIMENE"              CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedLakeType="NAMED_LAKE_LAKE_VERBANUS"               CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<!-- ソ連 -->
+		<Row NamedLakeType="NAMED_LAKE_ARAL_SEA"                    CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_BAIKAL"                 CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_KHANKA"                 CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_LADOGA"                 CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_ONEGA"                  CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_PEIPUS"                 CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedLakeType="NAMED_LAKE_LAKE_TAYMYR"                 CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 	</NamedLakeCivilizations>
 	<NamedSeaCivilizations>
 		<!-- 海・湾 -->
@@ -293,5 +326,18 @@
 		<Row NamedSeaType="NAMED_SEA_LIGURIAN_SEA"                  CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedSeaType="NAMED_SEA_MEDITERRANEAN_SEA"             CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedSeaType="NAMED_SEA_TYRRHENIAN_SEA"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
+		<!-- ソ連 -->
+		<Row NamedSeaType="NAMED_SEA_BALTIC_SEA"                    CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_BERING_SEA"                    CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_BLACK_SEA"                     CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_CASPIAN_SEA"                   CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_CHUKCHI_SEA"                   CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_EAST_SIBERIAN_SEA"             CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_GULF_OF_FINLAND"               CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_KARA_SEA"                      CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_LAPTEV_SEA"                    CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_JAPAN"                  CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_SEA_OF_OKHOTSK"                CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<Row NamedSeaType="NAMED_SEA_WHITE_SEA"                     CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 	</NamedSeaCivilizations>
 </GameInfo>

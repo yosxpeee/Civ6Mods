@@ -79,6 +79,17 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY256.dds"/>
+		<!-- ソ連 -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR256.dds"/>
 		
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
@@ -328,6 +339,8 @@
 		<Row Name="ICON_CIVILIZATION_HAG_COLOMBIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" Index="0"/>
 		<!-- イタリア -->
 		<Row Name="ICON_CIVILIZATION_HAG_ITALY" Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY" Index="0"/>
+		<!-- ソ連 -->
+		<Row Name="ICON_CIVILIZATION_HAG_USSR" Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -470,7 +483,10 @@
 		<!-- テホのアリーナ(トラクトリの使いまわし) -->
 		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA"          Atlas="ICON_ATLAS_BUILDINGS"     Index="9"/>
 		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA"          Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="9"/>
-		
+		<!-- 宇宙科学研究所：(研究所の使いまわし) -->
+		<Row Name="ICON_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB"     Atlas="ICON_ATLAS_BUILDINGS"     Index="37"/>
+		<Row Name="ICON_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="37"/>
+
 		<!-- UD -->
 		<!-- フェイトリア(兵営の使いまわし) -->
 		<Row Name="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA"     Atlas="ICON_ATLAS_DISTRICTS"     Index="3"/>

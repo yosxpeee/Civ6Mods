@@ -113,6 +113,22 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ITALY_DESCRIPTION" Language="ja_JP">
 			<Text>銀行による [ICON_GreatMerchant] 大商人ポイント+1、造船所による [ICON_GreatAdmiral] 大提督ポイント+1。[ICON_RESOURCE_CRABS] 蟹、[ICON_RESOURCE_FISH] 魚、[ICON_RESOURCE_WHEAT] 小麦、[ICON_RESOURCE_WHALES] 鯨から [ICON_FOOD] 食糧+1。</Text>
 		</Row>
+		<!-- 文明(ソ連) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_NAME" Language="ja_JP">
+			<Text>ソビエト社会主義共和国連邦</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_DESCRIPTION" Language="ja_JP">
+			<Text>ソビエト社会主義共和国連邦</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_ADJECTIVE" Language="ja_JP">
+			<Text>ソビエト社会主義共和国連邦の</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_USSR_NAME" Language="ja_JP">
+			<Text>ボリシェヴィキ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_USSR_DESCRIPTION" Language="ja_JP">
+			<Text>都市建設時に領土が追加される。ツンドラ地形に農場を作れる。「土木工学」の解除後は、ツンドラの丘陵に農場を作れるようになる。自軍ユニットはブリザードによるダメージを受けない。ソ連と戦争状態の文明は、ソ連の領土内でのブリザードのダメージ+100%。</Text>
+		</Row>
 		
 		<!-- 指導者(メネリク2世) -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_NAME" Language="ja_JP">
@@ -192,7 +208,7 @@
 			<Text>スタハノフ運動</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="ja_JP">
-			<Text>開発したすべての戦略資源のターン毎の産出量+1。兵営、工業地帯 (区域) の建設にかかる時間が半分になる。全ての都市の [ICON_Amenities] 快適性-1。</Text>
+			<Text>開発したすべての戦略資源のターン毎の産出量+1。兵営、キャンパス、工業地帯 (区域) の建設にかかる時間が半分になる。</Text>
 		</Row>
 		<!-- 指導者(シモン・ボリバル) -->
 		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="ja_JP">
@@ -393,10 +409,26 @@
 		<Row Tag="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME" Language="ja_JP">
 			<Text>大コロンビア固有の建造物: テホのアリーナ</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TEJO_ARENA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_TEJO_ARENA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>テホとはコロンビアでは伝統的なスポーツで、斜めに置かれた粘土の的に火薬が詰まったターゲットが置かれており、このターゲットめがけて1kgほどある鉄の塊を投げあう競技。ターゲットに命中すると火薬が爆発する。</Text>
 		</Row>
-		
+		<!-- UB(宇宙科学研究所) -->
+		<Row Tag="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_NAME" Language="ja_JP">
+			<Text>宇宙科学研究所</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_DESCRIPTION" Language="ja_JP">
+			<Text>ソビエト社会主義共和国連邦固有の建造物。研究所に取って代わる。[ICON_Science] 科学力+4、[ICON_GreatScientist] 大科学者ポイント+2。宇宙科学研究所が存在する都市の宇宙開発プログラムに対する [ICON_Production] 生産力+15%。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_NAME" Language="ja_JP">
+			<Text>ソビエト社会主義共和国連邦固有の建造物: 宇宙科学研究所</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ソ連の60年を越える歴史の中で、宇宙開発分野においては数多くの偉業を成し遂げた。大陸間弾道ミサイル、人工衛星、有人宇宙飛行などはロシアが世界初である。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>アメリカの宇宙計画はNASAが唯一の調整機関であり、1960年代のほとんどを通じてジェイムズ・ウェッブ長官が指揮を執ったのとは異なり、ソ連の宇宙計画はセルゲイ・コロリョフ、ミハイル・ヤンゲリ、ヴァレンティン・グルシュコ、ウラジーミル・チェロメイに率いられた、複数の設計グループ（設計局）に分かれていた。このことが原因で内部競争が起こり、予算が分散するなどの問題を抱えてもいた。</Text>
+		</Row>
+
 		<!-- UD(フェイトリア) -->
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
 			<Text>フェイトリア</Text>
@@ -407,8 +439,8 @@
 		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
 			<Text>ポルトガル帝国固有の区域: フェイトリア</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>ポルトガルではナウ（Nau）と呼ばれるキャラック船のこと。北欧系のコグ船と南欧系のキャラベル船の長所を受け継ぎ、3本のマストのうちフォア・メインマストに横帆、ミズンマストに縦帆と異なった種類の帆を見事に組み合わせた艤装を持ち、自在に張り替えたり数を増減させたりすることが容易であるため、高い帆走能力を持つ。</Text>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ポルトガルの交易所と要塞の機能を兼ね備えた施設で、西アフリカと東アフリカの海岸沿いの沿岸地域、インド洋、ブラジルに建てられている。交易所としての機能以外にも、市場、倉庫、交通案内所、税関として機能していた。</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION" Language="ja_JP">
 			<Text>隣接する沿岸タイル2つごとに [ICON_Production] 生産力+{1_num}。</Text>

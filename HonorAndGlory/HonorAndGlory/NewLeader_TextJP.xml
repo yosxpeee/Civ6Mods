@@ -383,6 +383,34 @@
 		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_5" Language="ja_JP">
 			<Text>ロゼッタ</Text>
 		</Row>
+		<!-- ソ連 -->
+		<Row Tag="LOC_CITIZEN_HAG_USSR_MALE_1" Language="ja_JP">
+			<Text>アンドレイ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_MALE_2" Language="ja_JP">
+			<Text>グレゴリー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_MALE_3" Language="ja_JP">
+			<Text>カロル</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_MALE_4" Language="ja_JP">
+			<Text>ミーシャ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_1" Language="ja_JP">
+			<Text>アナスタシア</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_2" Language="ja_JP">
+			<Text>アニーチカ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_3" Language="ja_JP">
+			<Text>エレナ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_4" Language="ja_JP">
+			<Text>イネッサ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_5" Language="ja_JP">
+			<Text>リュドミラ</Text>
+		</Row>
 		
 		<!-- Civilization City Names-->
 		<!-- エチオピア帝国 -->
@@ -1109,6 +1137,83 @@
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_40" Language="ja_JP">
 			<Text>ヴィチェンツァ</Text>
+		</Row>
+		<!-- ソ連 -->
+		<!-- (前半15個はロシアの使いまわしなので定義なし) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_16" Language="ja_JP">
+			<Text>キーロフ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_17" Language="ja_JP">
+			<Text>チェリャビンスク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_18" Language="ja_JP">
+			<Text>コロリョフ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_19" Language="ja_JP">
+			<Text>カリーニングラード</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_20" Language="ja_JP">
+			<Text>ハバロフスク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_21" Language="ja_JP">
+			<Text>ウラジオストク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_22" Language="ja_JP">
+			<Text>ホルムスク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_23" Language="ja_JP">
+			<Text>ユジノサハリンスク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_24" Language="ja_JP">
+			<Text>コルサコフ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_25" Language="ja_JP">
+			<Text>クラバザヴォーツク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_26" Language="ja_JP">
+			<Text>マロクリリスク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_27" Language="ja_JP">
+			<Text>ユジノクリリスク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_28" Language="ja_JP">
+			<Text>クリリスク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_29" Language="ja_JP">
+			<Text>レニングラード</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_30" Language="ja_JP">
+			<Text>ヴィリニュス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_31" Language="ja_JP">
+			<Text>リガ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_32" Language="ja_JP">
+			<Text>タリン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_33" Language="ja_JP">
+			<Text>スターリナバード</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_34" Language="ja_JP">
+			<Text>フルンゼ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_35" Language="ja_JP">
+			<Text>ポルトラツク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_36" Language="ja_JP">
+			<Text>ツェリノグラード</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_37" Language="ja_JP">
+			<Text>バクー</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_38" Language="ja_JP">
+			<Text>キシナウ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_39" Language="ja_JP">
+			<Text>キエフ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_40" Language="ja_JP">
+			<Text>ミンスク</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->

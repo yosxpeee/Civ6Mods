@@ -383,6 +383,34 @@
 		<Row Tag="LOC_CITIZEN_HAG_ITALY_FEMALE_5" Language="en_US">
 			<Text>Rosetta</Text>
 		</Row>
+		<!-- ソ連 -->
+		<Row Tag="LOC_CITIZEN_HAG_USSR_MALE_1" Language="en_US">
+			<Text>Andrei</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_MALE_2" Language="en_US">
+			<Text>Gregori</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_MALE_3" Language="en_US">
+			<Text>Karol</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_MALE_4" Language="en_US">
+			<Text>Misha</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_1" Language="en_US">
+			<Text>Anastasia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_2" Language="en_US">
+			<Text>Anichka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_3" Language="en_US">
+			<Text>Elena</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_4" Language="en_US">
+			<Text>Inessa</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_5" Language="en_US">
+			<Text>Lyudmila</Text>
+		</Row>
 		
 		<!-- Civilization City Names-->
 		<!-- エチオピア帝国 -->
@@ -1109,6 +1137,83 @@
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_CITY_40" Language="en_US">
 			<Text>Vicenza</Text>
+		</Row>
+		<!-- ソ連 -->
+		<!-- (前半15個はロシアの使いまわしなので定義なし) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_16" Language="en_US">
+			<Text>Kirov</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_17" Language="en_US">
+			<Text>Chelyabinsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_18" Language="en_US">
+			<Text>Korolev</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_19" Language="en_US">
+			<Text>Kaliningrad</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_20" Language="en_US">
+			<Text>Khabarovsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_21" Language="en_US">
+			<Text>Vladivostok</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_22" Language="en_US">
+			<Text>Kholmsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_23" Language="en_US">
+			<Text>Yuzhno-Sakhalinsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_24" Language="en_US">
+			<Text>Korsakov</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_25" Language="en_US">
+			<Text>Krabozavodsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_26" Language="en_US">
+			<Text>Malokurilsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_27" Language="en_US">
+			<Text>Yuzhno-Kurilsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_28" Language="en_US">
+			<Text>Kurilsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_29" Language="en_US">
+			<Text>Leningrad</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_30" Language="en_US">
+			<Text>Vilnius</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_31" Language="en_US">
+			<Text>Riga</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_32" Language="en_US">
+			<Text>Tallinn</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_33" Language="en_US">
+			<Text>Stalinabad</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_34" Language="en_US">
+			<Text>Frunze</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_35" Language="en_US">
+			<Text>Poltoratsk</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_36" Language="en_US">
+			<Text>Tselinograd</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_37" Language="en_US">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_38" Language="en_US">
+			<Text>Chisinau</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_39" Language="en_US">
+			<Text>Kiev</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_40" Language="en_US">
+			<Text>Minsk</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->

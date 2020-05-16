@@ -3149,7 +3149,7 @@
 				<m_Name text="DISTRICT_CITY_CENTER"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
-			<!-- 天文台 -->
+			<!-- 天文台、宇宙科学研究所 -->
 			<Element>
 				<m_Fields>
 					<m_Values>
@@ -3380,7 +3380,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="LIBRARY, HAG_TIMURID_OBSERVATORY, REASEARCH_LAB"/>
+										<m_ElementName text="LIBRARY, HAG_TIMURID_OBSERVATORY, RESEARCH_LAB"/>
 										<m_RootCollectionName text="BuildingSets"/>
 										<m_ArtDefPath text="Landmarks.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -3434,7 +3434,68 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="BaseVariants012001"/>
+							<m_Name text="BaseVariants012001_TIMRID"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="LIBRARY, UNIVERSITY, HAG_USSR_SPACE_RESEARCH_LAB"/>
+										<m_RootCollectionName text="BuildingSets"/>
+										<m_ArtDefPath text="Landmarks.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Landmarks"/>
+										<m_ParamName text="Set_HeroBuildings"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Cultures"/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="DIS_CMP_Modern_Base_04"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="tilebases.xlp"/>
+										<m_BLPPackage text="landmarks/tilebases"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="INHERIT"/>
+										<m_ParamName text="Placement"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="BaseVariants012001_USSR"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -3496,6 +3557,63 @@
 							</m_Fields>
 							<m_ChildCollections/>
 							<m_Name text="BuildingVariants004_hag_observatory"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB"/>
+										<m_RootCollectionName text="Building"/>
+										<m_ArtDefPath text="Buildings.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Buildings"/>
+										<m_ParamName text="Tag_HeroBuilding"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="ArtEra"/>
+										<m_ArtDefPath text="Eras.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="Eras"/>
+										<m_ParamName text="Tag_Era"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="DEFAULT"/>
+										<m_RootCollectionName text="Culture"/>
+										<m_ArtDefPath text="Cultures.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Culture"/>
+									</Element>
+									<Element class="AssetObjects..BLPEntryValue">
+										<m_EntryName text="DIS_CMP_Research"/>
+										<m_XLPClass text="TileBase"/>
+										<m_XLPPath text="hero_buildings.xlp"/>
+										<m_BLPPackage text="landmarks/hero_buildings"/>
+										<m_LibraryName text="TileBase"/>
+										<m_ParamName text="Asset"/>
+									</Element>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="ANY"/>
+										<m_RootCollectionName text="AppealTags"/>
+										<m_ArtDefPath text="Appeal.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text=""/>
+										<m_ParamName text="Tag_Appeal"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text=""/>
+										<m_ParamName text="SelectionRule"/>
+									</Element>
+									<Element class="AssetObjects..IntValue">
+										<m_nValue>0</m_nValue>
+										<m_ParamName text="Priority"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="BuildingVariants002_hag_USSRSpaceResearchLab"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -3571,7 +3689,47 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="LIBRARY, HAG_TIMURID_OBSERVATORY, REASEARCH_LAB"/>
+							<m_Name text="LIBRARY, HAG_TIMURID_OBSERVATORY, RESEARCH_LAB"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..CollectionValue">
+										<m_eObjectType>INVALID</m_eObjectType>
+										<m_eValueType>ARTDEF_REF</m_eValueType>
+										<m_Values>
+											<Element class="AssetObjects..ArtDefReferenceValue">
+												<m_ElementName text="BUILDING_LIBRARY"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
+												<m_CollectionIsLocked>true</m_CollectionIsLocked>
+												<m_TemplateName text="Buildings"/>
+												<m_ParamName text="Set001"/>
+											</Element>
+											<Element class="AssetObjects..ArtDefReferenceValue">
+												<m_ElementName text="BUILDING_UNIVERSITY"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
+												<m_CollectionIsLocked>true</m_CollectionIsLocked>
+												<m_TemplateName text="Buildings"/>
+												<m_ParamName text="Set002"/>
+											</Element>
+											<Element class="AssetObjects..ArtDefReferenceValue">
+												<m_ElementName text="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB"/>
+												<m_RootCollectionName text="Building"/>
+												<m_ArtDefPath text="Buildings.artdef"/>
+												<m_CollectionIsLocked>true</m_CollectionIsLocked>
+												<m_TemplateName text="Buildings"/>
+												<m_ParamName text="Set003"/>
+											</Element>
+										</m_Values>
+										<m_ParamName text="Set"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="LIBRARY, UNIVERSITY, HAG_USSR_SPACE_RESEARCH_LAB"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>

@@ -123,15 +123,15 @@
 		<!-- ロシア(スターリン) -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_RUSSIA</CivilizationType>
+			<CivilizationType>CIVILIZATION_HAG_USSR</CivilizationType>
 			<LeaderType>LEADER_HAG_STALIN</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_RUSSIA_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_RUSSIA</CivilizationIcon>
+			<CivilizationName>LOC_CIVILIZATION_HAG_USSR_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_USSR</CivilizationIcon>
 			<LeaderName>LOC_LEADER_HAG_STALIN_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_HAG_STALIN</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_RUSSIA</CivilizationAbilityIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_USSR_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_USSR_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_USSR</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_STALIN_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_HAG_STALIN</LeaderAbilityIcon>
@@ -323,29 +323,21 @@
 			 SortIndex="20"/>
 		<!-- スターリン -->
 		<Row Domain="Players:Expansion2_Players"
-			 CivilizationType="CIVILIZATION_RUSSIA" 
-			 LeaderType="LEADER_HAG_STALIN" 
-			 Type="UNIT_RUSSIAN_COSSACK" 
-			 Icon="ICON_UNIT_RUSSIAN_COSSACK" 
-			 Name="LOC_UNIT_RUSSIAN_COSSACK_NAME" 
-			 Description="LOC_UNIT_RUSSIAN_COSSACK_DESCRIPTION" 
-			 SortIndex="10" />
-		<Row Domain="Players:Expansion2_Players"
-			 CivilizationType="CIVILIZATION_RUSSIA"
+			 CivilizationType="CIVILIZATION_HAG_USSR"
 			 LeaderType="LEADER_HAG_STALIN"
 			 Type="UNIT_HAG_RUSSIAN_T34"
 			 Icon="ICON_UNIT_HAG_RUSSIAN_T34"
 			 Name="LOC_UNIT_HAG_RUSSIAN_T34_NAME"
 			 Description="LOC_UNIT_HAG_RUSSIAN_T34_DESCRIPTION"
-			 SortIndex="20" />
+			 SortIndex="10" />
 		<Row Domain="Players:Expansion2_Players"
-			 CivilizationType="CIVILIZATION_RUSSIA" 
+			 CivilizationType="CIVILIZATION_HAG_USSR" 
 			 LeaderType="LEADER_HAG_STALIN" 
-			 Type="DISTRICT_LAVRA" 
-			 Icon="ICON_DISTRICT_LAVRA" 
-			 Name="LOC_DISTRICT_LAVRA_NAME" 
-			 Description="LOC_DISTRICT_LAVRA_DESCRIPTION" 
-			 SortIndex="30" />
+			 Type="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" 
+			 Icon="ICON_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" 
+			 Name="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_NAME" 
+			 Description="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_DESCRIPTION" 
+			 SortIndex="20" />
 		<!-- シモン・ボリバル -->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_HAG_COLOMBIA"
