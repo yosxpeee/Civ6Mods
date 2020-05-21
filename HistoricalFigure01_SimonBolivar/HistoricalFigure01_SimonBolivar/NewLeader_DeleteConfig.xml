@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- プレイヤー -->
+	<Players>
+		<Delete Domain="Players:Expansion2_Players" LeaderType="LEADER_SIMON_BOLIVAR"/>
+	</Players>
+	<!-- 固有アイテム -->
+	<PlayerItems>
+		<Delete Domain="Players:Expansion2_Players" LeaderType="LEADER_SIMON_BOLIVAR"/>
+	</PlayerItems>
+</GameData>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<!-- ユニークユニット -->
+		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"                            Kind="KIND_ABILITY"/>
+	</Types>
+	<!-- アビリティを持つクラス -->
+	<TypeTags>
+		<!-- ユニークユニット -->
+		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
+	</TypeTags>
+	<!-- アビリティの名前、説明 -->
+	<UnitAbilities>
+		<!-- ユニークユニット -->
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"                            Name="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_NAME"                            Description="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"/>
+	</UnitAbilities>
+	<!-- アビリティが持つModifier -->
+	<UnitAbilityModifiers>
+		<!-- リャネロ：平地で戦闘力+5 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_COLOMBIA_LLANERO</UnitAbilityType>
+			<ModifierId>HAG_LLANERO_BONUS_ON_FLAT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<!-- 効果の定義 -->
+	<Modifiers>
+		<!-- リャネロ：平地で戦闘力+5 -->
+		<Row>
+			<ModifierId>HAG_LLANERO_BONUS_ON_FLAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<!-- 効果のパラメータ -->
+	<ModifierArguments>
+		<!-- リャネロ：平地で戦闘力+5 -->
+		<Row>
+			<ModifierId>HAG_LLANERO_BONUS_ON_FLAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 条件：判定種別 -->
+	<RequirementSets>
+		<!-- 平地 -->
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<!-- 条件定義 -->
+	<RequirementSetRequirements>
+		<!-- 平地 -->
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_LLANERO_FLAT_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_SNOW_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- 条件詳細 -->
+	<Requirements>
+		<!-- 平地にいる -->
+		<Row>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_SNOW_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<!-- 条件詳細の引数 -->
+	<RequirementArguments>
+		<!-- 平地にいる -->
+		<Row>
+			<RequirementId>PLOT_IS_GRASS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_PLAINS_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_DESERT_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_SNOW_TERRAIN_REQUIREMENT_HAG_LLANERO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+	</RequirementArguments>
+	<!-- 戦闘プレビューのテキスト -->
+	<ModifierStrings>
+		<Row ModifierId="HAG_LLANERO_BONUS_ON_FLAT"                            Context="Preview" Text="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION"/>
+	</ModifierStrings>
+</GameData>

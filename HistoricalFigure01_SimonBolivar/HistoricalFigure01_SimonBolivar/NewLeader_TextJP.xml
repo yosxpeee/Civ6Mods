@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<!-- シモン・ボリバル -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>シモン・ボリバル (シモン・ホセ・アントニオ・デ・ラ・サンティシマ・トリニダード・ボリバル・イ・パラシオス) は、1783年7月、ベネズエラのカラカスに生まれた。生家は金や銅の鉱山で富を築いた名家だった。両親の死後の1799年、教育を受けるため彼はスペインに渡った。[NEWLINE]「植民地人」を見下すスペイン人への嫌悪のほかに、ボリバルがここで得たのは若い妻だった。1802年にボリバルはマリア (マリア・テレサ・ロドリゲス・デル・トロ・イ・アライサ) と結婚する。その後、夫婦でベネズエラに戻るが、マリアは黄熱病に倒れてしまう。独り身になったボリバルは再び渡欧。ナポレオン1世を知り、心酔するも、ナポレオンが兄ジョゼフをスペイン王に立てたことから袂を別つ。1810年、ベネズエラの独立を目指して抵抗運動に参加。ほどなくして革命政権によってイギリスに派遣され、南米諸国の「自由」の戦いへの支持を訴えた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>だが、ベネズエラに戻ってからは芳しくない状況がつづいた。1813年5月、スペイン人に支配された国を取り戻さんと、ボリバルは軍を率いて進んだ。「カンパーニャ・アドミラブル (素晴らしき闘争)」 はこのようにして始まり、短命に終わったが、その年のうちにベネズエラ第二共和国の成立に至った。ボリバルは「解放者」と呼ばれ、南米全土で賞賛を浴びるが、その後首都カラカスが内戦状態に陥ったことから、ジャマイカへの亡命を余儀なくされる。ボリバルはこの地で『ジャマイカ書簡』を執筆。これは自由な中南米を目指す彼の理想を描いた論文で、多大な影響を及ぼした。イギリスやアメリカの後ろ盾を得るには至らなかったものの、ハイチの支援を取りつけることに成功している。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_SIMON_BOLIVAR_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>3年にわたって一進一退の攻防がつづいた後、ボリバルは軍事面で卓越した指導力を発揮する。1819年のヌエバ・グラナダ進攻を皮切りに、解放者ことボリバルに率いられた革命は次々と成功を収めていった。文明史上稀に見る快進撃だった。ボリバルのリーダーシップのもと、1821年には大コロンビア (現在のベネズエラ、コロンビア、パナマ、エクアドル) が成立。1824年にはボリバルの手でペルーが解放され、翌1825年にはボリビアの建国に至る。ボリバルは大コロンビアの大統領に就任したが、その在任期間は短く、1830年に職を辞し、同年12月に結核で死去した。</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_COLOMBIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1819年から1831年まで南アメリカ北部にあったコロンビア共和国を指す。グラン・コロンビアとも呼ばれる。旧ヌエバ・グラナダ副王領の領域だったベネズエラ、ヌエバ・グラナダ、南部地区（グアヤキル、キト、クエンカの連合）からなり、その領域は現在のベネズエラ、コロンビア、エクアドル、パナマの全域と、ガイアナ、ブラジル、ペルーの一部に相当する。</Text>
+		</Row>
+
+		<!-- Civilization Citizen Names -->
+		<!-- コロンビア -->
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_1" Language="ja_JP">
+			<Text>アレハンドロ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_2" Language="ja_JP">
+			<Text>ヘルマン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_3" Language="ja_JP">
+			<Text>ヘスース</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_MALE_4" Language="ja_JP">
+			<Text>ホセ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_1" Language="ja_JP">
+			<Text>アレハンドラ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_2" Language="ja_JP">
+			<Text>フアナ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_3" Language="ja_JP">
+			<Text>リス</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_4" Language="ja_JP">
+			<Text>マルタ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Language="ja_JP">
+			<Text>シャキーラ</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<!-- コロンビア -->
+		<!-- 現在のコロンビア、ベネズエラ、エクアドル、パナマの都市名から -->
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" Language="ja_JP">
+			<Text>ボゴタ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_2" Language="ja_JP">
+			<Text>メデジン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_3" Language="ja_JP">
+			<Text>カリ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_4" Language="ja_JP">
+			<Text>バランキージャ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_5" Language="ja_JP">
+			<Text>カルタヘナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_6" Language="ja_JP">
+			<Text>ククタ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_7" Language="ja_JP">
+			<Text>ソレダード</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_8" Language="ja_JP">
+			<Text>イバゲ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_9" Language="ja_JP">
+			<Text>ブカラマンガ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_10" Language="ja_JP">
+			<Text>ソアチャ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_11" Language="ja_JP">
+			<Text>マラカイボ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_12" Language="ja_JP">
+			<Text>カラカス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_13" Language="ja_JP">
+			<Text>バレンシア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_14" Language="ja_JP">
+			<Text>バルキシメト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_15" Language="ja_JP">
+			<Text>グアヤナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_16" Language="ja_JP">
+			<Text>マトゥリン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_17" Language="ja_JP">
+			<Text>マラカイ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_18" Language="ja_JP">
+			<Text>バルセロナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_19" Language="ja_JP">
+			<Text>ペタレ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_20" Language="ja_JP">
+			<Text>ボリバル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_21" Language="ja_JP">
+			<Text>グアヤキル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_22" Language="ja_JP">
+			<Text>キト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_23" Language="ja_JP">
+			<Text>クエンカ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_24" Language="ja_JP">
+			<Text>サント・ドミンゴ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_25" Language="ja_JP">
+			<Text>マチャラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_26" Language="ja_JP">
+			<Text>ドゥラン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_27" Language="ja_JP">
+			<Text>マンタ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_28" Language="ja_JP">
+			<Text>ポルトビエホ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_29" Language="ja_JP">
+			<Text>ロハ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_30" Language="ja_JP">
+			<Text>アンバト</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_31" Language="ja_JP">
+			<Text>パナマ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_32" Language="ja_JP">
+			<Text>サン・ミゲリート</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_33" Language="ja_JP">
+			<Text>ラス・クンブレス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_34" Language="ja_JP">
+			<Text>ラ・チョレラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_35" Language="ja_JP">
+			<Text>トクメン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_36" Language="ja_JP">
+			<Text>パコラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_37" Language="ja_JP">
+			<Text>アライハン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_38" Language="ja_JP">
+			<Text>ダビッド</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_39" Language="ja_JP">
+			<Text>ビスタ・アレグレ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_40" Language="ja_JP">
+			<Text>サンティアーゴ・デ・ベラグアス</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE" Language="ja_JP">
+			<Text>最大の背信は、忘恩である</Text>
+		</Row>
+
+		<!-- Leader DOM -->
+		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+
+		<!-- Unit Abilities Preview Text -->
+		<Row Tag="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION" Language="ja_JP">
+			<Text>平地での戦闘時に [ICON_Strength] 戦闘力+{1_Amount}。</Text>
+		</Row>
+
+		<!-- 大将軍 -->
+		<!-- アウグスト・フォン・グナイゼナウ -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE_NAME" Language="ja_JP">
+			<Text>アウグスト・フォン・グナイゼナウ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>プロイセン王国の軍人、陸軍元帥である。ゲルハルト・フォン・シャルンホルストと共にナポレオン支配から脱却を目指したプロイセンの軍制改革者の1人で、現在も各国軍に設けられる参謀本部の先駆けとなったプロイセン参謀本部の創設者でもある。</Text>
+		</Row>
+		<Row Tag="LOC_GREATPERSON_HAG_ANTONIO_JOSE_DE_SUCRE_ACTIVE" Language="ja_JP">
+			<Text>ターン毎のこの都市の忠誠心+4。</Text>
+		</Row>
+
+		<!-- 地名 -->
+		<!-- 川 -->
+		<Row Tag="LOC_NAMED_HAG_RIVER_ATRATO_RIVER_NAME" Language="ja_JP">
+			<Text>アトラト川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_GUAYAS_RIVER_NAME" Language="ja_JP">
+			<Text>グアヤス川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_GATUN_RIVER_NAME" Language="ja_JP">
+			<Text>ガトゥン川</Text>
+		</Row>
+		<!-- 火山 -->
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_CUMBAL_NAME" Language="ja_JP">
+			<Text>クンバル火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_NEVADO_DEL_HUILA_NAME" Language="ja_JP">
+			<Text>ネバドデルウイラ</Text>
+		</Row>
+		<!-- 山・山脈 -->
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_CHIMBORAZO_NAME" Language="ja_JP">
+			<Text>チンボラソ山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_CRISTOBAL_COLON_NAME" Language="ja_JP">
+			<Text>クリストバル・コロン山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_PICO_EL_TURMAL_NAME" Language="ja_JP">
+			<Text>ピコ・エル・トゥルマル</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_SANTIAGO_NAME" Language="ja_JP">
+			<Text>サンチアゴ山</Text>
+		</Row>
+		<!-- 湖 -->
+		<Row Tag="LOC_NAMED_HAG_LAKE_CIENAGA_DE_GUAJARO_NAME" Language="ja_JP">
+			<Text>シエナガ・デ・グアハロ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_CIENAGA_DE_QUINTANILLA_NAME" Language="ja_JP">
+			<Text>シエナガ・デ・キンタニージャ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_LURUACO_LAKE_NAME" Language="ja_JP">
+			<Text>ルルアコ湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_BAYANO_LAKE_NAME" Language="ja_JP">
+			<Text>バヤノ湖</Text>
+		</Row>
+
+		<!-- アジェンダ -->
+		<!-- カタルヘナ宣言(シモンボリバル) -->
+		<Replace Tag="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_NAME" Language="ja_JP">
+			<Text>カタルヘナ宣言</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_DESCRIPTION" Language="ja_JP">
+			<Text>都市を解放する文明を好む。戦争状態にあり、敵の都市を占領しようとする文明を嫌う。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_LIBERATE" Language="ja_JP">
+			<Text>シモン・ボリバルは、あなたが都市を解放したことを喜んでいる</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_OCCUPY" Language="ja_JP">
+			<Text>シモン・ボリバルは、あなたが敵の都市を占領したことを不満に思っている</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

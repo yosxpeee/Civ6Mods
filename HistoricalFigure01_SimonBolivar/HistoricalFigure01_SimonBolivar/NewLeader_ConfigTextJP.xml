@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- 文明(コロンビア) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_NAME" Language="ja_JP">
+			<Text>大コロンビア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="ja_JP">
+			<Text>大コロンビア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_ADJECTIVE" Language="ja_JP">
+			<Text>大コロンビアの</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME" Language="ja_JP">
+			<Text>ラテン・アメリカの交差点</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="ja_JP">
+			<Text>「幸せである」状態の都市は [ICON_CULTURE] 文化力+5%と[ICON_PRODUCTION] 生産力+5%。また、劇場広場毎に [ICON_GreatWriter] 大著述家ポイント+1、[ICON_GreatArtist] 大芸術家ポイント+1、[ICON_GreatMusician] 大音楽家ポイント+1を産出する。「興奮している」状態の都市はこのボーナスが2倍になる。</Text>
+		</Row>
+		<!-- 指導者(シモン・ボリバル) -->
+		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="ja_JP">
+			<Text>シモン・ボリバル</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="ja_JP">
+			<Text>解放者</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="ja_JP">
+			<Text>社会制度「軍の伝統」を獲得すると、保護戦争を宣言できるようになる。都市を解放すると10ターンの間 [ICON_Culture] 文化力+100%。</Text>
+		</Row>
+		<!-- UU(リャネロ) -->
+		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="ja_JP">
+			<Text>リャネロ</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代の大コロンビア固有のユニット。平地での [ICON_Strength] 戦闘力+5。維持コストが比較的低い。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="ja_JP">
+			<Text>大コロンビア固有のユニット: Llanero</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アルゼンチンとウルグアイにまたがるパンパの牧童(カウボーイ)。ベネズエラやコロンビア東部ではリャネロ、ブラジルではガウショ、チリではワッソという。南アメリカ解放の父シモン･ボリバルの優秀な兵力として働き、ベネズエラの解放に重要な役割を果たした。</Text>
+		</Row>
+		<!-- UB(テホのアリーナ) -->
+		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_NAME" Language="ja_JP">
+			<Text>テホのアリーナ</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION" Language="ja_JP">
+			<Text>大コロンビア固有の建造物。アリーナに取って代わる。[ICON_Culture] 文化力+2、[ICON_Amenities] 快適性+1。火薬の技術を解禁するとさらに [ICON_Culture] 文化力+2。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME" Language="ja_JP">
+			<Text>大コロンビア固有の建造物: テホのアリーナ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_TEJO_ARENA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>テホとはコロンビアでは伝統的なスポーツで、斜めに置かれた粘土の的に火薬が詰まったターゲットが置かれており、このターゲットめがけて1kgほどある鉄の塊を投げあう競技。ターゲットに命中すると火薬が爆発する。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

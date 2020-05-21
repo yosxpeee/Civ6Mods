@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- LeaderAnimation ***************************************************** -->
+	<LeaderAnimations>
+		<!-- シモン・ボリバル -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_SIMON_BOLIVAR</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+	</LeaderAnimations>
+</GameData>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<!-- コロンビア -->
+		<Row Type="CIVILIZATION_HAG_COLOMBIA"              Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAG_COLOMBIA"        Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_COLOMBIA_LLANERO"        Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_HAG_TEJO_ARENA"          Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Civilizations>
+		<!-- コロンビア -->
+		<Row>
+			<CivilizationType>CIVILIZATION_HAG_COLOMBIA</CivilizationType>
+			<Name>LOC_CIVILIZATION_HAG_COLOMBIA_NAME</Name>
+			<Description>LOC_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_HAG_COLOMBIA_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>40</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+		</Row>
+	</Civilizations>
+	<!-- 文明に属する指導者 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   LeaderType="LEADER_HAG_SIMON_BOLIVAR" CapitalName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" />
+	</CivilizationLeaders>
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA"   TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA" />
+	</CivilizationTraits>
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA"            Name="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME"        Description="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO"            Name="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME"/>
+		<Row TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA"              Name="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME"/>
+	</Traits>
+	<!-- 文明特性の指定 -->
+	<TraitModifiers>
+		<!-- コロンビア -->
+		<!-- 幸せである状態の都市は文化力+5%、生産力+5%(興奮している状態だと2倍) -->
+		<!-- 幸せである状態の都市は劇場広場からの大著述家、大芸術家、大音楽家の偉人ポイント+1(興奮している状態だと2倍) -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_HAPPY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_ECSTATIC"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_PRODUCTION_HAPPY"/><!-- RaFのロバートブルースと同じ -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_PRODUCTION_ECSTATIC"/><!-- RaFのロバートブルースと同じ -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_HAPPY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_ECSTATIC"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_HAPPY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_ECSTATIC"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_HAPPY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_COLOMBIA" ModifierId="TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_ECSTATIC"/>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 幸せである状態の都市は文化力+5%(興奮している状態だと2倍) -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_YIELD</ModifierType>
+		</Row>
+		<!-- 幸せである状態の都市は劇場広場からの大著述家、大芸術家、大音楽家の偉人ポイント+1(興奮している状態だと2倍) -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_GREAT_PERSON</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_THEATER_HAPPY_REQUIREMENTS_HAG_COLOMBIA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_GREAT_PERSON</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_THEATER_ECSTATIC_REQUIREMENTS_HAG_COLOMBIA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_GREAT_PERSON</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_THEATER_HAPPY_REQUIREMENTS_HAG_COLOMBIA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_GREAT_PERSON</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_THEATER_ECSTATIC_REQUIREMENTS_HAG_COLOMBIA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_HAPPY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_GREAT_PERSON</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_THEATER_HAPPY_REQUIREMENTS_HAG_COLOMBIA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_ECSTATIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HAPPINESS_GREAT_PERSON</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_THEATER_ECSTATIC_REQUIREMENTS_HAG_COLOMBIA</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 幸せである状態の都市は文化力+5%(興奮している状態だと2倍) -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_HAPPY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_HAPPY</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_HAPPY</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_ECSTATIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_ECSTATIC</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_CULTURE_ECSTATIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- 幸せである状態の都市は劇場広場からの大著述家、大芸術家、大音楽家の偉人ポイント+1(興奮している状態だと2倍) -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_HAPPY</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_HAPPY</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_HAPPY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_ECSTATIC</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_ECSTATIC</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_WRITER_ECSTATIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_HAPPY</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_HAPPY</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_HAPPY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_ECSTATIC</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_ECSTATIC</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_ARTIST_ECSTATIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_HAPPY</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_HAPPY</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_HAPPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_HAPPY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_ECSTATIC</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_ECSTATIC</ModifierId>
+			<Name>HappinessType</Name>
+			<Value>HAPPINESS_ECSTATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_COLOMBIA_MUSICIAN_ECSTATIC</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 条件：判定種別 -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_THEATER_HAPPY_REQUIREMENTS_HAG_COLOMBIA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_THEATER_ECSTATIC_REQUIREMENTS_HAG_COLOMBIA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<!-- 条件定義 -->
+	<RequirementSetRequirements>
+		<!-- 劇場区画を持つ -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_THEATER_HAPPY_REQUIREMENTS_HAG_COLOMBIA</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_THEATER_DISTRICT</RequirementId><!-- バニラにある -->
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_THEATER_ECSTATIC_REQUIREMENTS_HAG_COLOMBIA</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_THEATER_DISTRICT</RequirementId><!-- バニラにある -->
+		</Row>
+	</RequirementSetRequirements>
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<!-- コロンビア -->
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CitizenName="LOC_CITIZEN_HAG_COLOMBIA_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<!-- コロンビア -->
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_31" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_32" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_33" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_34" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_35" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_36" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_37" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_38" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_39" />
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" CityName="LOC_CIVILIZATION_HAG_COLOMBIA_CITY_40" />
+	</CityNames>
+	<!-- 開始位置補正 -->
+	<StartBiasTerrains>
+	</StartBiasTerrains>
+	<StartBiasResources>
+		<!-- コロンビア：コーヒー -->
+		<Row CivilizationType="CIVILIZATION_HAG_COLOMBIA" ResourceType="RESOURCE_COFFEE" Tier="3"/>
+	</StartBiasResources>
+	<StartBiasFeatures>
+	</StartBiasFeatures>
+</GameData>

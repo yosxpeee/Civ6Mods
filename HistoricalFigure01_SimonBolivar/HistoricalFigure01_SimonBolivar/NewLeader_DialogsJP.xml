@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- シモン・ボリバル -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_SIMON_BOLIVAR_ANY" Language="ja_JP">
+			<Text>その忍耐力には感服する。自衛が難しい者を守ることは、我々共通の利益だ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_SIMON_BOLIVAR_ANY" Language="ja_JP">
+			<Text>戦争は喪失しかもたらさない。人命の喪失、生産性の喪失、人間性の喪失だ！</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

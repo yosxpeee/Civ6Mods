@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/NewLeader_Icons"/>
+	<m_Entries>
+		<!-- 文明(コロンビア) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA256"/>
+		</Element>
+		
+		<!-- 指導者(シモン・ボリバル) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

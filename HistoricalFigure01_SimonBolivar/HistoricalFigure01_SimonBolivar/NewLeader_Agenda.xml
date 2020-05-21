@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- アジェンダの親定義 -->
+	<Types>
+		<Row Type="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" Kind="KIND_TRAIT"/>
+	</Types>
+	<PlotEvalConditions>
+	</PlotEvalConditions>
+	<!-- AIの動き -->
+	<AiListTypes>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    AgendaType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" System="Discussions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    Item="WC_EMERGENCY_CITY_STATE" Favored="true"/>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    Item="WC_EMERGENCY_MILITARY" Favored="true"/>
+	</AiFavoredItems>
+	<TriggeredBehaviorTrees>
+	</TriggeredBehaviorTrees>
+	<!-- 効果の親定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA"/>
+	</Traits>
+	<!-- アジェンダの名前と説明 -->
+	<Agendas>
+		<Row AgendaType="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" Name="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_NAME" Description="LOC_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_DESCRIPTION"/>
+	</Agendas>
+	<RandomAgendas>
+	</RandomAgendas>
+	<AgendaPreferredLeaders>
+	</AgendaPreferredLeaders>
+	<!-- 排他するアジェンダ -->
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" AgendaTwo="AGENDA_DARWINIST"/>
+	</ExclusiveAgendas>
+	<!-- アジェンダとTraitの紐づけ -->
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" TraitType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA"/>
+	</AgendaTraits>
+	<!-- Traitに紐づく効果 -->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" ModifierId="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" ModifierId="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION"/>
+	</TraitModifiers>
+	<!-- ここからアジェンダの効果詳細 -->
+	<Modifiers>
+		<!-- 都市を解放する -->
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_CITY_LIBERATED</SubjectRequirementSetId>
+		</Row>
+		<!-- 都市を占領する -->
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_PERPETUALLY_ON_GUARD</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 都市を解放する -->
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- このままでよい -->
+			<Value>LOC_DIPLO_KUDO_LEADER_JOHN_CURTIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_LIBERATE</Value>
+		</Row>
+		<!-- 都市を占領する -->
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION</ModifierId>
+			<Name>PenaltyPerOccupiedCity</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- このままでよい -->
+			<Value>LOC_DIPLO_WARNING_LEADER_JOHN_CURTIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<!-- Modifierとdllで紐づいている模様、反映されない -->
+			<Value>LOC_DIPLO_MODIFIER_HAG_EL_MANIFESTA_DE_CARTAGENA_ON_GUARD_OCCUPY</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- アジェンダに紐づく印象の上下のテキスト -->
+	<!-- ※これを忘れると「理由不明」になってしまう -->
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_LIBERATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA_OCCUPATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameInfo>

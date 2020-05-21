@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- 文明 -->
+		<!-- コロンビア -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_COLOMBIA256.dds"/>
+		
+		<!-- 指導者 -->
+		<!-- シモン・ボリバル -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_SIMON_BOLIVAR256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- 文明 -->
+		<!-- コロンビア -->
+		<Row Name="ICON_CIVILIZATION_HAG_COLOMBIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_COLOMBIA" Index="0"/>
+
+		<!-- 指導者 -->
+		<!-- シモン・ボリバル -->
+		<Row Name="ICON_LEADER_HAG_SIMON_BOLIVAR" Atlas="ICON_ATLAS_LEADER_HAG_SIMON_BOLIVAR" Index="0"/>
+
+		<!-- UU -->
+		<!-- リャネロ(ラフライダーの使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_COLOMBIA_LLANERO"                                   Atlas="ICON_ATLAS_UNITS"                           Index="67"/>
+		<Row Name="ICON_UNIT_HAG_COLOMBIA_LLANERO_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="67"/>
+		<Row Name="ICON_UNIT_HAG_COLOMBIA_LLANERO_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="67"/>
+		<Row Name="ICON_UNIT_HAG_COLOMBIA_LLANERO_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="67"/>
+		<Row Name="ICON_UNIT_HAG_COLOMBIA_LLANERO_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="1"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_COLOMBIA_LLANERO_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="1"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_COLOMBIA_LLANERO_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="1"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_COLOMBIA_LLANERO_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="1"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_COLOMBIA_LLANERO_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="1"/>
+
+		<!-- UB -->
+		<!-- テホのアリーナ(トラクトリの使いまわし) -->
+		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA"          Atlas="ICON_ATLAS_BUILDINGS"     Index="9"/>
+		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA"          Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="9"/>
+	</IconDefinitions>
+</GameData>

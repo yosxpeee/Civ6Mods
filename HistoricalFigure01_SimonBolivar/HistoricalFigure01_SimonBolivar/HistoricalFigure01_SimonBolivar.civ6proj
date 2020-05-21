@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Yossie's Historical Figure 01 - SimonBolivar</Name>
+    <Guid>d5f65431-6716-46a1-9137-5882b2c81e69</Guid>
+    <ProjectGuid>3a0eb59d-17ac-41aa-8761-25cbe34be218</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This example mod demonstrates how to add a new leader and civilization to the game.</Teaser>
+    <Description>This example mod demonstrates how to add a new leader and civilization to the game.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Properties><LoadOrder>1001</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_Agenda.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_NamedPlace.xml</File><File>NewLeader_UnitAbilities.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/SimonBolivar_DiplomacyInfo_Background.dds</File><File>Textures/SimonBolivar_LoadingInfo_Background.dds</File><File>Textures/SimonBolivar_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Colombia_TejoArena.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="DeleteGameplay"><Properties><LoadOrder>1000</LoadOrder></Properties><File>NewLeader_DeleteGameplay.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>NewLeader_Config.xml</File><File>NewLeader_Maps.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="DeleteConfig"><Properties><LoadOrder>1000</LoadOrder></Properties><File>NewLeader_DeleteConfig.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:Expansion2_Players::LEADER_HAG_SIMON_BOLIVAR</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>GSLeaderTemplate</AssemblyName>
+    <RootNamespace>GSLeaderTemplate</RootNamespace>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units_Great_People.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_Agenda.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_CoreColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_DeleteConfig.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_DeleteGameplay.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_Dialogs.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_DialogsJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_GreatGeneral.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_LeaderAnimations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_Maps.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_Moments.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_NamedPlace.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_PlayerColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_TextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UD.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_UU.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_SIMON_BOLIVAR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_SIMON_BOLIVAR.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_COLOMBIA80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_SIMON_BOLIVAR80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_SIMON_BOLIVAR_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_SIMON_BOLIVAR_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_HAG_Colombia_TejoArena.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_SIMON_BOLIVAR.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_SIMON_BOLIVAR.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\SimonBolivar_DiplomacyInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\SimonBolivar_LoadingInfo_Background.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\SimonBolivar_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\NewLeader_Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="NewLeader_Config.xml" />
+    <Content Include="NewLeader_ConfigText.xml" />
+    <Content Include="NewLeader_Civilizations.xml" />
+    <Content Include="NewLeader_Icons.xml" />
+    <Content Include="NewLeader_Leaders.xml" />
+    <Content Include="NewLeader_UB.xml" />
+    <Content Include="NewLeader_Text.xml" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="HistoricalFigure01_SimonBolivar.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

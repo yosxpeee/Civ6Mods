@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_COLOMBIA_LLANERO"         Texture="Moment_UniqueUnit_America_Roughrider.dds"/>		<!-- ラフライダーの使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_TEJO_ARENA"           Texture="Moment_HAG_Colombia_TejoArena.dds"/>
+	</MomentIllustrations>
+</GameData>

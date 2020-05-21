@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<!-- シモン・ボリバル -->
+		<Row Type="LEADER_HAG_SIMON_BOLIVAR"       Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_SIMON_BOLIVAR" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 指導者の主定義 -->
+	<Leaders>
+		<!-- シモン・ボリバル -->
+		<Row>
+			<LeaderType>LEADER_HAG_SIMON_BOLIVAR</LeaderType>
+			<Name>LOC_LEADER_HAG_SIMON_BOLIVAR_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" Quote="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE"/>
+	</LeaderQuotes>
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+	</LeaderTraits>
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" Name="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Description="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION"/>
+	</Traits>
+	<!-- 使用する特性の指定 -->
+	<TraitModifiers>
+		<!-- シモン・ボリバル -->
+		<!-- 保護戦争の開始が早い -->
+		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 保護戦争の開始が早い -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_ACTION_OVERRIDE</ModifierType>
+		</Row>
+		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 保護戦争の開始が早い -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>DiplomaticAction</Name>
+			<Value>DIPLOACTION_DECLARE_PROTECTORATE_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MILITARY_TRADITION</Value>
+		</Row>
+		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>LIBERATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 条件 -->
+	<!-- AIの好み -->
+	<AiListTypes>
+		<!-- シモン・ボリバル -->
+		<Row ListType="HAGSimonBolivarDistrict"/>
+		<Row ListType="HAGSimonBolivarCivics"/>
+		<Row ListType="HAGSimonBolivarTech"/>
+		<Row ListType="HAGSimonBolivarWonders"/>
+		<Row ListType="HAGSimonBolivarCulture"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- シモン・ボリバル -->
+		<Row ListType="HAGSimonBolivarDistrict"   LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Districts"/>
+		<Row ListType="HAGSimonBolivarCivics"     LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Civics"/>
+		<Row ListType="HAGSimonBolivarTech"       LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Technologies"/>
+		<Row ListType="HAGSimonBolivarWonders"    LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Buildings"/>
+		<Row ListType="HAGSimonBolivarCulture"    LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Yields"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- シモン・ボリバル -->
+		<Row ListType="HAGSimonBolivarDistrict"   Item="DISTRICT_THEATER"               Favored="true"/>		<!-- 劇場広場 -->
+		<Row ListType="HAGSimonBolivarDistrict"   Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="true"/>		<!-- 総合娯楽施設 -->
+		<Row ListType="HAGSimonBolivarCivics"     Item="CIVIC_GAMES_RECREATION"         Favored="true"/>		<!-- 遊びと娯楽 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="CIVIC_DRAMA_POETRY"             Favored="true"/>		<!-- 演劇と詩 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="CIVIC_HUMANISM"                 Favored="true"/>		<!-- ヒューマニズム -->
+		<Row ListType="HAGSimonBolivarCivics"     Item="CIVIC_OPERA_BALLET"             Favored="true"/>		<!-- オペラとバレエ -->
+		<Row ListType="HAGSimonBolivarTech"       Item="TECH_HORSEBACK_RIDING"          Favored="true"/>		<!-- 騎乗 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="TECH_PRINTING"                  Favored="true"/>		<!-- 印刷 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="TECH_MILITARY_SCIENCE"          Favored="true"/>		<!-- 軍事学 -->
+		<Row ListType="HAGSimonBolivarTech"       Item="TECH_COMPUTERS"                 Favored="true"/>		<!-- コンピュータ -->
+		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_HANGING_GARDENS"       Favored="true"/>		<!-- 空中庭園 -->
+		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_HERMITAGE"             Favored="true"/>		<!-- エルミタージュ美術館 -->
+		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_SYDNEY_OPERA_HOUSE"    Favored="true"/>		<!-- シドニーオペラハウス -->
+		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_CRISTO_REDENTOR"       Favored="true"/>		<!-- コルコバードのキリスト像 -->
+		<Row ListType="HAGSimonBolivarCulture"    Item="YIELD_CULTURE"                  Value="15"/>
+	</AiFavoredItems>
+	<!--- 固有アジェンダ -->
+	<HistoricalAgendas>
+		<!-- シモン・ボリバル：カルタヘナ宣言(中身はオーストラリアDLCのジョン・カーティンと同じ) -->
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" AgendaType="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA"/>
+	</HistoricalAgendas>
+	<!-- 外交画面、ローディング画面 -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_HAG_SIMON_BOLIVAR" BackgroundImage="SimonBolivar_DiplomacyInfo_Background.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" ForegroundImage="SimonBolivar_LoadingInfo_Foreground.dds" BackgroundImage="SimonBolivar_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_SIMON_BOLIVAR_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+</GameData>
