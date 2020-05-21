@@ -214,47 +214,6 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_PORTUGAL256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_PORTUGAL256"/>
 		</Element>
-		<!-- 文明(コロンビア) -->
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA22"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA30"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA30"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA36"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA36"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA44"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA44"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA45"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA48"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA48"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA50"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA64"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA80"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_COLOMBIA256"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_COLOMBIA256"/>
-		</Element>
 		<!-- 文明(イタリア) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY22"/>
@@ -296,7 +255,7 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_ITALY256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_ITALY256"/>
 		</Element>
-		<!-- 文明(エチオピア帝国) -->
+		<!-- 文明(ソ連) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_USSR22"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_USSR22"/>
@@ -569,35 +528,6 @@
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_STALIN256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_STALIN256"/>
-		</Element>
-		<!-- 指導者(シモン・ボリバル) -->
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR32"/>
-			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR45"/>
-			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR50"/>
-			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR55"/>
-			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR55"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR64"/>
-			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR80"/>
-			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_SIMON_BOLIVAR256"/>
-			<m_ObjectName text="ICON_LEADER_HAG_SIMON_BOLIVAR256"/>
 		</Element>
 		<!-- 指導者(アドルフ・ヒトラー) -->
 		<Element>

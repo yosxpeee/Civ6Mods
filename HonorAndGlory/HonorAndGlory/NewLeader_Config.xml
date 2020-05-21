@@ -137,23 +137,6 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_STALIN</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_STALIN</Portrait>
 		</Row>
-		<!-- コロンビア(シモン・ボリバル) -->
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_HAG_COLOMBIA</CivilizationType>
-			<LeaderType>LEADER_HAG_SIMON_BOLIVAR</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_HAG_COLOMBIA_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_HAG_COLOMBIA</CivilizationIcon>
-			<LeaderName>LOC_LEADER_HAG_SIMON_BOLIVAR_NAME</LeaderName>
-			<LeaderIcon>ICON_LEADER_HAG_SIMON_BOLIVAR</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_COLOMBIA</CivilizationAbilityIcon>
-			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME</LeaderAbilityName>
-			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_LEADER_HAG_SIMON_BOLIVAR</LeaderAbilityIcon>
-			<Portrait>PORTRAIT_LEADER_HAG_SIMON_BOLIVAR</Portrait>
-		</Row>
 		<!-- ドイツ(アドルフ・ヒトラー) -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -337,23 +320,6 @@
 			 Icon="ICON_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" 
 			 Name="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_NAME" 
 			 Description="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_DESCRIPTION" 
-			 SortIndex="20" />
-		<!-- シモン・ボリバル -->
-		<Row Domain="Players:Expansion2_Players"
-			 CivilizationType="CIVILIZATION_HAG_COLOMBIA"
-			 LeaderType="LEADER_HAG_SIMON_BOLIVAR"
-			 Type="UNIT_HAG_COLOMBIA_LLANERO"
-			 Icon="ICON_UNIT_HAG_COLOMBIA_LLANERO"
-			 Name="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME"
-			 Description="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"
-			 SortIndex="10" />
-		<Row Domain="Players:Expansion2_Players"
-			 CivilizationType="CIVILIZATION_HAG_COLOMBIA"
-			 LeaderType="LEADER_HAG_SIMON_BOLIVAR"
-			 Type="BUILDING_HAG_TEJO_ARENA"
-			 Icon="ICON_BUILDING_HAG_TEJO_ARENA"
-			 Name="LOC_BUILDING_HAG_TEJO_ARENA_NAME"
-			 Description="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION"
 			 SortIndex="20" />
 		<!-- アドルフ・ヒトラー -->
 		<Row Domain="Players:Expansion2_Players" 

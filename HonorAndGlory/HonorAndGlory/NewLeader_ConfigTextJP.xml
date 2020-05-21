@@ -81,22 +81,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="ja_JP">
 			<Text>すべての都市国家の国境が開放される。自文明の首都が存在しない大陸で都市を最初に建設するたびに [ICON_TradeRoute] 交易路の上限が1つ増える。</Text>
 		</Row>
-		<!-- 文明(コロンビア) -->
-		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_NAME" Language="ja_JP">
-			<Text>大コロンビア</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="ja_JP">
-			<Text>大コロンビア</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_ADJECTIVE" Language="ja_JP">
-			<Text>大コロンビアの</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME" Language="ja_JP">
-			<Text>ラテン・アメリカの交差点</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="ja_JP">
-			<Text>「幸せである」状態の都市は [ICON_CULTURE] 文化力+5%と[ICON_PRODUCTION] 生産力+5%。また、劇場広場毎に [ICON_GreatWriter] 大著述家ポイント+1、[ICON_GreatArtist] 大芸術家ポイント+1、[ICON_GreatMusician] 大音楽家ポイント+1を産出する。「興奮している」状態の都市はこのボーナスが2倍になる。</Text>
-		</Row>
 		<!-- 文明(イタリア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="ja_JP">
 			<Text>イタリア</Text>
@@ -210,16 +194,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="ja_JP">
 			<Text>開発したすべての戦略資源のターン毎の産出量+1。兵営、キャンパス、工業地帯 (区域) の建設にかかる時間が半分になる。</Text>
 		</Row>
-		<!-- 指導者(シモン・ボリバル) -->
-		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="ja_JP">
-			<Text>シモン・ボリバル</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="ja_JP">
-			<Text>解放者</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="ja_JP">
-			<Text>社会制度「軍の伝統」を獲得すると、保護戦争を宣言できるようになる。都市を解放すると10ターンの間 [ICON_Culture] 文化力+100%。</Text>
-		</Row>
 		<!-- 指導者(アドルフ・ヒトラー) -->
 		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_NAME" Language="ja_JP">
 			<Text>アドルフ・ヒトラー</Text>
@@ -332,19 +306,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_RUSSIAN_T34_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>第二次世界大戦から冷戦時代にかけてソビエト連邦を中心に使用された中戦車。1945年末までに5万7,000輌以上のT-34が作られた。当時としては強力な砲を備え、防御面では避弾経始を考慮した傾斜装甲を採用していた。</Text>
 		</Row>
-		<!-- UU(リャネロ) -->
-		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="ja_JP">
-			<Text>リャネロ</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" Language="ja_JP">
-			<Text>産業時代の大コロンビア固有のユニット。平地での [ICON_Strength] 戦闘力+5。維持コストが比較的低い。</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="ja_JP">
-			<Text>大コロンビア固有のユニット: Llanero</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>アルゼンチンとウルグアイにまたがるパンパの牧童(カウボーイ)。ベネズエラやコロンビア東部ではリャネロ、ブラジルではガウショ、チリではワッソという。南アメリカ解放の父シモン･ボリバルの優秀な兵力として働き、ベネズエラの解放に重要な役割を果たした。</Text>
-		</Row>
 		<!-- UU(Ju87) -->
 		<Row Tag="LOC_UNIT_HAG_GERMANY_JU87_NAME" Language="ja_JP">
 			<Text>Ju87</Text>
@@ -397,20 +358,6 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TIMURID_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>天体や天文現象の観測を行ったり、観測結果を解析して天文学の研究を行うための施設。現代では学術研究目的以外に、宇宙の観察や学習といった天文教育・普及活動の拠点としての性格を持つ天文台もある。</Text>
-		</Row>
-		<!-- UB(テホのアリーナ) -->
-		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_NAME" Language="ja_JP">
-			<Text>テホのアリーナ</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION" Language="ja_JP">
-			<Text>大コロンビア固有の建造物。アリーナに取って代わる。[ICON_Culture] 文化力+2、[ICON_Amenities] 快適性+1。火薬の技術を解禁するとさらに [ICON_Culture] 文化力+2。
-			</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME" Language="ja_JP">
-			<Text>大コロンビア固有の建造物: テホのアリーナ</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_TEJO_ARENA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>テホとはコロンビアでは伝統的なスポーツで、斜めに置かれた粘土の的に火薬が詰まったターゲットが置かれており、このターゲットめがけて1kgほどある鉄の塊を投げあう競技。ターゲットに命中すると火薬が爆発する。</Text>
 		</Row>
 		<!-- UB(宇宙科学研究所) -->
 		<Row Tag="LOC_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_NAME" Language="ja_JP">

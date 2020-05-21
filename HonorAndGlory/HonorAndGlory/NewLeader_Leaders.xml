@@ -28,9 +28,6 @@
 		<Row Type="LEADER_HAG_STALIN"              Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_STALIN"        Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_RUSSIAN_T34"     Kind="KIND_TRAIT"/>
-		<!-- シモン・ボリバル -->
-		<Row Type="LEADER_HAG_SIMON_BOLIVAR"       Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_SIMON_BOLIVAR" Kind="KIND_TRAIT"/>
 		<!-- アドルフ・ヒトラー -->
 		<Row Type="LEADER_HAG_ADOLF_HITLER"        Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_ADOLF_HITLER"  Kind="KIND_TRAIT"/>
@@ -89,12 +86,6 @@
 			<Name>LOC_LEADER_HAG_STALIN_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
-		<!-- シモン・ボリバル -->
-		<Row>
-			<LeaderType>LEADER_HAG_SIMON_BOLIVAR</LeaderType>
-			<Name>LOC_LEADER_HAG_SIMON_BOLIVAR_NAME</Name>
-			<InheritFrom>LEADER_DEFAULT</InheritFrom>
-		</Row>
 		<!-- アドルフ・ヒトラー -->
 		<Row>
 			<LeaderType>LEADER_HAG_ADOLF_HITLER</LeaderType>
@@ -118,7 +109,6 @@
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   Quote="LOC_LEADER_HAG_HIDEKI_TOJO_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"       Quote="LOC_LEADER_HAG_MARIA_I_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_STALIN"        Quote="LOC_LEADER_HAG_STALIN_QUOTE"/>
-		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" Quote="LOC_LEADER_HAG_SIMON_BOLIVAR_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  Quote="LOC_LEADER_HAG_ADOLF_HITLER_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     Quote="LOC_LEADER_HAG_MUSSOLINI_QUOTE"/>
 	</LeaderQuotes>
@@ -146,8 +136,6 @@
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/>			<!-- 科学重視 -->
-		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR"/>
-		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>		<!-- 文化重視 -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_HAG_ADOLF_HITLER"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
@@ -171,7 +159,6 @@
 		<Row TraitType="TRAIT_LEADER_HAG_MARIA_I"       Name="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME"       Description="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_STALIN"        Name="LOC_TRAIT_LEADER_HAG_STALIN_NAME"        Description="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"     Name="LOC_TRAIT_UNIT_HAG_RUSSIAN_T34_NAME"/>
-		<Row TraitType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" Name="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Description="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_ADOLF_HITLER"  Name="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME"  Description="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"    Name="LOC_TRAIT_UNIT_HAG_GERMANY_JU87_NAME"/>
 		<Row TraitType="TRAIT_LEADER_HAG_MUSSOLINI"     Name="LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME"     Description="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION"/>
@@ -349,17 +336,6 @@
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_CAMPUS_PRODUCTION</ModifierId>
 		</Row>
-		<!-- シモン・ボリバル -->
-		<!-- 保護戦争の開始が早い -->
-		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
-		<Row>
-			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_LEADER_HAG_SIMON_BOLIVAR</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
-		</Row>
 		<!-- アドルフ・ヒトラー -->
 		<!-- 領土拡張戦争の解禁が早い(軍の伝統) -->
 		<!-- 領土拡張戦争を宣言すると20ターンの間移動力+2 -->
@@ -535,16 +511,6 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_BOOST_CAMPUS_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
-		</Row>
-		<!-- 保護戦争の開始が早い -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_ACTION_OVERRIDE</ModifierType>
-		</Row>
-		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
 		</Row>
 
 		<!-- 領土拡張戦争の解禁が早い(軍の伝統) -->
@@ -833,38 +799,6 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
-		<!-- 保護戦争の開始が早い -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
-			<Name>DiplomaticAction</Name>
-			<Value>DIPLOACTION_DECLARE_PROTECTORATE_WAR</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_PROTECTORATE_WAR_PREREQ_OVERRIDE</ModifierId>
-			<Name>CivicType</Name>
-			<Value>CIVIC_MILITARY_TRADITION</Value>
-		</Row>
-		<!-- 都市を解放すると10ターンの間文化出力が100%上がる -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
-			<Name>DiplomaticYieldSource</Name>
-			<Value>LIBERATION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
-			<Name>TurnsActive</Name>
-			<Value>10</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_SIMON_BOLIVAR_LIBERATION_CULTURE</ModifierId>
-			<Name>Amount</Name>
-			<Value>100</Value>
-		</Row>
 
 		<!-- 領土拡張戦争の解禁が早い(軍の伝統) -->
 		<Row>
@@ -1060,12 +994,6 @@
 		<Row ListType="HAGStalinCivics"/>
 		<Row ListType="HAGStalinTech"/>
 		<Row ListType="HAGStalinWonders"/>
-		<!-- シモン・ボリバル -->
-		<Row ListType="HAGSimonBolivarDistrict"/>
-		<Row ListType="HAGSimonBolivarCivics"/>
-		<Row ListType="HAGSimonBolivarTech"/>
-		<Row ListType="HAGSimonBolivarWonders"/>
-		<Row ListType="HAGSimonBolivarCulture"/>
 		<!-- アドルフ・ヒトラー -->
 		<Row ListType="HAGHitlerDistrict"/>
 		<Row ListType="HAGHitlerCivics"/>
@@ -1125,12 +1053,6 @@
 		<Row ListType="HAGStalinCivics"           LeaderType="TRAIT_LEADER_HAG_STALIN"        System="Civics"/>
 		<Row ListType="HAGStalinTech"             LeaderType="TRAIT_LEADER_HAG_STALIN"        System="Technologies"/>
 		<Row ListType="HAGStalinWonders"          LeaderType="TRAIT_LEADER_HAG_STALIN"        System="Buildings"/>
-		<!-- シモン・ボリバル -->
-		<Row ListType="HAGSimonBolivarDistrict"   LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Districts"/>
-		<Row ListType="HAGSimonBolivarCivics"     LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Civics"/>
-		<Row ListType="HAGSimonBolivarTech"       LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Technologies"/>
-		<Row ListType="HAGSimonBolivarWonders"    LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Buildings"/>
-		<Row ListType="HAGSimonBolivarCulture"    LeaderType="TRAIT_LEADER_HAG_SIMON_BOLIVAR" System="Yields"/>
 		<!-- アドルフ・ヒトラー -->
 		<Row ListType="HAGHitlerDistrict"         LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Districts"/>
 		<Row ListType="HAGHitlerCivics"           LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Civics"/>
@@ -1244,22 +1166,6 @@
 		<Row ListType="HAGStalinWonders"          Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
 		<Row ListType="HAGStalinWonders"          Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
 		<Row ListType="HAGStalinWonders"          Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
-		<!-- シモン・ボリバル -->
-		<Row ListType="HAGSimonBolivarDistrict"   Item="DISTRICT_THEATER"               Favored="true"/><!-- 劇場広場 -->
-		<Row ListType="HAGSimonBolivarDistrict"   Item="DISTRICT_ENTERTAINMENT_COMPLEX" Favored="true"/><!-- 総合娯楽施設 -->
-		<Row ListType="HAGSimonBolivarCivics"     Item="CIVIC_GAMES_RECREATION"         Favored="true"/><!-- 遊びと娯楽 -->
-		<Row ListType="HAGSimonBolivarTech"       Item="CIVIC_DRAMA_POETRY"             Favored="true"/><!-- 演劇と詩 -->
-		<Row ListType="HAGSimonBolivarTech"       Item="CIVIC_HUMANISM"                 Favored="true"/><!-- ヒューマニズム -->
-		<Row ListType="HAGSimonBolivarCivics"     Item="CIVIC_OPERA_BALLET"             Favored="true"/><!-- オペラとバレエ -->
-		<Row ListType="HAGSimonBolivarTech"       Item="TECH_HORSEBACK_RIDING"          Favored="true"/><!-- 騎乗 -->
-		<Row ListType="HAGSimonBolivarTech"       Item="TECH_PRINTING"                  Favored="true"/><!-- 印刷 -->
-		<Row ListType="HAGSimonBolivarTech"       Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
-		<Row ListType="HAGSimonBolivarTech"       Item="TECH_COMPUTERS"                 Favored="true"/><!-- コンピュータ -->
-		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_HANGING_GARDENS"       Favored="true"/><!-- 空中庭園 -->
-		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_HERMITAGE"             Favored="true"/><!-- エルミタージュ美術館 -->
-		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_SYDNEY_OPERA_HOUSE"    Favored="true"/><!-- シドニーオペラハウス -->
-		<Row ListType="HAGSimonBolivarWonders"    Item="BUILDING_CRISTO_REDENTOR"       Favored="true"/><!-- コルコバードのキリスト像 -->
-		<Row ListType="HAGSimonBolivarCulture"    Item="YIELD_CULTURE"                  Value="15"/>
 		<!-- アドルフ・ヒトラー -->
 		<Row ListType="HAGHitlerDistrict"         Item="DISTRICT_INDUSTRIAL_ZONE"       Favored="true"/><!-- 工業地帯 -->
 		<Row ListType="HAGHitlerCivics"           Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
@@ -1309,8 +1215,6 @@
 		<Row LeaderType="LEADER_HAG_MARIA_I"       AgendaType="AGENDA_HAG_BRIGANTINE_DYNASTY"/>
 		<!-- スターリン：五か年計画(中身はバニラの隠しアジェンダにある重工業主義者と同じ) -->
 		<Row LeaderType="LEADER_HAG_STALIN"        AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"/>
-		<!-- シモン・ボリバル：カルタヘナ宣言(中身はオーストラリアDLCのジョン・カーティンと同じ) -->
-		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" AgendaType="AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA"/>
 		<!-- ヒトラー：ハーケンクロイツ(中身はRaFのラウタロと同じ) -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  AgendaType="AGENDA_HAG_HAKENKREUZ"/>
 		<!-- ムッソリーニ：黒シャツ隊(中身はバニラのトラヤヌスと同じ) -->
@@ -1318,7 +1222,7 @@
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
-		<!-- チトー、スターリン、シモンボリバル、ヒトラー、ムッソリーニはなし -->
+		<!-- チトー、スターリン、ヒトラー、ムッソリーニはなし -->
 		<Row LeaderType="LEADER_HAG_MENELIK2"     ReligionType="RELIGION_ORTHODOXY"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"     ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"        ReligionType="RELIGION_ISLAM"/>
@@ -1336,7 +1240,6 @@
 		<Row Type="LEADER_HAG_HIDEKI_TOJO"   BackgroundImage="HidekiTojo_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_MARIA_I"       BackgroundImage="MariaI_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_STALIN"        BackgroundImage="Stalin_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_SIMON_BOLIVAR" BackgroundImage="SimonBolivar_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_ADOLF_HITLER"  BackgroundImage="Hitler_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_MUSSOLINI"     BackgroundImage="Mussolini_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
@@ -1349,7 +1252,6 @@
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   ForegroundImage="HidekiTojo_LoadingInfo_Foreground.dds"   BackgroundImage="HidekiTojo_LoadingInfo_Background.dds"   LeaderText="LOC_LEADER_HAG_HIDEKI_TOJO_DOM_TEXT"   PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"       ForegroundImage="MariaI_LoadingInfo_Foreground.dds"       BackgroundImage="MariaI_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_MARIA_I_DOM_TEXT"       PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_STALIN"        ForegroundImage="Stalin_LoadingInfo_Foreground.dds"       BackgroundImage="Stalin_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_STALIN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_SIMON_BOLIVAR" ForegroundImage="SimonBolivar_LoadingInfo_Foreground.dds" BackgroundImage="SimonBolivar_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_HAG_SIMON_BOLIVAR_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  ForegroundImage="Hitler_LoadingInfo_Foreground.dds"       BackgroundImage="Hitler_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_ADOLF_HITLER_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     ForegroundImage="Mussolini_LoadingInfo_Foreground.dds"    BackgroundImage="Mussolini_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 	</LoadingInfo>

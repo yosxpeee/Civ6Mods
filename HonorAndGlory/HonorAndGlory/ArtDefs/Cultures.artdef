@@ -27,20 +27,12 @@
 									<m_ParamName text="Civilizations_hag01"/>
 								</Element>
 								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="CIVILIZATION_HAG_COLOMBIA"/>
-									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilizations.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="Civilizations_hag02"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_HAG_ITALY"/>
 									<m_RootCollectionName text="Civilization"/>
 									<m_ArtDefPath text="Civilizations.artdef"/>
 									<m_CollectionIsLocked>true</m_CollectionIsLocked>
 									<m_TemplateName text=""/>
-									<m_ParamName text="Civilizations_4"/>
+									<m_ParamName text="Civilizations_hag03"/>
 								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
@@ -114,14 +106,6 @@
 									<m_TemplateName text="Civilizations"/>
 									<m_ParamName text="Civilizations_hag01"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="CIVILIZATION_HAG_COLOMBIA"/>
-									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilizations.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag02"/>
-								</Element>
 							</m_Values>
 							<m_ParamName text="Civilizations"/>
 						</Element>
@@ -153,30 +137,6 @@
 				</m_Fields>
 				<m_ChildCollections/>
 				<m_Name text="AncientWood"/>
-				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
-			</Element>
-			<Element>
-				<m_Fields>
-					<m_Values>
-						<Element class="AssetObjects..CollectionValue">
-							<m_eObjectType>INVALID</m_eObjectType>
-							<m_eValueType>ARTDEF_REF</m_eValueType>
-							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="CIVILIZATION_HAG_COLOMBIA"/>
-									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilizations.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="Civilizations_hag01"/>
-								</Element>
-							</m_Values>
-							<m_ParamName text="Civilizations"/>
-						</Element>
-					</m_Values>
-				</m_Fields>
-				<m_ChildCollections/>
-				<m_Name text="SouthAmerican"/>
 				<m_AppendMergedParameterCollections>true</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>

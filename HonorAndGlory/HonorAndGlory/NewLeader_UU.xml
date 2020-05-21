@@ -9,7 +9,6 @@
 		<Row Type="UNIT_HAG_JAPAN_ZERO"              Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34"             Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_COLOMBIA_LLANERO"        Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Kind="KIND_UNIT"/>
 	</Types>
@@ -18,7 +17,6 @@
 		<Row Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_PORTUGAL_NAU"            Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_HAG_COLOMBIA_LLANERO"        Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_GERMANY_JU87"            Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<!-- AIの動き -->
@@ -50,11 +48,6 @@
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITTYPE_CAVALRY"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITTYPE_LAND_COMBAT"/>
 		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITTYPE_NUCLEAR"/>
 		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITTYPE_AIR_SIEGE"/>
@@ -82,8 +75,6 @@
 		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34"             Tag="CLASS_HEAVY_CHARIOT"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34"             Tag="CLASS_HEAVY_CAVALRY"/>
-		<Row Type="UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HEAVY_CAVALRY"/>
-		<Row Type="UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_AIRCRAFT"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_AIR_BOMBER"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_HAG_GERMANY_JU87"/>
@@ -155,13 +146,6 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_RUSSIAN_T34_NAME" Description="LOC_UNIT_HAG_RUSSIAN_T34_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_COMBUSTION"
 			 TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"/>
-		<!-- リャネロ -->
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" Cost="385" Maintenance="2" BaseMoves="5" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="67" 
-			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Description="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_RIFLING" 
-			 TraitType="TRAIT_UNIT_HAG_COLOMBIA_LLANERO" />
 		<!-- Ju87 -->
 		<Row UnitType="UNIT_HAG_GERMANY_JU87" Cost="560" Maintenance="7" BaseMoves="10" BaseSightRange="4" 
 			 ZoneOfControl="false" Domain="DOMAIN_AIR" Combat="85" Bombard="110" Range="10" StrategicResource="RESOURCE_ALUMINUM" 
@@ -194,8 +178,6 @@
 		<Row Unit="UNIT_HAG_PORTUGAL_NAU"            UpgradeUnit="UNIT_IRONCLAD"/>
 		<!-- T-34：近代的機甲部隊 -->
 		<Row Unit="UNIT_HAG_RUSSIAN_T34"             UpgradeUnit="UNIT_MODERN_ARMOR"/>
-		<!-- リャネロ：近代的機甲部隊 -->
-		<Row Unit="UNIT_HAG_COLOMBIA_LLANERO"        UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<!-- Ju87：ジェット爆撃機 -->
 		<Row Unit="UNIT_HAG_GERMANY_JU87"            UpgradeUnit="UNIT_JET_BOMBER"/>
 		<!-- カラビニエリ：機械化歩兵 -->

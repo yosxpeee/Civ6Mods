@@ -81,22 +81,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="en_US">
 			<Text>Open Borders with all city-states. Each time you found your first city on a continent other than your home continent receive a [ICON_TradeRoute] Trade Route capacity.</Text>
 		</Row>
-		<!-- 文明(コロンビア) -->
-		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_NAME" Language="en_US">
-			<Text>Gran Colombia</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="en_US">
-			<Text>Gran Colombia</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_COLOMBIA_ADJECTIVE" Language="en_US">
-			<Text>Gran Colombia</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_NAME" Language="en_US">
-			<Text>Latin American Intersection</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_COLOMBIA_DESCRIPTION" Language="en_US">
-			<Text>Happy cities receive an additional +5% [ICON_CULTURE] Culture and +5% [ICON_PRODUCTION] Production. Happy cities generate +1 [ICON_GreatWriter] Great Writer point, +1 [ICON_GreatArtist] Great Artist point and +1 [ICON_GreatMusician] Great Musician point per Theater. Ecstatic cities double all these amounts.</Text>
-		</Row>
 		<!-- 文明(イタリア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="en_US">
 			<Text>Italy</Text>
@@ -210,16 +194,6 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="en_US">
 			<Text>All improved strategic resources yield 1 additional resource per turn. Builds Encampment, Campus and Industrial Zone Square districts in half the time.</Text>
 		</Row>
-		<!-- 指導者(シモン・ボリバル) -->
-		<Row Tag="LOC_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="en_US">
-			<Text>Simon Bolivar</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_NAME" Language="en_US">
-			<Text>El Libertador</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_HAG_SIMON_BOLIVAR_DESCRIPTION" Language="en_US">
-			<Text>Can declare a War of Protectorate after gaining the Military Tradition Civic. +100% [ICON_Culture] Culture if they have liberated a city in the past 10 turns.</Text>
-		</Row>
 		<!-- 指導者(アドルフ・ヒトラー) -->
 		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_NAME" Language="en_US">
 			<Text>Adolf Hitler</Text>
@@ -332,19 +306,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_RUSSIAN_T34_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-		<!-- UU(リャネロ) -->
-		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="en_US">
-			<Text>Llanero</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" Language="en_US">
-			<Text>Colombia unique Industrial era unit. +5 [ICON_Strength] Strength when fighting on flag ground. Lower maintenance cost.</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="en_US">
-			<Text>Colombia unique unit: Llanero</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
-		</Row>
 		<!-- UU(Ju87) -->
 		<Row Tag="LOC_UNIT_HAG_GERMANY_JU87_NAME" Language="en_US">
 			<Text>Ju87</Text>
@@ -396,19 +357,6 @@
 			<Text>Timurid unique building: Observatory</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_TIMURID_OBSERVATORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
-		</Row>
-		<!-- UB(テホのアリーナ) -->
-		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_NAME" Language="en_US">
-			<Text>Tejo Arena</Text>
-		</Row>
-		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Gran Colombia. Replaces the Arena. +2 [ICON_Culture] Culture, +1 [ICON_Amenities] Amenity. Add +2 [ICON_Culture] Culture when unlock the Gun Powder technology.</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME" Language="en_US">
-			<Text>Gran Colombia unique building: Tejo Arena</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_TEJO_ARENA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		<!-- UB(宇宙科学研究所) -->

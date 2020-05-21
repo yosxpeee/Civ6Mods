@@ -3,30 +3,24 @@
 	<!-- もともと偉人にいる人たちを指導者にしたので代わりの人を追加 -->
 	<!-- ナポレオン       ＞ フランソワ・ジョゼフ・ルフェーヴル-->
 	<!-- ティムール       ＞ ミーラーン・シャー-->
-	<!-- シモン・ボリバル ＞ アントニオ・ホセ・デ・スクレ -->
 	<Types>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
-		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE"    Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
 	</Types>
 	<GreatPersonIndividuals>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionRequiresUnitMilitaryFormation="STANDARD_MILITARY_FORMATION" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH_NAME"               GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL"   Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND"                                                                   ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE"    Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE_NAME"    GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="true"  ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionRequiresNoMilitaryUnit="false"                  ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="true"  AreaHighlightRadius="2"/>
 	</GreatPersonIndividuals>
 	<GreatPersonIndividualBirthModifiers>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE"    ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE"    ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND"/>
 	</GreatPersonIndividualBirthModifiers>
 	<GreatPersonIndividualActionModifiers>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE" ModifierId="GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               ModifierId="GREATPERSON_HAG_MIRAN_SHAH_ACTIVE"               AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
 		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_MIRAN_SHAH"               ModifierId="GREATPERSON_HAG_MIRAN_SHAH_ACTIVE_UNIT_BONUS"    AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
-		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE"    ModifierId="GREATPERSON_HAG_ANTONIO_JOSE_DE_SUCRE_ACTIVE"    AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
 	</GreatPersonIndividualActionModifiers>
 	<Modifiers>
 		<!-- 大軍団にする -->
@@ -49,13 +43,6 @@
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
 		</Row>
-		<!-- 都市の忠誠心+4 -->
-		<Row>
-			<ModifierId>GREATPERSON_HAG_ANTONIO_JOSE_DE_SUCRE_ACTIVE</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
-			<RunOnce>true</RunOnce>
-			<Permanent>true</Permanent>
-		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -74,16 +61,9 @@
 			<Name>AbilityType</Name>
 			<Value>ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE</Value>
 		</Row>
-
-		<Row>
-			<ModifierId>GREATPERSON_HAG_ANTONIO_JOSE_DE_SUCRE_ACTIVE</ModifierId>
-			<Name>Amount</Name>
-			<Value>4</Value>
-		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE"/>
 		<Row ModifierId="GREATPERSON_HAG_MIRAN_SHAH_ACTIVE"               Context="Summary" Text="LOC_GREATPERSON_HAG_MIRAN_SHAH_ACTIVE"/>
-		<Row ModifierId="GREATPERSON_HAG_ANTONIO_JOSE_DE_SUCRE_ACTIVE"    Context="Summary" Text="LOC_GREATPERSON_HAG_ANTONIO_JOSE_DE_SUCRE_ACTIVE"/>
 	</ModifierStrings>
 </GameInfo>
