@@ -21,7 +21,7 @@ Chinese Translation : Flactine</Description>
     		</Criteria>
     	</ActionCriteria>
     ]]></ActionCriteriaData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>YMGP_Gameplay.xml</File><File>YMGP_GreatWorks.xml</File><File>YMGP_Resources.xml</File><File>YMGP_UnitAbilities.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>YMGP_Icon.xml</File><File>YMGP_Icon_Resource.xml</File></UpdateIcons><UpdateText id="Text"><File>YMGP_BaseGameText.xml</File><File>YMGP_BaseGameText_JP.xml</File><File>YMGP_Text.xml</File><File>YMGP_Text_JP.xml</File><File>YMGP_BaseGameText_ZhCN.xml</File><File>YMGP_Text_ZhCN.xml</File></UpdateText><UpdateAudio id="Sound"><File>YMGP_GreatPersonSound.ini</File><File>English(US)/YMGP_GreatPersonSound.bnk</File><File>English(US)/YMGP_GreatPersonSound.txt</File><File>Japanese/YMGP_GreatPersonSound.bnk</File><File>Japanese/YMGP_GreatPersonSound.txt</File><File>SoundbanksInfo.xml</File></UpdateAudio><ImportFiles id="Import"><File>Textures/YMGP_Resources.dds</File><File>Textures/YMGP_Resources_FOW.dds</File><File>Textures/YMGP_Resources256.dds</File><File>Textures/YMGP_Resources38.dds</File><File>Textures/YMGP_Resources50.dds</File><File>Textures/YMGP_GreatWorks256.dds</File><File>Textures/YMGP_GreatWorks45.dds</File><File>Textures/YMGP_GreatWorks64.dds</File><File>Textures/YMGP_GreatWorks256_FOW.dds</File><File>Assets/UI/GreatWorkShowcase.lua</File></ImportFiles><UpdateDatabase id="GameplayExp2"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>YMGPCriteriaExpansion2</Criteria><File>Expansion2/YMGP_Expansion2.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>YMGP_Gameplay.xml</File><File>YMGP_GreatWorks.xml</File><File>YMGP_Resources.xml</File><File>YMGP_UnitAbilities.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>YMGP_Icon.xml</File><File>YMGP_Icon_Resource.xml</File></UpdateIcons><UpdateText id="Text"><File>YMGP_BaseGameText.xml</File><File>YMGP_BaseGameText_JP.xml</File><File>YMGP_Text.xml</File><File>YMGP_Text_JP.xml</File><File>YMGP_BaseGameText_ZhCN.xml</File><File>YMGP_Text_ZhCN.xml</File></UpdateText><UpdateAudio id="Sound"><File>Platforms/Windows/Audio/English(US)/YMGP_GreatPersonSound.bnk</File><File>Platforms/Windows/Audio/English(US)/YMGP_GreatPersonSound.txt</File><File>Platforms/Windows/Audio/Japanese/YMGP_GreatPersonSound.bnk</File><File>Platforms/Windows/Audio/Japanese/YMGP_GreatPersonSound.txt</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File><File>Platforms/Windows/Audio/YMGP_GreatPersonSound.ini</File></UpdateAudio><ImportFiles id="Import"><File>Textures/YMGP_Resources.dds</File><File>Textures/YMGP_Resources_FOW.dds</File><File>Textures/YMGP_Resources256.dds</File><File>Textures/YMGP_Resources38.dds</File><File>Textures/YMGP_Resources50.dds</File><File>Textures/YMGP_GreatWorks256.dds</File><File>Textures/YMGP_GreatWorks45.dds</File><File>Textures/YMGP_GreatWorks64.dds</File><File>Textures/YMGP_GreatWorks256_FOW.dds</File><File>Assets/UI/GreatWorkShowcase.lua</File></ImportFiles><UpdateDatabase id="GameplayExp2"><Properties><LoadOrder>1</LoadOrder></Properties><Criteria>YMGPCriteriaExpansion2</Criteria><File>Expansion2/YMGP_Expansion2.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
     <AssemblyName>NewUnit2</AssemblyName>
     <RootNamespace>NewUnit2</RootNamespace>
     <Authors>Yossie</Authors>
@@ -39,9 +39,12 @@ Chinese Translation : Flactine</Description>
     <ArtDef Include="ArtDefs\YMGP_Units.artdef" />
     <Folder Include="Assets\" />
     <Folder Include="Assets\UI\" />
-    <Folder Include="English%28US%29\" />
     <Folder Include="Expansion2\" />
-    <Folder Include="Japanese\" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio" />
+    <Folder Include="Platforms\Windows\Audio\English%28US%29\" />
+    <Folder Include="Platforms\Windows\Audio\Japanese\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
     <None Include="Mod.Art.xml" />
@@ -50,13 +53,25 @@ Chinese Translation : Flactine</Description>
     <Content Include="Assets\UI\GreatWorkShowcase.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="English%28US%29\YMGP_GreatPersonSound.bnk">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="English%28US%29\YMGP_GreatPersonSound.txt">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Expansion2\YMGP_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\English%28US%29\YMGP_GreatPersonSound.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\English%28US%29\YMGP_GreatPersonSound.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Japanese\YMGP_GreatPersonSound.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Japanese\YMGP_GreatPersonSound.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\SoundbanksInfo.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\YMGP_GreatPersonSound.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Pisanello1_Portrait.dds">
@@ -212,15 +227,6 @@ Chinese Translation : Flactine</Description>
     <Content Include="YMGP_Resources.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Japanese\YMGP_GreatPersonSound.bnk">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Japanese\YMGP_GreatPersonSound.txt">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="SoundbanksInfo.xml">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="YMGP_BaseGameText.xml">
       <SubType>Content</SubType>
     </Content>
@@ -228,9 +234,6 @@ Chinese Translation : Flactine</Description>
       <SubType>Content</SubType>
     </Content>
     <Content Include="YMGP_Gameplay.xml">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="YMGP_GreatPersonSound.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YMGP_GreatWorks.xml">
