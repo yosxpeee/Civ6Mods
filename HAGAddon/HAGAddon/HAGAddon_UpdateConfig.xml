@@ -31,5 +31,19 @@
 				<Description>LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION</Description>
 			</Set>
 		</Update>
+		<!-- デ・ゼーヴェン・プロヴィンシェン -->
+		<Update>
+			<Where CivilizationType="CIVILIZATION_NETHERLANDS" LeaderType="LEADER_WILHELMINA" Type="UNIT_DE_ZEVEN_PROVINCIEN"/>
+			<Set>
+				<Description>LOC_UNIT_DE_ZEVEN_PROVINCIEN_HAGA_DESCRIPTION</Description>
+			</Set>
+		</Update>
+		<!-- ミナス・ジェライス -->
+		<Update>
+			<Where CivilizationType="CIVILIZATION_BRAZIL" LeaderType="LEADER_PEDRO" Type="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set>
+				<Description>LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION</Description>
+			</Set>
+		</Update>
 	</PlayerItems>
 </GameData>

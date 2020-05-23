@@ -23,7 +23,7 @@
 			<Text>Landsknecht</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_DESCRIPTION" Language="en_US">
-			<Text>Holy Roman Empire unique Medieval era unit. Replace the Pikeman. +7 [ICON_Strength] Combat bonus to Military melee units.</Text>
+			<Text>Holy Roman Empire unique Medieval era unit. Replace the Pikeman. +7 [ICON_Strength] Combat bonus to Military melee units. Lower maintenance costs.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Language="en_US">
 			<Text>Holy Roman Empire unique unit: Landsknecht</Text>
@@ -54,6 +54,16 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- ユニット(戦列艦) -->
+		<Row Tag="LOC_UNIT_HAGA_LINESHIP_NAME" Language="en_US">
+			<Text>Ship of the line</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_LINESHIP_DESCRIPTION" Language="en_US">
+			<Text>Strong Industrial era naval ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LINESHIP_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="en_US">
@@ -67,6 +77,12 @@
 		</Row>
 		<Row Tag="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION" Language="en_US">
 			<Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. +6 [ICON_SCIENCE] Science. Must be built on Hills.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Netherlands unique Industrial Era unit that replaces the Ship of the line. +7 [ICON_Strength] Combat Strength when attacking defensible districts.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Brazilian unique Modern era unit that replaces the Battleship. Stronger than the Battleship.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

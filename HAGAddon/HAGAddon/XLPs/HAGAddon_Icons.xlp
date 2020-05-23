@@ -100,6 +100,31 @@
 			<m_EntryID text="ICON_UNIT_HAGA_TREBUCHET256"/>
 			<m_ObjectName text="ICON_UNIT_HAGA_TREBUCHET256"/>
 		</Element>
+		<!-- ユニット(戦列艦) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LINESHIP22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LINESHIP22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LINESHIP32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LINESHIP32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LINESHIP38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LINESHIP38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LINESHIP50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LINESHIP50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LINESHIP80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LINESHIP80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_LINESHIP256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_LINESHIP256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

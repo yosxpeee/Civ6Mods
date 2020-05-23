@@ -29,6 +29,13 @@
 		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET256.dds"/>
+		<!-- 戦列艦 -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- Beliefs -->
@@ -70,7 +77,17 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="32"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="32"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="32"/>
-
+		<!-- 戦列艦(ポートレイトはフリゲート艦の使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_LINESHIP"                                   Atlas="ICON_ATLAS_UNIT_HAGA_LINESHIP"            Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_LINESHIP_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_LINESHIP"            Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_LINESHIP_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_LINESHIP"            Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_LINESHIP_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_LINESHIP"            Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_LINESHIP_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="55"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_LINESHIP_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="55"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_LINESHIP_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="55"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_LINESHIP_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="55"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_LINESHIP_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="55"/>
+		
 		<!-- 建造物 -->
 		<!-- マシュリク・アル・アドゥカル(シナゴーグの使いまわし) -->
 		<Row Name="ICON_BUILDING_HAGA_MASHRIQU_L_ADHKAR"     Atlas="ICON_ATLAS_BUILDINGS"     Index="45"/>

@@ -23,7 +23,7 @@
 			<Text>ランツクネヒト</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_DESCRIPTION" Language="ja_JP">
-			<Text>中世の神聖ローマ帝国固有のユニット。長槍兵に取って代わる。陸上近接ユニットに対し [ICON_Strength] 戦闘力+7。</Text>
+			<Text>中世の神聖ローマ帝国固有のユニット。長槍兵に取って代わる。陸上近接ユニットに対し [ICON_Strength] 戦闘力+7。維持費が安い。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Language="ja_JP">
 			<Text>神聖ローマ帝国固有のユニット: ランツクネヒト</Text>
@@ -54,6 +54,16 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>長剣は、中世/ルネサンス時代の戦場で最も万能な武器であった。長槍よりも軽くて扱いやすく、片手でも両手でも使えるため、剣士が盾を装備することもできた。長槍兵と1対1で戦う場合、長剣士はかなり不利な立場となり、攻撃可能な距離に近づくこともできないうちに長い武器による犠牲者が多く出た。しかしながら、長剣士隊は長槍兵よりも機動力が高いため、側面から敵を攻撃することができれば、長槍兵は命を落とすことになった。</Text>
 		</Row>
+		<!-- ユニット(戦列艦) -->
+		<Row Tag="LOC_UNIT_HAGA_LINESHIP_NAME" Language="ja_JP">
+			<Text>戦列艦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_LINESHIP_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代の強力な海洋長距離ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LINESHIP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>17世紀から19世紀にかけてのヨーロッパ諸国で使用された軍艦の一種。単縦陣の戦列（英語版）（Line of battle）を構成して、同じく戦列を構成する敵艦と砲戦を行うことを主目的としていたのでこの名がある。</Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="ja_JP">
@@ -67,6 +77,12 @@
 		</Row>
 		<Row Tag="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>科学を探求する韓国固有の区域。キャンパス区域に取ってかわる。 [ICON_SCIENCE] 科学力+6。丘陵の上にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>戦列艦に取ってかわるオランダ固有の産業時代のユニット。防御に適した区域を攻撃する際、 [ICON_Strength] 戦闘力+7。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>戦艦に取ってかわるブラジル固有の近代のユニット。戦艦よりも強力。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

@@ -22,7 +22,13 @@
 			<Where Description="LOC_CIVILIZATION_GEORGIA_DESCRIPTION"/>
 			<Set Description="LOC_CIVILIZATION_GEORGIA_HAGA_DESCRIPTION"/>
 		</Update>
+		<!-- 書院 -->
+		<Update>
+			<Where Description="LOC_DISTRICT_SEOWON_DESCRIPTION"/>
+			<Set Description="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION"/>
+		</Update>
 	</Districts>
+	<!-- 隣接ボーナス -->
 	<Adjacency_YieldChanges>
 		<!-- 書院 -->
 		<Update>
@@ -41,6 +47,16 @@
 			<Where Description="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION"/>
 			<Set Description="LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION"/>
 		</Update>
+		<!-- デ・ゼーヴェン・プロヴィンシェン -->
+		<Update>
+			<Where Description="LOC_UNIT_DE_ZEVEN_PROVINCIEN_DESCRIPTION"/>
+			<Set Description="LOC_UNIT_DE_ZEVEN_PROVINCIEN_HAGA_DESCRIPTION"/>
+		</Update>
+		<!-- ミナス・ジェライス -->
+		<Update>
+			<Where Description="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION"/>
+			<Set Description="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION"/>
+		</Update>
 	</Units>
 	<!-- 戦闘時のアビリティ表示 -->
 	<UnitAbilities>
@@ -57,6 +73,26 @@
 			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
 			<Set>
 				<Combat>42</Combat>
+			</Set>
+		</Update>
+		<!-- デ・ゼーヴェン・プロヴィンシェン：各種データを戦列艦ベースに変更 -->
+		<Update>
+			<Where UnitType="UNIT_DE_ZEVEN_PROVINCIEN"/>
+			<Set>
+				<Cost>355</Cost>
+				<Combat>52</Combat>
+				<RangedCombat>62</RangedCombat>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+				<PrereqTech></PrereqTech>
+				<PrereqCivic>CIVIC_NATIONALISM</PrereqCivic>
+			</Set>
+		</Update>
+		<!-- ミナス・ジェライス：解禁技術を精製技術に変更 -->
+		<Update>
+			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set>
+				<PrereqCivic></PrereqCivic>
+				<PrereqTech>TECH_REFINING</PrereqTech>
 			</Set>
 		</Update>
 	</Units>
@@ -107,6 +143,20 @@
 				<UpgradeUnit>UNIT_CROSSBOWMAN</UpgradeUnit>
 			</Set>
 		</Update>
+		<!-- フリゲート艦：戦列艦に変更 -->
+		<Update>
+			<Where Unit="UNIT_FRIGATE"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_LINESHIP</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- ジョング：戦列艦に変更 -->
+		<Update>
+			<Where Unit="UNIT_INDONESIAN_JONG"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_LINESHIP</UpgradeUnit>
+			</Set>
+		</Update>
 	</UnitUpgrades>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -116,5 +166,12 @@
 		<Row CivUniqueUnitType="UNIT_JAPANESE_SAMURAI"    ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
 		<Row CivUniqueUnitType="UNIT_NORWEGIAN_BERSERKER" ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
 		<Row CivUniqueUnitType="UNIT_GEORGIAN_KHEVSURETI" ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
+		<!-- デ・ゼーヴェン・プロヴィンシェン：戦列艦の置換に変更 -->
+		<Update>
+			<Where CivUniqueUnitType="UNIT_DE_ZEVEN_PROVINCIEN"/>
+			<Set>
+				<ReplacesUnitType>UNIT_HAGA_LINESHIP</ReplacesUnitType>
+			</Set>
+		</Update>
 	</UnitReplaces>
 </GameData>

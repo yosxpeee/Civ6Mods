@@ -5,6 +5,7 @@
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_LINESHIP"                      Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -25,6 +26,9 @@
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_LINESHIP" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_LINESHIP" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAGA_LINESHIP" AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -40,11 +44,12 @@
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_FORWARD_OBSERVER"/>
 		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HAGA_LINESHIP" Tag="CLASS_NAVAL_RANGED"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
 		<!-- ランツクネヒト -->
-		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Cost="200" Maintenance="3" BaseMoves="2" BaseSightRange="2" 
+		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Cost="200" Maintenance="1" BaseMoves="2" BaseSightRange="2" 
 			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="44" 
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Description="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_DESCRIPTION" 
@@ -62,6 +67,12 @@
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_LONGSWORDSMAN_NAME" Description="LOC_UNIT_HAGA_LONGSWORDSMAN_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_MILITARY_TACTICS"/>
+		<!-- 戦列艦 -->
+		<Row UnitType="UNIT_HAGA_LINESHIP" Cost="355" Maintenance="5" BaseMoves="4" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="52" RangedCombat="62" Range="2" StrategicResource="RESOURCE_NITER"
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_LINESHIP_NAME" Description="LOC_UNIT_HAGA_LINESHIP_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqCivic="CIVIC_NATIONALISM"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -71,11 +82,14 @@
 		<Row Unit="UNIT_HAGA_TREBUCHET" UpgradeUnit="UNIT_BOMBARD"/>
 		<!-- 長剣士：マスケット兵 -->
 		<Row Unit="UNIT_HAGA_LONGSWORDSMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<!-- 戦列艦：戦艦 -->
+		<Row Unit="UNIT_HAGA_LINESHIP" UpgradeUnit="UNIT_BATTLESHIP"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>
 	<!-- 戦略資源のコスト -->
 	<Units_XP2>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" ResourceCost="20"/>
+		<Row UnitType="UNIT_HAGA_LINESHIP" ResourceCost="20"/>
 	</Units_XP2>
 </GameInfo>
