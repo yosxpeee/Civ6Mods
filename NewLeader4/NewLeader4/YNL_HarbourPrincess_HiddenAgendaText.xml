@@ -138,5 +138,73 @@
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_EXPLORATION">
 			<Text>There is only so much to discover, and I'm afraid I cannot abide anyone who sets out ahead of my own explorers.</Text>
 		</Row>
+		
+		<!-- 隠しアジェンダ(GS) -->
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_EXPANSIONIST">
+			<Text>It is better that you lack ambition to claim land, because I believe you lack the acumen to rule what you would take.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_EXPANSIONIST">
+			<Text>How can you dare to claim such lands for yourself, when your people are weak and so badly led?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_FLAT_EARTHER">
+			<Text>I agree with you—There are too many pressing problems on earth to be pinning our hopes on space.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_FLAT_EARTHER">
+			<Text>How can you think about a future in space, when the present situation on earth should command your full attention!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_GREAT_WHITE_FLEET">
+			<Text>Those of us with great navies can make our will felt across the world, and we are the true masters of the seas.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_GREAT_WHITE_FLEET">
+			<Text>You must make an effort at building ships and projecting your power across the seas, or no nation will respect you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_FAVOR">
+			<Text>I am pleased that you are ready to accept me as the supreme leader of this planet. Already others whisper that my time is at hand.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_FAVOR">
+			<Text>I see through your honeyed words and your curried favors. You seek ultimate power for yourself, and you would have the nations give it to you of their own free will.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_TOURISM">
+			<Text>We’ve started a tour package for your citizens who want a world-class vacation. Apparently, nothing like this exists in your civilization.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_TOURISM">
+			<Text>I know the world is beating a path to your tourist sites, but be warned! Our people possess blue jeans and rock music and are not afraid to use them.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_INTOLERANT_SAME_RELIGION">
+			<Text>How happy is the land whose ruler follows the one true religion, and protects the souls of his people! </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION">
+			<Text>Blasphemy and heresy spill from the lips of your subjects! You must restore your people’s souls by restoring the true religion!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_DIPLOVP">
+			<Text>Maximal freedom can come only from civilizations pursuing their own interests, wouldn’t you say?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_DIPLOVP">
+			<Text>By what right do you impose your political agenda on my sovereign civilization? I do not consent to be ruled against my will.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_PILLAGE">
+			<Text>Your enemies know you by flame and fear. They pray to be delivered from your wrath, but the heavens are silent. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_PILLAGE">
+			<Text>Your enemies make war on you, but you do not plunder their lands in retribution. Is it out of cowardice? Or an excess of politeness? </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_TURTLER">
+			<Text>Good fences make good neighbors, and good defenses a peaceable kingdom. I am pleased you are content to protect your lands.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_TURTLER">
+			<Text>In your rush to war and conquest, you set events into motion whose course you cannot foresee. Better to stay home and protect, than go abroad and conquer.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_ZEALOT">
+			<Text>Even after all we have done, I still worry that there are some souls that do not want to be saved. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_ZEALOT">
+			<Text>I intend to see the salvation of your soul, whether you want it or not!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MONEY_GRUBBER">
+			<Text>Your treasury is filling up quite nicely. It's always nice to have such strong income, isn't it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MONEY_GRUBBER">
+			<Text>Your empire is headed toward bankruptcy.  How can you survive with debt piling up?</Text>
+		</Row>
 	</BaseGameText>
 </GameData>

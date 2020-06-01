@@ -18,7 +18,7 @@
 			<Text>The Hate</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HARBOUR_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Quadrireme and Machine Gun [ICON_Range] Range +1.[NEWLINE]Builds Encampment district in half the time.[NEWLINE]The support unit can obtain 1 unit free of charge when acquiring the technology necessary for production.</Text>
+			<Text>Quadrireme [ICON_Range] Range +1.[NEWLINE]Builds Encampment and Industrial Zone district in half the time.[NEWLINE]The support unit can obtain 1 unit free of charge when acquiring the technology necessary for production.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS_NAME" Language="en_US">
@@ -55,7 +55,7 @@
 			<Text>Abyssal Armored Cruiser</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YNL_ARMORED_CRUISER_DESCRIPTION" Language="en_US">
-			<Text>Harbour Princess unique unit that replaces the Ironcrad. Stronger than the Ironcrad. +5 [ICON_GreatAdmiral] Great Admiral points for killing units.</Text>
+			<Text>Harbour Princess unique unit that replaces the Ironcrad. Stronger than Ironcrad. +5 [ICON_GreatAdmiral] Great Admiral points for killing units.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_ARMORED_CRUISER_NAME" Language="en_US">
 			<Text>Harbour Princess unique unit: Abyssal Armored Cruiser</Text>

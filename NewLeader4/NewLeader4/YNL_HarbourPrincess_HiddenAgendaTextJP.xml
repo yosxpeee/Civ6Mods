@@ -138,5 +138,73 @@
 		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
 			<Text>発見トハ、早イ者勝チノ競争ダ。貴国ハワガ国ヲサシオイテ探検隊ヲ派遣シタ。ソンナ国ニ従ウワケニハイカナイ。</Text>
 		</Replace>
+
+		<!-- 隠しアジェンダ(GS) -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_EXPANSIONIST" Language="ja_JP">
+			<Text>版図ヲ拡ゲヨウトイウ野心ヲ持タナイノハヨイコトダ。土地ヲ手ニ入レテモ、手元ニ留メテオク才覚ガナケレバ意味ガナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_EXPANSIONIST" Language="ja_JP">
+			<Text>民ハ弱ク、指導者ハ頼リナイ。ナノニヨク他人ノ土地ヲ手ニ入レヨウナドト思エルモノダナ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_FLAT_EARTHER" Language="ja_JP">
+			<Text>同感ダ。地球ハ差シ迫ッタ問題ヲ数多ク抱エテイル。宇宙ニ希望ヲ託シテイル場合デハナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_FLAT_EARTHER" Language="ja_JP">
+			<Text>地球ノ問題ニ全力デ取リ組マナケレバナラナイコノ時ニ、何ガ宇宙ヘノ進出ダ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_GREAT_WHITE_FLEET" Language="ja_JP">
+			<Text>圧倒的ナ海軍力ヲ誇ル我ガ文明ハ、全世界ニ意ヲ知ラシメルコトガデキル。我々コソガ大海原ノ真ノ覇者ナノダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_GREAT_WHITE_FLEET" Language="ja_JP">
+			<Text>貴国モ艦隊ヲ築キ、大海原ニアマネク進出スル努力ヲスルベキダ。サモナクバ、イカナル国モ貴国ニ一目置クコトハナイダロウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_FAVOR" Language="ja_JP">
+			<Text>私ヲコノ星ノ最高指導者トシテ受ケ入レル意思ヲ固メテクレタヨウデ嬉シク思ウ。スデニ他ノ者タチハ、私ノ時代ハモウ目前ダト噂シ合ッテイルヨウダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_FAVOR" Language="ja_JP">
+			<Text>ソノ甘言トオモネリノ裏ニアルモノハオ見通シダ。自分自身ガ至高ノ存在トナリ、他ノ国々カラ自由意志ヲ奪オウトイウノダロウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_TOURISM" Language="ja_JP">
+			<Text>貴方ノ民ガ世界最高ノ休暇ヲ望ンデイルト聞キ、旅行ツアーヲ用意サセテモラッタ。貴国ニコンナモノハアルマイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_TOURISM" Language="ja_JP">
+			<Text>世界中ノ観光客ガ貴国ノ観光地ヲ目指シテイルソウダガ、アマリイイ気ニナラナイコトダ。我ガ国ニハジーンズトロックガアル。必要ナラソノ力ガドレホドノモノカ見セテヤロウ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_INTOLERANT_SAME_RELIGION" Language="ja_JP">
+			<Text>国ノ指導者ガ唯一ニシテマコトノ宗教ヲ奉リ、民ノ魂ヲ守ッテイル。ナント幸福ナ土地デアルダロウ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_INTOLERANT_ENCROACHING_RELIGION" Language="ja_JP">
+			<Text>貴国ノ民ハ、冒涜ト異端ノ言葉ヲマキ散ラシテイル！　今コソ真ノ教エヲ復活サセ、民ノ魂ヲ救済シナクテドウスル！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_DIPLOVP" Language="ja_JP">
+			<Text>最大限ノ自由ハ、己ノ利益ヲ追求スル文明ニヨッテノミモタラサレル。ソウ思ワナイダロウカ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_DIPLOVP" Language="ja_JP">
+			<Text>イッタイ何ノ権利ガアッテ我ガ国ニ政治信条ヲ押シツケル？　意ニ反スルコトヲ強イラレル謂ワレハナイナイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_HIGH_PILLAGE" Language="ja_JP">
+			<Text>貴方ハ敵ニトッテ炎ト恐怖ノ象徴ダ。ソノ怒リカラ逃レヨウト祈ッテモ、天ハ黙シテ答エマイ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_LOW_PILLAGE" Language="ja_JP">
+			<Text>戦イヲシカケラレタノニ、報復トシテ敵ノ土地ヲ略奪シナイ。ソレハ臆病ダカラカ？　ソレトモ行キスギタ礼儀正シサ故カ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_TURTLER" Language="ja_JP">
+			<Text>良キ柵ハ良キ隣人ヲ作リ、堅キ守リハ平和ナ王国ヲモタラストイウ。自国ノ防衛ニ専念スルトハ立派ナ心ガケダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_TURTLER" Language="ja_JP">
+			<Text>戦争ト征服ヲ急グアマリ、予期デキナカッタ結果ヲ招イタヨウダナ。守リヲ固メタ方ガイイ。他国ヲ攻メテイル場合デハナイゾ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_ZEALOT" Language="ja_JP">
+			<Text>我々ハデキル限リノコトヲシタガ、ソレデモマダ救イヲ求メテイナイ者ガイルノデハナイカト心配ダ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_ZEALOT" Language="ja_JP">
+			<Text>望ムト望マザルトニカカワラズ、ソノ魂ヲ救済シテ進ゼヨウ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MONEY_GRUBBER" Language="ja_JP">
+			<Text>貴国ハ実ニ豊カナ富ニメグマレテイルヨウダ。金ハイクラアッテモ困ルモノデハナイトイウワケカナ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_HARBOUR_PRINCESS_REASON_AGENDA_MONEY_GRUBBER" Language="ja_JP">
+			<Text>貴国ハ今ニモ破産シソウデハナイカ。借金ニマミレテ暮ラシテイクツモリナノカ？</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

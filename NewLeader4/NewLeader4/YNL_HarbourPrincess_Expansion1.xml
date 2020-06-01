@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<!-- 削除するデータ -->
-	<Delete ModifierId="COASTAL_FORT_TRADE_ROUTE_CAPACITY"/>
+	<Modifiers>
+		<Delete ModifierId="COASTAL_FORT_TRADE_ROUTE_CAPACITY"/>
+	</Modifiers>
 
 	<!-- 歴史年表用の画像 -->
 	<MomentIllustrations>
@@ -24,7 +26,6 @@
 
 	<!-- RaFで追加された王立海軍造船所の能力をコピーして実装 -->
 	<!-- RaFで追加された支援ユニットに対応する技術解禁で1体取得 -->
-	
 	<District_Adjacencies>
 		<Row DistrictType="DISTRICT_COASTAL_FORT" YieldChangeId="Government_Production"/>
 	</District_Adjacencies>

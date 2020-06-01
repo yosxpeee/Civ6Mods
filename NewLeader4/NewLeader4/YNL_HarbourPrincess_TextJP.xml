@@ -123,7 +123,28 @@
 		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_13" Language="ja_JP">
 			<Text>オンスロー</Text>
 		</Replace>
-
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_14" Language="ja_JP">
+			<Text>リメン</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_15" Language="ja_JP">
+			<Text>クララベール</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_16" Language="ja_JP">
+			<Text>エリオット</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_17" Language="ja_JP">
+			<Text>ボロルーラ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_18" Language="ja_JP">
+			<Text>パマユ</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_19" Language="ja_JP">
+			<Text>サンドオーバー</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_LTAF_CITY_20" Language="ja_JP">
+			<Text>テーブルランズ</Text>
+		</Replace>
+		
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_HARBOUR_PRINCESS_QUOTE" Language="ja_JP">
 			<Text>コリナイコタチ…</Text>
@@ -194,7 +215,7 @@
 			<Text>ソレハ残念。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
-			<Text>初メマシテ、ダナ。私ハ深海棲艦ノ港湾棲姫トイウ。コンドトモヨロシク。</Text>
+			<Text>初メマシテ、ダナ。私ハ深海棲艦ノ港湾棲姫トイウ。コンゴトモヨロシク。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
 			<Text>近クノ街ヘ案内サシアゲル。祝イノ式典ニゼヒ参加ヲ。</Text>
@@ -209,10 +230,10 @@
 			<Text>ゴ希望ヲオウカガイスル。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
-			<Text>私ハ強力ナ軍隊ヲ持ツ指導者ヲ好ム。</Text>
+			<Text>私ハ時間ヲ割ク価値ガアル者シカ相手ニシナイ。貴様ニハソノ価値ガアルヨウダ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
-			<Text>ソンナニササヤカナ軍隊シカ持タズニ、不安ヲ感ジルコトハナイノカ?</Text>
+			<Text>貴様ハ弱イ。弱キ者ハ消エルガイイ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="ja_JP">
 			<Text>貴国トノ同盟関係ニ未来アレ。</Text>
@@ -369,7 +390,7 @@
 			<Text>深海棲艦の沿岸略奪</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_YNL_RANGED_COASTAL_RAID_DESCRIPTION" Language="ja_JP">
-			<Text>深海棲艦の海洋戦闘ユニットは、沿岸地域の建造物と施設を略奪し、民間人ユニットを捕獲できる。</Text>
+			<Text>深海棲艦の空母を除く海洋戦闘ユニットは、沿岸地域の建造物と施設を略奪し、民間人ユニットを捕獲できる。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_DISTRICT_DISTRICT_COASTAL_FORT_GOLD" Language="ja_JP">
@@ -381,6 +402,13 @@
 		</Replace>
 		 <Replace Tag="LOC_ABILITY_YNL_ARMORED_CRUISER_DESCRIPTION" Language="ja_JP">
 			<Text>深海棲海固有の産業時代の海洋ユニット。ユニットを倒すと [ICON_GreatAdmiral] 大提督ポイント+5。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_AGENDA_YNL_DARK_WATER_NAME" Language="ja_JP">
+			<Text>暗き海</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_YNL_DARK_WATER_DESCRIPTION" Language="ja_JP">
+			<Text>強い軍事力を有する文明を好み、軍事衝突をさけるためにそうした文明と同盟を結ぼうとする。一方で軍事力の弱い文明を嫌う。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

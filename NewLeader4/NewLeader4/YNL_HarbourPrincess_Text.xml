@@ -123,7 +123,28 @@
 		<Row Tag="LOC_CIVLIZATION_LTAF_CITY_13" Language="en_US">
 			<Text>Onslow</Text>
 		</Row>
-
+		<Row Tag="LOC_CIVLIZATION_LTAF_CITY_14" Language="en_US">
+			<Text>Limmen</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LTAF_CITY_15" Language="en_US">
+			<Text>Claravale</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LTAF_CITY_16" Language="en_US">
+			<Text>Elliott</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LTAF_CITY_17" Language="en_US">
+			<Text>Borroloola</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LTAF_CITY_18" Language="en_US">
+			<Text>Pamayu</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LTAF_CITY_19" Language="en_US">
+			<Text>Sandover</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_LTAF_CITY_20" Language="en_US">
+			<Text>Tablelands</Text>
+		</Row>
+		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HARBOUR_PRINCESS_QUOTE" Language="en_US">
 			<Text>Obstinate Humans...</Text>
@@ -209,10 +230,10 @@
 			<Text>What do you wish of me?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HARBOUR_PRINCESS_ANY" Language="en_US">
-			<Text>I love a leader who is surrounded by an impressive military.</Text>
+			<Text>I am only interested in people worthy of my time. You are obviously one of them.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HARBOUR_PRINCESS_ANY" Language="en_US">
-			<Text>You have so few troops.  Aren't you scared for your life?</Text>
+			<Text>You are not worthy to bask in our presence. Your power is as fragile as your army is weak.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_HARBOUR_PRINCESS_ANY" Language="en_US">
 			<Text>We are pleased to accept your offer of an alliance.</Text>
@@ -369,7 +390,7 @@
 			<Text>The Deep Ones Coastal Raid</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_YNL_RANGED_COASTAL_RAID_DESCRIPTION" Language="en_US">
-			<Text>The Deep Ones naval units can pillage buildings and improvements and capture civilian units on coastal lands.</Text>
+			<Text>The Deep Ones naval units (without Aircraft carriar) can pillage buildings and improvements and capture civilian units on coastal lands.</Text>
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_DISTRICT_COASTAL_FORT_GOLD" Language="en_US">
@@ -381,6 +402,13 @@
 		</Row>
 		<Row Tag="LOC_UNIT_FUBUKI_DESCRIPTION" Language="en_US">
 			<Text>Abyssal Fleets unique Atomic era naval melee unit. +5 [ICON_GreatAdmiral] Great Admiral points for killing units.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_YNL_DARK_WATER_NAME" Language="en_US">
+			<Text>Dark Sea</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_YNL_DARK_WATER_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations with powerful militaries, and will try to ally with them to avoid damaging military conflicts. Dislikes civilizations with weak militaries.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

@@ -27,16 +27,16 @@
 		<Row TraitType="TRAIT_LEADER_YNL_ARMORED_CRUISER" Name="LOC_TRAIT_LEADER_YNL_ARMORED_CRUISER_NAME"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_QUADRIREME_RANGE_BONUS"/>	    <!-- カドリレームの射程+1-->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_RANGE_BONUS"/>	    <!-- 機関銃の射程+1 -->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>						    <!-- 兵営の建造コスト半分 -->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_BATTERING_RAM"/>      <!-- 対応する技術解禁で破城槌1体取得 -->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SIEGE_TOWER"/>        <!-- 対応する技術解禁で攻城塔1体取得 -->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MEDIC"/>              <!-- 対応する技術解禁で衛生兵1体取得 -->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_OBSERVATION_BALLOON"/><!-- 対応する技術解禁で観測気球1体取得 -->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MILITARY_ENGINEER"/>  <!-- 対応する技術解禁で工兵1体取得 -->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_ANTIAIR_GUN"/>        <!-- 対応する技術解禁で対空砲1体取得 -->
-		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MOBILE_SAM"/>         <!-- 対応する技術解禁で自走式地対空ミサイル1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_QUADRIREME_RANGE_BONUS"/>			<!-- カドリレームの射程+1-->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_BOOST_ENCAMPMENT_PRODUCTION"/>								<!-- 兵営の建造コスト半分(バニラにある) -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_BOOST_INDUSTRIAL_ZONE_PRODUCTION"/><!-- 工業地帯の建造コスト半分 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_BATTERING_RAM"/>			<!-- 対応する技術解禁で破城槌1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_SIEGE_TOWER"/>			<!-- 対応する技術解禁で攻城塔1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MEDIC"/>					<!-- 対応する技術解禁で衛生兵1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_OBSERVATION_BALLOON"/>	<!-- 対応する技術解禁で観測気球1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MILITARY_ENGINEER"/>		<!-- 対応する技術解禁で工兵1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_ANTIAIR_GUN"/>			<!-- 対応する技術解禁で対空砲1体取得 -->
+		<Row TraitType="TRAIT_LEADER_HARBOUR_PRINCESS" ModifierId="TRAIT_LEADER_HARBOUR_PRINCESS_ADD_UNIT_MOBILE_SAM"/>				<!-- 対応する技術解禁で自走式地対空ミサイル1体取得 -->
 	</TraitModifiers>
 	<Modifiers>
 		<!-- カドリレームの射程+1-->
@@ -49,15 +49,10 @@
 			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_QUADRIREME_RANGE_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
-		<!-- 機関銃の射程+1 -->
+		<!-- 工業地帯の建造コスト半分 -->
 		<Row>
-			<ModifierId>COMBAT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
-			<SubjectRequirementSetId>UNIT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_REQUIRMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_RANGE_BONUS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
 		</Row>
 		<!-- 技術解禁で対応する支援ユニット1体取得 -->
 		<Row>
@@ -122,16 +117,16 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<!-- 機関銃の射程+1 -->
+		<!-- 工業地帯の建造コスト半分 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_RANGE_BONUS</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>COMBAT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_MODIFIER</Value>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
 		</Row>
 		<Row>
-			<ModifierId>COMBAT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_MODIFIER</ModifierId>
+			<ModifierId>TRAIT_LEADER_HARBOUR_PRINCESS_BOOST_INDUSTRIAL_ZONE_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>100</Value>
 		</Row>
 		<!-- 技術解禁で対応する支援ユニット1体取得 -->
 		<Row>
@@ -249,12 +244,9 @@
 	</ModifierArguments>
 
 	<RequirementSets>
+		<!-- ユニットがカドリレームである -->
 		<Row>
 			<RequirementSetId>UNIT_YNL_LEADER_HARBOUR_PRINCESS_QUADRIREME_REQUIRMENTS</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-		<Row>
-			<RequirementSetId>UNIT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_REQUIRMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<!-- テクノロジー：石工術を取得しているか -->
@@ -294,13 +286,10 @@
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
+		<!-- ユニットがカドリレームである -->
 		<Row>
 			<RequirementSetId>UNIT_YNL_LEADER_HARBOUR_PRINCESS_QUADRIREME_REQUIRMENTS</RequirementSetId>
 			<RequirementId>PLOT_YNL_UNIT_IS_QUADRIREME_REQUIREMENTS</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>UNIT_YNL_LEADER_HARBOUR_PRINCESS_MACHINE_GUN_REQUIRMENTS</RequirementSetId>
-			<RequirementId>PLOT_YNL_UNIT_IS_MACHINE_GUN_REQUIREMENTS</RequirementId>
 		</Row>
 		<!-- テクノロジー：石工術を取得しているか -->
 		<Row>
@@ -339,12 +328,9 @@
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
+		<!-- ユニットがカドリレームである -->
 		<Row>
 			<RequirementId>PLOT_YNL_UNIT_IS_QUADRIREME_REQUIREMENTS</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_UNIT_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>PLOT_YNL_UNIT_IS_MACHINE_GUN_REQUIREMENTS</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_UNIT_TYPE_MATCHES</RequirementType>
 		</Row>
 		<!-- テクノロジー：石工術を取得しているか -->
@@ -384,15 +370,11 @@
 		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<!-- ユニットがカドリレームである -->
 		<Row>
 			<RequirementId>PLOT_YNL_UNIT_IS_QUADRIREME_REQUIREMENTS</RequirementId>
 			<Name>UnitType</Name>
 			<Value>UNIT_QUADRIREME</Value>
-		</Row>
-		<Row>
-			<RequirementId>PLOT_YNL_UNIT_IS_MACHINE_GUN_REQUIREMENTS</RequirementId>
-			<Name>UnitType</Name>
-			<Value>UNIT_MACHINE_GUN</Value>
 		</Row>
 		<!-- テクノロジー：石工術を取得しているか -->
 		<Row>
@@ -479,7 +461,7 @@
 	</AiFavoredItems>
 	<!-- アジェンダ -->
 	<HistoricalAgendas>
-		<Row LeaderType="LEADER_HARBOUR_PRINCESS" AgendaType="AGENDA_STANDING_ARMY"/>
+		<Row LeaderType="LEADER_HARBOUR_PRINCESS" AgendaType="AGENDA_YNL_DARK_WATER"/>
 	</HistoricalAgendas>
 
 	<DiplomacyInfo>

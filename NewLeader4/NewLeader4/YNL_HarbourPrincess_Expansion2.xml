@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- ユニット -->
 	<Units_XP2>
 		<Row UnitType="UNIT_YNL_ARMORED_CRUISER" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
+	<!-- 区域 -->
 	<Districts_XP2>
 		<Row DistrictType="DISTRICT_COASTAL_FORT" AttackRange="2"/>
 	</Districts_XP2>
+	<!-- AI -->
+	<AiListTypes>
+		<Row ListType="YNLDarkWaterDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="YNLDarkWaterDiscussions" AgendaType="TRAIT_AGENDA_YNL_DARK_WATER" System="Discussions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="YNLDarkWaterDiscussions" Item="WC_EMERGENCY_MILITARY" Favored="false"/>
+	</AiFavoredItems>
 </GameData>
