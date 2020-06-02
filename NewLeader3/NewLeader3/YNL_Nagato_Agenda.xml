@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="TRAIT_AGENDA_YNL_GOSEI" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_YNL_GOSEI"/>
+	</Traits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_YNL_GOSEI" AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_YNL_GOSEI" AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_YNL_GOSEI" AgendaTwo="AGENDA_DEVOUT"/>
+		<Row AgendaOne="AGENDA_YNL_GOSEI" AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_YNL_GOSEI" AgendaTwo="AGENDA_NUKE_LOVER"/>
+	</ExclusiveAgendas>
+	<Agendas>
+		<Row AgendaType="AGENDA_YNL_GOSEI" Name="LOC_AGENDA_YNL_GOSEI_NAME" Description="LOC_AGENDA_YNL_GOSEI_DESCRIPTION"/>
+	</Agendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_YNL_GOSEI" TraitType="TRAIT_AGENDA_YNL_GOSEI"/>
+	</AgendaTraits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_YNL_GOSEI" ModifierId="AGENDA_YNL_GOSEI"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>AGENDA_YNL_GOSEI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_BUSHIDO</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AGENDA_YNL_GOSEI</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_YNL_GOSEI_WARNING</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_YNL_GOSEI" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameInfo>

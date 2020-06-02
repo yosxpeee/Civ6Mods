@@ -900,5 +900,15 @@
 		<Row Tag="LOC_ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION" Language="en_US">
 			<Text>+50 [ICON_Damaged] Health after defeating an enemy unit. (Nagato)</Text>
 		</Row>
+
+		<Row Tag="LOC_AGENDA_YNL_GOSEI_NAME" Language="en_US">
+			<Text>Gosei</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_YNL_GOSEI_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations that have a strong military and [ICON_Faith]Faith and [ICON_Culture] Culture output. Dislikes civilizations that are strong in military but weak in [ICON_Faith]Faith and [ICON_Culture] Culture output.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_YNL_GOSEI" Language="en_US">
+			<Text>(You are weak in Faith and Culture.)</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

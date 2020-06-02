@@ -900,5 +900,15 @@
 		<Replace Tag="LOC_ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT_DESCRIPTION" Language="ja_JP">
 			<Text>敵ユニットを倒すと [ICON_Damaged] 体力+50。(長門)</Text>
 		</Replace>
+
+		<Replace Tag="LOC_AGENDA_YNL_GOSEI_NAME" Language="ja_JP">
+			<Text>海軍五省</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_YNL_GOSEI_DESCRIPTION" Language="ja_JP">
+			<Text>強力な軍事力と [ICON_Faith] 信仰力と [ICON_Culture] 文化力を併せ持つ文明を好む。軍事力は強くても [ICON_Faith] 信仰力と [ICON_Culture] 文化力の伴わない文明は好まない。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_YNL_GOSEI" Language="ja_JP">
+			<Text>(信仰力と文化力が低い)</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

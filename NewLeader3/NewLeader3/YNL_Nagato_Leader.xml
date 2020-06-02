@@ -25,8 +25,8 @@
 		<Row LeaderType="LEADER_YNL_MUTSU"  Quote="LOC_LEADER_YNL_MUTSU_QUOTE"/>
 	</LeaderQuotes>
 	<HistoricalAgendas>
-		<Row LeaderType="LEADER_YNL_NAGATO" AgendaType="AGENDA_BUSHIDO"/>
-		<Row LeaderType="LEADER_YNL_MUTSU"  AgendaType="AGENDA_BUSHIDO"/>
+		<Row LeaderType="LEADER_YNL_NAGATO" AgendaType="AGENDA_YNL_GOSEI"/>
+		<Row LeaderType="LEADER_YNL_MUTSU"  AgendaType="AGENDA_YNL_GOSEI"/>
 	</HistoricalAgendas>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_YNL_NAGATO"/>
