@@ -134,7 +134,7 @@
 			 TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
 		<!-- ナウ船 -->
 		<Row UnitType="UNIT_HAG_PORTUGAL_NAU" Cost="240" Maintenance="4" BaseMoves="5" BaseSightRange="4" 
-			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="50" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55" 
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_PORTUGAL_NAU_NAME" Description="LOC_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_CARTOGRAPHY"
