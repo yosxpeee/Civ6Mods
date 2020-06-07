@@ -214,6 +214,16 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION" Language="ja_JP">
 			<Text>政府の軍事政策スロット1つにつき毎ターン [ICON_FAVOR] 外交的支持+1。陸上近接ユニットと海洋近接ユニットは側面攻撃が2倍になる。</Text>
 		</Row>
+		<!-- 指導者(トルーマン) -->
+		<Row Tag="LOC_LEADER_HAG_TRUMAN_NAME" Language="ja_JP">
+			<Text>ハリー・S・トルーマン</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TRUMAN_NAME" Language="ja_JP">
+			<Text>フェアディール政策</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION" Language="ja_JP">
+			<Text>全ての都市に[ICON_Housing] 住宅+2。工業地帯とダムの建造物に対する [ICON_PRODUCTION] 生産力+50%。核開発プロジェクトと核兵器の [ICON_Production] 生産力+25%。</Text>
+		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
 		<Replace Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="ja_JP">

@@ -35,6 +35,9 @@
 		<!-- ムッソリーニ -->
 		<Row Type="LEADER_HAG_MUSSOLINI"           Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_MUSSOLINI"     Kind="KIND_TRAIT"/>
+		<!-- トルーマン -->
+		<Row Type="LEADER_HAG_TRUMAN"              Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_TRUMAN"        Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -98,6 +101,12 @@
 			<Name>LOC_LEADER_HAG_MUSSOLINI_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- トルーマン -->
+		<Row>
+			<LeaderType>LEADER_HAG_TRUMAN</LeaderType>
+			<Name>LOC_LEADER_HAG_TRUMAN_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
@@ -111,6 +120,7 @@
 		<Row LeaderType="LEADER_HAG_STALIN"        Quote="LOC_LEADER_HAG_STALIN_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  Quote="LOC_LEADER_HAG_ADOLF_HITLER_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     Quote="LOC_LEADER_HAG_MUSSOLINI_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_TRUMAN"        Quote="LOC_LEADER_HAG_TRUMAN_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
@@ -146,6 +156,7 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/>	<!-- 外交勝利狙い -->
+		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_LEADER_HAG_TRUMAN"/>
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -162,6 +173,7 @@
 		<Row TraitType="TRAIT_LEADER_HAG_ADOLF_HITLER"  Name="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME"  Description="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"    Name="LOC_TRAIT_UNIT_HAG_GERMANY_JU87_NAME"/>
 		<Row TraitType="TRAIT_LEADER_HAG_MUSSOLINI"     Name="LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME"     Description="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_TRUMAN"        Name="LOC_TRAIT_LEADER_HAG_TRUMAN_NAME"        Description="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -363,6 +375,38 @@
 			<TraitType>TRAIT_LEADER_HAG_MUSSOLINI</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</ModifierId>
 		</Row>
+		<!-- トルーマン -->
+		<!-- 住宅+2 -->
+		<!-- 工業地帯とダムの建造物に対する生産力+50% -->
+		<!-- 核開発プロジェクトと核兵器の生産力+25% -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TRUMAN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_HOUSING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TRUMAN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_ADJUST_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TRUMAN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_ADJUST_DAM_BUILDINGS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TRUMAN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_MANHATTANPROJECT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TRUMAN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_PROJECTIVY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TRUMAN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_NUCLEARDEVICE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_TRUMAN</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_THERMONUCLEARDEVICE_PRODUCTION</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -539,6 +583,38 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+
+		<!-- 住宅+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+		</Row>
+		<!-- 工業地帯とダムの建造物に対する生産力+50% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_ADJUST_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_ADJUST_DAM_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- 核開発プロジェクトと核兵器の生産力+25% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_MANHATTANPROJECT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_PROJECTIVY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_NUCLEARDEVICE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_THERMONUCLEARDEVICE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PROJECT_PRODUCTION</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -855,6 +931,75 @@
 			<ModifierId>TRAIT_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</Value>
+		</Row>
+		
+		<!-- 住宅+2 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 工業地帯とダムの建造物に対する生産力+50% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_ADJUST_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_ADJUST_INDUSTRIAL_ZONE_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_ADJUST_DAM_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_ADJUST_DAM_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- 核開発プロジェクトと核兵器の生産力+25% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_MANHATTANPROJECT_PRODUCTION</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_MANHATTAN_PROJECT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_MANHATTANPROJECT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_PROJECTIVY_PRODUCTION</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_OPERATION_IVY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_PROJECTIVY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_NUCLEARDEVICE_PRODUCTION</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_BUILD_NUCLEAR_DEVICE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_NUCLEARDEVICE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_THERMONUCLEARDEVICE_PRODUCTION</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_BUILD_THERMONUCLEAR_DEVICE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_THERMONUCLEARDEVICE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
@@ -1219,6 +1364,8 @@
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  AgendaType="AGENDA_HAG_HAKENKREUZ"/>
 		<!-- ムッソリーニ：黒シャツ隊(中身はバニラのトラヤヌスと同じ) -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     AgendaType="AGENDA_HAG_BLACKSHIRTS"/>
+		<!-- トルーマン：トルーマン・ドクトリン(中身はテディの棍棒外交と同じ) -->
+		<Row LeaderType="LEADER_HAG_TRUMAN"        AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
@@ -1242,6 +1389,7 @@
 		<Row Type="LEADER_HAG_STALIN"        BackgroundImage="Stalin_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_ADOLF_HITLER"  BackgroundImage="Hitler_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_MUSSOLINI"     BackgroundImage="Mussolini_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_TRUMAN"        BackgroundImage="Truman_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_MENELIK2"      ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"     BackgroundImage="Menelik2_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"      PlayDawnOfManAudio="1"/>
@@ -1254,5 +1402,6 @@
 		<Row LeaderType="LEADER_HAG_STALIN"        ForegroundImage="Stalin_LoadingInfo_Foreground.dds"       BackgroundImage="Stalin_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_STALIN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  ForegroundImage="Hitler_LoadingInfo_Foreground.dds"       BackgroundImage="Hitler_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_ADOLF_HITLER_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     ForegroundImage="Mussolini_LoadingInfo_Foreground.dds"    BackgroundImage="Mussolini_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT"     PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_TRUMAN"        ForegroundImage="Truman_LoadingInfo_Foreground.dds"       BackgroundImage="Truman_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_TRUMAN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

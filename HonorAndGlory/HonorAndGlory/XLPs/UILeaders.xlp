@@ -99,6 +99,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_MUSSOLINI"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_MUSSOLINI"/>
 		</Element>
+		<!-- トルーマン -->
+		<Element>
+			<m_EntryID text="LEADER_HAG_TRUMAN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HAG_TRUMAN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_HAG_TRUMAN"/>
+			<m_ObjectName text="PORTRAIT_LEADER_HAG_TRUMAN"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

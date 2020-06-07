@@ -12,6 +12,7 @@
 		<Row Type="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_BLACKSHIRTS"               Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_HAKENKREUZ"                Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           Kind="KIND_TRAIT"/>
 	</Types>
 	<PlotEvalConditions>
 	</PlotEvalConditions>
@@ -104,6 +105,7 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
 	</Traits>
 	<!-- アジェンダの名前と説明 -->
 	<Agendas>
@@ -117,10 +119,13 @@
 		<Row AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"            Name="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_NAME"            Description="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               Name="LOC_AGENDA_HAG_BLACKSHIRTS_NAME"               Description="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                Name="LOC_AGENDA_HAG_HAKENKREUZ_NAME"                Description="LOC_AGENDA_HAG_HAKENKREUZ_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"           Name="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME"           Description="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION"/>
 	</Agendas>
 	<RandomAgendas>
 	</RandomAgendas>
+	<!-- ランダムアジェンダの確立 -->
 	<AgendaPreferredLeaders>
+		<Row AgendaType="AGENDA_NUKE_LOVER" LeaderType="LEADER_HAG_TRUMAN" PercentageChance="70"/>
 	</AgendaPreferredLeaders>
 	<!-- 排他するアジェンダ -->
 	<ExclusiveAgendas>
@@ -138,6 +143,8 @@
 		<Row AgendaOne="AGENDA_HAG_FIVE_YEAR_PLAN"            AgendaTwo="AGENDA_INDUSTRIALIST"/>
 		<Row AgendaOne="AGENDA_HAG_FIVE_YEAR_PLAN"            AgendaTwo="AGENDA_NATURALIST"/>
 		<Row AgendaOne="AGENDA_HAG_BLACKSHIRTS"               AgendaTwo="AGENDA_EXPANSIONIST"/>
+		<Row AgendaOne="AGENDA_HAG_TRUMAN_DOCTRINE"           AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_HAG_TRUMAN_DOCTRINE"           AgendaTwo="AGENDA_EXPLOITATIVE"/>
 	</ExclusiveAgendas>
 	<!-- アジェンダとTraitの紐づけ -->
 	<AgendaTraits>
@@ -152,6 +159,7 @@
 		<Row AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"            TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"/>
 		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
 		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
+		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"           TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
 	</AgendaTraits>
 	<!-- Traitに紐づく効果 -->
 	<TraitModifiers>
@@ -170,6 +178,8 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"               ModifierId="AGENDA_HAG_BLACKSHIRTS"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL"/>
 	</TraitModifiers>
 	<!-- ここからアジェンダの効果詳細 -->
 	<Modifiers>
@@ -269,6 +279,18 @@
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_SPIRIT_OF_TUCAPEL</ModifierType>
 			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
 			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- 同大陸の文明に友好的 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_PEACEFUL_ON_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<!-- 同大陸の文明に敵対的 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ATTACKED_CONTINENT</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -590,6 +612,40 @@
 			<!-- Modifierとdllで紐づいている模様、反映されない -->
 			<Value>LOC_DIPLO_MODIFIER_AGENDA_HAG_HAKENKREUZ_LOSING_CITIES</Value>
 		</Row>
+		<!-- 同大陸の文明に友好的 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- そのままで問題ない -->
+			<Value>LOC_DIPLO_KUDO_LEADER_T_ROOSEVELT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL</Value>
+		</Row>
+		<!-- 同大陸の文明に敵対的 -->
+		<Row>
+			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- そのままで問題ない -->
+			<Value>LOC_DIPLO_WARNING_LEADER_T_ROOSEVELT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- アジェンダに紐づく印象の上下のテキスト -->
 	<!-- ※これを忘れると「理由不明」になってしまう -->
@@ -609,5 +665,7 @@
 		<Row ModifierId="AGENDA_HAG_BLACKSHIRTS"                          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"             Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 	</ModifierStrings>
 </GameInfo>

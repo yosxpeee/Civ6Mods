@@ -62,5 +62,11 @@
 			<Leader>LEADER_HAG_MUSSOLINI</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- トルーマン -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_TRUMAN</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

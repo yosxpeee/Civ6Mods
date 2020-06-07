@@ -62,6 +62,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MUSSOLINI_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Detail)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- メネリク2世 -->
@@ -144,6 +150,10 @@
 		</Row>
 		<!-- ムッソリーニ -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MUSSOLINI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+		<!-- トルーマン -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
 		
@@ -1110,6 +1120,9 @@
 		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_TRUMAN_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
 		
 		<!-- Unit Abilities Preview Text -->
 		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2_DESCRIPTION" Language="en_US">
@@ -1508,7 +1521,20 @@
 			<Text>Blackshirts</Text>
 		</Row>
 		<Row Tag="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION" Language="en_US">
-			<Text>Tries to include as much territory as possible in their empire.  Does not like civilizations who control little territory.</Text>
+			<Text>Tries to include as much territory as possible in their empire. Does not like civilizations who control little territory.</Text>
+		</Row>
+		<!-- トルーマン・ドクトリン(トルーマン) -->
+		<Row Tag="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME" Language="en_US">
+			<Text>Truman Doctrine</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION" Language="en_US">
+			<Text>Likes peaceful civilizations that have a city on his home continent. Hates civilizations starting wars against a city-state or civilization based on his continent.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL" Language="en_US">
+			<Text>Truman likes peaceful civs on his continent</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED" Language="en_US">
+			<Text>Truman hates attacks on civs based on his continent</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

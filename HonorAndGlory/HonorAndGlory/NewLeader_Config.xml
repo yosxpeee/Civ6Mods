@@ -171,6 +171,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_MUSSOLINI</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_MUSSOLINI</Portrait>
 		</Row>
+		<!-- アメリカ(トルーマン) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<LeaderType>LEADER_HAG_TRUMAN</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_AMERICA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_AMERICA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_TRUMAN_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_TRUMAN</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_AMERICA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_TRUMAN_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_TRUMAN</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_TRUMAN</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->
@@ -363,5 +380,29 @@
 			 Name="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_NAME"
 			 Description="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_DESCRIPTION"
 			 SortIndex="20"/>
-		</PlayerItems>
+		<!-- トルーマン -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_AMERICA" 
+			 LeaderType="LEADER_HAG_TRUMAN" 
+			 Type="UNIT_AMERICAN_P51" 
+			 Icon="ICON_UNIT_AMERICAN_P51" 
+			 Name="LOC_UNIT_AMERICAN_P51_NAME"
+			 Description="LOC_UNIT_AMERICAN_P51_DESCRIPTION" 
+			 SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_AMERICA" 
+			 LeaderType="LEADER_HAG_TRUMAN" 
+			 Type="UNIT_AMERICAN_ROUGH_RIDER" 
+			 Icon="ICON_UNIT_AMERICAN_ROUGH_RIDER" 
+			 Name="LOC_UNIT_AMERICAN_ROUGH_RIDER_NAME" 
+			 Description="LOC_UNIT_AMERICAN_ROUGH_RIDER_DESCRIPTION" 
+			 SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_AMERICA" 
+			 LeaderType="LEADER_HAG_TRUMAN" 
+			 Type="BUILDING_FILM_STUDIO" 
+			 Icon="ICON_BUILDING_FILM_STUDIO" 
+			 Name="LOC_BUILDING_FILM_STUDIO_NAME" 
+			 Description="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" 
+			 SortIndex="30"/>
+	</PlayerItems>
 </GameData>

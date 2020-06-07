@@ -214,6 +214,16 @@
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_FAVOR] Diplomatic Favor per turn for every Military slot in their government. Military melee units and Naval melee units increases +100% Flanking bonus.</Text>
 		</Row>
+		<!-- 指導者(トルーマン) -->
+		<Row Tag="LOC_LEADER_HAG_TRUMAN_NAME" Language="en_US">
+			<Text>Harry S. Truman</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TRUMAN_NAME" Language="en_US">
+			<Text>Fair Deal</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Housing] Housing to all cities. +50% [ICON_PRODUCTION] Production towards Industrial Zone and Dam buildings. +25% [ICON_Production] Production to nuclear program projects and Nuclear Devices.</Text>
+		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
 		<Row Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="en_US">

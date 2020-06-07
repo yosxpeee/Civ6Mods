@@ -161,6 +161,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_MUSSOLINI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_MUSSOLINI256.dds"/>
+		<!-- トルーマン -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN256.dds"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -343,6 +351,8 @@
 		<Row Name="ICON_LEADER_HAG_ADOLF_HITLER" Atlas="ICON_ATLAS_LEADER_HAG_ADOLF_HITLER" Index="0"/>
 		<!-- ムッソリーニ -->
 		<Row Name="ICON_LEADER_HAG_MUSSOLINI" Atlas="ICON_ATLAS_LEADER_HAG_MUSSOLINI" Index="0"/>
+		<!-- トルーマン -->
+		<Row Name="ICON_LEADER_HAG_TRUMAN" Atlas="ICON_ATLAS_LEADER_HAG_TRUMAN" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->

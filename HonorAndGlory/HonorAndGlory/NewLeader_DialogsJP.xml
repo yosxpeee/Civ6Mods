@@ -73,5 +73,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MUSSOLINI_ANY" Language="ja_JP">
 			<Text>最も肥沃な大地をみすみす敵に明け渡してしまった。それほどまでに領土を広げるのが怖いのか？</Text>
 		</Replace>
+		<!-- トルーマン -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_TRUMAN_ANY" Language="ja_JP">
+			<Text>大陸の平和を保ってくれて感謝する。貴君はさすがだな！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TRUMAN_ANY" Language="ja_JP">
+			<Text>何人たりとも法を無視することはできない。それを忘れてはいかんな。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

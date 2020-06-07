@@ -59,6 +59,11 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_MUSSOLINI"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_MUSSOLINI"/>
 		</Element>
+		<!-- トルーマン -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_TRUMAN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_TRUMAN"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

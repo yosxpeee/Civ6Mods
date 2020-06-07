@@ -62,6 +62,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MUSSOLINI_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- メネリク2世 -->
@@ -145,6 +151,10 @@
 		<!-- ムッソリーニ -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MUSSOLINI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>イタリアの政治家、教師、軍人。イタリア社会党で活躍した後に新たな政治思想ファシズムを独自に構築し、国家ファシスト党による一党独裁制を確立した。第二次世界大戦ではドイツ・日本と共に枢軸国として連合国と戦った。しかし緒戦の躓きから1943年に失脚、1945年4月に愛人にペタッチと共に銃殺され61年間の人生に幕を下ろした。</Text>
+		</Row>
+		<!-- トルーマン -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アメリカ合衆国の政治家。上院議員、第34代副大統領、第33代大統領を歴任した。フランクリン・ルーズベルトの死を受けて1945年に副大統領から大統領に昇格した。第二次世界大戦の終了から冷戦の始まり、国際連合、CIA、NSA、ペンタゴン(国防総省)の創設および朝鮮戦争などに関与した。</Text>
 		</Row>
 		
 		<!-- Civilization specific historical text. -->
@@ -1078,6 +1088,9 @@
 		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_QUOTE" Language="ja_JP">
 			<Text>流された血により、時は進んでいる</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_TRUMAN_QUOTE" Language="ja_JP">
+			<Text>流された血により、時は進んでいる</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="ja_JP">
@@ -1108,6 +1121,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_TRUMAN_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		
@@ -1509,5 +1525,18 @@
 		<Replace Tag="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION" Language="ja_JP">
 			<Text>自分の領土を可能なかぎり広げようとし、小さな領土しか持たない文明を嫌う。</Text>
 		</Replace>
+		<!-- トルーマン・ドクトリン(トルーマン -->
+		<Row Tag="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME" Language="ja_JP">
+			<Text>トルーマン・ドクトリン</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION" Language="ja_JP">
+			<Text>自分の大陸に都市を持つ平和な文明を好み、自分の大陸に存在する都市国家や文明に対して戦争をしかける文明を憎む。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL" Language="ja_JP">
+			<Text>トルーマンは自分と同じ大陸にある平和的な文明を好む</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED" Language="ja_JP">
+			<Text>トルーマンは自分と同じ大陸に存在する文明への攻撃を好まない</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
