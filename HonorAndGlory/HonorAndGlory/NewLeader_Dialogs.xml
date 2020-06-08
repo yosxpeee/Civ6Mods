@@ -80,5 +80,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TRUMAN_ANY" Language="en_US">
 			<Text>No man is above the law. It behooves you to remember that.</Text>
 		</Replace>
+		<!-- チャーチル -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="en_US">
+			<Text>Please accept my warmest thanks for your kind endeavors on the continent we share.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="en_US">
+			<Text>You tread on dangerous waters in the face of England and her loyal colonies.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

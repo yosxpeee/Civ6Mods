@@ -123,7 +123,7 @@
 	</Agendas>
 	<RandomAgendas>
 	</RandomAgendas>
-	<!-- ランダムアジェンダの確立 -->
+	<!-- ランダムアジェンダの確率 -->
 	<AgendaPreferredLeaders>
 		<Row AgendaType="AGENDA_NUKE_LOVER" LeaderType="LEADER_HAG_TRUMAN" PercentageChance="70"/>
 	</AgendaPreferredLeaders>

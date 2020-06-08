@@ -162,6 +162,19 @@
 			<Alt3PrimaryColor>COLOR_STANDARD_ORANGE_MD_HAG</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_YELLOW_DK_HAG</Alt3SecondaryColor>
 		</Row>
+		<!-- チャーチル -->
+		<Row>
+			<Type>LEADER_HAG_CHURCHILL</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_HAG_CHURCHILL_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_HAG_CHURCHILL_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_AQUA_MD_HAG</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_RED_DK_HAG</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_GREEN_LT_HAG</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_BLUE_MD_HAG</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_DK_HAG</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_LT_HAG</Alt3SecondaryColor>
+		</Row>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->

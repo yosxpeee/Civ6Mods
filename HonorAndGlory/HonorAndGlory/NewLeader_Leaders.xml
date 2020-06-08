@@ -38,6 +38,9 @@
 		<!-- トルーマン -->
 		<Row Type="LEADER_HAG_TRUMAN"              Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_TRUMAN"        Kind="KIND_TRAIT"/>
+		<!-- チャーチル -->
+		<Row Type="LEADER_HAG_CHURCHILL"           Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_CHURCHILL"     Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -107,6 +110,12 @@
 			<Name>LOC_LEADER_HAG_TRUMAN_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- チャーチル -->
+		<Row>
+			<LeaderType>LEADER_HAG_CHURCHILL</LeaderType>
+			<Name>LOC_LEADER_HAG_CHURCHILL_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
@@ -121,6 +130,7 @@
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  Quote="LOC_LEADER_HAG_ADOLF_HITLER_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     Quote="LOC_LEADER_HAG_MUSSOLINI_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_TRUMAN"        Quote="LOC_LEADER_HAG_TRUMAN_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_CHURCHILL"     Quote="LOC_LEADER_HAG_CHURCHILL_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
@@ -157,6 +167,7 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/>	<!-- 外交勝利狙い -->
 		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_LEADER_HAG_TRUMAN"/>
+		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_HAG_CHURCHILL"/>
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -174,6 +185,7 @@
 		<Row TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"    Name="LOC_TRAIT_UNIT_HAG_GERMANY_JU87_NAME"/>
 		<Row TraitType="TRAIT_LEADER_HAG_MUSSOLINI"     Name="LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME"     Description="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_TRUMAN"        Name="LOC_TRAIT_LEADER_HAG_TRUMAN_NAME"        Description="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_CHURCHILL"     Name="LOC_TRAIT_LEADER_HAG_CHURCHILL_NAME"     Description="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -407,6 +419,9 @@
 			<TraitType>TRAIT_LEADER_HAG_TRUMAN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_THERMONUCLEARDEVICE_PRODUCTION</ModifierId>
 		</Row>
+		<!-- チャーチル -->
+		<!-- 近接、騎乗兵、対騎兵の上陸攻撃ペナルティなし -->
+		<!-- 空軍および空母の生産力+50% -->
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -1366,16 +1381,20 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     AgendaType="AGENDA_HAG_BLACKSHIRTS"/>
 		<!-- トルーマン：トルーマン・ドクトリン(中身はテディの棍棒外交と同じ) -->
 		<Row LeaderType="LEADER_HAG_TRUMAN"        AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"/>
+		<!-- チャーチル：(中身は・・・どうするかね？暫定でヴィクトリアと同じ。) -->
+		<Row LeaderType="LEADER_HAG_CHURCHILL"     AgendaType="AGENDA_SUN_NEVER_SETS"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
-		<!-- チトー、スターリン、ヒトラー、ムッソリーニはなし -->
+		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、はなし -->
 		<Row LeaderType="LEADER_HAG_MENELIK2"     ReligionType="RELIGION_ORTHODOXY"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"     ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"        ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ReligionType="RELIGION_BUDDHISM"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"      ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_TRUMAN"       ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_CHURCHILL"    ReligionType="RELIGION_CATHOLICISM"/>
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>

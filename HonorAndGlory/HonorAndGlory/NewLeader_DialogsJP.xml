@@ -80,5 +80,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_TRUMAN_ANY" Language="ja_JP">
 			<Text>何人たりとも法を無視することはできない。それを忘れてはいかんな。</Text>
 		</Replace>
+		<!-- チャーチル -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="ja_JP">
+			<Text>我々が分かち合う大陸への心遣いに、心から感謝する。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="ja_JP">
+			<Text>イギリスとその忠実なる植民地を前にして、危うい橋を渡ろうというのだな？</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

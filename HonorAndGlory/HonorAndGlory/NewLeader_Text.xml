@@ -68,6 +68,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Detail)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_CHURCHILL_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_CHURCHILL_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- メネリク2世 -->
@@ -154,6 +160,10 @@
 		</Row>
 		<!-- トルーマン -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+		<!-- チャーチル -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_CHURCHILL_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
 		
@@ -1088,6 +1098,12 @@
 		<Row Tag="LOC_LEADER_HAG_MUSSOLINI_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_TRUMAN_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_CHURCHILL_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="en_US">
@@ -1121,6 +1137,9 @@
 			<Text>Loading Text</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TRUMAN_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_CHURCHILL_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
 		

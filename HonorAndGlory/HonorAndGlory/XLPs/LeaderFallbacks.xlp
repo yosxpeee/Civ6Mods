@@ -64,6 +64,11 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_TRUMAN"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_TRUMAN"/>
 		</Element>
+		<!-- チャーチル -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_CHURCHILL"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_CHURCHILL"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

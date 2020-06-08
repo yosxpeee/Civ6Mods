@@ -224,6 +224,15 @@
 			<Type>COLOR_PLAYER_LEADER_HAG_TRUMAN_SECONDARY</Type>
 			<Color>1,42,108,255</Color><!-- 紺 -->
 		</Row>
+		<!-- チャーチル -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_CHURCHILL_PRIMARY</Type>
+			<Color>249,249,249,255</Color><!-- 白 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_CHURCHILL_SECONDARY</Type>
+			<Color>202,20,21,255</Color><!-- 赤 -->
+		</Row>
 		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->

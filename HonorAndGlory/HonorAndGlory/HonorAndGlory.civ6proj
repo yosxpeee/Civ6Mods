@@ -28,7 +28,8 @@
                     Players:Expansion2_Players::LEADER_HAG_SIMON_BOLIVAR,
                     Players:Expansion2_Players::LEADER_HAG_ADOLF_HITLER,
                     Players:Expansion2_Players::LEADER_HAG_MUSSOLINI,
-                    Players:Expansion2_Players::LEADER_HAG_TRUMAN
+                    Players:Expansion2_Players::LEADER_HAG_TRUMAN,
+                    Players:Expansion2_Players::LEADER_HAG_CHURCHILL
                 </LeaderPlayable>
             </Criteria>
         </ActionCriteria>]]></ActionCriteriaData>
@@ -904,6 +905,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_ADOLF_HITLER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_CHURCHILL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_CHURCHILL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_HIDEKI_TOJO.dds">
@@ -2040,6 +2047,12 @@
     <Content Include="Textures\LEADER_HAG_ADOLF_HITLER_NEUTRAL.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\LEADER_HAG_CHURCHILL_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_HAG_CHURCHILL_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\LEADER_HAG_HIDEKI_TOJO_NEUTRAL.dds">
       <SubType>Content</SubType>
     </Content>
@@ -2317,6 +2330,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_HAG_ADOLF_HITLER.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_CHURCHILL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\PORTRAIT_LEADER_HAG_CHURCHILL.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_HAG_HIDEKI_TOJO.dds">

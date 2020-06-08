@@ -68,5 +68,11 @@
 			<Leader>LEADER_HAG_TRUMAN</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- チャーチル -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_CHURCHILL</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

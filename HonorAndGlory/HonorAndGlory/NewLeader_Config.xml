@@ -188,6 +188,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_TRUMAN</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_TRUMAN</Portrait>
 		</Row>
+		<!-- イギリス(チャーチル) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_ENGLAND</CivilizationType>
+			<LeaderType>LEADER_HAG_CHURCHILL</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_ENGLAND_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_ENGLAND</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_CHURCHILL_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_CHURCHILL</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_ENGLAND</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_CHURCHILL_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_CHURCHILL</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_CHURCHILL</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- メネリク2世 -->
@@ -389,6 +406,7 @@
 			 Name="LOC_UNIT_AMERICAN_P51_NAME"
 			 Description="LOC_UNIT_AMERICAN_P51_DESCRIPTION" 
 			 SortIndex="10"/>
+		<!--
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_AMERICA" 
 			 LeaderType="LEADER_HAG_TRUMAN" 
@@ -397,12 +415,41 @@
 			 Name="LOC_UNIT_AMERICAN_ROUGH_RIDER_NAME" 
 			 Description="LOC_UNIT_AMERICAN_ROUGH_RIDER_DESCRIPTION" 
 			 SortIndex="20"/>
-		<Row CivilizationType="CIVILIZATION_AMERICA" 
+		 -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_AMERICA" 
 			 LeaderType="LEADER_HAG_TRUMAN" 
 			 Type="BUILDING_FILM_STUDIO" 
 			 Icon="ICON_BUILDING_FILM_STUDIO" 
 			 Name="LOC_BUILDING_FILM_STUDIO_NAME" 
 			 Description="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" 
 			 SortIndex="30"/>
+		<!-- チャーチル -->
+		<!--
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ENGLAND" 
+			 LeaderType="LEADER_VICTORIA" 
+			 Type="UNIT_ENGLISH_REDCOAT" 
+			 Icon="ICON_UNIT_ENGLISH_REDCOAT" 
+			 Name="LOC_UNIT_ENGLISH_REDCOAT_NAME" 
+			 Description="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION" 
+			 SortIndex="10" />
+		-->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ENGLAND" 
+			 LeaderType="LEADER_HAG_CHURCHILL" 
+			 Type="UNIT_ENGLISH_SEADOG" 
+			 Icon="ICON_UNIT_ENGLISH_SEADOG" 
+			 Name="LOC_UNIT_ENGLISH_SEADOG_NAME" 
+			 Description="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION" 
+			 SortIndex="20" />
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_ENGLAND" 
+			 LeaderType="LEADER_HAG_CHURCHILL" 
+			 Type="DISTRICT_ROYAL_NAVY_DOCKYARD" 
+			 Icon="ICON_DISTRICT_ROYAL_NAVY_DOCKYARD" 
+			 Name="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_NAME" 
+			 Description="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION" 
+			 SortIndex="30" />
 	</PlayerItems>
 </GameData>

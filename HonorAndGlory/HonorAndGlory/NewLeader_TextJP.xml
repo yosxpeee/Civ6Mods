@@ -68,6 +68,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_CHURCHILL_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_CHURCHILL_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- メネリク2世 -->
@@ -155,6 +161,10 @@
 		<!-- トルーマン -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>アメリカ合衆国の政治家。上院議員、第34代副大統領、第33代大統領を歴任した。フランクリン・ルーズベルトの死を受けて1945年に副大統領から大統領に昇格した。第二次世界大戦の終了から冷戦の始まり、国際連合、CIA、NSA、ペンタゴン(国防総省)の創設および朝鮮戦争などに関与した。</Text>
+		</Row>
+		<!-- チャーチル -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_TRUMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
 		</Row>
 		
 		<!-- Civilization specific historical text. -->
@@ -1089,7 +1099,10 @@
 			<Text>流された血により、時は進んでいる</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TRUMAN_QUOTE" Language="ja_JP">
-			<Text>流された血により、時は進んでいる</Text>
+			<Text>指導者の一言コメント</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_CHURCHILL_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
 		</Row>
 		
 		<!-- Leader DOM -->
@@ -1124,6 +1137,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TRUMAN_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_CHURCHILL_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		

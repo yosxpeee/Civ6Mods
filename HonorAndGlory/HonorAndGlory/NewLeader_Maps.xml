@@ -73,6 +73,7 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_STALIN"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_ADOLF_HITLER"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_CHURCHILL"/>
 		
 		<!-- 地球(GS) -->
 		<!-- GSのマップへ追加している(このMODの指導者のみ) -->
@@ -86,6 +87,8 @@
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_STALIN"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_ADOLF_HITLER"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TRUMAN"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_CHURCHILL"/>
 	</MapLeaders>
 	<ParameterDependencies>
 		<Row ParameterId="Resources"     ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map"/>
@@ -105,7 +108,8 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="2494" Type="LEADER" Value="LEADER_HAG_STALIN"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="2138" Type="LEADER" Value="LEADER_HAG_ADOLF_HITLER"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="794"  Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
-
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="1955" Type="LEADER" Value="LEADER_HAG_CHURCHILL"/>
+		
 		<!-- 地球(GS) -->
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="2905" Type="LEADER" Value="LEADER_HAG_MENELIK2"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3650" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
@@ -117,5 +121,7 @@
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3995" Type="LEADER" Value="LEADER_HAG_STALIN"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3822" Type="LEADER" Value="LEADER_HAG_ADOLF_HITLER"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3318" Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3548" Type="LEADER" Value="LEADER_HAG_TRUMAN"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3984" Type="LEADER" Value="LEADER_HAG_CHURCHILL"/>
 	</MapStartPositions>
 </GameData>

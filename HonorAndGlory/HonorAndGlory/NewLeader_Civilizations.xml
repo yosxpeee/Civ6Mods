@@ -123,6 +123,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY"      LeaderType="LEADER_HAG_MUSSOLINI"     CapitalName="LOC_CITY_NAME_ROME" />
 		<Row CivilizationType="CIVILIZATION_HAG_USSR"       LeaderType="LEADER_HAG_STALIN"        CapitalName="LOC_CITY_NAME_MOSCOW" />
 		<Row CivilizationType="CIVILIZATION_AMERICA"        LeaderType="LEADER_HAG_TRUMAN"        CapitalName="LOC_CITY_NAME_WASHINGTON" />
+		<Row CivilizationType="CIVILIZATION_ENGLAND"        LeaderType="LEADER_HAG_CHURCHILL"     CapitalName="LOC_CITY_NAME_LONDON" />
 	</CivilizationLeaders>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>
