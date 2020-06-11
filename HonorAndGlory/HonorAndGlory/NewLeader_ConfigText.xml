@@ -222,17 +222,17 @@
 			<Text>Fair Deal</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Housing] Housing to all cities. +50% [ICON_PRODUCTION] Production towards Industrial Zone and Dam buildings. +25% [ICON_Production] Production to nuclear program projects and Nuclear Devices.</Text>
+			<Text>+2 [ICON_Housing] Housing to all cities. +30% [ICON_PRODUCTION] Production towards Industrial Zone and Dam buildings. +25% [ICON_Production] Production to nuclear program projects and Nuclear Devices.</Text>
 		</Row>
 		<!-- 指導者(チャーチル) -->
 		<Row Tag="LOC_LEADER_HAG_CHURCHILL_NAME" Language="en_US">
 			<Text>Winston Churchill</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_CHURCHILL_NAME" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>The Greatest English Man</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>+50% [ICON_Production] Production toward all air units and toward Carriers. No [ICON_Strength] Combat Strength and [ICON_Movement] Movement penalty when attacking from sea.</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->

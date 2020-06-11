@@ -167,7 +167,9 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/>	<!-- 外交勝利狙い -->
 		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_LEADER_HAG_TRUMAN"/>
+		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_HAG_CHURCHILL"/>
+		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -420,8 +422,44 @@
 			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_THERMONUCLEARDEVICE_PRODUCTION</ModifierId>
 		</Row>
 		<!-- チャーチル -->
-		<!-- 近接、騎乗兵、対騎兵の上陸攻撃ペナルティなし -->
-		<!-- 空軍および空母の生産力+50% -->
+		<!-- 全ユニットの上陸攻撃ペナルティなし -->
+		<!-- 空軍および空母の生産力+30% -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_BONUS_IGNORE_SHORES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_NAVALCARRIER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_NAVALCARRIER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRFIGHTER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRFIGHTER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRFIGHTER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRBOMBER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRBOMBER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRBOMBER_PRODUCTION</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -630,6 +668,45 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_THERMONUCLEARDEVICE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PROJECT_PRODUCTION</ModifierType>
+		</Row>
+
+		<!-- 全ユニットの上陸攻撃ペナルティなし -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_BONUS_IGNORE_SHORES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<!-- 空軍および空母の生産力+30% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_NAVALCARRIER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_NAVALCARRIER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRFIGHTER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRFIGHTER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRFIGHTER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRBOMBER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRBOMBER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRBOMBER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -1015,6 +1092,134 @@
 			<ModifierId>TRAIT_LEADER_HAG_TRUMAN_THERMONUCLEARDEVICE_PRODUCTION</ModifierId>
 			<Name>Amount</Name>
 			<Value>25</Value>
+		</Row>
+
+		<!-- 全ユニットの上陸攻撃ペナルティなし -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_BONUS_IGNORE_SHORES</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>AMPHIBIOUS_BONUS_IGNORE_SHORES</Value>
+		</Row>
+		<!-- 空軍および空母の生産力+30% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_CARRIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_CARRIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_FIGHTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_FIGHTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_FIGHTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRFIGHTER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_BOMBER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_BOMBER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_ATOMIC_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_BOMBER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRBOMBER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->

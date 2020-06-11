@@ -169,6 +169,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_TRUMAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_TRUMAN256.dds"/>
+		<!-- チャーチル -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL256.dds"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -353,8 +361,8 @@
 		<Row Name="ICON_LEADER_HAG_MUSSOLINI" Atlas="ICON_ATLAS_LEADER_HAG_MUSSOLINI" Index="0"/>
 		<!-- トルーマン -->
 		<Row Name="ICON_LEADER_HAG_TRUMAN" Atlas="ICON_ATLAS_LEADER_HAG_TRUMAN" Index="0"/>
-		<!-- トルーマン -->
-		<Row Name="ICON_LEADER_HAG_CHURCHILL" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<!-- チャーチル -->
+		<Row Name="ICON_LEADER_HAG_CHURCHILL" Atlas="ICON_ATLAS_LEADER_HAG_CHURCHILL" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->

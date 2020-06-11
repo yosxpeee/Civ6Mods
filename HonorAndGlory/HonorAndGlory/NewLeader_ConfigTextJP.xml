@@ -222,17 +222,17 @@
 			<Text>フェアディール政策</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION" Language="ja_JP">
-			<Text>全ての都市に[ICON_Housing] 住宅+2。工業地帯とダムの建造物に対する [ICON_PRODUCTION] 生産力+50%。核開発プロジェクトと核兵器の [ICON_Production] 生産力+25%。</Text>
+			<Text>全ての都市に [ICON_Housing] 住宅+2。工業地帯とダムの建造物に対する [ICON_PRODUCTION] 生産力+50%。核開発プロジェクトと核兵器の [ICON_Production] 生産力+25%。</Text>
 		</Row>
 		<!-- 指導者(チャーチル) -->
 		<Row Tag="LOC_LEADER_HAG_CHURCHILL_NAME" Language="ja_JP">
 			<Text>ウィンストン・チャーチル</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_CHURCHILL_NAME" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>もっとも偉大なイギリス人</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION" Language="ja_JP">
-			<Text>未定</Text>
+			<Text>すべての航空ユニットおよび空母に対する [ICON_Production] 生産力+30%。全てのユニットは海からの攻撃時、[ICON_Strength] 戦闘力と [ICON_Movement] 移動力にペナルティが発生しない。</Text>
 		</Row>
 		
 		<!-- UU(マハール・セファリ) -->
