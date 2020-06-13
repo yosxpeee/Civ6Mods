@@ -36,11 +36,13 @@
 		<Row Type="LEADER_HAG_MUSSOLINI"           Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_MUSSOLINI"     Kind="KIND_TRAIT"/>
 		<!-- トルーマン -->
-		<Row Type="LEADER_HAG_TRUMAN"              Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_TRUMAN"        Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_TRUMAN"                Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_TRUMAN"          Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH" Kind="KIND_TRAIT"/>
 		<!-- チャーチル -->
 		<Row Type="LEADER_HAG_CHURCHILL"           Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_CHURCHILL"     Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_AMERICAN_JAEGER" Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -167,27 +169,31 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/>	<!-- 外交勝利狙い -->
 		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_LEADER_HAG_TRUMAN"/>
+		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_UNIT_HAG_AMERICAN_JAEGER"/>
 		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_HAG_CHURCHILL"/>
+		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_HAG_MENELIK2"      Name="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME"      Description="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_NAPOLEON"      Name="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME"      Description="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"         Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"         Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_TITO"          Name="LOC_TRAIT_LEADER_HAG_TITO_NAME"          Description="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"  Name="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME"  Description="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"   Name="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME"   Description="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION"/>
-		<Row TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"      Name="LOC_TRAIT_UNIT_HAG_JAPAN_ZERO_NAME"/>
-		<Row TraitType="TRAIT_LEADER_HAG_MARIA_I"       Name="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME"       Description="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_STALIN"        Name="LOC_TRAIT_LEADER_HAG_STALIN_NAME"        Description="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION"/>
-		<Row TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"     Name="LOC_TRAIT_UNIT_HAG_RUSSIAN_T34_NAME"/>
-		<Row TraitType="TRAIT_LEADER_HAG_ADOLF_HITLER"  Name="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME"  Description="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION"/>
-		<Row TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"    Name="LOC_TRAIT_UNIT_HAG_GERMANY_JU87_NAME"/>
-		<Row TraitType="TRAIT_LEADER_HAG_MUSSOLINI"     Name="LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME"     Description="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_TRUMAN"        Name="LOC_TRAIT_LEADER_HAG_TRUMAN_NAME"        Description="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_HAG_CHURCHILL"     Name="LOC_TRAIT_LEADER_HAG_CHURCHILL_NAME"     Description="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_MENELIK2"        Name="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME"      Description="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_NAPOLEON"        Name="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME"      Description="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"           Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"         Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_TITO"            Name="LOC_TRAIT_LEADER_HAG_TITO_NAME"          Description="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"    Name="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_NAME"  Description="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"     Name="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_NAME"   Description="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"        Name="LOC_TRAIT_UNIT_HAG_JAPAN_ZERO_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_MARIA_I"         Name="LOC_TRAIT_LEADER_HAG_MARIA_I_NAME"       Description="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_STALIN"          Name="LOC_TRAIT_LEADER_HAG_STALIN_NAME"        Description="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_RUSSIAN_T34"       Name="LOC_TRAIT_UNIT_HAG_RUSSIAN_T34_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_ADOLF_HITLER"    Name="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_NAME"  Description="LOC_TRAIT_LEADER_HAG_ADOLF_HITLER_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"      Name="LOC_TRAIT_UNIT_HAG_GERMANY_JU87_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_MUSSOLINI"       Name="LOC_TRAIT_LEADER_HAG_MUSSOLINI_NAME"     Description="LOC_TRAIT_LEADER_HAG_MUSSOLINI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_TRUMAN"          Name="LOC_TRAIT_LEADER_HAG_TRUMAN_NAME"        Description="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_AMERICAN_JAEGER"   Name="LOC_TRAIT_UNIT_HAG_AMERICAN_JAEGER_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_CHURCHILL"       Name="LOC_TRAIT_LEADER_HAG_CHURCHILL_NAME"     Description="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH" Name="LOC_TRAIT_UNIT_HAG_ENGLAND_SWORDFISH_NAME"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -1370,6 +1376,16 @@
 		<Row ListType="HAGMussoliniCivics"/>
 		<Row ListType="HAGMussoliniTech"/>
 		<Row ListType="HAGMussoliniWonders"/>
+		<!-- トルーマン -->
+		<Row ListType="HAGTrumanDistrict"/>
+		<Row ListType="HAGTrumanCivics"/>
+		<Row ListType="HAGTrumanTech"/>
+		<Row ListType="HAGTrumanWonders"/>
+		<!-- チャーチル -->
+		<Row ListType="HAGChurchillDistrict"/>
+		<Row ListType="HAGChurchillCivics"/>
+		<Row ListType="HAGChurchillTech"/>
+		<Row ListType="HAGChurchillWonders"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- メネリク2世 -->
@@ -1425,10 +1441,20 @@
 		<Row ListType="HAGHitlerWonders"          LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Buildings"/>
 		<Row ListType="HAGHitlerScience"          LeaderType="TRAIT_LEADER_HAG_ADOLF_HITLER"  System="Yields"/>
 		<!-- ムッソリーニ -->
-		<Row ListType="HAGMussoliniDistrict"      LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"  System="Districts"/>
-		<Row ListType="HAGMussoliniCivics"        LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"  System="Civics"/>
-		<Row ListType="HAGMussoliniTech"          LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"  System="Technologies"/>
-		<Row ListType="HAGMussoliniWonders"       LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"  System="Buildings"/>
+		<Row ListType="HAGMussoliniDistrict"      LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Districts"/>
+		<Row ListType="HAGMussoliniCivics"        LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Civics"/>
+		<Row ListType="HAGMussoliniTech"          LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Technologies"/>
+		<Row ListType="HAGMussoliniWonders"       LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Buildings"/>
+		<!-- トルーマン -->
+		<Row ListType="HAGTrumanDistrict"         LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Districts"/>
+		<Row ListType="HAGTrumanCivics"           LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Civics"/>
+		<Row ListType="HAGTrumanTech"             LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Technologies"/>
+		<Row ListType="HAGTrumanWonders"          LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Buildings"/>
+		<!-- チャーチル -->
+		<Row ListType="HAGChurchillDistrict"      LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Districts"/>
+		<Row ListType="HAGChurchillCivics"        LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Civics"/>
+		<Row ListType="HAGChurchillTech"          LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Technologies"/>
+		<Row ListType="HAGChurchillWonders"       LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Buildings"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- メネリク2世 -->
@@ -1561,6 +1587,37 @@
 		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
 		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_STATUE_LIBERTY"        Favored="true"/><!-- 自由の女神(GS) -->
 		<Row ListType="HAGMussoliniWonders"       Item="BUILDING_VENETIAN_ARSENAL"      Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
+		<!-- トルーマン -->
+		<Row ListType="HAGTrumanDistrict"         Item="DISTRICT_INDUSTRIAL_ZONE"       Favored="true"/><!-- 工業地帯 -->
+		<Row ListType="HAGTrumanCivics"           Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGTrumanCivics"           Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGTrumanCivics"           Item="CIVIC_MOBILIZATION"             Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGTrumanCivics"           Item="CIVIC_SUFFRAGE"                 Favored="true"/><!-- 選挙権/参政権 -->
+		<Row ListType="HAGTrumanCivics"           Item="CIVIC_NUCLEAR_PROGRAM"          Favored="true"/><!-- 核開発 -->
+		<Row ListType="HAGTrumanTech"             Item="TECH_APPRENTICESHIP"            Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGTrumanTech"             Item="TECH_GUNPOWDER"                 Favored="true"/><!-- 火薬 -->
+		<Row ListType="HAGTrumanTech"             Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGTrumanTech"             Item="TECH_NUCLEAR_FUSION"            Favored="true"/><!-- 核融合 -->
+		<Row ListType="HAGTrumanTech"             Item="TECH_NUCLEAR_FISSION"           Favored="true"/><!-- 核分裂 -->
+		<Row ListType="HAGTrumanWonders"          Item="BUILDING_OXFORD_UNIVERSITY"     Favored="true"/><!-- オックスフォード大学 -->
+		<Row ListType="HAGTrumanWonders"          Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
+		<Row ListType="HAGTrumanWonders"          Item="BUILDING_STATUE_LIBERTY"        Favored="true"/><!-- 自由の女神(GS) -->
+		<Row ListType="HAGTrumanWonders"          Item="BUILDING_RUHR_VALLEY"           Favored="true"/><!-- ルール地方 -->
+		<!-- チャーチル -->
+		<Row ListType="HAGChurchillDistrict"      Item="DISTRICT_AERODROME"             Favored="true"/><!-- 飛行場 -->
+		<Row ListType="HAGChurchillCivics"        Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGChurchillCivics"        Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGChurchillCivics"        Item="CIVIC_MOBILIZATION"             Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGChurchillCivics"        Item="CIVIC_SUFFRAGE"                 Favored="true"/><!-- 選挙権/参政権 -->
+		<Row ListType="HAGChurchillTech"          Item="TECH_APPRENTICESHIP"            Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGChurchillTech"          Item="TECH_GUNPOWDER"                 Favored="true"/><!-- 火薬 -->
+		<Row ListType="HAGChurchillTech"          Item="TECH_FLIGHT"                    Favored="true"/><!-- 航空技術 -->
+		<Row ListType="HAGChurchillTech"          Item="TECH_ELECTRICITY"               Favored="true"/><!-- 電気 -->
+		<Row ListType="HAGChurchillTech"          Item="TECH_ADVANCED_FLIGHT"           Favored="true"/><!-- 高度な航空技術 -->
+		<Row ListType="HAGChurchillWonders"       Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGChurchillWonders"       Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
+		<Row ListType="HAGChurchillWonders"       Item="BUILDING_EIFFEL_TOWER"          Favored="true"/><!-- エッフェル塔 -->
+		<Row ListType="HAGChurchillWonders"       Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
@@ -1586,8 +1643,8 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     AgendaType="AGENDA_HAG_BLACKSHIRTS"/>
 		<!-- トルーマン：トルーマン・ドクトリン(中身はテディの棍棒外交と同じ) -->
 		<Row LeaderType="LEADER_HAG_TRUMAN"        AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"/>
-		<!-- チャーチル：(中身は・・・どうするかね？暫定でヴィクトリアと同じ。) -->
-		<Row LeaderType="LEADER_HAG_CHURCHILL"     AgendaType="AGENDA_SUN_NEVER_SETS"/>
+		<!-- チャーチル：大西洋憲章(中身はギルガメシュのエンキドゥの盟友と同じ) -->
+		<Row LeaderType="LEADER_HAG_CHURCHILL"     AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
@@ -1614,6 +1671,7 @@
 		<Row Type="LEADER_HAG_ADOLF_HITLER"  BackgroundImage="Hitler_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_MUSSOLINI"     BackgroundImage="Mussolini_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_TRUMAN"        BackgroundImage="Truman_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_CHURCHILL"     BackgroundImage="Churchill_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_MENELIK2"      ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"     BackgroundImage="Menelik2_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"      PlayDawnOfManAudio="1"/>
@@ -1627,5 +1685,6 @@
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  ForegroundImage="Hitler_LoadingInfo_Foreground.dds"       BackgroundImage="Hitler_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_ADOLF_HITLER_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     ForegroundImage="Mussolini_LoadingInfo_Foreground.dds"    BackgroundImage="Mussolini_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_TRUMAN"        ForegroundImage="Truman_LoadingInfo_Foreground.dds"       BackgroundImage="Truman_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_TRUMAN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_CHURCHILL"     ForegroundImage="Churchill_LoadingInfo_Foreground.dds"    BackgroundImage="Churchill_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_CHURCHILL_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

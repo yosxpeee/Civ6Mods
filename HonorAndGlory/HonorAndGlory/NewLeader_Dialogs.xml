@@ -82,10 +82,10 @@
 		</Replace>
 		<!-- チャーチル -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="en_US">
-			<Text>Please accept my warmest thanks for your kind endeavors on the continent we share.</Text>
+			<Text>You are a good friend and ally. I will remember this.</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="en_US">
-			<Text>You tread on dangerous waters in the face of England and her loyal colonies.</Text>
+			<Text>If you harm my friends, you will face the might of England; this I promise you.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

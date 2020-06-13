@@ -181,7 +181,7 @@
 			<LeaderName>LOC_LEADER_HAG_TRUMAN_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_HAG_TRUMAN</LeaderIcon>
 			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_AMERICA</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_TRUMAN_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION</LeaderAbilityDescription>
@@ -406,16 +406,14 @@
 			 Name="LOC_UNIT_AMERICAN_P51_NAME"
 			 Description="LOC_UNIT_AMERICAN_P51_DESCRIPTION" 
 			 SortIndex="10"/>
-		<!--
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_AMERICA" 
 			 LeaderType="LEADER_HAG_TRUMAN" 
-			 Type="UNIT_AMERICAN_ROUGH_RIDER" 
-			 Icon="ICON_UNIT_AMERICAN_ROUGH_RIDER" 
-			 Name="LOC_UNIT_AMERICAN_ROUGH_RIDER_NAME" 
-			 Description="LOC_UNIT_AMERICAN_ROUGH_RIDER_DESCRIPTION" 
+			 Type="UNIT_HAG_AMERICAN_JAEGER" 
+			 Icon="ICON_UNIT_HAG_AMERICAN_JAEGER" 
+			 Name="LOC_UNIT_HAG_AMERICAN_JAEGER_NAME" 
+			 Description="LOC_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION" 
 			 SortIndex="20"/>
-		 -->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_AMERICA" 
 			 LeaderType="LEADER_HAG_TRUMAN" 
@@ -425,16 +423,14 @@
 			 Description="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" 
 			 SortIndex="30"/>
 		<!-- チャーチル -->
-		<!--
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_ENGLAND" 
-			 LeaderType="LEADER_VICTORIA" 
-			 Type="UNIT_ENGLISH_REDCOAT" 
-			 Icon="ICON_UNIT_ENGLISH_REDCOAT" 
-			 Name="LOC_UNIT_ENGLISH_REDCOAT_NAME" 
-			 Description="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION" 
+			 LeaderType="LEADER_HAG_CHURCHILL" 
+			 Type="UNIT_HAG_ENGLAND_SWORDFISH" 
+			 Icon="ICON_UNIT_HAG_ENGLAND_SWORDFISH" 
+			 Name="LOC_UNIT_HAG_ENGLAND_SWORDFISH_NAME" 
+			 Description="LOC_UNIT_HAG_ENGLAND_SWORDFISH_DESCRIPTION" 
 			 SortIndex="10" />
-		-->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_ENGLAND" 
 			 LeaderType="LEADER_HAG_CHURCHILL" 
@@ -449,7 +445,7 @@
 			 Type="DISTRICT_ROYAL_NAVY_DOCKYARD" 
 			 Icon="ICON_DISTRICT_ROYAL_NAVY_DOCKYARD" 
 			 Name="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_NAME" 
-			 Description="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_DESCRIPTION" 
+			 Description="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION" 
 			 SortIndex="30" />
 	</PlayerItems>
 </GameData>

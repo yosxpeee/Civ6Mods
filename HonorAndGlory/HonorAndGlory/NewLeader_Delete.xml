@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<!-- 大将軍のナポレオン、ティムール、シモンボリバルを削除 -->
+		<!-- 大将軍のナポレオン、ティムールを削除 -->
 		<Delete Type="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE"/>
 		<Delete Type="GREAT_PERSON_INDIVIDUAL_TIMUR"/>
 		<!-- 都市国家のリスボンを削除 -->

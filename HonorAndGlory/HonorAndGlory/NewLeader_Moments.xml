@@ -3,7 +3,7 @@
 	<!-- 歴史年表用の画像 -->
 	<MomentIllustrations>
 		<!-- ユニーク -->
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"       Texture="Moment_Spy_MaxLevel.dds"/><!-- スパイ昇進の使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"       Texture="Moment_Spy_MaxLevel.dds"/><!-- スパイMAX昇進の使いまわし -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_ETHIOPIA_STELE"          Texture="Moment_HAG_Ethiopia_Stele.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_TIMURID_OBSERVATORY"     Texture="Moment_HAG_Timurid_Observatory.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_TIMURID_ARBAN"               Texture="Moment_UniqueUnit_Arab.dds"/><!-- マムルークの使いまわし -->
@@ -19,7 +19,9 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_ITALY_DUOMO"          Texture="Moment_DistrictBuiltHolySite.dds"/><!-- 隣接+3以上の聖地を建てたときの使い回し -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ITALY_CARABINIERI"           Texture="Moment_UniqueUnit_France_GardeImperiale.dds"/><!-- 皇帝近衛兵の使いまわし -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" Texture="Moment_HAG_USSR_SpaceLabo.dds"/>
-		
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ENGLAND_SWORDFISH"           Texture="Moment_HAG_ChurchillSwordfish.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_AMERICAN_JAEGER"             Texture="Moment_UniqueUnit_Australia.dds"/><!-- ディガーの使いまわし -->
+
 		<!-- 宗教 -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"      Texture="Moment_Religion_HAG_Jainism.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_MANICHAEISM"  Texture="Moment_Religion_HAG_Manichaeism.dds"/>

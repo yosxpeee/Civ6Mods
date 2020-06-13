@@ -813,6 +813,31 @@
 			<m_EntryID text="ICON_UNIT_HAG_ITALY_CARABINIERI256"/>
 			<m_ObjectName text="ICON_UNIT_HAG_ITALY_CARABINIERI256"/>
 		</Element>
+		<!-- ユニット(ソードフィッシュ) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ENGLAND_SWORDFISH22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ENGLAND_SWORDFISH22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ENGLAND_SWORDFISH32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ENGLAND_SWORDFISH32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ENGLAND_SWORDFISH38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ENGLAND_SWORDFISH38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ENGLAND_SWORDFISH50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ENGLAND_SWORDFISH50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ENGLAND_SWORDFISH80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ENGLAND_SWORDFISH80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_ENGLAND_SWORDFISH256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_ENGLAND_SWORDFISH256"/>
+		</Element>
 		
 		<!-- 地形改善(カスバ) -->
 		<Element>

@@ -16,6 +16,7 @@
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                     Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"                                Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"                                Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                             Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
@@ -74,6 +75,7 @@
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"/>
 		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
 		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"            Tag="CLASS_HAG_GERMANY_JU87"/>
+		<Row Type="ABILITY_UNIT_HAG_AMERICAN_JAEGER"         Tag="CLASS_HAG_AMERICAN_JAEGER"/>
 	</TypeTags>
 	<!-- アビリティの名前、説明 -->
 	<UnitAbilities>
@@ -85,12 +87,13 @@
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD"         Name="LOC_ABILITY_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD_NAME"         Description="LOC_ABILITY_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD_DESCRIPTION"        Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING"  Name="LOC_ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING_NAME"  Description="LOC_ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING_DESCRIPTION" Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE"    Name="LOC_ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE_NAME"    Description="LOC_ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE_DESCRIPTION"   Inactive="true"/>
-		<Row UnitAbilityType="ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS"        Name="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_NAME"        Description="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS"        Name="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_NAME"        Description="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_DESCRIPTION"       Inactive="true"/>
 		<!-- ユニークユニット -->
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                     Name="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"                     Description="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                     Name="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"                     Description="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_PORTUGAL_NAU"                                Name="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_NAME"                                Description="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_GERMANY_JU87"                                Name="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_NAME"                                Description="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                             Name="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_NAME"                             Description="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -98,35 +101,6 @@
 		<Row>
 			<UnitAbilityType>ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE</UnitAbilityType>
 			<ModifierId>HAG_MIRAN_SHAH_BONUS_EXPERIENCE</ModifierId>
-		</Row>
-		<!-- M48山砲：丘陵で移動力が落ちない -->
-		<Row>
-			<UnitAbilityType>ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN</UnitAbilityType>
-			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId><!-- GSのグルジアのヘヴスルと同じ -->
-		</Row>
-		<!-- ベルベル人の騎兵：砂漠隣接で戦闘力+5 -->
-		<Row>
-			<UnitAbilityType>ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY</UnitAbilityType>
-			<ModifierId>COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL</ModifierId>
-		</Row>
-		<!-- ナウ船：陣形を組むと移動力を共有する -->
-		<Row>
-			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
-			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId><!-- インドネシアのジョングと同じ(Modifierのデータはバニラにある) -->
-		</Row>
-		<!-- ナウ船：4タイル以内の洋上にいる交易商ガード -->
-		<Row>
-			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
-			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId><!-- GSのフェニキアのビレームと同じ -->
-		</Row>
-		<!-- Ju87：重騎兵と海洋遠距離に対し戦闘力+10 -->
-		<Row>
-			<UnitAbilityType>ABILITY_UNIT_HAG_GERMANY_JU87</UnitAbilityType>
-			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY</ModifierId>
-		</Row>
-		<Row>
-			<UnitAbilityType>ABILITY_UNIT_HAG_GERMANY_JU87</UnitAbilityType>
-			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED</ModifierId>
 		</Row>
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス -->
 		<Row>
@@ -157,6 +131,43 @@
 		<Row>
 			<UnitAbilityType>ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</UnitAbilityType>
 			<ModifierId>IMPI_INCREASED_FLANKING_BONUS</ModifierId><!-- RaFのインピと同じ -->
+		</Row>
+		<!-- M48山砲：丘陵で移動力が落ちない -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN</UnitAbilityType>
+			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId>
+			<!-- GSのグルジアのヘヴスルと同じ -->
+		</Row>
+		<!-- ベルベル人の騎兵：砂漠隣接で戦闘力+5 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY</UnitAbilityType>
+			<ModifierId>COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL</ModifierId>
+		</Row>
+		<!-- ナウ船：陣形を組むと移動力を共有する -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
+			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
+			<!-- インドネシアのジョングと同じ(Modifierのデータはバニラにある) -->
+		</Row>
+		<!-- ナウ船：4タイル以内の洋上にいる交易商ガード -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
+			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId>
+			<!-- GSのフェニキアのビレームと同じ -->
+		</Row>
+		<!-- Ju87：重騎兵と海洋遠距離に対し戦闘力+10 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_GERMANY_JU87</UnitAbilityType>
+			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_GERMANY_JU87</UnitAbilityType>
+			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED</ModifierId>
+		</Row>
+		<!-- イェーガー：森林・熱帯雨林にいると戦闘力+5 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_AMERICAN_JAEGER</UnitAbilityType>
+			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<!-- 効果の定義 -->
@@ -201,6 +212,12 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<!-- ノルウェーのベルセルクと同じ条件(WEAKと書いてあるので紛らわしいが・・・) -->
 			<SubjectRequirementSetId>UNIT_WEAK_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 森林・熱帯雨林にいると戦闘力+5 -->
+		<Row>
+			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<!-- 効果のパラメータ -->
@@ -247,6 +264,12 @@
 			<Name>Amount</Name>
 			<Value>3</Value>
 		</Row>
+		<!-- 森林・熱帯雨林にいると戦闘力+5 -->
+		<Row>
+			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
@@ -265,6 +288,11 @@
 			<RequirementSetId>UNIT_IS_CLASS_NAVAL_RANGED_HAG_JU87</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 森林か熱帯雨林にいる -->
+		<Row>
+			<RequirementSetId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<!-- 条件定義 -->
 	<RequirementSetRequirements>
@@ -275,7 +303,8 @@
 		</Row>
 		<Row>
 			<RequirementSetId>ADJECENT_DESERT_REQUIREMENTS_LEADER_HAG_MULAY_ISMAIL</RequirementSetId>
-			<RequirementId>PLOT_IS_DESERT_HILLS_TERRAIN_REQUIREMENT</RequirementId><!-- バニラにある -->
+			<!-- バニラにある -->
+			<RequirementId>PLOT_IS_DESERT_HILLS_TERRAIN_REQUIREMENT</RequirementId>
 		</Row>
 		<!-- 相手が重騎兵 -->
 		<Row>
@@ -286,6 +315,17 @@
 		<Row>
 			<RequirementSetId>UNIT_IS_CLASS_NAVAL_RANGED_HAG_JU87</RequirementSetId>
 			<RequirementId>UNIT_IS_CLASS_NAVAL_RANGED_REQUIREMENT_HAG_JU87</RequirementId>
+		</Row>
+		<!-- 森林か熱帯雨林 -->
+		<Row>
+			<RequirementSetId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT_HAG</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>PLOT_IS_FOREST_REQUIREMENT_HAG</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
@@ -304,6 +344,14 @@
 		<Row>
 			<RequirementId>UNIT_IS_CLASS_NAVAL_RANGED_REQUIREMENT_HAG_JU87</RequirementId>
 			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_FOREST_REQUIREMENT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
@@ -326,6 +374,16 @@
 			<Name>Tag</Name>
 			<Value>CLASS_NAVAL_RANGED</Value>
 		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_FOREST_REQUIREMENT_HAG</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT_HAG</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
 	</RequirementArguments>
 	<!-- 戦闘プレビューのテキスト -->
 	<ModifierStrings>
@@ -334,5 +392,6 @@
 		<Row ModifierId="COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL"  Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
 		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY"            Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY_DESCRIPTION"/>
 		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED"             Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED_DESCRIPTION"/>
+		<Row ModifierId="HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE"   Context="Preview" Text="LOC_ABILITY_HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE_DESCRIPTION"/>
 	</ModifierStrings>
 </GameData>

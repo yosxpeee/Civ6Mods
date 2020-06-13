@@ -1159,6 +1159,44 @@
 		<Row Tag="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED_DESCRIPTION" Language="ja_JP">
 			<Text>海洋遠距離ユニットに対し [ICON_Strength] 戦闘力+10。</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE_DESCRIPTION" Language="ja_JP">
+			<Text>相手が森林・熱帯雨林タイルにいる場合、[ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+
+		<!-- ユニットアビリティの説明文 -->
+		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_NAME" Language="ja_JP">
+			<Text>友好的な領土から4タイル以内にいるユニットの [ICON_Strength] 戦闘力+3。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT_DESCRIPTION" Language="ja_JP">
+			<Text>陸上近接ユニットの [ICON_Movement] 移動力+1。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD_DESCRIPTION" Language="ja_JP">
+			<Text>全ての騎兵ユニットは倒したユニットの基本 [ICON_Strength] 戦闘力の100%に相当する [ICON_GOLD] ゴールドを得る。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING_DESCRIPTION" Language="ja_JP">
+			<Text>全ユニットの防戦時に [ICON_Strength] 戦闘力+3。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE_DESCRIPTION" Language="ja_JP">
+			<Text>有効な同盟1つごとに全ユニットの [ICON_Strength] 戦闘力+3。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_DESCRIPTION" Language="ja_JP">
+			<Text>陸上近接ユニットと海洋近接ユニットは側面攻撃が2倍になる。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION" Language="ja_JP">
+			<Text>丘陵でも [ICON_Movement] 移動ペナルティが発生しない。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION" Language="ja_JP">
+			<Text>砂漠タイルでの [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" Language="ja_JP">
+			<Text>すべての陣形ユニットは護衛の [ICON_Movement] 移動速度を継承する。ナウ船の4タイル以内にいる交易商ユニットは、水域タイルで略奪を受けない。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_DESCRIPTION" Language="ja_JP">
+			<Text>重騎兵および海洋遠距離ユニットに対し [ICON_Strength] 戦闘力+10。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION" Language="ja_JP">
+			<Text>相手が森林・熱帯雨林タイルにいる場合、[ICON_Strength] 戦闘力+5。</Text>
+		</Row>
 		
 		<!-- 隣接ボーナス効果 -->
 		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_GOLD" Language="ja_JP">
@@ -1541,18 +1579,31 @@
 		<Replace Tag="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION" Language="ja_JP">
 			<Text>自分の領土を可能なかぎり広げようとし、小さな領土しか持たない文明を嫌う。</Text>
 		</Replace>
-		<!-- トルーマン・ドクトリン(トルーマン -->
-		<Row Tag="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME" Language="ja_JP">
+		<!-- トルーマン・ドクトリン(トルーマン) -->
+		<Replace Tag="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME" Language="ja_JP">
 			<Text>トルーマン・ドクトリン</Text>
-		</Row>
-		<Row Tag="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION" Language="ja_JP">
 			<Text>自分の大陸に都市を持つ平和な文明を好み、自分の大陸に存在する都市国家や文明に対して戦争をしかける文明を憎む。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL" Language="ja_JP">
 			<Text>トルーマンは自分と同じ大陸にある平和的な文明を好む</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED" Language="ja_JP">
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED" Language="ja_JP">
 			<Text>トルーマンは自分と同じ大陸に存在する文明への攻撃を好まない</Text>
-		</Row>
+		</Replace>
+		<!-- 大西洋憲章(チャーチル) -->
+		<Replace Tag="LOC_AGENDA_HAG_ATLANTIC_CHARTER_NAME" Language="ja_JP">
+			<Text>大西洋憲章</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_ATLANTIC_CHARTER_DESCRIPTION" Language="ja_JP">
+			<Text>長期にわたって同盟を結ぶ意思のある文明を好み、自分の味方や同盟国を非難したり攻撃したりする者を嫌う。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_ATLANTIC_CHARTER_DECLARED_FRIEND" Language="ja_JP">
+			<Text>チャーチルは友好宣言を好む</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND" Language="ja_JP">
+			<Text>チャーチルは自分の友好国に対する非難声明を好まない</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

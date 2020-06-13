@@ -352,6 +352,32 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ITALY_CARABINIERI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>イタリアの国家憲兵。平時にはイタリアの警察機関の一つとして、国家警察（Polizia di Stato）や財務警察（Guardia di Finanza）などとともに警察活動を行う。有事には憲兵および戦闘部隊として機能する。1814年にピエモンテ州に於いて、サルデーニャ王国国王ヴィットーリオ・エマヌエーレ1世により設立されたのが興りである。</Text>
 		</Row>
+		<!-- UU(ソードフィッシュ) -->
+		<Row Tag="LOC_UNIT_HAG_ENGLAND_SWORDFISH_NAME" Language="ja_JP">
+			<Text>ソードフィッシュ</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_ENGLAND_SWORDFISH_DESCRIPTION" Language="ja_JP">
+			<Text>チャーチル固有の近代のユニット。[ICON_Bombard] 砲撃戦闘力90、[ICON_Range] 射程6。[ICON_RESOURCE_IRON] 鉄を使用する。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_ENGLAND_SWORDFISH_NAME" Language="ja_JP">
+			<Text>チャーチル固有のユニット: ソードフィッシュ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ENGLAND_SWORDFISH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>イギリスの航空機メーカーであるフェアリー社が開発し、イギリス海軍航空隊によって使用された三座複葉の雷撃機である。基本性能こそ低かったものの、信頼性・操縦性・汎用性に優れ、複葉機時代の最後を飾った非全金属製軍用機の傑作。ソードフィッシュの意味は、魚類のメカジキから。 </Text>
+		</Row>
+		<!-- UU(イェーガー) -->
+		<Row Tag="LOC_UNIT_HAG_AMERICAN_JAEGER_NAME" Language="ja_JP">
+			<Text>イェーガー</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代のトルーマン固有のユニット。レンジャーに取って代わる。[ICON_Ranged] 長距離戦闘力+5、[ICON_Strength] 戦闘力+10、[ICON_Range] 射程2。相手が森林・熱帯雨林タイルにいるときに [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_AMERICAN_JAEGER_NAME" Language="ja_JP">
+			<Text>トルーマン固有のユニット: イェーガー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_AMERICAN_JAEGER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>近代の軍隊における兵科または兵種の名称(英：jaeger)。もとは猟師、ハンターを意味しており、そこから日本語では猟兵と訳される。17世紀初め頃にスウェーデン陸軍で創設された“騎馬猟兵中隊”が始まりとされている。アメリカ独立戦争においては、英軍に雇われたドイツ人傭兵（Hessian）と大陸軍に加わったドイツ人移民たちの民兵が、互いに猟兵としてライフル銃で戦うことになった。 </Text>
+		</Row>
 		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="ja_JP">

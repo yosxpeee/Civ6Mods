@@ -352,6 +352,32 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ITALY_CARABINIERI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- UU(ソードフィッシュ) -->
+		<Row Tag="LOC_UNIT_HAG_ENGLAND_SWORDFISH_NAME" Language="en_US">
+			<Text>Swordfish</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_ENGLAND_SWORDFISH_DESCRIPTION" Language="en_US">
+			<Text>Churchill unique Modern era unit. 90 [ICON_Bombard] Bombard, 6 [ICON_Range] Range. Use [ICON_RESOURCE_IRON] Iron.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_ENGLAND_SWORDFISH_NAME" Language="en_US">
+			<Text>Churchill unique unit: Swordfish</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ENGLAND_SWORDFISH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- UU(イェーガー) -->
+		<Row Tag="LOC_UNIT_HAG_AMERICAN_JAEGER_NAME" Language="en_US">
+			<Text>Jaeger</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION" Language="en_US">
+			<Text>Truman unique Industrial era unit. Replace the Ranger. +5 [ICON_Ranged] Ranged Strangth, +10 [ICON_Strength] Combat Strength, 2 [ICON_Range] Range. +5 [ICON_Strength] Combat Strength bonus if target is in the forest or jungle.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_AMERICAN_JAEGER_NAME" Language="en_US">
+			<Text>Truman unique unit: Jaeger</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_AMERICAN_JAEGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB(ステッレ) -->
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">

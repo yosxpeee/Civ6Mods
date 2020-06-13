@@ -82,10 +82,10 @@
 		</Replace>
 		<!-- チャーチル -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="ja_JP">
-			<Text>我々が分かち合う大陸への心遣いに、心から感謝する。</Text>
+			<Text>そなたはよき盟友、よき仲間だ。私は忘れんぞ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="ja_JP">
-			<Text>イギリスとその忠実なる植民地を前にして、危うい橋を渡ろうというのだな？</Text>
+			<Text>私の友人を傷つければ、大英帝国の力を身を持って知ることになる。これは絶対だ。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

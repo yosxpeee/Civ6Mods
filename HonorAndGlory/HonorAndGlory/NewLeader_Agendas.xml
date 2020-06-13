@@ -13,6 +13,7 @@
 		<Row Type="TRAIT_AGENDA_HAG_BLACKSHIRTS"               Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_HAKENKREUZ"                Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          Kind="KIND_TRAIT"/>
 	</Types>
 	<PlotEvalConditions>
 	</PlotEvalConditions>
@@ -37,6 +38,8 @@
 		<Row ListType="HAGBlackShirtsDiscussions"/>
 		<Row ListType="HAGHakenkreuzSettlingChanges"/>
 		<Row ListType="HAGHakenkreuzResolutions"/>
+		<Row ListType="HAGAtlanticCharterDiplomacy"/>
+		<Row ListType="HAGAtlanticCharterDiscussions"/>
 	</AiListTypes>
 	<AiLists>
 		<Row ListType="HAGLearnFromThePioneersResolution"       AgendaType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   System="Resolutions"/>
@@ -58,6 +61,8 @@
 		<Row ListType="HAGBlackShirtsDiscussions"               AgendaType="TRAIT_AGENDA_HAG_BLACKSHIRTS"               System="Discussions"/>
 		<Row ListType="HAGHakenkreuzSettlingChanges"            AgendaType="TRAIT_AGENDA_HAG_HAKENKREUZ"                System="PlotEvaluations"/>
 		<Row ListType="HAGHakenkreuzResolutions"                AgendaType="TRAIT_AGENDA_HAG_HAKENKREUZ"                System="Resolutions"/>
+		<Row ListType="HAGAtlanticCharterDiplomacy"             AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          System="DiplomaticActions"/>
+		<Row ListType="HAGAtlanticCharterDiscussions"           AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          System="Discussions"/>
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="HAGLearnFromThePioneersResolution"       Item="WC_RES_TRADE_TREATY" Favored="true"/>
@@ -90,6 +95,8 @@
 		<Row ListType="HAGBlackShirtsDiscussions"               Item="WC_EMERGENCY_MILITARY" Favored="false"/>
 		<Row ListType="HAGHakenkreuzSettlingChanges"            Item="Nearest Friendly City" Favored="false" Value="-5"/>
 		<Row ListType="HAGHakenkreuzResolutions"                Item="WC_RES_MIGRATION_TREATY" Favored="false"/>
+		<Row ListType="HAGAtlanticCharterDiplomacy"             Item="DIPLOACTION_DECLARE_FRIENDSHIP" Favored="true"/>
+		<Row ListType="HAGAtlanticCharterDiscussions"           Item="WC_EMERGENCY_BACKSTAB" Favored="true"/>
 	</AiFavoredItems>
 	<TriggeredBehaviorTrees>
 	</TriggeredBehaviorTrees>
@@ -106,6 +113,7 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
 	</Traits>
 	<!-- アジェンダの名前と説明 -->
 	<Agendas>
@@ -120,6 +128,7 @@
 		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               Name="LOC_AGENDA_HAG_BLACKSHIRTS_NAME"               Description="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                Name="LOC_AGENDA_HAG_HAKENKREUZ_NAME"                Description="LOC_AGENDA_HAG_HAKENKREUZ_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"           Name="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME"           Description="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"          Name="LOC_AGENDA_HAG_ATLANTIC_CHARTER_NAME"          Description="LOC_AGENDA_HAG_ATLANTIC_CHARTER_DESCRIPTION"/>
 	</Agendas>
 	<RandomAgendas>
 	</RandomAgendas>
@@ -145,6 +154,7 @@
 		<Row AgendaOne="AGENDA_HAG_BLACKSHIRTS"               AgendaTwo="AGENDA_EXPANSIONIST"/>
 		<Row AgendaOne="AGENDA_HAG_TRUMAN_DOCTRINE"           AgendaTwo="AGENDA_DARWINIST"/>
 		<Row AgendaOne="AGENDA_HAG_TRUMAN_DOCTRINE"           AgendaTwo="AGENDA_EXPLOITATIVE"/>
+		<Row AgendaOne="AGENDA_HAG_ATLANTIC_CHARTER" AgendaTwo="AGENDA_DARWINIST"/>
 	</ExclusiveAgendas>
 	<!-- アジェンダとTraitの紐づけ -->
 	<AgendaTraits>
@@ -160,6 +170,8 @@
 		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
 		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
 		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"           TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
+		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER" TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
+
 	</AgendaTraits>
 	<!-- Traitに紐づく効果 -->
 	<TraitModifiers>
@@ -180,6 +192,8 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND"/>
 	</TraitModifiers>
 	<!-- ここからアジェンダの効果詳細 -->
 	<Modifiers>
@@ -291,6 +305,18 @@
 			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_ATTACKED_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<!-- 友好宣言・同盟を結んだ文明を好む -->
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<!-- 自身や友好国へ非難、戦争を仕掛けた文明を嫌う -->
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -645,6 +671,70 @@
 			<ModifierId>AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED</ModifierId>
 			<Name>SimpleModifierDescription</Name>
 			<Value>LOC_DIPLO_MODIFIER_AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED</Value>
+		</Row>
+		<!-- 友好宣言・同盟を結んだ文明を好む -->
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- そのままで問題ない -->
+			<Value>LOC_DIPLO_KUDO_LEADER_GILGAMESH_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_ATLANTIC_CHARTER_DECLARED_FRIEND</Value>
+		</Row>
+		<!-- 自身や友好国へ非難、戦争を仕掛けた文明を嫌う -->
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- そのままで問題ない -->
+			<Value>LOC_DIPLO_WARNING_LEADER_GILGAMESH_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- アジェンダに紐づく印象の上下のテキスト -->
