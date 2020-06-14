@@ -370,7 +370,7 @@
 			<Text>イェーガー</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION" Language="ja_JP">
-			<Text>産業時代のトルーマン固有のユニット。レンジャーに取って代わる。[ICON_Ranged] 長距離戦闘力+5、[ICON_Strength] 戦闘力+10、[ICON_Range] 射程2。相手が森林・熱帯雨林タイルにいるときに [ICON_Strength] 戦闘力+5。</Text>
+			<Text>産業時代のトルーマン固有のユニット。レンジャーに取って代わる。[ICON_Strength] 近接戦闘力+10、[ICON_Range] 射程2。相手が森林・熱帯雨林タイルにいるときに [ICON_Strength] 戦闘力+5。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_AMERICAN_JAEGER_NAME" Language="ja_JP">
 			<Text>トルーマン固有のユニット: イェーガー</Text>

@@ -184,10 +184,6 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_ENGLAND_SWORDFISH_NAME" Description="LOC_UNIT_HAG_ENGLAND_SWORDFISH_DESCRIPTION"
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqTech="TECH_FLIGHT" Stackable="TRUE" PrereqDistrict="DISTRICT_AERODROME" CanTargetAir="TRUE" WMDCapable="true" 
 			 TraitType="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH"/>
-		<!--
-		<Row UnitType="UNIT_BOMBER"                Cost="560" Maintenance="7" BaseMoves="10" BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_AIR" Combat="85" Bombard="110"     Range="10" StrategicResource="RESOURCE_ALUMINUM" FormationClass="FORMATION_CLASS_AIR" PromotionClass="PROMOTION_CLASS_AIR_BOMBER"  AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BOMBER_NAME"                Description="LOC_UNIT_BOMBER_DESCRIPTION"                                   PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqTech="TECH_ADVANCED_FLIGHT" Stackable="TRUE" PrereqDistrict="DISTRICT_AERODROME" CanTargetAir="TRUE" WMDCapable="true"/>
-		<Row UnitType="UNIT_BIPLANE"               Cost="430" Maintenance="6" BaseMoves="6"  BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_AIR" Combat="80" RangedCombat="75" Range="4"                                        FormationClass="FORMATION_CLASS_AIR" PromotionClass="PROMOTION_CLASS_AIR_FIGHTER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BIPLANE_NAME"               Description="LOC_UNIT_BIPLANE_DESCRIPTION"               CanCapture="False" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqTech="TECH_FLIGHT"          Stackable="TRUE" PrereqDistrict="DISTRICT_AERODROME" CanTargetAir="TRUE"/>
-		-->
 		<!-- イェーガー -->
 		<Row UnitType="UNIT_HAG_AMERICAN_JAEGER" Cost="380" Maintenance="5" BaseMoves="3" BaseSightRange="2" 
 			 ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="55" RangedCombat="60" Range="2"
@@ -195,11 +191,6 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_AMERICAN_JAEGER_NAME" Description="LOC_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_RIFLING"
 			 TraitType="TRAIT_UNIT_HAG_AMERICAN_JAEGER"/>
-		<!--
-		<Row UnitType="UNIT_SKIRMISHER" Cost="150" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="20" RangedCombat="30" Range="1" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_SKIRMISHER_NAME" Description="LOC_UNIT_SKIRMISHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_MACHINERY"/>
-		<Row UnitType="UNIT_RANGER"     Cost="380" Maintenance="5" BaseMoves="3" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="45" RangedCombat="60" Range="1" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_RANGER_NAME"     Description="LOC_UNIT_RANGER_DESCRIPTION"     PurchaseYield="YIELD_GOLD" PrereqTech="TECH_RIFLING"/>
-		<Row UnitType="UNIT_SPEC_OPS"   Cost="520" Maintenance="7" BaseMoves="3" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="60" RangedCombat="65" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_SPEC_OPS_NAME"   Description="LOC_UNIT_SPEC_OPS_DESCRIPTION"   PurchaseYield="YIELD_GOLD" PrereqTech="TECH_PLASTICS"/>
-		-->
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
