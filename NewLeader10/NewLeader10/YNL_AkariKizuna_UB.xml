@@ -37,4 +37,8 @@
 	<Building_TourismBombs_XP2>
 		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" TourismBombValue="250"/>
 	</Building_TourismBombs_XP2>
+	<!-- GS用設定 -->
+	<Buildings_XP2>
+		<Row BuildingType="BUILDING_YNL_VOICELOID_BIG_THEATER" Pillage="false"/>
+	</Buildings_XP2>
 </GameData>

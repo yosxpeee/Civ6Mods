@@ -65,7 +65,7 @@
 			<Text>Voiceloid Big Theater</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_YNL_VOICELOID_BIG_THEATER_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Union of Akari Kizuna Socialist Republics. Replaces the Amphitheater and cheaper to build. +1 additional [ICON_CULTURE] Culture for each era since constructed or last repaired. +1 [ICON_Housing] Housing.</Text>
+			<Text>A building unique to Union of Akari Kizuna Socialist Republics. Replaces the Amphitheater and cheaper to build. +1 additional [ICON_CULTURE] Culture for each era since constructed or last repaired. +1 [ICON_Housing] Housing. Cannot be pillaged by natural disasters.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER_NAME" Language="en_US">
 			<Text>Union of Akari Kizuna Socialist Republics unique building: Voiceloid Big Theater</Text>

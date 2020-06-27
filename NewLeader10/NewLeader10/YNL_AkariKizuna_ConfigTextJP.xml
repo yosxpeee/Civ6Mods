@@ -65,7 +65,7 @@
 			<Text>ボイスロイド大劇場</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YNL_VOICELOID_BIG_THEATER_DESCRIPTION" Language="ja_JP">
-			<Text>紲星あかり社会主義共和国連邦固有の建造物。円形闘技場に取ってかわり、より安価に建設できる。建設または最後の修復後、時代が進むごとに [ICON_CULTURE] 文化力+1。[ICON_Housing] 住宅+1。</Text>
+			<Text>紲星あかり社会主義共和国連邦固有の建造物。円形闘技場に取ってかわり、より安価に建設できる。建設または最後の修復後、時代が進むごとに [ICON_CULTURE] 文化力+1。[ICON_Housing] 住宅+1。自然災害によって略奪状態にならない。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_YNL_VOICELOID_BIG_THEATER_NAME" Language="ja_JP">
 			<Text>紲星あかり社会主義共和国連邦固有の建造物: ボイスロイド大劇場</Text>
