@@ -125,18 +125,20 @@
 		<!-- 全ユニット同盟1つごとに戦闘力+3 -->
 		<Row>
 			<UnitAbilityType>ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE</UnitAbilityType>
-			<ModifierId>HUSZAR_ALLIES_COMBAT_BONUS</ModifierId><!-- GSのハンガリーのフッサーと同じ -->
+			<!-- GSのハンガリーのフッサーと同じ -->
+			<ModifierId>HUSZAR_ALLIES_COMBAT_BONUS</ModifierId>
 		</Row>
 		<!-- 側面攻撃2倍 -->
 		<Row>
 			<UnitAbilityType>ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS</UnitAbilityType>
-			<ModifierId>IMPI_INCREASED_FLANKING_BONUS</ModifierId><!-- RaFのインピと同じ -->
+			<!-- RaFのインピと同じ -->
+			<ModifierId>IMPI_INCREASED_FLANKING_BONUS</ModifierId>
 		</Row>
 		<!-- M48山砲：丘陵で移動力が落ちない -->
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN</UnitAbilityType>
-			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId>
 			<!-- GSのグルジアのヘヴスルと同じ -->
+			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId>
 		</Row>
 		<!-- ベルベル人の騎兵：砂漠隣接で戦闘力+5 -->
 		<Row>
@@ -152,8 +154,8 @@
 		<!-- ナウ船：4タイル以内の洋上にいる交易商ガード -->
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
-			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId>
 			<!-- GSのフェニキアのビレームと同じ -->
+			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId>
 		</Row>
 		<!-- Ju87：重騎兵と海洋遠距離に対し戦闘力+10 -->
 		<Row>
@@ -164,7 +166,7 @@
 			<UnitAbilityType>ABILITY_UNIT_HAG_GERMANY_JU87</UnitAbilityType>
 			<ModifierId>HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED</ModifierId>
 		</Row>
-		<!-- イェーガー：森林・熱帯雨林にいると戦闘力+5 -->
+		<!-- イェーガー：攻撃対象が森林・熱帯雨林にいると戦闘力+5 -->
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_AMERICAN_JAEGER</UnitAbilityType>
 			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
@@ -213,7 +215,7 @@
 			<!-- ノルウェーのベルセルクと同じ条件(WEAKと書いてあるので紛らわしいが・・・) -->
 			<SubjectRequirementSetId>UNIT_WEAK_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
-		<!-- 森林・熱帯雨林にいると戦闘力+5 -->
+		<!-- 攻撃対象が森林・熱帯雨林にいると戦闘力+5 -->
 		<Row>
 			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
@@ -264,7 +266,7 @@
 			<Name>Amount</Name>
 			<Value>3</Value>
 		</Row>
-		<!-- 森林・熱帯雨林にいると戦闘力+5 -->
+		<!-- 攻撃対象が森林・熱帯雨林にいると戦闘力+5 -->
 		<Row>
 			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
 			<Name>Amount</Name>
