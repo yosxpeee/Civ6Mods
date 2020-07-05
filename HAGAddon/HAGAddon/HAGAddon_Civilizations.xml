@@ -3,9 +3,9 @@
 	<!-- 親定義 -->
 	<Types>
 		<!-- 神聖ローマ帝国 -->
-		<Row Type="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"             Kind="KIND_CIVILIZATION" />
-		<Row Type="TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"       Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"   Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"           Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"     Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>

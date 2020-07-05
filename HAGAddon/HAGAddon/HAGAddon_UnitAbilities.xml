@@ -14,6 +14,7 @@
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
+		<!-- ランツクネヒト：近接ユニットに対し戦闘力+7 -->
 		<Row>
 			<UnitAbilityType>ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT</UnitAbilityType>
 			<ModifierId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE</ModifierId>
@@ -21,6 +22,7 @@
 	</UnitAbilityModifiers>
 	<!-- 効果の定義 -->
 	<Modifiers>
+		<!-- ランツクネヒト：近接ユニットに対し戦闘力+7 -->
 		<Row>
 			<ModifierId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
@@ -29,6 +31,7 @@
 	</Modifiers>
 	<!-- 効果のパラメータ -->
 	<ModifierArguments>
+		<!-- ランツクネヒト：近接ユニットに対し戦闘力+7 -->
 		<Row>
 			<ModifierId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE</ModifierId>
 			<Name>Amount</Name>

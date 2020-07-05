@@ -26,9 +26,9 @@
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_LINESHIP" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_LINESHIP" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_HAGA_LINESHIP" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -44,7 +44,7 @@
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_FORWARD_OBSERVER"/>
 		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_HAGA_LINESHIP" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_HAGA_LINESHIP"                      Tag="CLASS_NAVAL_RANGED"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>

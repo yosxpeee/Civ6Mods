@@ -19,8 +19,8 @@
 	<Districts>
 		<!-- ハンザ -->
 		<Update>
-			<Where Description="LOC_CIVILIZATION_GEORGIA_DESCRIPTION"/>
-			<Set Description="LOC_CIVILIZATION_GEORGIA_HAGA_DESCRIPTION"/>
+			<Where Description="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION"/>
+			<Set Description="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION"/>
 		</Update>
 		<!-- 書院 -->
 		<Update>
@@ -97,6 +97,44 @@
 		</Update>
 	</Units>
 	<!-- ユニットアビリティ -->
+	<UnitAbilityModifiers>
+		<!-- 武僧/ニハングが破城槌と攻城塔の効果を得られるようにする -->
+		<Row>
+			<UnitAbilityType>ABILITY_ENABLE_WALL_ATTACK_PROMOTION_CLASS</UnitAbilityType>
+			<ModifierId>HAGA_ENABLE_WALL_ATTACK_WARRIOR_MONK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ENABLE_WALL_ATTACK_PROMOTION_CLASS</UnitAbilityType>
+			<ModifierId>HAGA_ENABLE_WALL_ATTACK_NIHANG</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BYPASS_WALLS_PROMOTION_CLASS</UnitAbilityType>
+			<ModifierId>HAGA_BYPASS_WALLS_WARRIOR_MONK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BYPASS_WALLS_PROMOTION_CLASS</UnitAbilityType>
+			<ModifierId>HAGA_BYPASS_WALLS_NIHANG</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!-- 武僧/ニハングが破城槌と攻城塔の効果を得られるようにする -->
+		<Row>
+			<ModifierId>HAGA_ENABLE_WALL_ATTACK_WARRIOR_MONK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HAGA_ENABLE_WALL_ATTACK_NIHANG</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HAGA_BYPASS_WALLS_WARRIOR_MONK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_BYPASS_WALLS_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HAGA_BYPASS_WALLS_NIHANG</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_BYPASS_WALLS_PROMOTION_CLASS</ModifierType>
+		</Row>
+	</Modifiers>
 	<ModifierArguments>
 		<!-- ベルセルク -->
 		<Update>
@@ -105,6 +143,27 @@
 				<Value>8</Value>
 			</Set>
 		</Update>
+		<!-- 武僧/ニハングが破城槌と攻城塔の効果を得られるようにする -->
+		<Row>
+			<ModifierId>HAGA_ENABLE_WALL_ATTACK_WARRIOR_MONK</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_WARRIOR_MONK</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAGA_ENABLE_WALL_ATTACK_NIHANG</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_NIHANG</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAGA_BYPASS_WALLS_WARRIOR_MONK</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_WARRIOR_MONK</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAGA_BYPASS_WALLS_NIHANG</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_NIHANG</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
