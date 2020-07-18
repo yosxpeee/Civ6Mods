@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<!-- エチオピア帝国 -->
+		<Row Type="CIVILIZATION_HAG_ETHIOPIA"             Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAG_ETHIOPIA"       Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"  Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"     Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Civilizations>
+		<!-- エチオピア帝国 -->
+		<Row>
+			<CivilizationType>CIVILIZATION_HAG_ETHIOPIA</CivilizationType>
+			<Name>LOC_CIVILIZATION_HAG_ETHIOPIA_NAME</Name>
+			<Description>LOC_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_HAG_ETHIOPIA_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>21</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_AFRICAN</Ethnicity>
+		</Row>
+
+	</Civilizations>
+	<!-- 文明に属する指導者 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   LeaderType="LEADER_HAG_MENELIK2"      CapitalName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_1" />
+	</CivilizationLeaders>
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   TraitType="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA"   TraitType="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"/>
+	</CivilizationTraits>
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA"            Name="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_NAME"       Description="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"       Name="LOC_TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME"/>
+		<Row TraitType="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"          Name="LOC_TRAIT_BUILDING_HAG_ETHIOPIA_STELE_NAME"/>
+	</Traits>
+	<!-- 文明特性の指定 -->
+	<TraitModifiers>
+		<!-- エチオピア帝国 -->
+		<!-- 先進国からの交易路に文化or科学力プラス(バニラのピョートルと同一) -->
+		<!-- 牧草地から食料+1(砂漠タイルだと生産力も+1) -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_PASTURE_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT"/>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 牧草地から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>PLOT_HAS_PASTURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 砂漠タイル上の牧草地から生産力+1 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 牧草地から食料+1 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 砂漠上の牧草地から生産力+1 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+	</ModifierArguments>
+	<!-- 条件：判定種別 -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<!-- 条件定義 -->
+	<RequirementSetRequirements>
+		<!-- 砂漠丘陵上の牧草地 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_PLOT_HAS_PASTURE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<!-- バニラにある -->
+			<!-- 砂漠で牧草地の改善ができるのは羊が配置されている場合のみ、羊は丘陵にしか配置されない-->
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- 条件詳細 -->
+	<Requirements>
+	</Requirements>
+	<!-- 条件詳細の引数 -->
+	<RequirementArguments>
+	</RequirementArguments>
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<!--エチオピア帝国 -->
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CitizenName="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<!-- エチオピア帝国 -->
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_21" />
+	</CityNames>
+	<!-- 開始位置補正 -->
+	<StartBiasTerrains>
+		<!-- エチオピア帝国：砂漠(山岳含む) -->
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_HILLS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_MOUNTAIN" Tier="1"/>
+	</StartBiasTerrains>
+	<StartBiasResources>
+		<!-- エチオピア帝国：羊、家畜、馬 -->
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" ResourceType="RESOURCE_SHEEP" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" ResourceType="RESOURCE_CATTLE" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" ResourceType="RESOURCE_HORSES" Tier="3"/>
+	</StartBiasResources>
+	<StartBiasFeatures>
+	</StartBiasFeatures>
+</GameData>

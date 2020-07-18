@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="BUILDING_HAG_ETHIOPIA_STELE"          Kind="KIND_BUILDING"/>
+	</Types>
+	<!-- 置換設定 -->
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_HAG_ETHIOPIA_STELE"          ReplacesBuildingType="BUILDING_MONUMENT"/>
+	</BuildingReplaces>
+	<!-- 主設定 -->
+	<Buildings>
+		<!-- ステッレ -->
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" Name="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Description="LOC_BUILDING_HAG_ETHIOPIA_STELE_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE"
+             TraitType="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"/>
+	</Buildings>
+	<Buildings_XP2>
+	</Buildings_XP2>
+	<!-- 前提の建造物 -->
+	<BuildingPrereqs>
+	</BuildingPrereqs>
+	<!-- 出力 -->
+	<Building_YieldChanges>
+		<!-- ステッレ：信仰力+2、文化力+1 -->
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" YieldType="YIELD_FAITH"   YieldChange="2"/>
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldChanges>
+	<!-- 電力供給による出力の変更 -->
+	<Building_YieldChangesBonusWithPower>
+	</Building_YieldChangesBonusWithPower>
+	<!-- 偉人ポイント -->
+	<Building_GreatPersonPoints>
+		<!-- ステッレ：大預言者+1 -->
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<!-- コピーされる隣接ボーナス -->
+	<Building_YieldDistrictCopies>
+	</Building_YieldDistrictCopies>
+	<!-- 市民配置による出力 -->
+	<Building_CitizenYieldChanges>
+	</Building_CitizenYieldChanges>
+	<!-- 建造物が持つ特殊効果 -->
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE"          ModifierId="MONUMENT_LOYALTY"/>						<!-- RaFにある -->
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE"          ModifierId="MONUMENT_CULTURE_AT_FULL_LOYALTY"/>		<!-- RaFにある -->
+	</BuildingModifiers>
+	<!-- 特殊効果の内容 -->
+	<Modifiers>
+	</Modifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+	<!-- 特殊効果の発動条件 -->
+	<RequirementSets>
+	</RequirementSets>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+	<!-- ロックバンド用観光爆弾 -->
+	<Building_TourismBombs_XP2>
+	</Building_TourismBombs_XP2>
+</GameData>

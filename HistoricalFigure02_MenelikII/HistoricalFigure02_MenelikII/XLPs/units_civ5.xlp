@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>867</revision>
+	</m_Version>
+	<m_ClassName text="Unit"/>
+	<m_PackageName text="units/units_civ5"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Ethiopian_Mehal_Sefari"/>
+			<m_ObjectName text="Ethiopian_Mehal_Sefari"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

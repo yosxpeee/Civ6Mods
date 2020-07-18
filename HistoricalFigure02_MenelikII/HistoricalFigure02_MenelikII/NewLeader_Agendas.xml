@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- アジェンダの親定義 -->
+	<Types>
+		<Row Type="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   Kind="KIND_TRAIT"/>
+	</Types>
+	<PlotEvalConditions>
+	</PlotEvalConditions>
+	<!-- AIの動き -->
+	<AiListTypes>
+		<Row ListType="HAGLearnFromThePioneersResolution"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="HAGLearnFromThePioneersResolution"       AgendaType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   System="Resolutions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="HAGLearnFromThePioneersResolution"       Item="WC_RES_TRADE_TREATY" Favored="true"/>
+	</AiFavoredItems>
+	<TriggeredBehaviorTrees>
+	</TriggeredBehaviorTrees>
+	<!-- 効果の親定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
+	</Traits>
+	<!-- アジェンダの名前と説明 -->
+	<Agendas>
+		<Row AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   Name="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_NAME"   Description="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_DESCRIPTION"/>
+	</Agendas>
+	<RandomAgendas>
+	</RandomAgendas>
+	<!-- ランダムアジェンダの確率 -->
+	<AgendaPreferredLeaders>
+	</AgendaPreferredLeaders>
+	<!-- 排他するアジェンダ -->
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   AgendaTwo="AGENDA_TECHNOPHILE"/>
+	</ExclusiveAgendas>
+	<!-- アジェンダとTraitの紐づけ -->
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
+	</AgendaTraits>
+	<!-- Traitに紐づく効果 -->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   ModifierId="AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   ModifierId="AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2"/>
+	</TraitModifiers>
+	<!-- ここからアジェンダの効果詳細 -->
+	<Modifiers>
+		<!-- 科学力・文化力が低い -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_LAGS_PROGRESS</SubjectRequirementSetId>
+		</Row>
+		<!-- 科学力・文化力が高い -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_LEADS_PROGRESS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- 科学力・文化力が低い -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-7</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- ピョートルと同じ文章で問題ない -->
+			<Value>LOC_DIPLO_WARNING_LEADER_PETER_GREAT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LAGGING</Value>
+		</Row>
+		<!-- 科学力・文化力が高い -->
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- ピョートルと同じ文章で問題ない -->
+			<Value>LOC_DIPLO_KUDO_LEADER_PETER_GREAT_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LEADING</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- アジェンダに紐づく印象の上下のテキスト -->
+	<!-- ※これを忘れると「理由不明」になってしまう -->
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2"      Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameInfo>

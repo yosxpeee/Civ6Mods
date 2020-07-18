@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<!-- エチオピア帝国(メネリク2世) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_ETHIOPIA</CivilizationType>
+			<LeaderType>LEADER_HAG_MENELIK2</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_ETHIOPIA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_ETHIOPIA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_MENELIK2_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_MENELIK2</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_ETHIOPIA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_MENELIK2_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_MENELIK2</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_MENELIK2</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<!-- メネリク2世 -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_ETHIOPIA</CivilizationType>
+			<LeaderType>LEADER_HAG_MENELIK2</LeaderType>
+			<Type>UNIT_HAG_ETHIOPIA_MEHAL_SEFARI</Type>
+			<Icon>ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI</Icon>
+			<Name>LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME</Name>
+			<Description>LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_ETHIOPIA</CivilizationType>
+			<LeaderType>LEADER_HAG_MENELIK2</LeaderType>
+			<Type>BUILDING_HAG_ETHIOPIA_STELE</Type>
+			<Icon>ICON_BUILDING_HAG_ETHIOPIA_STELE</Icon>
+			<Name>LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME</Name>
+			<Description>LOC_BUILDING_HAG_ETHIOPIA_STELE_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

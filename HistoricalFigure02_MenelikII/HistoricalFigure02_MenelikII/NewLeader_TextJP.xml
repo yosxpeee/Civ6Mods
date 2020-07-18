@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<!-- メネリク2世 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ショアの王（ネグ）のハイレ・マラコトの王子として生まれ、王位を継承。エチオピア中興の祖である皇帝テオドロス2世がショアを攻撃した際に捕虜とされたが、かえってテオドロスに可愛がられ、このことが自身に大きな影響を与えた。後にヨハンネス4世の跡を継いで皇帝に即位した。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>第一次エチオピア戦争においてイタリア王国を破り、列強にエチオピアの独立を承認させた。これは、当時のアフリカ大陸の諸王国の中で唯一独立を保つことができた事例として有名となった。</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1270年から1974年まで存続したアフリカ東部の国家。現在のエチオピアおよびエリトリアにほぼ一致する領域を支配し、最大版図は現在のソマリア、ジブチ、ケニア、スーダン、南スーダン、エジプト、アラビア半島の一部まで及んだ。欧米のアフリカ分割の最中にあって独立を保ったアフリカ最古の独立国である。 </Text>
+		</Row>
+
+		<!-- Civilization Citizen Names -->
+		<!-- エチオピア帝国 -->
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1" Language="ja_JP">
+			<Text>ギルマ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_2" Language="ja_JP">
+			<Text>ムラトゥ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_3" Language="ja_JP">
+			<Text>アベベ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_4" Language="ja_JP">
+			<Text>カッサ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_1" Language="ja_JP">
+			<Text>メセレッチ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_2" Language="ja_JP">
+			<Text>メロン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_3" Language="ja_JP">
+			<Text>サーレワーク</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_4" Language="ja_JP">
+			<Text>リヤ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Language="ja_JP">
+			<Text>ローラ</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<!-- エチオピア帝国 -->
+		<!-- 現エチオピアの都市名を設定 -->
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_1" Language="ja_JP">
+			<Text>アディスアベバ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_2" Language="ja_JP">
+			<Text>アダマ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_3" Language="ja_JP">
+			<Text>ゴンダール</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_4" Language="ja_JP">
+			<Text>メックエル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_5" Language="ja_JP">
+			<Text>アワッサ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_6" Language="ja_JP">
+			<Text>ディレ・ダワ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_7" Language="ja_JP">
+			<Text>バハルダール</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_8" Language="ja_JP">
+			<Text>デセ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_9" Language="ja_JP">
+			<Text>ジンマ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_10" Language="ja_JP">
+			<Text>ジジガ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_11" Language="ja_JP">
+			<Text>アクスム</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_12" Language="ja_JP">
+			<Text>セメラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_13" Language="ja_JP">
+			<Text>ティヤ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_14" Language="ja_JP">
+			<Text>ドーロ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_15" Language="ja_JP">
+			<Text>バドメ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_16" Language="ja_JP">
+			<Text>ハラール</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_17" Language="ja_JP">
+			<Text>ベコジ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_18" Language="ja_JP">
+			<Text>マジ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_19" Language="ja_JP">
+			<Text>モヤレ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_20" Language="ja_JP">
+			<Text>ラリベラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_21" Language="ja_JP">
+			<Text>ワルデル</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
+		</Row>
+
+		<!-- Leader DOM -->
+		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+
+		<!-- Unit Abilities Preview Text -->
+		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2_DESCRIPTION" Language="ja_JP">
+			<Text>友好的な領土から4タイル以内にいるユニットの [ICON_Strength] 戦闘力+3。</Text>
+		</Row>
+
+		<!-- ユニットアビリティの説明文 -->
+		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_NAME" Language="ja_JP">
+			<Text>友好的な領土から4タイル以内にいるユニットの [ICON_Strength] 戦闘力+3。</Text>
+		</Row>
+
+		<!-- 地名 -->
+		<!-- 川 -->
+		<Row Tag="LOC_NAMED_HAG_RIVER_BLUE_NILE_RIVER_NAME" Language="ja_JP">
+			<Text>青ナイル川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_AWASH_RIVER_NAME" Language="ja_JP">
+			<Text>アワッシュ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_OMO_RIVER_NAME" Language="ja_JP">
+			<Text>オモ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_JUBBA_RIVER_NAME" Language="ja_JP">
+			<Text>ジュバ川</Text>
+		</Row>
+		<!-- 火山 -->
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_ADWA_NAME" Language="ja_JP">
+			<Text>アドワ火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_VOLCANO_AFDERA_NAME" Language="ja_JP">
+			<Text>アフデラ火山</Text>
+		</Row>
+		<!-- 山・山脈 -->
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_RAS_DASHEN_NAME" Language="ja_JP">
+			<Text>ラス・ダシェン山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BWAHIT_NAME" Language="ja_JP">
+			<Text>ビュアト山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BATU_NAME" Language="ja_JP">
+			<Text>バトゥ山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_ENTOTO_NAME" Language="ja_JP">
+			<Text>エントット山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_TULLU_DIMTU_NAME" Language="ja_JP">
+			<Text>トゥルー・ディムトゥ山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DENDI_NAME" Language="ja_JP">
+			<Text>デンディ山</Text>
+		</Row>
+		<!-- 湖 -->
+		<Row Tag="LOC_NAMED_HAG_LAKE_AWASA_LAKE_NAME" Language="ja_JP">
+			<Text>アワッサ湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_ABAYA_LAKE_NAME" Language="ja_JP">
+			<Text>アバヤ湖</Text>
+		</Row>
+
+		<!-- アジェンダ -->
+		<!-- 先駆者に学べ(メネリク2世) -->
+		<Replace Tag="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_NAME" Language="ja_JP">
+			<Text>先駆者に学べ</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_DESCRIPTION" Language="ja_JP">
+			<Text>自分より [ICON_Science] 科学力と [ICON_Culture] 文化力の高い文明を好み、 [ICON_Science] 科学力と [ICON_Culture] 文化力の低い文明を嫌う。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LAGGING" Language="ja_JP">
+			<Text>メネリク2世はあなたの科学力と文化力の低さに失望している</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LEADING" Language="ja_JP">
+			<Text>メネリク2世はあなたの科学力と文化力に満足している</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

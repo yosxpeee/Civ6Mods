@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MapLeaders>
+		<!-- 地球(GS) -->
+		<!-- GSのマップへ追加している(このMODの指導者のみ) -->
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MENELIK2"/>
+	</MapLeaders>
+	<MapStartPositions>
+		<!-- 地球(GS) -->
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="2905" Type="LEADER" Value="LEADER_HAG_MENELIK2"/>
+	</MapStartPositions>
+</GameData>

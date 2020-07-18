@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<PlayerColors>
+		<!-- 指導者 -->
+		<!-- メネリク2世 -->
+		<Row>
+			<Type>LEADER_HAG_MENELIK2</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_HAG_MENELIK2_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_HAG_MENELIK2_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_AQUA_DK</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_RED_LT</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_GREEN_MD</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_BLUE_DK</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_MD</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</Database>
+
