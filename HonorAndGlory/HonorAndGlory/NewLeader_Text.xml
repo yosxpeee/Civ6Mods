@@ -2,12 +2,6 @@
 <GameData>
 	<LocalizedText>
 		<!-- Leader specific pedia text. -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>Leader specific pedia text(Capsule)</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Leader specific pedia text(Detail)</Text>
-		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_CAPSULE_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Capsule)</Text>
 		</Row>
@@ -76,13 +70,6 @@
 		</Row>
 		
 		<!-- Leader specific historical text. -->
-		<!-- メネリク2世 -->
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Leader specific historical text</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_MENELIK2_CHAPTER_HISTORY_PARA_2" Language="en_US">
-			<Text></Text>
-		</Row>
 		<!-- ナポレオン -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_NAPOLEON_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Everyone in civilization has heard of Napoleon, so this historical entry will skip over the boring bits and get right to the bloodletting.</Text>
@@ -168,9 +155,6 @@
 		</Row>
 		
 		<!-- Civilization specific historical text. -->
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ETHIOPIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Civilization specific historical text</Text>
-		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_TIMURID_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
 		</Row>
@@ -188,34 +172,6 @@
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
-		<!-- エチオピア帝国 -->
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_1" Language="en_US">
-			<Text>Girma</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_2" Language="en_US">
-			<Text>Mulatu</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_3" Language="en_US">
-			<Text>Abebe</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_MALE_4" Language="en_US">
-			<Text>Kassa</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_1" Language="en_US">
-			<Text>Meselech</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_2" Language="en_US">
-			<Text>Meron</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_3" Language="en_US">
-			<Text>Sahle-Work</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_4" Language="en_US">
-			<Text>Liya</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_ETHIOPIA_FEMALE_5" Language="en_US">
-			<Text>Lola</Text>
-		</Row>
 		<!-- ティムール朝 -->
 		<Row Tag="LOC_CITIZEN_HAG_TIMURID_MALE_1" Language="en_US">
 			<Text>Zafal</Text>
@@ -386,71 +342,6 @@
 		</Row>
 		
 		<!-- Civilization City Names-->
-		<!-- エチオピア帝国 -->
-		<!-- 現エチオピアの都市名を設定 -->
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_1" Language="en_US">
-			<Text>Addis Ababa</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_2" Language="en_US">
-			<Text>Adama</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_3" Language="en_US">
-			<Text>Gondar</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_4" Language="en_US">
-			<Text>Mekelle</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_5" Language="en_US">
-			<Text>Awasa</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_6" Language="en_US">
-			<Text>Dire Dawa</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_7" Language="en_US">
-			<Text>Bahir Dar</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_8" Language="en_US">
-			<Text>Dessie</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_9" Language="en_US">
-			<Text>Jimma</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_10" Language="en_US">
-			<Text>Jijiga</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_11" Language="en_US">
-			<Text>Aksum</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_12" Language="en_US">
-			<Text>Semera</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_13" Language="en_US">
-			<Text>Tiya</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_14" Language="en_US">
-			<Text>Dolo</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_15" Language="en_US">
-			<Text>Badme</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_16" Language="en_US">
-			<Text>Harar</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_17" Language="en_US">
-			<Text>Bekoji</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_18" Language="en_US">
-			<Text>Maji</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_19" Language="en_US">
-			<Text>Moyale</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_20" Language="en_US">
-			<Text>Lalibela</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_21" Language="en_US">
-			<Text>Werder</Text>
-		</Row>
 		<!-- ティムール朝 -->
 		<!-- 現ウズベキスタン共和国の都市名を設定 -->
 		<Row Tag="LOC_CIVILIZATION_HAG_TIMURID_CITY_1" Language="en_US">
@@ -1068,9 +959,6 @@
 		</Row>
 		
 		<!-- Leader Quotes -->
-		<Row Tag="LOC_LEADER_HAG_MENELIK2_QUOTE" Language="en_US">
-			<Text>Leader Quote</Text>
-		</Row>
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
@@ -1106,9 +994,6 @@
 		</Row>
 		
 		<!-- Leader DOM -->
-		<Row Tag="LOC_LEADER_HAG_MENELIK2_DOM_TEXT" Language="en_US">
-			<Text>Loading Text</Text>
-		</Row>
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
@@ -1144,9 +1029,6 @@
 		</Row>
 		
 		<!-- Unit Abilities Preview Text -->
-		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_FRIENDLY_TERRITORY_LEADER_HAG_MENELIK2_DESCRIPTION" Language="en_US">
-			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory.</Text>
-		</Row>
 		<Row Tag="LOC_PROMOTION_COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength bonus on Desert.</Text>
 		</Row>
@@ -1164,9 +1046,6 @@
 		</Row>
 		
 		<!-- ユニットアビリティの説明文 -->
-		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_NAME" Language="en_US">
-			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory.</Text>
-		</Row>
 		<Row Tag="LOC_ABILITY_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Movement] Movement to military melee units.</Text>
 		</Row>
@@ -1319,18 +1198,6 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_DRAGONJA_RIVER_NAME" Language="en_US">
 			<Text>Dragonja River</Text>
 		</Row>
-		<Row Tag="LOC_NAMED_HAG_RIVER_BLUE_NILE_RIVER_NAME" Language="en_US">
-			<Text>Blue Nile River</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_RIVER_AWASH_RIVER_NAME" Language="en_US">
-			<Text>Awash River</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_RIVER_OMO_RIVER_NAME" Language="en_US">
-			<Text>Omo River</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_RIVER_JUBBA_RIVER_NAME" Language="en_US">
-			<Text>Jubba River</Text>
-		</Row>
 		<Row Tag="LOC_NAMED_HAG_RIVER_TAJO_RIVER_NAME" Language="en_US">
 			<Text>Tajo River</Text>
 		</Row>
@@ -1338,12 +1205,6 @@
 			<Text>Mondego River</Text>
 		</Row>
 		<!-- 火山 -->
-		<Row Tag="LOC_NAMED_HAG_VOLCANO_ADWA_NAME" Language="en_US">
-			<Text>Adwa Volcano</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_VOLCANO_AFDERA_NAME" Language="en_US">
-			<Text>Afdera Volcano</Text>
-		</Row>
 		<!-- 山・山脈 -->
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME" Language="en_US">
 			<Text>Khazret Sultan</Text>
@@ -1375,24 +1236,6 @@
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_IGMAN_NAME" Language="en_US">
 			<Text>Mount Igman</Text>
 		</Row>
-		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_RAS_DASHEN_NAME" Language="en_US">
-			<Text>Ras Dashen</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BWAHIT_NAME" Language="en_US">
-			<Text>Mount Bwahit</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_BATU_NAME" Language="en_US">
-			<Text>Mount Batu</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_ENTOTO_NAME" Language="en_US">
-			<Text>Mount Entoto</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_TULLU_DIMTU_NAME" Language="en_US">
-			<Text>Mount Tullu Dimtu</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DENDI_NAME" Language="en_US">
-			<Text>Mount Dendi</Text>
-		</Row>
 		<!-- 湖 -->
 		<Row Tag="LOC_NAMED_HAG_LAKE_RYBACHIY_ZALIV_NAME" Language="en_US">
 			<Text>Rybachiy Zaliv</Text>
@@ -1414,12 +1257,6 @@
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_LANGANO_LAKE_NAME" Language="en_US">
 			<Text>Langano Lake</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_LAKE_AWASA_LAKE_NAME" Language="en_US">
-			<Text>Awasa Lake</Text>
-		</Row>
-		<Row Tag="LOC_NAMED_HAG_LAKE_ABAYA_LAKE_NAME" Language="en_US">
-			<Text>Abaya Lake</Text>
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME" Language="en_US">
 			<Text>Santo Andre Lake</Text>
@@ -1463,19 +1300,6 @@
 		</Row>
 		
 		<!-- アジェンダ -->
-		<!-- 先駆者に学べ(メネリク2世) -->
-		<Row Tag="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_NAME" Language="en_US">
-			<Text>Learn from the pioneers</Text>
-		</Row>
-		<Row Tag="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_DESCRIPTION" Language="en_US">
-			<Text>Friendly to those civilizations that are ahead of him in [ICON_Science] Science and [ICON_Culture] Culture.  Dislikes backwards civilizations that are lacking in [ICON_Science] Science and [ICON_Culture] Culture.</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LAGGING" Language="en_US">
-			<Text>Menelik II is disappointed you have little science and culture</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LEADING" Language="en_US">
-			<Text>Menelik II is pleased with your Science and Culture</Text>
-		</Row>
 		<!-- 百日天下(ナポレオン) -->
 		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
 		<Row Tag="LOC_AGENDA_HAG_HUNDRED_DAYS_NAME" Language="en_US">

@@ -12,12 +12,11 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File><File>NewLeader_NamedPlace.xml</File><File>NewLeader_CityStates.xml</File><File>NewLeader_Agendas.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Menelik2_DiplomacyInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Background.dds</File><File>Textures/Menelik2_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Ethiopia_Stele.dds</File><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_DiplomacyInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_HidekiTojo_Zero.dds</File><File>Textures/Moment_Religion_HAG_Nestorianism.dds</File><File>Textures/Moment_Religion_HAG_IPU.dds</File><File>Textures/Moment_Religion_HAG_Pastafarianism.dds</File><File>Textures/MariaI_LoadingInfo_Foreground.dds</File><File>Textures/MariaI_DiplomacyInfo_Background.dds</File><File>Textures/MariaI_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Portugal_Feitoria.dds</File><File>Textures/Stalin_DiplomacyInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_StalinT34.dds</File><File>Textures/Moment_HAG_Morocco_BerbersCavalry.dds</File><File>Textures/Hitler_DiplomacyInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_AdolfHitler_Ju87.dds</File><File>Textures/Mussolini_DiplomacyInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Foreground.dds</File><File>Maps/TSLEastAsiaStandard_HAG.Civ6Map</File><File>Maps/TSLEastAsiaStandard_HAG.lua</File><File>Maps/TSLEuropeStandard_HAG.Civ6Map</File><File>Maps/TSLEuropeStandard_HAG.lua</File><File>Textures/Moment_HAG_USSR_SpaceLabo.dds</File><File>Textures/Truman_DiplomacyInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_ChurchillSwordfish.dds</File><File>Textures/Churchill_DiplomacyInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Foreground.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File><File>NewLeader_NamedPlace.xml</File><File>NewLeader_CityStates.xml</File><File>NewLeader_Agendas.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_DiplomacyInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_HidekiTojo_Zero.dds</File><File>Textures/Moment_Religion_HAG_Nestorianism.dds</File><File>Textures/Moment_Religion_HAG_IPU.dds</File><File>Textures/Moment_Religion_HAG_Pastafarianism.dds</File><File>Textures/MariaI_LoadingInfo_Foreground.dds</File><File>Textures/MariaI_DiplomacyInfo_Background.dds</File><File>Textures/MariaI_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Portugal_Feitoria.dds</File><File>Textures/Stalin_DiplomacyInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_StalinT34.dds</File><File>Textures/Moment_HAG_Morocco_BerbersCavalry.dds</File><File>Textures/Hitler_DiplomacyInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_AdolfHitler_Ju87.dds</File><File>Textures/Mussolini_DiplomacyInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Foreground.dds</File><File>Maps/TSLEastAsiaStandard_HAG.Civ6Map</File><File>Maps/TSLEastAsiaStandard_HAG.lua</File><File>Maps/TSLEuropeStandard_HAG.Civ6Map</File><File>Maps/TSLEuropeStandard_HAG.lua</File><File>Textures/Moment_HAG_USSR_SpaceLabo.dds</File><File>Textures/Truman_DiplomacyInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_ChurchillSwordfish.dds</File><File>Textures/Churchill_DiplomacyInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Foreground.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File><File>NewLeader_Maps.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
             <Criteria id="LeaderCriteria">
                 <LeaderPlayable>
-                    Players:Expansion2_Players::LEADER_HAG_MENELIK2,
                     Players:Expansion2_Players::LEADER_HAG_NAPOLEON,
                     Players:Expansion2_Players::LEADER_HAG_TIMUR,
                     Players:Expansion2_Players::LEADER_HAG_TITO,
@@ -49,192 +48,6 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Animations\ethiopian_mehal_sefari_attacka.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_attacka.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_attackb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_attackb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_attack_city.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_attack_city.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_bombard_defense_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_charge_attack.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_charge_attack.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_charge_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_charge_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_combat_ready_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_deatha.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_deatha.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_deatha_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_deatha_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_deathb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_deathb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_deathb_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_deathb_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fidgeta.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fidgeta.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fidgetb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fidgetb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_fidget.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_fidget.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_trans_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_trans_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_fortify_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_idlea_trans_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_idlea_trans_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_idleb_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_idleb_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_shuffle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_shuffle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_stop_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_stop_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_stop_run_b.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_stop_run_b.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_victory.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\ethiopian_mehal_sefari_victory.fgx">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Animations\u_japanese_zero_attack_air.anm">
       <SubType>Content</SubType>
     </Content>
@@ -664,9 +477,6 @@
     <Content Include="Assets\DIS_Feitoria_Modern_Base_04.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Ethiopian_Mehal_Sefari.ast">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Assets\IMP_HAG_Casbah.ast">
       <SubType>Content</SubType>
     </Content>
@@ -727,12 +537,6 @@
     <Content Include="Assets\U_Portugal_Carrack.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Geometries\ethiopian_mehal_sefari.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\ethiopian_mehal_sefari.geo">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Geometries\T34_Tank.fgx">
       <SubType>Content</SubType>
     </Content>
@@ -773,9 +577,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Maps\TSLEuropeStandard_HAG.lua">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\Mehal_Sefari_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Religion_Overlay_HAG_BAHAI_FAITH_material.mtl">
@@ -935,12 +736,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MARIA_I.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\FALLBACK_NEUTRAL_LEADER_HAG_MULAY_ISMAIL.dds">
@@ -1951,42 +1746,6 @@
     <Content Include="Textures\ICON_UNIT_HAG_ENGLAND_SWORDFISH80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI22.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI32.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI38.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI50.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI80.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI80.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_UNIT_HAG_ITALY_CARABINIERI22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -2206,148 +1965,10 @@
     <Content Include="Textures\MariaI_LoadingInfo_Foreground.dds">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\mehal_sefari_diff.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\mehal_sefari_diff.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\mehal_sefari_diff_t.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\mehal_sefari_diff_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\mehal_sefari_sref.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\mehal_sefari_sref.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Menelik2_DiplomacyInfo_Background.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Menelik2_LoadingInfo_Foreground.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Menelik2_LoadingInfo_Background.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA22.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA30.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA30.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA36.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA36.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA44.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA44.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA45.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA48.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA48.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA50.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA64.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA80.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_ETHIOPIA80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK2256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK2256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK232.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK232.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK245.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK245.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK250.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK250.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK255.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK255.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK264.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK264.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK280.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_LEADER_HAG_MENELIK280.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_HAG_MENELIK2_NEUTRAL.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\LEADER_HAG_MENELIK2_NEUTRAL.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\Moment_HAG_AdolfHitler_Ju87.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Moment_HAG_ChurchillSwordfish.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Moment_HAG_Ethiopia_Stele.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Moment_HAG_HidekiTojo_Zero.dds">
@@ -2441,12 +2062,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_HAG_MARIA_I.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_LEADER_HAG_MENELIK2.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\PORTRAIT_LEADER_HAG_MENELIK2.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\PORTRAIT_LEADER_HAG_MULAY_ISMAIL.dds">

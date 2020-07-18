@@ -3,113 +3,110 @@
 	<!-- 親定義 -->
 	<Types>
 		<!-- 川 -->
+		<!-- ティムール朝(ウズベキスタン) -->
 		<Row Type="NAMED_HAG_RIVER_KASHKADARYA"        Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_SURKHANDARYA"       Kind="KIND_NAMED_RIVER"/>
+		<!-- モロッコ -->
 		<Row Type="NAMED_HAG_RIVER_DRAA_RIVER"         Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_OUM_ER_RBIA_RIVER"  Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_SEBOU_RIVER"        Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_MOULOUYA_RIVER"     Kind="KIND_NAMED_RIVER"/>
+		<!-- ユーゴスラビア -->
 		<Row Type="NAMED_HAG_RIVER_SAVA_RIVER"         Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_LJUBLJANICA_RIVER"  Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_NERETVA_RIVER"      Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_KRKA_RIVER"         Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_DRAGONJA_RIVER"     Kind="KIND_NAMED_RIVER"/>
-		<Row Type="NAMED_HAG_RIVER_BLUE_NILE_RIVER"    Kind="KIND_NAMED_RIVER"/>
-		<Row Type="NAMED_HAG_RIVER_AWASH_RIVER"        Kind="KIND_NAMED_RIVER"/>
-		<Row Type="NAMED_HAG_RIVER_OMO_RIVER"          Kind="KIND_NAMED_RIVER"/>
-		<Row Type="NAMED_HAG_RIVER_JUBBA_RIVER"        Kind="KIND_NAMED_RIVER"/>
+		<!-- コロンビア -->
 		<Row Type="NAMED_HAG_RIVER_TAJO_RIVER"         Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_MONDEGO_RIVER"      Kind="KIND_NAMED_RIVER"/>
+		
 		<!-- 火山 -->
-		<Row Type="NAMED_HAG_VOLCANO_ADWA"	           Kind="KIND_NAMED_VOLCANO"/>
-		<Row Type="NAMED_HAG_VOLCANO_AFDERA"           Kind="KIND_NAMED_VOLCANO"/>
+		<!-- 該当なし -->
+		
 		<!-- 山・山脈 -->
+		<!-- ティムール朝(ウズベキスタン) -->
 		<Row Type="NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN"  Kind="KIND_NAMED_MOUNTAIN"/>
 		<Row Type="NAMED_HAG_MOUNTAIN_ADELUNG"         Kind="KIND_NAMED_MOUNTAIN"/>
+		<!-- モロッコ -->
 		<Row Type="NAMED_HAG_MOUNTAIN_TOUBKAL"         Kind="KIND_NAMED_MOUNTAIN"/>
 		<Row Type="NAMED_HAG_MOUNTAIN_JBEL_BOU_IBLANE" Kind="KIND_NAMED_MOUNTAIN"/>
+		<!-- ユーゴスラビア -->
 		<Row Type="NAMED_HAG_MOUNTAIN_BJELASNICA"      Kind="KIND_NAMED_MOUNTAIN"/>
 		<Row Type="NAMED_HAG_MOUNTAIN_DURMITOR"        Kind="KIND_NAMED_MOUNTAIN"/>
 		<Row Type="NAMED_HAG_MOUNTAIN_SOLUNSKA_GLAVA"  Kind="KIND_NAMED_MOUNTAIN"/>
 		<Row Type="NAMED_HAG_MOUNTAIN_MIDZHUR"         Kind="KIND_NAMED_MOUNTAIN"/>
 		<Row Type="NAMED_HAG_MOUNTAIN_JAHORINA"        Kind="KIND_NAMED_MOUNTAIN"/>
 		<Row Type="NAMED_HAG_MOUNTAIN_IGMAN"           Kind="KIND_NAMED_MOUNTAIN"/>
-		<Row Type="NAMED_HAG_MOUNTAIN_RAS_DASHEN"      Kind="KIND_NAMED_MOUNTAIN"/>
-		<Row Type="NAMED_HAG_MOUNTAIN_BWAHIT"          Kind="KIND_NAMED_MOUNTAIN"/>
-		<Row Type="NAMED_HAG_MOUNTAIN_BATU"            Kind="KIND_NAMED_MOUNTAIN"/>
-		<Row Type="NAMED_HAG_MOUNTAIN_ENTOTO"          Kind="KIND_NAMED_MOUNTAIN"/>
-		<Row Type="NAMED_HAG_MOUNTAIN_TULLU_DIMTU"     Kind="KIND_NAMED_MOUNTAIN"/>
-		<Row Type="NAMED_HAG_MOUNTAIN_DENDI"           Kind="KIND_NAMED_MOUNTAIN"/>
+		
 		<!-- 湖 -->
+		<!-- ティムール朝(ウズベキスタン) -->
 		<Row Type="NAMED_HAG_LAKE_RYBACHIY_ZALIV"         Kind="KIND_NAMED_LAKE"/>
 		<Row Type="NAMED_HAG_LAKE_AYDAR_LAKE"             Kind="KIND_NAMED_LAKE"/>
+		<!-- モロッコ -->
 		<Row Type="NAMED_HAG_LAKE_DAYET_SRIJI_LAKE"       Kind="KIND_NAMED_LAKE"/>
+		<!-- ユーゴスラビア -->
 		<Row Type="NAMED_HAG_LAKE_OHRID_LAKE"             Kind="KIND_NAMED_LAKE"/>
 		<Row Type="NAMED_HAG_LAKE_SKADAR_LAKE"            Kind="KIND_NAMED_LAKE"/>
 		<Row Type="NAMED_HAG_LAKE_PALIC_LAKE"             Kind="KIND_NAMED_LAKE"/>
-		<Row Type="NAMED_HAG_LAKE_LANGANO_LAKE"           Kind="KIND_NAMED_LAKE"/>
-		<Row Type="NAMED_HAG_LAKE_AWASA_LAKE"             Kind="KIND_NAMED_LAKE"/>
-		<Row Type="NAMED_HAG_LAKE_ABAYA_LAKE"             Kind="KIND_NAMED_LAKE"/>
+		<!-- ポルトガル -->
 		<Row Type="NAMED_HAG_LAKE_SANTO_ANDRE_LAKE"       Kind="KIND_NAMED_LAKE"/>
 	</Types>
 	<!-- 名前定義 -->
 	<NamedRivers>
 		<!-- 川 -->
+		<!-- ティムール朝(ウズベキスタン) -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_KASHKADARYA"           Name="LOC_NAMED_HAG_RIVER_KASHKADARYA_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_SURKHANDARYA"          Name="LOC_NAMED_HAG_RIVER_SURKHANDARYA_NAME"/>
+		<!-- モロッコ -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_DRAA_RIVER"            Name="LOC_NAMED_HAG_RIVER_DRAA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_OUM_ER_RBIA_RIVER"     Name="LOC_NAMED_HAG_RIVER_OUM_ER_RBIA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_SEBOU_RIVER"           Name="LOC_NAMED_HAG_RIVER_SEBOU_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_MOULOUYA_RIVER"        Name="LOC_NAMED_HAG_RIVER_MOULOUYA_RIVER_NAME"/>
+		<!-- ユーゴスラビア -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_SAVA_RIVER"            Name="LOC_NAMED_HAG_RIVER_SAVA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_LJUBLJANICA_RIVER"     Name="LOC_NAMED_HAG_RIVER_LJUBLJANICA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_NERETVA_RIVER"         Name="LOC_NAMED_HAG_RIVER_NERETVA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_KRKA_RIVER"            Name="LOC_NAMED_HAG_RIVER_KRKA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_DRAGONJA_RIVER"        Name="LOC_NAMED_HAG_RIVER_DRAGONJA_RIVER_NAME"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_BLUE_NILE_RIVER"       Name="LOC_NAMED_HAG_RIVER_BLUE_NILE_RIVER_NAME"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_AWASH_RIVER"           Name="LOC_NAMED_HAG_RIVER_AWASH_RIVER_NAME"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_OMO_RIVER"             Name="LOC_NAMED_HAG_RIVER_OMO_RIVER_NAME"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_JUBBA_RIVER"           Name="LOC_NAMED_HAG_RIVER_JUBBA_RIVER_NAME"/>
+		<!-- コロンビア -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_TAJO_RIVER"            Name="LOC_NAMED_HAG_RIVER_TAJO_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_MONDEGO_RIVER"         Name="LOC_NAMED_HAG_RIVER_MONDEGO_RIVER_NAME"/>
 	</NamedRivers>
 	<NamedVolcanoes>											    
 		<!-- 火山 -->											     
-		<Row NamedVolcanoType="NAMED_HAG_VOLCANO_ADWA"              Name="LOC_NAMED_HAG_VOLCANO_ADWA_NAME"/>
-		<Row NamedVolcanoType="NAMED_HAG_VOLCANO_AFDERA"            Name="LOC_NAMED_HAG_VOLCANO_AFDERA_NAME"/>
+		<!-- 該当なし -->
 	</NamedVolcanoes>
 	<NamedMountains>
 		<!-- 山・山脈 -->
+		<!-- ティムール朝(ウズベキスタン) -->
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN"  Name="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_ADELUNG"         Name="LOC_NAMED_HAG_MOUNTAIN_ADELUNG_NAME"/>
+		<!-- モロッコ -->
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_TOUBKAL"         Name="LOC_NAMED_HAG_MOUNTAIN_TOUBKAL_NAME"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_JBEL_BOU_IBLANE" Name="LOC_NAMED_HAG_MOUNTAIN_JBEL_BOU_IBLANE_NAME"/>
+		<!-- ユーゴスラビア -->
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_BJELASNICA"      Name="LOC_NAMED_HAG_MOUNTAIN_BJELASNICA_NAME"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_DURMITOR"        Name="LOC_NAMED_HAG_MOUNTAIN_DURMITOR_NAME"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_SOLUNSKA_GLAVA"  Name="LOC_NAMED_HAG_MOUNTAIN_SOLUNSKA_GLAVA_NAME"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_MIDZHUR"         Name="LOC_NAMED_HAG_MOUNTAIN_MIDZHUR_NAME"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_JAHORINA"        Name="LOC_NAMED_HAG_MOUNTAIN_JAHORINA_NAME"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_IGMAN"           Name="LOC_NAMED_HAG_MOUNTAIN_IGMAN_NAME"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_RAS_DASHEN"      Name="LOC_NAMED_HAG_MOUNTAIN_RAS_DASHEN_NAME"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_BWAHIT"          Name="LOC_NAMED_HAG_MOUNTAIN_BWAHIT_NAME"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_BATU"            Name="LOC_NAMED_HAG_MOUNTAIN_BATU_NAME"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_ENTOTO"          Name="LOC_NAMED_HAG_MOUNTAIN_ENTOTO_NAME"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_TULLU_DIMTU"     Name="LOC_NAMED_HAG_MOUNTAIN_TULLU_DIMTU_NAME"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_DENDI"           Name="LOC_NAMED_HAG_MOUNTAIN_DENDI_NAME"/>
 	</NamedMountains>
 	<NamedDeserts>
 	</NamedDeserts>
 	<NamedLakes>
 		<!-- 湖 -->
+		<!-- ティムール朝(ウズベキスタン) -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_RYBACHIY_ZALIV"          Name="LOC_NAMED_HAG_LAKE_RYBACHIY_ZALIV_NAME"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_AYDAR_LAKE"              Name="LOC_NAMED_HAG_LAKE_AYDAR_LAKE_NAME"/>
+		<!-- モロッコ -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_DAYET_SRIJI_LAKE"        Name="LOC_NAMED_HAG_LAKE_DAYET_SRIJI_LAKE_NAME"/>
+		<!-- ユーゴスラビア -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_OHRID_LAKE"              Name="LOC_NAMED_HAG_LAKE_OHRID_LAKE_NAME"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_SKADAR_LAKE"             Name="LOC_NAMED_HAG_LAKE_SKADAR_LAKE_NAME"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_PALIC_LAKE"              Name="LOC_NAMED_HAG_LAKE_PALIC_LAKE_NAME"/>
-		<Row NamedLakeType="NAMED_HAG_LAKE_LANGANO_LAKE"            Name="LOC_NAMED_HAG_LAKE_LANGANO_LAKE_NAME"/>
-		<Row NamedLakeType="NAMED_HAG_LAKE_AWASA_LAKE"              Name="LOC_NAMED_HAG_LAKE_AWASA_LAKE_NAME"/>
-		<Row NamedLakeType="NAMED_HAG_LAKE_ABAYA_LAKE"              Name="LOC_NAMED_HAG_LAKE_ABAYA_LAKE_NAME"/>
+		<!-- ポルトガル -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_SANTO_ANDRE_LAKE"        Name="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME"/>
 	</NamedLakes>
 	<NamedSeas>
@@ -117,11 +114,6 @@
 	<!-- 文明との紐づけ -->
 	<NamedRiverCivilizations>
 		<!-- 川 -->
-		<!-- エチオピア帝国 -->
-		<Row NamedRiverType="NAMED_HAG_RIVER_BLUE_NILE_RIVER"       CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_AWASH_RIVER"           CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_OMO_RIVER"             CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_JUBBA_RIVER"           CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
 		<!-- ティムール朝(ウズベキスタン) -->
 		<Row NamedRiverType="NAMED_RIVER_AMU_DARYA"                 CivilizationType="CIVILIZATION_HAG_TIMURID"/><!-- 既存 -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_KASHKADARYA"           CivilizationType="CIVILIZATION_HAG_TIMURID"/>
@@ -160,10 +152,6 @@
 	</NamedRiverCivilizations>
 	<NamedVolcanoCivilizations>
 		<!-- 火山 -->
-		<!-- エチオピア帝国 -->								   	    
-		<Row NamedVolcanoType="NAMED_VOLCANO_ERTA_ALE"              CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/><!-- 既存 -->
-		<Row NamedVolcanoType="NAMED_HAG_VOLCANO_ADWA"              CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedVolcanoType="NAMED_HAG_VOLCANO_AFDERA"            CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
 		<!-- イタリア -->
 		<Row NamedVolcanoType="NAMED_VOLCANO_ETNA"                  CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedVolcanoType="NAMED_VOLCANO_LARDERELLO_VOLCANO"    CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
@@ -179,13 +167,6 @@
 	</NamedVolcanoCivilizations>
 	<NamedMountainCivilizations>
 		<!-- 山・山脈 -->
-		<!-- エチオピア帝国 -->
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_RAS_DASHEN"      CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_BWAHIT"          CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_BATU"            CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_ENTOTO"          CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_TULLU_DIMTU"     CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_DENDI"           CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
 		<!-- ティムール朝(ウズベキスタン) -->
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN"  CivilizationType="CIVILIZATION_HAG_TIMURID"/>
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_ADELUNG"         CivilizationType="CIVILIZATION_HAG_TIMURID"/>
@@ -217,8 +198,6 @@
 	</NamedMountainCivilizations>
 	<NamedDesertCivilizations>
 		<!-- 砂漠 -->
-		<!-- エチオピア帝国 -->
-		<Row NamedDesertType="NAMED_DESERT_DANAKIL"                 CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/><!-- 既存 -->
 		<!-- ティムール朝(ウズベキスタン) -->
 		<Row NamedDesertType="NAMED_DESERT_KYZYLKUM"                CivilizationType="CIVILIZATION_HAG_TIMURID"/><!-- 既存 -->
 		<!-- モロッコ -->							                 
@@ -228,23 +207,17 @@
 	</NamedDesertCivilizations>
 	<NamedLakeCivilizations>
 		<!-- 湖 -->
-		<!-- エチオピア帝国 -->
-		<Row NamedLakeType="NAMED_LAKE_LAKE_TANA"                   CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/><!-- 既存 -->
-		<Row NamedLakeType="NAMED_LAKE_LAKE_TURKANA"                CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/><!-- 既存 -->
-		<Row NamedLakeType="NAMED_HAG_LAKE_LANGANO_LAKE"            CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedLakeType="NAMED_HAG_LAKE_AWASA_LAKE"              CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
-		<Row NamedLakeType="NAMED_HAG_LAKE_ABAYA_LAKE"              CivilizationType="CIVILIZATION_HAG_ETHIOPIA"/>
 		<!-- ティムール朝(ウズベキスタン) -->
 		<Row NamedLakeType="NAMED_LAKE_ARAL_SEA"                    CivilizationType="CIVILIZATION_HAG_TIMURID"/><!-- 既存 -->
 		<Row NamedLakeType="NAMED_LAKE_SARYGAMYSH_LAKE"             CivilizationType="CIVILIZATION_HAG_TIMURID"/><!-- 既存 -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_RYBACHIY_ZALIV"          CivilizationType="CIVILIZATION_HAG_TIMURID"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_AYDAR_LAKE"              CivilizationType="CIVILIZATION_HAG_TIMURID"/>
-		<!-- ユーゴスラビア -->							            
+		<!-- ユーゴスラビア -->
 		<Row NamedLakeType="NAMED_LAKE_LAKE_PRESPA"                 CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/><!-- 既存 -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_OHRID_LAKE"              CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_SKADAR_LAKE"             CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_PALIC_LAKE"              CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
-		<!-- モロッコ -->									         
+		<!-- モロッコ -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_DAYET_SRIJI_LAKE"        CivilizationType="CIVILIZATION_HAG_MOROCCO"/>
 		<!-- ポルトガル -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_SANTO_ANDRE_LAKE"        CivilizationType="CIVILIZATION_HAG_PORTUGAL"/>

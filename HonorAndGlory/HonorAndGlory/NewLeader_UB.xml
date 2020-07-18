@@ -2,22 +2,16 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="BUILDING_HAG_ETHIOPIA_STELE"          Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_HAG_TIMURID_OBSERVATORY"     Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" Kind="KIND_BUILDING"/>
 	</Types>
 	<!-- 置換設定 -->
 	<BuildingReplaces>
-		<Row CivUniqueBuildingType="BUILDING_HAG_ETHIOPIA_STELE"          ReplacesBuildingType="BUILDING_MONUMENT"/>
 		<Row CivUniqueBuildingType="BUILDING_HAG_TIMURID_OBSERVATORY"     ReplacesBuildingType="BUILDING_UNIVERSITY"/>
 		<Row CivUniqueBuildingType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" ReplacesBuildingType="BUILDING_RESEARCH_LAB"/>
 	</BuildingReplaces>
 	<!-- 主設定 -->
 	<Buildings>
-		<!-- ステッレ -->
-		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" Name="LOC_BUILDING_HAG_ETHIOPIA_STELE_NAME" Description="LOC_BUILDING_HAG_ETHIOPIA_STELE_DESCRIPTION"
-			 PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE"
-             TraitType="TRAIT_BUILDING_HAG_ETHIOPIA_STELE"/>
 		<!-- 天文台 -->
 		<Row BuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" Name="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Description="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_DESCRIPTION" 
 			 PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="250" AdvisorType="ADVISOR_TECHNOLOGY" 
@@ -39,9 +33,6 @@
 	</BuildingPrereqs>
 	<!-- 出力 -->
 	<Building_YieldChanges>
-		<!-- ステッレ：信仰力+2、文化力+1 -->
-		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" YieldType="YIELD_FAITH"   YieldChange="2"/>
-		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" YieldType="YIELD_CULTURE" YieldChange="1"/>
 		<!-- 天文台：科学力+5 -->
 		<Row BuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" YieldType="YIELD_SCIENCE" YieldChange="5"/>
 		<!-- 宇宙科学研究所：科学力+4 -->
@@ -53,8 +44,6 @@
 	</Building_YieldChangesBonusWithPower>
 	<!-- 偉人ポイント -->
 	<Building_GreatPersonPoints>
-		<!-- ステッレ：大預言者+1 -->
-		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
 		<!-- 天文台：大科学者+1 -->
 		<Row BuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 		<!-- 宇宙科学研究所：大科学者+2 -->
@@ -72,8 +61,6 @@
 	</Building_CitizenYieldChanges>
 	<!-- 建造物が持つ特殊効果 -->
 	<BuildingModifiers>
-		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE"          ModifierId="MONUMENT_LOYALTY"/>					<!-- RaFにある -->
-		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE"          ModifierId="MONUMENT_CULTURE_AT_FULL_LOYALTY"/>	<!-- RaFにある -->
 		<Row BuildingType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" ModifierId="HAG_USSR_SPACE_RESEARCH_FASTER_SPACE_RACE_PRODUCTION"/>
 	</BuildingModifiers>
 	<!-- 特殊効果の内容 -->

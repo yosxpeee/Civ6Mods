@@ -2,7 +2,6 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_TIMURID_ARBAN"           Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Kind="KIND_UNIT"/>
@@ -24,10 +23,6 @@
 	</Tags>
 	<!-- AIの動き -->
 	<UnitAiInfos>
-		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   AiType="UNITTYPE_LAND_COMBAT"/>
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           AiType="UNITTYPE_CAVALRY"/>
@@ -67,8 +62,6 @@
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
-		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   Tag="CLASS_GEORGIAN_KHEVSURETI"/><!-- GSのグルジアのヘヴスルと同じ -->
 		<Row Type="UNIT_HAG_TIMURID_ARBAN"           Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_HAG_TIMURID_ARBAN"           Tag="CLASS_MONGOLIAN_KESHIG"/><!-- RaFのモンゴルのケシクと同じ -->
 		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_SIEGE"/>
@@ -98,7 +91,6 @@
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   ReplacesUnitType="UNIT_INFANTRY"/>
 		<Row CivUniqueUnitType="UNIT_HAG_TIMURID_ARBAN"           ReplacesUnitType="UNIT_COURSER"/>
 		<Row CivUniqueUnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ReplacesUnitType="UNIT_ARTILLERY"/>
 		<Row CivUniqueUnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ReplacesUnitType="UNIT_CAVALRY"/>
@@ -110,14 +102,6 @@
 	</UnitReplaces>
 	<!-- 主設定 -->
 	<Units>
-		<!-- マハール・セファリ -->
-		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Cost="430" Maintenance="6" BaseMoves="2" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70" 
-			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
-			 AdvisorType="ADVISOR_CONQUEST" 
-			 Name="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Description="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_REPLACEABLE_PARTS" 
-			 TraitType="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"/>
 		<!-- アルバン -->
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN" Cost="200" Maintenance="3" BaseMoves="5" BaseSightRange="2" 
 			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="46" StrategicResource="RESOURCE_HORSES" 
@@ -194,8 +178,6 @@
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<!-- マハール・セファリ：機械化歩兵-->
-		<Row Unit="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
 		<!-- アルバン：騎兵-->
 		<Row Unit="UNIT_HAG_TIMURID_ARBAN"           UpgradeUnit="UNIT_CAVALRY"/>
 		<!-- M48山砲：ロケット砲 -->
@@ -219,7 +201,6 @@
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>
-		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"      ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           ResourceCost="10"/>
 		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ResourceCost="20"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ResourceCost="20"/>

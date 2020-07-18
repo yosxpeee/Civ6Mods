@@ -9,15 +9,6 @@
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UILeaders"/>
 	<m_Entries>
-		<!-- メネリク2世 -->
-		<Element>
-			<m_EntryID text="LEADER_HAG_MENELIK2_NEUTRAL"/>
-			<m_ObjectName text="LEADER_HAG_MENELIK2_NEUTRAL"/>
-		</Element>
-		<Element>
-			<m_EntryID text="PORTRAIT_LEADER_HAG_MENELIK2"/>
-			<m_ObjectName text="PORTRAIT_LEADER_HAG_MENELIK2"/>
-		</Element>
 		<!-- ナポレオン -->
 		<Element>
 			<m_EntryID text="LEADER_HAG_NAPOLEON_NEUTRAL"/>

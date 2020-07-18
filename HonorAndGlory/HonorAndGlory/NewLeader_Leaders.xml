@@ -2,9 +2,6 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<!-- メネリク2世 -->
-		<Row Type="LEADER_HAG_MENELIK2"            Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_MENELIK2"      Kind="KIND_TRAIT"/>
 		<!-- ナポレオン -->					      
 		<Row Type="LEADER_HAG_NAPOLEON"            Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_NAPOLEON"      Kind="KIND_TRAIT"/>
@@ -46,12 +43,6 @@
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
-		<!-- メネリク2世 -->
-		<Row>
-			<LeaderType>LEADER_HAG_MENELIK2</LeaderType>
-			<Name>LOC_LEADER_HAG_MENELIK2_NAME</Name>
-			<InheritFrom>LEADER_DEFAULT</InheritFrom>
-		</Row>
 		<!-- ナポレオン -->
 		<Row>
 			<LeaderType>LEADER_HAG_NAPOLEON</LeaderType>
@@ -121,7 +112,6 @@
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_HAG_MENELIK2"      Quote="LOC_LEADER_HAG_MENELIK2_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      Quote="LOC_LEADER_HAG_NAPOLEON_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"         Quote="LOC_LEADER_HAG_TIMUR_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_TITO"          Quote="LOC_LEADER_HAG_TITO_QUOTE"/>
@@ -136,7 +126,6 @@
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
-		<Row LeaderType="LEADER_HAG_MENELIK2"      TraitType="TRAIT_LEADER_HAG_MENELIK2"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
@@ -177,7 +166,6 @@
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_HAG_MENELIK2"        Name="LOC_TRAIT_LEADER_HAG_MENELIK2_NAME"      Description="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_NAPOLEON"        Name="LOC_TRAIT_LEADER_HAG_NAPOLEON_NAME"      Description="LOC_TRAIT_LEADER_HAG_NAPOLEON_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_TIMUR"           Name="LOC_TRAIT_LEADER_HAG_TIMUR_NAME"         Description="LOC_TRAIT_LEADER_HAG_TIMUR_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_TITO"            Name="LOC_TRAIT_LEADER_HAG_TITO_NAME"          Description="LOC_TRAIT_LEADER_HAG_TITO_DESCRIPTION"/>
@@ -197,21 +185,6 @@
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
-		<!-- メネリク2世 -->
-		<!-- 友好な領土から4タイル以内での戦闘ボーナス+4 -->
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
-		<Row>
-			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
-		</Row>
 		<!-- ナポレオン -->
 		<!-- 陸軍近接ユニットの移動力+1 -->
 		<!-- 兵営から文化力+2 -->
@@ -469,21 +442,6 @@
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
-		<!-- 友好な領土から4タイル以内での戦闘ボーナス+4 -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
-		</Row>
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
-		</Row>
-		
 		<!-- 陸軍近接ユニットの移動力+1 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT</ModifierId>
@@ -717,34 +675,6 @@
 	</Modifiers>
 	<!-- 特性のパラメータ -->
 	<ModifierArguments>
-		<!-- 友好な領土から4タイル以内での戦闘ボーナス+4 -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
-			<Name>AbilityType</Name>
-			<Value>ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</Value>
-		</Row>
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		
 		<!-- 陸軍近接ユニットの移動力+1 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT</ModifierId>
@@ -1319,11 +1249,6 @@
 	</RequirementArguments>
 	<!-- AIの好み -->
 	<AiListTypes>
-		<!-- メネリク2世 -->
-		<Row ListType="HAGMenelik2District"/>
-		<Row ListType="HAGMenelik2Civics"/>
-		<Row ListType="HAGMenelik2Tech"/>
-		<Row ListType="HAGMenelik2Wonders"/>
 		<!-- ナポレオン -->
 		<Row ListType="HAGNapoleonDistrict"/>
 		<Row ListType="HAGNapoleonCivics"/>
@@ -1388,11 +1313,6 @@
 		<Row ListType="HAGChurchillWonders"/>
 	</AiListTypes>
 	<AiLists>
-		<!-- メネリク2世 -->
-		<Row ListType="HAGMenelik2District"       LeaderType="TRAIT_LEADER_HAG_MENELIK2"      System="Districts"/>
-		<Row ListType="HAGMenelik2Civics"         LeaderType="TRAIT_LEADER_HAG_MENELIK2"      System="Civics"/>
-		<Row ListType="HAGMenelik2Tech"           LeaderType="TRAIT_LEADER_HAG_MENELIK2"      System="Technologies"/>
-		<Row ListType="HAGMenelik2Wonders"        LeaderType="TRAIT_LEADER_HAG_MENELIK2"      System="Buildings"/>
 		<!-- ナポレオン -->
 		<Row ListType="HAGNapoleonDistrict"       LeaderType="TRAIT_LEADER_HAG_NAPOLEON"      System="Districts"/>
 		<Row ListType="HAGNapoleonCivics"         LeaderType="TRAIT_LEADER_HAG_NAPOLEON"      System="Civics"/>
@@ -1457,14 +1377,6 @@
 		<Row ListType="HAGChurchillWonders"       LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Buildings"/>
 	</AiLists>
 	<AiFavoredItems>
-		<!-- メネリク2世 -->
-		<Row ListType="HAGMenelik2District"       Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
-		<Row ListType="HAGMenelik2Civics"         Item="CIVIC_MEDIEVAL_FAIRES"          Favored="true"/><!-- 中世の市 -->
-		<Row ListType="HAGMenelik2Civics"         Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
-		<Row ListType="HAGMenelik2Tech"           Item="TECH_CURRENCY"                  Favored="true"/><!-- 通貨 -->
-		<Row ListType="HAGMenelik2Tech"           Item="TECH_REPLACEABLE_PARTS"         Favored="true"/><!-- 共通規格 -->
-		<Row ListType="HAGMenelik2Wonders"        Item="BUILDING_HANGING_GARDENS"       Favored="true"/><!-- 空中庭園 -->
-		<Row ListType="HAGMenelik2Wonders"        Item="BUILDING_GREAT_ZIMBABWE"        Favored="true"/><!-- グレート・ジンバブエ遺跡 -->
 		<!-- ナポレオン -->
 		<Row ListType="HAGNapoleonDistrict"       Item="DISTRICT_ENCAMPMENT"            Favored="true"/><!-- 兵営 -->
 		<Row ListType="HAGNapoleonCivics"         Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
@@ -1621,8 +1533,6 @@
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
-		<!-- メネリク2世：先駆者に学べ(中身はバニラのピョートルと同一) -->
-		<Row LeaderType="LEADER_HAG_MENELIK2"      AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
 		<!-- ナポレオン：百日天下(中身はマケドニア・ペルシアDLCのアレクサンドロスと同じ) -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      AgendaType="AGENDA_HAG_HUNDRED_DAYS"/>
 		<!-- ティムール：サーヒブ・キラーン(中身はマケドニア・ペルシアDLCのキュロスと同じ) -->
@@ -1649,7 +1559,6 @@
 	<!-- 好む宗教 -->
 	<FavoredReligions>
 		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、はなし -->
-		<Row LeaderType="LEADER_HAG_MENELIK2"     ReligionType="RELIGION_ORTHODOXY"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"     ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"        ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ReligionType="RELIGION_ISLAM"/>
@@ -1660,7 +1569,6 @@
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
-		<Row Type="LEADER_HAG_MENELIK2"      BackgroundImage="Menelik2_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_NAPOLEON"      BackgroundImage="Napoleon_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_TIMUR"         BackgroundImage="Timur_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_TITO"          BackgroundImage="Tito_DiplomacyInfo_Background.dds"/>
@@ -1674,7 +1582,6 @@
 		<Row Type="LEADER_HAG_CHURCHILL"     BackgroundImage="Churchill_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
-		<Row LeaderType="LEADER_HAG_MENELIK2"      ForegroundImage="Menelik2_LoadingInfo_Foreground.dds"     BackgroundImage="Menelik2_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_MENELIK2_DOM_TEXT"      PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"     BackgroundImage="Napoleon_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT"      PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"         ForegroundImage="Timur_LoadingInfo_Foreground.dds"        BackgroundImage="Timur_LoadingInfo_Background.dds"        LeaderText="LOC_LEADER_HAG_TIMUR_DOM_TEXT"         PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_TITO"          ForegroundImage="Tito_LoadingInfo_Foreground.dds"         BackgroundImage="Tito_LoadingInfo_Background.dds"         LeaderText="LOC_LEADER_HAG_TITO_DOM_TEXT"          PlayDawnOfManAudio="1"/>

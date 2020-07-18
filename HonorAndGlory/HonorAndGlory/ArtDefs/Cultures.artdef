@@ -51,14 +51,6 @@
 							<m_eValueType>ARTDEF_REF</m_eValueType>
 							<m_Values>
 								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="CIVILIZATION_HAG_ETHIOPIA"/>
-									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilizations.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag01"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_HAG_YUGOSLAVIA"/>
 									<m_RootCollectionName text="Civilization"/>
 									<m_ArtDefPath text="Civilizations.artdef"/>
@@ -171,14 +163,6 @@
 							<m_eValueType>ARTDEF_REF</m_eValueType>
 							<m_Values>
 								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="CIVILIZATION_HAG_ETHIOPIA"/>
-									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilizations.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag01"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_HAG_MOROCCO"/>
 									<m_RootCollectionName text="Civilization"/>
 									<m_ArtDefPath text="Civilizations.artdef"/>
@@ -258,14 +242,6 @@
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
 							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="CIVILIZATION_HAG_ETHIOPIA"/>
-									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilizations.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag01"/>
-								</Element>
 								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_HAG_YUGOSLAVIA"/>
 									<m_RootCollectionName text="Civilization"/>
@@ -374,14 +350,6 @@
 							<m_eObjectType>INVALID</m_eObjectType>
 							<m_eValueType>ARTDEF_REF</m_eValueType>
 							<m_Values>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="CIVILIZATION_HAG_ETHIOPIA"/>
-									<m_RootCollectionName text="Civilization"/>
-									<m_ArtDefPath text="Civilizations.artdef"/>
-									<m_CollectionIsLocked>true</m_CollectionIsLocked>
-									<m_TemplateName text="Civilizations"/>
-									<m_ParamName text="Civilizations_hag01"/>
-								</Element>
 								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="CIVILIZATION_HAG_MOROCCO"/>
 									<m_RootCollectionName text="Civilization"/>

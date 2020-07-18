@@ -114,14 +114,16 @@
 		
 		<!-- 指導者 -->
 		<!-- メネリク2世 -->
+		<!--
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_MENELIK2_PRIMARY</Type>
-			<Color>18,43,16,255</Color><!-- 深緑 -->
+			<Color>18,43,16,255</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_MENELIK2_SECONDARY</Type>
-			<Color>254,242,99,255</Color><!-- 黄色 -->
+			<Color>254,242,99,255</Color>
 		</Row>
+		-->
 		<!-- ナポレオン -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_NAPOLEON_PRIMARY</Type>
@@ -186,7 +188,6 @@
 			<Color>255,215,0,255</Color><!-- 黄色 -->
 		</Row>
 		<!-- シモン・ボリバル -->
-		<!-- 黄色、半透明 --><!-- 少し青みがかった灰色 -->
 		<!--
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_SIMON_BOLIVAR_PRIMARY</Type>

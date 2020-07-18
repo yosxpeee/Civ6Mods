@@ -3,13 +3,6 @@
 	<LocalizedText>
 		<!-- アジェンダ固有の賞賛/非難 -->
 		<!-- ※最低限賞賛のセリフは入れる必要あり。デフォルトが空文なので・・・ -->
-		<!-- メネリク2世 -->
-		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_MENELIK2_ANY" Language="en_US">
-			<Text>Yours is a society to emulate. Arts, sciences… what don’t you have?</Text>
-		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_MENELIK2_ANY" Language="en_US">
-			<Text>Your people are starved for knowledge and beauty, and yet you ignore science and art. Why?</Text>
-		</Replace>
 		<!-- ナポレオン -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_NAPOLEON_ANY" Language="en_US">
 			<Text>I hope we never meet in battle, it would be a shame to lose such a worthy foe.</Text>

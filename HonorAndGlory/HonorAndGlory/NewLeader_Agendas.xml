@@ -2,7 +2,6 @@
 <GameInfo>
 	<!-- アジェンダの親定義 -->
 	<Types>
-		<Row Type="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_SAHIB_QIRAN"               Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             Kind="KIND_TRAIT"/>
@@ -19,7 +18,6 @@
 	</PlotEvalConditions>
 	<!-- AIの動き -->
 	<AiListTypes>
-		<Row ListType="HAGLearnFromThePioneersResolution"/>
 		<Row ListType="HAGHundredDaysDiplomacy"/>
 		<Row ListType="HAGHundredDaysResolutions"/>
 		<Row ListType="HAGHundredDaysDiscussions"/>
@@ -42,7 +40,6 @@
 		<Row ListType="HAGAtlanticCharterDiscussions"/>
 	</AiListTypes>
 	<AiLists>
-		<Row ListType="HAGLearnFromThePioneersResolution"       AgendaType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   System="Resolutions"/>
 		<Row ListType="HAGHundredDaysDiplomacy"                 AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="DiplomaticActions"/>
 		<Row ListType="HAGHundredDaysResolutions"               AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="Resolutions"/>
 		<Row ListType="HAGHundredDaysDiscussions"               AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="Discussions"/>
@@ -65,7 +62,6 @@
 		<Row ListType="HAGAtlanticCharterDiscussions"           AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          System="Discussions"/>
 	</AiLists>
 	<AiFavoredItems>
-		<Row ListType="HAGLearnFromThePioneersResolution"       Item="WC_RES_TRADE_TREATY" Favored="true"/>
 		<Row ListType="HAGHundredDaysDiplomacy"                 Item="DIPLOACTION_MAKE_PEACE" Favored="false"/>
 		<Row ListType="HAGHundredDaysResolutions"               Item="WC_RES_MERCENARY_COMPANIES" Favored="false"/>
 		<Row ListType="HAGHundredDaysDiscussions"               Item="WC_EMERGENCY_MILITARY" Favored="false"/>
@@ -102,7 +98,6 @@
 	</TriggeredBehaviorTrees>
 	<!-- 効果の親定義 -->
 	<Traits>
-		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"/>
@@ -117,7 +112,6 @@
 	</Traits>
 	<!-- アジェンダの名前と説明 -->
 	<Agendas>
-		<Row AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   Name="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_NAME"   Description="LOC_AGENDA_HAG_LEARN_FROM_THE_PIONEERS_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              Name="LOC_AGENDA_HAG_HUNDRED_DAYS_NAME"              Description="LOC_AGENDA_HAG_HUNDRED_DAYS_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_SAHIB_QIRAN"               Name="LOC_AGENDA_HAG_SAHIB_QIRAN_NAME"               Description="LOC_AGENDA_HAG_SAHIB_QIRAN_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_SIX_REPUBLICS"             Name="LOC_AGENDA_HAG_SIX_REPUBLICS_NAME"             Description="LOC_AGENDA_HAG_SIX_REPUBLICS_DESCRIPTION"/>
@@ -138,8 +132,6 @@
 	</AgendaPreferredLeaders>
 	<!-- 排他するアジェンダ -->
 	<ExclusiveAgendas>
-		<Row AgendaOne="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   AgendaTwo="AGENDA_CULTURED"/>
-		<Row AgendaOne="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   AgendaTwo="AGENDA_TECHNOPHILE"/>
 		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_PARANOID"/>
 		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
 		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_DARWINIST"/>
@@ -158,7 +150,6 @@
 	</ExclusiveAgendas>
 	<!-- アジェンダとTraitの紐づけ -->
 	<AgendaTraits>
-		<Row AgendaType="AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"/>
 		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"/>
 		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              TraitType="TRAIT_AGENDA_IGNORE_WARMONGERING"/>
 		<Row AgendaType="AGENDA_HAG_SAHIB_QIRAN"               TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"/>
@@ -175,8 +166,6 @@
 	</AgendaTraits>
 	<!-- Traitに紐づく効果 -->
 	<TraitModifiers>
-		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   ModifierId="AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_LEARN_FROM_THE_PIONEERS"   ModifierId="AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              ModifierId="AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"               ModifierId="AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             ModifierId="AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES"/>
@@ -197,18 +186,6 @@
 	</TraitModifiers>
 	<!-- ここからアジェンダの効果詳細 -->
 	<Modifiers>
-		<!-- 科学力・文化力が低い -->
-		<Row>
-			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_LAGS_PROGRESS</SubjectRequirementSetId>
-		</Row>
-		<!-- 科学力・文化力が高い -->
-		<Row>
-			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>PLAYER_LEADS_PROGRESS</SubjectRequirementSetId>
-		</Row>
 		<!-- 戦争の状態 -->
 		<Row>
 			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
@@ -320,40 +297,6 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<!-- 科学力・文化力が低い -->
-		<Row>
-			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
-			<Name>InitialValue</Name>
-			<Value>-7</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
-			<Name>StatementKey</Name>
-			<!-- ピョートルと同じ文章で問題ない -->
-			<Value>LOC_DIPLO_WARNING_LEADER_PETER_GREAT_REASON_ANY</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2</ModifierId>
-			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LAGGING</Value>
-		</Row>
-		<!-- 科学力・文化力が高い -->
-		<Row>
-			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
-			<Name>InitialValue</Name>
-			<Value>7</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
-			<Name>StatementKey</Name>
-			<!-- ピョートルと同じ文章で問題ない -->
-			<Value>LOC_DIPLO_KUDO_LEADER_PETER_GREAT_REASON_ANY</Value>
-		</Row>
-		<Row>
-			<ModifierId>AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2</ModifierId>
-			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_HAG_LEARN_FROM_THE_PIONEERS_LEADING</Value>
-		</Row>
 		<!-- 戦争の状態 -->
 		<Row>
 			<ModifierId>AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON</ModifierId>
@@ -740,8 +683,6 @@
 	<!-- アジェンダに紐づく印象の上下のテキスト -->
 	<!-- ※これを忘れると「理由不明」になってしまう -->
 	<ModifierStrings>
-		<Row ModifierId="AGENDA_MODIFIER_LAGS_PROGRESS_HAG_MENELIK2"      Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_MODIFIER_LEADS_PROGRESS_HAG_MENELIK2"     Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON"            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR"                Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES"          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>

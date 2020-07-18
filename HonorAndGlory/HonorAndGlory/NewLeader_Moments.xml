@@ -3,8 +3,6 @@
 	<!-- 歴史年表用の画像 -->
 	<MomentIllustrations>
 		<!-- ユニーク -->
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"       Texture="Moment_Spy_MaxLevel.dds"/><!-- スパイMAX昇進の使いまわし -->
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_ETHIOPIA_STELE"          Texture="Moment_HAG_Ethiopia_Stele.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_TIMURID_OBSERVATORY"     Texture="Moment_HAG_Timurid_Observatory.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_TIMURID_ARBAN"               Texture="Moment_UniqueUnit_Arab.dds"/><!-- マムルークの使いまわし -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"     Texture="Moment_HAG_Yugoslavia_M48.dds"/>

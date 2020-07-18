@@ -9,11 +9,6 @@
 	<m_ClassName text="LeaderFallback"/>
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
-		<!-- メネリク2世 -->
-		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_MENELIK2"/>
-		</Element>
 		<!-- ナポレオン -->
 		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_NAPOLEON"/>

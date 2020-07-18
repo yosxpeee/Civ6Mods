@@ -2,12 +2,6 @@
 <GameData>
 	<!-- LeaderAnimation ***************************************************** -->
 	<LeaderAnimations>
-		<!-- メネリク2世 -->
-		<Row>
-			<Name>NEUTRAL_IDLE</Name>
-			<Leader>LEADER_HAG_MENELIK2</Leader>
-			<Sequence>DEFAULT</Sequence>
-		</Row>
 		<!-- ナポレオン世 -->
 		<Row>
 			<Name>NEUTRAL_IDLE</Name>

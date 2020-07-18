@@ -9,47 +9,6 @@
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="UI/NewLeader_Icons"/>
 	<m_Entries>
-		<!-- 文明(エチオピア帝国) -->
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA22"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA30"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA30"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA36"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA36"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA44"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA44"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA45"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA48"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA48"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA50"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA64"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA80"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_HAG_ETHIOPIA256"/>
-			<m_ObjectName text="ICON_CIVILIZATION_HAG_ETHIOPIA256"/>
-		</Element>
 		<!-- 文明(ティムール朝) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_TIMURID22"/>
@@ -297,35 +256,6 @@
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_USSR256"/>
 		</Element>
 		
-		<!-- 指導者(メネリク2世) -->
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_MENELIK232"/>
-			<m_ObjectName text="ICON_LEADER_HAG_MENELIK232"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_MENELIK245"/>
-			<m_ObjectName text="ICON_LEADER_HAG_MENELIK245"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_MENELIK250"/>
-			<m_ObjectName text="ICON_LEADER_HAG_MENELIK250"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_MENELIK255"/>
-			<m_ObjectName text="ICON_LEADER_HAG_MENELIK255"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_MENELIK264"/>
-			<m_ObjectName text="ICON_LEADER_HAG_MENELIK264"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_MENELIK280"/>
-			<m_ObjectName text="ICON_LEADER_HAG_MENELIK280"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_HAG_MENELIK2256"/>
-			<m_ObjectName text="ICON_LEADER_HAG_MENELIK2256"/>
-		</Element>
 		<!-- 指導者(ナポレオン) -->
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_NAPOLEON32"/>
@@ -688,31 +618,6 @@
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU256"/>
 		</Element>
 		
-		<!-- ユニット(マハール・セファリ) -->
-		<Element>
-			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI22"/>
-			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI32"/>
-			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI38"/>
-			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI50"/>
-			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI80"/>
-			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI256"/>
-			<m_ObjectName text="ICON_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI256"/>
-		</Element>
 		<!-- ユニット(ベルベル人の騎兵) -->
 		<Element>
 			<m_EntryID text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY22"/>
