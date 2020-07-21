@@ -82,10 +82,10 @@
 		</Replace>
 		<!-- アッティラ -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_ATTILA_ANY" Language="en_US">
-			<Text>Unknwon</Text>
+			<Text>I am only interested in people worthy of my time. You are obviously one of them.</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ATTILA_ANY" Language="en_US">
-			<Text>Unknown</Text>
+			<Text>You are not worthy to bask in our presence. Your power is as fragile as your army is weak.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

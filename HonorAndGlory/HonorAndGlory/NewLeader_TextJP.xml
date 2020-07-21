@@ -1598,5 +1598,13 @@
 		<Replace Tag="LOC_DIPLO_MODIFIER_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND" Language="ja_JP">
 			<Text>チャーチルは自分の友好国に対する非難声明を好まない</Text>
 		</Replace>
+		<!-- フン族とその諸侯の王(アッティラ) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Row Tag="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_NAME" Language="ja_JP">
+			<Text>フン族とその諸侯の王</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_DESCRIPTION" Language="ja_JP">
+			<Text>強い軍事力を有する文明を好み、軍事衝突をさけるためにそうした文明と同盟を結ぼうとする。一方で軍事力の弱い文明を嫌う。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

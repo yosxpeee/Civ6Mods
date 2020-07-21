@@ -255,6 +255,47 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_USSR256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_USSR256"/>
 		</Element>
+		<!-- 文明(フン族) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS256"/>
+		</Element>
 		
 		<!-- 指導者(ナポレオン) -->
 		<Element>
@@ -575,6 +616,35 @@
 			<m_EntryID text="ICON_LEADER_HAG_CHURCHILL256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_CHURCHILL256"/>
 		</Element>
+		<!-- 指導者(アッティラ) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ATTILA32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ATTILA32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ATTILA45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ATTILA45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ATTILA50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ATTILA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ATTILA55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ATTILA55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ATTILA64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ATTILA64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ATTILA80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ATTILA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_ATTILA256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_ATTILA256"/>
+		</Element>
 		
 		<!-- 都市国家(琉球) -->
 		<Element>
@@ -760,6 +830,23 @@
 		<Element>
 			<m_EntryID text="ICON_IMPROVEMENT_HAG_CASBAH256"/>
 			<m_ObjectName text="ICON_IMPROVEMENT_HAG_CASBAH256"/>
+		</Element>
+		<!-- 地形改善(ユルト) -->
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_YURT38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YURT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_YURT50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YURT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_YURT80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YURT80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_YURT256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YURT256"/>
 		</Element>
 		
 		<!-- 宗教(ジャイナ教) -->

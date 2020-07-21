@@ -1633,18 +1633,16 @@
 		<Row ListType="HAGChurchillWonders"       Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
 		<Row ListType="HAGChurchillWonders"       Item="BUILDING_EIFFEL_TOWER"          Favored="true"/><!-- エッフェル塔 -->
 		<Row ListType="HAGChurchillWonders"       Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
-		<!-- ティムール -->
-		<Row ListType="HAGAttilaDistrict"          Item="DISTRICT_ENCAMPMENT"           Favored="true"/><!-- 兵営 -->
-		<Row ListType="HAGAttilaCivics"            Item="CIVIC_POLITICAL_PHILOSOPHY"    Favored="true"/><!-- 政治哲学 -->
-		<Row ListType="HAGAttilaCivics"            Item="CIVIC_NATIONALISM"             Favored="true"/><!-- ナショナリズム -->
-		<Row ListType="HAGAttilaCivics"            Item="CIVIC_MOBILIZATION"            Favored="true"/><!-- 戦時動員 -->
-		<Row ListType="HAGAttilaTech"              Item="TECH_CURRENCY"                 Favored="true"/><!-- 通貨 -->
-		<Row ListType="HAGAttilaTech"              Item="TECH_CASTLES"                  Favored="true"/><!-- 城 -->
-		<Row ListType="HAGAttilaTech"              Item="TECH_ASTRONOMY"                Favored="true"/><!-- 天文学 -->
-		<Row ListType="HAGAttilaWonders"           Item="BUILDING_TERRACOTTA_ARMY"      Favored="true"/><!-- 兵馬俑 -->
-		<Row ListType="HAGAttilaWonders"           Item="BUILDING_TAJ_MAHAL"            Favored="true"/><!-- タージ・マハル(RaF) -->
-		<Row ListType="HAGAttilaWonders"           Item="BUILDING_UNIVERSITY_SANKORE"   Favored="true"/><!-- サンコーレ大学(GS) -->
-		<Row ListType="HAGAttilaCavalryLoverList"  Item="PROMOTION_CLASS_LIGHT_CAVALRY" Value="100"/>
+		<!-- アッティラ -->
+		<Row ListType="HAGAttilaDistrict"         Item="DISTRICT_ENCAMPMENT"            Favored="true"/><!-- 兵営 -->
+		<Row ListType="HAGAttilaCivics"           Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGAttilaCivics"           Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGAttilaCivics"           Item="CIVIC_MOBILIZATION"             Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGAttilaTech"             Item="TECH_HORSEBACK_RIDING"          Favored="true"/><!-- 騎乗 -->
+		<Row ListType="HAGAttilaTech"             Item="TECH_CASTLES"                   Favored="true"/><!-- 城 -->
+		<Row ListType="HAGAttilaTech"             Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
+		<Row ListType="HAGAttilaWonders"          Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGAttilaCavalryLoverList" Item="PROMOTION_CLASS_LIGHT_CAVALRY"  Value="100"/>
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
@@ -1670,12 +1668,12 @@
 		<Row LeaderType="LEADER_HAG_TRUMAN"        AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"/>
 		<!-- チャーチル：大西洋憲章(中身はギルガメシュのエンキドゥの盟友と同じ) -->
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"/>
-		<!-- アッティラ -->
-		
+		<!-- アッティラ：フン族とその諸侯の王(中身はバニラのクレオパトラと同じ) -->
+		<Row LeaderType="LEADER_HAG_ATTILA"        AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
-		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、はなし -->
+		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、アッティラはなし -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON"     ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"        ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ReligionType="RELIGION_ISLAM"/>

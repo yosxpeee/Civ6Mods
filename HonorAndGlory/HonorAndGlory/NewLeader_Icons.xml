@@ -68,6 +68,17 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_USSR" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_USSR256.dds"/>
+		<!-- フン族 -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS256.dds"/>
 		
 		<!-- 指導者 -->
 		<!-- ナポレオン -->
@@ -158,6 +169,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_CHURCHILL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_CHURCHILL256.dds"/>
+		<!-- アッティラ -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA256.dds"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -258,7 +277,12 @@
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH50.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH80.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH256.dds"/>
-
+		<!-- ユルト -->
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_YURT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_YURT38.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_YURT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_YURT50.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_YURT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_YURT80.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_YURT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_YURT256.dds"/>
+		
 		<!-- UP -->
 		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
 		<Row Name="ICON_HAG_ATLAS_XP2_PROJECTS" IconSize="30"  IconsPerRow="4" IconsPerColumn="4" Filename="XP2_Projects30"/>
@@ -316,7 +340,7 @@
 		<!-- ソ連 -->
 		<Row Name="ICON_CIVILIZATION_HAG_USSR" Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR" Index="0"/>
 		<!-- フン族 -->
-		<Row Name="ICON_CIVILIZATION_HAG_HUNS" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_HUNS" Atlas="ICON_ATLAS_CIVILIZATION_HAG_HUNS" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -343,7 +367,7 @@
 		<!-- チャーチル -->
 		<Row Name="ICON_LEADER_HAG_CHURCHILL" Atlas="ICON_ATLAS_LEADER_HAG_CHURCHILL" Index="0"/>
 		<!-- アッティラ -->
-		<Row Name="ICON_LEADER_HAG_ATTILA" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<Row Name="ICON_LEADER_HAG_ATTILA" Atlas="ICON_ATLAS_LEADER_HAG_ATTILA" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -481,8 +505,8 @@
 		<Row Name="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH"    Atlas="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" Index="0"/>
 		<!-- ドゥオモ広場(伝道所の使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_HAG_ITALY_DUOMO"       Atlas="ICON_ATLAS_UNIT_ACTIONS"           Index="20"/>
-		<!-- ユルト(クルガンの使いまわし) -->
-		<Row Name="ICON_IMPROVEMENT_HAG_HUNS_YURT"         Atlas="ICON_ATLAS_UNIT_ACTIONS"           Index="19"/>
+		<!-- ユルト -->
+		<Row Name="ICON_IMPROVEMENT_HAG_HUNS_YURT"         Atlas="ICON_ATLAS_IMPROVEMENT_HAG_YURT"   Index="0"/>
 		
 		<!-- UP -->
 		<!-- 遷都(フェニキアの遷都プロジェクト使いまわし) -->

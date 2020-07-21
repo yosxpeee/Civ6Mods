@@ -82,10 +82,10 @@
 		</Replace>
 		<!-- アッティラ -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_ATTILA_ANY" Language="ja_JP">
-			<Text>まだ未定です</Text>
+			<Text>我は時を割く価値がある者しか相手にせぬ。貴様にはその価値があるようだ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ATTILA_ANY" Language="ja_JP">
-			<Text>まだ未定です</Text>
+			<Text>お前は私の前に立つに値せぬ。お前の軍は弱く、力は脆弱だ。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

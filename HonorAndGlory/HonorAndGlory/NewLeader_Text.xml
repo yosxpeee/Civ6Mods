@@ -1599,5 +1599,13 @@
 		<Row Tag="LOC_DIPLO_MODIFIER_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND" Language="en_US">
 			<Text>Churchill hates it when you denounce his friends</Text>
 		</Row>
+		<!-- フン族とその諸侯の王(アッティラ) -->
+		<!-- Diplomacy_Modifierの文章は変更できない(Modifierのeffect、すなわちdllに組み込まれている) -->
+		<Row Tag="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_NAME" Language="en_US">
+			<Text>The Ruler of the Huns</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_DESCRIPTION" Language="en_US">
+			<Text>Likes civilizations with powerful militaries, and will try to ally with them to avoid damaging military conflicts. Dislikes civilizations with weak militaries.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

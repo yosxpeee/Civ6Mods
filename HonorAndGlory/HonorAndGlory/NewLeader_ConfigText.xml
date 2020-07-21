@@ -488,7 +488,7 @@
 			<Text>Yurt</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Yurt, unique to Huns.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Housing] Housing. +1 [ICON_Food] Food for each adjacent Camp or Pasture. Can only be built on flat Grass or flat Plains. Cannot be built adjacent to another Yurt. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Civic Tree and Technology Tree.</Text>
+			<Text>Unlocks the Builder ability to construct a Yurt, unique to Huns.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Housing] Housing. +1 [ICON_Food] Food for each adjacent Camp or Pasture. Can only be built on flat Grass or flat Plains. Cannot be built adjacent to another Yurt. Additional [ICON_Production] Production and [ICON_Tourism] Tourism from Yurt's [ICON_Food] Food as you advance through the Civic Tree and Technology Tree.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="en_US">
 			<Text>Huns unique improvement: Yurt</Text>

@@ -2,17 +2,18 @@
 <GameInfo>
 	<!-- アジェンダの親定義 -->
 	<Types>
-		<Row Type="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_SAHIB_QIRAN"               Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_SENJINKUN"                 Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_BLACKSHIRTS"               Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_HAKENKREUZ"                Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_HUNDRED_DAYS"          Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_SAHIB_QIRAN"           Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_SIX_REPUBLICS"         Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"      Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_SENJINKUN"             Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"    Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"        Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_BLACKSHIRTS"           Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_HAKENKREUZ"            Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"       Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" Kind="KIND_TRAIT"/>
 	</Types>
 	<PlotEvalConditions>
 	</PlotEvalConditions>
@@ -38,28 +39,30 @@
 		<Row ListType="HAGHakenkreuzResolutions"/>
 		<Row ListType="HAGAtlanticCharterDiplomacy"/>
 		<Row ListType="HAGAtlanticCharterDiscussions"/>
+		<Row ListType="HAGTheRulerOfTheHunsDiscussions"/>
 	</AiListTypes>
 	<AiLists>
-		<Row ListType="HAGHundredDaysDiplomacy"                 AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="DiplomaticActions"/>
-		<Row ListType="HAGHundredDaysResolutions"               AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="Resolutions"/>
-		<Row ListType="HAGHundredDaysDiscussions"               AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              System="Discussions"/>
-		<Row ListType="HAGSahibQiranDiplomacy"                  AgendaType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"               System="DiplomaticActions"/>
-		<Row ListType="HAGSixRepublicsDiplomacy"                AgendaType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             System="DiplomaticActions"/>
-		<Row ListType="HAGSixRepublicsResolutions"              AgendaType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             System="Resolutions"/>
-		<Row ListType="HAGAlaouiteDynastyPseudoYields"          AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          System="PseudoYields"/>
-		<Row ListType="HAGAlaouiteDynastyYields"                AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          System="Yields"/>
-		<Row ListType="HAGAlaouiteDynastyResolutions"           AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          System="Resolutions"/>
-		<Row ListType="HAGBrigantineDynastySettleAllContinents" AgendaType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        System="PlotEvaluations"/>
-		<Row ListType="HAGBrigantineDynastyResolutions"         AgendaType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        System="Resolutions"/>
-		<Row ListType="HAGFiveYearPlanPreference"               AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            System="Yields"/>
-		<Row ListType="HAGFiveYearPlanResolutions"              AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            System="Resolutions"/>
-		<Row ListType="HAGFiveYearPlanDiscussions"              AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            System="Discussions"/>
-		<Row ListType="HAGBlackShirtsResolutions"               AgendaType="TRAIT_AGENDA_HAG_BLACKSHIRTS"               System="Resolutions"/>
-		<Row ListType="HAGBlackShirtsDiscussions"               AgendaType="TRAIT_AGENDA_HAG_BLACKSHIRTS"               System="Discussions"/>
-		<Row ListType="HAGHakenkreuzSettlingChanges"            AgendaType="TRAIT_AGENDA_HAG_HAKENKREUZ"                System="PlotEvaluations"/>
-		<Row ListType="HAGHakenkreuzResolutions"                AgendaType="TRAIT_AGENDA_HAG_HAKENKREUZ"                System="Resolutions"/>
-		<Row ListType="HAGAtlanticCharterDiplomacy"             AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          System="DiplomaticActions"/>
-		<Row ListType="HAGAtlanticCharterDiscussions"           AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          System="Discussions"/>
+		<Row ListType="HAGHundredDaysDiplomacy"                 AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"          System="DiplomaticActions"/>
+		<Row ListType="HAGHundredDaysResolutions"               AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"          System="Resolutions"/>
+		<Row ListType="HAGHundredDaysDiscussions"               AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"          System="Discussions"/>
+		<Row ListType="HAGSahibQiranDiplomacy"                  AgendaType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"           System="DiplomaticActions"/>
+		<Row ListType="HAGSixRepublicsDiplomacy"                AgendaType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"         System="DiplomaticActions"/>
+		<Row ListType="HAGSixRepublicsResolutions"              AgendaType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"         System="Resolutions"/>
+		<Row ListType="HAGAlaouiteDynastyPseudoYields"          AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"      System="PseudoYields"/>
+		<Row ListType="HAGAlaouiteDynastyYields"                AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"      System="Yields"/>
+		<Row ListType="HAGAlaouiteDynastyResolutions"           AgendaType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"      System="Resolutions"/>
+		<Row ListType="HAGBrigantineDynastySettleAllContinents" AgendaType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"    System="PlotEvaluations"/>
+		<Row ListType="HAGBrigantineDynastyResolutions"         AgendaType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"    System="Resolutions"/>
+		<Row ListType="HAGFiveYearPlanPreference"               AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"        System="Yields"/>
+		<Row ListType="HAGFiveYearPlanResolutions"              AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"        System="Resolutions"/>
+		<Row ListType="HAGFiveYearPlanDiscussions"              AgendaType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"        System="Discussions"/>
+		<Row ListType="HAGBlackShirtsResolutions"               AgendaType="TRAIT_AGENDA_HAG_BLACKSHIRTS"           System="Resolutions"/>
+		<Row ListType="HAGBlackShirtsDiscussions"               AgendaType="TRAIT_AGENDA_HAG_BLACKSHIRTS"           System="Discussions"/>
+		<Row ListType="HAGHakenkreuzSettlingChanges"            AgendaType="TRAIT_AGENDA_HAG_HAKENKREUZ"            System="PlotEvaluations"/>
+		<Row ListType="HAGHakenkreuzResolutions"                AgendaType="TRAIT_AGENDA_HAG_HAKENKREUZ"            System="Resolutions"/>
+		<Row ListType="HAGAtlanticCharterDiplomacy"             AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      System="DiplomaticActions"/>
+		<Row ListType="HAGAtlanticCharterDiscussions"           AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      System="Discussions"/>
+		<Row ListType="HAGTheRulerOfTheHunsDiscussions"         AgendaType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" System="Discussions"/>
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="HAGHundredDaysDiplomacy"                 Item="DIPLOACTION_MAKE_PEACE" Favored="false"/>
@@ -93,6 +96,7 @@
 		<Row ListType="HAGHakenkreuzResolutions"                Item="WC_RES_MIGRATION_TREATY" Favored="false"/>
 		<Row ListType="HAGAtlanticCharterDiplomacy"             Item="DIPLOACTION_DECLARE_FRIENDSHIP" Favored="true"/>
 		<Row ListType="HAGAtlanticCharterDiscussions"           Item="WC_EMERGENCY_BACKSTAB" Favored="true"/>
+		<Row ListType="HAGTheRulerOfTheHunsDiscussions"         Item="WC_EMERGENCY_MILITARY" Favored="false"/>
 	</AiFavoredItems>
 	<TriggeredBehaviorTrees>
 	</TriggeredBehaviorTrees>
@@ -109,20 +113,22 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
 	</Traits>
 	<!-- アジェンダの名前と説明 -->
 	<Agendas>
-		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              Name="LOC_AGENDA_HAG_HUNDRED_DAYS_NAME"              Description="LOC_AGENDA_HAG_HUNDRED_DAYS_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_SAHIB_QIRAN"               Name="LOC_AGENDA_HAG_SAHIB_QIRAN_NAME"               Description="LOC_AGENDA_HAG_SAHIB_QIRAN_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_SIX_REPUBLICS"             Name="LOC_AGENDA_HAG_SIX_REPUBLICS_NAME"             Description="LOC_AGENDA_HAG_SIX_REPUBLICS_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_ALAOUITE_DYNASTY"          Name="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_NAME"          Description="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_SENJINKUN"                 Name="LOC_AGENDA_HAG_SENJINKUN_NAME"                 Description="LOC_AGENDA_HAG_SENJINKUN_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_BRIGANTINE_DYNASTY"        Name="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_NAME"        Description="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"            Name="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_NAME"            Description="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               Name="LOC_AGENDA_HAG_BLACKSHIRTS_NAME"               Description="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                Name="LOC_AGENDA_HAG_HAKENKREUZ_NAME"                Description="LOC_AGENDA_HAG_HAKENKREUZ_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"           Name="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME"           Description="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION"/>
-		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"          Name="LOC_AGENDA_HAG_ATLANTIC_CHARTER_NAME"          Description="LOC_AGENDA_HAG_ATLANTIC_CHARTER_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"          Name="LOC_AGENDA_HAG_HUNDRED_DAYS_NAME"          Description="LOC_AGENDA_HAG_HUNDRED_DAYS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_SAHIB_QIRAN"           Name="LOC_AGENDA_HAG_SAHIB_QIRAN_NAME"           Description="LOC_AGENDA_HAG_SAHIB_QIRAN_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_SIX_REPUBLICS"         Name="LOC_AGENDA_HAG_SIX_REPUBLICS_NAME"         Description="LOC_AGENDA_HAG_SIX_REPUBLICS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_ALAOUITE_DYNASTY"      Name="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_NAME"      Description="LOC_AGENDA_HAG_ALAOUITE_DYNASTY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_SENJINKUN"             Name="LOC_AGENDA_HAG_SENJINKUN_NAME"             Description="LOC_AGENDA_HAG_SENJINKUN_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_BRIGANTINE_DYNASTY"    Name="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_NAME"    Description="LOC_AGENDA_HAG_BRIGANTINE_DYNASTY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"        Name="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_NAME"        Description="LOC_AGENDA_HAG_FIVE_YEAR_PLAN_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"           Name="LOC_AGENDA_HAG_BLACKSHIRTS_NAME"           Description="LOC_AGENDA_HAG_BLACKSHIRTS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"            Name="LOC_AGENDA_HAG_HAKENKREUZ_NAME"            Description="LOC_AGENDA_HAG_HAKENKREUZ_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"       Name="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME"       Description="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"      Name="LOC_AGENDA_HAG_ATLANTIC_CHARTER_NAME"      Description="LOC_AGENDA_HAG_ATLANTIC_CHARTER_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS" Name="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_NAME" Description="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_DESCRIPTION"/>
 	</Agendas>
 	<RandomAgendas>
 	</RandomAgendas>
@@ -132,57 +138,60 @@
 	</AgendaPreferredLeaders>
 	<!-- 排他するアジェンダ -->
 	<ExclusiveAgendas>
-		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_PARANOID"/>
-		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
-		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"              AgendaTwo="AGENDA_DARWINIST"/>
-		<Row AgendaOne="AGENDA_HAG_SAHIB_QIRAN"               AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
-		<Row AgendaOne="AGENDA_HAG_ALAOUITE_DYNASTY"          AgendaTwo="AGENDA_MONEY_GRUBBER"/>
-		<Row AgendaOne="AGENDA_HAG_SENJINKUN"                 AgendaTwo="AGENDA_CULTURED"/>
-		<Row AgendaOne="AGENDA_HAG_SENJINKUN"                 AgendaTwo="AGENDA_STANDING_ARMY"/>
-		<Row AgendaOne="AGENDA_HAG_SENJINKUN"                 AgendaTwo="AGENDA_DEVOUT"/>
-		<Row AgendaOne="AGENDA_HAG_SENJINKUN"                 AgendaTwo="AGENDA_PARANOID"/>
-		<Row AgendaOne="AGENDA_HAG_FIVE_YEAR_PLAN"            AgendaTwo="AGENDA_INDUSTRIALIST"/>
-		<Row AgendaOne="AGENDA_HAG_FIVE_YEAR_PLAN"            AgendaTwo="AGENDA_NATURALIST"/>
-		<Row AgendaOne="AGENDA_HAG_BLACKSHIRTS"               AgendaTwo="AGENDA_EXPANSIONIST"/>
-		<Row AgendaOne="AGENDA_HAG_TRUMAN_DOCTRINE"           AgendaTwo="AGENDA_DARWINIST"/>
-		<Row AgendaOne="AGENDA_HAG_TRUMAN_DOCTRINE"           AgendaTwo="AGENDA_EXPLOITATIVE"/>
-		<Row AgendaOne="AGENDA_HAG_ATLANTIC_CHARTER" AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"          AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"          AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_HAG_HUNDRED_DAYS"          AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_HAG_SAHIB_QIRAN"           AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_HAG_ALAOUITE_DYNASTY"      AgendaTwo="AGENDA_MONEY_GRUBBER"/>
+		<Row AgendaOne="AGENDA_HAG_SENJINKUN"             AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_HAG_SENJINKUN"             AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_HAG_SENJINKUN"             AgendaTwo="AGENDA_DEVOUT"/>
+		<Row AgendaOne="AGENDA_HAG_SENJINKUN"             AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_HAG_FIVE_YEAR_PLAN"        AgendaTwo="AGENDA_INDUSTRIALIST"/>
+		<Row AgendaOne="AGENDA_HAG_FIVE_YEAR_PLAN"        AgendaTwo="AGENDA_NATURALIST"/>
+		<Row AgendaOne="AGENDA_HAG_BLACKSHIRTS"           AgendaTwo="AGENDA_EXPANSIONIST"/>
+		<Row AgendaOne="AGENDA_HAG_TRUMAN_DOCTRINE"       AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_HAG_TRUMAN_DOCTRINE"       AgendaTwo="AGENDA_EXPLOITATIVE"/>
+		<Row AgendaOne="AGENDA_HAG_ATLANTIC_CHARTER"      AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_HAG_THE_RULER_OF_THE_HUNS" AgendaTwo="AGENDA_STANDING_ARMY"/>
+		<Row AgendaOne="AGENDA_HAG_THE_RULER_OF_THE_HUNS" AgendaTwo="AGENDA_PARANOID"/>
 	</ExclusiveAgendas>
 	<!-- アジェンダとTraitの紐づけ -->
 	<AgendaTraits>
-		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"/>
-		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"              TraitType="TRAIT_AGENDA_IGNORE_WARMONGERING"/>
-		<Row AgendaType="AGENDA_HAG_SAHIB_QIRAN"               TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"/>
-		<Row AgendaType="AGENDA_HAG_SIX_REPUBLICS"             TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"/>
-		<Row AgendaType="AGENDA_HAG_ALAOUITE_DYNASTY"          TraitType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"/>
-		<Row AgendaType="AGENDA_HAG_SENJINKUN"                 TraitType="TRAIT_AGENDA_HAG_SENJINKUN"/>
-		<Row AgendaType="AGENDA_HAG_BRIGANTINE_DYNASTY"        TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"/>
-		<Row AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"            TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"/>
-		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"               TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
-		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"                TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
-		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"           TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
-		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER" TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
-
+		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"          TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"/>
+		<Row AgendaType="AGENDA_HAG_HUNDRED_DAYS"          TraitType="TRAIT_AGENDA_IGNORE_WARMONGERING"/>
+		<Row AgendaType="AGENDA_HAG_SAHIB_QIRAN"           TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"/>
+		<Row AgendaType="AGENDA_HAG_SIX_REPUBLICS"         TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"/>
+		<Row AgendaType="AGENDA_HAG_ALAOUITE_DYNASTY"      TraitType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"/>
+		<Row AgendaType="AGENDA_HAG_SENJINKUN"             TraitType="TRAIT_AGENDA_HAG_SENJINKUN"/>
+		<Row AgendaType="AGENDA_HAG_BRIGANTINE_DYNASTY"    TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"/>
+		<Row AgendaType="AGENDA_HAG_FIVE_YEAR_PLAN"        TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"/>
+		<Row AgendaType="AGENDA_HAG_BLACKSHIRTS"           TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"/>
+		<Row AgendaType="AGENDA_HAG_HAKENKREUZ"            TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"/>
+		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"       TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
+		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"      TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
+		<Row AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS" TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
 	</AgendaTraits>
 	<!-- Traitに紐づく効果 -->
 	<TraitModifiers>
-		<Row TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"              ModifierId="AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"               ModifierId="AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             ModifierId="AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"             ModifierId="AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"          ModifierId="AGENDA_HAG_ALAOUITE_DYNASTY"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_SENJINKUN"                 ModifierId="AGENDA_HAG_SENJINKUN"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"        ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"            ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"               ModifierId="AGENDA_HAG_BLACKSHIRTS"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"                ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"           ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_FRIEND"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"          ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"          ModifierId="AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SAHIB_QIRAN"           ModifierId="AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"         ModifierId="AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SIX_REPUBLICS"         ModifierId="AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_ALAOUITE_DYNASTY"      ModifierId="AGENDA_HAG_ALAOUITE_DYNASTY"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_SENJINKUN"             ModifierId="AGENDA_HAG_SENJINKUN"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"    ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BRIGANTINE_DYNASTY"    ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"        ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_FIVE_YEAR_PLAN"        ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BLACKSHIRTS"           ModifierId="AGENDA_HAG_BLACKSHIRTS"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"            ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_HAKENKREUZ"            ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"       ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"       ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" ModifierId="AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
 	</TraitModifiers>
 	<!-- ここからアジェンダの効果詳細 -->
 	<Modifiers>
@@ -294,6 +303,13 @@
 			<ModifierId>AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
+		</Row>
+		<!-- 軍事力の高さ -->
+		<Row>
+			<ModifierId>AGENDA_HAG_THE_RULER_OF_THE_HUNS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_QUEEN_OF_NILE</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -523,7 +539,7 @@
 			<ModifierId>AGENDA_HAG_BLACKSHIRTS</ModifierId>
 			<Name>StatementKey</Name>
 			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
-			<Value>AGENDA_HAG_BLACKSHIRTS_WARNING</Value>
+			<Value>AGENDA_HAG_BLACKSHIRTS</Value>
 		</Row>
 		<!-- 忠誠心を維持できている -->
 		<Row>
@@ -679,6 +695,13 @@
 			<Name>SimpleModifierDescription</Name>
 			<Value>LOC_DIPLO_MODIFIER_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND</Value>
 		</Row>
+		<!-- 軍事力の高さ -->
+		<Row>
+			<ModifierId>AGENDA_HAG_THE_RULER_OF_THE_HUNS</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_HAG_THE_RULER_OF_THE_HUNS</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- アジェンダに紐づく印象の上下のテキスト -->
 	<!-- ※これを忘れると「理由不明」になってしまう -->
@@ -698,5 +721,6 @@
 		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"             Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_THE_RULER_OF_THE_HUNS"                Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 	</ModifierStrings>
 </GameInfo>
