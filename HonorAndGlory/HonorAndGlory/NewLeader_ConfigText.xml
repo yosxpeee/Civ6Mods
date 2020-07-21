@@ -97,7 +97,23 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_USSR_DESCRIPTION" Language="en_US">
 			<Text>Extra territory upon founding cities. Allows Farms to be built on Tundra terrain. After Civil Engineering is unlocked Farms can be built on Tundra Hills. Units do not receive damage from Blizzards. Civilizations that are at war with U.S.S.R. receive +100% unit damage from Blizzards in U.S.S.R. territory.</Text>
 		</Row>
-		
+		<!-- 文明(フン族) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_NAME" Language="en_US">
+			<Text>Huns</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_DESCRIPTION" Language="en_US">
+			<Text>Huns</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_UHUNS_ADJECTIVE" Language="en_US">
+			<Text>Huns</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_HUNS_NAME" Language="en_US">
+			<Text>The lineage of Mundzuk</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION" Language="en_US">
+			<Text>Get a Settler when conqure the Barbarian Camp. Begin the game with the Animal Husbandry technologies unlocked. Can't hire a Great Merchant. Borrows city names excluding the capital from the city names of other civilizations.</Text>
+		</Row>
+
 		<!-- 指導者(ナポレオン) -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_NAME" Language="en_US">
 			<Text>Napoleon Bonaparte</Text>
@@ -207,6 +223,16 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Production] Production toward all air units and toward Carriers. No [ICON_Strength] Combat Strength and [ICON_Movement] Movement penalty when attacking from sea.</Text>
+		</Row>
+		<!-- 指導者(アッティラ) -->
+		<Row Tag="LOC_LEADER_HAG_ATTILA_NAME" Language="en_US">
+			<Text>Attila</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_ATTILA_NAME" Language="en_US">
+			<Text>Scourge of God</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION" Language="en_US">
+			<Text>The effects of the Battering Ram and Siege Tower also apply to cavalry units. All Cavalry Units have escort mobility shared. Can not conqure the city, but get a lot of gold when destroy the city(Depends on game speed).</Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->
@@ -339,6 +365,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_AMERICAN_JAEGER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- UU(タルカン) -->
+		<Row Tag="LOC_UNIT_HAG_HUNS_TARKHAN_NAME" Language="en_US">
+			<Text>Tarkhan</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_HUNS_TARKHAN_DESCRIPTION" Language="en_US">
+			<Text>Huns unique Classical era unit. Replace the Horseman. +2 [ICON_Strength] Combat Strength, +1 Sight. Pillaging costs 1 [ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_HUNS_TARKHAN_NAME" Language="en_US">
+			<Text>Huns unique unit: Tarkhan</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_HUNS_TARKHAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB(天文台) -->
 		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="en_US">
@@ -442,6 +481,19 @@
 			<Text>Italy unique improvement: Duomo</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_ITALY_DUOMO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- UI(ユルト) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="en_US">
+			<Text>Yurt</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Yurt, unique to Huns.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Housing] Housing. +1 [ICON_Food] Food for each adjacent Camp or Pasture. Can only be built on flat Grass or flat Plains. Cannot be built adjacent to another Yurt. Additional [ICON_Culture] Culture and [ICON_Tourism] Tourism as you advance through the Civic Tree and Technology Tree.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="en_US">
+			<Text>Huns unique improvement: Yurt</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_HUNS_YURT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

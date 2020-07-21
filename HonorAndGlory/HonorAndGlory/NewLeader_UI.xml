@@ -5,6 +5,7 @@
 		<Row Type="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Kind="KIND_IMPROVEMENT"/>
 		<Row Type="IMPROVEMENT_HAG_MOROCCO_CASBAH"    Kind="KIND_IMPROVEMENT"/>
 		<Row Type="IMPROVEMENT_HAG_ITALY_DUOMO"       Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_HAG_HUNS_YURT"         Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<!-- 設定本体 -->
 	<Improvements>
@@ -29,6 +30,13 @@
 			 Icon="ICON_IMPROVEMENT_HAG_ITALY_DUOMO" 
 			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" OnePerCity="true"
 			 PrereqCivic="CIVIC_DIVINE_RIGHT" TraitType="TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO"/>
+		<!-- ユルト：騎乗で解禁 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"
+			 Name="LOC_IMPROVEMENT_HAG_HUNS_YURT_NAME"
+			 Description="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION"
+			 Icon="ICON_IMPROVEMENT_HAG_HUNS_YURT"
+			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" Housing="1" TilesRequired="1" SameAdjacentValid="false"
+			 PrereqTech="TECH_HORSEBACK_RIDING" TraitType="TRAIT_IMPROVEMENT_HAG_HUNS_YURT"/>
 	</Improvements>
 	<!-- 隣接ボーナス指定 -->
 	<Improvement_Adjacencies>
@@ -40,6 +48,8 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_HolySiteAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_IndustrialZoneAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_TheaterAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"      YieldChangeId="HAG_Yurt_CampAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"      YieldChangeId="HAG_Yurt_PastureAdjacency"/>
 	</Improvement_Adjacencies>
 	<!-- 設置可能な特徴 -->
 	<Improvement_ValidFeatures>
@@ -68,6 +78,9 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" TerrainType="TERRAIN_PLAINS"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" TerrainType="TERRAIN_GRASS"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" TerrainType="TERRAIN_SNOW"/>
+		<!-- ユルト：草原/平原の平地のみ -->
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" TerrainType="TERRAIN_GRASS"/>
 	</Improvement_ValidTerrains>
 	<!-- 設置可能な資源 -->
 	<Improvement_ValidResources>
@@ -77,6 +90,7 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" UnitType="UNIT_BUILDER"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    UnitType="UNIT_BUILDER"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"       UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"         UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
 	<!-- 出力 -->
 	<Improvement_YieldChanges>
@@ -94,6 +108,10 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_CULTURE"    YieldChange="0"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" YieldType="YIELD_GOLD"       YieldChange="0"/>
+		<!-- ユルト：生産力+1(他の出力の0は隣接ボーナス用) -->
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_PRODUCTION"   YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_FOOD"         YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_CULTURE"      YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<!-- 追加出力 -->
 	<Improvement_BonusYieldChanges>
@@ -104,11 +122,16 @@
 		<Row Id="HAG_03" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    YieldType="YIELD_GOLD"       BonusYieldChange="1" PrereqCivic="CIVIC_URBANIZATION"/>
 		<Row Id="HAG_04" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_INDUSTRIALIZATION"/>
 		<Row Id="HAG_05" ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    YieldType="YIELD_FOOD"       BonusYieldChange="1" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<!-- ユルト：大量生産で文化+1 -->
+		<Row Id="HAG_06" ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"         YieldType="YIELD_CULTURE"    BonusYieldChange="1" PrereqTech="TECH_MASS_PRODUCTION"/>
 	</Improvement_BonusYieldChanges>
 	<!-- 観光力 -->
 	<Improvement_Tourism>
-		<!-- 文化の出る改善共通：航空技術で観光力+1 -->
-		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<!-- 文化の出る改善共通：航空技術で文化力に等しい観光力 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT"         ScalingFactor="100"/>
+		<!-- ユルト：航空技術で文化力に等しい観光力、都市化で食料に等しい観光力 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"         TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT"         ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"         TourismSource="TOURISMSOURCE_FOOD"    PrereqCivic="CIVIC_URBANIZATION" ScalingFactor="100"/>
 	</Improvement_Tourism>
 	<!-- 隣接ボーナス詳細 -->
 	<Adjacency_YieldChanges>
@@ -122,6 +145,9 @@
 		<Row ID="HAG_Duomo_HolySiteAdjacency"         Description="Placeholder" YieldType="YIELD_FAITH"      YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
 		<Row ID="HAG_Duomo_IndustrialZoneAdjacency"   Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
 		<Row ID="HAG_Duomo_TheaterAdjacency"          Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
+		<!-- ユルト：キャンプ、牧草地隣接で食料+1 -->
+		<Row ID="HAG_Yurt_CampAdjacency"              Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CAMP"/>
+		<Row ID="HAG_Yurt_PastureAdjacency"           Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
 	</Adjacency_YieldChanges>
 	<!-- 固有能力指定 -->
 	<ImprovementModifiers>

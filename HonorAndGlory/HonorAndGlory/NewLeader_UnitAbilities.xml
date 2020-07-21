@@ -10,12 +10,18 @@
 		<Row Type="ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING"  Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE"    Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS"        Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY"          Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY"          Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY"          Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY"          Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED"             Kind="KIND_ABILITY"/>
 		<!-- ユニークユニット -->
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                     Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                     Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"                                Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"                                Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                             Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_HAG_HUNS_TARKHAN"                                Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
@@ -57,12 +63,19 @@
 		<Row Type="ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE"    Tag="CLASS_AIRCRAFT"/>
 		<Row Type="ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS"        Tag="CLASS_MELEE"/>
 		<Row Type="ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS"        Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY"          Tag="CLASS_BATTERING_RAM"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY"          Tag="CLASS_BATTERING_RAM"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY"          Tag="CLASS_SIEGE_TOWER"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY"          Tag="CLASS_SIEGE_TOWER"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED"             Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED"             Tag="CLASS_HEAVY_CAVALRY"/>
 		<!-- ユニークユニット -->
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"/>
 		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
 		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"            Tag="CLASS_HAG_GERMANY_JU87"/>
 		<Row Type="ABILITY_UNIT_HAG_AMERICAN_JAEGER"         Tag="CLASS_HAG_AMERICAN_JAEGER"/>
+		<Row Type="ABILITY_UNIT_HAG_HUNS_TARKHAN"            Tag="CLASS_HAG_HUNS_TARKHAN"/>
 	</TypeTags>
 	<!-- アビリティの名前、説明 -->
 	<UnitAbilities>
@@ -74,12 +87,18 @@
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING"  Name="LOC_ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING_NAME"  Description="LOC_ABILITY_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING_DESCRIPTION" Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE"    Name="LOC_ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE_NAME"    Description="LOC_ABILITY_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE_DESCRIPTION"   Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS"        Name="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_NAME"        Description="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_DESCRIPTION"       Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY"          Name="LOC_ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY_NAME"          Description="LOC_ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY_DESCRIPTION"         Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY"          Name="LOC_ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY_NAME"          Description="LOC_ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY_DESCRIPTION"         Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY"          Name="LOC_ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY_NAME"          Description="LOC_ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY_DESCRIPTION"         Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY"          Name="LOC_ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY_NAME"          Description="LOC_ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY_DESCRIPTION"         Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED"             Name="LOC_ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED_NAME"             Description="LOC_ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED_DESCRIPTION"            Inactive="true"/>
 		<!-- ユニークユニット -->
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                     Name="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"                     Description="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                     Name="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"                     Description="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_PORTUGAL_NAU"                                Name="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_NAME"                                Description="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_GERMANY_JU87"                                Name="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_NAME"                                Description="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                             Name="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_NAME"                             Description="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_HUNS_TARKHAN"                                Name="LOC_ABILITY_UNIT_HAG_HUNS_TARKHAN_NAME"                                Description="LOC_ABILITY_UNIT_HAG_HUNS_TARKHAN_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -88,6 +107,7 @@
 			<UnitAbilityType>ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE</UnitAbilityType>
 			<ModifierId>HAG_MIRAN_SHAH_BONUS_EXPERIENCE</ModifierId>
 		</Row>
+		
 		<!-- 陸軍近接ユニットの移動力+1 -->
 		<Row>
 			<UnitAbilityType>ABILITY_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT</UnitAbilityType>
@@ -96,6 +116,7 @@
 		<!-- 騎兵ユニットが敵を倒すたびにゴールド入手 -->
 		<Row>
 			<UnitAbilityType>ABILITY_LEADER_HAG_TIMUR_CAVALRY_COMBAT_WIN_GET_GOLD</UnitAbilityType>
+			<!-- GSのマリのマンデカル騎兵と同じ -->
 			<ModifierId>MANDEKALU_POST_COMBAT_GOLD</ModifierId>
 		</Row>
 		<!-- 全ユニット防戦時に戦闘力+3 -->
@@ -115,6 +136,30 @@
 			<!-- RaFのインピと同じ -->
 			<ModifierId>IMPI_INCREASED_FLANKING_BONUS</ModifierId>
 		</Row>
+		<!-- 破城槌の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY</UnitAbilityType>
+			<ModifierId>HAG_ATTILA_ENABLE_WALL_ATTACK_LIGHT_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY</UnitAbilityType>
+			<ModifierId>HAG_ATTILA_ENABLE_WALL_ATTACK_HEAVY_CAVALRY</ModifierId>
+		</Row>
+		<!-- 攻城塔の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY</UnitAbilityType>
+			<ModifierId>HAG_ATTILA_ENABLE_BYPASS_WALL_LIGHT_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY</UnitAbilityType>
+			<ModifierId>HAG_ATTILA_ENABLE_BYPASS_WALL_HEAVY_CAVALRY</ModifierId>
+		</Row>
+		<!-- 全ての騎兵ユニットが護衛能力を持つ -->
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</UnitAbilityType>
+			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
+		</Row>
+		
 		<!-- M48山砲：丘陵で移動力が落ちない -->
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN</UnitAbilityType>
@@ -152,6 +197,12 @@
 			<UnitAbilityType>ABILITY_UNIT_HAG_AMERICAN_JAEGER</UnitAbilityType>
 			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
 		</Row>
+		<!-- タルカン：略奪の移動力消費が1 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_HUNS_TARKHAN</UnitAbilityType>
+			<!-- RaFのマプチェのマロン騎兵と同じ -->
+			<ModifierId>MALON_RAIDER_LESS_MOVEMENT_PILLAGE</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<!-- 効果の定義 -->
 	<Modifiers>
@@ -160,6 +211,38 @@
 			<ModifierId>HAG_MIRAN_SHAH_BONUS_EXPERIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
 		</Row>
+
+		<!-- 陸軍近接ユニットの移動力+1 -->
+		<Row>
+			<ModifierId>MELEE_MOVEMENT_LEADER_HAG_NAPOLEON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<!-- 全ユニット防戦時に戦闘力+3-->
+		<Row>
+			<ModifierId>COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<!-- ノルウェーのベルセルクと同じ条件(WEAKと書いてあるので紛らわしいが・・・) -->
+			<SubjectRequirementSetId>UNIT_WEAK_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 破城槌の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<ModifierId>HAG_ATTILA_ENABLE_WALL_ATTACK_LIGHT_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HAG_ATTILA_ENABLE_WALL_ATTACK_HEAVY_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<!-- 攻城塔の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<ModifierId>HAG_ATTILA_ENABLE_BYPASS_WALL_LIGHT_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_BYPASS_WALLS_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HAG_ATTILA_ENABLE_BYPASS_WALL_HEAVY_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_BYPASS_WALLS_PROMOTION_CLASS</ModifierType>
+		</Row>
+		
 		<!-- ベルベル人の騎兵：砂漠隣接で戦闘力+5 -->
 		<Row>
 			<ModifierId>COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL</ModifierId>
@@ -177,19 +260,7 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>UNIT_IS_CLASS_NAVAL_RANGED_HAG_JU87</SubjectRequirementSetId>
 		</Row>
-		<!-- 陸軍近接ユニットの移動力+1 -->
-		<Row>
-			<ModifierId>MELEE_MOVEMENT_LEADER_HAG_NAPOLEON</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
-		</Row>
-		<!-- 全ユニット防戦時に戦闘力+3-->
-		<Row>
-			<ModifierId>COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<!-- ノルウェーのベルセルクと同じ条件(WEAKと書いてあるので紛らわしいが・・・) -->
-			<SubjectRequirementSetId>UNIT_WEAK_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<!-- 攻撃対象が森林・熱帯雨林にいると戦闘力+5 -->
+		<!-- イェーガー：攻撃対象が森林・熱帯雨林にいると戦闘力+5 -->
 		<Row>
 			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
@@ -204,6 +275,42 @@
 			<Name>Amount</Name>
 			<Value>25</Value>
 		</Row>
+
+		<!-- 陸軍近接ユニットの移動力+1 -->
+		<Row>
+			<ModifierId>MELEE_MOVEMENT_LEADER_HAG_NAPOLEON</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 全ユニット防戦時に戦闘力+3-->
+		<Row>
+			<ModifierId>COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- 破城槌の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<ModifierId>HAG_ATTILA_ENABLE_WALL_ATTACK_LIGHT_CAVALRY</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_ATTILA_ENABLE_WALL_ATTACK_HEAVY_CAVALRY</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<!-- 攻城塔の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<ModifierId>HAG_ATTILA_ENABLE_BYPASS_WALL_LIGHT_CAVALRY</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_ATTILA_ENABLE_BYPASS_WALL_HEAVY_CAVALRY</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		
 		<!-- ベルベル人の騎兵：砂漠タイルでの戦闘力+5 -->
 		<Row>
 			<ModifierId>COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL</ModifierId>
@@ -221,20 +328,7 @@
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
-
-		<!-- 陸軍近接ユニットの移動力+1 -->
-		<Row>
-			<ModifierId>MELEE_MOVEMENT_LEADER_HAG_NAPOLEON</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<!-- 全ユニット防戦時に戦闘力+3-->
-		<Row>
-			<ModifierId>COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL</ModifierId>
-			<Name>Amount</Name>
-			<Value>3</Value>
-		</Row>
-		<!-- 攻撃対象が森林・熱帯雨林にいると戦闘力+5 -->
+		<!-- イェーガー：攻撃対象が森林・熱帯雨林にいると戦闘力+5 -->
 		<Row>
 			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
 			<Name>Amount</Name>

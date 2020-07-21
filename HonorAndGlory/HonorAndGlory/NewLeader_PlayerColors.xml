@@ -177,6 +177,19 @@
 			<Alt3PrimaryColor>COLOR_STANDARD_WHITE_DK_HAG</Alt3PrimaryColor>
 			<Alt3SecondaryColor>COLOR_STANDARD_MAGENTA_LT_HAG</Alt3SecondaryColor>
 		</Row>
+		<!-- アッティラ -->
+		<Row>
+			<Type>LEADER_HAG_ATTILA</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_LEADER_HAG_ATTILA_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_LEADER_HAG_ATTILA_SECONDARY</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_PURPLE_MD_HAG</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_ORANGE_DK_HAG</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_YELLOW_LT_HAG</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_AQUA_DK_HAG</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_RED_LT_HAG</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_GREEN_MD_HAG</Alt3SecondaryColor>
+		</Row>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->

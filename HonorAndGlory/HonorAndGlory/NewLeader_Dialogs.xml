@@ -80,5 +80,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="en_US">
 			<Text>If you harm my friends, you will face the might of England; this I promise you.</Text>
 		</Replace>
+		<!-- アッティラ -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_ATTILA_ANY" Language="en_US">
+			<Text>Unknwon</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ATTILA_ANY" Language="en_US">
+			<Text>Unknown</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

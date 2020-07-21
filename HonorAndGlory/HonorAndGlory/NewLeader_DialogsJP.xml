@@ -80,5 +80,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_CHURCHILL_ANY" Language="ja_JP">
 			<Text>私の友人を傷つければ、大英帝国の力を身を持って知ることになる。これは絶対だ。</Text>
 		</Replace>
+		<!-- アッティラ -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_ATTILA_ANY" Language="ja_JP">
+			<Text>まだ未定です</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ATTILA_ANY" Language="ja_JP">
+			<Text>まだ未定です</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

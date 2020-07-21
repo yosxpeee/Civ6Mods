@@ -234,6 +234,15 @@
 			<Type>COLOR_PLAYER_LEADER_HAG_CHURCHILL_SECONDARY</Type>
 			<Color>202,20,21,255</Color><!-- 赤 -->
 		</Row>
+		<!-- アッティラ -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_ATTILA_PRIMARY</Type>
+			<Color>196,196,196,255</Color><!-- 灰 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_ATTILA_SECONDARY</Type>
+			<Color>129,25,25,255</Color><!-- オレンジ -->
+		</Row>
 		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->

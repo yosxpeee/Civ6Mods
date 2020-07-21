@@ -315,6 +315,8 @@
 		<Row Name="ICON_CIVILIZATION_HAG_ITALY" Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY" Index="0"/>
 		<!-- ソ連 -->
 		<Row Name="ICON_CIVILIZATION_HAG_USSR" Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR" Index="0"/>
+		<!-- フン族 -->
+		<Row Name="ICON_CIVILIZATION_HAG_HUNS" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -340,6 +342,8 @@
 		<Row Name="ICON_LEADER_HAG_TRUMAN" Atlas="ICON_ATLAS_LEADER_HAG_TRUMAN" Index="0"/>
 		<!-- チャーチル -->
 		<Row Name="ICON_LEADER_HAG_CHURCHILL" Atlas="ICON_ATLAS_LEADER_HAG_CHURCHILL" Index="0"/>
+		<!-- アッティラ -->
+		<Row Name="ICON_LEADER_HAG_ATTILA" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -446,6 +450,16 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_AMERICAN_JAEGER_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="2"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_AMERICAN_JAEGER_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="2"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_AMERICAN_JAEGER_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="2"/>
+		<!-- タルカン(蛮族の騎乗兵の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN"                                   Atlas="ICON_ATLAS_UNITS"                           Index="22"/>
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="22"/>
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="22"/>
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="22"/>
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                  Index="21"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"            Index="21"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"    Index="21"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"   Index="21"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"          Index="21"/>
 		
 		<!-- UB -->
 		<!-- 天文台(マドラサの使いまわし) -->
@@ -467,6 +481,8 @@
 		<Row Name="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH"    Atlas="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" Index="0"/>
 		<!-- ドゥオモ広場(伝道所の使いまわし) -->
 		<Row Name="ICON_IMPROVEMENT_HAG_ITALY_DUOMO"       Atlas="ICON_ATLAS_UNIT_ACTIONS"           Index="20"/>
+		<!-- ユルト(クルガンの使いまわし) -->
+		<Row Name="ICON_IMPROVEMENT_HAG_HUNS_YURT"         Atlas="ICON_ATLAS_UNIT_ACTIONS"           Index="19"/>
 		
 		<!-- UP -->
 		<!-- 遷都(フェニキアの遷都プロジェクト使いまわし) -->

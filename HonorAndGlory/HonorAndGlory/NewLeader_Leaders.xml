@@ -40,6 +40,9 @@
 		<Row Type="LEADER_HAG_CHURCHILL"           Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_CHURCHILL"     Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_AMERICAN_JAEGER" Kind="KIND_TRAIT"/>
+		<!-- アッティラ -->
+		<Row Type="LEADER_HAG_ATTILA"              Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_ATTILA"        Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -109,6 +112,12 @@
 			<Name>LOC_LEADER_HAG_CHURCHILL_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- アッティラ -->
+		<Row>
+			<LeaderType>LEADER_HAG_ATTILA</LeaderType>
+			<Name>LOC_LEADER_HAG_ATTILA_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
@@ -123,6 +132,7 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     Quote="LOC_LEADER_HAG_MUSSOLINI_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_TRUMAN"        Quote="LOC_LEADER_HAG_TRUMAN_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     Quote="LOC_LEADER_HAG_CHURCHILL_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_ATTILA"        Quote="LOC_LEADER_HAG_ATTILA_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
@@ -163,6 +173,9 @@
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_HAG_CHURCHILL"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_HAG_ATTILA"/>
+		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -182,6 +195,7 @@
 		<Row TraitType="TRAIT_UNIT_HAG_AMERICAN_JAEGER"   Name="LOC_TRAIT_UNIT_HAG_AMERICAN_JAEGER_NAME"/>
 		<Row TraitType="TRAIT_LEADER_HAG_CHURCHILL"       Name="LOC_TRAIT_LEADER_HAG_CHURCHILL_NAME"     Description="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH" Name="LOC_TRAIT_UNIT_HAG_ENGLAND_SWORDFISH_NAME"/>
+		<Row TraitType="TRAIT_LEADER_HAG_ATTILA"          Name="LOC_TRAIT_LEADER_HAG_ATTILA_NAME"        Description="LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -439,6 +453,30 @@
 			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRBOMBER_PRODUCTION</ModifierId>
 		</Row>
+		<!-- アッティラ -->
+		<!-- 破城槌の効果が騎兵ユニットにも適用される -->
+		<!-- 攻城塔の効果が騎兵ユニットにも適用される -->
+		<!-- 全ての騎兵ユニットが護衛能力を持つ -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_ATTILA</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_ATTILA</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_ATTILA</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_ATTILA</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_ATTILA</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -671,6 +709,30 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_INFORMATION_AIRBOMBER_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+
+		<!-- 破城槌の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- 攻城塔の効果が騎兵ユニットにも適用される  -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- 全ての騎兵ユニットが護衛能力を持つ -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -1157,6 +1219,35 @@
 			<Name>Amount</Name>
 			<Value>30</Value>
 		</Row>
+
+		<!-- 破城槌の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_ATTILA_WALL_ATTACK_HEAVY_CAVALRY</Value>
+		</Row>
+		<!-- 攻城塔の効果が騎兵ユニットにも適用される -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY</Value>
+		</Row>
+		<!-- 全ての騎兵ユニットが護衛能力を持つ -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -1311,6 +1402,12 @@
 		<Row ListType="HAGChurchillCivics"/>
 		<Row ListType="HAGChurchillTech"/>
 		<Row ListType="HAGChurchillWonders"/>
+		<!-- アッティラ -->
+		<Row ListType="HAGAttilaDistrict"/>
+		<Row ListType="HAGAttilaCivics"/>
+		<Row ListType="HAGAttilaTech"/>
+		<Row ListType="HAGAttilaWonders"/>
+		<Row ListType="HAGAttilaCavalryLoverList"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- ナポレオン -->
@@ -1375,6 +1472,12 @@
 		<Row ListType="HAGChurchillCivics"        LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Civics"/>
 		<Row ListType="HAGChurchillTech"          LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Technologies"/>
 		<Row ListType="HAGChurchillWonders"       LeaderType="TRAIT_LEADER_HAG_MUSSOLINI"     System="Buildings"/>
+		<!-- アッティラ -->
+		<Row ListType="HAGAttilaDistrict"         LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="Districts"/>
+		<Row ListType="HAGAttilaCivics"           LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="Civics"/>
+		<Row ListType="HAGAttilaTech"             LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="Technologies"/>
+		<Row ListType="HAGAttilaWonders"          LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="Buildings"/>
+		<Row ListType="HAGAttilaCavalryLoverList" LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="UnitPromotionClasses"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- ナポレオン -->
@@ -1530,6 +1633,18 @@
 		<Row ListType="HAGChurchillWonders"       Item="BUILDING_ALHAMBRA"              Favored="true"/><!-- アルハンブラ宮殿 -->
 		<Row ListType="HAGChurchillWonders"       Item="BUILDING_EIFFEL_TOWER"          Favored="true"/><!-- エッフェル塔 -->
 		<Row ListType="HAGChurchillWonders"       Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
+		<!-- ティムール -->
+		<Row ListType="HAGAttilaDistrict"          Item="DISTRICT_ENCAMPMENT"           Favored="true"/><!-- 兵営 -->
+		<Row ListType="HAGAttilaCivics"            Item="CIVIC_POLITICAL_PHILOSOPHY"    Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGAttilaCivics"            Item="CIVIC_NATIONALISM"             Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGAttilaCivics"            Item="CIVIC_MOBILIZATION"            Favored="true"/><!-- 戦時動員 -->
+		<Row ListType="HAGAttilaTech"              Item="TECH_CURRENCY"                 Favored="true"/><!-- 通貨 -->
+		<Row ListType="HAGAttilaTech"              Item="TECH_CASTLES"                  Favored="true"/><!-- 城 -->
+		<Row ListType="HAGAttilaTech"              Item="TECH_ASTRONOMY"                Favored="true"/><!-- 天文学 -->
+		<Row ListType="HAGAttilaWonders"           Item="BUILDING_TERRACOTTA_ARMY"      Favored="true"/><!-- 兵馬俑 -->
+		<Row ListType="HAGAttilaWonders"           Item="BUILDING_TAJ_MAHAL"            Favored="true"/><!-- タージ・マハル(RaF) -->
+		<Row ListType="HAGAttilaWonders"           Item="BUILDING_UNIVERSITY_SANKORE"   Favored="true"/><!-- サンコーレ大学(GS) -->
+		<Row ListType="HAGAttilaCavalryLoverList"  Item="PROMOTION_CLASS_LIGHT_CAVALRY" Value="100"/>
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
@@ -1555,6 +1670,8 @@
 		<Row LeaderType="LEADER_HAG_TRUMAN"        AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"/>
 		<!-- チャーチル：大西洋憲章(中身はギルガメシュのエンキドゥの盟友と同じ) -->
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"/>
+		<!-- アッティラ -->
+		
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
@@ -1580,6 +1697,7 @@
 		<Row Type="LEADER_HAG_MUSSOLINI"     BackgroundImage="Mussolini_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_TRUMAN"        BackgroundImage="Truman_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_CHURCHILL"     BackgroundImage="Churchill_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_ATTILA"        BackgroundImage="Timur_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"     BackgroundImage="Napoleon_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT"      PlayDawnOfManAudio="1"/>
@@ -1593,5 +1711,6 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     ForegroundImage="Mussolini_LoadingInfo_Foreground.dds"    BackgroundImage="Mussolini_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_TRUMAN"        ForegroundImage="Truman_LoadingInfo_Foreground.dds"       BackgroundImage="Truman_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_TRUMAN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     ForegroundImage="Churchill_LoadingInfo_Foreground.dds"    BackgroundImage="Churchill_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_CHURCHILL_DOM_TEXT"     PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_ATTILA"        ForegroundImage="Attila_LoadingInfo_Foreground.dds"       BackgroundImage="Timur_LoadingInfo_Background.dds"        LeaderText="LOC_LEADER_HAG_ATTILA_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

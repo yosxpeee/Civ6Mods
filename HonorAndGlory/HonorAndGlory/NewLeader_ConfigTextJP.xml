@@ -97,6 +97,22 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_USSR_DESCRIPTION" Language="ja_JP">
 			<Text>都市建設時に領土が追加される。ツンドラ地形に農場を作れる。「土木工学」の解除後は、ツンドラの丘陵に農場を作れるようになる。自軍ユニットはブリザードによるダメージを受けない。ソ連と戦争状態の文明は、ソ連の領土内でのブリザードのダメージ+100%。</Text>
 		</Row>
+		<!-- 文明(フン族) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_NAME" Language="ja_JP">
+			<Text>フン族</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_DESCRIPTION" Language="ja_JP">
+			<Text>フン族</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_ADJECTIVE" Language="ja_JP">
+			<Text>フン族の</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_HUNS_NAME" Language="ja_JP">
+			<Text>ムンツクの血統</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION" Language="ja_JP">
+			<Text>蛮族の野営地を占領すると開拓者を1体入手する。ゲーム開始時から畜産の技術を所有している。大商人の取得ができない。首都以外の都市名は他文明の都市名を借用する。</Text>
+		</Row>
 		
 		<!-- 指導者(ナポレオン) -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_NAME" Language="ja_JP">
@@ -207,6 +223,16 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION" Language="ja_JP">
 			<Text>すべての航空ユニットおよび空母に対する [ICON_Production] 生産力+30%。全てのユニットは海からの攻撃時、[ICON_Strength] 戦闘力と [ICON_Movement] 移動力にペナルティが発生しない。</Text>
+		</Row>
+		<!-- 指導者(アッティラ) -->
+		<Row Tag="LOC_LEADER_HAG_ATTILA_NAME" Language="ja_JP">
+			<Text>アッティラ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_ATTILA_NAME" Language="ja_JP">
+			<Text>神の災い</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION" Language="ja_JP">
+			<Text>破城槌と攻城塔の効果が騎兵ユニットにも適用される。すべての騎兵ユニットが護衛能力を持つ。都市を占領できないかわりに都市の破壊によって大量のゴールドを得る(ゲームスピード依存)。</Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->
@@ -339,6 +365,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_AMERICAN_JAEGER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>近代の軍隊における兵科または兵種の名称(英：jaeger)。もとは猟師、ハンターを意味しており、そこから日本語では猟兵と訳される。17世紀初め頃にスウェーデン陸軍で創設された“騎馬猟兵中隊”が始まりとされている。アメリカ独立戦争においては、英軍に雇われたドイツ人傭兵（Hessian）と大陸軍に加わったドイツ人移民たちの民兵が、互いに猟兵としてライフル銃で戦うことになった。 </Text>
 		</Row>
+		<!-- UU(タルカン) -->
+		<Row Tag="LOC_UNIT_HAG_HUNS_TARKHAN_NAME" Language="ja_JP">
+			<Text>タルカン</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_HUNS_TARKHAN_DESCRIPTION" Language="ja_JP">
+			<Text>古典時代のフン族固有のユニット。軽騎兵に取って代わる。[ICON_Strength] 戦闘力+2、視界+1。略奪による消費 [ICON_Movement] 移動力1。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_HUNS_TARKHAN_NAME" Language="ja_JP">
+			<Text>フン続固有のユニット: タルカン</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_HUNS_TARKHAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>漠北から中央アジア一帯に栄えたテュルクの男性の称号、尊称のひとつ。突厥などで使われた。モンゴル、女真ではダルハンとも。達干と漢訳されるが、意味合いを重視し功臣と訳す場合もある。歴史学的には解明されていないことも多いが、テュルク国家における行政府の官僚の称号としての意味を有していたという見解もある。現在ではテュルク系民族の男性の人名としても用いられている。</Text>
+		</Row>
 		
 		<!-- UB(天文台) -->
 		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="ja_JP">
@@ -443,6 +482,19 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_ITALY_DUOMO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>イタリアの主要な都市にある教会堂に面した広場のこと。ドゥオモとはラテン語のDomusが語源で、神の家を意味する。ミラノのドゥオーモやピサのドゥオモ広場が有名。</Text>
+		</Row>
+		<!-- UI(ユルト) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="ja_JP">
+			<Text>ユルト</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がフン族固有の施設であるユルトを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。隣接するキャンプ/牧草地に1つにつき、[ICON_Food] 食料+1。平らな草原/平原にのみ建設可能。ユルト同士を隣接させることはできない。文化ツリーおよび技術ツリーの進展にともなって [ICON_Culture] 文化力、[ICON_Tourism] 観光力のボーナスが発生する。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="ja_JP">
+			<Text>フン族固有の施設: ユルト</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_HUNS_YURT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>南シベリア、中央アジアのトルコ系諸民族が使用する天幕。構造はモンゴルのゲルとほとんど同じで、矢来(やらい)組を円筒形に立て並べた外壁の上に棒を放射状に並べたドーム型の屋根をのせ、全体をフェルトで覆う。夏には壁にフェルトのかわりに簾(すだれ)を立て風通しをよくし、冬には土塁や石塁を築いて寒風を防ぐ。ゲルとの大きな違いは屋根の骨組が湾曲している点である。ユルトは遊牧民の本来の住居であったが、定住化が進んだ今日ではセカンド・ハウスとして使用される場合も多くなっている。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

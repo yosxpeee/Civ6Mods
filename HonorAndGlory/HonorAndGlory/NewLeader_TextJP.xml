@@ -68,6 +68,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_CHURCHILL_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ATTILA_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ATTILA_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- ナポレオン -->
@@ -153,6 +159,10 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_CHURCHILL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>イギリスの政治家、軍人、作家。第一次世界大戦中から第二次世界大戦、戦後の冷戦時代にかけてのもっとも著名なイギリスの政治家の一人。第一次大戦では、チャーチルが主導した「ガリポリ作戦」が失敗し、海軍相を罷免されている。議員として復帰したのは1924年の補欠選。第二次大戦では1940年の「バトル・オブ・ブリテン」、1944年の「ノルマンディー上陸作戦」を成功させる。1965年に脳卒中が元で死去。奇遇にもこの1月24日は父ランドルフの命日であった。</Text>
 		</Row>
+		<!-- アッティラ -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ATTILA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>フン族とその諸侯の王。中世ドイツの『ニーベルンゲンの歌』などの叙事詩にはエツェル（Etzel）の名で登場する。現在のロシア・東欧・ドイツを結ぶ大帝国を築き上げ、西方世界の「大王」を自称した。ローマ帝政末期に広がっていたキリスト教の信者からは、「神の災い」や「神の鞭」と恐れられた。 </Text>
+		</Row>
 		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_TIMURID_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
@@ -169,6 +179,9 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ITALY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>南ヨーロッパに位置する共和制国家。首都はローマ。総面積は30万1,338km2で、イタリアではロ・スティヴァレ（lo Stivale）と称されるブーツ状の国土をしており、国土の大部分は温帯に属する。地中海性気候が農業と歴史に大きな影響を与えている。 </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_HUNS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>4世紀から6世紀にかけて中央アジア、コーカサス、東ヨーロッパに住んでいた遊牧民である。ヨーロッパの伝承によれば、彼らはヴォルガ川の東に住んでおり、当時スキタイの一部だった地域で初めて報告された。フン族の到来は、イランの人々、アラン人の西方への移住に関連している。370年までにフン族はヴォルガ川に到着し、430年までにヨーロッパに広大で短命の支配権を確立し、ローマ国境の外に住むゴス人や他の多くのゲルマン民族を征服し、他の多くの民族のローマ領土への逃亡を引き起こした。</Text>
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
@@ -339,6 +352,34 @@
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_USSR_FEMALE_5" Language="ja_JP">
 			<Text>リュドミラ</Text>
+		</Row>
+		<!-- フン族 -->
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_MALE_1" Language="ja_JP">
+			<Text>アリマスプ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_MALE_2" Language="ja_JP">
+			<Text>カティアリ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_MALE_3" Language="ja_JP">
+			<Text>レポキシス</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_MALE_4" Language="ja_JP">
+			<Text>スコパシス</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_FEMALE_1" Language="ja_JP">
+			<Text>アピア</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_FEMALE_2" Language="ja_JP">
+			<Text>エナレー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_FEMALE_3" Language="ja_JP">
+			<Text>イセド</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_FEMALE_4" Language="ja_JP">
+			<Text>リュレリル</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_HUNS_FEMALE_5" Language="ja_JP">
+			<Text>タマラン</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -957,6 +998,128 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_USSR_CITY_40" Language="ja_JP">
 			<Text>ミンスク</Text>
 		</Row>
+		<!-- フン族 -->
+		<!-- 首都以外使われないので仮のまま -->
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_1" Language="ja_JP">
+			<Text>アッティラの宮廷</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_2" Language="ja_JP">
+			<Text>02</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_3" Language="ja_JP">
+			<Text>03</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_4" Language="ja_JP">
+			<Text>04</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_5" Language="ja_JP">
+			<Text>05</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_6" Language="ja_JP">
+			<Text>06</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_7" Language="ja_JP">
+			<Text>07</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_8" Language="ja_JP">
+			<Text>08</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_9" Language="ja_JP">
+			<Text>09</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_10" Language="ja_JP">
+			<Text>10</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_11" Language="ja_JP">
+			<Text>11</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_12" Language="ja_JP">
+			<Text>12</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_13" Language="ja_JP">
+			<Text>13</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_14" Language="ja_JP">
+			<Text>14</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_15" Language="ja_JP">
+			<Text>15</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_16" Language="ja_JP">
+			<Text>16</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_17" Language="ja_JP">
+			<Text>17</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_18" Language="ja_JP">
+			<Text>18</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_19" Language="ja_JP">
+			<Text>19</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_20" Language="ja_JP">
+			<Text>20</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_21" Language="ja_JP">
+			<Text>21</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_22" Language="ja_JP">
+			<Text>22</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_23" Language="ja_JP">
+			<Text>23</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_24" Language="ja_JP">
+			<Text>24</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_25" Language="ja_JP">
+			<Text>25</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_26" Language="ja_JP">
+			<Text>26</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_27" Language="ja_JP">
+			<Text>27</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_28" Language="ja_JP">
+			<Text>28</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_29" Language="ja_JP">
+			<Text>29</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_30" Language="ja_JP">
+			<Text>30</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_31" Language="ja_JP">
+			<Text>31</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_32" Language="ja_JP">
+			<Text>32</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_33" Language="ja_JP">
+			<Text>33</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_34" Language="ja_JP">
+			<Text>34</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_35" Language="ja_JP">
+			<Text>35</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_36" Language="ja_JP">
+			<Text>36</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_37" Language="ja_JP">
+			<Text>37</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_38" Language="ja_JP">
+			<Text>38</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_39" Language="ja_JP">
+			<Text>39</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_40" Language="ja_JP">
+			<Text>40</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="ja_JP">
@@ -992,6 +1155,9 @@
 		<Row Tag="LOC_LEADER_HAG_CHURCHILL_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_ATTILA_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT" Language="ja_JP">
@@ -1025,6 +1191,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_CHURCHILL_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_ATTILA_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		

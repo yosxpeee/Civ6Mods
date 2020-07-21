@@ -188,6 +188,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_CHURCHILL</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_CHURCHILL</Portrait>
 		</Row>
+		<!-- フン族(アッティラ) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_HUNS</CivilizationType>
+			<LeaderType>LEADER_HAG_ATTILA</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_HUNS_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_HUNS</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_ATTILA_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_ATTILA</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_HUNS_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_HUNS</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_ATTILA_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_ATTILA</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_ATTILA</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- ナポレオン -->
@@ -409,5 +426,22 @@
 			 Name="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_NAME" 
 			 Description="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION" 
 			 SortIndex="30" />
+		<!-- アッティラ -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_HUNS"
+			 LeaderType="LEADER_HAG_ATTILA"
+			 Type="UNIT_HAG_HUNS_TARKHAN"
+			 Icon="ICON_UNIT_HAG_HUNS_TARKHAN"
+			 Name="LOC_UNIT_HAG_HUNS_TARKHAN_NAME"
+			 Description="LOC_UNIT_HAG_HUNS_TARKHAN_DESCRIPTION"
+			 SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_HUNS"
+			 LeaderType="LEADER_HAG_ATTILA"
+			 Type="IMPROVEMENT_HAG_HUNS_YURT"
+			 Icon="ICON_IMPROVEMENT_HAG_HUNS_YURT"
+			 Name="LOC_IMPROVEMENT_HAG_HUNS_YURT_NAME"
+			 Description="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION"
+			 SortIndex="20"/>
 	</PlayerItems>
 </GameData>

@@ -31,6 +31,11 @@
 		<Row Type="CIVILIZATION_HAG_USSR"                  Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_HAG_USSR"            Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" Kind="KIND_TRAIT"/>
+		<!-- フン族 -->
+		<Row Type="CIVILIZATION_HAG_HUNS"                  Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAG_HUNS"            Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_HUNS_TARKHAN"            Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_IMPROVEMENT_HAG_HUNS_YURT"        Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>
@@ -94,6 +99,16 @@
 			<RandomCityNameDepth>40</RandomCityNameDepth>
 			<Ethnicity>ETHNICITY_EURO</Ethnicity>
 		</Row>
+		<!-- フン族 -->
+		<Row>
+			<CivilizationType>CIVILIZATION_HAG_HUNS</CivilizationType>
+			<Name>LOC_CIVILIZATION_HAG_HUNS_NAME</Name>
+			<Description>LOC_CIVILIZATION_HAG_HUNS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_HAG_HUNS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>40</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+		</Row>
 	</Civilizations>
 	<!-- 文明に属する指導者 -->
 	<CivilizationLeaders>
@@ -108,6 +123,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_USSR"       LeaderType="LEADER_HAG_STALIN"        CapitalName="LOC_CITY_NAME_MOSCOW" />
 		<Row CivilizationType="CIVILIZATION_AMERICA"        LeaderType="LEADER_HAG_TRUMAN"        CapitalName="LOC_CITY_NAME_WASHINGTON" />
 		<Row CivilizationType="CIVILIZATION_ENGLAND"        LeaderType="LEADER_HAG_CHURCHILL"     CapitalName="LOC_CITY_NAME_LONDON" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       LeaderType="LEADER_HAG_ATTILA"        CapitalName="LOC_CIVILIZATION_HAG_HUNS_CITY_1" />
 	</CivilizationLeaders>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>
@@ -128,7 +144,14 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY"      TraitType="TRAIT_UNIT_HAG_ITALY_CARABINIERI" />
 		<Row CivilizationType="CIVILIZATION_HAG_USSR"       TraitType="TRAIT_CIVILIZATION_HAG_USSR" />
 		<Row CivilizationType="CIVILIZATION_HAG_USSR"       TraitType="TRAIT_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       TraitType="TRAIT_CIVILIZATION_HAG_HUNS" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       TraitType="TRAIT_UNIT_HAG_HUNS_TARKHAN" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       TraitType="TRAIT_IMPROVEMENT_HAG_HUNS_YURT" />
 	</CivilizationTraits>
+	<!-- 禁止する偉人の設定 -->
+	<ExcludedGreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" TraitType="TRAIT_CIVILIZATION_HAG_HUNS"/>
+	</ExcludedGreatPersonClasses>
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID"             Name="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_NAME"         Description="LOC_TRAIT_CIVILIZATION_HAG_TIMURID_DESCRIPTION"/>
@@ -148,6 +171,9 @@
 		<Row TraitType="TRAIT_UNIT_HAG_ITALY_CARABINIERI"           Name="LOC_TRAIT_UNIT_HAG_ITALY_CARABINIERI_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_USSR"                Name="LOC_TRAIT_CIVILIZATION_HAG_USSR_NAME"            Description="LOC_TRAIT_CIVILIZATION_HAG_USSR_DESCRIPTION"/>
 		<Row TraitType="TRAIT_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" Name="LOC_TRAIT_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_HUNS"                Name="LOC_TRAIT_CIVILIZATION_HAG_HUNS_NAME"            Description="LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_UNIT_HAG_HUNS_TARKHAN"                Name="LOC_TRAIT_UNIT_HAG_HUNS_TARKHAN_NAME"/>
+		<Row TraitType="TRAIT_IMPROVEMENT_HAG_HUNS_YURT"            Name="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME"/>
 	</Traits>
 	<!-- 文明特性の指定 -->
 	<TraitModifiers>
@@ -200,6 +226,9 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_USSR"  ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/><!-- バニラのロシアと同じ(GS追加能力) -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_USSR"  ModifierId="TRAIT_BLIZZARD_DOUBLE_DAMAGE_SIGNIFICANT"/><!-- バニラのロシアと同じ(GS追加能力) -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_USSR"  ModifierId="TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING"/><!-- バニラのロシアと同じ(GS追加能力) -->
+		<!-- フン族 -->
+		<!-- 初期から畜産取得済み -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_HUNS"  ModifierId="TRAIT_CIVILIZATION_HAG_HUNS_ANIMAL_HUSBANDRY"/>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -291,6 +320,12 @@
 			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_WHALES_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_WHALES_REQUIREMENTS_HAG_ITALY</SubjectRequirementSetId>
+		</Row>
+		
+		<!-- 初期から畜産取得済み -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_HUNS_ANIMAL_HUSBANDRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -569,6 +604,13 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+
+		<!-- 初期から畜産取得済み -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_HUNS_ANIMAL_HUSBANDRY</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ANIMAL_HUSBANDRY</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
@@ -756,6 +798,16 @@
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" CitizenName="LOC_CITIZEN_HAG_USSR_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" CitizenName="LOC_CITIZEN_HAG_USSR_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" CitizenName="LOC_CITIZEN_HAG_USSR_FEMALE_5" Female="1"/>
+		<!-- フン族 -->
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_FEMALE_5" Female="1"/>
 	</CivilizationCitizenNames>
 	<!-- 都市名 -->
 	<CityNames>
@@ -981,23 +1033,67 @@
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" CityName="LOC_CIVILIZATION_HAG_USSR_CITY_38" />
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" CityName="LOC_CIVILIZATION_HAG_USSR_CITY_39" />
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" CityName="LOC_CIVILIZATION_HAG_USSR_CITY_40" />
+		<!-- フン族 -->
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_31" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_32" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_33" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_34" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_35" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_36" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_37" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_38" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_39" />
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_40" />
 	</CityNames>
 	<!-- 開始位置補正 -->
 	<StartBiasTerrains>
 		<!-- ティムール朝：砂漠 -->
-		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT"       Tier="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" TerrainType="TERRAIN_DESERT_HILLS" Tier="1"/>
 		<!-- ユーゴスラビア：山 -->
-		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_GRASS_MOUNTAIN"  Tier="2"/>
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="2"/>
 		<!-- モロッコ：砂漠 -->
-		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT"       Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>
 		<!-- ポルトガル：沿岸 -->
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" TerrainType="TERRAIN_COAST" Tier="3"/>
 		<!-- ソ連：ツンドラ -->
-		<Row CivilizationType="CIVILIZATION_HAG_USSR" TerrainType="TERRAIN_TUNDRA" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_USSR" TerrainType="TERRAIN_TUNDRA"       Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
+		<!-- フン族：草原、平原 -->
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" TerrainType="TERRAIN_GRASS"  Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" TerrainType="TERRAIN_PLAINS" Tier="3"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
 		<!-- モロッコ：馬 -->
@@ -1006,17 +1102,20 @@
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" ResourceType="RESOURCE_HORSES" Tier="3"/>
 		<!-- ユーゴスラビア：戦略資源 -->
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_ALUMINUM" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_COAL" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_HORSES" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_IRON" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_NITER" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_OIL" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_URANIUM" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_COAL"     Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_HORSES"   Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_IRON"     Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_NITER"    Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_OIL"      Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" ResourceType="RESOURCE_URANIUM"  Tier="3"/>
 		<!-- ポルトガル：香辛料-->
 		<Row CivilizationType="CIVILIZATION_HAG_PORTUGAL" ResourceType="RESOURCE_SPICES" Tier="3"/>
 		<!-- イタリア：小麦、魚 -->
 		<Row CivilizationType="CIVILIZATION_HAG_ITALY" ResourceType="RESOURCE_WHEAT" Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HAG_ITALY" ResourceType="RESOURCE_FISH" Tier="3"/>		
+		<Row CivilizationType="CIVILIZATION_HAG_ITALY" ResourceType="RESOURCE_FISH"  Tier="3"/>
+		<!-- フン族：馬、羊 -->
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" ResourceType="RESOURCE_HORSES" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_HAG_HUNS" ResourceType="RESOURCE_SHEEP"  Tier="3"/>
 	</StartBiasResources>
 	<StartBiasFeatures>
 		<!-- ティムール朝：オアシス -->
