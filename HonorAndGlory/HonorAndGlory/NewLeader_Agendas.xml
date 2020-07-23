@@ -135,6 +135,8 @@
 	<!-- ランダムアジェンダの確率 -->
 	<AgendaPreferredLeaders>
 		<Row AgendaType="AGENDA_NUKE_LOVER" LeaderType="LEADER_HAG_TRUMAN" PercentageChance="70"/>
+		<Row AgendaType="AGENDA_PILLAGER"   LeaderType="LEADER_HAG_ATTILA" PercentageChance="55"/>
+		<Row AgendaType="AGENDA_DARWINIST"  LeaderType="LEADER_HAG_ATTILA" PercentageChance="20"/>
 	</AgendaPreferredLeaders>
 	<!-- 排他するアジェンダ -->
 	<ExclusiveAgendas>
@@ -155,6 +157,7 @@
 		<Row AgendaOne="AGENDA_HAG_ATLANTIC_CHARTER"      AgendaTwo="AGENDA_DARWINIST"/>
 		<Row AgendaOne="AGENDA_HAG_THE_RULER_OF_THE_HUNS" AgendaTwo="AGENDA_STANDING_ARMY"/>
 		<Row AgendaOne="AGENDA_HAG_THE_RULER_OF_THE_HUNS" AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_HAG_THE_RULER_OF_THE_HUNS" AgendaTwo="AGENDA_BARBARIAN_LOVER"/>
 	</ExclusiveAgendas>
 	<!-- アジェンダとTraitの紐づけ -->
 	<AgendaTraits>

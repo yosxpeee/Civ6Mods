@@ -488,7 +488,7 @@
 			<Text>ユルト</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がフン族固有の施設であるユルトを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。隣接するキャンプ/牧草地に1つにつき、[ICON_Food] 食料+1。平らな草原/平原にのみ建設可能。ユルト同士を隣接させることはできない。文化ツリーおよび技術ツリーの進展にともなって追加の [ICON_Production] 生産力、ユルトの [ICON_Food] 食料による [ICON_Tourism] 観光力のボーナスが発生する。</Text>
+			<Text>労働者がフン族固有の施設であるユルトを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。隣接するキャンプ/牧草地に1つにつき [ICON_Food] 食料+1。隣接するプランテーション1つにつき [ICON_Culture] 文化力+1。平らな草原/平原にのみ建設可能。ユルト同士を隣接させることはできない。文化ツリーおよび技術ツリーの進展にともなって追加の [ICON_Production] 生産力、ユルトの [ICON_Food] 食料による [ICON_Tourism] 観光力のボーナスが発生する。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="ja_JP">
 			<Text>フン族固有の施設: ユルト</Text>

@@ -1230,6 +1230,9 @@
 		<Row Tag="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_DESCRIPTION" Language="en_US">
 			<Text>Military melee units and Naval melee units increases +100% Flanking bonus.</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED_DESCRIPTION" Language="en_US">
+			<Text>Formation units all inherit escort's [ICON_Movement] Movement speed.</Text>
+		</Row>
 		<Row Tag="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION" Language="en_US">
 			<Text>No [ICON_Movement] Movement penalty in Hill terrain.</Text>
 		</Row>

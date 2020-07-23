@@ -50,6 +50,7 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_TheaterAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"      YieldChangeId="HAG_Yurt_CampAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"      YieldChangeId="HAG_Yurt_PastureAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"      YieldChangeId="HAG_Yurt_PlantationAdjacency"/>
 	</Improvement_Adjacencies>
 	<!-- 設置可能な特徴 -->
 	<Improvement_ValidFeatures>
@@ -127,7 +128,7 @@
 	</Improvement_BonusYieldChanges>
 	<!-- 観光力 -->
 	<Improvement_Tourism>
-		<!-- 文化の出る改善共通：航空技術で文化力に等しい観光力 -->
+		<!-- ステチュツイ：航空技術で文化力に等しい観光力 -->
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT"         ScalingFactor="100"/>
 		<!-- ユルト：都市化で食料に等しい観光力 -->
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"         TourismSource="TOURISMSOURCE_FOOD"    PrereqCivic="CIVIC_URBANIZATION" ScalingFactor="100"/>
@@ -144,9 +145,10 @@
 		<Row ID="HAG_Duomo_HolySiteAdjacency"         Description="Placeholder" YieldType="YIELD_FAITH"      YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
 		<Row ID="HAG_Duomo_IndustrialZoneAdjacency"   Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
 		<Row ID="HAG_Duomo_TheaterAdjacency"          Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
-		<!-- ユルト：キャンプ、牧草地隣接で食料+1 -->
+		<!-- ユルト：キャンプ、牧草地隣接で食料+1、プランテーション隣接で文化+1 -->
 		<Row ID="HAG_Yurt_CampAdjacency"              Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CAMP"/>
 		<Row ID="HAG_Yurt_PastureAdjacency"           Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+		<Row ID="HAG_Yurt_PlantationAdjacency"        Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
 	</Adjacency_YieldChanges>
 	<!-- 固有能力指定 -->
 	<ImprovementModifiers>

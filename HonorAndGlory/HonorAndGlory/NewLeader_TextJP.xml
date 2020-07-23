@@ -1230,6 +1230,9 @@
 		<Row Tag="LOC_ABILITY_LEADER_HAG_MUSSOLINI_INCREASED_FLANKING_BONUS_DESCRIPTION" Language="ja_JP">
 			<Text>陸上近接ユニットと海洋近接ユニットは側面攻撃が2倍になる。</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED_DESCRIPTION" Language="ja_JP">
+			<Text>すべての陣形ユニットは護衛の [ICON_Movement] 移動速度を継承する。</Text>
+		</Row>
 		<Row Tag="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION" Language="ja_JP">
 			<Text>丘陵でも [ICON_Movement] 移動ペナルティが発生しない。</Text>
 		</Row>

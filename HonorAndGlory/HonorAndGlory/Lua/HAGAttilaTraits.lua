@@ -24,7 +24,7 @@ function CityWasConquered(VictorID, LoserID, CityID, iCityX, iCityY)
 		-- * îÒèÌÇ…íxÇ¢ÅF300
 		population = pCity:GetPopulation()
 		print("City Population: "..tostring(population))
-		gold = population * iSpeedCostMultiplier
+		gold = population * iSpeedCostMultiplier * 2
 		print("Get gold: "..tostring(gold))
 		pPlayer:GetTreasury():ChangeGoldBalance(gold);
 		
