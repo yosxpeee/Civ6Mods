@@ -15,7 +15,7 @@
 			<Text>Horn of Africa</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION" Language="en_US">
-			<Text>Receives [ICON_Science] Science or [ICON_Culture] Culture from [ICON_TradeRoute] Trade Routes to civilizations that are more advanced than Etiopia Empire (+1 per 3 technologies or civics ahead). +1 [ICON_FOOD] Food from Pasture. +1 [ICON_Production] Production from Pasture on Desert Hills.</Text>
+			<Text>+1 [ICON_FOOD] Food from Pasture. +1 [ICON_Production] Production from Pasture on Desert Hills. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_GOLD] Gold to you.</Text>
 		</Row>
 
 		<!-- 指導者(メネリク2世) -->
@@ -26,7 +26,7 @@
 			<Text>Spirit of Adwa</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MENELIK2_DESCRIPTION" Language="en_US">
-			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +2 [ICON_GOLD] Gold to you.</Text>
+			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory. +1 [ICON_FAVOR] Diplomatic Favor per turn for every Economic slot in their government. Receives [ICON_Science] Science or [ICON_Culture] Culture from [ICON_TradeRoute] Trade Routes to civilizations that are more advanced than Ethiopia Empire (+1 per 3 technologies or civics ahead).</Text>
 		</Row>
 
 		<!-- UU(マハール・セファリ) -->
@@ -34,10 +34,10 @@
 			<Text>Mehal Sefari</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_DESCRIPTION" Language="en_US">
-			<Text>Etiopia Empire unique Atomic era unit. Replace the Infantry. +7 [ICON_Strength] Combat Strength bonus when fighting in Hill terrain. No [ICON_Movement] Movement penalty in Hill terrain.</Text>
+			<Text>Ethiopia Empire unique Atomic era unit. Replace the Infantry. +7 [ICON_Strength] Combat Strength bonus when fighting in Hill terrain. No [ICON_Movement] Movement penalty in Hill terrain. No need Strategic Resources.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="en_US">
-			<Text>Etiopia Empire unique unit: Mehal Sefari</Text>
+			<Text>Ethiopia Empire unique unit: Mehal Sefari</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
@@ -48,10 +48,10 @@
 			<Text>Stele</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HAG_ETHIOPIA_STELE_DESCRIPTION" Language="en_US">
-			<Text>A building unique to Etiopia Empire. Replaces the Monument. +1 [ICON_Culture] Culture, +2 [ICON_Faith] Faith, +1 [ICON_GreatProphet] Great Prophet point. Provides +1 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +1 [ICON_Culture] Culture.</Text>
+			<Text>A building unique to Ethiopia Empire. Replaces the Monument. +1 [ICON_Culture] Culture, +2 [ICON_Faith] Faith, +2 [ICON_GreatProphet] Great Prophet point. Provides +1 Loyalty per turn in this city. If the city already has maximum Loyalty, also provides an additional +1 [ICON_Culture] Culture.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_BUILDING_HAG_ETHIOPIA_STELE_NAME" Language="en_US">
-			<Text>Etiopia Empire unique building: Stele</Text>
+			<Text>Ethiopia Empire unique building: Stele</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_ETHIOPIA_STELE_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>

@@ -31,18 +31,19 @@
 	<TraitModifiers>
 		<!-- メネリク2世 -->
 		<!-- 友好な領土から4タイル以内での戦闘ボーナス+4 -->
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
+		<!-- 経済スロット1つにつきターンごとの外交的支持+1-->
+		<!-- 先進国からの交易路に文化or科学力プラス(バニラのピョートルと同一) -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_SLOT_ECONOMIC_FAVOR</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MENELIK2</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+			<ModifierId>TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
@@ -52,16 +53,11 @@
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
+		<!-- 経済スロット1つにつきターンごとの外交的支持+1-->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_SLOT_ECONOMIC_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
-		</Row>
-
 	</Modifiers>
 	<!-- 特性のパラメータ -->
 	<ModifierArguments>
@@ -71,26 +67,17 @@
 			<Name>AbilityType</Name>
 			<Value>ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</Value>
 		</Row>
-		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
+		<!-- 経済スロット1つにつきターンごとの外交的支持+1-->
+
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_SLOT_ECONOMIC_FAVOR</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_SLOT_ECONOMIC_FAVOR</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
-			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->

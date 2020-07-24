@@ -32,7 +32,7 @@
 	<!-- 偉人ポイント -->
 	<Building_GreatPersonPoints>
 		<!-- ステッレ：大預言者+1 -->
-		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_HAG_ETHIOPIA_STELE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
 	</Building_GreatPersonPoints>
 	<!-- コピーされる隣接ボーナス -->
 	<Building_YieldDistrictCopies>

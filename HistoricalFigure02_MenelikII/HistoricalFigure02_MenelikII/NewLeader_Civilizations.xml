@@ -17,10 +17,9 @@
 			<Description>LOC_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_HAG_ETHIOPIA_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>21</RandomCityNameDepth>
+			<RandomCityNameDepth>25</RandomCityNameDepth>
 			<Ethnicity>ETHNICITY_AFRICAN</Ethnicity>
 		</Row>
-
 	</Civilizations>
 	<!-- 文明に属する指導者 -->
 	<CivilizationLeaders>
@@ -41,11 +40,24 @@
 	<!-- 文明特性の指定 -->
 	<TraitModifiers>
 		<!-- エチオピア帝国 -->
-		<!-- 先進国からの交易路に文化or科学力プラス(バニラのピョートルと同一) -->
 		<!-- 牧草地から食料+1(砂漠タイルだと生産力も+1) -->
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS"/>
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_PASTURE_FOOD"/>
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_ETHIOPIA" ModifierId="TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT"/>
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
+			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -61,6 +73,15 @@
 			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</SubjectRequirementSetId>
+		</Row>
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -87,7 +108,27 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-
+		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
@@ -154,13 +195,16 @@
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_19" />
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_20" />
 		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" CityName="LOC_CIVILIZATION_HAG_ETHIOPIA_CITY_25" />
 	</CityNames>
 	<!-- 開始位置補正 -->
 	<StartBiasTerrains>
-		<!-- エチオピア帝国：砂漠(山岳含む) -->
-		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT" Tier="1"/>
-		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_HILLS" Tier="1"/>
-		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_MOUNTAIN" Tier="1"/>
+		<!-- エチオピア帝国：砂漠 -->
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HAG_ETHIOPIA" TerrainType="TERRAIN_DESERT_HILLS" Tier="2"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
 		<!-- エチオピア帝国：羊、家畜、馬 -->
