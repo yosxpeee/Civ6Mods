@@ -1695,7 +1695,7 @@
 		<Row Type="LEADER_HAG_MUSSOLINI"     BackgroundImage="Mussolini_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_TRUMAN"        BackgroundImage="Truman_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_CHURCHILL"     BackgroundImage="Churchill_DiplomacyInfo_Background.dds"/>
-		<Row Type="LEADER_HAG_ATTILA"        BackgroundImage="Timur_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_ATTILA"        BackgroundImage="Attila_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"     BackgroundImage="Napoleon_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT"      PlayDawnOfManAudio="1"/>
@@ -1709,6 +1709,6 @@
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     ForegroundImage="Mussolini_LoadingInfo_Foreground.dds"    BackgroundImage="Mussolini_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_MUSSOLINI_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_TRUMAN"        ForegroundImage="Truman_LoadingInfo_Foreground.dds"       BackgroundImage="Truman_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_TRUMAN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     ForegroundImage="Churchill_LoadingInfo_Foreground.dds"    BackgroundImage="Churchill_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_CHURCHILL_DOM_TEXT"     PlayDawnOfManAudio="1"/>
-		<Row LeaderType="LEADER_HAG_ATTILA"        ForegroundImage="Attila_LoadingInfo_Foreground.dds"       BackgroundImage="Timur_LoadingInfo_Background.dds"        LeaderText="LOC_LEADER_HAG_ATTILA_DOM_TEXT"        PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_ATTILA"        ForegroundImage="Attila_LoadingInfo_Foreground.dds"       BackgroundImage="Attila_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_ATTILA_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

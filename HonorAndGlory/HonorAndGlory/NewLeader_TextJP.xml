@@ -1376,6 +1376,10 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_MONDEGO_RIVER_NAME" Language="ja_JP">
 			<Text>モンデゴ川</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_KAMA_RIVER_NAME" Language="ja_JP">
+			<Text>カマ川</Text>
+		</Row>
+		
 		<!-- 火山 -->
 		<!-- 山・山脈 -->
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME" Language="ja_JP">
@@ -1432,6 +1436,12 @@
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME" Language="ja_JP">
 			<Text>サント・アンドレー湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE_NAME" Language="ja_JP">
+			<Text>マヌィチ・グディロ</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_TSIMLYANSK_LAKE_NAME" Language="ja_JP">
+			<Text>ツィムリャンスク湖</Text>
 		</Row>
 		
 		<!-- プロジェクト -->

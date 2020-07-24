@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<!-- ======================================================================= -->
 	<!-- 親定義 -->
+	<!-- ======================================================================= -->
 	<Types>
 		<!-- 川 -->
 		<!-- ティムール朝(ウズベキスタン) -->
@@ -20,6 +22,8 @@
 		<!-- コロンビア -->
 		<Row Type="NAMED_HAG_RIVER_TAJO_RIVER"         Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_MONDEGO_RIVER"      Kind="KIND_NAMED_RIVER"/>
+		<!-- フン族 -->
+		<Row Type="NAMED_HAG_RIVER_KAMA_RIVER"         Kind="KIND_NAMED_RIVER"/>
 		
 		<!-- 火山 -->
 		<!-- 該当なし -->
@@ -51,8 +55,14 @@
 		<Row Type="NAMED_HAG_LAKE_PALIC_LAKE"             Kind="KIND_NAMED_LAKE"/>
 		<!-- ポルトガル -->
 		<Row Type="NAMED_HAG_LAKE_SANTO_ANDRE_LAKE"       Kind="KIND_NAMED_LAKE"/>
+		<!-- フン族 -->
+		<Row Type="NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE"     Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_HAG_LAKE_TSIMLYANSK_LAKE"        Kind="KIND_NAMED_LAKE"/>
 	</Types>
+
+	<!-- ======================================================================= -->
 	<!-- 名前定義 -->
+	<!-- ======================================================================= -->
 	<NamedRivers>
 		<!-- 川 -->
 		<!-- ティムール朝(ウズベキスタン) -->
@@ -72,6 +82,8 @@
 		<!-- コロンビア -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_TAJO_RIVER"            Name="LOC_NAMED_HAG_RIVER_TAJO_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_MONDEGO_RIVER"         Name="LOC_NAMED_HAG_RIVER_MONDEGO_RIVER_NAME"/>
+		<!-- フン族 -->
+		<Row NamedRiverType="NAMED_HAG_RIVER_KAMA_RIVER"            Name="LOC_NAMED_HAG_RIVER_KAMA_RIVER_NAME"/>		
 	</NamedRivers>
 	<NamedVolcanoes>											    
 		<!-- 火山 -->											     
@@ -108,10 +120,16 @@
 		<Row NamedLakeType="NAMED_HAG_LAKE_PALIC_LAKE"              Name="LOC_NAMED_HAG_LAKE_PALIC_LAKE_NAME"/>
 		<!-- ポルトガル -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_SANTO_ANDRE_LAKE"        Name="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME"/>
+		<!-- フン族 -->
+		<Row NamedLakeType="NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE"      Name="LOC_NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE_NAME"/>
+		<Row NamedLakeType="NAMED_HAG_LAKE_TSIMLYANSK_LAKE"         Name="LOC_NAMED_HAG_LAKE_TSIMLYANSK_LAKE_NAME"/>
 	</NamedLakes>
 	<NamedSeas>
 	</NamedSeas>
+
+	<!-- ======================================================================= -->
 	<!-- 文明との紐づけ -->
+	<!-- ======================================================================= -->
 	<NamedRiverCivilizations>
 		<!-- 川 -->
 		<!-- ティムール朝(ウズベキスタン) -->
@@ -149,6 +167,10 @@
 		<Row NamedRiverType="NAMED_RIVER_URAL"                      CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 		<Row NamedRiverType="NAMED_RIVER_VOLGA"                     CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 		<Row NamedRiverType="NAMED_RIVER_YENISEI"                   CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<!-- フン族 -->
+		<Row NamedRiverType="NAMED_RIVER_VOLGA"                     CivilizationType="CIVILIZATION_HAG_HUNS"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_RIVER_OB"                        CivilizationType="CIVILIZATION_HAG_HUNS"/><!-- 既存 -->
+		<Row NamedRiverType="NAMED_HAG_RIVER_KAMA_RIVER"            CivilizationType="CIVILIZATION_HAG_HUNS"/>
 	</NamedRiverCivilizations>
 	<NamedVolcanoCivilizations>
 		<!-- 火山 -->
@@ -237,6 +259,9 @@
 		<Row NamedLakeType="NAMED_LAKE_LAKE_ONEGA"                  CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 		<Row NamedLakeType="NAMED_LAKE_LAKE_PEIPUS"                 CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 		<Row NamedLakeType="NAMED_LAKE_LAKE_TAYMYR"                 CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<!-- フン族 -->
+		<Row NamedLakeType="NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE"      CivilizationType="CIVILIZATION_HAG_HUNS"/>
+		<Row NamedLakeType="NAMED_HAG_LAKE_TSIMLYANSK_LAKE"         CivilizationType="CIVILIZATION_HAG_HUNS"/>		
 	</NamedLakeCivilizations>
 	<NamedSeaCivilizations>
 		<!-- 海・湾 -->
@@ -263,5 +288,7 @@
 		<Row NamedSeaType="NAMED_SEA_SEA_OF_JAPAN"                  CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 		<Row NamedSeaType="NAMED_SEA_SEA_OF_OKHOTSK"                CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 		<Row NamedSeaType="NAMED_SEA_WHITE_SEA"                     CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
+		<!-- フン族 -->
+		<Row NamedSeaType="NAMED_SEA_CASPIAN_SEA"                   CivilizationType="CIVILIZATION_HAG_HUNS"/><!-- 既存 -->
 	</NamedSeaCivilizations>
 </GameInfo>
