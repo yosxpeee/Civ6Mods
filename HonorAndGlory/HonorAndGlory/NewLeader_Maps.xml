@@ -11,6 +11,7 @@
 		<!-- 東アジアマップ：琉球を追加したもの -->
 		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" Name="LOC_MAP_TSLEAST_ASIA_STANDARD_NAME" Description="LOC_MAP_TSLEAST_ASIA_STANDARD_DESCRIPTION" Image="Map_TrueStartEastAsia" StaticMap="1" RequiresUniqueLeaders="1" SortIndex="620"/>
 		<!-- ヨーロッパマップ：リスボンを削除したもの -->
+		<!-- ※NFPのカトリーヌ(麗妃)追加対応済み -->
 		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"   Name="LOC_TSLEUROPE_NAME"                 Description="LOC_TSLEUROPE_DESCRIPTION"                 Image="Map_TrueStartEurope"   StaticMap="1" RequiresUniqueLeaders="1" SortIndex="1020"/>
 	</Maps>
 	<!-- マップサイズの定義 -->
@@ -50,6 +51,7 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_ALEXANDER"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_BARBAROSSA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_CATHERINE_DE_MEDICI"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_CATHERINE_DE_MEDICI_ALT"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_ELEANOR_ENGLAND"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_ELEANOR_FRANCE"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_GORGO"/>
@@ -74,6 +76,7 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_ADOLF_HITLER"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_CHURCHILL"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_ATTILA"/>
 		
 		<!-- 地球(GS) -->
 		<!-- GSのマップへ追加している(このMODの指導者のみ) -->
@@ -88,6 +91,7 @@
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_MUSSOLINI"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_TRUMAN"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_CHURCHILL"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_HAG_ATTILA"/>
 	</MapLeaders>
 	<ParameterDependencies>
 		<Row ParameterId="Resources"     ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map"/>
@@ -108,6 +112,7 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="2138" Type="LEADER" Value="LEADER_HAG_ADOLF_HITLER"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="794"  Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="1955" Type="LEADER" Value="LEADER_HAG_CHURCHILL"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="1666" Type="LEADER" Value="LEADER_HAG_ATTILA"/>
 		
 		<!-- 地球(GS) -->
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3650" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
@@ -121,5 +126,6 @@
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3318" Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3548" Type="LEADER" Value="LEADER_HAG_TRUMAN"/>
 		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3984" Type="LEADER" Value="LEADER_HAG_CHURCHILL"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3915" Type="LEADER" Value="LEADER_HAG_ATTILA"/>		
 	</MapStartPositions>
 </GameData>
