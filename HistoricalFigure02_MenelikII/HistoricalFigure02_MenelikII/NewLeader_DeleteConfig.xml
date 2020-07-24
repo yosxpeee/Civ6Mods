@@ -2,14 +2,10 @@
 <GameData>
 	<!-- プレイヤー -->
 	<Players>
-		<!--
-		<Delete Domain="Players:Expansion2_Players" LeaderType="LEADER_MENELIK_II"/>
-		-->
+		<Delete Domain="Players:Expansion2_Players" LeaderType="LEADER_MENELIK"/>
 	</Players>
 	<!-- 固有アイテム -->
 	<PlayerItems>
-		<!--
-		<Delete Domain="Players:Expansion2_Players" LeaderType="LEADER_MENELIK_II"/>
-		-->
+		<Delete Domain="Players:Expansion2_Players" LeaderType="LEADER_MENELIK"/>
 	</PlayerItems>
 </GameData>
