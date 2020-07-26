@@ -6,6 +6,10 @@
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_LINESHIP"                      Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_TRIREME"                       Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_COG"                           Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_QUINQUEREME"                   Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_DROMON"                        Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -29,6 +33,20 @@
 		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAGA_TRIREME"                       AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_TRIREME"                       AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAGA_TRIREME"                       AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_TRIREME"                       AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAGA_COG"                           AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_COG"                           AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAGA_COG"                           AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_COG"                           AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -45,6 +63,10 @@
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_FORWARD_OBSERVER"/>
 		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_HAGA_LINESHIP"                      Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_HAGA_TRIREME"                       Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_HAGA_COG"                           Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_HAGA_QUINQUEREME"                   Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_HAGA_DROMON"                        Tag="CLASS_NAVAL_RANGED"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
@@ -72,7 +94,62 @@
 			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="52" RangedCombat="62" Range="2" StrategicResource="RESOURCE_NITER"
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_LINESHIP_NAME" Description="LOC_UNIT_HAGA_LINESHIP_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqCivic="CIVIC_NATIONALISM"/>
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_BALLISTICS"/>
+		<!-- 参考用：ガレー船 -->
+		<!--
+		<Row UnitType="UNIT_GALLEY" Cost="65" Maintenance="1" BaseMoves="3" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="30" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GALLEY_NAME" Description="LOC_UNIT_GALLEY_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEAM_POWER" PrereqTech="TECH_SAILING"/>
+		-->
+		<!-- トリレーム -->
+		<Row UnitType="UNIT_HAGA_TRIREME" Cost="120" Maintenance="2" BaseMoves="3" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="35"
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_TRIREME_NAME" Description="LOC_UNIT_HAGA_TRIREME_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEAM_POWER" PrereqTech="TECH_SHIPBUILDING"/>
+		<!-- コグ -->
+		<Row UnitType="UNIT_HAGA_COG" Cost="180" Maintenance="3" BaseMoves="4" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="40" 
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_COG_NAME" Description="LOC_UNIT_HAGA_COG_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_BUTTRESS"/>
+		<!-- 参考用：キャラベル -->
+		<!--
+		<Row UnitType="UNIT_CARAVEL" Cost="240" Maintenance="4" BaseMoves="4" BaseSightRange="3" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55" 
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CARAVEL_NAME" Description="LOC_UNIT_CARAVEL_DESCRIPTION" PurchaseYield="YIELD_GOLD" 
+			 PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_CARTOGRAPHY"/>
+		-->
+		<!-- 参考用：カドリレーム-->
+		<!--
+		<Row UnitType="UNIT_QUADRIREME" Cost="120" Maintenance="2" BaseMoves="3" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="20" RangedCombat="25" Range="1" 
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_QUADRIREME_NAME" Description="LOC_UNIT_QUADRIREME_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_SHIPBUILDING"/>
+		-->
+		<!-- 五段櫂船 -->
+		<Row UnitType="UNIT_HAGA_QUINQUEREME" Cost="155" Maintenance="3" BaseMoves="3" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="30" RangedCombat="35" Range="1"
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_QUINQUEREME_NAME" Description="LOC_UNIT_HAGA_QUINQUEREME_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_SHIPBUILDING"/>
+		<!-- デュロモイ -->
+		<Row UnitType="UNIT_HAGA_DROMON" Cost="210" Maintenance="4" BaseMoves="4" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="35" RangedCombat="40" Range="1"
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_DROMON_NAME" Description="LOC_UNIT_HAGA_DROMON_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_BUTTRESS"/>
+		<!-- 参考用：フリゲート -->
+		<!--
+		<Row UnitType="UNIT_FRIGATE" Cost="280" Maintenance="5" BaseMoves="4" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="45" RangedCombat="55" Range="2" 
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_FRIGATE_NAME" Description="LOC_UNIT_FRIGATE_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_SQUARE_RIGGING"/>
+		-->
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -84,6 +161,14 @@
 		<Row Unit="UNIT_HAGA_LONGSWORDSMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<!-- 戦列艦：戦艦 -->
 		<Row Unit="UNIT_HAGA_LINESHIP" UpgradeUnit="UNIT_BATTLESHIP"/>
+		<!-- トリレーム：コグ -->
+		<Row Unit="UNIT_HAGA_TRIREME" UpgradeUnit="UNIT_HAGA_COG"/>
+		<!-- コグ：キャラベル -->
+		<Row Unit="UNIT_HAGA_COG" UpgradeUnit="UNIT_CARAVEL"/>
+		<!-- 五段櫂船：デュロモイ -->
+		<Row Unit="UNIT_HAGA_QUINQUEREME" UpgradeUnit="UNIT_HAGA_DROMON"/>
+		<!-- デュロモイ：フリゲート艦 -->
+		<Row Unit="UNIT_HAGA_DROMON" UpgradeUnit="UNIT_FRIGATE"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>

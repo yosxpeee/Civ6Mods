@@ -125,6 +125,106 @@
 			<m_EntryID text="ICON_UNIT_HAGA_LINESHIP256"/>
 			<m_ObjectName text="ICON_UNIT_HAGA_LINESHIP256"/>
 		</Element>
+		<!-- ユニット(トリレーム) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TRIREME22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TRIREME22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TRIREME32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TRIREME32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TRIREME38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TRIREME38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TRIREME50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TRIREME50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TRIREME80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TRIREME80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_TRIREME256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_TRIREME256"/>
+		</Element>
+		<!-- ユニット(コグ) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_COG22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_COG22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_COG32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_COG32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_COG38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_COG38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_COG50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_COG50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_COG80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_COG80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_COG256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_COG256"/>
+		</Element>
+		<!-- ユニット(五段櫂船) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_QUINQUEREME22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_QUINQUEREME22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_QUINQUEREME32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_QUINQUEREME32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_QUINQUEREME38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_QUINQUEREME38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_QUINQUEREME50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_QUINQUEREME50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_QUINQUEREME80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_QUINQUEREME80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_QUINQUEREME256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_QUINQUEREME256"/>
+		</Element>
+		<!-- ユニット(デュロモイ) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_DROMON22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_DROMON22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_DROMON32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_DROMON32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_DROMON38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_DROMON38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_DROMON50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_DROMON50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_DROMON80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_DROMON80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_DROMON256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_DROMON256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

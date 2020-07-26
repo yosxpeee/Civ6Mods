@@ -75,7 +75,7 @@
 				<Combat>42</Combat>
 			</Set>
 		</Update>
-		<!-- デ・ゼーヴェン・プロヴィンシェン：各種データを戦列艦ベースに変更 -->
+		<!-- デ・ゼーヴェン・プロヴィンシェン：戦列艦ベースに変更 -->
 		<Update>
 			<Where UnitType="UNIT_DE_ZEVEN_PROVINCIEN"/>
 			<Set>
@@ -93,6 +93,22 @@
 			<Set>
 				<PrereqCivic></PrereqCivic>
 				<PrereqTech>TECH_REFINING</PrereqTech>
+			</Set>
+		</Update>
+		<!-- 空母：遠距離攻撃をつける -->
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set>
+				<RangedCombat>65</RangedCombat>
+				<Range>2</Range>
+			</Set>
+		</Update>
+		<!-- カドリレーム：解禁技術を帆走術に変更、生産コスト削減 -->
+		<Update>
+			<Where UnitType="UNIT_QUADRIREME"/>
+			<Set>
+				<PrereqTech>TECH_SAILING</PrereqTech>
+				<Cost>85</Cost>
 			</Set>
 		</Update>
 	</Units>
@@ -214,6 +230,20 @@
 			<Where Unit="UNIT_INDONESIAN_JONG"/>
 			<Set>
 				<UpgradeUnit>UNIT_HAGA_LINESHIP</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- ガレー船：トリレームに変更 -->
+		<Update>
+			<Where Unit="UNIT_GALLEY"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_TRIREME</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- カドリレーム：五段櫂船に変更 -->
+		<Update>
+			<Where Unit="UNIT_QUADRIREME"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_QUINQUEREME</UpgradeUnit>
 			</Set>
 		</Update>
 	</UnitUpgrades>

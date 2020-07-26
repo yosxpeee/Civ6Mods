@@ -40,6 +40,114 @@
     <None Include="HAGAddon.Art.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Animations\cargo_ship_early_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\cargo_ship_early_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Animations\longswordsman_attacka.anm">
       <SubType>Content</SubType>
     </Content>
@@ -400,6 +508,480 @@
     <Content Include="Animations\trebuchet_victory.fgx">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Animations\trireme_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\trireme_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_charge_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_charge_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_byzantium_dromon_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\u_carthage_quinquereme_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Buildings.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -418,10 +1000,28 @@
     <Content Include="ArtDefs\Unit_Bins.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Cargo_Ship_Early.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Longswordsman.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Trebuchet.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Trireme.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Byzantium_Dromon.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\U_Carthage_Quinquereme.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\cargo_ship_early.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\cargo_ship_early.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\longswordsman.fgx">
@@ -434,6 +1034,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\trebuchet.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\trireme.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\trireme.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_byzantium_dromon.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_byzantium_dromon.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_carthage_quinquereme.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\u_carthage_quinquereme.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="HAGAddon_Beliefs.xml">
@@ -487,13 +1105,34 @@
     <Content Include="HAGAddon_UpdateGameplay.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Materials\Cargo_Ship_Early_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Dromon_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Dromon_DMG_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\Longswordsman_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Quinquereme_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Quinquereme_DMG_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\TrebuchetCrew_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Trebuchet_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Trireme_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Trireme_DIFF_HeavyDMG.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Black_Gloss.dds">
@@ -508,10 +1147,130 @@
     <Content Include="Textures\Black_Metalness.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\cargo_ship_early_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\cargo_ship_early_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\cargo_ship_early_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\cargo_ship_early_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\cargo_ship_early_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\cargo_ship_early_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_diff_t.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_dmg_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_dmg_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_dmg_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_dmg_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\dromon_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\Flat_Normal.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_COG80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_DROMON80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_LINESHIP22.DDS">
@@ -586,6 +1345,42 @@
     <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -620,6 +1415,42 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_TRIREME80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\longswordsman_diff.DDS">
@@ -703,6 +1534,36 @@
     <Content Include="Textures\ICON_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\quinquereme_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_dmg_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_dmg_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_dmg_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_dmg_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\quinquereme_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\trebuchetcrew_diff.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -737,6 +1598,48 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\trebuchet_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_diff_heavydmg.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_diff_heavydmg.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_diff_lightdmg.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_diff_lightdmg.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_sref_heavydmg.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_sref_heavydmg.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_sref_lightdmg.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\trireme_sref_lightdmg.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\White_AO.dds">

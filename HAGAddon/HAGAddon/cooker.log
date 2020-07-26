@@ -1,0 +1,121 @@
+Starting AssetCooker...
+Argument '--shaders' has been deprecated and is no longer used.
+XLP cook starting...
+D:\GitHub\Civ6Mods\HAGAddon\HAGAddon\XLPs\units_civ5.xlp
+Opened output file: C:\Users\yoshi\OneDrive\Documents\My Games\Sid Meier's Civilization VI\Mods\HAGAddon\Platforms\MacOS\BLPs/units/units_civ5.blp    For XLP: 'D:\GitHub\Civ6Mods\HAGAddon\HAGAddon\XLPs\units_civ5.xlp'
+Could not load digest key: ''.  Using mod key to sign BLP.
+Starting 'units/units_civ5'
+
+****** Log from Geometry: 'trebuchet' ********
+--------------
+Geo trebuchet Mesh Trebuchet : 44 vertices removed by tangent merger.
+Geo trebuchet Mesh TrebuchetCrew_Captain : 362 vertices removed by tangent merger.
+Geo trebuchet Mesh TrebuchetCrew_Grunt : 360 vertices removed by tangent merger.
+Geo trebuchet mesh Trebuchet flagged for possible vertex duplication. Vertex Count: 1422, Index Count: 2682, Tri Count 894, Reused Vertices: 850, Duplicate Vertices: 0, Duplicate Positions: 534, Vertex:Tri Ratio: 1.59
+
+****** Log from Geometry: 'longswordsman' ********
+--------------
+Geo longswordsman Mesh Longswordsman : 240 vertices removed by tangent merger.
+
+****** Log from Geometry: 'cargo_ship_early' ********
+--------------
+Geo cargo_ship_early Mesh Galley : 278 vertices removed by tangent merger.
+
+****** Log from Geometry: 'trireme' ********
+--------------
+Geo trireme Mesh Oars_L : 162 vertices removed by tangent merger.
+Geo trireme Mesh Oars_L_DMG : 108 vertices removed by tangent merger.
+Geo trireme Mesh Oars_R : 162 vertices removed by tangent merger.
+Geo trireme Mesh Oars_R_DMG : 108 vertices removed by tangent merger.
+Geo trireme Mesh Trireme_HeavyDMG : 306 vertices removed by tangent merger.
+Geo trireme Mesh Trireme_Undamaged : 238 vertices removed by tangent merger.
+Geo trireme mesh Oars_L flagged for possible vertex duplication. Vertex Count: 702, Index Count: 1296, Tri Count 432, Reused Vertices: 396, Duplicate Vertices: 36, Duplicate Positions: 252, Vertex:Tri Ratio: 1.63
+Geo trireme mesh Oars_L_DMG flagged for possible vertex duplication. Vertex Count: 420, Index Count: 792, Tri Count 264, Reused Vertices: 240, Duplicate Vertices: 24, Duplicate Positions: 132, Vertex:Tri Ratio: 1.59
+Geo trireme mesh Oars_R flagged for possible vertex duplication. Vertex Count: 630, Index Count: 1188, Tri Count 396, Reused Vertices: 360, Duplicate Vertices: 36, Duplicate Positions: 198, Vertex:Tri Ratio: 1.59
+Geo trireme mesh Oars_R_DMG flagged for possible vertex duplication. Vertex Count: 468, Index Count: 864, Tri Count 288, Reused Vertices: 264, Duplicate Vertices: 24, Duplicate Positions: 168, Vertex:Tri Ratio: 1.63
+
+****** Log from Geometry: 'u_carthage_quinquereme' ********
+--------------
+Geo u_carthage_quinquereme Mesh Quinquereme : 317 vertices removed by tangent merger.
+Geo u_carthage_quinquereme Mesh Quinquereme_DMG : 320 vertices removed by tangent merger.
+
+****** Log from Geometry: 'u_byzantium_dromon' ********
+--------------
+Geo u_byzantium_dromon Mesh Dromon : 467 vertices removed by tangent merger.
+Geo u_byzantium_dromon Mesh Dromon_DMG : 453 vertices removed by tangent merger.
+
+****** Log from Animation: 'trebuchet_attacka' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_idlea_trans_idleb' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_idlea' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_combat_ready_idle' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_bombard_defense' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_attack_city' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_attackb' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_victory' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_run' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_stop_run' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_deatha' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trebuchet_deathb' ********
+--------------
+Granny animation D:\projects\artdev\Civilization5\Units\Trebuchet\Trebuchet.max has 2 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trireme_idlea_trans_idleb' ********
+--------------
+Granny animation d:\Projects\artdev\Civilization5\Units\Trireme\Trireme.max has 4 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'trireme_run' ********
+--------------
+Granny animation d:\Projects\artdev\Civilization5\Units\Trireme\Trireme.max has 4 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'u_carthage_quinquereme_idlea_trans_idleb' ********
+--------------
+Granny animation D:\projects\artdev\Civilzation5_DLC_Expansion\Units\U_Carthage_Quinquereme\U_Carthage_Quinquereme.max has 4 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'u_carthage_quinquereme_run' ********
+--------------
+Granny animation D:\projects\artdev\Civilzation5_DLC_Expansion\Units\U_Carthage_Quinquereme\U_Carthage_Quinquereme.max has 4 track groups, but the cooker expects only 1 for this type of animation.
+
+****** Log from Animation: 'u_carthage_quinquereme_idlea' ********
+--------------
+Granny animation D:\projects\artdev\Civilzation5_DLC_Expansion\Units\U_Carthage_Quinquereme\U_Carthage_Quinquereme.max has 4 track groups, but the cooker expects only 1 for this type of animation.
+Load finished for: 'units/units_civ5' in 0.186 seconds
+Trireme_HeavyDMG:Trireme_DIFF_HeavyDMG.dds.002 has 2 degenerate triangles
+Quinquereme_DMG:Quinquereme_DMG_DIFF.dds has 1 degenerate triangles
+Cook finished for: 'units/units_civ5' in 0.010 seconds
+Disk write finished for: 'units/units_civ5' in 0.758 seconds
+Cleanup finished for: 'units/units_civ5' in 0.004 seconds
+XLP cook completed with success.
+Cook completed in 0.980 seconds

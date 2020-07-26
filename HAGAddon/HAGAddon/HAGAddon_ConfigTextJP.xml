@@ -18,7 +18,7 @@
 			<Text>通貨、重商主義、経済学の解禁時に [ICON_TradeRoute] 交易路の数+1、交易商を無償で1つ得る。[ICON_TradeRoute] 国内交易路から [ICON_Production] 生産力+1、[ICON_GOLD] ゴールド+1。</Text>
 		</Row>
 
-		<!-- ユニット(ランツクネヒト) -->
+		<!-- ランツクネヒト(ユニークユニット) -->
 		<Row Tag="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Language="ja_JP">
 			<Text>ランツクネヒト</Text>
 		</Row>
@@ -34,7 +34,7 @@
 		<Row Tag="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>陸上近接ユニットに対し [ICON_Strength] 戦闘力+7</Text>
 		</Row>
-		<!-- トレビュシェット -->
+		<!-- トレビュシェット(共通ユニット) -->
 		<Row Tag="LOC_UNIT_HAGA_TREBUCHET_NAME" Language="ja_JP">
 			<Text>トレビュシェット</Text>
 		</Row>
@@ -44,7 +44,7 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>トレビュシェットは中世の強力な攻城用兵器である。12世紀のヨーロッパで最初に使用されたトレビュシェットは、離れた場所から140キログラムほどのミサイルを敵の城壁めがけて、あるいは城壁の向こうへと投げ込むことができた。中世ヨーロッパ型のトレビュシェットは「カウンターウェイト」機械であった。非常に長い木製アームの一端には投石器が、もう一端には重りがついていて、それが重厚な木枠に取り付けられている。長いアームを巻き上げ、重りを持ち上げて下ろし、投石器にミサイルを入れる。発射の時には、重りが下りてきてアームが勢いよく空へ上がり、ミサイルがはるか遠くまで投げ込まれるのである。この機械は移動ができないのが一般的で、組み立てにも時間がかかるため、長引く攻撃での有効利用に限られていた。</Text>
 		</Row>
-		<!-- 長剣士 -->
+		<!-- 長剣士(共通ユニット) -->
 		<Row Tag="LOC_UNIT_HAGA_LONGSWORDSMAN_NAME" Language="ja_JP">
 			<Text>長剣士</Text>
 		</Row>
@@ -54,7 +54,7 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>長剣は、中世/ルネサンス時代の戦場で最も万能な武器であった。長槍よりも軽くて扱いやすく、片手でも両手でも使えるため、剣士が盾を装備することもできた。長槍兵と1対1で戦う場合、長剣士はかなり不利な立場となり、攻撃可能な距離に近づくこともできないうちに長い武器による犠牲者が多く出た。しかしながら、長剣士隊は長槍兵よりも機動力が高いため、側面から敵を攻撃することができれば、長槍兵は命を落とすことになった。</Text>
 		</Row>
-		<!-- ユニット(戦列艦) -->
+		<!-- 戦列艦(共通ユニット) -->
 		<Row Tag="LOC_UNIT_HAGA_LINESHIP_NAME" Language="ja_JP">
 			<Text>戦列艦</Text>
 		</Row>
@@ -63,6 +63,46 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LINESHIP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>17世紀から19世紀にかけてのヨーロッパ諸国で使用された軍艦の一種。単縦陣の戦列（英語版）（Line of battle）を構成して、同じく戦列を構成する敵艦と砲戦を行うことを主目的としていたのでこの名がある。</Text>
+		</Row>
+		<!-- トリレーム(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_TRIREME_NAME" Language="ja_JP">
+			<Text>トリレーム</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_TRIREME_DESCRIPTION" Language="ja_JP">
+			<Text>古典時代の強力な海洋近接ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_TRIREME_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>紀元前5世紀頃から地中海で使用された軍船(ガレー船)である。三橈漕船（さんどうそうせん）、トライリームともいう。その名称の通り、櫂の漕ぎ手60名 - 170名を上下3段に配置して高い速力を得た（アテナイのそれの船員は漕手170人、補欠漕手・水夫・戦闘員30人の200人、攻撃時の最高速力およそ10ノット）。帆を備え、風力でも移動できるが地中海では風はあてに出来なかった。この種の軍船は船底最前部に青銅で補強した衝角という突起物を備え、敵船に衝突して船腹に穴を穿って浸水させ、行動不能とすることを目的とした。 </Text>
+		</Row>
+		<!-- コグ(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_COG_NAME" Language="ja_JP">
+			<Text>コグ船</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_COG_DESCRIPTION" Language="ja_JP">
+			<Text>中世の強力な海洋近接ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_COG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>12世紀頃から広く使われた船である。コグ船は一般にバルト海沿岸地方で豊富な木材であったオークで造られた。この船は一本マストで一枚の横帆を備えたものであった。この横帆のみの装備では風上に向かって帆走することはできなかったが、乗組員が少なくても操船でき、運航費用を下げることができた。この船は中世ヨーロッパの特にバルト海での主に海上貿易に使われた。 </Text>
+		</Row>
+		<!-- 五段櫂船(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_QUINQUEREME_NAME" Language="ja_JP">
+			<Text>五段櫂船</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_QUINQUEREME_DESCRIPTION" Language="ja_JP">
+			<Text>古典時代の強力な海洋遠距離ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_QUINQUEREME_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>古代のガレー船の一種で、カルタゴ海軍とローマ海軍で広く使われた。実際に櫂が五段になっている訳ではなく、3本の櫂を5人（上段2人、中段2人、下段1人）で漕ぐ形になる。 ポリュビウスによると、エクノモス岬の海戦に参加したローマ海軍の五段櫂船の乗員数は合計420名であり、内300名が漕ぎ手で残りが乗員および戦闘員であった。</Text>
+		</Row>
+		<!-- デュロモイ(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_DROMON_NAME" Language="ja_JP">
+			<Text>デュロモイ</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_DROMON_DESCRIPTION" Language="ja_JP">
+			<Text>中世の強力な海洋遠距離ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_DROMON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ドロモーンとも呼ばれる東ローマ帝国で用いられた軍艦の一種。「ドロモーン」は「走る」と言う意味のギリシャ語「ドロモス」に由来し、その名の通りの高速性能と、方向転換の機敏な優れた機動性を持っていた。船首と中央部に木造の塔を備え「ギリシャの火」と呼ばれる、水をかけても消えない炎を発する火炎放射器を装備していた。また、弩砲も装備されており、そこから火矢やギリシャ火薬を用いた火炎弾を発射できた。</Text>
 		</Row>
 		
 		<!-- その他更新用 -->

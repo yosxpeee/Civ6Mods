@@ -17,6 +17,22 @@
 			<m_EntryID text="Longswordsman"/>
 			<m_ObjectName text="Longswordsman"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Cargo_Ship_Early"/>
+			<m_ObjectName text="Cargo_Ship_Early"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Trireme"/>
+			<m_ObjectName text="Trireme"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Carthage_Quinquereme"/>
+			<m_ObjectName text="U_Carthage_Quinquereme"/>
+		</Element>
+		<Element>
+			<m_EntryID text="U_Byzantium_Dromon"/>
+			<m_ObjectName text="U_Byzantium_Dromon"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

@@ -36,6 +36,34 @@
 		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP256.dds"/>
+		<!-- トリレーム -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TRIREME" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TRIREME22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TRIREME" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TRIREME32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TRIREME" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TRIREME38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TRIREME" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TRIREME50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TRIREME" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TRIREME80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_TRIREME" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TRIREME256.dds"/>
+		<!-- コグ -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_COG" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_COG22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_COG" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_COG32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_COG" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_COG38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_COG" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_COG50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_COG" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_COG80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_COG" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_COG256.dds"/>
+		<!-- 五段櫂船 -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_QUINQUEREME" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_QUINQUEREME22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_QUINQUEREME" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_QUINQUEREME32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_QUINQUEREME" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_QUINQUEREME38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_QUINQUEREME" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_QUINQUEREME50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_QUINQUEREME" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_QUINQUEREME80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_QUINQUEREME" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_QUINQUEREME256.dds"/>
+		<!-- デュロモイ -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_DROMON" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_DROMON22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_DROMON" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_DROMON32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_DROMON" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_DROMON38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_DROMON" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_DROMON50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_DROMON" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_DROMON80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_DROMON" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_DROMON256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- Beliefs -->
@@ -87,6 +115,46 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_LINESHIP_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="55"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_LINESHIP_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="55"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_LINESHIP_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="55"/>
+		<!-- トリレーム(ポートレイトはガレー船の使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_TRIREME"                                   Atlas="ICON_ATLAS_UNIT_HAGA_TRIREME"             Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_TRIREME_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_TRIREME"             Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_TRIREME_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_TRIREME"             Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_TRIREME_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_TRIREME"             Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_TRIREME_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="25"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_TRIREME_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="25"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_TRIREME_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="25"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_TRIREME_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="25"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_TRIREME_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="25"/>
+		<!-- コグ(ポートレイトはガレー船の使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_COG"                                   Atlas="ICON_ATLAS_UNIT_HAGA_COG"                 Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_COG_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_COG"                 Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_COG_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_COG"                 Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_COG_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_COG"                 Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_COG_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="25"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_COG_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="25"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_COG_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="25"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_COG_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="25"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_COG_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="25"/>
+		<!-- 五段櫂船(ポートレイトはカドリレームの使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_QUINQUEREME"                                   Atlas="ICON_ATLAS_UNIT_HAGA_QUINQUEREME"         Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_QUINQUEREME_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_QUINQUEREME"         Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_QUINQUEREME_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_QUINQUEREME"         Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_QUINQUEREME_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_QUINQUEREME"         Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_QUINQUEREME_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="39"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_QUINQUEREME_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="39"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_QUINQUEREME_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="39"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_QUINQUEREME_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="39"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_QUINQUEREME_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="39"/>
+		<!-- デュロモイ(ポートレイトはカドリレームの使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_DROMON"                                   Atlas="ICON_ATLAS_UNIT_HAGA_DROMON"              Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_DROMON_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_DROMON"              Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_DROMON_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_DROMON"              Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_DROMON_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_DROMON"              Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_DROMON_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="39"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_DROMON_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="39"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_DROMON_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="39"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_DROMON_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="39"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_DROMON_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="39"/>
 		
 		<!-- 建造物 -->
 		<!-- マシュリク・アル・アドゥカル(シナゴーグの使いまわし) -->
