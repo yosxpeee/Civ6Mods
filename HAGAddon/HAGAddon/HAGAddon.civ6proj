@@ -31,7 +31,7 @@
   <Dependency type="Dlc" title="DLC: Maya and Gran Colombia Pack" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File>HAGAddon_UpdateConfig.xml</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File><File>HAGAddon_UpdateGameplayOtherMods.sql</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -332,6 +332,162 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Animations\longswordsman_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\transport_victory.fgx">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Animations\trebuchet_attacka.anm">
@@ -1006,6 +1162,9 @@
     <Content Include="Assets\Longswordsman.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Transport.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Trebuchet.ast">
       <SubType>Content</SubType>
     </Content>
@@ -1028,6 +1187,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\longswordsman.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\transport.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\trebuchet.fgx">
@@ -1105,6 +1267,9 @@
     <Content Include="HAGAddon_UpdateGameplay.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="HAGAddon_UpdateGameplayOtherMods.sql">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\Cargo_Ship_Early_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
@@ -1121,6 +1286,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Quinquereme_DMG_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Transport_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\TrebuchetCrew_DIFF.mtl">
@@ -1235,6 +1403,78 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_COG80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CORVETTE80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CRUISER80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_DROMON22.DDS">
@@ -1562,6 +1802,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\quinquereme_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\transport_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\transport_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\transport_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\transport_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\transport_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\transport_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\trebuchetcrew_diff.DDS">

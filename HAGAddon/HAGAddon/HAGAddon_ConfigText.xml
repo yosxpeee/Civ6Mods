@@ -104,6 +104,26 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_DROMON_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- コルベット(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_CORVETTE_NAME" Language="en_US">
+			<Text>Corvette</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_CORVETTE_DESCRIPTION" Language="en_US">
+			<Text>Strong Industrial era naval melee unit.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CORVETTE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 巡洋艦(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_CRUISER_NAME" Language="en_US">
+			<Text>Corvette</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_CRUISER_DESCRIPTION" Language="en_US">
+			<Text>Strong Modern era armored melee and ranged naval unit. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CRUISER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="en_US">
@@ -123,6 +143,9 @@
 		</Row>
 		<Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION" Language="en_US">
 			<Text>Brazilian unique Modern era unit that replaces the Battleship. Stronger than the Battleship.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_IRONCLAD_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Powerful Industrial era armored melee and ranged naval unit. </Text>
 		</Row>
 	</LocalizedText>
 </GameData>

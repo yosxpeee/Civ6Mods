@@ -27,6 +27,11 @@
 			<Where Description="LOC_DISTRICT_SEOWON_DESCRIPTION"/>
 			<Set Description="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION"/>
 		</Update>
+		<!-- 装甲艦 -->
+		<Update>
+			<Where Description="LOC_UNIT_IRONCLAD_DESCRIPTION"/>
+			<Set Description="LOC_UNIT_IRONCLAD_HAGA_DESCRIPTION"/>
+		</Update>
 	</Districts>
 	<!-- 隣接ボーナス -->
 	<Adjacency_YieldChanges>
@@ -87,10 +92,12 @@
 				<PrereqCivic>CIVIC_NATIONALISM</PrereqCivic>
 			</Set>
 		</Update>
-		<!-- ミナス・ジェライス：解禁技術を精製技術に変更 -->
+		<!-- ミナス・ジェライス：性能変更、解禁技術を精製技術に変更 -->
 		<Update>
 			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
 			<Set>
+				<Combat>67</Combat>
+				<RangedCombat>77</RangedCombat>
 				<PrereqCivic></PrereqCivic>
 				<PrereqTech>TECH_REFINING</PrereqTech>
 			</Set>
@@ -109,6 +116,16 @@
 			<Set>
 				<PrereqTech>TECH_SAILING</PrereqTech>
 				<Cost>85</Cost>
+			</Set>
+		</Update>
+		<!-- 装甲艦：遠近両用仕様に変更（遠隔昇進、クラスタイプ近接） -->
+		<Update>
+			<Where UnitType="UNIT_IRONCLAD"/>
+			<Set>
+				<Combat>55</Combat>
+				<RangedCombat>60</RangedCombat>
+				<Range>2</Range>
+				<PromotionClass>PROMOTION_CLASS_NAVAL_RANGED</PromotionClass>
 			</Set>
 		</Update>
 	</Units>
@@ -246,6 +263,27 @@
 				<UpgradeUnit>UNIT_HAGA_QUINQUEREME</UpgradeUnit>
 			</Set>
 		</Update>
+		<!-- キャラベル：コルベットに変更 -->
+		<Update>
+			<Where Unit="UNIT_CARAVEL"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_CORVETTE</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- ナウ船：コルベットに変更 -->
+		<Update>
+			<Where Unit="UNIT_HAG_PORTUGAL_NAU"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_CORVETTE</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- 装甲艦：巡洋艦に変更 -->
+		<Update>
+			<Where Unit="UNIT_IRONCLAD"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_CRUISER</UpgradeUnit>
+			</Set>
+		</Update>
 	</UnitUpgrades>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -263,4 +301,9 @@
 			</Set>
 		</Update>
 	</UnitReplaces>
+	<!-- AI設定 -->
+	<UnitAiInfos>
+		<!-- 装甲艦：遠隔を追加 -->
+		<Row UnitType="UNIT_IRONCLAD" AiType="UNITTYPE_RANGED"/>
+	</UnitAiInfos>
 </GameData>

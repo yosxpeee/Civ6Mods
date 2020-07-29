@@ -225,6 +225,56 @@
 			<m_EntryID text="ICON_UNIT_HAGA_DROMON256"/>
 			<m_ObjectName text="ICON_UNIT_HAGA_DROMON256"/>
 		</Element>
+		<!-- ユニット(コルベット) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CORVETTE22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CORVETTE22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CORVETTE32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CORVETTE32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CORVETTE38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CORVETTE38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CORVETTE50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CORVETTE50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CORVETTE80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CORVETTE80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CORVETTE256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CORVETTE256"/>
+		</Element>
+		<!-- ユニット(巡洋艦) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CRUISER22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CRUISER22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CRUISER32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CRUISER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CRUISER38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CRUISER38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CRUISER50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CRUISER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CRUISER80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CRUISER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CRUISER256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CRUISER256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

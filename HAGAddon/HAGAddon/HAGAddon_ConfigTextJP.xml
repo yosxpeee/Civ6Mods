@@ -104,6 +104,26 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_DROMON_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ドロモーンとも呼ばれる東ローマ帝国で用いられた軍艦の一種。「ドロモーン」は「走る」と言う意味のギリシャ語「ドロモス」に由来し、その名の通りの高速性能と、方向転換の機敏な優れた機動性を持っていた。船首と中央部に木造の塔を備え「ギリシャの火」と呼ばれる、水をかけても消えない炎を発する火炎放射器を装備していた。また、弩砲も装備されており、そこから火矢やギリシャ火薬を用いた火炎弾を発射できた。</Text>
 		</Row>
+		<!-- コルベット(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_CORVETTE_NAME" Language="ja_JP">
+			<Text>コルベット</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_CORVETTE_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代の強力な海洋近接ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CORVETTE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
+		<!-- 巡洋艦(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_CRUISER_NAME" Language="ja_JP">
+			<Text>巡洋艦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_CRUISER_DESCRIPTION" Language="ja_JP">
+			<Text>近代の強力な遠近両用戦闘海洋ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CRUISER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="ja_JP">
@@ -123,6 +143,9 @@
 		</Row>
 		<Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>戦艦に取ってかわるブラジル固有の近代のユニット。戦艦よりも強力。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_IRONCLAD_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代の強力な遠近両用戦闘海洋ユニット。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

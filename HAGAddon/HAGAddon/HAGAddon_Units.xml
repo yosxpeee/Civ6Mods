@@ -10,6 +10,8 @@
 		<Row Type="UNIT_HAGA_COG"                           Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_QUINQUEREME"                   Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_DROMON"                        Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_CORVETTE"                      Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_CRUISER"                       Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -47,6 +49,14 @@
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAGA_CORVETTE"                      AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_CORVETTE"                      AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAGA_CORVETTE"                      AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_CORVETTE"                      AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -56,17 +66,29 @@
 	</Tags>
 	<!-- 所有クラス -->
 	<TypeTags>
+		<!-- ランツクネヒト -->
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_ANTI_CAVALRY"/>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
+		<!-- トレビュシェット -->
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_FORWARD_OBSERVER"/>
+		<!-- 長剣士 -->
 		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Tag="CLASS_MELEE"/>
+		<!-- 戦列艦 -->
 		<Row Type="UNIT_HAGA_LINESHIP"                      Tag="CLASS_NAVAL_RANGED"/>
+		<!-- トリレーム -->
 		<Row Type="UNIT_HAGA_TRIREME"                       Tag="CLASS_NAVAL_MELEE"/>
+		<!-- コグ -->
 		<Row Type="UNIT_HAGA_COG"                           Tag="CLASS_NAVAL_MELEE"/>
+		<!-- 五段櫂船 -->
 		<Row Type="UNIT_HAGA_QUINQUEREME"                   Tag="CLASS_NAVAL_RANGED"/>
+		<!-- デュロモイ -->
 		<Row Type="UNIT_HAGA_DROMON"                        Tag="CLASS_NAVAL_RANGED"/>
+		<!-- コルベット -->
+		<Row Type="UNIT_HAGA_CORVETTE"                      Tag="CLASS_NAVAL_MELEE"/>
+		<!-- 巡洋艦 -->
+		<Row Type="UNIT_HAGA_CRUISER"                       Tag="CLASS_NAVAL_MELEE"/>	
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
@@ -95,13 +117,6 @@
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_LINESHIP_NAME" Description="LOC_UNIT_HAGA_LINESHIP_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_BALLISTICS"/>
-		<!-- 参考用：ガレー船 -->
-		<!--
-		<Row UnitType="UNIT_GALLEY" Cost="65" Maintenance="1" BaseMoves="3" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="30" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GALLEY_NAME" Description="LOC_UNIT_GALLEY_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEAM_POWER" PrereqTech="TECH_SAILING"/>
-		-->
 		<!-- トリレーム -->
 		<Row UnitType="UNIT_HAGA_TRIREME" Cost="120" Maintenance="2" BaseMoves="3" BaseSightRange="2"
 			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="35"
@@ -114,22 +129,6 @@
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_COG_NAME" Description="LOC_UNIT_HAGA_COG_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_BUTTRESS"/>
-		<!-- 参考用：キャラベル -->
-		<!--
-		<Row UnitType="UNIT_CARAVEL" Cost="240" Maintenance="4" BaseMoves="4" BaseSightRange="3" 
-			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55" 
-			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CARAVEL_NAME" Description="LOC_UNIT_CARAVEL_DESCRIPTION" PurchaseYield="YIELD_GOLD" 
-			 PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_CARTOGRAPHY"/>
-		-->
-		<!-- 参考用：カドリレーム-->
-		<!--
-		<Row UnitType="UNIT_QUADRIREME" Cost="120" Maintenance="2" BaseMoves="3" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="20" RangedCombat="25" Range="1" 
-			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_QUADRIREME_NAME" Description="LOC_UNIT_QUADRIREME_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_SHIPBUILDING"/>
-		-->
 		<!-- 五段櫂船 -->
 		<Row UnitType="UNIT_HAGA_QUINQUEREME" Cost="155" Maintenance="3" BaseMoves="3" BaseSightRange="2"
 			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="30" RangedCombat="35" Range="1"
@@ -142,14 +141,18 @@
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_DROMON_NAME" Description="LOC_UNIT_HAGA_DROMON_DESCRIPTION"
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_BUTTRESS"/>
-		<!-- 参考用：フリゲート -->
-		<!--
-		<Row UnitType="UNIT_FRIGATE" Cost="280" Maintenance="5" BaseMoves="4" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="45" RangedCombat="55" Range="2" 
-			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_FRIGATE_NAME" Description="LOC_UNIT_FRIGATE_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_SQUARE_RIGGING"/>
-		-->
+		<!-- コルベット -->
+		<Row UnitType="UNIT_HAGA_CORVETTE" Cost="360" Maintenance="5" BaseMoves="5" BaseSightRange="3" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="70" StrategicResource="RESOURCE_COAL" 
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_CORVETTE_NAME" Description="LOC_UNIT_HAGA_CORVETTE_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEAM_POWER"/>
+		<!-- 巡洋艦 -->
+		<Row UnitType="UNIT_HAGA_CRUISER" Cost="415" Maintenance="5" BaseMoves="5" BaseSightRange="3"
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="60" RangedCombat="65" Range="2" StrategicResource="RESOURCE_OIL"
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_CRUISER_NAME" Description="LOC_UNIT_HAGA_CRUISER_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_REFINING"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -169,6 +172,8 @@
 		<Row Unit="UNIT_HAGA_QUINQUEREME" UpgradeUnit="UNIT_HAGA_DROMON"/>
 		<!-- デュロモイ：フリゲート艦 -->
 		<Row Unit="UNIT_HAGA_DROMON" UpgradeUnit="UNIT_FRIGATE"/>
+		<!-- コルベット：駆逐艦 -->
+		<Row Unit="UNIT_HAGA_CORVETTE" UpgradeUnit="UNIT_DESTROYER"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>
@@ -176,5 +181,7 @@
 	<Units_XP2>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" ResourceCost="20"/>
 		<Row UnitType="UNIT_HAGA_LINESHIP" ResourceCost="20"/>
+		<Row UnitType="UNIT_HAGA_CORVETTE" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAGA_CRUISER"  ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
 </GameInfo>
