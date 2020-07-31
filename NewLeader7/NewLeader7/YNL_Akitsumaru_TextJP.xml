@@ -118,16 +118,16 @@
 			<Text>対潜支援</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
-			<Text>海洋略奪ユニットに対して [ICON_Strength] 戦闘力+9。</Text>
+			<Text>カ号が隣接している場合、海洋略奪ユニットに対して [ICON_Strength] 戦闘力+9。</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="ja_JP">
-			<Text>海洋略奪ユニットに対して [ICON_Strength] 戦闘力+9</Text>
+			<Text>カ号が隣接している場合、海洋略奪ユニットに対して [ICON_Strength] 戦闘力+9</Text>
 		</Replace>
 
-		<Replace Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_NAME" Language="ja_JP">
+		<Replace Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_NAME" Language="ja_JP">
 			<Text>観測射撃</Text>
 		</Replace>
-		<Replace Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
+		<Replace Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
 			<Text>カ号観測機が隣接している場合 [ICON_Range] 射程+1</Text>
 		</Replace>
 		

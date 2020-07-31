@@ -115,10 +115,10 @@
 			<Text>Anti-submarine</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
-			<Text>+9 [ICON_Strength] Strength when attacking to naval raider unit.</Text>
+			<Text>if adjecent to Ka Type Observation Autogyro, +9 [ICON_Strength] Strength when attacking to naval raider unit.</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_VS_NAVAL_RAIDER_YNL_AKITSUMARU_MODIFIER_DESCRIPTION" Language="en_US">
-			<Text>+9 [ICON_Strength] Strength when attacking to naval raider unit</Text>
+			<Text>if adjecent to Ka Type Observation Autogyro, +9 [ICON_Strength] Strength when attacking to naval raider unit</Text>
 		</Row>
 
 		<Row Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_YNL_AKITSUMARU_NAME" Language="en_US">
