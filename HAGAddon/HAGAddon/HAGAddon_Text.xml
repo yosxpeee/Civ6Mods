@@ -101,9 +101,15 @@
 		
 		<!-- ユニットアビリティ -->
 		<Row Tag="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION" Language="en_US">
-			<Text>+8 [ICON_Strength]Combat Strength when attacking.</Text>
+			<Text>+8 [ICON_Strength] Combat Strength when attacking.</Text>
 		</Row>
-
+		<Row Tag="LOC_ABILITY_HAGA_ANTI_NAVAL_MELEE_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength to Naval melee units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAGA_ANTI_DEF_DISTRICTS_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength vs. defensible districts</Text>
+		</Row>
+		
 		<!-- 崇拝の信仰 -->
 		<Row Tag="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_NAME" Language="en_US">
 			<Text>Mashriqu-l-Adhkar</Text>

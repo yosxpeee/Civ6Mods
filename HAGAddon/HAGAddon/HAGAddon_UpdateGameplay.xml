@@ -32,6 +32,11 @@
 			<Where Description="LOC_UNIT_IRONCLAD_DESCRIPTION"/>
 			<Set Description="LOC_UNIT_IRONCLAD_HAGA_DESCRIPTION"/>
 		</Update>
+		<!-- ミサイル巡洋艦 -->
+		<Update>
+			<Where Description="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION"/>
+			<Set Description="LOC_UNIT_MISSILE_CRUISER_HAGA_DESCRIPTION"/>
+		</Update>
 	</Districts>
 	<!-- 隣接ボーナス -->
 	<Adjacency_YieldChanges>
@@ -45,7 +50,7 @@
 	<!-- ======================================================================= -->
 	<!-- ユニット -->
 	<!-- ======================================================================= -->
-	<!-- 説明文 -->
+	<!-- 名前・説明文 -->
 	<Units>
 		<!-- ベルセルク -->
 		<Update>
@@ -62,6 +67,11 @@
 			<Where Description="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION"/>
 			<Set Description="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION"/>
 		</Update>
+		<!-- 戦艦 -->
+		<Update>
+			<Where Name="LOC_UNIT_BATTLESHIP_NAME"/>
+			<Set Name="LOC_UNIT_BATTLESHIP_HAGA_NAME"/>
+		</Update>
 	</Units>
 	<!-- 戦闘時のアビリティ表示 -->
 	<UnitAbilities>
@@ -71,6 +81,16 @@
 			<Set Description="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION"/>
 		</Update>
 	</UnitAbilities>
+	<!-- クラス -->
+	<TypeTags>
+		<!-- 装甲艦、ミサイル巡洋艦 -->
+		<Row Type="UNIT_IRONCLAD"        Tag="CLASS_HAGA_ANTI_NAVAL_MELEE"/>
+		<Row Type="UNIT_MISSILE_CRUISER" Tag="CLASS_HAGA_ANTI_NAVAL_MELEE"/>
+		<!-- 産業以降の海洋遠距離1 -->
+		<Row Type="UNIT_BATTLESHIP"             Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"/>
+		<Row Type="UNIT_DE_ZEVEN_PROVINCIEN"    Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"/>
+		<Row Type="UNIT_BRAZILIAN_MINAS_GERAES" Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"/>
+	</TypeTags>
 	<!-- 基本性能 -->
 	<Units>
 		<!-- ベルセルク -->
@@ -118,7 +138,7 @@
 				<Cost>85</Cost>
 			</Set>
 		</Update>
-		<!-- 装甲艦：遠近両用仕様に変更（遠隔昇進、クラスタイプ近接） -->
+		<!-- 装甲艦：遠隔に変更 -->
 		<Update>
 			<Where UnitType="UNIT_IRONCLAD"/>
 			<Set>
@@ -126,6 +146,13 @@
 				<RangedCombat>60</RangedCombat>
 				<Range>2</Range>
 				<PromotionClass>PROMOTION_CLASS_NAVAL_RANGED</PromotionClass>
+			</Set>
+		</Update>
+		<!-- ミサイル巡洋艦：射程4、近接昇進に変更 -->
+		<Update>
+			<Where UnitType="UNIT_MISSILE_CRUISER"/>
+			<Set>
+				<Range>4</Range>
 			</Set>
 		</Update>
 	</Units>
@@ -284,6 +311,20 @@
 				<UpgradeUnit>UNIT_HAGA_CRUISER</UpgradeUnit>
 			</Set>
 		</Update>
+		<!-- 戦艦：超弩級戦艦に変更 -->
+		<Update>
+			<Where Unit="UNIT_BATTLESHIP"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_SUPER_DREDNOUGHTS</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- ミナスジェライス：超弩級戦艦に変更 -->
+		<Update>
+			<Where Unit="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_SUPER_DREDNOUGHTS</UpgradeUnit>
+			</Set>
+		</Update>
 	</UnitUpgrades>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -303,7 +344,12 @@
 	</UnitReplaces>
 	<!-- AI設定 -->
 	<UnitAiInfos>
-		<!-- 装甲艦：遠隔を追加 -->
-		<Row UnitType="UNIT_IRONCLAD" AiType="UNITTYPE_RANGED"/>
+		<!-- 装甲艦：遠隔に変更 -->
+		<Update>
+			<Where UnitType="UNIT_IRONCLAD" AiType="UNITTYPE_MELEE"/>
+			<Set>
+				<AiType>UNITTYPE_RANGED</AiType>
+			</Set>
+		</Update>
 	</UnitAiInfos>
 </GameData>

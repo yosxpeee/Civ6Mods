@@ -112,17 +112,27 @@
 			<Text>産業時代の強力な海洋近接ユニット。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CORVETTE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>フリゲートやスループよりも小型の戦闘艦であるが、時代が進むごとにサイズは大きくなっていった。最大のものは1855年に製造された54メートルで24の大砲を備えたアメリカのコンステレーションであった。現代においては排水量1000t以下の対潜護衛艦の呼称としてコルベットを使用している国が存在する。</Text>
 		</Row>
 		<!-- 巡洋艦(共通ユニット) -->
 		<Row Tag="LOC_UNIT_HAGA_CRUISER_NAME" Language="ja_JP">
 			<Text>巡洋艦</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAGA_CRUISER_DESCRIPTION" Language="ja_JP">
-			<Text>近代の強力な遠近両用戦闘海洋ユニット。</Text>
+			<Text>近代の強力な海洋遠距離ユニット。海洋近接ユニットに対し [ICON_Strength] 戦闘力+5。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CRUISER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>装甲巡洋艦から発展した艦種で、遠洋航行能力・速度等を生かした攻撃力を持たせた軍艦の艦種。ただし定義は国や年代によって異なる。1930年に調印されたロンドン海軍軍縮条約では、口径6.1インチを基準としてこれを超える砲を持つ巡洋艦が「カテゴリーA」、口径6.1インチ以下の巡洋艦が「カテゴリーB」と定義されており、これをそれぞれ重巡洋艦（Heavy Cruiser）、軽巡洋艦（Light Cruiser）とする呼称が一般的となった。</Text>
+		</Row>
+		<!-- 超弩級戦艦(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_SUPER_DREDNOUGHTS_NAME" Language="ja_JP">
+			<Text>超弩級戦艦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_SUPER_DREDNOUGHTS_DESCRIPTION" Language="ja_JP">
+			<Text>原子力時代の強力な海洋遠距離ユニット。防御に適した区域を攻撃する際、[ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_SUPER_DREDNOUGHTS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>戦艦の中でもイギリスのドレッドノートよりも大型の砲を搭載した艦の総称。日本海軍では巡洋戦艦「金剛」以降の艦を指し、「大和」「武蔵」は18インチ超(46cm)というとてつもない大口径の砲を搭載していた。</Text>
 		</Row>
 		
 		<!-- その他更新用 -->
@@ -139,13 +149,26 @@
 			<Text>科学を探求する韓国固有の区域。キャンパス区域に取ってかわる。 [ICON_SCIENCE] 科学力+6。丘陵の上にのみ建設可能。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_HAGA_DESCRIPTION" Language="ja_JP">
-			<Text>戦列艦に取ってかわるオランダ固有の産業時代のユニット。防御に適した区域を攻撃する際、 [ICON_Strength] 戦闘力+7。</Text>
+			<Text>戦列艦に取ってかわるオランダ固有の産業時代のユニット。防御に適した区域を攻撃する際、[ICON_Strength] 戦闘力+7。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION" Language="ja_JP">
-			<Text>戦艦に取ってかわるブラジル固有の近代のユニット。戦艦よりも強力。</Text>
+			<Text>弩級戦艦に取ってかわるブラジル固有の近代のユニット。弩級戦艦よりも強力。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_IRONCLAD_HAGA_DESCRIPTION" Language="ja_JP">
-			<Text>産業時代の強力な遠近両用戦闘海洋ユニット。</Text>
+			<Text>産業時代の強力な海洋遠距離ユニット。海洋近接ユニットに対し [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MISSILE_CRUISER_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>極めて強力な長距離戦闘海洋ユニット。情報時代で利用可能。海洋近接ユニットに対し [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BATTLESHIP_HAGA_NAME" Language="ja_JP">
+			<Text>弩級戦艦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BATTLESHIP_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>近代の海洋長距離戦闘ユニット。1タイル先からの航空攻撃と核攻撃を防御できる。防御に適した区域を攻撃する際、[ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>超弩級戦艦に取ってかわる海の民固有の原子力時代のユニット。通常の超弩級戦艦よりもはるかに強力。[ICON_Movement] 移動力4。駆逐艦が隣接しているときは [ICON_Strength] 戦闘力+10。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

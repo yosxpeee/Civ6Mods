@@ -103,7 +103,13 @@
 		<Row Tag="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>攻撃時に [ICON_Strength] 戦闘力+8。</Text>
 		</Row>
-
+		<Row Tag="LOC_ABILITY_HAGA_ANTI_NAVAL_MELEE_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>海洋近接ユニットに対し [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAGA_ANTI_DEF_DISTRICTS_MODIFIER_DESCRIPTION" Language="ja_JP">
+			<Text>防御に適した区域を攻撃する際の [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		
 		<!-- 崇拝の信仰 -->
 		<Row Tag="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_NAME" Language="ja_JP">
 			<Text>マシュリク・アル・アドゥカル</Text>

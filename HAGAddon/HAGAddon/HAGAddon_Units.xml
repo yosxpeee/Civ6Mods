@@ -12,54 +12,72 @@
 		<Row Type="UNIT_HAGA_DROMON"                        Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_CORVETTE"                      Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_CRUISER"                       Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_SUPER_DREDNOUGHTS"             Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
+		<!-- ランツクネヒト -->
 		<Row Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAGA_ANTI_NAVAL_MELEE"              Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"            Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<!-- AI設定 -->
 	<UnitAiInfos>
+		<!-- ランツクネヒト -->
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- トレビュシェット -->
 		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- 長剣士 -->
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- 戦列艦 -->
 		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITTYPE_NAVAL"/>
+		<!-- トリレーム -->
 		<Row UnitType="UNIT_HAGA_TRIREME"                       AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_TRIREME"                       AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_TRIREME"                       AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_TRIREME"                       AiType="UNITTYPE_NAVAL"/>
+		<!-- コグ -->
 		<Row UnitType="UNIT_HAGA_COG"                           AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_COG"                           AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_COG"                           AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_COG"                           AiType="UNITTYPE_NAVAL"/>
+		<!-- 五段櫂船 -->
 		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITTYPE_NAVAL"/>
+		<!-- デュロモイ -->
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITTYPE_NAVAL"/>
+		<!-- コルベット -->
 		<Row UnitType="UNIT_HAGA_CORVETTE"                      AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_CORVETTE"                      AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAGA_CORVETTE"                      AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_CORVETTE"                      AiType="UNITTYPE_NAVAL"/>
+		<!-- 巡洋艦 -->
 		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_CRUISER"                       AiType="UNITTYPE_NAVAL"/>
+		<!-- 超弩級戦艦-->
+		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS"             AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS"             AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS"             AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
+		<!-- ランツクネヒト -->
 		<Row CivUniqueUnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" ReplacesUnitType="UNIT_PIKEMAN"/>
 	</UnitReplaces>
 	<Tags>
@@ -77,6 +95,7 @@
 		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Tag="CLASS_MELEE"/>
 		<!-- 戦列艦 -->
 		<Row Type="UNIT_HAGA_LINESHIP"                      Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_HAGA_LINESHIP"                      Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"/>
 		<!-- トリレーム -->
 		<Row Type="UNIT_HAGA_TRIREME"                       Tag="CLASS_NAVAL_MELEE"/>
 		<!-- コグ -->
@@ -88,7 +107,13 @@
 		<!-- コルベット -->
 		<Row Type="UNIT_HAGA_CORVETTE"                      Tag="CLASS_NAVAL_MELEE"/>
 		<!-- 巡洋艦 -->
-		<Row Type="UNIT_HAGA_CRUISER"                       Tag="CLASS_NAVAL_MELEE"/>	
+		<Row Type="UNIT_HAGA_CRUISER"                       Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_HAGA_CRUISER"                       Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_HAGA_CRUISER"                       Tag="CLASS_HAGA_ANTI_NAVAL_MELEE"/>
+		<!-- 超弩級戦艦-->
+		<Row Type="UNIT_HAGA_SUPER_DREDNOUGHTS"             Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_HAGA_SUPER_DREDNOUGHTS"             Tag="CLASS_ANTI_AIR"/>
+		<Row Type="UNIT_HAGA_SUPER_DREDNOUGHTS"             Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
@@ -149,10 +174,16 @@
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEAM_POWER"/>
 		<!-- 巡洋艦 -->
 		<Row UnitType="UNIT_HAGA_CRUISER" Cost="415" Maintenance="5" BaseMoves="5" BaseSightRange="3"
-			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="60" RangedCombat="65" Range="2" StrategicResource="RESOURCE_OIL"
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="60" RangedCombat="65" Range="2" AntiAirCombat="80" StrategicResource="RESOURCE_COAL"
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_CRUISER_NAME" Description="LOC_UNIT_HAGA_CRUISER_DESCRIPTION"
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_REFINING"/>
+		<!-- 超弩級戦艦 -->
+		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS" Cost="600" Maintenance="7" BaseMoves="5" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="72" RangedCombat="82" Range="3" AntiAirCombat="100" StrategicResource="RESOURCE_OIL" 
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_SUPER_DREDNOUGHTS_NAME" Description="LOC_UNIT_HAGA_SUPER_DREDNOUGHTS_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -174,14 +205,17 @@
 		<Row Unit="UNIT_HAGA_DROMON" UpgradeUnit="UNIT_FRIGATE"/>
 		<!-- コルベット：駆逐艦 -->
 		<Row Unit="UNIT_HAGA_CORVETTE" UpgradeUnit="UNIT_DESTROYER"/>
+		<!-- 巡洋艦：ミサイル巡洋艦-->
+		<Row Unit="UNIT_HAGA_CRUISER" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>
 	<!-- 戦略資源のコスト -->
 	<Units_XP2>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" ResourceCost="20"/>
-		<Row UnitType="UNIT_HAGA_LINESHIP" ResourceCost="20"/>
-		<Row UnitType="UNIT_HAGA_CORVETTE" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
-		<Row UnitType="UNIT_HAGA_CRUISER"  ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"     ResourceCost="20"/>
+		<Row UnitType="UNIT_HAGA_LINESHIP"          ResourceCost="20"/>
+		<Row UnitType="UNIT_HAGA_CORVETTE"          ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAGA_CRUISER"           ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"  ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
 </GameInfo>

@@ -275,6 +275,31 @@
 			<m_EntryID text="ICON_UNIT_HAGA_CRUISER256"/>
 			<m_ObjectName text="ICON_UNIT_HAGA_CRUISER256"/>
 		</Element>
+		<!-- ユニット(超弩級戦艦) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

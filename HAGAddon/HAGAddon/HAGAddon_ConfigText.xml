@@ -119,9 +119,19 @@
 			<Text>Corvette</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAGA_CRUISER_DESCRIPTION" Language="en_US">
-			<Text>Strong Modern era armored melee and ranged naval unit. </Text>
+			<Text>Strong Modern era armored ranged naval unit. </Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CRUISER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 超弩級戦艦(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_SUPER_DREDNOUGHTS_NAME" Language="en_US">
+			<Text>Super Drednoughts</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_SUPER_DREDNOUGHTS_DESCRIPTION" Language="en_US">
+			<Text>Strong Atmoc era armored ranged naval unit. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_SUPER_DREDNOUGHTS_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		
@@ -142,10 +152,23 @@
 			<Text>Netherlands unique Industrial Era unit that replaces the Ship of the line. +7 [ICON_Strength] Combat Strength when attacking defensible districts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION" Language="en_US">
-			<Text>Brazilian unique Modern era unit that replaces the Battleship. Stronger than the Battleship.</Text>
+			<Text>Brazilian unique Modern era unit that replaces the Drednoughts. Stronger than the Drednoughts.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_IRONCLAD_HAGA_DESCRIPTION" Language="en_US">
-			<Text>Powerful Industrial era armored melee and ranged naval unit. </Text>
+			<Text>Powerful Industrial era armored ranged naval unit. +5 [ICON_Strength] Combat Strength to Naval melee units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MISSILE_CRUISER_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Strongest ranged naval unit, available in the Information era. +5 [ICON_Strength] Combat Strength to Naval melee units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BATTLESHIP_HAGA_NAME" Language="en_US">
+			<Text>Dreadnoughts</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BATTLESHIP_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Modern era naval ranged unit. Provides cover from air and nuclear attacks up to 1 tile away. +5 [ICON_Strength] Combat Strength when attacking defensible districts.</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Peoples of the Sea unique unit that replaces the Super Drednoughts. Stronger than the Super Drednoughts. 4 [ICON_Movement] Movement. +10 [ICON_Strength] Combat Strength if there is at least one Destroyer adjacent.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

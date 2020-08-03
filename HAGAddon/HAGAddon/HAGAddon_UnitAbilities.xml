@@ -3,14 +3,20 @@
 	<!-- 親定義 -->
 	<Types>
 		<Row Type="ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HAGA_ANTI_NAVAL_MELEE"              Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HAGA_ANTI_DEF_DISTRICTS"            Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
 		<Row Type="ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
+		<Row Type="ABILITY_HAGA_ANTI_NAVAL_MELEE"              Tag="CLASS_HAGA_ANTI_NAVAL_MELEE"/>
+		<Row Type="ABILITY_HAGA_ANTI_DEF_DISTRICTS"            Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"/>
 	</TypeTags>
 	<!-- アビリティの名前、説明 -->
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Name="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Description="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_MODIFIER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HAGA_ANTI_NAVAL_MELEE"              Name="LOC_ABILITY_HAGA_ANTI_NAVAL_MELEE_NAME"              Description="LOC_ABILITY_HAGA_ANTI_NAVAL_MELEE_MODIFIER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HAGA_ANTI_DEF_DISTRICTS"            Name="LOC_ABILITY_HAGA_ANTI_DEF_DISTRICTS_NAME"            Description="LOC_ABILITY_HAGA_ANTI_DEF_DISTRICTS_MODIFIER_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -18,6 +24,16 @@
 		<Row>
 			<UnitAbilityType>ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT</UnitAbilityType>
 			<ModifierId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE</ModifierId>
+		</Row>
+		<!-- 海洋遠距離2(共通ユニット)：海洋近接に対し戦闘力+5 -->
+		<Row>
+			<UnitAbilityType>ABILITY_HAGA_ANTI_NAVAL_MELEE</UnitAbilityType>
+			<ModifierId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS</ModifierId>
+		</Row>
+		<!-- 産業以降の海洋遠距離1(共通ユニット)：区域に対し戦闘力+5 -->
+		<Row>
+			<UnitAbilityType>ABILITY_HAGA_ANTI_DEF_DISTRICTS</UnitAbilityType>
+			<ModifierId>HAGA_ANTI_DEF_DISTRICTS_COMBAT_BONUS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	<!-- 効果の定義 -->
@@ -28,6 +44,18 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<!-- 海洋遠距離2(共通ユニット)：海洋近接に対し戦闘力+5 -->
+		<Row>
+			<ModifierId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS_OPPONENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 産業以降の海洋遠距離1(共通ユニット)：区域に対し戦闘力+5 -->
+		<Row>
+			<ModifierId>HAGA_ANTI_DEF_DISTRICTS_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAGA_ANTI_DEF_DISTRICTS_COMBAT_BONUS_OPPONENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<!-- 効果のパラメータ -->
 	<ModifierArguments>
@@ -37,11 +65,31 @@
 			<Name>Amount</Name>
 			<Value>7</Value>
 		</Row>
+		<!-- 海洋遠距離2(共通ユニット)：海洋近接に対し戦闘力+5 -->
+		<Row>
+			<ModifierId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- 産業以降の海洋遠距離1(共通ユニット)：区域に対し戦闘力+5 -->
+		<Row>
+			<ModifierId>HAGA_ANTI_DEF_DISTRICTS_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
 		<Row>
 			<RequirementSetId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS_OPPONENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HAGA_ANTI_DEF_DISTRICTS_COMBAT_BONUS_OPPONENT_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -51,11 +99,24 @@
 			<RequirementSetId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENTS</RequirementSetId>
 			<RequirementId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENT</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS_OPPONENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS_OPPONENT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAGA_ANTI_DEF_DISTRICTS_COMBAT_BONUS_OPPONENT_REQUIREMENTS</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>OPPONENT_IS_DISTRICT</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
 		<Row>
 			<RequirementId>HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE_OPPONENT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS_OPPONENT_REQUIREMENT</RequirementId>
 			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
@@ -66,9 +127,16 @@
 			<Name>Tag</Name>
 			<Value>CLASS_MELEE</Value>
 		</Row>
+		<Row>
+			<RequirementId>HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS_OPPONENT_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_MELEE</Value>
+		</Row>
 	</RequirementArguments>
 	<!-- 戦闘プレビューのテキスト -->
 	<ModifierStrings>
 		<Row ModifierId="HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_COMBAT_BONUS_TO_MELEE" Context="Preview" Text="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="HAGA_ANTI_NAVAL_MELEE_COMBAT_BONUS"                       Context="Preview" Text="LOC_ABILITY_HAGA_ANTI_NAVAL_MELEE_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="HAGA_ANTI_DEF_DISTRICTS_COMBAT_BONUS"                     Context="Preview" Text="LOC_ABILITY_HAGA_ANTI_DEF_DISTRICTS_MODIFIER_DESCRIPTION"/>
 	</ModifierStrings>
 </GameData>
