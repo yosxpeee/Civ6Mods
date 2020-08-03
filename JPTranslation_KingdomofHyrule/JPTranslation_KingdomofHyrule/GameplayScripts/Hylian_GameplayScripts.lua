@@ -13,7 +13,8 @@ function EraChanged(playerId, EraId)
 	local playerConfig = PlayerConfigurations[playerId]
 	local capitalCity = pPlayer:GetCities():GetCapitalCity()
 
-	if playerConfig:GetCivilizationTypeName() == "CIVILIZATION_HYLIAN" then
+	-- fixes error by yosxpeee
+	if (playerConfig ~= nil) and (playerConfig:GetCivilizationTypeName() == "CIVILIZATION_HYLIAN") then
 		pPlayer:GetUnits():Create(tonumber(GameInfo.Units["UNIT_HERO_OF_TIME"].Index), capitalCity:GetX(), capitalCity:GetY())
 	end
 end
