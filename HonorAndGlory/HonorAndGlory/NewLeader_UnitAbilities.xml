@@ -174,8 +174,8 @@
 		<!-- ナウ船：陣形を組むと移動力を共有する -->
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
-			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
 			<!-- インドネシアのジョングと同じ(Modifierのデータはバニラにある) -->
+			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
 		</Row>
 		<!-- ナウ船：4タイル以内の洋上にいる交易商ガード -->
 		<Row>

@@ -831,6 +831,40 @@
 			<m_EntryID text="ICON_IMPROVEMENT_HAG_CASBAH256"/>
 			<m_ObjectName text="ICON_IMPROVEMENT_HAG_CASBAH256"/>
 		</Element>
+		<!-- 地形改善(ステチュツィ) -->
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI256"/>
+		</Element>
+		<!-- 地形改善(ドゥオモ広場) -->
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_ITALY_DUOMO38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_ITALY_DUOMO38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_ITALY_DUOMO50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_ITALY_DUOMO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_ITALY_DUOMO80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_ITALY_DUOMO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_ITALY_DUOMO256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_ITALY_DUOMO256"/>
+		</Element>
 		<!-- 地形改善(ユルト) -->
 		<Element>
 			<m_EntryID text="ICON_IMPROVEMENT_HAG_YURT38"/>

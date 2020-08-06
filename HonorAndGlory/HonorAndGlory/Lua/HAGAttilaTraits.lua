@@ -5,7 +5,7 @@
 function CityWasConquered(VictorID, LoserID, CityID, iCityX, iCityY)
 	local playerConfig = PlayerConfigurations[VictorID]
 
-	if playerConfig:GetLeaderTypeName() == "LEADER_HAG_ATTILA" then
+	if (playerConfig ~= nil) and (playerConfig:GetLeaderTypeName() == "LEADER_HAG_ATTILA") then
 		local pPlayer = Players[VictorID]
 		local pCity =  pPlayer:GetCities():FindID(CityID)
 		local sCity_LOC = pCity:GetName()
@@ -58,7 +58,7 @@ end
 function OnImprovementActivated(iX, iY, PlayerID, iUnitID, iImprovementIndex, iImprovementOwner,iActivationType1, ActivationType2)
 	local playerConfig = PlayerConfigurations[PlayerID]
 
-	if playerConfig:GetLeaderTypeName() == "LEADER_HAG_ATTILA" then
+	if (playerConfig ~= nil) and (playerConfig:GetLeaderTypeName() == "LEADER_HAG_ATTILA") then
 		print("Player # " .. PlayerID.. " : activated of " .. iImprovementIndex)
 		if iImprovementIndex == GetGameInfoIndex("Improvements", "IMPROVEMENT_BARBARIAN_CAMP") then
 			-- ”Ø‘°‚Ì–ì‰c’n‚È‚ç‚»‚Ì‹ß•Ó‚ÉŠJ‘ñŽÒ‚ðPOP‚³‚¹‚é

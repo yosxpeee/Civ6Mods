@@ -45,12 +45,13 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 大軍団にする -->
 		<Row>
 			<ModifierId>GREATPERSON_HAG_FRANCOIS_JOSEPH_LEFEBVRE_ACTIVE</ModifierId>
 			<Name>MilitaryFormationType</Name>
 			<Value>ARMY_MILITARY_FORMATION</Value>
 		</Row>
-
+		<!-- Lv1アップ、経験値+25% -->
 		<Row>
 			<ModifierId>GREATPERSON_HAG_MIRAN_SHAH_ACTIVE</ModifierId>
 			<Name>Amount</Name>

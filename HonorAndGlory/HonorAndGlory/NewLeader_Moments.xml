@@ -4,21 +4,21 @@
 	<MomentIllustrations>
 		<!-- ユニーク -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_TIMURID_OBSERVATORY"     Texture="Moment_HAG_Timurid_Observatory.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_TIMURID_ARBAN"               Texture="Moment_UniqueUnit_Arab.dds"/><!-- マムルークの使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_TIMURID_ARBAN"               Texture="Moment_HAG_Timurid_Arban.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"     Texture="Moment_HAG_Yugoslavia_M48.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI"    Texture="Moment_HAG_Yugoslavia_Stecci.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_MOROCCO_CASBAH"       Texture="Moment_Infrastructure_India.dds"/><!-- 階段井戸の使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_MOROCCO_CASBAH"       Texture="Moment_HAG_Morocco_Casbah.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"     Texture="Moment_HAG_Morocco_BerbersCavalry.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_JAPAN_ZERO"                  Texture="Moment_HAG_HidekiTojo_Zero.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"    MomentDataType="MOMENT_DATA_DISTRICT"    GameDataType="DISTRICT_HAG_PORTUGAL_FEITORIA"       Texture="Moment_HAG_Portugal_Feitoria.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_PORTUGAL_NAU"                Texture="Moment_FirstSeaUnitMid.dds"/><!-- 世界で最初にキャラベル作ったときの使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_PORTUGAL_NAU"                Texture="Moment_HAG_Portugal_Nau.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_RUSSIAN_T34"                 Texture="Moment_HAG_StalinT34.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_GERMANY_JU87"                Texture="Moment_HAG_AdolfHitler_Ju87.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_ITALY_DUOMO"          Texture="Moment_DistrictBuiltHolySite.dds"/><!-- 隣接+3以上の聖地を建てたときの使い回し -->
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ITALY_CARABINIERI"           Texture="Moment_UniqueUnit_France_GardeImperiale.dds"/><!-- 皇帝近衛兵の使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_ITALY_DUOMO"          Texture="Moment_HAG_Italy_Duomo.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ITALY_CARABINIERI"           Texture="Moment_HAG_Italy_Carabinieri.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"    MomentDataType="MOMENT_DATA_BUILDING"    GameDataType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" Texture="Moment_HAG_USSR_SpaceLabo.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_ENGLAND_SWORDFISH"           Texture="Moment_HAG_ChurchillSwordfish.dds"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_AMERICAN_JAEGER"             Texture="Moment_UniqueUnit_Australia.dds"/><!-- ディガーの使いまわし -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_AMERICAN_JAEGER"             Texture="Moment_HAG_Truman_Jaeger.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_HUNS_TARKHAN"                Texture="Moment_HAG_Huns_Tarkhan.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_HUNS_YURT"            Texture="Moment_HAG_Huns_Yurt.dds"/>
 		

@@ -19,6 +19,8 @@ function OnCityBuilt( playerID: number, cityID : number, cityX : number, cityY :
 			local results	:table;
 			local name		:string;
 			-- DB’¼’@‚«‚Å©g‚Ì•¶–¾ˆÈŠO‚Ì“ss–¼‚ğƒ‰ƒ“ƒ_ƒ€‚Å1‚Âæ‚Á‚Ä‚­‚é
+			-- ¦SQLite‚É‚¨‚¢‚ÄORDER BY RANDOM()‚Í”ñí‚É’x‚¢‚Ì‚¾‚ªA
+			--   MOD‚ğ‘å—Ê‚É“ü‚ê‚½ó‘Ô‚Å‚à’x‚¢‚Æ‚ÍŠ´‚¶‚È‚¢‚Ì‚Å‚Æ‚è‚ ‚¦‚¸–â‘è‚Í‚È‚³‚»‚¤
 			results = DB.Query("SELECT CityName FROM CityNames WHERE CivilizationType != 'CIVILIZATION_HAG_HUNS' ORDER BY RANDOM() LIMIT 1");
 			for i, row in ipairs(results) do
 				name = row.CityName;
