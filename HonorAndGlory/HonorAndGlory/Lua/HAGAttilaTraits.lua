@@ -1,42 +1,48 @@
 --------------------------------------------------------------
 -- HAGAttilaTraits
 --------------------------------------------------------------
+include("CitySupport");
+
+-- Luaイベントを叩くためのおまじない
+ExposedMembers.LuaEvents = LuaEvents
+
 -- 都市を陥落させたとき
-function CityWasConquered(VictorID, LoserID, CityID, iCityX, iCityY)
-	local playerConfig = PlayerConfigurations[VictorID]
-
-	if (playerConfig ~= nil) and (playerConfig:GetLeaderTypeName() == "LEADER_HAG_ATTILA") then
-		local pPlayer = Players[VictorID]
-		local pCity =  pPlayer:GetCities():FindID(CityID)
-		local sCity_LOC = pCity:GetName()
-		print("Player # " .. VictorID.. " : captured the city of " .. Locale.Lookup(sCity_LOC))
-		print("Player # " .. LoserID .. " lost the city")
-		print("The city is located at (or used to be located at) grid X" .. iCityX .. ", Y" .. iCityY )
-
-		-- 都市の人口に応じたゴールド(ゲームスピード依存)を入手して強制破壊
-		-- このとき参照される人口は都市が陥落して減った後のもの
-		local eGameSpeed = GameConfiguration.GetGameSpeedType();
-		local iSpeedCostMultiplier = GameInfo.GameSpeeds[eGameSpeed].CostMultiplier;
-		print("iSpeedCostMultiplier: "..tostring(iSpeedCostMultiplier))
-		-- iSpeedCostMultiplier
-		-- * オンライン：50
-		-- * 標準　　　：100
-		-- * 非常に遅い：300
-		population = pCity:GetPopulation()
-		print("City Population: "..tostring(population))
-		gold = population * iSpeedCostMultiplier * 2
-		print("Get gold: "..tostring(gold))
-		pPlayer:GetTreasury():ChangeGoldBalance(gold);
-		
-		if pPlayer == Game.GetLocalPlayer() then
-			--プレイヤー操作時の場合、UI出したままだとアクセス違反がでるっぽいので都市選択を解除してから壊す
-			UI.DeselectAllCities();
-			CityManager.DestroyCity(pCity)
-			UI.PlaySound("RAZE_CITY");
-		else
-			CityManager.DestroyCity(pCity)
+function OnCityConquered(iVictoriousPlayer, iNewCityID)
+	local pVictoriousPlayer = Players[iVictoriousPlayer]
+	if not pVictoriousPlayer then
+		return
+	end
+	local playerConfig = PlayerConfigurations[iVictoriousPlayer]
+	local leaderType = playerConfig:GetLeaderTypeName()
+	if (leaderType == "LEADER_HAG_ATTILA") then
+		local pThisCity = CityManager.GetCity(iVictoriousPlayer, iNewCityID)
+		if (not pThisCity) then
+			return
 		end
-		print("Destroy City: ".. Locale.Lookup(sCity_LOC))
+		if (pThisCity:GetOriginalOwner() ~= iVictoriousPlayer) then
+			-- 都市を破壊する
+			local tDidRazeComplete = {}
+			tDidRazeComplete[0] = false
+			LuaEvents.HAGAttila_GameplayScriptCalled(iVictoriousPlayer, iNewCityID, tDidRazeComplete);
+			if (tDidRazeComplete[0] == true) then
+				-- 破壊した都市の人口に応じたゴールド(ゲームスピード依存)を入手して強制破壊
+				-- このとき参照される人口は都市が陥落して減った後のもの
+				local pVictorPlayer = Players[iVictoriousPlayer]
+				local eGameSpeed = GameConfiguration.GetGameSpeedType();
+				local iSpeedCostMultiplier = GameInfo.GameSpeeds[eGameSpeed].CostMultiplier;
+				print("iSpeedCostMultiplier: "..tostring(iSpeedCostMultiplier))
+				-- iSpeedCostMultiplier
+				-- * オンライン：50
+				-- * 標準　　　：100
+				-- * 非常に遅い：300
+				population = pThisCity:GetPopulation()
+				print("City Population: "..tostring(population))
+				gold = population * iSpeedCostMultiplier * 2
+				print("Get gold: "..tostring(gold))
+				pVictorPlayer:GetTreasury():ChangeGoldBalance(gold);
+				Game.AddWorldViewText(0, "[COLOR_FLOAT_GOLD]+"..gold.." [ICON_Gold][ENDCOLOR]", pThisCity:GetX(), pThisCity:GetY(), 3)
+			end
+		end
 	end
 end
 
@@ -56,9 +62,9 @@ end
 
 -- 原住民の集落or蛮族の野営地にユニットを重ねたとき
 function OnImprovementActivated(iX, iY, PlayerID, iUnitID, iImprovementIndex, iImprovementOwner,iActivationType1, ActivationType2)
-	local playerConfig = PlayerConfigurations[PlayerID]
+	local victorConfig = PlayerConfigurations[PlayerID]
 
-	if (playerConfig ~= nil) and (playerConfig:GetLeaderTypeName() == "LEADER_HAG_ATTILA") then
+	if (victorConfig ~= nil) and (victorConfig:GetLeaderTypeName() == "LEADER_HAG_ATTILA") then
 		print("Player # " .. PlayerID.. " : activated of " .. iImprovementIndex)
 		if iImprovementIndex == GetGameInfoIndex("Improvements", "IMPROVEMENT_BARBARIAN_CAMP") then
 			-- 蛮族の野営地ならその近辺に開拓者をPOPさせる
@@ -68,5 +74,7 @@ function OnImprovementActivated(iX, iY, PlayerID, iUnitID, iImprovementIndex, iI
 end
 
 -- イベントに↑の関数を差し込む
+Events.CityInitialized.Add(OnCityConquered)
 Events.ImprovementActivated.Add(OnImprovementActivated);
-GameEvents.CityConquered.Add(CityWasConquered)
+
+print("HAGAttilaTraits.lua loaded successfully.")
