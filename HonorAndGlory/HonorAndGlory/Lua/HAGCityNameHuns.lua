@@ -9,14 +9,14 @@ function OnCityBuilt( playerID: number, cityID : number, cityX : number, cityY :
 		local pBuiltCity = CityManager.GetCity(playerID, cityID);
 		local pCapitalCity = pPlayer:GetCities():GetCapitalCity()
 
-		print(tostring(cityID))
+		print("City ID:"..tostring(cityID))
 		-- ñ“s‚ª‚È‚¢‚Æ‚«‚Í‰½‚à‚µ‚È‚¢(ˆê”ÔÅ‰‚ÉŒš‚Ä‚½‚Æ‚«)
 		if (pCapitalCity == nil) then
 			print("this is first built.")
 			return
 		end
 		-- Œ³‚Í‘¼•¶–¾‚Ì“ss‚¾‚Á‚½ê‡‚à‰½‚à‚µ‚È‚¢
-		-- (“ss”j‰ó‘O‚Ìè—Ì”»’èBñ“sˆÈŠO‚Í©“®”j‰óAñ“s‚¾‚Á‚½ê‡‚Í‘‚«Š·‚¦‚ğ‚µ‚È‚¢‚±‚Æ‚Æ‚·‚é)
+		-- (“ss”j‰ó‘O‚Ìè—Ì”»’èBÅ‰‚Ìñ“sˆÈŠO‚Í©“®”j‰óAÅ‰‚Ìñ“s‚¾‚Á‚½ê‡‚Í‘‚«Š·‚¦‚ğ‚µ‚È‚¢‚±‚Æ‚Æ‚·‚é)
 		if (pBuiltCity:GetOriginalOwner() ~= pBuiltCity:GetOwner()) then
 			print("original owner is not you.")
 			return
@@ -24,7 +24,6 @@ function OnCityBuilt( playerID: number, cityID : number, cityX : number, cityY :
 
 		-- ‘‚«Š·‚¦‚éˆ—
 		print("Rename city.")
-
 		local results	:table;
 		local name		:string;
 		-- DB’¼’@‚«‚Å©g‚Ì•¶–¾ˆÈŠO‚Ì“ss–¼‚ğƒ‰ƒ“ƒ_ƒ€‚Å1‚Âæ‚Á‚Ä‚­‚é
@@ -42,6 +41,10 @@ end
 
 -- ƒQ[ƒ€ƒCƒxƒ“ƒg‚Éª‚ÌŠÖ”‚ğ·‚µ‚Ş
 -- ¦CityBuilt()‚Í“ss‚ğ—‚Æ‚µ‚½‚Æ‚«‚É‚à“®‚­B©•ª‚ÅŒš‚Ä‚½“ss‚ğ’DŠÒ‚µ‚½ê‡‚É‚à“®ì‚µ‚Ä‚µ‚Ü‚¤‚ªd—l‚Æ‚·‚éB
+--   EV‹KŒš‘¢‚È‚Ì‚©“ss‚Ì’DŠÒ‚È‚Ì‚©‚ğ‹æ•Ê‚·‚éAPI‚ª‚È‚¢B
+--   EŒš‚Ä‚½‚Æ‚«‚Ì“ss–¼‚âID‚ğŠo‚¦‚Ä‚à”»’èŞ—¿‚É‚Å‚«‚È‚¢B
+--     “ss–¼‚ÍƒvƒŒƒCƒ„[‚Å‚ ‚ê‚Î©—R‚É•Ï‚¦‚ç‚ê‚éB
+--     “ss‚ÌID‚Í“ss‚ÌŠ‘®‚ª•Ï‚í‚é‚ÆID‚à•Ï‚í‚Á‚Ä‚µ‚Ü‚¤B
 GameEvents.CityBuilt.Add(OnCityBuilt);
 
 print("HAGCityNameHuns.lua loaded successfully.")
