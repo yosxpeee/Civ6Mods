@@ -15,7 +15,10 @@ function EraChanged(playerId, EraId)
 
 	-- fixes error by yosxpeee
 	if (playerConfig ~= nil) and (playerConfig:GetCivilizationTypeName() == "CIVILIZATION_HYLIAN") then
-		pPlayer:GetUnits():Create(tonumber(GameInfo.Units["UNIT_HERO_OF_TIME"].Index), capitalCity:GetX(), capitalCity:GetY())
+		local tEraGameInfo = GameInfo.Eras[EraId]
+		if ((tEraGameInfo ~= nil) and (tEraGameInfo.EraType ~= "ERA_ANCIENT")) then
+			pPlayer:GetUnits():Create(tonumber(GameInfo.Units["UNIT_HERO_OF_TIME"].Index), capitalCity:GetX(), capitalCity:GetY())
+		end
 	end
 end
 
