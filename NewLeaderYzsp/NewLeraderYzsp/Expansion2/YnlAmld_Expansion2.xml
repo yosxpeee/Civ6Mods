@@ -161,4 +161,38 @@
 		<Row NamedSeaType="NAMED_SEA_YZSP_3" CivilizationType="CIVILIZATION_YNL_AMLD"/>
 		<Row NamedSeaType="NAMED_SEA_YZSP_4" CivilizationType="CIVILIZATION_YNL_AMLD"/>
 	</NamedSeaCivilizations>
+	<!-- ユニットアビリティ -->
+	<UnitAbilityModifiers>
+		<!-- 迫真空手部員に破城槌と攻城塔の効果を載るようにする -->
+		<Row>
+			<UnitAbilityType>ABILITY_ENABLE_WALL_ATTACK_PROMOTION_CLASS</UnitAbilityType>
+			<ModifierId>YNL_ENABLE_WALL_ATTACK_KARATE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BYPASS_WALLS_PROMOTION_CLASS</UnitAbilityType>
+			<ModifierId>YNL_BYPASS_WALLS_KARATE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_ENABLE_WALL_ATTACK_KARATE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>YNL_BYPASS_WALLS_KARATE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_BYPASS_WALLS_PROMOTION_CLASS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_ENABLE_WALL_ATTACK_KARATE</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_HAKUSHIN_KARATE_YNL</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_BYPASS_WALLS_KARATE</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_HAKUSHIN_KARATE_YNL</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>

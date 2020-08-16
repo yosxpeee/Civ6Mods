@@ -206,15 +206,15 @@
 		</Replace>
 		
 		<!-- UB -->
-		<!-- 屋上 -->
+		<!-- 屋上日焼けサロン -->
 		<Replace Tag="LOC_BUILDING_YNL_ROOFTOP_NAME" Language="ja_JP">
-			<Text>屋上</Text>
+			<Text>屋上日焼けサロン</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_YNL_ROOFTOP_DESCRIPTION" Language="ja_JP">
 			<Text>ショッピングモールに取って代わる近代の田所浩二固有の建造物。[ICON_Amenities] 快適性+1。野獣先輩BBの [ICON_Tourism] 観光力+100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BUILDING_YNL_ROOFTOP_NAME" Language="ja_JP">
-			<Text>田所浩二固有の建造物: 屋上</Text>
+			<Text>田所浩二固有の建造物: 屋上日焼けサロン</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_YNL_ROOFTOP_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>まずうちさぁ…屋上あんだけど…焼いてかない？</Text>

@@ -255,6 +255,9 @@
     <Content Include="Assets\Greatartist_Late.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\PROP_Boulder_YZSP_BB.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Expansion1\YnlAmld_Expansion1TextJP.xml">
       <SubType>Content</SubType>
     </Content>
@@ -265,6 +268,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Expansion2\YnlAmld_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Boulders_YZSP_BB.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_RESOURCE_YNL_TAPIOCA_MILKTEA256.DDS">
@@ -289,6 +295,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_RESOURCE_YNL_TAPIOCA_MILKTEA64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Stone_B_YZSP_BB.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Stone_B_YZSP_BB.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Stone_G_YZSP_BB.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Stone_G_YZSP_BB.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Stone_N_YZSP_BB.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Stone_N_YZSP_BB.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="YnlAmld_Resources.xml">
@@ -1525,7 +1549,7 @@
     <None Include="ArtDefs\FallbackLeaders.artdef" />
     <None Include="XLPs\LeaderFallbacks.xlp" />
     <None Include="XLPs\UILeaders.xlp" />
-    <None Include="Mod.Art.xml" />
+    <None Include="NewLeraderYzsp.Art.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
 </Project>

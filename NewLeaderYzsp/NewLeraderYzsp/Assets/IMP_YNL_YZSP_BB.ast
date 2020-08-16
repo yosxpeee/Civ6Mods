@@ -44,14 +44,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -103,14 +95,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -164,14 +148,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -223,14 +199,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -284,14 +252,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -343,14 +303,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -404,14 +356,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -437,7 +381,7 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text="PROP_Boulder_B"/>
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
@@ -464,14 +408,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -479,7 +415,7 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>0.000000</x>
+							<x>6.690245</x>
 							<y>0.000000</y>
 							<z>0.000000</z>
 						</m_position>
@@ -497,7 +433,7 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text="PROP_Boulder_B"/>
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
@@ -524,14 +460,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -539,8 +467,8 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>0.000000</x>
-							<y>0.000000</y>
+							<x>5.680724</x>
+							<y>-21.667929</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -557,7 +485,7 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text="PROP_Boulder_B"/>
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
@@ -584,14 +512,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -599,8 +519,8 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>0.000000</x>
-							<y>0.000000</y>
+							<x>5.785727</x>
+							<y>-22.146793</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -617,7 +537,7 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text="PROP_Boulder_B"/>
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
@@ -644,14 +564,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -659,8 +571,8 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>0.000000</x>
-							<y>0.000000</y>
+							<x>12.187469</x>
+							<y>-1.890514</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -677,7 +589,7 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text="PROP_Boulder_B"/>
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
@@ -704,14 +616,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -719,25 +623,25 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>0.000000</x>
-							<y>0.000000</y>
+							<x>12.513117</x>
+							<y>-17.869743</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
 							<x>0.000000</x>
 							<y>0.000000</y>
-							<z>0.000000</z>
+							<z>1.088109</z>
 						</m_orientation>
 						<m_Name text="PROP_Boulder_B004"/>
 						<m_BoneName text="PROP_Boulder_B004"/>
 						<m_ModelInstanceName text="IMP_Colossal_Heads"/>
-						<m_scale>1.000000</m_scale>
+						<m_scale>1.500000</m_scale>
 					</Element>
 					<Element>
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text="PROP_Boulder_B"/>
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
@@ -764,14 +668,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -779,8 +675,8 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>0.000000</x>
-							<y>0.000000</y>
+							<x>-18.830372</x>
+							<y>4.911136</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -797,7 +693,7 @@
 						<m_CookParams>
 							<m_Values>
 								<Element class="AssetObjects..BLPEntryValue">
-									<m_EntryName text="PROP_Boulder_B"/>
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
@@ -824,14 +720,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -839,8 +727,8 @@
 							</m_Values>
 						</m_CookParams>
 						<m_position>
-							<x>0.000000</x>
-							<y>0.000000</y>
+							<x>-10.714031</x>
+							<y>21.034399</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -883,14 +771,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -944,14 +824,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -1003,14 +875,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -1064,14 +928,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -1123,14 +979,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -1184,14 +1032,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -1243,14 +1083,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -1304,14 +1136,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -1363,14 +1187,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -1424,14 +1240,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -1483,14 +1291,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -1544,14 +1344,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -1560,7 +1352,7 @@
 						</m_CookParams>
 						<m_position>
 							<x>0.000000</x>
-							<y>0.000000</y>
+							<y>9.708777</y>
 							<z>0.000000</z>
 						</m_position>
 						<m_orientation>
@@ -1603,14 +1395,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -1664,14 +1448,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -1723,14 +1499,6 @@
 								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
-								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
 								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
@@ -1784,14 +1552,6 @@
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects..ArtDefReferenceValue">
-									<m_ElementName text="DON'T CARE"/>
-									<m_RootCollectionName text="TerrainTags"/>
-									<m_ArtDefPath text=""/>
-									<m_CollectionIsLocked>false</m_CollectionIsLocked>
-									<m_TemplateName text=""/>
-									<m_ParamName text="TerrainType"/>
-								</Element>
 								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
@@ -1812,6 +1572,162 @@
 						<m_BoneName text="VIL_Tribal_Thatch_Torch_A"/>
 						<m_ModelInstanceName text="IMP_Colossal_Heads"/>
 						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>8.817687</x>
+							<y>-3.461711</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>1.221043</z>
+						</m_orientation>
+						<m_Name text="PROP_Boulder_B008"/>
+						<m_BoneName text="IMP_Colossal_Heads"/>
+						<m_ModelInstanceName text="IMP_Colossal_Heads"/>
+						<m_scale>1.500000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>-8.152598</x>
+							<y>-3.096135</y>
+							<z>0.000002</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>1.066837</z>
+						</m_orientation>
+						<m_Name text="PROP_Boulder_B009"/>
+						<m_BoneName text="IMP_Colossal_Heads"/>
+						<m_ModelInstanceName text="IMP_Colossal_Heads"/>
+						<m_scale>2.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="PROP_Boulder_YZSP_BB"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text="Landmarks.artdef"/>
+									<m_CollectionIsLocked>true</m_CollectionIsLocked>
+									<m_TemplateName text="Landmarks"/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>6.829671</x>
+							<y>4.881976</y>
+							<z>0.000002</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>1.123152</z>
+						</m_orientation>
+						<m_Name text="PROP_Boulder_B010"/>
+						<m_BoneName text="IMP_Colossal_Heads"/>
+						<m_ModelInstanceName text="IMP_Colossal_Heads"/>
+						<m_scale>2.000000</m_scale>
 					</Element>
 				</m_Points>
 			</m_attachmentPoints>
@@ -5375,6 +5291,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="DIS_CTY_RE_Ground_A"/>
@@ -5407,6 +5331,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -5441,6 +5373,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="DIS_CTY_RE_Ground_A"/>
@@ -5474,6 +5414,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="DIS_CTY_RE_Ground_A"/>
@@ -5506,6 +5454,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -5540,6 +5496,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foundation_Brick_Gray"/>
@@ -5572,6 +5536,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -5606,6 +5578,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foundation_Brick_Gray"/>
@@ -5639,6 +5619,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foundation_Brick_Gray"/>
@@ -5671,6 +5659,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -5705,6 +5701,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foliage_Bld"/>
@@ -5737,6 +5741,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -5771,6 +5783,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foliage_Bld"/>
@@ -5804,6 +5824,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foliage_Bld"/>
@@ -5836,6 +5864,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -5870,6 +5906,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="DIS_CTY_ROME_Monument"/>
@@ -5902,6 +5946,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -5936,6 +5988,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="DIS_CTY_ROME_Monument"/>
@@ -5969,6 +6029,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="DIS_CTY_ROME_Monument"/>
@@ -6001,6 +6069,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -6035,6 +6111,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foliage_Bld"/>
@@ -6067,6 +6151,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -6101,6 +6193,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foliage_Bld"/>
@@ -6134,6 +6234,14 @@
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
 								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
+								</Element>
 							</m_Values>
 						</m_Values>
 						<m_GroupName text="Foliage_Bld"/>
@@ -6166,6 +6274,14 @@
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="EmissiveEnabled"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="FOWVisibleOnly"/>
 								</Element>
 							</m_Values>
 						</m_Values>
@@ -6177,6 +6293,9 @@
 			</Element>
 		</m_ModelInstances>
 	</m_GeometrySet>
+	<m_SplineSet>
+		<m_Splines/>
+	</m_SplineSet>
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
@@ -6248,13 +6367,27 @@
 				<m_bValue>false</m_bValue>
 				<m_ParamName text="OB Autogen Includes Decals"/>
 			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="LightMap"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="EmissionMap"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="Minimum Cull Radius"/>
+			</Element>
 		</m_Values>
 	</m_CookParams>
 	<m_Version>
-		<major>4</major>
+		<major>1</major>
 		<minor>0</minor>
-		<build>315</build>
-		<revision>805</revision>
+		<build>0</build>
+		<revision>0</revision>
 	</m_Version>
 	<m_ParticleEffects/>
 	<m_Geometries/>
@@ -6268,6 +6401,5 @@
 		<Element text="TileBase"/>
 		<Element text="newTag"/>
 	</m_Tags>
-	<m_Groups/>
 </AssetObjects..AssetInstance>
 
