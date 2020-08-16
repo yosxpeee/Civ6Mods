@@ -300,6 +300,106 @@
 			<m_EntryID text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS256"/>
 			<m_ObjectName text="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS256"/>
 		</Element>
+		<!-- ユニット(複葉爆撃機) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_EARLY_BOMBER22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_EARLY_BOMBER22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_EARLY_BOMBER32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_EARLY_BOMBER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_EARLY_BOMBER38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_EARLY_BOMBER38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_EARLY_BOMBER50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_EARLY_BOMBER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_EARLY_BOMBER80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_EARLY_BOMBER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_EARLY_BOMBER256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_EARLY_BOMBER256"/>
+		</Element>
+		<!-- ユニット(改造空母) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVL22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVL22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVL32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVL32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVL38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVL38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVL50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVL50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVL80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVL80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVL256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVL256"/>
+		</Element>
+		<!-- ユニット(原子力空母) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVN22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVN22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVN32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVN38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVN38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVN50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVN80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_CVN256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_CVN256"/>
+		</Element>
+		<!-- ユニット(ライフル兵) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_RIFLEMAN22"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_RIFLEMAN22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_RIFLEMAN32"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_RIFLEMAN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_RIFLEMAN38"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_RIFLEMAN38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_RIFLEMAN50"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_RIFLEMAN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_RIFLEMAN80"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_RIFLEMAN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAGA_RIFLEMAN256"/>
+			<m_ObjectName text="ICON_UNIT_HAGA_RIFLEMAN256"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

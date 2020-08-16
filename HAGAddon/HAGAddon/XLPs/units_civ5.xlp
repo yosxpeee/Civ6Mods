@@ -37,6 +37,14 @@
 			<m_EntryID text="Transport"/>
 			<m_ObjectName text="Transport"/>
 		</Element>
+		<Element>
+			<m_EntryID text="EarlyBomberA"/>
+			<m_ObjectName text="EarlyBomberA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Rifleman"/>
+			<m_ObjectName text="Rifleman"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

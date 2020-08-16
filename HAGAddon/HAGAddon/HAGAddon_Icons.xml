@@ -85,6 +85,34 @@
 		<Row Name="ICON_ATLAS_UNIT_HAGA_SUPER_DREDNOUGHTS" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_SUPER_DREDNOUGHTS" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_SUPER_DREDNOUGHTS" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS256.dds"/>
+		<!-- 複葉爆撃機 -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_EARLY_BOMBER22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_EARLY_BOMBER32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_EARLY_BOMBER38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_EARLY_BOMBER50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_EARLY_BOMBER80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_EARLY_BOMBER256.dds"/>
+		<!-- 改造空母 -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVL" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVL22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVL" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVL32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVL" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVL38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVL" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVL50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVL" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVL80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVL256.dds"/>
+		<!-- 原子力空母 -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN256.dds"/>
+		<!-- ライフル兵 -->
+		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- Beliefs -->
@@ -196,7 +224,7 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_CRUISER_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="19"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_CRUISER_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="19"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_CRUISER_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="19"/>
-		<!-- 超弩級戦艦ポートレイトは駆逐艦の使いまわし) -->
+		<!-- 超弩級戦艦(ポートレイトは戦艦の使いまわし) -->
 		<Row Name="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS"                                   Atlas="ICON_ATLAS_UNIT_HAGA_SUPER_DREDNOUGHTS"     Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_SUPER_DREDNOUGHTS"     Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_SUPER_DREDNOUGHTS_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_SUPER_DREDNOUGHTS"     Index="0"/>
@@ -206,6 +234,46 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_SUPER_DREDNOUGHTS_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="7"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_SUPER_DREDNOUGHTS_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="7"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_SUPER_DREDNOUGHTS_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="7"/>
+		<!-- 複葉爆撃機(ポートレイトは複葉機の使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_EARLY_BOMBER"                                   Atlas="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER"          Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_EARLY_BOMBER_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER"          Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_EARLY_BOMBER_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER"          Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_EARLY_BOMBER_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_EARLY_BOMBER"          Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_EARLY_BOMBER_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="4"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_EARLY_BOMBER_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="4"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_EARLY_BOMBER_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="4"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_EARLY_BOMBER_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="4"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_EARLY_BOMBER_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="4"/>
+		<!-- 改造空母(ポートレイトは空母の使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_CVL"                                   Atlas="ICON_ATLAS_UNIT_HAGA_CVL"                   Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_CVL_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_CVL"                   Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_CVL_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_CVL"                   Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_CVL_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_CVL"                   Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_CVL_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="18"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_CVL_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="18"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_CVL_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="18"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_CVL_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="18"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_CVL_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="18"/>
+		<!-- 原子力空母(ポートレイトは空母の使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_CVN"                                   Atlas="ICON_ATLAS_UNIT_HAGA_CVN"                   Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_CVN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_CVN"                   Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_CVN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_CVN"                   Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_CVN_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_CVN"                   Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_CVN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="18"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_CVN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="18"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_CVN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="18"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_CVN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="18"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_CVN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="18"/>
+		<!-- ライフル兵(ポートレイトはマスケット兵の使いまわし) -->
+		<Row Name="ICON_UNIT_HAGA_RIFLEMAN"                                   Atlas="ICON_ATLAS_UNIT_HAGA_RIFLEMAN"            Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_RIFLEMAN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_RIFLEMAN"            Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_RIFLEMAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_RIFLEMAN"            Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_RIFLEMAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_RIFLEMAN"            Index="0"/>
+		<Row Name="ICON_UNIT_HAGA_RIFLEMAN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="51"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_RIFLEMAN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="51"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_RIFLEMAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="51"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_RIFLEMAN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="51"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_RIFLEMAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="51"/>
 		
 		<!-- 建造物 -->
 		<!-- マシュリク・アル・アドゥカル(シナゴーグの使いまわし) -->

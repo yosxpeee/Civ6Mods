@@ -29,9 +29,21 @@
   <Dependency type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
   <Dependency type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
   <Dependency type="Dlc" title="DLC: Maya and Gran Colombia Pack" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="LOC_ETHIOPIA_MOD_TITLE" id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" />
 </Associations>]]></AssociationData>
+    <ActionCriteriaData><![CDATA[
+      <ActionCriteria>
+        <Criteria id="Ethiopia_Mode">
+          <ConfigurationValueMatches>
+            <Group>Game</Group>
+            <ConfigurationId>GAMEMODE_SECRETSOCIETIES</ConfigurationId>
+            <Value>1</Value>
+          </ConfigurationValueMatches>
+        </Criteria>
+      </ActionCriteria>
+    ]]></ActionCriteriaData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File>HAGAddon_UpdateConfig.xml</File><File>HAGAddon_UpdateConfigOtherMods.sql</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File><File>HAGAddon_UpdateGameplayOtherMods.sql</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File><File>HAGAddon_UpdateGameplayOtherMods.sql</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles><UpdateDatabase id="GameplaySecretSocietyMode"><Properties><LoadOrder>1000</LoadOrder></Properties><Criteria>Ethiopia_Mode</Criteria><File>HAGAddon_UpdateGameplaySecretSocietyMode.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -332,6 +344,192 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Animations\longswordsman_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_attack_city.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_attack_city.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_charge_attack.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_charge_attack.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_charge_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_charge_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_shuffle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_shuffle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_stop_run_b.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_stop_run_b.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\rifleman_victory.fgx">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Animations\transport_attacka.anm">
@@ -1159,7 +1357,13 @@
     <Content Include="Assets\Cargo_Ship_Early.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\EarlyBomberA.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\Longswordsman.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Rifleman.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Transport.ast">
@@ -1187,6 +1391,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\longswordsman.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\rifleman.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\rifleman.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\transport.geo">
@@ -1267,6 +1477,9 @@
     <Content Include="HAGAddon_UpdateGameplay.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="HAGAddon_UpdateGameplaySecretSocietyMode.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="HAGAddon_UpdateGameplayOtherMods.sql">
       <SubType>Content</SubType>
     </Content>
@@ -1286,6 +1499,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Quinquereme_DMG_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Rifleman_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Transport_DIFF.mtl">
@@ -1477,6 +1693,78 @@
     <Content Include="Textures\ICON_UNIT_HAGA_CRUISER80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVL80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_CVN80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_DROMON22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -1511,6 +1799,42 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_DROMON80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_EARLY_BOMBER80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_LINESHIP22.DDS">
@@ -1619,6 +1943,42 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_SUPER_DREDNOUGHTS22.DDS">
@@ -1838,6 +2198,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\quinquereme_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\rifleman_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\rifleman_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\rifleman_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\rifleman_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\rifleman_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\rifleman_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\transport_diff.DDS">

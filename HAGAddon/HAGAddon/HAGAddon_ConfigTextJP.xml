@@ -134,6 +134,46 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_SUPER_DREDNOUGHTS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>戦艦の中でもイギリスのドレッドノートよりも大型の砲を搭載した艦の総称。日本海軍では巡洋戦艦「金剛」以降の艦を指し、「大和」「武蔵」は18インチ超(46cm)というとてつもない大口径の砲を搭載していた。</Text>
 		</Row>
+		<!-- 複葉爆撃機(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_EARLY_BOMBER_NAME" Language="ja_JP">
+			<Text>複葉爆撃機</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_EARLY_BOMBER_DESCRIPTION" Language="ja_JP">
+			<Text>最初の航空爆撃ユニット。近代で利用可能。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_EARLY_BOMBER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>複葉機の中でも鈍重ではあるが都市爆撃等に向いたもの。第一次大戦時のロンドン空襲に参加したドイツの「ゴータ G.IV」などが著名な機体である。</Text>
+		</Row>
+		<!-- 改造空母(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_CVL_NAME" Language="ja_JP">
+			<Text>商船改造空母</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_CVL_DESCRIPTION" Language="ja_JP">
+			<Text>最初の海洋輸送ユニット。近代で利用可能。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CVL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>商船に改造を施して航空母艦としたもの。元が商船であるため基本的に小型で航空機搭載数も少数に限られる。</Text>
+		</Row>
+		<!-- 原子力空母(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_CVN_NAME" Language="ja_JP">
+			<Text>原子力空母</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_CVN_DESCRIPTION" Language="ja_JP">
+			<Text>海洋輸送ユニットの最終形態。情報時代で利用可能。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CVN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>原子力を動力源とする航空母艦。艦内に原子炉を搭載し、原子核反応による反応熱を熱源とする蒸気タービンを動力機関に備えた戦闘用の大型艦船で、長大な航続力を誇る。</Text>
+		</Row>
+		<!-- ライフル兵(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_RIFLEMAN_NAME" Language="ja_JP">
+			<Text>ライフル兵</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_RIFLEMAN_DESCRIPTION" Language="ja_JP">
+			<Text>産業時代の強力な近接戦闘ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_RIFLEMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ライフリングを施された銃身を有する火器を持った兵士。ライフリングのないマスケット銃に比べて命中精度が飛躍的に向上した。</Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="ja_JP">
@@ -166,7 +206,20 @@
 		<Row Tag="LOC_UNIT_BATTLESHIP_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>近代の海洋長距離戦闘ユニット。1タイル先からの航空攻撃と核攻撃を防御できる。防御に適した区域を攻撃する際、[ICON_Strength] 戦闘力+5。</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_BOMBER_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>原子力時代の爆撃機ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BIPLANE_HAGA_NAME" Language="ja_JP">
+			<Text>複葉戦闘機</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>すべてのユニットの [ICON_Movement] 移動力+1。レベルアップしてもユニットのターンが終了しない。大将軍を雇用できない。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>交易路の起点都市にある資源1つにつき、エチオピアの国際交易路の [ICON_Faith] 信仰力+0.5。プランテーションから [ICON_Faith] 信仰力+1。考古博物館と考古学者を [ICON_Faith] 信仰力で購入できる。</Text>
+		</Row>
 		
+		<!-- 他の自作MOD用 -->
 		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>超弩級戦艦に取ってかわる海の民固有の原子力時代のユニット。通常の超弩級戦艦よりもはるかに強力。[ICON_Movement] 移動力4。駆逐艦が隣接しているときは [ICON_Strength] 戦闘力+10。</Text>
 		</Row>

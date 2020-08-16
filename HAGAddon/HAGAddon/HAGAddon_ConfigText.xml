@@ -134,6 +134,46 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_SUPER_DREDNOUGHTS_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- 複葉爆撃機(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_EARLY_BOMBER_NAME" Language="en_US">
+			<Text>Early Bomber</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_EARLY_BOMBER_DESCRIPTION" Language="en_US">
+			<Text>First air bombard unit, available in the Modern era. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_EARLY_BOMBER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 改造空母(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_CVL_NAME" Language="en_US">
+			<Text>Light Aicraft Carrier</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_CVL_DESCRIPTION" Language="en_US">
+			<Text>First carrier unit, available in the Modern era. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CVL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- 原子力空母(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_CVN_NAME" Language="en_US">
+			<Text>Carrier Vessel Nuclear</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_CVN_DESCRIPTION" Language="en_US">
+			<Text>Last carrier unit, available in the Information era. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CVN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- ライフル兵(共通ユニット) -->
+		<Row Tag="LOC_UNIT_HAGA_RIFLEMAN_NAME" Language="en_US">
+			<Text>Rifleman</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAGA_RIFLEMAN_DESCRIPTION" Language="en_US">
+			<Text>Strong Industrial era melee unit.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_RIFLEMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="en_US">
@@ -166,7 +206,20 @@
 		<Row Tag="LOC_UNIT_BATTLESHIP_HAGA_DESCRIPTION" Language="en_US">
 			<Text>Modern era naval ranged unit. Provides cover from air and nuclear attacks up to 1 tile away. +5 [ICON_Strength] Combat Strength when attacking defensible districts.</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_BOMBER_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Atomic era bomber unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BIPLANE_HAGA_NAME" Language="en_US">
+			<Text>Early Fighter</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_HAGA_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement to all units. Promoting a unit does not end that unit’s turn. Can't hire Great Generals.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Ethiopia’s International Trade Routes grant +0.5 [ICON_Faith] Faith per resource at the origin. +1 [ICON_Faith] Faith from Plantation. Can purchase Archaeological Museums and Archaeologists with [ICON_Faith] Faith.</Text>
+		</Row>
 		
+		<!-- 他の自作MOD用 -->
 		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_HAGA_DESCRIPTION" Language="en_US">
 			<Text>Peoples of the Sea unique unit that replaces the Super Drednoughts. Stronger than the Super Drednoughts. 4 [ICON_Movement] Movement. +10 [ICON_Strength] Combat Strength if there is at least one Destroyer adjacent.</Text>
 		</Row>

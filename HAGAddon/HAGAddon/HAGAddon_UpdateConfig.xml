@@ -11,6 +11,20 @@
 				<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION</CivilizationAbilityDescription>
 			</Set>
 		</Update>
+		<!-- 大コロンビア -->
+		<Update>
+			<Where CivilizationType="CIVILIZATION_GRAN_COLOMBIA"/>
+			<Set>
+				<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_HAGA_DESCRIPTION</CivilizationAbilityDescription>
+			</Set>
+		</Update>
+		<!-- エチオピア -->
+		<Update>
+			<Where CivilizationType="CIVILIZATION_ETHIOPIA"/>
+			<Set>
+				<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION</CivilizationAbilityDescription>
+			</Set>
+		</Update>
 	</Players>
 	
 	<!-- ======================================================================= -->

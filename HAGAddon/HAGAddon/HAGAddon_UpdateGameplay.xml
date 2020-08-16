@@ -10,6 +10,16 @@
 			<Where Description="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_EXPANSION2_DESCRIPTION"/>
 			<Set Description="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION"/>
 		</Update>
+		<!-- 大コロンビア -->
+		<Update>
+			<Where Description="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_HAGA_DESCRIPTION"/>
+		</Update>
+		<!-- エチオピア -->
+		<Update>
+			<Where Description="LOC_TRAIT_CIVILIZATION_ETHIOPIA_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION"/>
+		</Update>
 	</Traits>
 	
 	<!-- ======================================================================= -->
@@ -67,10 +77,20 @@
 			<Where Description="LOC_UNIT_BRAZILIAN_MINAS_GERAES_DESCRIPTION"/>
 			<Set Description="LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION"/>
 		</Update>
-		<!-- 戦艦 -->
+		<!-- 戦艦(弩級戦艦) -->
 		<Update>
 			<Where Name="LOC_UNIT_BATTLESHIP_NAME"/>
 			<Set Name="LOC_UNIT_BATTLESHIP_HAGA_NAME"/>
+		</Update>
+		<!-- 複葉機(複葉戦闘機) -->
+		<Update>
+			<Where Name="LOC_UNIT_BIPLANE_NAME"/>
+			<Set Name="LOC_UNIT_BIPLANE_HAGA_NAME"/>
+		</Update>
+		<!-- 爆撃機 -->
+		<Update>
+			<Where Name="LOC_UNIT_BOMBER_DESCRIPTION"/>
+			<Set Name="LOC_UNIT_BOMBER_HAGA_DESCRIPTION"/>
 		</Update>
 	</Units>
 	<!-- 戦闘時のアビリティ表示 -->
@@ -153,6 +173,15 @@
 			<Where UnitType="UNIT_MISSILE_CRUISER"/>
 			<Set>
 				<Range>4</Range>
+			</Set>
+		</Update>
+		<!-- サカ族弓騎兵：性能向上 -->
+		<Update>
+			<Where UnitType="UNIT_SCYTHIAN_HORSE_ARCHER"/>
+			<Set>
+				<Combat>20</Combat>
+				<RangedCombat>30</RangedCombat>
+				<Range>2</Range>
 			</Set>
 		</Update>
 	</Units>
@@ -325,6 +354,15 @@
 				<UpgradeUnit>UNIT_HAGA_SUPER_DREDNOUGHTS</UpgradeUnit>
 			</Set>
 		</Update>
+		<!-- 空母：原子力空母へのアップグレードを追加 -->
+		<Row Unit="UNIT_AIRCRAFT_CARRIER" UpgradeUnit="UNIT_HAGA_CVN"/>
+		<!-- マスケット兵：ライフル兵に変更 -->
+		<Update>
+			<Where Unit="UNIT_MUSKETMAN"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_RIFLEMAN</UpgradeUnit>
+			</Set>
+		</Update>
 	</UnitUpgrades>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -341,6 +379,12 @@
 				<ReplacesUnitType>UNIT_HAGA_LINESHIP</ReplacesUnitType>
 			</Set>
 		</Update>
+		<!-- ソードフィッシュは複葉爆撃機の置換にする -->
+		<Row CivUniqueUnitType="UNIT_HAG_ENGLAND_SWORDFISH" ReplacesUnitType="UNIT_HAGA_EARLY_BOMBER"/>
+		<!-- レッドコート、皇帝近衛兵、カラビニエリはライフル兵の置換にする -->
+		<Row CivUniqueUnitType="UNIT_ENGLISH_REDCOAT"        ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
+		<Row CivUniqueUnitType="UNIT_FRENCH_GARDE_IMPERIALE" ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
+		<Row CivUniqueUnitType="UNIT_HAG_ITALY_CARABINIERI"  ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
 	</UnitReplaces>
 	<!-- AI設定 -->
 	<UnitAiInfos>

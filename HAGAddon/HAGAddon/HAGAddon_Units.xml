@@ -13,6 +13,10 @@
 		<Row Type="UNIT_HAGA_CORVETTE"                      Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_CRUISER"                       Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_SUPER_DREDNOUGHTS"             Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_EARLY_BOMBER"                  Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_CVL"                           Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_CVN"                           Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAGA_RIFLEMAN"                      Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -74,6 +78,21 @@
 		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS"             AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS"             AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS"             AiType="UNITTYPE_NAVAL"/>
+		<!-- 複葉爆撃機 -->
+		<Row UnitType="UNIT_HAGA_EARLY_BOMBER"                  AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_EARLY_BOMBER"                  AiType="UNITTYPE_NUCLEAR"/>
+		<Row UnitType="UNIT_HAGA_EARLY_BOMBER"                  AiType="UNITTYPE_AIR_SIEGE"/>
+		<!-- 改造空母 -->
+		<Row UnitType="UNIT_HAGA_CVL"                           AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_CVL"                           AiType="UNITTYPE_NAVAL"/>
+		<!-- 原子力空母 -->
+		<Row UnitType="UNIT_HAGA_CVN"                           AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_CVN"                           AiType="UNITTYPE_NAVAL"/>
+		<!-- ライフル兵 -->
+		<Row UnitType="UNIT_HAGA_RIFLEMAN"                      AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAGA_RIFLEMAN"                      AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAGA_RIFLEMAN"                      AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAGA_RIFLEMAN"                      AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -114,6 +133,15 @@
 		<Row Type="UNIT_HAGA_SUPER_DREDNOUGHTS"             Tag="CLASS_NAVAL_RANGED"/>
 		<Row Type="UNIT_HAGA_SUPER_DREDNOUGHTS"             Tag="CLASS_ANTI_AIR"/>
 		<Row Type="UNIT_HAGA_SUPER_DREDNOUGHTS"             Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"/>
+		<!-- 複葉爆撃機 -->
+		<Row Type="UNIT_HAGA_EARLY_BOMBER"                  Tag="CLASS_AIRCRAFT"/>
+		<Row Type="UNIT_HAGA_EARLY_BOMBER"                  Tag="CLASS_AIR_BOMBER"/>
+		<!-- 改造空母 -->
+		<Row Type="UNIT_HAGA_CVL"                           Tag="CLASS_NAVAL_CARRIER"/>
+		<!-- 原子力空母 -->
+		<Row Type="UNIT_HAGA_CVN"                           Tag="CLASS_NAVAL_CARRIER"/>
+		<!-- ライフル兵 -->
+		<Row Type="UNIT_HAGA_RIFLEMAN"                      Tag="CLASS_MELEE"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
@@ -184,6 +212,30 @@
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_SUPER_DREDNOUGHTS_NAME" Description="LOC_UNIT_HAGA_SUPER_DREDNOUGHTS_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+		<!-- 複葉爆撃機 -->
+		<Row UnitType="UNIT_HAGA_EARLY_BOMBER" Cost="430" Maintenance="6" BaseMoves="6"  BaseSightRange="4"
+			 ZoneOfControl="false" Domain="DOMAIN_AIR" Combat="70" Bombard="85" Range="4" StrategicResource="RESOURCE_OIL"
+			 FormationClass="FORMATION_CLASS_AIR" PromotionClass="PROMOTION_CLASS_AIR_BOMBER"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_EARLY_BOMBER_NAME" Description="LOC_UNIT_HAGA_EARLY_BOMBER_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqTech="TECH_FLIGHT" Stackable="TRUE" PrereqDistrict="DISTRICT_AERODROME" CanTargetAir="TRUE" WMDCapable="true"/>
+		<!-- 改造空母 -->
+		<Row UnitType="UNIT_HAGA_CVL" Cost="480" Maintenance="6" BaseMoves="3" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="60" RangedCombat="60" Range="2" 
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_CARRIER" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_CVL_NAME" Description="LOC_UNIT_HAGA_CVL_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_FLIGHT" AirSlots="1"/>
+		<!-- 原子力空母 -->
+		<Row UnitType="UNIT_HAGA_CVN" Cost="680" Maintenance="8" BaseMoves="3" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="70" RangedCombat="70" Range="2" 
+			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_CARRIER" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_CVN_NAME" Description="LOC_UNIT_HAGA_CVN_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_TELECOMMUNICATIONS" AirSlots="3"/>
+		<!-- ライフル兵 -->
+		<Row UnitType="UNIT_HAGA_RIFLEMAN" Cost="340" Maintenance="5" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="62" StrategicResource="RESOURCE_NITER"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_RIFLEMAN_NAME" Description="LOC_UNIT_HAGA_RIFLEMAN_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_RIFLING"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -193,7 +245,7 @@
 		<Row Unit="UNIT_HAGA_TREBUCHET" UpgradeUnit="UNIT_BOMBARD"/>
 		<!-- 長剣士：マスケット兵 -->
 		<Row Unit="UNIT_HAGA_LONGSWORDSMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
-		<!-- 戦列艦：戦艦 -->
+		<!-- 戦列艦：弩級戦艦 -->
 		<Row Unit="UNIT_HAGA_LINESHIP" UpgradeUnit="UNIT_BATTLESHIP"/>
 		<!-- トリレーム：コグ -->
 		<Row Unit="UNIT_HAGA_TRIREME" UpgradeUnit="UNIT_HAGA_COG"/>
@@ -207,6 +259,12 @@
 		<Row Unit="UNIT_HAGA_CORVETTE" UpgradeUnit="UNIT_DESTROYER"/>
 		<!-- 巡洋艦：ミサイル巡洋艦-->
 		<Row Unit="UNIT_HAGA_CRUISER" UpgradeUnit="UNIT_MISSILE_CRUISER"/>
+		<!-- 複葉爆撃機：爆撃機 -->
+		<Row Unit="UNIT_HAGA_EARLY_BOMBER" UpgradeUnit="UNIT_BOMBER"/>
+		<!-- 改造空母：空母 -->
+		<Row Unit="UNIT_HAGA_CVL" UpgradeUnit="UNIT_AIRCRAFT_CARRIER"/>
+		<!-- ライフル兵：歩兵 -->
+		<Row Unit="UNIT_HAGA_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>
@@ -217,5 +275,7 @@
 		<Row UnitType="UNIT_HAGA_CORVETTE"          ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAGA_CRUISER"           ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"  ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAGA_EARLY_BOMBER"      ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"  ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAGA_RIFLEMAN"          ResourceCost="20"/>
 	</Units_XP2>
 </GameInfo>

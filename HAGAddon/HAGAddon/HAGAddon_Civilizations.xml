@@ -32,6 +32,11 @@
 		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   TraitType="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" />
 		<Row CivilizationType="CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"   TraitType="TRAIT_CIVILIZATION_DISTRICT_HANSA" />
 	</CivilizationTraits>
+	<!-- 禁止する偉人の設定 -->
+	<ExcludedGreatPersonClasses>
+		<!-- 大コロンビア：大将軍 -->
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA"/>
+	</ExcludedGreatPersonClasses>
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE"     Name="LOC_TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_NAME"       Description="LOC_TRAIT_CIVILIZATION_HAGA_HOLY_ROMAN_EMPIRE_DESCRIPTION"/>
@@ -87,6 +92,12 @@
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS</TraitType>
 			<ModifierId>TRAIT_STRATEGIC_MINE_FAITH_HAGA</ModifierId>
+		</Row>
+		<!-- エチオピア -->
+		<!-- プランテーションから信仰+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ETHIOPIA</TraitType>
+			<ModifierId>TRAIT_BONUS_PLANTATION_FAITH_HAGA</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
@@ -157,6 +168,12 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<!-- バニラにある -->
 			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- プランテーションから信仰+1 -->
+		<Row>
+			<ModifierId>TRAIT_BONUS_PLANTATION_FAITH_HAGA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PLANTATION_REQUIREMENTS_HAGA</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -276,6 +293,17 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- プランテーションから信仰+1 -->
+		<Row>
+			<ModifierId>TRAIT_BONUS_PLANTATION_FAITH_HAGA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BONUS_PLANTATION_FAITH_HAGA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
@@ -292,6 +320,11 @@
 		<!-- 首都が存在し、経済学の技術を持っている -->
 		<Row>
 			<RequirementSetId>PLAYER_HAS_ECONOMICS_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- プランテーション -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLANTATION_REQUIREMENTS_HAGA</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -326,6 +359,12 @@
 			<RequirementSetId>PLAYER_HAS_ECONOMICS_AND_CAPITAL_HAGA_HOLY_ROMAN_EMPIRE</RequirementSetId>
 			<!-- RaFにある -->
 			<RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
+		</Row>
+		<!-- プランテーション -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLANTATION_REQUIREMENTS_HAGA</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_PLOT_HAS_PLANTATION</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->

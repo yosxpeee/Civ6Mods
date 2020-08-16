@@ -4,30 +4,19 @@
 -- これを回避するにはWHERE EXISTSを用いてキーとなるものが存在する場合のみINSERTという形にしなければならない。
 -- XMLではそのような記述はできないと思われるのでSQL直書きにしている。
 
--- ========== 港湾棲姫 ==========
--- 深海装甲巡洋艦の性能変更(本MOD仕様の装甲艦ベースにする)
-UPDATE Units
-SET Combat = 58, RangedCombat = 63, Range = 2, PromotionClass = 'PROMOTION_CLASS_NAVAL_RANGED'
-WHERE UnitType = 'UNIT_YNL_ARMORED_CRUISER';
+-- ========== 02 結月ゆかり ========== --
+-- (秘密結社モード)工業大学と錬金術協会を排他にする
+INSERT INTO MutuallyExclusiveBuildings('Building','MutuallyExclusiveBuilding')
+SELECT * FROM (SELECT 'BUILDING_ALCHEMICAL_SOCIETY', 'BUILDING_TECHNOLOGICAL_UNIVERSITY') AS TMP
+WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_ALCHEMICAL_SOCIETY')
+    AND EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_TECHNOLOGICAL_UNIVERSITY');
 
-UPDATE UnitAiInfos
-SET AiType = 'UNITTYPE_RANGED'
-WHERE UnitType = 'UNIT_YNL_ARMORED_CRUISER' AND AiType = 'UNITTYPE_MELEE';
+INSERT INTO MutuallyExclusiveBuildings('Building','MutuallyExclusiveBuilding')
+SELECT * FROM (SELECT 'BUILDING_TECHNOLOGICAL_UNIVERSITY', 'BUILDING_ALCHEMICAL_SOCIETY') AS TMP
+WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_ALCHEMICAL_SOCIETY')
+    AND EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_TECHNOLOGICAL_UNIVERSITY');
 
-DELETE FROM UnitAiInfos
-WHERE UnitType = 'UNIT_YNL_ARMORED_CRUISER' AND AiType = 'UNITAI_EXPLORE';
-
-INSERT INTO TypeTags('Type','Tag')
-SELECT * FROM (SELECT 'UNIT_YNL_ARMORED_CRUISER', 'CLASS_HAGA_ANTI_NAVAL_MELEE') AS TMP
-WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'UNIT_YNL_ARMORED_CRUISER');
-
--- ========== 東北三姉妹 ==========
--- ずんだ弓騎兵のUG先変更
-UPDATE UnitUpgrades
-Set UpgradeUnit ='UNIT_CROSSBOWMAN'
-WHERE Unit = 'UNIT_ZUNKO_HORSE_ARCHER';
-
--- ========== 長門/陸奥 ==========
+-- ========== 03 長門/陸奥 ==========
 -- 長門型戦艦の性能変更(超弩級戦艦ベースにする)
 UPDATE Units
 SET Cost = 620, Combat = 77, RangedCombat = 87, AntiAirCombat = 105, Maintenance = 7, StrategicResource = 'RESOURCE_OIL', PrereqTech='TECH_ADVANCED_BALLISTICS', Description = 'LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_HAGA_DESCRIPTION'
@@ -57,7 +46,30 @@ INSERT INTO TypeTags('Type', 'Tag')
 SELECT * FROM (SELECT 'UNIT_UNIQUE_MISSILE_CRUISER_NAGATO', 'CLASS_HAGA_ANTI_NAVAL_MELEE') AS TMP
 WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'UNIT_UNIQUE_MISSILE_CRUISER_NAGATO');
 
--- ========== あきつ丸 ==========
+-- ========== 04 港湾棲姫 ==========
+-- 深海装甲巡洋艦の性能変更(本MOD仕様の装甲艦ベースにする)
+UPDATE Units
+SET Combat = 58, RangedCombat = 63, Range = 2, PromotionClass = 'PROMOTION_CLASS_NAVAL_RANGED'
+WHERE UnitType = 'UNIT_YNL_ARMORED_CRUISER';
+
+UPDATE UnitAiInfos
+SET AiType = 'UNITTYPE_RANGED'
+WHERE UnitType = 'UNIT_YNL_ARMORED_CRUISER' AND AiType = 'UNITTYPE_MELEE';
+
+DELETE FROM UnitAiInfos
+WHERE UnitType = 'UNIT_YNL_ARMORED_CRUISER' AND AiType = 'UNITAI_EXPLORE';
+
+INSERT INTO TypeTags('Type','Tag')
+SELECT * FROM (SELECT 'UNIT_YNL_ARMORED_CRUISER', 'CLASS_HAGA_ANTI_NAVAL_MELEE') AS TMP
+WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'UNIT_YNL_ARMORED_CRUISER');
+
+-- ========== 05 東北三姉妹 ==========
+-- ずんだ弓騎兵のUG先変更(弩兵)
+UPDATE UnitUpgrades
+Set UpgradeUnit ='UNIT_CROSSBOWMAN'
+WHERE Unit = 'UNIT_ZUNKO_HORSE_ARCHER';
+
+-- ========== 07 あきつ丸 ==========
 -- カ号観測機の射程延長を戦列艦、装甲艦、巡洋艦、超弩級戦艦に適用させる
 INSERT INTO TypeTags('Type','Tag')
 SELECT * FROM (SELECT 'UNIT_HAGA_LINESHIP', 'CLASS_FORWARD_KAGOU1') AS TMP
@@ -91,3 +103,27 @@ WHERE EXISTS (SELECT Tag FROM Tags WHERE Tag = 'CLASS_FORWARD_KAGOU2');
 INSERT INTO TypeTags('Type','Tag')
 SELECT * FROM (SELECT 'UNIT_HAGA_SUPER_DREDNOUGHTS', 'CLASS_FORWARD_KAGOU2') AS TMP
 WHERE EXISTS (SELECT Tag FROM Tags WHERE Tag = 'CLASS_FORWARD_KAGOU2');
+
+-- ========== 野獣MOD ==========
+-- (秘密結社モード)立教大学と錬金術協会を排他にする
+INSERT INTO MutuallyExclusiveBuildings('Building','MutuallyExclusiveBuilding')
+SELECT * FROM (SELECT 'BUILDING_ALCHEMICAL_SOCIETY', 'BUILDING_YNL_SAINT_PAULS_UNIVERSITY') AS TMP
+WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_ALCHEMICAL_SOCIETY')
+    AND EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_YNL_SAINT_PAULS_UNIVERSITY');
+
+INSERT INTO MutuallyExclusiveBuildings('Building','MutuallyExclusiveBuilding')
+SELECT * FROM (SELECT 'BUILDING_YNL_SAINT_PAULS_UNIVERSITY', 'BUILDING_ALCHEMICAL_SOCIETY') AS TMP
+WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_ALCHEMICAL_SOCIETY')
+    AND EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_YNL_SAINT_PAULS_UNIVERSITY');
+
+-- ========== 史実02 メネリク2世(自作のほう) ========== --
+-- (秘密結社モード)ステッレと旧神のオベリスクを排他にする
+INSERT INTO MutuallyExclusiveBuildings('Building','MutuallyExclusiveBuilding')
+SELECT * FROM (SELECT 'BUILDING_OLD_GOD_OBELISK', 'BUILDING_HAG_ETHIOPIA_STELE') AS TMP
+WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_OLD_GOD_OBELISK')
+    AND EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_HAG_ETHIOPIA_STELE');
+
+INSERT INTO MutuallyExclusiveBuildings('Building','MutuallyExclusiveBuilding')
+SELECT * FROM (SELECT 'BUILDING_HAG_ETHIOPIA_STELE', 'BUILDING_OLD_GOD_OBELISK') AS TMP
+WHERE EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_OLD_GOD_OBELISK')
+    AND EXISTS (SELECT Type FROM Types WHERE Type = 'BUILDING_HAG_ETHIOPIA_STELE');
