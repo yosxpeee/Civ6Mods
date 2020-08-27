@@ -2,5 +2,9 @@
 <GameData>
 	<Units_XP2>
 		<Row UnitType="UNIT_UNIQUE_BALLISTA" ResourceCost="20"/>
-	</Units_XP2>	
+	</Units_XP2>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldChangeId="EntertainmentComplex_Culture"/>
+		<Row DistrictType="DISTRICT_ANGELS_DANCE_HALL" YieldChangeId="WaterPark_Culture"/>
+	</District_Adjacencies>
 </GameData>
