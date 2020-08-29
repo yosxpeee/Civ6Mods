@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Parameters>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_WITTENBERG" Name="LOC_CIVILIZATION_HAGA_WITTENBERG_NAME" Description="LOC_CIVILIZATION_HAGA_WITTENBERG_DESCRIPTION" Domain="bool" DefaultValue="0"  ConfigurationGroup="Map" ConfigurationId="LEADER_MINOR_CIV_HAGA_WITTENBERG" GroupId="MapOptions" SortIndex="90"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_LHASA"      Name="LOC_CIVILIZATION_HAGA_LHASA_NAME"      Description="LOC_CIVILIZATION_HAGA_LHASA_DESCRIPTION"      Domain="bool" DefaultValue="0"  ConfigurationGroup="Map" ConfigurationId="LEADER_MINOR_CIV_HAGA_LHASA"      GroupId="MapOptions" SortIndex="90"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_DUNEDIN"    Name="LOC_CIVILIZATION_HAGA_DUNEDIN_NAME"    Description="LOC_CIVILIZATION_HAGA_DUNEDIN_DESCRIPTION"    Domain="bool" DefaultValue="0"  ConfigurationGroup="Map" ConfigurationId="LEADER_MINOR_CIV_HAGA_DUNEDIN"    GroupId="MapOptions" SortIndex="90"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_BASRA"      Name="LOC_CIVILIZATION_HAGA_BASRA_NAME"      Description="LOC_CIVILIZATION_HAGA_BASRA_DESCRIPTION"      Domain="bool" DefaultValue="0"  ConfigurationGroup="Map" ConfigurationId="LEADER_MINOR_CIV_HAGA_BASRA"      GroupId="MapOptions" SortIndex="90"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_HANOI"      Name="LOC_CIVILIZATION_HAGA_HANOI_NAME"      Description="LOC_CIVILIZATION_HAGA_HANOI_DESCRIPTION"      Domain="bool" DefaultValue="0"  ConfigurationGroup="Map" ConfigurationId="LEADER_MINOR_CIV_HAGA_HANOI"      GroupId="MapOptions" SortIndex="90"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_BAKU"       Name="LOC_CIVILIZATION_HAGA_BAKU_NAME"       Description="LOC_CIVILIZATION_HAGA_BAKU_DESCRIPTION"       Domain="bool" DefaultValue="0"  ConfigurationGroup="Map" ConfigurationId="LEADER_MINOR_CIV_HAGA_BAKU"       GroupId="MapOptions" SortIndex="90"/>
+	</Parameters>
+	<ParameterDependencies>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_WITTENBERG" ConfigurationGroup="Map" ConfigurationId="SelectCityStates" Operator="Equals" ConfigurationValue="1"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_LHASA"      ConfigurationGroup="Map" ConfigurationId="SelectCityStates" Operator="Equals" ConfigurationValue="1"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_DUNEDIN"    ConfigurationGroup="Map" ConfigurationId="SelectCityStates" Operator="Equals" ConfigurationValue="1"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_BASRA"      ConfigurationGroup="Map" ConfigurationId="SelectCityStates" Operator="Equals" ConfigurationValue="1"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_HANOI"      ConfigurationGroup="Map" ConfigurationId="SelectCityStates" Operator="Equals" ConfigurationValue="1"/>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAGA_BAKU"       ConfigurationGroup="Map" ConfigurationId="SelectCityStates" Operator="Equals" ConfigurationValue="1"/>
+	</ParameterDependencies>
+</GameInfo>

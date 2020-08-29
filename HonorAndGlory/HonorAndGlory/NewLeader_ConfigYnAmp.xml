@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Parameters>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAG_RYUKYU" Name="LOC_CIVILIZATION_HAG_RYUKYU_NAME"  Description="LOC_CIVILIZATION_HAG_RYUKYU_DESCRIPTION" Domain="bool" DefaultValue="0"  ConfigurationGroup="Map" ConfigurationId="LEADER_MINOR_CIV_HAG_RYUKYU" GroupId="MapOptions" SortIndex="90"/>
+	</Parameters>
+	<ParameterDependencies>
+		<Replace ParameterId="LEADER_MINOR_CIV_HAG_RYUKYU" ConfigurationGroup="Map" ConfigurationId="SelectCityStates" Operator="Equals" ConfigurationValue="1"/>
+	</ParameterDependencies>
+</GameInfo>

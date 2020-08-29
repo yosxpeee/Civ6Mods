@@ -59,5 +59,12 @@
 				<Description>LOC_UNIT_BRAZILIAN_MINAS_GERAES_HAGA_DESCRIPTION</Description>
 			</Set>
 		</Update>
+		<!-- 虎蹲砲 -->
+		<Update>
+			<Where CivilizationType="CIVILIZATION_CHINA" LeaderType="LEADER_QIN" Type="UNIT_CHINESE_CROUCHING_TIGER"/>
+			<Set>
+				<Description>LOC_UNIT_CHINESE_CROUCHING_TIGER_HAGA_DESCRIPTION</Description>
+			</Set>
+		</Update>
 	</PlayerItems>
 </GameData>

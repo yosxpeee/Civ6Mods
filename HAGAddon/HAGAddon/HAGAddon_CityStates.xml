@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 親定義 -->
+	<Types>
+		<!-- ヴィッテンベルク -->
+		<Row Type="CIVILIZATION_HAGA_WITTENBERG"     Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_HAGA_WITTENBERG" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_HAGA_WITTENBERG_TRAIT"  Kind="KIND_TRAIT"/>
+		<!-- ラサ -->
+		<Row Type="CIVILIZATION_HAGA_LHASA"     Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_HAGA_LHASA" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_HAGA_LHASA_TRAIT"  Kind="KIND_TRAIT"/>
+		<!-- ダニーデン -->
+		<Row Type="CIVILIZATION_HAGA_DUNEDIN"     Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_HAGA_DUNEDIN" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_HAGA_DUNEDIN_TRAIT"  Kind="KIND_TRAIT"/>
+		<!-- バスラ -->
+		<Row Type="CIVILIZATION_HAGA_BASRA"     Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_HAGA_BASRA" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_HAGA_BASRA_TRAIT"  Kind="KIND_TRAIT"/>
+		<!-- ハノイ -->
+		<Row Type="CIVILIZATION_HAGA_HANOI"     Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_HAGA_HANOI" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_HAGA_HANOI_TRAIT"  Kind="KIND_TRAIT"/>
+		<!-- バクー -->
+		<Row Type="CIVILIZATION_HAGA_BAKU"     Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MINOR_CIV_HAGA_BAKU" Kind="KIND_LEADER"/>
+		<Row Type="MINOR_CIV_HAGA_BAKU_TRAIT"  Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 都市国家のタイプ -->
+	<TypeProperties>
+		<Row Type="CIVILIZATION_HAGA_WITTENBERG" Name="CityStateCategory" Value="CULTURAL"/>
+		<Row Type="CIVILIZATION_HAGA_LHASA"      Name="CityStateCategory" Value="RELIGIOUS"/>
+		<Row Type="CIVILIZATION_HAGA_DUNEDIN"    Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_HAGA_BASRA"      Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_HAGA_HANOI"      Name="CityStateCategory" Value="SCIENTIFIC"/>
+		<Row Type="CIVILIZATION_HAGA_BAKU"       Name="CityStateCategory" Value="INDUSTRIAL"/>
+	</TypeProperties>
+	<!-- 文明主設定 -->
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_HAGA_WITTENBERG" Name="LOC_CIVILIZATION_HAGA_WITTENBERG_NAME" Description="LOC_CIVILIZATION_HAGA_WITTENBERG_DESCRIPTION" Adjective="LOC_CIVILIZATION_HAGA_WITTENBERG_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_LHASA"      Name="LOC_CIVILIZATION_HAGA_LHASA_NAME"      Description="LOC_CIVILIZATION_HAGA_LHASA_DESCRIPTION"      Adjective="LOC_CIVILIZATION_HAGA_LHASA_ADJECTIVE"      StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_DUNEDIN"    Name="LOC_CIVILIZATION_HAGA_DUNEDIN_NAME"    Description="LOC_CIVILIZATION_HAGA_DUNEDIN_DESCRIPTION"    Adjective="LOC_CIVILIZATION_HAGA_DUNEDIN_ADJECTIVE"    StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_BASRA"      Name="LOC_CIVILIZATION_HAGA_BASRA_NAME"      Description="LOC_CIVILIZATION_HAGA_BASRA_DESCRIPTION"      Adjective="LOC_CIVILIZATION_HAGA_BASRA_ADJECTIVE"      StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HANOI"      Name="LOC_CIVILIZATION_HAGA_HANOI_NAME"      Description="LOC_CIVILIZATION_HAGA_HANOI_DESCRIPTION"      Adjective="LOC_CIVILIZATION_HAGA_HANOI_ADJECTIVE"      StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_BAKU"       Name="LOC_CIVILIZATION_HAGA_BAKU_NAME"       Description="LOC_CIVILIZATION_HAGA_BAKU_DESCRIPTION"       Adjective="LOC_CIVILIZATION_HAGA_BAKU_ADJECTIVE"       StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+	</Civilizations>
+	<!-- リーダー主設定 -->
+	<Leaders>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_WITTENBERG" Name="LOC_CIVILIZATION_HAGA_WITTENBERG_NAME" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_LHASA"      Name="LOC_CIVILIZATION_HAGA_LHASA_NAME"      InheritFrom="LEADER_MINOR_CIV_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_DUNEDIN"    Name="LOC_CIVILIZATION_HAGA_DUNEDIN_NAME"    InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_BASRA"      Name="LOC_CIVILIZATION_HAGA_BASRA_NAME"      InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_HANOI"      Name="LOC_CIVILIZATION_HAGA_HANOI_NAME"      InheritFrom="LEADER_MINOR_CIV_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_BAKU"       Name="LOC_CIVILIZATION_HAGA_BAKU_NAME"       InheritFrom="LEADER_MINOR_CIV_SCIENTIFIC"/>
+	</Leaders>
+	<!-- リーダーと文明の紐づけ、首都 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_HAGA_WITTENBERG" LeaderType="LEADER_MINOR_CIV_HAGA_WITTENBERG" CapitalName="LOC_CITY_NAME_HAGA_WITTENBERG"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_LHASA"      LeaderType="LEADER_MINOR_CIV_HAGA_LHASA"      CapitalName="LOC_CITY_NAME_HAGA_LHASA"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_DUNEDIN"    LeaderType="LEADER_MINOR_CIV_HAGA_DUNEDIN"    CapitalName="LOC_CITY_NAME_HAGA_DUNEDIN"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_BASRA"      LeaderType="LEADER_MINOR_CIV_HAGA_BASRA"      CapitalName="LOC_CITY_NAME_HAGA_BASRA"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HANOI"      LeaderType="LEADER_MINOR_CIV_HAGA_HANOI"      CapitalName="LOC_CITY_NAME_HAGA_HANOI"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_BAKU"       LeaderType="LEADER_MINOR_CIV_HAGA_BAKU"       CapitalName="LOC_CITY_NAME_HAGA_BAKU"/>
+	</CivilizationLeaders>
+	<!-- リーダーの特性(都市国家ボーナス) -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_WITTENBERG" TraitType="MINOR_CIV_HAGA_WITTENBERG_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_LHASA"      TraitType="MINOR_CIV_HAGA_LHASA_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_DUNEDIN"    TraitType="MINOR_CIV_HAGA_DUNEDIN_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_BASRA"      TraitType="MINOR_CIV_HAGA_BASRA_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_HANOI"      TraitType="MINOR_CIV_HAGA_HANOI_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAGA_BAKU"       TraitType="MINOR_CIV_HAGA_BAKU_TRAIT"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="MINOR_CIV_HAGA_WITTENBERG_TRAIT" Name="LOC_LEADER_TRAIT_HAGA_WITTENBERG_NAME" Description="LOC_LEADER_TRAIT_HAGA_WITTENBERG_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_HAGA_LHASA_TRAIT"      Name="LOC_LEADER_TRAIT_HAGA_LHASA_NAME"      Description="LOC_LEADER_TRAIT_HAGA_LHASA_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_HAGA_DUNEDIN_TRAIT"    Name="LOC_LEADER_TRAIT_HAGA_DUNEDIN_NAME"    Description="LOC_LEADER_TRAIT_HAGA_DUNEDIN_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_HAGA_BASRA_TRAIT"      Name="LOC_LEADER_TRAIT_HAGA_BASRA_NAME"      Description="LOC_LEADER_TRAIT_HAGA_BASRA_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_HAGA_HANOI_TRAIT"      Name="LOC_LEADER_TRAIT_HAGA_HANOI_NAME"      Description="LOC_LEADER_TRAIT_HAGA_HANOI_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_HAGA_BAKU_TRAIT"       Name="LOC_LEADER_TRAIT_HAGA_BAKU_NAME"       Description="LOC_LEADER_TRAIT_HAGA_BAKU_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="MINOR_CIV_HAGA_WITTENBERG_TRAIT" ModifierId="MINOR_CIV_HAGA_WITTENBERG_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_HAGA_LHASA_TRAIT"      ModifierId="MINOR_CIV_HAGA_LHASA_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_HAGA_DUNEDIN_TRAIT"    ModifierId="MINOR_CIV_HAGA_DUNEDIN_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_HAGA_BASRA_TRAIT"      ModifierId="MINOR_CIV_HAGA_BASRA_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_HAGA_HANOI_TRAIT"      ModifierId="MINOR_CIV_HAGA_HANOI_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_HAGA_BAKU_TRAIT"       ModifierId="MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_OIL"/>
+		<Row TraitType="MINOR_CIV_HAGA_BAKU_TRAIT"       ModifierId="MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_ALUMINUM"/>
+		<Row TraitType="MINOR_CIV_HAGA_BAKU_TRAIT"       ModifierId="MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_URANIUM"/>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- バクー：石油、アルミニウム、ウランの産出量+1 -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_OIL</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_OIL_EXTRACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_ALUMINUM</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_ALUMINUM_EXTRACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_URANIUM</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+		</Row>
+		<!-- ハノイ：戦闘に勝利すると倒したユニットの戦闘力の50%に等しい文化力を得る -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_HANOI_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_HANOI_SCIENCE_KILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<!-- バスラ：港もしくは兵営のある都市の快適性+2 -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BASRA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BASRA_ENCAMPMENT_HARBOR_AMENITY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_AMENITIES_FROM_CITY_STATES</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT_OR_HARBOR_HAGA</SubjectRequirementSetId>
+		</Row>
+		<!-- ダニーデン：山岳に隣接している鉱山からゴールド+3 -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_DUNEDIN_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_DUNEDIN_GOLD_MINE_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MINE_MOUNTAIN_REQUIREMENTS_HAGA</SubjectRequirementSetId>
+		</Row>
+		<!-- ラサ：どの文明とも戦争状態にない場合、都市の信仰力+15% -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_LHASA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_LHASA_FAITH_AT_PEACE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</SubjectRequirementSetId>
+		</Row>
+		<!-- ヴィッテンベルク：宗教ユニットを使用して都市を初めて改宗させると、その都市の人口1につき文化力+20 -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_WITTENBERG_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_WITTENBERG_INITIATION_CULTURE_POPULATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_INITIATION_YIELD_POPULATION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- バクー：石油、アルミニウム、ウランの産出量+1 -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_OIL</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HAGA_BAKU_ADDITIONAL_OIL_EXTRACTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_OIL_EXTRACTION</ModifierId>
+			<Name>Amount</Name>　　　
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_OIL_EXTRACTION</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_ALUMINUM</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HAGA_BAKU_ADDITIONAL_ALUMINUM_EXTRACTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_ALUMINUM_EXTRACTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_ALUMINUM_EXTRACTION</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_UNIQUE_INFLUENCE_BONUS_URANIUM</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HAGA_BAKU_ADDITIONAL_URANIUM_EXTRACTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BAKU_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_URANIUM</Value>
+		</Row>
+		<!-- ハノイ：戦闘に勝利すると倒したユニットの戦闘力の50%に等しい文化力を得る -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_HANOI_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HAGA_HANOI_SCIENCE_KILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_HANOI_SCIENCE_KILLS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_HANOI_SCIENCE_KILLS</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- バスラ：港もしくは兵営のある都市の快適性+2 -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BASRA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HAGA_BASRA_ENCAMPMENT_HARBOR_AMENITY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_BASRA_ENCAMPMENT_HARBOR_AMENITY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- ダニーデン：山岳に隣接している鉱山からゴールド+3 -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_DUNEDIN_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HAGA_DUNEDIN_GOLD_MINE_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_DUNEDIN_GOLD_MINE_MOUNTAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_DUNEDIN_GOLD_MINE_MOUNTAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- ラサ：どの文明とも戦争状態にない場合、都市の信仰力+15% -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_LHASA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HAGA_LHASA_FAITH_AT_PEACE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_LHASA_FAITH_AT_PEACE_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_LHASA_FAITH_AT_PEACE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<!-- ヴィッテンベルク：宗教ユニットを使用して都市を初めて改宗させると、その都市の人口1につき文化力+20 -->
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_WITTENBERG_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HAGA_WITTENBERG_INITIATION_CULTURE_POPULATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_WITTENBERG_INITIATION_CULTURE_POPULATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HAGA_WITTENBERG_INITIATION_CULTURE_POPULATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MINE_MOUNTAIN_REQUIREMENTS_HAGA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_ENCAMPMENT_OR_HARBOR_HAGA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- 山に隣接している鉱山 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_MINE_MOUNTAIN_REQUIREMENTS_HAGA</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MINE_MOUNTAIN_REQUIREMENTS_HAGA</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_MOUNTAIN</RequirementId>
+		</Row>
+		<!-- 港もしくは兵営がある -->
+		<Row>
+			<RequirementSetId>CITY_HAS_ENCAMPMENT_OR_HARBOR_HAGA</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_CITY_HAS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_ENCAMPMENT_OR_HARBOR_HAGA</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_CITY_HAS_HARBOR</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_HAGA_WITTENBERG" CityName="LOC_CITY_NAME_HAGA_WITTENBERG"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_LHASA"      CityName="LOC_CITY_NAME_HAGA_LHASA"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_DUNEDIN"    CityName="LOC_CITY_NAME_HAGA_DUNEDIN"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_BASRA"      CityName="LOC_CITY_NAME_HAGA_BASRA"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_HANOI"      CityName="LOC_CITY_NAME_HAGA_HANOI"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_BAKU"       CityName="LOC_CITY_NAME_HAGA_BAKU"/>
+	</CityNames>
+	<!-- 開始地点補正 -->
+	<StartBiasTerrains>
+		<!-- ヴィッテンベルク：なし -->
+		<!-- バクー：沿岸 -->
+		<Row CivilizationType="CIVILIZATION_HAGA_BAKU" TerrainType="TERRAIN_COAST" Tier="1"/>
+		<!-- ハノイ：沿岸 -->
+		<Row CivilizationType="CIVILIZATION_HAGA_HANOI" TerrainType="TERRAIN_COAST" Tier="1"/>
+		<!-- ダニーデン：沿岸 -->
+		<Row CivilizationType="CIVILIZATION_HAGA_DUNEDIN" TerrainType="TERRAIN_COAST" Tier="1"/>
+		<!-- バスラ：沿岸 -->
+		<Row CivilizationType="CIVILIZATION_HAGA_BASRA" TerrainType="TERRAIN_COAST" Tier="1"/>
+		<!-- ラサ：雪原山岳、ツンドラ山岳 -->
+		<Row CivilizationType="CIVILIZATION_HAGA_LHASA" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAGA_LHASA" TerrainType="TERRAIN_SNOW_MOUNTAIN"   Tier="1"/>
+	</StartBiasTerrains>
+</GameInfo>

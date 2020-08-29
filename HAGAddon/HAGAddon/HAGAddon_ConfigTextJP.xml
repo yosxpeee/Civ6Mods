@@ -174,6 +174,158 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_RIFLEMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>ライフリングを施された銃身を有する火器を持った兵士。ライフリングのないマスケット銃に比べて命中精度が飛躍的に向上した。</Text>
 		</Row>
+
+		<!-- 都市国家 -->
+		<!-- ヴィッテンベルク -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_WITTENBERG_NAME" Language="ja_JP">
+			<Text>ヴィッテンベルク</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_WITTENBERG_DESCRIPTION" Language="ja_JP">
+			<Text>ヴィッテンベルク都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_WITTENBERG_ADJECTIVE" Language="ja_JP">
+			<Text>ヴィッテンベルク</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_WITTENBERG_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス ヴィッテンベルク</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_WITTENBERG_DESCRIPTION" Language="ja_JP">
+			<Text>宗教ユニットを使用して都市を初めて改宗させると、その都市の [ICON_Citizen] 人口1につき [ICON_CULTURE] 文化力+20。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_WITTENBERG_1" Language="ja_JP">
+			<Text>ヴィッテンベルク</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_WITTENBERG" Language="ja_JP">
+			<Text>ヴィッテンベルク</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_WITTENBERG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ドイツ連邦共和国ザクセン＝アンハルト州の都市。1517年、ヴィッテンベルク大学教授のマルティン・ルターが大学内の聖堂の扉に『95ヶ条の論題』を提示したことが宗教改革の口火を切ることになった。1518年には、同大学のギリシア語教授としてフィリップ・メランヒトンも招かれ、以降のヴィッテンベルクは宗教改革における重要な根拠地となった。 </Text>
+		</Row>
+		<!-- ラサ -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_LHASA_NAME" Language="ja_JP">
+			<Text>ラサ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_LHASA_DESCRIPTION" Language="ja_JP">
+			<Text>ラサ都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_LHASA_ADJECTIVE" Language="ja_JP">
+			<Text>ラサ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_LHASA_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス ラサ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_LHASA_DESCRIPTION" Language="ja_JP">
+			<Text>どの文明とも戦争状態にない場合、都市の [ICON_Faith] 信仰力+15%。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_LHASA_1" Language="ja_JP">
+			<Text>ラサ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_LHASA" Language="ja_JP">
+			<Text>ラサ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_LHASA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>中華人民共和国チベット自治区の中央部に位置し、同自治区を構成する「地級市」のひとつ。7世紀前半、吐蕃のソンツェン・ガンポの時代にチベットの都と定められた。9世紀に吐蕃が崩壊して以後、チベットの政治的中心は、時期ごとの覇者たちの本拠に転々と移動したが、トゥルナン寺を有するラサの宗教的中心地としての地位は不動であった。</Text>
+		</Row>
+		<!-- ダニーデン -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_DUNEDIN_NAME" Language="ja_JP">
+			<Text>ダニーデン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_DUNEDIN_DESCRIPTION" Language="ja_JP">
+			<Text>ダニーデン都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_DUNEDIN_ADJECTIVE" Language="ja_JP">
+			<Text>ダニーデン</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_DUNEDIN_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス ダニーデン</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_DUNEDIN_DESCRIPTION" Language="ja_JP">
+			<Text>山岳に隣接している鉱山から [ICON_Gold] ゴールド+3。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_DUNEDIN_1" Language="ja_JP">
+			<Text>ダニーデン</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_DUNEDIN" Language="ja_JP">
+			<Text>ダニーデン</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_DUNEDIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1848年にスコットランド自由教会からの移民たちにより開拓された、ニュージーランドの南島にある街。ゲール語でエディンバラを意味する。現在でも「南のエディンバラ」と称されるほどスコットランド文化を色濃く残す。1861年にダニーデン近郊ガブリエル渓谷で金脈が見つかりゴールドラッシュが起きる。世界各地から採掘者が訪れ、ダニーデンの人口は急増し、産業物流拠点として栄えた。</Text>
+		</Row>
+		<!-- バスラ -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_BASRA_NAME" Language="ja_JP">
+			<Text>バスラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_BASRA_DESCRIPTION" Language="ja_JP">
+			<Text>バスラ都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_BASRA_ADJECTIVE" Language="ja_JP">
+			<Text>バスラ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_BASRA_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス バスラ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_BASRA_DESCRIPTION" Language="ja_JP">
+			<Text>港区域もしくは兵営区域のある都市の [ICON_Amenities] 快適性+1。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_BASRA_1" Language="ja_JP">
+			<Text>バスラ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_BASRA" Language="ja_JP">
+			<Text>バスラ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_BASRA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>638年に第2代正統カリフ、ウマル1世の派遣したウトバ・イブン＝ガズワーンによって、イスラム史上最初の軍営都市（ミスル）として建設されたが、もともとの市街はシャトル・アラブ川から離れた場所にあり、現在ズバイルと呼ばれている町の位置であった。旧バスラは、当初はイラン（サーサーン朝領）征服・統治の拠点として活用され、まず政治都市として発展したが、運河と川を通じてペルシア湾に接続され、ペルシア湾岸最大の貿易港、ペルシア湾を経由したインド洋貿易の中継地となるとともに、肥沃なチグリス川・ユーフラテス川下流域で生産された穀物の集積地として繁栄をきわめた。</Text>
+		</Row>
+		<!-- ハノイ -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_HANOI_NAME" Language="ja_JP">
+			<Text>ハノイ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HANOI_DESCRIPTION" Language="ja_JP">
+			<Text>ハノイ都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HANOI_ADJECTIVE" Language="ja_JP">
+			<Text>ハノイ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_HANOI_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス ハノイ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_HANOI_DESCRIPTION" Language="ja_JP">
+			<Text>戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の50%に等しい [ICON_Science] 科学力を得る。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_HANOI_1" Language="ja_JP">
+			<Text>ハノイ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_HANOI" Language="ja_JP">
+			<Text>ハノイ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_HANOI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ベトナム社会主義共和国北部に位置する都市で、同国の首都。1831年に現在の名称になった。東南アジア有数の世界都市であり、ホーチミン市がベトナム経済の中心地である反面、ハノイはベトナムの政治・文化の中心地と言われることが多い。2010年は李太祖がハノイに遷都して1000年目にあたることから様々な記念行事が行なわれた。同年10月10日には軍事パレードも行なわれている。ベトナム国家大学ハノイ校が存在する。(通常の国立大学が教育部の管轄下にあるのに対して、首相に直属している。)</Text>
+		</Row>
+		<!-- バクー -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_BAKU_NAME" Language="ja_JP">
+			<Text>バクー </Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_BAKU_DESCRIPTION" Language="ja_JP">
+			<Text>バクー 都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_BAKU_ADJECTIVE" Language="ja_JP">
+			<Text>バクー </Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_BAKU_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス バクー </Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_BAKU_DESCRIPTION" Language="ja_JP">
+			<Text>開発したすべての [ICON_RESOURCE_ALUMINUM] アルミニウム、[ICON_RESOURCE_OIL] 石油、[ICON_RESOURCE_URANIUM] ウラン資源のターン毎の産出量+1。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_BAKU_1" Language="ja_JP">
+			<Text>バクー </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_BAKU" Language="ja_JP">
+			<Text>バクー </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_BAKU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アゼルバイジャン共和国の首都。カスピ海西岸に突き出したアブシェロン半島南岸に位置し、市街はバクー湾に面するように広がった港町である。アゼルバイジャン最大の都市であると同時に、南カフカース地域でも有数の大都市である。大規模な油田（バクー油田）をもち、帝政ロシア時代から石油の生産地として発展してきた。</Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="ja_JP">
@@ -217,6 +369,9 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>交易路の起点都市にある資源1つにつき、エチオピアの国際交易路の [ICON_Faith] 信仰力+0.5。プランテーションから [ICON_Faith] 信仰力+1。考古博物館と考古学者を [ICON_Faith] 信仰力で購入できる。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>中国固有の中世の長距離ユニット。弩兵に取って代わる。戦闘力が高い。</Text>
 		</Row>
 		
 		<!-- 他の自作MOD用 -->

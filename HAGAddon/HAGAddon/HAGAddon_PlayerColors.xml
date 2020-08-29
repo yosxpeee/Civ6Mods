@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<PlayerColors>
+		<!-- 文明 -->
+		<!-- 神聖ローマ帝国 -->
+		<!-- バニラのドイツをそのまま使用 -->
+		
+		<!-- 都市国家 -->
+		<!-- ヴィッテンベルク -->
+		<Row>
+			<Type>CIVILIZATION_HAGA_WITTENBERG</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_CULTURAL_SECONDARY</SecondaryColor>
+		</Row>
+		<!-- ラサ -->
+		<Row>
+			<Type>CIVILIZATION_HAGA_LHASA</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_RELIGIOUS_SECONDARY</SecondaryColor>
+		</Row>
+		<!-- ドニーデン -->
+		<Row>
+			<Type>CIVILIZATION_HAGA_DUNEDIN</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_TRADE_SECONDARY</SecondaryColor>
+		</Row>
+		<!-- バスラ -->
+		<Row>
+			<Type>CIVILIZATION_HAGA_BASRA</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_MILITARISTIC_SECONDARY</SecondaryColor>
+		</Row>
+		<!-- ハノイ -->
+		<Row>
+			<Type>CIVILIZATION_HAGA_HANOI</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_SCIENCE_SECONDARY</SecondaryColor>
+		</Row>
+		<!-- バクー -->
+		<Row>
+			<Type>CIVILIZATION_HAGA_BAKU</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_INDUSTRIAL_SECONDARY</SecondaryColor>
+		</Row>
+	</PlayerColors>
+</Database>
+

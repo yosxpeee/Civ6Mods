@@ -42,8 +42,8 @@
         </Criteria>
       </ActionCriteria>
     ]]></ActionCriteriaData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File>HAGAddon_UpdateConfig.xml</File><File>HAGAddon_UpdateConfigOtherMods.sql</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File><File>HAGAddon_UpdateGameplayOtherMods.sql</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles><UpdateDatabase id="GameplaySecretSocietyMode"><Properties><LoadOrder>1000</LoadOrder></Properties><Criteria>Ethiopia_Mode</Criteria><File>HAGAddon_UpdateGameplaySecretSocietyMode.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File>HAGAddon_UpdateConfig.xml</File><File>HAGAddon_UpdateConfigOtherMods.sql</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File><File>HAGAddon_ConfigYnAmp.xml</File></UpdateDatabase><UpdateColors id="ConfigColor"><File>HAGAddon_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File><File>HAGAddon_CityStates.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File><File>HAGAddon_UpdateGameplayOtherMods.sql</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles><UpdateDatabase id="GameplaySecretSocietyMode"><Properties><LoadOrder>1000</LoadOrder></Properties><Criteria>Ethiopia_Mode</Criteria><File>HAGAddon_UpdateGameplaySecretSocietyMode.xml</File></UpdateDatabase><UpdateColors id="Colors"><File>HAGAddon_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -1432,7 +1432,16 @@
     <Content Include="HAGAddon_Buildings.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="HAGAddon_CityStates.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="HAGAddon_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_ConfigYnAmp.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_PlayerColors.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="HAGAddon_Moments.xml">
@@ -1583,6 +1592,366 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_BASRA80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_DUNEDIN80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_HANOI80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_LHASA80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAGA_WITTENBERG80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_COG22.DDS">

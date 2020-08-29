@@ -21,6 +21,14 @@
 			<Set Description="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION"/>
 		</Update>
 	</Traits>
+	<!-- 特性効果 -->
+	<ModifierArguments>
+		<!-- オランダ：防波堤の生産力ボーナスが正しく適用されていないのを直す -->
+		<Update>
+			<Where ModifierId="TRAIT_FLOOD_BARRIER_PRODUCTION" Name="DistrictType"/>
+			<Set Name="BuildingType"/>
+		</Update>
+	</ModifierArguments>
 	
 	<!-- ======================================================================= -->
 	<!-- 区域 -->
@@ -91,6 +99,11 @@
 		<Update>
 			<Where Name="LOC_UNIT_BOMBER_DESCRIPTION"/>
 			<Set Name="LOC_UNIT_BOMBER_HAGA_DESCRIPTION"/>
+		</Update>
+		<!-- 虎蹲砲 -->
+		<Update>
+			<Where Description="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION"/>
+			<Set Description="LOC_UNIT_CHINESE_CROUCHING_TIGER_HAGA_DESCRIPTION"/>
 		</Update>
 	</Units>
 	<!-- 戦闘時のアビリティ表示 -->
@@ -181,6 +194,14 @@
 			<Set>
 				<Combat>20</Combat>
 				<RangedCombat>30</RangedCombat>
+				<Range>2</Range>
+			</Set>
+		</Update>
+		<!-- 虎蹲砲：性能変更 -->
+		<Update>
+			<Where UnitType="UNIT_CHINESE_CROUCHING_TIGER"/>
+			<Set>
+				<RangedCombat>45</RangedCombat>
 				<Range>2</Range>
 			</Set>
 		</Update>
@@ -385,6 +406,8 @@
 		<Row CivUniqueUnitType="UNIT_ENGLISH_REDCOAT"        ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
 		<Row CivUniqueUnitType="UNIT_FRENCH_GARDE_IMPERIALE" ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
 		<Row CivUniqueUnitType="UNIT_HAG_ITALY_CARABINIERI"  ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
+		<!-- 虎蹲砲は弩兵の置換にする -->
+		<Row CivUniqueUnitType="UNIT_CHINESE_CROUCHING_TIGER"  ReplacesUnitType="UNIT_CROSSBOWMAN"/>
 	</UnitReplaces>
 	<!-- AI設定 -->
 	<UnitAiInfos>

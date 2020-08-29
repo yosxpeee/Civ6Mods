@@ -174,6 +174,158 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_RIFLEMAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<!-- 都市国家 -->
+		<!-- ヴィッテンベルク -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_WITTENBERG_NAME" Language="en_US">
+			<Text>Wittenberg</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_WITTENBERG_DESCRIPTION" Language="en_US">
+			<Text>Wittenberg city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_WITTENBERG_ADJECTIVE" Language="en_US">
+			<Text>Wittenberg</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_WITTENBERG_NAME" Language="en_US">
+			<Text>Wittenberg Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_WITTENBERG_DESCRIPTION" Language="en_US">
+			<Text>When you use a religious unit to convert a city for the first time earn 20 [ICON_CULTURE] Science per [ICON_Citizen] Population of that city.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_WITTENBERG_1" Language="en_US">
+			<Text>Wittenberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_WITTENBERG" Language="en_US">
+			<Text>Wittenberg</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_WITTENBERG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- ラサ -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_LHASA_NAME" Language="en_US">
+			<Text>Lhasa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_LHASA_DESCRIPTION" Language="en_US">
+			<Text>Lhasa city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_LHASA_ADJECTIVE" Language="en_US">
+			<Text>Lhasa</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_LHASA_NAME" Language="en_US">
+			<Text>Lhasa Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_LHASA_DESCRIPTION" Language="en_US">
+			<Text>Your cities earn +15% [ICON_Faith] Faith whenever you are not at war with any civilization.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_LHASA_1" Language="en_US">
+			<Text>Lhasa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_LHASA" Language="en_US">
+			<Text>Lhasa</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_LHASA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- ダニーデン -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_DUNEDIN_NAME" Language="en_US">
+			<Text>Dunedin</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_DUNEDIN_DESCRIPTION" Language="en_US">
+			<Text>Dunedin city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_DUNEDIN_ADJECTIVE" Language="en_US">
+			<Text>Dunedin</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_DUNEDIN_NAME" Language="en_US">
+			<Text>Dunedin Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_DUNEDIN_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Gold] Gold from Mine adjacent to the mountain.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_DUNEDIN_1" Language="en_US">
+			<Text>Dunedin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_DUNEDIN" Language="en_US">
+			<Text>Dunedin</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_DUNEDIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- バスラ -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_BASRA_NAME" Language="en_US">
+			<Text>Basra</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_BASRA_DESCRIPTION" Language="en_US">
+			<Text>Basra city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_BASRA_ADJECTIVE" Language="en_US">
+			<Text>Basra</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_BASRA_NAME" Language="en_US">
+			<Text>Basra Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_BASRA_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Amenities] Amenity in cities with a Harbor district or Encampment district.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_BASRA_1" Language="en_US">
+			<Text>Basra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_BASRA" Language="en_US">
+			<Text>Basra</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_BASRA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- ハノイ -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_HANOI_NAME" Language="en_US">
+			<Text>Hanoi</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HANOI_DESCRIPTION" Language="en_US">
+			<Text>Hanoi city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_HANOI_ADJECTIVE" Language="en_US">
+			<Text>Hanoi</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_HANOI_NAME" Language="en_US">
+			<Text>Hanoi Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_HANOI_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide [ICON_Science] Science equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_HANOI_1" Language="en_US">
+			<Text>Hanoi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_HANOI" Language="en_US">
+			<Text>Hanoi</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_HANOI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- バクー -->
+		<Row Tag="LOC_CIVILIZATION_HAGA_BAKU_NAME" Language="en_US">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_BAKU_DESCRIPTION" Language="en_US">
+			<Text>Baku city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAGA_BAKU_ADJECTIVE" Language="en_US">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_BAKU_NAME" Language="en_US">
+			<Text>Baku Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAGA_BAKU_DESCRIPTION" Language="en_US">
+			<Text>All improved [ICON_RESOURCE_ALUMINUM] Aluminum, [ICON_RESOURCE_OIL] Oil and [ICON_RESOURCE_URANIUM] Uranium resources yield 1 additional resource per turn.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_BAKU_1" Language="en_US">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAGA_BAKU" Language="en_US">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAGA_BAKU_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- その他更新用 -->
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="en_US">
@@ -217,6 +369,9 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION" Language="en_US">
 			<Text>Ethiopia’s International Trade Routes grant +0.5 [ICON_Faith] Faith per resource at the origin. +1 [ICON_Faith] Faith from Plantation. Can purchase Archaeological Museums and Archaeologists with [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_HAGA_DESCRIPTION" Language="en_US">
+			<Text>Chinese unique Medieval era ranged unit that replaces the Crossbowman. high combat strength.</Text>
 		</Row>
 		
 		<!-- 他の自作MOD用 -->
