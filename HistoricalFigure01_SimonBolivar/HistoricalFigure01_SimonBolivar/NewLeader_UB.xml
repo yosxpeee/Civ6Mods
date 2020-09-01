@@ -2,18 +2,18 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="BUILDING_HAG_TEJO_ARENA"              Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HAG_TEJO_ARENA" Kind="KIND_BUILDING"/>
 	</Types>
 	<!-- 置換設定 -->
 	<BuildingReplaces>
-		<Row CivUniqueBuildingType="BUILDING_HAG_TEJO_ARENA"              ReplacesBuildingType="BUILDING_ARENA"/>
+		<Row CivUniqueBuildingType="BUILDING_HAG_TEJO_ARENA" ReplacesBuildingType="BUILDING_ARENA"/>
 	</BuildingReplaces>
 	<!-- 主設定 -->
 	<Buildings>
 		<!-- テホのアリーナ -->
 		<Row BuildingType="BUILDING_HAG_TEJO_ARENA" Name="LOC_BUILDING_HAG_TEJO_ARENA_NAME" Description="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION"
 			 PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC"
-			 Maintenance="1" Entertainment="1" PrereqCivic="CIVIC_GAMES_RECREATION"
+			 Maintenance="1" Entertainment="1" RegionalRange="6" PrereqCivic="CIVIC_GAMES_RECREATION"
 			 TraitType="TRAIT_BUILDING_HAG_TEJO_ARENA"/>
 	</Buildings>
 	<!-- 出力 -->
@@ -23,11 +23,11 @@
 	</Building_YieldChanges>
 	<!-- 建造物が持つ特殊効果 -->
 	<BuildingModifiers>
-		<Row BuildingType="BUILDING_HAG_TEJO_ARENA"              ModifierId="HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER"/>
+		<Row BuildingType="BUILDING_HAG_TEJO_ARENA" ModifierId="HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER"/>
 	</BuildingModifiers>
 	<!-- 特殊効果の内容 -->
 	<Modifiers>
-		<!-- 火薬で文化力+2追加 -->
+		<!-- 火薬で文化力+2追加(建てた都市のみ) -->
 		<Row>
 			<ModifierId>HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER</ModifierId>
 			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
@@ -37,7 +37,7 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
-		<!-- 火薬で文化力+2追加 -->
+		<!-- 火薬で文化力+2追加(建てた都市のみ) -->
 		<Row>
 			<ModifierId>HAG_TEJO_ARENA_ADD_CULTURE_TECH_GUNPOWDER</ModifierId>
 			<Name>BuildingType</Name>
@@ -82,6 +82,6 @@
 	</RequirementArguments>
 	<!-- ロックバンド用観光爆弾 -->
 	<Building_TourismBombs_XP2>
-		<Row BuildingType="BUILDING_HAG_TEJO_ARENA"          TourismBombValue="250"/>
+		<Row BuildingType="BUILDING_HAG_TEJO_ARENA" TourismBombValue="250"/>
 	</Building_TourismBombs_XP2>
 </GameData>

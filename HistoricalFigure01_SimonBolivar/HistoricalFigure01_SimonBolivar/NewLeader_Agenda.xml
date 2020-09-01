@@ -11,11 +11,11 @@
 		<Row ListType="HAGElManifestaDeCartagenaDiscussions"/>
 	</AiListTypes>
 	<AiLists>
-		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    AgendaType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" System="Discussions"/>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions" AgendaType="TRAIT_AGENDA_HAG_EL_MANIFESTA_DE_CARTAGENA" System="Discussions"/>
 	</AiLists>
 	<AiFavoredItems>
-		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    Item="WC_EMERGENCY_CITY_STATE" Favored="true"/>
-		<Row ListType="HAGElManifestaDeCartagenaDiscussions"    Item="WC_EMERGENCY_MILITARY" Favored="true"/>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions" Item="WC_EMERGENCY_CITY_STATE" Favored="true"/>
+		<Row ListType="HAGElManifestaDeCartagenaDiscussions" Item="WC_EMERGENCY_MILITARY" Favored="true"/>
 	</AiFavoredItems>
 	<TriggeredBehaviorTrees>
 	</TriggeredBehaviorTrees>

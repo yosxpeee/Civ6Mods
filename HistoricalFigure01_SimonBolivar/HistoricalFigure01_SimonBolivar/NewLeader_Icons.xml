@@ -47,7 +47,7 @@
 
 		<!-- UB -->
 		<!-- テホのアリーナ(トラクトリの使いまわし) -->
-		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA"          Atlas="ICON_ATLAS_BUILDINGS"     Index="9"/>
-		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA"          Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="9"/>
+		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA" Atlas="ICON_ATLAS_BUILDINGS"     Index="9"/>
+		<Row Name="ICON_BUILDING_HAG_TEJO_ARENA" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="9"/>
 	</IconDefinitions>
 </GameData>

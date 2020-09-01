@@ -5,13 +5,13 @@
 		<!-- シモン・ボリバル -->
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_SIMON_BOLIVAR_PRIMARY</Type>
-			<Color>255,255,0,160</Color>
 			<!-- 黄色、半透明 -->
+			<Color>255,255,0,160</Color>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_LEADER_HAG_SIMON_BOLIVAR_SECONDARY</Type>
-			<Color>80,89,104,255</Color>
 			<!-- 少し青みがかった灰色 -->
+			<Color>80,89,104,255</Color>
 		</Row>
 	</Colors>
 </GameInfo>

@@ -32,10 +32,10 @@
 			<Text>リャネロ</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" Language="ja_JP">
-			<Text>産業時代の大コロンビア固有のユニット。平地での [ICON_Strength] 戦闘力+5。維持コストが比較的低い。</Text>
+			<Text>産業時代の大コロンビア固有の重騎兵ユニット。平地での [ICON_Strength] 戦闘力+5。維持コストが比較的低い。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_COLOMBIA_LLANERO_NAME" Language="ja_JP">
-			<Text>大コロンビア固有のユニット: Llanero</Text>
+			<Text>大コロンビア固有のユニット: リャネロ</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_COLOMBIA_LLANERO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>アルゼンチンとウルグアイにまたがるパンパの牧童(カウボーイ)。ベネズエラやコロンビア東部ではリャネロ、ブラジルではガウショ、チリではワッソという。南アメリカ解放の父シモン･ボリバルの優秀な兵力として働き、ベネズエラの解放に重要な役割を果たした。</Text>
@@ -45,7 +45,7 @@
 			<Text>テホのアリーナ</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_HAG_TEJO_ARENA_DESCRIPTION" Language="ja_JP">
-			<Text>大コロンビア固有の建造物。アリーナに取って代わる。[ICON_Culture] 文化力+2、[ICON_Amenities] 快適性+1。火薬の技術を解禁するとさらに [ICON_Culture] 文化力+2。</Text>
+			<Text>大コロンビア固有の建造物。アリーナに取って代わる。[NEWLINE][ICON_Amenities] 快適性+1。[ICON_Culture] 文化力+2。6タイル以内にある都心にボーナスが及ぶ。このボーナスは1つの都市に対して一度だけ適用され、都心の6タイル以内に同種の建造物が2つ以上あってもボーナスが増えることはない。[NEWLINE]火薬の技術を解禁するとさらに [ICON_Culture] 文化力+2。このボーナスはこの建造物を建築した都市にのみ適用される。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_BUILDING_HAG_TEJO_ARENA_NAME" Language="ja_JP">
 			<Text>大コロンビア固有の建造物: テホのアリーナ</Text>

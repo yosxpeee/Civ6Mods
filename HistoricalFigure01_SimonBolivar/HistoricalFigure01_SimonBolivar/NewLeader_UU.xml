@@ -2,24 +2,24 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="UNIT_HAG_COLOMBIA_LLANERO"        Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_COLOMBIA_LLANERO" Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
-		<Row Tag="CLASS_HAG_COLOMBIA_LLANERO"        Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_COLOMBIA_LLANERO" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<!-- AIの動き -->
 	<UnitAiInfos>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITTYPE_CAVALRY"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO"        AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
-		<Row Type="UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HEAVY_CAVALRY"/>
-		<Row Type="UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
+		<Row Type="UNIT_HAG_COLOMBIA_LLANERO" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_HAG_COLOMBIA_LLANERO" Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
@@ -34,6 +34,6 @@
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<!-- リャネロ：近代的機甲部隊 -->
-		<Row Unit="UNIT_HAG_COLOMBIA_LLANERO"        UpgradeUnit="UNIT_MODERN_ARMOR"/>
+		<Row Unit="UNIT_HAG_COLOMBIA_LLANERO" UpgradeUnit="UNIT_MODERN_ARMOR"/>
 	</UnitUpgrades>
 </GameData>

@@ -3,17 +3,17 @@
 	<!-- 親定義 -->
 	<Types>
 		<!-- ユニークユニット -->
-		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"                            Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO" Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
 		<!-- ユニークユニット -->
-		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"        Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
+		<Row Type="ABILITY_UNIT_HAG_COLOMBIA_LLANERO" Tag="CLASS_HAG_COLOMBIA_LLANERO"/>
 	</TypeTags>
 	<!-- アビリティの名前、説明 -->
 	<UnitAbilities>
 		<!-- ユニークユニット -->
-		<Row UnitAbilityType="ABILITY_UNIT_HAG_COLOMBIA_LLANERO"                            Name="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_NAME"                            Description="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_COLOMBIA_LLANERO" Name="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_NAME" Description="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -128,6 +128,6 @@
 	</RequirementArguments>
 	<!-- 戦闘プレビューのテキスト -->
 	<ModifierStrings>
-		<Row ModifierId="HAG_LLANERO_BONUS_ON_FLAT"                            Context="Preview" Text="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION"/>
+		<Row ModifierId="HAG_LLANERO_BONUS_ON_FLAT"  Context="Preview" Text="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION"/>
 	</ModifierStrings>
 </GameData>
