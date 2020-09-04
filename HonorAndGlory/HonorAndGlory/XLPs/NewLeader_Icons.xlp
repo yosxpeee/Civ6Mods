@@ -687,7 +687,32 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU256"/>
 		</Element>
-		
+
+		<!-- ユニット(アルバン) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_TIMURID_ARBAN22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_TIMURID_ARBAN22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_TIMURID_ARBAN32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_TIMURID_ARBAN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_TIMURID_ARBAN38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_TIMURID_ARBAN38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_TIMURID_ARBAN50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_TIMURID_ARBAN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_TIMURID_ARBAN80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_TIMURID_ARBAN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_TIMURID_ARBAN256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_TIMURID_ARBAN256"/>
+		</Element>
 		<!-- ユニット(ベルベル人の騎兵) -->
 		<Element>
 			<m_EntryID text="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY22"/>
@@ -812,6 +837,131 @@
 		<Element>
 			<m_EntryID text="ICON_UNIT_HAG_ENGLAND_SWORDFISH256"/>
 			<m_ObjectName text="ICON_UNIT_HAG_ENGLAND_SWORDFISH256"/>
+		</Element>
+		<!-- ユニット(タルカン) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_HUNS_TARKHAN22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_HUNS_TARKHAN22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_HUNS_TARKHAN32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_HUNS_TARKHAN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_HUNS_TARKHAN38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_HUNS_TARKHAN38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_HUNS_TARKHAN50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_HUNS_TARKHAN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_HUNS_TARKHAN80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_HUNS_TARKHAN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_HUNS_TARKHAN256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_HUNS_TARKHAN256"/>
+		</Element>
+		<!-- ユニット(イェーガー) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_AMERICAN_JAEGER22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_AMERICAN_JAEGER22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_AMERICAN_JAEGER32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_AMERICAN_JAEGER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_AMERICAN_JAEGER38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_AMERICAN_JAEGER38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_AMERICAN_JAEGER50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_AMERICAN_JAEGER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_AMERICAN_JAEGER80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_AMERICAN_JAEGER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_AMERICAN_JAEGER256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_AMERICAN_JAEGER256"/>
+		</Element>
+		<!-- ユニット(T-34) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_RUSSIAN_T3422"/>
+			<m_ObjectName text="ICON_UNIT_HAG_RUSSIAN_T3422"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_RUSSIAN_T3432"/>
+			<m_ObjectName text="ICON_UNIT_HAG_RUSSIAN_T3432"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_RUSSIAN_T3438"/>
+			<m_ObjectName text="ICON_UNIT_HAG_RUSSIAN_T3438"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_RUSSIAN_T3450"/>
+			<m_ObjectName text="ICON_UNIT_HAG_RUSSIAN_T3450"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_RUSSIAN_T3480"/>
+			<m_ObjectName text="ICON_UNIT_HAG_RUSSIAN_T3480"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_RUSSIAN_T34256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_RUSSIAN_T34256"/>
+		</Element>
+		<!-- ユニット(M48山砲) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN256"/>
+		</Element>
+		<!-- ユニット(Ju87) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GERMANY_JU8722"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GERMANY_JU8722"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GERMANY_JU8732"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GERMANY_JU8732"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GERMANY_JU8738"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GERMANY_JU8738"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GERMANY_JU8750"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GERMANY_JU8750"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GERMANY_JU8780"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GERMANY_JU8780"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GERMANY_JU87256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GERMANY_JU87256"/>
 		</Element>
 		
 		<!-- 地形改善(カスバ) -->

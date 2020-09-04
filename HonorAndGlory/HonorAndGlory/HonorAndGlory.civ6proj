@@ -13,7 +13,7 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File><File>NewLeader_NamedPlace.xml</File><File>NewLeader_CityStates.xml</File><File>NewLeader_Agendas.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_DiplomacyInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_HidekiTojo_Zero.dds</File><File>Textures/Moment_Religion_HAG_Nestorianism.dds</File><File>Textures/Moment_Religion_HAG_IPU.dds</File><File>Textures/Moment_Religion_HAG_Pastafarianism.dds</File><File>Textures/MariaI_LoadingInfo_Foreground.dds</File><File>Textures/MariaI_DiplomacyInfo_Background.dds</File><File>Textures/MariaI_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Portugal_Feitoria.dds</File><File>Textures/Stalin_DiplomacyInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_StalinT34.dds</File><File>Textures/Moment_HAG_Morocco_BerbersCavalry.dds</File><File>Textures/Hitler_DiplomacyInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_AdolfHitler_Ju87.dds</File><File>Textures/Mussolini_DiplomacyInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Foreground.dds</File><File>Maps/TSLEastAsiaStandard_HAG.Civ6Map</File><File>Maps/TSLEastAsiaStandard_HAG.lua</File><File>Maps/TSLEuropeStandard_HAG.Civ6Map</File><File>Maps/TSLEuropeStandard_HAG.lua</File><File>Textures/Moment_HAG_USSR_SpaceLabo.dds</File><File>Textures/Truman_DiplomacyInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_ChurchillSwordfish.dds</File><File>Textures/Churchill_DiplomacyInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Foreground.dds</File><File>Textures/Attila_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Huns_Tarkhan.dds</File><File>Textures/Moment_HAG_Huns_Yurt.dds</File><File>Textures/Attila_DiplomacyInfo_Background.dds</File><File>Textures/Attila_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Portugal_Nau.dds</File><File>Textures/Moment_HAG_Morocco_Casbah.dds</File><File>Textures/Moment_HAG_Italy_Duomo.dds</File><File>Textures/Moment_HAG_Truman_Jaeger.dds</File><File>Textures/Moment_HAG_Timurid_Arban.dds</File><File>Textures/Moment_HAG_Italy_Carabinieri.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors><AddGameplayScripts id="GameplayScripts"><File priority="1">Lua/HAGAttilaTraits.lua</File><File priority="1">Lua/HAGCityNameHuns.lua</File></AddGameplayScripts><AddUserInterfaces id="UI"><Properties><Context>InGame</Context></Properties><File>Lua/HAGAttilaUIScript.xml</File></AddUserInterfaces><ImportFiles id="UIScripts"><File>Lua/HAGAttilaUIScript.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File><File>NewLeader_Maps.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File><File>NewLeader_Maps.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="ConfigYnAmp"><Properties><LoadOrder>1000</LoadOrder></Properties><File>NewLeader_ConfigYnAmp.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
             <Criteria id="LeaderCriteria">
                 <LeaderPlayable>
@@ -692,6 +692,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="NewLeader_ConfigTextJP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewLeader_ConfigYnAmp.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="NewLeader_CoreColors.xml">
@@ -1981,6 +1984,42 @@
     <Content Include="Textures\ICON_LEADER_HAG_TRUMAN80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_AMERICAN_JAEGER80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_UNIT_HAG_ENGLAND_SWORDFISH22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -2015,6 +2054,78 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAG_ENGLAND_SWORDFISH80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8722.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8722.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU87256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU87256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8732.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8732.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8738.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8738.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8750.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8750.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8780.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_GERMANY_JU8780.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_HUNS_TARKHAN80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAG_ITALY_CARABINIERI22.DDS">
@@ -2159,6 +2270,114 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3422.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3422.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T34256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T34256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3432.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3432.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3438.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3438.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3450.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3450.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3480.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3480.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_TIMURID_ARBAN80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\LEADER_HAG_ADOLF_HITLER_NEUTRAL.dds">

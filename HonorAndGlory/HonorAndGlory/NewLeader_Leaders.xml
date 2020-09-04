@@ -273,9 +273,10 @@
 		</Row>
 		<!-- 東條英機 -->
 		<!-- 全ユニット同盟1つごとに戦闘力+3 -->
-		<!-- 漁船に文化+1-->
-		<!-- 岩礁タイル上の漁船は文化+1-->
-		<!-- 岩礁タイルに隣接した漁船は文化+1-->
+		<!-- 漁船に文化+1 -->
+		<!-- 岩礁タイル上の漁船は文化+1 -->
+		<!-- 岩礁タイルに隣接した漁船は文化+1 -->
+		<!-- 戦争の疲労度-25% -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_COMBAT_BONUS_FROM_ALLIANCE</ModifierId>
@@ -291,6 +292,10 @@
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_FISHING_BOATS_ADJECENT_REEF_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_HIDEKI_TOJO</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_ADJUST_WAR_WEARINESS</ModifierId>
 		</Row>
 		<!-- マリア1世 -->
 		<!-- フェイトリアのある都市へ遷都できる -->
@@ -575,7 +580,11 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_ADJECENT_REEF_REQUIREMENTS_LEADER_HAG_HIDEKI_TOJO</SubjectRequirementSetId>
 		</Row>
-
+		<!-- 戦争の疲労度-25% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_ADJUST_WAR_WEARINESS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
 		<!-- フェイトリアのある都市へ遷都できる -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
@@ -909,7 +918,18 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-
+		<!-- 戦争の疲労度-25% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_ADJUST_WAR_WEARINESS</ModifierId>
+			<Name>Amount</Name>
+			<Value>-25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_ADJUST_WAR_WEARINESS</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+		
 		<!-- フェイトリアのある都市へ遷都できる -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
@@ -932,7 +952,7 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
 			<Name>ResourceType</Name>
-			<Value>RESOURCE_ALUMINUM</Value>
+			<Value>RESOURCE_URANIUM</Value>
 		</Row>
 		<!-- 全都市の快適性-1 -->
 		<Row>

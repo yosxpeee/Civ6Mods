@@ -162,7 +162,7 @@
 			<Text>大東亜共栄圏</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION" Language="ja_JP">
-			<Text>有効な同盟1つごとに全ユニットの [ICON_Strength] 戦闘力+3。漁船から [ICON_Culture] 文化力+1。(礁タイルの上にあるとさらに [ICON_Culture] 文化力+1。漁船に隣接する礁タイル1つごとに [ICON_Culture] 文化力+1。2つの効果は累積する。)</Text>
+			<Text>有効な同盟1つごとに全ユニットの [ICON_Strength] 戦闘力+3。戦争による疲労が通常より25%減る。漁船から [ICON_Culture] 文化力+1。(礁タイルの上にあるとさらに [ICON_Culture] 文化力+1。漁船に隣接する礁タイル1つごとに [ICON_Culture] 文化力+1。2つの効果は累積する。)</Text>
 		</Row>
 		<!-- 指導者(マリア1世) -->
 		<Row Tag="LOC_LEADER_HAG_MARIA_I_NAME" Language="ja_JP">
@@ -414,7 +414,7 @@
 			<Text>フェイトリア</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="ja_JP">
-			<Text>ポルトガル帝国固有の区域。兵営に取って代わる。隣接する沿岸タイル2つごとに [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接する港、運河から [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接するプランテーション、鉱山から [ICON_Gold] ゴールド+1。</Text>
+			<Text>ポルトガル帝国固有の区域。兵営に取って代わる。[ICON_Amenities] 快適性+1。周辺のアピールを下げない。隣接する沿岸タイル2つごとに [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接する港、運河から [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接するプランテーション、鉱山から [ICON_Gold] ゴールド+1。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
 			<Text>ポルトガル帝国固有の区域: フェイトリア</Text>
@@ -462,7 +462,7 @@
 			<Text>カスバ</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がモロッコ王国の施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1, [ICON_Housing] 住宅+0.5。他のカスバと隣接させると [ICON_Gold] ゴールド+1。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
+			<Text>労働者がモロッコ王国の施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1、[ICON_Housing] 住宅+0.5。他のカスバと隣接させると [ICON_Gold] ゴールド+1。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="ja_JP">
 			<Text>モロッコ王国固有の施設: カスバ</Text>
@@ -475,7 +475,7 @@
 			<Text>ドゥオモ広場</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がイタリア固有の施設であるドゥオモ広場を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+1、[ICON_Amenities] 快適性+1。隣接する区域からの産出量が増加する。都心に隣接している場合、 [ICON_Food] 食料+2。その他隣接ボーナスが発生する区域が隣接している場合、該当するボーナスが+2。1都市につき1つのみ。平地にのみ建造可能。</Text>
+			<Text>労働者がイタリア固有の施設であるドゥオモ広場を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+1、[ICON_Amenities] 快適性+1。都心に隣接している場合、[ICON_Food] 食料+2。その他隣接ボーナスが発生する区域が隣接している場合、該当するボーナスが+2。1都市につき1つのみ。平地にのみ建造可能。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO_NAME" Language="ja_JP">
 			<Text>イタリア固有の施設: ドゥオモ広場</Text>
@@ -495,6 +495,33 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_HUNS_YURT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>南シベリア、中央アジアのトルコ系諸民族が使用する天幕。構造はモンゴルのゲルとほとんど同じで、矢来(やらい)組を円筒形に立て並べた外壁の上に棒を放射状に並べたドーム型の屋根をのせ、全体をフェルトで覆う。夏には壁にフェルトのかわりに簾(すだれ)を立て風通しをよくし、冬には土塁や石塁を築いて寒風を防ぐ。ゲルとの大きな違いは屋根の骨組が湾曲している点である。ユルトは遊牧民の本来の住居であったが、定住化が進んだ今日ではセカンド・ハウスとして使用される場合も多くなっている。</Text>
+		</Row>
+
+		<!-- 都市国家 -->
+		<!-- 琉球 -->
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Language="ja_JP">
+			<Text>琉球</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_DESCRIPTION" Language="ja_JP">
+			<Text>琉球都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_ADJECTIVE" Language="ja_JP">
+			<Text>琉球</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス 琉球</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_DESCRIPTION" Language="ja_JP">
+			<Text>交易商ユニットが水域タイル上で略奪を受けなくなる。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_RYUKYU_1" Language="ja_JP">
+			<Text>琉球</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_RYUKYU" Language="ja_JP">
+			<Text>琉球</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1429年から1879年までの450年間にわたり琉球諸島を中心に存在した王国。王家の紋章は左三巴紋で「左御紋（ひだりごもん、沖縄方言：フィジャイグムン）」と呼ばれた。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

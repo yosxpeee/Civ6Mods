@@ -235,6 +235,13 @@
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200med"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256med"/>
 
+		<!-- アルバン -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_TIMURID_ARBAN22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_TIMURID_ARBAN32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_TIMURID_ARBAN38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_TIMURID_ARBAN50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_TIMURID_ARBAN80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_TIMURID_ARBAN256.dds"/>
 		<!-- ベルベル人の騎兵 -->
 		<Row Name="ICON_ATLAS_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY22.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY32.dds"/>
@@ -270,6 +277,41 @@
 		<Row Name="ICON_ATLAS_UNIT_HAG_ENGLAND_SWORDFISH" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ENGLAND_SWORDFISH50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_ENGLAND_SWORDFISH" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ENGLAND_SWORDFISH80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_ENGLAND_SWORDFISH" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ENGLAND_SWORDFISH256.dds"/>
+		<!-- タルカン -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_HUNS_TARKHAN22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_HUNS_TARKHAN32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_HUNS_TARKHAN38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_HUNS_TARKHAN50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_HUNS_TARKHAN80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_HUNS_TARKHAN256.dds"/>
+		<!-- イェーガー -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_AMERICAN_JAEGER22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_AMERICAN_JAEGER32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_AMERICAN_JAEGER38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_AMERICAN_JAEGER50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_AMERICAN_JAEGER80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_AMERICAN_JAEGER256.dds"/>
+		<!-- T-34 -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_RUSSIAN_T3422.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_RUSSIAN_T3432.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_RUSSIAN_T3438.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_RUSSIAN_T3450.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_RUSSIAN_T3480.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_RUSSIAN_T34256.dds"/>
+		<!-- M48山砲 -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN256.dds"/>
+		<!-- Ju87 -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU8722.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU8732.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU8738.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU8750.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU8780.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU87256.dds"/>
 		
 		<!-- UI -->
 		<!-- カスバ -->
@@ -384,26 +426,26 @@
 	    <Row Name="ICON_CIVILIZATION_HAG_RYUKYU" Atlas="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" Index="0"/>
 
 		<!-- UU -->
-		<!-- アルバン(ケシクの使いまわし) -->
-		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN"                                   Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNITS"                         Index="4"/>
-		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_FOW"                               Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNITS"                         Index="4"/>
-		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_WHITE"                             Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNITS"                         Index="4"/>
-		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_BLACK"                             Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNITS"                         Index="4"/>
+		<!-- アルバン(ポートレイトはケシクの使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN"                                   Atlas="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN"                        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN"                        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN"                        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN"                        Index="0"/>
 		<Row Name="ICON_UNIT_HAG_TIMURID_ARBAN_PORTRAIT"                          Atlas="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS"                Index="4"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_TIMURID_ARBAN_PORTRAIT"        Atlas="ICON_HAG_ATLAS_EXPANSION_1_AFRICAN_UNIT_PORTRAITS"        Index="4"/>
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_TIMURID_ARBAN_PORTRAIT" Atlas="ICON_HAG_ATLAS_EXPANSION_1_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="4"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_TIMURID_ARBAN_PORTRAIT"          Atlas="ICON_HAG_ATLAS_EXPANSION_1_ASIAN_UNIT_PORTRAITS"          Index="4"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_TIMURID_ARBAN_PORTRAIT"  Atlas="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS"  Index="4"/>
-		<!-- M48山砲(大砲の使いまわし) -->
-		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                                   Atlas="ICON_ATLAS_UNITS"                           Index="72"/>
-		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="72"/>
-		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="72"/>
-		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="72"/>
-		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="6"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="6"/>
-		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="6"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="6"/>
-		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="6"/>
+		<!-- M48山砲(ポートレイトは大砲の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                                   Atlas="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Index="0"/>
+		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Index="0"/>
+		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Index="0"/>
+		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Index="0"/>
+		<Row Name="ICON_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                 Index="6"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"           Index="6"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"   Index="6"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2"  Index="6"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"         Index="6"/>
 		<!-- ベルベル人の騎兵(ポートレイトは騎兵の使いまわし) -->
 		<Row Name="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                                   Atlas="ICON_ATLAS_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Index="0"/>
 		<Row Name="ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Index="0"/>
@@ -434,21 +476,21 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HAG_PORTUGAL_NAU_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="53"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HAG_PORTUGAL_NAU_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="53"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_PORTUGAL_NAU_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="53"/>
-		<!-- T-34(戦車の使いまわし) -->
-		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34"                                   Atlas="ICON_ATLAS_UNITS"                           Index="78"/>
-		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="78"/>
-		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="78"/>
-		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="78"/>
+		<!-- T-34(ポートレイトは戦車の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34"                                   Atlas="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34"            Index="0"/>
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34"            Index="0"/>
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34"            Index="0"/>
+		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34"            Index="0"/>
 		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="12"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="12"/>
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="12"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="12"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="12"/>
 		<!-- Ju87(爆撃機の使いまわし) -->
-		<Row Name="ICON_UNIT_HAG_GERMANY_JU87"                                   Atlas="ICON_ATLAS_UNITS"                           Index="81"/>
-		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="81"/>
-		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="81"/>
-		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="81"/>
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87"                                   Atlas="ICON_ATLAS_UNIT_HAG_GERMANY_JU87"           Index="0"/>
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_GERMANY_JU87"           Index="0"/>
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_GERMANY_JU87"           Index="0"/>
+		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAG_GERMANY_JU87"           Index="0"/>
 		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="15"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_GERMANY_JU87_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="15"/>
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_GERMANY_JU87_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="15"/>
@@ -474,26 +516,26 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HAG_ENGLAND_SWORDFISH_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="4"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HAG_ENGLAND_SWORDFISH_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="4"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_ENGLAND_SWORDFISH_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="4"/>
-		<!-- イェーガー(レンジャーの使いまわし) -->
-		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER"                                   Atlas="ICON_ATLAS_UNITS"                           Index="68"/>
-		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="68"/>
-		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="68"/>
-		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="68"/>
+		<!-- イェーガー(ポートレイトはレンジャーの使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER"                                   Atlas="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER"        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER"        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER"        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAG_AMERICAN_JAEGER"        Index="0"/>
 		<Row Name="ICON_UNIT_HAG_AMERICAN_JAEGER_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="2"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_AMERICAN_JAEGER_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="2"/>
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_AMERICAN_JAEGER_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="2"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_AMERICAN_JAEGER_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="2"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_AMERICAN_JAEGER_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="2"/>
-		<!-- タルカン(蛮族の騎乗兵の使いまわし) -->
-		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN"                                   Atlas="ICON_ATLAS_UNITS"                           Index="22"/>
-		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_FOW"                               Atlas="ICON_ATLAS_UNITS_FOW"                       Index="22"/>
-		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="22"/>
-		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="22"/>
-		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                  Index="21"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"            Index="21"/>
-		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"    Index="21"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"   Index="21"/>
-		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"          Index="21"/>
+		<!-- タルカン(ポートレイトは蛮族の騎乗兵の使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN"                                   Atlas="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN"         Index="0"/>
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN"         Index="0"/>
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN"         Index="0"/>
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAG_HUNS_TARKHAN"         Index="0"/>
+		<Row Name="ICON_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="21"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="21"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="21"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="21"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="21"/>
 		
 		<!-- UB -->
 		<!-- 天文台(マドラサの使いまわし) -->

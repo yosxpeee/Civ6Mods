@@ -162,7 +162,7 @@
 			<Text>Greater East Asia Co-Prosperity Sphere</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_HIDEKI_TOJO_DESCRIPTION" Language="en_US">
-			<Text>All Units have +3 [ICON_Strength] Combat Strength from each active Alliance. Fishing Boats provides +1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture if Fishing Boats on a reef. +1 [ICON_Culture] Culture if Fishing Boats adjecent to reef.</Text>
+			<Text>All Units have +3 [ICON_Strength] Combat Strength from each active Alliance. Accumulate 25% less war weariness than usual. Fishing Boats provides +1 [ICON_Culture] Culture. +1 [ICON_Culture] Culture if Fishing Boats on a reef. +1 [ICON_Culture] Culture if Fishing Boats adjecent to reef.</Text>
 		</Row>
 		<!-- 指導者(マリア1世) -->
 		<Row Tag="LOC_LEADER_HAG_MARIA_I_NAME" Language="en_US">
@@ -414,7 +414,7 @@
 			<Text>Feitoria</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Portugal Empire. Replaces the Encampment. +1 [ICON_Production] Production and +1 [ICON_Food] Food for every two adjecent Coast tiles. +1 [ICON_Production] Production and +1 [ICON_Food] Food for each adjecent Harbor/Canal tiles. +1 [ICON_Gold] Gold for each adjacent Plantations and Mines.</Text>
+			<Text>A district unique to Portugal Empire. Replaces the Encampment. +1 [ICON_Amenities] Amenity. It does not lower the appeal. +1 [ICON_Production] Production and +1 [ICON_Food] Food for every two adjecent Coast tiles. +1 [ICON_Production] Production and +1 [ICON_Food] Food for each adjecent Harbor/Canal tiles. +1 [ICON_Gold] Gold for each adjacent Plantations and Mines.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
 			<Text>Portugal Empire unique building: Feitoria</Text>
@@ -475,7 +475,7 @@
 			<Text>Duomo</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_ITALY_DUOMO_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Duomo, unique to Italy.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith, +1 [ICON_Amenities] Amenity. Receives additional yields from adjacent districts. +2 [ICON_Food] Food if adjacent to a city center. For all other districts that award adjacency bonuses: +2 of the appropriate yield if that district is adjacent. One per city.</Text>
+			<Text>Unlocks the Builder ability to construct a Duomo, unique to Italy.[NEWLINE][NEWLINE]+1 [ICON_Faith] Faith, +1 [ICON_Amenities] Amenity. +2 [ICON_Food] Food if adjacent to a city center. For all other districts that award adjacency bonuses: +2 of the appropriate yield if that district is adjacent. One per city. Can be built on flat land.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_ITALY_DUOMO_NAME" Language="en_US">
 			<Text>Italy unique improvement: Duomo</Text>
@@ -494,6 +494,33 @@
 			<Text>Huns unique improvement: Yurt</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_HUNS_YURT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- 都市国家 -->
+		<!-- 琉球 -->
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Language="en_US">
+			<Text>Ryukyu</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_DESCRIPTION" Language="en_US">
+			<Text>Ryukyu city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_ADJECTIVE" Language="en_US">
+			<Text>Ryukyu</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_NAME" Language="en_US">
+			<Text>Ryukyu Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_DESCRIPTION" Language="en_US">
+			<Text>Your Trader units are immune to being plundered on water tiles.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_RYUKYU_1" Language="en_US">
+			<Text>Ryukyu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_RYUKYU" Language="en_US">
+			<Text>Ryukyu</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

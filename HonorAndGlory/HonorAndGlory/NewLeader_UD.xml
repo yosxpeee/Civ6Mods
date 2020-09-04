@@ -15,7 +15,7 @@
 			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" 
 			 Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" 
 			 NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
-			 MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2"
+			 MilitaryDomain="DOMAIN_LAND" CityStrengthModifier="2" Entertainment="1"
 			 TraitType="TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA"/>
 	</Districts>
 	<!-- 隣接ボーナス定義 -->
@@ -45,7 +45,7 @@
 	</District_TradeRouteYields>
 	<!-- 市民配置時の出力変更 -->
 	<District_CitizenYieldChanges>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldType="YIELD_GOLD"       YieldChange="2"/>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<District_CitizenGreatPersonPoints/>

@@ -1454,32 +1454,6 @@
 		<Replace Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_DESCRIPTION" Language="ja_JP">
 			<Text>マリア1世固有のプロジェクト。フェイトリアのある都市ならどこででも実施可能。完了すると、ポルトガルの [ICON_Capital] 首都がその都市に移る。</Text>
 		</Replace>
-
-		<!-- 都市国家 -->
-		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Language="ja_JP">
-			<Text>琉球</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_DESCRIPTION" Language="ja_JP">
-			<Text>琉球都市国家</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_ADJECTIVE" Language="ja_JP">
-			<Text>琉球</Text>
-		</Row>
-		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_NAME" Language="ja_JP">
-			<Text>宗主国ボーナス 琉球</Text>
-		</Row>
-		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_DESCRIPTION" Language="ja_JP">
-			<Text>交易商ユニットが水域タイル上で略奪を受けなくなる。</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_HAG_RYUKYU_1" Language="ja_JP">
-			<Text>琉球</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_HAG_RYUKYU" Language="ja_JP">
-			<Text>琉球</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>1429年から1879年までの450年間にわたり琉球諸島を中心に存在した王国。王家の紋章は左三巴紋で「左御紋（ひだりごもん、沖縄方言：フィジャイグムン）」と呼ばれた。</Text>
-		</Row>
 		
 		<!-- アジェンダ -->
 		<!-- 百日天下(ナポレオン) -->

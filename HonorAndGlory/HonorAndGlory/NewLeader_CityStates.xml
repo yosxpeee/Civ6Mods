@@ -58,6 +58,10 @@
 			<Value>ABILITY_TRADE_ROUTE_PLUNDER_IMMUNITY_SEA</Value>
 		</Row>
 	</ModifierArguments>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_HAG_RYUKYU" CityName="LOC_CITY_NAME_HAG_RYUKYU"/>
+	</CityNames>
 	<!-- 開始地点補正 -->
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_HAG_RYUKYU" TerrainType="TERRAIN_COAST" Tier="1"/>
