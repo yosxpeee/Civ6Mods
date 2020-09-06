@@ -29,6 +29,42 @@
 			<Set Name="BuildingType"/>
 		</Update>
 	</ModifierArguments>
+
+	<!-- ======================================================================= -->
+	<!-- 指導者 -->
+	<!-- ======================================================================= -->
+	<TraitModifiers>
+		<!-- チャーチル：改造空母の生産力+30% -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_CHURCHILL</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_NAVALCARRIER_PRODUCTION</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- チャーチル：改造空母の生産力+30% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_NAVALCARRIER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- チャーチル：改造空母の生産力+30% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_CARRIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_CHURCHILL_MODERN_NAVALCARRIER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+	</ModifierArguments>
 	
 	<!-- ======================================================================= -->
 	<!-- 区域 -->
