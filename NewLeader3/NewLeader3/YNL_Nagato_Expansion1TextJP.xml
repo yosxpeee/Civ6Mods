@@ -2,9 +2,9 @@
 <GameData>
 	<LocalizedText>
 		<!-- RaF専用アジェンダ（専用のファイルに書くこと） -->
-		
+		<!-- ================================================================================ -->
 		<!-- 長門 -->
-
+		<!-- ================================================================================ -->
 		<!-- 堅物 -->
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_NAGATO_REASON_AGENDA_CURMUDGEON_POSITIVE" Language="ja_JP">
 			<Text>偉大な指導者は、異性の手管に心を奪われたりはせぬものではないか？</Text>
@@ -40,9 +40,9 @@
 		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_NAGATO_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
 			<Text>「栄光の時代」を満喫しているところを悪いが、どうにも鼻についてならない。あなたの国が没落する日が今から楽しみだな。</Text>
 		</Replace>
-		
+		<!-- ================================================================================ -->
 		<!-- 陸奥 -->
-		
+		<!-- ================================================================================ -->
 		<!-- 堅物 -->
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_MUTSU_REASON_AGENDA_CURMUDGEON_POSITIVE" Language="ja_JP">
 			<Text>偉大な指導者は、異性の手管に心を奪われたりはせぬものではなくて？</Text>
@@ -76,6 +76,44 @@
 			<Text>あなたは忍び難きを忍び、耐えがたきを耐えているわね。私たちとしても感に堪えないわ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_MUTSU_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
+			<Text>「栄光の時代」を満喫しているところを悪いけど、どうにも鼻についてならないわ。あなたの国が没落する日が今から楽しみね。</Text>
+		</Replace>
+		<!-- ================================================================================ -->
+		<!-- 陸奥 -->
+		<!-- ================================================================================ -->
+		<!-- 大鳳 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_CURMUDGEON_POSITIVE" Language="ja_JP">
+			<Text>偉大な指導者は、異性の手管に心を奪われたりはせぬものではなくて？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_CURMUDGEON_NEGATIVE" Language="ja_JP">
+			<Text>よく回る口ね。他にやることはないの？非生産的だし気が散って迷惑よ。</Text>
+		</Replace>
+		<!-- 色好み -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_FLIRTATIOUS_POSITIVE" Language="ja_JP">
+			<Text>あなたにはとても魅力を感じているわ。あなたを一番信頼しているのは私よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_FLIRTATIOUS_NEGATIVE" Language="ja_JP">
+			<Text>「民の最善の利益のために交渉している」なんて言うけど、本当にそうなの？私の交友関係を妬んでいるだけに見えてしかたないわね。</Text>
+		</Replace>
+		<!-- ゴシップ -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_GOSSIP_POSITIVE" Language="ja_JP">
+			<Text>「知は力なり」と言うように、他国の秘密を知っている私たちの関係は盤石ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_GOSSIP_NEGATIVE" Language="ja_JP">
+			<Text>私はよく考えるの、あなたの口数が少ないのはなぜなのかしらって。たぶん、興味を引けるような話をろくに知らないんじゃないの？</Text>
+		</Replace>
+		<!-- 追従 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_SYCOPHANT_GOLDEN_AGE" Language="ja_JP">
+			<Text>私たちの国の詩人や哲学者たちは、あなたの国の文明をこの世の光として称賛しているわ。私も同じ意見よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_SYCOPHANT_DARK_AGE" Language="ja_JP">
+			<Text>世界にとってより尊い手本となることを目指してほしいわ。あなたが民を栄光に導けば、民はあなたを愛するでしょう。</Text>
+		</Replace>
+		<!-- 人情家 -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_SYMPATHIZER_DARK_AGE" Language="ja_JP">
+			<Text>あなたは忍び難きを忍び、耐えがたきを耐えているわね。私たちとしても感に堪えないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_SYMPATHIZER_GOLDEN_AGE" Language="ja_JP">
 			<Text>「栄光の時代」を満喫しているところを悪いけど、どうにも鼻についてならないわ。あなたの国が没落する日が今から楽しみね。</Text>
 		</Replace>
 	</LocalizedText>

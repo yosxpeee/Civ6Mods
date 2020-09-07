@@ -22,5 +22,10 @@
 			 MomentDataType="MOMENT_DATA_BUILDING"
 			 GameDataType="BUILDING_IMP_NAVYYARD"
 			 Texture="YNL_MOMENT_IMP_NAVYYARD.dds"/>
+		<!-- 大鳳型航空母艦 -->
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"
+			 MomentDataType="MOMENT_DATA_UNIT"
+			 GameDataType="UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO"
+			 Texture="YNL_MOMENT_UNIQUE_AIRCRAFT_CARRIER_TAIHO.dds"/>
 	</MomentIllustrations>
 </GameData>

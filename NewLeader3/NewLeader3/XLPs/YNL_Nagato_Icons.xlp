@@ -149,6 +149,34 @@
 			<m_EntryID text="YNL_UU_BB_NAGATO256"/>
 			<m_ObjectName text="YNL_UU_BB_NAGATO256"/>
 		</Element>
+		<Element>
+			<m_EntryID text="YNL_TAIHO256"/>
+			<m_ObjectName text="YNL_TAIHO256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TAIHO32"/>
+			<m_ObjectName text="YNL_TAIHO32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TAIHO50"/>
+			<m_ObjectName text="YNL_TAIHO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TAIHO55"/>
+			<m_ObjectName text="YNL_TAIHO55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TAIHO64"/>
+			<m_ObjectName text="YNL_TAIHO64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TAIHO80"/>
+			<m_ObjectName text="YNL_TAIHO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YNL_TAIHO45"/>
+			<m_ObjectName text="YNL_TAIHO45"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

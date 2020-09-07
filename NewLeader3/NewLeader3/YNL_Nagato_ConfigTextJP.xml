@@ -2,15 +2,15 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_PEOPLESOFTHESEA_NAME" Language="ja_JP">
-			<Text>海の民</Text>
+			<Text>大日本帝国(海軍)</Text>
 		</Replace>
 
 		<Replace Tag="LOC_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION" Language="ja_JP">
-			<Text>海の民</Text>
+			<Text>大日本帝国(海軍)</Text>
 		</Replace>
 
 		<Replace Tag="LOC_CIVILIZATION_PEOPLESOFTHESEA_ADJECTIVE" Language="ja_JP">
-			<Text>海の民の</Text>
+			<Text>大日本帝国(海軍)の</Text>
 		</Replace>
 
 		<Replace Tag="LOC_LEADER_YNL_NAGATO_NAME" Language="ja_JP">
@@ -19,7 +19,10 @@
 		<Replace Tag="LOC_LEADER_YNL_MUTSU_NAME" Language="ja_JP">
 			<Text>陸奥</Text>
 		</Replace>
-
+		<Replace Tag="LOC_LEADER_YNL_TAIHO_NAME" Language="ja_JP">
+			<Text>大鳳</Text>
+		</Replace>
+		
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME" Language="ja_JP">
 			<Text>海の民</Text>
 		</Replace>
@@ -33,24 +36,30 @@
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_MUTSU_NAME" Language="ja_JP">
 			<Text>ビッグセブンの力(陸奥)</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_TAIHO_NAME" Language="ja_JP">
+			<Text>舞鶴の空</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION" Language="ja_JP">
-			<Text>敵ユニットを撃破するとヒットポイントが50回復する。[NEWLINE]海洋近接戦闘ユニットが沿岸を略奪できるようになる。[NEWLINE]友好的な領土に兵営か工業地帯を完成させると、隣接するタイルで文化爆弾が発動する。</Text>
+			<Text>海洋近接戦闘ユニットが沿岸を略奪できるようになる。[NEWLINE]敵ユニットを撃破するとヒットポイントが50回復する。[NEWLINE]友好的な領土に兵営か工業地帯を完成させると、隣接するタイルで文化爆弾が発動する。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION" Language="ja_JP">
 			<Text>海洋近接戦闘ユニットが沿岸を略奪できるようになる。[NEWLINE]聖域および港の建設にかかる時間が半分になる。[NEWLINE]労働者の使用回数制限が通常よりも1回増加。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_TRAIT_LEADER_YNL_TAIHO_DESCRIPTION" Language="ja_JP">
+			<Text>空軍の [ICON_Production] 生産力+50%。[NEWLINE]飛行場/格納庫/空港の [ICON_Production] 生産力+2、空港から [ICON_Culture] 文化力+4。[NEWLINE][ICON_RESOURCE_COPPER] 銅、[ICON_RESOURCE_IRON] 鉄、[ICON_RESOURCE_SILVER] 銀、[ICON_RESOURCE_MERCURY] 水銀から [ICON_Science] 科学力+1。</Text>
+		</Replace>
+		
 		<Replace Tag="LOC_BUILDING_IMP_NAVYYARD_NAME" Language="ja_JP">
 			<Text>帝国海軍工廠</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION" Language="ja_JP">
-			<Text>海の民固有の建造物。この都市で訓練を受けた海洋ユニットの戦闘経験値+25%、港 (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。[ICON_Science] 科学力+2、[ICON_Housing] 住宅+1、[ICON_GreatAdmiral] 大提督ポイント+2。この都市の家船1つごとに [ICON_FOOD] 食料+1。</Text>
+			<Text>大日本帝国(海軍)固有の建造物。この都市で訓練を受けた海洋ユニットの戦闘経験値+25%、港 (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。[ICON_Science] 科学力+2、[ICON_Housing] 住宅+1、[ICON_GreatAdmiral] 大提督ポイント+2。この都市の家船1つごとに [ICON_FOOD] 食料+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_IMP_NAVYYARD_EXPANSION2_DESCRIPTION" Language="ja_JP">
-			<Text>海の民固有の建造物。この都市で訓練を受けた海洋ユニットの戦闘経験値+25%、港 (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。[ICON_Science] 科学力+2、[ICON_Housing] 住宅+1、[ICON_GreatAdmiral] 大提督ポイント+2。この都市の家船1つごとに [ICON_FOOD] 食料+1。この都市の未開発沿岸タイルごとに [ICON_PRODUCTION] 生産力+1。</Text>
+			<Text>大日本帝国(海軍)固有の建造物。この都市で訓練を受けた海洋ユニットの戦闘経験値+25%、港 (区域) の隣接ボーナスと同量の [ICON_Production] 生産力ボーナスを得る。[ICON_Science] 科学力+2、[ICON_Housing] 住宅+1、[ICON_GreatAdmiral] 大提督ポイント+2。この都市の家船1つごとに [ICON_FOOD] 食料+1。この都市の未開発沿岸タイルごとに [ICON_PRODUCTION] 生産力+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_BUILDING_IMP_NAVYYARD_NAME" Language="ja_JP">
-			<Text>海の民固有の建造物: 帝国海軍工廠</Text>
+			<Text>大日本帝国(海軍)固有の建造物: 帝国海軍工廠</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_IMP_NAVYYARD_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>海軍工廠（かいぐんこうしょう）とは、艦船、航空機、各種兵器、弾薬などを開発・製造する海軍直営の軍需工場（工廠）のことである。</Text>
@@ -60,10 +69,10 @@
 			<Text>家船</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION" Language="ja_JP">
-			<Text>労働者が海の民固有の施設である家船を建設できるようになる。[NEWLINE][NEWLINE][ICON_Gold] ゴールド+1、[ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。沿岸と海にのみ建設できる。</Text>
+			<Text>労働者が大日本帝国(海軍)固有の施設である家船を建設できるようになる。[NEWLINE][NEWLINE][ICON_Gold] ゴールド+1、[ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。沿岸と海にのみ建設できる。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_HOUSEBOAT_NAME" Language="ja_JP">
-			<Text>海の民固有の施設: 家船</Text>
+			<Text>大日本帝国(海軍)固有の施設: 家船</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HOUSEBOAT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>家船とは、船舶を停泊させてそこを住宅とするものである。日本では九州北西部、とくに長崎県の沿岸を根拠地とし漂泊的な生活を送っていた漁民集団がかつて存在した。</Text>
@@ -72,11 +81,11 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_BATTLESHIP_NAGATO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>大和型戦艦に次ぐ日本を代表する超弩級戦艦。当時の日本人にとって海軍の象徴たる戦艦で、｢長門と陸奥は日本の誇り、アジアの誉れ｣とまで呼ばれた。一番艦の「長門」は第二次世界大戦を生き抜き、米軍に接収され1946年のクロスロード作戦による原爆の標的艦となる。二発の原爆に耐えるも実験から4日後に沈没。今もなお実験場となったビキニ環礁で眠っている。</Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="ja_JP">
-			<Text>海の民固有のユニット: 長門型戦艦</Text>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="ja_JP">
+			<Text>長門/陸奥固有のユニット: 長門型戦艦</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_DESCRIPTION" Language="ja_JP">
-			<Text>戦艦に取ってかわる海の民固有の近代のユニット。通常の戦艦よりもはるかに強力。[ICON_Movement] 移動力4。駆逐艦が隣接しているときは [ICON_Strength] 戦闘力+10。</Text>
+			<Text>戦艦に取ってかわる長門/陸奥固有の近代のユニット。通常の戦艦よりもはるかに強力。[ICON_Movement] 移動力4。駆逐艦が隣接しているときは [ICON_Strength] 戦闘力+10。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME" Language="ja_JP">
 			<Text>長門型戦艦</Text>
@@ -85,14 +94,27 @@
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
 		</Replace>
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME" Language="ja_JP">
-			<Text>海の民固有のユニット: ながと型ミサイル護衛艦</Text>
+		<Replace Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME" Language="ja_JP">
+			<Text>長門/陸奥固有のユニット: ながと型ミサイル護衛艦</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_DESCRIPTION" Language="ja_JP">
-			<Text>ミサイル巡洋艦に取ってかわる海の民固有の情報時代のユニット。通常のミサイル巡洋艦よりもはるかに強力。長距離攻撃を受けるときに [ICON_Strength] 戦闘力+10。</Text>
+			<Text>ミサイル巡洋艦に取ってかわる長門/陸奥固有の情報時代のユニット。通常のミサイル巡洋艦よりもはるかに強力。長距離攻撃を受けるときに [ICON_Strength] 戦闘力+10。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME" Language="ja_JP">
 			<Text>ながと型ミサイル護衛艦</Text>
 		</Replace>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>日本海軍の航空母艦。昭和14年度海軍軍備拡充計画にて建造された唯一の空母であり、日本の空母としては初めて飛行甲板に装甲を張るなど技術的に最も発達を遂げた艦であった。1944年6月19日のマリアナ沖海戦においてアメリカ海軍の潜水艦の雷撃で損傷した後、航空用ガソリンタンクから漏洩して引火したため、大爆発を起こして沈没した。わずか3カ月の艦歴だった。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_NAME" Language="ja_JP">
+			<Text>大鳳固有のユニット: 大鳳型航空母艦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_DESCRIPTION" Language="ja_JP">
+			<Text>航空母艦に取ってかわる大鳳固有の原子力時代のユニット。[ICON_Strength] 戦闘力+3、航空スロット+1。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_NAME" Language="ja_JP">
+			<Text>大鳳型航空母艦</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

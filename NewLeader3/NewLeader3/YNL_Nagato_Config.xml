@@ -34,6 +34,22 @@
 			<LeaderAbilityIcon>ICON_LEADER_YNL_MUTSU</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_MUTSU</Portrait>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_TAIHO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_TAIHO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_TAIHO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_TAIHO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_TAIHO</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_TAIHO</Portrait>
+		</Row>
 		<!-- Expansion1 Support -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -67,6 +83,22 @@
 			<LeaderAbilityIcon>ICON_LEADER_YNL_MUTSU</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_MUTSU</Portrait>
 		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_TAIHO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_TAIHO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_TAIHO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_TAIHO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_TAIHO</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_TAIHO</Portrait>
+		</Row>
 		<!-- Expansion2 Support -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -99,6 +131,22 @@
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_YNL_MUTSU</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_MUTSU</Portrait>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationIcon>
+			<LeaderName>LOC_LEADER_YNL_TAIHO_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_YNL_TAIHO</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PEOPLESOFTHESEA_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_CIVILIZATION_PEOPLESOFTHESEA_EXPANSION2_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_PEOPLESOFTHESEA</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_YNL_TAIHO_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_YNL_TAIHO_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_YNL_TAIHO</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_TAIHO</Portrait>
 		</Row>
 	</Players>
 	<PlayerItems>
@@ -183,6 +231,36 @@
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
 			<SortIndex>40</SortIndex>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO</Type>
+			<Name>LOC_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>BUILDING_IMP_NAVYYARD</Type>
+			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
+			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>IMPROVEMENT_HOUSEBOAT</Type>
+			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
+			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 		<!-- Expansion1 Support -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -264,6 +342,36 @@
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
 			<SortIndex>40</SortIndex>
 		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO</Type>
+			<Name>LOC_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>BUILDING_IMP_NAVYYARD</Type>
+			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
+			<Description>LOC_BUILDING_IMP_NAVYYARD_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>IMPROVEMENT_HOUSEBOAT</Type>
+			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
+			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
+			<SortIndex>30</SortIndex>
+		</Row>
 		<!-- Expansion2 Support -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -344,6 +452,36 @@
 			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
 			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
 			<SortIndex>40</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO</Type>
+			<Name>LOC_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_NAME</Name>
+			<Description>LOC_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>BUILDING_IMP_NAVYYARD</Type>
+			<Name>LOC_BUILDING_IMP_NAVYYARD_NAME</Name>
+			<Description>LOC_BUILDING_IMP_NAVYYARD_EXPANSION2_DESCRIPTION</Description>
+			<Icon>ICON_BUILDING_IMP_NAVYYARD</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_PEOPLESOFTHESEA</CivilizationType>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Type>IMPROVEMENT_HOUSEBOAT</Type>
+			<Name>LOC_IMPROVEMENT_HOUSEBOAT_NAME</Name>
+			<Description>LOC_IMPROVEMENT_HOUSEBOAT_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_HOUSEBOAT</Icon>
+			<SortIndex>30</SortIndex>
 		</Row>
 	</PlayerItems>
 </GameData>

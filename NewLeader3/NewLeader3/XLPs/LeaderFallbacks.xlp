@@ -18,12 +18,20 @@
 			<m_ObjectName text="FALLBACK_NEUTRAL_YNL_MUTSU"/>
 		</Element>
 		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_YNL_TAIHO"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_YNL_TAIHO"/>
+		</Element>
+		<Element>
 			<m_EntryID text="FALLBACK_DEFEAT_YNL_NAGATO"/>
 			<m_ObjectName text="FALLBACK_DEFEAT_YNL_NAGATO"/>
 		</Element>
 		<Element>
 			<m_EntryID text="FALLBACK_DEFEAT_YNL_MUTSU"/>
 			<m_ObjectName text="FALLBACK_DEFEAT_YNL_MUTSU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_DEFEAT_YNL_TAIHO"/>
+			<m_ObjectName text="FALLBACK_DEFEAT_YNL_TAIHO"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

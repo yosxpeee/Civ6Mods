@@ -32,6 +32,21 @@
 			<Leader>LEADER_YNL_MUTSU</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_YNL_TAIHO</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<Row>
+			<Name>NEUTRAL_NEGATIVE</Name>
+			<Leader>LEADER_YNL_TAIHO</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
+		<Row>
+			<Name>NEUTRAL_POSITIVE</Name>
+			<Leader>LEADER_YNL_TAIHO</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 		<!-- VO Defeat from AI -->
 		<Row>
 			<Name>DEFEAT</Name>
@@ -41,6 +56,11 @@
 		<Row>
 			<Name>DEFEAT</Name>
 			<Leader>LEADER_YNL_MUTSU</Leader>
+			<Sequence>DEFEAT</Sequence>
+		</Row>
+		<Row>
+			<Name>DEFEAT</Name>
+			<Leader>LEADER_YNL_TAIHO</Leader>
 			<Sequence>DEFEAT</Sequence>
 		</Row>
 	</LeaderAnimations>

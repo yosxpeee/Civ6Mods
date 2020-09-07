@@ -18,12 +18,20 @@
 			<m_ObjectName text="LEADER_YNL_MUTSU_NEUTRAL"/>
 		</Element>
 		<Element>
+			<m_EntryID text="LEADER_YNL_TAIHO_NEUTRAL"/>
+			<m_ObjectName text="LEADER_YNL_TAIHO_NEUTRAL"/>
+		</Element>
+		<Element>
 			<m_EntryID text="PORTRAIT_NAGATO"/>
 			<m_ObjectName text="PORTRAIT_NAGATO"/>
 		</Element>
 		<Element>
 			<m_EntryID text="PORTRAIT_MUTSU"/>
 			<m_ObjectName text="PORTRAIT_MUTSU"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_TAIHO"/>
+			<m_ObjectName text="PORTRAIT_TAIHO"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

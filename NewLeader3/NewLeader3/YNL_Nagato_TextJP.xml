@@ -8,21 +8,30 @@
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUTSU_CHAPTER_CAPSULE_BODY" Language="ja_JP">
 			<Text>長門型戦艦二番艦「陸奥」</Text>
 		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAIHO_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>大鳳型航空母艦一番艦「大鳳」</Text>
+		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_NAGATO_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>沿岸、海からの追加ボーナスとユニーク施設の家船で陸地が少ないマップでも各種ボーナスを確保できます。帝国海軍工廠は造船所よりも建造コストが低く、科学力へのボーナスもあります。また、長門級戦艦は通常の戦艦と比べてはるかに強力な能力を持っており、他文明を圧倒できるでしょう。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUTSU_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>沿岸、海からの追加ボーナスとユニーク施設の家船で陸地が少ないマップでも各種ボーナスを確保できます。帝国海軍工廠は造船所よりも建造コストが低く、科学力へのボーナスもあります。また、長門級戦艦は通常の戦艦と比べてはるかに強力な能力を持っており、他文明を圧倒できるでしょう。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAIHO_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>沿岸、海からの追加ボーナスとユニーク施設の家船で陸地が少ないマップでも各種ボーナスを確保できます。帝国海軍工廠は造船所よりも建造コストが低く、科学力へのボーナスもあります。大鳳型航空母艦は通常の空母と比べて少々打たれ強くなっており、搭載数も初期から1つ多くなっています。</Text>
+		</Replace>
+		
 		<!-- Leader specific historical text. -->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_NAGATO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>ブラウザゲーム「艦隊これくしょん」に登場する長門級戦艦一番艦「長門」を擬人化した艦娘。通常建造・通常海域で手に入れることのできる戦艦のなかでは二番艦の「陸奥」と並んで最強を誇る。序盤に運よく建造で迎え入れることができれば、その圧倒的な強さで海域攻略に貢献してくれるだろう。(コストもすごいが・・・)[NEWLINE]イベント海域においても大和型と並び切り札的に扱われることも多く、2017年5月22日のアップデートで実装された改二への改装、2018年11月16日にはネルソンタッチに続く特殊砲撃「一斉射かッ…胸が熱いな！」が実装され、ますますその傾向が強まったといえる。</Text>
+			<Text>ブラウザゲーム「艦隊これくしょん」に登場する長門型戦艦一番艦「長門」を擬人化した艦娘。通常建造・通常海域で手に入れることのできる戦艦のなかでは二番艦の「陸奥」と並んで最強を誇る。序盤に運よく建造で迎え入れることができれば、その圧倒的な強さで海域攻略に貢献してくれるだろう。(コストもすごいが・・・)[NEWLINE]イベント海域においても大和型と並び切り札的に扱われることも多く、2017年5月22日のアップデートで実装された改二への改装、2018年11月16日にはネルソンタッチに続く特殊砲撃「一斉射かッ…胸が熱いな！」が実装され、ますますその傾向が強まったといえる。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_MUTSU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>ブラウザゲーム「艦隊これくしょん」に登場する長門級戦艦二番艦「陸奥」を擬人化した艦娘。通常建造・通常海域で手に入れることのできる戦艦のなかでは一番艦の「長門」と並んで最強を誇る。序盤に運よく建造で迎え入れることができれば、その圧倒的な強さで海域攻略に貢献してくれるだろう。(コストもすごいが・・・)[NEWLINE]イベント海域においても大和型と並び切り札的に扱われることも多い。2019年2月27日のアップデートで改二への改装が実装された。また、長門と同じように特殊砲撃も持っているため、長門との性能差は運が低いことぐらいである。</Text>
+			<Text>ブラウザゲーム「艦隊これくしょん」に登場する長門型戦艦二番艦「陸奥」を擬人化した艦娘。通常建造・通常海域で手に入れることのできる戦艦のなかでは一番艦の「長門」と並んで最強を誇る。序盤に運よく建造で迎え入れることができれば、その圧倒的な強さで海域攻略に貢献してくれるだろう。(コストもすごいが・・・)[NEWLINE]イベント海域においても大和型と並び切り札的に扱われることも多い。2019年2月27日のアップデートで改二への改装が実装された。また、長門と同じように特殊砲撃も持っているため、長門との性能差は運が低いことぐらいである。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YNL_TAIHO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ブラウザゲーム「艦隊これくしょん」に登場する大鳳型航空母艦一番艦「大鳳」を擬人化した艦娘。大型建造で大量のボーキサイトを投入することで建造できる装甲空母。通常の航空母艦と違い中破でも攻撃できることが強みだが、瑞鶴や翔鶴の甲改装が実装されたことにより唯一無二の特徴ではなくなった。とはいえ、加賀ほどではないにしろ艦載機の搭載数も多くその強さは今でも健在である。</Text>
+		</Replace>
+		
 		<!-- Civilization specific historical text. -->
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_PEOPLESOFTHESEA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text></Text>
@@ -121,7 +130,10 @@
 		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_20" Language="ja_JP">
 			<Text>佐伯</Text>
 		</Replace>
-
+		<Replace Tag="LOC_CIVLIZATION_PEOPLESOFTHESEA_CITY_21" Language="ja_JP">
+			<Text>舞鶴</Text>
+		</Replace>
+		
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_NAGATO_QUOTE" Language="ja_JP">
 			<Text>戦艦長門、出撃する！</Text>
@@ -867,13 +879,384 @@
 			<Text>発見とは、早い者勝ちの競争よ。あなたの国は私たちの国をさしおいて探検隊を派遣したわね。そんな国に従うわけにはいかないわ。</Text>
 		</Replace>
 
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>これからは仲良くやっていきましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>またの機会にお願いね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちと正式な友好関係を結ぶことに同意していただけるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>感謝するわね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>そう・・・それは残念ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>七面鳥などとは言わせないわ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>さぁ、やるわ！第六〇一航空隊、発艦始め！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>どんなに装甲しても…沈むときは沈むのね…。でも…今度は暴れて見せたでしょ…？私は…満足…です…。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>どんなに装甲しても…沈むときは沈むのね…。でも…今度は暴れて見せたでしょ…？私は…満足…です…。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>あなたの国からの使節を歓迎するわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>ごめんなさいね、承諾できないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>こちらの使節を受け入れてくれるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>これは素敵ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>それは残念ね。それじゃ、またの機会にね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>そんな脅しなんかなにも恐くはないわ。行動を見せなさい。目的を示しなさい。克己の心を見せてみなさいよ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>道理のわからないおバカさんね。国民にもいずれ知れ渡るわよ。(非難)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>これが大使館の建設許可よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>またの機会にね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちの国の大使館を置いてもらえるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>今日という幸運な日に祝福を。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>それは残念ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>正規空母大鳳です。よろしくお願いしますね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>近くの街へ案内するわ。祝いの式典にぜひ参加していって。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>いいわよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>おや、どちらも遠方の出ですね。お互いの国をお互いの地図に記し合うというのはどうでしょう？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>なにかご用でしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>雄々しく、輝かしい日輪のごとく、あなたは大国を築いたわ。見事なものね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちの国の軍の訓戒には「言行に恥づる勿かりしか」という言葉があるの。あなたもよく覚えておくことね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちの同盟関係に祝福がありますように。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>ごめんなさいね、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>同盟を希望するの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>これはありがたいわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_ALLIANCE_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>それは残念ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ACCEPT_DEAL_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>いいわ。喜んで取引に応じましょう。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_REFUSE_DEAL_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>この取引には応じられないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>ありがとう。これによって互いに利益があるはずよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>正直なところ、失望したわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_DEAL_AI_ADJUST_DEAL_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>こちらの希望にかなう取引よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_REFUSE_DEMAND_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>そちらの要求に得るところはないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_AI_ACCEPT_DEMAND_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>承諾の返事、受け取ってね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_ACCEPT_DEMAND_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>要求を呑むとは、賢明な判断ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_HUMAN_REFUSE_DEMAND_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>・・・どんな手を使っててでも要求を通してみせるわ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>平和の申し出、お受けするわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>この状況で和平？そんなものは受け入れられないわ！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>ちょっとよろしいですか？和平を結びたいのですが・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_PEACE_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>これで戦争は終わりね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_PEACE_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>そうですか・・・それでは、仕方ありませんね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちの国へ自由に出入りしてもらって結構ですよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>ごめんなさい、またの機会に。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>領内の通行を許可していただけるかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>これは素敵ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>それは残念ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>ごめんなさい。そんな近くに都市があるなんて知らなかったわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちも土地が必要なのです。勝手なことを言わないでもらえないでしょうか？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_AI_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちのすぐそばに都市を作らないでいただけますか？土地を求めるなら他の場所にしていただきたいです。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_DONT_SETTLE_NEAR_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちに敬意を払わない国にどうして敬意を払えというのでしょう？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>ごめんなさいね。蛮族を探していただけなの。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>あちこちに軍隊を派遣するのが好きなの。自分の強さを誇示できるから、ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>あなたたちの言うとおりね。こんな手に訴えたことを後悔しているわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_AI_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>・・・そんな約束、真に受けると思ってるの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>この土地があなたの国のものだとは知らなかったわ。単純な手違いよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_AI_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>歴史の謎は万人に開示されるべきよ。独占は許されないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>あなたの国の希望は尊重するわ。でも、それは間違いよ。いつかわかってほしいのだけど。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_AI_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>心配はいらないわ。これが一番なのよ。あなたにもいずれわかるときが来るわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>国境のすぐそばに兵を動かしたわね。私たちの国の美しい田園風景を楽しんでいるだけだといいのだけど。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>・・・たいしたものね。私たちの国に送ったスパイを今すぐ引き上げさせなさい！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_SPYING_ON_ME_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>この侮辱、絶対に忘れないわ。よく憶えておくことね・・・</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たち国の文化や歴史を盗むなんて、どういうつもりなのかしら。いますぐ出て行ってもらうわ！！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_DIGGING_UP_ARTIFACTS_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>私たちの国を尊重してもらえないのなら、あなたたちの国を尊重することもできないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>あなたの国の宗教家はやり方が強引で評判が悪いと聞いているの。いますぐ立ち退いてもらえないかしら。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_POSITIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>了解よ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_STOP_CONVERTING_MY_CITIES_HUMAN_RESPONSE_NEGATIVE_LEADER_YNL_TAIHO_ANY" Language="ja_JP">
+			<Text>・・・覚悟しておくことね。いずれ必ず報いがあるわ。</Text>
+		</Replace>
+		<!-- Generic kudos for random agendas -->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_CULTURE" Language="ja_JP">
+			<Text>あなたの民が作り出している他に類を見ない文化には感銘を受けたわ。やるじゃない・・・。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_HAPPINESS" Language="ja_JP">
+			<Text>あなたの民はあなたの統治を祝福していると聞いたわ。民の幸福を維持するのは素晴らしいことね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_INCOME" Language="ja_JP">
+			<Text>あなたの国は実に豊かな富に恵まれているようね。お金はいくらあっても困るものではない、ということかしらね？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国の人たちの生産力には感心するばかりよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_MODIFIER_NOT_COMPETING_MINORS" Language="ja_JP">
+			<Text>都市国家のような小国にとって、私たちの国ほどふさわしい友人はいないわ。あなたの国にもそれを理解してもらえているようでなによりね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_POPULATION" Language="ja_JP">
+			<Text>あなたが抱える人口の多さは賞賛に値するわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>あなたの文明の科学研究に対する入れ込みようは大したもね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_STANDING_ARMY" Language="ja_JP">
+			<Text>私は強力な軍隊を持つ指導者が好きよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_ENJOYS_WAR" Language="ja_JP">
+			<Text>文明の真価が発揮されるのは戦いにおいて。どこが最強の文明か、はっきりさせようじゃない！</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="ja_JP">
+			<Text>嬉しいことに、世の偉大な人物たちは、あなたの国よりも私たちの国のほうを高く評価してくれているようね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LAG" Language="ja_JP">
+			<Text>あら、遺産の建設は私たちに任せてもらえるのね。賢明な判断に感謝するわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>都市国家の権利を守ろうとするあなたの姿勢、みんなのお手本ね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_MED_PROTECT_CITY_STATES" Language="ja_JP">
+			<Text>強きは弱きを守るべきよ。賛同してくれて嬉しく思うわ。</Text>
+		</Replace>
+		<!--Kudos for future random agendas (not yet implemented)-->
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_AIRPOWER" Language="ja_JP">
+			<Text>あなたの空軍の力はまったくもってあなどれないわ。大したものね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_PROTECTS_CITY_STATES" Language="ja_JP">
+			<Text>自らの面倒を見れない者を助けるのは、高貴な行いよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_CLEARS_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>あの蛮族たちはこちらも迷惑だったの。手助けに感謝するわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>このかけがえのない大地の貴さを知る人々が私たちのほかにもいるのね。嬉しい話だわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>世界は人が活用するためにある。「求めよ、さらば与えられん！」・・・ふふっ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_SAME_GOVERNMENT" Language="ja_JP">
+			<Text>私たちは志を同じくする仲間のようね。そちらの政治体制を尊重するわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_NUKE_LOVE" Language="ja_JP">
+			<Text>偉大な指導者は同じことを考える、そういうことかしらね。あの技術には多くの使い道があるわね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_FAITH" Language="ja_JP">
+			<Text>あなたとあなたの民に平穏がもたらされんことを。自分と同じように信心深い者と出会えるのは喜ばしいわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_EXPLORATION" Language="ja_JP">
+			<Text>たいへん結構よ。探検はこちらに任せて。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_YNL_TAIHO_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたが我々に脅威を与えないと知り、安心したわ。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_CULTURE" Language="ja_JP">
+			<Text>あなたの国は偉大な文化を生みだそうという熱意に欠けているわね。これではどうやってあなたの国の人々のことを記憶に留めればよいのかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_HAPPINESS" Language="ja_JP">
+			<Text>市民たちのためにもう少し快適性を増やそうとは思わないの？皆があなたのの統治に満足しているとは思えないわよ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_INCOME" Language="ja_JP">
+			<Text>あらあらあら・・・今にも破産しそうじゃない。借金にまみれて暮らしていくつもりなの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_MODIFIER_COMPETING_MINORS" Language="ja_JP">
+			<Text>あなたの国は都市国家との関係が浅くないようね。できればそうした振る舞いは控えてもらいたいわ。私たちの国こそが、ああした国々との友好を深めるにふさわしいと思うのよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_INDUSTRY" Language="ja_JP">
+			<Text>あなたの国はずいぶんと怠け者が多いようね。なにも生みだせない文明はそのうち人々の記憶から消えてしまうわよ？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_POPULATION" Language="ja_JP">
+			<Text>あなたの国は極端な人口不足に陥っているわね。それではほとんどなにもすることができないんじゃないかしら。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_SCIENCE" Language="ja_JP">
+			<Text>あなたの国は技術研究に熱心ではないみたいね。それでどうやって人々の暮らしを豊かにできるの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_STANDING_ARMY" Language="ja_JP">
+			<Text>そんなにささやかな軍隊しか持たずに、不安を感じることはないの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_PARANOID" Language="ja_JP">
+			<Text>あなたの国の都市は我が国にあまりに近く、あまりに強いわ。これではこちらも心穏やかではいられなくなると思わない？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>多くの偉人を集めているようね・・・。あまり余計なことはしないでほしいわ。偉人は私たちの文明にこそふさわしいのよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_MODIFIER_WONDER_ADVOCATE_LEAD" Language="ja_JP">
+			<Text>遺産の建設にかけては私たちの右に出る者はいないということをご存じないのかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_ATTACK_CITY_STATES" Language="ja_JP">
+			<Text>弱きを叩くは臆病者のすること。私たちの国にとってあなたの国は何の価値もないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_MED_ATACK_CITY_STATES" Language="ja_JP">
+			<Text>これは警告だと思ってほしいわ。今後は二度と弱い国を襲わないことね。</Text>
+		</Replace>
+		<!-- Generic warnings for random agendas -->
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_AIRPOWER" Language="ja_JP">
+			<Text>地面を這い回るだけでは栄光をつかむことはできないわ。航空戦力の整備を急ぐことをおすすめするわよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_ATTACKS_CITY_STATES" Language="ja_JP">
+			<Text>弱者をいたぶるのは恥ずべきことね。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_IGNORES_BARBARIAN_CAMPS" Language="ja_JP">
+			<Text>自分の首都の近くであのように蛮族たちをのさばらせていいのかしら？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_ENVIRONMENT" Language="ja_JP">
+			<Text>これだけは言っておきたいわ。いたずらに自然を傷つければ誰もが報いを受けることになる。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_EXPLOITATION" Language="ja_JP">
+			<Text>周囲に広がる肥沃な土地に、なぜ手をつけようとしないの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_DIFFERENT_GOVERNMENT" Language="ja_JP">
+			<Text>思想の違いもそうだけど、あなたの民を統治するやり方は私にとって許容できるものではないわ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_NUKE_LOVE" Language="ja_JP">
+			<Text>核兵器こそが未来を切り開くのよ！なぜそれがわからないの？</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_LOW_FAITH" Language="ja_JP">
+			<Text>あなたは何を道標に歩んでいくのかしら？まさか信心を持たないということは・・・ないわよね？人々に信仰の光を見せるのも統治者の務めよ。</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_LEADER_YNL_TAIHO_REASON_AGENDA_HIGH_EXPLORATION" Language="ja_JP">
+			<Text>発見とは、早い者勝ちの競争よ。あなたの国は私たちの国をさしおいて探検隊を派遣したわね。そんな国に従うわけにはいかないわ。</Text>
+		</Replace>
+		
 		<Replace Tag="LOC_LEADER_YNL_NAGATO_DOM_TEXT" Language="ja_JP">
 			<Text>八八艦隊計画の第一号艦として生まれた、長門型戦艦のネームシップ、長門だ。大和型が就役するまで、連合艦隊旗艦も務めていたさ。世界のビッグ７と云われてもいたな。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_MUTSU_DOM_TEXT" Language="ja_JP">
 			<Text>長門型戦艦の2番艦として生まれた陸奥よ。もちろん、世界のビッグ7の一艦になるわね。え？主砲火薬庫爆発事故？まあ、隠してもしょうがないわね。今度は大丈夫よ！</Text>
 		</Replace>
-
+		<Replace Tag="LOC_LEADER_YNL_TAIHO_DOM_TEXT" Language="ja_JP">
+			<Text>航空母艦「大鳳」です。飛行甲板まで十分な防御を施された最新鋭の正規空母です。密閉型の格納庫も素敵でしょ？え？ガスが溜りやすい…ですって…失礼しちゃう。こ、今度は絶対に大丈夫！</Text>
+		</Replace>
+		
 		<Replace Tag="LOC_ABILITY_BATTLESHIP_NAGATO_NAME" Language="ja_JP">
 			<Text>駆逐艦好き</Text>
 		</Replace>

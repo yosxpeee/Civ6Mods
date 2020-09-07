@@ -8,6 +8,14 @@
 			<Where TraitType="TRAIT_CIVILIZATION_PEOPLESOFTHESEA"/>
 		</Update>
 	</Traits>
+	<!-- 建造物 -->
+	<!-- 説明文の書き換え -->
+	<Buildings>
+		<Update>
+			<Set Description="LOC_BUILDING_IMP_NAVYYARD_EXPANSION2_DESCRIPTION"/>
+			<Where BuildingType="BUILDING_IMP_NAVYYARD"/>
+		</Update>
+	</Buildings>
 	<!-- 効果 -->
 	<TraitModifiers>
 		<Row>
@@ -39,6 +47,12 @@
 			<Where UnitType="UNIT_UNIQUE_MISSILE_CRUISER_NAGATO"/>
 			<Set>
 				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO"/>
+			<Set>
+				<StrategicResource/>
 			</Set>
 		</Update>
 	</Units>

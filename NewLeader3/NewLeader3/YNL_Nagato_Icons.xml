@@ -18,13 +18,21 @@
 		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU64"/>
 		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU80"/>
 		<Row Name="ICON_ATLAS_YNL_MUTSU_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_MUTSU256"/>
+		<!-- 大鳳 -->
+		<Row Name="ICON_ATLAS_YNL_TAIHO_LEADER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TAIHO32"/>
+		<Row Name="ICON_ATLAS_YNL_TAIHO_LEADER" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TAIHO45"/>
+		<Row Name="ICON_ATLAS_YNL_TAIHO_LEADER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TAIHO50"/>
+		<Row Name="ICON_ATLAS_YNL_TAIHO_LEADER" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TAIHO55"/>
+		<Row Name="ICON_ATLAS_YNL_TAIHO_LEADER" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TAIHO64"/>
+		<Row Name="ICON_ATLAS_YNL_TAIHO_LEADER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TAIHO80"/>
+		<Row Name="ICON_ATLAS_YNL_TAIHO_LEADER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YNL_TAIHO256"/>
 		
 		<!-- 文明 -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS22.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS30.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS36.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS44.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS45.dds"/><!--Baked in color-->
+		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS45.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS48.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS50.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="CIV_YNL_POTS64.dds"/>
@@ -55,19 +63,20 @@
 		<Row Name="ICON_CIVILIZATION_PEOPLESOFTHESEA" Atlas="ICON_ATLAS_CIVILIZATION_PEOPLESOFTHESEA" Index="0"/>
 		<Row Name="ICON_LEADER_YNL_NAGATO"            Atlas="ICON_ATLAS_YNL_NAGATO_LEADER"            Index="0"/>
 		<Row Name="ICON_LEADER_YNL_MUTSU"             Atlas="ICON_ATLAS_YNL_MUTSU_LEADER"             Index="0"/>
+		<Row Name="ICON_LEADER_YNL_TAIHO"             Atlas="ICON_ATLAS_YNL_TAIHO_LEADER"             Index="0"/>
 		<!-- UU -->
-		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_WHITE"                      Atlas="ICON_ATLAS_UNIT_YNL_UNIQUE_BATTLESHIP_NAGATO_FLAG_SYMBOLS_WHITE" Index="0" />
-		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_BLACK"                      Atlas="ICON_ATLAS_UNIT_YNL_UNIQUE_BATTLESHIP_NAGATO_FLAG_SYMBOLS_BLACK" Index="0" />
-		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO"                            Atlas="ICON_ATLAS_UNITS_UNIQUE_BATTLESHIP_NAGATO"                       Index="0" />
-		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_FOW"                        Atlas="ICON_ATLAS_UNITS_UNIQUE_BATTLESHIP_NAGATO_FOW"                   Index="0"/>
-		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                                     Index="7"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"                               Index="7"/>
-		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"                       Index="7"/>
-		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2"                      Index="7"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"                             Index="7"/>
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_WHITE"                           Atlas="ICON_ATLAS_UNIT_YNL_UNIQUE_BATTLESHIP_NAGATO_FLAG_SYMBOLS_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_BLACK"                           Atlas="ICON_ATLAS_UNIT_YNL_UNIQUE_BATTLESHIP_NAGATO_FLAG_SYMBOLS_BLACK" Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO"                                 Atlas="ICON_ATLAS_UNITS_UNIQUE_BATTLESHIP_NAGATO"                       Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_FOW"                             Atlas="ICON_ATLAS_UNITS_UNIQUE_BATTLESHIP_NAGATO_FOW"                   Index="0"/>
+		<Row Name="ICON_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"                        Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                                     Index="7"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"                               Index="7"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"        Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"                       Index="7"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"      Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2"                      Index="7"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_UNIQUE_BATTLESHIP_NAGATO_PORTRAIT"      Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"                             Index="7"/>
 
-		<Row Name="ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_WHITE"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="93" />
-		<Row Name="ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_BLACK"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="93" />
+		<Row Name="ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_WHITE"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="93"/>
+		<Row Name="ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_BLACK"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="93"/>
 		<Row Name="ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO"                            Atlas="ICON_ATLAS_UNITS"                           Index="93"/>
 		<Row Name="ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_FOW"                        Atlas="ICON_ATLAS_UNITS_FOW"                       Index="93"/>
 		<Row Name="ICON_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="27"/>
@@ -75,6 +84,16 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="27"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="27"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="27"/>
+
+		<Row Name="ICON_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_WHITE"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"         Index="84"/>
+		<Row Name="ICON_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_BLACK"                      Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"         Index="84"/>
+		<Row Name="ICON_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO"                            Atlas="ICON_ATLAS_UNITS"                           Index="84"/>
+		<Row Name="ICON_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_FOW"                        Atlas="ICON_ATLAS_UNITS_FOW"                       Index="84"/>
+		<Row Name="ICON_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"                Index="18"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS_2"          Index="18"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="18"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="18"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="18"/>
 		<!-- UB -->
 		<Row Name="ICON_BUILDING_IMP_NAVYYARD" Atlas="ICON_ATLAS_BUILDINGS" Index="22"/>
 		<!-- Unique Improvement -->

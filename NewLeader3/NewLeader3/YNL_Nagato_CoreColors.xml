@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
 	<Colors>
+		<!-- 長門 -->
 		<Row>
 			<Type>COLOR_PLAYER_YNL_NAGATO_PRIMARY</Type>
 			<Color>247,118,0,255</Color>
@@ -9,6 +10,7 @@
 			<Type>COLOR_PLAYER_YNL_NAGATO_SECONDARY</Type>
 			<Color>251,234,220,255</Color>
 		</Row>
+		<!-- 陸奥 -->
 		<Row>
 			<Type>COLOR_PLAYER_YNL_MUTSU_PRIMARY</Type>
 			<Color>250,50,50,255</Color>
@@ -16,6 +18,15 @@
 		<Row>
 			<Type>COLOR_PLAYER_YNL_MUTSU_SECONDARY</Type>
 			<Color>251,234,220,255</Color>
+		</Row>
+		<!-- 大鳳 -->
+		<Row>
+			<Type>COLOR_PLAYER_YNL_TAIHO_PRIMARY</Type>
+			<Color>65,64,60,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_YNL_TAIHO_SECONDARY</Type>
+			<Color>189,164,159,255</Color>
 		</Row>
 	</Colors>
 </GameInfo>

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<Row Type="LEADER_YNL_NAGATO" Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_YNL_NAGATO" Kind="KIND_TRAIT"/>
-		<Row Type="LEADER_YNL_MUTSU"  Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_YNL_MUTSU"  Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_YNL_NAGATO"                               Kind="KIND_LEADER" />
+		<Row Type="LEADER_YNL_MUTSU"                                Kind="KIND_LEADER" />
+		<Row Type="LEADER_YNL_TAIHO"                                Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_YNL_NAGATO"                         Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_YNL_MUTSU"                          Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_YNL_TAIHO"                          Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO"      Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO" Kind="KIND_TRAIT" />
 	</Types>
 	<Leaders>
 		<Row>
@@ -19,57 +24,176 @@
 			<Sex>Female</Sex>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<Row>
+			<LeaderType>LEADER_YNL_TAIHO</LeaderType>
+			<Name>LOC_LEADER_YNL_TAIHO_NAME</Name>
+			<Sex>Female</Sex>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_YNL_NAGATO" Quote="LOC_LEADER_YNL_NAGATO_QUOTE"/>
 		<Row LeaderType="LEADER_YNL_MUTSU"  Quote="LOC_LEADER_YNL_MUTSU_QUOTE"/>
+		<Row LeaderType="LEADER_YNL_TAIHO"  Quote="LOC_LEADER_YNL_TAIHO_QUOTE"/>
 	</LeaderQuotes>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_YNL_NAGATO" AgendaType="AGENDA_YNL_GOSEI"/>
 		<Row LeaderType="LEADER_YNL_MUTSU"  AgendaType="AGENDA_YNL_GOSEI"/>
+		<Row LeaderType="LEADER_YNL_TAIHO"  AgendaType="AGENDA_YNL_GOSEI"/>
 	</HistoricalAgendas>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_YNL_NAGATO"/>
 		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
-		
+		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO"/>
+		<Row LeaderType="LEADER_YNL_NAGATO" TraitType="TRAIT_LEADER_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO"/>
+
 		<Row LeaderType="LEADER_YNL_MUTSU"  TraitType="TRAIT_LEADER_YNL_MUTSU"/>
 		<Row LeaderType="LEADER_YNL_MUTSU"  TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_YNL_MUTSU"  TraitType="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO"/>
+		<Row LeaderType="LEADER_YNL_MUTSU"  TraitType="TRAIT_LEADER_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO"/>
+
+		<Row LeaderType="LEADER_YNL_TAIHO"  TraitType="TRAIT_LEADER_YNL_TAIHO"/>
+		<Row LeaderType="LEADER_YNL_TAIHO"  TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_YNL_TAIHO"  TraitType="TRAIT_LEADER_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO"/>
 	</LeaderTraits>
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" Name="LOC_TRAIT_LEADER_YNL_NAGATO_NAME" Description="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION"/>
-		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  Name="LOC_TRAIT_LEADER_YNL_MUTSU_NAME"  Description="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_YNL_NAGATO"                         Name="LOC_TRAIT_LEADER_YNL_NAGATO_NAME"                           Description="LOC_TRAIT_LEADER_YNL_NAGATO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"                          Name="LOC_TRAIT_LEADER_YNL_MUTSU_NAME"                            Description="LOC_TRAIT_LEADER_YNL_MUTSU_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"                          Name="LOC_TRAIT_LEADER_YNL_TAIHO_NAME"                            Description="LOC_TRAIT_LEADER_YNL_TAIHO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO"      Name="LOC_TRAIT_LEADER_UNIT_UNIQUE_BATTLESHIP_NAGATO_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO" Name="LOC_TRAIT_LEADER_UNIT_UNIQUE_MISSILE_CRUISER_NAGATO_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO" Name="LOC_TRAIT_LEADER_UNIT_UNIQUE_AIRCRAFT_CARRIER_TAIHO_NAME"/>
 	</Traits>
 	<TraitModifiers>
+		<!-- 長門 -->
+		<!-- 陸上近接ユニットが沿岸略奪可能になる -->
+		<!-- ユニットを倒すとHP50回復 -->
+		<!-- 兵営、工業地帯建造で文化爆弾 -->
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="HEAL_AFTER_DEFEATING_UNIT_NAGATO"/>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT_NAGATO"/>
 		<Row TraitType="TRAIT_LEADER_YNL_NAGATO" ModifierId="TRAIT_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE_NAGATO"/>
-		
+		<!-- 陸奥 -->
+		<!-- 陸上近接ユニットが沿岸略奪可能になる -->
+		<!-- 聖地、港の建造コスト半分 -->
+		<!-- 労働者の行動回数+1 -->
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_GRANT_COASTAL_RAID_ABILITY"/>
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_BOOST_HOLY_SITE_PRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU"/>
 		<Row TraitType="TRAIT_LEADER_YNL_MUTSU"  ModifierId="TRAIT_ADJUST_BUILDER_CHARGES"/>
+		<!-- 大鳳 -->
+		<!-- 空軍の生産力+50% -->
+		<!-- 飛行場から生産力+2、格納庫の生産力+2、空港の生産力+2、文化力+4 -->
+		<!-- 銅、鉄、銀、水銀から科学力+1 -->
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_MODERN_AIRFIGHTER_PRODUCTION_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_ATOMIC_AIRFIGHTER_PRODUCTION_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_INFORMATION_AIRFIGHTER_PRODUCTION_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_MODERN_AIRBOMBER_PRODUCTION_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_ATOMIC_AIRBOMBER_PRODUCTION_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_INFORMATION_AIRBOMBER_PRODUCTION_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_ADJUST_PRODUCTION_AERODROME_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_ADJUST_PRODUCTION_HANGER_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_ADJUST_PRODUCTION_AIRPORT_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_ADJUST_CULTURE_AIRPORT_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_COPPER_SCIENCE_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_IRON_SCIENCE_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_SILVER_SCIENCE_TAIHO"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TAIHO"  ModifierId="TRAIT_MERCURY_SCIENCE_TAIHO"/>
 	</TraitModifiers>
 	<Modifiers>
+		<!-- 港の建造コスト半分 -->
 		<Row>
 			<ModifierId>TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
 		</Row>
+		<!-- ユニットを倒すとHP50回復 -->
 		<Row>
 			<ModifierId>HEAL_AFTER_DEFEATING_UNIT_NAGATO</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
-<!--			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_FROM_COMBAT</ModifierType>-->
 		</Row>
+		<!-- 兵営建造で文化爆弾 -->
 		<Row>
 			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT_NAGATO</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
 		</Row>
+		<!-- 工業地帯建造で文化爆弾 -->
 		<Row>
 			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE_NAGATO</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
 		</Row>
+		<!-- 空軍の生産力+50% -->
+		<Row>
+			<ModifierId>TRAIT_MODERN_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<!-- 飛行場から生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_AERODROME_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_AERODROME_TAIHO</SubjectRequirementSetId>
+		</Row>
+		<!-- 格納庫の生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_HANGER_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- 空港の生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_AIRPORT_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- 空港から文化力+4 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CULTURE_AIRPORT_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- 銅から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_COPPER_SCIENCE_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COPPER_REQUIREMENTS_TAIHO</SubjectRequirementSetId>
+		</Row>
+		<!-- 鉄から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_IRON_SCIENCE_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_IRON_REQUIREMENTS_TAIHO</SubjectRequirementSetId>
+		</Row>
+		<!-- 銀から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_SILVER_SCIENCE_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SILVER_REQUIREMENTS_TAIHO</SubjectRequirementSetId>
+		</Row>
+		<!-- 水銀から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_MERCURY_SCIENCE_TAIHO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MERCURY_REQUIREMENTS_TAIHO</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 港の建造コスト半分 -->
 		<Row>
 			<ModifierId>TRAIT_BOOST_HARBOR_PRODUCTION_MUTSU</ModifierId>
 			<Name>DistrictType</Name>
@@ -80,23 +204,318 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
+		<!-- ユニットを倒すとHP50回復 -->
 		<Row>
 			<ModifierId>HEAL_AFTER_DEFEATING_UNIT_NAGATO</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_NAGATO_HEAL_AFTER_DEFEATING_UNIT</Value>
 		</Row>
+		<!-- 兵営建造で文化爆弾 -->
 		<Row>
 			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT_NAGATO</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_ENCAMPMENT</Value>
 		</Row>
+		<!-- 工業地帯建造で文化爆弾 -->
 		<Row>
 			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE_NAGATO</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
 		</Row>
+		<!-- 空軍の生産力+50% -->
+		<Row>
+			<ModifierId>TRAIT_MODERN_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_FIGHTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_FIGHTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_FIGHTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_AIRFIGHTER_PRODUCTION_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_BOMBER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_BOMBER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_AIR_BOMBER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_AIRBOMBER_PRODUCTION_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- 飛行場から生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_AERODROME_TAIHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_AERODROME_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 格納庫の生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_HANGER_TAIHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HANGAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_HANGER_TAIHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_HANGER_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 空港の生産力+2 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_AIRPORT_TAIHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_AIRPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_AIRPORT_TAIHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_PRODUCTION_AIRPORT_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 空港から文化力+4 -->
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CULTURE_AIRPORT_TAIHO</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_AIRPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CULTURE_AIRPORT_TAIHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_CULTURE_AIRPORT_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- 銅から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_COPPER_SCIENCE_TAIHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_COPPER_SCIENCE_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 鉄から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_IRON_SCIENCE_TAIHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_IRON_SCIENCE_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 銀から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_SILVER_SCIENCE_TAIHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SILVER_SCIENCE_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 水銀から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_MERCURY_SCIENCE_TAIHO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MERCURY_SCIENCE_TAIHO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
-
+	<!-- 条件 -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_AERODROME_TAIHO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_COPPER_REQUIREMENTS_TAIHO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_IRON_REQUIREMENTS_TAIHO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_SILVER_REQUIREMENTS_TAIHO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MERCURY_REQUIREMENTS_TAIHO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_AERODROME_TAIHO</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_AERODROME_TAIHO</RequirementId>
+		</Row>
+		<!-- 銅タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_COPPER_REQUIREMENTS_TAIHO</RequirementSetId>
+			<RequirementId>REQUIRES_COPPER_IN_PLOT_TAIHO</RequirementId>
+		</Row>
+		<!-- 鉄タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_IRON_REQUIREMENTS_TAIHO</RequirementSetId>
+			<RequirementId>REQUIRES_IRON_IN_PLOT_TAIHO</RequirementId>
+		</Row>
+		<!-- 銀タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_SILVER_REQUIREMENTS_TAIHO</RequirementSetId>
+			<RequirementId>REQUIRES_SILVER_IN_PLOT_TAIHO</RequirementId>
+		</Row>
+		<!-- 水銀タイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_MERCURY_REQUIREMENTS_TAIHO</RequirementSetId>
+			<RequirementId>REQUIRES_MERCURY_IN_PLOT_TAIHO</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_AERODROME_TAIHO</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_COPPER_IN_PLOT_TAIHO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_IRON_IN_PLOT_TAIHO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_SILVER_IN_PLOT_TAIHO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_MERCURY_IN_PLOT_TAIHO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_DISTRICT_IS_AERODROME_TAIHO</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_COPPER_IN_PLOT_TAIHO</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COPPER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_IRON_IN_PLOT_TAIHO</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_SILVER_IN_PLOT_TAIHO</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SILVER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_MERCURY_IN_PLOT_TAIHO</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_MERCURY</Value>
+		</Row>
+	</RequirementArguments>
+	<!-- AIの設定 -->
 	<AiListTypes>
 		<Row ListType="YNL_NagatoWonders"/>
 		<Row ListType="YNL_NagatoCivics"/>
@@ -107,6 +526,11 @@
 		<Row ListType="YNL_MutsuCivics"/>
 		<Row ListType="YNL_MutsuTechs"/>
 		<Row ListType="YNL_MutsuHarborDistrict"/>
+
+		<Row ListType="YNL_TaihoWonders"/>
+		<Row ListType="YNL_TaihoCivics"/>
+		<Row ListType="YNL_TaihoTechs"/>
+		<Row ListType="YNL_TaihoHarborAerodromeDistrict"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- Buildings -->
@@ -126,6 +550,15 @@
 		<Row ListType="YNL_MutsuTechs"           LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Technologies"/>
 		<!-- District -->
 		<Row ListType="YNL_MutsuHarborDistrict"  LeaderType="TRAIT_LEADER_YNL_MUTSU" System="Districts"/>
+
+		<!-- Buildings -->
+		<Row ListType="YNL_TaihoWonders"         LeaderType="TRAIT_LEADER_YNL_TAIHO" System="Buildings"/>
+		<!-- Civics -->
+		<Row ListType="YNL_TaihoCivics"          LeaderType="TRAIT_LEADER_YNL_TAIHO" System="Civics"/>
+		<!-- Techs -->
+		<Row ListType="YNL_TaihoTechs"           LeaderType="TRAIT_LEADER_YNL_TAIHO" System="Technologies"/>
+		<!-- District -->
+		<Row ListType="YNL_TaihoHarborAerodromeDistrict"  LeaderType="TRAIT_LEADER_YNL_TAIHO" System="Districts"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Buildings -->
@@ -169,14 +602,39 @@
 		<Row ListType="YNL_MutsuTechs"           Item="TECH_ELECTRICITY"/>
 		<!-- District -->
 		<Row ListType="YNL_MutsuHarborDistrict"  Item="DISTRICT_HARBOR" Favored="true"/>
+
+		<!-- Buildings -->
+		<Row ListType="YNL_TaihoWonders"         Item="BUILDING_STONEHENGE"/>
+		<Row ListType="YNL_TaihoWonders"         Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="YNL_TaihoWonders"         Item="BUILDING_COLOSSUS"/>
+		<Row ListType="YNL_TaihoWonders"         Item="BUILDING_GREAT_LIGHTHOUSE"/>
+		<Row ListType="YNL_TaihoWonders"         Item="BUILDING_VENETIAN_ARSENAL"/>
+		<!-- Civics -->
+		<Row ListType="YNL_TaihoCivics"          Item="CIVIC_NAVAL_TRADITION"/>
+		<Row ListType="YNL_TaihoCivics"          Item="CIVIC_MOBILIZATION"/>
+		<Row ListType="YNL_TaihoCivics"          Item="CIVIC_NATIONALISM"/>
+		<Row ListType="YNL_TaihoCivics"          Item="CIVIC_MERCANTILISM"/>
+		<!-- Techs -->
+		<Row ListType="YNL_TaihoTechs"           Item="TECH_SAILING"/>
+		<Row ListType="YNL_TaihoTechs"           Item="TECH_SHIPBUILDING"/>
+		<Row ListType="YNL_TaihoTechs"           Item="TECH_SQUARE_RIGGING"/>
+		<Row ListType="YNL_TaihoTechs"           Item="TECH_STEEL"/>
+		<Row ListType="YNL_TaihoTechs"           Item="TECH_STEAM_POWER"/>
+		<Row ListType="YNL_TaihoTechs"           Item="TECH_FLIGHT"/>
+		<Row ListType="YNL_TaihoTechs"           Item="TECH_COMBINED_ARMS"/>
+		<!-- District -->
+		<Row ListType="YNL_TaihoHarborAerodromeDistrict"  Item="DISTRICT_HARBOR"    Favored="true"/>
+		<Row ListType="YNL_TaihoHarborAerodromeDistrict"  Item="DISTRICT_AERODROME" Favored="true"/>
 	</AiFavoredItems>
 
 	<DiplomacyInfo>
 		<Row Type="LEADER_YNL_NAGATO" BackgroundImage="Background_DiplomcayInfo_Nagato.dds"/>
 		<Row Type="LEADER_YNL_MUTSU"  BackgroundImage="Background_DiplomcayInfo_Mutsu.dds"/>
+		<Row Type="LEADER_YNL_TAIHO"  BackgroundImage="Background_DiplomcayInfo_Taiho.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_YNL_NAGATO" BackgroundImage="Background_LoadingInfo_Nagato.dds" ForegroundImage="Foreground_LoadingInfo_Nagato.dds" LeaderText="LOC_LEADER_YNL_NAGATO_DOM_TEXT" PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_YNL_MUTSU"  BackgroundImage="Background_LoadingInfo_Mutsu.dds"  ForegroundImage="Foreground_LoadingInfo_Mutsu.dds"  LeaderText="LOC_LEADER_YNL_MUTSU_DOM_TEXT"  PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_YNL_TAIHO"  BackgroundImage="Background_LoadingInfo_Taiho.dds"  ForegroundImage="Foreground_LoadingInfo_Taiho.dds"  LeaderText="LOC_LEADER_YNL_TAIHO_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>
