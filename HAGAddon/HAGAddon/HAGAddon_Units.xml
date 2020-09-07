@@ -225,7 +225,7 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_CVL_NAME" Description="LOC_UNIT_HAGA_CVL_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_FLIGHT" AirSlots="1"/>
 		<!-- 原子力空母 -->
-		<Row UnitType="UNIT_HAGA_CVN" Cost="680" Maintenance="8" BaseMoves="3" BaseSightRange="2" 
+		<Row UnitType="UNIT_HAGA_CVN" Cost="680" Maintenance="8" BaseMoves="4" BaseSightRange="3" 
 			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="70" RangedCombat="70" Range="2" 
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_CARRIER" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_CVN_NAME" Description="LOC_UNIT_HAGA_CVN_DESCRIPTION" 
