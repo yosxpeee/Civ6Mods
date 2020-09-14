@@ -983,7 +983,7 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects:ArtDefReferenceValue">
-										<m_ElementName text="UnitMember_U_Byzantium_Dromon"/>
+										<m_ElementName text="UnitMember_Galleass"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1000,6 +1000,19 @@
 					<Element>
 						<m_CollectionName text="Audio"/>
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="Quadrireme"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="QUADRIREME"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_HAGA_DROMON"/>
@@ -2600,7 +2613,7 @@
 																<m_ParamName text="Point"/>
 															</Element>
 															<Element class="AssetObjects:ArtDefReferenceValue">
-																<m_ElementName text="Color_BrightRed"/>
+																<m_ElementName text="Color_DarkRed"/>
 																<m_RootCollectionName text="UnitTintTypes"/>
 																<m_ArtDefPath text="Units.artdef"/>
 																<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -2617,7 +2630,7 @@
 																	<m_Values/>
 																</m_Fields>
 																<m_ChildCollections/>
-																<m_Name text="Units/U_Byzantium_Dromon"/>
+																<m_Name text="Units/Galleass"/>
 																<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 															</Element>
 														</Element>
@@ -2637,7 +2650,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="UnitMember_U_Byzantium_Dromon"/>
+				<m_Name text="UnitMember_Galleass"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<!-- コルベット -->
@@ -2996,6 +3009,34 @@
 		<Element>
 			<m_CollectionName text="UnitTintTypes"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Colors"/>
+						<m_ReplaceMergedCollectionElements>true</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects:RGBValue">
+										<m_r>127</m_r>
+										<m_g>12</m_g>
+										<m_b>12</m_b>
+										<m_ParamName text="Color"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Colors001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Color_DarkRed"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
 			<Element>
 				<m_Fields>
 					<m_Values/>

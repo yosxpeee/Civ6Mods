@@ -45,6 +45,10 @@
 			<m_EntryID text="Rifleman"/>
 			<m_ObjectName text="Rifleman"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Galleass"/>
+			<m_ObjectName text="Galleass"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

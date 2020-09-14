@@ -316,7 +316,7 @@
 													<m_Fields>
 														<m_Values>
 															<Element class="AssetObjects:BLPEntryValue">
-																<m_EntryName text="U_Byzantium_Dromon"/>
+																<m_EntryName text="Galleass"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="units_civ5.xlp"/>
 																<m_BLPPackage text="units/units_civ5"/>
@@ -340,7 +340,7 @@
 									</Element>
 								</Element>
 							</m_ChildCollections>
-							<m_Name text="U_Byzantium_Dromon"/>
+							<m_Name text="Galleass"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 						<!-- コルベット -->

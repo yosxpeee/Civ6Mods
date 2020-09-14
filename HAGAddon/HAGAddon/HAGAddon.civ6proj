@@ -160,6 +160,168 @@
     <Content Include="Animations\cargo_ship_early_victory.fgx">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Animations\galleass_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_charge_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_charge_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\galleass_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Animations\longswordsman_attacka.anm">
       <SubType>Content</SubType>
     </Content>
@@ -1387,6 +1549,12 @@
     <Content Include="Geometries\cargo_ship_early.geo">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Geometries\galleass.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\galleass.geo">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Geometries\longswordsman.fgx">
       <SubType>Content</SubType>
     </Content>
@@ -1501,6 +1669,12 @@
     <Content Include="Materials\Dromon_DMG_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Materials\galleass_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\galleass_DMG_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Materials\Longswordsman_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
@@ -1592,6 +1766,36 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_dmg_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_dmg_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_dmg_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_dmg_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\galleass_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAGA_BAKU22.DDS">
