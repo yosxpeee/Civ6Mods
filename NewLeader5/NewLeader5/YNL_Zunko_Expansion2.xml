@@ -27,4 +27,38 @@
 	<Units_XP2>
 		<Row UnitType="UNIT_FIGHTING_MONK" ResourceCost="10"/>
 	</Units_XP2>
+	<!-- ユニットアビリティ -->
+	<UnitAbilityModifiers>
+		<!-- 山伏に破城槌と攻城塔の効果が載るようにする -->
+		<Row>
+			<UnitAbilityType>ABILITY_ENABLE_WALL_ATTACK_PROMOTION_CLASS</UnitAbilityType>
+			<ModifierId>YNL_ENABLE_WALL_ATTACK_YAMABUSHI</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BYPASS_WALLS_PROMOTION_CLASS</UnitAbilityType>
+			<ModifierId>YNL_BYPASS_WALLS_YAMABUSHI</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_ENABLE_WALL_ATTACK_YAMABUSHI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>YNL_BYPASS_WALLS_YAMABUSHI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_BYPASS_WALLS_PROMOTION_CLASS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_ENABLE_WALL_ATTACK_YAMABUSHI</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_YAMABUSHI</Value>
+		</Row>
+		<Row>
+			<ModifierId>YNL_BYPASS_WALLS_YAMABUSHI</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_YAMABUSHI</Value>
+		</Row>
+	</ModifierArguments>
 </GameData>
