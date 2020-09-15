@@ -68,8 +68,12 @@
 	<Modifiers>
 		<Row>
 			<ModifierId>NAGATO_NEIGHBOR_COMBAT</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>NAGATO_PLOT_IS_DESTROYER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NAGATO_NEIGHBOR_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>NAGATO_RANGED_DEFENSE</ModifierId>
@@ -80,6 +84,11 @@
 	<ModifierArguments>
 		<Row>
 			<ModifierId>NAGATO_NEIGHBOR_COMBAT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>NAGATO_NEIGHBOR_COMBAT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAGATO_NEIGHBOR_COMBAT_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
@@ -90,8 +99,8 @@
 		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
-		<Row ModifierId="NAGATO_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_BATTLESHIP_NAGATO_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION"/>
-		<Row ModifierId="NAGATO_RANGED_DEFENSE"  Context="Preview" Text="LOC_ABILITY_NAGATO_RANGED_DEFENSE_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="NAGATO_NEIGHBOR_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_BATTLESHIP_NAGATO_NEIGHBOR_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="NAGATO_RANGED_DEFENSE"           Context="Preview" Text="LOC_ABILITY_NAGATO_RANGED_DEFENSE_MODIFIER_DESCRIPTION"/>
 	</ModifierStrings>
 	<RequirementSets>
 		<Row>
