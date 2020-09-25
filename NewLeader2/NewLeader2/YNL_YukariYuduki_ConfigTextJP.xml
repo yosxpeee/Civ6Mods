@@ -35,7 +35,7 @@
 			<Text>結月ゆかり共和国固有のユニット: 自走榴弾砲</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_HOWITZER_DESCRIPTION" Language="ja_JP">
-			<Text>結月ゆかり共和国固有の原子力時代のユニット。</Text>
+			<Text>結月ゆかり共和国固有の原子力時代のユニット。[ICON_Movement] 移動力3、[ICON_Ranged] 射程3。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_UNIQUE_HOWITZER_NAME" Language="ja_JP">
 			<Text>自走榴弾砲</Text>

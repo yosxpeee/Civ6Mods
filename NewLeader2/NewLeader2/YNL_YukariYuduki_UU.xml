@@ -7,13 +7,18 @@
 		<Row UnitType="UNIT_UNIQUE_HOWITZER" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_UNIQUE_HOWITZER" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_UNIQUE_HOWITZER" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_UNIQUE_HOWITZER" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_UNIQUE_HOWITZER" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<TypeTags>
 		<Row Type="UNIT_UNIQUE_HOWITZER" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_UNIQUE_HOWITZER" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_UNIQUE_HOWITZER" Tag="CLASS_FORWARD_OBSERVER"/>
 	</TypeTags>
 	<Units>
-		<Row UnitType="UNIT_UNIQUE_HOWITZER" BaseMoves="3" Cost="550" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_UNIQUE_HOWITZER_NAME" Description="LOC_UNIT_UNIQUE_HOWITZER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="7" Combat="65" Range="2" TraitType="TRAIT_LEADER_UNIT_UNIQUE_HOWITZER" PrereqTech="TECH_ADVANCED_BALLISTICS" Bombard="88"/>
+		<Row UnitType="UNIT_UNIQUE_HOWITZER" BaseMoves="3" Cost="550" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_UNIQUE_HOWITZER_NAME" Description="LOC_UNIT_UNIQUE_HOWITZER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="7" Combat="65" Range="3" TraitType="TRAIT_LEADER_UNIT_UNIQUE_HOWITZER" PrereqTech="TECH_ADVANCED_BALLISTICS" Bombard="88"/>
 	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_UNIQUE_HOWITZER" UpgradeUnit="UNIT_ROCKET_ARTILLERY"/>
+	</UnitUpgrades>
 </GameInfo>

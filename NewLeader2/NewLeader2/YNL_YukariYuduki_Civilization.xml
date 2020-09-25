@@ -14,7 +14,7 @@
 			<Description>LOC_CIVILIZATION_ROYY_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_ROYY_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>20</RandomCityNameDepth>
+			<RandomCityNameDepth>32</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
@@ -382,6 +382,18 @@
 		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_18" />
 		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_19" />
 		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_31" />
+		<Row CivilizationType="CIVILIZATION_ROYY" CityName="LOC_CIVILIZATION_ROYY_CITY_32" />
 	</CityNames>
 
 	<StartBiasTerrains>
