@@ -337,6 +337,9 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>黄金時代または英雄時代の開始時に公約を選択すると、それらのボーナスに加えて、時代スコアを高める通常の時代のボーナスが得られる。防御施設に対する [ICON_Production] 生産力+50%。何らかの資源上の鉱山から [ICON_FAITH] 信仰力+1。</Text>
 		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DRAMA_DESCRIPTION" Language="ja_JP">
+			<Text>黄金時代の間はワイルドカード政策スロットが追加され、暗黒時代の政策も採用できます。防御施設の [ICON_Production] 生産力+50%。何らかの資源上の鉱山から [ICON_FAITH] 信仰力+1。</Text>
+		</Row>
 		<Row Tag="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>科学を探求する韓国固有の区域。キャンパス区域に取ってかわる。 [ICON_SCIENCE] 科学力+6。丘陵の上にのみ建設可能。</Text>
 		</Row>

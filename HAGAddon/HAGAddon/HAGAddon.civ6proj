@@ -30,6 +30,7 @@
   <Dependency type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
   <Dependency type="Dlc" title="DLC: Maya and Gran Colombia Pack" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Dependency type="Dlc" title="LOC_ETHIOPIA_MOD_TITLE" id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" />
+  <Dependency type="Mod" title="LOC_BYZANTIUM_GAUL_MOD_TITLE" id="A1100FC4-70F2-4129-AC27-2A65A685ED08" />
 </Associations>]]></AssociationData>
     <ActionCriteriaData><![CDATA[
       <ActionCriteria>
@@ -40,10 +41,17 @@
             <Value>1</Value>
           </ConfigurationValueMatches>
         </Criteria>
+        <Criteria id="DramaticAges_Mode">
+          <ConfigurationValueMatches>
+            <Group>Game</Group>
+            <ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId>
+            <Value>1</Value>
+          </ConfigurationValueMatches>
+        </Criteria>
       </ActionCriteria>
     ]]></ActionCriteriaData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File>HAGAddon_UpdateConfig.xml</File><File>HAGAddon_UpdateConfigOtherMods.sql</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File><File>HAGAddon_ConfigYnAmp.xml</File></UpdateDatabase><UpdateColors id="ConfigColor"><File>HAGAddon_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Civilizations.xml</File><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File><File>HAGAddon_CityStates.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File><File>HAGAddon_UpdateGameplayOtherMods.sql</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles><UpdateDatabase id="GameplaySecretSocietyMode"><Properties><LoadOrder>1000</LoadOrder></Properties><Criteria>Ethiopia_Mode</Criteria><File>HAGAddon_UpdateGameplaySecretSocietyMode.xml</File></UpdateDatabase><UpdateColors id="Colors"><File>HAGAddon_PlayerColors.xml</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="ConfigIcons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="ConfigText"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File></UpdateText><UpdateDatabase id="ConfigDeleteUpdate"><Properties><LoadOrder>1000</LoadOrder></Properties><File>HAGAddon_DeleteConfig.xml</File><File priority="1">HAGAddon_UpdateConfig.xml</File><File>HAGAddon_UpdateConfigOtherMods.sql</File></UpdateDatabase><UpdateDatabase id="Config"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_Config.xml</File><File>HAGAddon_ConfigYnAmp.xml</File></UpdateDatabase><UpdateColors id="ConfigColor"><File>HAGAddon_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="ConfigDramaticAgesMode"><Properties><LoadOrder>1002</LoadOrder></Properties><File priority="2">HAGAddon_UpdateConfigDramaticAgesMode.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>HAGAddon_Units.xml</File><File>HAGAddon_UnitAbilities.xml</File><File>HAGAddon_Moments.xml</File><File>HAGAddon_NamedPlace.xml</File><File>HAGAddon_Buildings.xml</File><File>HAGAddon_Beliefs.xml</File><File>HAGAddon_CityStates.xml</File><File priority="1">HAGAddon_Civilizations.xml</File><File priority="2">HAGAddon_Civilizations.sql</File></UpdateDatabase><UpdateIcons id="Icons"><File>HAGAddon_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>HAGAddon_ConfigText.xml</File><File>HAGAddon_ConfigTextJP.xml</File><File>HAGAddon_Text.xml</File><File>HAGAddon_TextJP.xml</File></UpdateText><UpdateDatabase id="GameplayDeleteUpdate"><Properties><LoadOrder>1001</LoadOrder></Properties><File>HAGAddon_DeleteGamePlay.xml</File><File>HAGAddon_UpdateGameplay.xml</File><File>HAGAddon_UpdateGameplayOtherMods.sql</File></UpdateDatabase><ImportFiles id="Import"><File>Textures/Moment_HAGA_Landsknecht.dds</File></ImportFiles><UpdateDatabase id="GameplaySecretSocietyMode"><Properties><LoadOrder>1000</LoadOrder></Properties><Criteria>Ethiopia_Mode</Criteria><File>HAGAddon_UpdateGameplaySecretSocietyMode.xml</File></UpdateDatabase><UpdateColors id="Colors"><File>HAGAddon_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="GameplayDramaticAgesMode"><Properties><LoadOrder>1002</LoadOrder></Properties><Criteria>DramaticAges_Mode</Criteria><File priority="2">HAGAddon_UpdateGameplayDramaticAgesMode.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -1541,6 +1549,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\U_Carthage_Quinquereme.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_Civilizations.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_UpdateConfigDramaticAgesMode.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HAGAddon_UpdateGameplayDramaticAgesMode.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\cargo_ship_early.fgx">

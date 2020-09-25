@@ -337,6 +337,9 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION" Language="en_US">
 			<Text>When making Dedications at the beginning of a Golden Age or Heroic Age, receive the Normal Age bonus towards improving Era Score in addition to the other bonus. +50% [ICON_Production] Production towards defensive buildings. Mines over any resources and luxury resources provide +1 [ICON_FAITH] Faith.</Text>
 		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DRAMA_DESCRIPTION" Language="en_US">
+			<Text>While in a Golden Age, gains an extra Wildcard Policy Slot, and may use Dark Age Policies. +50% [ICON_Production] Production towards defensive buildings. Mines over any resources and luxury resources provide +1 [ICON_FAITH] Faith.</Text>
+		</Row>
 		<Row Tag="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION" Language="en_US">
 			<Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. +6 [ICON_SCIENCE] Science. Must be built on Hills.</Text>
 		</Row>

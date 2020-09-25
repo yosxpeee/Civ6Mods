@@ -81,6 +81,8 @@
 		</Row>
 		<!-- グルジア -->
 		<!-- ボーナス資源、高級資源、戦略資源の鉱山から信仰力+１ -->
+		<!-- ※ドラマティックモード対応のため、この記述はSQLファイルに移動 -->
+		<!--
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS</TraitType>
 			<ModifierId>TRAIT_BONUS_MINE_FAITH_HAGA</ModifierId>
@@ -93,6 +95,7 @@
 			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS</TraitType>
 			<ModifierId>TRAIT_STRATEGIC_MINE_FAITH_HAGA</ModifierId>
 		</Row>
+		-->
 		<!-- エチオピア -->
 		<!-- プランテーションから信仰+1 -->
 		<Row>
