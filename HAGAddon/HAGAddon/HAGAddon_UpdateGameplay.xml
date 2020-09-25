@@ -141,6 +141,11 @@
 			<Where Description="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION"/>
 			<Set Description="LOC_UNIT_CHINESE_CROUCHING_TIGER_HAGA_DESCRIPTION"/>
 		</Update>
+		<!-- デュロモイ -->
+		<Update>
+			<Where Description="LOC_UNIT_BYZANTINE_DROMON_DESCRIPTION"/>
+			<Set Description="LOC_UNIT_BYZANTINE_DROMON_HAGA_DESCRIPTION"/>
+		</Update>
 	</Units>
 	<!-- 戦闘時のアビリティ表示 -->
 	<UnitAbilities>
@@ -202,6 +207,14 @@
 		<!-- カドリレーム：解禁技術を帆走術に変更、生産コスト削減 -->
 		<Update>
 			<Where UnitType="UNIT_QUADRIREME"/>
+			<Set>
+				<PrereqTech>TECH_SAILING</PrereqTech>
+				<Cost>85</Cost>
+			</Set>
+		</Update>
+		<!-- デュロモイ：解禁技術を帆走術に変更、生産コスト削減 -->
+		<Update>
+			<Where UnitType="UNIT_BYZANTINE_DROMON"/>
 			<Set>
 				<PrereqTech>TECH_SAILING</PrereqTech>
 				<Cost>85</Cost>
@@ -376,6 +389,13 @@
 				<UpgradeUnit>UNIT_HAGA_QUINQUEREME</UpgradeUnit>
 			</Set>
 		</Update>
+		<!-- デュロモイ：ガレアス船に変更(元が射程2なので) -->
+		<Update>
+			<Where Unit="UNIT_BYZANTINE_DROMON"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_DROMON</UpgradeUnit>
+			</Set>
+		</Update>
 		<!-- キャラベル：コルベットに変更 -->
 		<Update>
 			<Where Unit="UNIT_CARAVEL"/>
@@ -418,6 +438,13 @@
 			<Where Unit="UNIT_MUSKETMAN"/>
 			<Set>
 				<UpgradeUnit>UNIT_HAGA_RIFLEMAN</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- ガエサタエ：長剣士に変更 -->
+		<Update>
+			<Where Unit="UNIT_GAUL_GAESATAE"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_LONGSWORDSMAN</UpgradeUnit>
 			</Set>
 		</Update>
 	</UnitUpgrades>

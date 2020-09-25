@@ -376,6 +376,9 @@
 		<Row Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>中国固有の中世の長距離ユニット。弩兵に取って代わる。戦闘力が高い。</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_BYZANTINE_DROMON_HAGA_DESCRIPTION" Language="ja_JP">
+			<Text>ビザンティン固有の太古のユニット。カドリレームに取ってかわる。カドリレームより射程が長い。また、対ユニット [ICON_Strength] 戦闘力+10。</Text>
+		</Row>
 		
 		<!-- 他の自作MOD用 -->
 		<Row Tag="LOC_UNIT_UNIQUE_BATTLESHIP_NAGATO_HAGA_DESCRIPTION" Language="ja_JP">

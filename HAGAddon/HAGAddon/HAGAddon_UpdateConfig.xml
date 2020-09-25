@@ -66,5 +66,12 @@
 				<Description>LOC_UNIT_CHINESE_CROUCHING_TIGER_HAGA_DESCRIPTION</Description>
 			</Set>
 		</Update>
+		<!-- デュロモイ -->
+		<Update>
+			<Where CivilizationType="CIVILIZATION_BYZANTIUM" LeaderType="LEADER_BASIL" Type="UNIT_BYZANTINE_DROMON"/>
+			<Set>
+				<Description>LOC_UNIT_BYZANTINE_DROMON_HAGA_DESCRIPTION</Description>
+			</Set>
+		</Update>
 	</PlayerItems>
 </GameData>

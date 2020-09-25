@@ -61,7 +61,7 @@
 		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_QUINQUEREME"                   AiType="UNITTYPE_NAVAL"/>
-		<!-- デュロモイ -->
+		<!-- ガレアス船 -->
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_HAGA_DROMON"                        AiType="UNITTYPE_NAVAL"/>
@@ -121,7 +121,7 @@
 		<Row Type="UNIT_HAGA_COG"                           Tag="CLASS_NAVAL_MELEE"/>
 		<!-- 五段櫂船 -->
 		<Row Type="UNIT_HAGA_QUINQUEREME"                   Tag="CLASS_NAVAL_RANGED"/>
-		<!-- デュロモイ -->
+		<!-- ガレアス船 -->
 		<Row Type="UNIT_HAGA_DROMON"                        Tag="CLASS_NAVAL_RANGED"/>
 		<!-- コルベット -->
 		<Row Type="UNIT_HAGA_CORVETTE"                      Tag="CLASS_NAVAL_MELEE"/>
@@ -188,7 +188,7 @@
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_QUINQUEREME_NAME" Description="LOC_UNIT_HAGA_QUINQUEREME_DESCRIPTION"
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_SHIPBUILDING"/>
-		<!-- デュロモイ -->
+		<!-- ガレアス船 -->
 		<Row UnitType="UNIT_HAGA_DROMON" Cost="210" Maintenance="4" BaseMoves="4" BaseSightRange="2"
 			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="35" RangedCombat="40" Range="1"
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
@@ -251,9 +251,9 @@
 		<Row Unit="UNIT_HAGA_TRIREME" UpgradeUnit="UNIT_HAGA_COG"/>
 		<!-- コグ：キャラベル -->
 		<Row Unit="UNIT_HAGA_COG" UpgradeUnit="UNIT_CARAVEL"/>
-		<!-- 五段櫂船：デュロモイ -->
+		<!-- 五段櫂船：ガレアス船 -->
 		<Row Unit="UNIT_HAGA_QUINQUEREME" UpgradeUnit="UNIT_HAGA_DROMON"/>
-		<!-- デュロモイ：フリゲート艦 -->
+		<!-- ガレアス船：フリゲート艦 -->
 		<Row Unit="UNIT_HAGA_DROMON" UpgradeUnit="UNIT_FRIGATE"/>
 		<!-- コルベット：駆逐艦 -->
 		<Row Unit="UNIT_HAGA_CORVETTE" UpgradeUnit="UNIT_DESTROYER"/>
