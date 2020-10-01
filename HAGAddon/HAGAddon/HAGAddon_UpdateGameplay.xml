@@ -100,6 +100,14 @@
 			<Set YieldChange="6"/>
 		</Update>
 	</Adjacency_YieldChanges>
+
+	<!-- ======================================================================= -->
+	<!-- 建造物 -->
+	<!-- ======================================================================= -->
+	<!-- ニハングの戦闘力強化能力へバシリコイ・パイデスを追加する -->
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_BASILIKOI_PAIDES" ModifierId="LAHORE_NIHANG_BARRACKS_ABILITY"/>
+	</BuildingModifiers>
 	
 	<!-- ======================================================================= -->
 	<!-- ユニット -->
