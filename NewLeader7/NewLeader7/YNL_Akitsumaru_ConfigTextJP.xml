@@ -3,13 +3,13 @@
 	<LocalizedText>
 		<!-- Civilization -->
 		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_NAME" Language="ja_JP">
-			<Text>大日本帝国（あきつ丸）</Text>
+			<Text>大日本帝国(陸軍)</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="ja_JP">
-			<Text>大日本帝国（あきつ丸）</Text>
+			<Text>大日本帝国(陸軍)</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_ADJECTIVE" Language="ja_JP">
-			<Text>大日本帝国（あきつ丸）の</Text>
+			<Text>大日本帝国(陸軍)の</Text>
 		</Row>
 
 		<!-- Leader Name -->
@@ -56,10 +56,10 @@
 			<Text>憲兵</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YNL_KENPEI_DESCRIPTION" Language="ja_JP">
-			<Text>歩兵に取って代わるあきつ丸固有の近代の陸上近接戦闘上ユニット。ユニットを倒すと [ICON_GreatGeneral] 大将軍ポイント+5。</Text>
+			<Text>歩兵に取って代わる大日本帝国(陸軍)固有の近代の陸上近接戦闘上ユニット。ユニットを倒すと [ICON_GreatGeneral] 大将軍ポイント+5。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_KENPEI_NAME" Language="ja_JP">
-			<Text>あきつ丸固有のユニット: 憲兵</Text>
+			<Text>大日本帝国(陸軍)固有のユニット: 憲兵</Text>
 		</Row>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_KENPEI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>憲兵とは、大日本帝国陸軍において陸軍大臣の管轄に属し、主として軍事警察を掌り、兼て行政警察、司法警察も掌る兵科区分の一種。陸軍大臣の管轄に属し主として軍事警察（軍事警察に係るものは陸軍大臣及び海軍大臣の指揮を承ける。但し外地においては特則あり）を掌り兼て行政警察（行政警察に係るものは内務大臣の指揮を承ける。但し外地においては特則あり）、司法警察（司法警察に係るものは司法大臣の指揮を承ける。但し外地においては特則あり）を掌るものとされた。海軍には独自の憲兵は置かれず、海軍大臣は軍事警察に係るものについては憲兵を直接指揮できるものとされた。そのため、海軍の要人警護等には陸軍の憲兵が当たった。</Text>
@@ -70,10 +70,10 @@
 			<Text>帝国陸軍兵器廠</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_IMP_ARMY_ARMORY_DESCRIPTION" Language="ja_JP">
-			<Text>武器庫に取って代わるあきつ丸固有の建造物。[ICON_Production] 生産力+2、[ICON_Science] 科学力+1。全ての戦略資源から [ICON_Production] 生産力+1。この都市で訓練を受けた陸上ユニットの戦闘経験値+50%。</Text>
+			<Text>武器庫に取って代わる大日本帝国(陸軍)固有の建造物。[ICON_Production] 生産力+2、[ICON_Science] 科学力+1。全ての戦略資源から [ICON_Production] 生産力+1。この都市で訓練を受けた陸上ユニットの戦闘経験値+50%。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME" Language="ja_JP">
-			<Text>あきつ丸固有の建造物: 帝国陸軍兵器廠</Text>
+			<Text>大日本帝国(陸軍)固有の建造物: 帝国陸軍兵器廠</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_IMP_ARMY_ARMORY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>陸軍兵器廠は、大日本帝国陸軍の機関の一つ。兵器・弾薬・機材などの補給、要塞の備砲工事を担当した。[NEWLINE][NEWLINE]日清戦争後の軍備拡充に対処するため、1897年（明治30年）9月、従前の砲兵方面本署・支署を廃止し陸軍兵器廠が創設された。陸軍大臣隷下の本廠を東京、大阪、門司、台湾の4箇所に設置し、各管区内の師団司令部・台湾守備混成旅団司令部・要塞などの所在地に支廠を置き統括した。[NEWLINE][NEWLINE]1903年（明治36年）5月、四つの兵器本廠を東京の兵器本廠に統合し、支廠を師団司令部所在地、門司・台北に置き、要塞所在地の支廠は業務を要塞司令部に移管し廃止した。[NEWLINE][NEWLINE]1918年（大正7年）6月、師団司令部・台湾総督府・関東都督府に兵器部が設置されたことに伴い、師団司令部等所在地の支廠を廃止し6支廠とした。また、1932年（昭和7年）8月、要塞の備砲工事業務を陸軍築城部に移管。[NEWLINE][NEWLINE]1940年（昭和15年）4月1日、兵器廠と陸軍造兵廠を統合し新組織の陸軍兵器廠となり、新設の陸軍兵器本部の隷下となった。また同時に兵器支廠を兵器補給廠と改称した。</Text>

@@ -3,13 +3,13 @@
 	<LocalizedText>
 		<!-- Civilization -->
 		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_NAME" Language="en_US">
-			<Text>Empire of Japan(Akitsumaru)</Text>
+			<Text>Imperial Japanese Army</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
-			<Text>Empire of Japan(Akitsumaru)</Text>
+			<Text>Imperial Japanese Army</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_YNL_AKITSUMARU_ADJECTIVE" Language="en_US">
-			<Text>Empire of Japan(Akitsumaru)</Text>
+			<Text>Imperial Japanese Army</Text>
 		</Row>
 		
 		<!-- Leader Name -->
@@ -56,10 +56,10 @@
 			<Text>Kenpei</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_YNL_KENPEI_DESCRIPTION" Language="en_US">
-			<Text>Akitsumaru unique Modern era melee unit that replaces the Infantry. +5 [ICON_GreatGeneral] Great General points for killing units.</Text>
+			<Text>Imperial Japanese Army unique Modern era melee unit that replaces the Infantry. +5 [ICON_GreatGeneral] Great General points for killing units.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_YNL_KENPEI_NAME" Language="en_US">
-			<Text>Akitsumaru unique unit: Kenpei</Text>
+			<Text>Imperial Japanese Army unique unit: Kenpei</Text>
 		</Row>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YNL_KENPEI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
@@ -70,10 +70,10 @@
 			<Text>Imperial Army Armory</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_IMP_ARMY_ARMORY_DESCRIPTION" Language="en_US">
-			<Text>Akitsumaru unique building that replaces Armory. +2 [ICON_Production] Production, +1 [ICON_Science] Science. All strategic resources gain +1 [ICON_Production] Production. +50% combat experience for all land units trained in this city.</Text>
+			<Text>Imperial Japanese Army unique building that replaces Armory. +2 [ICON_Production] Production, +1 [ICON_Science] Science. All strategic resources gain +1 [ICON_Production] Production. +50% combat experience for all land units trained in this city.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_BUILDING_IMP_ARMY_ARMORY_NAME" Language="en_US">
-			<Text>Akitsumaru unique building: Imperial Army Armory</Text>
+			<Text>Imperial Japanese Army unique building: Imperial Army Armory</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_IMP_ARMY_ARMORY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
