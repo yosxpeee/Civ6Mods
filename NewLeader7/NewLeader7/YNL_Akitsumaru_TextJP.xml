@@ -18,7 +18,10 @@
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>大日本帝国とは、1889年（明治22年）の大日本帝国憲法発布時に憲法典の名称として使用されたことから権威づけられ、1947年（昭和22年）の日本国憲法施行時までの約58年間、天皇が大日本帝国憲法を通じて統治する日本として使用された国号のひとつとされる。[NEWLINE][NEWLINE]最盛時には現在の日本の領土に加え、南樺太・千島列島・朝鮮半島・台湾・澎湖列島・新南群島などを領有していた他、北東アジアや太平洋にいくつかの委任統治領や租借地を保有した。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>大日本帝国の軍隊は憲法上内閣から独立し、直接天皇の統帥権に属するものとされた。したがって、陸海軍（日本軍）の最高指揮官は大元帥たる天皇ただ一人であり、帝国陸軍については陸軍大臣（大臣）・参謀総長（総長）・教育総監（総監）が天皇を除く最高位にあり（直隷）、これらは陸軍三長官と呼称された。</Text>
+		</Replace>
+		
 		<!-- Civlization Citizen Names -->
 		<Replace Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_1" Language="ja_JP">
 			<Text>山田稔</Text>
@@ -97,7 +100,13 @@
 		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_15" Language="ja_JP">
 			<Text>姫路</Text>
 		</Replace>
-
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_16" Language="ja_JP">
+			<Text>登戸</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_17" Language="ja_JP">
+			<Text>百人町</Text>
+		</Replace>
+		
 		<!-- Leader Quotes -->
 		<Replace Tag="LOC_LEADER_YNL_AKITSUMARU_QUOTE" Language="ja_JP">
 			<Text>あきつ丸、いざ出港する！</Text>

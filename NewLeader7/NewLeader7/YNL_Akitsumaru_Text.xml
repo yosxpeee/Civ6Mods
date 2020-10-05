@@ -18,7 +18,10 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YNL_AKITSUMARU_CHAPTER_HISTORY_PARA_2" Language="en_US">
+		<Text></Text>
+		</Row>
+		
 		<!-- Civlization Citizen Names -->
 		<Row Tag="LOC_CITIZEN_YNL_AKITSUMARU_MALE_1" Language="en_US">
 			<Text>Minoru Yamada</Text>
@@ -93,6 +96,12 @@
 		</Row>
 		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_15" Language="en_US">
 			<Text>Himeji</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_16" Language="en_US">
+			<Text>Noborito</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_17" Language="en_US">
+			<Text>Hyakunincho</Text>
 		</Row>
 		
 		<!-- Leader Quotes -->

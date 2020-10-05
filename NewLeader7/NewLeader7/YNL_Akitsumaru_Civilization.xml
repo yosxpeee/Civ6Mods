@@ -12,7 +12,7 @@
 			<Description>LOC_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION</Description>
 			<Adjective>LOC_CIVILIZATION_YNL_AKITSUMARU_ADJECTIVE</Adjective>
 			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
-			<RandomCityNameDepth>15</RandomCityNameDepth>
+			<RandomCityNameDepth>17</RandomCityNameDepth>
 		</Row>
 	</Civilizations>
 
@@ -41,7 +41,6 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_YNL_KENPEI" Name="LOC_TRAIT_CIVILIZATION_UNIT_YNL_KENPEI_NAME"/>
 	</Traits>
 	<TraitModifiers>
-
 		<!-- 区域を人口制限よりも1つ多く建設できる(バニラのドイツと同じ) -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_YNL_AKITSUMARU</TraitType>
@@ -252,5 +251,7 @@
 		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_13" />
 		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_14" />
 		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_YNL_AKITSUMARU" CityName="LOC_CIVLIZATION_YNL_AKITSUMARU_CITY_17" />
 	</CityNames>
 </GameData>
