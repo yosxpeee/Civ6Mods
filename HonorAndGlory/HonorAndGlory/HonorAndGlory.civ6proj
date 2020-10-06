@@ -42,6 +42,7 @@
   <Dependency type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
   <Dependency type="Dlc" title="DLC: Khmer and Indonesia Civilization Pack" id="1F367231-A040-4793-BDBB-088816853683" />
   <Dependency type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
+  <Dependency type="Dlc" title="DLC: Vikings Content" id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" />
 </Associations>]]></AssociationData>
     <Authors>yosxpeee</Authors>
   </PropertyGroup>
@@ -613,6 +614,12 @@
     <Content Include="Lua\HAGCityNameHuns.lua">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Maps\TSLEarthStandard_HAG.Civ6Map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Maps\TSLEarthStandard_HAG.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Maps\TSLEastAsiaStandard_HAG.Civ6Map">
       <SubType>Content</SubType>
     </Content>
@@ -902,6 +909,66 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Hitler_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_BEIRA80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_HUNS22.DDS">

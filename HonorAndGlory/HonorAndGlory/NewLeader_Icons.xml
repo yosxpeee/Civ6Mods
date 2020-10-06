@@ -190,6 +190,17 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_RYUKYU64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_RYUKYU80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_RYUKYU256.dds"/>
+		<!-- ベイラ -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA256.dds"/>
 		
 		<!-- ユニット -->
 		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
@@ -424,6 +435,8 @@
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
 	    <Row Name="ICON_CIVILIZATION_HAG_RYUKYU" Atlas="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" Index="0"/>
+		<!-- ベイラ -->
+		<Row Name="ICON_CIVILIZATION_HAG_BEIRA"  Atlas="ICON_ATLAS_CIVILIZATION_HAG_BEIRA"  Index="0"/>
 
 		<!-- UU -->
 		<!-- アルバン(ポートレイトはケシクの使いまわし) -->

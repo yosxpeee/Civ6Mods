@@ -4,8 +4,10 @@
 		<!-- 大将軍のナポレオン、ティムールを削除 -->
 		<Delete Type="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE"/>
 		<Delete Type="GREAT_PERSON_INDIVIDUAL_TIMUR"/>
-		<!-- 都市国家のリスボンを削除 -->
+		<!-- 都市国家のリスボン、アンタナナリボを削除 -->
 		<Delete Type="CIVILIZATION_LISBON"/>
 		<Delete Type="LEADER_MINOR_CIV_LISBON"/>
+		<Delete Type="CIVILIZATION_ANTANANARIVO"/>
+		<Delete Type="LEADER_MINOR_CIV_ANTANANARIVO"/>
 	</Types>
 </GameData>

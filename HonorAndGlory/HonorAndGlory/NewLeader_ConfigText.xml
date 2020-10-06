@@ -523,5 +523,30 @@
 		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- ベイラ -->
+		<Row Tag="LOC_CIVILIZATION_HAG_BEIRA_NAME" Language="en_US">
+			<Text>Beira</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_BEIRA_DESCRIPTION" Language="en_US">
+			<Text>Beira city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_BEIRA_ADJECTIVE" Language="en_US">
+			<Text>Beira</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_BEIRA_NAME" Language="en_US">
+			<Text>Beira Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_BEIRA_DESCRIPTION" Language="en_US">
+			<Text>Your Civilization gains +2% [ICON_Culture] Culture for each Great Person it has ever earned, up to a total of +30%.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_BEIRA_1" Language="en_US">
+			<Text>Beira</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_BEIRA" Language="en_US">
+			<Text>Beira</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_BEIRA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 	</LocalizedText>
 </GameData>

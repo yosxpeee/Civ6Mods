@@ -687,7 +687,48 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_RYUKYU256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_RYUKYU256"/>
 		</Element>
-
+		<!-- 都市国家(ベイラ) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA256"/>
+		</Element>
+		
 		<!-- ユニット(アルバン) -->
 		<Element>
 			<m_EntryID text="ICON_UNIT_HAG_TIMURID_ARBAN22"/>

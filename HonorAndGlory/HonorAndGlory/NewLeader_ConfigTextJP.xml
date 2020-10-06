@@ -523,5 +523,30 @@
 		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_RYUKYU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>1429年から1879年までの450年間にわたり琉球諸島を中心に存在した王国。王家の紋章は左三巴紋で「左御紋（ひだりごもん、沖縄方言：フィジャイグムン）」と呼ばれた。</Text>
 		</Row>
+		<!-- ベイラ -->
+		<Row Tag="LOC_CIVILIZATION_HAG_BEIRA_NAME" Language="ja_JP">
+			<Text>ベイラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_BEIRA_DESCRIPTION" Language="ja_JP">
+			<Text>ベイラ都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_BEIRA_ADJECTIVE" Language="ja_JP">
+			<Text>ベイラ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_BEIRA_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス ベイラ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_BEIRA_DESCRIPTION" Language="ja_JP">
+			<Text>文明がそれまでに獲得した偉人1人につき文明全体の [ICON_Culture] 文化力+2% (最大30%)。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_BEIRA_1" Language="ja_JP">
+			<Text>ベイラ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_BEIRA" Language="ja_JP">
+			<Text>ベイラ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_BEIRA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>モザンビーク第二の港湾都市。1891年にポルトガルのモザンビーク会社の所在地として建設された。ポルトガル系モザンビーク人でノイシュタット国際文学賞受賞作家であるミア・コウトの出身地。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

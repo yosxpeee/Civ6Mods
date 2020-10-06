@@ -199,6 +199,13 @@
 			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
 			<SecondaryColor>COLOR_PLAYER_CITY_STATE_TRADE_SECONDARY</SecondaryColor>
 		</Row>
+		<!-- ベイラ -->
+		<Row>
+			<Type>CIVILIZATION_HAG_BEIRA</Type>
+			<Usage>Minor</Usage>
+			<PrimaryColor>COLOR_PLAYER_CITY_STATE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CITY_STATE_CULTURAL_SECONDARY</SecondaryColor>
+		</Row>
 	</PlayerColors>
 </Database>
 
