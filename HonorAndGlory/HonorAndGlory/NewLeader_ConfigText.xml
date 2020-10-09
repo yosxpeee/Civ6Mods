@@ -113,7 +113,23 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION" Language="en_US">
 			<Text>Get a Settler when conqure the Barbarian Camp. Begin the game with the Animal Husbandry technologies unlocked. Can't hire a Great Merchant. Borrows city names excluding the capital from the city names of other civilizations.</Text>
 		</Row>
-
+		<!-- 文明(マダガスカル) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_NAME" Language="en_US">
+			<Text>Madagascar</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION" Language="en_US">
+			<Text>Madagascar</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_UMADAGASCAR_ADJECTIVE" Language="en_US">
+			<Text>Madagascar</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_NAME" Language="en_US">
+			<Text>Tanindrazana</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION" Language="en_US">
+			<Text>Gains +2% [ICON_Science] Science for each Great Person it has ever earned, up to a total of +30%. Farms can be built on the hills from Ancient era.</Text>
+		</Row>
+		
 		<!-- 指導者(ナポレオン) -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_NAME" Language="en_US">
 			<Text>Napoleon Bonaparte</Text>
@@ -212,7 +228,7 @@
 			<Text>Fair Deal</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_TRUMAN_DESCRIPTION" Language="en_US">
-			<Text>+2 [ICON_Housing] Housing to all cities. +30% [ICON_PRODUCTION] Production towards Industrial Zone and Dam buildings. +25% [ICON_Production] Production to nuclear program projects and Nuclear Devices.</Text>
+			<Text>+2 [ICON_Housing] Housing to all cities. +50% [ICON_PRODUCTION] Production towards Industrial Zone and Dam buildings. +25% [ICON_Production] Production to nuclear program projects and Nuclear Devices.</Text>
 		</Row>
 		<!-- 指導者(チャーチル) -->
 		<Row Tag="LOC_LEADER_HAG_CHURCHILL_NAME" Language="en_US">
@@ -233,6 +249,16 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION" Language="en_US">
 			<Text>The effects of the Battering Ram and Siege Tower also apply to cavalry units. All Cavalry Units have escort mobility shared. Can not conqure the city built by other civilization and it is forcibly destroyed. Get a lot of gold from the forcible destruction of the cities(Depends on game speed).</Text>
+		</Row>
+		<!-- 指導者(ラダマ1世) -->
+		<Row Tag="LOC_LEADER_HAG_RADAMA_I_NAME" Language="en_US">
+			<Text>Radama I</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_RADAMA_I_NAME" Language="en_US">
+			<Text>The sea is the border of my rice field</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_PRODUCTION] Production towards Campus and Encampment buildings. All Military Units receives +5 [ICON_Strength] Strength from the adjecent other class military units.(This effects are not duplicate, Heavy Cavalry class and Light Cavalry class treated as the same class, Excludes special units like Warrior Monk.) </Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->

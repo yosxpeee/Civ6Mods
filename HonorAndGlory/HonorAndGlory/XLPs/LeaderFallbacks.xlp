@@ -69,6 +69,11 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_ATTILA"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_ATTILA"/>
 		</Element>
+		<!-- ラダマ1世 -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_RADAMA_I"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_RADAMA_I"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

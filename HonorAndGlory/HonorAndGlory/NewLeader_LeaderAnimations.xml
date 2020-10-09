@@ -74,5 +74,11 @@
 			<Leader>LEADER_HAG_ATTILA</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- ラダマ1世 -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_RADAMA_I</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

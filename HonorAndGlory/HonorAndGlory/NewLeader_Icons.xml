@@ -79,6 +79,17 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_HUNS" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_HUNS256.dds"/>
+		<!-- マダガスカル -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR256.dds"/>
 		
 		<!-- 指導者 -->
 		<!-- ナポレオン -->
@@ -177,6 +188,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_ATTILA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_ATTILA256.dds"/>
+		<!-- ラダマ1世 -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I256.dds"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -391,19 +410,21 @@
 		<!-- 文明 -->
 		<!-- Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"-->
 		<!-- ティムール朝 -->
-		<Row Name="ICON_CIVILIZATION_HAG_TIMURID" Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_TIMURID"    Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID"    Index="0"/>
 		<!-- ユーゴスラビア -->
 		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" Index="0"/>
 		<!-- モロッコ王国 -->
-		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO" Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO"    Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO"    Index="0"/>
 		<!-- ポルトガル帝国 -->
-		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL" Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL"   Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL"   Index="0"/>
 		<!-- イタリア -->
-		<Row Name="ICON_CIVILIZATION_HAG_ITALY" Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_ITALY"      Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY"      Index="0"/>
 		<!-- ソ連 -->
-		<Row Name="ICON_CIVILIZATION_HAG_USSR" Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_USSR"       Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR"       Index="0"/>
 		<!-- フン族 -->
-		<Row Name="ICON_CIVILIZATION_HAG_HUNS" Atlas="ICON_ATLAS_CIVILIZATION_HAG_HUNS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_HUNS"       Atlas="ICON_ATLAS_CIVILIZATION_HAG_HUNS"       Index="0"/>
+		<!-- マダガスカル -->
+		<Row Name="ICON_CIVILIZATION_HAG_MADAGASCAR" Atlas="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -431,6 +452,8 @@
 		<Row Name="ICON_LEADER_HAG_CHURCHILL" Atlas="ICON_ATLAS_LEADER_HAG_CHURCHILL" Index="0"/>
 		<!-- アッティラ -->
 		<Row Name="ICON_LEADER_HAG_ATTILA" Atlas="ICON_ATLAS_LEADER_HAG_ATTILA" Index="0"/>
+		<!-- ラダマ1世 -->
+		<Row Name="ICON_LEADER_HAG_RADAMA_I" Atlas="ICON_ATLAS_LEADER_HAG_RADAMA_I" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->

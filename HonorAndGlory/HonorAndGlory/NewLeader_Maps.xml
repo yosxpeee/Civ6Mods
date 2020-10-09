@@ -12,7 +12,7 @@
 		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" Name="LOC_MAP_TSLEAST_ASIA_STANDARD_NAME" Description="LOC_MAP_TSLEAST_ASIA_STANDARD_DESCRIPTION" Image="Map_TrueStartEastAsia" StaticMap="1" RequiresUniqueLeaders="1" SortIndex="620"/>
 		<!-- ヨーロッパマップ：リスボンを削除したもの -->
 		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"   Name="LOC_TSLEUROPE_NAME"                 Description="LOC_TSLEUROPE_DESCRIPTION"                 Image="Map_TrueStartEurope"   StaticMap="1" RequiresUniqueLeaders="1" SortIndex="1020"/>
-		<!-- 地球マップ：アンタナナリボを消してベイラを追加したもの -->
+		<!-- 地球マップ：ベイラを追加したもの -->
 		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map"    Name="LOC_TSLEARTH_NAME"                  Description="LOC_TSLEARTH_DESCRIPTION"                  Image="Map_TrueStartEarth"    StaticMap="1" RequiresUniqueLeaders="1" SortIndex="90"/>
 	</Maps>
 	<!-- マップサイズの定義 -->
@@ -156,6 +156,7 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_TRUMAN"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_CHURCHILL"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_ATTILA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_RADAMA_I"/>
 	</MapLeaders>
 	<ParameterDependencies>
 		<Row ParameterId="Resources"     ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map"/>
@@ -192,6 +193,7 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="3318" Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="3548" Type="LEADER" Value="LEADER_HAG_TRUMAN"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="3984" Type="LEADER" Value="LEADER_HAG_CHURCHILL"/>
-		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="3915" Type="LEADER" Value="LEADER_HAG_ATTILA"/>		
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="3915" Type="LEADER" Value="LEADER_HAG_ATTILA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="1647" Type="LEADER" Value="LEADER_HAG_RADAMA_I"/>
 	</MapStartPositions>
 </GameData>

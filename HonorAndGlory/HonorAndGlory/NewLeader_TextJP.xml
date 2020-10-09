@@ -74,6 +74,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ATTILA_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- ナポレオン -->
@@ -163,6 +169,13 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ATTILA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>フン族とその諸侯の王。中世ドイツの『ニーベルンゲンの歌』などの叙事詩にはエツェル（Etzel）の名で登場する。現在のロシア・東欧・ドイツを結ぶ大帝国を築き上げ、西方世界の「大王」を自称した。ローマ帝政末期に広がっていたキリスト教の信者からは、「神の災い」や「神の鞭」と恐れられた。 </Text>
 		</Row>
+		<!-- ラダマ1世 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>マダガスカルの主権者の筆頭にあった人物であり、ヨーロッパ諸国の少なくとも1つにはマダガスカル王（1810年-1828年）として認められることとなった人物である。18歳の時に父である前王アンヂアナンプイニメリナの崩御に伴い権力を継承した。王国内の文化および技術革新に力を注いだ人物でもあり、ロンドン宣教会の宣教師たちが敷物、皮革、ブリキ、綿布の製造産業を立ち上げ、印刷技術をはじめて紹介し、聖書をマダガスカル語に翻訳・印刷し、メリナ貴族に対して義務的な基礎教育を授ける数十校に及ぶ学校を設立するというラダマの計画を監督したのは、まさにラダマの治世下においてのことであった。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>一方で前王の父からの遺言である「海こそが我が水田の境なり」を達成すべく、マダガスカル島内の武力統一を推し進めた。イギリスからの支援もあり、1827年ごろには島内の2/3をメリナ人の支配下で統一するに至った。しかし、日ごろの深酒が災いしたのか1828年7月27日に35歳という若さで崩御。王権はラダマの第1王妃であったラマヴが女王ラナヴァルナ1世（Ranavalona I）となる形で引き継がれた。</Text>
+		</Row>
 		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_TIMURID_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
@@ -182,6 +195,9 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_HUNS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>4世紀から6世紀にかけて中央アジア、コーカサス、東ヨーロッパに住んでいた遊牧民である。ヨーロッパの伝承によれば、彼らはヴォルガ川の東に住んでおり、当時スキタイの一部だった地域で初めて報告された。フン族の到来は、イランの人々、アラン人の西方への移住に関連している。370年までにフン族はヴォルガ川に到着し、430年までにヨーロッパに広大で短命の支配権を確立し、ローマ国境の外に住むゴス人や他の多くのゲルマン民族を征服し、他の多くの民族のローマ領土への逃亡を引き起こした。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_MADAGASCAR_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>アフリカ大陸の南東海岸部から沖へ約400キロメートル離れた西インド洋にあるマダガスカル島および周辺の島々からなる島国である。19世紀に至るまでマダガスカル島全土に広域的な支配を確立した政権は存在しなかったが、メリナ人の貴族階層を中心にした政権が19世紀前半に灌漑耕作技術の進展に伴い強勢となり、島の大部分を統一した。その後フランスとの戦争に敗れて植民地となるが、アフリカの年とも呼ばれる1960年に共和制の主権国家として独立、現在に至る。</Text>
 		</Row>
 		
 		<!-- Civilization Citizen Names -->
@@ -380,6 +396,34 @@
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_HUNS_FEMALE_5" Language="ja_JP">
 			<Text>タマラン</Text>
+		</Row>
+		<!-- マダガスカル -->
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_MALE_1" Language="ja_JP">
+			<Text>ダリー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_MALE_2" Language="ja_JP">
+			<Text>タンテリ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_MALE_3" Language="ja_JP">
+			<Text>ラフヒ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_MALE_4" Language="ja_JP">
+			<Text>ラマヴ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_1" Language="ja_JP">
+			<Text>モンジャ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_2" Language="ja_JP">
+			<Text>アンドリー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_3" Language="ja_JP">
+			<Text>マーク</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_4" Language="ja_JP">
+			<Text>バッジオ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_5" Language="ja_JP">
+			<Text>アニセト</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -1120,6 +1164,103 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_40" Language="ja_JP">
 			<Text>40</Text>
 		</Row>
+		<!-- マダガスカル -->
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_1" Language="ja_JP">
+			<Text>アンタナナリボ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_2" Language="ja_JP">
+			<Text>トゥアマシナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_3" Language="ja_JP">
+			<Text>アンツィラベ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_4" Language="ja_JP">
+			<Text>マハザンガ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_5" Language="ja_JP">
+			<Text>フィアナランツォア</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_6" Language="ja_JP">
+			<Text>トゥリアラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_7" Language="ja_JP">
+			<Text>アンツィラナナ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_8" Language="ja_JP">
+			<Text>アンブブンベ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_9" Language="ja_JP">
+			<Text>アンタニフツィ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_10" Language="ja_JP">
+			<Text>マナナラ・アヴァラトラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_11" Language="ja_JP">
+			<Text>アンタラハ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_12" Language="ja_JP">
+			<Text>アンツヒヒ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_13" Language="ja_JP">
+			<Text>アンパニヒ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_14" Language="ja_JP">
+			<Text>アンブシチャ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_15" Language="ja_JP">
+			<Text>イラカカ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_16" Language="ja_JP">
+			<Text>サンバヴァ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_17" Language="ja_JP">
+			<Text>トラニャロ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_18" Language="ja_JP">
+			<Text>ノシ・ベ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_19" Language="ja_JP">
+			<Text>マナカラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_20" Language="ja_JP">
+			<Text>メインティラーノ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_21" Language="ja_JP">
+			<Text>モロンダバ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_22" Language="ja_JP">
+			<Text>アンバラバオ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_23" Language="ja_JP">
+			<Text>アンバンジャ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_24" Language="ja_JP">
+			<Text>アンバトゥンドゥラザッカ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_25" Language="ja_JP">
+			<Text>アンバラファラグラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_26" Language="ja_JP">
+			<Text>イフシ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_27" Language="ja_JP">
+			<Text>イクング</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_28" Language="ja_JP">
+			<Text>マナンジャリー</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_29" Language="ja_JP">
+			<Text>マロアンツェトラ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_30" Language="ja_JP">
+			<Text>マルヴアイ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_31" Language="ja_JP">
+			<Text>ムルンベ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_32" Language="ja_JP">
+			<Text>ノシ・ブラハ</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="ja_JP">
@@ -1158,6 +1299,9 @@
 		<Row Tag="LOC_LEADER_HAG_ATTILA_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_RADAMA_I_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT" Language="ja_JP">
@@ -1194,6 +1338,9 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_ATTILA_DOM_TEXT" Language="ja_JP">
+			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_RADAMA_I_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		
@@ -1247,6 +1394,9 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION" Language="ja_JP">
 			<Text>相手が森林・熱帯雨林タイルにいる場合、[ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Language="ja_JP">
+			<Text>特性「海こそが我が水田の境なり」により戦闘力+5。</Text>
 		</Row>
 		
 		<!-- 隣接ボーナス効果 -->
@@ -1379,6 +1529,15 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_KAMA_RIVER_NAME" Language="ja_JP">
 			<Text>カマ川</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_IKOPA_RIVER_NAME" Language="ja_JP">
+			<Text>イコパ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_BETSIBOKA_RIVER_NAME" Language="ja_JP">
+			<Text>ベシボカ川</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_MAHARIVO_RIVER_NAME" Language="ja_JP">
+			<Text>マハリボ川</Text>
+		</Row>
 		
 		<!-- 火山 -->
 		<!-- 山・山脈 -->
@@ -1412,6 +1571,10 @@
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_IGMAN_NAME" Language="ja_JP">
 			<Text>イグマン山</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_MAROMOKOTRO_NAME" Language="ja_JP">
+			<Text>マロモコトロ山</Text>
+		</Row>
+		
 		<!-- 湖 -->
 		<Row Tag="LOC_NAMED_HAG_LAKE_RYBACHIY_ZALIV_NAME" Language="ja_JP">
 			<Text>ライバチイー・ザリブ</Text>
@@ -1442,6 +1605,18 @@
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_TSIMLYANSK_LAKE_NAME" Language="ja_JP">
 			<Text>ツィムリャンスク湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_ANONY_LAKE_NAME" Language="ja_JP">
+			<Text>アノニー湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_TSIMANAMPETSOTSA_LAKE_NAME" Language="ja_JP">
+			<Text>ティマナンペオツァ湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_IHOTRY_LAKE_NAME" Language="ja_JP">
+			<Text>イオトリー湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_ALAOTRA_LAKE_NAME" Language="ja_JP">
+			<Text>アラオトラ湖</Text>
 		</Row>
 		
 		<!-- プロジェクト -->

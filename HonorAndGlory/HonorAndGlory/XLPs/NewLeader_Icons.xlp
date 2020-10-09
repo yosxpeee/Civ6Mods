@@ -296,6 +296,47 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS256"/>
 		</Element>
+		<!-- 文明(フン族) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR256"/>
+		</Element>
 		
 		<!-- 指導者(ナポレオン) -->
 		<Element>
@@ -644,6 +685,35 @@
 		<Element>
 			<m_EntryID text="ICON_LEADER_HAG_ATTILA256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_ATTILA256"/>
+		</Element>
+		<!-- 指導者(ラダマ1世) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_RADAMA_I32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_RADAMA_I32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_RADAMA_I45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_RADAMA_I45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_RADAMA_I50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_RADAMA_I50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_RADAMA_I55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_RADAMA_I55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_RADAMA_I64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_RADAMA_I64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_RADAMA_I80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_RADAMA_I80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_RADAMA_I256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_RADAMA_I256"/>
 		</Element>
 		
 		<!-- 都市国家(琉球) -->

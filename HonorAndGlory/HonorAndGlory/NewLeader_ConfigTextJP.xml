@@ -113,6 +113,22 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION" Language="ja_JP">
 			<Text>蛮族の野営地を占領すると開拓者を1体入手する。ゲーム開始時から畜産の技術を所有している。大商人の取得ができない。首都以外の都市名は他文明の都市名を借用する。</Text>
 		</Row>
+		<!-- 文明(マダガスカル) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_NAME" Language="ja_JP">
+			<Text>マダガスカル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION" Language="ja_JP">
+			<Text>マダガスカル</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_ADJECTIVE" Language="ja_JP">
+			<Text>マダガスカルの</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_NAME" Language="ja_JP">
+			<Text>タニンヂャザナ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION" Language="ja_JP">
+			<Text>獲得した偉人1人につき文明全体の [ICON_Science] 科学力+2% (最大30%)。太古の時代から丘陵に農場を建設できる。</Text>
+		</Row>
 		
 		<!-- 指導者(ナポレオン) -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_NAME" Language="ja_JP">
@@ -233,6 +249,16 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION" Language="ja_JP">
 			<Text>破城槌と攻城塔の効果が騎兵ユニットにも適用される。すべての騎兵ユニットが護衛能力を持つ。他文明が建てた都市は占領できず、強制的に破壊される。都市の強制破壊によって大量のゴールドを得る(ゲームスピード依存)。</Text>
+		</Row>
+		<!-- 指導者(ラダマ1世) -->
+		<Row Tag="LOC_LEADER_HAG_RADAMA_I_NAME" Language="ja_JP">
+			<Text>ラダマ1世</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_RADAMA_I_NAME" Language="ja_JP">
+			<Text>海こそが我が水田の境なり</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION" Language="ja_JP">
+			<Text>キャンパス区域と兵営区域の建造物に対する [ICON_Production] 生産力+50%。すべての陸軍ユニットは異なるクラスの陸軍ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複せず、重騎兵と軽騎兵は同一クラス扱い、武僧などの特殊クラスは対象外)</Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->

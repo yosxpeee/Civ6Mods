@@ -117,6 +117,15 @@
 			<m_EntryID text="PORTRAIT_LEADER_HAG_ATTILA"/>
 			<m_ObjectName text="PORTRAIT_LEADER_HAG_ATTILA"/>
 		</Element>
+		<!-- ラダマ1世 -->
+		<Element>
+			<m_EntryID text="LEADER_HAG_RADAMA_I_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HAG_RADAMA_I_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="PORTRAIT_LEADER_HAG_RADAMA_I"/>
+			<m_ObjectName text="PORTRAIT_LEADER_HAG_RADAMA_I"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

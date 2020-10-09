@@ -87,5 +87,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_ATTILA_ANY" Language="ja_JP">
 			<Text>お前は私の前に立つに値せぬ。お前の軍は弱く、力は脆弱だ。</Text>
 		</Replace>
+		<!-- ラダマ1世 -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_RADAMA_I_ANY" Language="ja_JP">
+			<Text>-- favor --</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_RADAMA_I_ANY" Language="ja_JP">
+			<Text>-- dislike --</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

@@ -15,6 +15,12 @@
 		<Row Type="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY"          Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY"          Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED"             Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE"        Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY"      Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED"       Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE"        Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON"        Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY" Kind="KIND_ABILITY"/>
 		<!-- ユニークユニット -->
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                     Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                     Kind="KIND_ABILITY"/>
@@ -68,7 +74,13 @@
 		<Row Type="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY"          Tag="CLASS_SIEGE_TOWER"/>
 		<Row Type="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY"          Tag="CLASS_SIEGE_TOWER"/>
 		<Row Type="ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED"             Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED"             Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE"        Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY"      Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY"      Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED"       Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE"        Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON"        Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY" Tag="CLASS_ANTI_CAVALRY"/>
 		<!-- ユニークユニット -->
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"/>
@@ -92,6 +104,12 @@
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY"          Name="LOC_ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY_NAME"          Description="LOC_ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_LIGHT_CAVALRY_DESCRIPTION"         Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY"          Name="LOC_ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY_NAME"          Description="LOC_ABILITY_LEADER_HAG_ATTILA_BYPASS_WALL_HEAVY_CAVALRY_DESCRIPTION"         Inactive="true"/>
 		<Row UnitAbilityType="ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED"             Name="LOC_ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED_NAME"             Description="LOC_ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED_DESCRIPTION"            Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE"        Name="LOC_ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE_NAME"        Description="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY"      Name="LOC_ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY_NAME"      Description="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED"       Name="LOC_ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED_NAME"       Description="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE"        Name="LOC_ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE_NAME"        Description="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON"        Name="LOC_ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON_NAME"        Description="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY" Name="LOC_ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY_NAME" Description="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Inactive="true"/>
 		<!-- ユニークユニット -->
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                     Name="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"                     Description="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                     Name="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"                     Description="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION"/>
@@ -158,6 +176,31 @@
 		<Row>
 			<UnitAbilityType>ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</UnitAbilityType>
 			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
+		</Row>
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</UnitAbilityType>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY</UnitAbilityType>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED</UnitAbilityType>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE</UnitAbilityType>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON</UnitAbilityType>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY</UnitAbilityType>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY</ModifierId>
 		</Row>
 		
 		<!-- M48山砲：丘陵で移動力が落ちない -->
@@ -242,6 +285,37 @@
 			<ModifierId>HAG_ATTILA_ENABLE_BYPASS_WALL_HEAVY_CAVALRY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_BYPASS_WALLS_PROMOTION_CLASS</ModifierType>
 		</Row>
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_MELEE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_CAVALRY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RANGED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_SIEGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RECON</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_ANTI_CAVALRY</SubjectRequirementSetId>
+		</Row>
 		
 		<!-- ベルベル人の騎兵：砂漠隣接で戦闘力+5 -->
 		<Row>
@@ -310,6 +384,37 @@
 			<Name>PromotionClass</Name>
 			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
 		</Row>
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 		
 		<!-- ベルベル人の騎兵：砂漠タイルでの戦闘力+5 -->
 		<Row>
@@ -357,6 +462,36 @@
 			<RequirementSetId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(近接用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_MELEE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(騎兵用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_CAVALRY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(遠隔用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RANGED</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(攻囲用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_SIEGE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(偵察用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RECON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(対騎兵用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_ANTI_CAVALRY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<!-- 条件定義 -->
 	<RequirementSetRequirements>
@@ -391,6 +526,152 @@
 			<!-- バニラにある -->
 			<RequirementId>PLOT_IS_FOREST_REQUIREMENT_HAG</RequirementId>
 		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(近接用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_MELEE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_HEAVY_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_MELEE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_LIGHT_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_MELEE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_MELEE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_SIEGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_MELEE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RECON</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_MELEE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_ANTI_CAVALRY</RequirementId>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(騎兵用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_SIEGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RECON</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_ANTI_CAVALRY</RequirementId>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(遠隔用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RANGED</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_HEAVY_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RANGED</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_LIGHT_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RANGED</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RANGED</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_SIEGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RANGED</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RECON</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RANGED</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_ANTI_CAVALRY</RequirementId>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(攻囲用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_SIEGE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_HEAVY_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_SIEGE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_LIGHT_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_SIEGE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_SIEGE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_SIEGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_SIEGE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RECON</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_SIEGE</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_ANTI_CAVALRY</RequirementId>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(偵察用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RECON</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_HEAVY_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RECON</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_LIGHT_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RECON</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RECON</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_SIEGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RECON</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_RECON</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_ANTI_CAVALRY</RequirementId>
+		</Row>
+		<!-- 異なるの昇進クラスのユニットが隣接している(対騎兵用) -->
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_ANTI_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_HEAVY_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_ANTI_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_LIGHT_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_ANTI_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_ANTI_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_SIEGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_ANTI_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_OTHER_CLASS_REQUIREMENTS_FOR_ANTI_CAVALRY</RequirementSetId>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_ANTI_CAVALRY</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
@@ -409,13 +690,50 @@
 			<RequirementId>UNIT_IS_CLASS_NAVAL_RANGED_REQUIREMENT_HAG_JU87</RequirementId>
 			<RequirementType>REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
+		<!-- 森林にいる -->
 		<Row>
 			<RequirementId>PLOT_IS_FOREST_REQUIREMENT_HAG</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 熱帯雨林にいる -->
 		<Row>
 			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT_HAG</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 重騎兵ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_HEAVY_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- 軽騎兵ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_LIGHT_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- 近接ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_MELEE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- 遠隔ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RANGED</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- 攻囲ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_SIEGE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- 偵察ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RECON</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<!-- 対騎兵ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_ANTI_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
@@ -438,23 +756,73 @@
 			<Name>Tag</Name>
 			<Value>CLASS_NAVAL_RANGED</Value>
 		</Row>
+		<!-- 森林にいる -->
 		<Row>
 			<RequirementId>PLOT_IS_FOREST_REQUIREMENT_HAG</RequirementId>
 			<Name>FeatureType</Name>
 			<Value>FEATURE_FOREST</Value>
 		</Row>
+		<!-- 熱帯雨林にいる -->
 		<Row>
 			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT_HAG</RequirementId>
 			<Name>FeatureType</Name>
 			<Value>FEATURE_JUNGLE</Value>
 		</Row>
+		<!-- 重騎兵ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_HEAVY_CAVALRY</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<!-- 軽騎兵ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_LIGHT_CAVALRY</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<!-- 近接ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_MELEE</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<!-- 遠隔ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RANGED</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED</Value>
+		</Row>
+		<!-- 攻囲ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_SIEGE</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_SIEGE</Value>
+		</Row>
+		<!-- 偵察ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_RECON</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_RECON</Value>
+		</Row>
+		<!-- 対騎兵ユニットが隣接 -->
+		<Row>
+			<RequirementId>HAG_UNIT_ADJECENT_CLASS_ANTI_CAVALRY</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_ANTI_CAVALRY</Value>
+		</Row>
 	</RequirementArguments>
 	<!-- 戦闘プレビューのテキスト -->
 	<ModifierStrings>
-		<Row ModifierId="COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL" Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
-		<Row ModifierId="COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL"  Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
-		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY"            Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY_DESCRIPTION"/>
-		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED"             Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED_DESCRIPTION"/>
-		<Row ModifierId="HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE"   Context="Preview" Text="LOC_ABILITY_HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE_DESCRIPTION"/>
+		<Row ModifierId="COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL"      Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
+		<Row ModifierId="COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL"       Context="Preview" Text="LOC_PROMOTION_COMBAT_BONUS_WHEN_DEFENDING_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION"/>
+		<Row ModifierId="HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE"        Context="Preview" Text="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION"/>
+		<Row ModifierId="HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY"      Context="Preview" Text="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION"/>
+		<Row ModifierId="HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED"       Context="Preview" Text="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION"/>
+		<Row ModifierId="HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE"        Context="Preview" Text="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION"/>
+		<Row ModifierId="HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON"        Context="Preview" Text="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION"/>
+		<Row ModifierId="HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY" Context="Preview" Text="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION"/>
+		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY"                 Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY_DESCRIPTION"/>
+		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED"                  Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED_DESCRIPTION"/>
+		<Row ModifierId="HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE"        Context="Preview" Text="LOC_ABILITY_HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE_DESCRIPTION"/>
 	</ModifierStrings>
 </GameData>

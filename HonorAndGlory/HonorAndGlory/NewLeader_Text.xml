@@ -74,6 +74,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ATTILA_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Detail)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- ナポレオン -->
@@ -163,6 +169,13 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_ATTILA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
+		<!-- ラダマ1世 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
 		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_TIMURID_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -181,6 +194,9 @@
 			<Text>Civilization specific historical text</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_HUNS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_MADAGASCAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
 		</Row>
 		
@@ -380,6 +396,34 @@
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_HUNS_FEMALE_5" Language="en_US">
 			<Text>Temarun</Text>
+		</Row>
+		<!-- マダガスカル -->
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_MALE_1" Language="en_US">
+			<Text>Dally</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_MALE_2" Language="en_US">
+			<Text>Tantely</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_MALE_3" Language="en_US">
+			<Text>Rafohy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_MALE_4" Language="en_US">
+			<Text>Ramavo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_1" Language="en_US">
+			<Text>Monja</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_2" Language="en_US">
+			<Text>Andry</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_3" Language="en_US">
+			<Text>Marc</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_4" Language="en_US">
+			<Text>Baggio</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_5" Language="en_US">
+			<Text>Anicet</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -1120,6 +1164,103 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_HUNS_CITY_40" Language="en_US">
 			<Text>40</Text>
 		</Row>
+		<!-- マダガスカル -->
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_1" Language="en_US">
+			<Text>Antananarivo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_2" Language="en_US">
+			<Text>Toamasina</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_3" Language="en_US">
+			<Text>Antsirabe</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_4" Language="en_US">
+			<Text>Mahajanga</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_5" Language="en_US">
+			<Text>Fianarantsoa</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_6" Language="en_US">
+			<Text>Toliara</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_7" Language="en_US">
+			<Text>Antsiranana</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_8" Language="en_US">
+			<Text>Ambovombe</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_9" Language="en_US">
+			<Text>Antanifotsy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_10" Language="en_US">
+			<Text>Mananara Avaratra</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_11" Language="en_US">
+			<Text>Antalaha</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_12" Language="en_US">
+			<Text>Antsohihy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_13" Language="en_US">
+			<Text>Ampanihy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_14" Language="en_US">
+			<Text>Ambositra</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_15" Language="en_US">
+			<Text>Ilakaka</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_16" Language="en_US">
+			<Text>Sambava</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_17" Language="en_US">
+			<Text>Tolanaro</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_18" Language="en_US">
+			<Text>Nosy Be</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_19" Language="en_US">
+			<Text>Manakara</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_20" Language="en_US">
+			<Text>Maintirano</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_21" Language="en_US">
+			<Text>Morondava</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_22" Language="en_US">
+			<Text>Ambalavao</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_23" Language="en_US">
+			<Text>Ambanja</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_24" Language="en_US">
+			<Text>Ambatondrazaka</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_25" Language="en_US">
+			<Text>Amparafaravola</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_26" Language="en_US">
+			<Text>Ihosy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_27" Language="en_US">
+			<Text>Ikongo</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_28" Language="en_US">
+			<Text>Mananjary</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_29" Language="en_US">
+			<Text>Maroantsetra</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_30" Language="en_US">
+			<Text>Marovoay</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_31" Language="en_US">
+			<Text>Morombe</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_32" Language="en_US">
+			<Text>Nosy Boraha</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="en_US">
@@ -1158,6 +1299,9 @@
 		<Row Tag="LOC_LEADER_HAG_ATTILA_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_RADAMA_I_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT" Language="en_US">
@@ -1194,6 +1338,9 @@
 			<Text>Loading Text</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_ATTILA_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_RADAMA_I_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
 		
@@ -1247,6 +1394,9 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength bonus if target is in the forest or jungle.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength bonus from "The sea is the border of my rice field" trait.</Text>
 		</Row>
 		
 		<!-- 隣接ボーナス効果 -->
@@ -1379,6 +1529,16 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_KAMA_RIVER_NAME" Language="en_US">
 			<Text>Kama River</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_IKOPA_RIVER_NAME" Language="en_US">
+			<Text>Ikopa River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_BETSIBOKA_RIVER_NAME" Language="en_US">
+			<Text>Betsiboka River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_MAHARIVO_RIVER_NAME" Language="en_US">
+			<Text>Maharivo River</Text>
+		</Row>
+
 		<!-- 火山 -->
 		<!-- 山・山脈 -->
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME" Language="en_US">
@@ -1411,6 +1571,10 @@
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_IGMAN_NAME" Language="en_US">
 			<Text>Mount Igman</Text>
 		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_MAROMOKOTRO_NAME" Language="en_US">
+			<Text>Mount Maromokotro</Text>
+		</Row>
+		
 		<!-- 湖 -->
 		<Row Tag="LOC_NAMED_HAG_LAKE_RYBACHIY_ZALIV_NAME" Language="en_US">
 			<Text>Rybachiy Zaliv</Text>
@@ -1441,6 +1605,18 @@
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_TSIMLYANSK_LAKE_NAME" Language="en_US">
 			<Text>Tsimlyansk Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_ANONY_LAKE_NAME" Language="en_US">
+			<Text>Anony Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_TSIMANAMPETSOTSA_LAKE_NAME" Language="en_US">
+			<Text>Tsimanampetsotsa Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_IHOTRY_LAKE_NAME" Language="en_US">
+			<Text>Ihotry Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_ALAOTRA_LAKE_NAME" Language="en_US">
+			<Text>Alaotra Lake</Text>
 		</Row>
 		
 		<!-- プロジェクト -->

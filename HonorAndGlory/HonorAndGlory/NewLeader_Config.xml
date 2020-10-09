@@ -205,6 +205,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_ATTILA</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_ATTILA</Portrait>
 		</Row>
+		<!-- マダガスカル(ラダマ1世) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_MADAGASCAR</CivilizationType>
+			<LeaderType>LEADER_HAG_RADAMA_I</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_MADAGASCAR_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_MADAGASCAR</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_RADAMA_I_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_RADAMA_I</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_MADAGASCAR</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_RADAMA_I_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_RADAMA_I</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_RADAMA_I</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- ナポレオン -->

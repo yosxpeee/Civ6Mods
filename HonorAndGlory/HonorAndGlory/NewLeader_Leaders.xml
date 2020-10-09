@@ -42,6 +42,9 @@
 		<!-- アッティラ -->
 		<Row Type="LEADER_HAG_ATTILA"              Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_ATTILA"        Kind="KIND_TRAIT"/>
+		<!-- ラダマ1世 -->
+		<Row Type="LEADER_HAG_RADAMA_I"            Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_RADAMA_I"      Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -117,6 +120,12 @@
 			<Name>LOC_LEADER_HAG_ATTILA_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- ラダマ1世 -->
+		<Row>
+			<LeaderType>LEADER_HAG_RADAMA_I</LeaderType>
+			<Name>LOC_LEADER_HAG_RADAMA_I_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
@@ -132,6 +141,7 @@
 		<Row LeaderType="LEADER_HAG_TRUMAN"        Quote="LOC_LEADER_HAG_TRUMAN_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     Quote="LOC_LEADER_HAG_CHURCHILL_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_ATTILA"        Quote="LOC_LEADER_HAG_ATTILA_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_RADAMA_I"      Quote="LOC_LEADER_HAG_RADAMA_I_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
@@ -174,6 +184,8 @@
 		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_HAG_ATTILA"/>
 		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_HAG_RADAMA_I"/>
+		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -193,6 +205,7 @@
 		<Row TraitType="TRAIT_LEADER_HAG_CHURCHILL"       Name="LOC_TRAIT_LEADER_HAG_CHURCHILL_NAME"     Description="LOC_TRAIT_LEADER_HAG_CHURCHILL_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH" Name="LOC_TRAIT_UNIT_HAG_ENGLAND_SWORDFISH_NAME"/>
 		<Row TraitType="TRAIT_LEADER_HAG_ATTILA"          Name="LOC_TRAIT_LEADER_HAG_ATTILA_NAME"        Description="LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_RADAMA_I"        Name="LOC_TRAIT_LEADER_HAG_RADAMA_I_NAME"      Description="LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -479,6 +492,41 @@
 			<TraitType>TRAIT_LEADER_HAG_ATTILA</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</ModifierId>
 		</Row>
+		<!-- ラダマ1世 -->
+		<!-- キャンパス区域と兵営区域の建造物に対する生産力+50% -->
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_ENCAMPMENT_BUILDINGS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -738,6 +786,41 @@
 		<!-- 全ての騎兵ユニットが護衛能力を持つ -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+
+		<!-- キャンパス区域と兵役区域の建造物に対する生産力+50% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_ENCAMPMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 	</Modifiers>
@@ -1265,6 +1348,59 @@
 			<Name>AbilityType</Name>
 			<Value>ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</Value>
 		</Row>
+
+		<!-- キャンパス区域と兵営区域の建造物に対する生産力+50% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_ENCAMPMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_ENCAMPMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_RECON</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_ANTI_CAVALRY</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -1691,13 +1827,14 @@
 	<!-- 好む宗教 -->
 	<FavoredReligions>
 		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、アッティラはなし -->
-		<Row LeaderType="LEADER_HAG_NAPOLEON"     ReligionType="RELIGION_CATHOLICISM"/>
-		<Row LeaderType="LEADER_HAG_TIMUR"        ReligionType="RELIGION_ISLAM"/>
-		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL" ReligionType="RELIGION_ISLAM"/>
-		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"  ReligionType="RELIGION_BUDDHISM"/>
-		<Row LeaderType="LEADER_HAG_MARIA_I"      ReligionType="RELIGION_CATHOLICISM"/>
-		<Row LeaderType="LEADER_HAG_TRUMAN"       ReligionType="RELIGION_CATHOLICISM"/>
-		<Row LeaderType="LEADER_HAG_CHURCHILL"    ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_NAPOLEON"       ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_TIMUR"          ReligionType="RELIGION_ISLAM"/>
+		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"   ReligionType="RELIGION_ISLAM"/>
+		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"    ReligionType="RELIGION_BUDDHISM"/>
+		<Row LeaderType="LEADER_HAG_MARIA_I"        ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_TRUMAN"         ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_CHURCHILL"      ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_RADAMA_I"       ReligionType="RELIGION_CATHOLICISM"/>
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
@@ -1713,6 +1850,7 @@
 		<Row Type="LEADER_HAG_TRUMAN"        BackgroundImage="Truman_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_CHURCHILL"     BackgroundImage="Churchill_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_ATTILA"        BackgroundImage="Attila_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_RADAMA_I"      BackgroundImage="RadamaI_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"     BackgroundImage="Napoleon_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT"      PlayDawnOfManAudio="1"/>
@@ -1727,5 +1865,6 @@
 		<Row LeaderType="LEADER_HAG_TRUMAN"        ForegroundImage="Truman_LoadingInfo_Foreground.dds"       BackgroundImage="Truman_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_TRUMAN_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     ForegroundImage="Churchill_LoadingInfo_Foreground.dds"    BackgroundImage="Churchill_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_CHURCHILL_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_ATTILA"        ForegroundImage="Attila_LoadingInfo_Foreground.dds"       BackgroundImage="Attila_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_ATTILA_DOM_TEXT"        PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_RADAMA_I"      ForegroundImage="RadamaI_LoadingInfo_Foreground.dds"      BackgroundImage="RadamaI_LoadingInfo_Background.dds"      LeaderText="LOC_LEADER_HAG_RADAMA_I_DOM_TEXT"      PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

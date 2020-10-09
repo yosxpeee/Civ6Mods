@@ -37,6 +37,9 @@
 		<Row Type="TRAIT_CIVILIZATION_HAG_HUNS"            Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_HUNS_TARKHAN"            Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_IMPROVEMENT_HAG_HUNS_YURT"        Kind="KIND_TRAIT"/>
+		<!-- マダガスカル -->
+		<Row Type="CIVILIZATION_HAG_MADAGASCAR"            Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_HAG_MADAGASCAR"      Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>
@@ -110,6 +113,16 @@
 			<RandomCityNameDepth>40</RandomCityNameDepth>
 			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
 		</Row>
+		<!-- マダガスカル -->
+		<Row>
+			<CivilizationType>CIVILIZATION_HAG_MADAGASCAR</CivilizationType>
+			<Name>LOC_CIVILIZATION_HAG_MADAGASCAR_NAME</Name>
+			<Description>LOC_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_HAG_MADAGASCAR_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>32</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_AFRICAN</Ethnicity>
+		</Row>
 	</Civilizations>
 	<!-- 文明に属する指導者 -->
 	<CivilizationLeaders>
@@ -125,6 +138,7 @@
 		<Row CivilizationType="CIVILIZATION_AMERICA"        LeaderType="LEADER_HAG_TRUMAN"        CapitalName="LOC_CITY_NAME_WASHINGTON" />
 		<Row CivilizationType="CIVILIZATION_ENGLAND"        LeaderType="LEADER_HAG_CHURCHILL"     CapitalName="LOC_CITY_NAME_LONDON" />
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       LeaderType="LEADER_HAG_ATTILA"        CapitalName="LOC_CIVILIZATION_HAG_HUNS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" LeaderType="LEADER_HAG_RADAMA_I"      CapitalName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_1" />
 	</CivilizationLeaders>
 	<!-- 文明が何の特性を持つか -->
 	<CivilizationTraits>
@@ -149,6 +163,7 @@
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       TraitType="TRAIT_CIVILIZATION_HAG_HUNS" />
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       TraitType="TRAIT_UNIT_HAG_HUNS_TARKHAN" />
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       TraitType="TRAIT_IMPROVEMENT_HAG_HUNS_YURT" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" />
 	</CivilizationTraits>
 	<!-- 禁止する偉人の設定 -->
 	<ExcludedGreatPersonClasses>
@@ -177,6 +192,7 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_HUNS"                Name="LOC_TRAIT_CIVILIZATION_HAG_HUNS_NAME"            Description="LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_HAG_HUNS_TARKHAN"                Name="LOC_TRAIT_UNIT_HAG_HUNS_TARKHAN_NAME"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_HUNS_YURT"            Name="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR"          Name="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_NAME"      Description="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION"/>
 	</Traits>
 	<!-- 文明特性の指定 -->
 	<TraitModifiers>
@@ -232,6 +248,12 @@
 		<!-- フン族 -->
 		<!-- 初期から畜産取得済み -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_HUNS"  ModifierId="TRAIT_CIVILIZATION_HAG_HUNS_ANIMAL_HUSBANDRY"/>
+		<!-- マダガスカル -->
+		<!-- 初期から草原および平原の丘陵に農地がはれる -->
+		<!-- 偉人1人につき生産力+2%(上限30%) -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" ModifierId="TRAIT_CIVILIZATION_HAG_MADAGASCAR_GRASS_HILLS_FARM"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" ModifierId="TRAIT_CIVILIZATION_HAG_MADAGASCAR_PLAINS_HILLS_FARM"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" ModifierId="TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS"/>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
 	<Modifiers>
@@ -329,6 +351,27 @@
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_HUNS_ANIMAL_HUSBANDRY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
+
+		<!-- 初期から草原丘陵に農地がはれる -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_GRASS_HILLS_FARM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<!-- 初期から平原丘陵に農地がはれる -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PLAINS_HILLS_FARM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<!-- 偉人1人につき生産力+2%(上限30%) -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>HAG_MADAGASCAR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_MODIFIER_PER_EARNED_GREAT_PERSON</ModifierType>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -614,31 +657,81 @@
 			<Name>TechType</Name>
 			<Value>TECH_ANIMAL_HUSBANDRY</Value>
 		</Row>
+
+		<!-- 初期から草原丘陵に農地がはれる -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_GRASS_HILLS_FARM</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_GRASS_HILLS_FARM</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_HILLS</Value>
+		</Row>
+		<!-- 初期から平原丘陵に農地がはれる -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PLAINS_HILLS_FARM</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PLAINS_HILLS_FARM</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_HILLS</Value>
+		</Row>
+		<!-- 偉人1人につき生産力+2%(上限30%) -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件：判定種別 -->
 	<RequirementSets>
+		<!-- 工業地帯隣接の鉱山 -->
 		<Row>
 			<RequirementSetId>PLOT_IS_MINE_INDUSTRIAL_ZONE_ADJACENT_REQUIREMENTS_HAG_YUGOSLAVIA</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 建物が銀行である -->
 		<Row>
 			<RequirementSetId>BUILDING_IS_BANK_HAG_ITALY</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 蟹タイルである -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_CRABS_REQUIREMENTS_HAG_ITALY</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 魚タイルである -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_FISH_REQUIREMENTS_HAG_ITALY</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 小麦タイルである -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_WHEAT_REQUIREMENTS_HAG_ITALY</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 鯨タイルである -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_WHALES_REQUIREMENTS_HAG_ITALY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 文明がマダガスカルである -->
+		<Row>
+			<RequirementSetId>HAG_MADAGASCAR_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -678,65 +771,93 @@
 			<RequirementSetId>PLOT_HAS_WHALES_REQUIREMENTS_HAG_ITALY</RequirementSetId>
 			<RequirementId>REQUIRES_WHALES_IN_PLOT_HAG_ITALY</RequirementId>
 		</Row>
+		<!-- 文明がマダガスカルである -->
+		<Row>
+			<RequirementSetId>HAG_MADAGASCAR_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_HAG_MADAGASCAR</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
+		<!-- 工業地帯隣接 -->
 		<Row>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_INDUSTRIAL_ZONE_HAG_YUGOSLAVIA</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 建物が銀行である -->
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_BANK_HAG_ITALY</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
 		</Row>
+		<!-- 蟹タイルである -->
 		<Row>
 			<RequirementId>REQUIRES_CRABS_IN_PLOT_HAG_ITALY</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 魚タイルである -->
 		<Row>
 			<RequirementId>REQUIRES_FISH_IN_PLOT_HAG_ITALY</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 小麦タイルである -->
 		<Row>
 			<RequirementId>REQUIRES_WHEAT_IN_PLOT_HAG_ITALY</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 鯨タイルである -->
 		<Row>
 			<RequirementId>REQUIRES_WHALES_IN_PLOT_HAG_ITALY</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 文明がマダガスカルである -->
+		<Row>
+			<RequirementId>PLAYER_IS_HAG_MADAGASCAR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_TYPE_MATCHES</RequirementType>
+		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
 	<RequirementArguments>
+		<!-- 工業地帯隣接 -->
 		<Row>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_INDUSTRIAL_ZONE_HAG_YUGOSLAVIA</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
 		</Row>
+		<!-- 建物が銀行である -->
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_BANK_HAG_ITALY</RequirementId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_BANK</Value>
 		</Row>
+		<!-- 蟹タイルである -->
 		<Row>
 			<RequirementId>REQUIRES_CRABS_IN_PLOT_HAG_ITALY</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_CRABS</Value>
 		</Row>
+		<!-- 魚タイルである -->
 		<Row>
 			<RequirementId>REQUIRES_FISH_IN_PLOT_HAG_ITALY</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_FISH</Value>
 		</Row>
+		<!-- 小麦タイルである -->
 		<Row>
 			<RequirementId>REQUIRES_WHEAT_IN_PLOT_HAG_ITALY</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_WHEAT</Value>
 		</Row>
+		<!-- 鯨タイルである -->
 		<Row>
 			<RequirementId>REQUIRES_WHALES_IN_PLOT_HAG_ITALY</RequirementId>
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_WHALES</Value>
+		</Row>
+		<!-- 文明がマダガスカルである -->
+		<Row>
+			<RequirementId>PLAYER_IS_HAG_MADAGASCAR</RequirementId>
+			<Name>CivilizationType</Name>
+			<Value>CIVILIZATION_HAG_MADAGASCAR</Value>
 		</Row>
 	</RequirementArguments>
 	<!-- 市民名 -->
@@ -811,6 +932,16 @@
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CitizenName="LOC_CITIZEN_HAG_HUNS_FEMALE_5" Female="1"/>
+		<!-- マダガスカル -->
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CitizenName="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_5" Female="1"/>
 	</CivilizationCitizenNames>
 	<!-- 都市名 -->
 	<CityNames>
@@ -1077,6 +1208,39 @@
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_38" />
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_39" />
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" CityName="LOC_CIVILIZATION_HAG_HUNS_CITY_40" />
+		<!-- マダガスカル -->
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_15" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_16" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_17" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_18" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_19" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_20" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_21" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_22" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_23" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_24" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_25" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_26" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_27" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_28" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_29" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_30" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_31" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" CityName="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_32" />
 	</CityNames>
 	<!-- 開始位置補正 -->
 	<StartBiasTerrains>
@@ -1097,6 +1261,8 @@
 		<!-- フン族：草原、平原 -->
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" TerrainType="TERRAIN_GRASS"  Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" TerrainType="TERRAIN_PLAINS" Tier="3"/>
+		<!-- マダガスカル：沿岸 -->
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TerrainType="TERRAIN_COAST" Tier="3"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
 		<!-- モロッコ：馬 -->
@@ -1119,6 +1285,8 @@
 		<!-- フン族：馬、羊 -->
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" ResourceType="RESOURCE_HORSES" Tier="5"/>
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" ResourceType="RESOURCE_SHEEP"  Tier="3"/>
+		<!-- マダガスカル：カカオ -->
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" ResourceType="RESOURCE_COCOA" Tier="3"/>
 	</StartBiasResources>
 	<StartBiasFeatures>
 		<!-- ティムール朝：オアシス -->
