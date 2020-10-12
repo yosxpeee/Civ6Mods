@@ -455,6 +455,13 @@
 				<UpgradeUnit>UNIT_HAGA_LONGSWORDSMAN</UpgradeUnit>
 			</Set>
 		</Update>
+		<!-- ホヴァ：長剣士に変更 -->
+		<Update>
+			<Where Unit="UNIT_HAG_MADAGASCAR_HOVA"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_LONGSWORDSMAN</UpgradeUnit>
+			</Set>
+		</Update>
 	</UnitUpgrades>
 	<!-- 置換設定 -->
 	<UnitReplaces>
