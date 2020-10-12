@@ -1768,5 +1768,18 @@
 		<Row Tag="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_DESCRIPTION" Language="ja_JP">
 			<Text>強い軍事力を有する文明を好み、軍事衝突をさけるためにそうした文明と同盟を結ぼうとする。一方で軍事力の弱い文明を嫌う。</Text>
 		</Row>
+		<!-- ニ・チャヌヴラ(ラダマ1世) -->
+		<Row Tag="LOC_AGENDA_HAG_NY_TRANOVOLA_NAME" Language="ja_JP">
+			<Text>ニ・チャヌヴラ</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_NY_TRANOVOLA_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Science] 科学力を高めようとし、同じように [ICON_Science] 科学力を重視する文明を好む。 [ICON_Science] 科学力を軽視する文明を嫌う。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_NY_TRANOVOLA_HIGH_SCIENCE" Language="ja_JP">
+			<Text>ラダマ1世はあなたが科学に力を入れていることに満足している</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_NY_TRANOVOLA_LOW_SCIENCE" Language="ja_JP">
+			<Text>ラダマ1世はあなたが科学を軽んじていることを不満に思っている</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

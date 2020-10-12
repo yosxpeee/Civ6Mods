@@ -40,6 +40,9 @@
 		<!-- マダガスカル -->
 		<Row Type="CIVILIZATION_HAG_MADAGASCAR"            Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_HAG_MADAGASCAR"      Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_DISTRICT_HAG_MADAGASCAR_FOKO"     Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_IMPROVEMENT_HAG_MADAGASCAR_ROVA"  Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_MADAGASCAR_HOVA"         Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 主設定 -->
 	<Civilizations>
@@ -164,6 +167,9 @@
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       TraitType="TRAIT_UNIT_HAG_HUNS_TARKHAN" />
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS"       TraitType="TRAIT_IMPROVEMENT_HAG_HUNS_YURT" />
 		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TraitType="TRAIT_DISTRICT_HAG_MADAGASCAR_FOKO" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TraitType="TRAIT_IMPROVEMENT_HAG_MADAGASCAR_ROVA" />
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TraitType="TRAIT_UNIT_HAG_MADAGASCAR_HOVA" />
 	</CivilizationTraits>
 	<!-- 禁止する偉人の設定 -->
 	<ExcludedGreatPersonClasses>
@@ -193,6 +199,9 @@
 		<Row TraitType="TRAIT_UNIT_HAG_HUNS_TARKHAN"                Name="LOC_TRAIT_UNIT_HAG_HUNS_TARKHAN_NAME"/>
 		<Row TraitType="TRAIT_IMPROVEMENT_HAG_HUNS_YURT"            Name="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR"          Name="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_NAME"      Description="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_DISTRICT_HAG_MADAGASCAR_FOKO"         Name="LOC_TRAIT_DISTRICT_HAG_MADAGASCAR_FOKO_NAME"/>
+		<Row TraitType="TRAIT_IMPROVEMENT_HAG_MADAGASCAR_ROVA"      Name="LOC_TRAIT_IMPROVEMENT_HAG_MADAGASCAR_ROVA_NAME"/>
+		<Row TraitType="TRAIT_UNIT_HAG_MADAGASCAR_HOVA"             Name="LOC_TRAIT_UNIT_HAG_MADAGASCAR_HOVA_NAME"/>
 	</Traits>
 	<!-- 文明特性の指定 -->
 	<TraitModifiers>
@@ -1261,8 +1270,10 @@
 		<!-- フン族：草原、平原 -->
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" TerrainType="TERRAIN_GRASS"  Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HAG_HUNS" TerrainType="TERRAIN_PLAINS" Tier="3"/>
-		<!-- マダガスカル：沿岸 -->
-		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TerrainType="TERRAIN_COAST" Tier="3"/>
+		<!-- マダガスカル：丘陵、沿岸 -->
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TerrainType="TERRAIN_GRASS_HILLS"  Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TerrainType="TERRAIN_PLAINS_HILLS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MADAGASCAR" TerrainType="TERRAIN_COAST"        Tier="3"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
 		<!-- モロッコ：馬 -->

@@ -6,6 +6,7 @@
 		<Row Type="IMPROVEMENT_HAG_MOROCCO_CASBAH"    Kind="KIND_IMPROVEMENT"/>
 		<Row Type="IMPROVEMENT_HAG_ITALY_DUOMO"       Kind="KIND_IMPROVEMENT"/>
 		<Row Type="IMPROVEMENT_HAG_HUNS_YURT"         Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_HAG_MADAGASCAR_ROVA"   Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<!-- 設定本体 -->
 	<Improvements>
@@ -37,20 +38,29 @@
 			 Icon="ICON_IMPROVEMENT_HAG_HUNS_YURT"
 			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" Housing="1" TilesRequired="1" SameAdjacentValid="false"
 			 PrereqTech="TECH_HORSEBACK_RIDING" TraitType="TRAIT_IMPROVEMENT_HAG_HUNS_YURT"/>
+		<!-- ルヴァ：城で解禁 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA"
+			 Name="LOC_IMPROVEMENT_HAG_MADAGASCAR_ROVA_NAME"
+			 Description="LOC_IMPROVEMENT_HAG_MADAGASCAR_ROVA_DESCRIPTION"
+			 Icon="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA"
+			 PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" Housing="1" TilesRequired="1" OnePerCity="true" DefenseModifier="4" GrantFortification="2"
+			 PrereqTech="TECH_CASTLES" TraitType="TRAIT_IMPROVEMENT_HAG_MADAGASCAR_ROVA"/>
 	</Improvements>
 	<!-- 隣接ボーナス指定 -->
 	<Improvement_Adjacencies>
-		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH" YieldChangeId="HAG_Casbah_SameImprovementAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_CityCenterAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_CampusAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_CommercialHubAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_HarborAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_HolySiteAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_IndustrialZoneAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"    YieldChangeId="HAG_Duomo_TheaterAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"      YieldChangeId="HAG_Yurt_CampAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"      YieldChangeId="HAG_Yurt_PastureAdjacency"/>
-		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"      YieldChangeId="HAG_Yurt_PlantationAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"  YieldChangeId="HAG_Casbah_SameImprovementAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"     YieldChangeId="HAG_Duomo_CityCenterAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"     YieldChangeId="HAG_Duomo_CampusAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"     YieldChangeId="HAG_Duomo_CommercialHubAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"     YieldChangeId="HAG_Duomo_HarborAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"     YieldChangeId="HAG_Duomo_HolySiteAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"     YieldChangeId="HAG_Duomo_IndustrialZoneAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"     YieldChangeId="HAG_Duomo_TheaterAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"       YieldChangeId="HAG_Yurt_CampAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"       YieldChangeId="HAG_Yurt_PastureAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"       YieldChangeId="HAG_Yurt_PlantationAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" YieldChangeId="HAG_Rova_FokoAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" YieldChangeId="HAG_Rova_CityCenterdjacency"/>
 	</Improvement_Adjacencies>
 	<!-- 設置可能な特徴 -->
 	<Improvement_ValidFeatures>
@@ -82,16 +92,25 @@
 		<!-- ユルト：草原/平原の平地のみ -->
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" TerrainType="TERRAIN_PLAINS"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" TerrainType="TERRAIN_GRASS"/>
+		<!-- ルヴァ：丘陵ならどこでも -->
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" TerrainType="TERRAIN_SNOW_HILLS"/>
 	</Improvement_ValidTerrains>
 	<!-- 設置可能な資源 -->
 	<Improvement_ValidResources>
 	</Improvement_ValidResources>
 	<!--地形改善できるユニット -->
 	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FARM"                  UnitType="UNIT_HAG_MADAGASCAR_HOVA"/>
+		
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" UnitType="UNIT_BUILDER"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MOROCCO_CASBAH"    UnitType="UNIT_BUILDER"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO"       UnitType="UNIT_BUILDER"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"         UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA"   UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
 	<!-- 出力 -->
 	<Improvement_YieldChanges>
@@ -113,6 +132,9 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_PRODUCTION"   YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_FOOD"         YieldChange="0"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_CULTURE"      YieldChange="0"/>
+		<!-- ルヴァ：科学力+1、文化力+1 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" YieldType="YIELD_CULTURE" YieldChange="1"/>
 	</Improvement_YieldChanges>
 	<!-- 追加出力 -->
 	<Improvement_BonusYieldChanges>
@@ -132,6 +154,8 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT"         ScalingFactor="100"/>
 		<!-- ユルト：都市化で食料に等しい観光力 -->
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"         TourismSource="TOURISMSOURCE_FOOD"    PrereqCivic="CIVIC_URBANIZATION" ScalingFactor="100"/>
+		<!-- ルヴァ：航空技術で文化力に等しい観光力 -->
+		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA"   TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT"         ScalingFactor="100"/>
 	</Improvement_Tourism>
 	<!-- 隣接ボーナス詳細 -->
 	<Adjacency_YieldChanges>
@@ -149,6 +173,9 @@
 		<Row ID="HAG_Yurt_CampAdjacency"              Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CAMP"/>
 		<Row ID="HAG_Yurt_PastureAdjacency"           Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
 		<Row ID="HAG_Yurt_PlantationAdjacency"        Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
+		<!-- ルヴァ：フク隣接で科学力+1、都心隣接で文化力+1 -->
+		<Row ID="HAG_Rova_FokoAdjacency"              Description="Placeholder" YieldType="YIELD_SCIENCE"    YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HAG_MADAGASCAR_FOKO"/>
+		<Row ID="HAG_Rova_CityCenterdjacency"         Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
 	</Adjacency_YieldChanges>
 	<!-- 固有能力指定 -->
 	<ImprovementModifiers>

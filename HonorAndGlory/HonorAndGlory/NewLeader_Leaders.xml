@@ -145,46 +145,60 @@
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
+		<!-- ナポレオン -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_HAG_NAPOLEON"/>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<!-- ティムール -->
 		<Row LeaderType="LEADER_HAG_TIMUR"         TraitType="TRAIT_LEADER_HAG_TIMUR"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"         TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<!-- チトー -->
 		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_HAG_TITO"/>
 		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_TITO"          TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/>			<!-- 科学重視 -->
+		<!-- ムーレイ・イスマーイール -->
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"  TraitType="TRAIT_LEADER_HAG_MULAY_ISMAIL"/>
+		<!-- 東条英機 -->
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_LEADER_HAG_HIDEKI_TOJO"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"   TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<!-- マリア1世 -->
 		<Row LeaderType="LEADER_HAG_MARIA_I"       TraitType="TRAIT_LEADER_HAG_MARIA_I"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"       TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
+		<!-- スターリン -->
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_HAG_STALIN"/>
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_STALIN"        TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/>			<!-- 科学重視 -->
+		<!-- ヒトラー -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_HAG_ADOLF_HITLER"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"/>
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_ADOLF_HITLER"  TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<!-- ムッソリーニ -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_HAG_MUSSOLINI"/>
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_MUSSOLINI"     TraitType="TRAIT_LEADER_PURSUE_DIPLOMATIC_VICTORY"/>	<!-- 外交勝利狙い -->
+		<!-- トルーマン -->
 		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_LEADER_HAG_TRUMAN"/>
 		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_UNIT_HAG_AMERICAN_JAEGER"/>
 		<Row LeaderType="LEADER_HAG_TRUMAN"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<!-- チャーチル -->
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_HAG_CHURCHILL"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
+		<!-- アッティラ -->
 		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_HAG_ATTILA"/>
 		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 		<Row LeaderType="LEADER_HAG_ATTILA"        TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<!-- ラダマ1世 -->
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_HAG_RADAMA_I"/>
+		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
@@ -493,15 +507,23 @@
 			<ModifierId>TRAIT_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</ModifierId>
 		</Row>
 		<!-- ラダマ1世 -->
-		<!-- キャンパス区域と兵営区域の建造物に対する生産力+50% -->
-		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<!-- キャンパス区域と兵営区域から対応する偉人ポイント+1、建造物に対する生産力+30% -->
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_ENCAMPMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_GREAT_GENERAL_ENCAMPMENT</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_GREAT_SCIENTIST_CAMPUS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_BUILDING_PRODUCTION_ENCAMPMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_BUILDING_PRODUCTION_CAMPUS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_RADAMA_I</TraitType>
@@ -789,16 +811,29 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 
-		<!-- キャンパス区域と兵役区域の建造物に対する生産力+50% -->
+		<!-- キャンパス区域と兵営区域から対応する偉人ポイント+1 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_GREAT_GENERAL_ENCAMPMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_GREAT_SCIENTIST_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<!-- キャンパス区域と兵営区域の建造物の生産力+30% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_BUILDING_PRODUCTION_ENCAMPMENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_ENCAMPMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_BUILDING_PRODUCTION_CAMPUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
-		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
@@ -1349,26 +1384,47 @@
 			<Value>ABILITY_LEADER_HAG_ATTILA_ESCORT_MOBILITY_SHARED</Value>
 		</Row>
 
-		<!-- キャンパス区域と兵営区域の建造物に対する生産力+50% -->
+		<!-- キャンパス区域と兵営区域から対応する偉人ポイント+1 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_CAMPUS</Value>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_GREAT_GENERAL_ENCAMPMENT</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_CAMPUS_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_GREAT_GENERAL_ENCAMPMENT</ModifierId>
 			<Name>Amount</Name>
-			<Value>50</Value>
+			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_ENCAMPMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_GREAT_SCIENTIST_CAMPUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_GREAT_SCIENTIST_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- キャンパス区域と兵営区域の建造物の生産力+30% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_BUILDING_PRODUCTION_ENCAMPMENT</ModifierId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_ENCAMPMENT</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_ENCAMPMENT_BUILDINGS_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_BUILDING_PRODUCTION_ENCAMPMENT</ModifierId>
 			<Name>Amount</Name>
-			<Value>50</Value>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_BUILDING_PRODUCTION_CAMPUS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_ADJUST_BUILDING_PRODUCTION_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
 		</Row>
 		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
 		<Row>
@@ -1561,6 +1617,12 @@
 		<Row ListType="HAGAttilaTech"/>
 		<Row ListType="HAGAttilaWonders"/>
 		<Row ListType="HAGAttilaCavalryLoverList"/>
+		<!-- ラダマ1世-->
+		<Row ListType="HAGRadamaIDistrict"/>
+		<Row ListType="HAGRadamaICivics"/>
+		<Row ListType="HAGRadamaITech"/>
+		<Row ListType="HAGRadamaIWonders"/>
+		<Row ListType="HAGRadamaIScience"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- ナポレオン -->
@@ -1631,6 +1693,12 @@
 		<Row ListType="HAGAttilaTech"             LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="Technologies"/>
 		<Row ListType="HAGAttilaWonders"          LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="Buildings"/>
 		<Row ListType="HAGAttilaCavalryLoverList" LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="UnitPromotionClasses"/>
+		<!-- ラダマ1世-->
+		<Row ListType="HAGRadamaIDistrict"        LeaderType="TRAIT_LEADER_HAG_TITO"          System="Districts"/>
+		<Row ListType="HAGRadamaICivics"          LeaderType="TRAIT_LEADER_HAG_TITO"          System="Civics"/>
+		<Row ListType="HAGRadamaITech"            LeaderType="TRAIT_LEADER_HAG_TITO"          System="Technologies"/>
+		<Row ListType="HAGRadamaIWonders"         LeaderType="TRAIT_LEADER_HAG_TITO"          System="Buildings"/>
+		<Row ListType="HAGRadamaIScience"         LeaderType="TRAIT_LEADER_HAG_TITO"          System="Yields"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- ナポレオン -->
@@ -1796,6 +1864,21 @@
 		<Row ListType="HAGAttilaTech"             Item="TECH_MILITARY_SCIENCE"          Favored="true"/><!-- 軍事学 -->
 		<Row ListType="HAGAttilaWonders"          Item="BUILDING_TERRACOTTA_ARMY"       Favored="true"/><!-- 兵馬俑 -->
 		<Row ListType="HAGAttilaCavalryLoverList" Item="PROMOTION_CLASS_LIGHT_CAVALRY"  Value="100"/>
+		<!-- ラダマ世 -->
+		<Row ListType="HAGRadamaIDistrict"        Item="DISTRICT_CAMPUS"                Favored="true"/><!-- キャンパス -->
+		<Row ListType="HAGRadamaIDistrict"        Item="DISTRICT_ENCAMPMENT"            Favored="true"/><!-- 兵営 -->
+		<Row ListType="HAGRadamaICivics"          Item="CIVIC_FEUDALISM"                Favored="true"/><!-- 封建制度 -->
+		<Row ListType="HAGRadamaICivics"          Item="CIVIC_NATIONALISM"              Favored="true"/><!-- ナショナリズム -->
+		<Row ListType="HAGRadamaICivics"          Item="CIVIC_DIPLOMATIC_SERVICE"       Favored="true"/><!-- 外交官 -->
+		<Row ListType="HAGRadamaITech"            Item="TECH_WRITING"                   Favored="true"/><!-- 筆記 -->
+		<Row ListType="HAGRadamaITech"            Item="TECH_BRONZE_WORKING"            Favored="true"/><!-- 青銅器 -->
+		<Row ListType="HAGRadamaITech"            Item="TECH_APPRENTICESHIP"            Favored="true"/><!-- 徒弟制度 -->
+		<Row ListType="HAGRadamaITech"            Item="TECH_STEEL"                     Favored="true"/><!-- 鉄鋼 -->
+		<Row ListType="HAGRadamaIWonders"         Item="BUILDING_GREAT_LIBRARY"         Favored="true"/><!-- アレキサンドリア図書館 -->
+		<Row ListType="HAGRadamaIWonders"         Item="BUILDING_MACHU_PICCHU"          Favored="true"/><!-- マチュ・ピチュ(GS) -->
+		<Row ListType="HAGRadamaIWonders"         Item="BUILDING_OXFORD_UNIVERSITY"     Favored="true"/><!-- オックスフォード大学 -->
+		<Row ListType="HAGRadamaIWonders"         Item="BUILDING_RUHR_VALLEY"           Favored="true"/><!-- ルール地方 -->
+		<Row ListType="HAGRadamaIScience"         Item="YIELD_SCIENCE"                  Value="15"/>
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
@@ -1823,6 +1906,8 @@
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"/>
 		<!-- アッティラ：フン族とその諸侯の王(中身はバニラのクレオパトラと同じ) -->
 		<Row LeaderType="LEADER_HAG_ATTILA"        AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
+		<!-- ラダマ1世：ニ・チャヌヴラ(中身はRaFのソンドクと同じ) -->
+		<Row LeaderType="LEADER_HAG_RADAMA_I"      AgendaType="AGENDA_HAG_NY_TRANOVOLA"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>

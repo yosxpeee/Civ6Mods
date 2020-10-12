@@ -3,13 +3,16 @@
 	<!-- 親定義 -->
 	<Types>
 		<Row Type="DISTRICT_HAG_PORTUGAL_FEITORIA" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_HAG_MADAGASCAR_FOKO"   Kind="KIND_DISTRICT"/>
 	</Types>
 	<!-- 置換設定 -->
 	<DistrictReplaces>
 		<Row CivUniqueDistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+		<Row CivUniqueDistrictType="DISTRICT_HAG_MADAGASCAR_FOKO"   ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
 	</DistrictReplaces>
 	<!-- 主設定 -->
 	<Districts>
+		<!-- フェイトリア -->
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" Name="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Description="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" 
 			 PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27" 
 			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" 
@@ -17,9 +20,18 @@
 			 NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
 			 MilitaryDomain="DOMAIN_LAND" CityStrengthModifier="2" Entertainment="1"
 			 TraitType="TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA"/>
+		<!-- フク -->
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" Name="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_DESCRIPTION" 
+			 PrereqCivic="CIVIC_CRAFTSMANSHIP" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="27" 
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" 
+			 RequiresPopulation="false" OnePerCity="false" Aqueduct="false" 
+			 NoAdjacentCity="false" InternalOnly="false" ZOC="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" 
+			 MilitaryDomain="NO_DOMAIN" Housing="4" CityStrengthModifier="2" Entertainment="1"
+			 TraitType="TRAIT_DISTRICT_HAG_MADAGASCAR_FOKO"/>
 	</Districts>
 	<!-- 隣接ボーナス定義 -->
 	<District_Adjacencies>
+		<!-- フェイトリア -->
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Coast_Production"/>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Coast_Food"/>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Harbor_Production"/>
@@ -28,6 +40,15 @@
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Canal_Food"/>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Plantation_Gold"/>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Mine_Gold"/>
+		<!-- フク -->
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Farm_Food1"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Farm_Food2"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Aqueduct_Production1"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Aqueduct_Production2"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Canal_Production1"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Canal_Production2"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Plantation_Gold1"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Plantation_Gold2"/>
 	</District_Adjacencies>
 	<ExcludedAdjacencies>
 	</ExcludedAdjacencies>
@@ -42,6 +63,7 @@
 	<!-- 交易路の出力 -->
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO"   YieldType="YIELD_FOOD"       YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	<!-- 市民配置時の出力変更 -->
 	<District_CitizenYieldChanges>
@@ -49,10 +71,17 @@
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<District_CitizenGreatPersonPoints/>
+	<!-- アビールによる住宅の増減 -->
 	<AppealHousingChanges>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" MinimumValue="4"    AppealChange="2" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" MinimumValue="2"    AppealChange="1" Description="LOC_TOOLTIP_APPEAL_CHARMING"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" MinimumValue="-1"   AppealChange="0" Description="LOC_TOOLTIP_APPEAL_AVERAGE"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" MinimumValue="-3"   AppealChange="0" Description="LOC_TOOLTIP_APPEAL_UNINVITING"/>
+		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" MinimumValue="-100" AppealChange="0" Description="LOC_TOOLTIP_APPEAL_DISGUSTING"/>
 	</AppealHousingChanges>
 	<!-- 隣接ボーナス主設定 -->
 	<Adjacency_YieldChanges>
+		<!-- フェイトリア -->
 		<!-- 沿岸2タイルにつき食糧+1、生産力+1 -->
 		<Row ID="HAG_Feitoria_Coast_Production"  Description="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION"  YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
 		<Row ID="HAG_Feitoria_Coast_Food"        Description="LOC_DISTRICT_HAG_PORTUGAL_COAST_FOOD"        YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
@@ -61,9 +90,23 @@
 		<Row ID="HAG_Feitoria_Harbor_Food"       Description="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_FOOD"       YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
 		<Row ID="HAG_Feitoria_Canal_Production"  Description="LOC_DISTRICT_HAG_PORTUGAL_CANAL_PRODUCTION"  YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
 		<Row ID="HAG_Feitoria_Canal_Food"        Description="LOC_DISTRICT_HAG_PORTUGAL_CANAL_FOOD"        YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
-		<!-- プランテーション、鉱山1つにつきゴールド+1 -->
+		<!-- プランテーション、鉱山1タイルにつきゴールド+1 -->
 		<Row ID="HAG_Feitoria_Plantation_Gold"   Description="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD"   YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
 		<Row ID="HAG_Feitoria_Mine_Gold"         Description="LOC_DISTRICT_HAG_PORTUGAL_MINE_GOLD"         YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>
+
+		<!-- フク -->
+		<!-- 農場2タイルにつき食料+1(土木技術解禁で1タイルにつき+1になる) -->
+		<Row ID="HAG_Foko_Farm_Food1"          Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_FARM_FOOD1"           YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FARM" ObsoleteCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ID="HAG_Foko_Farm_Food2"          Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_FARM_FOOD2"           YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<!-- 用水路から生産力+1(大量生産で生産力+2になる) -->
+		<Row ID="HAG_Foko_Aqueduct_Production1" Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_AQUEDUCT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_AQUEDUCT" ObsoleteTech="TECH_MASS_PRODUCTION"/>
+		<Row ID="HAG_Foko_Aqueduct_Production2" Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_AQUEDUCT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_AQUEDUCT" PrereqTech="TECH_MASS_PRODUCTION"/>
+		<!-- 運河から生産力+1(電気解禁で生産力+2になる) -->
+		<Row ID="HAG_Foko_Canal_Production1"    Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_CANAL_PRODUCTION"    YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL" ObsoleteTech="TECH_ELECTRICITY"/>
+		<Row ID="HAG_Foko_Canal_Production2"    Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_CANAL_PRODUCTION"    YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL" PrereqTech="TECH_ELECTRICITY"/>
+		<!-- プランテーション1タイルにつきゴールド+1(重商主義解禁でゴールド+2になる) -->
+		<Row ID="HAG_Foko_Plantation_Gold1"     Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_PLANTATION_GOLD"     YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION" ObsoleteCivic="CIVIC_MERCANTILISM"/>
+		<Row ID="HAG_Foko_Plantation_Gold2"     Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_PLANTATION_GOLD"     YieldType="YIELD_GOLD"       YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION" PrereqCivic="CIVIC_MERCANTILISM"/>
 	</Adjacency_YieldChanges>
 	<DistrictModifiers>
 	</DistrictModifiers>
@@ -71,14 +114,14 @@
 	</Modifiers>
 	<ModifierArguments>
 	</ModifierArguments>
-	<Requirements>
-	</Requirements>
-	<RequirementArguments>
-	</RequirementArguments>
 	<RequirementSets>
 	</RequirementSets>
 	<RequirementSetRequirements>
 	</RequirementSetRequirements>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
 	<!-- 防衛施設の射程 -->
 	<Districts_XP2>
 		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" AttackRange="2"/>

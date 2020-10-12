@@ -1769,5 +1769,18 @@
 		<Row Tag="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_DESCRIPTION" Language="en_US">
 			<Text>Likes civilizations with powerful militaries, and will try to ally with them to avoid damaging military conflicts. Dislikes civilizations with weak militaries.</Text>
 		</Row>
+		<!-- ニ・チャヌヴラ(ラダマ1世) -->
+		<Row Tag="LOC_AGENDA_HAG_NY_TRANOVOLA_NAME" Language="en_US">
+			<Text>Ny Tranovola</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_NY_TRANOVOLA_DESCRIPTION" Language="en_US">
+			<Text>Tries to build up [ICON_Science] Science, and likes civilizations that also focus on [ICON_Science] Science. Dislikes those with low [ICON_SCIENCE] Science.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_NY_TRANOVOLA_HIGH_SCIENCE" Language="en_US">
+			<Text>Radama I is pleased with your efforts in Science</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_NY_TRANOVOLA_LOW_SCIENCE" Language="en_US">
+			<Text>Radama I is disappointed that you ignore Science</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

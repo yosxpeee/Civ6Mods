@@ -21,7 +21,10 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_AMERICAN_JAEGER"             Texture="Moment_HAG_Truman_Jaeger.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_HUNS_TARKHAN"                Texture="Moment_HAG_Huns_Tarkhan.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_HUNS_YURT"            Texture="Moment_HAG_Huns_Yurt.dds"/>
-		
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT"    MomentDataType="MOMENT_DATA_DISTRICT"    GameDataType="DISTRICT_HAG_MADAGASCAR_FOKO"         Texture="Moment_HAG_Madagascar_foko.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_HAG_MADAGASCAR_ROVA"      Texture="Moment_HAG_Madagascar_Rova.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT"        MomentDataType="MOMENT_DATA_UNIT"        GameDataType="UNIT_HAG_MADAGASCAR_HOVA"             Texture="Moment_HAG_Madagascar_Hova.dds"/>
+
 		<!-- 宗教 -->
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_JAINISM"      Texture="Moment_Religion_HAG_Jainism.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_RELIGION" MomentDataType="MOMENT_DATA_RELIGION" GameDataType="RELIGION_HAG_MANICHAEISM"  Texture="Moment_Religion_HAG_Manichaeism.dds"/>

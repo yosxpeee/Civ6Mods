@@ -14,6 +14,7 @@
 		<Row Type="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"       Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_NY_TRANOVOLA"          Kind="KIND_TRAIT"/>
 	</Types>
 	<PlotEvalConditions>
 	</PlotEvalConditions>
@@ -40,6 +41,7 @@
 		<Row ListType="HAGAtlanticCharterDiplomacy"/>
 		<Row ListType="HAGAtlanticCharterDiscussions"/>
 		<Row ListType="HAGTheRulerOfTheHunsDiscussions"/>
+		<Row ListType="HAGNyTranovolaDiscussions"/>
 	</AiListTypes>
 	<AiLists>
 		<Row ListType="HAGHundredDaysDiplomacy"                 AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"          System="DiplomaticActions"/>
@@ -63,6 +65,7 @@
 		<Row ListType="HAGAtlanticCharterDiplomacy"             AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      System="DiplomaticActions"/>
 		<Row ListType="HAGAtlanticCharterDiscussions"           AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      System="Discussions"/>
 		<Row ListType="HAGTheRulerOfTheHunsDiscussions"         AgendaType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" System="Discussions"/>
+		<Row ListType="HAGNyTranovolaDiscussions"               AgendaType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"          System="Discussions"/>
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="HAGHundredDaysDiplomacy"                 Item="DIPLOACTION_MAKE_PEACE" Favored="false"/>
@@ -97,6 +100,7 @@
 		<Row ListType="HAGAtlanticCharterDiplomacy"             Item="DIPLOACTION_DECLARE_FRIENDSHIP" Favored="true"/>
 		<Row ListType="HAGAtlanticCharterDiscussions"           Item="WC_EMERGENCY_BACKSTAB" Favored="true"/>
 		<Row ListType="HAGTheRulerOfTheHunsDiscussions"         Item="WC_EMERGENCY_MILITARY" Favored="false"/>
+		<Row ListType="HAGNyTranovolaDiscussions"               Item="WC_EMERGENCY_SPACE_STATION" Favored="true"/>
 	</AiFavoredItems>
 	<TriggeredBehaviorTrees>
 	</TriggeredBehaviorTrees>
@@ -114,6 +118,7 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"/>
 	</Traits>
 	<!-- アジェンダの名前と説明 -->
 	<Agendas>
@@ -129,6 +134,7 @@
 		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"       Name="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_NAME"       Description="LOC_AGENDA_HAG_TRUMAN_DOCTRINE_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"      Name="LOC_AGENDA_HAG_ATLANTIC_CHARTER_NAME"      Description="LOC_AGENDA_HAG_ATLANTIC_CHARTER_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS" Name="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_NAME" Description="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_NY_TRANOVOLA"          Name="LOC_AGENDA_HAG_NY_TRANOVOLA_NAME"          Description="LOC_AGENDA_HAG_NY_TRANOVOLA_DESCRIPTION"/>
 	</Agendas>
 	<RandomAgendas>
 	</RandomAgendas>
@@ -158,6 +164,7 @@
 		<Row AgendaOne="AGENDA_HAG_THE_RULER_OF_THE_HUNS" AgendaTwo="AGENDA_STANDING_ARMY"/>
 		<Row AgendaOne="AGENDA_HAG_THE_RULER_OF_THE_HUNS" AgendaTwo="AGENDA_PARANOID"/>
 		<Row AgendaOne="AGENDA_HAG_THE_RULER_OF_THE_HUNS" AgendaTwo="AGENDA_BARBARIAN_LOVER"/>
+		<Row AgendaOne="AGENDA_HAG_NY_TRANOVOLA"          AgendaTwo="AGENDA_FLAT_EARTHER"/>
 	</ExclusiveAgendas>
 	<!-- アジェンダとTraitの紐づけ -->
 	<AgendaTraits>
@@ -174,6 +181,7 @@
 		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"       TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
 		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"      TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
 		<Row AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS" TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
+		<Row AgendaType="AGENDA_HAG_NY_TRANOVOLA" TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"/>
 	</AgendaTraits>
 	<!-- Traitに紐づく効果 -->
 	<TraitModifiers>
@@ -195,6 +203,9 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_FRIEND"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" ModifierId="AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA" ModifierId="AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA" ModifierId="AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE"/>
+
 	</TraitModifiers>
 	<!-- ここからアジェンダの効果詳細 -->
 	<Modifiers>
@@ -314,6 +325,19 @@
 			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
 			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
 		</Row>
+		<!-- 科学力が高い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_SCIENCE</SubjectRequirementSetId>
+		</Row>
+		<!-- 科学力が低い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_SCIENCE</SubjectRequirementSetId>
+		</Row>
+
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 戦争の状態 -->
@@ -705,6 +729,38 @@
 			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
 			<Value>AGENDA_HAG_THE_RULER_OF_THE_HUNS</Value>
 		</Row>
+		<!-- 科学力が高い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_SEONDEOK_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_NY_TRANOVOLA_HIGH_SCIENCE</Value>
+		</Row>
+		<!-- 科学力が低い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_SEONDEOK_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_NY_TRANOVOLA_LOW_SCIENCE</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- アジェンダに紐づく印象の上下のテキスト -->
 	<!-- ※これを忘れると「理由不明」になってしまう -->
@@ -725,5 +781,7 @@
 		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<Row ModifierId="AGENDA_HAG_THE_RULER_OF_THE_HUNS"                Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE"            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE"             Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 	</ModifierStrings>
 </GameInfo>

@@ -13,6 +13,7 @@
 		<Row Type="UNIT_HAG_ENGLAND_SWORDFISH"       Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_AMERICAN_JAEGER"         Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_HUNS_TARKHAN"            Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_MADAGASCAR_HOVA"         Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -66,6 +67,10 @@
 		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
@@ -109,6 +114,7 @@
 		<Row CivUniqueUnitType="UNIT_HAG_GERMANY_JU87"            ReplacesUnitType="UNIT_BOMBER"/>
 		<Row CivUniqueUnitType="UNIT_HAG_AMERICAN_JAEGER"         ReplacesUnitType="UNIT_RANGER"/>
 		<Row CivUniqueUnitType="UNIT_HAG_HUNS_TARKHAN"            ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_HAG_MADAGASCAR_HOVA"         ReplacesUnitType="UNIT_SWORDSMAN"/>
 	</UnitReplaces>
 	<!-- 主設定 -->
 	<Units>
@@ -192,6 +198,13 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_HUNS_TARKHAN_NAME" Description="LOC_UNIT_HAG_HUNS_TARKHAN_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_HORSEBACK_RIDING"
 			 TraitType="TRAIT_UNIT_HAG_HUNS_TARKHAN"/>
+		<!-- ホヴァ -->
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA" Cost="110" Maintenance="2" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" StrategicResource="RESOURCE_IRON"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_MADAGASCAR_HOVA_NAME" Description="LOC_UNIT_HAG_MADAGASCAR_HOVA_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" BuildCharges="2" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_IRON_WORKING"
+			 TraitType="TRAIT_UNIT_HAG_MADAGASCAR_HOVA"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -217,6 +230,8 @@
 		<Row Unit="UNIT_HAG_AMERICAN_JAEGER"         UpgradeUnit="UNIT_SPEC_OPS"/>
 		<!-- タルカン：コーサー -->
 		<Row Unit="UNIT_HAG_HUNS_TARKHAN"            UpgradeUnit="UNIT_COURSER"/>
+		<!-- ホヴァ：マスケット兵 -->
+		<Row Unit="UNIT_HAG_MADAGASCAR_HOVA"         UpgradeUnit="UNIT_MUSKETMAN"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>
@@ -229,5 +244,6 @@
 		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       ResourceCost="10"/>
 		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"       ResourceCost="20"/>
 		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            ResourceCost="20"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         ResourceCost="10"/>
 	</Units_XP2>
 </GameData>

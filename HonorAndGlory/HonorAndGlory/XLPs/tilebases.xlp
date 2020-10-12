@@ -81,6 +81,10 @@
 			<m_EntryID text="IMP_HAG_Stecci"/>
 			<m_ObjectName text="IMP_HAG_Stecci"/>
 		</Element>
+		<Element>
+			<m_EntryID text="IMP_HAG_Rova"/>
+			<m_ObjectName text="IMP_HAG_Rova"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

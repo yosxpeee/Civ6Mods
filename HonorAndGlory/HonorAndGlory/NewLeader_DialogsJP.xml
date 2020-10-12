@@ -89,10 +89,10 @@
 		</Replace>
 		<!-- ラダマ1世 -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_RADAMA_I_ANY" Language="ja_JP">
-			<Text>-- favor --</Text>
+			<Text>創造の秘密を知るそなたは、我が民の羨望の的だ。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_RADAMA_I_ANY" Language="ja_JP">
-			<Text>-- dislike --</Text>
+			<Text>誰もが天に手を伸ばさんとするなか、お前は泥に突っ伏したいというのか？</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

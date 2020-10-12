@@ -229,7 +229,7 @@
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="50"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units50.dds"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="80"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units80.dds"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units256.dds"/>
-		
+
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits38"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits50"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits70"/>
@@ -342,6 +342,13 @@
 		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU8750.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU8780.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_GERMANY_JU87" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GERMANY_JU87256.dds"/>
+		<!-- ホヴァ -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA256.dds"/>
 		
 		<!-- UI -->
 		<!-- カスバ -->
@@ -364,6 +371,11 @@
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_YURT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_YURT50.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_YURT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_YURT80.dds"/>
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_YURT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_YURT256.dds"/>
+		<!-- ルヴァ -->
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_MADAGASCAR_ROVA" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA38.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_MADAGASCAR_ROVA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA50.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_MADAGASCAR_ROVA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA80.dds"/>
+		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_MADAGASCAR_ROVA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA256.dds"/>
 		
 		<!-- UP -->
 		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
@@ -572,6 +584,16 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="21"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="21"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_HUNS_TARKHAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="21"/>
+		<!-- ホヴァ(ポートレイトはンガオ・ムベバの使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_MADAGASCAR_HOVA"                                   Atlas="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA"      Index="0"/>
+		<Row Name="ICON_UNIT_HAG_MADAGASCAR_HOVA_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA"      Index="0"/>
+		<Row Name="ICON_UNIT_HAG_MADAGASCAR_HOVA_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA"      Index="0"/>
+		<Row Name="ICON_UNIT_HAG_MADAGASCAR_HOVA_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA"      Index="0"/>
+		<Row Name="ICON_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="36"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="36"/>
+		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="36"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="36"/>
+		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="36"/>
 		
 		<!-- UB -->
 		<!-- 天文台(マドラサの使いまわし) -->
@@ -585,7 +607,10 @@
 		<!-- フェイトリア(兵営の使いまわし) -->
 		<Row Name="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA"     Atlas="ICON_ATLAS_DISTRICTS"     Index="3"/>
 		<Row Name="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="3"/>
-
+		<!-- フク(近郊部の使いまわし) -->
+		<Row Name="ICON_DISTRICT_HAG_MADAGASCAR_FOKO"     Atlas="ICON_ATLAS_DISTRICTS"     Index="10"/>
+		<Row Name="ICON_DISTRICT_HAG_MADAGASCAR_FOKO_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="10"/>
+		
 		<!-- UI -->
 		<!-- ステチュツィ -->
 		<Row Name="ICON_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Atlas="ICON_ATLAS_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI" Index="0"/>
@@ -595,6 +620,8 @@
 		<Row Name="ICON_IMPROVEMENT_HAG_ITALY_DUOMO"       Atlas="ICON_ATLAS_IMPROVEMENT_HAG_ITALY_DUOMO"       Index="0"/>
 		<!-- ユルト -->
 		<Row Name="ICON_IMPROVEMENT_HAG_HUNS_YURT"         Atlas="ICON_ATLAS_IMPROVEMENT_HAG_YURT"              Index="0"/>
+		<!-- ルヴァ -->
+		<Row Name="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA"   Atlas="ICON_ATLAS_IMPROVEMENT_HAG_MADAGASCAR_ROVA"   Index="0"/>
 		
 		<!-- UP -->
 		<!-- 遷都(フェニキアの遷都プロジェクト使いまわし) -->

@@ -1074,6 +1074,31 @@
 			<m_EntryID text="ICON_UNIT_HAG_GERMANY_JU87256"/>
 			<m_ObjectName text="ICON_UNIT_HAG_GERMANY_JU87256"/>
 		</Element>
+		<!-- ユニット(ホヴァ) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MADAGASCAR_HOVA22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MADAGASCAR_HOVA22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MADAGASCAR_HOVA32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MADAGASCAR_HOVA32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MADAGASCAR_HOVA38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MADAGASCAR_HOVA38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MADAGASCAR_HOVA50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MADAGASCAR_HOVA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MADAGASCAR_HOVA80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MADAGASCAR_HOVA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_MADAGASCAR_HOVA256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_MADAGASCAR_HOVA256"/>
+		</Element>
 		
 		<!-- 地形改善(カスバ) -->
 		<Element>
@@ -1142,6 +1167,23 @@
 		<Element>
 			<m_EntryID text="ICON_IMPROVEMENT_HAG_YURT256"/>
 			<m_ObjectName text="ICON_IMPROVEMENT_HAG_YURT256"/>
+		</Element>
+		<!-- 地形改善(ルヴァ) -->
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA256"/>
 		</Element>
 		
 		<!-- 宗教(ジャイナ教) -->

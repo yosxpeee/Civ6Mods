@@ -89,10 +89,10 @@
 		</Replace>
 		<!-- ラダマ1世 -->
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_RADAMA_I_ANY" Language="en_US">
-			<Text>-- favor --</Text>
+			<Text>Your mastery of creation's secrets is the envy of my people.</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_RADAMA_I_ANY" Language="en_US">
-			<Text>-- dislike --</Text>
+			<Text>While others reach for the heavens, you claw at the dirt.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

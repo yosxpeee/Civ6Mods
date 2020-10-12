@@ -258,7 +258,7 @@
 			<Text>The sea is the border of my rice field</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_PRODUCTION] Production towards Campus and Encampment buildings. All Military Units receives +5 [ICON_Strength] Strength from the adjecent other class military units.(This effects are not duplicate, Heavy Cavalry class and Light Cavalry class treated as the same class, Excludes special units like Warrior Monk.) </Text>
+			<Text>+1 [ICON_GreatScientist] Great Scientist point from cities with a Campus district. +1 [ICON_GreatGeneral] Great General point from cities with a Encampment district. +30% [ICON_PRODUCTION] Production towards Campus and Encampment buildings. All Military Units receives +5 [ICON_Strength] Strength from the adjecent other class military units.(This effects are not duplicate, Heavy Cavalry class and Light Cavalry class treated as the same class, Excludes special units like Warrior Monk.) </Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->
@@ -404,6 +404,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_HUNS_TARKHAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- UU(ホヴァ) -->
+		<Row Tag="LOC_UNIT_HAG_MADAGASCAR_HOVA_NAME" Language="en_US">
+			<Text>Hova</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_MADAGASCAR_HOVA_DESCRIPTION" Language="en_US">
+			<Text>Madagascar unique Classical era unit. Replace the Swordsman. Can built Farm.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_MADAGASCAR_HOVA_NAME" Language="en_US">
+			<Text>Madagascar unique unit: Hova</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MADAGASCAR_HOVA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB(天文台) -->
 		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="en_US">
@@ -443,7 +456,7 @@
 			<Text>A district unique to Portugal Empire. Replaces the Encampment. +1 [ICON_Amenities] Amenity. It does not lower the appeal. +1 [ICON_Production] Production and +1 [ICON_Food] Food for every two adjecent Coast tiles. +1 [ICON_Production] Production and +1 [ICON_Food] Food for each adjecent Harbor/Canal tiles. +1 [ICON_Gold] Gold for each adjacent Plantations and Mines.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
-			<Text>Portugal Empire unique building: Feitoria</Text>
+			<Text>Portugal Empire unique district: Feitoria</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
@@ -469,7 +482,35 @@
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="en_US">
 			<Text>+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Plantation; other?Plantations;}.</Text>
 		</Row>
-
+		<!-- フク -->
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Language="en_US">
+			<Text>Foko</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Madagascar. Replaces the Neighborhood. +4 [ICON_Housing] Housing(increase with appeal) and +1 [ICON_Amenities] Amenity. +1 [ICON_Food] Food for every two adjecent Farm tiles. +1 [ICON_Production] Production for each adjecent Aqueduct and Canal districts. +1 [ICON_Gold] Gold for each adjecent Plantation tiles. (These adjacency bonuses will increase points as the Civics and Technologies are unlocked.)</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Language="en_US">
+			<Text>Madagascar unique district: Foko</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HAG_MADAGASCAR_FOKO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_FARM_FOOD1" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent every two Farm tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_FARM_FOOD2" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent every Farm tile.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_AQUEDUCT_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Aqueduct district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_CANAL_PRODUCTION" Language="en_US">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Canal district.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_PLANTATION_GOLD" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent every Plantation tile.</Text>
+		</Row>
+		
 		<!-- UI(ステチュツィ) -->
 		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="en_US">
 			<Text>Stecci</Text>
@@ -522,7 +563,20 @@
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_HUNS_YURT_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-
+		<!-- UI(ルヴァ) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_MADAGASCAR_ROVA_NAME" Language="en_US">
+			<Text>Rova</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_MADAGASCAR_ROVA_DESCRIPTION" Language="en_US">
+			<Text>Unlocks the Builder ability to construct a Rova, unique to Madagascar.[NEWLINE][NEWLINE]+1 [ICON_Science] Science, +1 [ICON_Culture] Culture, +1 [ICON_Housing] Housing. +1 [ICON_Science] Science for each adjacent Foko. +1 [ICON_Culture] Culture adjacent City Center. Can only be built on Hills. One per city.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MADAGASCAR_ROVA_NAME" Language="en_US">
+			<Text>Huns unique improvement: Rova</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MADAGASCAR_ROVA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
 		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Language="en_US">

@@ -258,7 +258,7 @@
 			<Text>海こそが我が水田の境なり</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION" Language="ja_JP">
-			<Text>キャンパス区域と兵営区域の建造物に対する [ICON_Production] 生産力+50%。すべての陸軍ユニットは異なるクラスの陸軍ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複せず、重騎兵と軽騎兵は同一クラス扱い、武僧などの特殊クラスは対象外)</Text>
+			<Text>キャンパス区域から [ICON_GreatScientist] 大科学者ポイント+1、兵営区域から [ICON_GreatGeneral] 大将軍ポイント+1。キャンパス区域と兵営区域の建造物の [ICON_Production] 生産力+30%。すべての陸軍ユニットは異なるクラスの陸軍ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複せず、重騎兵と軽騎兵は同一クラス扱い、武僧などの特殊クラスは対象外)</Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->
@@ -404,6 +404,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_HUNS_TARKHAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>漠北から中央アジア一帯に栄えたテュルクの男性の称号、尊称のひとつ。突厥などで使われた。モンゴル、女真ではダルハンとも。達干と漢訳されるが、意味合いを重視し功臣と訳す場合もある。歴史学的には解明されていないことも多いが、テュルク国家における行政府の官僚の称号としての意味を有していたという見解もある。現在ではテュルク系民族の男性の人名としても用いられている。</Text>
 		</Row>
+		<!-- UU(ホヴァ) -->
+		<Row Tag="LOC_UNIT_HAG_MADAGASCAR_HOVA_NAME" Language="ja_JP">
+			<Text>ホヴァ</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_MADAGASCAR_HOVA_DESCRIPTION" Language="ja_JP">
+			<Text>マダガスカル固有のユニット。剣士に取って代わる。農場を建設できる。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_MADAGASCAR_HOVA_NAME" Language="ja_JP">
+			<Text>マダガスカル固有のユニット: ホヴァ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MADAGASCAR_HOVA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>メリナ王国の庶民層(自由庶民)のこと。ホヴァの伝統的な職業は米と農地を管理し、取引することであったが、メリナ王国の征服地が多くなるにつれ大きな軍隊が必要となった結果、アンドリアーナ(貴族層)からだけではなく庶民層であるホヴァからも兵士を選ぶようになった。</Text>
+		</Row>
 		
 		<!-- UB(天文台) -->
 		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="ja_JP">
@@ -469,6 +482,34 @@
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="ja_JP">
 			<Text>隣接するプランテーションにより [ICON_Gold] ゴールド+{1_num}。</Text>
 		</Row>
+		<!-- フク -->
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Language="ja_JP">
+			<Text>フク</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_DESCRIPTION" Language="ja_JP">
+			<Text>マダガスカル固有の区域。近郊部に取って代わる。[ICON_Housing] 住宅+4(アピールにより増加する)、[ICON_Amenities] 快適性+1。隣接する農場タイル2つごとに [ICON_Food] 食料+1。隣接する用水路および運河から [ICON_Production] 生産力+1。隣接するプランテーションタイル1つごとに [ICON_Gold] ゴールド+1。これらの隣接ボーナスは社会制度や技術の解禁で効果が向上する。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Language="ja_JP">
+			<Text>マダガスカル固有の区域: フク</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HAG_MADAGASCAR_FOKO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>マダガスカルにおける村落共同体のこと。丘の下の森を切り拓いて水田を作り、水田の周りに住居を配置した。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_FARM_FOOD1" Language="ja_JP">
+			<Text>隣接する農場タイル2つごとに [ICON_Food] 食料+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_FARM_FOOD2" Language="ja_JP">
+			<Text>隣接する農場タイルごとに [ICON_Food] 食料+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_AQUEDUCT_PRODUCTION" Language="ja_JP">
+			<Text>隣接する用水路区域により [ICON_Production] 生産力+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_CANAL_PRODUCTION" Language="ja_JP">
+			<Text>隣接する運河区域により [ICON_Production] 生産力+{1_num}。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_PLANTATION_GOLD" Language="ja_JP">
+			<Text>隣接するプランテーションタイルごとに [ICON_Gold] ゴールド+{1_num}。</Text>
+		</Row>
 		
 		<!-- UI(ステチュツィ) -->
 		<Row Tag="LOC_IMPROVEMENT_HAG_YUGOSLAVIA_STECCI_NAME" Language="ja_JP">
@@ -514,7 +555,7 @@
 			<Text>ユルト</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がフン族固有の施設であるユルトを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。隣接するキャンプ/牧草地に1つにつき [ICON_Food] 食料+1。隣接するプランテーション1つにつき [ICON_Culture] 文化力+1。平らな草原/平原にのみ建設可能。ユルト同士を隣接させることはできない。文化ツリーおよび技術ツリーの進展にともなって追加の [ICON_Production] 生産力、ユルトの [ICON_Food] 食料による [ICON_Tourism] 観光力のボーナスが発生する。</Text>
+			<Text>労働者がフン族固有の施設であるユルトを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。隣接するキャンプ/牧草地1つにつき [ICON_Food] 食料+1。隣接するプランテーション1つにつき [ICON_Culture] 文化力+1。平らな草原/平原にのみ建設可能。ユルト同士を隣接させることはできない。文化ツリーおよび技術ツリーの進展にともなって追加の [ICON_Production] 生産力、ユルトの [ICON_Food] 食料による [ICON_Tourism] 観光力のボーナスが発生する。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="ja_JP">
 			<Text>フン族固有の施設: ユルト</Text>
@@ -522,7 +563,20 @@
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_HUNS_YURT_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>南シベリア、中央アジアのトルコ系諸民族が使用する天幕。構造はモンゴルのゲルとほとんど同じで、矢来(やらい)組を円筒形に立て並べた外壁の上に棒を放射状に並べたドーム型の屋根をのせ、全体をフェルトで覆う。夏には壁にフェルトのかわりに簾(すだれ)を立て風通しをよくし、冬には土塁や石塁を築いて寒風を防ぐ。ゲルとの大きな違いは屋根の骨組が湾曲している点である。ユルトは遊牧民の本来の住居であったが、定住化が進んだ今日ではセカンド・ハウスとして使用される場合も多くなっている。</Text>
 		</Row>
-
+		<!-- UI(ルヴァ) -->
+		<Row Tag="LOC_IMPROVEMENT_HAG_MADAGASCAR_ROVA_NAME" Language="ja_JP">
+			<Text>ルヴァ</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_HAG_MADAGASCAR_ROVA_DESCRIPTION" Language="ja_JP">
+			<Text>労働者がマダガスカル固有の施設であるルヴァを建設できるようになる。[NEWLINE][NEWLINE][ICON_Science] 科学力+1、[ICON_Culture] 文化力+1、[ICON_Housing] 住宅+1。隣接するフク1つにつき [ICON_Science] 科学力+1。都心に隣接すると [ICON_Culture] 文化力+1。丘陵にのみ建設可能。1都市につき1つのみ。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MADAGASCAR_ROVA_NAME" Language="ja_JP">
+			<Text>マダガスカル固有の施設: ルヴァ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_HAG_MADAGASCAR_ROVA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>マダガスカル語で「城」の意味。メリナ王国初代の王とされるアンヂアマネル(1540–1575)の時代にアラスラで築かれたものが最初。</Text>
+		</Row>
+		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
 		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Language="ja_JP">

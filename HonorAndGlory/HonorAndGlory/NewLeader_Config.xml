@@ -460,5 +460,30 @@
 			 Name="LOC_IMPROVEMENT_HAG_HUNS_YURT_NAME"
 			 Description="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION"
 			 SortIndex="20"/>
+		<!-- ラダマ1世 -->
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_MADAGASCAR"
+			 LeaderType="LEADER_HAG_RADAMA_I"
+			 Type="UNIT_HAG_MADAGASCAR_HOVA"
+			 Icon="ICON_UNIT_HAG_MADAGASCAR_HOVA"
+			 Name="LOC_UNIT_HAG_MADAGASCAR_HOVA_NAME"
+			 Description="LOC_UNIT_HAG_MADAGASCAR_HOVA_DESCRIPTION"
+			 SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_MADAGASCAR"
+			 LeaderType="LEADER_HAG_RADAMA_I"
+			 Type="DISTRICT_HAG_MADAGASCAR_FOKO"
+			 Icon="ICON_DISTRICT_HAG_MADAGASCAR_FOKO"
+			 Name="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME"
+			 Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_DESCRIPTION"
+			 SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_HAG_MADAGASCAR"
+			 LeaderType="LEADER_HAG_RADAMA_I"
+			 Type="IMPROVEMENT_HAG_MADAGASCAR_ROVA"
+			 Icon="ICON_IMPROVEMENT_HAG_MADAGASCAR_ROVA"
+			 Name="LOC_IMPROVEMENT_HAG_MADAGASCAR_ROVA_NAME"
+			 Description="LOC_IMPROVEMENT_HAG_MADAGASCAR_ROVA_DESCRIPTION"
+			 SortIndex="30"/>
 	</PlayerItems>
 </GameData>
