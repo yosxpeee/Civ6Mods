@@ -26,7 +26,7 @@
 			<Text>水天日光天照八野鎮石</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_TAMAMO_DESCRIPTION" Language="ja_JP">
-			<Text>大和朝廷の領土で異なる高級資源に関する施設が作られるたびに、[ICON_Strength] 戦闘力+1のボーナスを得る。全戦闘ユニットが移動あるいは攻撃した後でも、ターン終了時に回復する。戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の50%に等しい [ICON_Science] 科学力を得る。</Text>
+			<Text>大和朝廷の領土で異なる高級資源に関する施設が作られるたびに、[ICON_Strength] 戦闘力+1のボーナスを得る。全戦闘ユニットが移動あるいは攻撃した後でも、ターン終了時に回復する。戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の50%に等しい [ICON_Science] 科学力を得る(標準のスピードで)。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_TAMAMO_DOM_TEXT" Language="ja_JP">
 			<Text>好きなものですか？それはもちろん、小さくとも素敵なマイホーム！まぁ広いに越したことはありませんが</Text>

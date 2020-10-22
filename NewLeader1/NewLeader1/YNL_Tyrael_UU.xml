@@ -13,6 +13,7 @@
 		
 		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITTYPE_ANTI_CAVALRY"/>
 		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_TYRAEL_AXEMEN"   AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>

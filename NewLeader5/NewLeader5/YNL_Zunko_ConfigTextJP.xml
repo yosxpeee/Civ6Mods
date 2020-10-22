@@ -25,7 +25,7 @@
 			<Text>地霊信仰</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_DPRT_DESCRIPTION" Language="ja_JP">
-			<Text>戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の50%に等しい [ICON_Faith] 信仰力を得る。審問官が異端の排除を1回多くおこなえる。</Text>
+			<Text>戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の50%に等しい [ICON_Faith] 信仰力を得る(標準のスピードで)。審問官が異端の排除を1回多くおこなえる。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_LEADER_ITAKO_TOHOKU_NAME" Language="ja_JP">
