@@ -34,8 +34,6 @@
 	</CivilizationTraits>
 	<!-- 禁止する偉人の設定 -->
 	<ExcludedGreatPersonClasses>
-		<!-- 大コロンビア：大将軍 -->
-		<Row GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA"/>
 	</ExcludedGreatPersonClasses>
 	<!-- 特性名と詳細説明の定義 -->
 	<Traits>

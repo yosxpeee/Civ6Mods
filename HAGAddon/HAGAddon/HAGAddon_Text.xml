@@ -109,6 +109,9 @@
 		<Row Tag="LOC_ABILITY_HAGA_ANTI_DEF_DISTRICTS_MODIFIER_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength vs. defensible districts</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_EJERCITO_PATRIOTA_EXTRA_MOVEMENT_HAGA_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement to all combat units (Ejército Patriota)</Text>
+		</Row>
 		
 		<!-- 崇拝の信仰 -->
 		<Row Tag="LOC_BELIEF_HAGA_MASHRIQU_L_ADHKAR_NAME" Language="en_US">

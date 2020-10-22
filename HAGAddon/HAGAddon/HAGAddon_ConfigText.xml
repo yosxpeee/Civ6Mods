@@ -368,7 +368,7 @@
 			<Text>Early Fighter</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_HAGA_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Movement] Movement to all units. Promoting a unit does not end that unit’s turn. Can't hire Great Generals.</Text>
+			<Text>+1 [ICON_Movement] Movement to all combat units. Promoting a unit does not end that unit’s turn. Can't hire Great Generals.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION" Language="en_US">
 			<Text>Ethiopia’s International Trade Routes grant +0.5 [ICON_Faith] Faith per resource at the origin. +1 [ICON_Faith] Faith from Plantation. Can purchase Archaeological Museums and Archaeologists with [ICON_Faith] Faith.</Text>

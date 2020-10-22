@@ -21,15 +21,14 @@
 			<Set Description="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION"/>
 		</Update>
 	</Traits>
-	<!-- 特性効果 -->
-	<ModifierArguments>
-		<!-- オランダ：防波堤の生産力ボーナスが正しく適用されていないのを直す -->
+	<!-- 対象クラス -->
+	<TypeTags>
 		<Update>
-			<Where ModifierId="TRAIT_FLOOD_BARRIER_PRODUCTION" Name="DistrictType"/>
-			<Set Name="BuildingType"/>
+			<Where Type="ABILITY_EJERCITO_PATRIOTA_EXTRA_MOVEMENT"/>
+			<Set Tag="CLASS_ALL_COMBAT_UNITS"/>
 		</Update>
-	</ModifierArguments>
-
+	</TypeTags>
+	
 	<!-- ======================================================================= -->
 	<!-- 指導者 -->
 	<!-- ======================================================================= -->
@@ -264,6 +263,13 @@
 		</Update>
 	</Units>
 	<!-- ユニットアビリティ -->
+	<UnitAbilities>
+		<!-- 説明文 -->
+		<Update>
+			<Where Description="LOC_ABILITY_EJERCITO_PATRIOTA_EXTRA_MOVEMENT_DESCRIPTION"/>
+			<Set Description="LOC_ABILITY_EJERCITO_PATRIOTA_EXTRA_MOVEMENT_HAGA_DESCRIPTION"/>
+		</Update>
+	</UnitAbilities>
 	<UnitAbilityModifiers>
 		<!-- 武僧/ニハングが破城槌と攻城塔の効果を得られるようにする -->
 		<Row>
