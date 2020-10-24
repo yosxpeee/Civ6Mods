@@ -183,7 +183,7 @@
 			<Text>クリバナリウス</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_YNL_CLIBANARIUS_DESCRIPTION" Language="ja_JP">
-			<Text>軽騎兵に取ってかわるTDN固有の古典時代の重騎兵ユニット。同じタイルに宗教ユニットがいると [ICON_Strength] 戦闘力+10。このユニットが都市を制圧するか、このユニットが隣接した状態で都市を制圧すると、そのプレイヤーの宗教が自動的にその都市の主流宗教になる。</Text>
+			<Text>TDN固有の古典時代の重騎兵ユニット。同じタイルに宗教ユニットがいると [ICON_Strength] 戦闘力+10。このユニットが都市を制圧するか、このユニットが隣接した状態で都市を制圧すると、そのプレイヤーの宗教が自動的にその都市の主流宗教になる。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_UNIT_YNL_CLIBANARIUS_NAME" Language="ja_JP">
 			<Text>TDN固有のユニット: クリバナリウス</Text>
