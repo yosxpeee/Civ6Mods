@@ -194,15 +194,19 @@
 			<ModifierId>UNIQUE_LEADER_CULTURE_KILLS_YNL_GO_IS_GOD</ModifierId>
 		</Row>
 		<!-- ユニット撃破で信仰力取得 -->
+		<!--
 		<Row>
 			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>
 			<ModifierId>UNIQUE_LEADER_FAITH_KILLS_YNL_GO_IS_GOD</ModifierId>
 		</Row>
+		-->
 		<!-- ユニット撃破でゴールド取得 -->
+		<!--
 		<Row>
 			<TraitType>TRAIT_LEADER_YNL_GO_IS_GOD</TraitType>
 			<ModifierId>UNIQUE_LEADER_GOLD_KILLS_YNL_GO_IS_GOD</ModifierId>
 		</Row>
+		-->
 		<!-- 虐待おじさん -->
 		<!-- 傷ついたユニットへの戦闘力+5(バニラのトミュリス) -->
 		<Row>
@@ -487,7 +491,7 @@
 		<Row>
 			<ModifierId>UNIQUE_LEADER_SCIENCE_KILLS_YNL_GO_IS_GOD</ModifierId>
 			<Name>PercentDefeatedStrength</Name>
-			<Value>10</Value>
+			<Value>25</Value>
 		</Row>
 		<!-- ユニット撃破で文化力取得 -->
 		<Row>
@@ -498,7 +502,7 @@
 		<Row>
 			<ModifierId>UNIQUE_LEADER_CULTURE_KILLS_YNL_GO_IS_GOD</ModifierId>
 			<Name>PercentDefeatedStrength</Name>
-			<Value>10</Value>
+			<Value>25</Value>
 		</Row>
 		<!-- ユニット撃破で信仰力取得 -->
 		<Row>

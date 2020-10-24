@@ -67,7 +67,6 @@
 		<Row CivUniqueUnitType="UNIT_YNL_ONAGER"        ReplacesUnitType="UNIT_CATAPULT"/>
 		<Row CivUniqueUnitType="UNIT_YNL_BLACK_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_YNL_KUNIKUZUSHI"   ReplacesUnitType="UNIT_CROSSBOWMAN"/>
-		<Row CivUniqueUnitType="UNIT_YNL_CLIBANARIUS"   ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_YNL_FRANCISCA"     ReplacesUnitType="UNIT_PIKEMAN"/>
 	</UnitReplaces>
 

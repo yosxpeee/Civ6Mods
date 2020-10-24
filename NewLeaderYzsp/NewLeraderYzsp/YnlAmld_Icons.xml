@@ -135,7 +135,7 @@
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_KUNIKUZUSHI_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_KUNIKUZUSHI32.dds"/>
-		<!-- UU:国崩し -->
+		<!-- UU:クリバナリウス -->
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS256.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS50.dds"/>
@@ -147,6 +147,19 @@
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS32.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_BLACK" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_YNL_CLIBANARIUS32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_CLIBANARIUS_PORTRAITS"                IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS256.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_CLIBANARIUS_PORTRAITS"                IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS200.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_CLIBANARIUS_PORTRAITS"                IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS95.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_CLIBANARIUS_PORTRAITS"                IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_YNL_CLIBANARIUS_PORTRAITS"                IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS38.dds"/>
+		<Row Name="ICON_ATLAS_ASIAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"          IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS70.dds"/>
+		<Row Name="ICON_ATLAS_ASIAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"          IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS95.dds"/>
+		<Row Name="ICON_ATLAS_MEDITERRANEAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"  IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS70.dds"/>
+		<Row Name="ICON_ATLAS_MEDITERRANEAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"  IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS95.dds"/>
+		<Row Name="ICON_ATLAS_SOUTH_AMERICAN_UNIT_YNL_CLIBANARIUS_PORTRAITS" IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS70.dds"/>
+		<Row Name="ICON_ATLAS_SOUTH_AMERICAN_UNIT_YNL_CLIBANARIUS_PORTRAITS" IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS95.dds"/>
+		<Row Name="ICON_ATLAS_AFRICAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"        IconSize="70"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS70.dds"/>
+		<Row Name="ICON_ATLAS_AFRICAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"        IconSize="95"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_PORTRAIT_UNIT_YNL_CLIBANARIUS95.dds"/>
 		<!-- UU:フランキスカ -->
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA256.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_YNL_FRANCISCA80.dds"/>
@@ -243,15 +256,15 @@
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS"                Index="48"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_KUNIKUZUSHI_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"                       Index="48"/>
 		<!-- UU:クリバナリウス(ポートレイトはヘタイロイの使いまわし) -->
-		<Row Name="ICON_UNIT_YNL_CLIBANARIUS"                             Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                    Index="0"/>
-		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_FOW"                         Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FOW"                Index="0"/>
-		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_WHITE"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE" Index="0"/>
-		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_BLACK"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_BLACK" Index="0"/>
-		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_PORTRAIT"                    Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_CLIBANARIUS_PORTRAIT"    Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
-		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_CLIBANARIUS_PORTRAIT"    Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
-		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_CLIBANARIUS_PORTRAIT"  Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_CLIBANARIUS_PORTRAIT"  Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS"                             Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS"                     Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_FOW"                         Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FOW"                 Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_WHITE"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_WHITE"  Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_BLACK"                       Atlas="ICON_ATLAS_UNIT_ICON_YNL_CLIBANARIUS_FLAG_SYMBOLS_BLACK"  Index="0"/>
+		<Row Name="ICON_UNIT_YNL_CLIBANARIUS_PORTRAIT"                    Atlas="ICON_ATLAS_UNIT_YNL_CLIBANARIUS_PORTRAITS"                Index="0"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_YNL_CLIBANARIUS_PORTRAIT"    Atlas="ICON_ATLAS_ASIAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"          Index="0"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_YNL_CLIBANARIUS_PORTRAIT"    Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"  Index="0"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_YNL_CLIBANARIUS_PORTRAIT"  Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_YNL_CLIBANARIUS_PORTRAITS" Index="0"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_YNL_CLIBANARIUS_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_YNL_CLIBANARIUS_PORTRAITS"        Index="0"/>
 		<!-- UU:フランキスカ(ポートレイトはバーサーカーの使いまわし) -->
 		<Row Name="ICON_UNIT_YNL_FRANCISCA"                            Atlas="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA"                    Index="0"/>
 		<Row Name="ICON_UNIT_YNL_FRANCISCA_FOW"                        Atlas="ICON_ATLAS_UNIT_ICON_YNL_FRANCISCA_FOW"                Index="0"/>
