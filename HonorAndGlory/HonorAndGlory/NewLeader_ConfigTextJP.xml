@@ -143,7 +143,7 @@
 			<Text>海賊の黄金時代</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_DESCRIPTION" Language="ja_JP">
-			<Text>未実装</Text>
+			<Text>ゲームが新たな時代に入ると大海賊を獲得する。ゲーム開始時から帆走術の技術を所有している。造船および天文航法の技術に [ICON_TechBoosted] ひらめきが発動した状態でスタートする。港 (区域) の建設にかかる時間が半分になる。</Text>
 		</Row>
 		
 		<!-- 指導者(ナポレオン) -->
@@ -443,6 +443,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MADAGASCAR_HOVA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>メリナ王国の庶民層(自由庶民)のこと。ホヴァの伝統的な職業は米と農地を管理し、取引することであったが、メリナ王国の征服地が多くなるにつれ大きな軍隊が必要となった結果、アンドリアーナ(貴族層)からだけではなく庶民層であるホヴァからも兵士を選ぶようになった。</Text>
 		</Row>
+		<!-- UU(大海賊) -->
+		<Row Tag="LOC_UNIT_HAG_GREAT_PIRATES_NAME" Language="ja_JP">
+			<Text>大海賊</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_GREAT_PIRATES_DESCRIPTION" Language="ja_JP">
+			<Text>海賊共和国固有の偉人ユニット。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_GREAT_PIRATES_NAME" Language="ja_JP">
+			<Text>海賊共和国固有のユニット: 大海賊</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GREAT_PIRATES_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>16世紀から1830年代あたりまでに名をはせた海賊たちのこと。海賊が最も成果を上げた時代は1660年代から1730年代だった。カリブ海にはジャマイカのポート・ロイヤル、ハイチのトルトゥーガ島、バハマのナッソーなど海賊が利用できる海港があったので海賊が栄えた。</Text>
+		</Row>
 		
 		<!-- UB(天文台) -->
 		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="ja_JP">
@@ -473,7 +486,20 @@
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
 			<Text>アメリカの宇宙計画はNASAが唯一の調整機関であり、1960年代のほとんどを通じてジェイムズ・ウェッブ長官が指揮を執ったのとは異なり、ソ連の宇宙計画はセルゲイ・コロリョフ、ミハイル・ヤンゲリ、ヴァレンティン・グルシュコ、ウラジーミル・チェロメイに率いられた、複数の設計グループ（設計局）に分かれていた。このことが原因で内部競争が起こり、予算が分散するなどの問題を抱えてもいた。</Text>
 		</Row>
-
+		<!-- UB(醸造所) -->
+		<Row Tag="LOC_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_NAME" Language="ja_JP">
+			<Text>醸造所</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_DESCRIPTION" Language="ja_JP">
+			<Text>海賊共和国固有の建造物。穀物庫に取って代わる。[ICON_Food] 食料+1、[ICON_Housing] 住宅+2、[ICON_Amenities] 快適性+1。[ICON_RESOURCE_RICE] 米、[ICON_RESOURCE_WHEAT] 小麦、[ICON_RESOURCE_MAIZE] トウモロコシ、[ICON_RESOURCE_SUGAR] 砂糖、[ICON_RESOURCE_BANANAS] バナナ、[ICON_RESOURCE_HONEY] 蜂蜜、[ICON_RESOURCE_WINE] 酒から [ICON_Food] 食料+1、[ICON_Gold] ゴールド+2。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_NAME" Language="ja_JP">
+			<Text>海賊共和国固有の建造物: 醸造所</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>酒の歴史は古く、有史以前から作られていたと見られている。その中でも発酵作用を利用して作られるものを醸造酒と呼び、それを作る場所は醸造所と呼ばれる。また、ビールを作る醸造所をブルワリー、ワインを作る醸造所をワイナリーと呼ぶ。（日本酒の醸造所、酒造場もブルワリーに含まれる）</Text>
+		</Row>
+		
 		<!-- UD(フェイトリア) -->
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
 			<Text>フェイトリア</Text>
@@ -508,7 +534,7 @@
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="ja_JP">
 			<Text>隣接するプランテーションにより [ICON_Gold] ゴールド+{1_num}。</Text>
 		</Row>
-		<!-- フク -->
+		<!-- UD(フク) -->
 		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Language="ja_JP">
 			<Text>フク</Text>
 		</Row>

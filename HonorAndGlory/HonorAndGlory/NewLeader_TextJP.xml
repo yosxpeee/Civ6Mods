@@ -1477,7 +1477,7 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TIMUR_DOM_TEXT" Language="ja_JP">
-			<Text>ローディング中の紹介文</Text>
+			<Text>川向こうの大地のアミール、ティムールよ。跛者の身にありながら、貴方の征服を押しとどめるものは何もない。戦場では騎兵とともに強大な稲妻をも打ち破り、都においては建設と商業を振るわせ、サマルカンドを世界の中心へと押し上げるのだ。</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_TITO_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
@@ -1611,6 +1611,153 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_HAG_MIRAN_SHAH_BONUS_EXPERIENCE_DESCRIPTION" Language="ja_JP">
 			<Text>戦闘経験値+25%。(ミーラーン・シャー)</Text>
+		</Row>
+
+		<!-- 大海賊 -->
+		<!-- Summary Text -->
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA" Language="ja_JP">
+			<Text>2タイル以内にいる海洋ユニットの [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_RESET_UNIT_MOVES" Language="ja_JP">
+			<Text>2タイル以内にいるすべての海洋戦闘ユニットの [ICON_Movement] 移動力が全回復し、もう一度攻撃できるようになる。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_PROMOTION_PLUS_GOLD" Language="ja_JP">
+			<Text>海洋ユニット1体がレベルアップ1つを獲得。そのユニットの購入コストの50%に相当する [ICON_Gold] ゴールドが得られる。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_STRENGTH" Language="ja_JP">
+			<Text>海洋ユニット1体の [ICON_Strength] 戦闘力+7。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM" Language="ja_JP">
+			<Text>2タイル以内にいる海洋長距離ユニットおよび海洋略奪ユニットのターンごとの攻撃回数+1。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_TRADE_ROUTE_AND_UNIT" Language="ja_JP">
+			<Text>[ICON_TradeRoute] 交易路の数+1。さらに、最も近い都市に交易商ユニットを獲得。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_CORPS_AND_PROMOTION" Language="ja_JP">
+			<Text>海洋ユニット1体がレベルアップ1つを獲得し、艦隊を編成する。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_SIGHT_BONUS_AND_MOVEMENT" Language="ja_JP">
+			<Text>全ての海軍ユニットの [ICON_Movement] 移動力+1、視界+1。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_PLANTATION_GOLD" Language="ja_JP">
+			<Text>プランテーションから [ICON_Gold] ゴールド+1。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_CULTURE_BOMB_TRIGGER_HARBOR_AND_GOLD" Language="ja_JP">
+			<Text>どこの都市でも、港が完成すると、隣接するタイルで文化爆弾が発動する。[ICON_GOLD] ゴールド+400 (「標準」スピードの場合)。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_SPAWN_UNIT_AND_GOLD" Language="ja_JP">
+			<Text>その時点で生産可能な最強の海洋戦闘ユニットが瞬時に完成する。[ICON_GOLD] ゴールド+400 (「標準」スピードの場合)。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_ARMY_AND_PROMOTION" Language="ja_JP">
+			<Text>海洋ユニット1体がレベルアップ1つを獲得し、大艦隊を編成する。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_RANGE" Language="ja_JP">
+			<Text>2タイル以内にいる海洋長距離ユニットおよび海洋略奪ユニットの [ICON_Range] 射程+1。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_DAMAGE_NEARBY_UNITS" Language="ja_JP">
+			<Text>2タイル以内にいる敵ユニットのHP-30。</Text>
+		</Row>
+		<!-- Preview Text -->
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH_DESCRIPTION" Language="ja_JP">
+			<Text>大海賊により [ICON_Strength] 戦闘ボーナス+5。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Strength] 戦闘力+7 (フランソワ・ロロネー)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF_DESCRIPTION" Language="ja_JP">
+			<Text>ターンごとの攻撃回数+1 (アン・ボニー)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT_DESCRIPTION" Language="ja_JP">
+			<Text>視界+1 (バーソロミュー・ロバーツ)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Movement] 移動力+1 (バーソロミュー・ロバーツ)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Range] 射程+1 (チャールズ・ヴェイン)</Text>
+		</Row>
+		<!-- クラス名 -->
+		<Row Tag="LOC_GREAT_PERSON_CLASS_HAG_GREAT_PIRATES_NAME" Language="ja_JP">
+			<Text>大海賊</Text>
+		</Row>
+		<!-- 偉人個別 -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ_NAME" Language="ja_JP">
+			<Text>メアリ・リード</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>18世紀のカリブ海で活動した女海賊。ロンドンで私生児として産まれた。ジョン・ラカムの手下の1人である。海賊の記録が盛んにとられていた海賊の黄金時代に生きていたということもあり、アン・ボニーと共に特に名が知られている。1720年11月28日に行われた裁判において処刑前に妊娠していることを明かし、執行を免れている。しかし、翌年4月に拘留されていた牢獄で熱病にかかり死去している。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY_NAME" Language="ja_JP">
+			<Text>アン・ボニー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>18世紀のカリブ海で活動した女海賊。アイルランドで私生児として生まれる。ジョン・ラカムの手下の1人である。海賊の記録が盛んにとられていた海賊の黄金時代に生きていたということもあり、メアリ・リードと共に特に名が知られている。1720年11月28日に行われた裁判において処刑前に妊娠していることを明かし、執行を免れたことまでは分かっている。最後については正確な記録が残っておらず。一説には子供を出産後、有力者であった父によって赦免を得たのち1721年12月21日にジョセフ・バーリーという男と結婚、8人の子供をもうけ1782年にサウスカロライナ州にて82歳で亡くなったといわれている。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LOLONNAIS_NAME" Language="ja_JP">
+			<Text>フランソワ・ロロネー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LOLONNAIS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>17世紀中頃に活動したフランス出身の海賊船長の一人である。ハイチ北部のトルトゥーガ島を根城にし、カリブ海を荒らし回った。数百人の手下を率いてマラカイボとジブラルタル（ベネズエラ）を襲撃し、スペインの守備隊を全滅させた上に、残虐非道の限りを尽くして略奪行為を働いたためにスペイン人たちから恐れられた。最期は人食いの風習がある原住民に捕まり、火炙りにされて殺されたという。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM_NAME" Language="ja_JP">
+			<Text>ジョン・ラカム</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>チャールズ・ヴェインの腹心として、後には自ら船長として活動した有名な海賊である。今日に、海賊旗として有名なデザインである「黒地に、上には髑髏、下には交差させた2本のカトラス」という構図は、ラカムの海賊旗である。1720年に配下のアン・ボニーやメアリー・リードと共にとらえられ、ジャマイカで処刑された。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET_NAME" Language="ja_JP">
+			<Text>スティード・ボネット</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>18世紀初頭のバルバドス出身の海賊。海賊となる前はそれなりに裕福な地主であったため、「海賊紳士（The Gentleman Pirate）」の異名を持つ。その出自は航海について何も知らないただの砂糖農園主であり、おそらくカリブ海で活動した海賊船長の中でもっとも能力に乏しかった。ナッソーで黒髭ことエドワード・ティーチと出会ったのち、彼の客分となる。1718年6月ごろに再び海賊船長として指揮をとるがケープフィア川の戦いで捕縛され、同年12月10日にチャールズタウンのホワイトポイントガーデンにて絞首刑に処された。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC_NAME" Language="ja_JP">
+			<Text>フランソア・ル・クレール</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>16世紀中頃に活動したフランス人の私掠船長であり、"Jambe de bois"（「木製の足」の意）の異名を持つ。1551年にはフランス王アンリ2世から称賛を受けるほど有力な船長であった。セントルシアを本拠地としてカリブ海を荒らしまわった海賊であり、標的は主にスペインの船であった。1563年、アゾレス諸島でスペインの財宝船を追い詰めている間に殺された。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS_NAME" Language="ja_JP">
+			<Text>バーソロミュー・ロバーツ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>海賊の黄金時代の最後の大海賊と評される海賊船長である。ブラック・バート（「黒い準男爵」の意）の異名を持つ。彼の海賊としての活動は1719年からであり、乗っていた奴隷船が海賊ハウエル・デイヴィスに襲われ際、そのままデイヴィスの部下となって海賊に転向したというものである。間もなくしてデイヴィスが死去すると船長に昇格し、カリブ海に活動場所を移して1721年まで荒らし回った。1722年2月、ロバーツを追跡してきたイギリス海軍との激しい海戦の折に、砲弾の破片が直撃して即死した。船長の死を確認すると部下たちは海軍に投降した。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN_NAME" Language="ja_JP">
+			<Text>ヘンリー・モーガン</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>17世紀に活動した最も破壊的な海賊船長の一人である。イギリス出身で、モーガン自身は自分を海賊ではなく私掠船と自認していたが、その襲撃のいくつかは法的根拠に乏しく、海賊行為とみなされていた。カリブ海での活動に際してジャマイカのポートロイヤルを本拠としていた。1670年12月から翌1671年にかけて行われたパナマ市攻略は、彼自身にとっての金銭的利益はなかったもののスペインのカリブ海に対する権益と国威には大打撃であり、彼はイングランドで英雄扱いをされた。その生涯の最高潮にはイングランド王室より貴族に叙され、副総督としてジャマイカの広大な砂糖プランテーションを経営した。後にも先にも海賊では成し得ないような尊敬を受けて、最期はベッドの上で亡くなった。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW_NAME" Language="ja_JP">
+			<Text>エドワード・ロー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>海賊の黄金時代に活動した海賊船長であり、最も残忍でずる賢い海賊として悪名高い。ロンドン出身で、海賊ジョージ・ラウザの副官として、この道に入り、やがて船長として部下たちを統率するようになった。その海賊としての経歴は3年だけであったが、この間に100隻以上の船を略奪し、部下たちと共に数百人の捕虜を単に殺害するに留まらず、拷問に掛けたり、不具にさせた。具体的には、捕虜の耳や鼻を削いだ、抵抗された腹いせに唇を切り落として食わせた、何の理由もなく拷問し、苦しませてから殺したなど、その狼藉行為には枚挙に暇がない。その最期は不明確であり、船の難破あるいは部下の反乱、もしくはマルティニーク島で処刑などで1724年に死んだとされるが、生存説も存在する。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY_NAME" Language="ja_JP">
+			<Text>ジャン・フルーリー</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>16世紀初頭に活動したフランス人の私掠船長であり、スペインの怨敵であった人物。1522年にはスペイン船7隻を捕獲した。その1年後には、アステカを征服中のエルナン・コルテスが本国スペインに送るため、伝説的な戦利品を載せた3隻のガレオン船のうち2隻を拿捕し、モンテスマの財宝のほとんどがフルーリーの手中に落ちた。最終的に捕らえられ、1527年に神聖ローマ皇帝カール5世の命によって処刑された。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD_NAME" Language="ja_JP">
+			<Text>ベンジャミン・ホーニゴールド</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>イギリス出身のスペイン継承戦争に従軍した私掠船の船長であり、後に海賊に転向した人物。18世紀初頭の海賊の黄金時代の序盤の代表的な大海賊の一人であり、ヘンリー・ジェニングスと共にバハマのナッソーにあった海賊共和国の指導者的存在であった。部下に黒髭やサミュエル・ベラミー、スティード・ボネットがいたことでも知られる。ホーニゴールドは、あくまで私掠船の立場を重視し、略奪対象はスペインやフランスといったイングランドの敵国に限定したものの、これが部下らの不興を買い、最後は船長の座を追われた。1718年にウッズ・ロジャーズがバハマ総督に着任して海賊討伐に乗り出した時には、彼の呼びかけに応じて積極的に帰順した一人であり、ロジャーズの部下として海賊ハンターに転向した。海賊を知り尽くした者として、かつての仲間たちを討伐し、功績を立てるが、最期は1719年頃に船が難破して死亡した。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE_NAME" Language="ja_JP">
+			<Text>チャールズ・ヴェイン</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>18世紀初頭に活動した海賊の黄金時代の代表的な海賊の一人であり、他の同時期の多くの海賊と同様にバハマのナッソーにある海賊共和国を拠点とした。1718年にウッズ・ロジャーズがバハマ総督に着任し、海賊討伐に乗り出した時に、ほぼ唯一抵抗した有力な海賊船長であった。1720年に捕まり、ジャマイカにて絞首刑に処された。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS_NAME" Language="ja_JP">
+			<Text>ヘンリー・ジェニングス</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>イギリス領ジャマイカ出身のスペイン継承戦争に従軍した私掠船の船長であり、後に海賊に転向した人物。18世紀初頭の海賊の黄金時代の序盤の代表的な大海賊の一人であり、ベンジャミン・ホーニゴールドと共にバハマのナッソーにあった海賊共和国の指導者的存在であった。1718年にウッズ・ロジャーズがバハマ総督に着任して海賊討伐に乗り出した時には、それに先んじてバミューダ総督に恩赦を願い出て海賊から足を洗った。その後は、バミューダにてプランテーションを経営し、穏やかな生涯を送ったとされるが、一説には1745年にオーストリア継承戦争にてスペイン人の捕虜となり、獄中死したというものがある。</Text>
 		</Row>
 		
 		<!-- 宗教 -->

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<!-- 親定義 -->
+	<Types>
+		<!-- クラス -->
+		<Row Type="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES"                          Kind="KIND_GREAT_PERSON_CLASS"/>
+		<!-- 偉人個別 -->
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS"      Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE"        Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD"  Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY"         Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW"          Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN"        Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC"   Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET"        Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY"          Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM"        Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LOLONNAIS"  Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ"           Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<!-- Abilities -->
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH"         Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF"   Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT"     Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT"  Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF"      Kind="KIND_ABILITY"/>
+	</Types>
+	<!-- 偉人クラス -->
+	<GreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" Name="LOC_GREAT_PERSON_CLASS_HAG_GREAT_PIRATES_NAME" UnitType="UNIT_HAG_GREAT_PIRATES" DistrictType="DISTRICT_HARBOR" AvailableInTimeline="false" GenerateDuplicateIndividuals="true" PseudoYieldType="PSEUDOYIELD_GPP_ADMIRAL" IconString="[ICON_HAGGreatPirates]" ActionIcon="ICON_UNIT_HAG_GREAT_PIRATES"/>
+	</GreatPersonClasses>
+	<!-- 主設定 -->
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS"      Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS_NAME"      GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false"                                                ActionRequiresEnemyMilitaryUnitWithinXTiles="2"                   ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE"        Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE_NAME"        GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false"                                                ActionRequiresLandMilitaryUnitWithinXTiles="2"                    ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD"  Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD_NAME"  GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA"  ActionRequiresUnitMilitaryFormation="STANDARD_MILITARY_FORMATION" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY"         Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY_NAME"         GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true"                                                                              ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW"          Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW_NAME"          GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false"                                                ActionRequiresCompletedDistrictType="DISTRICT_HARBOR"             ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN"        Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN_NAME"        GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false"                                                                                                                  ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS" Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false"                                                                                                                  ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC"   Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC_NAME"   GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA"  ActionRequiresUnitMilitaryFormation="STANDARD_MILITARY_FORMATION" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET"        Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET_NAME"        GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false"                                                                                                                  ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY"          Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY_NAME"          GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false"                                                ActionRequiresLandMilitaryUnitWithinXTiles="2"                    ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM"        Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM_NAME"        GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false"                                                ActionRequiresLandMilitaryUnitWithinXTiles="2"                    ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LOLONNAIS"  Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LOLONNAIS_NAME"  GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA"                                                                    ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ"           Name="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ_NAME"           GreatPersonClassType="GREAT_PERSON_CLASS_HAG_GREAT_PIRATES" EraType="ERA_ANCIENT" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA"                                                                    ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<!-- パッシブ効果 -->
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS"      ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE"        ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD"  ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY"         ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW"          ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN"        ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS" ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC"   ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET"        ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY"          ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM"        ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LOLONNAIS"  ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ"           ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+	</GreatPersonIndividualBirthModifiers>
+	<!-- 退職効果 -->
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS"      ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_DAMAGE_NEARBY_UNITS"          AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE"        ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_RANGE"                   AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD"  ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_ARMY"                    AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD"  ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_PROMOTION"               AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY"         ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_SPAWN_UNIT"                   AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY"         ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_GET_GOLD"                     AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW"          ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CULTURE_BOMB_TRIGGER_HARBOR"  AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW"          ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_GET_GOLD"                     AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN"        ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_PLANTATION_GOLD"              AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS" ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_SIGHT_BONUS"             AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS" ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_MOVEMENT"                AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC"   ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_CORPS"                   AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC"   ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_PROMOTION"               AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET"        ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_TRADE_ROUTE"                  AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET"        ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_TRADE_UNIT"                   AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY"          ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM"              AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM"        ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_RESET_UNIT_MOVES"             AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LOLONNAIS"  ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_STRENGTH"                AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ"           ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_PROMOTION"               AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ"           ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_GOLD"                    AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<!-- ユニットアビリティ -->
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH"         Name="LOC_ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH_NAME"         Description="LOC_ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH_DESCRIPTION"         Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF"   Name="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF_NAME"   Description="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF_DESCRIPTION"   Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF" Name="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF_NAME" Description="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT"     Name="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT_NAME"     Description="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT_DESCRIPTION"     Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT"  Name="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT_NAME"  Description="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT_DESCRIPTION"  Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF"      Name="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF_NAME"      Description="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF_DESCRIPTION"      Inactive="true"/>
+	</UnitAbilities>
+	<!-- TypeとTag(クラス)の紐づけ -->
+	<TypeTags>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH"         Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH"         Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH"         Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH"         Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF"   Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF"   Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF"   Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF"   Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT"     Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT"     Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT"     Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT"     Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT"  Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT"  Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT"  Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT"  Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF"      Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF"      Tag="CLASS_NAVAL_RAIDER"/>
+	</TypeTags>
+	<UnitAbilityModifiers>
+		<!-- Passive Effects -->
+		<Row>
+			<UnitAbilityType>ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH</UnitAbilityType>
+			<ModifierId>HAG_GREAT_PIRATES_AOE_STRENGTH</ModifierId>
+		</Row>
+		<!-- Active Effects -->
+		<!-- チャールズ・ヴェイン -->
+		<Row>
+			<UnitAbilityType>ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF</UnitAbilityType>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_RANGE_BUFF</ModifierId>
+		</Row>
+		<!-- バーソロミュー・ロバーツ -->
+		<Row>
+			<UnitAbilityType>ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT</UnitAbilityType>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_SIGHT_RANGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT</UnitAbilityType>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT</ModifierId>
+		</Row>
+		<!-- アン・ボニー -->
+		<Row>
+			<UnitAbilityType>ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF</UnitAbilityType>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF</ModifierId>
+		</Row>
+		<!-- フランソワ・ロロニー -->
+		<Row>
+			<UnitAbilityType>ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF</UnitAbilityType>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!-- Passive Effects -->
+		<Row>
+			<ModifierId>GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>HAG_AOE_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_AOE_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!-- Active Effects -->
+		<!-- ヘンリー・ジェニングス -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_DAMAGE_NEARBY_UNITS</ModifierId>
+			<ModifierType>MODIFIER_WORLD_UNITS_ADJUST_DAMAGE</ModifierType>
+			<SubjectRequirementSetId>HAG_AOE_ENEMY_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- チャールズ・ヴェイン -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_RANGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>HAG_AOE_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_RANGE_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+		</Row>
+		<!-- ベンジャミン・ホーニゴールド -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MILITARY_FORMATION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ジャン・フルーリー -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_SPAWN_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_BY_DOMAIN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- エドワード・ロー -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CULTURE_BOMB_TRIGGER_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- ヘンリー・モーガン -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_PLANTATION_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>HAG_PLOT_HAS_PLANTATION</SubjectRequirementSetId>
+		</Row>
+		<!-- バーソロミュー・ロバーツ -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_SIGHT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_SIGHT_RANGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SEA_MOVEMENT</ModifierType>
+		</Row>
+		<!-- フランソア・ル・クレール -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_CORPS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MILITARY_FORMATION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- スティード・ボネット -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_TRADE_UNIT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_NEAREST_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- アン・ボニー -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>HAG_AOE_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_NUM_ATTACKS</ModifierType>
+		</Row>
+		<!-- ジョン・ラカム -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_RESET_UNIT_MOVES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_RESET_MOVES</ModifierType>
+			<SubjectRequirementSetId>HAG_AOE_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- メアリ・リード -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_PERCENT_UNIT_COST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- フランソワ・ロロニー -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ABILITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!-- 複数名にまたがるもの -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_PROMOTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_GET_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Passive Effects -->
+		<Row>
+			<ModifierId>GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_AOE_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- Active Effects -->
+		<!-- ヘンリー・ジェニングス -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_DAMAGE_NEARBY_UNITS</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<!-- チャールズ・ヴェイン -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_RANGE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_RANGE_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- ベンジャミン・ホーニゴールド -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_ARMY</ModifierId>
+			<Name>MilitaryFormationType</Name>
+			<Value>ARMY_MILITARY_FORMATION</Value>
+		</Row>
+		<!-- ジャン・フルーリー -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_SPAWN_UNIT</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+		<!-- エドワード・ロー -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CULTURE_BOMB_TRIGGER_HARBOR</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<!-- ヘンリー・モーガン -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_PLANTATION_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_PLANTATION_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- バーソロミュー・ロバーツ -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_SIGHT_BONUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_SIGHT_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- フランソア・ル・クレール -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_CORPS</ModifierId>
+			<Name>MilitaryFormationType</Name>
+			<Value>CORPS_MILITARY_FORMATION</Value>
+		</Row>
+		<!-- スティード・ボネット -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_TRADE_UNIT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_TRADE_UNIT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<!-- アン・ボニー -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- メアリ・リード -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_GOLD</ModifierId>
+			<Name>UnitCostPercent</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- フランソワ・ロロニー -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_STRENGTH</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<!-- 複数名にまたがるもの -->
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_PROMOTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_GET_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_GET_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>400</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HAG_AOE_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_PLOT_HAS_PLANTATION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_AOE_ENEMY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HAG_AOE_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HAG_AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_AOE_SEA_REQUIREMENTS</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_PLOT_HAS_PLANTATION</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_PLOT_HAS_PLANTATION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HAG_AOE_ENEMY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HAG_UNIT_IS_ENEMY_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>HAG_AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>HAG_UNIT_IS_ENEMY_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>HAG_AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+		<Row>
+			<RequirementId>HAG_UNIT_IS_ENEMY_REQUIREMENT</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>2</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<!-- Passive Description -->
+		<Row ModifierId="GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"                       Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA"/>
+		<!-- Retire Descriptions -->
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM"             Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_RESET_UNIT_MOVES"            Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_RESET_UNIT_MOVES"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_GOLD"                   Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_PROMOTION_PLUS_GOLD"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_STRENGTH"               Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_STRENGTH"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_TRADE_ROUTE"                 Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_TRADE_ROUTE_AND_UNIT"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_CORPS"                  Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_CORPS_AND_PROMOTION"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_SIGHT_BONUS"            Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_SIGHT_BONUS_AND_MOVEMENT"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_PLANTATION_GOLD"             Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_PLANTATION_GOLD"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CULTURE_BOMB_TRIGGER_HARBOR" Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_CULTURE_BOMB_TRIGGER_HARBOR_AND_GOLD"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_SPAWN_UNIT"                  Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_SPAWN_UNIT_AND_GOLD"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_ARMY"                   Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_ARMY_AND_PROMOTION"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_UNIT_RANGE"                  Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_RANGE"/>
+		<Row ModifierId="GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_DAMAGE_NEARBY_UNITS"         Context="Summary" Text="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_DAMAGE_NEARBY_UNITS"/>
+		<!-- Unit Preview -->
+		<Row ModifierId="HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF"                                Context="Summary" Text="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF_DESCRIPTION"/>
+		<Row ModifierId="HAG_GREAT_PIRATES_UNIT_SIGHT_RANGE"                                    Context="Summary" Text="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_SIGHT_RANGE_DESCRIPTION"/>
+		<Row ModifierId="HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT"                                 Context="Summary" Text="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT_DESCRIPTION"/>
+		<Row ModifierId="HAG_GREAT_PIRATES_UNIT_RANGE_BUFF"                                     Context="Summary" Text="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF_DESCRIPTION"/>
+		<!-- Combat Preview -->
+		<Row ModifierId="HAG_GREAT_PIRATES_AOE_STRENGTH"                                        Context="Preview" Text="LOC_ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH_DESCRIPTION"/>
+		<Row ModifierId="HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF"                                  Context="Preview" Text="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>

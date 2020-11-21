@@ -1616,6 +1616,153 @@
 			<Text>+25% Earned experience from combat (Miran Shah)</Text>
 		</Row>
 
+		<!-- 大海賊 -->
+		<!-- Summary Text -->
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_STRENGTH_AOE_SEA" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength to naval units within 2 tiles.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_RESET_UNIT_MOVES" Language="en_US">
+			<Text>All naval combat units within 2 tiles regain all [ICON_Movement] Movement and attack capability.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_PROMOTION_PLUS_GOLD" Language="en_US">
+			<Text>Grants 1 promotion level to a naval unit and [ICON_Gold] Gold equal to 50% of the purchase cost of the unit.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_STRENGTH" Language="en_US">
+			<Text>Grants +7 [ICON_Strength] Combat Strength to a naval unit.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM" Language="en_US">
+			<Text>Naval ranged units and Naval raider units within 2 tiles gain +1 additional attack per turn.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_TRADE_ROUTE_AND_UNIT" Language="en_US">
+			<Text>Increase [ICON_TradeRoute] Trade Route capacity by 1. Grants a Trader unit in the nearest city.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_CORPS_AND_PROMOTION" Language="en_US">
+			<Text>Forms a Fleet out of a military naval unit. Grants 1 promotion level to a naval unit.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_SIGHT_BONUS_AND_MOVEMENT" Language="en_US">
+			<Text>Grants +1 [ICON_Movement] Movement and +1 Sight to all naval units.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_PLANTATION_GOLD" Language="en_US">
+			<Text>+1 [ICON_Gold] from Plantations.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_CULTURE_BOMB_TRIGGER_HARBOR_AND_GOLD" Language="en_US">
+			<Text>Culture Bomb adjacent tiles when completing a Harbor in any city. Gain 400 [ICON_GOLD] Gold (on Standard speed).</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_SPAWN_UNIT_AND_GOLD" Language="en_US">
+			<Text>Instantly creates the strongest naval combat unit you can build. Gain 400 [ICON_GOLD] Gold (on Standard speed).</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_ARMY_AND_PROMOTION" Language="en_US">
+			<Text>Forms an Armada out of a military naval unit. Grants 1 promotion level to a naval unit.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_UNIT_RANGE" Language="en_US">
+			<Text>Naval ranged units and Naval raider units within 2 tiles gain +1 [ICON_Range] Range.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_HAG_GREAT_PIRATES_DAMAGE_NEARBY_UNITS" Language="en_US">
+			<Text>Enemy units within 2 tiles lose 30 HP.</Text>
+		</Row>
+		<!-- Preview Text -->
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_AOE_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Bonus from Great Pirates.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_STRENGTH_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength (Francois l'Olonnais)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_ATTACK_NUM_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+1 additional attack per turn (Anne Bonny)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_SIGHT_DESCRIPTION" Language="en_US">
+			<Text>+1 Sight range (Bartholomew Roberts)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_NAVAL_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement (Bartholomew Roberts)</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HAG_GREAT_PIRATES_UNIT_RANGE_BUFF_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Range] Range (Charles Vane)</Text>
+		</Row>
+		<!-- クラス名 -->
+		<Row Tag="LOC_GREAT_PERSON_CLASS_HAG_GREAT_PIRATES_NAME" Language="en_US">
+			<Text>Great Pirates</Text>
+		</Row>
+		<!-- 偉人個別 -->
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ_NAME" Language="en_US">
+			<Text>Mary Read</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_MARY_READ_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY_NAME" Language="en_US">
+			<Text>Anne Bonny</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_ANNE_BONNY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_COMMANDANTE_FRANCOIS_LOLONNAIS_NAME" Language="en_US">
+			<Text>Francois l'Olonnais</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LOLONNAIS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM_NAME" Language="en_US">
+			<Text>John Rackham</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JOHN_RACKHAM_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET_NAME" Language="en_US">
+			<Text>Stede Bonnet</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_STEDE_BONNET_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC_NAME" Language="en_US">
+			<Text>Francois le Clerc</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_FRANCOIS_LE_CLERC_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS_NAME" Language="en_US">
+			<Text>Bartholomew Roberts</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BARTHOLOMEW_ROBERTS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN_NAME" Language="en_US">
+			<Text>Henry Morgan</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_MORGAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW_NAME" Language="en_US">
+			<Text>Edward Low</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_EDWARD_LOW_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY_NAME" Language="en_US">
+			<Text>Jean Fleury</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_JEAN_FLEURY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD_NAME" Language="en_US">
+			<Text>Benjamin Hornigold</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_BENJAMIN_HORNIGOLD_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE_NAME" Language="en_US">
+			<Text>Charles Vane</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_CHARLES_VANE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS_NAME" Language="en_US">
+			<Text>Henry Jennings</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_HAG_GREAT_PIRATES_HENRY_JENNINGS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->
 		<Row Tag="LOC_RELIGION_HAG_JAINISM" Language="en_US">

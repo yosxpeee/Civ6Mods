@@ -2,13 +2,15 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="BUILDING_HAG_TIMURID_OBSERVATORY"     Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HAG_TIMURID_OBSERVATORY"         Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB"     Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" Kind="KIND_BUILDING"/>
 	</Types>
 	<!-- 置換設定 -->
 	<BuildingReplaces>
-		<Row CivUniqueBuildingType="BUILDING_HAG_TIMURID_OBSERVATORY"     ReplacesBuildingType="BUILDING_UNIVERSITY"/>
-		<Row CivUniqueBuildingType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" ReplacesBuildingType="BUILDING_RESEARCH_LAB"/>
+		<Row CivUniqueBuildingType="BUILDING_HAG_TIMURID_OBSERVATORY"         ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+		<Row CivUniqueBuildingType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB"     ReplacesBuildingType="BUILDING_RESEARCH_LAB"/>
+		<Row CivUniqueBuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ReplacesBuildingType="BUILDING_GRANARY"/>
 	</BuildingReplaces>
 	<!-- 主設定 -->
 	<Buildings>
@@ -22,6 +24,11 @@
 			 PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="440" AdvisorType="ADVISOR_TECHNOLOGY" 
 			 Maintenance="3" CitizenSlots="1" PrereqTech="TECH_CHEMISTRY"
 			 TraitType="TRAIT_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB"/>
+		<!-- 醸造所 -->
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" Name="LOC_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_NAME" Description="LOC_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_GENERIC" 
+			 Housing="2" PrereqTech="TECH_POTTERY" Entertainment="1"
+			 TraitType="TRAIT_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY"/>
 	</Buildings>
 	<Buildings_XP2>
 		<Row BuildingType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" RequiredPower="3"/>
@@ -37,6 +44,8 @@
 		<Row BuildingType="BUILDING_HAG_TIMURID_OBSERVATORY" YieldType="YIELD_SCIENCE" YieldChange="5"/>
 		<!-- 宇宙科学研究所：科学力+4 -->
 		<Row BuildingType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+		<!-- 醸造所：食料+1 -->
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" YieldType="YIELD_FOOD" YieldChange="1"/>
 	</Building_YieldChanges>
 	<!-- 電力供給による出力の変更 -->
 	<Building_YieldChangesBonusWithPower>
@@ -61,7 +70,23 @@
 	</Building_CitizenYieldChanges>
 	<!-- 建造物が持つ特殊効果 -->
 	<BuildingModifiers>
+		<!-- 宇宙関連プロジェクトの生産力+15%  -->
 		<Row BuildingType="BUILDING_HAG_USSR_SPACE_RESEARCH_LAB" ModifierId="HAG_USSR_SPACE_RESEARCH_FASTER_SPACE_RACE_PRODUCTION"/>
+		<!-- 酒の原料になる資源(米、小麦、トウモロコシ、砂糖、バナナ、ハチミツ、酒(ブドウ))から食料+1、ゴールド+2 -->
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_RICE_FOOD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_WHEAT_FOOD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_MAIZE_FOOD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_SUGAR_FOOD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_BANANAS_FOOD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_HONEY_FOOD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_WINE_FOOD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_RICE_GOLD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_WHEAT_GOLD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_MAIZE_GOLD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_SUGAR_GOLD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_BANANAS_GOLD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_HONEY_GOLD"/>
+		<Row BuildingType="BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY" ModifierId="HAG_REPUBLIC_OF_PIRATES_BREWERY_WINE_GOLD"/>
 	</BuildingModifiers>
 	<!-- 特殊効果の内容 -->
 	<Modifiers>
@@ -69,6 +94,77 @@
 		<Row>
 			<ModifierId>HAG_USSR_SPACE_RESEARCH_FASTER_SPACE_RACE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_SPACE_RACE_PROJECTS_PRODUCTION</ModifierType>
+		</Row>
+		<!-- 酒の原料になる資源(米、小麦、トウモロコシ、砂糖、バナナ、ハチミツ、酒(ブドウ))から食料+1、ゴールド+2 -->
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_RICE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_RICE_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WHEAT_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_WHEAT_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_MAIZE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_MAIZE_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_SUGAR_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_SUGAR_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_BANANAS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_BANANAS_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_HONEY_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_HONEY_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WINE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_WINE_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_RICE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_RICE_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WHEAT_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_WHEAT_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_MAIZE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_MAIZE_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_SUGAR_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_SUGAR_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_BANANAS_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_BANANAS_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_HONEY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_HONEY_HAG</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WINE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_WINE_HAG</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -78,15 +174,275 @@
 			<Name>Amount</Name>
 			<Value>15</Value>
 		</Row>
+		<!-- 酒の原料になる資源(米、小麦、トウモロコシ、砂糖、バナナ、ハチミツ、酒(ブドウ))から食料+1、ゴールド+2 -->
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_RICE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_RICE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WHEAT_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WHEAT_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_MAIZE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_MAIZE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_SUGAR_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_SUGAR_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_BANANAS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_BANANAS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_HONEY_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_HONEY_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WINE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WINE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_RICE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_RICE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WHEAT_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WHEAT_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_MAIZE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_MAIZE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_SUGAR_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_SUGAR_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_BANANAS_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_BANANAS_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_HONEY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_HONEY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WINE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BREWERY_WINE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 特殊効果の発動条件 -->
 	<RequirementSets>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_RICE_HAG</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_WHEAT_HAG</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_MAIZE_HAG</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_SUGAR_HAG</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_BANANAS_HAG</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_HONEY_HAG</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_WINE_HAG</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_RICE_HAG</RequirementSetId>
+			<RequirementId>REQUIRES_RICE_IN_PLOT_HAG</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_WHEAT_HAG</RequirementSetId>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT_HAG</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_MAIZE_HAG</RequirementSetId>
+			<RequirementId>REQUIRES_MAIZE_IN_PLOT_HAG</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_SUGAR_HAG</RequirementSetId>
+			<RequirementId>REQUIRES_SUGAR_IN_PLOT_HAG</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_BANANAS_HAG</RequirementSetId>
+			<RequirementId>REQUIRES_BANANAS_IN_PLOT_HAG</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_HONEY_HAG</RequirementSetId>
+			<RequirementId>REQUIRES_HONEY_IN_PLOT_HAG</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_WINE_HAG</RequirementSetId>
+			<RequirementId>REQUIRES_WINE_IN_PLOT_HAG</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_RICE_IN_PLOT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_MAIZE_IN_PLOT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_SUGAR_IN_PLOT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_BANANAS_IN_PLOT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HONEY_IN_PLOT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WINE_IN_PLOT_HAG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
 	</Requirements>
 	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_RICE_IN_PLOT_HAG</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_RICE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT_HAG</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WHEAT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_MAIZE_IN_PLOT_HAG</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_MAIZE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_SUGAR_IN_PLOT_HAG</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_SUGAR</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_BANANAS_IN_PLOT_HAG</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_BANANAS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_HONEY_IN_PLOT_HAG</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_HONEY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WINE_IN_PLOT_HAG</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WINE</Value>
+		</Row>
 	</RequirementArguments>
 	<!-- ロックバンド用観光爆弾 -->
 	<Building_TourismBombs_XP2>

@@ -11,6 +11,8 @@
 		<Element>
 			<m_CollectionName text="Units"/>
 			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<!-- ========== 大将軍 ========== -->
+			<!-- フランソワ・ジョセフ・ルフェーヴル -->
 			<Element>
 				<m_Fields>
 					<m_Values>
@@ -101,6 +103,7 @@
 				<m_Name text="GREAT_PERSON_INDIVIDUAL_HAG_FRANCOIS_JOSEPH_LEFEBVRE"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
+			<!-- ミーラーン・シャー -->
 			<Element>
 				<m_Fields>
 					<m_Values>

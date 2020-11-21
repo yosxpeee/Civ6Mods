@@ -14,6 +14,7 @@
 		<Row Type="UNIT_HAG_AMERICAN_JAEGER"         Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_HUNS_TARKHAN"            Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_MADAGASCAR_HOVA"         Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_GREAT_PIRATES"           Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -71,6 +72,9 @@
 		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_GREAT_PIRATES"           AiType="UNITTYPE_CIVILIAN_LEADER"/>
+		<Row UnitType="UNIT_HAG_GREAT_PIRATES"           AiType="UNITAI_LEADER"/>
+		<Row UnitType="UNIT_HAG_GREAT_PIRATES"           AiType="UNITTYPE_NAVAL"/>
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
@@ -102,6 +106,8 @@
 		<Row Type="UNIT_HAG_AMERICAN_JAEGER"         Tag="CLASS_HAG_AMERICAN_JAEGER"/>
 		<Row Type="UNIT_HAG_HUNS_TARKHAN"            Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_HAG_HUNS_TARKHAN"            Tag="CLASS_HAG_HUNS_TARKHAN"/>
+		<Row Type="UNIT_HAG_GREAT_PIRATES"           Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_HAG_GREAT_PIRATES"           Tag="CLASS_ALL_ERAS"/>
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
@@ -205,6 +211,12 @@
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_MADAGASCAR_HOVA_NAME" Description="LOC_UNIT_HAG_MADAGASCAR_HOVA_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" BuildCharges="2" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_IRON_WORKING"
 			 TraitType="TRAIT_UNIT_HAG_MADAGASCAR_HOVA"/>
+		<!-- 大海賊 -->
+		<Row UnitType="UNIT_HAG_GREAT_PIRATES" Cost="1" BaseMoves="4" BaseSightRange="2" 
+			 ZoneOfControl="false" Domain="DOMAIN_SEA" 
+			 FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_HAG_GREAT_PIRATES_NAME" Description="LOC_UNIT_HAG_GREAT_PIRATES_DESCRIPTION" 
+			 CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False" 
+			 TraitType="TRAIT_UNIT_HAG_REPUBLIC_OF_PIRATES_GREAT_PIRATES"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>

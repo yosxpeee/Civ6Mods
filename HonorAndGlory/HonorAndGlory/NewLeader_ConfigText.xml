@@ -143,7 +143,7 @@
 			<Text>Golden Age of Piracy</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_DESCRIPTION" Language="en_US">
-			<Text>not implemented</Text>
+			<Text>Earn a Great Pirates when the game enters a new era. Begin the game with the Sailing technologies unlocked. Begin the game with the Shipbuilding and Celestial Navigation technology [ICON_TechBoosted] Eureka. Harbor districts in half the time.</Text>
 		</Row>
 		
 		<!-- 指導者(ナポレオン) -->
@@ -443,6 +443,19 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_MADAGASCAR_HOVA_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
+		<!-- UU(大海賊) -->
+		<Row Tag="LOC_UNIT_HAG_GREAT_PIRATES_NAME" Language="en_US">
+			<Text>Great Pirates</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_GREAT_PIRATES_DESCRIPTION" Language="en_US">
+			<Text>Republic of Pirates unique Great People unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_GREAT_PIRATES_NAME" Language="en_US">
+			<Text>Republic of Pirates unique unit: Great Pirates</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GREAT_PIRATES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
 		
 		<!-- UB(天文台) -->
 		<Row Tag="LOC_BUILDING_HAG_TIMURID_OBSERVATORY_NAME" Language="en_US">
@@ -471,6 +484,19 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- UB(醸造所) -->
+		<Row Tag="LOC_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_NAME" Language="en_US">
+			<Text>Brewery</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_DESCRIPTION" Language="en_US">
+			<Text>A building unique to Republic of Pirates. Replaces the Granary. +1 [ICON_Food] Food, +2 [ICON_Housing] Housing and +1 [ICON_Amenities] Amenity. +1 [ICON_Food] Food and +2 [ICON_Gold] Gold from [ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_WHEAT] Wheat, [ICON_RESOURCE_MAIZE] Maize, [ICON_RESOURCE_SUGAR] Sugar, [ICON_RESOURCE_BANANAS] Bananas, [ICON_RESOURCE_HONEY] Honey and [ICON_RESOURCE_WINE] Wine.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_NAME" Language="en_US">
+			<Text>Republic of Pirates unique building: Brewery</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		
@@ -508,7 +534,7 @@
 		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="en_US">
 			<Text>+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Plantation; other?Plantations;}.</Text>
 		</Row>
-		<!-- フク -->
+		<!-- UD(フク) -->
 		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Language="en_US">
 			<Text>Foko</Text>
 		</Row>

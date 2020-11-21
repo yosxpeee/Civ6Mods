@@ -349,7 +349,14 @@
 		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_MADAGASCAR_HOVA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_MADAGASCAR_HOVA256.dds"/>
-		
+		<!-- 大海賊 -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES256.dds"/>
+
 		<!-- UI -->
 		<!-- カスバ -->
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH38.dds"/>
@@ -598,7 +605,18 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="36"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="36"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="36"/>
-		
+		<!-- UU -->
+		<!-- 大海賊(ポートレイトはキャラベルの使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_GREAT_PIRATES"                            Atlas="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES"        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_GREAT_PIRATES_FOW"                        Atlas="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES"        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_GREAT_PIRATES_WHITE"                      Atlas="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES"        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_GREAT_PIRATES_BLACK"                      Atlas="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES"        Index="0"/>
+		<Row Name="ICON_UNIT_HAG_GREAT_PIRATES_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="53"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_GREAT_PIRATES_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="53"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HAG_GREAT_PIRATES_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="53"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HAG_GREAT_PIRATES_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="53"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_GREAT_PIRATES_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="53"/>
+
 		<!-- UB -->
 		<!-- 天文台(マドラサの使いまわし) -->
 		<Row Name="ICON_BUILDING_HAG_TIMURID_OBSERVATORY" Atlas="ICON_ATLAS_BUILDINGS"     Index="19"/>
@@ -606,7 +624,10 @@
 		<!-- 宇宙科学研究所(研究所の使いまわし) -->
 		<Row Name="ICON_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB"     Atlas="ICON_ATLAS_BUILDINGS"     Index="37"/>
 		<Row Name="ICON_BUILDING_HAG_USSR_SPACE_RESEARCH_LAB_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="37"/>
-
+		<!-- 醸造所(穀物庫の使いまわし) -->
+		<Row Name="ICON_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY"     Atlas="ICON_ATLAS_BUILDINGS"     Index="3"/>
+		<Row Name="ICON_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="3"/>
+		
 		<!-- UD -->
 		<!-- フェイトリア(兵営の使いまわし) -->
 		<Row Name="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA"     Atlas="ICON_ATLAS_DISTRICTS"     Index="3"/>

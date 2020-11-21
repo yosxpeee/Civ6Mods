@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects:XLP>
+<AssetObjects..XLP>
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
@@ -1099,6 +1099,31 @@
 			<m_EntryID text="ICON_UNIT_HAG_MADAGASCAR_HOVA256"/>
 			<m_ObjectName text="ICON_UNIT_HAG_MADAGASCAR_HOVA256"/>
 		</Element>
+		<!-- ユニット(大海賊) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GREAT_PIRATES22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GREAT_PIRATES22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GREAT_PIRATES32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GREAT_PIRATES32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GREAT_PIRATES38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GREAT_PIRATES38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GREAT_PIRATES50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GREAT_PIRATES50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GREAT_PIRATES80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GREAT_PIRATES80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_GREAT_PIRATES256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_GREAT_PIRATES256"/>
+		</Element>
 		
 		<!-- 地形改善(カスバ) -->
 		<Element>
@@ -1295,4 +1320,4 @@
 		<Element>MACOS</Element>
 		<Element>IOS</Element>
 	</m_AllowedPlatforms>
-</AssetObjects:XLP>
+</AssetObjects..XLP>
