@@ -80,5 +80,11 @@
 			<Leader>LEADER_HAG_RADAMA_I</Leader>
 			<Sequence>DEFAULT</Sequence>
 		</Row>
+		<!-- エドワード・ティーチ -->
+		<Row>
+			<Name>NEUTRAL_IDLE</Name>
+			<Leader>LEADER_HAG_EDWARD_TEACH</Leader>
+			<Sequence>DEFAULT</Sequence>
+		</Row>
 	</LeaderAnimations>
 </GameData>

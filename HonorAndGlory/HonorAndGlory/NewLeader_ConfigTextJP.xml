@@ -129,6 +129,22 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION" Language="ja_JP">
 			<Text>獲得した偉人1人につき文明全体の [ICON_Science] 科学力+2% (最大30%)。太古の時代から丘陵に農場を建設できる。</Text>
 		</Row>
+		<!-- 文明(海賊共和国) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_NAME" Language="ja_JP">
+			<Text>海賊共和国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_DESCRIPTION" Language="ja_JP">
+			<Text>海賊共和国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_ADJECTIVE" Language="ja_JP">
+			<Text>海賊共和国の</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_NAME" Language="ja_JP">
+			<Text>海賊の黄金時代</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_DESCRIPTION" Language="ja_JP">
+			<Text>未実装</Text>
+		</Row>
 		
 		<!-- 指導者(ナポレオン) -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_NAME" Language="ja_JP">
@@ -259,6 +275,16 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION" Language="ja_JP">
 			<Text>キャンパス区域から [ICON_GreatScientist] 大科学者ポイント+1、兵営区域から [ICON_GreatGeneral] 大将軍ポイント+1。キャンパス区域と兵営区域の建造物の [ICON_Production] 生産力+30%。すべての陸軍ユニットは異なるクラスの陸軍ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複せず、重騎兵と軽騎兵は同一クラス扱い、武僧などの特殊クラスは対象外)</Text>
+		</Row>
+		<!-- 指導者(エドワード・ティーチ) -->
+		<Row Tag="LOC_LEADER_HAG_EDWARD_TEACH_NAME" Language="ja_JP">
+			<Text>エドワード・ティーチ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_NAME" Language="ja_JP">
+			<Text>アン女王の復讐</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_DESCRIPTION" Language="ja_JP">
+			<Text>未実装</Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->

@@ -245,14 +245,21 @@
 		</Row>
 		<!-- ラダマ1世 -->
 		<Row>
-			<!-- 緑 -->
 			<Type>COLOR_PLAYER_LEADER_HAG_RADAMA_I_PRIMARY</Type>
-			<Color>0,126,58,255</Color>
+			<Color>0,126,58,255</Color><!-- 緑 -->
 		</Row>
 		<Row>
-			<!-- 黒 -->
 			<Type>COLOR_PLAYER_LEADER_HAG_RADAMA_I_SECONDARY</Type>
-			<Color>30,30,30,255</Color>
+			<Color>30,30,30,255</Color><!-- 黒 -->
+		</Row>
+		<!-- エドワード・ティーチ -->
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_EDWARD_TEACH_PRIMARY</Type>
+			<Color>0,0,0,160</Color><!-- 黒、透過 -->
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_HAG_EDWARD_TEACH_SECONDARY</Type>
+			<Color>255,255,255,255</Color><!-- 白 -->
 		</Row>
 		
 		<!-- 宗教 -->

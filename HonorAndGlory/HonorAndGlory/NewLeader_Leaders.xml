@@ -2,49 +2,52 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<!-- ナポレオン -->					      
-		<Row Type="LEADER_HAG_NAPOLEON"            Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_NAPOLEON"      Kind="KIND_TRAIT"/>
-		<!-- ティムール -->					      
-		<Row Type="LEADER_HAG_TIMUR"               Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_TIMUR"         Kind="KIND_TRAIT"/>
-		<!-- チトー -->					          
-		<Row Type="LEADER_HAG_TITO"                Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_TITO"          Kind="KIND_TRAIT"/>
+		<!-- ナポレオン -->
+		<Row Type="LEADER_HAG_NAPOLEON"              Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_NAPOLEON"        Kind="KIND_TRAIT"/>
+		<!-- ティムール -->
+		<Row Type="LEADER_HAG_TIMUR"                 Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_TIMUR"           Kind="KIND_TRAIT"/>
+		<!-- チトー -->
+		<Row Type="LEADER_HAG_TITO"                  Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_TITO"            Kind="KIND_TRAIT"/>
 		<!-- ムーレイ・イスマーイール -->
-		<Row Type="LEADER_HAG_MULAY_ISMAIL"        Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_MULAY_ISMAIL"  Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_MULAY_ISMAIL"          Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_MULAY_ISMAIL"    Kind="KIND_TRAIT"/>
 		<!-- 東條英機 -->
-		<Row Type="LEADER_HAG_HIDEKI_TOJO"         Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_HIDEKI_TOJO"   Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_UNIT_HAG_JAPAN_ZERO"      Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_HIDEKI_TOJO"           Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_HIDEKI_TOJO"     Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_JAPAN_ZERO"        Kind="KIND_TRAIT"/>
 		<!-- マリア1世 -->
-		<Row Type="LEADER_HAG_MARIA_I"             Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_MARIA_I"       Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_MARIA_I"               Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_MARIA_I"         Kind="KIND_TRAIT"/>
 		<!-- スターリン -->
-		<Row Type="LEADER_HAG_STALIN"              Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_STALIN"        Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_STALIN"                Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_STALIN"          Kind="KIND_TRAIT"/>
 		<!-- アドルフ・ヒトラー -->
-		<Row Type="LEADER_HAG_ADOLF_HITLER"        Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_ADOLF_HITLER"  Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_UNIT_HAG_GERMANY_JU87"    Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_ADOLF_HITLER"          Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_ADOLF_HITLER"    Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_GERMANY_JU87"      Kind="KIND_TRAIT"/>
 		<!-- ムッソリーニ -->
-		<Row Type="LEADER_HAG_MUSSOLINI"           Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_MUSSOLINI"     Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_MUSSOLINI"             Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_MUSSOLINI"       Kind="KIND_TRAIT"/>
 		<!-- トルーマン -->
 		<Row Type="LEADER_HAG_TRUMAN"                Kind="KIND_LEADER" />
 		<Row Type="TRAIT_LEADER_HAG_TRUMAN"          Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH" Kind="KIND_TRAIT"/>
 		<!-- チャーチル -->
-		<Row Type="LEADER_HAG_CHURCHILL"           Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_CHURCHILL"     Kind="KIND_TRAIT"/>
-		<Row Type="TRAIT_UNIT_HAG_AMERICAN_JAEGER" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_CHURCHILL"             Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_CHURCHILL"       Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_HAG_AMERICAN_JAEGER"   Kind="KIND_TRAIT"/>
 		<!-- アッティラ -->
-		<Row Type="LEADER_HAG_ATTILA"              Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_ATTILA"        Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_ATTILA"                Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_ATTILA"          Kind="KIND_TRAIT"/>
 		<!-- ラダマ1世 -->
-		<Row Type="LEADER_HAG_RADAMA_I"            Kind="KIND_LEADER" />
-		<Row Type="TRAIT_LEADER_HAG_RADAMA_I"      Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_HAG_RADAMA_I"              Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_RADAMA_I"        Kind="KIND_TRAIT"/>
+		<!-- エドワード・ティーチ -->
+		<Row Type="LEADER_HAG_EDWARD_TEACH"          Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_HAG_EDWARD_TEACH"    Kind="KIND_TRAIT"/>
 	</Types>
 	<!-- 指導者の主定義 -->
 	<Leaders>
@@ -126,6 +129,12 @@
 			<Name>LOC_LEADER_HAG_RADAMA_I_NAME</Name>
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
+		<!-- エドワード・ティーチ -->
+		<Row>
+			<LeaderType>LEADER_HAG_EDWARD_TEACH</LeaderType>
+			<Name>LOC_LEADER_HAG_EDWARD_TEACH_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
@@ -142,6 +151,7 @@
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     Quote="LOC_LEADER_HAG_CHURCHILL_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_ATTILA"        Quote="LOC_LEADER_HAG_ATTILA_QUOTE"/>
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      Quote="LOC_LEADER_HAG_RADAMA_I_QUOTE"/>
+		<Row LeaderType="LEADER_HAG_EDWARD_TEACH"  Quote="LOC_LEADER_HAG_EDWARD_TEACH_QUOTE"/>
 	</LeaderQuotes>
 	<!-- 指導者が持つ特性 -->
 	<LeaderTraits>
@@ -200,6 +210,8 @@
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_HAG_RADAMA_I"/>
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_EXPANSIONIST"/>				<!-- 拡張思考 -->
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
+		<!-- エドワード・ティーチ -->
+		<Row LeaderType="LEADER_HAG_EDWARD_TEACH"  TraitType="TRAIT_LEADER_HAG_EDWARD_TEACH"/>
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -220,6 +232,7 @@
 		<Row TraitType="TRAIT_UNIT_HAG_ENGLAND_SWORDFISH" Name="LOC_TRAIT_UNIT_HAG_ENGLAND_SWORDFISH_NAME"/>
 		<Row TraitType="TRAIT_LEADER_HAG_ATTILA"          Name="LOC_TRAIT_LEADER_HAG_ATTILA_NAME"        Description="LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_HAG_RADAMA_I"        Name="LOC_TRAIT_LEADER_HAG_RADAMA_I_NAME"      Description="LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HAG_EDWARD_TEACH"    Name="LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_NAME"  Description="LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_DESCRIPTION"/>
 	</Traits>
 	<!-- 使用する特性の指定 -->
 	<TraitModifiers>
@@ -1911,15 +1924,16 @@
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
-		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、アッティラはなし -->
+		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、アッティラ、ティーチはなし -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON"       ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"          ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"   ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_HIDEKI_TOJO"    ReligionType="RELIGION_BUDDHISM"/>
 		<Row LeaderType="LEADER_HAG_MARIA_I"        ReligionType="RELIGION_CATHOLICISM"/>
-		<Row LeaderType="LEADER_HAG_TRUMAN"         ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_TRUMAN"         ReligionType="RELIGION_PROTESTANTISM"/>
 		<Row LeaderType="LEADER_HAG_CHURCHILL"      ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_RADAMA_I"       ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_HAG_EDWARD_TEACH"   ReligionType="RELIGION_CATHOLICISM"/>
 	</FavoredReligions>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
@@ -1936,6 +1950,7 @@
 		<Row Type="LEADER_HAG_CHURCHILL"     BackgroundImage="Churchill_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_ATTILA"        BackgroundImage="Attila_DiplomacyInfo_Background.dds"/>
 		<Row Type="LEADER_HAG_RADAMA_I"      BackgroundImage="RadamaI_DiplomacyInfo_Background.dds"/>
+		<Row Type="LEADER_HAG_EDWARD_TEACH"  BackgroundImage="EdwardTeach_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_HAG_NAPOLEON"      ForegroundImage="Napoleon_LoadingInfo_Foreground.dds"     BackgroundImage="Napoleon_LoadingInfo_Background.dds"     LeaderText="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT"      PlayDawnOfManAudio="1"/>
@@ -1951,5 +1966,6 @@
 		<Row LeaderType="LEADER_HAG_CHURCHILL"     ForegroundImage="Churchill_LoadingInfo_Foreground.dds"    BackgroundImage="Churchill_LoadingInfo_Background.dds"    LeaderText="LOC_LEADER_HAG_CHURCHILL_DOM_TEXT"     PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_ATTILA"        ForegroundImage="Attila_LoadingInfo_Foreground.dds"       BackgroundImage="Attila_LoadingInfo_Background.dds"       LeaderText="LOC_LEADER_HAG_ATTILA_DOM_TEXT"        PlayDawnOfManAudio="1"/>
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      ForegroundImage="RadamaI_LoadingInfo_Foreground.dds"      BackgroundImage="RadamaI_LoadingInfo_Background.dds"      LeaderText="LOC_LEADER_HAG_RADAMA_I_DOM_TEXT"      PlayDawnOfManAudio="1"/>
+		<Row LeaderType="LEADER_HAG_EDWARD_TEACH"  ForegroundImage="EdwardTeach_LoadingInfo_Foreground.dds"  BackgroundImage="EdwardTeach_LoadingInfo_Background.dds"  LeaderText="LOC_LEADER_HAG_EDWARD_TEACH_DOM_TEXT"  PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
 </GameData>

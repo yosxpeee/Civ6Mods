@@ -222,6 +222,23 @@
 			<LeaderAbilityIcon>ICON_LEADER_HAG_RADAMA_I</LeaderAbilityIcon>
 			<Portrait>PORTRAIT_LEADER_HAG_RADAMA_I</Portrait>
 		</Row>
+		<!-- マダガスカル(ラダマ1世) -->
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_HAG_REPUBLIC_OF_PIRATES</CivilizationType>
+			<LeaderType>LEADER_HAG_EDWARD_TEACH</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES</CivilizationIcon>
+			<LeaderName>LOC_LEADER_HAG_EDWARD_TEACH_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_HAG_EDWARD_TEACH</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_HAG_EDWARD_TEACH</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_HAG_EDWARD_TEACH</Portrait>
+		</Row>
 	</Players>
 	<PlayerItems>
 		<!-- ナポレオン -->

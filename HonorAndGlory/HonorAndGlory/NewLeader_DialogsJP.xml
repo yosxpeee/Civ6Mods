@@ -94,5 +94,12 @@
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_RADAMA_I_ANY" Language="ja_JP">
 			<Text>誰もが天に手を伸ばさんとするなか、お前は泥に突っ伏したいというのか？</Text>
 		</Replace>
+		<!-- エドワード・ティーチ -->
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_EDWARD_TEACH_I_ANY" Language="ja_JP">
+			<Text>(like)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_EDWARD_TEACH_I_ANY" Language="ja_JP">
+			<Text>(dislike)</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

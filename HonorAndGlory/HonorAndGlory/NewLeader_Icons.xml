@@ -422,21 +422,23 @@
 		<!-- 文明 -->
 		<!-- Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"-->
 		<!-- ティムール朝 -->
-		<Row Name="ICON_CIVILIZATION_HAG_TIMURID"    Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID"    Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_TIMURID"             Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID"    Index="0"/>
 		<!-- ユーゴスラビア -->
-		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA" Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA"          Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" Index="0"/>
 		<!-- モロッコ王国 -->
-		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO"    Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO"    Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO"             Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO"    Index="0"/>
 		<!-- ポルトガル帝国 -->
-		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL"   Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL"   Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL"            Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL"   Index="0"/>
 		<!-- イタリア -->
-		<Row Name="ICON_CIVILIZATION_HAG_ITALY"      Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY"      Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_ITALY"               Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY"      Index="0"/>
 		<!-- ソ連 -->
-		<Row Name="ICON_CIVILIZATION_HAG_USSR"       Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR"       Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_USSR"                Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR"       Index="0"/>
 		<!-- フン族 -->
-		<Row Name="ICON_CIVILIZATION_HAG_HUNS"       Atlas="ICON_ATLAS_CIVILIZATION_HAG_HUNS"       Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_HUNS"                Atlas="ICON_ATLAS_CIVILIZATION_HAG_HUNS"       Index="0"/>
 		<!-- マダガスカル -->
-		<Row Name="ICON_CIVILIZATION_HAG_MADAGASCAR" Atlas="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_MADAGASCAR"          Atlas="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" Index="0"/>
+		<!-- 海賊共和国 -->
+		<Row Name="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -466,6 +468,8 @@
 		<Row Name="ICON_LEADER_HAG_ATTILA" Atlas="ICON_ATLAS_LEADER_HAG_ATTILA" Index="0"/>
 		<!-- ラダマ1世 -->
 		<Row Name="ICON_LEADER_HAG_RADAMA_I" Atlas="ICON_ATLAS_LEADER_HAG_RADAMA_I" Index="0"/>
+		<!-- エドワード・ティーチ -->
+		<Row Name="ICON_LEADER_HAG_EDWARD_TEACH" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->

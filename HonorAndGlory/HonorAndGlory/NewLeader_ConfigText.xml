@@ -120,7 +120,7 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION" Language="en_US">
 			<Text>Madagascar</Text>
 		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_UMADAGASCAR_ADJECTIVE" Language="en_US">
+		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_ADJECTIVE" Language="en_US">
 			<Text>Madagascar</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_NAME" Language="en_US">
@@ -128,6 +128,22 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MADAGASCAR_DESCRIPTION" Language="en_US">
 			<Text>Gains +2% [ICON_Science] Science for each Great Person it has ever earned, up to a total of +30%. Farms can be built on the hills from Ancient era.</Text>
+		</Row>
+		<!-- 文明(海賊共和国) -->
+		<Row Tag="LOC_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_NAME" Language="en_US">
+			<Text>Republic of Pirates</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_DESCRIPTION" Language="en_US">
+			<Text>Republic of Pirates</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_ADJECTIVE" Language="en_US">
+			<Text>Republic of Pirates</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_NAME" Language="en_US">
+			<Text>Golden Age of Piracy</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_DESCRIPTION" Language="en_US">
+			<Text>not implemented</Text>
 		</Row>
 		
 		<!-- 指導者(ナポレオン) -->
@@ -259,6 +275,16 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_RADAMA_I_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_GreatScientist] Great Scientist point from cities with a Campus district. +1 [ICON_GreatGeneral] Great General point from cities with a Encampment district. +30% [ICON_PRODUCTION] Production towards Campus and Encampment buildings. All Military Units receives +5 [ICON_Strength] Strength from the adjecent other class military units.(This effects are not duplicate, Heavy Cavalry class and Light Cavalry class treated as the same class, Excludes special units like Warrior Monk.) </Text>
+		</Row>
+		<!-- 指導者(エドワード・ティーチ) -->
+		<Row Tag="LOC_LEADER_HAG_EDWARD_TEACH_NAME" Language="en_US">
+			<Text>Edward Teach</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_NAME" Language="en_US">
+			<Text>Queen Anne's Revenge</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_DESCRIPTION" Language="en_US">
+			<Text>Not Implemented</Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->

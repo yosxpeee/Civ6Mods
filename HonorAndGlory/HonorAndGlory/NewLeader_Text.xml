@@ -80,6 +80,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_DETAILED_BODY" Language="en_US">
 			<Text>Leader specific pedia text(Detail)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_EDWARD_TEACH_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_EDWARD_TEACH_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- ナポレオン -->
@@ -176,6 +182,13 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_HISTORY_PARA_2" Language="en_US">
 			<Text>Leader specific historical text</Text>
 		</Row>
+		<!-- ラダマ1世 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_EDWARD_TEACH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_EDWARD_TEACH_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
 		
 		<!-- Civilization specific historical text. -->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_TIMURID_CHAPTER_HISTORY_PARA_1" Language="en_US">
@@ -197,6 +210,9 @@
 			<Text>Civilization specific historical text</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_MADAGASCAR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
 		</Row>
 		
@@ -423,6 +439,34 @@
 			<Text>Baggio</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_5" Language="en_US">
+			<Text>Anicet</Text>
+		</Row>
+		<!-- 海賊共和国 -->
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_1" Language="en_US">
+			<Text>Dally</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_2" Language="en_US">
+			<Text>Tantely</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_3" Language="en_US">
+			<Text>Rafohy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_4" Language="en_US">
+			<Text>Ramavo</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_1" Language="en_US">
+			<Text>Monja</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_2" Language="en_US">
+			<Text>Andry</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_3" Language="en_US">
+			<Text>Marc</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_4" Language="en_US">
+			<Text>Baggio</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_5" Language="en_US">
 			<Text>Anicet</Text>
 		</Row>
 		
@@ -1261,6 +1305,131 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_32" Language="en_US">
 			<Text>Nosy Boraha</Text>
 		</Row>
+		<!-- 海賊共和国 -->
+		<!-- 海賊シナリオのをそのまま借用 -->
+		<Row Tag="LOC_CITY_NAME_HAG_VERA_CRUZ" Language="en_US">
+			<Text>Vera Cruz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_VILLA_HERMOSA" Language="en_US">
+			<Text>Villa Hermosa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_CAMPECHE" Language="en_US">
+			<Text>Campeche</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_LA_HABANA" Language="en_US">
+			<Text>La Habana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_CARACAS" Language="en_US">
+			<Text>Caracas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ST_AUGUSTINE" Language="en_US">
+			<Text>St. Augustine</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SANTA_CATALINA" Language="en_US">
+			<Text>Santa Catalina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PUERTO_BELLO" Language="en_US">
+			<Text>Puerto Bello</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_NOMBRE_DE_DIOS" Language="en_US">
+			<Text>Nombre de Dios</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SANTA_MARTA" Language="en_US">
+			<Text>Santa Marta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_RIO_DE_LA_HACHA" Language="en_US">
+			<Text>Rio de la Hacha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MARACAIBO" Language="en_US">
+			<Text>Maracaibo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PURTO_CABELLO" Language="en_US">
+			<Text>Puerto Cabello</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_GIBRALTAR" Language="en_US">
+			<Text>Gibraltar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_CUMANA" Language="en_US">
+			<Text>Cumana</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MARGARITA" Language="en_US">
+			<Text>Margarita</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_TRINIDAD" Language="en_US">
+			<Text>Trinidad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SANTO_DOMINGO" Language="en_US">
+			<Text>Santo Domingo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SANTIAGO" Language="en_US">
+			<Text>Santiago</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PORT_ROYAL" Language="en_US">
+			<Text>Port Royal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ST_KITTS" Language="en_US">
+			<Text>St. Kitts</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ANTIGUA" Language="en_US">
+			<Text>Antigua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_BARBADOS" Language="en_US">
+			<Text>Barbados</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_NASSAU" Language="en_US">
+			<Text>Nassau</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ELUTHERA" Language="en_US">
+			<Text>Eleuthera</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_GRAND_BAHAMA" Language="en_US">
+			<Text>Grand Bahama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_NEVIS" Language="en_US">
+			<Text>Nevis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ST_MARTIN" Language="en_US">
+			<Text>St. Martin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ST_EUSTATIUS" Language="en_US">
+			<Text>St. Eustatius</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_CURACAO" Language="en_US">
+			<Text>Curacao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ARUBA" Language="en_US">
+			<Text>Aruba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_BONAIRE" Language="en_US">
+			<Text>Bonaire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SABA" Language="en_US">
+			<Text>Saba</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_FLORIDA_KEYS" Language="en_US">
+			<Text>Florida Keys</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_TORTUGA" Language="en_US">
+			<Text>Tortuga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PORT_DE_PAIX" Language="en_US">
+			<Text>Port-de-Paix</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_LEOGANE" Language="en_US">
+			<Text>Leogane</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PETIT_GOAVE" Language="en_US">
+			<Text>Petit Goave</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MONTSERRAT" Language="en_US">
+			<Text>Montserrat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_GUADELOUPE" Language="en_US">
+			<Text>Guadeloupe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MARTINIQUE" Language="en_US">
+			<Text>Martinique</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="en_US">
@@ -1302,6 +1471,9 @@
 		<Row Tag="LOC_LEADER_HAG_RADAMA_I_QUOTE" Language="en_US">
 			<Text>Leader Quote</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_HAG_EDWARD_TEACH_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
 		
 		<!-- Leader DOM -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_DOM_TEXT" Language="en_US">
@@ -1341,6 +1513,9 @@
 			<Text>Loading Text</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_RADAMA_I_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_EDWARD_TEACH_DOM_TEXT" Language="en_US">
 			<Text>Loading Text</Text>
 		</Row>
 		

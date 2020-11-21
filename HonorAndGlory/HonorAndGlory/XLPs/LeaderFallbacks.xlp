@@ -74,6 +74,11 @@
 			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_RADAMA_I"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_RADAMA_I"/>
 		</Element>
+		<!-- エドワード・ティーチ -->
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LEADER_HAG_EDWARD_TEACH"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LEADER_HAG_EDWARD_TEACH"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

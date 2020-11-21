@@ -80,6 +80,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_DETAILED_BODY" Language="ja_JP">
 			<Text>指導者の詳細文章(Civilopedia)</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_EDWARD_TEACH_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>指導者の概要文章(Civilopedia)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_EDWARD_TEACH_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>指導者の詳細文章(Civilopedia)</Text>
+		</Row>
 		
 		<!-- Leader specific historical text. -->
 		<!-- ナポレオン -->
@@ -175,6 +181,13 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_RADAMA_I_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
 			<Text>一方で前王の父からの遺言である「海こそが我が水田の境なり」を達成すべく、マダガスカル島内の武力統一を推し進めた。イギリスからの支援もあり、1827年ごろには島内の2/3をメリナ人の支配下で統一するに至った。しかし、日ごろの深酒が災いしたのか1828年7月27日に35歳という若さで崩御。王権はラダマの第1王妃であったラマヴが女王ラナヴァルナ1世（Ranavalona I）となる形で引き継がれた。</Text>
+		</Row>
+		<!-- エドワード・ティーチ -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_EDWARD_TEACH_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>西インド諸島（カリブ海）と北アメリカの東海岸周辺で活動していたイギリス出身の海賊。豊かな黒いアゴ髭と恐ろしい外見から「黒髭（Blackbeard）」と渾名された。拿捕した商船を改造した「アン女王の復讐号」を旗艦とした海賊船団を率いて暴れまわり、1718年5月にはカロライナ植民地のチャールズタウン（現在のサウスカロライナ州チャールストン）の港を封鎖し、人質をとって町に要求を突きつけるなど悪名を轟かせた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HAG_EDWARD_TEACH_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>ティーチは、自分が望む反応を相手から引き出させるためにイメージ作りをするなど、ただ力に頼るだけではない計算高いリーダーだった。現代ではステレオタイプの専制的な海賊のイメージがあるが、実際には船員らの合意を得て命令を下し、また、捕虜を傷つけたり殺したというような記録はない。</Text>
 		</Row>
 		
 		<!-- Civilization specific historical text. -->
@@ -423,6 +436,34 @@
 			<Text>バッジオ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MADAGASCAR_FEMALE_5" Language="ja_JP">
+			<Text>アニセト</Text>
+		</Row>
+		<!-- 海賊共和国 -->
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_1" Language="ja_JP">
+			<Text>ダリー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_2" Language="ja_JP">
+			<Text>タンテリ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_3" Language="ja_JP">
+			<Text>ラフヒ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_4" Language="ja_JP">
+			<Text>ラマヴ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_1" Language="ja_JP">
+			<Text>モンジャ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_2" Language="ja_JP">
+			<Text>アンドリー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_3" Language="ja_JP">
+			<Text>マーク</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_4" Language="ja_JP">
+			<Text>バッジオ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_5" Language="ja_JP">
 			<Text>アニセト</Text>
 		</Row>
 		
@@ -1261,6 +1302,131 @@
 		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_CITY_32" Language="ja_JP">
 			<Text>ノシ・ブラハ</Text>
 		</Row>
+		<!-- 海賊共和国 -->
+		<!-- 海賊シナリオのをそのまま借用 -->
+		<Row Tag="LOC_CITY_NAME_HAG_VERA_CRUZ" Language="ja_JP">
+			<Text>ベラクルス</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_VILLA_HERMOSA" Language="ja_JP">
+			<Text>ビヤエルモサ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_CAMPECHE" Language="ja_JP">
+			<Text>カンペチェ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_LA_HABANA" Language="ja_JP">
+			<Text>ラ・ハバナ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_CARACAS" Language="ja_JP">
+			<Text>カラカス</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ST_AUGUSTINE" Language="ja_JP">
+			<Text>セント・オーガスティン</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SANTA_CATALINA" Language="ja_JP">
+			<Text>サンタ・カタリナ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PUERTO_BELLO" Language="ja_JP">
+			<Text>プエルト・ベージョ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_NOMBRE_DE_DIOS" Language="ja_JP">
+			<Text>ノンブレ・デ・ディオス</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SANTA_MARTA" Language="ja_JP">
+			<Text>サンタ・マルタ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_RIO_DE_LA_HACHA" Language="ja_JP">
+			<Text>リオ・デ・ラ・アチャ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MARACAIBO" Language="ja_JP">
+			<Text>マラカイボ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PURTO_CABELLO" Language="ja_JP">
+			<Text>プエルト・カベジョ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_GIBRALTAR" Language="ja_JP">
+			<Text>ジブラルタル</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_CUMANA" Language="ja_JP">
+			<Text>クマナ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MARGARITA" Language="ja_JP">
+			<Text>マルガリータ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_TRINIDAD" Language="ja_JP">
+			<Text>トリニダード</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SANTO_DOMINGO" Language="ja_JP">
+			<Text>サント・ドミンゴ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SANTIAGO" Language="ja_JP">
+			<Text>サンティアゴ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PORT_ROYAL" Language="ja_JP">
+			<Text>ポート・ロイヤル</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ST_KITTS" Language="ja_JP">
+			<Text>セント・キッツ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ANTIGUA" Language="ja_JP">
+			<Text>アンティグア</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_BARBADOS" Language="ja_JP">
+			<Text>バルバドス</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_NASSAU" Language="ja_JP">
+			<Text>ナッソー</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ELUTHERA" Language="ja_JP">
+			<Text>エルーセラ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_GRAND_BAHAMA" Language="ja_JP">
+			<Text>グランドバハマ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_NEVIS" Language="ja_JP">
+			<Text>ネイビス</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ST_MARTIN" Language="ja_JP">
+			<Text>セント・マーチン</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ST_EUSTATIUS" Language="ja_JP">
+			<Text>セント・ユースタティウス</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_CURACAO" Language="ja_JP">
+			<Text>キュラソー</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_ARUBA" Language="ja_JP">
+			<Text>アルバ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_BONAIRE" Language="ja_JP">
+			<Text>ボネール</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SABA" Language="ja_JP">
+			<Text>サバ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_FLORIDA_KEYS" Language="ja_JP">
+			<Text>フロリダキーズ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_TORTUGA" Language="ja_JP">
+			<Text>トルトゥーガ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PORT_DE_PAIX" Language="ja_JP">
+			<Text>ポール＝ド＝ペ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_LEOGANE" Language="ja_JP">
+			<Text>レヨガーヌ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_PETIT_GOAVE" Language="ja_JP">
+			<Text>プティ・ゴアーブ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MONTSERRAT" Language="ja_JP">
+			<Text>モントセラト</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_GUADELOUPE" Language="ja_JP">
+			<Text>グアドループ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_MARTINIQUE" Language="ja_JP">
+			<Text>マルティニーク</Text>
+		</Row>
 		
 		<!-- Leader Quotes -->
 		<Row Tag="LOC_LEADER_HAG_NAPOLEON_QUOTE" Language="ja_JP">
@@ -1300,6 +1466,9 @@
 			<Text>指導者の一言コメント</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_RADAMA_I_QUOTE" Language="ja_JP">
+			<Text>指導者の一言コメント</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_EDWARD_TEACH_QUOTE" Language="ja_JP">
 			<Text>指導者の一言コメント</Text>
 		</Row>
 		
@@ -1342,6 +1511,9 @@
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_RADAMA_I_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HAG_EDWARD_TEACH_DOM_TEXT" Language="ja_JP">
+			<Text>エドワード・ティーチ、黒髭とも称される恐るべき大海賊。その逸話を知らぬものは少ないが、あなたは単なる恐怖の海賊ではない。狡猾に、要求を飲ませるために計算高くその姿を利用し、決して独断で物事を決めず、船員の合意とともに命令を下す。その在り方は、名だたる文明の指導者と比べ何ら劣るものではない。戦うのだ、海賊の黄金時代を築き上げ、すべての海にその旗をたなびかせるまで。</Text>
 		</Row>
 		
 		<!-- Unit Abilities Preview Text -->
