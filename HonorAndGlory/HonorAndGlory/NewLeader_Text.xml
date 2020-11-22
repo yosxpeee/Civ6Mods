@@ -1573,6 +1573,9 @@
 		<Row Tag="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength bonus from "The sea is the border of my rice field" trait.</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_EDWARD_TEACH_PRIZE_SHIPS_DESCRIPTION" Language="en_US">
+			<Text>Can capture defeated enemy naval vessels.</Text>
+		</Row>
 		
 		<!-- 隣接ボーナス効果 -->
 		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_GOLD" Language="en_US">

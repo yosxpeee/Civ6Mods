@@ -1570,6 +1570,9 @@
 		<Row Tag="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Language="ja_JP">
 			<Text>特性「海こそが我が水田の境なり」により戦闘力+5。</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_EDWARD_TEACH_PRIZE_SHIPS_DESCRIPTION" Language="ja_JP">
+			<Text>倒した敵海軍の船を拿捕することができる。</Text>
+		</Row>
 		
 		<!-- 隣接ボーナス効果 -->
 		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_GOLD" Language="ja_JP">
