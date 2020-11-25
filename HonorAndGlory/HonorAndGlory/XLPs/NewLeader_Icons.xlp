@@ -296,7 +296,7 @@
 			<m_EntryID text="ICON_CIVILIZATION_HAG_HUNS256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_HUNS256"/>
 		</Element>
-		<!-- 文明(フン族) -->
+		<!-- 文明(マダガスカル) -->
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR22"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR22"/>
@@ -336,6 +336,47 @@
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_MADAGASCAR256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_MADAGASCAR256"/>
+		</Element>
+		<!-- 文明(フン族) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES256"/>
 		</Element>
 		
 		<!-- 指導者(ナポレオン) -->
@@ -715,6 +756,35 @@
 			<m_EntryID text="ICON_LEADER_HAG_RADAMA_I256"/>
 			<m_ObjectName text="ICON_LEADER_HAG_RADAMA_I256"/>
 		</Element>
+		<!-- 指導者(エドワード・ティーチ) -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_EDWARD_TEACH32"/>
+			<m_ObjectName text="ICON_LEADER_HAG_EDWARD_TEACH32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_EDWARD_TEACH45"/>
+			<m_ObjectName text="ICON_LEADER_HAG_EDWARD_TEACH45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_EDWARD_TEACH50"/>
+			<m_ObjectName text="ICON_LEADER_HAG_EDWARD_TEACH50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_EDWARD_TEACH55"/>
+			<m_ObjectName text="ICON_LEADER_HAG_EDWARD_TEACH55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_EDWARD_TEACH64"/>
+			<m_ObjectName text="ICON_LEADER_HAG_EDWARD_TEACH64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_EDWARD_TEACH80"/>
+			<m_ObjectName text="ICON_LEADER_HAG_EDWARD_TEACH80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_HAG_EDWARD_TEACH256"/>
+			<m_ObjectName text="ICON_LEADER_HAG_EDWARD_TEACH256"/>
+		</Element>
 		
 		<!-- 都市国家(琉球) -->
 		<Element>
@@ -797,6 +867,47 @@
 		<Element>
 			<m_EntryID text="ICON_CIVILIZATION_HAG_BEIRA256"/>
 			<m_ObjectName text="ICON_CIVILIZATION_HAG_BEIRA256"/>
+		</Element>
+		<!-- 都市国家(シャフリサブス) -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_HAG_SHAHRISABZ256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_HAG_SHAHRISABZ256"/>
 		</Element>
 		
 		<!-- ユニット(アルバン) -->
@@ -1123,6 +1234,31 @@
 		<Element>
 			<m_EntryID text="ICON_UNIT_HAG_GREAT_PIRATES256"/>
 			<m_ObjectName text="ICON_UNIT_HAG_GREAT_PIRATES256"/>
+		</Element>
+		<!-- ユニット(バッカニア) -->
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER22"/>
+			<m_ObjectName text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER32"/>
+			<m_ObjectName text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER38"/>
+			<m_ObjectName text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER50"/>
+			<m_ObjectName text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER80"/>
+			<m_ObjectName text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER256"/>
+			<m_ObjectName text="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER256"/>
 		</Element>
 		
 		<!-- 地形改善(カスバ) -->

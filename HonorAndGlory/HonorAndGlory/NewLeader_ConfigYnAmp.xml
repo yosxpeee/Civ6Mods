@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- YnAmpの追加機能：都市国家セレクターに対応する。 -->
+<!-- ※シャフリサブスはテキスト差し替えにしたので記述なし -->
 <GameInfo>
 	<Parameters>
 		<Replace ParameterId="LEADER_MINOR_CIV_HAG_RYUKYU" Name="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Description="LOC_CIVILIZATION_HAG_RYUKYU_DESCRIPTION" Domain="bool" DefaultValue="0"  ConfigurationGroup="Map" ConfigurationId="LEADER_MINOR_CIV_HAG_RYUKYU" GroupId="MapOptions" SortIndex="90"/>

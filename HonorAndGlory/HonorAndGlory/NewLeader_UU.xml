@@ -2,19 +2,20 @@
 <GameData>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="UNIT_HAG_TIMURID_ARBAN"           Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_JAPAN_ZERO"              Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_RUSSIAN_T34"             Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_GERMANY_JU87"            Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_ENGLAND_SWORDFISH"       Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_AMERICAN_JAEGER"         Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_HUNS_TARKHAN"            Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_MADAGASCAR_HOVA"         Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_GREAT_PIRATES"           Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_TIMURID_ARBAN"                 Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_JAPAN_ZERO"                    Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_PORTUGAL_NAU"                  Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_RUSSIAN_T34"                   Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_GERMANY_JU87"                  Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_ITALY_CARABINIERI"             Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_ENGLAND_SWORDFISH"             Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_AMERICAN_JAEGER"               Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_HUNS_TARKHAN"                  Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_MADAGASCAR_HOVA"               Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_GREAT_PIRATES"                 Kind="KIND_UNIT"/>
+		<Row Type="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -27,100 +28,108 @@
 	</Tags>
 	<!-- AIの動き -->
 	<UnitAiInfos>
-		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           AiType="UNITTYPE_CAVALRY"/>
-		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITTYPE_SIEGE"/>
-		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITTYPE_SIEGE_ALL"/>
-		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" AiType="UNITTYPE_CAVALRY"/>
-		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"            AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"            AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"            AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"            AiType="UNITTYPE_NAVAL"/>
-		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             AiType="UNITTYPE_CAVALRY"/>
-		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITTYPE_NUCLEAR"/>
-		<Row UnitType="UNIT_HAG_GERMANY_JU87"            AiType="UNITTYPE_AIR_SIEGE"/>
-		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"       AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"       AiType="UNITTYPE_NUCLEAR"/>
-		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"       AiType="UNITTYPE_AIR_SIEGE"/>
-		<Row UnitType="UNIT_HAG_AMERICAN_JAEGER"         AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_AMERICAN_JAEGER"         AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_AMERICAN_JAEGER"         AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            AiType="UNITTYPE_CAVALRY"/>
-		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_GREAT_PIRATES"           AiType="UNITTYPE_CIVILIAN_LEADER"/>
-		<Row UnitType="UNIT_HAG_GREAT_PIRATES"           AiType="UNITAI_LEADER"/>
-		<Row UnitType="UNIT_HAG_GREAT_PIRATES"           AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"                 AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"                 AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"                 AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"                 AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"                 AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"                  AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"                  AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"                  AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"                  AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34"                   AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34"                   AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34"                   AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34"                   AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_GERMANY_JU87"                  AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_GERMANY_JU87"                  AiType="UNITTYPE_NUCLEAR"/>
+		<Row UnitType="UNIT_HAG_GERMANY_JU87"                  AiType="UNITTYPE_AIR_SIEGE"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"             AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"             AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"             AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"             AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"             AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"             AiType="UNITTYPE_NUCLEAR"/>
+		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"             AiType="UNITTYPE_AIR_SIEGE"/>
+		<Row UnitType="UNIT_HAG_AMERICAN_JAEGER"               AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_AMERICAN_JAEGER"               AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_AMERICAN_JAEGER"               AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"                  AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"                  AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"                  AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"                  AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"                  AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"               AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"               AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"               AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"               AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_HAG_GREAT_PIRATES"                 AiType="UNITTYPE_CIVILIAN_LEADER"/>
+		<Row UnitType="UNIT_HAG_GREAT_PIRATES"                 AiType="UNITAI_LEADER"/>
+		<Row UnitType="UNIT_HAG_GREAT_PIRATES"                 AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- TypeとTagの紐づけ -->
 	<TypeTags>
-		<Row Type="UNIT_HAG_TIMURID_ARBAN"           Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_HAG_TIMURID_ARBAN"           Tag="CLASS_MONGOLIAN_KESHIG"/><!-- RaFのモンゴルのケシクと同じ -->
-		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_SIEGE"/>
-		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_SIEGE_SETUP"/>
-		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_FORWARD_OBSERVER"/>
-		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_TARGETTING_ASSIST"/>
-		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
-		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_HAG_JAPAN_ZERO"              Tag="CLASS_AIRCRAFT"/>
-		<Row Type="UNIT_HAG_JAPAN_ZERO"              Tag="CLASS_AIR_FIGHTER"/>
-		<Row Type="UNIT_HAG_JAPAN_ZERO"              Tag="CLASS_MUSTANG"/><!-- バニラのアメリカのP51マスタングと同じ -->
-		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_NAVAL_MELEE"/>
-		<Row Type="UNIT_HAG_PORTUGAL_NAU"            Tag="CLASS_HAG_PORTUGAL_NAU"/>
-		<Row Type="UNIT_HAG_RUSSIAN_T34"             Tag="CLASS_HEAVY_CHARIOT"/>
-		<Row Type="UNIT_HAG_RUSSIAN_T34"             Tag="CLASS_HEAVY_CAVALRY"/>
-		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_AIRCRAFT"/>
-		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_AIR_BOMBER"/>
-		<Row Type="UNIT_HAG_GERMANY_JU87"            Tag="CLASS_HAG_GERMANY_JU87"/>
-		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_HAG_ITALY_CARABINIERI"       Tag="CLASS_GARDE"/><!-- バニラのフランスの皇帝近衛兵と同じ -->
-		<Row Type="UNIT_HAG_ENGLAND_SWORDFISH"       Tag="CLASS_AIRCRAFT"/>
-		<Row Type="UNIT_HAG_ENGLAND_SWORDFISH"       Tag="CLASS_AIR_BOMBER"/>
-		<Row Type="UNIT_HAG_AMERICAN_JAEGER"         Tag="CLASS_RECON"/>
-		<Row Type="UNIT_HAG_AMERICAN_JAEGER"         Tag="CLASS_RANGED"/>
-		<Row Type="UNIT_HAG_AMERICAN_JAEGER"         Tag="CLASS_MOBILE_RANGED"/>
-		<Row Type="UNIT_HAG_AMERICAN_JAEGER"         Tag="CLASS_HAG_AMERICAN_JAEGER"/>
-		<Row Type="UNIT_HAG_HUNS_TARKHAN"            Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_HAG_HUNS_TARKHAN"            Tag="CLASS_HAG_HUNS_TARKHAN"/>
-		<Row Type="UNIT_HAG_GREAT_PIRATES"           Tag="CLASS_LANDCIVILIAN"/>
-		<Row Type="UNIT_HAG_GREAT_PIRATES"           Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_HAG_TIMURID_ARBAN"                 Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_HAG_TIMURID_ARBAN"                 Tag="CLASS_MONGOLIAN_KESHIG"/><!-- RaFのモンゴルのケシクと同じ -->
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Tag="CLASS_SIEGE_SETUP"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Tag="CLASS_TARGETTING_ASSIST"/>
+		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
+		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_HAG_JAPAN_ZERO"                    Tag="CLASS_AIRCRAFT"/>
+		<Row Type="UNIT_HAG_JAPAN_ZERO"                    Tag="CLASS_AIR_FIGHTER"/>
+		<Row Type="UNIT_HAG_JAPAN_ZERO"                    Tag="CLASS_MUSTANG"/><!-- バニラのアメリカのP51マスタングと同じ -->
+		<Row Type="UNIT_HAG_PORTUGAL_NAU"                  Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_HAG_PORTUGAL_NAU"                  Tag="CLASS_HAG_PORTUGAL_NAU"/>
+		<Row Type="UNIT_HAG_RUSSIAN_T34"                   Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_HAG_RUSSIAN_T34"                   Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_HAG_GERMANY_JU87"                  Tag="CLASS_AIRCRAFT"/>
+		<Row Type="UNIT_HAG_GERMANY_JU87"                  Tag="CLASS_AIR_BOMBER"/>
+		<Row Type="UNIT_HAG_GERMANY_JU87"                  Tag="CLASS_HAG_GERMANY_JU87"/>
+		<Row Type="UNIT_HAG_ITALY_CARABINIERI"             Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HAG_ITALY_CARABINIERI"             Tag="CLASS_GARDE"/><!-- バニラのフランスの皇帝近衛兵と同じ -->
+		<Row Type="UNIT_HAG_ENGLAND_SWORDFISH"             Tag="CLASS_AIRCRAFT"/>
+		<Row Type="UNIT_HAG_ENGLAND_SWORDFISH"             Tag="CLASS_AIR_BOMBER"/>
+		<Row Type="UNIT_HAG_AMERICAN_JAEGER"               Tag="CLASS_RECON"/>
+		<Row Type="UNIT_HAG_AMERICAN_JAEGER"               Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_HAG_AMERICAN_JAEGER"               Tag="CLASS_MOBILE_RANGED"/>
+		<Row Type="UNIT_HAG_AMERICAN_JAEGER"               Tag="CLASS_HAG_AMERICAN_JAEGER"/>
+		<Row Type="UNIT_HAG_HUNS_TARKHAN"                  Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_HAG_HUNS_TARKHAN"                  Tag="CLASS_HAG_HUNS_TARKHAN"/>
+		<Row Type="UNIT_HAG_MADAGASCAR_HOVA"               Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HAG_GREAT_PIRATES"                 Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_HAG_GREAT_PIRATES"                 Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" Tag="CLASS_MAYAN_HULCHE"/><!-- マヤのフルチェと同じ -->
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_HAG_TIMURID_ARBAN"           ReplacesUnitType="UNIT_COURSER"/>
-		<Row CivUniqueUnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ReplacesUnitType="UNIT_ARTILLERY"/>
-		<Row CivUniqueUnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ReplacesUnitType="UNIT_CAVALRY"/>
-		<Row CivUniqueUnitType="UNIT_HAG_JAPAN_ZERO"              ReplacesUnitType="UNIT_FIGHTER"/>
-		<Row CivUniqueUnitType="UNIT_HAG_PORTUGAL_NAU"            ReplacesUnitType="UNIT_CARAVEL"/>
-		<Row CivUniqueUnitType="UNIT_HAG_RUSSIAN_T34"             ReplacesUnitType="UNIT_TANK"/>
-		<Row CivUniqueUnitType="UNIT_HAG_GERMANY_JU87"            ReplacesUnitType="UNIT_BOMBER"/>
-		<Row CivUniqueUnitType="UNIT_HAG_AMERICAN_JAEGER"         ReplacesUnitType="UNIT_RANGER"/>
-		<Row CivUniqueUnitType="UNIT_HAG_HUNS_TARKHAN"            ReplacesUnitType="UNIT_HORSEMAN"/>
-		<Row CivUniqueUnitType="UNIT_HAG_MADAGASCAR_HOVA"         ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_HAG_TIMURID_ARBAN"                 ReplacesUnitType="UNIT_COURSER"/>
+		<Row CivUniqueUnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       ReplacesUnitType="UNIT_ARTILLERY"/>
+		<Row CivUniqueUnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       ReplacesUnitType="UNIT_CAVALRY"/>
+		<Row CivUniqueUnitType="UNIT_HAG_JAPAN_ZERO"                    ReplacesUnitType="UNIT_FIGHTER"/>
+		<Row CivUniqueUnitType="UNIT_HAG_PORTUGAL_NAU"                  ReplacesUnitType="UNIT_CARAVEL"/>
+		<Row CivUniqueUnitType="UNIT_HAG_RUSSIAN_T34"                   ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_HAG_GERMANY_JU87"                  ReplacesUnitType="UNIT_BOMBER"/>
+		<Row CivUniqueUnitType="UNIT_HAG_AMERICAN_JAEGER"               ReplacesUnitType="UNIT_RANGER"/>
+		<Row CivUniqueUnitType="UNIT_HAG_HUNS_TARKHAN"                  ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_HAG_MADAGASCAR_HOVA"               ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" ReplacesUnitType="UNIT_MUSKETMAN"/>
 	</UnitReplaces>
 	<!-- 主設定 -->
 	<Units>
@@ -217,6 +226,13 @@
 			 FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_HAG_GREAT_PIRATES_NAME" Description="LOC_UNIT_HAG_GREAT_PIRATES_DESCRIPTION" 
 			 CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False" 
 			 TraitType="TRAIT_UNIT_HAG_REPUBLIC_OF_PIRATES_GREAT_PIRATES"/>
+		<!-- バッカニア -->
+		<Row UnitType="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" Cost="240" Maintenance="4" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="57" StrategicResource="RESOURCE_IRON"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_NAME" Description="LOC_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_CARTOGRAPHY"
+			 TraitType="TRAIT_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -244,18 +260,21 @@
 		<Row Unit="UNIT_HAG_HUNS_TARKHAN"            UpgradeUnit="UNIT_COURSER"/>
 		<!-- ホヴァ：マスケット兵 -->
 		<Row Unit="UNIT_HAG_MADAGASCAR_HOVA"         UpgradeUnit="UNIT_MUSKETMAN"/>
+		<!-- バッカニア：兵士 -->
+		<Row Unit="UNIT_HAG_MADAGASCAR_HOVA"         UpgradeUnit="UNIT_INFANTRY"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>
-		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"           ResourceCost="10"/>
-		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" ResourceCost="20"/>
-		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" ResourceCost="20"/>
-		<Row UnitType="UNIT_HAG_JAPAN_ZERO"              ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
-		<Row UnitType="UNIT_HAG_RUSSIAN_T34"             ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"      ResourceMaintenanceAmount="1"/>
-		<Row UnitType="UNIT_HAG_GERMANY_JU87"            ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
-		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"       ResourceCost="10"/>
-		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"       ResourceCost="20"/>
-		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"            ResourceCost="20"/>
-		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"         ResourceCost="10"/>
+		<Row UnitType="UNIT_HAG_TIMURID_ARBAN"                 ResourceCost="10"/>
+		<Row UnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       ResourceCost="20"/>
+		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       ResourceCost="20"/>
+		<Row UnitType="UNIT_HAG_JAPAN_ZERO"                    ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAG_RUSSIAN_T34"                   ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"      ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAG_GERMANY_JU87"                  ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI"             ResourceCost="10"/>
+		<Row UnitType="UNIT_HAG_ENGLAND_SWORDFISH"             ResourceCost="20"/>
+		<Row UnitType="UNIT_HAG_HUNS_TARKHAN"                  ResourceCost="20"/>
+		<Row UnitType="UNIT_HAG_MADAGASCAR_HOVA"               ResourceCost="10"/>
+		<Row UnitType="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" ResourceCost="10"/>
 	</Units_XP2>
 </GameData>

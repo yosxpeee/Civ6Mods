@@ -4,7 +4,6 @@
 
 	<!-- NOTE -->
 	<!-- マップ指定のID=DLCやMODのMODID -->
-	<!-- 地球マップは指導者追加のみを行うのでマップファイルの追加なし -->
 
 	<!-- 新しいマップの追加 -->
 	<Maps>
@@ -12,7 +11,7 @@
 		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" Name="LOC_MAP_TSLEAST_ASIA_STANDARD_NAME" Description="LOC_MAP_TSLEAST_ASIA_STANDARD_DESCRIPTION" Image="Map_TrueStartEastAsia" StaticMap="1" RequiresUniqueLeaders="1" SortIndex="620"/>
 		<!-- ヨーロッパマップ：リスボンを削除したもの -->
 		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map"   Name="LOC_TSLEUROPE_NAME"                 Description="LOC_TSLEUROPE_DESCRIPTION"                 Image="Map_TrueStartEurope"   StaticMap="1" RequiresUniqueLeaders="1" SortIndex="1020"/>
-		<!-- 地球マップ：ベイラを追加したもの -->
+		<!-- 地球マップ：ベイラ、シャフリサブスを追加したもの -->
 		<Row Domain="Maps:Expansion2Maps" File="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map"    Name="LOC_TSLEARTH_NAME"                  Description="LOC_TSLEARTH_DESCRIPTION"                  Image="Map_TrueStartEarth"    StaticMap="1" RequiresUniqueLeaders="1" SortIndex="90"/>
 	</Maps>
 	<!-- マップサイズの定義 -->
@@ -86,7 +85,6 @@
 		
 		<!-- 地球(GS) -->
 		<!-- このMODのマップへ追加している(バニラ等すべて追加) -->
-		<!-- バニラ及び個別DLC -->
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="RANDOM"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_ALEXANDER"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_AMANITORE"/>
@@ -158,6 +156,7 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_CHURCHILL"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_ATTILA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_RADAMA_I"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_HAG_EDWARD_TEACH"/>
 	</MapLeaders>
 	<ParameterDependencies>
 		<Row ParameterId="Resources"     ConfigurationGroup="Map" ConfigurationId="MAP_SCRIPT" Operator="NotEquals" ConfigurationValue="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map"/>
@@ -196,5 +195,6 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="3984" Type="LEADER" Value="LEADER_HAG_CHURCHILL"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="3915" Type="LEADER" Value="LEADER_HAG_ATTILA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="1647" Type="LEADER" Value="LEADER_HAG_RADAMA_I"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" Plot="3214" Type="LEADER" Value="LEADER_HAG_EDWARD_TEACH"/>
 	</MapStartPositions>
 </GameData>

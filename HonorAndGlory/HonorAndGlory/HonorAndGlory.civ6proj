@@ -6,8 +6,8 @@
     <Guid>a2e4a823-dfbd-4885-8df0-aa2dd5a49278</Guid>
     <ProjectGuid>3a0eb59d-17ac-41aa-8761-25cbe34be218</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>This mod adds 13 leaders, 8 civilizations and 6 religions.</Teaser>
-    <Description>This mod adds 13 leaders, 8 civilizations and 6 religions.</Description>
+    <Teaser>This mod adds 14 leaders, 9 civilizations and 6 religions.</Teaser>
+    <Description>This mod adds 14 leaders, 9 civilizations and 6 religions.</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -44,6 +44,7 @@
   <Dependency type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
   <Dependency type="Dlc" title="DLC: Vikings Content" id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" />
   <Dependency type="Dlc" title="DLC: Maya and Gran Colombia Pack" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="LOC_BABYLON_MOD_TITLE" id="8424840C-92EF-4426-A9B4-B4E0CB818049" />
 </Associations>]]></AssociationData>
     <Authors>yosxpeee</Authors>
   </PropertyGroup>
@@ -51,6 +52,162 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Animations\barbarian_galley_attacka.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_attacka.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_attackb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_attackb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_bombard_defense.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_bombard_defense.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_bombard_defense_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_bombard_defense_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_bombard_defense_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_bombard_defense_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_combat_ready.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_combat_ready.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_combat_ready_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_combat_ready_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_deatha.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_deatha.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_deatha_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_deatha_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_deathb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_deathb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_deathb_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_deathb_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fidgeta.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fidgeta.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fidgetb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fidgetb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify_idle_fidget.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify_idle_fidget.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify_idle_trans_combat_ready_idle.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify_idle_trans_combat_ready_idle.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify_idle_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_fortify_idle_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_idlea_trans_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_idlea_trans_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_idleb.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_idleb.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_idleb_trans_idlea.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_idleb_trans_idlea.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_stop_run.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_stop_run.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_victory.anm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Animations\barbarian_galley_victory.fgx">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Animations\u_japanese_zero_attack_air.anm">
       <SubType>Content</SubType>
     </Content>
@@ -441,6 +598,9 @@
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Assets\Barbarian_Galley.ast">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Assets\DIS_Feitoria_Ancient_Base_01.ast">
       <SubType>Content</SubType>
     </Content>
@@ -552,6 +712,12 @@
     <Content Include="Assets\U_Portugal_Carrack.ast">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Geometries\barbarian_galley.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\barbarian_galley.geo">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Geometries\DIS_ENC_Ordu.FGX">
       <SubType>Content</SubType>
     </Content>
@@ -634,6 +800,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Maps\TSLEuropeStandard_HAG.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Barbarian_Galley_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\DIS_ENC_Ordu.mtl">
@@ -769,6 +938,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Attila_LoadingInfo_Foreground.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\barbarian_galley_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\barbarian_galley_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\barbarian_galley_diff_t.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\barbarian_galley_diff_t.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\barbarian_galley_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\barbarian_galley_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Black_Gloss.dds">
@@ -1299,6 +1486,66 @@
     <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL80.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES80.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_RYUKYU22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -1357,6 +1604,66 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_RYUKYU80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ30.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ36.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ44.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ48.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIVILIZATION_HAG_SHAHRISABZ80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_TIMURID22.DDS">
@@ -1783,6 +2090,48 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_LEADER_HAG_CHURCHILL80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH45.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH55.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH64.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_LEADER_HAG_EDWARD_TEACH80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_LEADER_HAG_HIDEKI_TOJO256.DDS">
@@ -2563,6 +2912,42 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER22.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER256.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER32.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER38.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER50.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER80.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAG_RUSSIAN_T3422.DDS">

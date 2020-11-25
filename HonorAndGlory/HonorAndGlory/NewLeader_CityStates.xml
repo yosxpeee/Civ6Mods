@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 元のファイルに従うならLeaderとCivilizationに分けて記述するのが筋だが、
 	 差し変わる都市国家はそこまで多くない予定なので色設定以外を1ファイルに集約する -->
+<!-- ※サマルカンドは宗主国ボーナスに固有地形改善があるため、テキストの置き換えで済ませる
+	 (地形改善のほうにTraitが設定されているので、新規に作り直すとUpdate文を書かねばならない。
+	  どうせUpdate文を書くならテキストだけ差し替にすればUpdate文だけになる) -->
 <GameInfo>
 	<!-- 親定義 -->
 	<Types>
@@ -22,16 +25,36 @@
 	<Civilizations>
 		<Row CivilizationType="CIVILIZATION_HAG_RYUKYU" Name="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Description="LOC_CIVILIZATION_HAG_RYUKYU_DESCRIPTION" Adjective="LOC_CIVILIZATION_HAG_RYUKYU_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_BEIRA"  Name="LOC_CIVILIZATION_HAG_BEIRA_NAME"  Description="LOC_CIVILIZATION_HAG_BEIRA_DESCRIPTION"  Adjective="LOC_CIVILIZATION_HAG_BEIRA_ADJECTIVE"  StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_SAMARKAND"/>
+			<Set>
+				<Name>LOC_CIVILIZATION_HAG_SHAHRISABZ_NAME</Name>
+				<Description>LOC_CIVILIZATION_HAG_SHAHRISABZ_DESCRIPTION</Description>
+				<Adjective>LOC_CIVILIZATION_HAG_SHAHRISABZ_ADJECTIVE</Adjective>
+			</Set>
+		</Update>
 	</Civilizations>
 	<!-- リーダー主設定 -->
 	<Leaders>
 		<Row LeaderType="LEADER_MINOR_CIV_HAG_RYUKYU" Name="LOC_CIVILIZATION_HAG_RYUKYU_NAME" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
 		<Row LeaderType="LEADER_MINOR_CIV_HAG_BEIRA"  Name="LOC_CIVILIZATION_HAG_BEIRA_NAME"  InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+		<Update>
+			<Where LeaderType="LEADER_MINOR_CIV_SAMARKAND"/>
+			<Set>
+				<Name>LOC_CIVILIZATION_HAG_SHAHRISABZ_NAME</Name>
+			</Set>
+		</Update>
 	</Leaders>
 	<!-- リーダーと文明の紐づけ、首都 -->
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_HAG_RYUKYU" LeaderType="LEADER_MINOR_CIV_HAG_RYUKYU" CapitalName="LOC_CITY_NAME_HAG_RYUKYU"/>
 		<Row CivilizationType="CIVILIZATION_HAG_BEIRA"  LeaderType="LEADER_MINOR_CIV_HAG_BEIRA"  CapitalName="LOC_CITY_NAME_HAG_BEIRA"/>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_SAMARKAND"/>
+			<Set>
+				<CapitalName>LOC_CITY_NAME_HAG_SHAHRISABZ</CapitalName>
+			</Set>
+		</Update>
 	</CivilizationLeaders>
 	<!-- リーダーの特性(都市国家ボーナス) -->
 	<LeaderTraits>
@@ -41,6 +64,13 @@
 	<Traits>
 		<Row TraitType="MINOR_CIV_HAG_RYUKYU_TRAIT" Name="LOC_LEADER_TRAIT_HAG_RYUKYU_NAME" Description="LOC_LEADER_TRAIT_HAG_RYUKYU_DESCRIPTION"/>
 		<Row TraitType="MINOR_CIV_HAG_BEIRA_TRAIT"  Name="LOC_LEADER_TRAIT_HAG_BEIRA_NAME"  Description="LOC_LEADER_TRAIT_HAG_BEIRA_DESCRIPTION"/>
+		<Update>
+			<Where TraitType="MINOR_CIV_SAMARKAND_TRAIT"/>
+			<Set>
+				<Name>LOC_LEADER_TRAIT_HAG_SHAHRISABZ_NAME</Name>
+				<Description>LOC_LEADER_TRAIT_HAG_SHAHRISABZ_DESCRIPTION</Description>
+			</Set>
+		</Update>
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="MINOR_CIV_HAG_RYUKYU_TRAIT" ModifierId="MINOR_CIV_HAG_RYUKYU_UNIQUE_INFLUENCE_BONUS"/>
@@ -103,10 +133,20 @@
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_HAG_RYUKYU" CityName="LOC_CITY_NAME_HAG_RYUKYU"/>
 		<Row CivilizationType="CIVILIZATION_HAG_BEIRA"  CityName="LOC_CITY_NAME_HAG_BEIRA"/>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_SAMARKAND"/>
+			<Set>
+				<CityName>LOC_CITY_NAME_HAG_SHAHRISABZ</CityName>
+			</Set>
+		</Update>
 	</CityNames>
 	<!-- 開始地点補正 -->
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_HAG_RYUKYU" TerrainType="TERRAIN_COAST" Tier="1"/>
 		<Row CivilizationType="CIVILIZATION_HAG_BEIRA"  TerrainType="TERRAIN_COAST" Tier="1"/>
 	</StartBiasTerrains>
+	<Leaders_XP2>
+		<Row LeaderType="LEADER_MINOR_CIV_HAG_RYUKYU" MinorCivBonusType="MINOR_CIV_BONUS_TRADE"/>
+		<Row LeaderType="CIVILIZATION_HAG_BEIRA"      MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
+	</Leaders_XP2>
 </GameInfo>

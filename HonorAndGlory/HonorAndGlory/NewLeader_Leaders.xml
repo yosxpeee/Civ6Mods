@@ -565,6 +565,7 @@
 		<!-- エドワード・ティーチ -->
 		<!-- 倒した相手の戦闘力の100%ゴールドを得る(ゲームスピード依存)-->
 		<!-- 全海軍ユニットは敵艦を拿捕することがある -->
+		<!-- 空母を除く海軍ユニットで沿岸略奪 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_EDWARD_TEACH</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_EDWARD_TEACH_GOLD_KILLS</ModifierId>
@@ -572,6 +573,10 @@
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_EDWARD_TEACH</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_EDWARD_TEACH_PRIZE_SHIPS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_EDWARD_TEACH</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_EDWARD_TEACH_GRANT_COASTAL_RAID_ABILITY</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<!-- 特性の個別定義 -->
@@ -898,6 +903,12 @@
 			<ModifierId>HAG_EDWARD_TEACH_CAPTURE_PRIZE_SHIPS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_UNIT_CAPTURE</ModifierType>
 			<SubjectRequirementSetId>ATTACKER_OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</SubjectRequirementSetId>
+		</Row>
+		<!-- 海洋近接、遠隔遠隔ユニットで沿岸略奪 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_EDWARD_TEACH_GRANT_COASTAL_RAID_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
 		</Row>
 	</Modifiers>
 	<!-- 特性のパラメータ -->
@@ -1521,6 +1532,12 @@
 			<Name>CanCapture</Name>
 			<Value>true</Value>
 		</Row>
+		<!-- 海洋近接、遠隔遠隔ユニットで沿岸略奪 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_EDWARD_TEACH_GRANT_COASTAL_RAID_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_LEADER_HAG_EDWARD_TEACH_GRANT_COASTAL_RAID_ABILITY</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- 条件 -->
 	<RequirementSets>
@@ -1593,7 +1610,7 @@
 			<RequirementSetId>PLOT_IS_MINE_HANSA_ADJACENT_REQUIREMENTS_LEADER_ADOLF_HITLER</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId><!-- バニラにある -->
 		</Row>
-		<!-- 条件：自軍が海洋ユニットである -->
+		<!-- 条件：自軍が空母を除く海洋ユニットである -->
 		<Row>
 			<RequirementSetId>REQUIREMENTS_UNIT_IS_NAVAL_HAG</RequirementSetId>
 			<RequirementId>UNIT_IS_NAVAL_MELEE_HAG</RequirementId>
@@ -1606,11 +1623,7 @@
 			<RequirementSetId>REQUIREMENTS_UNIT_IS_NAVAL_HAG</RequirementSetId>
 			<RequirementId>UNIT_IS_NAVAL_RAIDER_HAG</RequirementId>
 		</Row>
-		<Row>
-			<RequirementSetId>REQUIREMENTS_UNIT_IS_NAVAL_HAG</RequirementSetId>
-			<RequirementId>UNIT_IS_NAVAL_CARRIER_HAG</RequirementId>
-		</Row>
-		<!-- 条件：攻撃時の相手が海洋ユニットである -->
+		<!-- 条件：攻撃時の相手が空母を除く海洋ユニットである -->
 		<Row>
 			<RequirementSetId>ATTACKER_OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
 			<RequirementId>PLAYER_IS_ATTACKER_REQUIREMENTS</RequirementId><!-- バニラにある -->
@@ -1619,7 +1632,7 @@
 			<RequirementSetId>ATTACKER_OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
 			<RequirementId>OPPONENT_IS_NAVAL_REQUIREMENTS_MET_HAG</RequirementId>
 		</Row>
-		<!-- 攻撃相手が海洋ユニットである -->
+		<!-- 攻撃相手が空母を除く海洋ユニットである -->
 		<Row>
 			<RequirementSetId>OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
 			<RequirementId>OPPONENT_IS_NAVAL_MELEE_REQUIREMENT_HAG</RequirementId>
@@ -1631,10 +1644,6 @@
 		<Row>
 			<RequirementSetId>OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
 			<RequirementId>OPPONENT_IS_NAVAL_RAIDER_REQUIREMENT_HAG</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
-			<RequirementId>OPPONENT_IS_NAVAL_CARRIER_REQUIREMENT_HAG</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
@@ -1664,10 +1673,6 @@
 			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
 		</Row>
 		<Row>
-			<RequirementId>UNIT_IS_NAVAL_CARRIER_HAG</RequirementId>
-			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
-		</Row>
-		<Row>
 			<RequirementId>OPPONENT_IS_NAVAL_REQUIREMENTS_MET_HAG</RequirementId>
 			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
 		</Row>
@@ -1681,10 +1686,6 @@
 		</Row>
 		<Row>
 			<RequirementId>OPPONENT_IS_NAVAL_RAIDER_REQUIREMENT_HAG</RequirementId>
-			<RequirementType>REQUIREMENT_OPPONENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>OPPONENT_IS_NAVAL_CARRIER_REQUIREMENT_HAG</RequirementId>
 			<RequirementType>REQUIREMENT_OPPONENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
@@ -1725,12 +1726,6 @@
 			<Name>UnitPromotionClass</Name>
 			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
 		</Row>
-		<!-- 海洋輸送 -->
-		<Row>
-			<RequirementId>UNIT_IS_NAVAL_CARRIER_HAG</RequirementId>
-			<Name>UnitPromotionClass</Name>
-			<Value>PROMOTION_CLASS_NAVAL_CARRIER</Value>
-		</Row>
 		<!-- 指定のRequirementSets -->
 		<Row>
 			<RequirementId>OPPONENT_IS_NAVAL_REQUIREMENTS_MET_HAG</RequirementId>
@@ -1754,12 +1749,6 @@
 			<RequirementId>OPPONENT_IS_NAVAL_RAIDER_REQUIREMENT_HAG</RequirementId>
 			<Name>UnitPromotionClass</Name>
 			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
-		</Row>
-		<!-- 海洋輸送 -->
-		<Row>
-			<RequirementId>OPPONENT_IS_NAVAL_CARRIER_REQUIREMENT_HAG</RequirementId>
-			<Name>UnitPromotionClass</Name>
-			<Value>PROMOTION_CLASS_NAVAL_CARRIER</Value>
 		</Row>
 	</RequirementArguments>
 	<!-- AIの好み -->
@@ -1838,6 +1827,11 @@
 		<Row ListType="HAGRadamaITech"/>
 		<Row ListType="HAGRadamaIWonders"/>
 		<Row ListType="HAGRadamaIScience"/>
+		<!-- エドワード・ティーチ -->
+		<Row ListType="HAGTeachDistrict"/>
+		<Row ListType="HAGTeachCivics"/>
+		<Row ListType="HAGTeachTech"/>
+		<Row ListType="HAGTeachWonders"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- ナポレオン -->
@@ -1914,6 +1908,11 @@
 		<Row ListType="HAGRadamaITech"            LeaderType="TRAIT_LEADER_HAG_TITO"          System="Technologies"/>
 		<Row ListType="HAGRadamaIWonders"         LeaderType="TRAIT_LEADER_HAG_TITO"          System="Buildings"/>
 		<Row ListType="HAGRadamaIScience"         LeaderType="TRAIT_LEADER_HAG_TITO"          System="Yields"/>
+		<!-- エドワード・ティーチ -->
+		<Row ListType="HAGTeachDistrict"          LeaderType="LEADER_HAG_EDWARD_TEACH"        System="Districts"/>
+		<Row ListType="HAGTeachCivics"            LeaderType="LEADER_HAG_EDWARD_TEACH"        System="Civics"/>
+		<Row ListType="HAGTeachTech"              LeaderType="LEADER_HAG_EDWARD_TEACH"        System="Technologies"/>
+		<Row ListType="HAGTeachWonders"           LeaderType="LEADER_HAG_EDWARD_TEACH"        System="Buildings"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- ナポレオン -->
@@ -2094,6 +2093,20 @@
 		<Row ListType="HAGRadamaIWonders"         Item="BUILDING_OXFORD_UNIVERSITY"     Favored="true"/><!-- オックスフォード大学 -->
 		<Row ListType="HAGRadamaIWonders"         Item="BUILDING_RUHR_VALLEY"           Favored="true"/><!-- ルール地方 -->
 		<Row ListType="HAGRadamaIScience"         Item="YIELD_SCIENCE"                  Value="15"/>
+		<!-- エドワード・ティーチ -->
+		<Row ListType="HAGTeachDistrict"          Item="DISTRICT_HARBOR"                Favored="true"/><!-- 港 -->
+		<Row ListType="HAGTeachCivics"            Item="CIVIC_POLITICAL_PHILOSOPHY"     Favored="true"/><!-- 政治哲学 -->
+		<Row ListType="HAGTeachCivics"            Item="CIVIC_DIVINE_RIGHT"             Favored="true"/><!-- 王権神授説 -->
+		<Row ListType="HAGTeachCivics"            Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
+		<Row ListType="HAGTeachCivics"            Item="CIVIC_MERCANTILISM"             Favored="true"/><!-- 重商主義 -->
+		<Row ListType="HAGTeachTech"              Item="TECH_SHIPBUILDING"              Favored="true"/><!-- 筆記 -->
+		<Row ListType="HAGTeachTech"              Item="TECH_CELESTIAL_NAVIGATION"      Favored="true"/><!-- 天文航法 -->
+		<Row ListType="HAGTeachTech"              Item="TECH_CARTOGRAPHY"               Favored="true"/><!-- 地図製作法 -->
+		<Row ListType="HAGTeachTech"              Item="TECH_SQUARE_RIGGING"            Favored="true"/><!-- 横帆船 -->
+		<Row ListType="HAGTeachWonders"           Item="BUILDING_GREAT_LIBRARY"         Favored="true"/><!-- ファロス灯台 -->
+		<Row ListType="HAGTeachWonders"           Item="BUILDING_COLOSSUS"              Favored="true"/><!-- ロードス島の巨神像 -->
+		<Row ListType="HAGTeachWonders"           Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
+		<Row ListType="HAGTeachWonders"           Item="BUILDING_VENETIAN_ARSENAL"      Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>

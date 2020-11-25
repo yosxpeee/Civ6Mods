@@ -90,6 +90,17 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MADAGASCAR256.dds"/>
+		<!-- マダガスカル -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES256.dds"/>
 		
 		<!-- 指導者 -->
 		<!-- ナポレオン -->
@@ -196,6 +207,14 @@
 		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I64.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I80.dds"/>
 		<Row Name="ICON_ATLAS_LEADER_HAG_RADAMA_I" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_RADAMA_I256.dds"/>
+		<!-- エドワード・ティーチ -->
+		<Row Name="ICON_ATLAS_LEADER_HAG_EDWARD_TEACH" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_EDWARD_TEACH32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_EDWARD_TEACH" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_EDWARD_TEACH45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_EDWARD_TEACH" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_EDWARD_TEACH50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_EDWARD_TEACH" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_EDWARD_TEACH55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_EDWARD_TEACH" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_EDWARD_TEACH64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_EDWARD_TEACH" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_EDWARD_TEACH80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_HAG_EDWARD_TEACH" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_HAG_EDWARD_TEACH256.dds"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
@@ -220,9 +239,21 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_BEIRA" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_BEIRA256.dds"/>
+		<!-- シャフリサブス -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_SHAHRISABZ256.dds"/>
 		
 		<!-- ユニット -->
 		<!-- ※なぜか拡張パックのアイコン定義を読んでくれないのでここに展開 -->
+		<!-- RaF -->
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="22"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units22.dds"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="32"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units32.dds"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_UNITS" IconSize="38"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units38.dds"/>
@@ -264,7 +295,41 @@
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP1_UnitPortraits95med"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits200med"/>
 		<Row Name="ICON_HAG_ATLAS_EXPANSION_1_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_UnitPortraits256med"/>
+		<!-- GS -->
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNITS" IconSize="22" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_Units22.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNITS" IconSize="32" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_Units32.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_Units38.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_Units50.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNITS" IconSize="80" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_Units80.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_Units256.dds"/>
+		
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNIT_PORTRAITS" IconSize="38" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits38.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNIT_PORTRAITS" IconSize="50" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits50.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits70.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits95.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits200.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits256.dds"/>
 
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_AFRICAN_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits70afr.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_AFRICAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits95afr.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_AFRICAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits200afr.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_AFRICAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits256afr.dds"/>
+
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_ASIAN_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits70asi.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_ASIAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits95asi.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_ASIAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits200asi.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_ASIAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits256asi.dds"/>
+
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits70sou.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits95sou.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits200sou.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_SOUTH_AMERICAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits256sou.dds"/>
+
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="70" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits70med.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="95" IconsPerRow="4" IconsPerColumn="1"  Filename="XP2_UnitPortraits95med.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="200" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits200med.dds"/>
+		<Row Name="ICON_HAG_ATLAS_EXPANSION_2_MEDITERRANEAN_UNIT_PORTRAITS" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP2_UnitPortraits256med.dds"/>
+		
 		<!-- アルバン -->
 		<Row Name="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_TIMURID_ARBAN22.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_TIMURID_ARBAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_TIMURID_ARBAN32.dds"/>
@@ -356,7 +421,14 @@
 		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_GREAT_PIRATES256.dds"/>
-
+		<!-- バッカニア -->
+		<Row Name="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER22.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER32.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER38.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER50.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER80.dds"/>
+		<Row Name="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER256.dds"/>
+		
 		<!-- UI -->
 		<!-- カスバ -->
 		<Row Name="ICON_ATLAS_IMPROVEMENT_HAG_CASBAH" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_IMPROVEMENT_HAG_CASBAH38.dds"/>
@@ -429,23 +501,23 @@
 		<!-- 文明 -->
 		<!-- Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"-->
 		<!-- ティムール朝 -->
-		<Row Name="ICON_CIVILIZATION_HAG_TIMURID"             Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID"    Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_TIMURID"             Atlas="ICON_ATLAS_CIVILIZATION_HAG_TIMURID"             Index="0"/>
 		<!-- ユーゴスラビア -->
-		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA"          Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA"          Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA"          Index="0"/>
 		<!-- モロッコ王国 -->
-		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO"             Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO"    Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO"             Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO"             Index="0"/>
 		<!-- ポルトガル帝国 -->
-		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL"            Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL"   Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL"            Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL"            Index="0"/>
 		<!-- イタリア -->
-		<Row Name="ICON_CIVILIZATION_HAG_ITALY"               Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY"      Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_ITALY"               Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY"               Index="0"/>
 		<!-- ソ連 -->
-		<Row Name="ICON_CIVILIZATION_HAG_USSR"                Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR"       Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_USSR"                Atlas="ICON_ATLAS_CIVILIZATION_HAG_USSR"                Index="0"/>
 		<!-- フン族 -->
-		<Row Name="ICON_CIVILIZATION_HAG_HUNS"                Atlas="ICON_ATLAS_CIVILIZATION_HAG_HUNS"       Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_HUNS"                Atlas="ICON_ATLAS_CIVILIZATION_HAG_HUNS"                Index="0"/>
 		<!-- マダガスカル -->
-		<Row Name="ICON_CIVILIZATION_HAG_MADAGASCAR"          Atlas="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_MADAGASCAR"          Atlas="ICON_ATLAS_CIVILIZATION_HAG_MADAGASCAR"          Index="0"/>
 		<!-- 海賊共和国 -->
-		<Row Name="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" Atlas="ICON_ATLAS_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" Index="0"/>
 		
 		<!-- 指導者 -->
 		<!--Atlas="ICON_ATLAS_LEADERS" Index="0"-->
@@ -476,13 +548,21 @@
 		<!-- ラダマ1世 -->
 		<Row Name="ICON_LEADER_HAG_RADAMA_I" Atlas="ICON_ATLAS_LEADER_HAG_RADAMA_I" Index="0"/>
 		<!-- エドワード・ティーチ -->
-		<Row Name="ICON_LEADER_HAG_EDWARD_TEACH" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<Row Name="ICON_LEADER_HAG_EDWARD_TEACH" Atlas="ICON_ATLAS_LEADER_HAG_EDWARD_TEACH" Index="0"/>
 		
 		<!-- 都市国家 -->
 		<!-- 琉球 -->
-	    <Row Name="ICON_CIVILIZATION_HAG_RYUKYU" Atlas="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU" Index="0"/>
+	    <Row Name="ICON_CIVILIZATION_HAG_RYUKYU"     Atlas="ICON_ATLAS_CIVILIZATION_HAG_RYUKYU"     Index="0"/>
 		<!-- ベイラ -->
-		<Row Name="ICON_CIVILIZATION_HAG_BEIRA"  Atlas="ICON_ATLAS_CIVILIZATION_HAG_BEIRA"  Index="0"/>
+		<Row Name="ICON_CIVILIZATION_HAG_BEIRA"      Atlas="ICON_ATLAS_CIVILIZATION_HAG_BEIRA"      Index="0"/>
+		<!-- シャフリサブス -->
+		<Update>
+			<Where Name="ICON_CIVILIZATION_SAMARKAND"/>
+			<Set>
+				<Atlas>ICON_ATLAS_CIVILIZATION_HAG_SHAHRISABZ</Atlas>
+				<Index>0</Index>
+			</Set>
+		</Update>
 
 		<!-- UU -->
 		<!-- アルバン(ポートレイトはケシクの使いまわし) -->
@@ -545,7 +625,7 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="12"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="12"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_RUSSIAN_T34_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="12"/>
-		<!-- Ju87(爆撃機の使いまわし) -->
+		<!-- Ju87(ポートレイトは爆撃機の使いまわし) -->
 		<Row Name="ICON_UNIT_HAG_GERMANY_JU87"                                   Atlas="ICON_ATLAS_UNIT_HAG_GERMANY_JU87"           Index="0"/>
 		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_GERMANY_JU87"           Index="0"/>
 		<Row Name="ICON_UNIT_HAG_GERMANY_JU87_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAG_GERMANY_JU87"           Index="0"/>
@@ -605,7 +685,6 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="36"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="36"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_MADAGASCAR_HOVA_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="36"/>
-		<!-- UU -->
 		<!-- 大海賊(ポートレイトはキャラベルの使いまわし) -->
 		<Row Name="ICON_UNIT_HAG_GREAT_PIRATES"                            Atlas="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES"        Index="0"/>
 		<Row Name="ICON_UNIT_HAG_GREAT_PIRATES_FOW"                        Atlas="ICON_ATLAS_UNIT_HAG_GREAT_PIRATES"        Index="0"/>
@@ -616,7 +695,17 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HAG_GREAT_PIRATES_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="53"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HAG_GREAT_PIRATES_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="53"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_GREAT_PIRATES_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="53"/>
-
+		<!-- バッカニア(ポートレイトはトアの使いまわし) -->
+		<Row Name="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"                            Atlas="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER"         Index="0"/>
+		<Row Name="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_FOW"                        Atlas="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER"         Index="0"/>
+		<Row Name="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_WHITE"                      Atlas="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER"         Index="0"/>
+		<Row Name="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_BLACK"                      Atlas="ICON_ATLAS_UNIT_HAG_EPUBLIC_OF_PIRATES_BUCCANEER"         Index="0"/>
+		<Row Name="ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_PORTRAIT"                   Atlas="ICON_HAG_ATLAS_EXPANSION_2_UNIT_PORTRAITS"                Index="6"/>
+		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_PORTRAIT"   Atlas="ICON_HAG_ATLAS_EXPANSION_2_ASIAN_UNIT_PORTRAITS"          Index="6"/>
+		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_PORTRAIT"   Atlas="ICON_HAG_ATLAS_EXPANSION_2_MEDITERRANEAN_UNIT_PORTRAITS"  Index="6"/>
+		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_PORTRAIT" Atlas="ICON_HAG_ATLAS_EXPANSION_2_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="6"/>
+		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_PORTRAIT" Atlas="ICON_HAG_ATLAS_EXPANSION_2_AFRICAN_UNIT_PORTRAITS"        Index="6"/>
+		
 		<!-- UB -->
 		<!-- 天文台(マドラサの使いまわし) -->
 		<Row Name="ICON_BUILDING_HAG_TIMURID_OBSERVATORY" Atlas="ICON_ATLAS_BUILDINGS"     Index="19"/>

@@ -440,31 +440,31 @@
 		</Row>
 		<!-- 海賊共和国 -->
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_1" Language="ja_JP">
-			<Text>ダリー</Text>
+			<Text>ジョセファ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_2" Language="ja_JP">
-			<Text>タンテリ</Text>
+			<Text>サムエラ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_3" Language="ja_JP">
-			<Text>ラフヒ</Text>
+			<Text>オセア</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_4" Language="ja_JP">
-			<Text>ラマヴ</Text>
+			<Text>ディネッシュ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_1" Language="ja_JP">
-			<Text>モンジャ</Text>
+			<Text>カブー</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_2" Language="ja_JP">
-			<Text>アンドリー</Text>
+			<Text>シシリア</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_3" Language="ja_JP">
-			<Text>マーク</Text>
+			<Text>カリン</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_4" Language="ja_JP">
-			<Text>バッジオ</Text>
+			<Text>ナリーニ</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_5" Language="ja_JP">
-			<Text>アニセト</Text>
+			<Text>レイラニ</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -1507,7 +1507,7 @@
 			<Text>ローディング中の紹介文</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_ATTILA_DOM_TEXT" Language="ja_JP">
-			<Text>ローディング中の紹介文</Text>
+			<Text>神の災いアッティラよ！貴方の通った後には、幾多の部族が続くだろう。都市を襲い、富を奪い、さらなる大軍勢を築き上げるのだ。さすれば、巨人のごとき大帝国を打ち倒すことも、決して夢物語ではない。</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HAG_RADAMA_I_DOM_TEXT" Language="ja_JP">
 			<Text>ローディング中の紹介文</Text>
@@ -1570,8 +1570,8 @@
 		<Row Tag="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Language="ja_JP">
 			<Text>特性「海こそが我が水田の境なり」により戦闘力+5。</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_LEADER_HAG_EDWARD_TEACH_PRIZE_SHIPS_DESCRIPTION" Language="ja_JP">
-			<Text>倒した敵海軍の船を拿捕することができる。</Text>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_EDWARD_TEACH_GRANT_COASTAL_RAID_ABILITY_DESCRIPTION" Language="ja_JP">
+			<Text>沿岸地域の建造物と施設を略奪し、民間人ユニットを捕獲できる。</Text>
 		</Row>
 		
 		<!-- 隣接ボーナス効果 -->

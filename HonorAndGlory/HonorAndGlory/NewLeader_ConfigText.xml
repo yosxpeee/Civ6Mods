@@ -284,7 +284,7 @@
 			<Text>Queen Anne's Revenge</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_DESCRIPTION" Language="en_US">
-			<Text>All naval units has a chance to capture defeated enemy ships. Combat victories provide [ICON_Gold] Gold  equal to 100% of the [ICON_Strength] Combat Strength of the defeated unit.(on Standard Speed)</Text>
+			<Text>All Navy units except aircraft carriers have coastal plunder capabilities and may capture enemy Navy units except aircraft carriers. Combat victories provide [ICON_Gold] Gold  equal to 100% of the [ICON_Strength] Combat Strength of the defeated unit.(on Standard Speed)</Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->
@@ -454,6 +454,19 @@
 			<Text>Republic of Pirates unique unit: Great Pirates</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GREAT_PIRATES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- UU(バッカニア) -->
+		<Row Tag="LOC_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_NAME" Language="en_US">
+			<Text>Buccaneer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_DESCRIPTION" Language="en_US">
+			<Text>Republic of Pirates unique Renaissance era melee unit. Replace the Musketman. +2 [ICON_Strength] Strength. +5 [ICON_Strength] Combat Strength when fighting a wounded opponent. Use [ICON_RESOURCE_IRON] Iron.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_NAME" Language="en_US">
+			<Text>Republic of Pirates unique unit: Buccaneer</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		
@@ -678,6 +691,49 @@
 			<Text>Beira</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_BEIRA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- シャフリサブス -->
+		<Row Tag="LOC_CIVILIZATION_HAG_SHAHRISABZ_NAME" Language="en_US">
+			<Text>Shahrisabz</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_SHAHRISABZ_DESCRIPTION" Language="en_US">
+			<Text>Shahrisabz city-state</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_SHAHRISABZ_ADJECTIVE" Language="en_US">
+			<Text>Shahrisabz</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_SHAHRISABZ_NAME" Language="en_US">
+			<Text>Shahrisabz Suzerain Bonus</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_SHAHRISABZ_DESCRIPTION" Language="en_US">
+			<Text>Your Builders can now make Trading Dome improvements.[NEWLINE][NEWLINE]+2 [ICON_GOLD] Gold. +1 [ICON_Gold] Gold for every adjacent Luxury resource. Your outgoing international [ICON_TradeRoute] Trade Routes grant +1 [ICON_GOLD] Gold per Trading Dome at the origin. Cannot be built next to another Trading Dome.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SHAHRISABZ_1" Language="en_US">
+			<Text>Shahrisabz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SHAHRISABZ" Language="en_US">
+			<Text>Shahrisabz</Text>
+		</Row>
+		<Delete>
+			<Tag>LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_1</Tag>
+			<Language>en_US</Language>
+		</Delete>
+		<Delete>
+			<Tag>LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_2</Tag>
+			<Language>en_US</Language>
+		</Delete>
+		<Delete>
+			<Tag>LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_3</Tag>
+			<Language>en_US</Language>
+		</Delete>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_3" Language="en_US">
 			<Text></Text>
 		</Row>
 	</LocalizedText>

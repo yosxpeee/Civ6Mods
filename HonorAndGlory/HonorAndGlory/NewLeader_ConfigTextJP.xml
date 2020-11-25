@@ -284,7 +284,7 @@
 			<Text>アン女王の復讐</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_EDWARD_TEACH_DESCRIPTION" Language="ja_JP">
-			<Text>全ての海軍ユニットは敵の船を拿捕できる可能性がある。戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の100%に等しい [ICON_Gold] ゴールドを得る。(標準のスピードで)</Text>
+			<Text>空母を除くすべての海軍のユニットは沿岸略奪能力を持ち、空母を除く敵海軍のユニットを拿捕する可能性がある。戦闘に勝利すると、倒したユニットの [ICON_Strength] 戦闘力の100%に等しい [ICON_Gold] ゴールドを得る。(標準のスピードで)</Text>
 		</Row>
 		
 		<!-- UU(アルバン) -->
@@ -455,6 +455,19 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_GREAT_PIRATES_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>16世紀から1830年代あたりまでに名をはせた海賊たちのこと。海賊が最も成果を上げた時代は1660年代から1730年代だった。カリブ海にはジャマイカのポート・ロイヤル、ハイチのトルトゥーガ島、バハマのナッソーなど海賊が利用できる海港があったので海賊が栄えた。</Text>
+		</Row>
+		<!-- UU(バッカニア) -->
+		<Row Tag="LOC_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_NAME" Language="ja_JP">
+			<Text>バッカニア</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_DESCRIPTION" Language="ja_JP">
+			<Text>海賊共和国固有のルネサンス時代の近接ユニット。マスケット兵に取って代わる。[ICON_Strength] 戦闘力+2。ダメージを負っている敵に対する [ICON_Strength] 戦闘力+5。生産に [ICON_RESOURCE_IRON] 鉄が必要。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_NAME" Language="ja_JP">
+			<Text>海賊共和国固有のユニット: バッカニア</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>1630年から、1680年にかけカリブ海で活動した海賊たちを指す。当初のバッカニアは「スペイン当局」から土地を奪われた開拓者であり、白人開拓者によって拾われた。「バッカニアー」という言葉はフランス語の「ブーカネ」（boucaner）から来ており、たき火の上で野生牛の保存肉を「煙で燻す」という意味だった。彼等はその技術が生きているうちに海賊に伝達した。スペイン以外の植民地から部分的な支援を得て活動し、18世紀まで合法であるか、一部合法であり、あらゆる国から不定期な特赦もあった。大半の場合、スペインが所有する船舶を襲い、開拓地を略奪した。</Text>
 		</Row>
 		
 		<!-- UB(天文台) -->
@@ -638,7 +651,7 @@
 			<Text>琉球都市国家</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_RYUKYU_ADJECTIVE" Language="ja_JP">
-			<Text>琉球</Text>
+			<Text>琉球の</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_TRAIT_HAG_RYUKYU_NAME" Language="ja_JP">
 			<Text>宗主国ボーナス 琉球</Text>
@@ -663,7 +676,7 @@
 			<Text>ベイラ都市国家</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_BEIRA_ADJECTIVE" Language="ja_JP">
-			<Text>ベイラ</Text>
+			<Text>ベイラの</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_TRAIT_HAG_BEIRA_NAME" Language="ja_JP">
 			<Text>宗主国ボーナス ベイラ</Text>
@@ -679,6 +692,49 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_HAG_BEIRA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>モザンビーク第二の港湾都市。1891年にポルトガルのモザンビーク会社の所在地として建設された。ポルトガル系モザンビーク人でノイシュタット国際文学賞受賞作家であるミア・コウトの出身地。</Text>
+		</Row>
+		<!-- シャフリサブス -->
+		<Row Tag="LOC_CIVILIZATION_HAG_SHAHRISABZ_NAME" Language="ja_JP">
+			<Text>シャフリサブス</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_SHAHRISABZ_DESCRIPTION" Language="ja_JP">
+			<Text>シャフリサブス都市国家</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HAG_SHAHRISABZ_ADJECTIVE" Language="ja_JP">
+			<Text>シャフリサブスの</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_SHAHRISABZ_NAME" Language="ja_JP">
+			<Text>宗主国ボーナス シャフリサブス</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TRAIT_HAG_SHAHRISABZ_DESCRIPTION" Language="ja_JP">
+			<Text>労働者が交易ドームを建設できるようになる。[NEWLINE][NEWLINE][ICON_GOLD] ゴールド+2。隣接する高級資源ごとに [ICON_Gold] ゴールド+1。起点都市にある交易ドームごとに、他文明に向かう [ICON_TradeRoute] 交易路からの [ICON_GOLD] ゴールド+1。別の交易ドームの隣に築くことはできない。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SHAHRISABZ_1" Language="ja_JP">
+			<Text>シャフリサブス</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_SHAHRISABZ" Language="ja_JP">
+			<Text>シャフリサブス</Text>
+		</Row>
+		<Delete>
+			<Tag>LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_1</Tag>
+			<Language>ja_JP</Language>
+		</Delete>
+		<Delete>
+			<Tag>LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_2</Tag>
+			<Language>ja_JP</Language>
+		</Delete>
+		<Delete>
+			<Tag>LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_3</Tag>
+			<Language>ja_JP</Language>
+		</Delete>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>もともとは「心休まる場所」という意味のケシュ、キシュ (Kesh) という名前で知られていた町であり、古代のシャフリサブスは、中央アジアの都市の中でも最古の歴史を持つ。アレクサンドロス3世の攻撃を受けたアケメネス朝は、この地で終焉を迎えた。アレクサンドロスは将軍プトレマイオスをバクトリア地方のサトラップに任じ、紀元前328年から327年の冬にかけて、アレクサンドロスはシャフリサブスに滞在して妻ロクサネ（ロザンナ、ロクサナ）を娶った。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>現在の町の名であるシャフリサブスの呼称が最初に確認されるのは、1351年にチャガタイ・ハン国で鋳造された銀貨である。そして14世紀末、ティムール朝の時代にシャフリサブスは歴史の表舞台に再び現れる。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CITYSTATES_PAGE_CIVILIZATION_SAMARKAND_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>ティムール朝の建国者であるティムールは、1336年4月9日にシャフリサブス近郊の村で誕生した。1379年にティムールが征服したホラズム地方の学者、職人たちは家族ごとシャフリサブスに移住させられ、1381年にティムールが征服したクルト朝の首都ヘラートの住民と城門がシャフリサブスに移される。シャフリサブスは中央アジアの文化都市に発展し、「クッバトゥル・イリム・ワル・アダブ（学問と道徳のドーム）」の称号が冠せられた。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

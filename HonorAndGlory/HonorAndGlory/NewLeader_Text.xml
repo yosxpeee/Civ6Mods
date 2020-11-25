@@ -443,31 +443,31 @@
 		</Row>
 		<!-- 海賊共和国 -->
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_1" Language="en_US">
-			<Text>Dally</Text>
+			<Text>Josefa</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_2" Language="en_US">
-			<Text>Tantely</Text>
+			<Text>Samuela</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_3" Language="en_US">
-			<Text>Rafohy</Text>
+			<Text>Osea</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_MALE_4" Language="en_US">
-			<Text>Ramavo</Text>
+			<Text>Dinesh</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_1" Language="en_US">
-			<Text>Monja</Text>
+			<Text>Kavu</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_2" Language="en_US">
-			<Text>Andry</Text>
+			<Text>Sisilia</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_3" Language="en_US">
-			<Text>Marc</Text>
+			<Text>Karyn</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_4" Language="en_US">
-			<Text>Baggio</Text>
+			<Text>Nalini</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_REPUBLIC_OF_PIRATES_FEMALE_5" Language="en_US">
-			<Text>Anicet</Text>
+			<Text>Leilani</Text>
 		</Row>
 		
 		<!-- Civilization City Names-->
@@ -1573,8 +1573,8 @@
 		<Row Tag="LOC_PROMOTION_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength bonus from "The sea is the border of my rice field" trait.</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_LEADER_HAG_EDWARD_TEACH_PRIZE_SHIPS_DESCRIPTION" Language="en_US">
-			<Text>Can capture defeated enemy naval vessels.</Text>
+		<Row Tag="LOC_ABILITY_LEADER_HAG_EDWARD_TEACH_GRANT_COASTAL_RAID_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>Can pillage buildings and improvements and capture civilian units on coastal lands.</Text>
 		</Row>
 		
 		<!-- 隣接ボーナス効果 -->
