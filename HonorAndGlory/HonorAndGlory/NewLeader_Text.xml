@@ -1863,7 +1863,19 @@
 		<Row Tag="LOC_NAMED_HAG_RIVER_MAHARIVO_RIVER_NAME" Language="en_US">
 			<Text>Maharivo River</Text>
 		</Row>
-
+		<Row Tag="LOC_NAMED_HAG_RIVER_FRESH_RIVER_NAME" Language="en_US">
+			<Text>Fresh River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_STAFFORD_RIVER_NAME" Language="en_US">
+			<Text>Stafford River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_LITTLE_RIVER_NAME" Language="en_US">
+			<Text>Little River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_RIVER_GRASSY_RIVER_NAME" Language="en_US">
+			<Text>Grassy River</Text>
+		</Row>
+		
 		<!-- 火山 -->
 		<!-- 山・山脈 -->
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_KHAZRET_SULTAN_NAME" Language="en_US">
@@ -1898,6 +1910,12 @@
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_MAROMOKOTRO_NAME" Language="en_US">
 			<Text>Mount Maromokotro</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_LA_SELLE_NAME" Language="en_US">
+			<Text>Pic La Selle</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_MOUNTAIN_DUARTE_NAME" Language="en_US">
+			<Text>Picp Duarte</Text>
 		</Row>
 		
 		<!-- 湖 -->
@@ -1942,6 +1960,15 @@
 		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_ALAOTRA_LAKE_NAME" Language="en_US">
 			<Text>Alaotra Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_FORSYTH_LAKE_NAME" Language="en_US">
+			<Text>Forsyth Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_KILLARNEY_LAKE_NAME" Language="en_US">
+			<Text>Killarney Lake</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_HAG_LAKE_CUNNINGHAM_LAKE_NAME" Language="en_US">
+			<Text>Cunningham Lake</Text>
 		</Row>
 		
 		<!-- プロジェクト -->
@@ -2106,6 +2133,19 @@
 		</Row>
 		<Row Tag="LOC_DIPLO_MODIFIER_HAG_NY_TRANOVOLA_LOW_SCIENCE" Language="en_US">
 			<Text>Radama I is disappointed that you ignore Science</Text>
+		</Row>
+		<!-- 黒髭(エドワード・ティーチ) -->
+		<Row Tag="LOC_AGENDA_HAG_BLACKBEARD_NAME" Language="en_US">
+			<Text>Blackbeard</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_HAG_BLACKBEARD_DESCRIPTION" Language="en_US">
+			<Text>Wants to settle coastal cities. Likes those who settle inland. Dislikes those with mostly coastal cities.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_BLACKBEARD_HIGH_COASTAL_CITIES" Language="en_US">
+			<Text>Edward Teach is displeased because you have many coastal cities</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_HAG_BLACKBEARD_LOW_COASTAL_CITIES" Language="en_US">
+			<Text>Edward Teach is pleased you have few coastal cities</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

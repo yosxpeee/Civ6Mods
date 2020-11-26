@@ -15,6 +15,7 @@
 		<Row Type="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_HAG_NY_TRANOVOLA"          Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HAG_BLACKBEARD"            Kind="KIND_TRAIT"/>
 	</Types>
 	<PlotEvalConditions>
 	</PlotEvalConditions>
@@ -42,6 +43,7 @@
 		<Row ListType="HAGAtlanticCharterDiscussions"/>
 		<Row ListType="HAGTheRulerOfTheHunsDiscussions"/>
 		<Row ListType="HAGNyTranovolaDiscussions"/>
+		<Row ListType="HAGBlackbeardDiscussions"/>
 	</AiListTypes>
 	<AiLists>
 		<Row ListType="HAGHundredDaysDiplomacy"                 AgendaType="TRAIT_AGENDA_HAG_HUNDRED_DAYS"          System="DiplomaticActions"/>
@@ -66,6 +68,7 @@
 		<Row ListType="HAGAtlanticCharterDiscussions"           AgendaType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      System="Discussions"/>
 		<Row ListType="HAGTheRulerOfTheHunsDiscussions"         AgendaType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" System="Discussions"/>
 		<Row ListType="HAGNyTranovolaDiscussions"               AgendaType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"          System="Discussions"/>
+		<Row ListType="HAGBlackbeardDiscussions"                AgendaType="TRAIT_AGENDA_HAG_BLACKBEARD"            System="Discussions"/>
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="HAGHundredDaysDiplomacy"                 Item="DIPLOACTION_MAKE_PEACE" Favored="false"/>
@@ -101,6 +104,7 @@
 		<Row ListType="HAGAtlanticCharterDiscussions"           Item="WC_EMERGENCY_BACKSTAB" Favored="true"/>
 		<Row ListType="HAGTheRulerOfTheHunsDiscussions"         Item="WC_EMERGENCY_MILITARY" Favored="false"/>
 		<Row ListType="HAGNyTranovolaDiscussions"               Item="WC_EMERGENCY_SPACE_STATION" Favored="true"/>
+		<Row ListType="HAGBlackbeardDiscussions"                Item="WC_EMERGENCY_CLIMATE_ACCORDS" Favored="true"/>
 	</AiFavoredItems>
 	<TriggeredBehaviorTrees>
 	</TriggeredBehaviorTrees>
@@ -119,6 +123,7 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BLACKBEARD"/>
 	</Traits>
 	<!-- アジェンダの名前と説明 -->
 	<Agendas>
@@ -135,6 +140,7 @@
 		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"      Name="LOC_AGENDA_HAG_ATLANTIC_CHARTER_NAME"      Description="LOC_AGENDA_HAG_ATLANTIC_CHARTER_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS" Name="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_NAME" Description="LOC_AGENDA_HAG_THE_RULER_OF_THE_HUNS_DESCRIPTION"/>
 		<Row AgendaType="AGENDA_HAG_NY_TRANOVOLA"          Name="LOC_AGENDA_HAG_NY_TRANOVOLA_NAME"          Description="LOC_AGENDA_HAG_NY_TRANOVOLA_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HAG_BLACKBEARD"            Name="LOC_AGENDA_HAG_BLACKBEARD_NAME"            Description="LOC_AGENDA_HAG_BLACKBEARD_DESCRIPTION"/>
 	</Agendas>
 	<RandomAgendas>
 	</RandomAgendas>
@@ -181,7 +187,8 @@
 		<Row AgendaType="AGENDA_HAG_TRUMAN_DOCTRINE"       TraitType="TRAIT_AGENDA_HAG_TRUMAN_DOCTRINE"/>
 		<Row AgendaType="AGENDA_HAG_ATLANTIC_CHARTER"      TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"/>
 		<Row AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS" TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
-		<Row AgendaType="AGENDA_HAG_NY_TRANOVOLA" TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"/>
+		<Row AgendaType="AGENDA_HAG_NY_TRANOVOLA"          TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"/>
+		<Row AgendaType="AGENDA_HAG_BLACKBEARD"            TraitType="TRAIT_AGENDA_HAG_BLACKBEARD"/>
 	</AgendaTraits>
 	<!-- Traitに紐づく効果 -->
 	<TraitModifiers>
@@ -203,9 +210,10 @@
 		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_FRIEND"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_ATLANTIC_CHARTER"      ModifierId="AGENDA_HAG_ATLANTIC_CHARTER_DENOUNCED_FRIEND"/>
 		<Row TraitType="TRAIT_AGENDA_HAG_THE_RULER_OF_THE_HUNS" ModifierId="AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA" ModifierId="AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE"/>
-		<Row TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA" ModifierId="AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE"/>
-
+		<Row TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"          ModifierId="AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_NY_TRANOVOLA"          ModifierId="AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BLACKBEARD"            ModifierId="AGENDA_HAG_BLACKBEARD_LOW_COASTAL_CITIES"/>
+		<Row TraitType="TRAIT_AGENDA_HAG_BLACKBEARD"            ModifierId="AGENDA_HAG_BLACKBEARD_HIGH_COASTAL_CITIES"/>
 	</TraitModifiers>
 	<!-- ここからアジェンダの効果詳細 -->
 	<Modifiers>
@@ -337,7 +345,18 @@
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_HAS_LOW_SCIENCE</SubjectRequirementSetId>
 		</Row>
-
+		<!-- 沿岸都市が少ない -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKBEARD_LOW_COASTAL_CITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_COASTAL_CITIES</SubjectRequirementSetId>
+		</Row>
+		<!-- 沿岸都市が多い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKBEARD_HIGH_COASTAL_CITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_COASTAL_CITIES</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 戦争の状態 -->
@@ -761,27 +780,61 @@
 			<Name>SimpleModifierDescription</Name>
 			<Value>LOC_DIPLO_MODIFIER_HAG_NY_TRANOVOLA_LOW_SCIENCE</Value>
 		</Row>
+		<!-- 沿岸都市が少ない -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKBEARD_LOW_COASTAL_CITIES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKBEARD_LOW_COASTAL_CITIES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_DIDO_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKBEARD_LOW_COASTAL_CITIES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_BLACKBEARD_LOW_COASTAL_CITIES</Value>
+		</Row>
+		<!-- 沿岸都市が多い -->
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKBEARD_HIGH_COASTAL_CITIES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKBEARD_HIGH_COASTAL_CITIES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_DIDO_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HAG_BLACKBEARD_HIGH_COASTAL_CITIES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_HAG_BLACKBEARD_HIGH_COASTAL_CITIES</Value>
+		</Row>
 	</ModifierArguments>
 	<!-- アジェンダに紐づく印象の上下のテキスト -->
 	<!-- ※これを忘れると「理由不明」になってしまう -->
 	<ModifierStrings>
-		<Row ModifierId="AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON"            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR"                Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES"          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES"         Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_ALAOUITE_DYNASTY"                     Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_SENJINKUN"                            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT"    Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT"     Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY"         Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY"          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_BLACKSHIRTS"                          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"             Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_THE_RULER_OF_THE_HUNS"                Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE"            Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
-		<Row ModifierId="AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE"             Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_HUNDRED_DAYS_HAG_NAPOLEON"          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_SAHIB_QIRAN_HAG_TIMUR"              Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_SIX_REPUBLICS_FEW_ALLIANCES"        Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_SIX_REPUBLICS_MANY_ALLIANCES"       Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_ALAOUITE_DYNASTY"                   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_SENJINKUN"                          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_HOME_CONTINENT"  Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_BRIGANTINE_DYNASTY_NEW_CONTINENT"   Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_HIGH_INDUSTRY"       Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_FIVE_YEAR_PLAN_LOW_INDUSTRY"        Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_BLACKSHIRTS"                        Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_GAINING_CITIES"          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_HAKENKREUZ_LOSING_CITIES"           Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_PEACEFUL" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_TRUMAN_DOCTRINE_CONTINENT_ATTACKED" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_THE_RULER_OF_THE_HUNS"              Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_NY_TRANOVOLA_HIGH_SCIENCE"          Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_NY_TRANOVOLA_LOW_SCIENCE"           Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_BLACKBEARD_LOW_COASTAL_CITIES"      Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_HAG_BLACKBEARD_HIGH_COASTAL_CITIES"     Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 	</ModifierStrings>
 </GameInfo>

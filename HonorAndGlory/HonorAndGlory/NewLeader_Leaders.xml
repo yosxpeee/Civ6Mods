@@ -212,6 +212,7 @@
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>		<!-- 軍拡主義 -->
 		<!-- エドワード・ティーチ -->
 		<Row LeaderType="LEADER_HAG_EDWARD_TEACH"  TraitType="TRAIT_LEADER_HAG_EDWARD_TEACH"/>
+		<Row LeaderType="LEADER_HAG_EDWARD_TEACH"  TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>	<!-- 宗教軽視 -->
 	</LeaderTraits>
 	<!-- 特性の親定義(特性の名称と説明文) -->
 	<Traits>
@@ -1832,6 +1833,7 @@
 		<Row ListType="HAGTeachCivics"/>
 		<Row ListType="HAGTeachTech"/>
 		<Row ListType="HAGTeachWonders"/>
+		<Row ListType="HAGTeachGold"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- ナポレオン -->
@@ -1903,16 +1905,17 @@
 		<Row ListType="HAGAttilaWonders"          LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="Buildings"/>
 		<Row ListType="HAGAttilaCavalryLoverList" LeaderType="TRAIT_LEADER_HAG_ATTILA"        System="UnitPromotionClasses"/>
 		<!-- ラダマ1世-->
-		<Row ListType="HAGRadamaIDistrict"        LeaderType="TRAIT_LEADER_HAG_TITO"          System="Districts"/>
-		<Row ListType="HAGRadamaICivics"          LeaderType="TRAIT_LEADER_HAG_TITO"          System="Civics"/>
-		<Row ListType="HAGRadamaITech"            LeaderType="TRAIT_LEADER_HAG_TITO"          System="Technologies"/>
-		<Row ListType="HAGRadamaIWonders"         LeaderType="TRAIT_LEADER_HAG_TITO"          System="Buildings"/>
-		<Row ListType="HAGRadamaIScience"         LeaderType="TRAIT_LEADER_HAG_TITO"          System="Yields"/>
+		<Row ListType="HAGRadamaIDistrict"        LeaderType="TRAIT_LEADER_HAG_RADAMA_I"      System="Districts"/>
+		<Row ListType="HAGRadamaICivics"          LeaderType="TRAIT_LEADER_HAG_RADAMA_I"      System="Civics"/>
+		<Row ListType="HAGRadamaITech"            LeaderType="TRAIT_LEADER_HAG_RADAMA_I"      System="Technologies"/>
+		<Row ListType="HAGRadamaIWonders"         LeaderType="TRAIT_LEADER_HAG_RADAMA_I"      System="Buildings"/>
+		<Row ListType="HAGRadamaIScience"         LeaderType="TRAIT_LEADER_HAG_RADAMA_I"      System="Yields"/>
 		<!-- エドワード・ティーチ -->
-		<Row ListType="HAGTeachDistrict"          LeaderType="LEADER_HAG_EDWARD_TEACH"        System="Districts"/>
-		<Row ListType="HAGTeachCivics"            LeaderType="LEADER_HAG_EDWARD_TEACH"        System="Civics"/>
-		<Row ListType="HAGTeachTech"              LeaderType="LEADER_HAG_EDWARD_TEACH"        System="Technologies"/>
-		<Row ListType="HAGTeachWonders"           LeaderType="LEADER_HAG_EDWARD_TEACH"        System="Buildings"/>
+		<Row ListType="HAGTeachDistrict"          LeaderType="TRAIT_LEADER_HAG_EDWARD_TEACH"  System="Districts"/>
+		<Row ListType="HAGTeachCivics"            LeaderType="TRAIT_LEADER_HAG_EDWARD_TEACH"  System="Civics"/>
+		<Row ListType="HAGTeachTech"              LeaderType="TRAIT_LEADER_HAG_EDWARD_TEACH"  System="Technologies"/>
+		<Row ListType="HAGTeachWonders"           LeaderType="TRAIT_LEADER_HAG_EDWARD_TEACH"  System="Buildings"/>
+		<Row ListType="HAGTeachGold"              LeaderType="TRAIT_LEADER_HAG_EDWARD_TEACH"  System="Yields"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- ナポレオン -->
@@ -2099,7 +2102,7 @@
 		<Row ListType="HAGTeachCivics"            Item="CIVIC_DIVINE_RIGHT"             Favored="true"/><!-- 王権神授説 -->
 		<Row ListType="HAGTeachCivics"            Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
 		<Row ListType="HAGTeachCivics"            Item="CIVIC_MERCANTILISM"             Favored="true"/><!-- 重商主義 -->
-		<Row ListType="HAGTeachTech"              Item="TECH_SHIPBUILDING"              Favored="true"/><!-- 筆記 -->
+		<Row ListType="HAGTeachTech"              Item="TECH_SHIPBUILDING"              Favored="true"/><!-- 造船 -->
 		<Row ListType="HAGTeachTech"              Item="TECH_CELESTIAL_NAVIGATION"      Favored="true"/><!-- 天文航法 -->
 		<Row ListType="HAGTeachTech"              Item="TECH_CARTOGRAPHY"               Favored="true"/><!-- 地図製作法 -->
 		<Row ListType="HAGTeachTech"              Item="TECH_SQUARE_RIGGING"            Favored="true"/><!-- 横帆船 -->
@@ -2107,6 +2110,7 @@
 		<Row ListType="HAGTeachWonders"           Item="BUILDING_COLOSSUS"              Favored="true"/><!-- ロードス島の巨神像 -->
 		<Row ListType="HAGTeachWonders"           Item="BUILDING_FORBIDDEN_CITY"        Favored="true"/><!-- 紫禁城 -->
 		<Row ListType="HAGTeachWonders"           Item="BUILDING_VENETIAN_ARSENAL"      Favored="true"/><!-- アルセナーレ・ディ・ヴェネツィア -->
+		<Row ListType="HAGTeachGold"              Item="YIELD_GOLD"                     Value="10"/>
 	</AiFavoredItems>
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
@@ -2136,6 +2140,8 @@
 		<Row LeaderType="LEADER_HAG_ATTILA"        AgendaType="AGENDA_HAG_THE_RULER_OF_THE_HUNS"/>
 		<!-- ラダマ1世：ニ・チャヌヴラ(中身はRaFのソンドクと同じ) -->
 		<Row LeaderType="LEADER_HAG_RADAMA_I"      AgendaType="AGENDA_HAG_NY_TRANOVOLA"/>
+		<!-- エドワード・ティーチ：黒髭(中身はディードーと同じ) -->
+		<Row LeaderType="LEADER_HAG_EDWARD_TEACH"  AgendaType="AGENDA_HAG_BLACKBEARD"/>
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>

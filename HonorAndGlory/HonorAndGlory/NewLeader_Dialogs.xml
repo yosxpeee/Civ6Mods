@@ -95,11 +95,11 @@
 			<Text>While others reach for the heavens, you claw at the dirt.</Text>
 		</Replace>
 		<!-- エドワード・ティーチ -->
-		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_EDWARD_TEACH_I_ANY" Language="en_US">
-			<Text>(like)</Text>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_EDWARD_TEACH_ANY" Language="en_US">
+			<Text>May prosperity come to your cities—the ones away from the coast.</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_EDWARD_TEACH_I_ANY" Language="en_US">
-			<Text>(dislike)</Text>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_EDWARD_TEACH_ANY" Language="en_US">
+			<Text>We have no interest in the land-that is for you to claim-but the seas and the shores are Pirates.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -95,11 +95,11 @@
 			<Text>誰もが天に手を伸ばさんとするなか、お前は泥に突っ伏したいというのか？</Text>
 		</Replace>
 		<!-- エドワード・ティーチ -->
-		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_EDWARD_TEACH_I_ANY" Language="ja_JP">
-			<Text>(like)</Text>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HAG_EDWARD_TEACH_ANY" Language="ja_JP">
+			<Text>海から遠く離れし貴国の都市に繁栄が訪れんことを。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_EDWARD_TEACH_I_ANY" Language="ja_JP">
-			<Text>(dislike)</Text>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HAG_EDWARD_TEACH_ANY" Language="ja_JP">
+			<Text>陸に興味はない。好きにするがいい。だが、海と海岸は俺たち海賊のものだ。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

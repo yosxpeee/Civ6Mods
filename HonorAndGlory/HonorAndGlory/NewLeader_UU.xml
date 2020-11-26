@@ -237,31 +237,31 @@
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<!-- アルバン：騎兵-->
-		<Row Unit="UNIT_HAG_TIMURID_ARBAN"           UpgradeUnit="UNIT_CAVALRY"/>
+		<Row Unit="UNIT_HAG_TIMURID_ARBAN"                 UpgradeUnit="UNIT_CAVALRY"/>
 		<!-- M48山砲：ロケット砲 -->
-		<Row Unit="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN" UpgradeUnit="UNIT_ROCKET_ARTILLERY"/>
+		<Row Unit="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       UpgradeUnit="UNIT_ROCKET_ARTILLERY"/>
 		<!-- ベルベル人の騎兵：ヘリコプター -->
-		<Row Unit="UNIT_HAG_MOROCCO_BERBERS_CAVALRY" UpgradeUnit="UNIT_HELICOPTER"/>
+		<Row Unit="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       UpgradeUnit="UNIT_HELICOPTER"/>
 		<!-- 零戦：ジェット戦闘機 -->
-		<Row Unit="UNIT_HAG_JAPAN_ZERO"              UpgradeUnit="UNIT_JET_FIGHTER"/>
+		<Row Unit="UNIT_HAG_JAPAN_ZERO"                    UpgradeUnit="UNIT_JET_FIGHTER"/>
 		<!-- ナウ船：装甲艦 -->
-		<Row Unit="UNIT_HAG_PORTUGAL_NAU"            UpgradeUnit="UNIT_IRONCLAD"/>
+		<Row Unit="UNIT_HAG_PORTUGAL_NAU"                  UpgradeUnit="UNIT_IRONCLAD"/>
 		<!-- T-34：近代的機甲部隊 -->
-		<Row Unit="UNIT_HAG_RUSSIAN_T34"             UpgradeUnit="UNIT_MODERN_ARMOR"/>
+		<Row Unit="UNIT_HAG_RUSSIAN_T34"                   UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<!-- Ju87：ジェット爆撃機 -->
-		<Row Unit="UNIT_HAG_GERMANY_JU87"            UpgradeUnit="UNIT_JET_BOMBER"/>
+		<Row Unit="UNIT_HAG_GERMANY_JU87"                  UpgradeUnit="UNIT_JET_BOMBER"/>
 		<!-- カラビニエリ：機械化歩兵 -->
-		<Row Unit="UNIT_HAG_ITALY_CARABINIERI"       UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
+		<Row Unit="UNIT_HAG_ITALY_CARABINIERI"             UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
 		<!-- ソードフィッシュ：爆撃機 -->
-		<Row Unit="UNIT_HAG_ENGLAND_SWORDFISH"       UpgradeUnit="UNIT_BOMBER"/>
+		<Row Unit="UNIT_HAG_ENGLAND_SWORDFISH"             UpgradeUnit="UNIT_BOMBER"/>
 		<!-- イェーガー：特殊部隊 -->
-		<Row Unit="UNIT_HAG_AMERICAN_JAEGER"         UpgradeUnit="UNIT_SPEC_OPS"/>
+		<Row Unit="UNIT_HAG_AMERICAN_JAEGER"               UpgradeUnit="UNIT_SPEC_OPS"/>
 		<!-- タルカン：コーサー -->
-		<Row Unit="UNIT_HAG_HUNS_TARKHAN"            UpgradeUnit="UNIT_COURSER"/>
+		<Row Unit="UNIT_HAG_HUNS_TARKHAN"                  UpgradeUnit="UNIT_COURSER"/>
 		<!-- ホヴァ：マスケット兵 -->
-		<Row Unit="UNIT_HAG_MADAGASCAR_HOVA"         UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_HAG_MADAGASCAR_HOVA"               UpgradeUnit="UNIT_MUSKETMAN"/>
 		<!-- バッカニア：兵士 -->
-		<Row Unit="UNIT_HAG_MADAGASCAR_HOVA"         UpgradeUnit="UNIT_INFANTRY"/>
+		<Row Unit="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" UpgradeUnit="UNIT_INFANTRY"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>

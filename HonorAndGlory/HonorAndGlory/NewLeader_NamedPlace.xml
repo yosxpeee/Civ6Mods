@@ -28,7 +28,11 @@
 		<Row Type="NAMED_HAG_RIVER_IKOPA_RIVER"        Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_BETSIBOKA_RIVER"    Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_MAHARIVO_RIVER"     Kind="KIND_NAMED_RIVER"/>
-		
+		<!-- 海賊共和国 -->
+		<Row Type="NAMED_HAG_RIVER_FRESH_RIVER"        Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_HAG_RIVER_STAFFORD_RIVER"     Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_HAG_RIVER_LITTLE_RIVER"       Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_HAG_RIVER_GRASSY_RIVER"       Kind="KIND_NAMED_RIVER"/>
 		<!-- 火山 -->
 		<!-- 該当なし -->
 		
@@ -48,6 +52,9 @@
 		<Row Type="NAMED_HAG_MOUNTAIN_IGMAN"           Kind="KIND_NAMED_MOUNTAIN"/>
 		<!-- マダガスカル -->
 		<Row Type="NAMED_HAG_MOUNTAIN_MAROMOKOTRO"     Kind="KIND_NAMED_MOUNTAIN"/>
+		<!-- 海賊共和国 -->
+		<Row Type="NAMED_HAG_MOUNTAIN_LA_SELLE"        Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_HAG_MOUNTAIN_DUARTE"          Kind="KIND_NAMED_MOUNTAIN"/>
 		
 		<!-- 湖 -->
 		<!-- ティムール朝(ウズベキスタン) -->
@@ -69,6 +76,10 @@
 		<Row Type="NAMED_HAG_LAKE_TSIMANAMPETSOTSA_LAKE"  Kind="KIND_NAMED_LAKE"/>
 		<Row Type="NAMED_HAG_LAKE_IHOTRY_LAKE"            Kind="KIND_NAMED_LAKE"/>
 		<Row Type="NAMED_HAG_LAKE_ALAOTRA_LAKE"           Kind="KIND_NAMED_LAKE"/>
+		<!-- 海賊共和国 -->
+		<Row Type="NAMED_HAG_LAKE_FORSYTH_LAKE"           Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_HAG_LAKE_KILLARNEY_LAKE"         Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_HAG_LAKE_CUNNINGHAM_LAKE"        Kind="KIND_NAMED_LAKE"/>
 	</Types>
 
 	<!-- ======================================================================= -->
@@ -99,6 +110,11 @@
 		<Row NamedRiverType="NAMED_HAG_RIVER_IKOPA_RIVER"           Name="LOC_NAMED_HAG_RIVER_IKOPA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_BETSIBOKA_RIVER"       Name="LOC_NAMED_HAG_RIVER_BETSIBOKA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_MAHARIVO_RIVER"        Name="LOC_NAMED_HAG_RIVER_MAHARIVO_RIVER_NAME"/>
+		<!-- 海賊共和国 -->
+		<Row NamedRiverType="NAMED_HAG_RIVER_FRESH_RIVER"           Name="LOC_NAMED_HAG_RIVER_FRESH_RIVER_NAME"/>
+		<Row NamedRiverType="NAMED_HAG_RIVER_STAFFORD_RIVER"        Name="LOC_NAMED_HAG_RIVER_STAFFORD_RIVER_NAME"/>
+		<Row NamedRiverType="NAMED_HAG_RIVER_LITTLE_RIVER"          Name="LOC_NAMED_HAG_RIVER_LITTLE_RIVER_NAME"/>
+		<Row NamedRiverType="NAMED_HAG_RIVER_GRASSY_RIVER"          Name="LOC_NAMED_HAG_RIVER_GRASSY_RIVER_NAME"/>
 	</NamedRivers>
 	<NamedVolcanoes>
 		<!-- 火山 -->
@@ -121,6 +137,9 @@
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_IGMAN"           Name="LOC_NAMED_HAG_MOUNTAIN_IGMAN_NAME"/>
 		<!-- マダガスカル -->
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_MAROMOKOTRO"     Name="LOC_NAMED_HAG_MOUNTAIN_MAROMOKOTRO_NAME"/>
+		<!-- 海賊共和国 -->
+		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_LA_SELLE"        Name="LOC_NAMED_HAG_MOUNTAIN_LA_SELLE_NAME"/>
+		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_DUARTE"          Name="LOC_NAMED_HAG_MOUNTAIN_DUARTE_NAME"/>
 	</NamedMountains>
 	<NamedDeserts>
 	</NamedDeserts>
@@ -145,6 +164,10 @@
 		<Row NamedLakeType="NAMED_HAG_LAKE_TSIMANAMPETSOTSA_LAKE"   Name="LOC_NAMED_HAG_LAKE_TSIMANAMPETSOTSA_LAKE_NAME"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_IHOTRY_LAKE"             Name="LOC_NAMED_HAG_LAKE_IHOTRY_LAKE_NAME"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_ALAOTRA_LAKE"            Name="LOC_NAMED_HAG_LAKE_ALAOTRA_LAKE_NAME"/>
+		<!-- 海賊共和国 -->
+		<Row NamedLakeType="NAMED_HAG_LAKE_FORSYTH_LAKE"            Name="LOC_NAMED_HAG_LAKE_FORSYTH_LAKE_NAME"/>
+		<Row NamedLakeType="NAMED_HAG_LAKE_KILLARNEY_LAKE"          Name="LOC_NAMED_HAG_LAKE_KILLARNEY_LAKE_NAME"/>
+		<Row NamedLakeType="NAMED_HAG_LAKE_CUNNINGHAM_LAKE"         Name="LOC_NAMED_HAG_LAKE_CUNNINGHAM_LAKE_NAME"/>
 	</NamedLakes>
 	<NamedSeas>
 	</NamedSeas>
@@ -197,6 +220,11 @@
 		<Row NamedRiverType="NAMED_HAG_RIVER_IKOPA_RIVER"           CivilizationType="CIVILIZATION_HAG_MADAGASCAR"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_BETSIBOKA_RIVER"       CivilizationType="CIVILIZATION_HAG_MADAGASCAR"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_MAHARIVO_RIVER"        CivilizationType="CIVILIZATION_HAG_MADAGASCAR"/>
+		<!-- 海賊共和国 -->
+		<Row NamedRiverType="NAMED_HAG_RIVER_FRESH_RIVER"           CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
+		<Row NamedRiverType="NAMED_HAG_RIVER_STAFFORD_RIVER"        CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
+		<Row NamedRiverType="NAMED_HAG_RIVER_LITTLE_RIVER"          CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
+		<Row NamedRiverType="NAMED_HAG_RIVER_GRASSY_RIVER"          CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
 	</NamedRiverCivilizations>
 	<NamedVolcanoCivilizations>
 		<!-- 火山 -->
@@ -245,6 +273,9 @@
 		<Row NamedMountainType="NAMED_MOUNTAIN_VERKHOYANSK"         CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 		<!-- マダガスカル -->
 		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_MAROMOKOTRO"     CivilizationType="CIVILIZATION_HAG_MADAGASCAR"/>
+		<!-- 海賊共和国 -->
+		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_LA_SELLE"        CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
+		<Row NamedMountainType="NAMED_HAG_MOUNTAIN_DUARTE"          CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
 	</NamedMountainCivilizations>
 	<NamedDesertCivilizations>
 		<!-- 砂漠 -->
@@ -295,6 +326,10 @@
 		<Row NamedLakeType="NAMED_HAG_LAKE_TSIMANAMPETSOTSA_LAKE"   CivilizationType="CIVILIZATION_HAG_MADAGASCAR"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_IHOTRY_LAKE"             CivilizationType="CIVILIZATION_HAG_MADAGASCAR"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_ALAOTRA_LAKE"            CivilizationType="CIVILIZATION_HAG_MADAGASCAR"/>
+		<!-- 海賊共和国 -->
+		<Row NamedLakeType="NAMED_HAG_LAKE_FORSYTH_LAKE"            CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
+		<Row NamedLakeType="NAMED_HAG_LAKE_KILLARNEY_LAKE"          CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
+		<Row NamedLakeType="NAMED_HAG_LAKE_CUNNINGHAM_LAKE"         CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/>
 	</NamedLakeCivilizations>
 	<NamedSeaCivilizations>
 		<!-- 海・湾 -->
@@ -323,5 +358,7 @@
 		<Row NamedSeaType="NAMED_SEA_WHITE_SEA"                     CivilizationType="CIVILIZATION_HAG_USSR"/><!-- 既存 -->
 		<!-- フン族 -->
 		<Row NamedSeaType="NAMED_SEA_CASPIAN_SEA"                   CivilizationType="CIVILIZATION_HAG_HUNS"/><!-- 既存 -->
+		<!-- 海賊共和国 -->
+		<Row NamedSeaType="NAMED_SEA_CARIBBEAN_SEA"                 CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES"/><!-- 既存 -->
 	</NamedSeaCivilizations>
 </GameInfo>
