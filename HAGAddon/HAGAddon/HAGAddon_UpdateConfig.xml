@@ -25,6 +25,13 @@
 				<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION</CivilizationAbilityDescription>
 			</Set>
 		</Update>
+		<!-- バビロン -->
+		<Update>
+			<Where CivilizationType="CIVILIZATION_BABYLON_STK"/>
+			<Set>
+				<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_BABYLON_HAG_DESCRIPTION</CivilizationAbilityDescription>
+			</Set>
+		</Update>
 	</Players>
 	
 	<!-- ======================================================================= -->

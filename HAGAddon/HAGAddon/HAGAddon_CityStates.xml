@@ -358,4 +358,12 @@
 		<Row CivilizationType="CIVILIZATION_HAGA_LHASA" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" Tier="1"/>
 		<Row CivilizationType="CIVILIZATION_HAGA_LHASA" TerrainType="TERRAIN_SNOW_MOUNTAIN"   Tier="1"/>
 	</StartBiasTerrains>
+	<Leaders_XP2>
+		<Row LeaderType="CIVILIZATION_HAGA_WITTENBERG" MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
+		<Row LeaderType="CIVILIZATION_HAGA_LHASA" MinorCivBonusType="MINOR_CIV_BONUS_RELIGIOUS"/>
+		<Row LeaderType="CIVILIZATION_HAGA_DUNEDIN" MinorCivBonusType="MINOR_CIV_BONUS_TRADE"/>
+		<Row LeaderType="CIVILIZATION_HAGA_BASRA" MinorCivBonusType="MINOR_CIV_BONUS_MILITARISTIC"/>
+		<Row LeaderType="CIVILIZATION_HAGA_HANOI" MinorCivBonusType="MINOR_CIV_BONUS_SCIENTIFIC"/>
+		<Row LeaderType="CIVILIZATION_HAGA_BAKU" MinorCivBonusType="MINOR_CIV_BONUS_INDUSTRIAL"/>
+	</Leaders_XP2>
 </GameInfo>

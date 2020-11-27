@@ -20,14 +20,33 @@
 			<Where Description="LOC_TRAIT_CIVILIZATION_ETHIOPIA_DESCRIPTION"/>
 			<Set Description="LOC_TRAIT_CIVILIZATION_ETHIOPIA_HAGA_DESCRIPTION"/>
 		</Update>
+		<!-- バビロン -->
+		<Update>
+			<Where Description="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_BABYLON_HAG_DESCRIPTION"/>
+		</Update>
 	</Traits>
 	<!-- 対象クラス -->
 	<TypeTags>
+		<!-- 大コロンビア：移動力+1の効果対象を軍事ユニットのみに変更 -->
 		<Update>
 			<Where Type="ABILITY_EJERCITO_PATRIOTA_EXTRA_MOVEMENT"/>
 			<Set Tag="CLASS_ALL_COMBAT_UNITS"/>
 		</Update>
 	</TypeTags>
+	<!-- 特性効果 -->
+	<ModifierArguments>
+		<!-- バビロン：ひらめきで研究完了 ＞ 80%に変更 -->
+		<!--          科学力の減少を-25%に変更 -->
+		<Update>
+			<Where ModifierId="TRAIT_EUREKA_INCREASE"/>
+			<Set Value="50"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_SCIENCE_DECREASE" Name="Amount"/>
+			<Set Value="-25"/>
+		</Update>
+	</ModifierArguments>
 	
 	<!-- ======================================================================= -->
 	<!-- 指導者 -->
@@ -473,6 +492,13 @@
 			<Where Unit="UNIT_HAG_MADAGASCAR_HOVA"/>
 			<Set>
 				<UpgradeUnit>UNIT_HAGA_LONGSWORDSMAN</UpgradeUnit>
+			</Set>
+		</Update>
+		<!-- バッカニア：ライフル兵に変更 -->
+		<Update>
+			<Where Unit="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"/>
+			<Set>
+				<UpgradeUnit>UNIT_HAGA_RIFLEMAN</UpgradeUnit>
 			</Set>
 		</Update>
 	</UnitUpgrades>
