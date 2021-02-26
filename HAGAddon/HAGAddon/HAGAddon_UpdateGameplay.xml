@@ -118,21 +118,6 @@
 			<Set YieldChange="6"/>
 		</Update>
 	</Adjacency_YieldChanges>
-	<!-- 排他制御 -->
-	<!-- [NOTE] -->
-	<!-- ヒッポドロームとウォーターパークの排他制御がされておらず、同じ都市に建造できてしまうバグの修正 -->
-	<MutuallyExclusiveDistricts>
-		<Row District="DISTRICT_HIPPODROME" MutuallyExclusiveDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
-		<Row District="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" MutuallyExclusiveDistrict="DISTRICT_HIPPODROME"/>
-	</MutuallyExclusiveDistricts>
-	
-	<!-- ======================================================================= -->
-	<!-- 建造物 -->
-	<!-- ======================================================================= -->
-	<!-- ニハングの戦闘力強化能力へバシリコイ・パイデスを追加する -->
-	<BuildingModifiers>
-		<Row BuildingType="BUILDING_BASILIKOI_PAIDES" ModifierId="LAHORE_NIHANG_BARRACKS_ABILITY"/>
-	</BuildingModifiers>
 	
 	<!-- ======================================================================= -->
 	<!-- ユニット -->

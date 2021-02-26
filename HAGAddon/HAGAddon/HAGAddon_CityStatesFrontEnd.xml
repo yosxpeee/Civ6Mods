@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<CityStates>
+		<!--
+		<Row                               CivilizationType="CIVILIZATION_HAGA_WITTENBERG"  CityStateCategory="CULTURAL"     Name="LOC_CIVILIZATION_HAGA_WITTENBERG_NAME"  Icon="ICON_CIVILIZATION_HAGA_WITTENBERG"  Bonus="LOC_LEADER_TRAIT_HAGA_WITTENBERG_DESCRIPTION"/>
+		<Row Domain="Expansion1CityStates" CivilizationType="CIVILIZATION_HAGA_WITTENBERG"  CityStateCategory="CULTURAL"     Name="LOC_CIVILIZATION_HAGA_WITTENBERG_NAME"  Icon="ICON_CIVILIZATION_HAGA_WITTENBERG"  Bonus="LOC_LEADER_TRAIT_HAGA_WITTENBERG_DESCRIPTION"/>
+		-->
+		<Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HAGA_WITTENBERG"  CityStateCategory="CULTURAL"     Name="LOC_CIVILIZATION_HAGA_WITTENBERG_NAME"  Icon="ICON_CIVILIZATION_HAGA_WITTENBERG"  Bonus="LOC_LEADER_TRAIT_HAGA_WITTENBERG_DESCRIPTION"/>
+
+		<!--
+		<Row                               CivilizationType="CIVILIZATION_HAGA_LHASA"       CityStateCategory="RELIGIOUS"    Name="LOC_CIVILIZATION_HAGA_LHASA_NAME"       Icon="ICON_CIVILIZATION_HAGA_LHASA"       Bonus="LOC_LEADER_TRAIT_HAGA_LHASA_DESCRIPTION"/>
+		<Row Domain="Expansion1CityStates" CivilizationType="CIVILIZATION_HAGA_LHASA"       CityStateCategory="RELIGIOUS"    Name="LOC_CIVILIZATION_HAGA_LHASA_NAME"       Icon="ICON_CIVILIZATION_HAGA_LHASA"       Bonus="LOC_LEADER_TRAIT_HAGA_LHASA_DESCRIPTION"/>
+		-->
+		<Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HAGA_LHASA"       CityStateCategory="RELIGIOUS"    Name="LOC_CIVILIZATION_HAGA_LHASA_NAME"       Icon="ICON_CIVILIZATION_HAGA_LHASA"       Bonus="LOC_LEADER_TRAIT_HAGA_LHASA_DESCRIPTION"/>
+
+		<!--
+		<Row                               CivilizationType="CIVILIZATION_HAGA_DUNEDIN"     CityStateCategory="TRADE"        Name="LOC_CIVILIZATION_HAGA_DUNEDIN_NAME"     Icon="ICON_CIVILIZATION_HAGA_DUNEDIN"     Bonus="LOC_LEADER_TRAIT_HAGA_DUNEDIN_DESCRIPTION"/>
+		<Row Domain="Expansion1CityStates" CivilizationType="CIVILIZATION_HAGA_DUNEDIN"     CityStateCategory="TRADE"        Name="LOC_CIVILIZATION_HAGA_DUNEDIN_NAME"     Icon="ICON_CIVILIZATION_HAGA_DUNEDIN"     Bonus="LOC_LEADER_TRAIT_HAGA_DUNEDIN_DESCRIPTION"/>
+		-->
+		<Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HAGA_DUNEDIN"     CityStateCategory="TRADE"        Name="LOC_CIVILIZATION_HAGA_DUNEDIN_NAME"     Icon="ICON_CIVILIZATION_HAGA_DUNEDIN"     Bonus="LOC_LEADER_TRAIT_HAGA_DUNEDIN_DESCRIPTION"/>
+
+		<!--
+		<Row                               CivilizationType="CIVILIZATION_HAGA_BASRA"       CityStateCategory="MILITARISTIC" Name="LOC_CIVILIZATION_HAGA_BASRA_NAME"       Icon="ICON_CIVILIZATION_HAGA_BASRA"       Bonus="LOC_LEADER_TRAIT_HAGA_BASRA_DESCRIPTION"/>
+		<Row Domain="Expansion1CityStates" CivilizationType="CIVILIZATION_HAGA_BASRA"       CityStateCategory="MILITARISTIC" Name="LOC_CIVILIZATION_HAGA_BASRA_NAME"       Icon="ICON_CIVILIZATION_HAGA_BASRA"       Bonus="LOC_LEADER_TRAIT_HAGA_BASRA_DESCRIPTION"/>
+		-->
+		<Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HAGA_BASRA"       CityStateCategory="MILITARISTIC" Name="LOC_CIVILIZATION_HAGA_BASRA_NAME"       Icon="ICON_CIVILIZATION_HAGA_BASRA"       Bonus="LOC_LEADER_TRAIT_HAGA_BASRA_DESCRIPTION"/>
+
+		<!--
+		<Row                               CivilizationType="CIVILIZATION_HAGA_HANOI"       CityStateCategory="SCIENTIFIC"   Name="LOC_CIVILIZATION_HAGA_HANOI_NAME"       Icon="ICON_CIVILIZATION_HAGA_HANOI"       Bonus="LOC_LEADER_TRAIT_HAGA_HANOI_DESCRIPTION"/>
+		<Row Domain="Expansion1CityStates" CivilizationType="CIVILIZATION_HAGA_HANOI"       CityStateCategory="SCIENTIFIC"   Name="LOC_CIVILIZATION_HAGA_HANOI_NAME"       Icon="ICON_CIVILIZATION_HAGA_HANOI"       Bonus="LOC_LEADER_TRAIT_HAGA_HANOI_DESCRIPTION"/>
+		-->
+		<Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HAGA_HANOI"       CityStateCategory="SCIENTIFIC"   Name="LOC_CIVILIZATION_HAGA_HANOI_NAME"       Icon="ICON_CIVILIZATION_HAGA_HANOI"       Bonus="LOC_LEADER_TRAIT_HAGA_HANOI_DESCRIPTION"/>
+
+		<!--
+		<Row                               CivilizationType="CIVILIZATION_HAGA_BAKU"        CityStateCategory="INDUSTRIAL"   Name="LOC_CIVILIZATION_HAGA_BAKU_NAME"        Icon="ICON_CIVILIZATION_HAGA_BAKU"        Bonus="LOC_LEADER_TRAIT_HAGA_BAKU_DESCRIPTION"/>
+		<Row Domain="Expansion1CityStates" CivilizationType="CIVILIZATION_HAGA_BAKU"        CityStateCategory="INDUSTRIAL"   Name="LOC_CIVILIZATION_HAGA_BAKU_NAME"        Icon="ICON_CIVILIZATION_HAGA_BAKU"        Bonus="LOC_LEADER_TRAIT_HAGA_BAKU_DESCRIPTION"/>
+		-->
+		<Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HAGA_BAKU"        CityStateCategory="INDUSTRIAL"   Name="LOC_CIVILIZATION_HAGA_BAKU_NAME"        Icon="ICON_CIVILIZATION_HAGA_BAKU"        Bonus="LOC_LEADER_TRAIT_HAGA_BAKU_DESCRIPTION"/>
+
+	</CityStates>
+</GameInfo>
