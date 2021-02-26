@@ -147,6 +147,6 @@
 	</StartBiasTerrains>
 	<Leaders_XP2>
 		<Row LeaderType="LEADER_MINOR_CIV_HAG_RYUKYU" MinorCivBonusType="MINOR_CIV_BONUS_TRADE"/>
-		<Row LeaderType="CIVILIZATION_HAG_BEIRA"      MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HAG_BEIRA"  MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
 	</Leaders_XP2>
 </GameInfo>

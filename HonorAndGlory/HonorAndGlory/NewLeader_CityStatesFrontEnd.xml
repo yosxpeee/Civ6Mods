@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 都市国家 -->
+	<CityStates>
+		<Delete CivilizationType="CIVILIZATION_LISBON"/>
+		<Delete CivilizationType="CIVILIZATION_ANTANANARIVO"/>
+		
+		<Row                               CivilizationType="CIVILIZATION_HAG_RYUKYU" CityStateCategory="TRADE"    Name="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Icon="ICON_CIVILIZATION_HAG_RYUKYU" Bonus="LOC_CIVILIZATION_LISBON_BONUS"/>
+		<Row Domain="Expansion1CityStates" CivilizationType="CIVILIZATION_HAG_RYUKYU" CityStateCategory="TRADE"    Name="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Icon="ICON_CIVILIZATION_HAG_RYUKYU" Bonus="LOC_CIVILIZATION_LISBON_BONUS"/>
+		<Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HAG_RYUKYU" CityStateCategory="TRADE"    Name="LOC_CIVILIZATION_HAG_RYUKYU_NAME" Icon="ICON_CIVILIZATION_HAG_RYUKYU" Bonus="LOC_CIVILIZATION_LISBON_BONUS"/>
+
+		<Row                               CivilizationType="CIVILIZATION_HAG_BEIRA"  CityStateCategory="CULTURAL" Name="LOC_CIVILIZATION_HAG_BEIRA_NAME"  Icon="ICON_CIVILIZATION_HAG_BEIRA"  Bonus="LOC_CIVILIZATION_ANTANANARIVO_BONUS"/>
+		<Row Domain="Expansion1CityStates" CivilizationType="CIVILIZATION_HAG_BEIRA"  CityStateCategory="CULTURAL" Name="LOC_CIVILIZATION_HAG_BEIRA_NAME"  Icon="ICON_CIVILIZATION_HAG_BEIRA"  Bonus="LOC_CIVILIZATION_ANTANANARIVO_BONUS"/>
+		<Row Domain="Expansion2CityStates" CivilizationType="CIVILIZATION_HAG_BEIRA"  CityStateCategory="CULTURAL" Name="LOC_CIVILIZATION_HAG_BEIRA_NAME"  Icon="ICON_CIVILIZATION_HAG_BEIRA"  Bonus="LOC_CIVILIZATION_ANTANANARIVO_BONUS"/>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_SAMARKAND"/>
+			<Set>
+				<Name>LOC_CIVILIZATION_HAG_SHAHRISABZ_NAME</Name>
+			</Set>
+		</Update>
+	</CityStates>
+</GameInfo>
