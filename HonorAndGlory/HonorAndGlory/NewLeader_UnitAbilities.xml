@@ -29,6 +29,7 @@
 		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"                                            Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                                         Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_HUNS_TARKHAN"                                            Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"                           Kind="KIND_ABILITY"/>
 	</Types>
 	<!-- アビリティを持つクラス -->
 	<TypeTags>
@@ -91,6 +92,7 @@
 		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"                                            Tag="CLASS_HAG_GERMANY_JU87"/>
 		<Row Type="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                                         Tag="CLASS_HAG_AMERICAN_JAEGER"/>
 		<Row Type="ABILITY_UNIT_HAG_HUNS_TARKHAN"                                            Tag="CLASS_HAG_HUNS_TARKHAN"/>
+		<Row Type="ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"                           Tag="CLASS_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"/>
 	</TypeTags>
 	<!-- アビリティの名前、説明 -->
 	<UnitAbilities>
@@ -121,6 +123,7 @@
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_GERMANY_JU87"                                            Name="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_NAME"                                            Description="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                                         Name="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_NAME"                                         Description="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_HUNS_TARKHAN"                                            Name="LOC_ABILITY_UNIT_HAG_HUNS_TARKHAN_NAME"                                            Description="LOC_ABILITY_UNIT_HAG_HUNS_TARKHAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"                           Name="LOC_ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_NAME"                           Description="LOC_ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_DESCRIPTION"/>
 	</UnitAbilities>
 	<!-- アビリティが持つModifier -->
 	<UnitAbilityModifiers>
@@ -254,6 +257,11 @@
 			<!-- RaFのマプチェのマロン騎兵と同じ -->
 			<ModifierId>MALON_RAIDER_LESS_MOVEMENT_PILLAGE</ModifierId>
 		</Row>
+		<!-- バッカニア：傷ついたユニットに対し戦闘力+5 -->
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER</UnitAbilityType>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BUCCANEER_BONUS_VS_WOUNDED_UNITS</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<!-- 効果の定義 -->
 	<Modifiers>
@@ -347,6 +355,12 @@
 			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- バッカニア：傷ついたユニットに対し戦闘力+5 -->
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BUCCANEER_BONUS_VS_WOUNDED_UNITS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_WOUNDED</SubjectRequirementSetId><!-- バニラにある -->
 		</Row>
 	</Modifiers>
 	<!-- 効果のパラメータ -->
@@ -444,6 +458,12 @@
 		<!-- イェーガー：攻撃対象が森林・熱帯雨林にいると戦闘力+5 -->
 		<Row>
 			<ModifierId>HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- バッカニア：傷ついたユニットに対し戦闘力+5 -->
+		<Row>
+			<ModifierId>HAG_REPUBLIC_OF_PIRATES_BUCCANEER_BONUS_VS_WOUNDED_UNITS</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
@@ -832,5 +852,6 @@
 		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY"                 Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_HEAVY_CAVALRY_DESCRIPTION"/>
 		<Row ModifierId="HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED"                  Context="Preview" Text="LOC_ABILITY_HAG_JU87_COMBAT_BONUS_CLASS_NAVAL_RANGED_DESCRIPTION"/>
 		<Row ModifierId="HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE"        Context="Preview" Text="LOC_ABILITY_HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE_DESCRIPTION"/>
+		<Row ModifierId="HAG_REPUBLIC_OF_PIRATES_BUCCANEER_BONUS_VS_WOUNDED_UNITS"  Context="Preview" Text="LOC_ABILITY_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_BONUS_VS_WOUNDED_UNITS_DESCRIPTION"/>
 	</ModifierStrings>
 </GameData>

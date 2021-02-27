@@ -264,7 +264,7 @@
 			<Text>神の災い</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_ATTILA_DESCRIPTION" Language="ja_JP">
-			<Text>破城槌と攻城塔の効果が騎兵ユニットにも適用される。すべての騎兵ユニットが護衛能力を持つ。他文明が建てた都市は占領できず、強制的に破壊される。都市の強制破壊によって大量のゴールドを得る(ゲームスピード依存)。</Text>
+			<Text>破城槌と攻城塔の効果が騎兵ユニットにも適用される。すべての騎兵ユニットが護衛能力を持つ。他文明が建てた首都以外の都市は占領できず、強制的に破壊される。都市の強制破壊によって大量のゴールドを得る(ゲームスピード依存)。</Text>
 		</Row>
 		<!-- 指導者(ラダマ1世) -->
 		<Row Tag="LOC_LEADER_HAG_RADAMA_I_NAME" Language="ja_JP">
@@ -311,7 +311,7 @@
 			<Text>ユーゴスラビア固有のユニット: M48山砲</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE__UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>通称「Tito Gun」とも呼ばれる、第二次大戦後の1948年にユーゴスラビアで生産された山砲。</Text>
+			<Text>通称「Tito Gun」とも呼ばれる、第二次大戦後の1948年にユーゴスラビアで生産された山砲。チェコのM28山砲をベースにしており、ソビエトの76mm砲弾を使用するための改造とマズルブレーキが付与されている。</Text>
 		</Row>
 		<!-- UU(ベルベル人の騎兵) -->
 		<Row Tag="LOC_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME" Language="ja_JP">

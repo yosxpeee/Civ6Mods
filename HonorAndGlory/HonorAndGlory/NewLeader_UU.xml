@@ -19,12 +19,13 @@
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
-		<Row Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN" Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY" Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_HAG_PORTUGAL_NAU"            Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_HAG_GERMANY_JU87"            Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_HAG_AMERICAN_JAEGER"         Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_HAG_HUNS_TARKHAN"            Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"       Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_PORTUGAL_NAU"                  Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_GERMANY_JU87"                  Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_AMERICAN_JAEGER"               Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_HUNS_TARKHAN"                  Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<!-- AIの動き -->
 	<UnitAiInfos>
@@ -115,7 +116,7 @@
 		<Row Type="UNIT_HAG_GREAT_PIRATES"                 Tag="CLASS_LANDCIVILIAN"/>
 		<Row Type="UNIT_HAG_GREAT_PIRATES"                 Tag="CLASS_ALL_ERAS"/>
 		<Row Type="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" Tag="CLASS_MELEE"/>
-		<Row Type="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" Tag="CLASS_MAYAN_HULCHE"/><!-- マヤのフルチェと同じ -->
+		<Row Type="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" Tag="CLASS_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"/><!-- マヤのフルチェと同じ -->
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>

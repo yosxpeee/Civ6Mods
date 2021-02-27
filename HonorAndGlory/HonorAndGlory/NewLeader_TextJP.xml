@@ -1532,7 +1532,10 @@
 		<Row Tag="LOC_ABILITY_HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE_DESCRIPTION" Language="ja_JP">
 			<Text>相手が森林・熱帯雨林タイルにいる場合、[ICON_Strength] 戦闘力+5。</Text>
 		</Row>
-
+		<Row Tag="LOC_ABILITY_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_BONUS_VS_WOUNDED_UNITS_DESCRIPTION" Language="ja_JP">
+			<Text>ダメージを負っている敵に対する [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		
 		<!-- ユニットアビリティの説明文 -->
 		<Row Tag="LOC_ABILITY_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT_DESCRIPTION" Language="ja_JP">
 			<Text>陸上近接ユニットの [ICON_Movement] 移動力+1。</Text>
@@ -1572,6 +1575,9 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_LEADER_HAG_EDWARD_TEACH_GRANT_COASTAL_RAID_ABILITY_DESCRIPTION" Language="ja_JP">
 			<Text>沿岸地域の建造物と施設を略奪し、民間人ユニットを捕獲できる。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_DESCRIPTION" Language="ja_JP">
+			<Text>ダメージを負っている敵に対する [ICON_Strength] 戦闘力+5。</Text>
 		</Row>
 		
 		<!-- 隣接ボーナス効果 -->

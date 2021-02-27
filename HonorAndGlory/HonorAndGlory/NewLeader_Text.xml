@@ -1535,6 +1535,9 @@
 		<Row Tag="LOC_ABILITY_HAG_AMERICAN_JAEGER_COMBAT_BONUS_FOREST_AND_JUNGLE_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength bonus if target is in the forest or jungle.</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_BONUS_VS_WOUNDED_UNITS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when fighting a wounded opponent.</Text>
+		</Row>
 		
 		<!-- ユニットアビリティの説明文 -->
 		<Row Tag="LOC_ABILITY_LEADER_HAG_NAPOLEON_MELEE_MOVEMENT_DESCRIPTION" Language="en_US">
@@ -1575,6 +1578,9 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_LEADER_HAG_EDWARD_TEACH_GRANT_COASTAL_RAID_ABILITY_DESCRIPTION" Language="en_US">
 			<Text>Can pillage buildings and improvements and capture civilian units on coastal lands.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when fighting a wounded opponent.</Text>
 		</Row>
 		
 		<!-- 隣接ボーナス効果 -->

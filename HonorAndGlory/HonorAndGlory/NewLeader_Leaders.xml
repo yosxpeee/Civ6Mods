@@ -287,7 +287,7 @@
 		<!-- 国外交易路からゴールド+2 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
-			<ModifierId>TRAIT_SATRAPIES_IMPROVED_ROUTE_LEVEL</ModifierId><!-- マケドニア・ペルシアDLCのペルシアと同じ -->
+			<ModifierId>TRAIT_LEADER_HAG_TITO_IMPROVED_ROUTE_LEVEL</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_TITO</TraitType>
@@ -614,7 +614,7 @@
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT_MACEDON</SubjectRequirementSetId><!-- マケドニア・ペルシアDLCにある -->
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT_LEADER_HAG_NAPOLEON</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_NAPOLEON_HEAL_ON_ENCAMPMENT_CAPTURE_MODIFIER</ModifierId>
@@ -640,6 +640,11 @@
 			<RunOnce>false</RunOnce>
 		</Row>
 
+		<!-- 道路のレベル+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_IMPROVED_ROUTE_LEVEL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_IMPROVED_ROUTE_LEVEL</ModifierType>
+		</Row>
 		<!-- 国内交易路からハンマー+2 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNAL_TRADE_PRODUCTION</ModifierId>
@@ -1021,7 +1026,13 @@
 			<Name>CanPurchase</Name>
 			<Value>true</Value>
 		</Row>
-		
+
+		<!-- 道路のレベル+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_TITO_IMPROVED_ROUTE_LEVEL</ModifierId>
+			<Name>ImprovedRouteLevel</Name>
+			<Value>1</Value>
+		</Row>
 		<!-- 国内交易路からハンマー+2 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_TITO_INTERNAL_TRADE_PRODUCTION</ModifierId>
@@ -1544,6 +1555,11 @@
 	<RequirementSets>
 		<!-- 条件：すべてを満たす -->
 		<Row>
+			<RequirementSetId>CITY_HAS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：すべてを満たす -->
+		<Row>
 			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
@@ -1579,6 +1595,11 @@
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
+		<!-- 条件：都市に兵営がある -->
+		<Row>
+			<RequirementSetId>CITY_HAS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_ENCAMPMENT</RequirementId><!-- バニラにある -->
+		</Row>
 		<!-- 条件：兵営区域 -->
 		<Row>
 			<RequirementSetId>DISTRICT_IS_ENCAMPMENT_LEADER_HAG_NAPOLEON</RequirementSetId>
@@ -1994,7 +2015,7 @@
 		<Row ListType="HAGMariaITech"             Item="TECH_CURRENCY"                  Favored="true"/><!-- 通貨 -->
 		<Row ListType="HAGMariaITech"             Item="TECH_CARTOGRAPHY"               Favored="true"/><!-- 地図製作法 -->
 		<Row ListType="HAGMariaIWonders"          Item="BUILDING_COLOSSUS"              Favored="true"/><!-- ロードス島の巨神像 -->
-		<Row ListType="HAGMariaIWonders"          Item="BUILDING_CASA_DE_CONTRATACION"  Favored="true"/><!-- 通商院 -->
+		<Row ListType="HAGMariaIWonders"          Item="BUILDING_CASA_DE_CONTRATACION"  Favored="true"/><!-- 通商院(RaF) -->
 		<Row ListType="HAGMariaIWonders"          Item="BUILDING_BIG_BEN"               Favored="true"/><!-- ビッグ・ベン -->
 		<Row ListType="HAGMariaIGold"             Item="YIELD_GOLD"                     Value="10"/>
 		<!-- スターリン -->
