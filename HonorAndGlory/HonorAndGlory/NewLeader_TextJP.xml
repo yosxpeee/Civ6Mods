@@ -200,9 +200,6 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_MOROCCO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>北アフリカ北西部のマグリブに位置する立憲君主制国家。東にアルジェリアと、南に西サハラ（サハラ・アラブ民主共和国）と、北にスペインの飛地（セウタとメリリャ）に接し、西は大西洋に、北は地中海に面している。1915年にスペインの保護領となるまではアラウィー・スルタン国と呼ばれていた。1956年に独立して現在のモロッコ王国となる。</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>南ヨーロッパのイベリア半島に位置する。首都はリスボン。現在のポルトガルの前身となるポルトガル王国（Reino de Portugal）は大航海時代においてスペイン王国とともに活躍し、アフリカ・アジア・南米に広大な植民地を領有したことから「ポルトガル海上帝国」とも呼ばれた。ナポレオン戦争時には戦争から逃れるために宮廷を最大の植民地であるブラジルへ移したこともある。</Text>
-		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ITALY_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>南ヨーロッパに位置する共和制国家。首都はローマ。総面積は30万1,338km2で、イタリアではロ・スティヴァレ（lo Stivale）と称されるブーツ状の国土をしており、国土の大部分は温帯に属する。地中海性気候が農業と歴史に大きな影響を与えている。 </Text>
 		</Row>
@@ -297,34 +294,6 @@
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Language="ja_JP">
 			<Text>ナディア</Text>
-		</Row>
-		<!-- ポルトガル -->
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_1" Language="ja_JP">
-			<Text>シウヴィーニョ</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_2" Language="ja_JP">
-			<Text>アンデルソン</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_3" Language="ja_JP">
-			<Text>ダニーロ</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_4" Language="ja_JP">
-			<Text>ノルベルト</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_1" Language="ja_JP">
-			<Text>ヴァレンチナ</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_2" Language="ja_JP">
-			<Text>マヌエラ</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_3" Language="ja_JP">
-			<Text>ベアトリズ</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_4" Language="ja_JP">
-			<Text>ヤスミン</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_5" Language="ja_JP">
-			<Text>ピエトラ</Text>
 		</Row>
 		<!-- イタリア -->
 		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_1" Language="ja_JP">
@@ -767,122 +736,6 @@
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_31" Language="ja_JP">
 			<Text>メルズーガ</Text>
-		</Row>
-		<!-- ポルトガル -->
-		<!-- 現在のポルトガルの都市名から -->
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="ja_JP">
-			<Text>リスボン</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_2" Language="ja_JP">
-			<Text>ポルト</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_3" Language="ja_JP">
-			<Text>ヴィラ・ノヴァ・デ・ガイア</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_4" Language="ja_JP">
-			<Text>アマドーラ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_5" Language="ja_JP">
-			<Text>ブラガ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_6" Language="ja_JP">
-			<Text>コインブラ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_7" Language="ja_JP">
-			<Text>フンシャル</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_8" Language="ja_JP">
-			<Text>アルマダ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_9" Language="ja_JP">
-			<Text>セトゥーバル</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_10" Language="ja_JP">
-			<Text>アグアルヴァ・カセーン</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_11" Language="ja_JP">
-			<Text>バレイロ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_12" Language="ja_JP">
-			<Text>ケルース</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_13" Language="ja_JP">
-			<Text>アヴェイロ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_14" Language="ja_JP">
-			<Text>ギマランイス</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_15" Language="ja_JP">
-			<Text>ビセウ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_16" Language="ja_JP">
-			<Text>リオ・ティント</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_17" Language="ja_JP">
-			<Text>オディベラス</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_18" Language="ja_JP">
-			<Text>レイリア</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_19" Language="ja_JP">
-			<Text>マトジニョシュ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_20" Language="ja_JP">
-			<Text>アモラ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_21" Language="ja_JP">
-			<Text>エヴォラ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_22" Language="ja_JP">
-			<Text>ポンタ・デルガータ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_23" Language="ja_JP">
-			<Text>ポルティマオ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_24" Language="ja_JP">
-			<Text>ファロ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_25" Language="ja_JP">
-			<Text>エルメシンデ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_26" Language="ja_JP">
-			<Text>マイア</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_27" Language="ja_JP">
-			<Text>ポヴォア・デ・バルジン</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_28" Language="ja_JP">
-			<Text>ヴィアナ・ド・カステロ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_29" Language="ja_JP">
-			<Text>フィゲイラ・ダ・フォズ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_30" Language="ja_JP">
-			<Text>コビリャン</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_31" Language="ja_JP">
-			<Text>カステロ・ブランコ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_32" Language="ja_JP">
-			<Text>グァルダ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_33" Language="ja_JP">
-			<Text>ヴィラ・ド・コンデ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_34" Language="ja_JP">
-			<Text>セイシャル</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_35" Language="ja_JP">
-			<Text>オリョン</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_36" Language="ja_JP">
-			<Text>モンティージョ</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_37" Language="ja_JP">
-			<Text>サンタレン</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_38" Language="ja_JP">
-			<Text>ヴィラ・ノヴァ・デ・ファマリカン</Text>
 		</Row>
 		<!-- イタリア -->
 		<!-- 現在のイタリアの都市名から(一部ローマと被り) -->
@@ -1561,9 +1414,6 @@
 		<Row Tag="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION" Language="ja_JP">
 			<Text>砂漠タイルでの [ICON_Strength] 戦闘力+5。</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" Language="ja_JP">
-			<Text>すべての陣形ユニットは護衛の [ICON_Movement] 移動速度を継承する。ナウ船の4タイル以内にいる交易商ユニットは、水域タイルで略奪を受けない。</Text>
-		</Row>
 		<Row Tag="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_DESCRIPTION" Language="ja_JP">
 			<Text>重騎兵および海洋遠距離ユニットに対し [ICON_Strength] 戦闘力+10。</Text>
 		</Row>
@@ -1943,9 +1793,6 @@
 		<Row Tag="LOC_NAMED_HAG_LAKE_LANGANO_LAKE_NAME" Language="ja_JP">
 			<Text>ランガノ湖</Text>
 		</Row>
-		<Row Tag="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME" Language="ja_JP">
-			<Text>サント・アンドレー湖</Text>
-		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE_NAME" Language="ja_JP">
 			<Text>マヌィチ・グディロ</Text>
 		</Row>
@@ -1975,14 +1822,14 @@
 		</Row>
 		
 		<!-- プロジェクト -->
-		<Replace Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_NAME" Language="ja_JP">
+		<Replace Tag="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_NAME" Language="ja_JP">
 			<Text>遷都</Text>
 		</Replace>
-		<Replace Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_SHORT_NAME" Language="ja_JP">
+		<Replace Tag="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_SHORT_NAME" Language="ja_JP">
 			<Text>遷都</Text>
 		</Replace>
-		<Replace Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_DESCRIPTION" Language="ja_JP">
-			<Text>マリア1世固有のプロジェクト。フェイトリアのある都市ならどこででも実施可能。完了すると、ポルトガルの [ICON_Capital] 首都がその都市に移る。</Text>
+		<Replace Tag="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_DESCRIPTION" Language="ja_JP">
+			<Text>マリア1世固有のプロジェクト。航海術学校のある都市ならどこででも実施可能。完了すると、ポルトガルの [ICON_Capital] 首都がその都市に移る。</Text>
 		</Replace>
 		
 		<!-- アジェンダ -->

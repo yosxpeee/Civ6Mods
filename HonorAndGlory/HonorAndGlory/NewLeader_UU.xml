@@ -6,7 +6,6 @@
 		<Row Type="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_JAPAN_ZERO"                    Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAG_PORTUGAL_NAU"                  Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34"                   Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"                  Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAG_ITALY_CARABINIERI"             Kind="KIND_UNIT"/>
@@ -21,7 +20,6 @@
 	<Tags>
 		<Row Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"       Vocabulary="ABILITY_CLASS"/>
-		<Row Tag="CLASS_HAG_PORTUGAL_NAU"                  Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_GERMANY_JU87"                  Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_AMERICAN_JAEGER"               Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_HAG_HUNS_TARKHAN"                  Vocabulary="ABILITY_CLASS"/>
@@ -44,10 +42,6 @@
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"                  AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"                  AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"                  AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU"                  AiType="UNITTYPE_NAVAL"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34"                   AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34"                   AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34"                   AiType="UNITTYPE_CAVALRY"/>
@@ -95,8 +89,6 @@
 		<Row Type="UNIT_HAG_JAPAN_ZERO"                    Tag="CLASS_AIRCRAFT"/>
 		<Row Type="UNIT_HAG_JAPAN_ZERO"                    Tag="CLASS_AIR_FIGHTER"/>
 		<Row Type="UNIT_HAG_JAPAN_ZERO"                    Tag="CLASS_MUSTANG"/><!-- バニラのアメリカのP51マスタングと同じ -->
-		<Row Type="UNIT_HAG_PORTUGAL_NAU"                  Tag="CLASS_NAVAL_MELEE"/>
-		<Row Type="UNIT_HAG_PORTUGAL_NAU"                  Tag="CLASS_HAG_PORTUGAL_NAU"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34"                   Tag="CLASS_HEAVY_CHARIOT"/>
 		<Row Type="UNIT_HAG_RUSSIAN_T34"                   Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="UNIT_HAG_GERMANY_JU87"                  Tag="CLASS_AIRCRAFT"/>
@@ -124,7 +116,6 @@
 		<Row CivUniqueUnitType="UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"       ReplacesUnitType="UNIT_ARTILLERY"/>
 		<Row CivUniqueUnitType="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       ReplacesUnitType="UNIT_CAVALRY"/>
 		<Row CivUniqueUnitType="UNIT_HAG_JAPAN_ZERO"                    ReplacesUnitType="UNIT_FIGHTER"/>
-		<Row CivUniqueUnitType="UNIT_HAG_PORTUGAL_NAU"                  ReplacesUnitType="UNIT_CARAVEL"/>
 		<Row CivUniqueUnitType="UNIT_HAG_RUSSIAN_T34"                   ReplacesUnitType="UNIT_TANK"/>
 		<Row CivUniqueUnitType="UNIT_HAG_GERMANY_JU87"                  ReplacesUnitType="UNIT_BOMBER"/>
 		<Row CivUniqueUnitType="UNIT_HAG_AMERICAN_JAEGER"               ReplacesUnitType="UNIT_RANGER"/>
@@ -164,13 +155,6 @@
 			 CanCapture="False" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqTech="TECH_ADVANCED_FLIGHT" 
 			 Stackable="TRUE" PrereqDistrict="DISTRICT_AERODROME" CanTargetAir="TRUE"
 			 TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
-		<!-- ナウ船 -->
-		<Row UnitType="UNIT_HAG_PORTUGAL_NAU" Cost="240" Maintenance="4" BaseMoves="5" BaseSightRange="4" 
-			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55" 
-			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_PORTUGAL_NAU_NAME" Description="LOC_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_CARTOGRAPHY"
-			 TraitType="TRAIT_UNIT_HAG_PORTUGAL_NAU"/>
 		<!-- T-34 -->
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34" Cost="480" Maintenance="6" BaseMoves="4" BaseSightRange="2" 
 			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="85" StrategicResource="RESOURCE_OIL" 
@@ -245,8 +229,6 @@
 		<Row Unit="UNIT_HAG_MOROCCO_BERBERS_CAVALRY"       UpgradeUnit="UNIT_HELICOPTER"/>
 		<!-- 零戦：ジェット戦闘機 -->
 		<Row Unit="UNIT_HAG_JAPAN_ZERO"                    UpgradeUnit="UNIT_JET_FIGHTER"/>
-		<!-- ナウ船：装甲艦 -->
-		<Row Unit="UNIT_HAG_PORTUGAL_NAU"                  UpgradeUnit="UNIT_IRONCLAD"/>
 		<!-- T-34：近代的機甲部隊 -->
 		<Row Unit="UNIT_HAG_RUSSIAN_T34"                   UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<!-- Ju87：ジェット爆撃機 -->

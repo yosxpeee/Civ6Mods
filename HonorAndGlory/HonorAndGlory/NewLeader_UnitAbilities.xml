@@ -25,7 +25,6 @@
 		<!-- ユニークユニット -->
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                                 Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                                 Kind="KIND_ABILITY"/>
-		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"                                            Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"                                            Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                                         Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_UNIT_HAG_HUNS_TARKHAN"                                            Kind="KIND_ABILITY"/>
@@ -88,7 +87,6 @@
 		<!-- ユニークユニット -->
 		<Row Type="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                                 Tag="CLASS_HAG_YUGOSLAVIA_MOUNTAIN_GUN"/>
 		<Row Type="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                                 Tag="CLASS_HAG_MOROCCO_BERBERS_CAVALRY"/>
-		<Row Type="ABILITY_UNIT_HAG_PORTUGAL_NAU"                                            Tag="CLASS_HAG_PORTUGAL_NAU"/>
 		<Row Type="ABILITY_UNIT_HAG_GERMANY_JU87"                                            Tag="CLASS_HAG_GERMANY_JU87"/>
 		<Row Type="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                                         Tag="CLASS_HAG_AMERICAN_JAEGER"/>
 		<Row Type="ABILITY_UNIT_HAG_HUNS_TARKHAN"                                            Tag="CLASS_HAG_HUNS_TARKHAN"/>
@@ -119,7 +117,6 @@
 		<!-- ユニークユニット -->
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN"                                 Name="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_NAME"                                 Description="LOC_ABILITY_UNIT_HAG_YUGOSLAVIA_MOUNTAIN_GUN_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY"                                 Name="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_NAME"                                 Description="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION"/>
-		<Row UnitAbilityType="ABILITY_UNIT_HAG_PORTUGAL_NAU"                                            Name="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_NAME"                                            Description="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_GERMANY_JU87"                                            Name="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_NAME"                                            Description="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_AMERICAN_JAEGER"                                         Name="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_NAME"                                         Description="LOC_ABILITY_UNIT_HAG_AMERICAN_JAEGER_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_UNIT_HAG_HUNS_TARKHAN"                                            Name="LOC_ABILITY_UNIT_HAG_HUNS_TARKHAN_NAME"                                            Description="LOC_ABILITY_UNIT_HAG_HUNS_TARKHAN_DESCRIPTION"/>
@@ -224,18 +221,6 @@
 		<Row>
 			<UnitAbilityType>ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY</UnitAbilityType>
 			<ModifierId>COMBAT_BONUS_ADJECENT_DESERT_LEADER_HAG_MULAY_ISMAIL</ModifierId>
-		</Row>
-		<!-- ナウ船：陣形を組むと移動力を共有する -->
-		<Row>
-			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
-			<!-- インドネシアのジョングと同じ(Modifierのデータはバニラにある) -->
-			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
-		</Row>
-		<!-- ナウ船：4タイル以内の洋上にいる交易商ガード -->
-		<Row>
-			<UnitAbilityType>ABILITY_UNIT_HAG_PORTUGAL_NAU</UnitAbilityType>
-			<!-- GSのフェニキアのビレームと同じ -->
-			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId>
 		</Row>
 		<!-- Ju87：重騎兵と海洋遠距離に対し戦闘力+10 -->
 		<Row>

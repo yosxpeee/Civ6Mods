@@ -42,6 +42,9 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_GITARJA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_HOJO"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_JAYAVARMAN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_KUBLAI_KHAN_CHINA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_KUBLAI_KHAN_MONGOLIA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_LADY_TRIEU"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_QIN"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_SEONDEOK"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEastAsiaStandard_HAG.Civ6Map" LeaderType="LEADER_TOMYRIS"/>
@@ -62,6 +65,7 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_GORGO"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_HARDRADA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_JADWIGA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_JOAO_III"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_KRISTINA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_MATTHIAS_CORVINUS"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" LeaderType="LEADER_PERICLES"/>
@@ -105,7 +109,11 @@
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_JADWIGA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_JAYAVARMAN"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_JOHN_CURTIN"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_JOAO_III"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_KUBLAI_KHAN_CHINA"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_KUBLAI_KHAN_MONGOLIA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_LADY_SIX_SKY"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_LADY_TRIEU"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_MENELIK"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_MONTEZUMA"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEarthStandard_HAG.Civ6Map" LeaderType="LEADER_MVEMBA"/>
@@ -174,7 +182,7 @@
 		<!-- ヨーロッパ(GS) -->
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="1538" Type="LEADER" Value="LEADER_HAG_NAPOLEON"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="1302" Type="LEADER" Value="LEADER_HAG_TITO"/>
-		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="520"  Type="LEADER" Value="LEADER_HAG_MARIA_I"/>
+		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="521"  Type="LEADER" Value="LEADER_HAG_MARIA_I"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="2494" Type="LEADER" Value="LEADER_HAG_STALIN"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="2138" Type="LEADER" Value="LEADER_HAG_ADOLF_HITLER"/>
 		<Row Map="{a2e4a823-dfbd-4885-8df0-aa2dd5a49278}Maps/TSLEuropeStandard_HAG.Civ6Map" Plot="794"  Type="LEADER" Value="LEADER_HAG_MUSSOLINI"/>

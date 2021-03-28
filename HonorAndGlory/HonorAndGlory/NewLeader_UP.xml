@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
+	<!-- MEMO -->
+	<!-- 遷都は特殊なプロジェクトで、建物指定だけだと固有プロジェクトにならない。どうも区域に紐づいている模様。 -->
+	<!-- UnlockFromEffectをtrueに設定して固有化するModifierを用意し、指導者の特性で使用する必要がある。-->
+	<!-- Civilopediaでの表示が共通プロジェクトのような表示になってしまうが、仕方ない。 -->
+	<!-- ※カトリーヌ(麗)のプロジェクトも同じようなので、これでよしとする -->
 	<Types>
-		<Row Type="PROJECT_HAG_FEITORIA_CAPITAL_MOVE" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE" Kind="KIND_PROJECT"/>
+		<Row Type="MODIFIER_PLAYER_ALLOW_PROJECT_HAG_MARIA_I" Kind="KIND_MODIFIER"/>
 	</Types>
 	<Projects>
-		<Row ProjectType="PROJECT_HAG_FEITORIA_CAPITAL_MOVE" Name="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_NAME" ShortName="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_SHORT_NAME" 
-			 Description="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_DESCRIPTION" PrereqDistrict="DISTRICT_HAG_PORTUGAL_FEITORIA"
-			 Cost="100" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500"/>
+		<Row ProjectType="PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE" Name="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_NAME" ShortName="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_SHORT_NAME" 
+			 Description="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_DESCRIPTION" RequiredBuilding="BUILDING_NAVIGATION_SCHOOL"
+			 Cost="100" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" UnlocksFromEffect="true"/>
 	</Projects>
 	<Projects_XP2>
-		<Row ProjectType="PROJECT_HAG_FEITORIA_CAPITAL_MOVE" MaxSimultaneousInstances="1"/>
+		<Row ProjectType="PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE" MaxSimultaneousInstances="1"/>
 	</Projects_XP2>
 	<ProjectPrereqs>
 	</ProjectPrereqs>
@@ -25,4 +31,11 @@
 	</Modifiers>
 	<ModifierArguments>
 	</ModifierArguments>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_HAG_MARIA_I</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY</EffectType>
+		</Row>
+	</DynamicModifiers>
 </GameInfo>

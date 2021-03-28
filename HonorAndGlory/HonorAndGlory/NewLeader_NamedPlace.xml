@@ -19,9 +19,6 @@
 		<Row Type="NAMED_HAG_RIVER_NERETVA_RIVER"      Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_KRKA_RIVER"         Kind="KIND_NAMED_RIVER"/>
 		<Row Type="NAMED_HAG_RIVER_DRAGONJA_RIVER"     Kind="KIND_NAMED_RIVER"/>
-		<!-- コロンビア -->
-		<Row Type="NAMED_HAG_RIVER_TAJO_RIVER"         Kind="KIND_NAMED_RIVER"/>
-		<Row Type="NAMED_HAG_RIVER_MONDEGO_RIVER"      Kind="KIND_NAMED_RIVER"/>
 		<!-- フン族 -->
 		<Row Type="NAMED_HAG_RIVER_KAMA_RIVER"         Kind="KIND_NAMED_RIVER"/>
 		<!-- マダガスカル -->
@@ -67,7 +64,9 @@
 		<Row Type="NAMED_HAG_LAKE_SKADAR_LAKE"            Kind="KIND_NAMED_LAKE"/>
 		<Row Type="NAMED_HAG_LAKE_PALIC_LAKE"             Kind="KIND_NAMED_LAKE"/>
 		<!-- ポルトガル -->
+		<!--
 		<Row Type="NAMED_HAG_LAKE_SANTO_ANDRE_LAKE"       Kind="KIND_NAMED_LAKE"/>
+		-->
 		<!-- フン族 -->
 		<Row Type="NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE"     Kind="KIND_NAMED_LAKE"/>
 		<Row Type="NAMED_HAG_LAKE_TSIMLYANSK_LAKE"        Kind="KIND_NAMED_LAKE"/>
@@ -101,9 +100,6 @@
 		<Row NamedRiverType="NAMED_HAG_RIVER_NERETVA_RIVER"         Name="LOC_NAMED_HAG_RIVER_NERETVA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_KRKA_RIVER"            Name="LOC_NAMED_HAG_RIVER_KRKA_RIVER_NAME"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_DRAGONJA_RIVER"        Name="LOC_NAMED_HAG_RIVER_DRAGONJA_RIVER_NAME"/>
-		<!-- コロンビア -->
-		<Row NamedRiverType="NAMED_HAG_RIVER_TAJO_RIVER"            Name="LOC_NAMED_HAG_RIVER_TAJO_RIVER_NAME"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_MONDEGO_RIVER"         Name="LOC_NAMED_HAG_RIVER_MONDEGO_RIVER_NAME"/>
 		<!-- フン族 -->
 		<Row NamedRiverType="NAMED_HAG_RIVER_KAMA_RIVER"            Name="LOC_NAMED_HAG_RIVER_KAMA_RIVER_NAME"/>
 		<!-- マダガスカル -->
@@ -155,7 +151,9 @@
 		<Row NamedLakeType="NAMED_HAG_LAKE_SKADAR_LAKE"             Name="LOC_NAMED_HAG_LAKE_SKADAR_LAKE_NAME"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_PALIC_LAKE"              Name="LOC_NAMED_HAG_LAKE_PALIC_LAKE_NAME"/>
 		<!-- ポルトガル -->
+		<!--
 		<Row NamedLakeType="NAMED_HAG_LAKE_SANTO_ANDRE_LAKE"        Name="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME"/>
+		-->
 		<!-- フン族 -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE"      Name="LOC_NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE_NAME"/>
 		<Row NamedLakeType="NAMED_HAG_LAKE_TSIMLYANSK_LAKE"         Name="LOC_NAMED_HAG_LAKE_TSIMLYANSK_LAKE_NAME"/>
@@ -192,10 +190,6 @@
 		<Row NamedRiverType="NAMED_HAG_RIVER_OUM_ER_RBIA_RIVER"     CivilizationType="CIVILIZATION_HAG_MOROCCO"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_SEBOU_RIVER"           CivilizationType="CIVILIZATION_HAG_MOROCCO"/>
 		<Row NamedRiverType="NAMED_HAG_RIVER_MOULOUYA_RIVER"        CivilizationType="CIVILIZATION_HAG_MOROCCO"/>
-		<!-- ポルトガル -->
-		<Row NamedRiverType="NAMED_RIVER_DOURO_RIVER"               CivilizationType="CIVILIZATION_HAG_PORTUGAL"/><!-- 既存 -->
-		<Row NamedRiverType="NAMED_HAG_RIVER_TAJO_RIVER"            CivilizationType="CIVILIZATION_HAG_PORTUGAL"/>
-		<Row NamedRiverType="NAMED_HAG_RIVER_MONDEGO_RIVER"         CivilizationType="CIVILIZATION_HAG_PORTUGAL"/>
 		<!-- イタリア -->
 		<Row NamedRiverType="NAMED_RIVER_ARNO_RIVER"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedRiverType="NAMED_RIVER_OFANTO_RIVER"              CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
@@ -300,8 +294,6 @@
 		<Row NamedLakeType="NAMED_HAG_LAKE_PALIC_LAKE"              CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA"/>
 		<!-- モロッコ -->
 		<Row NamedLakeType="NAMED_HAG_LAKE_DAYET_SRIJI_LAKE"        CivilizationType="CIVILIZATION_HAG_MOROCCO"/>
-		<!-- ポルトガル -->
-		<Row NamedLakeType="NAMED_HAG_LAKE_SANTO_ANDRE_LAKE"        CivilizationType="CIVILIZATION_HAG_PORTUGAL"/>
 		<!-- イタリア -->
 		<Row NamedLakeType="NAMED_LAKE_LAKE_BENACUS"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->
 		<Row NamedLakeType="NAMED_LAKE_LAKE_BOLSENA"                CivilizationType="CIVILIZATION_HAG_ITALY"/><!-- 既存 -->

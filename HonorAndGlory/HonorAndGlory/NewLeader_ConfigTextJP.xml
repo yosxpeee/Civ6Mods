@@ -49,22 +49,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="ja_JP">
 			<Text>[ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+3、[ICON_Culture] 文化力+1。他文明の都市を起点とする [ICON_TradeRoute] 交易路により、自分の [ICON_FOOD] 食糧+2。他文明の [ICON_TradeRoute] 交易路でモロッコとの交易がおこなわれた場合、その文明に [ICON_Gold] ゴールド+2。</Text>
 		</Row>
-		<!-- 文明(ポルトガル) -->
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_NAME" Language="ja_JP">
-			<Text>ポルトガル帝国</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="ja_JP">
-			<Text>ポルトガル帝国</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_ADJECTIVE" Language="ja_JP">
-			<Text>ポルトガル帝国の</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME" Language="ja_JP">
-			<Text>海上帝国</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="ja_JP">
-			<Text>すべての都市国家の国境が開放される。自文明の首都が存在しない大陸で都市を最初に建設するたびに [ICON_TradeRoute] 交易路の上限が1つ増える。</Text>
-		</Row>
 		<!-- 文明(イタリア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="ja_JP">
 			<Text>イタリア</Text>
@@ -204,7 +188,7 @@
 			<Text>敬虔女王</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="ja_JP">
-			<Text>自分が築いたフェイトリアがある都市に元々の [ICON_Capital] 首都を移すことができる (新たな首都にしたい都市で固有のプロジェクトを完了すること)。自文明の首都が存在しない大陸に都市を建造すると、その都市は毎ターン忠誠心+4。</Text>
+			<Text>自分が築いた航海術学校がある都市に元々の [ICON_Capital] 首都を移すことができる (新たな首都にしたい都市で固有のプロジェクトを完了すること)。起点の都市にある沿岸タイル1つにつき、国家間にまたがる [ICON_TradeRoute] 交易路の [ICON_GOLD] ゴールド+1。すべての都市国家の国境が開放される。</Text>
 		</Row>
 		<!-- 指導者(スターリン) -->
 		<Row Tag="LOC_LEADER_HAG_STALIN_NAME" Language="ja_JP">
@@ -338,19 +322,6 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_JAPAN_ZERO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>第二次世界大戦中に日本が使用した戦闘機。空母から戦えるように設計されており、第二次世界大戦の開戦当初は世界最高の艦上戦闘機であった。機動力と航続距離の長さから零戦は格闘戦に優れており、性能で劣るアメリカ軍機やイギリス軍機をいとも簡単に倒すことができた。戦争が進むにつれ、連合国の戦闘機が劇的に進化を遂げる一方で、日本空軍は深刻さを増す材料と人員の不足に苦しんでいた。そして戦争終結時までに零戦は完敗を喫したのである。しかしその絶頂期には、零戦は実に素晴らしい戦闘機であり、広大な太平洋劇場を支配していたのである。</Text>
-		</Row>
-		<!-- UU(ナウ船) -->
-		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_NAME" Language="ja_JP">
-			<Text>ナウ船</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" Language="ja_JP">
-			<Text>ルネサンス時代のポルトガル帝国固有のユニット。キャラベルに取って代わる。[ICON_Movement] 移動力+1、視界+1。すべての陣形ユニットは護衛の [ICON_Movement] 移動速度を継承する。ナウ船の4タイル以内にいる交易商ユニットは、水域タイルで略奪を受けない。</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_UNIT_HAG_PORTUGAL_NAU_NAME" Language="ja_JP">
-			<Text>ポルトガル帝国固有のユニット: ナウ船</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_PORTUGAL_NAU_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>15世紀に地中海で開発されたキャラック船という種類の帆船。ポルトガルでは「ナウ」と呼ばれる。乗員、物資、貨物を運ぶための豊富なスペースを有していたことから、貿易船として都合が良く、貨物と物資の積載能力が高かったため、航行期間を長期化でき、より少ない寄港による効率的な航海ルートを選択することもできた。 </Text>
 		</Row>
 		<!-- UU(T-34) -->
 		<Row Tag="LOC_UNIT_HAG_RUSSIAN_T34_NAME" Language="ja_JP">
@@ -513,40 +484,6 @@
 			<Text>酒の歴史は古く、有史以前から作られていたと見られている。その中でも発酵作用を利用して作られるものを醸造酒と呼び、それを作る場所は醸造所と呼ばれる。また、ビールを作る醸造所をブルワリー、ワインを作る醸造所をワイナリーと呼ぶ。（日本酒の醸造所、酒造場もブルワリーに含まれる）</Text>
 		</Row>
 		
-		<!-- UD(フェイトリア) -->
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
-			<Text>フェイトリア</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="ja_JP">
-			<Text>ポルトガル帝国固有の区域。兵営に取って代わる。[ICON_Amenities] 快適性+1。周辺のアピールを下げない。隣接する沿岸タイル2つごとに [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接する港、運河から [ICON_Food] 食糧+1、[ICON_Production] 生産力+1。隣接するプランテーション、鉱山から [ICON_Gold] ゴールド+1。</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="ja_JP">
-			<Text>ポルトガル帝国固有の区域: フェイトリア</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>ポルトガルの交易所と要塞の機能を兼ね備えた施設で、西アフリカと東アフリカの海岸沿いの沿岸地域、インド洋、ブラジルに建てられている。交易所としての機能以外にも、市場、倉庫、交通案内所、税関として機能していた。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION" Language="ja_JP">
-			<Text>隣接する沿岸タイル2つごとに [ICON_Production] 生産力+{1_num}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_FOOD" Language="ja_JP">
-			<Text>隣接する沿岸タイル2つごとに [ICON_Food] 食糧+{1_num}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_PRODUCTION" Language="ja_JP">
-			<Text>隣接する港区域により [ICON_Production] 生産力+{1_num}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_FOOD" Language="ja_JP">
-			<Text>隣接する港区域により [ICON_Food] 食糧+{1_num}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_CANAL_PRODUCTION" Language="ja_JP">
-			<Text>隣接する運河区域により [ICON_Production] 生産力+{1_num}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_CANAL_FOOD" Language="ja_JP">
-			<Text>隣接する運河区域により [ICON_Food] 食糧+{1_num}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="ja_JP">
-			<Text>隣接するプランテーションにより [ICON_Gold] ゴールド+{1_num}。</Text>
-		</Row>
 		<!-- UD(フク) -->
 		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Language="ja_JP">
 			<Text>フク</Text>

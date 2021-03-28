@@ -339,15 +339,24 @@
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_ADJUST_WAR_WEARINESS</ModifierId>
 		</Row>
 		<!-- マリア1世 -->
-		<!-- フェイトリアのある都市へ遷都できる -->
-		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
+		<!-- 航海術学校のある都市へ遷都できる -->
+		<!-- 国外交易路の起点となる都市に存在する沿岸タイル1つにつきゴールド+1 -->
+		<!-- 都市国家の国境が解放済みになる -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ALLOW_PROJECT</ModifierId>
+		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_INTERNATIONAL_TRADE_ROUTE_GOLD_COAST_ORIGIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
+			<ModifierId>GUNBOATDIPLOMACY_OPENBORDERS</ModifierId><!-- 社会政策の砲艦外交にある -->
 		</Row>
 		<!-- スターリン -->
 		<!-- 戦略資源の生産力+1 -->
@@ -690,16 +699,20 @@
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_ADJUST_WAR_WEARINESS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
 		</Row>
-		<!-- フェイトリアのある都市へ遷都できる -->
+		
+		<!-- 航海術学校のある都市へ遷都できる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ALLOW_PROJECT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_HAG_MARIA_I</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_CAPITAL</ModifierType>
 		</Row>
-		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
+		<!-- 国外交易路の起点となる都市に存在する沿岸タイル1つにつきゴールド+1 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
-			<SubjectRequirementSetId>CITY_FOUNDED_ON_NON_HOME_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_INTERNATIONAL_TRADE_ROUTE_GOLD_COAST_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_INTERNATIONAL</ModifierType>
 		</Row>
 		
 		<!-- ウランの生産力+1 -->
@@ -1112,17 +1125,37 @@
 			<Value>true</Value>
 		</Row>
 		
-		<!-- フェイトリアのある都市へ遷都できる -->
+		<!-- 航海術学校のある都市へ遷都できる -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ALLOW_PROJECT</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE</Value>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
 			<Name>ProjectType</Name>
-			<Value>PROJECT_HAG_FEITORIA_CAPITAL_MOVE</Value>
+			<Value>PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE</Value>
 		</Row>
-		<!-- 首都のない大陸で建築した都市は忠誠心+4 -->
+		<!--  国外交易路の起点となる都市に存在する沿岸タイル1つにつきゴールド+1 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ADDITIONAL_IDENTITY_CITY_FOUNDED_ON_NON_HOME_CONTINENT</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_INTERNATIONAL_TRADE_ROUTE_GOLD_COAST_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_INTERNATIONAL_TRADE_ROUTE_GOLD_COAST_ORIGIN</ModifierId>
 			<Name>Amount</Name>
-			<Value>4</Value>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_INTERNATIONAL_TRADE_ROUTE_GOLD_COAST_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_INTERNATIONAL_TRADE_ROUTE_GOLD_COAST_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
 		</Row>
 		
 		<!-- ウランの生産力+1 -->
@@ -2007,7 +2040,6 @@
 		<Row ListType="HAGHidekiTojoCulture"      Item="YIELD_CULTURE"                  Value="7"/>
 		<!-- マリア1世 -->
 		<Row ListType="HAGMariaIDistrict"         Item="DISTRICT_COMMERCIAL_HUB"        Favored="true"/><!-- 商業ハブ -->
-		<Row ListType="HAGMariaIDistrict"         Item="DISTRICT_HAG_PORTUGAL_FEITORIA" Favored="true"/><!-- フェイトリア -->
 		<Row ListType="HAGMariaICivics"           Item="CIVIC_MEDIEVAL_FAIRES"          Favored="true"/><!-- 中世の市 -->
 		<Row ListType="HAGMariaICivics"           Item="CIVIC_GUILDS"                   Favored="true"/><!-- ギルド -->
 		<Row ListType="HAGMariaICivics"           Item="CIVIC_MERCANTILISM"             Favored="true"/><!-- 重商主義 -->

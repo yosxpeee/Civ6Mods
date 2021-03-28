@@ -35,17 +35,6 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO64.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO80.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_MOROCCO256.dds"/>
-		<!-- ポルトガル -->
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL22.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL30.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL36.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL44.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL45.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL48.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL50.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL64.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL80.dds"/>
-		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_PORTUGAL256.dds"/>
 		<!-- イタリア -->
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY22.dds"/>
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAG_ITALY" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAG_ITALY30.dds"/>
@@ -351,13 +340,6 @@
 		<Row Name="ICON_ATLAS_UNIT_HAG_JAPAN_ZERO" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_JAPAN_ZERO50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_JAPAN_ZERO" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_JAPAN_ZERO80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_JAPAN_ZERO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_JAPAN_ZERO256.dds"/>
-		<!-- ナウ船 -->
-		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU22.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU32.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU38.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU50.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU80.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_PORTUGAL_NAU256.dds"/>
 		<!-- カラビニエリ -->
 		<Row Name="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ITALY_CARABINIERI22.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAG_ITALY_CARABINIERI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAG_ITALY_CARABINIERI32.dds"/>
@@ -506,8 +488,6 @@
 		<Row Name="ICON_CIVILIZATION_HAG_YUGOSLAVIA"          Atlas="ICON_ATLAS_CIVILIZATION_HAG_YUGOSLAVIA"          Index="0"/>
 		<!-- モロッコ王国 -->
 		<Row Name="ICON_CIVILIZATION_HAG_MOROCCO"             Atlas="ICON_ATLAS_CIVILIZATION_HAG_MOROCCO"             Index="0"/>
-		<!-- ポルトガル帝国 -->
-		<Row Name="ICON_CIVILIZATION_HAG_PORTUGAL"            Atlas="ICON_ATLAS_CIVILIZATION_HAG_PORTUGAL"            Index="0"/>
 		<!-- イタリア -->
 		<Row Name="ICON_CIVILIZATION_HAG_ITALY"               Atlas="ICON_ATLAS_CIVILIZATION_HAG_ITALY"               Index="0"/>
 		<!-- ソ連 -->
@@ -605,16 +585,6 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAG_JAPAN_ZERO_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="13"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_JAPAN_ZERO_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="13"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAG_JAPAN_ZERO_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="13"/>
-		<!-- ナウ船(ポートレイトはキャラベルの使いまわし) -->
-		<Row Name="ICON_UNIT_HAG_PORTUGAL_NAU"                            Atlas="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU"         Index="0"/>
-		<Row Name="ICON_UNIT_HAG_PORTUGAL_NAU_FOW"                        Atlas="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU"         Index="0"/>
-		<Row Name="ICON_UNIT_HAG_PORTUGAL_NAU_WHITE"                      Atlas="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU"         Index="0"/>
-		<Row Name="ICON_UNIT_HAG_PORTUGAL_NAU_BLACK"                      Atlas="ICON_ATLAS_UNIT_HAG_PORTUGAL_NAU"         Index="0"/>
-		<Row Name="ICON_UNIT_HAG_PORTUGAL_NAU_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="53"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAG_PORTUGAL_NAU_PORTRAIT"   Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="53"/>
-		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_HAG_PORTUGAL_NAU_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="53"/>
-		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_HAG_PORTUGAL_NAU_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="53"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAG_PORTUGAL_NAU_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="53"/>
 		<!-- T-34(ポートレイトは戦車の使いまわし) -->
 		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34"                                   Atlas="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34"            Index="0"/>
 		<Row Name="ICON_UNIT_HAG_RUSSIAN_T34_FOW"                               Atlas="ICON_ATLAS_UNIT_HAG_RUSSIAN_T34"            Index="0"/>
@@ -717,10 +687,6 @@
 		<Row Name="ICON_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY"     Atlas="ICON_ATLAS_BUILDINGS"     Index="3"/>
 		<Row Name="ICON_BUILDING_HAG_REPUBLIC_OF_PIRATES_BREWERY_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="3"/>
 		
-		<!-- UD -->
-		<!-- フェイトリア(兵営の使いまわし) -->
-		<Row Name="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA"     Atlas="ICON_ATLAS_DISTRICTS"     Index="3"/>
-		<Row Name="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="3"/>
 		<!-- フク(近郊部の使いまわし) -->
 		<Row Name="ICON_DISTRICT_HAG_MADAGASCAR_FOKO"     Atlas="ICON_ATLAS_DISTRICTS"     Index="10"/>
 		<Row Name="ICON_DISTRICT_HAG_MADAGASCAR_FOKO_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="10"/>
@@ -739,7 +705,7 @@
 		
 		<!-- UP -->
 		<!-- 遷都(フェニキアの遷都プロジェクト使いまわし) -->
-		<Row Name="ICON_PROJECT_HAG_FEITORIA_CAPITAL_MOVE" Atlas="ICON_HAG_ATLAS_XP2_PROJECTS" Index="5"/>
+		<Row Name="ICON_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE" Atlas="ICON_HAG_ATLAS_XP2_PROJECTS" Index="5"/>
 
 		<!-- 宗教 -->
 		<!-- ジャイナ教 -->

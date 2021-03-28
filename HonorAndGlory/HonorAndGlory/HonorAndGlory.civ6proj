@@ -12,7 +12,7 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File><File>NewLeader_NamedPlace.xml</File><File>NewLeader_CityStates.xml</File><File>NewLeader_Agendas.xml</File><File>NewLeader_GreatPirates.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_DiplomacyInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_HidekiTojo_Zero.dds</File><File>Textures/Moment_Religion_HAG_Nestorianism.dds</File><File>Textures/Moment_Religion_HAG_IPU.dds</File><File>Textures/Moment_Religion_HAG_Pastafarianism.dds</File><File>Textures/MariaI_LoadingInfo_Foreground.dds</File><File>Textures/MariaI_DiplomacyInfo_Background.dds</File><File>Textures/MariaI_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Portugal_Feitoria.dds</File><File>Textures/Stalin_DiplomacyInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_StalinT34.dds</File><File>Textures/Moment_HAG_Morocco_BerbersCavalry.dds</File><File>Textures/Hitler_DiplomacyInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_AdolfHitler_Ju87.dds</File><File>Textures/Mussolini_DiplomacyInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Foreground.dds</File><File>Maps/TSLEastAsiaStandard_HAG.Civ6Map</File><File>Maps/TSLEastAsiaStandard_HAG.lua</File><File>Maps/TSLEuropeStandard_HAG.Civ6Map</File><File>Maps/TSLEuropeStandard_HAG.lua</File><File>Textures/Moment_HAG_USSR_SpaceLabo.dds</File><File>Textures/Truman_DiplomacyInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_ChurchillSwordfish.dds</File><File>Textures/Churchill_DiplomacyInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Foreground.dds</File><File>Textures/Attila_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Huns_Tarkhan.dds</File><File>Textures/Moment_HAG_Huns_Yurt.dds</File><File>Textures/Attila_DiplomacyInfo_Background.dds</File><File>Textures/Attila_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Portugal_Nau.dds</File><File>Textures/Moment_HAG_Morocco_Casbah.dds</File><File>Textures/Moment_HAG_Italy_Duomo.dds</File><File>Textures/Moment_HAG_Truman_Jaeger.dds</File><File>Textures/Moment_HAG_Timurid_Arban.dds</File><File>Textures/Moment_HAG_Italy_Carabinieri.dds</File><File>Textures/RadamaI_DiplomacyInfo_Background.dds</File><File>Textures/RadamaI_LoadingInfo_Background.dds</File><File>Textures/RadamaI_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Madagascar_foko.dds</File><File>Textures/Moment_HAG_Madagascar_Rova.dds</File><File>Textures/Moment_HAG_Madagascar_Hova.dds</File><File>Textures/EdwardTeach_DiplomacyInfo_Background.dds</File><File>Textures/EdwardTeach_LoadingInfo_Background.dds</File><File>Textures/EdwardTeach_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_RepublicOfPirates_GreatPirates.dds</File><File>Textures/Moment_HAG_RepublicOfPirates_Brewery.dds</File><File>Textures/Moment_HAG_RepublicOfPirates_Buccaneer.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors><AddGameplayScripts id="GameplayScripts"><File priority="1">Lua/HAGAttilaTraits.lua</File><File priority="1">Lua/HAGCityNameHuns.lua</File></AddGameplayScripts><AddUserInterfaces id="UI"><Properties><Context>InGame</Context></Properties><File>Lua/HAGAttilaUIScript.xml</File></AddUserInterfaces><ImportFiles id="UIScripts"><File>Lua/HAGAttilaUIScript.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Leaders.xml</File><File>NewLeader_Civilizations.xml</File><File>NewLeader_UB.xml</File><File>NewLeader_UD.xml</File><File>NewLeader_UP.xml</File><File>NewLeader_UU.xml</File><File>NewLeader_UI.xml</File><File>NewLeader_Moments.xml</File><File>NewLeader_LeaderAnimations.xml</File><File>NewLeader_UnitAbilities.xml</File><File>NewLeader_Delete.xml</File><File>NewLeader_GreatGeneral.xml</File><File>NewLeader_Religion.xml</File><File>NewLeader_NamedPlace.xml</File><File>NewLeader_CityStates.xml</File><File>NewLeader_Agendas.xml</File><File>NewLeader_GreatPirates.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File><File>NewLeader_Dialogs.xml</File><File>NewLeader_DialogsJP.xml</File><File>NewLeader_ConfigTextJP.xml</File><File>NewLeader_TextJP.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><ImportFiles id="Import"><File>Textures/Napoleon_LoadingInfo_Foreground.dds</File><File>Textures/Napoleon_DiplomacyInfo_Background.dds</File><File>Textures/Napoleon_LoadingInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Foreground.dds</File><File>Textures/Timur_DiplomacyInfo_Background.dds</File><File>Textures/Timur_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Timurid_Observatory.dds</File><File>Textures/Tito_DiplomacyInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Background.dds</File><File>Textures/Tito_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Yugoslavia_M48.dds</File><File>Textures/Moment_HAG_Yugoslavia_Stecci.dds</File><File>Textures/Moment_Religion_HAG_Jainism.dds</File><File>Textures/Moment_Religion_HAG_Manichaeism.dds</File><File>Textures/Moment_Religion_HAG_BahaiFaith.dds</File><File>Textures/MulayIsmail_LoadingInfo_Foreground.dds</File><File>Textures/MulayIsmail_DiplomacyInfo_Background.dds</File><File>Textures/MulayIsmail_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_DiplomacyInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Background.dds</File><File>Textures/HidekiTojo_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_HidekiTojo_Zero.dds</File><File>Textures/Moment_Religion_HAG_Nestorianism.dds</File><File>Textures/Moment_Religion_HAG_IPU.dds</File><File>Textures/Moment_Religion_HAG_Pastafarianism.dds</File><File>Textures/MariaI_LoadingInfo_Foreground.dds</File><File>Textures/MariaI_DiplomacyInfo_Background.dds</File><File>Textures/MariaI_LoadingInfo_Background.dds</File><File>Textures/Stalin_DiplomacyInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Background.dds</File><File>Textures/Stalin_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_StalinT34.dds</File><File>Textures/Moment_HAG_Morocco_BerbersCavalry.dds</File><File>Textures/Hitler_DiplomacyInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Background.dds</File><File>Textures/Hitler_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_AdolfHitler_Ju87.dds</File><File>Textures/Mussolini_DiplomacyInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Background.dds</File><File>Textures/Mussolini_LoadingInfo_Foreground.dds</File><File>Maps/TSLEastAsiaStandard_HAG.Civ6Map</File><File>Maps/TSLEastAsiaStandard_HAG.lua</File><File>Maps/TSLEuropeStandard_HAG.Civ6Map</File><File>Maps/TSLEuropeStandard_HAG.lua</File><File>Textures/Moment_HAG_USSR_SpaceLabo.dds</File><File>Textures/Truman_DiplomacyInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Background.dds</File><File>Textures/Truman_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_ChurchillSwordfish.dds</File><File>Textures/Churchill_DiplomacyInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Background.dds</File><File>Textures/Churchill_LoadingInfo_Foreground.dds</File><File>Textures/Attila_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Huns_Tarkhan.dds</File><File>Textures/Moment_HAG_Huns_Yurt.dds</File><File>Textures/Attila_DiplomacyInfo_Background.dds</File><File>Textures/Attila_LoadingInfo_Background.dds</File><File>Textures/Moment_HAG_Morocco_Casbah.dds</File><File>Textures/Moment_HAG_Italy_Duomo.dds</File><File>Textures/Moment_HAG_Truman_Jaeger.dds</File><File>Textures/Moment_HAG_Timurid_Arban.dds</File><File>Textures/Moment_HAG_Italy_Carabinieri.dds</File><File>Textures/RadamaI_DiplomacyInfo_Background.dds</File><File>Textures/RadamaI_LoadingInfo_Background.dds</File><File>Textures/RadamaI_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_Madagascar_foko.dds</File><File>Textures/Moment_HAG_Madagascar_Rova.dds</File><File>Textures/Moment_HAG_Madagascar_Hova.dds</File><File>Textures/EdwardTeach_DiplomacyInfo_Background.dds</File><File>Textures/EdwardTeach_LoadingInfo_Background.dds</File><File>Textures/EdwardTeach_LoadingInfo_Foreground.dds</File><File>Textures/Moment_HAG_RepublicOfPirates_GreatPirates.dds</File><File>Textures/Moment_HAG_RepublicOfPirates_Brewery.dds</File><File>Textures/Moment_HAG_RepublicOfPirates_Buccaneer.dds</File></ImportFiles><UpdateColors id="Colors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors><AddGameplayScripts id="GameplayScripts"><File priority="1">Lua/HAGAttilaTraits.lua</File><File priority="1">Lua/HAGCityNameHuns.lua</File></AddGameplayScripts><AddUserInterfaces id="UI"><Properties><Context>InGame</Context></Properties><File>Lua/HAGAttilaUIScript.xml</File></AddUserInterfaces><ImportFiles id="UIScripts"><File>Lua/HAGAttilaUIScript.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File><File>NewLeader_Maps.xml</File><File>NewLeader_CityStatesFrontEnd.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File><File>NewLeader_ConfigTextJP.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>NewLeader_CoreColors.xml</File><File>NewLeader_PlayerColors.xml</File></UpdateColors><UpdateDatabase id="ConfigYnAmp"><Properties><LoadOrder>1000</LoadOrder></Properties><File>NewLeader_ConfigYnAmp.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria>
             <Criteria id="LeaderCriteria">
@@ -40,6 +40,7 @@
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
   <Dependency type="Dlc" title="DLC: Khmer and Indonesia Civilization Pack" id="1F367231-A040-4793-BDBB-088816853683" />
+  <Dependency type="Dlc" title="DLC: Portugal Pack" id="FFDF4E79-DEE2-47BB-919B-F5739106627A" />
 </Associations>]]></AssociationData>
     <Authors>yosxpeee</Authors>
   </PropertyGroup>
@@ -449,114 +450,6 @@
     <Content Include="Animations\u_morocco_berber_victory.fgx">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Animations\u_portugal_carrack_attacka.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_attacka.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_attackb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_attackb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_bombard_defense.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_bombard_defense.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_bombard_defense_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_bombard_defense_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_bombard_defense_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_bombard_defense_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_combat_ready.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_combat_ready.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_combat_ready_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_combat_ready_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_deatha.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_deatha.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_deatha_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_deatha_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_fortify.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_fortify.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_fortify_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_fortify_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_fortify_idle_trans_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_fortify_idle_trans_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_fortify_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_fortify_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_stop_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_stop_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_victory.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\u_portugal_carrack_victory.fgx">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="ArtDefs\Buildings.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -594,45 +487,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Barbarian_Galley.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Ancient_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Ancient_Base_02.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Classical_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Classical_Base_02.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Classical_Base_03.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Industrial_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Industrial_Base_02.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Industrial_Base_03.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Industrial_Base_04.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Modern_Base_01.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Modern_Base_02.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Modern_Base_03.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\DIS_Feitoria_Modern_Base_04.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\HAG_YurtParts.ast">
@@ -704,9 +558,6 @@
     <Content Include="Assets\U_Morocco_Berber.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\U_Portugal_Carrack.ast">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Geometries\barbarian_galley.fgx">
       <SubType>Content</SubType>
     </Content>
@@ -759,12 +610,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\u_morocco_berber.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\u_portugal_carrack.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\u_portugal_carrack.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Lua\HAGAttilaTraits.lua">
@@ -852,12 +697,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\U_Morocco_Berber_Warrior_DIFF.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\U_Portugal_Carrack_DAMG_DIFF.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\U_Portugal_Carrack_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="NewLeader_Agendas.xml">
@@ -1422,66 +1261,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_MOROCCO80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL22.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL30.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL30.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL36.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL36.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL44.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL44.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL45.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL45.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL48.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL48.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL50.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL64.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL64.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL80.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_CIVILIZATION_HAG_PORTUGAL80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIVILIZATION_HAG_REPUBLIC_OF_PIRATES22.DDS">
@@ -2876,42 +2655,6 @@
     <Content Include="Textures\ICON_UNIT_HAG_MOROCCO_BERBERS_CAVALRY80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU22.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU32.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU38.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU50.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU80.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAG_PORTUGAL_NAU80.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -3183,12 +2926,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Moment_HAG_Morocco_Casbah.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Moment_HAG_Portugal_Feitoria.dds">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\Moment_HAG_Portugal_Nau.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Moment_HAG_RepublicOfPirates_Brewery.dds">
@@ -3723,36 +3460,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\u_morocco_berber_warrior_sref.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_damg_diff.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_damg_diff.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_damg_diff_t.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_damg_diff_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_diff.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_diff.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_diff_t.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_diff_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_sref.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\u_portugal_carrack_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\White_AO.dds">

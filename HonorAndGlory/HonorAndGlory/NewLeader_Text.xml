@@ -200,9 +200,6 @@
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_MOROCCO_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_PORTUGAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text>Civilization specific historical text</Text>
-		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_HAG_ITALY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Civilization specific historical text</Text>
 		</Row>
@@ -300,34 +297,6 @@
 		</Row>
 		<Row Tag="LOC_CITIZEN_HAG_MOROCCO_FEMALE_5" Language="en_US">
 			<Text>Nadia</Text>
-		</Row>
-		<!-- ポルトガル -->
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_1" Language="en_US">
-			<Text>Silvinho</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_2" Language="en_US">
-			<Text>Anderson</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_3" Language="en_US">
-			<Text>Danilo</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_MALE_4" Language="en_US">
-			<Text>Norbert</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_1" Language="en_US">
-			<Text>Valentina</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_2" Language="en_US">
-			<Text>Manuela</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_3" Language="en_US">
-			<Text>Beatriz</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_4" Language="en_US">
-			<Text>Yasmin</Text>
-		</Row>
-		<Row Tag="LOC_CITIZEN_HAG_PORTUGAL_FEMALE_5" Language="en_US">
-			<Text>Pietra</Text>
 		</Row>
 		<!-- イタリア -->
 		<Row Tag="LOC_CITIZEN_HAG_ITALY_MALE_1" Language="en_US">
@@ -770,122 +739,6 @@
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_HAG_MOROCCO_CITY_31" Language="en_US">
 			<Text>Merzouga</Text>
-		</Row>
-		<!-- ポルトガル -->
-		<!-- 現在のポルトガルの都市名から -->
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_1" Language="en_US">
-			<Text>Lisbon</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_2" Language="en_US">
-			<Text>Porto</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_3" Language="en_US">
-			<Text>Vila Nova de Gaia</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_4" Language="en_US">
-			<Text>Amadora</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_5" Language="en_US">
-			<Text>Braga</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_6" Language="en_US">
-			<Text>Coimbra</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_7" Language="en_US">
-			<Text>Funchal</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_8" Language="en_US">
-			<Text>Almada</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_9" Language="en_US">
-			<Text>Setubal</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_10" Language="en_US">
-			<Text>Agualva-Cacem</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_11" Language="en_US">
-			<Text>Barreiro</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_12" Language="en_US">
-			<Text>Queluz</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_13" Language="en_US">
-			<Text>Aveiro</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_14" Language="en_US">
-			<Text>Guimaraes</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_15" Language="en_US">
-			<Text>Viseu</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_16" Language="en_US">
-			<Text>Rio Tinto</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_17" Language="en_US">
-			<Text>Odivelas</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_18" Language="en_US">
-			<Text>Leiria</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_19" Language="en_US">
-			<Text>Matosinhos</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_20" Language="en_US">
-			<Text>Amora</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_21" Language="en_US">
-			<Text>Evora</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_22" Language="en_US">
-			<Text>Ponta Delgada</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_23" Language="en_US">
-			<Text>Portimao</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_24" Language="en_US">
-			<Text>Faro</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_25" Language="en_US">
-			<Text>Ermesinde</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_26" Language="en_US">
-			<Text>Maia</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_27" Language="en_US">
-			<Text>Povoa de Varzim</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_28" Language="en_US">
-			<Text>Viana do Castelo</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_29" Language="en_US">
-			<Text>Figueira da Foz</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_30" Language="en_US">
-			<Text>Covilha</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_31" Language="en_US">
-			<Text>Castelo Branco</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_32" Language="en_US">
-			<Text>Guarda</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_33" Language="en_US">
-			<Text>Vila do Conde</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_34" Language="en_US">
-			<Text>Seixal</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_35" Language="en_US">
-			<Text>Olhao</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_36" Language="en_US">
-			<Text>Montijo</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_37" Language="en_US">
-			<Text>Santarem</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_CITY_38" Language="en_US">
-			<Text>Vila Nova de Famalicao</Text>
 		</Row>
 		<!-- イタリア -->
 		<!-- 現在のイタリアの都市名から(一部ローマと被り) -->
@@ -1564,9 +1417,6 @@
 		<Row Tag="LOC_ABILITY_UNIT_HAG_MOROCCO_BERBERS_CAVALRY_DESCRIPTION" Language="en_US">
 			<Text>+5 [ICON_Strength] Combat Strength bonus on Desert.</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" Language="en_US">
-			<Text>Formation units all inherit escort's [ICON_Movement] Movement speed. Trader units are immune to being plundered if they are within 4 tiles of a Nau and on a water tile.</Text>
-		</Row>
 		<Row Tag="LOC_ABILITY_UNIT_HAG_GERMANY_JU87_DESCRIPTION" Language="en_US">
 			<Text>+10 [ICON_Strength] Combat Strength bonus to heavy cavarly unit and naval ranged unit.</Text>
 		</Row>
@@ -1946,9 +1796,6 @@
 		<Row Tag="LOC_NAMED_HAG_LAKE_LANGANO_LAKE_NAME" Language="en_US">
 			<Text>Langano Lake</Text>
 		</Row>
-		<Row Tag="LOC_NAMED_HAG_LAKE_SANTO_ANDRE_LAKE_NAME" Language="en_US">
-			<Text>Santo Andre Lake</Text>
-		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_MANYCH_GUDILO_LAKE_NAME" Language="en_US">
 			<Text>Manych-Gudilo Lake</Text>
 		</Row>
@@ -1978,14 +1825,14 @@
 		</Row>
 		
 		<!-- プロジェクト -->
-		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_NAME" Language="en_US">
+		<Row Tag="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_NAME" Language="en_US">
 			<Text>Move Capital</Text>
 		</Row>
-		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_SHORT_NAME" Language="en_US">
+		<Row Tag="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_SHORT_NAME" Language="en_US">
 			<Text>Move Capital</Text>
 		</Row>
-		<Row Tag="LOC_PROJECT_HAG_FEITORIA_CAPITAL_MOVE_DESCRIPTION" Language="en_US">
-			<Text>Maria I unique project available to any city with a Feitoria. When complete, the Portugal [ICON_Capital] Capital moves to this city.</Text>
+		<Row Tag="LOC_PROJECT_HAG_NAVIGATION_SCHOOL_CAPITAL_MOVE_DESCRIPTION" Language="en_US">
+			<Text>Maria I unique project available to any city with a Encampment. When complete, the Portugal [ICON_Capital] Capital moves to this city.</Text>
 		</Row>
 		
 		<!-- アジェンダ -->

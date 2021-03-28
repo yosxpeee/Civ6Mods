@@ -430,7 +430,7 @@
 		</Update>
 		<!-- ナウ船：コルベットに変更 -->
 		<Update>
-			<Where Unit="UNIT_HAG_PORTUGAL_NAU"/>
+			<Where Unit="UNIT_PORTUGUESE_NAU"/>
 			<Set>
 				<UpgradeUnit>UNIT_HAGA_CORVETTE</UpgradeUnit>
 			</Set>

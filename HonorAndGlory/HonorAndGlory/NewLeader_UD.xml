@@ -2,24 +2,14 @@
 <GameInfo>
 	<!-- 親定義 -->
 	<Types>
-		<Row Type="DISTRICT_HAG_PORTUGAL_FEITORIA" Kind="KIND_DISTRICT"/>
 		<Row Type="DISTRICT_HAG_MADAGASCAR_FOKO"   Kind="KIND_DISTRICT"/>
 	</Types>
 	<!-- 置換設定 -->
 	<DistrictReplaces>
-		<Row CivUniqueDistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
 		<Row CivUniqueDistrictType="DISTRICT_HAG_MADAGASCAR_FOKO"   ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
 	</DistrictReplaces>
 	<!-- 主設定 -->
 	<Districts>
-		<!-- フェイトリア -->
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" Name="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Description="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" 
-			 PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27" 
-			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" 
-			 Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" 
-			 NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
-			 MilitaryDomain="DOMAIN_LAND" CityStrengthModifier="2" Entertainment="1"
-			 TraitType="TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA"/>
 		<!-- フク -->
 		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" Name="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_DESCRIPTION" 
 			 PrereqCivic="CIVIC_CRAFTSMANSHIP" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="27" 
@@ -31,15 +21,6 @@
 	</Districts>
 	<!-- 隣接ボーナス定義 -->
 	<District_Adjacencies>
-		<!-- フェイトリア -->
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Coast_Production"/>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Coast_Food"/>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Harbor_Production"/>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Harbor_Food"/>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Canal_Production"/>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Canal_Food"/>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Plantation_Gold"/>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldChangeId="HAG_Feitoria_Mine_Gold"/>
 		<!-- フク -->
 		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Farm_Food1"/>
 		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO" YieldChangeId="HAG_Foko_Farm_Food2"/>
@@ -58,17 +39,13 @@
 	</District_ValidTerrains>
 	<!-- 偉人ポイント -->
 	<District_GreatPersonPoints>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 	<!-- 交易路の出力 -->
 	<District_TradeRouteYields>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_HAG_MADAGASCAR_FOKO"   YieldType="YIELD_FOOD"       YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	<!-- 市民配置時の出力変更 -->
 	<District_CitizenYieldChanges>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldType="YIELD_GOLD"       YieldChange="2"/>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<District_CitizenGreatPersonPoints/>
 	<!-- アビールによる住宅の増減 -->
@@ -81,19 +58,6 @@
 	</AppealHousingChanges>
 	<!-- 隣接ボーナス主設定 -->
 	<Adjacency_YieldChanges>
-		<!-- フェイトリア -->
-		<!-- 沿岸2タイルにつき食糧+1、生産力+1 -->
-		<Row ID="HAG_Feitoria_Coast_Production"  Description="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION"  YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
-		<Row ID="HAG_Feitoria_Coast_Food"        Description="LOC_DISTRICT_HAG_PORTUGAL_COAST_FOOD"        YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
-		<!-- 港、運河で食糧+1、生産力+1 -->
-		<Row ID="HAG_Feitoria_Harbor_Production" Description="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
-		<Row ID="HAG_Feitoria_Harbor_Food"       Description="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_FOOD"       YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CANAL"/>
-		<Row ID="HAG_Feitoria_Canal_Production"  Description="LOC_DISTRICT_HAG_PORTUGAL_CANAL_PRODUCTION"  YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
-		<Row ID="HAG_Feitoria_Canal_Food"        Description="LOC_DISTRICT_HAG_PORTUGAL_CANAL_FOOD"        YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
-		<!-- プランテーション、鉱山1タイルにつきゴールド+1 -->
-		<Row ID="HAG_Feitoria_Plantation_Gold"   Description="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD"   YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
-		<Row ID="HAG_Feitoria_Mine_Gold"         Description="LOC_DISTRICT_HAG_PORTUGAL_MINE_GOLD"         YieldType="YIELD_GOLD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MINE"/>
-
 		<!-- フク -->
 		<!-- 農場2タイルにつき食料+1(土木技術解禁で1タイルにつき+1になる) -->
 		<Row ID="HAG_Foko_Farm_Food1"          Description="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_FARM_FOOD1"           YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FARM" ObsoleteCivic="CIVIC_CIVIL_ENGINEERING"/>
@@ -124,7 +88,6 @@
 	</RequirementArguments>
 	<!-- 防衛施設の射程 -->
 	<Districts_XP2>
-		<Row DistrictType="DISTRICT_HAG_PORTUGAL_FEITORIA" AttackRange="2"/>
 	</Districts_XP2>
 </GameInfo>
 

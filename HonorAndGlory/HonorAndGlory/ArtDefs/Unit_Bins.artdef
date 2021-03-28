@@ -169,53 +169,6 @@
 													<m_Fields>
 														<m_Values>
 															<Element class="AssetObjects:BLPEntryValue">
-																<m_EntryName text="U_Portugal_Carrack"/>
-																<m_XLPClass text="Unit"/>
-																<m_XLPPath text="units_civ5.xlp"/>
-																<m_BLPPackage text="units/units_civ5"/>
-																<m_LibraryName text="Unit"/>
-																<m_ParamName text="Asset"/>
-															</Element>
-															<Element class="AssetObjects:FloatValue">
-																<m_fValue>1.0</m_fValue>
-																<m_ParamName text="Scale"/>
-															</Element>
-														</m_Values>
-													</m_Fields>
-													<m_ChildCollections/>
-													<m_Name text="A"/>
-													<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-												</Element>
-											</Element>
-										</m_ChildCollections>
-										<m_Name text="Any"/>
-										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-									</Element>
-								</Element>
-							</m_ChildCollections>
-							<m_Name text="U_Portugal_Carrack"/>
-							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
-						</Element>
-						<Element>
-							<m_Fields>
-								<m_Values/>
-							</m_Fields>
-							<m_ChildCollections>
-								<Element>
-									<m_CollectionName text="Cultures"/>
-									<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
-									<Element>
-										<m_Fields>
-											<m_Values/>
-										</m_Fields>
-										<m_ChildCollections>
-											<Element>
-												<m_CollectionName text="Assets"/>
-												<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
-												<Element>
-													<m_Fields>
-														<m_Values>
-															<Element class="AssetObjects:BLPEntryValue">
 																<m_EntryName text="u_germany_ju87"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="units_civ5.xlp"/>

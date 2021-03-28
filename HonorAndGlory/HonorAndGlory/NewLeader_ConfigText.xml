@@ -49,22 +49,6 @@
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="en_US">
 			<Text>[ICON_TradeRoute] Trade Routes to foreign cities provide +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_GOLD] Gold to you.[ICON_TradeRoute] Trade Routes from foreign cities provide +2 [ICON_FOOD] Food to you. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Gold] Gold for them.</Text>
 		</Row>
-		<!-- 文明(ポルトガル) -->
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_NAME" Language="en_US">
-			<Text>Portugal Empire</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="en_US">
-			<Text>Portugal Empire</Text>
-		</Row>
-		<Row Tag="LOC_CIVILIZATION_HAG_PORTUGAL_ADJECTIVE" Language="en_US">
-			<Text>Portugal Empire</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME" Language="en_US">
-			<Text>Colonial Empire</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION" Language="en_US">
-			<Text>Open Borders with all city-states. Each time you found your first city on a continent other than your home continent receive a [ICON_TradeRoute] Trade Route capacity.</Text>
-		</Row>
 		<!-- 文明(イタリア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="en_US">
 			<Text>Italy</Text>
@@ -204,7 +188,7 @@
 			<Text>a Piedosa</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="en_US">
-			<Text>Can move their original [ICON_Capital] Capital to any city with a Feitoria they founded by completing a unique project in that city. Each time you found city on a continent other than your home continent receive +4 Identity per turn.</Text>
+			<Text>Can move their original [ICON_Capital] Capital to any city with a Navigation School they founded by completing a unique project in that city. International [ICON_TradeRoute] Trade Routes gain +1 [ICON_GOLD] Gold for every Coast tile in the origin city. Open Borders with all city-states.</Text>
 		</Row>
 		<!-- 指導者(スターリン) -->
 		<Row Tag="LOC_LEADER_HAG_STALIN_NAME" Language="en_US">
@@ -337,19 +321,6 @@
 			<Text>Hideki Tojo unique unit: Zero Fighter</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_JAPAN_ZERO_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
-		</Row>
-		<!-- UU(ナウ船) -->
-		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_NAME" Language="en_US">
-			<Text>Nau</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION" Language="en_US">
-			<Text>Portugal unique Renaissance era unit. Replace the Caravel. +1 [ICON_Movement] Movement, +1 Sight. Formation units all inherit escort's [ICON_Movement] Movement speed. Trader units are immune to being plundered if they are within 4 tiles of a Nau and on a water tile.</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_UNIT_HAG_PORTUGAL_NAU_NAME" Language="en_US">
-			<Text>Portugal unique unit: Nau</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAG_PORTUGAL_NAU_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
 		<!-- UU(T-34) -->
@@ -513,40 +484,6 @@
 			<Text></Text>
 		</Row>
 		
-		<!-- UD(フェイトリア) -->
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
-			<Text>Feitoria</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Portugal Empire. Replaces the Encampment. +1 [ICON_Amenities] Amenity. It does not lower the appeal. +1 [ICON_Production] Production and +1 [ICON_Food] Food for every two adjecent Coast tiles. +1 [ICON_Production] Production and +1 [ICON_Food] Food for each adjecent Harbor/Canal tiles. +1 [ICON_Gold] Gold for each adjacent Plantations and Mines.</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME" Language="en_US">
-			<Text>Portugal Empire unique district: Feitoria</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_HAG_PORTUGAL_FEITORIA_CHAPTER_HISTORY_PARA_1" Language="en_US">
-			<Text></Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_PRODUCTION" Language="en_US">
-			<Text>+{1_num} [ICON_Production] Production from the adjacent every two Coast tiles.</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_COAST_FOOD" Language="en_US">
-			<Text>+{1_num} [ICON_Food] Food from the adjacent every two Coast tiles.</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_PRODUCTION" Language="en_US">
-			<Text>+{1_num} [ICON_Production] Production from the adjacent Harbor district.</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_HARBOR_FOOD" Language="en_US">
-			<Text>+{1_num} [ICON_Food] Food from the adjacent Harbor district.</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_CANAL_PRODUCTION" Language="en_US">
-			<Text>+{1_num} [ICON_Production] Production from the adjacent Canal district.</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_CANAL_FOOD" Language="en_US">
-			<Text>+{1_num} [ICON_Food] Food from the adjacent Canal district.</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_HAG_PORTUGAL_PLANTATION_GOLD" Language="en_US">
-			<Text>+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Plantation; other?Plantations;}.</Text>
-		</Row>
 		<!-- UD(フク) -->
 		<Row Tag="LOC_DISTRICT_HAG_MADAGASCAR_FOKO_NAME" Language="en_US">
 			<Text>Foko</Text>

@@ -89,15 +89,15 @@
 		<!-- ポルトガル(マリア1世) -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_HAG_PORTUGAL</CivilizationType>
+			<CivilizationType>CIVILIZATION_PORTUGAL</CivilizationType>
 			<LeaderType>LEADER_HAG_MARIA_I</LeaderType>
-			<CivilizationName>LOC_CIVILIZATION_HAG_PORTUGAL_NAME</CivilizationName>
-			<CivilizationIcon>ICON_CIVILIZATION_HAG_PORTUGAL</CivilizationIcon>
+			<CivilizationName>LOC_CIVILIZATION_PORTUGAL_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_PORTUGAL</CivilizationIcon>
 			<LeaderName>LOC_LEADER_HAG_MARIA_I_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_HAG_MARIA_I</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_NAME</CivilizationAbilityName>
-			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HAG_PORTUGAL_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_CIVILIZATION_HAG_PORTUGAL</CivilizationAbilityIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PORTUGAL_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_PORTUGAL_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_PORTUGAL</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_HAG_MARIA_I_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_HAG_MARIA_I</LeaderAbilityIcon>
@@ -336,21 +336,29 @@
 			 SortIndex="30" />
 		<!-- マリア1世 -->
 		<Row Domain="Players:Expansion2_Players"
-			 CivilizationType="CIVILIZATION_HAG_PORTUGAL"
+			 CivilizationType="CIVILIZATION_PORTUGAL"
 			 LeaderType="LEADER_HAG_MARIA_I"
-			 Type="UNIT_HAG_PORTUGAL_NAU"
-			 Icon="ICON_UNIT_HAG_PORTUGAL_NAU"
-			 Name="LOC_UNIT_HAG_PORTUGAL_NAU_NAME"
-			 Description="LOC_UNIT_HAG_PORTUGAL_NAU_DESCRIPTION"
-			 SortIndex="10" />
+			 Type="UNIT_PORTUGUESE_NAU"
+			 Icon="ICON_UNIT_PORTUGUESE_NAU"
+			 Name="LOC_UNIT_PORTUGUESE_NAU_NAME"
+			 Description="LOC_UNIT_PORTUGUESE_NAU_DESCRIPTION"
+			 SortIndex="10"/>
 		<Row Domain="Players:Expansion2_Players"
-			 CivilizationType="CIVILIZATION_HAG_PORTUGAL"
+			 CivilizationType="CIVILIZATION_PORTUGAL"
 			 LeaderType="LEADER_HAG_MARIA_I"
-			 Type="DISTRICT_HAG_PORTUGAL_FEITORIA"
-			 Icon="ICON_DISTRICT_HAG_PORTUGAL_FEITORIA"
-			 Name="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_NAME"
-			 Description="LOC_DISTRICT_HAG_PORTUGAL_FEITORIA_DESCRIPTION"
+			 Type="IMPROVEMENT_FEITORIA"
+			 Icon="ICON_IMPROVEMENT_FEITORIA"
+			 Name="LOC_IMPROVEMENT_FEITORIA_NAME"
+			 Description="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION"
 			 SortIndex="20"/>
+		<Row Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_PORTUGAL"
+			 LeaderType="LEADER_HAG_MARIA_I"
+			 Type="BUILDING_NAVIGATION_SCHOOL"
+			 Icon="ICON_BUILDING_NAVIGATION_SCHOOL"
+			 Name="LOC_BUILDING_NAVIGATION_SCHOOL_NAME"
+			 Description="LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION"
+			 SortIndex="30" />
 		<!-- スターリン -->
 		<Row Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_HAG_USSR"
