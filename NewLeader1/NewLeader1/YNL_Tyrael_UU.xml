@@ -32,7 +32,7 @@
 		<Row UnitType="UNIT_TYRAEL_AXEMEN"   BaseMoves="2" Cost="65"  AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true"  Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_TYRAEL_AXEMEN_NAME"   Description="LOC_UNIT_TYRAEL_AXEMEN_DESCRIPTION"   PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="1" Combat="30" MandatoryObsoleteTech="TECH_COMPOSITES"      TraitType="TRAIT_LEADER_UNIT_TYRAEL_AXEMEN"   PrereqTech="TECH_BRONZE_WORKING"/>
 	</Units>
 	<UnitUpgrades>
-		<Row Unit="UNIT_UNIQUE_BALLISTA" UpgradeUnit="UNIT_BOMBARD"/>
+		<Row Unit="UNIT_UNIQUE_BALLISTA" UpgradeUnit="UNIT_TREBUCHET"/>
 		<Row Unit="UNIT_TYRAEL_AXEMEN"   UpgradeUnit="UNIT_PIKEMAN"/>
 	</UnitUpgrades>
 </GameInfo>

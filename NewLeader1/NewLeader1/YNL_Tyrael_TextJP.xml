@@ -93,5 +93,12 @@
 		<Replace Tag="LOC_TYRAEL_DOM_TEXT" Language="ja_JP">
 			<Text>ティラエルよ、あなたははるか昔、大天使イナリウスと悪魔リリスが作りし人間を生かすと決めた。あなたは人類に対し無限の可能性を認識している。どうか人類をよき道へと導きたまえ。</Text>
 		</Replace>
+
+		<Row Tag="LOC_ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION" Language="ja_JP">
+			<Text>他宗教のユニットに対する [ICON_Strength] 戦闘力+5。(ティラエル)</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_COMBAT_OTHER_RELIGION_DESCRIPTION_YNL_TYRAEL" Language="ja_JP">
+			<Text>他の宗教を信じる文明に対して [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

@@ -28,9 +28,23 @@
 		<Row TraitType="TRAIT_LEADER_UNIT_TYRAEL_AXEMEN"   Name="LOC_TRAIT_LEADER_UNIT_TYRAEL_AXEMEN_NAME"/>
 	</Traits>
 	<TraitModifiers>
+		<!-- バニラにある -->
 		<Row TraitType="TRAIT_LEADER_YNL_TYRAEL" ModifierId="UNIQUE_LEADER_CULTURE_KILLS"/>
-		<Row TraitType="TRAIT_LEADER_YNL_TYRAEL" ModifierId="TRAIT_COMBAT_BONUS_OTHER_RELIGION"/>
+		<Row TraitType="TRAIT_LEADER_YNL_TYRAEL" ModifierId="TRAIT_COMBAT_BONUS_OTHER_RELIGION_YNL_TYRAEL"/>
 	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_OTHER_RELIGION_YNL_TYRAEL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_OTHER_RELIGION_YNL_TYRAEL</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION</Value>
+		</Row>
+	</ModifierArguments>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_YNL_TYRAEL" AgendaType="AGENDA_BACKSTAB_AVERSE"/>
 	</HistoricalAgendas>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_NAVAL_CARRIER"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Tag="CLASS_AIRCRAFT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Name="LOC_ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION_NAME" Description="LOC_ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION</UnitAbilityType>
+			<ModifierId>YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_OTHER_RELIGION</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+	</RequirementSets>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Row ModifierId="YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION" Context="Preview" Text="LOC_PROMOTION_COMBAT_OTHER_RELIGION_DESCRIPTION_YNL_TYRAEL"/>
+	</ModifierStrings>
+</GameInfo>

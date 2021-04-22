@@ -93,5 +93,12 @@
 		<Row Tag="LOC_TYRAEL_DOM_TEXT" Language="en_US">
 			<Text></Text>
 		</Row>
+
+		<Row Tag="LOC_ABILITY_YNL_TYRAEL_COMBAT_BONUS_OTHER_RELIGION_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength vs. units of an other religion. (Tyrael)</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_COMBAT_OTHER_RELIGION_DESCRIPTION_YNL_TYRAEL" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength vs. civilizations following another Religion.</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
