@@ -54,6 +54,6 @@
 		<Row UnitType="UNIT_YNL_KENPEI" BaseMoves="2" Cost="430" AdvisorType="ADVISOR_CONQUEST" 
 			 BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" 
 			 Name="LOC_UNIT_YNL_KENPEI_NAME" Description="LOC_UNIT_YNL_KENPEI_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="6" Combat="72" PrereqTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_KENPEI"/>
+			 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="6" Combat="75" PrereqTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_YNL_KENPEI"/>
 	</Units>
 </GameData>

@@ -22,7 +22,7 @@
 			<Text>Land of the Rising Sun</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AKITSUMARU_DESCRIPTION" Language="en_US">
-			<Text>Each city can build one more district than usual (exceeding the normal limit based on [ICON_Citizen] Population). Builds Encampment and Industrial Zone districts in half the time. +50% [ICON_Production] Production toward Melee units.</Text>
+			<Text>Each city can build one more district than usual (exceeding the normal limit based on [ICON_Citizen] Population). Builds Encampment, Industrial Zone and Entertainment Complex districts in half the time. +50% [ICON_Production] Production toward Melee units.</Text>
 		</Row>
 
 		<!-- Leader Traits -->
