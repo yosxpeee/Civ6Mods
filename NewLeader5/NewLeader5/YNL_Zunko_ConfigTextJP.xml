@@ -129,7 +129,7 @@
 			<Text>庚申塔</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_KOSHIN_TOWER_DESCRIPTION" Language="ja_JP">
-			<Text>労働者が東北民主主義人民共和国固有の施設である庚申塔を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+1。[ICON_Gold] ゴールド+1。隣接する鉱山・採石場1つにつき [ICON_Faith] 信仰力+1。丘陵の上には建設不可。</Text>
+			<Text>労働者が東北民主主義人民共和国固有の施設である庚申塔を建設できるようになる。[NEWLINE][NEWLINE][ICON_Faith] 信仰力+2。[ICON_Gold] ゴールド+1。隣接する鉱山・採石場1つにつき [ICON_Faith] 信仰力+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KOSHIN_TOWER_NAME" Language="ja_JP">
 			<Text>東北民主主義人民共和国固有の施設: 庚申塔</Text>

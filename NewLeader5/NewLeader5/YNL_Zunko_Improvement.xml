@@ -27,12 +27,17 @@
 	</Improvement_Adjacencies>
 	<!-- 改善できる土地 -->
 	<Improvement_ValidTerrains>
-		<!-- 本例だと平地すべて -->
+		<!-- 本例だと平地、丘すべて -->
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_DESERT"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_TUNDRA"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_PLAINS"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_GRASS"/>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" TerrainType="TERRAIN_SNOW_HILLS"/>
 	</Improvement_ValidTerrains>
 	<!-- 改善を行うことのできるユニット -->
 	<!-- UnitType : ユニットを指定。
@@ -43,7 +48,7 @@
 	<!-- 改善で得られるボーナス -->
 	<Improvement_YieldChanges>
 		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_GOLD"  YieldChange="1"/>
-		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_KOSHIN_TOWER" YieldType="YIELD_FAITH" YieldChange="2"/>
 	</Improvement_YieldChanges>
 	<!-- 技術・社会制度解禁による追加ボーナス -->
 	<Improvement_BonusYieldChanges>
