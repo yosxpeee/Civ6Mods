@@ -51,7 +51,7 @@
 			<TraitType>TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY</TraitType>
 			<ModifierId>TRAIT_COASTAL_HOUSING_YNL_TAMAMO</ModifierId>
 		</Row>
-		<!-- 平原から信仰力+1 -->
+		<!-- 草原から信仰力+1 -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY</TraitType>
 			<ModifierId>TRAIT_INCREASED_GRASS_FAITH_YNL_TAMAMO</ModifierId>
@@ -59,6 +59,15 @@
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY</TraitType>
 			<ModifierId>TRAIT_INCREASED_GRASS_HILLS_FAITH_YNL_TAMAMO</ModifierId>
+		</Row>
+		<!-- 平原からゴールド+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY</TraitType>
+			<ModifierId>TRAIT_INCREASED_PLAINS_GOLD_YNL_TAMAMO</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY</TraitType>
+			<ModifierId>TRAIT_INCREASED_PLAINS_HILLS_GOLD_YNL_TAMAMO</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
@@ -68,7 +77,7 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WATER_HOUSING</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS_YNL_TAMAMO</SubjectRequirementSetId>
 		</Row>
-		<!-- 平原から信仰力+1 -->
+		<!-- 草原から信仰力+1 -->
 		<Row>
 			<ModifierId>TRAIT_INCREASED_GRASS_FAITH_YNL_TAMAMO</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
@@ -79,6 +88,17 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_YNL_TAMAMO</SubjectRequirementSetId>
 		</Row>
+		<!-- 平原からゴールド+1 -->
+		<Row>
+			<ModifierId>TRAIT_INCREASED_PLAINS_GOLD_YNL_TAMAMO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PLAINS_REQUIREMENTS_YNL_TAMAMO</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_PLAINS_HILLS_GOLD_YNL_TAMAMO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_YNL_TAMAMO</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!-- 沿岸に建てた都市の住宅+3 -->
@@ -87,7 +107,7 @@
 			<Name>Amount</Name>
 			<Value>3</Value>
 		</Row>
-		<!-- 平原から信仰力+1 -->
+		<!-- 草原から信仰力+1 -->
 		<Row>
 			<ModifierId>TRAIT_INCREASED_GRASS_FAITH_YNL_TAMAMO</ModifierId>
 			<Name>YieldType</Name>
@@ -105,6 +125,27 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_INCREASED_GRASS_HILLS_FAITH_YNL_TAMAMO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 平原からゴールド+1 -->
+		<Row>
+			<ModifierId>TRAIT_INCREASED_PLAINS_GOLD_YNL_TAMAMO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_PLAINS_GOLD_YNL_TAMAMO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_PLAINS_HILLS_GOLD_YNL_TAMAMO</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_PLAINS_HILLS_GOLD_YNL_TAMAMO</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -115,13 +156,22 @@
 			<RequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
-		<!-- 平原から信仰力+1 -->
+		<!-- 草原から信仰力+1 -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_GRASS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
 			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 平原からゴールド+1 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -131,7 +181,7 @@
 			<RequirementSetId>PLOT_IS_COASTAL_LAND_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
 			<RequirementId>PLOT_IS_COASTAL_LAND_YNL_TAMAMO</RequirementId>
 		</Row>
-		<!-- 平原から信仰力+1 -->
+		<!-- 草原から信仰力+1 -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_GRASS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_GRASS_YNL_TAMAMO</RequirementId>
@@ -140,6 +190,15 @@
 			<RequirementSetId>PLOT_HAS_GRASS_HILLS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_YNL_TAMAMO</RequirementId>
 		</Row>
+		<!-- 平原からゴールド+1 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_YNL_TAMAMO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_PLAINS_HILLS_REQUIREMENTS_YNL_TAMAMO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS_YNL_TAMAMO</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<!-- 沿岸に建てた都市の住宅+3 -->
@@ -147,7 +206,7 @@
 			<RequirementId>PLOT_IS_COASTAL_LAND_YNL_TAMAMO</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_IS_COASTAL_LAND</RequirementType>
 		</Row>
-		<!-- 平原から信仰力+1 -->
+		<!-- 草原から信仰力+1 -->
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_GRASS_YNL_TAMAMO</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
@@ -156,9 +215,18 @@
 			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_YNL_TAMAMO</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- 平原からゴールド+1 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_YNL_TAMAMO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS_YNL_TAMAMO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
 	</Requirements>
 	<RequirementArguments>
-		<!-- 平原から信仰力+1 -->
+		<!-- 草原から信仰力+1 -->
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_GRASS_YNL_TAMAMO</RequirementId>
 			<Name>TerrainType</Name>
@@ -168,6 +236,17 @@
 			<RequirementId>REQUIRES_PLOT_HAS_GRASS_HILLS_YNL_TAMAMO</RequirementId>
 			<Name>TerrainType</Name>
 			<Value>TERRAIN_GRASS_HILLS</Value>
+		</Row>
+		<!-- 平原からゴールド+1 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_YNL_TAMAMO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_PLAINS_HILLS_YNL_TAMAMO</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_HILLS</Value>
 		</Row>
 	</RequirementArguments>
 	

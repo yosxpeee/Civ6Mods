@@ -15,7 +15,7 @@
 			<Text>島国の魂</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_YAMATO_DYNASTY_DESCRIPTION" Language="ja_JP">
-			<Text>沿岸都市の [ICON_Housing] 住宅+3。草原から [ICON_Faith] 信仰力+1を得る。守備隊が駐屯している都市は、ターン毎の忠誠心+2。</Text>
+			<Text>沿岸都市の [ICON_Housing] 住宅+3。草原から [ICON_Faith] 信仰力+1、平原から [ICON_Gold] ゴールド+1。守備隊が駐屯している都市は、ターン毎の忠誠心+2。</Text>
 		</Replace>
 
 		<!-- 指導者 -->
