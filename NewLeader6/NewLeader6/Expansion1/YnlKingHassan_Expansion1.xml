@@ -35,33 +35,54 @@
 	<TraitModifiers>
 		<!-- 暗黒時代の文明に対し戦闘力+8 -->
 		<Row TraitType="TRAIT_LEADER_YNL_KING_HASSAN" ModifierId="TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL"/>
-		<!-- 敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が20低下(ラウタロと同じ) -->
-		<Row TraitType="TRAIT_LEADER_YNL_KING_HASSAN" ModifierId="TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY"/>
+		<!-- 敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が30低下 -->
+		<Row TraitType="TRAIT_LEADER_YNL_KING_HASSAN" ModifierId="TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY_YNL"/>
 	</TraitModifiers>
 	<Modifiers>
+		<!-- 暗黒時代の文明に対し戦闘力+8 -->
+		<Row>
+			<ModifierId>TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>OPPONENT_IS_IN_DARK_AGE_FREE_CITY_REQUIREMENTS_YNL</SubjectRequirementSetId>
+		</Row>
 		<Row>
 			<ModifierId>COMBAT_BONUS_VS_DARK_AGE_YNL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENTS_YNL</SubjectRequirementSetId>
+			<SubjectRequirementSetId>OPPONENT_IS_IN_DARK_AGE_FREE_CITY_REQUIREMENTS_YNL</SubjectRequirementSetId>
 		</Row>
+		<!-- 敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が30低下 -->
 		<Row>
-			<!-- 暗黒時代の文明に対し戦闘力+8 -->
-			<ModifierId>TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENTS_YNL</SubjectRequirementSetId>
+			<ModifierId>TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY_YNL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_POST_COMBAT_LOYALTY</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>COMBAT_BONUS_VS_DARK_AGE_YNL</ModifierId>
-			<Name>Amount</Name>
-			<Value>8</Value>
-		</Row>
-		<Row>
 			<!-- 暗黒時代の文明に対し戦闘力+8 -->
 			<ModifierId>TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL</ModifierId>
 			<Name>Amount</Name>
 			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMBAT_BONUS_VS_DARK_AGE_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<!-- 敵都市の境界内で敵ユニットを倒すと、その都市の忠誠心が30低下 -->
+		<Row>
+			<ModifierId>TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY_YNL</ModifierId>
+			<Name>Amount</Name>
+			<Value>-30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY_YNL</ModifierId>
+			<Name>AdditionalGoldenAge</Name>
+			<Value>-0</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY_YNL</ModifierId>
+			<Name>AffectLocal</Name>
+			<Value>false</Value>
 		</Row>
 	</ModifierArguments>
 	<!-- 戦闘プレビューの説明 -->
@@ -73,20 +94,28 @@
 	<!-- 効果発動条件 -->
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENTS_YNL</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+			<RequirementSetId>OPPONENT_IS_IN_DARK_AGE_FREE_CITY_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementSetId>OPPONENT_IS_IN_DARK_AGE_FREE_CITY_REQUIREMENTS_YNL</RequirementSetId>
 			<RequirementId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENT_YNL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>OPPONENT_IS_IN_DARK_AGE_FREE_CITY_REQUIREMENTS_YNL</RequirementSetId>
+			<RequirementId>OPPONENT_IS_FREE_CITY_REQUIREMENT_YNL</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
 			<RequirementId>OPPONENT_IS_IN_DARK_AGE_REQUIREMENT_YNL</RequirementId>
 			<RequirementType>REQUIREMENT_OPPONENT_ERA_AGE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>OPPONENT_IS_FREE_CITY_REQUIREMENT_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_IS_FREE_CITY</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -95,6 +124,7 @@
 			<Name>Type</Name>
 			<Value>DARK</Value>
 		</Row>
+		<!-- REQUIREMENT_OPPONENT_IS_FREE_CITY にはArgumentがない -->
 	</RequirementArguments>
 	
 	<!-- 歴史年表 -->

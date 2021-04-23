@@ -40,10 +40,10 @@
 
 		<!-- 戦闘ボーナスの効果説明文 -->
 		<Replace Tag="LOC_TRAIT_COMBAT_BONUS_VS_DARK_AGE_CIV_YNL_DESCRIPTION" Language="ja_JP">
-			<Text>暗黒時代の文明に対し戦闘力+8</Text>
+			<Text>暗黒時代を迎えている文明や自由都市に対して戦闘力+8</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_COMBAT_BONUS_VS_DARK_AGE_YNL_DESCRIPTION" Language="ja_JP">
-			<Text>暗黒時代の文明との戦いで [ICON_Strength] 戦闘力+8。</Text>
+			<Text>暗黒時代の文明や自由都市との戦いで [ICON_Strength] 戦闘力+8。[NEWLINE] </Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -11,7 +11,7 @@
 		<Row ProjectType="PROJECT_DAWA_JADIDA" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" Points="5" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
 	</Project_GreatPersonPoints>
 	<Project_YieldConversions>
-		<Row ProjectType="PROJECT_DAWA_JADIDA" YieldType="YIELD_GOLD"    PercentOfProductionRate="10"/>
+		<Row ProjectType="PROJECT_DAWA_JADIDA" YieldType="YIELD_GOLD"    PercentOfProductionRate="20"/>
 		<Row ProjectType="PROJECT_DAWA_JADIDA" YieldType="YIELD_FAITH"   PercentOfProductionRate="10"/>
 		<Row ProjectType="PROJECT_DAWA_JADIDA" YieldType="YIELD_SCIENCE" PercentOfProductionRate="10"/>
 		<Row ProjectType="PROJECT_DAWA_JADIDA" YieldType="YIELD_CULTURE" PercentOfProductionRate="10"/>

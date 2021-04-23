@@ -24,4 +24,8 @@
 	<UnitUpgrades>
 		<Row Unit="UNIT_YNL_ASSASSIN" UpgradeUnit="UNIT_MUSKETMAN"/>
 	</UnitUpgrades>
+	<!-- ユニットの置換元 -->
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_YNL_ASSASSIN" ReplacesUnitType="UNIT_MAN_AT_ARMS"/>
+	</UnitReplaces>
 </GameData>

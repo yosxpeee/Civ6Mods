@@ -61,7 +61,7 @@
 			<TraitType>TRAIT_CIVILIZATION_YNL_NIZARI</TraitType>
 			<ModifierId>TRAIT_ADJUST_INQUISITOR_CHARGES</ModifierId>
 		</Row>
-		<!-- 他宗教を信仰する文明に対し戦闘力+4(バニラのフェリペ2世と同じ) -->
+		<!-- 他宗教を信仰する文明に対し戦闘力+5(バニラのフェリペ2世と同じ) -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_YNL_NIZARI</TraitType>
 			<ModifierId>TRAIT_COMBAT_BONUS_OTHER_RELIGION</ModifierId>
