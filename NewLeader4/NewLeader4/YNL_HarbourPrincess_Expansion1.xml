@@ -24,6 +24,15 @@
 			 Texture="YNL_MOMENT_DRILLSHIP.dds"/>
 	</MomentIllustrations>
 
+	<!-- 説明文変更 -->
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_COASTAL_FORT"/>
+			<Set>
+				<Description>LOC_DISTRICT_COASTAL_FORT_EXP1_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Districts>
 	<!-- RaFで追加された王立海軍造船所の能力をコピーして実装 -->
 	<!-- RaFで追加された支援ユニットに対応する技術解禁で1体取得 -->
 	<District_Adjacencies>

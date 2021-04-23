@@ -32,7 +32,10 @@
 			<Text>沿岸要塞</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_COASTAL_FORT_DESCRIPTION" Language="ja_JP">
-			<Text>海洋活動をつかさどる区域。深海棲艦固有。港区域に取ってかわる。この区域はHPを持ちZOCを発生させる。[NEWLINE]キャンパスに隣接すると [ICON_Science] 科学力+1、劇場広場に隣接すると [ICON_Culture] 文化力+1。[NEWLINE]そのほかの能力は王立海軍造船所と同等。</Text>
+			<Text>海洋活動をつかさどる区域。深海棲艦固有。港区域に取ってかわり、より安価に建設できる。このタイルを使って乗船または下船する場合は [ICON_Movement] 移動ペナルティが発生しない。陸地に隣接する沿岸、または湖地形にのみ建設可能。[NEWLINE][NEWLINE]造船所で生産されたすべての海洋ユニットの [ICON_Movement] 移動力+1。[NEWLINE]異なる大陸で建設された場合は [ICON_Gold] ゴールド+2。[NEWLINE][ICON_TradeRoute] 交易路の数+1。[NEWLINE]この区域はHPを持ちZOCを発生させる。[NEWLINE]キャンパスに隣接すると [ICON_Science] 科学力+1、劇場広場に隣接すると [ICON_Culture] 文化力+1。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_COASTAL_FORT_EXP1_DESCRIPTION" Language="ja_JP">
+			<Text>海洋活動をつかさどる区域。深海棲艦固有。港区域に取ってかわり、より安価に建設できる。このタイルを使って乗船または下船する場合は [ICON_Movement] 移動ペナルティが発生しない。陸地に隣接する沿岸、または湖地形にのみ建設可能。[NEWLINE][NEWLINE]造船所で生産されたすべての海洋ユニットの [ICON_Movement] 移動力+1。[NEWLINE]異なる大陸で建設された場合は [ICON_Gold] ゴールド+2、ターン毎の忠誠心+4。礁には建設できない。[NEWLINE]この区域はHPを持ちZOCを発生させる。[NEWLINE]キャンパスに隣接すると [ICON_Science] 科学力+1、劇場広場に隣接すると [ICON_Culture] 文化力+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME" Language="ja_JP">
 			<Text>深海棲艦固有の区域: 沿岸要塞</Text>

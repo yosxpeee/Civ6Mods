@@ -92,7 +92,7 @@
 			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
 			<Type>DISTRICT_COASTAL_FORT</Type>
 			<Name>LOC_DISTRICT_COASTAL_FORT_NAME</Name>
-			<Description>LOC_DISTRICT_COASTAL_FORT_DESCRIPTION</Description>
+			<Description>LOC_DISTRICT_COASTAL_FORT_EXP1_DESCRIPTION</Description>
 			<Icon>ICON_DISTRICT_COASTAL_FORT</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
@@ -116,14 +116,14 @@
 			<Icon>ICON_UNIT_YNL_ARMORED_CRUISER</Icon>
 			<SortIndex>30</SortIndex>
 		</Row>
-		<!-- Expansion1 Support -->
+		<!-- Expansion2 Support -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_LAND_TYPE_ABYSSAL_FLEETS</CivilizationType>
 			<LeaderType>LEADER_HARBOUR_PRINCESS</LeaderType>
 			<Type>DISTRICT_COASTAL_FORT</Type>
 			<Name>LOC_DISTRICT_COASTAL_FORT_NAME</Name>
-			<Description>LOC_DISTRICT_COASTAL_FORT_DESCRIPTION</Description>
+			<Description>LOC_DISTRICT_COASTAL_FORT_EXP1_DESCRIPTION</Description>
 			<Icon>ICON_DISTRICT_COASTAL_FORT</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>

@@ -32,7 +32,10 @@
 			<Text>Coastal Fort</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_COASTAL_FORT_DESCRIPTION" Language="en_US">
-			<Text>A district unique to Abyssal Fleets for naval activity in your city. Replaces the Harbor district. This District have hitpoints and generate ZOC. [NEWLINE]+1 [ICON_Science] Science from adjecent Campus. +1 [ICON_Culture] Culture from adjecent Theater. [NEWLINE]The other abilities are the same as Royal Navy Dockyard.</Text>
+			<Text>A district unique to Abyssal Fleets for naval activity in your city. Replaces the Harbor district and cheaper to build. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval units built in Dockyard[NEWLINE]+2 [ICON_Gold] Gold when built on a foreign continent[NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity.[NEWLINE]This District have hitpoints and generate ZOC.[NEWLINE]+1 [ICON_Science] Science from adjecent Campus. +1 [ICON_Culture] Culture from adjecent Theater.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_COASTAL_FORT_EXP1_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Abyssal Fleets for naval activity in your city. Replaces the Harbor district and cheaper to build. Also removes the [ICON_Movement] Movement penalty for embarking and disembarking to and from this tile. Must be built on Coast or Lake Terrain adjacent to land.[NEWLINE][NEWLINE]+1 [ICON_Movement] Movement for all naval units built in Dockyard[NEWLINE]+2 [ICON_Gold] Gold and +4 Loyalty per turn when built on a foreign continent. Cannot be built on Reef.[NEWLINE]This District have hitpoints and generate ZOC.[NEWLINE]+1 [ICON_Science] Science from adjecent Campus. +1 [ICON_Culture] Culture from adjecent Theater.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_COASTAL_FORT_NAME" Language="en_US">
 			<Text>Abyssal Fleets unique district: Coastal Fort</Text>
