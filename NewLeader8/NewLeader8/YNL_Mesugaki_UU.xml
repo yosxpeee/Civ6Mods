@@ -23,11 +23,11 @@
 		<Row CivUniqueUnitType="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" ReplacesUnitType="UNIT_MACHINE_GUN"/>
 	</UnitReplaces>
 	<Units>
-		<!-- 基本能力：射程3、近接70、遠隔80(機関銃と比べて射程+2、各戦闘力+5) -->
+		<!-- 基本能力：射程3、近接75、遠隔90(機関銃と比べて射程+1、各戦闘力+5) -->
 		<Row UnitType="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE" BaseMoves="2" Cost="540" AdvisorType="ADVISOR_CONQUEST" 
 			 BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" 
 			 Name="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_NAME" Description="LOC_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_DESCRIPTION" PurchaseYield="YIELD_GOLD" 
-			 PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="6" Combat="70" RangedCombat="80" Range="3" PrereqTech="TECH_ADVANCED_BALLISTICS" 
+			 PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="6" Combat="75" RangedCombat="90" Range="3" PrereqTech="TECH_ADVANCED_BALLISTICS" 
 			 TraitType="TRAIT_LEADER_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"/>
 	</Units>
 	<!-- ユニットのアビリティ：対騎兵系に+7戦闘力 -->
@@ -54,10 +54,4 @@
 	<ModifierStrings>
 		<Row ModifierId="ANTI_CAVALRY_COMBAT_BONUS_MESUGAKI" Context="Preview" Text="LOC_ABILITY_UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE_MODIFIER_DESCRIPTION"/>
 	</ModifierStrings>
-
-	<!--
-	<UnitUpgrades>
-		<Row Unit="UNIT_FIELD_CANNON" UpgradeUnit="UNIT_MESUGAKI_ANTI_MATERIAL_RIFLE"/>
-	</UnitUpgrades>
-	-->
 </GameInfo>

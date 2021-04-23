@@ -42,7 +42,7 @@
 	<Adjacency_YieldChanges>
 		<!-- これはドイツのハンザ用の記述だと思われる(どこからも参照されないことになるのでたぶん不要) -->
 		<Row ID="Livery_Company_Production" Description="LOC_DISTRICT_LIVERY_COMPANY_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_LIVERY_COMPANY"/>
-		<!-- 都心に隣接でゴールド+2、 -->
+		<!-- 都心に隣接でゴールド+2 -->
 		<Row ID="CityCenter_Gold_Mesugaki"  Description="LOC_DISTRICT_CITY_CENTER_GOLD"          YieldType="YIELD_GOLD"       YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
 	</Adjacency_YieldChanges>
 	<DistrictModifiers>
