@@ -61,4 +61,8 @@
 			<Value>PROMOTION_CLASS_YAMABUSHI</Value>
 		</Row>
 	</ModifierArguments>
+	<!-- 区域の隣接効果 -->
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_NAMAHAGE_MUSEUM" YieldChangeId="Pamukkale_Culture"/>
+	</District_Adjacencies>
 </GameData>
