@@ -45,8 +45,8 @@
 	</Units_XP2>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<!-- 歩兵 -->
-		<Row Unit="UNIT_YNL_AKARI_HESSIANS" UpgradeUnit="UNIT_INFANTRY"/>
+		<!-- 戦列歩兵 -->
+		<Row Unit="UNIT_YNL_AKARI_HESSIANS" UpgradeUnit="UNIT_LINE_INFANTRY"/>
 	</UnitUpgrades>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_YNL_AKARI_HESSIANS" Name="LOC_ABILITY_YNL_AKARI_HESSIANS_NAME" Description="LOC_ABILITY_YNL_AKARI_HESSIANS_DESCRIPTION"/>
