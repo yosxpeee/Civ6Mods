@@ -24,8 +24,8 @@
 	<!-- 主設定 -->
 	<Units>
 		<!-- リャネロ -->
-		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" Cost="385" Maintenance="2" BaseMoves="5" BaseSightRange="2"
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="67"
+		<Row UnitType="UNIT_HAG_COLOMBIA_LLANERO" Cost="330" Maintenance="2" BaseMoves="5" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="68"
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_COLOMBIA_LLANERO_NAME" Description="LOC_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION"
 			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_RIFLING"
@@ -33,7 +33,10 @@
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<!-- リャネロ：近代的機甲部隊 -->
-		<Row Unit="UNIT_HAG_COLOMBIA_LLANERO" UpgradeUnit="UNIT_MODERN_ARMOR"/>
+		<!-- リャネロ：戦車 -->
+		<Row Unit="UNIT_HAG_COLOMBIA_LLANERO" UpgradeUnit="UNIT_TANK"/>
 	</UnitUpgrades>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_HAG_COLOMBIA_LLANERO" ReplacesUnitType="UNIT_CUIRASSIER"/>
+	</UnitReplaces>
 </GameData>

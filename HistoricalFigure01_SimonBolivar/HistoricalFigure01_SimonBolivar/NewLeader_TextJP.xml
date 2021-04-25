@@ -194,7 +194,10 @@
 		<Row Tag="LOC_ABILITY_HAG_LLANERO_BONUS_ON_FLAT_DESCRIPTION" Language="ja_JP">
 			<Text>平地での戦闘時に [ICON_Strength] 戦闘力+{1_Amount}。</Text>
 		</Row>
-
+		<Row Tag="LOC_ABILITY_UNIT_HAG_COLOMBIA_LLANERO_DESCRIPTION" Language="ja_JP">
+			<Text>平地での戦闘時に [ICON_Strength] 戦闘力+5。</Text>
+		</Row>
+		
 		<!-- 大将軍 -->
 		<!-- アウグスト・フォン・グナイゼナウ -->
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_HAG_ANTONIO_JOSE_DE_SUCRE_NAME" Language="ja_JP">
