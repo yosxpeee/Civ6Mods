@@ -15,7 +15,7 @@
 			<Text>アイスティーしかなかったんだけど、いいかな？</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_YNL_AMLD_DESCRIPTION" Language="ja_JP">
-			<Text>熱帯雨林タイルに隣接するキャンパス、商業ハブ、聖地、劇場広場は+1の隣接ボーナスを得る。[ICON_RESOURCE_TEA] 茶、[ICON_RESOURCE_SUGAR] 砂糖、[ICON_RESOURCE_SPICES] 香辛料から [ICON_CULTURE] 文化力+2。</Text>
+			<Text>熱帯雨林タイルに隣接するキャンパス、商業ハブ、聖地、劇場広場は+1の隣接ボーナスを得る。熱帯雨林、湿地、氾濫原が周囲のアピールを下げなくなる。[ICON_RESOURCE_TEA] 茶、[ICON_RESOURCE_SUGAR] 砂糖、[ICON_RESOURCE_SPICES] 香辛料から [ICON_CULTURE] 文化力+2。</Text>
 		</Replace>
 
 		<!-- 指導者 -->
@@ -92,7 +92,7 @@
 			<Text>縦割れアナル</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_YNL_MUR_DESCRIPTION" Language="ja_JP">
-			<Text>固有総督であるKMRを雇用することができる。政府複合施設の建造物や区域1つにつき [ICON_TradeRoute] 交易路+1。野獣先輩BBが [ICON_FOOD] 食料+1をもたらす。</Text>
+			<Text>固有総督であるKMRを雇用することができる。政府複合施設の建造物や区域1つにつき [ICON_TradeRoute] 交易路+1。野獣先輩BBが [ICON_FOOD] 食料+1をもたらす。神秘主義、公務員制度、外交官を解禁時に [Icon_Governor] 総督ポイント+1。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_YNL_MUR_DOM_TEXT" Language="ja_JP">
 			<Text>そうだよ（便乗）</Text>
@@ -103,7 +103,7 @@
 			<Text>野獣先輩BB</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION" Language="ja_JP">
-			<Text>労働者が真夏の夜の淫夢固有の施設である野獣先輩BBを建設できるようになる。[NEWLINE][NEWLINE][ICON_GOLD] ゴールド+1、[ICON_Culture] 文化力+1。コンピューター解禁で [ICON_Culture] 文化力+2。ソーシャルメディア解禁で[ICON_GOLD] ゴールド+2。ボーナス資源か高級資源の周りにのみ建造可能。他の野獣先輩BBと隣接不可。</Text>
+			<Text>労働者が真夏の夜の淫夢固有の施設である野獣先輩BBを建設できるようになる。[NEWLINE][NEWLINE][ICON_GOLD] ゴールド+1、[ICON_Culture] 文化力+1。アピール+1。コンピューター解禁で [ICON_Culture] 文化力+2。ソーシャルメディア解禁で[ICON_GOLD] ゴールド+2。ボーナス資源か高級資源の周りにのみ建造可能。他の野獣先輩BBと隣接不可。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="ja_JP">
 			<Text>真夏の夜の淫夢固有の地形改善: 野獣先輩BB</Text>
@@ -278,7 +278,7 @@
 			<Text>組事務所</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_DESCRIPTION" Language="ja_JP">
-			<Text>兵営に取って代わるTNOK固有の区域。[ICON_Housing] 住宅+1。隣接する他の区域1つにつき [ICON_Gold] ゴールド+1。タピオカミルクティーを1つ得る。</Text>
+			<Text>兵営に取って代わるTNOK固有の区域。[ICON_Housing] 住宅+1。隣接する他の区域1つにつき [ICON_Gold] ゴールド+1。タピオカミルクティーを1つ得る。周囲のアピールを下げない。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="ja_JP">
 			<Text>TNOK固有の建造物: 組事務所</Text>

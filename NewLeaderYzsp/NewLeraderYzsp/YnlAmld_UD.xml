@@ -20,7 +20,7 @@
 			 Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"  CostProgressionParam1="40" 
 			 Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" 
 			 InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" 
-			 MilitaryDomain="DOMAIN_LAND" Appeal="-1" Housing="1" CityStrengthModifier="2"
+			 MilitaryDomain="DOMAIN_LAND" Housing="1" CityStrengthModifier="2"
 			 TraitType="TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE"/>
 		<!-- ハンマーム -->
 		<Row DistrictType="DISTRICT_YNL_HAMAM" Name="LOC_DISTRICT_YNL_HAMAM_NAME" Description="LOC_DISTRICT_YNL_HAMAM_DESCRIPTION" 

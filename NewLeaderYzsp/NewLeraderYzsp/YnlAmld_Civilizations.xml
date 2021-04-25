@@ -66,6 +66,27 @@
 			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
 			<ModifierId>TRAIT_AMAZON_RAINFOREST_THEATER_ADJACENCY</ModifierId>
 		</Row>
+		<!-- 熱帯雨林、湿地、氾濫原がアピールを下げなくなる -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_RAINFOREST</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_MARSH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN_GLASSLAND</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN_PLAINS</ModifierId>
+		</Row>
 		<!-- 領内のお茶から文化を得る -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_YNL_AMLD</TraitType>
@@ -83,6 +104,27 @@
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
+		<!-- 熱帯雨林、湿地、氾濫原(草原)がアピールを下げなくなる -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_RAINFOREST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_MARSH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN_GLASSLAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN_PLAINS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER</ModifierType>
+		</Row>
 		<!-- 領内のお茶から文化を得る -->
 		<Row>
 			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_TEA</ModifierId>
@@ -103,6 +145,57 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<!-- 熱帯雨林、湿地、氾濫原(草原)がアピールを下げなくなる -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_RAINFOREST</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_RAINFOREST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_MARSH</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_MARSH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_MARSH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FLOODPLAINS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN_GLASSLAND</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FLOODPLAINS_GRASSLAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN_GLASSLAND</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN_PLAINS</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FLOODPLAINS_PLAINS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_YNL_AMLD_NO_DOWN_APPEAL_FLOODPLAIN_PLAINS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 		<!-- 領内のお茶から文化を得る -->
 		<Row>
 			<ModifierId>TRAIT_YZSP_ADD_CULTURE_FROM_TEA</ModifierId>

@@ -134,7 +134,7 @@
 			 TraitType="TRAIT_LEADER_UNIT_YNL_KUNIKUZUSHI"/>
 		<!-- クリバナリウス -->
 		<Row UnitType="UNIT_YNL_CLIBANARIUS" Name="LOC_UNIT_YNL_CLIBANARIUS_NAME" Description="LOC_UNIT_YNL_CLIBANARIUS_DESCRIPTION" 
-			 Cost="100" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="37" StrategicResource="RESOURCE_HORSES"
+			 Cost="100" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="39" StrategicResource="RESOURCE_HORSES"
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_HORSEBACK_RIDING" 
 			 TraitType="TRAIT_LEADER_UNIT_YNL_CLIBANARIUS" />
@@ -153,7 +153,7 @@
 	</Units_XP2>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<Row Unit="UNIT_YNL_ONAGER"        UpgradeUnit="UNIT_BOMBARD"/>
+		<Row Unit="UNIT_YNL_ONAGER"        UpgradeUnit="UNIT_TREBUCHET"/>
 		<Row Unit="UNIT_YNL_BLACK_CAVALRY" UpgradeUnit="UNIT_COURSER"/>
 		<Row Unit="UNIT_YNL_KUNIKUZUSHI"   UpgradeUnit="UNIT_FIELD_CANNON"/>
 		<Row Unit="UNIT_YNL_CLIBANARIUS"   UpgradeUnit="UNIT_KNIGHT"/>
@@ -340,6 +340,10 @@
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_GIANT_DEATH_ROBOT_YNL</RequirementId>
 		</Row>
 		<Row>
+			<RequirementSetId>YNL_HAKUSHIN_KARATE_SPECIFIC_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LINE_INFANTRY_YNL</RequirementId>
+		</Row>
+		<Row>
 			<RequirementSetId>MELEE_OPPONENT_REQUIREMENTS_YNL</RequirementSetId>
 			<RequirementId>OPPONENT_IS_PROMOTION_CLASS_MELEE</RequirementId><!-- バニラにある -->
 		</Row>
@@ -407,6 +411,10 @@
 		</Row>
 		<Row>
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_GIANT_DEATH_ROBOT_YNL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LINE_INFANTRY_YNL</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
@@ -506,6 +514,12 @@
 			<RequirementId>REQUIRES_UNIT_NEXT_TO_GIANT_DEATH_ROBOT_YNL</RequirementId>
 			<Name>UnitType</Name>
 			<Value>UNIT_GIANT_DEATH_ROBOT</Value>
+		</Row>
+		<!-- 戦列歩兵 -->
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_LINE_INFANTRY_YNL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_LINE_INFANTRY</Value>
 		</Row>
 	</RequirementArguments>
 </GameInfo>

@@ -340,6 +340,19 @@
 			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
 			<ModifierId>TRAIT_YNL_MUR_BB_FOOD</ModifierId>
 		</Row>
+		<!-- 神秘主義、公務員制度、外交官で総督ポイント+1 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_MYSTICISM</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_CIVIL_SERVICE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_YNL_MUR</TraitType>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_DIPLOMATIC_SERVICE</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<!-- 田所 -->
@@ -450,6 +463,25 @@
 			<ModifierId>TRAIT_YNL_MUR_BB_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_YZSP_BB_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 神秘主義、公務員制度、外交官で総督ポイント+1 -->
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_MYSTICISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<SubjectRequirementSetId>PLAYER_HAS_MYSTICISM_YNL_MUR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_CIVIL_SERVICE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_SERVICE_YNL_MUR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_DIPLOMATIC_SERVICE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<SubjectRequirementSetId>PLAYER_HAS_DIPLOMATIC_SERVICE_YNL_MUR</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -712,6 +744,22 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- 神秘主義、公務員制度、外交官で総督ポイント+1 -->
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_MYSTICISM</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_CIVIL_SERVICE</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_YNL_MUR_GOVERNOR_POINTS_CIVIC_DIPLOMATIC_SERVICE</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<ModifierStrings>
 		<Row ModifierId="YNL_TDN_RANGED_DEFENSE" Context="Preview" Text="LOC_ABILITY_NAGAO_RANGED_DEFENSE_MODIFIER_DESCRIPTION"/>
@@ -740,6 +788,21 @@
 		<!-- 条件：野獣先輩BBが設置されている -->
 		<Row>
 			<RequirementSetId>PLOT_HAS_YZSP_BB_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：神秘主義解禁済み -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MYSTICISM_YNL_MUR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：公務員制度済み -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CIVIL_SERVICE_YNL_MUR</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 条件：外交官解禁済み -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DIPLOMATIC_SERVICE_YNL_MUR</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -781,6 +844,21 @@
 			<RequirementSetId>PLOT_HAS_YZSP_BB_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_YZSP_BB</RequirementId>
 		</Row>
+		<!-- 条件：神秘主義解禁済み -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_MYSTICISM_YNL_MUR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_MYSTICISM_YNL_MUR</RequirementId>
+		</Row>
+		<!-- 条件：公務員制度済み -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CIVIL_SERVICE_YNL_MUR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_CIVIL_SERVICE_YNL_MUR</RequirementId>
+		</Row>
+		<!-- 条件：外交官解禁済み -->
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DIPLOMATIC_SERVICE_YNL_MUR</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_DIPLOMATIC_SERVICE_YNL_MUR</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<!-- 条件：採石場に隣接 -->
@@ -797,6 +875,21 @@
 		<Row>
 			<RequirementId>REQUIRES_PLOT_HAS_YZSP_BB</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 条件：神秘主義解禁済み -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_MYSTICISM_YNL_MUR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<!-- 条件：公務員制度済み -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_CIVIL_SERVICE_YNL_MUR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<!-- 条件：外交官解禁済み -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_DIPLOMATIC_SERVICE_YNL_MUR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -817,6 +910,24 @@
 			<RequirementId>REQUIRES_PLOT_HAS_YZSP_BB</RequirementId>
 			<Name>ImprovementType</Name>
 			<Value>IMPROVEMENT_YNL_YZSP_BB</Value>
+		</Row>
+		<!-- 条件：神秘主義解禁済み -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_MYSTICISM_YNL_MUR</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_MYSTICISM</Value>
+		</Row>
+		<!-- 条件：公務員制度済み -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_CIVIL_SERVICE_YNL_MUR</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CIVIL_SERVICE</Value>
+		</Row>
+		<!-- 条件：外交官解禁済み -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIC_DIPLOMATIC_SERVICE_YNL_MUR</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_DIPLOMATIC_SERVICE</Value>
 		</Row>
 	</RequirementArguments>
 	

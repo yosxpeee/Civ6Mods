@@ -15,7 +15,7 @@
 			<Text>I only had iced tea, is not it?</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_YNL_AMLD_DESCRIPTION" Language="en_US">
-			<Text>Rainforest tiles provide +1 adjacency bonus for Campus, Commercial Hub, Holy Site, and Theater Square districts. +2 [ICON_Culture] Culture from [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_SUGAR] Sugar and [ICON_RESOURCE_SPICES] Spices.</Text>
+			<Text>Rainforest tiles provide +1 adjacency bonus for Campus, Commercial Hub, Holy Site, and Theater Square districts. Rainforests, Marsh, and Floodplains will no longer lower the appeal of the surrounding area. +2 [ICON_Culture] Culture from [ICON_RESOURCE_TEA] Tea, [ICON_RESOURCE_SUGAR] Sugar and [ICON_RESOURCE_SPICES] Spices.</Text>
 		</Row>
 		
 		<!-- 指導者 -->
@@ -92,7 +92,7 @@
 			<Text>Vertical Cracked Anal</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_YNL_MUR_DESCRIPTION" Language="en_US">
-			<Text>Can employ a unique governor, KMR. +1 [ICON_TradeRoute] Trade Route capacity for each Government Plaza building and the Government Plaza district. The Beast BB provide +1 [ICON_FOOD] Food.</Text>
+			<Text>Can employ a unique governor, KMR. +1 [ICON_TradeRoute] Trade Route capacity for each Government Plaza building and the Government Plaza district. The Beast BB provide +1 [ICON_FOOD] Food. Gain a [Icon_Governor] Governor Title when the Misticism, Civil Service and Diplomatic Service is researched.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_YNL_MUR_DOM_TEXT" Language="en_US">
 			<Text>I agree.(Jumped on the bandwagon)</Text>
@@ -103,7 +103,7 @@
 			<Text>The Beast BB</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_YNL_YZSP_BB_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a The Beast BB, unique to A Middsummer Lewd Dream.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold, +1 [ICON_Culture] Culture. +2 [ICON_CULTURE] Culture when unlock the Computers. +2 [ICON_GOLD] Gold whe unlock the Social Media. Can be built on Adjecent Bonus or Luxury resources. Cannot be built on adjacent to another The Beast BB.</Text>
+			<Text>Unlocks the Builder ability to construct a The Beast BB, unique to A Middsummer Lewd Dream.[NEWLINE][NEWLINE]+1 [ICON_GOLD] Gold, +1 [ICON_Culture] Culture. +1 Appeal. +2 [ICON_CULTURE] Culture when unlock the Computers. +2 [ICON_GOLD] Gold whe unlock the Social Media. Can be built on Adjecent Bonus or Luxury resources. Cannot be built on adjacent to another The Beast BB.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_YNL_YZSP_BB_NAME" Language="en_US">
 			<Text>A Middsummer Lewd Dream unique improvement: The Beast BB</Text>
@@ -278,7 +278,7 @@
 			<Text>Outlaw Office</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_YNL_OUTLAW_OFFICE_DESCRIPTION" Language="en_US">
-			<Text>TNOK unique District that replaces the Encampment. Provides +1 [ICON_Housing] Housing. +1 [ICON_GOLD] Gold from the other adjecent districts. Grant 1 Tapioca Milk Tea.</Text>
+			<Text>TNOK unique District that replaces the Encampment. Provides +1 [ICON_Housing] Housing. +1 [ICON_GOLD] Gold from the other adjecent districts. Grant 1 Tapioca Milk Tea. This district will no longer lower the appeal of the surrounding area.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_DISTRICT_YNL_OUTLAW_OFFICE_NAME" Language="en_US">
 			<Text>TNOK unique district: Outlaw Office</Text>
