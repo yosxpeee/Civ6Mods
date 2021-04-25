@@ -4,9 +4,5 @@
 	<!-- 文明 -->
 	<!-- ======================================================================= -->
 	<GameModePlayerInfoOverrides>
-		<Delete  GameModeType="GAMEMODE_DRAMATICAGES" Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_GEORGIA" LeaderType="LEADER_TAMAR"/>
-		<Delete  GameModeType="GAMEMODE_DRAMATICAGES" Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_GEORGIA" LeaderType="LEADER_TAMAR"/>
-		<Row GameModeType="GAMEMODE_DRAMATICAGES" Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_GEORGIA" LeaderType="LEADER_TAMAR" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DRAMA_DESCRIPTION" />
-		<Row GameModeType="GAMEMODE_DRAMATICAGES" Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_GEORGIA" LeaderType="LEADER_TAMAR" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DRAMA_DESCRIPTION" />
 	</GameModePlayerInfoOverrides>
 </GameData>

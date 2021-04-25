@@ -10,14 +10,6 @@
 	<m_PackageName text="units/units_civ5"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="Trebuchet"/>
-			<m_ObjectName text="Trebuchet"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Longswordsman"/>
-			<m_ObjectName text="Longswordsman"/>
-		</Element>
-		<Element>
 			<m_EntryID text="Cargo_Ship_Early"/>
 			<m_ObjectName text="Cargo_Ship_Early"/>
 		</Element>
@@ -40,10 +32,6 @@
 		<Element>
 			<m_EntryID text="EarlyBomberA"/>
 			<m_ObjectName text="EarlyBomberA"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Rifleman"/>
-			<m_ObjectName text="Rifleman"/>
 		</Element>
 		<Element>
 			<m_EntryID text="Galleass"/>

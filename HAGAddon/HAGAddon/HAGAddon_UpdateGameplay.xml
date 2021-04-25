@@ -5,11 +5,6 @@
 	<!-- ======================================================================= -->
 	<!-- 説明文 -->
 	<Traits>
-		<!-- グルジア -->
-		<Update>
-			<Where Description="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_EXPANSION2_DESCRIPTION"/>
-			<Set Description="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION"/>
-		</Update>
 		<!-- 大コロンビア -->
 		<Update>
 			<Where Description="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION"/>
@@ -124,11 +119,6 @@
 	<!-- ======================================================================= -->
 	<!-- 名前・説明文 -->
 	<Units>
-		<!-- ベルセルク -->
-		<Update>
-			<Where Description="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION"/>
-			<Set Description="LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION"/>
-		</Update>
 		<!-- デ・ゼーヴェン・プロヴィンシェン -->
 		<Update>
 			<Where Description="LOC_UNIT_DE_ZEVEN_PROVINCIEN_DESCRIPTION"/>
@@ -167,11 +157,6 @@
 	</Units>
 	<!-- 戦闘時のアビリティ表示 -->
 	<UnitAbilities>
-		<!-- ベルセルク -->
-		<Update>
-			<Where Description="LOC_ABILITY_BERSERKER_RAGE_DESCRIPTION"/>
-			<Set Description="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION"/>
-		</Update>
 	</UnitAbilities>
 	<!-- クラス -->
 	<TypeTags>
@@ -185,13 +170,6 @@
 	</TypeTags>
 	<!-- 基本性能 -->
 	<Units>
-		<!-- ベルセルク -->
-		<Update>
-			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
-			<Set>
-				<Combat>42</Combat>
-			</Set>
-		</Update>
 		<!-- デ・ゼーヴェン・プロヴィンシェン：戦列艦ベースに変更 -->
 		<Update>
 			<Where UnitType="UNIT_DE_ZEVEN_PROVINCIEN"/>
@@ -351,41 +329,6 @@
 	</ModifierArguments>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<!-- カタパルト：トレビュシェットに変更 -->
-		<Update>
-			<Where Unit="UNIT_CATAPULT"/>
-			<Set>
-				<UpgradeUnit>UNIT_HAGA_TREBUCHET</UpgradeUnit>
-			</Set>
-		</Update>
-		<!-- 剣士：長剣士に変更 -->
-		<Update>
-			<Where Unit="UNIT_SWORDSMAN"/>
-			<Set>
-				<UpgradeUnit>UNIT_HAGA_LONGSWORDSMAN</UpgradeUnit>
-			</Set>
-		</Update>
-		<!-- ヴァル：胸甲騎兵に変更 -->
-		<Update>
-			<Where Unit="UNIT_INDIAN_VARU"/>
-			<Set>
-				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
-			</Set>
-		</Update>
-		<!-- マムルーク：胸甲騎兵に変更 -->
-		<Update>
-			<Where Unit="UNIT_ARABIAN_MAMLUK"/>
-			<Set>
-				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
-			</Set>
-		</Update>
-		<!-- サカ族弓騎兵：弩兵に変更 -->
-		<Update>
-			<Where Unit="UNIT_SCYTHIAN_HORSE_ARCHER"/>
-			<Set>
-				<UpgradeUnit>UNIT_CROSSBOWMAN</UpgradeUnit>
-			</Set>
-		</Update>
 		<!-- フリゲート艦：戦列艦に変更 -->
 		<Update>
 			<Where Unit="UNIT_FRIGATE"/>
@@ -458,43 +401,9 @@
 		</Update>
 		<!-- 空母：原子力空母へのアップグレードを追加 -->
 		<Row Unit="UNIT_AIRCRAFT_CARRIER" UpgradeUnit="UNIT_HAGA_CVN"/>
-		<!-- マスケット兵：ライフル兵に変更 -->
-		<Update>
-			<Where Unit="UNIT_MUSKETMAN"/>
-			<Set>
-				<UpgradeUnit>UNIT_HAGA_RIFLEMAN</UpgradeUnit>
-			</Set>
-		</Update>
-		<!-- ガエサタエ：長剣士に変更 -->
-		<Update>
-			<Where Unit="UNIT_GAUL_GAESATAE"/>
-			<Set>
-				<UpgradeUnit>UNIT_HAGA_LONGSWORDSMAN</UpgradeUnit>
-			</Set>
-		</Update>
-		<!-- ホヴァ：長剣士に変更 -->
-		<Update>
-			<Where Unit="UNIT_HAG_MADAGASCAR_HOVA"/>
-			<Set>
-				<UpgradeUnit>UNIT_HAGA_LONGSWORDSMAN</UpgradeUnit>
-			</Set>
-		</Update>
-		<!-- バッカニア：ライフル兵に変更 -->
-		<Update>
-			<Where Unit="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER"/>
-			<Set>
-				<UpgradeUnit>UNIT_HAGA_RIFLEMAN</UpgradeUnit>
-			</Set>
-		</Update>
 	</UnitUpgrades>
 	<!-- 置換設定 -->
 	<UnitReplaces>
-		<!-- ダムレイはトレビュシェットの置換にする -->
-		<Row CivUniqueUnitType="UNIT_KHMER_DOMREY"        ReplacesUnitType="UNIT_HAGA_TREBUCHET"/>
-		<!-- 侍、ベルセルク、ヘヴスルは長剣士の置換にする -->
-		<Row CivUniqueUnitType="UNIT_JAPANESE_SAMURAI"    ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
-		<Row CivUniqueUnitType="UNIT_NORWEGIAN_BERSERKER" ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
-		<Row CivUniqueUnitType="UNIT_GEORGIAN_KHEVSURETI" ReplacesUnitType="UNIT_HAGA_LONGSWORDSMAN"/>
 		<!-- デ・ゼーヴェン・プロヴィンシェン：戦列艦の置換に変更 -->
 		<Update>
 			<Where CivUniqueUnitType="UNIT_DE_ZEVEN_PROVINCIEN"/>
@@ -504,10 +413,6 @@
 		</Update>
 		<!-- ソードフィッシュは複葉爆撃機の置換にする -->
 		<Row CivUniqueUnitType="UNIT_HAG_ENGLAND_SWORDFISH" ReplacesUnitType="UNIT_HAGA_EARLY_BOMBER"/>
-		<!-- レッドコート、皇帝近衛兵、カラビニエリはライフル兵の置換にする -->
-		<Row CivUniqueUnitType="UNIT_ENGLISH_REDCOAT"        ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
-		<Row CivUniqueUnitType="UNIT_FRENCH_GARDE_IMPERIALE" ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
-		<Row CivUniqueUnitType="UNIT_HAG_ITALY_CARABINIERI"  ReplacesUnitType="UNIT_HAGA_RIFLEMAN"/>
 		<!-- 虎蹲砲は弩兵の置換にする -->
 		<Row CivUniqueUnitType="UNIT_CHINESE_CROUCHING_TIGER"  ReplacesUnitType="UNIT_CROSSBOWMAN"/>
 	</UnitReplaces>

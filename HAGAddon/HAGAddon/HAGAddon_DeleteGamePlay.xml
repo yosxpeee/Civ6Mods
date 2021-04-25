@@ -7,8 +7,6 @@
 	</CivilizationLeaders>
 	<!-- ユニットアビリティ -->
 	<UnitAbilityModifiers>
-		<!-- ベルセルクの防戦時ペナルティ削除 -->
-		<Delete UnitAbilityType="ABILITY_BERSERKER_RAGE" ModifierId="UNIT_WEAK_WHEN_DEFENDING" />
 	</UnitAbilityModifiers>
 	<TraitModifiers>
 		<!-- エチオピアから改善した資源の数だけ都市の出力に信仰力加算する特性を削除(バグってると思われる) -->

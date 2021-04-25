@@ -5,26 +5,8 @@
 	<!-- ======================================================================= -->
 	<!-- 説明文 -->
 	<Traits>
-		<!-- グルジア -->
-		<Update>
-			<Where Description="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_DESCRIPTION"/>
-			<Set Description="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DRAMA_DESCRIPTION"/>
-		</Update>
 	</Traits>
 	<!-- 特性 -->
-	<!-- ボーナス資源、高級資源、戦略資源の鉱山から信仰力+１ -->
 	<TraitModifiers>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_NEW</TraitType>
-			<ModifierId>TRAIT_BONUS_MINE_FAITH_HAGA</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_NEW</TraitType>
-			<ModifierId>TRAIT_LUXURY_MINE_FAITH_HAGA</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_NEW</TraitType>
-			<ModifierId>TRAIT_STRATEGIC_MINE_FAITH_HAGA</ModifierId>
-		</Row>
 	</TraitModifiers>
 </GameData>

@@ -4,13 +4,6 @@
 	<!-- 文明 -->
 	<!-- ======================================================================= -->
 	<Players>
-		<!-- グルジア -->
-		<Update>
-			<Where CivilizationType="CIVILIZATION_GEORGIA"/>
-			<Set>
-				<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION</CivilizationAbilityDescription>
-			</Set>
-		</Update>
 		<!-- 大コロンビア -->
 		<Update>
 			<Where CivilizationType="CIVILIZATION_GRAN_COLOMBIA"/>
@@ -38,13 +31,6 @@
 	<!-- 固有アイテム -->
 	<!-- ======================================================================= -->
 	<PlayerItems>
-		<!-- ベルセルク -->
-		<Update>
-			<Where CivilizationType="CIVILIZATION_NORWAY" LeaderType="LEADER_HARDRADA" Type="UNIT_NORWEGIAN_BERSERKER"/>
-			<Set>
-				<Description>LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION</Description>
-			</Set>
-		</Update>
 		<!-- 書院 -->
 		<Update>
 			<Where CivilizationType="CIVILIZATION_KOREA" LeaderType="LEADER_SEONDEOK" Type="DISTRICT_SEOWON"/>

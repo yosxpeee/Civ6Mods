@@ -83,20 +83,6 @@
 		<Row Name="ICON_ATLAS_CIVILIZATION_HAGA_BAKU" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_HAGA_BAKU256.dds"/>
 		
 		<!-- ユニット -->
-		<!-- 長剣士 -->
-		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN22.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN32.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN38.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN50.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN80.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LONGSWORDSMAN256.dds"/>
-		<!-- トレビュシェット -->
-		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET22.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET32.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET38.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET50.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET80.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_TREBUCHET" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_TREBUCHET256.dds"/>
 		<!-- 戦列艦 -->
 		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP22.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_LINESHIP" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_LINESHIP32.dds"/>
@@ -174,13 +160,6 @@
 		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN50.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN80.dds"/>
 		<Row Name="ICON_ATLAS_UNIT_HAGA_CVN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_CVN256.dds"/>
-		<!-- ライフル兵 -->
-		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN22.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN32.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN38.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN50.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN80.dds"/>
-		<Row Name="ICON_ATLAS_UNIT_HAGA_RIFLEMAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_UNIT_HAGA_RIFLEMAN256.dds"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!-- Beliefs -->
@@ -210,26 +189,6 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="50"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="50"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="50"/>
-		<!-- トレビュシェット(ポートレイトはカタパルトの使いまわし) -->
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET"                                   Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_TREBUCHET"           Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_TREBUCHET_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="37"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_TREBUCHET_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="37"/>
-		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_TREBUCHET_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="37"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_TREBUCHET_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="37"/>
-		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_TREBUCHET_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="37"/>
-		<!-- 長剣士(ポートレイトは剣士の使いまわし) -->
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN"                                   Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_LONGSWORDSMAN"       Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="32"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="32"/>
-		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="32"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="32"/>
-		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_LONGSWORDSMAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="32"/>
 		<!-- 戦列艦(ポートレイトはフリゲート艦の使いまわし) -->
 		<Row Name="ICON_UNIT_HAGA_LINESHIP"                                   Atlas="ICON_ATLAS_UNIT_HAGA_LINESHIP"            Index="0"/>
 		<Row Name="ICON_UNIT_HAGA_LINESHIP_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_LINESHIP"            Index="0"/>
@@ -340,16 +299,6 @@
 		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_CVN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS_2"  Index="18"/>
 		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_CVN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS_2" Index="18"/>
 		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_CVN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS_2"        Index="18"/>
-		<!-- ライフル兵(ポートレイトはマスケット兵の使いまわし) -->
-		<Row Name="ICON_UNIT_HAGA_RIFLEMAN"                                   Atlas="ICON_ATLAS_UNIT_HAGA_RIFLEMAN"            Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_RIFLEMAN_FOW"                               Atlas="ICON_ATLAS_UNIT_HAGA_RIFLEMAN"            Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_RIFLEMAN_WHITE"                             Atlas="ICON_ATLAS_UNIT_HAGA_RIFLEMAN"            Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_RIFLEMAN_BLACK"                             Atlas="ICON_ATLAS_UNIT_HAGA_RIFLEMAN"            Index="0"/>
-		<Row Name="ICON_UNIT_HAGA_RIFLEMAN_PORTRAIT"                          Atlas="ICON_ATLAS_UNIT_PORTRAITS"                Index="51"/>
-		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_HAGA_RIFLEMAN_PORTRAIT"        Atlas="ICON_ATLAS_ASIAN_UNIT_PORTRAITS"          Index="51"/>
-		<Row Name="ICON_ETHNICITY_SOUTH_AMERICAN_UNIT_HAGA_RIFLEMAN_PORTRAIT" Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="51"/>
-		<Row Name="ICON_ETHNICITY_ASIAN_UNIT_HAGA_RIFLEMAN_PORTRAIT"          Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="51"/>
-		<Row Name="ICON_ETHNICITY_MEDITERRANEAN_UNIT_HAGA_RIFLEMAN_PORTRAIT"  Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="51"/>
 		
 		<!-- 建造物 -->
 		<!-- マシュリク・アル・アドゥカル(シナゴーグの使いまわし) -->

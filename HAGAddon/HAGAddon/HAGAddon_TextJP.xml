@@ -100,9 +100,6 @@
 		</Row>
 
 		<!-- ユニットアビリティ -->
-		<Row Tag="LOC_ABILITY_BERSERKER_RAGE_HAGA_DESCRIPTION" Language="ja_JP">
-			<Text>攻撃時に [ICON_Strength] 戦闘力+8。</Text>
-		</Row>
 		<Row Tag="LOC_ABILITY_HAGA_ANTI_NAVAL_MELEE_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>海洋近接ユニットに対し [ICON_Strength] 戦闘力+5。</Text>
 		</Row>

@@ -34,26 +34,6 @@
 		<Row Tag="LOC_ABILITY_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_MODIFIER_DESCRIPTION" Language="ja_JP">
 			<Text>陸上近接ユニットに対し [ICON_Strength] 戦闘力+7</Text>
 		</Row>
-		<!-- トレビュシェット(共通ユニット) -->
-		<Row Tag="LOC_UNIT_HAGA_TREBUCHET_NAME" Language="ja_JP">
-			<Text>トレビュシェット</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_HAGA_TREBUCHET_DESCRIPTION" Language="ja_JP">
-			<Text>中世時代の砲撃ユニット。都市を攻撃する際に力を発揮する。「熟練搭乗員」レベルアップを獲得しない限り、同じターンに移動と攻撃の両方をおこなうことはできない。</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_TREBUCHET_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>トレビュシェットは中世の強力な攻城用兵器である。12世紀のヨーロッパで最初に使用されたトレビュシェットは、離れた場所から140キログラムほどのミサイルを敵の城壁めがけて、あるいは城壁の向こうへと投げ込むことができた。中世ヨーロッパ型のトレビュシェットは「カウンターウェイト」機械であった。非常に長い木製アームの一端には投石器が、もう一端には重りがついていて、それが重厚な木枠に取り付けられている。長いアームを巻き上げ、重りを持ち上げて下ろし、投石器にミサイルを入れる。発射の時には、重りが下りてきてアームが勢いよく空へ上がり、ミサイルがはるか遠くまで投げ込まれるのである。この機械は移動ができないのが一般的で、組み立てにも時間がかかるため、長引く攻撃での有効利用に限られていた。</Text>
-		</Row>
-		<!-- 長剣士(共通ユニット) -->
-		<Row Tag="LOC_UNIT_HAGA_LONGSWORDSMAN_NAME" Language="ja_JP">
-			<Text>長剣士</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_HAGA_LONGSWORDSMAN_DESCRIPTION" Language="ja_JP">
-			<Text>中世時代の強力な近接戦闘ユニット。</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_LONGSWORDSMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>長剣は、中世/ルネサンス時代の戦場で最も万能な武器であった。長槍よりも軽くて扱いやすく、片手でも両手でも使えるため、剣士が盾を装備することもできた。長槍兵と1対1で戦う場合、長剣士はかなり不利な立場となり、攻撃可能な距離に近づくこともできないうちに長い武器による犠牲者が多く出た。しかしながら、長剣士隊は長槍兵よりも機動力が高いため、側面から敵を攻撃することができれば、長槍兵は命を落とすことになった。</Text>
-		</Row>
 		<!-- 戦列艦(共通ユニット) -->
 		<Row Tag="LOC_UNIT_HAGA_LINESHIP_NAME" Language="ja_JP">
 			<Text>戦列艦</Text>
@@ -163,16 +143,6 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_CVN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
 			<Text>原子力を動力源とする航空母艦。艦内に原子炉を搭載し、原子核反応による反応熱を熱源とする蒸気タービンを動力機関に備えた戦闘用の大型艦船で、長大な航続力を誇る。</Text>
-		</Row>
-		<!-- ライフル兵(共通ユニット) -->
-		<Row Tag="LOC_UNIT_HAGA_RIFLEMAN_NAME" Language="ja_JP">
-			<Text>ライフル兵</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_HAGA_RIFLEMAN_DESCRIPTION" Language="ja_JP">
-			<Text>産業時代の強力な近接戦闘ユニット。</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAGA_RIFLEMAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text>ライフリングを施された銃身を有する火器を持った兵士。ライフリングのないマスケット銃に比べて命中精度が飛躍的に向上した。</Text>
 		</Row>
 
 		<!-- 都市国家 -->
@@ -331,17 +301,8 @@
 		<Row Tag="LOC_DISTRICT_HANSA_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>工業をつかさどる区域。神聖ローマ帝国およびドイツ固有。工業地帯区域に取ってかわり、より安価に建設できる。[NEWLINE][NEWLINE]商業ハブ、用水路、運河、ダム区域に隣接している場合、 [ICON_Production] 生産力ボーナス+2。資源に隣接している場合、それぞれ [ICON_Production] 生産力ボーナス+1。2つの区域タイルに隣接している場合、 [ICON_Production] 生産力ボーナス+1。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_HAGA_DESCRIPTION" Language="ja_JP">
-			<Text>ノルウェー固有の中世の近接戦闘ユニット。敵の領地で移動を開始した場合は [ICON_Movement] 移動力4。攻撃時は [ICON_Strength] 戦闘力+8。</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DESCRIPTION" Language="ja_JP">
-			<Text>黄金時代または英雄時代の開始時に公約を選択すると、それらのボーナスに加えて、時代スコアを高める通常の時代のボーナスが得られる。防御施設に対する [ICON_Production] 生産力+50%。何らかの資源上の鉱山から [ICON_FAITH] 信仰力+1。</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_HAGA_DRAMA_DESCRIPTION" Language="ja_JP">
-			<Text>黄金時代の間はワイルドカード政策スロットが追加され、暗黒時代の政策も採用できます。防御施設の [ICON_Production] 生産力+50%。何らかの資源上の鉱山から [ICON_FAITH] 信仰力+1。</Text>
-		</Row>
 		<Row Tag="LOC_DISTRICT_SEOWON_HAGA_DESCRIPTION" Language="ja_JP">
-			<Text>科学を探求する韓国固有の区域。キャンパス区域に取ってかわる。 [ICON_SCIENCE] 科学力+6。丘陵の上にのみ建設可能。</Text>
+			<Text>科学を探求する韓国固有の区域。キャンパス区域に取ってかわる。 [ICON_SCIENCE] 科学力+6。隣接する区域ごとに [ICON_Science] 科学力-1。丘陵の上にのみ建設可能。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_HAGA_DESCRIPTION" Language="ja_JP">
 			<Text>戦列艦に取ってかわるオランダ固有の産業時代のユニット。防御に適した区域を攻撃する際、[ICON_Strength] 戦闘力+7。</Text>

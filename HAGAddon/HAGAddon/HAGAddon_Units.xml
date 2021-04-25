@@ -3,8 +3,6 @@
 	<!-- 親定義 -->
 	<Types>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAGA_TREBUCHET"                     Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_LINESHIP"                      Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_TRIREME"                       Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_COG"                           Kind="KIND_UNIT"/>
@@ -16,7 +14,6 @@
 		<Row Type="UNIT_HAGA_EARLY_BOMBER"                  Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_CVL"                           Kind="KIND_UNIT"/>
 		<Row Type="UNIT_HAGA_CVN"                           Kind="KIND_UNIT"/>
-		<Row Type="UNIT_HAGA_RIFLEMAN"                      Kind="KIND_UNIT"/>
 	</Types>
 	<!-- クラス定義 -->
 	<Tags>
@@ -33,17 +30,6 @@
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_ANTI_CAVALRY"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" AiType="UNITTYPE_LAND_COMBAT"/>
-		<!-- トレビュシェット -->
-		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_SIEGE"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_SIEGE_ALL"/>
-		<Row UnitType="UNIT_HAGA_TREBUCHET"                     AiType="UNITTYPE_LAND_COMBAT"/>
-		<!-- 長剣士 -->
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"                 AiType="UNITTYPE_LAND_COMBAT"/>
 		<!-- 戦列艦 -->
 		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_LINESHIP"                      AiType="UNITTYPE_RANGED"/>
@@ -89,11 +75,6 @@
 		<!-- 原子力空母 -->
 		<Row UnitType="UNIT_HAGA_CVN"                           AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HAGA_CVN"                           AiType="UNITTYPE_NAVAL"/>
-		<!-- ライフル兵 -->
-		<Row UnitType="UNIT_HAGA_RIFLEMAN"                      AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_HAGA_RIFLEMAN"                      AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HAGA_RIFLEMAN"                      AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_HAGA_RIFLEMAN"                      AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- 置換設定 -->
 	<UnitReplaces>
@@ -107,12 +88,6 @@
 		<!-- ランツクネヒト -->
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_ANTI_CAVALRY"/>
 		<Row Type="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Tag="CLASS_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
-		<!-- トレビュシェット -->
-		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_SIEGE"/>
-		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_SIEGE_SETUP"/>
-		<Row Type="UNIT_HAGA_TREBUCHET"                     Tag="CLASS_FORWARD_OBSERVER"/>
-		<!-- 長剣士 -->
-		<Row Type="UNIT_HAGA_LONGSWORDSMAN"                 Tag="CLASS_MELEE"/>
 		<!-- 戦列艦 -->
 		<Row Type="UNIT_HAGA_LINESHIP"                      Tag="CLASS_NAVAL_RANGED"/>
 		<Row Type="UNIT_HAGA_LINESHIP"                      Tag="CLASS_HAGA_ANTI_DEF_DISTRICTS"/>
@@ -141,30 +116,16 @@
 		<Row Type="UNIT_HAGA_CVL"                           Tag="CLASS_NAVAL_CARRIER"/>
 		<!-- 原子力空母 -->
 		<Row Type="UNIT_HAGA_CVN"                           Tag="CLASS_NAVAL_CARRIER"/>
-		<!-- ライフル兵 -->
-		<Row Type="UNIT_HAGA_RIFLEMAN"                      Tag="CLASS_MELEE"/>
 	</TypeTags>
 	<!-- 主設定 -->
 	<Units>
 		<!-- ランツクネヒト -->
 		<Row UnitType="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" Cost="200" Maintenance="1" BaseMoves="2" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="44" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="47" 
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_NAME" Description="LOC_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_MILITARY_TACTICS"
 			 TraitType="TRAIT_UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT"/>
-		<!-- トレビュシェット -->
-		<Row UnitType="UNIT_HAGA_TREBUCHET" Cost="220" Maintenance="3" BaseMoves="2" BaseSightRange="2" 
-			 ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="33" Bombard="45" Range="2" 
-			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_TREBUCHET_NAME" Description="LOC_UNIT_HAGA_TREBUCHET_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_MILITARY_ENGINEERING"/>
-		<!-- 長剣士 -->
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN" Cost="160" Maintenance="3" BaseMoves="2" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="42" StrategicResource="RESOURCE_IRON" 
-			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_LONGSWORDSMAN_NAME" Description="LOC_UNIT_HAGA_LONGSWORDSMAN_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS" PrereqTech="TECH_MILITARY_TACTICS"/>
 		<!-- 戦列艦 -->
 		<Row UnitType="UNIT_HAGA_LINESHIP" Cost="355" Maintenance="5" BaseMoves="4" BaseSightRange="2" 
 			 ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="52" RangedCombat="62" Range="2" StrategicResource="RESOURCE_NITER"
@@ -231,21 +192,11 @@
 			 FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_CARRIER" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_CVN_NAME" Description="LOC_UNIT_HAGA_CVN_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_TELECOMMUNICATIONS" AirSlots="3"/>
-		<!-- ライフル兵 -->
-		<Row UnitType="UNIT_HAGA_RIFLEMAN" Cost="340" Maintenance="5" BaseMoves="2" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="62" StrategicResource="RESOURCE_NITER"
-			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
-			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAGA_RIFLEMAN_NAME" Description="LOC_UNIT_HAGA_RIFLEMAN_DESCRIPTION" 
-			 PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_RIFLING"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
 		<!-- ランツクネヒト：槍銃兵 -->
 		<Row Unit="UNIT_HAGA_HOLY_ROMAN_EMPIRE_LANDSKNECHT" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
-		<!-- トレビュシェット：射石砲 -->
-		<Row Unit="UNIT_HAGA_TREBUCHET" UpgradeUnit="UNIT_BOMBARD"/>
-		<!-- 長剣士：マスケット兵 -->
-		<Row Unit="UNIT_HAGA_LONGSWORDSMAN" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<!-- 戦列艦：弩級戦艦 -->
 		<Row Unit="UNIT_HAGA_LINESHIP" UpgradeUnit="UNIT_BATTLESHIP"/>
 		<!-- トリレーム：コグ -->
@@ -264,19 +215,15 @@
 		<Row Unit="UNIT_HAGA_EARLY_BOMBER" UpgradeUnit="UNIT_BOMBER"/>
 		<!-- 改造空母：空母 -->
 		<Row Unit="UNIT_HAGA_CVL" UpgradeUnit="UNIT_AIRCRAFT_CARRIER"/>
-		<!-- ライフル兵：歩兵 -->
-		<Row Unit="UNIT_HAGA_RIFLEMAN" UpgradeUnit="UNIT_INFANTRY"/>
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
 	</Unit_BuildingPrereqs>
 	<!-- 戦略資源のコスト -->
 	<Units_XP2>
-		<Row UnitType="UNIT_HAGA_LONGSWORDSMAN"     ResourceCost="20"/>
 		<Row UnitType="UNIT_HAGA_LINESHIP"          ResourceCost="20"/>
 		<Row UnitType="UNIT_HAGA_CORVETTE"          ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAGA_CRUISER"           ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAGA_SUPER_DREDNOUGHTS" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"  ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_HAGA_EARLY_BOMBER"      ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL"  ResourceMaintenanceAmount="1"/>
-		<Row UnitType="UNIT_HAGA_RIFLEMAN"          ResourceCost="20"/>
 	</Units_XP2>
 </GameInfo>

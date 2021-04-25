@@ -328,378 +328,6 @@
     <Content Include="Animations\galleass_victory.fgx">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Animations\longswordsman_attacka.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_attacka.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_attackb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_attackb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_attack_city.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_attack_city.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_bombard_defense.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_bombard_defense.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_bombard_defense_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_bombard_defense_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_bombard_defense_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_bombard_defense_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_charge_attack.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_charge_attack.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_charge_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_charge_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_combat_ready.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_combat_ready.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_combat_ready_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_combat_ready_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_deatha.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_deatha.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_deathb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_deathb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_death_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_death_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_death_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_death_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fidgeta.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fidgeta.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fidgetb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fidgetb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify_idle_fidget.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify_idle_fidget.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify_idle_trans_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify_idle_trans_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_fortify_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_idlea_trans_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_idlea_trans_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_idleb_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_idleb_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_shuffle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_shuffle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_stop_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_stop_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_stop_run_trans_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_stop_run_trans_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_victory.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\longswordsman_victory.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_attacka.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_attacka.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_attackb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_attackb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_attack_city.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_attack_city.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_bombard_defense.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_bombard_defense.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_bombard_defense_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_bombard_defense_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_bombard_defense_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_bombard_defense_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_charge_attack.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_charge_attack.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_charge_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_charge_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_combat_ready.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_combat_ready.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_combat_ready_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_combat_ready_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_deatha.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_deatha.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_deatha_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_deatha_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_deathb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_deathb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_deathb_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_deathb_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fidgeta.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fidgeta.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fidgetb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fidgetb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify_idle_fidget.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify_idle_fidget.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify_idle_trans_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify_idle_trans_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_fortify_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_idlea_trans_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_idlea_trans_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_idleb_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_idleb_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_shuffle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_shuffle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_stop_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_stop_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_stop_run_b.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_stop_run_b.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_victory.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\rifleman_victory.fgx">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Animations\transport_attacka.anm">
       <SubType>Content</SubType>
     </Content>
@@ -854,180 +482,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Animations\transport_victory.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_attacka.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_attacka.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_attackb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_attackb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_attack_city.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_attack_city.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_bombardment.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_bombardment.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_bombard_defense.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_bombard_defense.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_bombard_defense_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_bombard_defense_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_bombard_defense_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_bombard_defense_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_combat_ready.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_combat_ready.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_combat_ready_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_combat_ready_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_deatha.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_deatha.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_deatha_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_deatha_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_deathb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_deathb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_deathb_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_deathb_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fidgeta.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fidgeta.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fidgetb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fidgetb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify_idle_fidget.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify_idle_fidget.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify_idle_trans_combat_ready_idle.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify_idle_trans_combat_ready_idle.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify_idle_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_fortify_idle_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_idlea_trans_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_idlea_trans_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_idleb_trans_idlea.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_idleb_trans_idlea.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_stop_run.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_stop_run.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_stop_run_idleb.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_stop_run_idleb.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_victory.anm">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Animations\trebuchet_victory.fgx">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Animations\trireme_attacka.anm">
@@ -1528,16 +982,7 @@
     <Content Include="Assets\EarlyBomberA.ast">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Assets\Longswordsman.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\Rifleman.ast">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Assets\Transport.ast">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Assets\Trebuchet.ast">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Assets\Trireme.ast">
@@ -1570,25 +1015,7 @@
     <Content Include="Geometries\galleass.geo">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Geometries\longswordsman.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\longswordsman.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\rifleman.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\rifleman.geo">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Geometries\transport.geo">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\trebuchet.fgx">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Geometries\trebuchet.geo">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Geometries\trireme.fgx">
@@ -1690,25 +1117,13 @@
     <Content Include="Materials\galleass_DMG_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Materials\Longswordsman_DIFF.mtl">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Materials\Quinquereme_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Quinquereme_DMG_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Materials\Rifleman_DIFF.mtl">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Materials\Transport_DIFF.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\TrebuchetCrew_DIFF.mtl">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Materials\Trebuchet_DIFF.mtl">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Materials\Trireme_DIFF.mtl">
@@ -2464,42 +1879,6 @@
     <Content Include="Textures\ICON_UNIT_HAGA_LINESHIP80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN22.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN32.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN38.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN50.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN80.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_LONGSWORDSMAN80.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -2534,42 +1913,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_QUINQUEREME80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN22.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN32.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN38.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN50.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN80.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_RIFLEMAN80.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_SUPER_DREDNOUGHTS22.DDS">
@@ -2608,42 +1951,6 @@
     <Content Include="Textures\ICON_UNIT_HAGA_SUPER_DREDNOUGHTS80.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET22.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET22.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET256.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET256.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET32.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET32.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET38.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET38.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET50.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET50.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET80.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\ICON_UNIT_HAGA_TREBUCHET80.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_TRIREME22.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -2678,24 +1985,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_UNIT_HAGA_TRIREME80.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\longswordsman_diff.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\longswordsman_diff.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\longswordsman_diff_t.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\longswordsman_diff_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\longswordsman_sref.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\longswordsman_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\Moment_HAGA_Landsknecht.dds">
@@ -2791,24 +2080,6 @@
     <Content Include="Textures\quinquereme_sref.tex">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Textures\rifleman_diff.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\rifleman_diff.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\rifleman_diff_t.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\rifleman_diff_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\rifleman_sref.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\rifleman_sref.tex">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Textures\transport_diff.DDS">
       <SubType>Content</SubType>
     </Content>
@@ -2825,42 +2096,6 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\transport_sref.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchetcrew_diff.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchetcrew_diff.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchetcrew_diff_t.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchetcrew_diff_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchetcrew_sref.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchetcrew_sref.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchet_diff.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchet_diff.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchet_diff_t.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchet_diff_t.tex">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchet_sref.DDS">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="Textures\trebuchet_sref.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\trireme_diff.DDS">
