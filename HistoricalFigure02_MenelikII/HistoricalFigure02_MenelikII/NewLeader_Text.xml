@@ -148,7 +148,7 @@
 		</Row>
 
 		<!-- ユニットアビリティの説明文 -->
-		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_NAME" Language="en_US">
+		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_DESCRIPTION" Language="en_US">
 			<Text>+3 [ICON_Strength] Combat Strength bonus within 4 hexes of friendly territory.</Text>
 		</Row>
 
@@ -193,6 +193,9 @@
 			<Text>Mount Dendi</Text>
 		</Row>
 		<!-- 湖 -->
+		<Row Tag="LOC_NAMED_HAG_LAKE_LANGANO_LAKE_NAME" Language="en_US">
+			<Text>Langano Lake</Text>
+		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_AWASA_LAKE_NAME" Language="en_US">
 			<Text>Awasa Lake</Text>
 		</Row>

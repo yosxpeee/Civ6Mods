@@ -148,7 +148,7 @@
 		</Row>
 
 		<!-- ユニットアビリティの説明文 -->
-		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_NAME" Language="ja_JP">
+		<Row Tag="LOC_ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY_DESCRIPTION" Language="ja_JP">
 			<Text>友好的な領土から4タイル以内にいるユニットの [ICON_Strength] 戦闘力+3。</Text>
 		</Row>
 
@@ -193,6 +193,9 @@
 			<Text>デンディ山</Text>
 		</Row>
 		<!-- 湖 -->
+		<Row Tag="LOC_NAMED_HAG_LAKE_LANGANO_LAKE_NAME" Language="ja_JP">
+			<Text>ランガノ湖</Text>
+		</Row>
 		<Row Tag="LOC_NAMED_HAG_LAKE_AWASA_LAKE_NAME" Language="ja_JP">
 			<Text>アワッサ湖</Text>
 		</Row>

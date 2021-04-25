@@ -15,7 +15,7 @@
 			<Text>アフリカの角</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_ETHIOPIA_DESCRIPTION" Language="ja_JP">
-			<Text>牧草地から [ICON_FOOD] 食糧+1(砂漠タイル上だとさらに [ICON_Production] 生産力+1)。他文明の都市を起点または目的地とする [ICON_TradeRoute] 交易路により、自分の [ICON_GOLD] ゴールド+2。</Text>
+			<Text>牧草地から [ICON_FOOD] 食糧+1(砂漠タイル上だとさらに [ICON_Production] 生産力+1)。砂漠タイルから [ICON_Faith] 信仰力+1。他文明の都市を起点または目的地とする [ICON_TradeRoute] 交易路により、自分の [ICON_GOLD] ゴールド+2。</Text>
 		</Row>
 
 		<!-- 指導者(メネリク2世) -->
@@ -34,7 +34,7 @@
 			<Text>マハール・セファリ</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_DESCRIPTION" Language="ja_JP">
-			<Text>原子力時代のエチオピア帝国固有のユニット。兵士に取って代わる。丘陵地形での戦闘時に [ICON_Strength] 戦闘力+7。丘陵でも [ICON_Movement] 移動ペナルティが発生しない。戦略資源を必要としない。</Text>
+			<Text>原子力時代のエチオピア帝国固有のユニット。戦列歩兵に取って代わる。丘陵地形での戦闘時に [ICON_Strength] 戦闘力+7。丘陵でも [ICON_Movement] 移動ペナルティが発生しない。戦略資源を必要としない。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Language="ja_JP">
 			<Text>エチオピア帝国固有のユニット: マハール・セファリ</Text>

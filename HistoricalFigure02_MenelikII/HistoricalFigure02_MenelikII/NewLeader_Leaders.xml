@@ -68,7 +68,6 @@
 			<Value>ABILITY_LEADER_HAG_MENELIK2_COMBAT_BONUS_FRIENDLY_TERRITORY</Value>
 		</Row>
 		<!-- 経済スロット1つにつきターンごとの外交的支持+1-->
-
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MENELIK2_SLOT_ECONOMIC_FAVOR</ModifierId>
 			<Name>GovernmentSlotType</Name>

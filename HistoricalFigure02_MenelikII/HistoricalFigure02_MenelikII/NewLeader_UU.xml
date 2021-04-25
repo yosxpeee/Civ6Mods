@@ -21,23 +21,23 @@
 	</TypeTags>
 	<!-- 置換元 -->
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   ReplacesUnitType="UNIT_INFANTRY"/>
+		<Row CivUniqueUnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   ReplacesUnitType="UNIT_LINE_INFANTRY"/>
 	</UnitReplaces>
 	<!-- 主設定 -->
 	<Units>
 		<!-- マハール・セファリ -->
-		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Cost="430" Maintenance="6" BaseMoves="2" BaseSightRange="2"
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70"
+		<Row UnitType="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI" Cost="360" Maintenance="5" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="68"
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE"
 			 AdvisorType="ADVISOR_CONQUEST"
 			 Name="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_NAME" Description="LOC_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI_DESCRIPTION"
-			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_REPLACEABLE_PARTS"
+			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_MILITARY_SCIENCE"
 			 TraitType="TRAIT_UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"/>
 	</Units>
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<!-- マハール・セファリ：機械化歩兵-->
-		<Row Unit="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
+		<!-- マハール・セファリ：歩兵-->
+		<Row Unit="UNIT_HAG_ETHIOPIA_MEHAL_SEFARI"   UpgradeUnit="UNIT_INFANTRY"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>

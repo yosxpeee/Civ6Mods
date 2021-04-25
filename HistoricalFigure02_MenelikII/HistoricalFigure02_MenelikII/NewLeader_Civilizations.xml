@@ -41,6 +41,7 @@
 	<TraitModifiers>
 		<!-- エチオピア帝国 -->
 		<!-- 牧草地から食料+1(砂漠タイルだと生産力も+1) -->
+		<!-- 砂漠タイルから信仰力+1 -->
 		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
@@ -49,6 +50,14 @@
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
 			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
+			<ModifierId>TRAIT_INCREASED_DESERT_FAITH_HAG_ETHIOPIA</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_FAITH_HAG_ETHIOPIA</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_HAG_ETHIOPIA</TraitType>
@@ -73,6 +82,17 @@
 			<ModifierId>TRAIT_HAG_ETHIOPIA_PASTURE_PRODUCTION_ON_DESERT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</SubjectRequirementSetId>
+		</Row>
+		<!-- 砂漠タイルから信仰力+1 -->
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_FAITH_HAG_ETHIOPIA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_DESERT_REQUIREMENTS_HAG_ETHIOPIA</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_FAITH_HAG_ETHIOPIA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_HAG_ETHIOPIA</SubjectRequirementSetId>
 		</Row>
 		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
 		<Row>
@@ -108,6 +128,27 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<!-- 砂漠タイルから信仰力+1 -->
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_FAITH_HAG_ETHIOPIA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_FAITH_HAG_ETHIOPIA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_FAITH_HAG_ETHIOPIA</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INCREASED_DESERT_HILLS_FAITH_HAG_ETHIOPIA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 		<!-- 他文明が目的地もしくは他文明の都市が起点の交易路1つにつきゴールド+2 -->
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_ETHIOPIA_GOLD_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
@@ -136,6 +177,16 @@
 			<RequirementSetId>PLOT_HAS_PASTURE_ON_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- 砂漠 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 砂漠丘陵 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<!-- 条件定義 -->
 	<RequirementSetRequirements>
@@ -151,12 +202,44 @@
 			<!-- 砂漠で牧草地の改善ができるのは羊が配置されている場合のみ、羊は丘陵にしか配置されない-->
 			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
 		</Row>
+		<!-- 砂漠 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_DESERT_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HAG_ETHIOPIA</RequirementId>
+		</Row>
+		<!-- 砂漠丘陵 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_DESERT_HILLS_REQUIREMENTS_HAG_ETHIOPIA</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS_HAG_ETHIOPIA</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
+		<!-- 砂漠 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HAG_ETHIOPIA</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 砂漠丘陵 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS_HAG_ETHIOPIA</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
 	<RequirementArguments>
+		<!-- 砂漠 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HAG_ETHIOPIA</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<!-- 砂漠丘陵 -->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS_HAG_ETHIOPIA</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
 	</RequirementArguments>
 	<!-- 市民名 -->
 	<CivilizationCitizenNames>
