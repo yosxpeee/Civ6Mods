@@ -212,7 +212,7 @@
 		<!-- ティムール朝 -->
 		<!-- 商業ハブは他の区域から隣接ボーナス+1 -->
 		<!-- 全ての専門区域はオアシスから隣接ボーナス+2 -->
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" ModifierId="TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD"/><!-- バニラの日本の明治維新の一部 -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" ModifierId="TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD"/><!-- バニラの日本(明治維新)の一部 -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" ModifierId="TRAIT_HAG_TIMURID_ADJACENT_OASIS_COMMERCIALHUB_ADJACENCY_GOLD"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" ModifierId="TRAIT_HAG_TIMURID_ADJACENT_OASIS_HARBOR_ADJACENCY_GOLD"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_TIMURID" ModifierId="TRAIT_HAG_TIMURID_ADJACENT_OASIS_CAMPUS_ADJACENCY_SCIENCE"/>
@@ -222,16 +222,19 @@
 		<!-- ユーゴスラビア -->
 		<!-- 総督が着任しているすべての都市の文化が昇進ごとに3%上昇 -->
 		<!-- 工業地帯に隣接している鉱山は科学+1 -->
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA" ModifierId="TRAIT_ADJUST_CITY_CULTURE_PER_GOVERNOR_TITLE_MODIFIER"/><!-- RaFのソンドクと同じ -->
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA" ModifierId="TRAIT_ADJUST_CITY_CULTURE_PER_GOVERNOR_TITLE_MODIFIER"/><!-- RaFのソンドク(花郎)の一部 -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_YUGOSLAVIA" ModifierId="TRAIT_HAG_YUGOSLAVIA_MINE_INDUSTRIAL_ZONE_ADJECENCY_SCIENCE"/>
 		<!-- モロッコ -->
 		<!-- 国外交易路からゴールド+3、文化+1 -->
-		<!-- 他文明が起点の交易路1つにつき食料+2 -->
+		<!-- 他文明からの交易路から食料+2 -->
 		<!-- 他文明からの交易路は相手にゴールド+2を与える -->
+		<!-- オアシスから食料+2、オアシスのある都市は住宅+2 -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_INTERNATIONAL_TRADE_GOLD"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_INTERNATIONAL_TRADE_CULTURE"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_FOOD_FROM_INCOMING_TRADE_ROUTES"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_INCOMING_TRADE_OFFER_GOLD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_OASIS_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MOROCCO" ModifierId="TRAIT_HAG_MOROCCO_OASIS_HOUSING"/>
 		<!-- イタリア -->
 		<!-- 造船所の大提督ポイント+1 -->
 		<!-- 銀行の大商人ポイント+1 -->
@@ -255,13 +258,15 @@
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_USSR"  ModifierId="TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING"/><!-- バニラのロシアと同じ(GS追加能力) -->
 		<!-- フン族 -->
 		<!-- 初期から畜産取得済み -->
+		<!-- 商業ハブから快適性+2 -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_HUNS"  ModifierId="TRAIT_CIVILIZATION_HAG_HUNS_ANIMAL_HUSBANDRY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_HUNS"  ModifierId="TRAIT_CIVILIZATION_HAG_HUNS_COMMERCIAL_HUB_AMENITY"/>
 		<!-- マダガスカル -->
 		<!-- 初期から草原および平原の丘陵に農地がはれる -->
-		<!-- 偉人1人につき生産力+2%(上限30%) -->
+		<!-- 偉人1人につき科学力+2%(上限30%) -->
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" ModifierId="TRAIT_CIVILIZATION_HAG_MADAGASCAR_GRASS_HILLS_FARM"/>
 		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" ModifierId="TRAIT_CIVILIZATION_HAG_MADAGASCAR_PLAINS_HILLS_FARM"/>
-		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" ModifierId="TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HAG_MADAGASCAR" ModifierId="TRAIT_CIVILIZATION_HAG_MADAGASCAR_SCIENCE_FROM_EARNED_GREAT_PEOPLE_BONUS"/>
 		<!-- 海賊共和国 -->
 		<!-- 1時代ごとに大海賊を入手 -->
 		<!-- 初期から帆走術解禁済み、造船と天文航法ひらめき済み -->
@@ -322,7 +327,7 @@
 			<ModifierId>TRAIT_HAG_MOROCCO_INTERNATIONAL_TRADE_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
-		<!-- 他文明が起点の交易路1つにつき食料+2 -->
+		<!-- 他文明からの交易路から食料+2 -->
 		<Row>
 			<ModifierId>TRAIT_HAG_MOROCCO_FOOD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
@@ -332,7 +337,19 @@
 			<ModifierId>TRAIT_HAG_MOROCCO_INCOMING_TRADE_OFFER_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
 		</Row>
-
+		<!-- オアシスから食料+2 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_MOROCCO_OASIS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_OASIS_REQUIREMENTS_HAG_MOROCCO</SubjectRequirementSetId>
+		</Row>
+		<!-- オアシスのある都市は住宅+2 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_MOROCCO_OASIS_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_WATER_HOUSING</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_OASIS_HAG_MOROCCO</SubjectRequirementSetId>
+		</Row>
+		
 		<!-- 造船所の大提督ポイント+1 -->
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_ADMIRAL_SHIPYARD_MODIFIER</ModifierId>
@@ -375,7 +392,14 @@
 			<ModifierId>TRAIT_CIVILIZATION_HAG_HUNS_ANIMAL_HUSBANDRY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
 		</Row>
-
+		<!-- 商業ハブから快適性+2 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_HUNS_COMMERCIAL_HUB_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		
 		<!-- 初期から草原丘陵に農地がはれる -->
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_GRASS_HILLS_FARM</ModifierId>
@@ -386,14 +410,14 @@
 			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PLAINS_HILLS_FARM</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
 		</Row>
-		<!-- 偉人1人につき生産力+2%(上限30%) -->
+		<!-- 偉人1人につき科学力+2%(上限30%) -->
 		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_SCIENCE_FROM_EARNED_GREAT_PEOPLE_BONUS</ModifierId>
 			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>HAG_MADAGASCAR_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_SCIENCE_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_MODIFIER_PER_EARNED_GREAT_PERSON</ModifierType>
 		</Row>
 		
@@ -637,7 +661,7 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
-		<!-- 他文明が起点の交易路1つにつき食料+2 -->
+		<!-- 他文明からの交易路から食料+2 -->
 		<Row>
 			<ModifierId>TRAIT_HAG_MOROCCO_FOOD_FROM_INCOMING_TRADE_ROUTES</ModifierId>
 			<Name>YieldType</Name>
@@ -659,7 +683,24 @@
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
-
+		<!-- オアシスから食料+2 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_MOROCCO_OASIS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HAG_MOROCCO_OASIS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- オアシスのある都市は住宅+2 -->
+		<Row>
+			<ModifierId>TRAIT_HAG_MOROCCO_OASIS_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
 		<!-- 造船所から大提督ポイント+1 -->
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_ITALY_GREAT_ADMIRAL_SHIPYARD_MODIFIER</ModifierId>
@@ -733,7 +774,13 @@
 			<Name>TechType</Name>
 			<Value>TECH_ANIMAL_HUSBANDRY</Value>
 		</Row>
-
+		<!-- 商業ハブから快適性+2 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_HUNS_COMMERCIAL_HUB_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
 		<!-- 初期から草原丘陵に農地がはれる -->
 		<Row>
 			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_GRASS_HILLS_FARM</ModifierId>
@@ -756,19 +803,19 @@
 			<Name>TerrainType</Name>
 			<Value>TERRAIN_PLAINS_HILLS</Value>
 		</Row>
-		<!-- 偉人1人につき生産力+2%(上限30%) -->
+		<!-- 偉人1人につき科学力+2%(上限30%) -->
 		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_SCIENCE_FROM_EARNED_GREAT_PEOPLE_BONUS</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</Value>
+			<Value>TRAIT_CIVILIZATION_HAG_MADAGASCAR_SCIENCE_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_SCIENCE_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_PRODUCTION_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
+			<ModifierId>TRAIT_CIVILIZATION_HAG_MADAGASCAR_SCIENCE_FROM_EARNED_GREAT_PEOPLE_BONUS_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
@@ -910,6 +957,16 @@
 			<RequirementSetId>HAG_MADAGASCAR_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- オアシスタイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_OASIS_REQUIREMENTS_HAG_MOROCCO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- 都市にオアシスタイルがある -->
+		<Row>
+			<RequirementSetId>CITY_HAS_OASIS_HAG_MOROCCO</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<!-- 条件定義 -->
 	<RequirementSetRequirements>
@@ -952,6 +1009,16 @@
 			<RequirementSetId>HAG_MADAGASCAR_REQUIREMENTS</RequirementSetId>
 			<RequirementId>PLAYER_IS_HAG_MADAGASCAR</RequirementId>
 		</Row>
+		<!-- オアシスタイルである -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_OASIS_REQUIREMENTS_HAG_MOROCCO</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_OASIS</RequirementId><!-- バニラにある -->
+		</Row>
+		<!-- 都市にオアシスタイルがある -->
+		<Row>
+			<RequirementSetId>CITY_HAS_OASIS_HAG_MOROCCO</RequirementSetId>
+			<RequirementId>REQUIRES_OASIS_IN_CITY_HAG_MOROCCO</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
 	<Requirements>
@@ -989,6 +1056,11 @@
 		<Row>
 			<RequirementId>PLAYER_IS_HAG_MADAGASCAR</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- 都市にオアシスタイルがある -->
+		<Row>
+			<RequirementId>REQUIRES_OASIS_IN_CITY_HAG_MOROCCO</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_FEATURE</RequirementType>
 		</Row>
 	</Requirements>
 	<!-- 条件詳細の引数 -->
@@ -1034,6 +1106,12 @@
 			<RequirementId>PLAYER_IS_HAG_MADAGASCAR</RequirementId>
 			<Name>CivilizationType</Name>
 			<Value>CIVILIZATION_HAG_MADAGASCAR</Value>
+		</Row>
+		<!-- 都市にオアシスタイルがある -->
+		<Row>
+			<RequirementId>REQUIRES_OASIS_IN_CITY_HAG_MOROCCO</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_OASIS</Value>
 		</Row>
 	</RequirementArguments>
 	<!-- 市民名 -->
@@ -1430,8 +1508,8 @@
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_GRASS_MOUNTAIN"  Tier="2"/>
 		<Row CivilizationType="CIVILIZATION_HAG_YUGOSLAVIA" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="2"/>
 		<!-- モロッコ：砂漠 -->
-		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT"       Tier="3"/>
-		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT"       Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" TerrainType="TERRAIN_DESERT_HILLS" Tier="2"/>
 		<!-- ソ連：ツンドラ -->
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" TerrainType="TERRAIN_TUNDRA"       Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_HAG_USSR" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
@@ -1446,8 +1524,9 @@
 		<Row CivilizationType="CIVILIZATION_HAG_REPUBLIC_OF_PIRATES" TerrainType="TERRAIN_COAST" Tier="3"/>
 	</StartBiasTerrains>
 	<StartBiasResources>
-		<!-- モロッコ：馬 -->
-		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" ResourceType="RESOURCE_HORSES" Tier="1"/>
+		<!-- モロッコ：馬、オリーブ -->
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" ResourceType="RESOURCE_HORSES" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_HAG_MOROCCO" ResourceType="RESOURCE_OLIVES" Tier="5"/>
 		<!-- ティムール朝：馬 -->
 		<Row CivilizationType="CIVILIZATION_HAG_TIMURID" ResourceType="RESOURCE_HORSES" Tier="3"/>
 		<!-- ユーゴスラビア：戦略資源 -->

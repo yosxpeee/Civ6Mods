@@ -47,7 +47,7 @@
 			<Text>アフリカの玄関口</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="ja_JP">
-			<Text>[ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+3、[ICON_Culture] 文化力+1。他文明の都市を起点とする [ICON_TradeRoute] 交易路により、自分の [ICON_FOOD] 食糧+2。他文明の [ICON_TradeRoute] 交易路でモロッコとの交易がおこなわれた場合、その文明に [ICON_Gold] ゴールド+2。</Text>
+			<Text>[ICON_TradeRoute] 国外交易路から [ICON_GOLD] ゴールド+3、[ICON_Culture] 文化力+1。モロッコにつづく他文明の [ICON_TradeRoute] 交易路は、その文明に [ICON_Gold] ゴールド+2、モロッコに [ICON_Food] 食料+2をもたらす。オアシスから [ICON_Food] 食料+2。オアシスがある都市は [ICON_Housing] 住宅+2。</Text>
 		</Row>
 		<!-- 文明(イタリア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="ja_JP">
@@ -95,7 +95,7 @@
 			<Text>ムンツクの血統</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION" Language="ja_JP">
-			<Text>蛮族の野営地を占領すると開拓者を1体入手する。ゲーム開始時から畜産の技術を所有している。大商人の取得ができない。首都以外の都市名は他文明の都市名を借用する。</Text>
+			<Text>蛮族の野営地を占領すると開拓者を1体入手する。ゲーム開始時から畜産の技術を所有している。大商人の取得ができないが、商業ハブから [ICON_Amenities] 快適性+2。首都以外の都市名は他文明の都市名を借用する。</Text>
 		</Row>
 		<!-- 文明(マダガスカル) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_NAME" Language="ja_JP">
@@ -168,7 +168,7 @@
 			<Text>秩序、権威、鉄の意志</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="ja_JP">
-			<Text>全ユニットの防戦時に [ICON_Strength] 戦闘力+3。守備隊が駐屯している都市は、ターン毎の忠誠心+3。軍団または大軍団の場合は+5。</Text>
+			<Text>全ユニットの防戦時に [ICON_Strength] 戦闘力+3。守備隊が駐屯している都市は、ターン毎の忠誠心+3。軍団または大軍団の場合は+5。軽騎兵および攻囲ユニットに対する [ICON_Production] 生産力+25%。</Text>
 		</Row>
 		<!-- 指導者(東條英機) -->
 		<Row Tag="LOC_LEADER_HAG_HIDEKI_TOJO_NAME" Language="ja_JP">
@@ -188,7 +188,7 @@
 			<Text>敬虔女王</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="ja_JP">
-			<Text>自分が築いた航海術学校がある都市に元々の [ICON_Capital] 首都を移すことができる (新たな首都にしたい都市で固有のプロジェクトを完了すること)。起点の都市にある沿岸タイル1つにつき、国家間にまたがる [ICON_TradeRoute] 交易路の [ICON_GOLD] ゴールド+1。すべての都市国家の国境が開放される。</Text>
+			<Text>自分が築いた航海術学校がある都市に元々の [ICON_Capital] 首都を移すことができる (新たな首都にしたい都市で固有のプロジェクトを完了すること)。起点の都市にある沿岸タイル1つにつき、国家間にまたがる [ICON_TradeRoute] 交易路の [ICON_GOLD] ゴールド+1。すべての都市国家の国境が開放される。最初の [ICON_Capital] 首都と異なる大陸に建てた都市の [ICON_Gold] ゴールド+15%。</Text>
 		</Row>
 		<!-- 指導者(スターリン) -->
 		<Row Tag="LOC_LEADER_HAG_STALIN_NAME" Language="ja_JP">
@@ -198,7 +198,7 @@
 			<Text>スタハノフ運動</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="ja_JP">
-			<Text>開発したすべての戦略資源のターン毎の産出量+1。兵営、キャンパス、工業地帯 (区域) の建設にかかる時間が半分になる。</Text>
+			<Text>開発したすべての戦略資源のターン毎の産出量+1。兵営、キャンパス、工業地帯 (区域) の建設にかかる時間が半分になる。高級資源の鉱山および採石場の [ICON_Science] 科学力+1。</Text>
 		</Row>
 		<!-- 指導者(アドルフ・ヒトラー) -->
 		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_NAME" Language="ja_JP">
@@ -354,7 +354,7 @@
 			<Text>カラビニエリ</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAG_ITALY_CARABINIERI_DESCRIPTION" Language="ja_JP">
-			<Text>産業時代のイタリア固有のユニット。自国の首都がある大陸での戦闘では [ICON_Strength] 戦闘力+10。ユニットを倒すことで [ICON_GreatGeneral] 大将軍ポイントを獲得。</Text>
+			<Text>戦列歩兵に取ってかわる産業時代のイタリア固有の近接戦闘ユニット。自国の首都がある大陸での戦闘では [ICON_Strength] 戦闘力+10。ユニットを倒すことで [ICON_GreatGeneral] 大将軍ポイントを獲得。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_ITALY_CARABINIERI_NAME" Language="ja_JP">
 			<Text>イタリア固有のユニット: カラビニエリ</Text>
@@ -531,7 +531,7 @@
 			<Text>カスバ</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がモロッコ王国の施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1、[ICON_Housing] 住宅+0.5。他のカスバと隣接させると [ICON_Gold] ゴールド+1。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。</Text>
+			<Text>労働者がモロッコ王国の施設であるカスバを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Gold] ゴールド+1、[ICON_Food] 食糧+1、[ICON_Housing] 住宅+0.5。他のカスバと隣接させると [ICON_Gold] ゴールド+1。砂漠、砂漠丘陵、氾濫原(砂漠)に建設可能。この中にいるユニットは [ICON_Strength] 防御力+4となり、自動的に守りを固めた状態となる (2ターン)。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="ja_JP">
 			<Text>モロッコ王国固有の施設: カスバ</Text>
@@ -557,7 +557,7 @@
 			<Text>ユルト</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION" Language="ja_JP">
-			<Text>労働者がフン族固有の施設であるユルトを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。隣接するキャンプ/牧草地1つにつき [ICON_Food] 食料+1。隣接するプランテーション1つにつき [ICON_Culture] 文化力+1。平らな草原/平原にのみ建設可能。ユルト同士を隣接させることはできない。文化ツリーおよび技術ツリーの進展にともなって追加の [ICON_Production] 生産力、ユルトの [ICON_Food] 食料による [ICON_Tourism] 観光力のボーナスが発生する。</Text>
+			<Text>労働者がフン族固有の施設であるユルトを建設できるようになる。[NEWLINE][NEWLINE][ICON_Production] 生産力+1、[ICON_Housing] 住宅+1。隣接するキャンプ/牧草地1つにつき [ICON_Food] 食料+1。隣接するプランテーション1つにつき [ICON_Culture] 文化力+1。隣接する商業ハブ1つにつき [ICON_Gold] ゴールド+2。平らな草原/平原にのみ建設可能。ユルト同士を隣接させることはできない。文化ツリーおよび技術ツリーの進展にともなって追加の [ICON_Production] 生産力、ユルトの [ICON_Food] 食料による [ICON_Tourism] 観光力のボーナスが発生する。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="ja_JP">
 			<Text>フン族固有の施設: ユルト</Text>

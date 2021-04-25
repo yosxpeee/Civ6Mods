@@ -1429,6 +1429,9 @@
 		<Row Tag="LOC_ABILITY_UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER_DESCRIPTION" Language="ja_JP">
 			<Text>ダメージを負っている敵に対する [ICON_Strength] 戦闘力+5。</Text>
 		</Row>
+		<Row Tag="LOC_ABILITY_UNIT_HAG_HUNS_TARKHAN_DESCRIPTION" Language="ja_JP">
+			<Text>略奪による消費 [ICON_Movement] 移動力1。</Text>
+		</Row>
 		
 		<!-- 隣接ボーナス効果 -->
 		<Row Tag="LOC_HAG_TIMRID_DISTRICT_OASIS_2_GOLD" Language="ja_JP">

@@ -299,6 +299,7 @@
 		</Row>
 		<!-- ムーレイ・イスマイール -->
 		<!-- 全ユニット防戦時に戦闘力+3 -->
+		<!-- 軽騎兵と攻囲ユニットの生産力+25% -->
 		<!-- 都市へユニットを駐留させると忠誠心+3(軍団、大軍団だと+5) -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
@@ -306,11 +307,21 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
-			<ModifierId>TRAIT_ISIBONGO_GARRISONIDENTITY</ModifierId><!-- RaFのシャカと同じ -->
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_SIEGE_PRODUCTION</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
-			<ModifierId>TRAIT_ISIBONGO_GARRISONFORMATIONIDENTITY</ModifierId><!-- RaFのシャカと同じ -->
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_LIGHT_CAVALRY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
+			<!-- RaFのシャカと同じ -->
+			<ModifierId>TRAIT_ISIBONGO_GARRISONIDENTITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MULAY_ISMAIL</TraitType>
+			<!-- RaFのシャカと同じ -->
+			<ModifierId>TRAIT_ISIBONGO_GARRISONFORMATIONIDENTITY</ModifierId>
 		</Row>
 		<!-- 東條英機 -->
 		<!-- 全ユニット同盟1つごとに戦闘力+3 -->
@@ -339,9 +350,14 @@
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_ADJUST_WAR_WEARINESS</ModifierId>
 		</Row>
 		<!-- マリア1世 -->
+		<!-- 首都のない大陸の都市のゴールド出力+15% -->
 		<!-- 航海術学校のある都市へ遷都できる -->
 		<!-- 国外交易路の起点となる都市に存在する沿岸タイル1つにつきゴールド+1 -->
 		<!-- 都市国家の国境が解放済みになる -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_FOREIGN_CONTINENT_GOLD</ModifierId>
+		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ALLOW_PROJECT</ModifierId>
@@ -356,48 +372,60 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_MARIA_I</TraitType>
-			<ModifierId>GUNBOATDIPLOMACY_OPENBORDERS</ModifierId><!-- 社会政策の砲艦外交にある -->
+			<!-- 社会政策の砲艦外交にある -->
+			<ModifierId>GUNBOATDIPLOMACY_OPENBORDERS</ModifierId>
 		</Row>
 		<!-- スターリン -->
 		<!-- 戦略資源の生産力+1 -->
+		<!-- 高級資源の鉱山から科学力+1 -->
+		<!-- 高級資源の採石場から科学力+1 -->
 		<!-- 工業地帯、兵営、キャンパスのコスト半分 -->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
-			<ModifierId>EQUESTRIAN_ORDERS_ADDITIONAL_HORSES_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+			<!-- GSの社会政策にある -->
+			<ModifierId>EQUESTRIAN_ORDERS_ADDITIONAL_HORSES_EXTRACTION</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
-			<ModifierId>EQUESTRIAN_ORDERS_ADDITIONAL_IRON_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+			<!-- GSの社会政策にある -->
+			<ModifierId>EQUESTRIAN_ORDERS_ADDITIONAL_IRON_EXTRACTION</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
-			<ModifierId>DRILL_MANUALS_ADDITIONAL_NITER_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+			<!-- GSの社会政策にある -->
+			<ModifierId>DRILL_MANUALS_ADDITIONAL_NITER_EXTRACTION</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
-			<ModifierId>DRILL_MANUALS_ADDITIONAL_COAL_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+			<!-- GSの社会政策にある -->
+			<ModifierId>DRILL_MANUALS_ADDITIONAL_COAL_EXTRACTION</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
-			<ModifierId>RESOURCE_MANAGEMENT_ADDITIONAL_ALUMINUM_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+			<!-- GSの社会政策にある -->
+			<ModifierId>RESOURCE_MANAGEMENT_ADDITIONAL_ALUMINUM_EXTRACTION</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
-			<ModifierId>RESOURCE_MANAGEMENT_ADDITIONAL_OIL_EXTRACTION</ModifierId><!-- GSの社会政策にある -->
+			<!-- GSの社会政策にある -->
+			<ModifierId>RESOURCE_MANAGEMENT_ADDITIONAL_OIL_EXTRACTION</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
 		</Row>
-		<!--
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
-			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_LUXURY_MINE_SCIENCE</ModifierId>
 		</Row>
-		-->
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
-			<ModifierId>TRAIT_BOOST_ENCAMPMENT_PRODUCTION</ModifierId><!-- バニラの北条時宗と同じ -->
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_LUXURY_QUARRY_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
+			<!-- バニラの北条時宗と同じ -->
+			<ModifierId>TRAIT_BOOST_ENCAMPMENT_PRODUCTION</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LEADER_HAG_STALIN</TraitType>
@@ -665,6 +693,17 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
 		</Row>
 
+		<!-- 軽騎兵の生産力+25% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_LIGHT_CAVALRY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<!-- 攻囲ユニットの生産力+25% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_SIEGE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		
 		<!-- 全ユニット防戦時に戦闘力+3 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</ModifierId>
@@ -699,7 +738,14 @@
 			<ModifierId>TRAIT_LEADER_HAG_HIDEKI_TOJO_ADJUST_WAR_WEARINESS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
 		</Row>
-		
+
+		<!-- 首都のない大陸の都市のゴールド出力+15% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_FOREIGN_CONTINENT_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 		<!-- 航海術学校のある都市へ遷都できる -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ALLOW_PROJECT</ModifierId>
@@ -720,10 +766,18 @@
 			<ModifierId>TRAIT_LEADER_HAG_STALIN_ADDITIONAL_URANIUM_EXTRACTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
 		</Row>
-		<!-- 全都市の快適性-1 -->
+		<!-- 高級資源の鉱山から科学力+1 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_LUXURY_MINE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<!-- バニラにある -->
+			<SubjectRequirementSetId>PLOT_HAS_LUXURY_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- 高級資源の採石場から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_LUXURY_QUARRY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_LUXURY_QUARRY_REQUIREMENTS_HAG_STALIN</SubjectRequirementSetId>
 		</Row>
 		<!-- 工業地帯の建造コスト半分 -->
 		<Row>
@@ -1069,6 +1123,38 @@
 			<Value>2</Value>
 		</Row>
 
+		<!-- 軽騎兵の生産力+25% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_LIGHT_CAVALRY_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_LIGHT_CAVALRY_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_LIGHT_CAVALRY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!-- 攻囲ユニットの生産力+25% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_SIEGE_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_SIEGE_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_SIEGE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
 		<!-- 全ユニット防戦時に戦闘力+3 -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MULAY_ISMAIL_COMBAT_BONUS_WHEN_DEFENDING</ModifierId>
@@ -1125,6 +1211,17 @@
 			<Value>true</Value>
 		</Row>
 		
+		<!-- 首都のない大陸の都市のゴールド出力+15% -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_FOREIGN_CONTINENT_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_FOREIGN_CONTINENT_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
 		<!-- 航海術学校のある都市へ遷都できる -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_MARIA_I_ALLOW_PROJECT</ModifierId>
@@ -1169,11 +1266,27 @@
 			<Name>ResourceType</Name>
 			<Value>RESOURCE_URANIUM</Value>
 		</Row>
-		<!-- 全都市の快適性-1 -->
+		<!-- 高級資源の鉱山から科学力+1 -->
 		<Row>
-			<ModifierId>TRAIT_LEADER_HAG_STALIN_AMENITY_LOSS</ModifierId>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_LUXURY_MINE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_LUXURY_MINE_SCIENCE</ModifierId>
 			<Name>Amount</Name>
-			<Value>-1</Value>
+			<Value>1</Value>
+		</Row>
+		<!-- 高級資源の採石場から科学力+1 -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_LUXURY_QUARRY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_HAG_STALIN_LUXURY_QUARRY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
 		</Row>
 		<!-- 工業地帯の建造コスト半分 -->
 		<Row>
@@ -1523,7 +1636,7 @@
 			<Name>Amount</Name>
 			<Value>30</Value>
 		</Row>
-		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから [ICON_Strength] 戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
+		<!-- すべての陸上ユニットは異なるクラスの陸上ユニットから戦闘力+5の隣接ボーナスを受ける。(効果は重複しない、軽騎兵と重騎兵は同一クラス扱い、武僧などの特殊クラスは対象外) -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_HAG_RADAMA_I_STRENGTH_BONUS_FROM_OTHER_CLASS_MELEE</ModifierId>
 			<Name>AbilityType</Name>
@@ -1626,6 +1739,11 @@
 			<RequirementSetId>OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
+		<!-- 条件：すべてを満たす -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_LUXURY_QUARRY_REQUIREMENTS_HAG_STALIN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<!-- 条件：都市に兵営がある -->
@@ -1687,7 +1805,7 @@
 			<RequirementSetId>ATTACKER_OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
 			<RequirementId>OPPONENT_IS_NAVAL_REQUIREMENTS_MET_HAG</RequirementId>
 		</Row>
-		<!-- 攻撃相手が空母を除く海洋ユニットである -->
+		<!-- 条件：攻撃相手が空母を除く海洋ユニットである -->
 		<Row>
 			<RequirementSetId>OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
 			<RequirementId>OPPONENT_IS_NAVAL_MELEE_REQUIREMENT_HAG</RequirementId>
@@ -1699,6 +1817,17 @@
 		<Row>
 			<RequirementSetId>OPPONENT_IS_NAVAL_UNIT_REQUIREMENTS_HAG</RequirementSetId>
 			<RequirementId>OPPONENT_IS_NAVAL_RAIDER_REQUIREMENT_HAG</RequirementId>
+		</Row>
+		<!-- 条件：高級資源上の採石場 -->
+		<Row>
+			<RequirementSetId>PLOT_HAS_LUXURY_QUARRY_REQUIREMENTS_HAG_STALIN</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_PLOT_HAS_LUXURY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_LUXURY_QUARRY_REQUIREMENTS_HAG_STALIN</RequirementSetId>
+			<!-- バニラにある -->
+			<RequirementId>REQUIRES_PLOT_HAS_QUARRY</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<!-- 条件詳細 -->
@@ -2198,7 +2327,7 @@
 	</HistoricalAgendas>
 	<!-- 好む宗教 -->
 	<FavoredReligions>
-		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、アッティラ、ティーチはなし -->
+		<!-- チトー、スターリン、ヒトラー、ムッソリーニ、アッティラはなし -->
 		<Row LeaderType="LEADER_HAG_NAPOLEON"       ReligionType="RELIGION_CATHOLICISM"/>
 		<Row LeaderType="LEADER_HAG_TIMUR"          ReligionType="RELIGION_ISLAM"/>
 		<Row LeaderType="LEADER_HAG_MULAY_ISMAIL"   ReligionType="RELIGION_ISLAM"/>

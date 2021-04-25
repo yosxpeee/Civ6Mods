@@ -122,6 +122,7 @@
 		<Row CivUniqueUnitType="UNIT_HAG_HUNS_TARKHAN"                  ReplacesUnitType="UNIT_HORSEMAN"/>
 		<Row CivUniqueUnitType="UNIT_HAG_MADAGASCAR_HOVA"               ReplacesUnitType="UNIT_SWORDSMAN"/>
 		<Row CivUniqueUnitType="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		<Row CivUniqueUnitType="UNIT_HAG_ITALY_CARABINIERI"             ReplacesUnitType="UNIT_LINE_INFANTRY"/>
 	</UnitReplaces>
 	<!-- 主設定 -->
 	<Units>
@@ -157,7 +158,7 @@
 			 TraitType="TRAIT_UNIT_HAG_JAPAN_ZERO"/>
 		<!-- T-34 -->
 		<Row UnitType="UNIT_HAG_RUSSIAN_T34" Cost="480" Maintenance="6" BaseMoves="4" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="85" StrategicResource="RESOURCE_OIL" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="90" StrategicResource="RESOURCE_OIL" 
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_RUSSIAN_T34_NAME" Description="LOC_UNIT_HAG_RUSSIAN_T34_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_COMBUSTION"
@@ -171,8 +172,8 @@
 			 Stackable="TRUE" PrereqDistrict="DISTRICT_AERODROME" CanTargetAir="TRUE" WMDCapable="true"
 			 TraitType="TRAIT_UNIT_HAG_GERMANY_JU87"/>
 		<!-- カラビニエリ -->
-		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI" Cost="340" Maintenance="5" BaseMoves="2" BaseSightRange="2" 
-			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="65" StrategicResource="RESOURCE_NITER"
+		<Row UnitType="UNIT_HAG_ITALY_CARABINIERI" Cost="360" Maintenance="5" BaseMoves="2" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70" StrategicResource="RESOURCE_NITER"
 			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
 			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HAG_ITALY_CARABINIERI_NAME" Description="LOC_UNIT_HAG_ITALY_CARABINIERI_DESCRIPTION" 
 			 PurchaseYield="YIELD_GOLD" PrereqTech="TECH_MILITARY_SCIENCE" 
@@ -233,18 +234,18 @@
 		<Row Unit="UNIT_HAG_RUSSIAN_T34"                   UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<!-- Ju87：ジェット爆撃機 -->
 		<Row Unit="UNIT_HAG_GERMANY_JU87"                  UpgradeUnit="UNIT_JET_BOMBER"/>
-		<!-- カラビニエリ：機械化歩兵 -->
-		<Row Unit="UNIT_HAG_ITALY_CARABINIERI"             UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
+		<!-- カラビニエリ：歩兵 -->
+		<Row Unit="UNIT_HAG_ITALY_CARABINIERI"             UpgradeUnit="UNIT_INFANTRY"/>
 		<!-- ソードフィッシュ：爆撃機 -->
 		<Row Unit="UNIT_HAG_ENGLAND_SWORDFISH"             UpgradeUnit="UNIT_BOMBER"/>
 		<!-- イェーガー：特殊部隊 -->
 		<Row Unit="UNIT_HAG_AMERICAN_JAEGER"               UpgradeUnit="UNIT_SPEC_OPS"/>
 		<!-- タルカン：コーサー -->
 		<Row Unit="UNIT_HAG_HUNS_TARKHAN"                  UpgradeUnit="UNIT_COURSER"/>
-		<!-- ホヴァ：マスケット兵 -->
-		<Row Unit="UNIT_HAG_MADAGASCAR_HOVA"               UpgradeUnit="UNIT_MUSKETMAN"/>
-		<!-- バッカニア：兵士 -->
-		<Row Unit="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" UpgradeUnit="UNIT_INFANTRY"/>
+		<!-- ホヴァ：メンアットアームズ -->
+		<Row Unit="UNIT_HAG_MADAGASCAR_HOVA"               UpgradeUnit="UNIT_MAN_AT_ARMS"/>
+		<!-- バッカニア：戦列歩兵 -->
+		<Row Unit="UNIT_HAG_REPUBLIC_OF_PIRATES_BUCCANEER" UpgradeUnit="UNIT_LINE_INFANTRY"/>
 	</UnitUpgrades>
 	<!-- 戦略資源 -->
 	<Units_XP2>

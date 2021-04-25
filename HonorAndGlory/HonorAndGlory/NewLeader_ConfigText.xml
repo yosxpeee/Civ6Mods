@@ -47,7 +47,7 @@
 			<Text>African gateway</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_MOROCCO_DESCRIPTION" Language="en_US">
-			<Text>[ICON_TradeRoute] Trade Routes to foreign cities provide +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to you. [ICON_TradeRoute] Trade Routes to foreign cities or from foreign cities provide +1 [ICON_GOLD] Gold to you.[ICON_TradeRoute] Trade Routes from foreign cities provide +2 [ICON_FOOD] Food to you. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Gold] Gold for them.</Text>
+			<Text>[ICON_TradeRoute] Trade Routes to foreign cities provide +3 [ICON_Gold] Gold and +1 [ICON_Culture] Culture to you. Other civilizations' [ICON_TradeRoute] Trade Routes to Egypt provide +2 [ICON_Gold] Gold for them and +2 [ICON_Food] Food for Morocco. +2 [ICON_Food] Food from Oasis. +2 [ICON_Housing] if city has oasis.</Text>
 		</Row>
 		<!-- 文明(イタリア) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_ITALY_NAME" Language="en_US">
@@ -95,7 +95,7 @@
 			<Text>The lineage of Mundzuk</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_HAG_HUNS_DESCRIPTION" Language="en_US">
-			<Text>Get a Settler when conqure the Barbarian Camp. Begin the game with the Animal Husbandry technologies unlocked. Can't hire a Great Merchant. Borrows city names excluding the capital from the city names of other civilizations.</Text>
+			<Text>Get a Settler when conqure the Barbarian Camp. Begin the game with the Animal Husbandry technologies unlocked. Can't hire a Great Merchant, but +2 [ICON_Amenities] from Commercial Hub. Borrows city names excluding the capital from the city names of other civilizations.</Text>
 		</Row>
 		<!-- 文明(マダガスカル) -->
 		<Row Tag="LOC_CIVILIZATION_HAG_MADAGASCAR_NAME" Language="en_US">
@@ -168,7 +168,7 @@
 			<Text>Order, Rule and Iron Will</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MULAY_ISMAIL_DESCRIPTION" Language="en_US">
-			<Text>Gain +3 [ICON_Strength] Combat Strength bonus when defending to all units. Cities with a garrisoned unit get +3 Loyalty per turn, or +5 if it is a Corps or Army.</Text>
+			<Text>Gain +3 [ICON_Strength] Combat Strength bonus when defending to all units. Cities with a garrisoned unit get +3 Loyalty per turn, or +5 if it is a Corps or Army. +25% [ICON_Production] Production toward light cavarly units and siege units.</Text>
 		</Row>
 		<!-- 指導者(東條英機) -->
 		<Row Tag="LOC_LEADER_HAG_HIDEKI_TOJO_NAME" Language="en_US">
@@ -188,7 +188,7 @@
 			<Text>a Piedosa</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_MARIA_I_DESCRIPTION" Language="en_US">
-			<Text>Can move their original [ICON_Capital] Capital to any city with a Navigation School they founded by completing a unique project in that city. International [ICON_TradeRoute] Trade Routes gain +1 [ICON_GOLD] Gold for every Coast tile in the origin city. Open Borders with all city-states.</Text>
+			<Text>Can move their original [ICON_Capital] Capital to any city with a Navigation School they founded by completing a unique project in that city. International [ICON_TradeRoute] Trade Routes gain +1 [ICON_GOLD] Gold for every Coast tile in the origin city. Open Borders with all city-states. +15% [ICON_Gold] Gold in cities not on your original [ICON_Capital] Capital's continent.</Text>
 		</Row>
 		<!-- 指導者(スターリン) -->
 		<Row Tag="LOC_LEADER_HAG_STALIN_NAME" Language="en_US">
@@ -198,7 +198,7 @@
 			<Text>Stakhanovite movement</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_HAG_STALIN_DESCRIPTION" Language="en_US">
-			<Text>All improved strategic resources yield 1 additional resource per turn. Builds Encampment, Campus and Industrial Zone Square districts in half the time.</Text>
+			<Text>All improved strategic resources yield 1 additional resource per turn. Builds Encampment, Campus and Industrial Zone Square districts in half the time. Mines over luxury resources and Quarry over luxury resources provide +1 [ICON_Science] Science.</Text>
 		</Row>
 		<!-- 指導者(アドルフ・ヒトラー) -->
 		<Row Tag="LOC_LEADER_HAG_ADOLF_HITLER_NAME" Language="en_US">
@@ -354,7 +354,7 @@
 			<Text>Carabinieri</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAG_ITALY_CARABINIERI_DESCRIPTION" Language="en_US">
-			<Text>Italy unique Industrial era unit. +10 [ICON_Strength] Combat Strength when fighting on your capital's continent. [ICON_GreatGeneral] Great General points for killing units.</Text>
+			<Text>Italy unique Industrial era unit that replaces the Line Infantry. +10 [ICON_Strength] Combat Strength when fighting on your capital's continent. [ICON_GreatGeneral] Great General points for killing units.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_UNIT_HAG_ITALY_CARABINIERI_NAME" Language="en_US">
 			<Text>Italy unique unit: Carabinieri</Text>
@@ -531,7 +531,7 @@
 			<Text>Casbah</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Casbah, unique to Kingdom of Morocco.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, +1 [ICON_Food] Food, +0.5 [ICON_Housing] Housing. Receive +1 [ICON_Gold] Gold if adjacent to other Casbah. Can be built on Desert, Desert Hills and Desert Floodplain.</Text>
+			<Text>Unlocks the Builder ability to construct a Casbah, unique to Kingdom of Morocco.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Gold] Gold, +1 [ICON_Food] Food, +0.5 [ICON_Housing] Housing. Receive +1 [ICON_Gold] Gold if adjacent to other Casbah. Can be built on Desert, Desert Hills and Desert Floodplain. Occupying unit receives +4 [ICON_Strength] Defense Strength, and automatically gains 2 turns of fortification.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME" Language="en_US">
 			<Text>Kingdom of Morocco unique improvement: Casbah</Text>
@@ -557,7 +557,7 @@
 			<Text>Yurt</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_HAG_HUNS_YURT_DESCRIPTION" Language="en_US">
-			<Text>Unlocks the Builder ability to construct a Yurt, unique to Huns.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Housing] Housing. +1 [ICON_Food] Food for each adjacent Camp or Pasture. +1 [ICON_Culture] Culture for each adjacent Plantation. Can only be built on flat Grass or flat Plains. Cannot be built adjacent to another Yurt. Additional [ICON_Production] Production and [ICON_Tourism] Tourism from Yurt's [ICON_Food] Food as you advance through the Civic Tree and Technology Tree.</Text>
+			<Text>Unlocks the Builder ability to construct a Yurt, unique to Huns.[NEWLINE][NEWLINE]+1 [ICON_Production] Production, +1 [ICON_Housing] Housing. +1 [ICON_Food] Food for each adjacent Camp or Pasture. +1 [ICON_Culture] Culture for each adjacent Plantation. +2 [ICON_Gold] Gold for each adjacent Commercial Hub. Can only be built on flat Grass or flat Plains. Cannot be built adjacent to another Yurt. Additional [ICON_Production] Production and [ICON_Tourism] Tourism from Yurt's [ICON_Food] Food as you advance through the Civic Tree and Technology Tree.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IMPROVEMENT_HAG_HUNS_YURT_NAME" Language="en_US">
 			<Text>Huns unique improvement: Yurt</Text>

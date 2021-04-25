@@ -22,7 +22,7 @@
 			 Name="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_NAME"
 			 Description="LOC_IMPROVEMENT_HAG_MOROCCO_CASBAH_DESCRIPTION"
 			 Icon="ICON_IMPROVEMENT_HAG_MOROCCO_CASBAH"
-			 PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" Housing="1" TilesRequired="2"
+			 PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" Housing="1" TilesRequired="2" DefenseModifier="4" GrantFortification="2"
 			 PrereqTech="TECH_CASTLES" TraitType="TRAIT_IMPROVEMENT_HAG_MOROCCO_CASBAH"/>
 		<!-- ドゥオモ広場：王権神授説で解禁 -->
 		<Row ImprovementType="IMPROVEMENT_HAG_ITALY_DUOMO" 
@@ -59,6 +59,7 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"       YieldChangeId="HAG_Yurt_CampAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"       YieldChangeId="HAG_Yurt_PastureAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"       YieldChangeId="HAG_Yurt_PlantationAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT"       YieldChangeId="HAG_Yurt_CommercialHubAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" YieldChangeId="HAG_Rova_FokoAdjacency"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" YieldChangeId="HAG_Rova_CityCenterdjacency"/>
 	</Improvement_Adjacencies>
@@ -132,6 +133,7 @@
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_PRODUCTION"   YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_FOOD"         YieldChange="0"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_CULTURE"      YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_HAG_HUNS_YURT" YieldType="YIELD_GOLD"         YieldChange="0"/>
 		<!-- ルヴァ：科学力+1、文化力+1 -->
 		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" YieldType="YIELD_SCIENCE" YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_HAG_MADAGASCAR_ROVA" YieldType="YIELD_CULTURE" YieldChange="1"/>
@@ -169,10 +171,11 @@
 		<Row ID="HAG_Duomo_HolySiteAdjacency"         Description="Placeholder" YieldType="YIELD_FAITH"      YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
 		<Row ID="HAG_Duomo_IndustrialZoneAdjacency"   Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
 		<Row ID="HAG_Duomo_TheaterAdjacency"          Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
-		<!-- ユルト：キャンプ、牧草地隣接で食料+1、プランテーション隣接で文化+1 -->
+		<!-- ユルト：キャンプ、牧草地隣接で食料+1、プランテーション隣接で文化+1、商業ハブ隣接でゴールド+2 -->
 		<Row ID="HAG_Yurt_CampAdjacency"              Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CAMP"/>
 		<Row ID="HAG_Yurt_PastureAdjacency"           Description="Placeholder" YieldType="YIELD_FOOD"       YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
 		<Row ID="HAG_Yurt_PlantationAdjacency"        Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
+		<Row ID="HAG_Yurt_CommercialHubAdjacency"     Description="Placeholder" YieldType="YIELD_GOLD"       YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
 		<!-- ルヴァ：フク隣接で科学力+1、都心隣接で文化力+1 -->
 		<Row ID="HAG_Rova_FokoAdjacency"              Description="Placeholder" YieldType="YIELD_SCIENCE"    YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HAG_MADAGASCAR_FOKO"/>
 		<Row ID="HAG_Rova_CityCenterdjacency"         Description="Placeholder" YieldType="YIELD_CULTURE"    YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
