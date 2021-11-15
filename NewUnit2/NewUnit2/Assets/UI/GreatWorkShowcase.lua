@@ -22,7 +22,6 @@ local DETAILS_OFFSET_DEFAULT:number = -26;
 local DETAILS_OFFSET_WRITING:number = -90;
 local DETAILS_OFFSET_MUSIC:number = -277;
 local NUM_ARIFACT_TEXTURES:number = 25;
-local NUM_RELIC_TEXTURES:number = 24;
 local SIZE_MAX_IMAGE_HEIGHT:number = 467;
 local SIZE_BANNER_MIN:number = 506;
 local PADDING_BANNER:number = 120;
@@ -130,6 +129,7 @@ function UpdateGreatWork()
 		Controls.MusicName:SetText(Locale.ToUpper(Locale.Lookup(greatWorkInfo.Name)));
 		Controls.MusicAuthor:SetText("-" .. greatWorkCreator);
 		Controls.MusicDetails:SetHide(false);
+		Controls.CreatedBy:SetText(Locale.Lookup("LOC_GREAT_WORKS_CREATED_BY", greatWorkCreator));
 	elseif greatWorkObjectType == GREAT_WORK_WRITING_TYPE then
 		detailsOffset = DETAILS_OFFSET_WRITING;
 		Controls.GreatWorkImage:SetOffsetY(0);
@@ -153,6 +153,7 @@ function UpdateGreatWork()
 			Controls.WritingDeco:SetOffsetY(Controls.WritingName:GetSizeY() + -20);
 		end
 		Controls.WritingDetails:SetHide(false);
+		Controls.CreatedBy:SetText(Locale.Lookup("LOC_GREAT_WORKS_CREATED_BY", greatWorkCreator));
 	elseif greatWorkObjectType == GREAT_WORK_ARTIFACT_TYPE or greatWorkObjectType == GREAT_WORK_RELIC_TYPE then
 		if greatWorkObjectType == GREAT_WORK_ARTIFACT_TYPE then
 			greatWorkType = greatWorkType:gsub("GREATWORK_ARTIFACT_", "");
@@ -164,32 +165,37 @@ function UpdateGreatWork()
 		elseif greatWorkObjectType == GREAT_WORK_RELIC_TYPE then
 			greatWorkType = greatWorkType:gsub("GREATWORK_RELIC_", "");
 			local greatWorkID:number = tonumber(greatWorkType);
-			greatWorkID =  ((greatWorkID - 1) % NUM_RELIC_TEXTURES) + 1;
+			local icon:string = "ICON_GREATWORK_RELIC_" .. greatWorkID;
 			Controls.GreatWorkImage:SetOffsetY(0);
-			Controls.GreatWorkImage:SetTexture("RELIC_" .. greatWorkID);
+			Controls.GreatWorkImage:SetIcon(icon, 256);
 		end
 		Controls.GreatWorkName:SetText(Locale.ToUpper(Locale.Lookup(greatWorkInfo.Name)));
 		local nameSize:number = Controls.GreatWorkName:GetSizeX() + PADDING_BANNER;
 		local bannerSize:number = math.max(nameSize, SIZE_BANNER_MIN);
 		Controls.GreatWorkBanner:SetSizeX(bannerSize);
 		Controls.GreatWorkBanner:SetHide(false);
+		Controls.CreatedBy:SetText(Locale.Lookup("LOC_GREAT_WORKS_CREATED_BY", greatWorkCreator));
 	else
-		local greatWorkTexture:string = greatWorkType:gsub("GREATWORK_", "");
-		Controls.GreatWorkImage:SetOffsetY(-40);
-		Controls.GreatWorkImage:SetTexture(greatWorkTexture);
-		Controls.GreatWorkName:SetText(Locale.ToUpper(Locale.Lookup(greatWorkInfo.Name)));
-		local nameSize:number = Controls.GreatWorkName:GetSizeX() + PADDING_BANNER;
-		local bannerSize:number = math.max(nameSize, SIZE_BANNER_MIN);
-		Controls.GreatWorkBanner:SetSizeX(bannerSize);
-		Controls.GreatWorkBanner:SetHide(false);
+		-- Allow DLCs and mods to handle custom great work types instead of forcing standard behavior
+		if not HandleCustomGreatWorkTypes(greatWorkType, m_GreatWorkIndex) then
+			local greatWorkTexture:string = greatWorkType:gsub("GREATWORK_", "");
+			Controls.GreatWorkImage:SetOffsetY(-40);
+			Controls.GreatWorkImage:SetTexture(greatWorkTexture);
+			Controls.GreatWorkName:SetText(Locale.ToUpper(Locale.Lookup(greatWorkInfo.Name)));
+			local nameSize:number = Controls.GreatWorkName:GetSizeX() + PADDING_BANNER;
+			local bannerSize:number = math.max(nameSize, SIZE_BANNER_MIN);
+			Controls.GreatWorkBanner:SetSizeX(bannerSize);
+			Controls.GreatWorkBanner:SetHide(false);
 
-		local imageHeight:number = Controls.GreatWorkImage:GetSizeY();
-		if imageHeight > SIZE_MAX_IMAGE_HEIGHT then
-			heightAdjustment = SIZE_MAX_IMAGE_HEIGHT - imageHeight;
+			local imageHeight:number = Controls.GreatWorkImage:GetSizeY();
+			if imageHeight > SIZE_MAX_IMAGE_HEIGHT then
+				heightAdjustment = SIZE_MAX_IMAGE_HEIGHT - imageHeight;
+			end
+
+			Controls.CreatedBy:SetText(Locale.Lookup("LOC_GREAT_WORKS_CREATED_BY", greatWorkCreator));
 		end
 	end
 
-	Controls.CreatedBy:SetText(Locale.Lookup("LOC_GREAT_WORKS_CREATED_BY", greatWorkCreator));
 	Controls.CreatedDate:SetText(Locale.Lookup("LOC_GREAT_WORKS_CREATED_TIME", greatWorkTypeName, greatWorkCreationDate));
 	Controls.CreatedPlace:SetText(Locale.Lookup("LOC_GREAT_WORKS_CREATED_PLACE", greatWorkCreationBuilding, greatWorkCreationCity));
 
@@ -203,6 +209,14 @@ function UpdateGreatWork()
 	end
 
 	Controls.DetailsContainer:SetOffsetY(detailsOffset + heightAdjustment);
+end
+
+-- ===========================================================================
+--	To be overridden in DLCs and mods
+-- ===========================================================================
+function HandleCustomGreatWorkTypes( greatWorkType:string, greatWorkIndex:number )
+	-- Return false to have GreatWorkShowcase use generic behavior
+	return false;
 end
 
 -- ===========================================================================
@@ -407,4 +421,10 @@ function Initialize()
 	Controls.ViewGreatWorks:RegisterCallback(Mouse.eLClick, OnViewGreatWorks);
 	Controls.ViewGreatWorks:RegisterCallback( Mouse.eMouseEnter, function() UI.PlaySound("Main_Menu_Mouse_Over"); end);
 end
+
+-- This wildcard include will include all loaded files beginning with "GreatWorkShowcase_"
+-- This method replaces the uses of include("GreatWorkShowcase") in files that want to override 
+-- functions from this file. If you're implementing a new "GreatWorkShowcase" file DO NOT include this file.
+include("GreatWorkShowcase_", true);
+
 Initialize();
